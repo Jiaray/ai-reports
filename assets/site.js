@@ -3,6 +3,7 @@
 (function () {
   'use strict';
   var KEY = 'air-theme';
+  var THEMES = [['auto', '自動'], ['light', '淺色'], ['dark', '深色']];
   var root = document.documentElement;
 
   function readTheme() {
@@ -16,6 +17,11 @@
   function applyTheme(t) {
     if (t === 'auto') root.removeAttribute('data-theme');
     else root.setAttribute('data-theme', t);
+  }
+  // 套用並記在 localStorage；無痕模式只在本頁生效
+  function setTheme(t) {
+    applyTheme(t);
+    try { localStorage.setItem(KEY, t); } catch (e) { /* 無法儲存就只套用本頁 */ }
   }
   applyTheme(readTheme());
 
@@ -52,18 +58,16 @@
     });
     return el;
   }
-  // 三鈕配色切換（自動／淺色／深色），點哪個套哪個，記在 localStorage；無痕模式只在本頁生效
+  // 三鈕配色切換（自動／淺色／深色），點哪個套哪個（首頁報頭用；新聞頁的配色在右下角「版面」面板）
   function themeSwitch() {
-    var modes = [['auto', '自動'], ['light', '淺色'], ['dark', '深色']];
     var cur = readTheme();
     var g = h('div', { class: 'theme-switch', role: 'group', 'aria-label': '配色' });
-    var btns = modes.map(function (m) {
+    var btns = THEMES.map(function (m) {
       var b = h('button', { type: 'button', 'aria-pressed': String(m[0] === cur) }, [m[1]]);
       b.addEventListener('click', function () {
         cur = m[0];
-        applyTheme(cur);
-        try { localStorage.setItem(KEY, cur); } catch (e) { /* 無法儲存就只套用本頁 */ }
-        btns.forEach(function (x, i) { x.setAttribute('aria-pressed', String(modes[i][0] === cur)); });
+        setTheme(cur);
+        btns.forEach(function (x, i) { x.setAttribute('aria-pressed', String(THEMES[i][0] === cur)); });
       });
       g.appendChild(b);
       return b;
@@ -71,5 +75,8 @@
     return g;
   }
 
-  window.AIR = { h: h, getJSON: getJSON, fmtShort: fmtShort, themeSwitch: themeSwitch };
+  window.AIR = {
+    h: h, getJSON: getJSON, fmtShort: fmtShort, themeSwitch: themeSwitch,
+    THEMES: THEMES, getTheme: readTheme, setTheme: setTheme,
+  };
 })();
