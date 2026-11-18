@@ -3,6 +3,18 @@
  "year": 2026,
  "items": [
   {
+   "series": "international",
+   "series_title": "國際新聞日報",
+   "cadence": "daily",
+   "period": "2026-11-18",
+   "date": "2026-11-18",
+   "title": "國際新聞日報",
+   "lede": "川普抵深圳，美中俄三方峰會週四登場；美伊戰火再起，伊朗反擊海灣美軍基地；輝達營收翻倍，董事會拒黃仁勳回任；剛果伊波拉三個月倍增、逾5400人死亡。",
+   "count": 40,
+   "data": "international/2026/2026-11-18.json",
+   "generated_at": "2026-11-18T17:59:11+08:00"
+  },
+  {
    "series": "general",
    "series_title": "綜合日報",
    "cadence": "daily",

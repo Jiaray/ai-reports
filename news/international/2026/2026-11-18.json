@@ -1,0 +1,1927 @@
+{
+ "schema": 1,
+ "series": "international",
+ "series_title": "國際新聞日報",
+ "cadence": "daily",
+ "period": "2026-11-18",
+ "date": "2026-11-18",
+ "title": "國際新聞日報",
+ "brief": "DAILY INTERNATIONAL BRIEFING",
+ "issue": "NO. 2026-322",
+ "generated_at": "2026-11-18T17:59:11+08:00",
+ "lede": "川普抵深圳，美中俄三方峰會週四登場；美伊戰火再起，伊朗反擊海灣美軍基地；輝達營收翻倍，董事會拒黃仁勳回任；剛果伊波拉三個月倍增、逾5400人死亡。",
+ "src_tags": [
+  "BBC",
+  "The Guardian",
+  "Reuters",
+  "Financial Times",
+  "WSJ",
+  "CNBC",
+  "Al Jazeera",
+  "France 24／RFI",
+  "DW",
+  "Euronews",
+  "Nikkei Asia",
+  "Japan Times",
+  "SCMP",
+  "Straits Times",
+  "Rappler",
+  "The Diplomat",
+  "Dawn",
+  "Premium Times",
+  "Human Rights Watch",
+  "聯合國",
+  "GDACS"
+ ],
+ "intro": [
+  {
+   "kind": "p",
+   "html": "川普抵深圳，美中俄三方峰會週四登場；美伊戰火再起，伊朗反擊海灣美軍基地；輝達營收翻倍，董事會拒黃仁勳回任；剛果伊波拉三個月倍增、逾5400人死亡。"
+  }
+ ],
+ "sections": [
+  {
+   "name": "焦點",
+   "count": 1,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "01",
+     "title": "川普抵達深圳，美中俄首度三方峰會週四登場",
+     "title_html": "川普抵達深圳，美中俄首度三方峰會週四登場",
+     "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html",
+     "src": "Financial Times、CNBC、DW（德國政府出資）等 10 家",
+     "left": "11/18 17:11",
+     "ts": "2026-11-18T17:11:50+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "川普18日從馬尼拉飛抵深圳出席 APEC，習近平親赴機場迎接；他與習近平、普丁的首次三方會談訂於週四（19日）舉行，預料聚焦伊朗戰爭、烏克蘭戰爭與戰略穩定，但外界對具體成果期待不高。",
+     "also": [
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/asia-pacific/20261118-xi-putin-meet-ahead-of-historic-trump-trilateral-summit"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-china-apec.html"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/ae7d1b27-b892-48d6-ad47-41128a4b53a1?syn-25a6b1a6=1"
+      },
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/china/diplomacy/article/3374886/trump-arrives-apec-xi-talks-3-way-putin-summit-and-likely-kim-jong-un-meeting"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/apec-summit-what-trump-xi-and-putin-want/a-79970462?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/18/what-is-trump-hoping-to-achieve-at-apec-meeting-in-china"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.com/zhongwen/articles/cqn0dy4ppxp7o/trad"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/news/2026/11/18/japan/politics/japan-south-korea-talk/"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/politics/international-relations/apec/apec-live-shenzhen-wows-thai-australian-and-canadian-leaders"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/world/live/2026/nov/18/apec-summit-live-updates-xi-putin-trump-world-leaders-gather-in-china"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/us/diplomacy/article/3374801/shenzhen-summit-xi-trump-and-putin-was-brazils-lulas-idea-carney-claims"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：10 家（Financial Times、CNBC、DW、SCMP、France 24／RFI、Al Jazeera、BBC、Japan Times、Nikkei Asia、The Guardian）"
+     ],
+     "table": null,
+     "dive_html": "中國外交部發言人表示，三方將就攸關世界和平與戰略穩定的議題深入交流；CNBC 指北韓領導人金正恩也可能現身。這是川普今年第二度訪中（5月曾國事訪問北京），11月18至19日會期間他也將與習近平舉行雙邊會談。DW 訪問的學者多不預期美中在貿易、科技上有突破：布魯金斯學會的 Patricia Kim 認為雙方都想維持現有貿易休戰；Hinrich 基金會的 Jia Hui Tee 指出，雙方已公布各約300億美元商品的互惠降稅清單，訂出實施時程是容易拿到的成果，美方則希望中國加快採購美國農產品、增加稀土與關鍵礦產出口。法國塞吉巴黎大學教授張倫認為，川普在期中選舉共和黨大敗、伊朗戰爭受挫後籌碼減弱，更急於爭取外交成果。加拿大總理卡尼則透露，三方會談的構想來自巴西總統魯拉。"
+    }
+   ]
+  },
+  {
+   "name": "天災與事故",
+   "count": 3,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "02",
+     "title": "熱帶氣旋 AKVAN-26 影響印度，GDACS 發布橙色警報",
+     "title_html": "熱帶氣旋 AKVAN-26 影響印度，GDACS 發布橙色警報",
+     "url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351",
+     "src": "GDACS（聯合國與歐盟合作系統）",
+     "left": "11/18 16:21",
+     "ts": "2026-11-18T16:21:15+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "全球災害預警協調系統（GDACS）對熱帶氣旋 AKVAN-26 發布橙色警報，受影響國家為印度；目前為熱帶風暴等級、最大風速每小時83公里，約2800萬人暴露在熱帶風暴風力範圍，尚無人口暴露於一級（每小時120公里）以上風力。",
+     "also": [
+      {
+       "text": "GDACS",
+       "url": "http://www.gdacs.org/report.aspx?eventtype=TC&eventid=1001351"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": ""
+    },
+    {
+     "type": "item",
+     "no": "03",
+     "title": "日本10月誤發「規模9.9」地震速報，氣象廳查出兩處程式錯誤",
+     "title_html": "日本10月誤發「規模9.9」地震速報，氣象廳查出兩處程式錯誤",
+     "url": "https://www.japantimes.co.jp/news/2026/11/18/japan/jma-alert-programming-errors/",
+     "src": "Japan Times、Straits Times",
+     "left": "11/18 13:59",
+     "ts": "2026-11-18T13:59:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "日本氣象廳公布調查結果：10月16日勘察加半島附近地震後，自動計算程式的兩處錯誤使其誤判震源、把規模估為9.9，並誤發北海道與東北部分地區將有最高震度7的緊急地震速報，當時造成全國大眾運輸大亂。",
+     "also": [
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/news/2026/11/18/japan/jma-alert-programming-errors/"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/japans-false-9-9-magnitude-quake-alert-in-october-caused-by-programming-issues"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（Japan Times、Straits Times）"
+     ],
+     "table": null,
+     "dive_html": "第一處錯誤是2020年鳥島地震誤報後加入的修正——計算規模時排除距推估震源700公里以上的觀測點——在2022年系統更新時遺失；這次地震發生在速報涵蓋範圍（北緯20至50度、東經120至154度）之外，系統因而算出9.9級，還把震源誤判在千島群島北部。第二處是2023年要求「計算規模」與「預測震度」使用同一震源的修正，沒有完整寫進程式。氣象廳官員坦承「沒有充分檢查程式」，兩處缺陷都已修正。"
+    },
+    {
+     "type": "item",
+     "no": "04",
+     "title": "俄羅斯軍用運輸機墜毀西伯利亞，機上19人全數罹難",
+     "title_html": "俄羅斯軍用運輸機墜毀西伯利亞，機上19人全數罹難",
+     "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo",
+     "src": "BBC",
+     "left": "11/18 05:06",
+     "ts": "2026-11-18T05:06:11+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "俄國國防部表示，一架 An-12 軍用運輸機17日在克麥羅沃州（Kemerovo）無人區執行例行航班時墜毀，機上19人全數罹難，初判為技術故障，航空當局已展開調查。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cw8085rykkmgo"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "州長 Ilya Seredyuk 表示，緊急應變小組迅速撲滅墜機現場火勢，地點靠近 Yagunovo 村，警方已封鎖現場，直升機與醫療資源待命。社群媒體流傳的監視器畫面經 BBC 與路透查證，可見發光物體自空中墜落後爆炸。目前不清楚機上是否載有貨物；An-12 是俄軍常用來運送武器、人員及執行搜救的機型。"
+    }
+   ]
+  },
+  {
+   "name": "科學、環境與健康",
+   "count": 5,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "05",
+     "title": "COP31 談判剩三天仍陷分歧，電氣化承諾與資料中心用電成焦點",
+     "title_html": "COP31 談判剩三天仍陷分歧，電氣化承諾與資料中心用電成焦點",
+     "url": "https://www.theguardian.com/environment/live/2026/nov/18/cop31-climate-crisis-talks-turkey-latest-news-updates",
+     "src": "The Guardian、聯合國（聯合國官方）、Premium Times",
+     "left": "11/18 16:47",
+     "ts": "2026-11-18T16:47:04+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "在土耳其安塔利亞舉行的聯合國氣候大會 COP31 只剩三天正式議程，協議草案暴露各國願意承擔多少減緩暖化責任的深刻分歧；地主國主推的「2035年電氣化達35%」承諾，仍卡在是否須綁定再生能源。",
+     "also": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/environment/live/2026/nov/18/cop31-climate-crisis-talks-turkey-latest-news-updates"
+      },
+      {
+       "text": "聯合國",
+       "url": "https://news.un.org/en/story/2026/11/1168824"
+      },
+      {
+       "text": "Premium Times",
+       "url": "https://www.premiumtimesng.com/business/business-news/926109-cop31-use-renewables-and-cut-emissions-un-climate-chief-tells-ai-firms.html"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（The Guardian、聯合國、Premium Times）"
+     ],
+     "table": null,
+     "dive_html": "與會者也擔心耗電的資料中心擴張會抵銷進展。土耳其總統艾爾多安承諾2030年前把資料中心容量提高到至少1GW，能源部長 Alparslan Bayraktar 11月5日公布2040年前5000億美元的能源投資計畫，其中3300億美元用於電氣化，並預估資料中心將新增55TWh用電需求；伊斯坦堡政策中心學者 Ümit Şahin 警告，資料中心擴張可能同時拖累電氣化與再生能源轉型。聯合國氣候事務負責人史帝爾（Simon Stiell）也呼籲 AI 業者使用再生能源、減少排放，指出部分資料中心開發商自建燃氣電廠。"
+    },
+    {
+     "type": "item",
+     "no": "06",
+     "title": "世衛示警抗藥性威脅現代醫學，歐洲恐退回「前抗生素時代」",
+     "title_html": "世衛示警抗藥性威脅現代醫學，歐洲恐退回「前抗生素時代」",
+     "url": "https://www.france24.com/en/tv-shows/a-propos/20261117-who-sounds-the-alarm-on-antimicrobial-resistance-threat",
+     "src": "France 24／RFI（法國政府出資）、Euronews",
+     "left": "11/18 06:08",
+     "ts": "2026-11-18T06:08:28+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "世界衛生組織高層表示，各國雖已擴大對抗抗微生物藥物抗藥性（AMR），但預防、診斷與合理使用抗生素的進展仍太慢，趕不上全球目標；Euronews 也報導歐洲抗生素抗藥性持續升高，部分國家增幅更大、可用療法更少。",
+     "also": [
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/tv-shows/a-propos/20261117-who-sounds-the-alarm-on-antimicrobial-resistance-threat"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/who-sounds-the-alarm-on-antimicrobial-resistance-threat"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/18/europe-risks-returning-to-pre-antibiotic-era-amid-growing-threat-of-drug-resistant-superbu"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（France 24／RFI、Euronews）"
+     ],
+     "table": null,
+     "dive_html": ""
+    },
+    {
+     "type": "item",
+     "no": "07",
+     "title": "巴西亞馬遜孤立部落阿瓦族約20人現身，外界憂領地遭入侵",
+     "title_html": "巴西亞馬遜孤立部落阿瓦族約20人現身，外界憂領地遭入侵",
+     "url": "https://www.theguardian.com/world/2026/nov/17/brazil-amazon-isolated-indigenous-people",
+     "src": "Reuters、The Guardian、Al Jazeera（卡達政府出資）",
+     "left": "11/18 05:40",
+     "ts": "2026-11-18T05:40:56+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "非政府組織 Survival International 表示，約20名自願與世隔絕的阿瓦族（Awá）人16日走進馬拉尼昂州 Arariboia 原住民領地內的村落，與政府人員接觸，並帶走村民給的山藥，凸顯盜伐者、盜獵者與牧場主對其領地的入侵加劇。",
+     "also": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/world/2026/nov/17/brazil-amazon-isolated-indigenous-people"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/rare-video-of-brazilian-amazon-tribe"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/18/rare-images-of-indigenous-group-in-amazon-highlight-threats-advocates-say"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPSl84Wk9YMEZTQ2NTbWVoVFpxRVRSdEtUOEhCUThneHh5NG1sUGIweVMzNGNjaWM3SWVycXhWOVJZRmI4ek5fWXRMNGdfNkJiUGdXXzZtZXRtZzlUU3JlYW03S3pRSEZhcG9XNEJ6dXZ0cmR0RlhEeExpZVFram5adVdYRnNsclZUd1dBcHFQZnVQUnZwWkM1Ulk0cXc3bE5aQkpKOC1uVVpTczI3ekpsdUtFZw?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Reuters、The Guardian、Al Jazeera）"
+     ],
+     "table": null,
+     "dive_html": "代表馬拉尼昂州原住民的組織 Coapima 指出，部分兒童與長者有嚴重消瘦跡象，且這類族群對外界疾病幾乎沒有免疫力，非計畫接觸風險高；巴西原住民事務機構 Funai 表示正密切監測其健康狀況。Survival International 主任 Caroline Pearce 說，阿瓦族被逼進「四周遭破壞、越來越小的雨林孤島」。據該組織統計，全球約有196個選擇與世隔絕的族群，分布於10國，逾九成在亞馬遜雨林。"
+    },
+    {
+     "type": "item",
+     "no": "08",
+     "title": "美國失去麻疹消除地位，墨西哥、玻利維亞同遭取消",
+     "title_html": "美國失去麻疹消除地位，墨西哥、玻利維亞同遭取消",
+     "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo",
+     "src": "BBC、CNBC、DW（德國政府出資）等 6 家",
+     "left": "11/18 05:04",
+     "ts": "2026-11-18T05:04:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "泛美衛生組織（PAHO）認定同一株麻疹病毒已在美國連續傳播超過12個月，取消美國維持26年的麻疹消除地位，墨西哥與玻利維亞也同遭取消；美國今年已有約5400例、10人死亡，為1990年代以來最多。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c977p71jx0xxo"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.com/zhongwen/articles/c5y4jmvxr9vyo/trad"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/americas/20261117-us-mexico-and-bolivia-lose-measles-free-status-as-deaths-mount"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/us-and-mexico-lose-measles-free-status/a-79973966?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2045388/a-ghost-from-the-past-us-doctors-lament-measles-resurgence"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/17/us-measles-elimination-status.html"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/news/2026/11/18/world/science-health/us-doctors-measles-resurgence/"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：6 家（BBC、CNBC、DW、France 24／RFI、Japan Times、Dawn）"
+     ],
+     "table": null,
+     "dive_html": "PAHO 主任 Jarbas Barbosa 稱這些數字是「對本區域的嚴重警訊」，並把疫情回升歸因於持續存在的疫苗接種缺口；加拿大去年已失去消除地位，今年在阻斷傳播上有進展。PAHO 免疫主管 Daniel Salas 表示，失去地位的國家須提交改善接種率的矯正計畫。美國疾病管制暨預防中心（CDC）稱將擴大疫苗可近性、致力恢復消除地位。衛生部長小羅伯特·甘迺迪過去屢次質疑 MMR 疫苗的安全性，他則主張病例上升始於他上任前，鄰國也同樣增加。"
+    },
+    {
+     "type": "item",
+     "no": "09",
+     "title": "剛果民主共和國伊波拉疫情三個月倍增，病例逾1.1萬、5400人死亡",
+     "title_html": "剛果民主共和國伊波拉疫情三個月倍增，病例逾1.1萬、5400人死亡",
+     "url": "https://news.un.org/en/story/2026/11/1168827",
+     "src": "聯合國（聯合國官方）",
+     "left": "11/17",
+     "ts": "2026-11-17T00:00:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "世界衛生組織秘書長譚德塞17日表示，剛果民主共和國的本迪布焦（Bundibugyo）病毒伊波拉疫情三個月內增加一倍以上，8個省、67個衛生區累計逾1.1萬例、5400人死亡，每週仍新增400至500例。",
+     "also": [
+      {
+       "text": "聯合國",
+       "url": "https://news.un.org/en/story/2026/11/1168827"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "譚德塞在世衛第三次緊急委員會會議上指出，兒童佔確診病例逾四分之一、死亡的三分之一，五歲以下確診兒童每10人有7人死亡；肯亞已通報9例與境外移入相關的病例（含2人死亡），奈及利亞也有1例境外移入。他批評部分國家實施全面旅行限制，妨礙防疫，也讓各國不願及早通報。進展方面，早期疫情中心的快速傳播多已遏止，可檢測的實驗室從2間增至20多間，兩款專為本迪布焦病毒開發的疫苗將在數週內加入進行中的疫苗試驗；但三分之二的確診死亡發生在治療中心以外，顯示感染者太晚被發現。"
+    }
+   ]
+  },
+  {
+   "name": "科技與 AI",
+   "count": 6,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "10",
+     "title": "新創以 AI 找出 Java 重大記憶體漏洞，美韓促用戶緊急修補",
+     "title_html": "新創以 AI 找出 Java 重大記憶體漏洞，美韓促用戶緊急修補",
+     "url": "https://www.bbc.co.uk/news/articles/cke89jevqm1vo",
+     "src": "Reuters、BBC",
+     "left": "11/18 16:47",
+     "ts": "2026-11-18T16:47:06+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "曾揪出 PHP 漏洞的資安新創 Calif 借助 AI，在 Java 的記憶體功能中發現可讓攻擊者遠端執行指令的重大漏洞「Java4Shell」；甲骨文未證實漏洞，但已於17日發布「關鍵修補更新」，美國與南韓也呼籲用戶緊急修補。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cke89jevqm1vo"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxQRE5uQWVHVHVQV19VTmJrT29QT1lKV0xQQzhUZWp6Wk5aSWZCV3ZKbHNKZ3NBMmlhYzNsT1J6V1AxQjBxR2QzWWk2ODlfaTBEU1JCLXFVWE1adHFQU0M2Rk1fZXhYYzQ5bmczU1lyWHc5WjNFVi1SLXF0NkJSaWlMQUNGdmZfX1ZETWtxZ05UUER6VVpxRDZBaUkzUTZMSGRsWVRacEJkSTUxYkRyeVc2dGJvWUpSNVNPbGc?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（Reuters、BBC）"
+     ],
+     "table": null,
+     "dive_html": "Calif 測試中扮演攻擊者的是 OpenAI 新推出、尚未公開的 GPT-6 Cyber 模型。Java 自1995年問世，蘋果、亞馬遜與許多銀行、醫院、政府都在使用，Calif 稱它是「現代經濟的心臟」。AI 學者 Toby Walsh 指出，Java 本應透過替使用者管理記憶體提升安全，因此這是「極不可能出現且嚴重的漏洞」；專家擔心若不修補，駭客也可能找到同一漏洞。目前不清楚是否已有平台受害，NSA 也未說明其斷線是否與此有關。"
+    },
+    {
+     "type": "item",
+     "no": "11",
+     "title": "加州禁令後，Waymo 暫停全美高速公路無人計程車服務",
+     "title_html": "加州禁令後，Waymo 暫停全美高速公路無人計程車服務",
+     "url": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo",
+     "src": "Reuters、BBC、Al Jazeera（卡達政府出資）",
+     "left": "11/18 11:07",
+     "ts": "2026-11-18T11:07:22+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "加州車輛管理局以「對公共安全的立即危害」為由，自11月11日起禁止 Waymo 無人車行駛州內高速公路，Waymo 隨即宣布暫停全美所有營運市場的高速公路載客，市區街道服務照常。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/18/waymo-suspends-driverless-freeway-rides-across-us-after-california-ban"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQTkw0bE5kQUlYTVp4amxvbkwtbnc3ZmZTc0FUaWtiUmtmbkF6SldmOXpGOUt0T3BHRk0zOVN3QXpLQ0d3UDRwakVSblEwT3h1NHV5ekdyVHhCMDJBOGtsZEdaZDJzUGlYTlMxRGxXWjZmRDU5dnh1Y1NyY0duUlFmNEF5YjVxQV85aVBhTUw3UGptQ1hBSFJQSXpVRkg4VXd4VEdlak9MTDdjM1FOTVdzaHB4djl1Y21VSGtLU1hLcS1OTTdl?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Reuters、BBC、Al Jazeera）"
+     ],
+     "table": null,
+     "dive_html": "禁令起因是本月多輛 Waymo 無人車駛入舊金山以南101號公路的施工區（未傳出傷亡或碰撞），另有影片顯示一輛 Waymo 試圖超越刻意放慢車流的警車；禁令將持續到 Waymo 證明已有效改正為止。Waymo 目前在美國15個城市營運，只有舊金山、洛杉磯、邁阿密等少數地點提供高速公路行程；公司網站資料稱其重傷事故比人類駕駛少95%。今年5月 Waymo 才因可能駛入淹水道路的軟體問題召回數千輛車。"
+    },
+    {
+     "type": "item",
+     "no": "12",
+     "title": "美國四天四起大當機：從微軟、FAA 到蘋果與 NSA，官方否認遭網攻",
+     "title_html": "美國四天四起大當機：從微軟、FAA 到蘋果與 NSA，官方否認遭網攻",
+     "url": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html",
+     "src": "Reuters、CNBC、BBC 等 7 家",
+     "left": "11/18 06:03",
+     "ts": "2026-11-18T06:03:57+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美國連續四個工作天出現大規模系統故障，從微軟 Outlook、聯邦航空總署（FAA）全國停飛令、摩根大通交易異常，到蘋果服務與國家安全局（NSA）內部通訊中斷；國務卿盧比歐與國家情報總監 Jay Clayton 都表示沒有證據顯示遭網路攻擊或彼此相關。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/rubio-rules-out-cyberattacks-or-links-between-tech-outages"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/technology/2026/nov/17/gmail-apple-outage-major-disruption"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/18/apple-outage-hits-app-store-becoming-the-latest-casualty-of-major-cyber-breakdowns"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2045364/tech-outage-wave-reaches-us-government-trump-says-all-is-fine"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/17/apple-microsoft-faa-jpmorgan-outages.html"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPRzNnZjFHdFlPc2lxel9KUjJONGxFTWJXMUhaOFZtX25VTmwtbk8yV1VFU21XUHEzbEVvckl3TEc5bzAydVhVU2hESTZIUWY4a3A5d25BSzV1akJkZ0I5cmk0ZFRycDlOWHB1MElWaE5weno4ZWNSd0pVV1Q2MjdqRUZhTUNzcUZnc0pDVUdySlVNNG1sa2Q5eUU1eTRmQjM2VEVMeDB0TjlCS1RFLWsxN0l1LTk?oc=5"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/videos/cx1l0vm87yl9o"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2045368/apple-works-to-restore-services-after-outage-caused-by-internal-update"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/17/faa-ground-stop-routers.html"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：7 家（Reuters、CNBC、BBC、Al Jazeera、The Guardian、Euronews、Dawn）"
+     ],
+     "table": null,
+     "dive_html": "NSA 將內部通訊中斷歸因於「例行維護」，蘋果則稱內部更新導致 Apple Pay、iCloud 等服務中斷，Google 的 Gmail 也一度受影響；FAA 在罕見的全國停飛後暫停安裝新路由器，聯合航空也曾短暫延誤。川普稱一切「沒問題」，瑞穗證券則指出 Costco 因民眾囤貨需求上升。SentinelOne 研究主管 Tom Hegel 形容這是科技「還不夠成熟的青春期」；資安研究者也提醒，AI 正加速漏洞發現，企業的修補壓力隨之升高。"
+    },
+    {
+     "type": "item",
+     "no": "13",
+     "title": "黃仁勳12月1日赴國會作證，美議員追查「潛在國安破口」",
+     "title_html": "黃仁勳12月1日赴國會作證，美議員追查「潛在國安破口」",
+     "url": "https://www.theguardian.com/technology/2026/nov/17/jensen-huang-testify-congress-nvidia-affair-spy",
+     "src": "Financial Times、The Guardian、BBC 等 7 家",
+     "left": "11/18 01:58",
+     "ts": "2026-11-18T01:58:05+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "因與疑似中國間諜發生婚外情而辭去輝達（Nvidia）執行長的黃仁勳，同意12月1日到眾議院外交、中共問題特別委員會與情報委員會作證，輝達法務長 Tim Teter 隔天接受閉門訪談；輝達也成立董事會層級的國安與出口管制委員會。",
+     "also": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/technology/2026/nov/17/jensen-huang-testify-congress-nvidia-affair-spy"
+      },
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/us/economy-trade-business/article/3374798/jensen-huang-agrees-face-congress-over-nvidia-scandal"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/nvidia-forms-national-security-committee-after-huang-affair/a-79970447?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cmn504nq5033o"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/65ff066f-a81c-4d24-95da-73c2d7b83a27?syn-25a6b1a6=1"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/business/2026/11/18/tech/spies-chips-alice-huang/"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c5vg23g92rj4o"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/16/trump-nvidia-stock-trades-jensen-huang.html"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：7 家（Financial Times、The Guardian、BBC、DW、SCMP、Japan Times、CNBC）"
+     ],
+     "table": null,
+     "dive_html": "三位委員會主席 Brian Mast、John Moolenaar、Rick Crawford 聲明要釐清黃仁勳與輝達在讓「危險的中國行為者」取得最先進晶片中的角色，先前並曾致函警告不配合將發傳票。黃仁勳因被指與 Alice Huang（又名 Huang Le）及兩名員工有婚外關係而下台；美國情報報告稱 Alice Huang 與中國國家安全部有關，但未經證實。她曾任新加坡雲端業者 Megaspeed 的執行董事，該公司購入近50億美元 AI 晶片，《衛報》稱其經手約120億美元違反美國出口管制的晶片銷售；美國商務部2024年起調查、司法部2025年接手，馬來西亞也在查是否轉運，Megaspeed 則否認走私。FT 報導輝達董事會已就黃仁勳女兒與女婿涉入 Megaspeed 往來展開調查；CNBC 揭露川普帳戶在黃仁勳取得白宮管道期間交易最多9750萬美元輝達股票，並在獲報間諜疑雲五天後賣出最多100萬美元。北京外交部斥間諜說法是「抹黑中國」。"
+    },
+    {
+     "type": "item",
+     "no": "14",
+     "title": "Anthropic 今日 IPO 定價，傳將高於每股70至78美元區間",
+     "title_html": "Anthropic 今日 IPO 定價，傳將高於每股70至78美元區間",
+     "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html",
+     "src": "Financial Times、Reuters、CNBC 等 5 家",
+     "left": "11/17 22:34",
+     "ts": "2026-11-17T22:34:48+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "Claude 開發商 Anthropic 預定週三（18日）為 IPO 定價、週四以代號「ANT」在那斯達克掛牌；CNBC 引述多名消息人士稱，定價可能高於原訂的每股70至78美元區間。",
+     "also": [
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/18/anthropics-ipo-price-is-due-today-what-should-investors-know"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/17/anthropic-ipo-price.html"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/a3430f0d-0080-4970-8eec-2c14c8438b3d?syn-25a6b1a6=1"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/softbank-s-son-calls-missing-anthropic-investment-one-of-his-mistakes"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/business/technology/tech-asia/anthropic-s-ipo-fireworks-may-light-fuse-for-asia-s-ai-startups"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFB6allzaTc1SU8zUmVIeXRZRkU2dE9reVo1MXBLSllnX0lsb1FmemdwR2RnNzZvQ0tqSzR6cTgzVHI2bGlYWWxxLTJWY3V4OXBrczR5OXF5ZkdNQnBfak1tYUs1NlVOQVVSLTdacXdnaEt0Y2VHVmM4NEN2WQ?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：5 家（Financial Times、Reuters、CNBC、Euronews、Nikkei Asia）"
+     ],
+     "table": null,
+     "dive_html": "公開說明書顯示，Anthropic 截至9月30日的前九個月營收332.4億美元、年增約1200%，主要受 AI 程式工具 Claude Code 帶動；同期淨損1040億美元，大部分來自可轉換票據與衍生負債的公允價值變動，2025年同期虧損251億美元，說明書列出逾90頁風險因素。若如期上市，將是 SpaceX 以創紀錄的857億美元募資上市約五個月後的又一檔大型 IPO，但公開市場對 AI 題材日益懷疑。FT 指一群低調的創投可望獲利1000億美元；軟銀孫正義則稱錯過投資 Anthropic 是他的「失誤」之一。"
+    },
+    {
+     "type": "item",
+     "no": "15",
+     "title": "美國新規封堵中企在東南亞租用 AI 算力，北京斥「經濟脅迫」",
+     "title_html": "美國新規封堵中企在東南亞租用 AI 算力，北京斥「經濟脅迫」",
+     "url": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo",
+     "src": "BBC、Straits Times、CNBC",
+     "left": "11/17 22:25",
+     "ts": "2026-11-17T22:25:45+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美國16日公布臨時規定，加強審查新加坡、馬來西亞、泰國、印尼與巴西的資料中心業者，這些業者向輝達等美國晶片商購買先進晶片須取得美國政府許可，以防晶片或其算力流向中國企業；中國外交部稱這是「經濟脅迫」，將採取必要措施維護權益。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cwq6e2qgvmlgo"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.com/zhongwen/articles/cmpdwn010nyvo/trad"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/china-warns-us-of-retaliation-over-new-ai-chip-restrictions"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/spore-can-facilitate-us-checks-on-ai-chip-use-wont-allow-circumvention-of-export-controls-pm-wong"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/17/nvidia-china-cloud-ai-chip-access.html"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（BBC、Straits Times、CNBC）"
+     ],
+     "table": null,
+     "dive_html": "美國智庫 Institute for Progress 估計，2027年中國至少30%的先進 AI 算力將來自海外租用或走私。美國商務部工業安全局（BIS）稱這五國有「高於正常的轉運風險」，新規旨在防止企業透過第三國資料中心的遠端運算規避管制；被控走私晶片、身為東南亞最大輝達晶片買家的 Megaspeed 否認指控。新加坡總理黃循財表示，新加坡可協助美方查核 AI 晶片用途，不容企業借道規避出口管制；CNBC 引述消息人士說，輝達已警告買家涉及中國 AI 存取的法律風險。"
+    }
+   ]
+  },
+  {
+   "name": "經濟與財經",
+   "count": 4,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "16",
+     "title": "川普訪馬尼拉宣布「史上最大」美菲貿易協議，四方會談同意關鍵礦產合作",
+     "title_html": "川普訪馬尼拉宣布「史上最大」美菲貿易協議，四方會談同意關鍵礦產合作",
+     "url": "https://www.rappler.com/philippines/marcos-trump-bilateral-meeting-trade-deal/",
+     "src": "Reuters、Straits Times、Nikkei Asia 等 7 家",
+     "left": "11/18 16:45",
+     "ts": "2026-11-18T16:45:36+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "川普18日在馬尼拉與小馬可仕會談後宣布達成「史上最大」的美菲貿易協議，但未透露細節，菲律賓總統府只說雙方就經濟合作領域達成共識、未提貿易協議；川普也表示將擴大對菲防務合作、探討民用核能合作。前一天他在馬尼拉與日、印、澳領袖舉行四方會談，稱四國同意關鍵礦產協議。",
+     "also": [
+      {
+       "text": "Rappler",
+       "url": "https://www.rappler.com/philippines/marcos-trump-bilateral-meeting-trade-deal/"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/se-asia/trump-says-us-has-concluded-very-big-trade-deal-with-philippines"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNMS04Tjk4eFJwZ1AwNmo5OFQ1NTlrSWEyMURicHFEVlM1SlJlWURicU5Hc3lRR3ZfOGNNWGNqRjFqWlp5eFRIQVhHSVdiX2RWUHptTEI2aWsyRzN1bHZvbTFxQUZqdnZ0VXQ5ZkprSWVkN1N5aTM0d21SQkc2U3BxQUN6UzVOcUk5RmtLaVR4QUxucWFmS1ZlQlFEMVVTYld4c3Nfbkc1MkdOdE1iUnpOVmN4OUt2a0RMUjA0?oc=5"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/politics/international-relations/trump-cites-military-aid-nuclear-power-in-manila-meeting-with-marcos"
+      },
+      {
+       "text": "The Diplomat",
+       "url": "https://thediplomat.com/2026/11/quad-moves-to-counter-chinas-mineral-monopoly/"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/news/2026/11/18/japan/politics/trump-quad-china-analysis/"
+      },
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/china/diplomacy/article/3374794/trade-deal-rare-earths-and-quad-revival-day-1-trumps-asia-trip"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/se-asia/trump-says-us-is-expanding-defence-cooperation-with-philippines"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNcDMyblBMN1ZWQnQ0WkV6N1BUWEpDZ0Z4VlZXSlJTUXR2Sm95YkFCTWhDVjNHZEVSRDdLYjVBT3VVQ0VRWjRhN0hXbld5TlFQd2I1RVVPQ0JOTGFDMV90eS05NDRUUWxnRzFMQ0t6QTZSVWE5aGVCdHpJeTlNUlJWTVZNa2s1QjFTOGQ2M1VXX1lEaTVXMkxFRkdtWWNfS1pJNnZ0LW5IQXJJRkstMmhvbFRQc1p4QUhiMVE?oc=5"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/politics/international-relations/indo-pacific/trump-meets-quad-leaders-says-4-nations-agree-on-critical-mineral-deals"
+      },
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/asia/southeast-asia/article/3374740/donald-trump-arrives-manila-speak-asean-summit-heading-china"
+      },
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/china/diplomacy/article/3374808/trump-claims-us-will-have-enough-rare-earths-10-months-experts-call-it-unrealistic"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：7 家（Reuters、Straits Times、Nikkei Asia、Japan Times、SCMP、Rappler、The Diplomat）"
+     ],
+     "table": null,
+     "dive_html": "川普稱這項協議「進行得很快、事前沒料到」，並在 Truth Social 表示對美國農民與能源業者大有好處；兩國事前公布的行程都沒提到貿易談判。這是川普三天亞洲行的首站，馬尼拉為爭取這趟僅約20小時的國事訪問著力甚深。四方會談由川普與日相高市早苗、印度總理莫迪、澳洲總理艾班尼斯出席，日、印領袖稱會議為這個架構注入新動能，但外界懷疑能否持續；川普另稱美國10個月內就能在稀土供應上追上中國，專家認為「不切實際」。"
+    },
+    {
+     "type": "item",
+     "no": "17",
+     "title": "輝達季營收翻倍至1158億美元，董事會：無意讓黃仁勳回任",
+     "title_html": "輝達季營收翻倍至1158億美元，董事會：無意讓黃仁勳回任",
+     "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang",
+     "src": "Financial Times、Reuters、The Guardian 等 10 家",
+     "left": "11/18 07:32",
+     "ts": "2026-11-18T07:32:16+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "輝達（Nvidia）公布黃仁勳去職後首份財報，第三季營收1158.4億美元、年增103%，每股盈餘2.68美元，均優於市場預期，並上調下一財年展望；董事長 Harvey Jones 表示「無意讓黃仁勳回任執行長」，並承諾加快物色新人選。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cm2kl50vkwkdo"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/economy/2026/11/18/nvidia-shoots-down-calls-for-jensen-huangs-return-amid-strong-earnings"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/technology/20261117-nvidia-board-rules-that-co-founder-jensen-huang-will-not-return-as-ceo"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/technology/2026/nov/17/nvidia-third-quarter-revenue-jensen-huang"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/nvidia-beats-q3-expectations-in-first-report-post-jensen-huang/a-79975683?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/18/nvidia-beats-forecasts-and-rules-out-huangs-return-as-ceo"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/3a8881b8-068c-4950-9238-4f8eb1efc870?syn-25a6b1a6=1"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/business/tech/semiconductors/nvidia-board-says-jensen-huang-will-not-return-as-ceo"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxQbldlWEozckRZVFhNcGlyNVhJSkxoQ1E2UFduQ3ZaNHFBT0RKMW12eTNJV1BhNzZVMENXWFk0OWE1Z1RWRlUwMW82a2RhYm9kQjlIcmlUb1dzNVBUU25hVHQ5eEdVckRac3B5cUlFMjZkUUlJUFYyZFdjVW95R1ZiT0JZdnFSM0RvMG8tdkxOY21uNFRuOGRTdFJqMzBySXgtTDQ2T2ZzUDdzb1UxbGtfeA?oc=5"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPU1hUb0ZMNTdVdlRaU3NVMXlUODNRZmhzZjVNRFVocktEWXJ4ZkF5eTVmVXBQcXRMOWFpdHZMQ2hxeUE1OER5TkpmRTlLV0JBdGV5RWVDVTl2TWtZamNmMXBTV2Y4eTVXdFpBdmZNSlFtZklNQnBLWHNDU251eElyd191OGs4ajktX2NvRVpNQ1M1cDNEU0ZzYnpWMmpnQ1E1d3NuUzhMSXZfdEowVWN6QWZldW0?oc=5"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQaWVjeHRTNkRreHFmNVBsYkdQeFJjc1htLXA4enJfTEV5clpxOHZRRGdGZXNkZGFzY2FPWUtTMkdCSGZYZXFHMmE5OVFzUDJuc2ZjRGJybkF2MG1pTkxhMFBRam5wdjFNdG5sRGJaaEN5bE1keENqTkJGb2lPeFJQM2Y2NDAtQ3JvSG9pRXExTFpwSE9iandZTFMtcEEtX21xUXM0?oc=5"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPUzY1ZVJpMEF5SkVrMm5oVXBaUE9FNFVkUTNxQllsbHo0YXpJMnZQc0Zjc2c2Z2FjRTNYdHAxdi1ZaEFJZkFIRUxqaVNHWUpTZTdydVZtejBWd2Rqa2llYVJDR2MwdjFORHhPSkc0WXAxbml3NWdiTkx5bW9FbE9xdUl1Y1paSnZMcG1OM3RSSHV1TGhHWl92dEpGenJGTXpSbXV3OVRfQzdHTXNqX1NXRzVaY1NGdEFwOTNWSm5R?oc=5"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/tv-shows/business/20261117-jensen-huang-says-he-d-be-honoured-to-return-to-nvidia-as-ceo"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOcU1vUDEzelNFZ3BKMUQ1S2tLakNtTUVHOVBsWktncFlmOFpkY1lHQ280MlVlLUh0MGpzM3A0MHJZNmR2NzhJeURvLTdiZ0VPWi1xT0o5a3laQW5YbnFmQmZJRjhuOTdRcm1JWGctdEhMd05qUmtNUXZFMi1JUXN5UGhadkJ6UnZ6NnNoQ21rSzBKMmFFNERlTE9NdVFEeXc5eHdjcFBScGdqYmV0bEtiYnYyekgyaGRXVnBLcGhJUWdoMnZKYWFhSzd5Y1hma1hi?oc=5"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/17/nvidia-stock-earnings-jensen-huang-resignation.html"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：10 家（Financial Times、Reuters、The Guardian、BBC、CNBC、DW、Al Jazeera、France 24／RFI、Euronews、Nikkei Asia）"
+     ],
+     "table": null,
+     "dive_html": "暫代執行長的財務長克芮斯（Colette Kress）說公司運作「一切照常」，並稱員工「很投入」。Al Jazeera 報導輝達預估第四季營收1300億美元；盤後股價上漲5%，CNBC 稱隔日股價漲約3%，新興雲端（neocloud）類股同步大漲。黃仁勳下台後輝達股價曾重挫逾10%、市值跌至3.7兆美元，遠低於10月近6兆美元的高點。黃仁勳日前表示若能回任將深感榮幸，馬斯克等科技界人士與16.5萬人連署聲援；路透引述申報文件指，黃仁勳仍有權提名兩名董事。輝達掌握約九成 AI 晶片市場，OpenAI、Anthropic、Google 都仰賴其產品。"
+    },
+    {
+     "type": "item",
+     "no": "18",
+     "title": "德意志銀行1500萬份內部文件外洩，揭與艾普斯坦、川普及俄寡頭往來",
+     "title_html": "德意志銀行1500萬份內部文件外洩，揭與艾普斯坦、川普及俄寡頭往來",
+     "url": "https://www.dw.com/en/deutsche-bank-under-fire-after-internal-documents-made-public/a-79974543?maca=en-rss-en-all-1573-xml-mrss",
+     "src": "Financial Times、DW（德國政府出資）、Straits Times 等 4 家",
+     "left": "11/18 02:32",
+     "ts": "2026-11-18T02:32:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "逾200名記者組成的國際調查聯盟17日以「Inside Deutsche Bank」為題，在《明鏡週刊》、FT、《世界報》、《紐約時報》等媒體公開德意志銀行近1500萬份內部文件，內容涵蓋該行與艾普斯坦、川普及俄羅斯寡頭的往來，德銀股價當天重挫。",
+     "also": [
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/deutsche-bank-under-fire-after-internal-documents-made-public/a-79974543?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/se-asia/malaysia-to-review-leaked-deutsche-bank-1mdb-files-task-force-official-says"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/9edd3730-3a15-4e1a-b33a-629aff00e847?syn-25a6b1a6=1"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2045169/bankrolling-attacks-in-gaza-how-a-global-bank-arms-israel"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：4 家（Financial Times、DW、Straits Times、Dawn）"
+     ],
+     "table": null,
+     "dive_html": "文件涵蓋近20年業務，顯示德銀不顧多名主管的風險警告，積極爭取俄羅斯與寡頭生意直到2022年俄國全面入侵烏克蘭，執行長 Christian Sewing 也是俄羅斯策略工作小組成員；德銀目前仍在俄國雇用逾160人，2025年當地稅前獲利6100萬歐元。報導並指德銀屢次把獲利置於制裁遵循與反洗錢規定之上，涉及替富人設計節稅方案、可能讓犯罪網絡移轉不法資金、協助軍火交易，以及替德國極右派政黨 AfD 保管資金。馬來西亞1MDB專案小組表示將審閱外洩檔案，報導稱德銀2015年處理數百萬歐元與劉特佐有關的匯款；FT 另揭德銀聘用卡達王室成員的內情，Dawn 則報導德銀曾審議為德國軍工業者提供1140萬歐元預付款保證，質疑其資助以色列軍火。"
+    },
+    {
+     "type": "item",
+     "no": "19",
+     "title": "習近平與卡尼會談，中加擴大關稅減讓、加拿大尋求貿易重啟",
+     "title_html": "習近平與卡尼會談，中加擴大關稅減讓、加拿大尋求貿易重啟",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3374769/china-and-canada-agree-fresh-tariff-reliefs-thaw-continues-xi-carney-meeting",
+     "src": "SCMP（阿里巴巴持有）、Japan Times",
+     "left": "11/17 18:54",
+     "ts": "2026-11-17T18:54:25+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "習近平與加拿大總理卡尼在深圳 APEC 領袖會議前會談，同意擴大貿易減讓，延續兩國關係解凍；加拿大正因與美國的貿易緊張，尋求重啟對中關係。",
+     "also": [
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/china/diplomacy/article/3374769/china-and-canada-agree-fresh-tariff-reliefs-thaw-continues-xi-carney-meeting"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/news/2026/11/18/world/politics/canada-trade-reset-china/"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（SCMP、Japan Times）"
+     ],
+     "table": null,
+     "dive_html": "加拿大外長阿南德18日在深圳表示，加方採「循序漸進」方式與中國重新往來，目標是分散貿易、減少對單一夥伴的依賴；她此行也到過菲律賓與柬埔寨，要完成與菲律賓的自由貿易協定，並實質完成與東協的自貿談判。"
+    }
+   ]
+  },
+  {
+   "name": "社會與治安",
+   "count": 4,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "20",
+     "title": "海地與薩爾瓦多正式簽合作協定，數千人上街感謝布格磊派兵掃蕩幫派",
+     "title_html": "海地與薩爾瓦多正式簽合作協定，數千人上街感謝布格磊派兵掃蕩幫派",
+     "url": "https://www.euronews.com/2026/11/18/haiti-formalises-security-pact-with-el-salvador-as-thousands-march-in-support-of-bukele",
+     "src": "Euronews、Al Jazeera（卡達政府出資）、France 24／RFI（法國政府出資）等 4 家",
+     "left": "11/18 14:48",
+     "ts": "2026-11-18T14:48:28+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "海地政府17日宣布，部長會議已批准與薩爾瓦多的「合作協定」；同日數千名海地民眾在太子港上街，感謝薩爾瓦多總統布格磊派兵協助對抗控制首都大片地區的武裝幫派。",
+     "also": [
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/haitians-rally-in-celebration-of-el-salvadors-anti-gang-troop-deployment"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/americas/20261118-haitians-rally-behind-bukele-as-salvadoran-troops-battle-gangs"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/18/haiti-formalises-security-pact-with-el-salvador-as-thousands-march-in-support-of-bukele"
+      },
+      {
+       "text": "聯合國",
+       "url": "https://news.un.org/en/story/2026/11/1168823"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：4 家（Euronews、Al Jazeera、France 24／RFI、聯合國）"
+     ],
+     "table": null,
+     "dive_html": "布格磊自10月下旬起已派逾2000名士兵到海地，起因是4名薩國士兵在聯合國支持的「幫派鎮壓部隊」（GSF）行動中失蹤；這支部隊獨立於 GSF 之外，布格磊11月10日宣稱以直升機摧毀海地一個主要幫派的「總部」，之後又在海地警方支援下接管首都一座足球場。海地如今同時有本國警察與軍隊、GSF、外籍傭兵與薩國部隊，協調程度不明。聯合國人權辦公室呼籲所有安全部隊保護平民、只在最後關頭才使用致命武力；聯合國統計，2026年前10個月海地武裝暴力已造成4595人死亡、2050人受傷。專家也警告，若缺乏長期計畫，民眾的支持可能轉為憤怒。"
+    },
+    {
+     "type": "item",
+     "no": "21",
+     "title": "南韓修能考前爆 AI 作弊風暴，祭全國警報與7.5萬美元檢舉獎金",
+     "title_html": "南韓修能考前爆 AI 作弊風暴，祭全國警報與7.5萬美元檢舉獎金",
+     "url": "https://www.theguardian.com/world/2026/nov/18/south-korea-university-entrace-exams-ai-cheating-measures",
+     "src": "The Guardian、CNBC、Straits Times 等 4 家",
+     "left": "11/18 10:03",
+     "ts": "2026-11-18T10:03:27+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "今年稅務會計師考試榜首（160題只錯1題）坦承用隱藏鏡頭和 AI 作弊，讓19日登場、逾50萬人應考的大學修學能力考試（修能）蒙上陰影；南韓政府宣布全面禁帶智慧裝置、發送全國強制警報，並以最高7.5萬美元獎金鼓勵檢舉。",
+     "also": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/world/2026/nov/18/south-korea-university-entrace-exams-ai-cheating-measures"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/south-korea-exam-cheating-.html"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/business/education/south-korean-high-stakes-university-exam-haunted-by-specter-of-ai-cheating"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/south-korea-offers-us75000-bounties-to-catch-ai-exam-cheats"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/spot-14-cheating-devices-in-150-seconds-online-game-puts-s-korean-exam-proctors-to-the-test"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/why-nearly-every-phone-in-south-korea-will-ring-nov-19-even-on-silent"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：4 家（The Guardian、CNBC、Straits Times、Nikkei Asia）"
+     ],
+     "table": null,
+     "dive_html": "總理在內閣會議上稱 AI 作弊是必須「根除」的「社會之惡」，要求教育部等機關「賭上職位」處理：考生的智慧裝置須關機上繳，走廊上的包包會檢查是否有開機裝置，眼鏡、手錶、衣領、袖口與鈕扣都要查是否藏有鏡頭；政府將對全國手機發送無法靜音、全音量的緊急警報，揪出未交出裝置者，並準備關閉考場學校與周邊公共 Wi-Fi、增派監考人員，作弊者最長可能10年不得再考。修能考長達8小時，在1312個考場舉行，英聽時段連航班起降都會調整。"
+    },
+    {
+     "type": "item",
+     "no": "22",
+     "title": "涉伊朗背景謀刺川普，巴基斯坦男子在美判刑逾27年",
+     "title_html": "涉伊朗背景謀刺川普，巴基斯坦男子在美判刑逾27年",
+     "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot",
+     "src": "The Guardian、DW（德國政府出資）、Dawn",
+     "left": "11/18 08:21",
+     "ts": "2026-11-18T08:21:33+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "被指與伊朗關係密切的巴基斯坦男子 Asif Merchant（48歲）17日在紐約布魯克林聯邦法院被判330個月徒刑，法院認定他為報復美軍2020年擊殺伊朗革命衛隊指揮官蘇雷曼尼，企圖雇用殺手在美國刺殺政治人物。",
+     "also": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/us-news/2026/nov/17/pakistani-man-jailed-trump-murder-plot"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/pakistani-man-gets-27-years-for-foiled-plot-to-kill-trump-biden/a-79976086?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2045363/man-sentenced-to-over-27-years-in-us-for-plot-to-assassinate-trump"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（The Guardian、DW、Dawn）"
+     ],
+     "table": null,
+     "dive_html": "Merchant 出庭時稱是為保護在德黑蘭的家人才被迫參與，並以為在有人遇害前就會被抓；他說伊朗聯絡人曾提到川普、前總統拜登與前駐聯合國大使海莉三人，但從未指定目標。司法部長布蘭奇則強調陰謀對象就是川普，並說司法部「不會容忍針對我國領袖的外國恐怖陰謀」。Merchant 於2024年7月12日準備出境時被捕。"
+    },
+    {
+     "type": "item",
+     "no": "23",
+     "title": "哥斯大黎加記者遭槍殺，25年來首例",
+     "title_html": "哥斯大黎加記者遭槍殺，25年來首例",
+     "url": "https://www.theguardian.com/world/2026/nov/17/costa-rica-journalist-camilo-rodriguez-shot-dead",
+     "src": "The Guardian",
+     "left": "11/18 01:19",
+     "ts": "2026-11-18T01:19:12+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "以揭發疑似毒販與政客聞名的哥斯大黎加記者羅德里格斯（Camilo Rodríguez，51歲）16日在首都聖荷西郊區公路上遭槍殺，是當地25年來首起已知的記者遇害案，正值國際販毒集團帶動當地暴力升溫。",
+     "also": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/world/2026/nov/17/costa-rica-journalist-camilo-rodriguez-shot-dead"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "總統費南德茲（Laura Fernández）譴責這是「言論自由的汙點」。檢察總長 Carlo Díaz 表示，現場有多處彈著點，像是買兇殺人，可能與他公開指控他人涉毒有關；羅德里格斯先前曾通報受威脅，但拒絕保護。上一起媒體工作者遇害案是2001年7月，電台製作人 Parmenio Medina 在同一帶公路遭槍殺；哥國凶殺率在2013至2023年間翻倍，此後僅小幅回落。"
+    }
+   ]
+  },
+  {
+   "name": "人權、移民與人道",
+   "count": 5,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "24",
+     "title": "義大利國會通過反猶太主義法，批評者憂限縮言論自由",
+     "title_html": "義大利國會通過反猶太主義法，批評者憂限縮言論自由",
+     "url": "https://www.france24.com/en/europe/20261118-italy-approves-anti-semitism-law-despite-concerns-over-freedom-of-expression",
+     "src": "Reuters、France 24／RFI（法國政府出資）",
+     "left": "11/18 15:37",
+     "ts": "2026-11-18T15:37:42+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "義大利眾議院17日晚間以147票對93票完成最終表決，把國際大屠殺紀念聯盟（IHRA）的反猶太主義定義入法，其中將部分批評以色列的言論列為反猶行為；法案不設罰款或刑事處罰。",
+     "also": [
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/europe/20261118-italy-approves-anti-semitism-law-despite-concerns-over-freedom-of-expression"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxNRTNXZGFtaWhlXzBudGFGN1hxYkNkbXRETG5IbG9QeWc3aVFyYlhNQVBkdkNsX1Q4U2dJR2czZmthRnNxZmg4UlFXQW5EWGM4NTNxM05XWV81eGtNUTlZeWdMblNSOUVwS2pua0U1eU9wVHpSTHJZeTlibmlnYW91SWJza0J6b2MxMnFDdmdxcDQ4UEhhM1RaQ3Z6Q3h0S1UweDJRRkFHVTRfdw?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（Reuters、France 24／RFI）"
+     ],
+     "table": null,
+     "dive_html": "反對者擔心法案會對巴勒斯坦權益倡議產生寒蟬效應，綠左聯盟共同黨魁 Angelo Bonelli 批評右派「利用反猶法案壓制批評」；總理梅洛尼的中右執政聯盟則稱這是對抗暴力與歧視所需，並拒絕修改定義。義大利猶太社群聯盟主席 Livia Ottolenghi 歡迎法案通過。主要在野黨民主黨有少數議員違背黨意投下棄權，顯示黨內分歧；加薩戰爭爆發後，義大利親巴勒斯坦運動明顯升溫。"
+    },
+    {
+     "type": "item",
+     "no": "25",
+     "title": "約旦河西岸72歲巴勒斯坦婦人遭屯墾者射殺，澳洲宣布制裁屯墾者",
+     "title_html": "約旦河西岸72歲巴勒斯坦婦人遭屯墾者射殺，澳洲宣布制裁屯墾者",
+     "url": "https://www.theguardian.com/world/2026/nov/17/palestinian-woman-shot-dead-israeli-settlers-near-jericho-witnesses-say",
+     "src": "Reuters、The Guardian、BBC 等 4 家",
+     "left": "11/18 04:21",
+     "ts": "2026-11-18T04:21:48+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "傑里科附近 al-Duyuk al-Tahta 村的72歲婦人 Fadha Wadha 在自家門外遭以色列屯墾者槍擊頭部身亡，另有多名巴勒斯坦人受傷，以軍則稱屯墾者是遭攻擊後才開槍；另外，澳洲宣布以非法擴建屯墾區為由，制裁3名以色列人與4個組織。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cqrlg377638yo"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/world/2026/nov/17/palestinian-woman-shot-dead-israeli-settlers-near-jericho-witnesses-say"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/australia-issues-sanctions-targeting-israeli-settlers"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxQVlFrYWNBX1NLTHhNc00ycmhVV0dFNlRNX0xOcGFKcUhaYmNSU093YzlyTm9xOVlGRGlxblJhajk5ME5HMy0zeXFHc2FQUGFBd3lvUGtaNENWMTB2YVV6eHJ4NzZ1N3pHcjJqam9sQ2kxRk4wNUU4Z1NLbDA4bWQyUVpMakxVa0Q3S2UxeUE1Nm92RmhKUFVHMVl3UUVETHQxMVk4QlYwS0ZhNXRPSGVsUGRQX0F6OFJiZ1N5WGIyb1l5TkliTkhwT2NB?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：4 家（Reuters、The Guardian、BBC、Al Jazeera）"
+     ],
+     "table": null,
+     "dive_html": "目擊者說，約15名屯墾者乘數輛車追趕一名被指闖入遭占庭院的男孩，隨即無差別開槍；居民丟石頭自衛後，更多屯墾者趕到並射傷6名男子。死者之子 Arafat Fidhat 趕往現場時遭槍擊軀幹，送醫途中救護車被以軍攔下、他遭逮捕，孫子隔天清晨也被捕。兩週前，數十名部分持槍的屯墾者在屯墾組織 Nachala 支持下進駐該村8棟建築。"
+    },
+    {
+     "type": "item",
+     "no": "26",
+     "title": "土耳其當局接管最後一家親反對派電視台 Sözcü TV，歐洲人權法院判須釋放在押議員",
+     "title_html": "土耳其當局接管最後一家親反對派電視台 Sözcü TV，歐洲人權法院判須釋放在押議員",
+     "url": "https://www.france24.com/en/authorities-take-over-turkey-s-last-pro-opposition-broadcaster-sozcu-tv",
+     "src": "France 24／RFI（法國政府出資）、DW（德國政府出資）",
+     "left": "11/18 03:58",
+     "ts": "2026-11-18T03:58:26+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "土耳其警方17日突襲 Sözcü TV 伊斯坦堡總部並由當局接管，這是一年多來第三家被接管的親反對派媒體；另外，歐洲人權法院要求土耳其釋放已遭關押近五年的民選議員 Can Atalay。",
+     "also": [
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/authorities-take-over-turkey-s-last-pro-opposition-broadcaster-sozcu-tv"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/rights-court-rules-turkey-must-release-jailed-lawmaker-atalay/a-79972462?maca=en-rss-en-all-1573-xml-mrss"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（France 24／RFI、DW）"
+     ],
+     "table": null,
+     "dive_html": "接管發生在一樁數十億規模的投資基金醜聞引發眾怒之際，該醜聞影響近50萬人的存款，也讓總統艾爾多安的正義與發展黨（AKP）在2028年大選前承受壓力。Atalay 雖獲土耳其憲法法院裁定有利於他，仍身陷囹圄近五年。"
+    },
+    {
+     "type": "item",
+     "no": "27",
+     "title": "川普訪菲引爆抗議，菲律賓警方大規模拘捕數百人",
+     "title_html": "川普訪菲引爆抗議，菲律賓警方大規模拘捕數百人",
+     "url": "https://www.theguardian.com/world/2026/nov/17/hundreds-arrested-manila-anti-trump-protests-philippines",
+     "src": "The Guardian、Human Rights Watch（人權組織）",
+     "left": "11/17 19:00",
+     "ts": "2026-11-17T19:00:39+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "川普抵馬尼拉出席東協峰會之際，菲律賓警方拘捕至少245名抗議者；抗議領袖稱這是小馬可仕任內最大規模的集體逮捕，人權觀察呼籲立即釋放遭任意拘留者。",
+     "also": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/world/2026/nov/17/hundreds-arrested-manila-anti-trump-protests-philippines"
+      },
+      {
+       "text": "Human Rights Watch",
+       "url": "https://www.hrw.org/news/2026/11/18/philippine-police-detain-hundreds-protesting-trump-visit"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（The Guardian、Human Rights Watch）"
+     ],
+     "table": null,
+     "dive_html": "抗議自11月15日開始，反對菲國政府依美國「Pax Silica」計畫在打拉省 Capas 興建科技製造中心，該計畫將迫遷數百名原住民與小農；《衛報》報導民眾也不滿伊朗戰爭與 AI 協定。約6000人參加抗議，警方禁止在「自由公園」以外集會，並在大馬尼拉外圍攔下從南他加祿地區前往的236人，被捕者包括29名農民（含原住民芒揚族）、19名記者、9名環境捍衛者與6名人權工作者，律師團指另有19名兒童。被拘者已遭關押三天未被起訴，關押處通風不良、飲水不足，可能面臨非法集會等罪名；新聞畫面也拍到警察掌摑、踢踹倒地的抗議者。"
+    },
+    {
+     "type": "item",
+     "no": "28",
+     "title": "國際刑事法院實質關閉美軍與阿富汗前政府罪行調查，人權觀察憂追責受阻",
+     "title_html": "國際刑事法院實質關閉美軍與阿富汗前政府罪行調查，人權觀察憂追責受阻",
+     "url": "https://www.hrw.org/news/2026/11/17/icc-afghanistan-decision-risks-narrowing-access-to-justice",
+     "src": "Human Rights Watch（人權組織）",
+     "left": "11/17 19:00",
+     "ts": "2026-11-17T19:00:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "國際刑事法院（ICC）預審分庭11月12日以缺乏進展為由，實質關閉針對美軍、前阿富汗政府軍等部隊在2021年8月塔利班掌權前所涉罪行的調查，檢察官辦公室13日已提出上訴並聲請暫緩；人權觀察17日警告，此舉恐讓受害者更難討回公道。",
+     "also": [
+      {
+       "text": "Human Rights Watch",
+       "url": "https://www.hrw.org/news/2026/11/17/icc-afghanistan-decision-risks-narrowing-access-to-justice"
+      },
+      {
+       "text": "Human Rights Watch",
+       "url": "https://www.hrw.org/news/2026/11/17/un-committee-proposes-drastic-cuts-to-afghanistan-investigations"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "檢方2017年聲請立案時，列出美軍與中情局涉嫌依美國當局核准的政策施以酷刑、性暴力等罪行，前政府軍涉嫌酷刑、強迫失蹤與法外處決，塔利班則涉嫌攻擊平民、謀殺與使用童兵；ICC 法官2020年3月授權調查2003年5月以來的罪行。人權觀察國際司法主任 Liz Evenson 說，這項裁定恐讓美國與前阿富汗政府部隊更難被追究。人權觀察同日也批評，聯合國一個預算諮詢委員會提議大砍阿富汗相關調查經費。"
+    }
+   ]
+  },
+  {
+   "name": "文化、體育與人物",
+   "count": 3,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "29",
+     "title": "2027年非洲國家盃首批六隊晉級，塞內加爾、喀麥隆、摩洛哥在列",
+     "title_html": "2027年非洲國家盃首批六隊晉級，塞內加爾、喀麥隆、摩洛哥在列",
+     "url": "https://www.france24.com/en/tv-shows/sports/20261118-2027-afcon-qualifiers-senegal-and-5-other-nations-secure-spot",
+     "src": "France 24／RFI（法國政府出資）",
+     "left": "11/18 14:30",
+     "ts": "2026-11-18T14:30:56+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "2027年非洲國家盃（AFCON）資格賽首批晉級隊伍出爐，塞內加爾等六國取得會內賽資格，喀麥隆與摩洛哥也在其中。",
+     "also": [
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/tv-shows/sports/20261118-2027-afcon-qualifiers-senegal-and-5-other-nations-secure-spot"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": ""
+    },
+    {
+     "type": "item",
+     "no": "30",
+     "title": "劍橋詞典年度詞彙出爐：「Human」（人類）",
+     "title_html": "劍橋詞典年度詞彙出爐：「Human」（人類）",
+     "url": "https://www.bbc.co.uk/news/articles/c6x2ev38k4yno",
+     "src": "BBC",
+     "left": "11/18 13:39",
+     "ts": "2026-11-18T13:39:39+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "劍橋詞典選出「human」為年度詞彙，定義是「具有人的特質、缺點與情感，有別於神、動物或機器」；總編輯 Colin McIntosh 說，AI 興起使人們如今必須明說「人類」來標示過去只有人類能做的事。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c6x2ev38k4yno"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "McIntosh 的研究顯示，自1900年以來 human 的使用量成長四倍，human-made、human-driven 等複合詞也增加，用來區分人與 AI 的作品與能力。比爾·蓋茲得知後表示，衡量 AI 成功與否應看它多大程度改善人類生活；演員史嘉蕾·喬韓森、馬修·麥康納反對 AI 盜用聲音與肖像的言行，都被列為用例。"
+    },
+    {
+     "type": "item",
+     "no": "31",
+     "title": "睽違13年，《俠盜獵車手6》週四上市，預購估達11.8億美元",
+     "title_html": "睽違13年，《俠盜獵車手6》週四上市，預購估達11.8億美元",
+     "url": "https://www.france24.com/en/culture/20261118-taylor-swift-of-games-grand-theft-auto-is-back-after-13-year-wait",
+     "src": "France 24／RFI（法國政府出資）、BBC、Nikkei Asia",
+     "left": "11/18 10:53",
+     "ts": "2026-11-18T10:53:25+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "歷經13年等待、兩度延期與多次外洩，被稱為「遊戲界泰勒絲」的《俠盜獵車手6》（GTA 6）週四（19日）在 PS5 與 Xbox Series 上市；這是史上開發成本最高的電玩，市調公司 Sensor Tower 估計已靠1200萬份預購進帳11.8億美元（Rockstar 未證實）。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cm4gn9xnn1ppo"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/culture/20261118-taylor-swift-of-games-grand-theft-auto-is-back-after-13-year-wait"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/business/media-entertainment/gamers-become-new-zealanders-for-first-access-to-new-grand-theft-auto"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（France 24／RFI、BBC、Nikkei Asia）"
+     ],
+     "table": null,
+     "dive_html": "英國人資軟體 BrightHR 分析逾120萬名員工的請假資料，發現4.6%的請假申請提到 GTA，估計11至12月共有8.3萬天假是為它而請；也有玩家假裝身在紐西蘭以搶先遊玩。遊戲容量212GB，BT、Virgin Media 等英國網路業者已擴充頻寬；美軍第3步兵師甚至讓簽下再入伍合約的現役士兵放四天假玩遊戲。本作也是2D 時代以後首度有可操作的女性主角。"
+    }
+   ]
+  },
+  {
+   "name": "戰爭與地緣衝突",
+   "count": 5,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "32",
+     "title": "習近平會李在明，支持緩和朝鮮半島緊張、促 AI 與供應鏈合作",
+     "title_html": "習近平會李在明，支持緩和朝鮮半島緊張、促 AI 與供應鏈合作",
+     "url": "https://www.scmp.com/news/china/diplomacy/article/3374885/xi-jinping-urges-south-korea-cooperate-china-ai-and-supply-chains",
+     "src": "Reuters、SCMP（阿里巴巴持有）、Straits Times",
+     "left": "11/18 16:42",
+     "ts": "2026-11-18T16:42:47+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "習近平18日在深圳與南韓總統李在明會談34分鐘，呼籲共同維護全球供應鏈、深化經濟政策協調及 AI 等新興產業合作；南韓方面表示習近平支持緩和與北韓緊張的努力，李在明則盼與中國合作促進半島和平，並發展平等互利的經濟夥伴關係。",
+     "also": [
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/china/diplomacy/article/3374885/xi-jinping-urges-south-korea-cooperate-china-ai-and-supply-chains"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/south-korea-hopes-to-work-with-china-for-peace-on-korean-peninsula-president-says"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxQN3g4anJnTmxJNVNoNWlYQzVHbVhPMVlfLVRkS09WWEFOWFMtRThxV3VHSGhRTXZYSWY5SE9UZlIxWlRhZ28yQTNrUlhaUDBuNU1OSkNGVnp4U3NheTlYTHFGbzE2MmFEOEZuckVvbVR3aU9hY2xGNW9JRkNfSlprenZLQUlQUktpMDRPVndCeUVTTkVRVnNNNjhJYzNxYTJZOFVyenpNWHBiSk8zOWd4YnBVdmFJakdySEJr?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Reuters、SCMP、Straits Times）"
+     ],
+     "table": null,
+     "dive_html": ""
+    },
+    {
+     "type": "item",
+     "no": "33",
+     "title": "美軍空襲伊朗格什姆島，伊朗與胡塞反擊科威特、巴林等海灣國家",
+     "title_html": "美軍空襲伊朗格什姆島，伊朗與胡塞反擊科威特、巴林等海灣國家",
+     "url": "https://www.rappler.com/world/middle-east/iran-attacks-us-bases-gulf-countries-despite-diplomatic-efforts-november-2026/",
+     "src": "Reuters、WSJ、BBC 等 10 家",
+     "left": "11/18 16:05",
+     "ts": "2026-11-18T16:05:04+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美軍17日空襲伊朗革命衛隊在荷莫茲海峽格什姆島（Qeshm）的飛彈發射場，伊朗隨即攻擊科威特 Ali Al Salem 基地的美軍無人機與飛彈設施，巴林、沙烏地也攔截來自伊朗與胡塞組織的飛彈和無人機，已打了九個月的戰爭再度升溫。",
+     "also": [
+      {
+       "text": "Rappler",
+       "url": "https://www.rappler.com/world/middle-east/iran-attacks-us-bases-gulf-countries-despite-diplomatic-efforts-november-2026/"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxNMEJSYmJOTF9ISXdkYWVNd0Z3RnJvQnRjSlhEVWJ4bWo1UVVvblNOUnczc0FtOUlSODM5UzRNOUF5T3lIYTNrRVZKNEZTaVFQcnMwaG9JSWdnNkJmRVVtcTluWmFEU1k0dFVVVDJ4SWlEcUNpWEo1aktKYzFGblgxTldZSGVNRjV3N3VyMVNFelYxQ1d4Zlo3LXdQN2E4RUFuNjB4UWdYX1FxQ3pERUdCenJ3?oc=5"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/trump-iran-war-hormuz-oil-.html"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/news/2026/11/18/world/politics/gulf-us-strikes-iran-island/"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/middle-east/20261118-middle-east-live-kuwait-bahrain-report-drone-and-missile-attacks"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cq808vzd3nnpo"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/world/2026/nov/17/trump-reported-iranian-plot-dirty-bomb-washington"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2045272/trump-warns-iran-over-plot-to-target-us-officials"
+      },
+      {
+       "text": "WSJ",
+       "url": "https://www.wsj.com/politics/national-security/5-takeaways-from-navy-nominees-rocky-hearing-0ca74829?mod=rss_usnews"
+      },
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/us/diplomacy/article/3374804/us-navy-chief-urges-us-lawmakers-strengthen-shipbuilding-capacity-close-gap-china"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/17/trump-iran-dirty-bomb-washington.html"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/us-iran-navy-hormuz-war-cao.html"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：10 家（Reuters、WSJ、BBC、CNBC、The Guardian、Japan Times、France 24／RFI、SCMP、Rappler、Dawn）"
+     ],
+     "table": null,
+     "dive_html": "這是伊朗9月以來首度攻擊科威特；巴林本週第三度攔截伊朗攻擊，指控德黑蘭「有系統地敵對」，該國是美國海軍第五艦隊駐地，沙烏地領導的聯軍則擊落胡塞朝利雅德發射的巡弋飛彈。美方稱空襲是回應伊朗對美軍人員與資產的攻擊，伊朗媒體說未造成設施損害，伊朗陸軍司令哈塔米警告若再遭攻擊將以「更具毀滅性」的方式報復。這場戰爭推高全球能源價格，也被視為助長選民不滿、讓共和黨在11月選舉受挫的因素之一。川普在馬尼拉回應 CNN 引述美國情報、指伊朗策劃在華府引爆「髒彈」的報導時說「我們非常嚴肅看待」，白宮則稱目前沒有可信威脅，伊朗斥為「毫無根據」。代理海軍部長 Hung Cao 在參院確認聽證會上承認，因彈藥短缺，美軍在伊朗戰爭中動用了過期的戰斧飛彈。"
+    },
+    {
+     "type": "item",
+     "no": "34",
+     "title": "習近平晤普丁：中俄應引領多極世界，普丁批西方是「前霸權」",
+     "title_html": "習近平晤普丁：中俄應引領多極世界，普丁批西方是「前霸權」",
+     "url": "https://www.aljazeera.com/news/2026/11/18/president-xi-says-russia-and-china-should-lead-push-to-multipolar-world",
+     "src": "Financial Times、Reuters、Al Jazeera（卡達政府出資）等 11 家",
+     "left": "11/18 15:50",
+     "ts": "2026-11-18T15:50:47+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "習近平與普丁18日在深圳會談，承諾維持穩定關係、推動更公平的多極世界秩序，習近平稱中俄應「引領」多極化趨勢；兩人在 APEC 演說中同聲批評西方的保護主義與制裁，習近平並呼籲自由貿易與 AI 全球合作。",
+     "also": [
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/video/2026/11/18/xi-and-putin-meet-ahead-of-planned-summit-with-trump"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2045382/xi-putin-meet-ahead-of-historic-trump-trilateral-summit"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/politics/international-relations/apec/xi-putin-vow-to-lead-multipolar-world-slam-protectionism"
+      },
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/china/diplomacy/article/3374840/xi-and-putin-say-they-will-maintain-stable-ties-seek-more-fair-multipolar-world-order"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/news/2026/11/18/asia-pacific/politics/putin-xi-china-russia-meeting-apec/"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMijgFBVV95cUxPb21UOHp4X2E2V05LRUhhUjhnSzI5b1NmNDRVQWhCb2RTV3gwQng0N3lKQ2lnV3JrbjB2cTBpSkNObTdwbXowR2d0UEt5NFp5blJtallNRjdFSjNoVDdxNkNXWFI4bmpETEV5TUs2OE16WW1lLTR0NkZCbEdXZF9OVDVycUFYV2p2aklNS3dR?oc=5"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/18/president-xi-says-russia-and-china-should-lead-push-to-multipolar-world"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/ef5dab0d-7335-4dc6-9e44-254bdd9cdc06?syn-25a6b1a6=1"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/putin-apec-eu-trump-xi-meeting.html"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/russias-putin-says-he-expects-big-potential-benefit-from-meeting-with-trump-and-xi"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/asia-pacific/20261118-xi-jinping-calls-for-global-cooperation-on-ai-and-free-trade-at-apec-summit"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/18/chinas-xi-jinping-and-putin-hold-talks-in-shenzhen-on-eve-of-three-way-summit-with-trump"
+      },
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/china/diplomacy/article/3374831/putin-gets-highest-level-airport-welcome-shenzhen-he-arrives-apec"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOa1FfUS1OenA3M3Y5X29pUkxZUU1MbXdnaDlwNmtGd2RJaktuV2J6LTdVUTBwLW5OR0VEMUNKUlNRQjBDdkxMM2duWTlrQmNVdjFJalhHQUM4UVlUWGNnc2Y4dUJPa1FzSFN4QkxJREZqLVExdWFCOUNzWnllMVRTb3gzdE5XSUZBMlpjTzNiTzVvYUhyaUlENWlBdmlZUFNFWEI0dkM3Ql9ZWmVUR1FuRUtqYjFjdEREVVhqX2czWHdlNVk?oc=5"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/18/xis-pitch-for-free-trade-amid-trumps-global-trade-disruptions"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/politics/international-relations/apec/xi-urges-freer-trade-as-apec-leaders-maneuver-ahead-of-trump-talks"
+      },
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/plus/news/china/diplomacy/article/3374891/xi-touts-china-ai-amid-shenzhens-tech-showcase"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/chinas-xi-calls-for-free-and-open-trade-at-apec-summit"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：11 家（Financial Times、Reuters、Al Jazeera、Euronews、SCMP、Nikkei Asia、Japan Times、CNBC、Straits Times、France 24／RFI、Dawn）"
+     ],
+     "table": null,
+     "dive_html": "普丁在 APEC 工商領袖峰會上稱西方是「前霸權」、歐洲正處於「屈辱的衰落」，並說制裁、關稅與出口限制「無法阻止成長」，強調俄國經濟韌性、推銷「歐亞」秩序；他也表示預期與川普、習近平會面會帶來「巨大的潛在利益」。中方給予普丁目前各國領袖中最高規格的接機禮遇。習近平在演說中強調要為全球企業提供「穩定、可預期、互利」的環境，並呼籲深化數位經濟與 AI 合作，這番話發表於美國進一步限制中國取得高階晶片的隔天。Al Jazeera 指兩人已會面逾40次，中國是俄國最大貿易夥伴；外界也擔心週四的三方會談會左右烏克蘭的命運。"
+    },
+    {
+     "type": "item",
+     "no": "35",
+     "title": "美中俄峰會前，台灣稱與美方密切聯繫，國軍監控俄機沿東部飛行",
+     "title_html": "美中俄峰會前，台灣稱與美方密切聯繫，國軍監控俄機沿東部飛行",
+     "url": "https://www.straitstimes.com/asia/east-asia/taiwans-apec-envoy-says-he-will-speak-with-other-members-at-china-hosted-summit",
+     "src": "Straits Times、SCMP（阿里巴巴持有）",
+     "left": "11/18 10:10",
+     "ts": "2026-11-18T10:10:01+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      },
+      {
+       "text": "台灣相關",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "總統府發言人郭雅慧18日表示，政府在川普、習近平、普丁19日三方會談前與美方「密切聯繫、充分掌握情勢」，樂見任何有助管控威權擴張風險的努力；國軍17日也監控兩架俄羅斯軍機沿台灣東部飛行，同一天日本、南韓都因俄機活動緊急起飛戰機。",
+     "also": [
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/taiwans-apec-envoy-says-he-will-speak-with-other-members-at-china-hosted-summit"
+      },
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/china/politics/article/3374750/taiwan-tracks-2-russian-warplanes-eastern-coast-ahead-apec-summit"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（Straits Times、SCMP）"
+     ],
+     "table": null,
+     "dive_html": "郭雅慧重申台灣立場一貫：強化自我防衛、全力避免現狀遭破壞，並與國際民主夥伴共同維護區域安全。川普今年5月在北京會晤習近平後曾表示暫緩一項對台新軍售，稱其為很好的「談判籌碼」。俄機清晨從東北方接近，沿東部海岸飛行後由台東東南方離開。台灣 APEC 領袖代表、宏碁創辦人施振榮行前表示，台灣是全球科技、AI 產業與供應鏈不可或缺的夥伴。"
+    },
+    {
+     "type": "item",
+     "no": "36",
+     "title": "烏克蘭以飛彈與無人機重創克里米亞大橋，部分橋段坍塌",
+     "title_html": "烏克蘭以飛彈與無人機重創克里米亞大橋，部分橋段坍塌",
+     "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo",
+     "src": "BBC、The Guardian、Japan Times 等 6 家",
+     "left": "11/18 05:24",
+     "ts": "2026-11-18T05:24:35+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "烏克蘭以巡弋飛彈和無人機重創連接俄羅斯與被占領克里米亞的克里米亞大橋（刻赤大橋），一段拱橋坍落海中；澤倫斯基稱這是籌劃數週的「空前行動」，克里姆林宮則說會把橋「重建得比以前更好」。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cw772jk4rvmxo"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/world/2026/nov/17/how-ukraine-struck-kerch-bridge-symbol-vladimir-putin-rule"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/news/2026/11/18/world/society/ukraine-crimean-bridge-trump-putin/"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/ukraine-kyiv-targets-krasnodar-refineries-after-felling-kerch-bridge/live-79976877?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/17/us-criticises-ukraines-deep-strike-campaign-against-russia"
+      },
+      {
+       "text": "聯合國",
+       "url": "https://news.un.org/en/story/2026/11/1168828"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/crz9dgz28zwdo"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cq7825234lgmo"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/videos/cmlywvww3pzlo"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：6 家（BBC、The Guardian、Japan Times、DW、Euronews、聯合國）"
+     ],
+     "table": null,
+     "dive_html": "這座造價36億美元的大橋由普丁好友 Arkady Rotenberg 興建，2018年5月由普丁親自駕駛卡車通車，是俄軍前往前線的公路與鐵路通道，也被視為普丁的個人象徵；BBC 指攻擊分七階段，損害遠比過去幾次嚴重，時機正好在普丁與中美領袖會面前。據報烏軍隔夜又攻擊俄國克拉斯諾達爾的兩處工業設施。俄軍前一晚則空襲基輔，北橋與南橋兩座跨聶伯河大橋一度封閉。美國批評烏克蘭的「深入打擊」戰術，德國國防部長皮斯托瑞斯回嗆這是「相當愚蠢」的警告。聯合國駐烏克蘭人權監察團17日也表示，2026年烏克蘭平民傷亡已遠高於2022年全面入侵以來的任何一年。"
+    }
+   ]
+  },
+  {
+   "name": "政治與治理",
+   "count": 4,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "37",
+     "title": "東協峰會排除緬甸，敏昂萊稱正重新考慮與東協關係",
+     "title_html": "東協峰會排除緬甸，敏昂萊稱正重新考慮與東協關係",
+     "url": "https://www.straitstimes.com/asia/se-asia/myanmars-army-backed-leader-says-he-is-reconsidering-asean-relationship",
+     "src": "Straits Times、Nikkei Asia、Rappler",
+     "left": "11/18 15:05",
+     "ts": "2026-11-18T15:05:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "第49屆東協峰會本週在馬尼拉舉行，未讓緬甸參與；緬甸總統敏昂萊18日表示正重新考慮與東協的關係，但仍會與成員國對話，並計畫明年2月召開和平會議。",
+     "also": [
+      {
+       "text": "Rappler",
+       "url": "https://www.rappler.com/philippines/updates-videos-49th-asean-summit-manila-november-2026/"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/photos/through-the-lens-asean-takes-center-stage-as-leaders-gather-in-manila"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/se-asia/myanmars-army-backed-leader-says-he-is-reconsidering-asean-relationship"
+      },
+      {
+       "text": "Rappler",
+       "url": "https://www.rappler.com/philippines/timor-leste-newest-member-asean-inter-parliamentary-assembly/"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Straits Times、Nikkei Asia、Rappler）"
+     ],
+     "table": null,
+     "dive_html": "東協領袖15日聲明，若緬甸在「五點共識」和平方案上有「持續且具體」的進展，可考慮以「分階段、依進展」的方式逐步恢復其完整政治代表權。2021年發動政變的前軍政府首腦敏昂萊，今年4月在飽受批評的選舉後就任總統，他抱怨東協「只對我們國家施壓」；選後已有近半數成員國加強與緬甸的雙邊往來。峰會聚焦全球能源危機、糧食安全與跨國犯罪，東帝汶也在18日正式成為東協議會聯盟（AIPA）第11個成員。"
+    },
+    {
+     "type": "item",
+     "no": "38",
+     "title": "民主黨佩爾托拉翻轉阿拉斯加參議員席次，參院版圖56比44",
+     "title_html": "民主黨佩爾托拉翻轉阿拉斯加參議員席次，參院版圖56比44",
+     "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo",
+     "src": "Financial Times、Reuters、BBC 等 8 家",
+     "left": "11/18 15:00",
+     "ts": "2026-11-18T15:00:25+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美聯社17日晚間宣布民主黨的佩爾托拉（Mary Peltola）以50.1%得票擊敗共和黨現任參議員蘇利文（Dan Sullivan），這是期中選舉最後一席未定的參議院選戰；民主黨今年共翻轉9席、創1958年以來最多，參院由共和黨53比47變成民主黨56比44。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cqev3v2ygzlvo"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/18/mary-peltola-wins-alaska-senate-seat-in-another-democratic-win"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/americas/20261118-peltola-defeats-sullivan-in-alaska-senate-race-expanding-democratic-majority"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/us-democrats-flip-alaska-senate-seat-as-mary-peltola-wins-race/a-79976628?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/video/2026/11/18/cheers-and-reactions-in-alaska-after-mary-peltolas-senate-win"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/alaska-senate-mary-peltola-wins-election.html"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/dc73d4ce-0139-4a72-9b2a-ab9803a84240?syn-25a6b1a6=1"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxQcDhNX2ltb0xDNjBoTzlRcFZtcGl4V0FhOE94dTEyMHZVSDItM1ZMYUR2SW1NZVRpamgzQ2g5cXNrcE1wWG5oZlJDNFBWZ1MxeUhUcWhUSF9qM3Y0RXFiY28zT0xiMXdlbU8xX2JoZkUtLW9WejVlX3p0NGtxT0JUNUh2QldjcU5aYThDNWdNcUxUTVo2dTBKTG16NGZrNGQ1WUR6ejUwUnZxM1U?oc=5"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/18/democrat-mary-peltola-unseats-republican-and-flips-us-senate-seat-in-tight-race-in-alaska"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：8 家（Financial Times、Reuters、BBC、Al Jazeera、France 24／RFI、DW、Euronews、CNBC）"
+     ],
+     "table": null,
+     "dive_html": "選戰過程爭議不斷：調查指佩爾托拉陣營助理找來另一名同名的 Dan Sullivan 參選以分散現任者選票，佩爾托拉否認知情；司法部曾提告，要求若蘇利文落敗就撤銷選舉認證，蘇利文隨後承諾接受結果，Al Jazeera 指這場選舉可能面臨法律挑戰。阿拉斯加也選出1998年以來首位民主黨州長 Jonathan Kreiss-Tomkins。佩爾托拉是首位進入國會的阿拉斯加原住民，選戰主打燃料與生活成本；Euronews 指民主黨明年1月起掌握的56席，足以阻擋立法、對川普政府展開廣泛調查，並卡住其司法與高層人事任命。"
+    },
+    {
+     "type": "item",
+     "no": "39",
+     "title": "以色列國會選出反納坦雅胡陣營支持的新議長卡哈納",
+     "title_html": "以色列國會選出反納坦雅胡陣營支持的新議長卡哈納",
+     "url": "https://www.theguardian.com/world/2026/nov/17/israeli-parliament-elects-new-knesset-speaker-backed-netanyahus-opponents",
+     "src": "Reuters、The Guardian、France 24／RFI（法國政府出資）",
+     "left": "11/18 06:30",
+     "ts": "2026-11-18T06:30:17+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "以色列國會17日以66票選出艾森柯特（Gadi Eisenkot）的盟友卡哈納（Matan Kahana）為新議長，獲猶太裔在野黨與阿拉伯裔政黨支持，擊敗納坦雅胡陣營提名、得52票的 Ofir Katz，是推翻現任政府爭議政策的關鍵一步。",
+     "also": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/world/2026/nov/17/israeli-parliament-elects-new-knesset-speaker-backed-netanyahus-opponents"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMisAFBVV95cUxPZ0FvY0VGYXV2RkxSOFMxOENQVF85Mkt5SjZUUXFQS0VuZGpBZjBRbmxnNkVMNWVuRXFOa3lpY09XaE9HNk00UjYtVXJURmtTZGpyaEhEajVoUjh6bGZYbFRzd2NTQUVNd2ExdGFBbkdyXzhnOFZoWjNuRGtuTWpLMmU0U0FrdE40aEtTRnZtZTY5WWRJbFV2UUZXMzI3ZTZSVzFKNDZhYkpYc2hmd3Y2Yg?oc=5"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/middle-east/20261117-%F0%9F%94%B4-israeli-parliament-elects-eisenkot-ally-matan-kahana-as-speaker"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/major-setbacks-for-netanyahu-ahead-of-vote-to-name-new-knesset-speaker"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Reuters、The Guardian、France 24／RFI）"
+     ],
+     "table": null,
+     "dive_html": "納坦雅胡陣營在10月27日國會大選中失去過半，總統已授權艾森柯特組閣，他還有最多五週時間。新國會多數上週已提出總理任期限制、由政府主導調查2023年10月7日哈瑪斯襲擊，以及撤銷限縮司法權等法案；以色列民主研究所的 Assaf Shapira 指出，議長能大幅加快或拖慢立法進程。卡哈納取代的是納坦雅胡盟友 Amir Ohana。納坦雅胡所屬政黨選後一再宣稱選舉被阿拉伯裔政黨「偷走」，這些說法正逐漸站不住腳。"
+    },
+    {
+     "type": "item",
+     "no": "40",
+     "title": "終結武契奇14年執政，塞爾維亞「學生名單」議員宣誓就職成國會多數",
+     "title_html": "終結武契奇14年執政，塞爾維亞「學生名單」議員宣誓就職成國會多數",
+     "url": "https://www.dw.com/en/students-list-candidates-take-seats-as-serbian-parliament-opens/a-79969166?maca=en-rss-en-all-1573-xml-mrss",
+     "src": "DW（德國政府出資）、Euronews",
+     "left": "11/17 20:09",
+     "ts": "2026-11-17T20:09:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "在大選中終結武契奇（Aleksandar Vucic）14年統治的學生運動政黨「學生名單」，17日在新國會首次會議宣誓就職，在250席中掌握140席，須在90天內提名總理、組成政府；武契奇的前進黨拿下103席，武契奇本人轉任反對派領袖。",
+     "also": [
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/students-list-candidates-take-seats-as-serbian-parliament-opens/a-79969166?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/18/europe-today-crimean-bridge-french-presidential-elections-and-serbian-students-list"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（DW、Euronews）"
+     ],
+     "table": null,
+     "dive_html": "新議員多為缺乏從政經驗的教師、教授與專業人士，陣營橫跨左右派與親歐、親俄勢力，主張推動真正改革以加速入歐談判，但反對制裁俄國與承認科索沃，並承諾改善醫療與教育、國防預算加倍。新議長選出後將兼任代理總統（武契奇9月辭去總統參選總理），提前舉行的總統大選須在11月27日前宣布、12月27日前投票，武契奇受兩任限制不能參選。"
+    }
+   ]
+  }
+ ],
+ "foot_left": "本報告由 news-aggregator 自動彙整",
+ "stats": {
+  "items": 40,
+  "sections": 10
+ }
+}
