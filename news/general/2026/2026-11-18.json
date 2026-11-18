@@ -6,15 +6,11 @@
  "period": "2026-11-18",
  "date": "2026-11-18",
  "title": "綜合日報",
- "generated_at": "2026-11-18T15:21:36+08:00",
+ "brief": "DAILY NEWS BRIEFING",
+ "issue": "NO. 2026-322",
+ "generated_at": "2026-11-18T15:47:48+08:00",
  "lede": "輝達後黃仁勳時代震盪擴大，代理執行長收緊對 AI 新創的資金支持、微軟高層稱客戶更確信要分散晶片來源，前副手 Jay Puri 也捲入對中走私疑雲；OpenAI 發表 GPT-6.2 Astra 與 Sol，Astra 拿下 ARC-AGI-3 滿分，開發者實測卻褒貶不一；美國本週航班、銀行與國安局網路接連中斷，官員指向修補 AI 揪出的漏洞時壓垮系統；台股月結算震盪逾 1,600 點後收漲 102 點守住 4 萬點，GitHub 熱榜則以 AI 程式代理的技能包、審查與工作流工具為大宗。",
- "intro": [
-  {
-   "kind": "p",
-   "html": "輝達後黃仁勳時代震盪擴大，代理執行長收緊對 AI 新創的資金支持、微軟高層稱客戶更確信要分散晶片來源，前副手 Jay Puri 也捲入對中走私疑雲；OpenAI 發表 GPT-6.2 Astra 與 Sol，Astra 拿下 ARC-AGI-3 滿分，開發者實測卻褒貶不一；美國本週航班、銀行與國安局網路接連中斷，官員指向修補 AI 揪出的漏洞時壓垮系統；台股月結算震盪逾 1,600 點後收漲 102 點守住 4 萬點，GitHub 熱榜則以 AI 程式代理的技能包、審查與工作流工具為大宗。"
-  }
- ],
- "sources": [
+ "src_tags": [
   "Hacker News",
   "GitHub Trending",
   "PTT",
@@ -23,19 +19,14 @@
   "Anue 鉅亨網",
   "V2EX"
  ],
- "highlights_html": [
-  "🖥️ 輝達震盪 — 代理執行長克雷斯稱不再無限制砸錢支持 AI 新創，董事會主席 Harvey Jones 排除黃仁勳回任；微軟奧爾特夫稱客戶更確信要分散晶片來源，資金轉押 AMD 與 ASIC，緯穎可望受惠",
-  "🕵️ 晶片走私疑雲 — 前銷售主管 Jay Puri 被指與黃樂、美超微涉案高層有關，黃樂被控把至少 75 億美元輝達晶片運入中國；黃仁勳同意赴國會聽證，輝達停售中國 Hopper 晶片",
-  "🤖 GPT-6.2 — OpenAI 發表 Astra 與 Sol，Astra 拿下 ARC-AGI-3 滿分、Sol 得 98.2% 且成本低 64%；Theo 批評 Astra 長任務常卡在追問內部細節，仍偏好 Opus 5.5",
-  "🛡️ 資安與當機 — NSA 機密網路 NSANet 修補 PHP 漏洞後當機，官員稱本週航班、銀行連環中斷源於修補 AI 揪出的漏洞；Codex 協助挖出 OpenJDK Base64 遠端執行漏洞 Java4Shell",
-  "📈 台股美債 — 台股月結算盤中震盪逾 1,600 點，終場收漲 102 點報 40,194 點，00406A 爆量逾 114 萬張；富達 Salman Ahmed 稱 10 年債殖利率到 6% 也不算便宜",
-  "🇹🇼 台灣政情 — 中國粉專「夢回華夏」藉國軍將領故事蒐集人脈，嚴德發籲勿點擊；法務部擬於反滲透法增訂跨國鎮壓罪；廢除非核家園公投 28 日投票",
-  "📉 AI 經濟帳 — IMF 總裁 Georgieva 稱 AI 循環融資破 1 兆美元、三分之二靠舉債；Google AI 摘要讓網站點擊少 40%；哈佛研究指 AI 程式代理讓審查時間拉長 49%",
-  "🐙 GitHub 熱榜 — obra/superpowers 單日 +1,917 星居冠，阿里巴巴 open-code-review、騰訊 LoopForge 等代理審查與工作流工具密集上榜"
+ "intro": [
+  {
+   "kind": "p",
+   "html": "輝達後黃仁勳時代震盪擴大，代理執行長收緊對 AI 新創的資金支持、微軟高層稱客戶更確信要分散晶片來源，前副手 Jay Puri 也捲入對中走私疑雲；OpenAI 發表 GPT-6.2 Astra 與 Sol，Astra 拿下 ARC-AGI-3 滿分，開發者實測卻褒貶不一；美國本週航班、銀行與國安局網路接連中斷，官員指向修補 AI 揪出的漏洞時壓垮系統；台股月結算震盪逾 1,600 點後收漲 102 點守住 4 萬點，GitHub 熱榜則以 AI 程式代理的技能包、審查與工作流工具為大宗。"
+  }
  ],
  "sections": [
   {
-   "id": "s1",
    "name": "Global Scan（全網速覽）",
    "count": 15,
    "blocks": [
@@ -45,29 +36,25 @@
      "title": "黃仁勳長期副手 Jay Puri 捲入對中晶片走私疑雲，被指與黃樂及美超微涉案高層有關",
      "title_html": "黃仁勳長期副手 Jay Puri 捲入對中晶片走私疑雲，被指與黃樂及美超微涉案高層有關",
      "url": "https://news.cnyes.com/news/id/6666020",
-     "source": "Anue 鉅亨網",
-     "time": "11/18 14:20",
-     "rail_date": "",
-     "rail": "14:20",
-     "rail_kind": "time",
+     "src": "Anue 鉅亨網",
+     "left": "11/18 14:20",
      "heat": "",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "《The Information》17 日報導，輝達前銷售主管、黃仁勳長期副手 Jay Puri 曾是前 Megaspeed 執行長黃樂（Alice Huang）等大客戶的聯繫窗口；黃樂被指與一家中企合作，秘密把至少 75 億美元的輝達 AI 晶片運入中國，規避美國出口管制。",
-     "bullets_html": [],
-     "table": null,
-     "dive_html": "放空機構 Muddy Waters 同步質疑 Puri 與美超微前高層 Cenly Chen 的關係，並表示已放空輝達股票；美超微已有包括共同創辦人在內 3 名員工被控把搭載輝達晶片、價值數十億美元的伺服器賣給中國客戶。美國跨黨派議員要求黃仁勳赴參議院銀行委員會作證，《Politico》報導他已同意出席，並將接受眾議院閉門聽證；美方本週也堵住中國 AI 業者經海外資料中心取得先進晶片的管道，代理執行長克雷斯則宣布停售中國 Hopper 資料中心晶片。Zvi Mowshowitz 在評論中直指輝達多年遊說放寬對中出貨形同「腐敗」，但也整理出分歧：國家情報總監身邊人士稱「間諜」說法「不太準確」，CIA 消息來源表示攔截內容未顯示黃樂蓄意向中國傳遞情報，他本人估計黃樂是間諜的機率高於 50%、低於 95%。",
-     "links": [
+     "also": [
       {
        "text": "Zvi Mowshowitz（評論）",
        "url": "https://thezvi.substack.com/p/jensen-huang-really-liked-selling"
       },
       {
-       "text": "HN 討論",
+       "text": "Discussion",
        "url": "https://news.ycombinator.com/item?id=50532060"
       }
-     ]
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "放空機構 Muddy Waters 同步質疑 Puri 與美超微前高層 Cenly Chen 的關係，並表示已放空輝達股票；美超微已有包括共同創辦人在內 3 名員工被控把搭載輝達晶片、價值數十億美元的伺服器賣給中國客戶。美國跨黨派議員要求黃仁勳赴參議院銀行委員會作證，《Politico》報導他已同意出席，並將接受眾議院閉門聽證；美方本週也堵住中國 AI 業者經海外資料中心取得先進晶片的管道，代理執行長克雷斯則宣布停售中國 Hopper 資料中心晶片。Zvi Mowshowitz 在評論中直指輝達多年遊說放寬對中出貨形同「腐敗」，但也整理出分歧：國家情報總監身邊人士稱「間諜」說法「不太準確」，CIA 消息來源表示攔截內容未顯示黃樂蓄意向中國傳遞情報，他本人估計黃樂是間諜的機率高於 50%、低於 95%。"
     },
     {
      "type": "item",
@@ -75,20 +62,16 @@
      "title": "普丁出席深圳 APEC 峰會：批歐盟、宣稱「去美元化」進展顯著",
      "title_html": "普丁出席深圳 APEC 峰會：批歐盟、宣稱「去美元化」進展顯著",
      "url": "https://news.cnyes.com/news/id/6666128",
-     "source": "Anue 鉅亨網",
-     "time": "11/18 14:10",
-     "rail_date": "",
-     "rail": "14:10",
-     "rail_kind": "time",
+     "src": "Anue 鉅亨網",
+     "left": "11/18 14:10",
      "heat": "",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "俄羅斯總統普丁 18 日抵達深圳出席 APEC 經濟領袖會議與企業領袖峰會，在演說中稱西方孤立俄羅斯的企圖已經失敗，俄國貿易結算中的美元占比已急劇下降。",
+     "also": [],
+     "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "普丁抨擊歐盟失去俄國廉價能源後產能與競爭力流失，並爭取 2035 年再辦 APEC；他抵達當天即與習近平會談，是兩人今年第五度會晤。俄方數據顯示今年前 10 月中俄貿易額達 2,425 億美元、年增近 33%，已超過 2025 年全年。下一個焦點是預計 19 日登場的美中俄三方領袖峰會：白宮稱川普將提出核裁軍議題，俄方外事顧問烏沙科夫則表示會續談烏克蘭衝突的談判解方。外界分析指出，受高利率、通膨與煉油產能下降影響，俄國第三季 GDP 年增率已放緩至 1%。",
-     "links": []
+     "dive_html": "普丁抨擊歐盟失去俄國廉價能源後產能與競爭力流失，並爭取 2035 年再辦 APEC；他抵達當天即與習近平會談，是兩人今年第五度會晤。俄方數據顯示今年前 10 月中俄貿易額達 2,425 億美元、年增近 33%，已超過 2025 年全年。下一個焦點是預計 19 日登場的美中俄三方領袖峰會：白宮稱川普將提出核裁軍議題，俄方外事顧問烏沙科夫則表示會續談烏克蘭衝突的談判解方。外界分析指出，受高利率、通膨與煉油產能下降影響，俄國第三季 GDP 年增率已放緩至 1%。"
     },
     {
      "type": "item",
@@ -96,20 +79,16 @@
      "title": "美債殖利率走高引發華爾街論戰：高盛看多，富達稱 10 年債殖利率到 6% 也不算便宜",
      "title_html": "美債殖利率走高引發華爾街論戰：高盛看多，富達稱 10 年債殖利率到 6% 也不算便宜",
      "url": "https://news.cnyes.com/news/id/6665980",
-     "source": "Anue 鉅亨網",
-     "time": "11/18 14:00",
-     "rail_date": "",
-     "rail": "14:00",
-     "rail_kind": "time",
+     "src": "Anue 鉅亨網",
+     "left": "11/18 14:00",
      "heat": "",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "美國通膨數據高於預期、聯準會（Fed）官員接連釋出偏鷹訊號，美債遭新一輪拋售，10 年期殖利率一度升至約 5.12%、2 年期 4.86%；富達國際全球宏觀及戰略資產配置主管 Salman Ahmed 認為，即使 10 年債殖利率升到 6% 也稱不上「極度便宜」。",
+     "also": [],
+     "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "富達的估值模型納入殖利率曲線斜率、實質利率與長期通膨，並指出股債相關性改變、美債對股市的避險效果下降，目前各天期久期配置維持中性。高盛利率團隊則預估 10 年債殖利率將從約 5.1% 在 2027 年底降到 4.6%；T. Rowe Price 對殖利率見頂存疑。Ahmed 估計，殖利率若快速逼近 6%，美國政府被迫干預、甚至實施殖利率曲線控制（YCC）的主觀機率約 25% 至 30%，長債失控進而強化「貨幣貶值交易」的機率約 20% 至 25%。",
-     "links": []
+     "dive_html": "富達的估值模型納入殖利率曲線斜率、實質利率與長期通膨，並指出股債相關性改變、美債對股市的避險效果下降，目前各天期久期配置維持中性。高盛利率團隊則預估 10 年債殖利率將從約 5.1% 在 2027 年底降到 4.6%；T. Rowe Price 對殖利率見頂存疑。Ahmed 估計，殖利率若快速逼近 6%，美國政府被迫干預、甚至實施殖利率曲線控制（YCC）的主觀機率約 25% 至 30%，長債失控進而強化「貨幣貶值交易」的機率約 20% 至 25%。"
     },
     {
      "type": "item",
@@ -117,20 +96,16 @@
      "title": "貝佐斯：輝達太複雜，接班人應從內部找",
      "title_html": "貝佐斯：輝達太複雜，接班人應從內部找",
      "url": "https://news.cnyes.com/news/id/6666092",
-     "source": "Anue 鉅亨網",
-     "time": "11/18 13:50",
-     "rail_date": "",
-     "rail": "13:50",
-     "rail_kind": "time",
+     "src": "Anue 鉅亨網",
+     "left": "11/18 13:50",
      "heat": "",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "亞馬遜創辦人貝佐斯 17 日在 Semafor 活動上表示，如果不讓黃仁勳回任，他不會找外部人士接掌輝達，因為公司「太複雜」，外部執行長成功機會微乎其微，應是最後手段。",
+     "also": [],
+     "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "輝達董事會主席 Harvey Jones 在財報電話會議開場明確表示不會再聘黃仁勳，接班搜尋涵蓋內外部人選，目前由財務長 Colette Kress 代理執行長。黃仁勳上週四辭去總裁、執行長與董事職務：離任前一天《紐約時報》爆出他與直屬下屬的婚外情，數天前《華爾街日報》也報導他與被美國官員懷疑是中國間諜的黃樂有染。他 17 日在 X 發表聲明，承認個人生活「犯下嚴重錯誤」，表示董事會若邀請願意回任並配合獨立調查；Altimeter 的 Brad Gerstner、Atreides 的 Gavin Baker 要求董事會保留回任空間，含馬斯克在內的聲援連署已逾 18 萬人，分析師 Dan Ives 則稱回鍋之說「荒謬」。",
-     "links": []
+     "dive_html": "輝達董事會主席 Harvey Jones 在財報電話會議開場明確表示不會再聘黃仁勳，接班搜尋涵蓋內外部人選，目前由財務長 Colette Kress 代理執行長。黃仁勳上週四辭去總裁、執行長與董事職務：離任前一天《紐約時報》爆出他與直屬下屬的婚外情，數天前《華爾街日報》也報導他與被美國官員懷疑是中國間諜的黃樂有染。他 17 日在 X 發表聲明，承認個人生活「犯下嚴重錯誤」，表示董事會若邀請願意回任並配合獨立調查；Altimeter 的 Brad Gerstner、Atreides 的 Gavin Baker 要求董事會保留回任空間，含馬斯克在內的聲援連署已逾 18 萬人，分析師 Dan Ives 則稱回鍋之說「荒謬」。"
     },
     {
      "type": "item",
@@ -138,20 +113,12 @@
      "title": "台指期月結算軋空、尾盤拉抬台積電，台股收漲 102 點守住 4 萬點",
      "title_html": "台指期月結算軋空、尾盤拉抬台積電，台股收漲 102 點守住 4 萬點",
      "url": "https://money.udn.com/money/story/5607/9886487",
-     "source": "經濟日報",
-     "time": "11/18 13:47",
-     "rail_date": "",
-     "rail": "13:47",
-     "rail_kind": "time",
+     "src": "經濟日報",
+     "left": "11/18 13:47",
      "heat": "",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "台股 18 日盤中上下震盪逾 1,600 點，最高漲 846 點至 40,938 點、最低跌 831 點至 39,260 點，終場收漲 102.8 點（0.26%）報 40,194.91 點，成交量 10,306.85 億元；台積電收 2,175 元、漲 5 元，盤中最高來到 2,210 元。",
-     "bullets_html": [],
-     "table": null,
-     "dive_html": "適逢台指期月結算，外資期貨淨空單水位高，多頭在尾盤強力拉抬台積電。盤中個股與零股成交前五大全被 ETF 包辦，主動中信台灣收益（00406A）爆量逾 114 萬張居冠，其後依序是元大台灣 50 正 2、群益臺灣加權正 2、元大台灣 50 反 1 與主動統一台股增長。法人一方認為 AI 疑慮降溫、輝達財報優於預期，台股醞釀止跌反彈；群益投顧則指國安基金護盤仍受 AI 產業趨勢疑慮牽制，短線看 11 月 6 日低點 37,837 點附近的多頭抵抗。安聯投信經理人蕭惠中指出台股本益比約 19.75 倍、接近歷史平均 18.7 倍，五大雲端業者 2026 年資本支出合計約 8,050 億美元，2027 年預估上修至約 1.1 兆美元、年增約 39.8%。",
-     "links": [
+     "also": [
       {
        "text": "經濟日報：成交前五大全是 ETF",
        "url": "https://money.udn.com/money/story/5607/9886489"
@@ -160,7 +127,11 @@
        "text": "經濟日報：法人看止跌反彈",
        "url": "https://money.udn.com/money/story/5607/9886452"
       }
-     ]
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "適逢台指期月結算，外資期貨淨空單水位高，多頭在尾盤強力拉抬台積電。盤中個股與零股成交前五大全被 ETF 包辦，主動中信台灣收益（00406A）爆量逾 114 萬張居冠，其後依序是元大台灣 50 正 2、群益臺灣加權正 2、元大台灣 50 反 1 與主動統一台股增長。法人一方認為 AI 疑慮降溫、輝達財報優於預期，台股醞釀止跌反彈；群益投顧則指國安基金護盤仍受 AI 產業趨勢疑慮牽制，短線看 11 月 6 日低點 37,837 點附近的多頭抵抗。安聯投信經理人蕭惠中指出台股本益比約 19.75 倍、接近歷史平均 18.7 倍，五大雲端業者 2026 年資本支出合計約 8,050 億美元，2027 年預估上修至約 1.1 兆美元、年增約 39.8%。"
     },
     {
      "type": "item",
@@ -168,20 +139,16 @@
      "title": "輝達財報優於預期仍難擋黃仁勳離職衝擊，市場轉向 AMD 與 ASIC 供應鏈",
      "title_html": "輝達財報優於預期仍難擋黃仁勳離職衝擊，市場轉向 AMD 與 ASIC 供應鏈",
      "url": "https://money.udn.com/money/story/5607/9886462",
-     "source": "經濟日報",
-     "time": "11/18 13:42",
-     "rail_date": "",
-     "rail": "13:42",
-     "rail_kind": "time",
+     "src": "經濟日報",
+     "left": "11/18 13:42",
      "heat": "",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "據外媒報導，微軟商業業務執行長朱迪森·奧爾特夫表示，輝達內部的治理動盪可能促使客戶考慮其 AI 晶片以外的替代方案；即便輝達這次財報全面超出華爾街預期，仍不敵黃仁勳離職帶來的不確定性。",
+     "also": [],
+     "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "奧爾特夫說，客戶早在黃仁勳辭職前就要求更多選擇，近期事態讓人更確信這是對的方向，並重申「模型多樣性與晶片多樣性將主宰未來」。微軟、亞馬遜與 Google 持續自研 AI 晶片，微軟上個月更表示目標是讓 AI 軟體主要跑在自家晶片上，Anthropic 與 OpenAI 也在尋求輝達以外的選項。市場因此轉押 AMD 與 ASIC 供應鏈，法人點名身為 Trainium 3 主要代工廠的緯穎（6669）可望同步受惠。",
-     "links": []
+     "dive_html": "奧爾特夫說，客戶早在黃仁勳辭職前就要求更多選擇，近期事態讓人更確信這是對的方向，並重申「模型多樣性與晶片多樣性將主宰未來」。微軟、亞馬遜與 Google 持續自研 AI 晶片，微軟上個月更表示目標是讓 AI 軟體主要跑在自家晶片上，Anthropic 與 OpenAI 也在尋求輝達以外的選項。市場因此轉押 AMD 與 ASIC 供應鏈，法人點名身為 Trainium 3 主要代工廠的緯穎（6669）可望同步受惠。"
     },
     {
      "type": "item",
@@ -189,20 +156,16 @@
      "title": "中國臉書粉專藉國軍將領故事蒐集人脈，嚴德發籲勿點擊觀看",
      "title_html": "中國臉書粉專藉國軍將領故事蒐集人脈，嚴德發籲勿點擊觀看",
      "url": "https://www.cna.com.tw/news/aipl/202611180138.aspx",
-     "source": "中央社 CNA",
-     "time": "11/18 13:28",
-     "rail_date": "",
-     "rail": "13:28",
-     "rail_kind": "time",
+     "src": "中央社 CNA",
+     "left": "11/18 13:28",
      "heat": "",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "安全單位示警，中國臉書粉專「夢回華夏」密集刊登國軍現、退役將領故事，吸引軍職背景人士按讚留言，可能藉此蒐集帳號與人際網絡，作為後續接觸、滲透的入口；退輔會主委嚴德發呼籲現、退役軍人「不點擊、不轉傳、不觀看」。",
+     "also": [],
+     "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "安全單位調查發現粉專管理人員全在香港，經營模式符合境外內容農場「無邊界」集團的特徵。立委林楚茵揭露，臉書社團「以文聚友」先發布高度重疊的國軍人物介紹，「夢回華夏」再略作改寫刊登，借助 AI 能輕易生成多種版本精準投放；立委王定宇則指滲透對象不只軍人，也包括宮廟與文化體系。嚴德發說這是從 2023 年演變至今的手法，承諾跨部會研究影響並提出防範與反制，也會透過《榮光雙周刊》、退輔會網站與各榮服處座談提醒退除役官兵。",
-     "links": []
+     "dive_html": "安全單位調查發現粉專管理人員全在香港，經營模式符合境外內容農場「無邊界」集團的特徵。立委林楚茵揭露，臉書社團「以文聚友」先發布高度重疊的國軍人物介紹，「夢回華夏」再略作改寫刊登，借助 AI 能輕易生成多種版本精準投放；立委王定宇則指滲透對象不只軍人，也包括宮廟與文化體系。嚴德發說這是從 2023 年演變至今的手法，承諾跨部會研究影響並提出防範與反制，也會透過《榮光雙周刊》、退輔會網站與各榮服處座談提醒退除役官兵。"
     },
     {
      "type": "item",
@@ -210,20 +173,16 @@
      "title": "廢除非核家園公投意見發表會：正方批政策跳票，反方指核電廠址有斷層",
      "title_html": "廢除非核家園公投意見發表會：正方批政策跳票，反方指核電廠址有斷層",
      "url": "https://www.cna.com.tw/news/aipl/202611180136.aspx",
-     "source": "中央社 CNA",
-     "time": "11/18 13:27",
-     "rail_date": "",
-     "rail": "13:27",
-     "rail_kind": "time",
+     "src": "中央社 CNA",
+     "left": "11/18 13:27",
      "heat": "",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "中選會 18 日舉辦第 22 案公投第 4 場意見發表會，主文為「你是否支持政府使用『核電』振興經濟，以廢除『非核家園』的能源政策？」，將於 28 日投票；正方主張「核綠並進」，反方認為台灣核電廠址均有斷層疑慮，且缺乏自主核電產業鏈。",
+     "also": [],
+     "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "正方代表、民眾黨立委洪毓祥指政府曾承諾 2025 年再生能源占比達 20%，實際約 13.1% 至 13.3%、火力發電約占 84%；10 年來電價調漲 6 次、平均漲 48.4%；台灣能源 94.6% 仰賴進口，LNG 安全存量約 11 至 14 天，並引述 CSIS 兵推指能源是防衛韌性最脆弱的一環。反方代表、海洋大學地質博士王守誠則說，8 年來擁核方提出 4 次公投、每次平均花費逾 8 億元，4 座核電廠址都有斷層通過、核三與核四被活動斷層貫穿，並以美國魔鬼谷核電廠延役 5 年花費 3,900 億元為例，強調重啟的成本與風險。",
-     "links": []
+     "dive_html": "正方代表、民眾黨立委洪毓祥指政府曾承諾 2025 年再生能源占比達 20%，實際約 13.1% 至 13.3%、火力發電約占 84%；10 年來電價調漲 6 次、平均漲 48.4%；台灣能源 94.6% 仰賴進口，LNG 安全存量約 11 至 14 天，並引述 CSIS 兵推指能源是防衛韌性最脆弱的一環。反方代表、海洋大學地質博士王守誠則說，8 年來擁核方提出 4 次公投、每次平均花費逾 8 億元，4 座核電廠址都有斷層通過、核三與核四被活動斷層貫穿，並以美國魔鬼谷核電廠延役 5 年花費 3,900 億元為例，強調重啟的成本與風險。"
     },
     {
      "type": "item",
@@ -231,20 +190,16 @@
      "title": "反滲透法擬增訂「跨國鎮壓罪」，法務部：草案已送行政院",
      "title_html": "反滲透法擬增訂「跨國鎮壓罪」，法務部：草案已送行政院",
      "url": "https://www.cna.com.tw/news/aipl/202611180116.aspx",
-     "source": "中央社 CNA",
-     "time": "11/18 12:40",
-     "rail_date": "",
-     "rail": "12:40",
-     "rail_kind": "time",
+     "src": "中央社 CNA",
+     "left": "11/18 12:40",
      "heat": "",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "法務部長鄭銘謙 18 日在立法院表示，反滲透法修正草案已送行政院審查，將增訂「跨國鎮壓罪」並加重相關罪責，「境外敵對勢力」與「跨境鎮壓」的定義是修法重點。",
+     "also": [],
+     "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "草案初步將跨境鎮壓定義為境外敵對勢力為干預我國秩序與民主體制，跨越國界針對個人、群體或公務員發動攻擊，以造成自我審查的寒蟬效應。鄭銘謙指目前只能依個資法、傷害、殺人未遂、侮辱、恐嚇等罪處罰「遠遠不夠」，並舉脫口秀演員黃逸豪案為例；立委范雲追問在台負責跟蹤蒐證的徵信業者罪責，鄭銘謙說草案已處理「在台協力者」，被害人保護則由其他部會研議專法。",
-     "links": []
+     "dive_html": "草案初步將跨境鎮壓定義為境外敵對勢力為干預我國秩序與民主體制，跨越國界針對個人、群體或公務員發動攻擊，以造成自我審查的寒蟬效應。鄭銘謙指目前只能依個資法、傷害、殺人未遂、侮辱、恐嚇等罪處罰「遠遠不夠」，並舉脫口秀演員黃逸豪案為例；立委范雲追問在台負責跟蹤蒐證的徵信業者罪責，鄭銘謙說草案已處理「在台協力者」，被害人保護則由其他部會研議專法。"
     },
     {
      "type": "item",
@@ -252,20 +207,12 @@
      "title": "黃仁勳卸任後輝達轉向審慎投資，代理執行長：不再無限制砸錢支持 AI 新創",
      "title_html": "黃仁勳卸任後輝達轉向審慎投資，代理執行長：不再無限制砸錢支持 AI 新創",
      "url": "https://www.ptt.cc/bbs/Stock/M.1794973906.A.795.html",
-     "source": "PTT Stock",
-     "time": "11/18",
-     "rail_date": "",
-     "rail": "11/18",
-     "rail_kind": "text",
+     "src": "PTT Stock",
+     "left": "11/18",
      "heat": "爆",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "鄉民轉貼鉅亨網報導：輝達代理執行長克雷斯（Colette Kress）在法說會上表示，會持續支持 AI 新創與整體生態系，但隨著市場成熟、外部融資管道增加，將更嚴格評估投資、資金承諾與財務擔保，不會無限制投入資金。",
-     "bullets_html": [],
-     "table": null,
-     "dive_html": "克雷斯稱成長動能真實且持續增強、供應能力不斷提升，對新型雲端服務商（Neocloud）採「有紀律、具選擇性」的支持，CoreWeave 與 Nebius 股價盤後均漲逾 10%；輝達也可能為實力雄厚的客戶提供融資或財務擔保，但會「深入評估」。董事會主席 Harvey Jones 在法說會上排除黃仁勳回任執行長。板上反應兩極：原 PO 質疑這是否代表只投資科技巨頭；回文作者直言輝達「完全沒救」，認為黃仁勳的角色是替整個產業帶貨、把客戶硬體需求直接放進下一代設計，換成財務出身的經理人將失去這種節奏；也有推文認為「賣鏟子就專心賣鏟子」才對。",
-     "links": [
+     "also": [
       {
        "text": "鉅亨網原文",
        "url": "https://news.cnyes.com/news/id/6665808"
@@ -274,7 +221,11 @@
        "text": "PTT 回文",
        "url": "https://www.ptt.cc/bbs/Stock/M.1794975647.A.4EB.html"
       }
-     ]
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "克雷斯稱成長動能真實且持續增強、供應能力不斷提升，對新型雲端服務商（Neocloud）採「有紀律、具選擇性」的支持，CoreWeave 與 Nebius 股價盤後均漲逾 10%；輝達也可能為實力雄厚的客戶提供融資或財務擔保，但會「深入評估」。董事會主席 Harvey Jones 在法說會上排除黃仁勳回任執行長。板上反應兩極：原 PO 質疑這是否代表只投資科技巨頭；回文作者直言輝達「完全沒救」，認為黃仁勳的角色是替整個產業帶貨、把客戶硬體需求直接放進下一代設計，換成財務出身的經理人將失去這種節奏；也有推文認為「賣鏟子就專心賣鏟子」才對。"
     },
     {
      "type": "item",
@@ -282,25 +233,21 @@
      "title": "Java4Shell：OpenJDK 處理 Base64 時可遭遠端執行程式碼",
      "title_html": "Java4Shell：OpenJDK 處理 Base64 時可遭遠端執行程式碼",
      "url": "https://calif.io/java4shell/",
-     "source": "Hacker News",
-     "time": "11/18 05:11",
-     "rail_date": "",
-     "rail": "05:11",
-     "rail_kind": "time",
+     "src": "Hacker News",
+     "left": "11/18 05:11",
      "heat": "HN 758",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "研究員 Quang Luong 揭露，在受影響的 OpenJDK 版本上，惡意構造的 Base64 資料會對已配置的堆積記憶體造成固定值覆寫，再透過遠端 Heap Feng Shui 串成記憶體洩漏與遠端程式碼執行（RCE）。",
-     "bullets_html": [],
-     "table": null,
-     "dive_html": "問題出在 HotSpot 的 x86-64 Base64 intrinsic：C2 JIT 會把反覆呼叫的函式編成原生碼並改用 CPU 特化指令，輸入不足 64 位元組時以 VMOVDQU8 搭配 64 位元遮罩讀寫，而遮罩依「=」補位字元數更新時算錯，造成越界寫入。這個漏洞是作者讓 Codex 像資安研究員一樣審查 JIT 編譯器、intrinsics、常用 API 與密碼學模組後找到的；他坦言 Codex 早期回報多半是不可達或利用條件不切實際的雜訊，靠反覆追問才挖到 Base64 解碼器本身的記憶體破壞漏洞。",
-     "links": [
+     "also": [
       {
-       "text": "HN 討論",
+       "text": "Discussion",
        "url": "https://news.ycombinator.com/item?id=50538240"
       }
-     ]
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "問題出在 HotSpot 的 x86-64 Base64 intrinsic：C2 JIT 會把反覆呼叫的函式編成原生碼並改用 CPU 特化指令，輸入不足 64 位元組時以 VMOVDQU8 搭配 64 位元遮罩讀寫，而遮罩依「=」補位字元數更新時算錯，造成越界寫入。這個漏洞是作者讓 Codex 像資安研究員一樣審查 JIT 編譯器、intrinsics、常用 API 與密碼學模組後找到的；他坦言 Codex 早期回報多半是不可達或利用條件不切實際的雜訊，靠反覆追問才挖到 Base64 解碼器本身的記憶體破壞漏洞。"
     },
     {
      "type": "item",
@@ -308,25 +255,21 @@
      "title": "Apple 多項服務當機",
      "title_html": "Apple 多項服務當機",
      "url": "https://developer.apple.com/system-status/",
-     "source": "Hacker News",
-     "time": "11/18 01:47",
-     "rail_date": "",
-     "rail": "01:47",
-     "rail_kind": "time",
+     "src": "Hacker News",
+     "left": "11/18 01:47",
      "heat": "HN 674",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "HN 熱門討論串回報 Apple 多項服務中斷，連結指向 Apple Developer 系統狀態頁。",
-     "bullets_html": [],
-     "table": null,
-     "dive_html": "",
-     "links": [
+     "also": [
       {
-       "text": "HN 討論",
+       "text": "Discussion",
        "url": "https://news.ycombinator.com/item?id=50535238"
       }
-     ]
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": ""
     },
     {
      "type": "item",
@@ -334,25 +277,21 @@
      "title": "輝達營收衝上 1,040 億美元之際，停止揭露新加坡銷售額",
      "title_html": "輝達營收衝上 1,040 億美元之際，停止揭露新加坡銷售額",
      "url": "https://www.ft.com/content/dbde7a30-548c-4f9d-a4be-7898a0c24dcf",
-     "source": "Hacker News",
-     "time": "11/18 01:12",
-     "rail_date": "",
-     "rail": "01:12",
-     "rail_kind": "time",
+     "src": "Hacker News",
+     "left": "11/18 01:12",
      "heat": "HN 482",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "《金融時報》（FT）報導，輝達在營收衝上 1,040 億美元之際，停止揭露新加坡的銷售數字。",
-     "bullets_html": [],
-     "table": null,
-     "dive_html": "",
-     "links": [
+     "also": [
       {
-       "text": "HN 討論",
+       "text": "Discussion",
        "url": "https://news.ycombinator.com/item?id=50534631"
       }
-     ]
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": ""
     },
     {
      "type": "item",
@@ -360,20 +299,16 @@
      "title": "網友解密中國電信光纖數據機外掛 m01-b01-inner：能擷取手機號與 IMEI、遠端執行指令、掃描家中內網",
      "title_html": "網友解密中國電信光纖數據機外掛 m01-b01-inner：能擷取手機號與 IMEI、遠端執行指令、掃描家中內網",
      "url": "https://www.v2ex.com/t/1257838",
-     "source": "V2EX",
-     "time": "Hot",
-     "rail_date": "",
-     "rail": "熱門",
-     "rail_kind": "text",
+     "src": "V2EX",
+     "left": "Hot",
      "heat": "69 replies",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "V2EX 網友 doomsday616 從上海、浙江兩台中國電信光纖數據機（光貓）的行程記憶體匯出解密後的 Lua 原始碼，發現預裝外掛 m01-b01-inner 預設開啟的 xid 模組，會從流經數據機的 HTTP 網址、Referer、Cookie 比對手機號、IMEI、IMSI、OAID、IDFA、經緯度等識別資訊，每 30 分鐘上報一次。",
+     "also": [],
+     "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "這個外掛另具備以 root 遠端執行任意指令並回傳（shell 模組）、從電信伺服器下載掃描程式掃描整個區域網路（pscan，參數與 nmap 一致）、記錄完整 HTTP 網址與 HTTPS 網域、DNS 查詢甚至原始封包、劫持重導向網頁及遠端替換自身程式碼等能力；這些模組多數預設關閉、由伺服器下發設定開啟，作者總結「你的數據機今天做什麼，取決於電信伺服器今天發給它什麼」。業務邏輯藏在熵值 8.00 的加密 init.bin，執行時解密到 /tmp 載入後立刻刪除，再由核心模組 m01-b01.ko 逐包解析流量；兩台設備分屬中興 ZXHN G7615V2（ARM）與 ZNXT ZN-XG120（MIPS），廠商、晶片、省份都不同卻跑同一套外掛、連同一批伺服器，一般用戶在數據機後台看不到也關不掉。",
-     "links": []
+     "dive_html": "這個外掛另具備以 root 遠端執行任意指令並回傳（shell 模組）、從電信伺服器下載掃描程式掃描整個區域網路（pscan，參數與 nmap 一致）、記錄完整 HTTP 網址與 HTTPS 網域、DNS 查詢甚至原始封包、劫持重導向網頁及遠端替換自身程式碼等能力；這些模組多數預設關閉、由伺服器下發設定開啟，作者總結「你的數據機今天做什麼，取決於電信伺服器今天發給它什麼」。業務邏輯藏在熵值 8.00 的加密 init.bin，執行時解密到 /tmp 載入後立刻刪除，再由核心模組 m01-b01.ko 逐包解析流量；兩台設備分屬中興 ZXHN G7615V2（ARM）與 ZNXT ZN-XG120（MIPS），廠商、晶片、省份都不同卻跑同一套外掛、連同一批伺服器，一般用戶在數據機後台看不到也關不掉。"
     },
     {
      "type": "item",
@@ -381,22 +316,14 @@
      "title": "美國國安局機密通訊網路當機，官員指修補 AI 揪出的漏洞拖垮系統",
      "title_html": "美國國安局機密通訊網路當機，官員指修補 AI 揪出的漏洞拖垮系統",
      "url": "https://www.cnn.com/2026/11/17/politics/highly-classified-national-security-communications-network-goes-down",
-     "source": "Hacker News",
-     "time": "11/17 23:38",
-     "rail_date": "11/17",
-     "rail": "23:38",
-     "rail_kind": "time",
+     "src": "Hacker News",
+     "left": "11/17 23:38",
      "heat": "HN 544",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "CNN 引述 6 名知情人士報導，美國國安局（NSA）內部傳遞機密資訊的 NSANet 當機，NSA 週二晚間關閉園區、只留必要人員；國家情報總監 Jay Clayton 表示，起因是修補上月發現的 PHP 重大漏洞後，部分系統無法如預期恢復，目前沒有遭網攻的跡象。",
-     "bullets_html": [],
-     "table": null,
-     "dive_html": "NSA 官方說法是「例行維護期間的暫時性降級」。PHP 支撐全球約 70% 的網站，研究人員借助 AI 工具成功利用這批漏洞，引發各國政府與企業搶修，NSA 自己也曾呼籲各界套用修補程式。Washington Sun 引述 3 名知情人士指出，華爾街高層與 NSA 已向國會說明，本週全美航班一度全面暫停、銀行客戶無法登入帳戶與 NSANet 中斷，都源自修補 AI 模型找出的漏洞，一次推送的修補超出系統設計負荷；摩根大通週一將服務異常歸咎於軟體錯誤，國土安全部長 Markwayne Mullin 也說是「在很舊的系統上疊新技術」壓垮了系統，未來還會更常見。",
-     "links": [
+     "also": [
       {
-       "text": "HN 討論",
+       "text": "Discussion",
        "url": "https://news.ycombinator.com/item?id=50532849"
       },
       {
@@ -407,12 +334,15 @@
        "text": "Discussion（Washington Sun）",
        "url": "https://news.ycombinator.com/item?id=50540836"
       }
-     ]
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "NSA 官方說法是「例行維護期間的暫時性降級」。PHP 支撐全球約 70% 的網站，研究人員借助 AI 工具成功利用這批漏洞，引發各國政府與企業搶修，NSA 自己也曾呼籲各界套用修補程式。Washington Sun 引述 3 名知情人士指出，華爾街高層與 NSA 已向國會說明，本週全美航班一度全面暫停、銀行客戶無法登入帳戶與 NSANet 中斷，都源自修補 AI 模型找出的漏洞，一次推送的修補超出系統設計負荷；摩根大通週一將服務異常歸咎於軟體錯誤，國土安全部長 Markwayne Mullin 也說是「在很舊的系統上疊新技術」壓垮了系統，未來還會更常見。"
     }
    ]
   },
   {
-   "id": "s2",
    "name": "Hacker News AI Deep Dive（AI 深度讀）",
    "count": 9,
    "blocks": [
@@ -422,25 +352,21 @@
      "title": "我讓 AI 讀完整個研究領域：稽核 15.8 萬篇理論天文物理論文",
      "title_html": "我讓 AI 讀完整個研究領域：稽核 15.8 萬篇理論天文物理論文",
      "url": "https://science.caseyhandmer.com/physics/",
-     "source": "Hacker News",
-     "time": "11/18 13:26",
-     "rail_date": "",
-     "rail": "13:26",
-     "rail_kind": "time",
+     "src": "Hacker News",
+     "left": "11/18 13:26",
      "heat": "HN 13",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "作者讓 AI 讀完理論天文物理領域 158,059 篇論文、554,670 筆引用，篩檢所有有全文的論文，重新推導並查核其中 659 篇最重要的論文，再把每個確認的錯誤沿引用鏈追到所有引用它的論文。",
-     "bullets_html": [],
-     "table": null,
-     "dive_html": "作者在 Caltech 讀博五年，論文程式依據的 1997 年 Bishop 等人〈High-powered gravitational news〉方程式早知有錯，修正卻散落在約 1 萬行互相矛盾的電子郵件串裡，原論文從未更正。他的論點是：沒人會重推每條引用的方程式、審稿人只看一次、也沒人有誘因回頭修正原論文，機器卻能讀完整個領域、重算並把錯誤追到每篇抄用的論文。這次以 Caltech TAPIR 團隊 2004 年以來 326 名成員的 4,093 篇論文為種子向外擴展引用網絡，分出 32 個子領域，AI 也在他自己的論文裡抓到錯誤。",
-     "links": [
+     "also": [
       {
-       "text": "HN 討論",
+       "text": "Discussion",
        "url": "https://news.ycombinator.com/item?id=50542217"
       }
-     ]
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "作者在 Caltech 讀博五年，論文程式依據的 1997 年 Bishop 等人〈High-powered gravitational news〉方程式早知有錯，修正卻散落在約 1 萬行互相矛盾的電子郵件串裡，原論文從未更正。他的論點是：沒人會重推每條引用的方程式、審稿人只看一次、也沒人有誘因回頭修正原論文，機器卻能讀完整個領域、重算並把錯誤追到每篇抄用的論文。這次以 Caltech TAPIR 團隊 2004 年以來 326 名成員的 4,093 篇論文為種子向外擴展引用網絡，分出 32 個子領域，AI 也在他自己的論文裡抓到錯誤。"
     },
     {
      "type": "item",
@@ -448,25 +374,21 @@
      "title": "IMF 警告全球經濟「單腳站在 AI 上」，AI 循環融資破 1 兆美元",
      "title_html": "IMF 警告全球經濟「單腳站在 AI 上」，AI 循環融資破 1 兆美元",
      "url": "https://www.cnbc.com/2026/11/16/imf-georgieva-warning-ai-circular-financing.html",
-     "source": "Hacker News",
-     "time": "11/18 08:58",
-     "rail_date": "",
-     "rail": "08:58",
-     "rail_kind": "time",
+     "src": "Hacker News",
+     "left": "11/18 08:58",
      "heat": "HN 8",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "IMF 總裁 Kristalina Georgieva 在東協峰會場邊受訪時警告，全球經濟過度倚賴 AI 這「一條腿」，一旦搖晃就可能引發金融穩定問題；IMF 估計 AI 企業間的循環融資已略超過 1 兆美元，約三分之二靠舉債支應。",
-     "bullets_html": [],
-     "table": null,
-     "dive_html": "循環融資指投資 AI 公司的資金最後透過採購訂單流回投資方，輝達正是這類交易的核心，過去一個月市值蒸發逾 1 兆美元，黃仁勳婚外情風波也引發全球 AI 概念股拋售。瑞銀分析師 Tim Arcuri 估計，輝達若收手融資，可能從體系抽走 500 億美元以上，而升息已墊高企業借貸成本。IMF 10 月才把 2026 年全球成長預測上調至 3.1%，主要經濟體正倚賴 AI 投資撐住原本會被伊朗戰爭能源危機壓抑的成長；Capital Economics 也估計，近期全球出口擴張多達八成集中在 AI 相關商品。",
-     "links": [
+     "also": [
       {
-       "text": "HN 討論",
+       "text": "Discussion",
        "url": "https://news.ycombinator.com/item?id=50540491"
       }
-     ]
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "循環融資指投資 AI 公司的資金最後透過採購訂單流回投資方，輝達正是這類交易的核心，過去一個月市值蒸發逾 1 兆美元，黃仁勳婚外情風波也引發全球 AI 概念股拋售。瑞銀分析師 Tim Arcuri 估計，輝達若收手融資，可能從體系抽走 500 億美元以上，而升息已墊高企業借貸成本。IMF 10 月才把 2026 年全球成長預測上調至 3.1%，主要經濟體正倚賴 AI 投資撐住原本會被伊朗戰爭能源危機壓抑的成長；Capital Economics 也估計，近期全球出口擴張多達八成集中在 AI 相關商品。"
     },
     {
      "type": "item",
@@ -474,25 +396,21 @@
      "title": "Google AI 摘要讓網站點擊減少 40%",
      "title_html": "Google AI 摘要讓網站點擊減少 40%",
      "url": "https://revscope.co/blog/search-seo-geo-2026/",
-     "source": "Hacker News",
-     "time": "11/18 08:17",
-     "rail_date": "",
-     "rail": "08:17",
-     "rail_kind": "time",
+     "src": "Hacker News",
+     "left": "11/18 08:17",
      "heat": "HN 280",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "一項隨機實驗對部分美國桌機使用者隱藏 Google AI Overviews，比對後發現出現 AI 摘要時，外部網站的點擊約減少 40%。",
-     "bullets_html": [],
-     "table": null,
-     "dive_html": "在 DataForSEO 2,000 萬關鍵字的月度樣本中，出現 AI 摘要的比例從 2024 年 9 月的 5.93% 升到 2026 年 8 月的 61.43%，同期精選摘要從 8.96% 跌到 0.44%、論壇討論區塊從 21.13% 跌到 7.42%。換關鍵字也躲不掉：2025 年第四季到 2026 年第三季，資訊型查詢的觸發率從 48.42% 升到 70.44%，交易型也從 10.82% 升到 28.64%，低搜尋量關鍵字的觸發率反而更高。業界寄望的 GEO（生成式引擎最佳化）看來只是 SEO 再加「出現在 AI 引用的第三方網站」與「寫成好引用的頁面」兩招，而 3 月 AI 助理帶給網站的流量僅占 0.3%，尚無法彌補流失。",
-     "links": [
+     "also": [
       {
-       "text": "HN 討論",
+       "text": "Discussion",
        "url": "https://news.ycombinator.com/item?id=50540178"
       }
-     ]
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "在 DataForSEO 2,000 萬關鍵字的月度樣本中，出現 AI 摘要的比例從 2024 年 9 月的 5.93% 升到 2026 年 8 月的 61.43%，同期精選摘要從 8.96% 跌到 0.44%、論壇討論區塊從 21.13% 跌到 7.42%。換關鍵字也躲不掉：2025 年第四季到 2026 年第三季，資訊型查詢的觸發率從 48.42% 升到 70.44%，交易型也從 10.82% 升到 28.64%，低搜尋量關鍵字的觸發率反而更高。業界寄望的 GEO（生成式引擎最佳化）看來只是 SEO 再加「出現在 AI 引用的第三方網站」與「寫成好引用的頁面」兩招，而 3 月 AI 助理帶給網站的流量僅占 0.3%，尚無法彌補流失。"
     },
     {
      "type": "item",
@@ -500,25 +418,21 @@
      "title": "哈佛研究：AI 程式代理讓瓶頸轉移到程式碼審查",
      "title_html": "哈佛研究：AI 程式代理讓瓶頸轉移到程式碼審查",
      "url": "https://complexdiscovery.com/harvard-researchers-find-ai-coding-agents-shifted-the-bottleneck-to-code-review/",
-     "source": "Hacker News",
-     "time": "11/18 05:16",
-     "rail_date": "",
-     "rail": "05:16",
-     "rail_kind": "time",
+     "src": "Hacker News",
+     "left": "11/18 05:16",
      "heat": "HN 141",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "哈佛博士候選人 Fiona Chen 與 James Stratton 的工作論文追蹤 718 家公司、725,938 名工作者，發現導入 AI 程式代理的公司，工程師多寫約 30% 的程式碼，完成的工作量卻沒有可測得的增加，程式碼通過審查的時間反而拉長 49%。",
-     "bullets_html": [],
-     "table": null,
-     "dive_html": "資料來自工程分析平台 Jellyfish 同意提供研究的客戶，再串接 Revelio Labs 蒐集的 LinkedIn 任職紀錄，樣本涵蓋 2021 年 1 月到 2026 年 3 月、6,830 萬筆 Jira 議題與逾 2 億次 commit；這是一篇求職論文，尚無完成同儕審查的跡象。ComplexDiscovery 據此建議法律 AI 買家別只看起草產出，也要量測核准的成品、修訂率與審查者耗時，因為 Harvey 與 Cooley 近期發表的法律 AI 工作流同樣把律師放在審查關卡，卻都沒公布這一段的數據。",
-     "links": [
+     "also": [
       {
-       "text": "HN 討論",
+       "text": "Discussion",
        "url": "https://news.ycombinator.com/item?id=50538303"
       }
-     ]
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "資料來自工程分析平台 Jellyfish 同意提供研究的客戶，再串接 Revelio Labs 蒐集的 LinkedIn 任職紀錄，樣本涵蓋 2021 年 1 月到 2026 年 3 月、6,830 萬筆 Jira 議題與逾 2 億次 commit；這是一篇求職論文，尚無完成同儕審查的跡象。ComplexDiscovery 據此建議法律 AI 買家別只看起草產出，也要量測核准的成品、修訂率與審查者耗時，因為 Harvey 與 Cooley 近期發表的法律 AI 工作流同樣把律師放在審查關卡，卻都沒公布這一段的數據。"
     },
     {
      "type": "item",
@@ -526,25 +440,21 @@
      "title": "不是什麼都需要 LLM：PostHog 用決策模型讓 98.7% 的請求免呼叫 LLM",
      "title_html": "不是什麼都需要 LLM：PostHog 用決策模型讓 98.7% 的請求免呼叫 LLM",
      "url": "https://newsletter.posthog.com/p/decision-models",
-     "source": "Hacker News",
-     "time": "11/18 02:16",
-     "rail_date": "",
-     "rail": "02:16",
-     "rail_kind": "time",
+     "src": "Hacker News",
+     "left": "11/18 02:16",
      "heat": "HN 141",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "PostHog 的 Jina Yoon 分享在正式環境使用「決策模型」的經驗：問結構化問題、拿到帶機率的型別化答案，成本最多比前沿模型便宜 444.6 倍、速度快 193.6 倍，適合先過濾再決定要不要呼叫昂貴的 LLM。",
-     "bullets_html": [],
-     "table": null,
-     "dive_html": "在 Replay Vision 的個資清洗流程中，每份工作階段摘要先問兩個是非題（是否點名真實人物、是否露出聯絡資訊或證件號碼），任一分數達 0.4 才交給 Gemini 改寫，正式環境有 98.7% 完全不必呼叫 LLM；拆成窄問題也讓誤報降到單一問題的約十分之一。門檻依哪種錯誤代價高而定：漏報會把個資當乾淨資料存下，所以設低到 0.4；Slack 機器人為了不亂插話，則要兩項都達 0.85 才回應。作者也提醒，0.85 的分數仍代表每千次約有 150 次答錯。",
-     "links": [
+     "also": [
       {
-       "text": "HN 討論",
+       "text": "Discussion",
        "url": "https://news.ycombinator.com/item?id=50535740"
       }
-     ]
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "在 Replay Vision 的個資清洗流程中，每份工作階段摘要先問兩個是非題（是否點名真實人物、是否露出聯絡資訊或證件號碼），任一分數達 0.4 才交給 Gemini 改寫，正式環境有 98.7% 完全不必呼叫 LLM；拆成窄問題也讓誤報降到單一問題的約十分之一。門檻依哪種錯誤代價高而定：漏報會把個資當乾淨資料存下，所以設低到 0.4；Slack 機器人為了不亂插話，則要兩項都達 0.85 才回應。作者也提醒，0.85 的分數仍代表每千次約有 150 次答錯。"
     },
     {
      "type": "item",
@@ -552,22 +462,14 @@
      "title": "OpenAI 發表 GPT-6.2 Astra 與 Sol",
      "title_html": "OpenAI 發表 GPT-6.2 Astra 與 Sol",
      "url": "https://openai.com/index/introducing-gpt-6-2-astra-sol/",
-     "source": "Hacker News",
-     "time": "11/18 01:46",
-     "rail_date": "",
-     "rail": "01:46",
-     "rail_kind": "time",
+     "src": "Hacker News",
+     "left": "11/18 01:46",
      "heat": "HN 1201",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "OpenAI 推出 GPT-6.2 Astra 與 Sol 兩款模型；ARC Prize 公布 Astra 在最高推理設定下拿下 ARC-AGI-3 滿分 100%，Sol 在高推理設定下以 98.2% 緊追，成本低 64%。",
-     "bullets_html": [],
-     "table": null,
-     "dive_html": "ARC Prize 公布的 Sol 細項：ARC-AGI-3 用供應商轉接 harness 得 98.2%、花費 1,500 美元，標準 harness 只有 54.9%、花費 5,500 美元；ARC-AGI-2 得 85.8%（每題 0.13 美元），ARC-AGI-1 得 97.5%（每題 0.06 美元）。開發者實測評價兩極：T3 的 Theo 在致 OpenAI 的公開信中肯定 Astra 審查程式碼的能力、偶有新穎解法（幫他設計出每月省 2.5 萬美元的反向代理），3D 與遊戲任務世界級、電腦操作驚人；但批評它不懂自己的知識缺口，長任務中常拿內部實作細節問使用者而卡住（下令「為 Outer Wilds 做新關卡」兩小時後，停下來問某個影片片段該寫進哪個檔名），輸出也難以理解，因此他不會選它取代 Opus 5.5。",
-     "links": [
+     "also": [
       {
-       "text": "HN 討論",
+       "text": "Discussion",
        "url": "https://news.ycombinator.com/item?id=50535230"
       },
       {
@@ -594,7 +496,11 @@
        "text": "Discussion（Theo 轉貼）",
        "url": "https://news.ycombinator.com/item?id=50539448"
       }
-     ]
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "ARC Prize 公布的 Sol 細項：ARC-AGI-3 用供應商轉接 harness 得 98.2%、花費 1,500 美元，標準 harness 只有 54.9%、花費 5,500 美元；ARC-AGI-2 得 85.8%（每題 0.13 美元），ARC-AGI-1 得 97.5%（每題 0.06 美元）。開發者實測評價兩極：T3 的 Theo 在致 OpenAI 的公開信中肯定 Astra 審查程式碼的能力、偶有新穎解法（幫他設計出每月省 2.5 萬美元的反向代理），3D 與遊戲任務世界級、電腦操作驚人；但批評它不懂自己的知識缺口，長任務中常拿內部實作細節問使用者而卡住（下令「為 Outer Wilds 做新關卡」兩小時後，停下來問某個影片片段該寫進哪個檔名），輸出也難以理解，因此他不會選它取代 Opus 5.5。"
     },
     {
      "type": "item",
@@ -602,25 +508,21 @@
      "title": "Show HN：TrnRT，開源的 AWS Trainium 大型語言模型推論引擎",
      "title_html": "Show HN：TrnRT，開源的 AWS Trainium 大型語言模型推論引擎",
      "url": "https://github.com/RunanywhereAI/trnrt",
-     "source": "Hacker News",
-     "time": "11/18 00:01",
-     "rail_date": "",
-     "rail": "00:01",
-     "rail_kind": "time",
+     "src": "Hacker News",
+     "left": "11/18 00:01",
      "heat": "HN 47",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "RunanywhereAI 開源 TrnRT，在單台 trn2.48xlarge 上提供 OpenAI 相容 API（含串流、工具呼叫與推理輸出），首個支援的模型是 GLM-5.3-Flash。",
-     "bullets_html": [],
-     "table": null,
-     "dive_html": "解碼階段以 NKI megakernel 實作，約每半層一個融合核心，涵蓋 KDA 注意力、融合 DSA 層、mHC 與 MoE FFN；靠稀疏注意力（top 2,048）加線性注意力支援 100 萬 token 上下文，prefix cache 以 radix tree 管理 FP8 KV 分頁，並有主機記憶體層存放被逐出的分頁。每台機器跑兩個引擎、各自在 32 個邏輯 NeuronCore 上做張量平行，所有計算圖都在 CPU 主機離線編譯（建編譯快取需數小時），服務端預設不再編譯。",
-     "links": [
+     "also": [
       {
-       "text": "HN 討論",
+       "text": "Discussion",
        "url": "https://news.ycombinator.com/item?id=50533270"
       }
-     ]
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "解碼階段以 NKI megakernel 實作，約每半層一個融合核心，涵蓋 KDA 注意力、融合 DSA 層、mHC 與 MoE FFN；靠稀疏注意力（top 2,048）加線性注意力支援 100 萬 token 上下文，prefix cache 以 radix tree 管理 FP8 KV 分頁，並有主機記憶體層存放被逐出的分頁。每台機器跑兩個引擎、各自在 32 個邏輯 NeuronCore 上做張量平行，所有計算圖都在 CPU 主機離線編譯（建編譯快取需數小時），服務端預設不再編譯。"
     },
     {
      "type": "item",
@@ -628,25 +530,21 @@
      "title": "百度、小米執行長警告 AI 炒作與實際回報的落差正在擴大",
      "title_html": "百度、小米執行長警告 AI 炒作與實際回報的落差正在擴大",
      "url": "https://www.scmp.com/tech/big-tech/article/3374774/baidu-xiaomi-ceos-warn-growing-gap-between-ai-hype-and-returns",
-     "source": "Hacker News",
-     "time": "11/17 22:19",
-     "rail_date": "11/17",
-     "rail": "22:19",
-     "rail_kind": "time",
+     "src": "Hacker News",
+     "left": "11/17 22:19",
      "heat": "HN 186",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "《南華早報》報導，百度與小米執行長示警，AI 熱潮與實際投資回報之間的落差正在擴大。",
-     "bullets_html": [],
-     "table": null,
-     "dive_html": "",
-     "links": [
+     "also": [
       {
-       "text": "HN 討論",
+       "text": "Discussion",
        "url": "https://news.ycombinator.com/item?id=50531751"
       }
-     ]
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": ""
     },
     {
      "type": "item",
@@ -654,30 +552,25 @@
      "title": "Claude Code 團隊如何看待驗證",
      "title_html": "Claude Code 團隊如何看待驗證",
      "url": "https://claude.dev/blog/how-the-claude-code-team-thinks-about-verification/",
-     "source": "Hacker News",
-     "time": "11/17 18:20",
-     "rail_date": "11/17",
-     "rail": "18:20",
-     "rail_kind": "time",
+     "src": "Hacker News",
+     "left": "11/17 18:20",
      "heat": "HN 278",
      "tags": [],
-     "fill": false,
-     "lang": "",
      "summary_html": "Addy Osmani 撰文指出 Claude Code 團隊約 90% 的程式碼由 Claude 撰寫與審查，關鍵在讓代理用證據驗證自己的成果：有驗證迴圈就能平行跑數十甚至上百個 Claude，否則只能一次盯一兩個。",
-     "bullets_html": [],
-     "table": null,
-     "dive_html": "內部結構化檔案生成測試中，另設評分者依評分表檢查 Claude 的成果，任務成功率比一般提示迴圈最多高 10 個百分點，越難的題目進步越多。文章建議優先投資端對端（E2E）、屬性（property）與差異（differential）三類測試，其中 E2E 最難被騙：功能要嘛整個能用、要嘛不能；也提醒不穩定的測試會讓代理學會重跑而不是修程式，太慢的測試則讓代理少測。代理反覆犯同一個錯（例如日誌含使用者資料）時，可把規則寫進 hook 或 CLAUDE.md 來關閉迴圈。",
-     "links": [
+     "also": [
       {
-       "text": "HN 討論",
+       "text": "Discussion",
        "url": "https://news.ycombinator.com/item?id=50529612"
       }
-     ]
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "內部結構化檔案生成測試中，另設評分者依評分表檢查 Claude 的成果，任務成功率比一般提示迴圈最多高 10 個百分點，越難的題目進步越多。文章建議優先投資端對端（E2E）、屬性（property）與差異（differential）三類測試，其中 E2E 最難被騙：功能要嘛整個能用、要嘛不能；也提醒不穩定的測試會讓代理學會重跑而不是修程式，太慢的測試則讓代理少測。代理反覆犯同一個錯（例如日誌含使用者資料）時，可把規則寫進 hook 或 CLAUDE.md 來關閉迴圈。"
     }
    ]
   },
   {
-   "id": "s3",
    "name": "GitHub Trending（開源精選）",
    "count": 11,
    "blocks": [
@@ -687,20 +580,18 @@
      "title": "obra/superpowers：給 AI 程式代理的技能框架與開發方法論",
      "title_html": "obra/superpowers：給 AI 程式代理的技能框架與開發方法論",
      "url": "https://github.com/obra/superpowers",
-     "source": "GitHub Trending",
-     "time": "Today",
-     "rail_date": "",
-     "rail": "+1.9k★",
-     "rail_kind": "heat",
+     "src": "GitHub Trending",
+     "left": "Today",
      "heat": "+1,917 stars today",
      "tags": [],
-     "fill": false,
-     "lang": "Shell",
      "summary_html": "用一組可組合的技能加上初始指令，讓程式代理開工前先問清需求、分段確認規格，再寫出連缺乏專案脈絡的新手工程師也能照做的實作計畫。",
-     "bullets_html": [],
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Lang</strong>: Shell"
+     ],
      "table": null,
-     "dive_html": "流程強調真正的紅綠 TDD、YAGNI 與 DRY，使用者下令開工後改由子代理逐項實作並互相審查，作者稱代理常能照計畫自主工作數小時。技能會依情境自動觸發、不需特別呼叫，支援 Claude Code（官方外掛市集）、Codex、Cursor、Gemini CLI、GitHub Copilot CLI、Kimi Code、Qwen Code 等十多種 harness，另有企業商業支援方案。#AgentSkills #TDD #SubagentDriven",
-     "links": []
+     "dive_html": "流程強調真正的紅綠 TDD、YAGNI 與 DRY，使用者下令開工後改由子代理逐項實作並互相審查，作者稱代理常能照計畫自主工作數小時。技能會依情境自動觸發、不需特別呼叫，支援 Claude Code（官方外掛市集）、Codex、Cursor、Gemini CLI、GitHub Copilot CLI、Kimi Code、Qwen Code 等十多種 harness，另有企業商業支援方案。#AgentSkills #TDD #SubagentDriven"
     },
     {
      "type": "item",
@@ -708,20 +599,18 @@
      "title": "dream-num/univer：可嵌入自家產品的 AI 辦公室 SDK",
      "title_html": "dream-num/univer：可嵌入自家產品的 AI 辦公室 SDK",
      "url": "https://github.com/dream-num/univer",
-     "source": "GitHub Trending",
-     "time": "Today",
-     "rail_date": "",
-     "rail": "+1.8k★",
-     "rail_kind": "heat",
+     "src": "GitHub Trending",
+     "left": "Today",
      "heat": "+1,774 stars today",
      "tags": [],
-     "fill": false,
-     "lang": "TypeScript",
      "summary_html": "讓開發者把試算表、文件等 Office 編輯、計算、協作與檔案處理能力嵌進自家產品，人和既有的 AI 代理都能用同一套資料與權限操作。",
-     "bullets_html": [],
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Lang</strong>: TypeScript"
+     ],
      "table": null,
-     "dive_html": "Univer Office SDK 分三層：Web SDK 提供內容模型、編輯、渲染、公式計算與 Facade API，Server SDK 負責即時協作、編輯歷史與 Office 檔匯入匯出，AI SDK 把 Office 能力接到代理與工作流。本 repo 以 Apache-2.0 開源 Web SDK 核心與 Sheets、Docs 編輯能力，商業外掛、Server SDK 與 AI SDK 擴充另行授權；代理可直接呼叫同一套開源 API，模型與工具編排由應用端自行提供。#OfficeSDK #Spreadsheet #AgentReady",
-     "links": []
+     "dive_html": "Univer Office SDK 分三層：Web SDK 提供內容模型、編輯、渲染、公式計算與 Facade API，Server SDK 負責即時協作、編輯歷史與 Office 檔匯入匯出，AI SDK 把 Office 能力接到代理與工作流。本 repo 以 Apache-2.0 開源 Web SDK 核心與 Sheets、Docs 編輯能力，商業外掛、Server SDK 與 AI SDK 擴充另行授權；代理可直接呼叫同一套開源 API，模型與工具編排由應用端自行提供。#OfficeSDK #Spreadsheet #AgentReady"
     },
     {
      "type": "item",
@@ -729,20 +618,18 @@
      "title": "ag-ui-protocol/ag-ui：代理與使用者介面之間的開放事件協定",
      "title_html": "ag-ui-protocol/ag-ui：代理與使用者介面之間的開放事件協定",
      "url": "https://github.com/ag-ui-protocol/ag-ui",
-     "source": "GitHub Trending",
-     "time": "Today",
-     "rail_date": "",
-     "rail": "+1.4k★",
-     "rail_kind": "heat",
+     "src": "GitHub Trending",
+     "left": "Today",
      "heat": "+1,445 stars today",
      "tags": [],
-     "fill": false,
-     "lang": "TypeScript",
      "summary_html": "AG-UI 用一條雙向事件串流取代各框架自刻的接線：代理送出型別化事件，任何前端都能渲染，同一個代理可以同時驅動網頁、行動 App、終端機或 Slack。",
-     "bullets_html": [],
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Lang</strong>: TypeScript"
+     ],
      "table": null,
-     "dive_html": "代理會串流 token、在回應中途呼叫工具、更新共享狀態、暫停等人確認或衍生子代理，傳統請求／回應模型裝不下。AG-UI 1.0 已釋出，規格凍結並以 JSON Schema 定義，TypeScript、Python、.NET SDK 都由規格產生，且與 0.x 雙向相容；官方 CLI 可直接生成 CopilotKit（Next.js）或終端機前端，約 30 行就能寫出一組代理伺服器與客戶端。#AgentProtocol #Streaming #CopilotKit",
-     "links": []
+     "dive_html": "代理會串流 token、在回應中途呼叫工具、更新共享狀態、暫停等人確認或衍生子代理，傳統請求／回應模型裝不下。AG-UI 1.0 已釋出，規格凍結並以 JSON Schema 定義，TypeScript、Python、.NET SDK 都由規格產生，且與 0.x 雙向相容；官方 CLI 可直接生成 CopilotKit（Next.js）或終端機前端，約 30 行就能寫出一組代理伺服器與客戶端。#AgentProtocol #Streaming #CopilotKit"
     },
     {
      "type": "item",
@@ -750,20 +637,18 @@
      "title": "google-research/paper-orchestra：自動撰寫 AI 研究論文的多代理框架",
      "title_html": "google-research/paper-orchestra：自動撰寫 AI 研究論文的多代理框架",
      "url": "https://github.com/google-research/paper-orchestra",
-     "source": "GitHub Trending",
-     "time": "Today",
-     "rail_date": "",
-     "rail": "+1.1k★",
-     "rail_kind": "heat",
+     "src": "GitHub Trending",
+     "left": "Today",
      "heat": "+1,072 stars today",
      "tags": [],
-     "fill": false,
-     "lang": "Python",
      "summary_html": "把點子與實驗紀錄等未整理的寫作素材，轉成可直接投稿的 LaTeX 論文，包含文獻綜述與自動生成的圖表、概念示意圖。",
-     "bullets_html": [],
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Lang</strong>: Python"
+     ],
      "table": null,
-     "dive_html": "出自 Google Cloud AI Research 的 Yiwen Song、Yale Song、Tomas Pfister 與 Jinsung Yoon，由大綱、文獻回顧、章節撰寫、內容修潤與繪圖五種代理分工，並依目標會議範本輸出 LaTeX。可接 Gemini（Vertex AI）或 OpenAI 模型，文獻檢索走 Semantic Scholar API；論文生成用的資料集尚未隨程式碼釋出，官方表示日後另行公開。#MultiAgent #ResearchAutomation #LaTeX",
-     "links": []
+     "dive_html": "出自 Google Cloud AI Research 的 Yiwen Song、Yale Song、Tomas Pfister 與 Jinsung Yoon，由大綱、文獻回顧、章節撰寫、內容修潤與繪圖五種代理分工，並依目標會議範本輸出 LaTeX。可接 Gemini（Vertex AI）或 OpenAI 模型，文獻檢索走 Semantic Scholar API；論文生成用的資料集尚未隨程式碼釋出，官方表示日後另行公開。#MultiAgent #ResearchAutomation #LaTeX"
     },
     {
      "type": "item",
@@ -771,20 +656,18 @@
      "title": "elementalsouls/Claude-BugHunter：漏洞獵捕與紅隊演練的 Claude Code 技能包",
      "title_html": "elementalsouls/Claude-BugHunter：漏洞獵捕與紅隊演練的 Claude Code 技能包",
      "url": "https://github.com/elementalsouls/Claude-BugHunter",
-     "source": "GitHub Trending",
-     "time": "Today",
-     "rail_date": "",
-     "rail": "+1k★",
-     "rail_kind": "heat",
+     "src": "GitHub Trending",
+     "left": "Today",
      "heat": "+1,005 stars today",
      "tags": [],
-     "fill": false,
-     "lang": "Python",
      "summary_html": "安裝後讓 Claude Code 依測試主題自動載入對應技能，像資深漏洞獵人或紅隊操作員一樣規劃、測試、驗證並撰寫報告，用於授權的漏洞賞金與外部紅隊任務。",
-     "bullets_html": [],
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Lang</strong>: Python"
+     ],
      "table": null,
-     "dive_html": "README 列出 83 個技能（標題寫 82）、15 個斜線指令，以及從 681 份已公開 HackerOne 報告整理、橫跨 24 類核心漏洞的模式，其中 433 個附個別出處可稽核；技能分四層：思考方法論、58 個網頁漏洞獵捕技能、M365／Entra、Okta、vCenter、SSL-VPN 等企業平台的 2024–2026 CVE 攻擊鏈，以及含 PII 遮蔽的分級與報告流程，並整合 Burp MCP。作者 Sachin Sharma 稱已在授權演練與 DVWA、OWASP Juice Shop 等訓練平台實戰驗證。#Security #RedTeam #ClaudeCode",
-     "links": []
+     "dive_html": "README 列出 83 個技能（標題寫 82）、15 個斜線指令，以及從 681 份已公開 HackerOne 報告整理、橫跨 24 類核心漏洞的模式，其中 433 個附個別出處可稽核；技能分四層：思考方法論、58 個網頁漏洞獵捕技能、M365／Entra、Okta、vCenter、SSL-VPN 等企業平台的 2024–2026 CVE 攻擊鏈，以及含 PII 遮蔽的分級與報告流程，並整合 Burp MCP。作者 Sachin Sharma 稱已在授權演練與 DVWA、OWASP Juice Shop 等訓練平台實戰驗證。#Security #RedTeam #ClaudeCode"
     },
     {
      "type": "item",
@@ -792,20 +675,18 @@
      "title": "affaan-m/ECC：跨 harness 的代理效能最佳化系統",
      "title_html": "affaan-m/ECC：跨 harness 的代理效能最佳化系統",
      "url": "https://github.com/affaan-m/ECC",
-     "source": "GitHub Trending",
-     "time": "Today",
-     "rail_date": "",
-     "rail": "+883★",
-     "rail_kind": "heat",
+     "src": "GitHub Trending",
+     "left": "Today",
      "heat": "+883 stars today",
      "tags": [],
-     "fill": false,
-     "lang": "JavaScript",
      "summary_html": "把「規劃、測試、實作、審查、驗證、記憶、改進」這套工程流程一次裝進 Claude Code、Codex 等代理，不必每次在提示詞裡重建。",
-     "bullets_html": [],
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Lang</strong>: JavaScript"
+     ],
      "table": null,
-     "dive_html": "內含 72 個代理、327 個技能、98 個舊版指令相容層，加上 hooks、規則、記憶、持續學習與 AgentShield 安全掃描（檢查提示詞、hooks、MCP 設定、權限、機密與代理檔）。以 MIT 授權開源，對 Claude Code 支援最完整，Codex 與 Qoder 有原生外掛，Cursor、Gemini、Zed 等則是功能受限的轉接；私有 repo 用的 GitHub App 每席每月 19 美元起。專案特別警告只從官方管道安裝，第三方轉傳版本可能夾帶惡意程式。#AgentHarness #Skills #Security",
-     "links": []
+     "dive_html": "內含 72 個代理、327 個技能、98 個舊版指令相容層，加上 hooks、規則、記憶、持續學習與 AgentShield 安全掃描（檢查提示詞、hooks、MCP 設定、權限、機密與代理檔）。以 MIT 授權開源，對 Claude Code 支援最完整，Codex 與 Qoder 有原生外掛，Cursor、Gemini、Zed 等則是功能受限的轉接；私有 repo 用的 GitHub App 每席每月 19 美元起。專案特別警告只從官方管道安裝，第三方轉傳版本可能夾帶惡意程式。#AgentHarness #Skills #Security"
     },
     {
      "type": "item",
@@ -813,20 +694,18 @@
      "title": "alibaba/open-code-review：阿里巴巴開源的 AI 程式碼審查 CLI",
      "title_html": "alibaba/open-code-review：阿里巴巴開源的 AI 程式碼審查 CLI",
      "url": "https://github.com/alibaba/open-code-review",
-     "source": "GitHub Trending",
-     "time": "Today",
-     "rail_date": "",
-     "rail": "+763★",
-     "rail_kind": "heat",
+     "src": "GitHub Trending",
+     "left": "Today",
      "heat": "+763 stars today",
      "tags": [],
-     "fill": false,
-     "lang": "Go",
      "summary_html": "讀取 Git diff 交給具工具呼叫能力的 LLM 代理審查，產出精確到行的結構化評論；也能用 ocr scan 稽核沒有 diff 可看的整個目錄。",
-     "bullets_html": [],
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Lang</strong>: Go"
+     ],
      "table": null,
-     "dive_html": "原為阿里巴巴內部官方 AI 審查助手，兩年來服務數萬名開發者、找出數百萬個缺陷。它把確定性流程與代理混搭，針對通用代理審查常見的漏看檔案、行號漂移與品質不穩加上硬約束；在 50 個開源 repo、200 個真實 PR、由 80 多位資深工程師標註 1,505 個問題的 AACR-Bench 上，同模型下 Precision 與 F1 明顯高於 Claude Code，token 只用約九分之一，Recall 較低則是刻意取捨。#CodeReview #LLMAgent #DevTools",
-     "links": []
+     "dive_html": "原為阿里巴巴內部官方 AI 審查助手，兩年來服務數萬名開發者、找出數百萬個缺陷。它把確定性流程與代理混搭，針對通用代理審查常見的漏看檔案、行號漂移與品質不穩加上硬約束；在 50 個開源 repo、200 個真實 PR、由 80 多位資深工程師標註 1,505 個問題的 AACR-Bench 上，同模型下 Precision 與 F1 明顯高於 Claude Code，token 只用約九分之一，Recall 較低則是刻意取捨。#CodeReview #LLMAgent #DevTools"
     },
     {
      "type": "item",
@@ -834,20 +713,18 @@
      "title": "mvanhorn/last30days-skill：彙整近 30 天社群聲量的研究技能",
      "title_html": "mvanhorn/last30days-skill：彙整近 30 天社群聲量的研究技能",
      "url": "https://github.com/mvanhorn/last30days-skill",
-     "source": "GitHub Trending",
-     "time": "Today",
-     "rail_date": "",
-     "rail": "+696★",
-     "rail_kind": "heat",
+     "src": "GitHub Trending",
+     "left": "Today",
      "heat": "+696 stars today",
      "tags": [],
-     "fill": false,
-     "lang": "Python",
      "summary_html": "讓 AI 代理平行搜尋 Reddit、X、YouTube、HN、Polymarket 與網路，依按讚、upvote 與真金白銀的押注評分，再彙整成有出處的摘要。",
-     "bullets_html": [],
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Lang</strong>: Python"
+     ],
      "table": null,
-     "dive_html": "作者主張 Google 彙整的是編輯，這個工具搜的是人：各平台都是有自己 API 與驗證的圍牆花園，使用者帶自己的金鑰與瀏覽器工作階段，代理就能一次跨平台搜尋並相互比較。Reddit、HN、Polymarket、GitHub 免設定即可用，設定精靈再解鎖 X、YouTube、TikTok、arXiv 等來源；可從 Claude Code 外掛市集安裝，也支援 50 多種相容 Agent Skills 的工具。#AgentSkills #Research #SocialListening",
-     "links": []
+     "dive_html": "作者主張 Google 彙整的是編輯，這個工具搜的是人：各平台都是有自己 API 與驗證的圍牆花園，使用者帶自己的金鑰與瀏覽器工作階段，代理就能一次跨平台搜尋並相互比較。Reddit、HN、Polymarket、GitHub 免設定即可用，設定精靈再解鎖 X、YouTube、TikTok、arXiv 等來源；可從 Claude Code 外掛市集安裝，也支援 50 多種相容 Agent Skills 的工具。#AgentSkills #Research #SocialListening"
     },
     {
      "type": "item",
@@ -855,20 +732,18 @@
      "title": "backnotprop/plannotator：盯住 AI 代理的審閱與標註工作區",
      "title_html": "backnotprop/plannotator：盯住 AI 代理的審閱與標註工作區",
      "url": "https://github.com/backnotprop/plannotator",
-     "source": "GitHub Trending",
-     "time": "Today",
-     "rail_date": "",
-     "rail": "+691★",
-     "rail_kind": "heat",
+     "src": "GitHub Trending",
+     "left": "Today",
      "heat": "+691 stars today",
      "tags": [],
-     "fill": false,
-     "lang": "TypeScript",
      "summary_html": "代理提出決策、計畫或完成工作時，在本機瀏覽器開啟介面，讓你直接標註計畫、規格、HTML 與程式碼差異，一鍵把回饋送回代理。",
-     "bullets_html": [],
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Lang</strong>: TypeScript"
+     ],
      "table": null,
-     "dive_html": "新推出的 Plannotator Inbox 是多代理協作時的審閱層：代理邊做邊在同一個視窗留下訊息、問題、檔案與導讀式審查，你有空再回覆，回覆會送回提問的那個工作階段，等待期間也不會卡住代理。支援 Claude Code、Codex、Copilot CLI、Gemini CLI、OpenCode 等，程式碼審查涵蓋 Git、Jujutsu、Perforce、GitHub 與 GitLab，大型變更可由代理把 diff 依重要性分章導讀。#HumanInTheLoop #CodeReview #Agents",
-     "links": []
+     "dive_html": "新推出的 Plannotator Inbox 是多代理協作時的審閱層：代理邊做邊在同一個視窗留下訊息、問題、檔案與導讀式審查，你有空再回覆，回覆會送回提問的那個工作階段，等待期間也不會卡住代理。支援 Claude Code、Codex、Copilot CLI、Gemini CLI、OpenCode 等，程式碼審查涵蓋 Git、Jujutsu、Perforce、GitHub 與 GitLab，大型變更可由代理把 diff 依重要性分章導讀。#HumanInTheLoop #CodeReview #Agents"
     },
     {
      "type": "item",
@@ -876,20 +751,18 @@
      "title": "Tencent/LoopForge：自架的 AI 程式代理交付工作流平台",
      "title_html": "Tencent/LoopForge：自架的 AI 程式代理交付工作流平台",
      "url": "https://github.com/Tencent/LoopForge",
-     "source": "GitHub Trending",
-     "time": "Today",
-     "rail_date": "",
-     "rail": "+591★",
-     "rail_kind": "heat",
+     "src": "GitHub Trending",
+     "left": "Today",
      "heat": "+591 stars today",
      "tags": [],
-     "fill": false,
-     "lang": "Go",
      "summary_html": "騰訊開源的自架工作區：在聊天中把需求交給 Main Bot，它會開 Docker 沙箱、拉取 repo、分派給專案角色並開 PR；驗證有效的做法可存成 SOP，讓後續需求照同一流程交付。",
-     "bullets_html": [],
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Lang</strong>: Go"
+     ],
      "table": null,
-     "dive_html": "SOP 由代理、腳本、人工審核關卡與子 SOP 節點組成，規劃、實作、審查、測試各有獨立的提示詞、執行器、模型、規則、技能與 MCP 工具，避免代理自己審自己。可用 CodeBuddy、Codex、Claude Code、OpenCode、Cursor CLI 等十種 CLI 當執行器，節點狀態、工具軌跡與日誌集中呈現，可暫停、重試或從任一節點重跑，並內建後端、前端、修 bug 與產品 SOP，以 MIT 授權部署在自家基礎設施。#Workflow #HumanGate #SelfHosted",
-     "links": []
+     "dive_html": "SOP 由代理、腳本、人工審核關卡與子 SOP 節點組成，規劃、實作、審查、測試各有獨立的提示詞、執行器、模型、規則、技能與 MCP 工具，避免代理自己審自己。可用 CodeBuddy、Codex、Claude Code、OpenCode、Cursor CLI 等十種 CLI 當執行器，節點狀態、工具軌跡與日誌集中呈現，可暫停、重試或從任一節點重跑，並內建後端、前端、修 bug 與產品 SOP，以 MIT 授權部署在自家基礎設施。#Workflow #HumanGate #SelfHosted"
     },
     {
      "type": "item",
@@ -897,27 +770,25 @@
      "title": "cursor/plugins：Cursor 外掛規格與官方外掛集",
      "title_html": "cursor/plugins：Cursor 外掛規格與官方外掛集",
      "url": "https://github.com/cursor/plugins",
-     "source": "GitHub Trending",
-     "time": "Today",
-     "rail_date": "",
-     "rail": "+201★",
-     "rail_kind": "heat",
+     "src": "GitHub Trending",
+     "left": "Today",
      "heat": "+201 stars today",
      "tags": [],
-     "fill": false,
-     "lang": "TypeScript",
      "summary_html": "Cursor 公開外掛規格與一批官方外掛，每個外掛是 repo 根目錄下附 .cursor-plugin/plugin.json 清單的獨立資料夾。",
-     "bullets_html": [],
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Lang</strong>: TypeScript"
+     ],
      "table": null,
-     "dive_html": "從官方外掛可看出 Cursor 押注的代理工作流：thermos 以平行子代理做深度安全與正確性審查，orchestrate 把大任務分派給平行雲端代理並設規劃者、執行者與驗證者，advisor 在重大決策或宣告完成前先諮詢更強的模型，continual-learning 依對話紀錄增量更新 AGENTS.md，另有 PR 審查畫布、Cursor SDK 與 Ralph Loop 等。#Cursor #Plugins #Agents",
-     "links": []
+     "dive_html": "從官方外掛可看出 Cursor 押注的代理工作流：thermos 以平行子代理做深度安全與正確性審查，orchestrate 把大任務分派給平行雲端代理並設規劃者、執行者與驗證者，advisor 在重大決策或宣告完成前先諮詢更強的模型，continual-learning 依對話紀錄增量更新 AGENTS.md，另有 PR 審查畫布、Cursor SDK 與 Ralph Loop 等。#Cursor #Plugins #Agents"
     }
    ]
   }
  ],
+ "foot_left": "本報告由 news-aggregator 自動彙整",
  "stats": {
   "items": 35,
   "sections": 3
- },
- "disclaimer": "由 news-aggregator 從公開來源自動彙整，請以原文為準。"
+ }
 }
