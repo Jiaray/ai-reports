@@ -12,7 +12,7 @@
 
 ### 可以上傳
 
-- `news/` 底下由 news-aggregator `scripts/publish.py` 產生的檔案：`news/<系列>/<年>/<期別>.json` 與同名 `.html`、`news/index.json`、`news/archive/<年>.json`。
+- `news/` 底下由 news-aggregator `scripts/publish.py` 產生的檔案：`news/<系列>/<年>/<期別>.json`、`news/index.json`、`news/archive/<年>.json`。
 - 網站本身：`index.html`、`404.html`、`catalog.json`、`assets/`、`news/index.html`、`news/assets/`，以及日後新類別的同類檔案。
 - 本 repo 的 `README.md`、`CLAUDE.md`、`.gitignore`、`.nojekyll`。
 
@@ -50,17 +50,20 @@ ai-reports/
 ├── index.html、assets/home.js    首頁：讀 catalog.json，列出各類別與最新內容
 ├── catalog.json                  類別清單與網站網址（publish.py 用 base_url 組出公開網址）
 ├── 404.html、.nojekyll、.gitignore
-├── assets/site.css、site.js      全站設計代幣、深淺色切換、共用小工具
+├── assets/site.css、site.js      全站樣式（新聞日報原本的「工程藍圖」版型）、配色切換、共用小工具
 └── news/
-    ├── index.html                新聞總覽：系列篩選、搜尋、依日期分組
-    ├── index.json                系列定義＋最近 200 份
+    ├── index.html                共用新聞頁：上方是新聞類型標籤（依 index.json 自動列出有報告的類型）與期別選單，
+    │                             下方用藍圖版型渲染該期報告
+    ├── index.json                系列定義（順序＝標籤順序）＋最近 200 份；每份的 data 欄位指向報告 JSON
     ├── archive/<年>.json         該年完整清單
-    ├── assets/                   report.css、report.js（報告渲染器）、news-index.js
-    └── <系列>/<年>/<期別>.json   報告資料（schema 1）
-        <系列>/<年>/<期別>.html   頁面殼：OG meta（Telegram 預覽）＋免 JS 精簡版，載入 report.js 渲染 JSON
+    ├── assets/                   report.css（類型標籤列）、report.js（網址參數路由＋藍圖渲染器）
+    └── <系列>/<年>/<期別>.json   報告資料（schema 1，欄位對應 md2html2.py 的 render）
 ```
 
-- 期別：日報 `YYYY-MM-DD`、週報 `YYYY-Www`（ISO 週）、月報 `YYYY-MM`。同系列同期別重新發布會覆蓋同一個網址。
+- 網址：`news/?t=<系列>&d=<期別>` 開指定的一期；只帶 `t` 開該類型最新一期；不帶參數開最新一期。
+- 期別：日報 `YYYY-MM-DD`、週報 `YYYY-Www`（ISO 週）、月報 `YYYY-MM`。同系列同期別重新發布會覆蓋同一期。
+- `news/general/2026/2026-11-18.html` 是第一版單篇頁面的轉址頁，留著讓已傳出的連結還能開；之後不再產生單篇 HTML。
+- 版型以新聞日報原本的藍圖版本為準（設計代幣與元件同 md2html2.py）；要改版型先問使用者。
 - 網址傳出去之後，就不要改路徑規則、系列代號或 repo 名稱，否則舊連結全部失效。
 - 改 `news/assets/report.js` 會影響所有既有報告的呈現。資料帶 `schema` 版本，改資料格式時渲染器要能讀舊版本。
 - 連結一律用相對路徑（網站掛在 `/ai-reports/` 子路徑下）；`404.html` 例外，用 `/ai-reports/` 開頭的絕對路徑。
@@ -68,6 +71,6 @@ ai-reports/
 ## 新增一個類別
 
 1. 選類別代號：小寫英數與 `-`，定了就不改；`assets`、`archive`、`index` 是保留字。
-2. 建 `<代號>/index.html` 與 `<代號>/index.json`，欄位比照 `news/index.json`（`items` 每筆要有 `path`、`period`、`cadence`、`title`、`count`、`lede`）。
+2. 建 `<代號>/index.html` 與 `<代號>/index.json`，欄位比照 `news/index.json`（`items` 每筆要有 `series`、`series_title`、`period`、`cadence`、`title`、`count`、`lede`；首頁的連結是 `<代號>/?t=<series>&d=<period>`）。
 3. 在 `catalog.json` 的 `categories` 加一筆，首頁就會列出。
 4. 產出工具只寫自己的目錄，並遵守上面的上傳邊界。

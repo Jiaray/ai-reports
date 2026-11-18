@@ -1,314 +1,225 @@
-/* 新聞報告渲染器：讀頁面殼 body[data-report] 指向的 JSON（schema 1）畫出整份報告。
-   殼裡的免 JS 精簡版在渲染成功後才換掉；JSON 讀不到就保留精簡版並提示。
-   *_html 欄位是 publish.py 用 md2html2.inline 淨化過的片段（只留 http/https 連結與粗體），
-   其餘欄位一律當純文字放入 DOM。 */
+/* 共用新聞頁（news/index.html）：讀 index.json 自動列出有報告的新聞類型，依網址 ?t=<系列>&d=<期別>
+   載入該期報告 JSON，用原本的「工程藍圖」版型渲染（DOM 結構同 md2html2.py 的 render()）。
+   沒帶參數顯示最新一期；只帶 t 顯示該類型最新一期。
+   *_html 欄位是 publish.py 用 md2html2.inline 淨化過的片段（只留 http/https 連結與粗體），其餘欄位一律當純文字。 */
 (() => {
   'use strict';
   const A = window.AIR;
   const h = A.h;
   const app = document.getElementById('app');
-  const dataUrl = document.body.dataset.report;
-  const newsRoot = document.body.dataset.newsRoot || '../../';
-  const READ_KEY = 'air-read';
-  const ALSO_SHOWN = 8;
-  const HIGHLIGHT_LABEL = { daily: '今日重點', weekly: '本週重點', monthly: '本月重點' };
-  const SEARCH_ICON = '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg>';
+  const WEEK = '日一二三四五六';
+  let index = { series: [], items: [], years: [] };
+  let all = [];
+  let archivesLoaded = false;
 
-  const readUrls = () => {
-    try { return new Set(JSON.parse(localStorage.getItem(READ_KEY) || '[]')); } catch (e) { return new Set(); }
+  const pad = (n) => String(n).padStart(2, '0');
+  const keyOf = (e) => `${e.series}/${e.period}`;
+  const newest = (a, b) => {
+    if (a.date !== b.date) return a.date < b.date ? 1 : -1;
+    return a.generated_at < b.generated_at ? 1 : -1;
   };
-  const markRead = (url) => {
-    try {
-      const s = readUrls();
-      s.add(url);
-      localStorage.setItem(READ_KEY, JSON.stringify([...s].slice(-3000)));
-    } catch (e) { /* 無痕模式或停用儲存：只在本頁標示 */ }
-  };
+  const link = (series, period) => `?t=${encodeURIComponent(series)}${period ? `&d=${encodeURIComponent(period)}` : ''}`;
 
-  const tag = (text, tone) => h('span', { class: tone ? `tag ${tone}` : 'tag' }, [text]);
-  const joinLinks = (links) => links.flatMap((l, i) => {
-    const a = h('a', { href: l.url, target: '_blank', rel: 'noopener' }, [l.text]);
-    return i ? ['、', a] : [a];
-  });
+  function merge(items) {
+    const seen = new Set(all.map(keyOf));
+    items.forEach((e) => {
+      if (!seen.has(keyOf(e))) {
+        seen.add(keyOf(e));
+        all.push(e);
+      }
+    });
+    all.sort(newest);
+  }
 
+  async function loadArchives() {
+    if (archivesLoaded) return;
+    archivesLoaded = true;
+    for (const y of index.years || []) {
+      try {
+        merge((await A.getJSON(`archive/${y}.json`)).items || []);
+      } catch (e) { /* 缺某年的清單就略過 */ }
+    }
+  }
+
+  function periodLabel(e) {
+    let m;
+    if (e.cadence === 'weekly' && (m = /^(\d{4})-W(\d{2})$/.exec(e.period))) return `${m[1]} 年第 ${+m[2]} 週`;
+    if (e.cadence === 'monthly' && (m = /^(\d{4})-(\d{2})$/.exec(e.period))) return `${m[1]} 年 ${+m[2]} 月`;
+    const d = new Date(`${e.period}T00:00:00`);
+    return Number.isNaN(d.getTime()) ? e.period : `${e.period}（週${WEEK[d.getDay()]}）`;
+  }
+
+  // 報頭上方：新聞類型標籤（依 index.json 的系列順序，只列有報告的）＋期別選單
+  function editions(cur) {
+    const order = (index.series || []).map((s) => s.id);
+    const rank = (id) => (order.includes(id) ? order.indexOf(id) : order.length);
+    const ids = [...new Set(all.map((e) => e.series))].sort((a, b) => rank(a) - rank(b));
+    const tabs = ids.map((id) => {
+      const latest = all.find((e) => e.series === id);
+      return h('a', {
+        class: 'ed-tab', href: link(id), 'aria-current': cur && id === cur.series ? 'page' : null,
+      }, [latest.series_title || latest.title]);
+    });
+    const kids = [h('div', { class: 'ed-tabs' }, tabs)];
+    if (cur) {
+      const periods = all.filter((e) => e.series === cur.series);
+      const select = h('select', { class: 'ed-date', id: 'period', name: 'd', 'aria-label': '選擇期別' }, periods.map((e) => h('option', {
+        value: e.period, selected: e.period === cur.period,
+      }, [periodLabel(e)])));
+      if (index.truncated && !archivesLoaded) select.appendChild(h('option', { value: '' }, ['載入更早的期別…']));
+      select.addEventListener('change', async () => {
+        if (select.value) {
+          location.href = link(cur.series, select.value);
+          return;
+        }
+        await loadArchives();
+        app.querySelector('.editions').replaceWith(editions(cur));
+      });
+      kids.push(select);
+    }
+    return h('nav', { class: 'editions', 'aria-label': '新聞類型與期別' }, kids);
+  }
+
+  // ── 藍圖版型（對應 md2html2.py 的 render）──────────────────────────────
   function table(t) {
     return h('div', { class: 'tbl' }, [h('table', null, [
       h('thead', null, [h('tr', null, t.head.map((c) => h('th', { html: c })))]),
-      h('tbody', null, t.rows.map((row) => h('tr', null, row.map((c) => h('td', { html: c }))))),
+      h('tbody', null, t.rows.map((r) => h('tr', null, r.map((c) => h('td', { html: c }))))),
     ])]);
   }
 
-  function noteBlocks(blocks, cls) {
-    return blocks.map((b) => {
+  function notes(blocks, cls) {
+    return (blocks || []).map((b) => {
       if (b.kind === 'p') return h('p', { class: cls, html: b.html });
       if (b.kind === 'ul') return h('ul', { class: cls }, b.items.map((x) => h('li', { html: x })));
       return table(b);
     });
   }
 
-  function also(links) {
-    if (links.length <= ALSO_SHOWN) return h('p', { class: 'also' }, ['另參：', ...joinLinks(links)]);
-    const rest = links.slice(ALSO_SHOWN);
-    return h('div', { class: 'also' }, [
-      h('p', null, ['另參：', ...joinLinks(links.slice(0, ALSO_SHOWN))]),
-      h('details', null, [h('summary', null, [`其餘 ${rest.length} 個連結`]), h('p', null, joinLinks(rest))]),
-    ]);
+  function links(list) {
+    return list.flatMap((l, i) => {
+      const a = l.url ? h('a', { href: l.url, target: '_blank', rel: 'noopener' }, [l.text]) : document.createTextNode(l.text);
+      return i ? ['、', a] : [a];
+    });
   }
 
-  function item(it) {
-    const meta = [];
-    if (it.source) meta.push(tag(it.source, 'src'));
-    (it.tags || []).forEach((t) => meta.push(tag(t.text, t.tone)));
-    if (it.heat && it.rail_kind !== 'heat') meta.push(tag(it.heat));
-    if (it.lang) meta.push(tag(it.lang));
-    const title = it.url
-      ? h('a', { href: it.url, target: '_blank', rel: 'noopener', html: it.title_html })
-      : h('span', { html: it.title_html });
-    return h('li', {
-      class: it.fill ? 'item is-fill' : 'item', id: `i${it.no}`, 'data-src': it.source || '', 'data-url': it.url || '',
-    }, [
-      h('div', { class: 'rail' }, [it.rail_date ? h('span', { class: 'rd' }, [it.rail_date]) : null, it.rail || '']),
-      h('div', { class: 'body' }, [
-        meta.length ? h('div', { class: 'meta' }, meta) : null,
-        h('h3', { class: 'it-title' }, [title]),
-        it.summary_html ? h('p', { class: 'it-sum', html: it.summary_html }) : null,
-        it.bullets_html && it.bullets_html.length
-          ? h('ul', { class: 'it-bul' }, it.bullets_html.map((b) => h('li', { html: b }))) : null,
-        it.table ? table(it.table) : null,
-        it.dive_html ? h('details', { class: 'dive' }, [h('summary', null, ['解讀']), h('p', { html: it.dive_html })]) : null,
-        it.links && it.links.length ? also(it.links) : null,
-      ]),
-    ]);
-  }
-
-  function section(s) {
-    const el = h('section', { class: 'sec', id: s.id, 'aria-label': s.name || null });
-    if (s.name) el.appendChild(h('h2', { class: 'sec-h' }, [s.name, h('span', { class: 'n' }, [`${s.count} 則`])]));
-    let feed = null;
-    s.blocks.forEach((b) => {
-      if (b.type === 'item') {
-        if (!feed) {
-          feed = h('ol', { class: 'feed' });
-          el.appendChild(feed);
-        }
-        feed.appendChild(item(b));
-        return;
-      }
-      feed = null; // 子標題或分區說明把時間軸切成數段
-      if (b.type === 'sub') el.appendChild(h('h3', { class: 'sec-sub', html: b.html }));
-      else noteBlocks(b.blocks, 'sec-note').forEach((n) => el.appendChild(n));
-    });
-    return el;
-  }
-
-  function head(r) {
-    const intro = r.intro || [];
-    const lede = intro[0] && intro[0].kind === 'p' ? intro[0] : null;
-    const label = HIGHLIGHT_LABEL[r.cadence] || '重點';
-    return h('header', { class: 'r-head' }, [
-      h('p', { class: 'crumb' }, [h('a', { href: `${newsRoot}index.html` }, ['所有新聞'])]),
-      h('p', { class: 'r-when' }, [A.fmtPeriod(r.period, r.cadence)]),
-      h('h1', { class: 'r-title' }, [r.title]),
-      lede ? h('p', { class: 'r-lede', html: lede.html }) : null,
-      ...noteBlocks(lede ? intro.slice(1) : intro, 'r-intro'),
-      r.highlights_html && r.highlights_html.length ? h('section', { class: 'r-high', 'aria-label': label }, [
-        h('h2', null, [label]),
-        h('ul', null, r.highlights_html.map((x) => h('li', { html: x }))),
-      ]) : null,
-      r.sources && r.sources.length ? h('p', { class: 'r-src' }, [`來源：${r.sources.join('、')}`]) : null,
-    ]);
-  }
-
-  // 「Global Scan（全網速覽）」這類中英並列的分區名，膠囊只放括號裡的中文，手機上才放得下
-  const shortName = (name) => {
-    const m = /（([^（）]+)）\s*$/.exec(name);
-    return m ? m[1] : name;
-  };
-
-  function bar(r) {
-    const chips = r.sections.filter((s) => s.name && s.count).map((s) => h('a', {
-      class: 'chip sec-chip', href: `#${s.id}`, 'data-for': s.id, title: s.name,
-    }, [shortName(s.name), h('span', { class: 'n' }, [String(s.count)])]));
-    const hasDive = r.sections.some((s) => s.blocks.some((b) => b.type === 'item' && b.dive_html));
-    const toggle = h('button', {
-      type: 'button', class: 'tool-btn', 'aria-expanded': 'false', 'aria-controls': 'tools', 'aria-label': '搜尋與篩選', html: SEARCH_ICON,
-    });
-    const q = h('input', {
-      type: 'search', class: 'q', id: 'q', placeholder: '搜尋標題、摘要、解讀', 'aria-label': '搜尋這份報告', autocomplete: 'off', enterkeyhint: 'search',
-    });
-    const tools = h('div', { class: 'tools', id: 'tools', hidden: true }, [
-      q,
-      h('div', { class: 'facets', id: 'facets', role: 'group', 'aria-label': '依來源篩選' }),
-      h('div', { class: 'tools-foot' }, [
-        h('span', { id: 'count', 'aria-live': 'polite' }),
-        hasDive ? h('button', { type: 'button', class: 'chip', id: 'expand', 'aria-pressed': 'false' }, ['展開全部解讀']) : null,
-      ]),
-    ]);
-    toggle.addEventListener('click', () => {
-      const open = toggle.getAttribute('aria-expanded') !== 'true';
-      toggle.setAttribute('aria-expanded', String(open));
-      tools.hidden = !open;
-      if (open) q.focus();
-    });
-    return h('div', { class: 'r-bar' }, [
-      h('div', { class: 'r-bar-row' }, [h('nav', { class: 'sec-chips', 'aria-label': '分區' }, chips), toggle]),
-      tools,
-    ]);
-  }
-
-  function setupFilter(root) {
-    const items = [...root.querySelectorAll('.item')];
-    const secs = [...root.querySelectorAll('.sec')];
-    const q = root.querySelector('#q');
-    const facets = root.querySelector('#facets');
-    const count = root.querySelector('#count');
-    const empty = root.querySelector('#empty');
-    const text = new Map(items.map((li) => [li, li.querySelector('.body').textContent.toLowerCase()]));
-    const sources = new Map();
-    items.forEach((li) => {
-      const s = li.dataset.src;
-      if (s) sources.set(s, (sources.get(s) || 0) + 1);
-    });
-    let src = '';
-    let query = '';
-    const chips = [...sources.entries()].sort((a, b) => b[1] - a[1]).map(([name, n]) => {
-      const b = h('button', { type: 'button', class: 'chip', 'aria-pressed': 'false', 'data-src': name }, [name, h('span', { class: 'n' }, [String(n)])]);
-      b.addEventListener('click', () => {
-        src = src === name ? '' : name;
-        apply();
-      });
-      return b;
-    });
-    if (chips.length > 1) facets.append(...chips);
-    else facets.hidden = true;
-
-    function apply() {
-      let shown = 0;
-      items.forEach((li) => {
-        const ok = (!src || li.dataset.src === src) && (!query || text.get(li).includes(query));
-        li.hidden = !ok;
-        if (ok) shown += 1;
-      });
-      const filtering = Boolean(src || query);
-      secs.forEach((s) => { s.hidden = filtering && !s.querySelector('.item:not([hidden])'); });
-      chips.forEach((c) => c.setAttribute('aria-pressed', String(c.dataset.src === src)));
-      count.textContent = filtering ? `符合 ${shown} 則` : `共 ${items.length} 則`;
-      empty.hidden = shown > 0;
+  function row(it) {
+    const tags = [];
+    if (it.src) tags.push(h('span', { class: 'tag tag-neutral' }, [it.src]));
+    (it.tags || []).forEach((t) => tags.push(h('span', { class: `tag ${t.cls}` }, [t.text])));
+    if (it.heat) tags.push(h('span', { class: 'tag tag-outline' }, [it.heat]));
+    const main = [
+      tags.length ? h('div', { class: 'tags' }, tags) : null,
+      it.url
+        ? h('h3', { class: 'row-title' }, [h('a', { href: it.url, target: '_blank', rel: 'noopener', html: it.title_html })])
+        : h('h3', { class: 'row-title', html: it.title_html }),
+    ];
+    const also = it.also && it.also.length ? h('span', { class: 'seealso' }, ['另參：', ...links(it.also)]) : null;
+    if (it.summary_html) {
+      const p = h('p', { class: 'row-sum', html: it.summary_html });
+      if (also) p.append(' ', also);
+      main.push(p);
+    } else if (also) {
+      main.push(h('p', { class: 'row-sum' }, [also]));
     }
-    let timer = 0;
-    q.addEventListener('input', () => {
-      clearTimeout(timer);
-      timer = setTimeout(() => {
-        query = q.value.trim().toLowerCase();
-        apply();
-      }, 120);
-    });
-    root.querySelector('#clear').addEventListener('click', () => {
-      q.value = '';
-      query = '';
-      src = '';
-      apply();
-      q.focus();
-    });
-    apply();
-  }
-
-  function setupExpand(root) {
-    const btn = root.querySelector('#expand');
-    const dives = () => root.querySelectorAll('details.dive');
-    window.addEventListener('beforeprint', () => dives().forEach((d) => { d.open = true; }));
-    if (!btn) return;
-    btn.addEventListener('click', () => {
-      const on = btn.getAttribute('aria-pressed') !== 'true';
-      dives().forEach((d) => { d.open = on; });
-      btn.setAttribute('aria-pressed', String(on));
-      btn.textContent = on ? '收合全部解讀' : '展開全部解讀';
-    });
-  }
-
-  // 捲到哪一區，頂列對應的分區膠囊就反白
-  function setupSpy(root) {
-    const nav = root.querySelector('.sec-chips');
-    const chips = new Map([...root.querySelectorAll('.sec-chip')].map((c) => [c.dataset.for, c]));
-    if (!chips.size || !('IntersectionObserver' in window)) return;
-    const io = new IntersectionObserver((entries) => {
-      entries.forEach((e) => {
-        const c = e.isIntersecting && chips.get(e.target.id);
-        if (!c) return;
-        chips.forEach((x) => x.removeAttribute('aria-current'));
-        c.setAttribute('aria-current', 'true');
-        nav.scrollTo({ left: c.offsetLeft - nav.offsetLeft - 8, behavior: 'smooth' });
-      });
-    }, { rootMargin: '-30% 0px -65% 0px' });
-    root.querySelectorAll('.sec').forEach((s) => io.observe(s));
-  }
-
-  // 點過的標題變淡，下次打開同一份或別份報告都記得（存在這台裝置）
-  function setupRead(root) {
-    const read = readUrls();
-    root.querySelectorAll('.item').forEach((li) => {
-      if (li.dataset.url && read.has(li.dataset.url)) li.classList.add('is-read');
-    });
-    root.addEventListener('click', (e) => {
-      const a = e.target.closest('.it-title a');
-      if (!a) return;
-      const li = a.closest('.item');
-      markRead(li.dataset.url);
-      li.classList.add('is-read');
-    });
-  }
-
-  async function seriesNav(r, nav) {
-    const all = h('a', { href: `${newsRoot}index.html` }, ['所有新聞']);
-    try {
-      const idx = await A.getJSON(`${newsRoot}index.json`);
-      let same = (idx.items || []).filter((e) => e.series === r.series);
-      if (!same.some((e) => e.period === r.period)) {
-        const arc = await A.getJSON(`${newsRoot}archive/${r.period.slice(0, 4)}.json`);
-        same = (arc.items || []).filter((e) => e.series === r.series);
-      }
-      same.sort((a, b) => (a.period < b.period ? -1 : a.period > b.period ? 1 : 0));
-      const i = same.findIndex((e) => e.period === r.period);
-      const prev = i > 0 ? same[i - 1] : null;
-      const next = i >= 0 && i < same.length - 1 ? same[i + 1] : null;
-      nav.append(
-        prev ? h('a', { href: newsRoot + prev.path, rel: 'prev' }, [`‹ ${A.fmtShort(prev.period, prev.cadence)}`]) : h('span'),
-        all,
-        next ? h('a', { href: newsRoot + next.path, rel: 'next' }, [`${A.fmtShort(next.period, next.cadence)} ›`]) : h('span'),
-      );
-    } catch (e) {
-      nav.append(h('span'), all, h('span'));
+    if (it.also_more && it.also_more.length) {
+      main.push(h('details', { class: 'seealso-more' }, [h('summary', null, [`其餘 ${it.also_more.length} 個連結`]), ...links(it.also_more)]));
     }
+    if (it.bullets_html && it.bullets_html.length) {
+      main.push(h('ul', { class: 'row-bullets' }, it.bullets_html.map((b) => h('li', { html: b }))));
+    }
+    if (it.table) main.push(table(it.table));
+    if (it.dive_html) {
+      const p = h('p', { class: 'row-dive' }, [h('span', { class: 'dive-label' }, ['解讀'])]);
+      p.insertAdjacentHTML('beforeend', it.dive_html);
+      main.push(p);
+    }
+    return h('article', { class: 'row', id: `item-${it.no}` }, [
+      h('div', { class: 'row-left' }, [h('span', { class: 'row-no' }, [it.no]), h('span', { class: 'row-time' }, [it.left])]),
+      h('div', { class: 'row-main' }, main),
+    ]);
   }
 
-  function render(r) {
-    if (r.schema !== 1) throw new Error(`不支援的資料版本 ${r.schema}`);
-    const main = h('main', { class: 'sections' }, r.sections.map(section));
-    main.appendChild(h('div', { class: 'empty', id: 'empty', hidden: true }, [
-      h('p', null, ['沒有符合的條目。']),
-      h('button', { type: 'button', class: 'chip', id: 'clear' }, ['清除搜尋與篩選']),
+  function report(r) {
+    const date = [h('span', { class: 'date' }, [r.date])];
+    (r.src_tags || []).forEach((t) => date.push(h('span', { class: 'sep' }, ['|']), h('span', { class: 'tag tag-neutral' }, [t])));
+    const head = h('header', { class: 'masthead' }, [
+      h('div', { class: 'mast-top' }, [
+        h('span', { class: 'mast-brand' }, [r.brief]),
+        h('div', { class: 'mast-right' }, [h('span', { class: 'mast-issue' }, [r.issue]), A.themeSwitch()]),
+      ]),
+      h('h1', { class: 'mast-title' }, [r.title]),
+      h('div', { class: 'mast-date' }, date),
+      ...notes(r.intro, 'intro'),
+    ]);
+    const cells = [];
+    r.sections.forEach((s, i) => {
+      if (s.name) {
+        cells.push(h('a', { class: 'toc-cell', href: `#sec-${pad(i + 1)}` }, [
+          h('span', { class: 'toc-no' }, [pad(i + 1)]), h('span', { class: 'toc-name' }, [s.name]),
+        ]));
+      }
+    });
+    const secs = r.sections.map((s, i) => h('section', { class: 'sec', id: `sec-${pad(i + 1)}` }, [
+      h('div', { class: 'sec-tab' }, [
+        h('span', { class: 'sec-no' }, [`SEC. ${pad(i + 1)}`]),
+        h('h2', { class: 'sec-name' }, [s.name]),
+        h('span', { class: 'sec-count' }, [`${s.count} 則`]),
+      ]),
+      h('div', { class: 'sec-body' }, s.blocks.flatMap((b) => {
+        if (b.type === 'item') return [row(b)];
+        if (b.type === 'sub') return [h('h3', { class: 'sec-sub', html: b.html })];
+        return notes(b.blocks, 'sec-note');
+      })),
     ]));
-    const nav = h('nav', { class: 'series-nav', 'aria-label': '同系列前後期' });
-    const foot = h('footer', { class: 'site-foot' }, [
-      h('p', null, [r.disclaimer || '', r.generated_at ? `產生於 ${A.fmtStamp(r.generated_at)}。` : '']),
-      A.themeSwitch(),
+    const foot = h('footer', { class: 'foot' }, [
+      h('span', { class: 'foot-left' }, [r.foot_left]),
+      h('span', { class: 'foot-right' }, [`${r.brief} · ${r.date}`]),
     ]);
-    app.replaceChildren(head(r), bar(r), main, nav, foot);
-    setupFilter(app);
-    setupExpand(app);
-    setupSpy(app);
-    setupRead(app);
-    seriesNav(r, nav);
+    return [head, cells.length ? h('nav', { class: 'toc' }, cells) : null, ...secs, foot].filter(Boolean);
+  }
+
+  const problem = (cur, text, more) => app.replaceChildren(
+    ...(all.length ? [editions(cur)] : []),
+    h('p', { class: 'load-error', role: 'alert' }, [text, more || null]),
+  );
+
+  async function main() {
+    try {
+      index = await A.getJSON('index.json');
+    } catch (err) {
+      problem(null, `新聞清單載入失敗（${err.message}），重新整理再試一次。`);
+      return;
+    }
+    merge(index.items || []);
+    const q = new URLSearchParams(location.search);
+    const t = q.get('t') || '';
+    const d = q.get('d') || '';
+    const find = () => (t ? all.find((e) => e.series === t && (!d || e.period === d)) : all[0]);
+    let entry = find();
+    if (!entry && t && d) {
+      await loadArchives();
+      entry = find();
+    }
+    if (!entry) {
+      if (all.length) problem(null, `找不到這一期（${t}${d ? ` ${d}` : ''}）。`, h('a', { href: './' }, ['看最新一期']));
+      else problem(null, '還沒有任何報告。');
+      return;
+    }
+    let data;
+    try {
+      data = await A.getJSON(entry.data);
+    } catch (err) {
+      problem(entry, `這一期的資料載入失敗（${err.message}），重新整理再試一次。`);
+      return;
+    }
+    document.title = `${data.title} ${data.date}｜AI Reports`;
+    app.replaceChildren(editions(entry), ...report(data));
     if (location.hash) {
       const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
       if (target) target.scrollIntoView();
     }
   }
 
-  A.getJSON(dataUrl).then(render).catch((err) => {
-    document.documentElement.classList.remove('js');
-    app.insertBefore(h('p', { class: 'load-error', role: 'alert' }, [
-      `完整版載入失敗（${err.message}），以下是精簡版；重新整理可再試一次。`,
-    ]), app.firstChild);
-  });
+  main();
 })();

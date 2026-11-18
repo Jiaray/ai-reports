@@ -1,33 +1,38 @@
-/* 首頁：讀 catalog.json 列出各類別，再讀各類別的 index.json 帶出最近 5 份。 */
-(function () {
+/* 首頁：讀 catalog.json，每個類別一個藍圖分區，列出該類別最近 8 份（讀各類別的 index.json）。 */
+(() => {
   'use strict';
-  var A = window.AIR;
-  var h = A.h;
-  var box = document.getElementById('cats');
-  document.getElementById('foot').appendChild(A.themeSwitch());
+  const A = window.AIR;
+  const h = A.h;
+  const box = document.getElementById('cats');
+  const pad = (n) => String(n).padStart(2, '0');
+  document.getElementById('mast-right').appendChild(A.themeSwitch());
 
-  A.getJSON('catalog.json').then(function (cat) {
-    return Promise.all((cat.categories || []).map(function (c) {
-      return A.getJSON(c.index).then(
-        function (idx) { return [c, idx.items || []]; },
-        function () { return [c, []]; }
-      );
-    }));
-  }).then(function (rows) {
-    box.textContent = '';
-    rows.forEach(function (row) {
-      var c = row[0];
-      var latest = row[1].slice(0, 5);
-      box.appendChild(h('section', { class: 'cat' }, [
-        h('h2', { class: 'cat-h' }, [h('a', { href: c.path }, [c.title])]),
-        h('p', { class: 'cat-desc' }, [c.description || '']),
-        latest.length
-          ? h('ul', { class: 'entries' }, latest.map(function (e) { return h('li', null, [A.entry(c.path, e, true)]); }))
-          : h('p', { class: 'muted' }, ['還沒有內容。'])
-      ]));
-    });
-  }).catch(function (err) {
-    box.textContent = '';
-    box.appendChild(h('p', { class: 'load-error', role: 'alert' }, ['目錄載入失敗（' + err.message + '），重新整理再試一次。']));
+  const row = (c, e, i) => h('article', { class: 'row' }, [
+    h('div', { class: 'row-left' }, [h('span', { class: 'row-no' }, [pad(i + 1)]), h('span', { class: 'row-time' }, [A.fmtShort(e.period, e.cadence)])]),
+    h('div', { class: 'row-main' }, [
+      h('div', { class: 'tags' }, [h('span', { class: 'tag tag-neutral' }, [e.series_title || e.title]), h('span', { class: 'tag tag-outline' }, [`${e.count} 則`])]),
+      h('h3', { class: 'row-title' }, [h('a', { href: `${c.path}?t=${encodeURIComponent(e.series)}&d=${encodeURIComponent(e.period)}` }, [`${e.title} ${e.period}`])]),
+      e.lede ? h('p', { class: 'row-sum' }, [e.lede]) : null,
+    ]),
+  ]);
+
+  A.getJSON('catalog.json').then((cat) => Promise.all((cat.categories || []).map((c) => A.getJSON(c.index).then(
+    (idx) => [c, idx.items || []],
+    () => [c, []],
+  )))).then((cats) => {
+    box.replaceChildren(...cats.map(([c, items], i) => h('section', { class: 'sec', id: `sec-${pad(i + 1)}` }, [
+      h('div', { class: 'sec-tab' }, [
+        h('span', { class: 'sec-no' }, [`SEC. ${pad(i + 1)}`]),
+        h('h2', { class: 'sec-name' }, [h('a', { href: c.path }, [c.title])]),
+        h('span', { class: 'sec-count' }, ['最新']),
+      ]),
+      h('div', { class: 'sec-body' }, [
+        c.description ? h('p', { class: 'sec-note' }, [c.description]) : null,
+        ...items.slice(0, 8).map((e, j) => row(c, e, j)),
+        items.length ? null : h('p', { class: 'sec-note' }, ['還沒有內容。']),
+      ]),
+    ])));
+  }).catch((err) => {
+    box.replaceChildren(h('p', { class: 'load-error', role: 'alert' }, [`目錄載入失敗（${err.message}），重新整理再試一次。`]));
   });
 })();

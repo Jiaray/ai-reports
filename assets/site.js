@@ -1,10 +1,9 @@
-/* AI Reports 共用：配色切換、日期格式、JSON 讀取、建立元素、報告清單列。
-   在 <head> 同步載入：配色在第一次繪製前套好，並標上 .js 讓頁面殼藏起免 JS 精簡版。 */
+/* AI Reports 共用：配色切換、期別格式、JSON 讀取、建立元素。
+   在 <head> 同步載入，讓記住的配色在第一次繪製前就套好。 */
 (function () {
   'use strict';
   var KEY = 'air-theme';
   var root = document.documentElement;
-  root.classList.add('js');
 
   function readTheme() {
     try {
@@ -20,38 +19,13 @@
   }
   applyTheme(readTheme());
 
-  var WEEK = '日一二三四五六';
-  function isoDate(s) {
-    var m = /^(\d{4})-(\d{2})-(\d{2})/.exec(s || '');
-    return m ? new Date(+m[1], +m[2] - 1, +m[3]) : null;
-  }
-  // 2026-11-18 → 11月18日 週三
-  function fmtDay(s) {
-    var d = isoDate(s);
-    return d ? (d.getMonth() + 1) + '月' + d.getDate() + '日 週' + WEEK.charAt(d.getDay()) : String(s || '');
-  }
-  // 期別的完整寫法：日報 11月18日 週三、週報 2026 年第 47 週、月報 2026 年 11 月
-  function fmtPeriod(period, cadence) {
-    var m;
-    if (cadence === 'weekly' && (m = /^(\d{4})-W(\d{2})$/.exec(period))) return m[1] + ' 年第 ' + (+m[2]) + ' 週';
-    if (cadence === 'monthly' && (m = /^(\d{4})-(\d{2})$/.exec(period))) return m[1] + ' 年 ' + (+m[2]) + ' 月';
-    return fmtDay(period);
-  }
-  // 期別的短寫：11/18、第 47 週、11 月
+  // 期別短寫：11/18、第 47 週、11 月
   function fmtShort(period, cadence) {
     var m;
     if (cadence === 'weekly' && (m = /^(\d{4})-W(\d{2})$/.exec(period))) return '第 ' + (+m[2]) + ' 週';
     if (cadence === 'monthly' && (m = /^(\d{4})-(\d{2})$/.exec(period))) return (+m[2]) + ' 月';
-    var d = isoDate(period);
-    return d ? (d.getMonth() + 1) + '/' + d.getDate() : String(period || '');
-  }
-  // ISO 時間 → 台北時間 11/18 15:20
-  function fmtStamp(iso) {
-    var d = new Date(iso);
-    if (isNaN(d.getTime())) return '';
-    var t = new Date(d.getTime() + 8 * 3600000);
-    var mm = t.getUTCMinutes();
-    return (t.getUTCMonth() + 1) + '/' + t.getUTCDate() + ' ' + t.getUTCHours() + ':' + (mm < 10 ? '0' : '') + mm;
+    m = /^\d{4}-(\d{2})-(\d{2})$/.exec(period || '');
+    return m ? (+m[1]) + '/' + (+m[2]) : String(period || '');
   }
   function getJSON(url) {
     return fetch(url, { cache: 'no-cache' }).then(function (r) {
@@ -59,8 +33,8 @@
       return r.json();
     });
   }
-  // h('a', {href, class, text, html, onclick}, [子節點或字串])。
-  // html 只給 publish.py 淨化過的片段（*_html 欄位）；其他資料一律走子節點字串或 text，當純文字放入。
+  // h('a', {href, class, html, ...}, [子節點或字串])。html 只給 publish.py 淨化過的片段（*_html 欄位），
+  // 其他資料一律以子節點字串放入，當純文字處理。
   function h(tag, attrs, kids) {
     var el = document.createElement(tag);
     if (attrs) {
@@ -69,8 +43,6 @@
         if (v == null || v === false) return;
         if (k === 'class') el.className = v;
         else if (k === 'html') el.innerHTML = v;
-        else if (k === 'text') el.textContent = v;
-        else if (k.indexOf('on') === 0) el.addEventListener(k.slice(2), v);
         else el.setAttribute(k, v === true ? '' : String(v));
       });
     }
@@ -80,7 +52,7 @@
     });
     return el;
   }
-  // 配色切換：點哪個套哪個，記在 localStorage；無痕模式只在本頁生效
+  // 三鈕配色切換（自動／淺色／深色），點哪個套哪個，記在 localStorage；無痕模式只在本頁生效
   function themeSwitch() {
     var modes = [['auto', '自動'], ['light', '淺色'], ['dark', '深色']];
     var cur = readTheme();
@@ -98,18 +70,6 @@
     });
     return g;
   }
-  // 報告清單的一列：base 是清單 JSON 所在目錄到網站相對路徑的前綴
-  function entry(base, e, showWhen) {
-    return h('a', { class: showWhen ? 'entry' : 'entry no-when', href: base + e.path }, [
-      showWhen ? h('span', { class: 'e-when' }, [fmtShort(e.period, e.cadence)]) : null,
-      h('span', { class: 'e-title' }, [e.series_title || e.title]),
-      h('span', { class: 'e-count' }, [e.count + ' 則']),
-      e.lede ? h('span', { class: 'e-lede' }, [e.lede]) : null
-    ]);
-  }
 
-  window.AIR = {
-    h: h, getJSON: getJSON, fmtDay: fmtDay, fmtPeriod: fmtPeriod, fmtShort: fmtShort,
-    fmtStamp: fmtStamp, themeSwitch: themeSwitch, entry: entry
-  };
+  window.AIR = { h: h, getJSON: getJSON, fmtShort: fmtShort, themeSwitch: themeSwitch };
 })();
