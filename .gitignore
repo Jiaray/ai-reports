@@ -1,0 +1,11 @@
+# 系統與編輯器
+.DS_Store
+*.swp
+
+# 不該進 public repo 的東西：狀態檔、中間檔、草稿、機密
+.state/
+drafts/
+*.tmp
+*.log
+.env
+.env.*

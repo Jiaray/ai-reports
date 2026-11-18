@@ -1,0 +1,104 @@
+/* 新聞報告頁與新聞總覽；設計代幣在 ../../assets/site.css。
+   報告頁的主角是報頭的日期與左側時間軸：分區內條目由新到舊，時間軸讓「這一天發生了什麼」一眼可讀。 */
+
+/* 頁面殼：JS 可用時先藏起精簡版、顯示載入中；渲染失敗時 report.js 會拿掉 .js 讓精簡版出現 */
+.js .fallback{display:none}
+.loading{display:none;margin:40px 0;color:var(--ink-3)}
+.js .loading{display:block}
+
+/* 報頭 */
+.r-when{margin:6px 0 0;font-size:36px;line-height:1.1;font-weight:700;letter-spacing:-.015em;font-variant-numeric:tabular-nums}
+@media (min-width:720px){.r-when{font-size:46px}}
+.r-title{margin:6px 0 0;font-size:19px;font-weight:600;color:var(--steel)}
+.r-lede{margin:14px 0 0;font-size:18px;line-height:1.75}
+@media (min-width:720px){.r-lede{font-size:19px}}
+.r-intro{margin:8px 0 0;color:var(--ink-2)}
+ul.r-intro{padding-left:1.2em}
+.r-high{margin:18px 0 0;padding:12px 16px 12px 18px;border-radius:var(--r);background:var(--tint)}
+.r-high h2{margin:0 0 2px;font-size:15px;font-weight:600;color:var(--ink-2)}
+.r-high ul{margin:0;padding-left:1.1em}
+.r-high li{margin:5px 0}
+.r-src{margin:12px 0 0;font-size:14px;color:var(--ink-3)}
+
+/* 黏頂列：分區切換＋搜尋篩選 */
+.r-bar{position:sticky;top:0;z-index:5;margin:20px calc(var(--gutter) * -1) 0;padding:8px var(--gutter);background:var(--paper);background:color-mix(in srgb,var(--paper) 90%,transparent);-webkit-backdrop-filter:blur(10px);backdrop-filter:blur(10px);border-bottom:1px solid var(--rule)}
+@media (min-width:720px){.r-bar{margin-left:-24px;margin-right:-24px;padding-left:24px;padding-right:24px}}
+.r-bar-row{display:flex;align-items:center;gap:8px}
+.sec-chips{display:flex;gap:6px;flex:1;min-width:0;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.sec-chips::-webkit-scrollbar{display:none}
+.tool-btn{flex:none;display:inline-flex;align-items:center;justify-content:center;width:38px;height:34px;border:1px solid var(--rule);border-radius:var(--r);background:transparent;color:var(--ink-2);cursor:pointer}
+.tool-btn:hover,.tool-btn[aria-expanded=true]{border-color:var(--steel);color:var(--steel)}
+.tool-btn svg{width:18px;height:18px}
+.tools{display:grid;gap:8px;padding-top:8px}
+.tools .facets{flex-wrap:nowrap;overflow-x:auto;scrollbar-width:none;-webkit-overflow-scrolling:touch}
+.tools .facets::-webkit-scrollbar{display:none}
+.tools-foot{display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:8px;font-size:14px;color:var(--ink-3)}
+
+/* 分區 */
+.sec{margin-top:26px;scroll-margin-top:64px}
+.sec-h{display:flex;align-items:baseline;gap:10px;margin:0 0 2px;font-size:21px;font-weight:700}
+.sec-h .n{font-size:14px;font-weight:400;color:var(--ink-3)}
+.sec-sub{margin:18px 0 2px;font-size:16px;font-weight:600;color:var(--steel)}
+.sec-note{margin:6px 0;color:var(--ink-2)}
+ul.sec-note{padding-left:1.2em}
+
+/* 條目：左側時間軸（圓點連成一條線） */
+.feed{--rail:4.4rem;--gap:17px;list-style:none;margin:0;padding:0;position:relative}
+.feed::before{content:"";position:absolute;top:22px;bottom:22px;left:calc(var(--rail) + 7.5px);width:1px;background:var(--rule)}
+.item{position:relative;display:grid;grid-template-columns:var(--rail) minmax(0,1fr);column-gap:var(--gap);padding:14px 0;scroll-margin-top:64px}
+.rail{position:relative;padding-top:3px;text-align:right;font-size:13px;line-height:1.35;color:var(--ink-3);font-variant-numeric:tabular-nums;overflow-wrap:anywhere}
+.rail .rd{display:block;font-size:12px}
+.rail::after{content:"";position:absolute;top:7px;right:-13px;width:10px;height:10px;border-radius:50%;background:var(--paper);border:2px solid var(--steel)}
+.item.is-fill .rail::after{border-color:var(--hot)}
+.meta{display:flex;flex-wrap:wrap;gap:4px 6px;margin-bottom:3px}
+.tag{display:inline-block;max-width:100%;padding:0 8px;border-radius:4px;background:var(--tint);font-size:12.5px;line-height:1.75;color:var(--ink-2);overflow-wrap:anywhere}
+.tag.src{color:var(--ink)}
+.tag.hot{color:var(--hot)}
+.tag.good{color:var(--good)}
+.it-title{margin:0;font-size:18px;font-weight:600;line-height:1.5}
+.it-title a{color:var(--ink);text-decoration:none}
+.it-title a:hover{color:var(--steel);text-decoration:underline}
+.item.is-read .it-title a{color:var(--ink-3)}
+.it-sum{margin:4px 0 0}
+.it-bul{margin:4px 0 0;padding-left:1.2em;color:var(--ink-2)}
+.dive{margin-top:6px}
+.dive>summary{display:inline-flex;align-items:center;gap:7px;padding:2px 0;color:var(--steel);font-size:14px;cursor:pointer;list-style:none}
+.dive>summary::-webkit-details-marker{display:none}
+.dive>summary::before{content:"";border-left:6px solid currentColor;border-top:4px solid transparent;border-bottom:4px solid transparent}
+@media (prefers-reduced-motion:no-preference){.dive>summary::before{transition:transform .15s}}
+.dive[open]>summary::before{transform:rotate(90deg)}
+.dive>p{margin:4px 0 0;padding-left:12px;border-left:2px solid var(--steel);color:var(--ink-2)}
+.also{margin:6px 0 0;font-size:14px;color:var(--ink-3)}
+.also p{margin:0}
+.also summary{cursor:pointer;color:var(--steel)}
+.tbl{overflow-x:auto;margin:8px 0 0}
+.tbl table{border-collapse:collapse;width:100%;font-size:14px}
+.tbl th,.tbl td{border:1px solid var(--rule);padding:4px 8px;text-align:left;vertical-align:top}
+.tbl th{background:var(--tint);font-weight:600}
+@media (max-width:520px){
+  .feed{--rail:3.5rem;--gap:15px}
+  .rail{font-size:12px}
+  .it-title{font-size:17px}
+}
+
+/* 同系列前後期 */
+.series-nav{display:flex;align-items:center;justify-content:space-between;gap:12px;margin-top:32px;padding-top:14px;border-top:1px solid var(--rule);font-size:15px}
+.series-nav a{text-decoration:none}
+.series-nav a:hover{text-decoration:underline}
+
+/* 免 JS 精簡版 */
+.fallback .fb-list{padding-left:1.1em}
+.fallback .fb-list li{margin:10px 0}
+
+/* 新聞總覽 */
+.news-head h1{margin:4px 0 2px;font-size:30px;font-weight:700}
+.news-head p{margin:0;color:var(--ink-2)}
+.news-tools{display:grid;gap:10px;margin:18px 0 6px}
+.day{margin-top:22px}
+.day h2{margin:0 0 4px;font-size:15px;font-weight:600;color:var(--ink-2)}
+.more{margin-top:18px}
+
+@media print{
+  .r-bar,.series-nav,.loading{display:none}
+  a{color:inherit}
+}

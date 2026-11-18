@@ -1,0 +1,93 @@
+/* AI Reports：全站設計代幣與共用元件（新聞報告頁另載 news/assets/report.css）。
+   配色：冷調紙白、墨藍字、鋼藍連結；深色跟隨系統，可在頁尾切換。只用系統字型，不載外部資源。 */
+:root{
+  --paper:#f4f6f9;
+  --ink:#17212c;
+  --ink-2:#4b5968;
+  --ink-3:#637180;
+  --rule:#d8dfe7;
+  --tint:#e7edf4;
+  --tint-2:#d9e3ee;
+  --steel:#2b5d88;
+  --steel-2:#1c4366;
+  --hot:#b0362c;
+  --good:#1b744a;
+  --font:"PingFang TC","Noto Sans TC","Microsoft JhengHei","Heiti TC",system-ui,-apple-system,"Segoe UI",sans-serif;
+  --measure:44rem;
+  --gutter:16px;
+  --r:6px;
+  color-scheme:light;
+}
+@media (prefers-color-scheme:dark){
+  :root:not([data-theme=light]){
+    --paper:#0f151c;--ink:#e1e7ed;--ink-2:#a7b4c1;--ink-3:#8392a1;
+    --rule:#26333f;--tint:#17222d;--tint-2:#203040;
+    --steel:#86b4dc;--steel-2:#b0d2ef;--hot:#f08b7f;--good:#6dc797;
+    color-scheme:dark;
+  }
+}
+:root[data-theme=dark]{
+  --paper:#0f151c;--ink:#e1e7ed;--ink-2:#a7b4c1;--ink-3:#8392a1;
+  --rule:#26333f;--tint:#17222d;--tint-2:#203040;
+  --steel:#86b4dc;--steel-2:#b0d2ef;--hot:#f08b7f;--good:#6dc797;
+  color-scheme:dark;
+}
+
+*,*::before,*::after{box-sizing:border-box}
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+@media (prefers-reduced-motion:no-preference){html{scroll-behavior:smooth}}
+body{margin:0;background:var(--paper);color:var(--ink);font:16px/1.75 var(--font);-webkit-font-smoothing:antialiased}
+@media (min-width:720px){body{font-size:17px}}
+a{color:var(--steel);text-underline-offset:.18em;text-decoration-thickness:1px}
+a:hover{color:var(--steel-2)}
+:focus-visible{outline:2px solid var(--steel);outline-offset:2px;border-radius:2px}
+button{font:inherit;color:inherit}
+h1,h2,h3{line-height:1.35}
+[hidden]{display:none!important}
+
+.page{max-width:var(--measure);margin:0 auto;padding:18px var(--gutter) 48px}
+@media (min-width:720px){.page{padding:28px 24px 64px}}
+.crumb{margin:0 0 10px;font-size:14px;color:var(--ink-3)}
+.crumb a{color:var(--ink-2);text-decoration:none}
+.crumb a:hover{color:var(--steel);text-decoration:underline}
+.muted{color:var(--ink-3)}
+.load-error{margin:12px 0;padding:10px 14px;border-radius:var(--r);background:var(--tint);color:var(--ink-2)}
+.empty{margin:24px 0;color:var(--ink-2)}
+.empty p{margin:0 0 10px}
+
+/* 篩選膠囊：選中時反白 */
+.chip{display:inline-flex;align-items:center;gap:6px;min-height:34px;padding:4px 12px;border:1px solid var(--rule);border-radius:999px;background:transparent;color:var(--ink-2);font-size:14px;line-height:1.2;text-decoration:none;white-space:nowrap;cursor:pointer}
+.chip:hover{border-color:var(--steel);color:var(--steel)}
+.chip[aria-pressed=true],.chip[aria-current=true]{background:var(--ink);border-color:var(--ink);color:var(--paper)}
+.chip .n{font-variant-numeric:tabular-nums;opacity:.72}
+.facets{display:flex;flex-wrap:wrap;gap:6px}
+.q{display:block;width:100%;min-height:42px;padding:8px 12px;border:1px solid var(--rule);border-radius:var(--r);background:var(--paper);color:var(--ink);font:inherit;font-size:16px}
+
+/* 報告清單（首頁、新聞總覽共用） */
+.entries{list-style:none;margin:0;padding:0}
+.entry{display:grid;grid-template-columns:auto 1fr auto;align-items:baseline;column-gap:12px;padding:10px 0;border-top:1px solid var(--rule);color:var(--ink);text-decoration:none}
+.entry:hover .e-title{color:var(--steel)}
+.e-when{min-width:2.6rem;color:var(--ink-3);font-size:14px;font-variant-numeric:tabular-nums}
+.e-title{font-weight:600}
+.e-count{color:var(--ink-3);font-size:14px;font-variant-numeric:tabular-nums;white-space:nowrap}
+.e-lede{grid-column:2 / 4;margin-top:2px;color:var(--ink-2);font-size:15px;line-height:1.6;display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.entry.no-when{grid-template-columns:1fr auto}
+.entry.no-when .e-lede{grid-column:1 / 3}
+
+/* 首頁 */
+.home-head h1{margin:8px 0 4px;font-size:34px;font-weight:700;letter-spacing:-.01em}
+.home-head p{margin:0;color:var(--ink-2)}
+.cat{margin-top:30px}
+.cat-h{margin:0;font-size:21px}
+.cat-h a{color:var(--ink);text-decoration:none}
+.cat-h a:hover{color:var(--steel)}
+.cat-desc{margin:2px 0 10px;color:var(--ink-2)}
+
+/* 頁尾與配色切換 */
+.site-foot{margin-top:40px;padding-top:14px;border-top:1px solid var(--rule);display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;gap:10px 16px;font-size:13px;color:var(--ink-3)}
+.site-foot p{margin:0}
+.theme-switch{display:inline-flex;border:1px solid var(--rule);border-radius:var(--r);overflow:hidden}
+.theme-switch button{border:0;background:transparent;padding:5px 11px;font-size:13px;color:var(--ink-2);cursor:pointer}
+.theme-switch button+button{border-left:1px solid var(--rule)}
+.theme-switch button[aria-pressed=true]{background:var(--tint-2);color:var(--ink)}
+@media print{.theme-switch{display:none}}
