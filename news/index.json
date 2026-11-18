@@ -1,0 +1,109 @@
+{
+ "schema": 1,
+ "updated_at": "2026-11-18T15:21:36+08:00",
+ "series": [
+  {
+   "id": "general",
+   "title": "綜合日報",
+   "cadence": "daily"
+  },
+  {
+   "id": "finance",
+   "title": "財經日報",
+   "cadence": "daily"
+  },
+  {
+   "id": "tech_ai",
+   "title": "科技 AI 日報",
+   "cadence": "daily"
+  },
+  {
+   "id": "tech",
+   "title": "科技早報",
+   "cadence": "daily"
+  },
+  {
+   "id": "ai_daily",
+   "title": "AI 日報",
+   "cadence": "daily"
+  },
+  {
+   "id": "international",
+   "title": "國際新聞日報",
+   "cadence": "daily"
+  },
+  {
+   "id": "github",
+   "title": "GitHub 趨勢",
+   "cadence": "daily"
+  },
+  {
+   "id": "github_weekly",
+   "title": "GitHub 趨勢週報",
+   "cadence": "weekly"
+  },
+  {
+   "id": "github_monthly",
+   "title": "GitHub 趨勢月報",
+   "cadence": "monthly"
+  },
+  {
+   "id": "gambling",
+   "title": "博奕產業新聞",
+   "cadence": "daily"
+  },
+  {
+   "id": "gamedev",
+   "title": "遊戲產業新聞",
+   "cadence": "daily"
+  },
+  {
+   "id": "taiwan_general",
+   "title": "台灣綜合新聞",
+   "cadence": "daily"
+  },
+  {
+   "id": "taiwan_disaster",
+   "title": "台灣防災示警",
+   "cadence": "daily"
+  },
+  {
+   "id": "taiwan_finance",
+   "title": "台灣財經",
+   "cadence": "daily"
+  },
+  {
+   "id": "taiwan_factcheck",
+   "title": "台灣事實查核",
+   "cadence": "daily"
+  },
+  {
+   "id": "social",
+   "title": "鄉民早報",
+   "cadence": "daily"
+  },
+  {
+   "id": "reading_list",
+   "title": "閱讀清單",
+   "cadence": "daily"
+  }
+ ],
+ "years": [
+  2026
+ ],
+ "truncated": false,
+ "items": [
+  {
+   "series": "general",
+   "series_title": "綜合日報",
+   "cadence": "daily",
+   "period": "2026-11-18",
+   "date": "2026-11-18",
+   "title": "綜合日報",
+   "lede": "輝達後黃仁勳時代震盪擴大，代理執行長收緊對 AI 新創的資金支持、微軟高層稱客戶更確信要分散晶片來源，前副手 Jay Puri 也捲入對中走私疑雲；OpenAI 發表 GPT-6.2 Astra 與 Sol，Astra 拿下 ARC-AGI-3 滿分，開發者實測卻褒貶不一；美國本週航班、銀行與國安局網路接連中斷，官員…",
+   "count": 35,
+   "path": "general/2026/2026-11-18.html",
+   "generated_at": "2026-11-18T15:21:36+08:00"
+  }
+ ]
+}

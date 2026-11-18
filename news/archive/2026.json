@@ -1,0 +1,18 @@
+{
+ "schema": 1,
+ "year": 2026,
+ "items": [
+  {
+   "series": "general",
+   "series_title": "綜合日報",
+   "cadence": "daily",
+   "period": "2026-11-18",
+   "date": "2026-11-18",
+   "title": "綜合日報",
+   "lede": "輝達後黃仁勳時代震盪擴大，代理執行長收緊對 AI 新創的資金支持、微軟高層稱客戶更確信要分散晶片來源，前副手 Jay Puri 也捲入對中走私疑雲；OpenAI 發表 GPT-6.2 Astra 與 Sol，Astra 拿下 ARC-AGI-3 滿分，開發者實測卻褒貶不一；美國本週航班、銀行與國安局網路接連中斷，官員…",
+   "count": 35,
+   "path": "general/2026/2026-11-18.html",
+   "generated_at": "2026-11-18T15:21:36+08:00"
+  }
+ ]
+}
