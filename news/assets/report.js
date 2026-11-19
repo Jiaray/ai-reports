@@ -1,5 +1,6 @@
-/* 共用新聞頁（news/index.html）：讀 index.json 自動列出有報告的新聞類型，依網址 ?t=<系列>&d=<期別>
-   載入該期報告 JSON 渲染。沒帶參數顯示最新一期；只帶 t 顯示該類型最新一期。
+/* 共用新聞頁（news/index.html）的報告頁：讀 index.json 自動列出有報告的新聞類型，依網址 ?t=<系列>&d=<期別>
+   載入該期報告 JSON 渲染；只帶 t 顯示該類型最新一期。不帶 t 是頭版，這支什麼都不做（交給 front.js）。
+   期別選單讀該類型的 <系列>/index.json（全部期別）；抓不到就只用 index.json 裡的最近幾期。
    預設是原本的「工程藍圖」版型（DOM 結構同 md2html2.py 的 render()）。右下角「版面」可切換讀法（完整／速讀／時間軸）、
    外觀（藍圖／地圖）與配色，選擇記在 localStorage（同一裝置記住）；規格來自使用者的版型樣稿。
    讀法決定 DOM，換讀法就重繪；外觀與配色只改 <html> 的 data-look／data-theme，樣式全在 CSS。
@@ -12,9 +13,10 @@
   const root = document.documentElement;
   const WEEK = '日一二三四五六';
   const TAIPEI_MS = 8 * 3600 * 1000;
-  let index = { series: [], items: [], years: [] };
+  const query = new URLSearchParams(location.search);
+  if (!query.get('t')) return; // 頭版（不帶 t）由 front.js 負責
+  let index = { series: [], items: [] };
   let all = [];
-  let archivesLoaded = false;
   let shown = null; // 目前這一期 { entry, data }：換讀法時重繪用
 
   // ── 版面：讀法 × 外觀，各取第一個為預設。這次只做這幾種（樣稿另有專注、日曆、直排）──
@@ -56,16 +58,6 @@
     all.sort(newest);
   }
 
-  async function loadArchives() {
-    if (archivesLoaded) return;
-    archivesLoaded = true;
-    for (const y of index.years || []) {
-      try {
-        merge((await A.getJSON(`archive/${y}.json`)).items || []);
-      } catch (e) { /* 缺某年的清單就略過 */ }
-    }
-  }
-
   function periodLabel(e) {
     let m;
     if (e.cadence === 'weekly' && (m = /^(\d{4})-W(\d{2})$/.exec(e.period))) return `${m[1]} 年第 ${+m[2]} 週`;
@@ -87,20 +79,21 @@
     return `${m} 月 ${d} 日（${WEEK[new Date(Date.UTC(y, m - 1, d)).getUTCDay()]}）`;
   }
 
-  // 報頭上方的新聞類型標籤（依 index.json 的系列順序，只列有報告的）。只有一種新聞時不列：
-  // 那一個標籤只會跟報頭大標題重複（使用者反映）。withSelect：錯誤頁沒有報頭，期別選單改放這裡
+  // 報頭上方的新聞類型標籤：第一個是「頭版」（回 news/ 不帶參數），其餘依 index.json 的系列順序，只列有報告的。
+  // 有「頭版」可回之後，只有一種新聞也照列（原本只有一種時不列，因為那一個標籤只會跟報頭大標題重複）。
+  // withSelect：錯誤頁沒有報頭，期別選單改放這裡
   function editions(cur, withSelect) {
     const order = (index.series || []).map((s) => s.id);
     const rank = (id) => (order.includes(id) ? order.indexOf(id) : order.length);
     const ids = [...new Set(all.map((e) => e.series))].sort((a, b) => rank(a) - rank(b));
     const kids = [];
-    if (ids.length > 1) {
-      kids.push(h('div', { class: 'ed-tabs' }, ids.map((id) => {
+    if (ids.length) {
+      kids.push(h('div', { class: 'ed-tabs' }, [h('a', { class: 'ed-tab', href: './' }, ['頭版']), ...ids.map((id) => {
         const latest = all.find((e) => e.series === id);
         return h('a', {
           class: 'ed-tab', href: link(id), 'aria-current': cur && id === cur.series ? 'page' : null,
         }, [latest.series_title || latest.title]);
-      })));
+      })]));
     }
     if (cur && withSelect) kids.push(periodSelect(cur));
     return kids.length ? h('nav', { class: 'editions', 'aria-label': '新聞類型與期別' }, kids) : null;
@@ -112,19 +105,21 @@
     const select = h('select', { class: 'ed-date', id: 'period', name: 'd', 'aria-label': '選擇期別' }, periods.map((e) => h('option', {
       value: e.period, selected: e.period === cur.period,
     }, [periodLabel(e)])));
-    if (index.truncated && !archivesLoaded) select.appendChild(h('option', { value: '' }, ['載入更早的期別…']));
-    select.addEventListener('change', async () => {
-      if (select.value) {
-        location.href = link(cur.series, select.value);
-        return;
+    // 換頁時機（無障礙：不要一改值就把人帶走）：Windows 等平台在選單收合時按方向鍵就會改值並觸發 change，
+    // 鍵盤使用者還沒選到想要的那天就換頁了；方向鍵當下造成的改值先不換頁，等按 Enter。
+    // 滑鼠、觸控，以及 macOS／iOS 先彈出選單再選的方式，照常選了就換
+    let keyAt = -Infinity;
+    const go = () => { location.href = link(cur.series, select.value); };
+    select.addEventListener('keydown', (e) => {
+      if (/^(Arrow|Page|Home|End)/.test(e.key)) keyAt = performance.now();
+      else if (e.key === 'Enter' && select.value && select.value !== cur.period) {
+        e.preventDefault();
+        go();
       }
-      await loadArchives();
-      if (shown) {
-        redraw(true);
-      } else {
-        const nav = app.querySelector('.editions');
-        if (nav) nav.replaceWith(editions(cur, true));
-      }
+    });
+    select.addEventListener('change', () => {
+      if (!select.value || performance.now() - keyAt < 300) return; // 方向鍵當下改的值：等 Enter
+      go();
     });
     return select;
   }
@@ -132,7 +127,7 @@
   // ── 藍圖版型（對應 md2html2.py 的 render）──────────────────────────────
   function table(t) {
     return h('div', { class: 'tbl' }, [h('table', null, [
-      h('thead', null, [h('tr', null, t.head.map((c) => h('th', { html: c })))]),
+      h('thead', null, [h('tr', null, t.head.map((c) => h('th', { scope: 'col', html: c })))]),
       h('tbody', null, t.rows.map((r) => h('tr', null, r.map((c) => h('td', { html: c }))))),
     ])]);
   }
@@ -251,8 +246,9 @@
 
   // 速讀：只列標題（使用者要求：兩行摘要短到讀不出東西），點標題展開；熱門新聞在標題前加紅色徽章。
   // 展開後第一行是來源、標籤與原文連結，接著摘要、另參、重點與解讀；沒有內容可展開就照常把標題做成原文連結
+  // 放在 <summary> 裡的標題用 span、不用 h3：部分螢幕閱讀器把 summary 當成按鈕，會丟掉裡面的標題（指南：不要把標題放進 summary）
   function peek(it, tags, body, hot) {
-    const title = body.length ? h('h3', { class: 'row-title', html: it.title_html }) : titleLink(it);
+    const title = body.length ? h('span', { class: 'row-title', html: it.title_html }) : titleLink(it);
     if (hot) title.prepend(hotBadge(hot));
     if (!body.length) return title;
     const meta = [...tags];
@@ -313,7 +309,8 @@
   }
 
   // 時間軸：所有分區的條目依 ts 由新到舊排成一條、按台北日期分組；
-  // 沒有 ts 的（Today、Hot 這類字樣，或還沒有 ts 的舊資料）照原本順序接在最後
+  // 沒有 ts 的（Today、Hot 這類字樣，或還沒有 ts 的舊資料）照原本順序接在最後。
+  // 外層是 <main>（主要內容地標；報頭、頁尾留在外面），沒有預設樣式，外觀不變
   function timeline(r, key) {
     const list = [];
     r.sections.forEach((s, i) => s.blocks.forEach((b) => {
@@ -334,7 +331,7 @@
     });
     if (timed.length && rest.length) kids.push(h('h2', { class: 'tl-day' }, ['未標時間']));
     rest.forEach(put);
-    return h('div', { class: 'tl' }, kids);
+    return h('main', { class: 'tl', id: 'main' }, kids);
   }
 
   function report(r, entry) {
@@ -380,7 +377,8 @@
         return notes(b.blocks, 'sec-note');
       })),
     ]));
-    return [head, cells.length ? h('nav', { class: 'toc', 'aria-label': '分區' }, cells) : null, ...secs, foot].filter(Boolean);
+    // 分區包在 <main>（主要內容地標）；報頭、分區目錄、頁尾留在外面，速讀的 sticky 目錄仍依附 #app
+    return [head, cells.length ? h('nav', { class: 'toc', 'aria-label': '分區' }, cells) : null, h('main', { id: 'main' }, secs), foot].filter(Boolean);
   }
 
   // ── 右下角「版面」按鈕與面板 ─────────────────────────────────────────
@@ -394,12 +392,21 @@
     return null;
   }
 
+  // 換讀法、外觀時用 view transition 淡入淡出（不支援的瀏覽器直接換；減少動態的設定由 report.css 取消動畫）。
+  // 回傳 DOM 換完的 Promise：要在新畫面上做事（例如還原焦點）的呼叫端要等它
   function redraw(rebuild) {
     const spot = readingSpot();
-    applyView();
-    if (rebuild && shown) app.replaceChildren(...page());
-    const el = spot && document.getElementById(spot.id);
-    if (el) window.scrollBy(0, el.getBoundingClientRect().top - Math.max(spot.top, view.read === 'scan' ? 64 : 0));
+    const update = () => {
+      applyView();
+      if (rebuild && shown) app.replaceChildren(...page());
+      const el = spot && document.getElementById(spot.id);
+      if (el) window.scrollBy(0, el.getBoundingClientRect().top - Math.max(spot.top, view.read === 'scan' ? 64 : 0));
+    };
+    if (!document.startViewTransition) {
+      update();
+      return Promise.resolve();
+    }
+    return document.startViewTransition(update).updateCallbackDone;
   }
 
   function layoutPanel() {
@@ -410,9 +417,10 @@
     const groups = [
       ['讀法', READS, () => view.read, (v) => { view.read = v; store(KEY_READ, v); redraw(true); }],
       ['外觀', LOOKS, () => view.look, (v) => { view.look = v; store(KEY_LOOK, v); redraw(false); }],
-      // 剛部署時瀏覽器可能還快取著舊版 site.js（沒有 THEMES）：少一組配色，不讓整頁卡住
-      ...(A.THEMES ? [['配色', A.THEMES, A.getTheme, A.setTheme]] : []),
-    ].map(([label, list, get, set], gi) => {
+      // 剛部署時瀏覽器可能還快取著舊版 site.js（沒有 THEMES）：少一組配色，不讓整頁卡住。
+      // 配色鈕的文字由 site.js 的 themeLabel 給（「自動」會註明目前是深色或淺色）
+      ...(A.THEMES ? [['配色', A.THEMES, A.getTheme, A.setTheme, A.themeLabel]] : []),
+    ].map(([label, list, get, set, labelOf], gi) => {
       const buttons = list.map(([value, text]) => {
         const b = h('button', { type: 'button' }, [text]);
         b.addEventListener('click', () => {
@@ -424,15 +432,29 @@
       panel.appendChild(h('div', { class: 'vw-group', role: 'group', 'aria-labelledby': `vw-label-${gi}` }, [
         h('span', { class: 'vw-label', id: `vw-label-${gi}` }, [label]), ...buttons.map((x) => x[0]),
       ]));
-      return { buttons, get };
+      return { buttons, get, labelOf };
     });
+    // 非 modal 面板要有看得見的關閉鈕（指南）；點外面、按 Esc、再按「版面」也能關
+    const close = h('button', { type: 'button', class: 'vw-close' }, ['關閉']);
+    panel.appendChild(close);
     function sync() {
-      groups.forEach((g) => g.buttons.forEach(([b, value]) => b.setAttribute('aria-pressed', String(value === g.get()))));
+      groups.forEach((g) => g.buttons.forEach(([b, value]) => {
+        b.setAttribute('aria-pressed', String(value === g.get()));
+        if (g.labelOf) b.textContent = g.labelOf(value);
+      }));
     }
     function open(yes) {
       panel.hidden = !yes;
       toggle.setAttribute('aria-expanded', String(yes));
+      // 打開時把焦點移進面板（目前選中的讀法），鍵盤與螢幕閱讀器使用者才知道面板開了、從哪裡開始
+      if (yes) (panel.querySelector('[aria-pressed=true]') || panel.querySelector('button')).focus();
     }
+    close.addEventListener('click', () => {
+      open(false);
+      toggle.focus();
+    });
+    // 別的分頁改了配色、或系統深淺改變（site.js 發出 air-theme）：更新選中狀態與「自動」的說明
+    document.addEventListener('air-theme', sync);
     toggle.addEventListener('click', (e) => {
       e.stopPropagation();
       open(panel.hidden);
@@ -459,15 +481,60 @@
     document.body.append(toggle, panel); // 按鈕在前：鍵盤從「版面」按 Tab 直接進面板
   }
 
-  // 目前這一期的整頁：類型標籤（兩種以上新聞才有）＋報告
-  const page = () => [editions(shown.entry), ...report(shown.data, shown.entry)].filter(Boolean);
+  // 橫向捲動列（新聞類型標籤、速讀分區列）的捲軸是藏起來的，兩端「還有更多」的提示由 report.css 用捲動驅動動畫畫；
+  // 不支援的瀏覽器（Safari 26 以前等）改用 IntersectionObserver 加 .more-start／.more-end（指南的退路寫法）。
+  // 另外把目前的新聞類型捲進標籤列的可視範圍（只捲標籤列本身，不動整頁）
+  let hintObservers = [];
+  function scrollHints() {
+    hintObservers.forEach((o) => o.disconnect());
+    hintObservers = [];
+    const tabs = app.querySelector('.ed-tabs');
+    const cur = tabs && tabs.querySelector('[aria-current=page]');
+    if (cur && tabs.scrollWidth > tabs.clientWidth) {
+      const offset = cur.getBoundingClientRect().left - tabs.getBoundingClientRect().left;
+      tabs.scrollLeft += offset - (tabs.clientWidth - cur.offsetWidth) / 2;
+    }
+    if (window.CSS && CSS.supports('animation-timeline', 'scroll()')) return;
+    app.querySelectorAll('.ed-tabs, .toc').forEach((scroller) => {
+      const first = scroller.firstElementChild;
+      const last = scroller.lastElementChild;
+      if (!first) return;
+      const io = new IntersectionObserver((entries) => entries.forEach(({ target, intersectionRatio }) => {
+        scroller.classList.toggle(target === first ? 'more-start' : 'more-end', intersectionRatio < 1);
+      }), { root: scroller, threshold: 1, rootMargin: '1px' });
+      io.observe(first);
+      if (last !== first) io.observe(last);
+      hintObservers.push(io);
+    });
+  }
+
+  // 目前這一期的整頁：類型標籤（兩種以上新聞才有）＋報告。放進畫面後的下一格再設捲動提示
+  const page = () => {
+    requestAnimationFrame(scrollHints);
+    return [editions(shown.entry), ...report(shown.data, shown.entry)].filter(Boolean);
+  };
 
   const problem = (cur, text, more) => app.replaceChildren(
     ...[all.length ? editions(cur, true) : null].filter(Boolean),
     h('p', { class: 'load-error', role: 'alert' }, [text, more || null]),
   );
 
+  // 這個類型的全部期別（<系列>/index.json）。代號不合規則、檔案不存在（舊資料還沒有類型清單）或格式不對都回 null，
+  // 呼叫端就只用 index.json 裡的項目，不報錯
+  async function seriesList(t) {
+    if (!/^[a-z0-9_-]+$/.test(t)) return null;
+    try {
+      const doc = await A.getJSON(`${t}/index.json`);
+      return doc && Array.isArray(doc.items) ? doc : null;
+    } catch (e) {
+      return null;
+    }
+  }
+
   async function main() {
+    const t = query.get('t') || '';
+    const d = query.get('d') || '';
+    const listing = seriesList(t); // 和 index.json 同時抓，不排隊
     try {
       index = await A.getJSON('index.json');
     } catch (err) {
@@ -475,17 +542,22 @@
       return;
     }
     merge(index.items || []);
-    const q = new URLSearchParams(location.search);
-    const t = q.get('t') || '';
-    const d = q.get('d') || '';
-    const find = () => (t ? all.find((e) => e.series === t && (!d || e.period === d)) : all[0]);
-    let entry = find();
-    if (!entry && t && d) {
-      await loadArchives();
-      entry = find();
+    // 類型清單的項目沒有 series、series_title、cadence：從 index.json 的類型設定補（沒有就用清單自己的）
+    const doc = await listing;
+    if (doc) {
+      const info = (index.series || []).find((s) => s.id === t) || {};
+      const extra = {
+        series: t, series_title: info.title || doc.title || t, cadence: info.cadence || doc.cadence || 'daily',
+      };
+      merge(doc.items.filter((e) => e && e.period && e.data).map((e) => ({ ...e, ...extra })));
     }
+    const entry = all.find((e) => e.series === t && (!d || e.period === d));
     if (!entry) {
-      if (all.length) problem(null, `找不到這一期（${t}${d ? ` ${d}` : ''}）。`, h('a', { href: './' }, ['看最新一期']));
+      // 這個類型還有別期就帶去它的最新一期，連類型都沒有就回頭版
+      const more = all.some((e) => e.series === t)
+        ? h('a', { href: link(t) }, ['看這個類型的最新一期'])
+        : h('a', { href: './' }, ['回頭版']);
+      if (all.length) problem(null, `找不到這一期（${t}${d ? ` ${d}` : ''}）。`, more);
       else problem(null, '還沒有任何報告。');
       return;
     }

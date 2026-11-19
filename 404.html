@@ -3,11 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<script>/* 防閃：第一次繪製前先套用記住的配色；其餘配色程式在 site.js */try{var t=localStorage.getItem('air-theme');if(t==='light'||t==='dark'){document.documentElement.setAttribute('data-theme',t);document.querySelector('meta[name=color-scheme]').content=t}}catch(e){}</script>
 <meta name="robots" content="noindex,nofollow">
 <title>找不到頁面｜AI Reports</title>
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23153048'/%3E%3Cpath d='M9 11h14M9 16h14M9 21h9' stroke='%23fff' stroke-width='2.5'/%3E%3C/svg%3E">
 <link rel="stylesheet" href="/ai-reports/assets/site.css">
-<script src="/ai-reports/assets/site.js"></script>
+<script src="/ai-reports/assets/site.js" defer></script>
 </head>
 <body>
 <div class="wrap">
@@ -16,7 +18,7 @@
 <h1 class="mast-title">找不到這個頁面</h1>
 <div class="mast-date"><span class="date">網址可能打錯，或這份內容已經移除</span></div>
 </header>
-<p class="sec-note"><a href="/ai-reports/news/">看最新的新聞簡報</a>　<a href="/ai-reports/">回到首頁</a></p>
+<main><p class="sec-note"><a href="/ai-reports/news/">看最新的新聞簡報</a>　<a href="/ai-reports/">回到首頁</a></p></main>
 </div>
 </body>
 </html>

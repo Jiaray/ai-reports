@@ -10,7 +10,7 @@
 .ed-tab:hover{background:var(--color-accent-100)}
 .ed-tab[aria-current=page]{background:var(--tab-bg);color:var(--tab-fg)}
 .ed-date{flex:none;margin-left:auto;max-width:100%;padding:var(--space-2) var(--space-3);border:1px solid var(--color-divider);border-radius:0;background:var(--color-bg);color:var(--color-text);font:500 15px/1.25 var(--font-heading)}
-@media(max-width:640px){
+@media(max-width:40em){
 .editions{flex-direction:column;align-items:flex-start;gap:var(--space-2)}
 .ed-tabs{max-width:100%}
 .ed-date{margin-left:0;width:100%}
@@ -31,17 +31,41 @@
 .mast-cdate,.toc-count{display:none}
 .mast-cdate{margin:0}
 .wrap{padding-bottom:96px}
-.vw-toggle{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:30;min-height:44px;padding:0 18px;font:600 15px/1 var(--font-body);background:var(--color-bg);color:var(--color-text);border:1px solid var(--color-text);cursor:pointer;transition:transform .2s ease,opacity .2s ease}
+.vw-toggle{position:fixed;right:16px;bottom:calc(16px + env(safe-area-inset-bottom));z-index:30;min-height:44px;padding:0 18px;font:600 15px/1 var(--font-body);background:var(--color-bg);color:var(--color-text);border:1px solid var(--color-text);cursor:pointer}
 /* 往下捲時收到畫面外（report.js 加 .vw-away），不蓋住正在讀的字；鍵盤移到按鈕上時照常顯示 */
 .vw-toggle.vw-away{transform:translateY(calc(100% + 24px + env(safe-area-inset-bottom)));opacity:0;pointer-events:none}
 .vw-toggle.vw-away:focus-visible{transform:none;opacity:1;pointer-events:auto}
-@media(prefers-reduced-motion:reduce){.vw-toggle{transition:none}}
+/* 滑動只在使用者沒要求減少動態時才加（先加進來，不是先宣告再取消）；減少動態時直接到最終狀態 */
+@media(prefers-reduced-motion:no-preference){.vw-toggle{transition:transform .2s ease,opacity .2s ease}}
 .vw-panel{position:fixed;right:16px;bottom:calc(72px + env(safe-area-inset-bottom));z-index:30;width:min(380px,calc(100vw - 32px));background:var(--color-bg);color:var(--color-text);border:1px solid var(--color-text);padding:14px;display:flex;flex-direction:column;gap:14px}
 .vw-group{display:flex;flex-wrap:wrap;gap:6px}
 .vw-label{flex:0 0 100%;font:600 13px/1.4 var(--font-body);color:var(--color-neutral-600)}
 .vw-group button{flex:1 1 0;min-width:64px;min-height:40px;padding:0 8px;font:500 14px/1 var(--font-body);background:transparent;color:var(--color-text);border:1px solid var(--color-divider);cursor:pointer}
 .vw-group button[aria-pressed=true]{background:var(--vw-on-bg);color:var(--vw-on-fg);border-color:var(--vw-on-bg)}
-.vw-toggle:focus-visible,.vw-group button:focus-visible,.toc-cell:focus-visible,.more-sum:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
+/* 面板的「關閉」鈕（非 modal 面板要有看得見的關閉方式）：靠右、外框同選項鈕 */
+.vw-close{align-self:flex-end;min-height:40px;padding:0 18px;font:500 14px/1 var(--font-body);background:transparent;color:var(--color-text);border:1px solid var(--color-text);cursor:pointer}
+.vw-toggle:focus-visible,.vw-group button:focus-visible,.vw-close:focus-visible,.toc-cell:focus-visible,.more-sum:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
+/* 強制色彩模式（Windows 高對比）會拿掉背景色，選中狀態改用外框表示；平常不影響 */
+@media(forced-colors:active){.ed-tab[aria-current=page],.vw-group button[aria-pressed=true]{outline:2px solid;outline-offset:-4px}}/* 換讀法、外觀時的淡入淡出（report.js 用 view transition）；使用者要求減少動態時不播 */
+@media(prefers-reduced-motion:reduce){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}}
+
+/* ── 橫向捲動列的「還有更多」提示：新聞類型標籤列、速讀分區列都把捲軸藏起來了，提示是唯一線索（指南 MUST）。
+   兩端各一塊由底色漸層到透明的遮罩，蓋在項目上；不用 mask：速讀分區列黏在頂端、蓋在文章上，mask 會讓底下的字透出來。
+   還能往那一端捲時才出現：用捲動驅動動畫（Safari 26、Chrome 115 起）；不支援時 report.js 用 IntersectionObserver
+   加 .more-start／.more-end。內容放得下（不能捲）時捲動時間軸不作用，遮罩維持透明 ── */
+.ed-tabs,[data-read=scan] .toc{scroll-padding-inline:28px}
+.ed-tabs::before,.ed-tabs::after,[data-read=scan] .toc::before,[data-read=scan] .toc::after{content:"";flex:none;position:sticky;z-index:1;width:28px;opacity:0;pointer-events:none}
+.ed-tabs::before,[data-read=scan] .toc::before{left:0;background:linear-gradient(to right,var(--color-bg),transparent)}
+.ed-tabs::after,[data-read=scan] .toc::after{right:0;background:linear-gradient(to left,var(--color-bg),transparent)}
+/* 抵銷遮罩自己的寬度與 flex 間距（標籤列 1px、分區列 6px），項目位置不變 */
+.ed-tabs::before{margin-right:-29px}.ed-tabs::after{margin-left:-29px}
+[data-read=scan] .toc::before{margin-right:-34px}[data-read=scan] .toc::after{margin-left:-34px}
+@supports(animation-timeline:scroll()){
+.ed-tabs::before,[data-read=scan] .toc::before{animation:hint-show linear both;animation-timeline:scroll(nearest inline);animation-range:0 2rem}
+.ed-tabs::after,[data-read=scan] .toc::after{animation:hint-show linear both reverse;animation-timeline:scroll(nearest inline);animation-range:calc(100% - 2rem) 100%}
+}
+@keyframes hint-show{to{opacity:1}}
+.ed-tabs.more-start::before,.ed-tabs.more-end::after,[data-read=scan] .toc.more-start::before,[data-read=scan] .toc.more-end::after{opacity:1}
 
 /* ── 外觀：地圖 ── */
 [data-look=atlas] [data-k="1"]{--sec-c:var(--c1)}[data-look=atlas] [data-k="2"]{--sec-c:var(--c2)}
@@ -88,15 +112,17 @@
 [data-look=atlas] .tag{font:600 12px/1.5 var(--font-body);letter-spacing:.02em}
 [data-look=atlas] .tag-neutral{background:var(--color-neutral-200)}
 [data-look=atlas] .foot{border-top:1px solid var(--color-divider);font-family:var(--font-body)}
-@media(max-width:640px){
+@media(max-width:40em){
 [data-look=atlas] .masthead{padding-top:var(--space-6);background-size:360px auto;background-position:right -110px top -30px}
 [data-look=atlas] .mast-title{font-size:34px}
 [data-look=atlas] .row{grid-template-columns:44px 1fr;padding-left:var(--space-3)}
 }
 
 /* ── 閱讀舒適度（所有版面）：摘要與解讀由 report.js 在句末分段，段與段之間空約半行；
-   另參獨立一行、字小一號，不再接在摘要尾巴斷行 ── */
-.row-sum p,.row-dive p{margin:0;text-wrap:pretty}
+   另參獨立一行、字小一號，不再接在摘要尾巴斷行。
+   中文內文不用 text-wrap:pretty：iOS（WebKit，iPhone 上的 Chrome 也是）會整段平衡右緣，
+   每行提早兩三個字換行、右側留一條空白（使用者回報）；Blink 只調最後幾行，差別不大 ── */
+.row-sum p,.row-dive p{margin:0}
 .row-sum p+p,.row-dive p+p{margin-top:.6em}
 .row-also{margin:0;font:400 14px/1.8 var(--font-body);color:var(--color-neutral-600)}
 
@@ -138,7 +164,9 @@
 [data-read=scan] .toc-count{display:block;font:500 12px/1 var(--font-body);color:var(--color-neutral-600)}
 /* 清單不加外框，每則只用細線分隔、上下多留白（使用者反映原本的粗分隔線與框很壓迫）；
    左欄時刻在上（大）、日期在下（小）；標題改用內文字體、不壓縮 */
-[data-read=scan] .sec{scroll-margin-top:64px;margin-top:var(--space-8)}
+[data-read=scan] .sec{margin-top:var(--space-8)}
+/* 分區按鈕與網址 #item-NN 捲過去時，讓出頂端固定的分區列（約 53px 高），條目開頭才不會被蓋住 */
+[data-read=scan] .sec,[data-read=scan] .row,[data-read=scan] main{scroll-margin-top:64px}
 [data-read=scan] .sec-body{border:0;padding:0}
 [data-read=scan] .row{grid-template-columns:52px 1fr;column-gap:var(--space-4);row-gap:0;padding:15px 0;margin:0;border-top:1px solid var(--color-divider)}
 [data-read=scan] .sec-body>.row:first-child{border-top:0}
@@ -166,7 +194,7 @@
 [data-read=timeline] .row-main{gap:var(--space-1)}
 .row-sec{display:block;font:600 12.5px/1.5 var(--font-body);letter-spacing:.04em;color:var(--sec-c)}
 [data-read=timeline] .row-title{font-size:17.5px;line-height:1.45}
-@media(max-width:640px){
+@media(max-width:40em){
 [data-read=scan] .toc{margin:var(--space-3) calc(-1 * var(--space-4)) 0;padding:8px var(--space-4)}
 [data-read=scan] .row{grid-template-columns:46px 1fr;column-gap:var(--space-3);padding:14px 0}
 [data-read=timeline] .row{grid-template-columns:50px 1fr;column-gap:18px}
@@ -188,6 +216,10 @@
 [data-look=atlas][data-read=timeline] .row::after{border-left:4px solid var(--sec-c);left:74px}
 [data-look=atlas][data-read=timeline] .row-left::after{display:none}
 [data-look=atlas][data-read=timeline] .rt-hm{display:block}
-@media(max-width:640px){
+@media(max-width:40em){
 [data-look=atlas][data-read=timeline] .row::after{left:58px}
 }
+
+/* ── 觸控螢幕上的按鈕、標籤與期別選單至少 44px 高（指南：at least 44×44 on touch screens）；滑鼠、觸控板不變。
+   放在檔尾，才蓋得過前面速讀分區鈕等同權重的高度 ── */
+@media(pointer:coarse){.ed-tab,.ed-date,.vw-group button,.vw-close,[data-read=scan] .toc-cell{min-height:44px}}

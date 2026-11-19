@@ -1,97 +1,127 @@
 {
  "schema": 1,
- "updated_at": "2026-11-18T17:59:11+08:00",
+ "updated_at": "2026-11-19T00:20:33+08:00",
  "series": [
   {
    "id": "general",
    "title": "綜合日報",
-   "cadence": "daily"
+   "cadence": "daily",
+   "group": "綜合",
+   "short": "綜合"
   },
   {
    "id": "international",
    "title": "國際新聞日報",
-   "cadence": "daily"
+   "cadence": "daily",
+   "group": "國際",
+   "short": "國際"
   },
   {
    "id": "finance",
    "title": "財經日報",
-   "cadence": "daily"
+   "cadence": "daily",
+   "group": "財經",
+   "short": "財經"
   },
   {
    "id": "tech_ai",
    "title": "科技 AI 日報",
-   "cadence": "daily"
+   "cadence": "daily",
+   "group": "科技",
+   "short": "科技 AI"
   },
   {
    "id": "tech",
    "title": "科技早報",
-   "cadence": "daily"
+   "cadence": "daily",
+   "group": "科技",
+   "short": "科技"
   },
   {
    "id": "ai_daily",
    "title": "AI 日報",
-   "cadence": "daily"
+   "cadence": "daily",
+   "group": "科技",
+   "short": "AI"
   },
   {
    "id": "github",
    "title": "GitHub 趨勢",
-   "cadence": "daily"
+   "cadence": "daily",
+   "group": "開源",
+   "short": "GitHub"
   },
   {
    "id": "github_weekly",
    "title": "GitHub 趨勢週報",
-   "cadence": "weekly"
+   "cadence": "weekly",
+   "group": "開源",
+   "short": "GitHub 週報"
   },
   {
    "id": "github_monthly",
    "title": "GitHub 趨勢月報",
-   "cadence": "monthly"
+   "cadence": "monthly",
+   "group": "開源",
+   "short": "GitHub 月報"
   },
   {
    "id": "gambling",
    "title": "博奕產業新聞",
-   "cadence": "daily"
+   "cadence": "daily",
+   "group": "遊戲",
+   "short": "博奕"
   },
   {
    "id": "gamedev",
    "title": "遊戲產業新聞",
-   "cadence": "daily"
+   "cadence": "daily",
+   "group": "遊戲",
+   "short": "遊戲"
   },
   {
    "id": "taiwan_general",
    "title": "台灣綜合新聞",
-   "cadence": "daily"
+   "cadence": "daily",
+   "group": "台灣",
+   "short": "台灣"
   },
   {
    "id": "taiwan_disaster",
    "title": "台灣防災示警",
-   "cadence": "daily"
+   "cadence": "daily",
+   "group": "台灣",
+   "short": "防災"
   },
   {
    "id": "taiwan_finance",
    "title": "台灣財經",
-   "cadence": "daily"
+   "cadence": "daily",
+   "group": "財經",
+   "short": "台灣財經"
   },
   {
    "id": "taiwan_factcheck",
    "title": "台灣事實查核",
-   "cadence": "daily"
+   "cadence": "daily",
+   "group": "台灣",
+   "short": "查核"
   },
   {
    "id": "social",
    "title": "鄉民早報",
-   "cadence": "daily"
+   "cadence": "daily",
+   "group": "台灣",
+   "short": "鄉民"
   },
   {
    "id": "reading_list",
    "title": "閱讀清單",
-   "cadence": "daily"
+   "cadence": "daily",
+   "group": "綜合",
+   "short": "閱讀"
   }
  ],
- "years": [
-  2026
- ],
- "truncated": false,
  "items": [
   {
    "series": "international",

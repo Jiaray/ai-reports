@@ -3,6 +3,8 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
+<meta name="color-scheme" content="light dark">
+<script>/* 防閃：第一次繪製前先套用記住的配色；其餘配色程式在 site.js */try{var t=localStorage.getItem('air-theme');if(t==='light'||t==='dark'){document.documentElement.setAttribute('data-theme',t);document.querySelector('meta[name=color-scheme]').content=t}}catch(e){}</script>
 <meta name="robots" content="noindex,nofollow">
 <title>新聞簡報｜AI Reports</title>
 <meta name="description" content="每天從公開新聞來源彙整的繁體中文簡報：綜合、國際、財經、科技 AI 等。">
@@ -12,12 +14,19 @@
 <meta property="og:title" content="新聞簡報｜AI Reports">
 <meta property="og:description" content="每天從公開新聞來源彙整的繁體中文簡報：綜合、國際、財經、科技 AI 等。">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23153048'/%3E%3Cpath d='M9 11h14M9 16h14M9 21h9' stroke='%23fff' stroke-width='2.5'/%3E%3C/svg%3E">
+<!-- 加入主畫面（名稱「AI 頭版」，從 news/ 頭版開）：manifest 給 Android／桌機，apple-touch-icon 給 iOS -->
+<link rel="manifest" href="manifest.webmanifest">
+<link rel="apple-touch-icon" href="assets/icon-192.png">
+<meta name="apple-mobile-web-app-title" content="AI 頭版">
 <link rel="stylesheet" href="../assets/site.css">
 <link rel="stylesheet" href="assets/report.css">
-<script src="../assets/site.js"></script>
+<link rel="stylesheet" href="assets/front.css">
+<script src="../assets/site.js" defer></script>
 <script src="assets/report.js" defer></script>
+<script src="assets/front.js" defer></script>
 </head>
 <body>
+<a class="skip-link visually-hidden" href="#main">跳到主要內容</a>
 <div class="wrap" id="app">
 <p class="loading" role="status">載入中…</p>
 <noscript><p class="load-error">這個頁面需要 JavaScript 才能顯示新聞。</p></noscript>

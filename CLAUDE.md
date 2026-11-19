@@ -12,8 +12,8 @@
 
 ### 可以上傳
 
-- `news/` 底下由 news-aggregator `scripts/publish.py` 產生的檔案：`news/<系列>/<年>/<期別>.json`、`news/index.json`、`news/archive/<年>.json`。
-- 網站本身：`index.html`、`404.html`、`catalog.json`、`assets/`、`news/index.html`、`news/assets/`，以及日後新類別的同類檔案。
+- `news/` 底下由 news-aggregator `scripts/publish.py`、`scripts/front.py` 產生的檔案：`news/<系列>/<年>/<期別>.json`、`news/<系列>/index.json`（類型清單）、`news/index.json`、`news/front/index.json`、`news/front/<年>/<YYYY-MM-DD>.json`（頭版）。`news/archive/` 已廢除，只允許刪除。
+- 網站本身：`index.html`、`404.html`、`catalog.json`、`assets/`、`news/index.html`、`news/manifest.webmanifest`、`news/assets/`，以及日後新類別的同類檔案。
 - 本 repo 的 `README.md`、`CLAUDE.md`、`.gitignore`、`.nojekyll`。
 
 ### 禁止上傳（檔案內容、檔名、路徑、commit 訊息都算）
@@ -38,7 +38,7 @@
 
 本專案允許模型執行 `git add`（限指名路徑，不得用 `-A`、`.` 或萬用字元）、`git commit`、`git push`；force push、rebase 或 amend 已推送的 commit、刪分支等改寫既有歷史的動作，以及更改 repo 設定，都不在範圍內。此宣告要與使用者全域 CLAUDE.md 的專案豁免清單同時成立才生效。
 
-- 報告一律用 `publish.py --push` 發布：它只 add／commit 自己產生的報告檔與索引，路徑不在允許清單就拒絕，也不會把其他已 stage 的檔案帶進 commit。
+- 報告一律用 `publish.py --push` 發布（頭版補建用 `front.py build --push`）：兩者都先 `git pull --ff-only`，只 add／commit 自己產生的報告檔、索引與頭版檔，路徑不在允許清單就拒絕，也不會把其他已 stage 的檔案帶進 commit。
 - 手動 commit（改網站本身時）：commit 前跑 `git diff --cached --name-only`，確認清單全在「可以上傳」範圍內；commit 訊息用繁體中文的 Conventional Commits。
 - push 被拒（遠端有新 commit）：先 `git pull --rebase` 再推，不要 force。
 - 誤推了禁止內容：立刻停手，告訴使用者推了什麼、在哪個 commit。不要自行改寫歷史；要不要清除由使用者決定，而且已推送的內容要視同已外洩。
@@ -52,17 +52,26 @@ ai-reports/
 ├── 404.html、.nojekyll、.gitignore
 ├── assets/site.css、site.js      全站樣式（新聞日報原本的「工程藍圖」版型）、配色切換、共用小工具
 └── news/
-    ├── index.html                共用新聞頁：上方是新聞類型標籤（依 index.json 自動列出有報告的類型，兩種以上才顯示），
+    ├── index.html                共用頁：不帶參數＝頭版；?f=YYYY-MM-DD＝那天的頭版；?t=&d=＝報告。報告頁上方是
+    │                             新聞類型標籤（第一個「頭版」回 news/，其餘依 index.json 列出有報告的類型），
     │                             期別選單在報頭來源那一行的右側，下方用藍圖版型渲染該期報告
-    ├── index.json                系列定義（順序＝標籤順序）＋最近 200 份；每份的 data 欄位指向報告 JSON
-    ├── archive/<年>.json         該年完整清單
-    ├── assets/                   report.css（類型標籤列、「版面」面板與速讀／時間軸／地圖樣式）、
-    │                             report.js（網址參數路由＋渲染器＋右下角「版面」切換）
-    └── <系列>/<年>/<期別>.json   報告資料（schema 1，欄位對應 md2html2.py 的 render；條目的 ts 是
-                                  時間軸排序用的台北時間 ISO，解析不出時間就沒有）
+    ├── manifest.webmanifest      手機主畫面的名稱「AI 頭版」與圖示
+    ├── assets/                   report.js、report.css（報告頁：網址路由、渲染器、「版面」切換）；
+    │                             front.js、front.css（頭版）；icon-192／512.png
+    ├── index.json                類型設定（series，含 group、short；順序＝標籤與頭版的類型順序）＋最近 200 份（含導言）  ← publish.py
+    ├── front/                                                                                  ← front.py
+    │   ├── index.json            最近 60 個有頭版的日期與各天則數
+    │   └── <年>/<YYYY-MM-DD>.json 每日頭版：當天各日報標 front 的條目依 key 合併，週報月報另放 weekly
+    ├── <系列>/index.json         這個類型的全部期別（新到舊，不含導言；取代舊的 archive）               ← publish.py
+    ├── <系列>/<年>/<期別>.json   報告資料（schema 1，欄位對應 md2html2.py 的 render；條目的 ts 是
+    │                             時間軸排序用的台北時間 ISO，解析不出時間就沒有；key 是條目固定編號，
+    │                             front 是頭版順位，沒標就沒有）
+    └── general/2026/2026-11-18.html  第一版留下的轉址頁（保留）
 ```
 
-- 網址：`news/?t=<系列>&d=<期別>` 開指定的一期；只帶 `t` 開該類型最新一期；不帶參數開最新一期。
+- 網址：`news/` 不帶參數開最新一天的頭版（書籤與主畫面固定開最新）；`?f=YYYY-MM-DD` 開那天的頭版；
+  `news/?t=<系列>&d=<期別>` 開指定的一期；只帶 `t` 開該類型最新一期。期別選單讀 `<系列>/index.json`，讀不到就只用 `index.json` 的最近幾期。
+- 頭版由 `front.py` 每次從報告從頭重建（`publish.py` 發布完會自動呼叫）；「新」標記存在 localStorage `air-front-seen`。
 - 期別：日報 `YYYY-MM-DD`、週報 `YYYY-Www`（ISO 週）、月報 `YYYY-MM`。同系列同期別重新發布會覆蓋同一期。
 - `news/general/2026/2026-11-18.html` 是第一版單篇頁面的轉址頁，留著讓已傳出的連結還能開；之後不再產生單篇 HTML。
 - 版型以新聞日報原本的藍圖版本為準（設計代幣與元件同 md2html2.py）；要改版型先問使用者。
@@ -73,13 +82,23 @@ ai-reports/
 - 閱讀舒適度（使用者要求）：摘要與解讀在句末（。！？）自動分段、每段至少約 60 字，另參獨立一行；速讀只列標題、
   點標題展開；時間軸摘要預覽四行。熱門新聞（來源標 Hot、PTT「爆」、頭條／直播／利空）在所有版面的標題前加紅色徽章，
   徽章的出處（那個標籤或左欄的 Hot 字樣）不再重複顯示。
+- 中文內文不要加 `text-wrap:pretty`：iPhone 上的瀏覽器都是 WebKit，會整段平衡右緣，每行提早兩三個字換行、右側留白
+  （使用者回報過）。改排版後要在 iOS 模擬器的 Safari 看一次，桌機 Chrome 看不出這類問題。標題（`.mast-title`、`.row-title`）用 `text-wrap:balance`。
+- 配色：`site.css` 的 `:root{color-scheme:light dark}`，`data-theme=light`／`dark` 各自覆寫；每個 HTML 的 `<head>` 有
+  `<meta name="color-scheme">` 與一行 inline 腳本，在第一次繪製前套用 `air-theme`（同時改 meta 與 `data-theme`）。
+  `site.js` 因此用 `defer` 載入，頁面腳本（`home.js`、`report.js`，以及之後的 `front.js`）也要 `defer` 並排在它後面，
+  執行時 `window.AIR` 才在。配色選「自動」時會刪掉儲存值；別的分頁改配色會透過 `storage` 事件同步（`air-theme` 事件通知切換鈕）。
+- 無障礙與觸控：主要內容包在 `<main>`（新聞頁是 `main#main`，首頁是 `main#cats`），`<body>` 最前面有平常隱藏的
+  「跳到主要內容」連結；觸控螢幕（`pointer:coarse`）上的標籤、按鈕與期別選單至少 44px 高；兩條隱藏捲軸的橫向列
+  （新聞類型標籤、速讀分區列）兩端有「還有更多」的淡出提示；「版面」面板打開時焦點移入，有「關閉」鈕。
+- 窄版斷點用 `max-width:40em`（預設字級下等於 640px），不要寫回 px。
 - 網址傳出去之後，就不要改路徑規則、系列代號或 repo 名稱，否則舊連結全部失效。
 - 改 `news/assets/report.js` 會影響所有既有報告的呈現。資料帶 `schema` 版本，改資料格式時渲染器要能讀舊版本。
 - 連結一律用相對路徑（網站掛在 `/ai-reports/` 子路徑下）；`404.html` 例外，用 `/ai-reports/` 開頭的絕對路徑。
 
 ## 新增一個類別
 
-1. 選類別代號：小寫英數與 `-`，定了就不改；`assets`、`archive`、`index` 是保留字。
-2. 建 `<代號>/index.html` 與 `<代號>/index.json`，欄位比照 `news/index.json`（`items` 每筆要有 `series`、`series_title`、`period`、`cadence`、`title`、`count`、`lede`；首頁的連結是 `<代號>/?t=<series>&d=<period>`）。
+1. 選類別代號：小寫英數與 `-`，定了就不改；`assets`、`archive`、`index`、`front` 是保留字（新聞類型代號同樣不能用）。
+2. 建 `<代號>/index.html` 與 `<代號>/index.json`，欄位比照 `news/index.json`（`items` 每筆要有 `series`、`series_title`、`period`、`cadence`、`title`、`count`、`lede`；首頁的連結是 `<代號>/?t=<series>&d=<period>`）。完整期別清單比照新聞，每個類型放一份 `<代號>/<series>/index.json`（類型清單），不要再用 `archive/<年>.json`。
 3. 在 `catalog.json` 的 `categories` 加一筆，首頁就會列出。
 4. 產出工具只寫自己的目錄，並遵守上面的上傳邊界。
