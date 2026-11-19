@@ -408,8 +408,14 @@
       problem(`這天的頭版載入失敗（${err.message}），重新整理再試一次。`);
       return;
     }
+    if (!isFront(front, d)) {
+      problem(`${d} 的頭版檔內容不完整，重新整理再試一次。`);
+      return;
+    }
     render();
   }
+  // 頭版檔要是物件、日期等於要開的那天（手改壞或部署到一半時不硬畫）
+  const isFront = (doc, d) => !!doc && typeof doc === 'object' && doc.date === d;
 
   // ── 回到前景時更新：重抓日期清單與正在看的那天；最新日期或頭版檔的 built_at 變了才重畫。
   // 正在看指定日期（?f=）時不跳日期；開的是 news/（最新一天）而有了更新的一天，就換到新的一天 ──
@@ -418,6 +424,7 @@
   async function refresh() {
     if (!ready || refreshing || document.visibilityState !== 'visible') return;
     refreshing = true;
+    let prev = null;
     try {
       const doc = await A.getJSON('front/index.json').catch(() => null);
       if (!doc) return; // 沒網路或暫時抓不到：維持現狀
@@ -427,11 +434,16 @@
       const d = want || next[0];
       if (!next.includes(d)) return;
       const doc2 = await A.getJSON(frontPath(d)).catch(() => null);
-      if (!doc2) return;
+      if (!isFront(doc2, d)) return;
       const changed = datesChanged || !front || doc2.date !== front.date || doc2.built_at !== front.built_at;
+      prev = [dates, front];
       dates = next;
       front = doc2;
       if (changed) render();
+    } catch (err) {
+      // 新資料畫不出來：畫面還是上一版（render 出錯時還沒換掉內容），狀態也退回上一版
+      if (prev) [dates, front] = prev;
+      console.error('頭版更新失敗', err);
     } finally {
       refreshing = false;
     }
@@ -524,5 +536,11 @@
   }
 
   layoutPanel();
-  main().finally(() => { ready = true; });
+  main()
+    .catch((err) => { // 渲染途中出錯也不能卡在「載入中…」
+      console.error('頭版載入失敗', err);
+      const msg = '頭版顯示失敗，重新整理再試一次。';
+      try { problem(msg); } catch (e) { app.textContent = msg; } // 連錯誤頁都畫不出來時至少換掉載入中
+    })
+    .finally(() => { ready = true; });
 })();

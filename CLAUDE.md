@@ -86,7 +86,7 @@ ai-reports/
   （使用者回報過）。改排版後要在 iOS 模擬器的 Safari 看一次，桌機 Chrome 看不出這類問題。標題（`.mast-title`、`.row-title`）用 `text-wrap:balance`。
 - 配色：`site.css` 的 `:root{color-scheme:light dark}`，`data-theme=light`／`dark` 各自覆寫；每個 HTML 的 `<head>` 有
   `<meta name="color-scheme">` 與一行 inline 腳本，在第一次繪製前套用 `air-theme`（同時改 meta 與 `data-theme`）。
-  `site.js` 因此用 `defer` 載入，頁面腳本（`home.js`、`report.js`，以及之後的 `front.js`）也要 `defer` 並排在它後面，
+  `site.js` 因此用 `defer` 載入，頁面腳本（`home.js`、`report.js`、`front.js`）也要 `defer` 並排在它後面，
   執行時 `window.AIR` 才在。配色選「自動」時會刪掉儲存值；別的分頁改配色會透過 `storage` 事件同步（`air-theme` 事件通知切換鈕）。
 - 無障礙與觸控：主要內容包在 `<main>`（新聞頁是 `main#main`，首頁是 `main#cats`），`<body>` 最前面有平常隱藏的
   「跳到主要內容」連結；觸控螢幕（`pointer:coarse`）上的標籤、按鈕與期別選單至少 44px 高；兩條隱藏捲軸的橫向列
