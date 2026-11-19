@@ -106,6 +106,41 @@
     return g;
   }
 
+  // 回到頂端（每一頁右下角）：頁首放一個一個畫面高的隱形哨兵，被捲出畫面（捲過約一屏）才顯示按鈕。
+  // CSS 的 scroll-state 容器查詢 Safari 還不支援，iPhone 是主要讀者，所以一律用 IntersectionObserver（指南的備援做法）
+  var UP_ICON = '<svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" aria-hidden="true"><path d="M3 2.5h12M9 15.5V6M4.5 10.5 9 6l4.5 4.5"/></svg>';
+  function backToTop() {
+    if (!('IntersectionObserver' in window) || !document.body) return;
+    var sentinel = h('div', { class: 'to-top-sentinel', 'aria-hidden': 'true' });
+    var btn = h('button', { type: 'button', class: 'to-top', 'aria-label': '回到頂端', title: '回到頂端', html: UP_ICON });
+    document.body.prepend(sentinel);
+    document.body.appendChild(btn);
+    new IntersectionObserver(function (entries) {
+      btn.classList.toggle('is-on', !entries[entries.length - 1].isIntersecting);
+    }).observe(sentinel);
+    var reduce = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : null;
+    // 鍵盤操作時按鈕一回到頂端就隱藏，焦點移到頁首第一個可操作元素（略過連結），不要掉回 <body>
+    function focusStart() {
+      var first = document.querySelector('.skip-link, a[href], button:not(.to-top)');
+      if (first) first.focus({ preventScroll: true });
+    }
+    // 只處理鍵盤焦點：滑鼠點擊在 Chrome 也會讓按鈕取得焦點，那時移交焦點會讓略過連結跳出來
+    var viaKeyboard = false;
+    btn.addEventListener('focus', function () {
+      try { viaKeyboard = btn.matches(':focus-visible'); } catch (e) { viaKeyboard = false; }
+    });
+    btn.addEventListener('click', function () {
+      window.scrollTo({ top: 0, behavior: reduce && reduce.matches ? 'auto' : 'smooth' });
+      if (viaKeyboard) focusStart();
+    });
+    // 焦點停在按鈕上時改用 Home／Page Up 捲回頂端：按鈕隱藏、焦點被拿走，同樣接到頁首（指南：focusout 時移交焦點）
+    btn.addEventListener('focusout', function (e) {
+      if (viaKeyboard && !e.relatedTarget && !btn.classList.contains('is-on')) focusStart();
+      viaKeyboard = false;
+    });
+  }
+  backToTop();
+
   window.AIR = {
     h: h, getJSON: getJSON, fmtShort: fmtShort, themeSwitch: themeSwitch,
     THEMES: THEMES, getTheme: readTheme, setTheme: setTheme, themeLabel: themeLabel,

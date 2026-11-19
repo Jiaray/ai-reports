@@ -110,10 +110,13 @@ ul.sec-note{padding-left:var(--space-4)}
 .seealso-more summary{cursor:pointer;color:var(--color-accent-700)}
 /* 窄版斷點用 em：預設字級（16px）下等於 640px；使用者把瀏覽器預設字級調大時，會提早換成窄版、不擠字 */
 @media(max-width:40em){
-.wrap{padding:var(--space-6) var(--space-4)}
+/* 底部多留 56px：右下角「回到頂端」按鈕在捲到底時不蓋住頁尾 */
+.wrap{padding:var(--space-6) var(--space-4) calc(var(--space-6) + 56px)}
 .mast-title{font-size:40px}
 .toc{grid-template-columns:repeat(2,1fr)}
-.row{grid-template-columns:44px 1fr;gap:var(--space-3)}
+/* 手機讓內文接近滿版（使用者要求）：分區框左右內距減半，條目左欄（編號＋時刻）收窄到剛好放得下 */
+.sec-body{padding:var(--space-2) var(--space-3) var(--space-4)}
+.row{grid-template-columns:36px 1fr;gap:var(--space-2)}
 .intro{font-size:15px}
 }
 
@@ -131,3 +134,16 @@ ul.sec-note{padding-left:var(--space-4)}
 @media(forced-colors:active){.theme-switch button[aria-pressed=true]{outline:2px solid;outline-offset:-4px}}
 /* 觸控螢幕上，首頁配色鈕至少 44×44（指南：at least 44×44 on touch screens）；滑鼠、觸控板不變 */
 @media(pointer:coarse){.theme-switch button{min-height:44px;min-width:44px}}
+
+/* 回到頂端（使用者要求，每一頁都有）：site.js 建立。頁首放一個看不見、一個畫面高的哨兵，被捲出畫面後按鈕才淡入；
+   固定在右下角，避開 iPhone 的瀏海與底部安全區；方角細框沿用藍圖，z-index 低於「目錄」「版面」面板 */
+.to-top-sentinel{position:absolute;top:0;left:0;width:1px;height:100vh;pointer-events:none;visibility:hidden}
+.to-top{position:fixed;z-index:20;right:max(16px,env(safe-area-inset-right,0px));bottom:max(16px,env(safe-area-inset-bottom,0px));display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;padding:0;background:var(--color-bg);color:var(--color-neutral-700);border:1px solid var(--color-divider);border-radius:0;box-shadow:0 10px 24px -14px rgb(0 0 0 / .55);cursor:pointer;visibility:hidden;opacity:0;translate:0 8px;transition:visibility .2s,opacity .2s ease,translate .2s ease}
+.to-top.is-on{visibility:visible;opacity:1;translate:none}
+.to-top:hover{background:var(--color-accent-100);color:var(--color-text)}
+.to-top:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
+.to-top svg{display:block}
+@media(pointer:coarse){.to-top{width:44px;height:44px}}
+@media(prefers-reduced-motion:reduce){.to-top{translate:none;transition:none}}
+@media(forced-colors:active){.to-top{border-color:ButtonText}}
+@media print{.to-top{display:none}}
