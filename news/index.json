@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-19T11:51:21+08:00",
+ "updated_at": "2026-11-19T11:54:40+08:00",
  "series": [
   {
    "id": "general",
@@ -123,6 +123,18 @@
   }
  ],
  "items": [
+  {
+   "series": "finance",
+   "series_title": "財經日報",
+   "cadence": "daily",
+   "period": "2026-11-19",
+   "date": "2026-11-19",
+   "title": "財經日報",
+   "lede": "台股盤中重挫逾1,600點、上市櫃逾200檔跌停；Fed理事華勒喊12月升息2碼，黃金跌破3,800美元；輝達財報優於預期仍連5黑，治理風波延燒；Anthropic IPO定價83美元。",
+   "count": 30,
+   "data": "finance/2026/2026-11-19.json",
+   "generated_at": "2026-11-19T11:54:40+08:00"
+  },
   {
    "series": "tech_ai",
    "series_title": "科技 AI 日報",

@@ -1,8 +1,16 @@
 {
  "schema": 1,
  "date": "2026-11-19",
- "built_at": "2026-11-19T11:51:21+08:00",
+ "built_at": "2026-11-19T11:54:40+08:00",
  "reports": [
+  {
+   "series": "finance",
+   "series_title": "財經日報",
+   "group": "財經",
+   "period": "2026-11-19",
+   "count": 30,
+   "generated_at": "2026-11-19T11:54:40+08:00"
+  },
   {
    "series": "tech_ai",
    "series_title": "科技 AI 日報",
@@ -13,6 +21,35 @@
   }
  ],
  "entries": [
+  {
+   "key": "ff64aca378",
+   "rank": 1,
+   "title": "台股盤中重挫逾1,600點失守39,000點 上市櫃逾200檔跌停",
+   "summary_html": "台股19日開低後一度翻紅至40,315.53點，隨即賣壓湧現、最低下探38,259點，高低震盪逾1,900點；櫃買指數重挫逾7%。",
+   "url": "https://money.udn.com/money/story/5612/9888460",
+   "src": "經濟日報",
+   "ts": "2026-11-19T11:38:21+08:00",
+   "left": "11/19 11:38",
+   "heat": "",
+   "tags": [
+    {
+     "text": "頭條",
+     "cls": "tag-hot"
+    },
+    {
+     "text": "利空",
+     "cls": "tag-hot"
+    }
+   ],
+   "from": [
+    {
+     "series": "finance",
+     "period": "2026-11-19",
+     "no": "20",
+     "rank": 1
+    }
+   ]
+  },
   {
    "key": "584db0d8b9",
    "rank": 1,
@@ -30,6 +67,31 @@
      "period": "2026-11-19",
      "no": "11",
      "rank": 1
+    }
+   ]
+  },
+  {
+   "key": "b6b7093123",
+   "rank": 2,
+   "title": "Fed理事華勒：12月恐需升息2碼，通膨「走錯方向且正在擴散」",
+   "summary_html": "Fed理事華勒接受CNBC專訪表示，12月8至9日的FOMC會議可能需要升息2碼，以扭轉去年三次各1碼的降息。",
+   "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html",
+   "src": "Hacker News",
+   "ts": "2026-11-19T03:37:26+08:00",
+   "left": "11/19 03:37",
+   "heat": "HN 6",
+   "tags": [
+    {
+     "text": "利空",
+     "cls": "tag-hot"
+    }
+   ],
+   "from": [
+    {
+     "series": "finance",
+     "period": "2026-11-19",
+     "no": "16",
+     "rank": 2
     }
    ]
   },
@@ -54,6 +116,31 @@
    ]
   },
   {
+   "key": "9c6e9fcb5e",
+   "rank": 3,
+   "title": "輝達第3季營收1,158億美元優於預期 股價仍連5日收黑",
+   "summary_html": "輝達第3季營收1,158億美元、年增103%，並把2028財年營收成長目標由70%上調至75%，但週三股價再跌2.9%、收150.96美元，連5日收黑。",
+   "url": "https://news.cnyes.com/news/id/6666890",
+   "src": "Anue 鉅亨網",
+   "ts": "2026-11-19T09:05:51+08:00",
+   "left": "11/19 09:05",
+   "heat": "",
+   "tags": [
+    {
+     "text": "利空",
+     "cls": "tag-hot"
+    }
+   ],
+   "from": [
+    {
+     "series": "finance",
+     "period": "2026-11-19",
+     "no": "08",
+     "rank": 3
+    }
+   ]
+  },
+  {
    "key": "ff0c2dfa06",
    "rank": 3,
    "title": "NGINX 爆兩個 HTTP/2 免認證遠端執行漏洞（CVSS 9.2），AI 輔助挖出、最老藏了 11 年",
@@ -74,6 +161,31 @@
    ]
   },
   {
+   "key": "2a7ed7ee18",
+   "rank": 4,
+   "title": "Anthropic IPO定價每股83美元 高於70至78美元區間",
+   "summary_html": "Claude開發商Anthropic將IPO價格定為83美元，發行約9.8億股A類普通股，預計19日在那斯達克以代號ANT掛牌，執行長Dario Amodei等共同創辦人將敲鐘。",
+   "url": "https://www.theguardian.com/technology/2026/nov/18/anthropic-share-price-stock-market-ipo",
+   "src": "Hacker News",
+   "ts": "2026-11-19T07:32:26+08:00",
+   "left": "11/19 07:32",
+   "heat": "HN 6",
+   "tags": [
+    {
+     "text": "中性",
+     "cls": "tag-outline"
+    }
+   ],
+   "from": [
+    {
+     "series": "finance",
+     "period": "2026-11-19",
+     "no": "11",
+     "rank": 4
+    }
+   ]
+  },
+  {
    "key": "0081a6df94",
    "rank": 4,
    "title": "Nvidia 臨時執行長 Kress 首場財報會：董事會不讓黃仁勳回任，收緊對 neocloud 的採購兜底",
@@ -90,6 +202,31 @@
      "period": "2026-11-19",
      "no": "13",
      "rank": 4
+    }
+   ]
+  },
+  {
+   "key": "cb6bb7c27d",
+   "rank": 5,
+   "title": "上市櫃18日破紀錄爆9起違約交割 合計4.27億元、創意居冠",
+   "summary_html": "證交所與櫃買中心18日公告9檔個股違約交割，總額4億2,694萬元，集中在AI伺服器、散熱、PCB與半導體供應鏈，對應16日台股重挫的T+2交割日。",
+   "url": "https://news.cnyes.com/news/id/6666606",
+   "src": "Anue 鉅亨網",
+   "ts": "2026-11-18T21:05:01+08:00",
+   "left": "11/18 21:05",
+   "heat": "",
+   "tags": [
+    {
+     "text": "利空",
+     "cls": "tag-hot"
+    }
+   ],
+   "from": [
+    {
+     "series": "finance",
+     "period": "2026-11-19",
+     "no": "29",
+     "rank": 5
     }
    ]
   },

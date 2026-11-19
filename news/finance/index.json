@@ -1,0 +1,17 @@
+{
+ "schema": 1,
+ "series": "finance",
+ "title": "財經日報",
+ "group": "財經",
+ "cadence": "daily",
+ "updated_at": "2026-11-19T11:54:40+08:00",
+ "items": [
+  {
+   "period": "2026-11-19",
+   "date": "2026-11-19",
+   "count": 30,
+   "data": "finance/2026/2026-11-19.json",
+   "generated_at": "2026-11-19T11:54:40+08:00"
+  }
+ ]
+}
