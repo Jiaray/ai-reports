@@ -61,7 +61,8 @@ ai-reports/
     ├── index.json                類型設定（series，含 group、short；順序＝標籤與頭版的類型順序）＋最近 200 份（含導言）  ← publish.py
     ├── front/                                                                                  ← front.py
     │   ├── index.json            最近 60 個有頭版的日期與各天則數
-    │   └── <年>/<YYYY-MM-DD>.json 每日頭版：當天各日報標 front 的條目依 key 合併，週報月報另放 weekly
+    │   └── <年>/<YYYY-MM-DD>.json 每日頭版：當天各日報標 front 的條目依 key 合併，同一事件不同網址的也併成一則
+    │                             （引用了對方的主連結、標題也相近；front.py 的 merge_events），週報月報另放 weekly
     ├── <系列>/index.json         這個類型的全部期別（新到舊，不含導言；取代舊的 archive）               ← publish.py
     ├── <系列>/<年>/<期別>.json   報告資料（schema 1，欄位對應 md2html2.py 的 render；條目的 ts 是
     │                             時間軸排序用的台北時間 ISO，解析不出時間就沒有；key 是條目固定編號，
