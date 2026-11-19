@@ -25,6 +25,7 @@
   let index = null; // news/index.json；抓不到時為 null，類型資訊改用頭版檔自己的 reports
   let dates = []; // 有頭版的日期，新到舊
   let front = null; // 目前顯示的頭版檔
+  let fpBox = null; // 「版面」按鈕＋面板（layoutPanel 建一次），每次重畫時放進報頭上方那一列的右端
   const marked = new Map(); // 這次開頁以來標過「新」的 key（日期 → Set）：回前景重畫時照樣標著
 
   // ── 日期與時間（台北） ────────────────────────────────────────────
@@ -200,11 +201,9 @@
     ]);
   }
 
+  // 分區標題只留名稱（同報告頁：「N 則」使用者覺得是多餘的裝飾）；count 參數留著，呼叫端不必改
   const section = (id, name, count, kids) => h('section', { class: 'sec fp-sec', id, 'aria-labelledby': `${id}-h` }, [
-    h('div', { class: 'sec-tab' }, [
-      h('h2', { class: 'sec-name', id: `${id}-h` }, [name]),
-      h('span', { class: 'sec-count' }, [`${count} 則`]),
-    ]),
+    h('div', { class: 'sec-tab' }, [h('h2', { class: 'sec-name', id: `${id}-h` }, [name])]),
     h('div', { class: 'sec-body' }, kids),
   ]);
 
@@ -223,13 +222,12 @@
     const i = dates.indexOf(front.date);
     const prev = i >= 0 ? dates[i + 1] : null;
     const next = i > 0 ? dates[i - 1] : null;
-    const names = [...new Set((front.reports || []).map((r) => r.series))].sort(bySeries).map((id) => seriesMeta(id).short);
-    const reports = [h('span', { class: 'fp-reports-label' }, ['收錄'])];
-    names.forEach((n, k) => reports.push(k ? '・' : '', h('span', { class: 'fp-rep' }, [n])));
     const built = Date.parse(front.built_at);
+    // 使用者要求任何地方都不重複同一個資訊：刊頭只寫「AI Reports」（「Front Page」就是大標題的「頭版」）；
+    // 原本的「收錄 綜合・國際」拿掉（每則條目的類型標籤已經標出來自哪份報告）
     return h('header', { class: 'masthead fp-mast' }, [
       h('div', { class: 'mast-top' }, [
-        h('span', { class: 'mast-brand' }, ['AI Reports · Front Page']),
+        h('span', { class: 'mast-brand' }, ['AI Reports']),
         Number.isNaN(built) ? null : h('span', { class: 'mast-issue' }, [`更新 ${taipei(built).slice(11, 16)}`]),
       ]),
       h('div', { class: 'fp-days' }, [
@@ -237,9 +235,8 @@
         h('h1', { class: 'fp-title' }, [dayLabel(front.date), h('span', { class: 'fp-title-sub' }, ['頭版'])]),
         dayLink(next, 'next'),
       ]),
-      // 預設開最新一個有頭版的日期；那天不是今天時提醒（spec 6.6）
-      front.date !== today() && front.date === dates[0] ? h('p', { class: 'fp-latest' }, [`最近一期：${dayLabel(front.date)}`]) : null,
-      names.length ? h('p', { class: 'fp-reports' }, reports) : null,
+      // 預設開最新一個有頭版的日期；那天不是今天時提醒（spec 6.6）。日期大標題已有，提醒不再重寫日期
+      front.date !== today() && front.date === dates[0] ? h('p', { class: 'fp-latest' }, ['今天還沒有頭版，這是最近一期']) : null,
     ]);
   }
 
@@ -272,13 +269,19 @@
     if (last !== first) hintObserver.observe(last);
   }
 
-  const footer = (right) => h('footer', { class: 'foot' }, [
+  // 頁尾只留頭版的整理方式；刊名與日期上面都有了，不再重複
+  const footer = () => h('footer', { class: 'foot' }, [
     h('span', { class: 'foot-left' }, ['頭版從當天各報告標出的重點整理，同一則新聞只列一次']),
-    h('span', { class: 'foot-right' }, [right]),
   ]);
 
+  // 報頭上方那一列：只放右上角的「版面」（同報告頁的位置；頭版的類型標籤列照樣稿留在底部）
+  const bar = () => (fpBox ? h('div', { class: 'fp-bar' }, [fpBox]) : null);
+
   function show(kids) {
-    app.replaceChildren(...kids.filter(Boolean));
+    const focused = document.activeElement;
+    app.replaceChildren(...[bar(), ...kids].filter(Boolean));
+    // 「版面」面板跟著重畫搬到新的那一列，搬動時焦點會掉到 body：放回原本的按鈕（條目的焦點由 render 自己還原）
+    if (focused && focused.isConnected && focused !== document.activeElement) focused.focus({ preventScroll: true });
     requestAnimationFrame(scrollHints);
   }
 
@@ -328,7 +331,7 @@
       masthead(),
       h('main', { id: 'main' }, secs.length ? secs : [h('p', { class: 'load-error' }, ['這天的頭版沒有條目。'])]),
       tabs(),
-      footer(`AI Reports · ${front.date}`),
+      footer(),
     ]);
     document.title = `頭版 ${dayLabel(front.date)}｜AI Reports`;
     opened.forEach((id) => {
@@ -353,7 +356,7 @@
     latest.sort((a, b) => bySeries(a.series, b.series));
     const kids = [
       h('header', { class: 'masthead fp-mast' }, [
-        h('div', { class: 'mast-top' }, [h('span', { class: 'mast-brand' }, ['AI Reports · Front Page'])]),
+        h('div', { class: 'mast-top' }, [h('span', { class: 'mast-brand' }, ['AI Reports'])]),
         h('div', { class: 'fp-days' }, [dayLink(null, 'prev'), h('h1', { class: 'fp-title' }, ['頭版']), dayLink(null, 'next')]),
       ]),
       h('main', { id: 'main', class: 'fp-empty' }, [
@@ -366,8 +369,8 @@
           ])]);
         })) : null,
       ]),
-      latest.length ? tabs() : null,
-      footer('AI Reports · Front Page'),
+      // 不放底部的類型標籤列：上面的清單已經列出每個類型（使用者要求：任何地方都不重複同一個資訊）
+      footer(),
     ];
     if (!index) kids.splice(2, 0, h('p', { class: 'load-error', role: 'alert' }, ['新聞清單也載入失敗，重新整理再試一次。']));
     show(kids);
@@ -452,21 +455,31 @@
   // 從往返快取（bfcache）回來時也檢查一次
   window.addEventListener('pageshow', (e) => { if (e.persisted) refresh(); });
 
-  // ── 右下角「版面」：只有「配色」一組（自動／淺色／深色，沿用 air-theme）。行為同報告頁的 layoutPanel：
+  // ── 右上角「版面」：只有「配色」一組（自動／淺色／深色，沿用 air-theme）。位置與行為同報告頁的 layoutPanel
+  // （使用者要求兩頁的「版面」都固定在右上角）：按鈕在報頭上方那一列的右端，面板在按鈕正下方往下展開；
   // 打開時焦點移入、有看得見的「關閉」鈕、點外面或按 Esc 關閉、關閉後焦點回到「版面」。
-  // 用頭版自己的 id 與 class（fp-panel、fp-toggle），不和 report.js 的 #vw-panel 撞名。
-  // 支援時用原生 popover（popover=auto＋popovertarget）：點外面、Esc 由瀏覽器關閉，Esc 後焦點由瀏覽器還給按鈕，
-  // aria-expanded 也由瀏覽器依 popovertarget 提供；不支援時才用 hidden 自己開關（同報告頁的退路）──
+  // 不用原生 popover：popover 在 top layer，要跟住按鈕得靠 anchor positioning（Firefox 不支援）；
+  // 面板放在按鈕旁的一般 DOM、absolute 定位，就會跟著按鈕。
+  // 外觀直接用報告頁的 .dd-*／.vw-* 樣式（report.css 兩頁都會載入），兩頁的「版面」長得一模一樣；id 用頭版自己的（fp-*）──
+  const ICON_SLIDERS = '<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M2.5 6H11M15 6h2.5M2.5 14H5M9 14h8.5"/><rect x="11" y="4" width="4" height="4"/><rect x="5" y="12" width="4" height="4"/></svg>';
+  const ICON_CLOSE = '<svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M5 5l10 10M15 5 5 15"/></svg>';
+  // 打開時淡入、往下滑 4px（同報告頁；減少動態時只淡入）
+  function openMotion(el) {
+    if (!el.animate) return;
+    const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    el.animate(still
+      ? [{ opacity: 0 }, { opacity: 1 }]
+      : [{ opacity: 0, transform: 'translateY(-4px)' }, { opacity: 1, transform: 'none' }], { duration: 140, easing: 'ease-out' });
+  }
+
   function layoutPanel() {
     if (!A.THEMES) return; // 瀏覽器還快取著舊版 site.js：沒有配色可選，就不放按鈕
-    const proto = HTMLElement.prototype;
-    const native = Object.prototype.hasOwnProperty.call(proto, 'popover') && typeof proto.togglePopover === 'function';
-    const toggle = h('button', native
-      ? { type: 'button', class: 'fp-toggle', popovertarget: 'fp-panel' }
-      : { type: 'button', class: 'fp-toggle', 'aria-expanded': 'false', 'aria-controls': 'fp-panel' }, ['版面']);
-    const panel = h('div', native
-      ? { class: 'fp-panel', id: 'fp-panel', role: 'dialog', 'aria-label': '版面設定', popover: 'auto' }
-      : { class: 'fp-panel', id: 'fp-panel', role: 'dialog', 'aria-label': '版面設定', hidden: true });
+    const toggle = h('button', { type: 'button', class: 'dd-toggle', 'aria-expanded': 'false', 'aria-controls': 'fp-panel' }, [
+      h('span', { class: 'dd-ico', html: ICON_SLIDERS }), h('span', null, ['版面']),
+    ]);
+    const panel = h('div', { class: 'dd-panel vw-panel', id: 'fp-panel', role: 'dialog', 'aria-labelledby': 'fp-title', hidden: true });
+    const close = h('button', { type: 'button', class: 'dd-close', 'aria-label': '關閉版面設定', html: ICON_CLOSE });
+    panel.appendChild(h('div', { class: 'dd-head' }, [h('span', { class: 'dd-title', id: 'fp-title' }, ['版面設定']), close]));
     const buttons = A.THEMES.map(([value, text]) => {
       const b = h('button', { type: 'button' }, [text]);
       b.addEventListener('click', () => {
@@ -475,11 +488,10 @@
       });
       return [b, value];
     });
-    panel.appendChild(h('div', { class: 'fp-group', role: 'group', 'aria-labelledby': 'fp-label-theme' }, [
-      h('span', { class: 'fp-label', id: 'fp-label-theme' }, ['配色']), ...buttons.map((x) => x[0]),
+    panel.appendChild(h('div', { class: 'vw-group', role: 'group', 'aria-labelledby': 'fp-label-theme' }, [
+      h('span', { class: 'vw-label', id: 'fp-label-theme' }, ['配色']),
+      h('div', { class: 'vw-seg' }, buttons.map((x) => x[0])),
     ]));
-    const close = h('button', { type: 'button', class: 'fp-close' }, ['關閉']);
-    panel.appendChild(close);
     // 選中狀態與「自動（深色）／自動（淺色）」的說明；別的分頁改配色、系統深淺改變時 site.js 發 air-theme
     function sync() {
       const cur = A.getTheme();
@@ -489,50 +501,35 @@
       });
     }
     const focusPicked = () => (panel.querySelector('[aria-pressed=true]') || panel.querySelector('button')).focus();
-    const isOpen = () => (native ? panel.matches(':popover-open') : !panel.hidden);
     document.addEventListener('air-theme', sync);
-    if (native) {
-      // 開啟後焦點移到目前選中的配色；關閉鈕收起後焦點回「版面」
-      panel.addEventListener('toggle', (e) => { if (e.newState === 'open') focusPicked(); });
-      close.addEventListener('click', () => {
-        panel.hidePopover();
-        toggle.focus();
-      });
-    } else {
-      const open = (yes) => {
-        panel.hidden = !yes;
-        toggle.setAttribute('aria-expanded', String(yes));
-        if (yes) focusPicked();
-      };
-      close.addEventListener('click', () => {
+    // 開啟後焦點移到目前選中的配色；關閉鈕、Esc 收起後焦點回「版面」
+    const open = (yes) => {
+      panel.hidden = !yes;
+      toggle.setAttribute('aria-expanded', String(yes));
+      if (yes) {
+        openMotion(panel);
+        focusPicked();
+      }
+    };
+    close.addEventListener('click', () => {
+      open(false);
+      toggle.focus();
+    });
+    toggle.addEventListener('click', (e) => {
+      e.stopPropagation();
+      open(panel.hidden);
+    });
+    document.addEventListener('click', (e) => {
+      if (!panel.hidden && !panel.contains(e.target)) open(false);
+    });
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape' && !panel.hidden) {
         open(false);
         toggle.focus();
-      });
-      toggle.addEventListener('click', (e) => {
-        e.stopPropagation();
-        open(panel.hidden);
-      });
-      document.addEventListener('click', (e) => {
-        if (!panel.hidden && !panel.contains(e.target)) open(false);
-      });
-      document.addEventListener('keydown', (e) => {
-        if (e.key === 'Escape' && !panel.hidden) {
-          open(false);
-          toggle.focus();
-        }
-      });
-    }
-    // 手機上固定按鈕會蓋住右下角的字：往下捲先收起，往上捲、回到頂端或捲到底再出現；面板開著時不收
-    let lastY = window.scrollY;
-    window.addEventListener('scroll', () => {
-      const y = window.scrollY;
-      const edge = y < 80 || y + window.innerHeight >= document.documentElement.scrollHeight - 4;
-      if (!edge && !isOpen() && Math.abs(y - lastY) < 8) return;
-      toggle.classList.toggle('fp-away', !edge && !isOpen() && y > lastY);
-      lastY = y;
-    }, { passive: true });
+      }
+    });
     sync();
-    document.body.append(toggle, panel); // 按鈕在前：鍵盤從「版面」按 Tab 直接進面板
+    fpBox = h('div', { class: 'dd vw' }, [toggle, panel]); // 按鈕在前：鍵盤從「版面」按 Tab 直接進面板；由 show() 放進頁首那一列
   }
 
   layoutPanel();
