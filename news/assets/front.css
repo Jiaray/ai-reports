@@ -1,49 +1,63 @@
-/* 頭版（news/ 不帶 t 參數，front.js 渲染）的樣式。DOM 與 class 照使用者核可的 Task 1 樣稿；
-   條目沿用報告頁速讀讀法的 DOM 與 class（.row、.peek、.row-title、.row-sum、.hot-badge…），
-   front.js 在頭版模式替 <html> 設 data-read="scan"、data-look="blueprint"，直接套 report.css 的速讀樣式。
+/* 頭版（news/ 不帶 t 參數，front.js 渲染）的樣式：使用者在三個樣版中選定的「B 整點分組時間軸」。
+   報頭一列（左「頭版」＋日期、右前後一期與「版面」圖示鈕）；底下沒有分區標題，全部條目依時間由新到舊，
+   按整點分組（黏頂的「10:00」標題），每則左緣一條領域色線；每輪第一順位（原本的「要聞」）淡底色、標題大一號、露兩行摘要。
+   條目沿用報告頁速讀的 .peek／.row-title／.row-sum／.hot-badge（front.js 在頭版替 <html> 設 data-read="scan"）。
    這支檔案和報告頁共用一個 index.html，所以只寫 .fp／.fp-* 開頭的選擇器：不碰 :root 的 color-scheme、
-   不寫 html 的 scroll-padding；「版面」直接沿用報告頁的 .dd-*／.vw-*，只在 .fp-bar 底下補高度，報告頁的外觀完全不受影響。
-   展開後的摘要不另設字級：直接沿用報告頁速讀展開時的 .row-sum（site.css＋report.css），兩邊永遠一致。 */
+   不寫 html 的 scroll-padding；「版面」沿用報告頁的 .dd-*／.vw-*，報告頁的外觀完全不受影響。 */
 
-/* 類型標籤依領域（group）上色：淺色底、深色底各一組，對比度都在 4.5:1 以上（樣稿的色票）。
-   變數掛在頭版的 #app.fp 上，不放 :root */
+/* 領域色（色線與類型名稱）：淺色底、深色底各一組，對比度都在 4.5:1 以上。變數掛在頭版的 #app.fp 上，不放 :root */
 .fp{--g-gen:#53687a;--g-intl:#2f6db5;--g-fin:#a04f0f;--g-tech:#0c7372;--g-oss:#7b4fa3;--g-game:#b23f7a;--g-tw:#337431;--g-topic:#7a5a43}
 @media(prefers-color-scheme:dark){:root:not([data-theme=light]) .fp{--g-gen:#9db1c2;--g-intl:#7eaaee;--g-fin:#efa25e;--g-tech:#4fc4c1;--g-oss:#b896e3;--g-game:#e982b6;--g-tw:#82c27a;--g-topic:#c79f80}}
 :root[data-theme=dark] .fp{--g-gen:#9db1c2;--g-intl:#7eaaee;--g-fin:#efa25e;--g-tech:#4fc4c1;--g-oss:#b896e3;--g-game:#e982b6;--g-tw:#82c27a;--g-topic:#c79f80}
+.fp [data-group="綜合"]{--g-c:var(--g-gen)}
+.fp [data-group="國際"]{--g-c:var(--g-intl)}
+.fp [data-group="財經"]{--g-c:var(--g-fin)}
+.fp [data-group="科技"]{--g-c:var(--g-tech)}
+.fp [data-group="開源"]{--g-c:var(--g-oss)}
+.fp [data-group="遊戲"]{--g-c:var(--g-game)}
+.fp [data-group="台灣"]{--g-c:var(--g-tw)}
+.fp [data-group="主題"]{--g-c:var(--g-topic)}
 
-/* ── 報頭：‹ 前一期｜日期＋頭版｜下一期 ›（不是今天時下面一行提醒「這是最近一期」） ──
-   大標在 360／320 寬也要一行放得下（兩側還有前後期連結），字級用 clamp 隨視窗縮小 */
-.fp-mast{padding-bottom:var(--space-2)}
-.fp-days{display:grid;grid-template-columns:minmax(0,1fr) auto minmax(0,1fr);align-items:center;gap:var(--space-2);margin:var(--space-3) 0 var(--space-2)}
-.fp-title{margin:0;font:600 clamp(22px,7.2vw,32px)/1.15 var(--font-heading);color:var(--color-text);text-align:center;white-space:nowrap}
-.fp-title-sub{margin-left:.25em;color:var(--color-accent-700)}
-.fp-day{display:inline-flex;align-items:center;gap:4px;min-height:36px;padding:0 var(--space-2);font:600 15px/1 var(--font-heading);letter-spacing:.02em;color:var(--color-accent-700);white-space:nowrap}
-.fp-day:first-child{justify-self:start;margin-left:calc(-1 * var(--space-2))}
-.fp-day:last-child{justify-self:end;margin-right:calc(-1 * var(--space-2))}
+/* ── 報頭：一列。左邊小字「頭版」疊在日期大字上，右邊 ‹ › 與「版面」三個圖示鈕（不是今天時下面一行提醒「這是最近一期」） ── */
+.fp-hd{border-top:3px solid var(--color-text);padding-top:var(--space-3)}
+.fp-hd-row{display:flex;align-items:flex-end;gap:var(--space-2)}
+.fp-title{display:flex;flex-direction:column;gap:5px;min-width:0;margin:0}
+.fp-kicker{font:600 12px/1 var(--font-heading);letter-spacing:.14em;color:var(--color-accent-700)}
+.fp-date{font:600 clamp(26px,8.4vw,34px)/1 var(--font-heading);color:var(--color-text);white-space:nowrap}
+.fp-hd-btns{display:flex;align-items:center;gap:2px;margin-left:auto}
+.fp-day{display:inline-flex;align-items:center;justify-content:center;min-width:40px;min-height:40px;color:var(--color-accent-700)}
 a.fp-day:hover{background:var(--color-accent-100)}
-a.fp-day:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
+a.fp-day:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
 .fp-day.is-off{color:var(--color-neutral-300)}
 .fp-arrow{font:400 26px/1 var(--font-body);margin-top:-3px}
-.fp-latest{margin:0 0 var(--space-2);text-align:center;font:600 13px/1.5 var(--font-body);color:var(--color-accent-700)}
+/* 「版面」在頭版只露圖示（字留在無障礙樹，報讀器照樣唸「版面」），按鈕撐成 40px 方塊、對齊內容欄右緣 */
+.fp-hd .vw{margin-left:0}
+.fp-hd .dd-toggle{justify-content:center;min-width:40px;min-height:40px;padding:0;margin-right:-8px}
+.fp-hd .dd-txt{position:absolute;clip-path:inset(50%);overflow:hidden;width:1px;height:1px;margin:-1px;white-space:nowrap}
+.fp-latest{margin:var(--space-2) 0 0;font:600 13px/1.5 var(--font-body);color:var(--color-accent-700)}
 
-/* ── 分區：要聞、更多、週報與月報（藍圖的檔案夾標籤） ── */
-.fp-sec .sec-tab{align-items:center}
+/* ── 時間軸：整點標題黏在頂端（底色蓋住捲過去的條目），不是頭版那天的時段加註日期 ── */
+.fp-tl{margin-top:var(--space-2)}
+.fp-hr{position:sticky;top:0;z-index:2;display:flex;align-items:baseline;gap:var(--space-2);margin:var(--space-4) 0 var(--space-1);padding:7px 0 6px;background:var(--color-bg);border-bottom:1px solid var(--color-divider);font:600 15px/1.2 var(--font-heading);letter-spacing:.04em;color:var(--color-neutral-700)}
+.fp-hr-day{font:500 12.5px/1 var(--font-body);letter-spacing:0;color:var(--color-neutral-600)}
 
-/* ── 條目：平常只列時間、標題（＋熱門徽章、「新」）與類型標籤；點標題展開摘要與連結。
-   summary 裡放標題與類型標籤列（都是 span），用 grid 把報告頁的展開箭頭（::after）放在右欄 ── */
-.fp-row .peek>summary{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:var(--space-3);row-gap:5px;align-items:start}
-.fp-row .peek>summary::after{grid-column:2;grid-row:1}
-.fp-row .row-title{grid-column:1}
-.fp-meta{grid-column:1;display:flex;flex-wrap:wrap;align-items:center;gap:6px}
-.fp-type{background:transparent;border:1px solid var(--g-c,var(--color-divider));color:var(--g-c,var(--color-neutral-600))}
-.fp-type[data-group="綜合"]{--g-c:var(--g-gen)}
-.fp-type[data-group="國際"]{--g-c:var(--g-intl)}
-.fp-type[data-group="財經"]{--g-c:var(--g-fin)}
-.fp-type[data-group="科技"]{--g-c:var(--g-tech)}
-.fp-type[data-group="開源"]{--g-c:var(--g-oss)}
-.fp-type[data-group="遊戲"]{--g-c:var(--g-game)}
-.fp-type[data-group="台灣"]{--g-c:var(--g-tw)}
-.fp-type[data-group="主題"]{--g-c:var(--g-topic)}
+/* ── 一則條目：左緣 3px 領域色線；summary 是「類型・時刻」一行、標題、（要聞）兩行摘要，右上角是報告頁的展開箭頭 ── */
+.fp-it{margin:var(--space-2) 0;padding:6px 0 6px 12px;border-left:3px solid var(--g-c,var(--color-divider))}
+.fp-it .peek>summary{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:var(--space-3);row-gap:2px;align-items:start}
+.fp-it .peek>summary>*{grid-column:1}
+.fp-it .peek>summary::after{grid-column:2;grid-row:1 / span 2;margin-top:6px}
+.fp-it .peek[open]>summary::after{margin-top:10px}
+.fp-mt{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 6px;font:600 12.5px/1.5 var(--font-body)}
+.fp-ty{color:var(--g-c,var(--color-neutral-600))}
+.fp-ty+.fp-ty::before{content:"、";margin-right:2px;color:var(--color-neutral-600)}
+.fp-tm{font-weight:500;color:var(--color-neutral-600)}
+.fp-tm::before{content:"・";margin-right:2px}
+/* 標題不用報告頁的 text-wrap:balance：平衡換行讓每行提早斷、右邊空一截（使用者嫌不滿版），時間軸照一般換行排滿 */
+.fp-it .row-title{text-wrap:wrap}
+.fp-it.is-lead{padding:10px 12px;background:var(--color-accent-100)}
+.fp-it.is-lead .row-title{font-size:18px;line-height:1.5}
+.fp-pre{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden;margin-top:3px;font:400 14.5px/1.75 var(--font-body);color:var(--color-neutral-800)}
+.fp-it .peek[open] .fp-pre{display:none}
 /* 「新」緊接在標題文字後面（使用者定案：手機、桌機都一樣，不靠右） */
 .fp-new{display:inline-block;margin-left:8px;padding:0 6px;vertical-align:2px;background:var(--color-accent-600);color:var(--color-bg);font:700 11px/1.7 var(--font-body);letter-spacing:.06em;white-space:nowrap}
 /* 展開後：摘要，接著一行「來源、標籤、熱度、看原文 ↗、看解讀」 */
@@ -51,13 +65,7 @@ a.fp-day:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:
 .fp-act{display:inline-flex;align-items:center;min-height:32px;font:600 14px/1.3 var(--font-body);color:var(--color-accent-700)}
 .fp-act:hover{color:var(--color-accent-800);text-decoration:underline}
 .fp-act:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
-
-/* ── 週報與月報：每份一組，組名後標期別與出刊日；左欄放順位 ── */
-.fp-wk+.fp-wk{margin-top:var(--space-4)}
-.fp-wk-head{display:flex;flex-wrap:wrap;align-items:baseline;gap:var(--space-1) var(--space-3);margin:var(--space-4) 0 0;padding-bottom:var(--space-2);border-bottom:1px solid var(--color-divider)}
-.fp-wk-date{font:500 13px/1.4 var(--font-body);letter-spacing:0;color:var(--color-neutral-600)}
-.fp-wk-head+.row{border-top:0}
-.fp-rank{display:block;padding-top:3px;font:600 15px/1.3 var(--font-body);color:var(--color-accent-700)}
+@media(forced-colors:active){.fp-it{border-left-color:CanvasText}.fp-it.is-lead{outline:1px solid CanvasText}}
 
 /* ── 還沒有頭版：說明＋各類型最新一期的連結 ── */
 .fp-empty{margin:var(--space-6) 0 0}
@@ -74,10 +82,9 @@ a.fp-day:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:
 .fp-tabs{margin:var(--space-8) 0 0}
 .fp-tabs .ed-tab:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
 
-/* ── 右上角「版面」（只有「配色」一組）：按鈕與面板直接用報告頁的 .dd-*／.vw-* 樣式（report.css），兩頁長得一模一樣。
-   頭版那一列只有這顆按鈕，高度另外對齊報告頁那一列的類型標籤（38px），換頁時報頭不跳動 ── */
+/* ── 載入出錯的畫面沒有報頭：「版面」單獨放在頂端那一列的右邊 ── */
 .fp-bar{display:flex;justify-content:flex-end;margin-bottom:var(--space-6)}
 .fp-bar .dd-toggle{min-height:38px}
 
-/* 觸控螢幕：可點的東西至少 44px 高（同報告頁）；放在檔尾才蓋得過前面同權重的高度 */
-@media(pointer:coarse){.fp-day,.fp-act,.fp-bar .dd-toggle{min-height:44px}}
+/* 觸控螢幕：可點的東西至少 44px（同報告頁）；放在檔尾才蓋得過前面同權重的高度 */
+@media(pointer:coarse){.fp-day,.fp-act,.fp-bar .dd-toggle{min-height:44px}.fp-day,.fp-hd .dd-toggle{min-width:44px;min-height:44px}}

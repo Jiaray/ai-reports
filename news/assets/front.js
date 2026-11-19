@@ -1,5 +1,5 @@
 /* 頭版（news/ 不帶 t 參數）：讀 index.json（類型設定與各類型最新報告）、front/index.json（有頭版的日期，新到舊）
-   與當天的頭版檔 front/<年>/<日期>.json，照使用者核可的樣稿（Task 1）渲染。?f=YYYY-MM-DD 開指定日期。
+   與當天的頭版檔 front/<年>/<日期>.json，照使用者選定的樣版 B（整點分組時間軸）渲染。?f=YYYY-MM-DD 開指定日期。
    帶 t 參數是報告頁，這支什麼都不做（交給 report.js）。site.js 是 defer、排在本檔前面，執行時 window.AIR 已經在。
    *_html 欄位是 publish.py 淨化過的片段（只留 http/https 連結與粗體），其餘欄位一律當純文字（AIR.h 的子節點字串）。 */
 (() => {
@@ -56,9 +56,10 @@
       cadence: (s && s.cadence) || (it && it.cadence) || '',
     };
   }
+  // 類型名稱：純文字、用領域色（時間軸樣版 B，不再是外框標籤）
   const typeTag = (id) => {
     const m = seriesMeta(id);
-    return h('span', { class: 'tag fp-type', 'data-group': m.group }, [m.short]);
+    return h('span', { class: 'fp-ty', 'data-group': m.group }, [m.short]);
   };
   const reportHref = (series, period, no) => `?t=${encodeURIComponent(series)}&d=${encodeURIComponent(period)}${no != null ? `#item-${no}` : ''}`;
 
@@ -157,22 +158,27 @@
     return out.filter(Boolean);
   }
 
-  // 左欄時間：當天只寫時刻；不是頭版那天的（例如前一晚）時刻下面加小字日期；沒有 ts 就空著（使用者定案：不放替代符號）
-  function timeCell(ts) {
+  // ── 時間軸（使用者在三個樣版中選定的 B：整點分組）────────────────────
+  // 條目的台北時間；沒有 ts 或解析不出來是 null
+  function when(ts) {
     const ms = ts ? Date.parse(ts) : NaN;
-    if (Number.isNaN(ms)) return h('span', { class: 'row-time' });
+    if (Number.isNaN(ms)) return null;
     const t = taipei(ms);
-    const kids = [h('span', { class: 'rt-hm' }, [t.slice(11, 16)])];
-    if (t.slice(0, 10) !== front.date) kids.push(h('span', { class: 'rt-d' }, [md(t)]));
-    return h('time', { class: 'row-time', datetime: ts }, kids);
+    return { ms, day: t.slice(0, 10), hour: t.slice(11, 13), hm: t.slice(11, 16) };
   }
+  // 摘要的純文字（要聞收合時的兩行預覽用）：DOMParser 不執行腳本、不載圖片
+  const plainText = (html) => new DOMParser().parseFromString(html, 'text/html').body.textContent.trim();
+
+  // 整點標題（黏在頂端）：「10:00」，不是頭版那天的加註日期；週報月報、沒有時間的條目也用同一種標題
+  const hourHead = (label, day) => h('h2', { class: 'fp-hr' }, [label, day ? h('span', { class: 'fp-hr-day' }, [day]) : null]);
 
   // ── 一則條目 ──────────────────────────────────────────────────────
-  // 原生 <details>：標題在 <summary>，摘要與連結在 <details> 裡。鍵盤、報讀器、「在頁面中尋找」
-  // （收合的摘要也搜得到、找到時自動展開）都直接可用。summary 裡的標題用 span、不用 h3（同報告頁速讀：
-  // 部分螢幕閱讀器把 summary 當按鈕，會丟掉裡面的標題），summary 裡也不放連結。
-  // o.id：元素 id；o.types：類型標籤；o.isNew：標「新」；o.read：「看解讀」網址；o.rank：週報的順位（放左欄，取代時間）
-  function row(it, o) {
+  // 左緣一條領域色線；summary 第一行是類型＋時刻（週報月報是期別），接著標題。每輪第一順位（原本的「要聞」）
+  // 淡底色、標題大一號，收合時先露兩行摘要；點開看完整摘要、來源與「看原文／看解讀」。
+  // 原生 <details>：鍵盤、報讀器、「在頁面中尋找」（收合的摘要也搜得到、找到時自動展開）都直接可用。
+  // summary 裡的標題用 span、不用 h3（同報告頁速讀：部分螢幕閱讀器把 summary 當按鈕，會丟掉裡面的標題），也不放連結。
+  // o.id：元素 id；o.types：類型 id（第一個決定色線）；o.stamp：類型後面的灰字節點；o.lead：要聞；o.isNew：標「新」；o.read：「看解讀」網址
+  function tlRow(it, o) {
     const hot = hotInfo(it);
     const title = h('span', { class: 'row-title' }, [it.title || '']);
     if (hot) title.prepend(h('span', { class: 'hot-badge' }, [hot.label]));
@@ -191,21 +197,19 @@
     }
     body.push(h('div', { class: 'fp-acts' }, acts));
     const types = o.types || [];
-    const left = o.rank ? h('span', { class: 'fp-rank' }, [String(o.rank)]) : timeCell(it.ts);
-    return h('article', { class: hot ? 'row fp-row is-hot' : 'row fp-row', id: o.id }, [
-      h('div', { class: 'row-left' }, [left]),
-      h('div', { class: 'row-main' }, [h('details', { class: 'peek' }, [
-        h('summary', { class: 'peek-sum' }, [title, types.length ? h('span', { class: 'fp-meta' }, types) : null]),
+    const meta = h('span', { class: 'fp-mt' }, [...types.map(typeTag), o.stamp || null]);
+    // 預覽和展開後的摘要是同一段字：預覽對報讀器隱藏，summary 唸起來就只有類型、時刻與標題
+    const pre = o.lead && it.summary_html ? h('span', { class: 'fp-pre', 'aria-hidden': 'true' }, [plainText(it.summary_html)]) : null;
+    const cls = ['fp-row', 'fp-it'];
+    if (o.lead) cls.push('is-lead');
+    if (hot) cls.push('is-hot');
+    return h('article', { class: cls.join(' '), id: o.id, 'data-group': types.length ? seriesMeta(types[0]).group : null }, [
+      h('details', { class: 'peek' }, [
+        h('summary', { class: 'peek-sum' }, [meta, title, pre]),
         h('div', { class: 'more-body' }, body),
-      ])]),
+      ]),
     ]);
   }
-
-  // 分區標題只留名稱（同報告頁：「N 則」使用者覺得是多餘的裝飾）；count 參數留著，呼叫端不必改
-  const section = (id, name, count, kids) => h('section', { class: 'sec fp-sec', id, 'aria-labelledby': `${id}-h` }, [
-    h('div', { class: 'sec-tab' }, [h('h2', { class: 'sec-name', id: `${id}-h` }, [name])]),
-    h('div', { class: 'sec-body' }, kids),
-  ]);
 
   // ── 報頭 ──────────────────────────────────────────────────────────
   // 頭版網址：最新一天是 news/（書籤固定開最新），其他天是 ?f=YYYY-MM-DD
@@ -214,26 +218,24 @@
     const arrow = h('span', { class: 'fp-arrow', 'aria-hidden': 'true' }, [dir === 'prev' ? '‹' : '›']);
     if (!d) return h('span', { class: 'fp-day is-off', 'aria-hidden': 'true' }, [arrow]);
     return h('a', {
-      class: 'fp-day', rel: dir, href: dayHref(d), 'aria-label': `${dir === 'prev' ? '前一期' : '後一期'}頭版 ${dayLabel(d)}`,
-    }, dir === 'prev' ? [arrow, md(d)] : [md(d), arrow]);
+      class: 'fp-day', rel: dir, href: dayHref(d), title: dayLabel(d), 'aria-label': `${dir === 'prev' ? '前一期' : '後一期'}頭版 ${dayLabel(d)}`,
+    }, [arrow]);
   }
 
+  // 報頭只有一列（樣版 B：原本只放「版面」的那一列左邊整塊空著，使用者覺得浪費）：
+  // 左邊小字「頭版」＋日期大字，右邊前後一期與「版面」三個圖示鈕。刊名與更新時間拿掉
+  const hdButtons = (kids) => h('div', { class: 'fp-hd-btns' }, [...kids, fpBox]);
   function masthead() {
     const i = dates.indexOf(front.date);
     const prev = i >= 0 ? dates[i + 1] : null;
     const next = i > 0 ? dates[i - 1] : null;
-    const built = Date.parse(front.built_at);
-    // 使用者要求任何地方都不重複同一個資訊：刊頭只寫「AI Reports」（「Front Page」就是大標題的「頭版」）；
-    // 原本的「收錄 綜合・國際」拿掉（每則條目的類型標籤已經標出來自哪份報告）
-    return h('header', { class: 'masthead fp-mast' }, [
-      h('div', { class: 'mast-top' }, [
-        h('span', { class: 'mast-brand' }, ['AI Reports']),
-        Number.isNaN(built) ? null : h('span', { class: 'mast-issue' }, [`更新 ${taipei(built).slice(11, 16)}`]),
-      ]),
-      h('div', { class: 'fp-days' }, [
-        dayLink(prev, 'prev'),
-        h('h1', { class: 'fp-title' }, [dayLabel(front.date), h('span', { class: 'fp-title-sub' }, ['頭版'])]),
-        dayLink(next, 'next'),
+    return h('header', { class: 'fp-hd' }, [
+      h('div', { class: 'fp-hd-row' }, [
+        h('h1', { class: 'fp-title' }, [
+          h('span', { class: 'fp-kicker' }, ['頭版']),
+          h('span', { class: 'fp-date' }, [`${md(front.date)} 週${weekday(front.date)}`]),
+        ]),
+        hdButtons([dayLink(prev, 'prev'), dayLink(next, 'next')]),
       ]),
       // 預設開最新一個有頭版的日期；那天不是今天時提醒（spec 6.6）。日期大標題已有，提醒不再重寫日期
       front.date !== today() && front.date === dates[0] ? h('p', { class: 'fp-latest' }, ['今天還沒有頭版，這是最近一期']) : null,
@@ -274,12 +276,12 @@
     h('span', { class: 'foot-left' }, ['頭版從當天各報告標出的重點整理，同一則新聞只列一次']),
   ]);
 
-  // 報頭上方那一列：只放右上角的「版面」（同報告頁的位置；頭版的類型標籤列照樣稿留在底部）
+  // 載入出錯的畫面沒有報頭：「版面」單獨放在頂端那一列的右邊
   const bar = () => (fpBox ? h('div', { class: 'fp-bar' }, [fpBox]) : null);
 
   function show(kids) {
     const focused = document.activeElement;
-    app.replaceChildren(...[bar(), ...kids].filter(Boolean));
+    app.replaceChildren(...kids.filter(Boolean));
     // 「版面」面板跟著重畫搬到新的那一列，搬動時焦點會掉到 body：放回原本的按鈕（條目的焦點由 render 自己還原）
     if (focused && focused.isConnected && focused !== document.activeElement) focused.focus({ preventScroll: true });
     requestAnimationFrame(scrollHints);
@@ -294,42 +296,48 @@
 
     const list = (front.entries || []).filter((e) => e && e.key && Array.isArray(e.from) && e.from.length);
     const fresh = freshKeys(front.date, list.map((e) => e.key));
-    // 排序（spec 6.6）：依順位分輪，先排所有第 1 順位、再排第 2 順位……同一輪照主來源（from[0]）的類型順序
-    const entries = [...list].sort((a, b) => a.rank - b.rank || bySeries(a.from[0].series, b.from[0].series) || (a.key < b.key ? -1 : 1));
-    const top = entries.length ? entries[0].rank : 0; // 第 1 輪是「要聞」，其餘是「更多」（一整串，不再分輪）
-    const entryRow = (e) => {
+    // 「要聞」＝第 1 輪順位（各報告最重要的那則）：不再分區，改成時間軸上淡底色、標題大一號
+    const top = list.length ? Math.min(...list.map((e) => e.rank)) : 0;
+    // 時間軸由新到舊；沒有時間的排最後，照順位、類型順序
+    const timed = list.map((e) => ({ e, w: when(e.ts) }));
+    timed.sort((a, b) => (a.w && b.w ? b.w.ms - a.w.ms : (a.w ? -1 : 0) + (b.w ? 1 : 0))
+      || a.e.rank - b.e.rank || bySeries(a.e.from[0].series, b.e.from[0].series) || (a.e.key < b.e.key ? -1 : 1));
+    const entryRow = (e, w) => {
       const m = e.from[0]; // 主來源（front.py 已依順位、類型順序排好）
-      return row(e, {
+      return tlRow(e, {
         id: `fp-${e.key}`,
-        types: [...new Set(e.from.map((f) => f.series))].sort(bySeries).map(typeTag),
+        types: [...new Set(e.from.map((f) => f.series))].sort(bySeries),
+        stamp: w ? h('time', { class: 'fp-tm', datetime: e.ts }, [w.hm]) : null,
+        lead: e.rank === top,
         isNew: fresh.has(e.key),
         read: reportHref(m.series, m.period, m.no),
       });
     };
-    const lead = entries.filter((e) => e.rank === top);
-    const more = entries.filter((e) => e.rank !== top);
+    const tl = [];
+    let group = null;
+    timed.forEach(({ e, w }) => {
+      const g = w ? `${w.day} ${w.hour}` : '-';
+      if (g !== group) {
+        group = g;
+        tl.push(w ? hourHead(`${w.hour}:00`, w.day !== front.date ? dayLabel(w.day) : null) : hourHead('其他時間'));
+      }
+      tl.push(entryRow(e, w));
+    });
+    // 週報與月報接在時間軸最後，同樣用整點標題那種黏頂標題；類型後面的灰字是期別，依順位排
     const weekly = [...(front.weekly || [])].sort((a, b) => bySeries(a.series, b.series) || (a.date < b.date ? 1 : -1));
-    const wkCount = weekly.reduce((n, w) => n + (w.items || []).length, 0);
-    const wkGroup = (w) => {
+    if (weekly.some((w) => (w.items || []).length)) tl.push(hourHead('週報與月報'));
+    weekly.forEach((w) => {
       const cadence = seriesMeta(w.series).cadence || (/-W\d{2}$/.test(w.period) ? 'weekly' : 'monthly');
-      return h('div', { class: 'fp-wk' }, [
-        h('h3', { class: 'sec-sub fp-wk-head' }, [
-          w.series_title || seriesMeta(w.series).title,
-          h('span', { class: 'fp-wk-date' }, [`${A.fmtShort(w.period, cadence)}${DATE_RE.test(w.date || '') ? `・${dayLabel(w.date)}出刊` : ''}`]),
-        ]),
-        ...[...(w.items || [])].sort((a, b) => a.rank - b.rank).map((it) => row(it, {
-          id: `fp-${w.series}-${it.no}`, rank: it.rank, read: reportHref(w.series, w.period, it.no),
-        })),
-      ]);
-    };
-    const secs = [
-      lead.length ? section('fp-lead', '要聞', lead.length, lead.map(entryRow)) : null,
-      more.length ? section('fp-more', '更多', more.length, more.map(entryRow)) : null,
-      weekly.length ? section('fp-weekly', '週報與月報', wkCount, weekly.map(wkGroup)) : null,
-    ].filter(Boolean);
+      [...(w.items || [])].sort((a, b) => a.rank - b.rank).forEach((it) => tl.push(tlRow(it, {
+        id: `fp-${w.series}-${it.no}`,
+        types: [w.series],
+        stamp: h('span', { class: 'fp-tm' }, [A.fmtShort(w.period, cadence)]),
+        read: reportHref(w.series, w.period, it.no),
+      })));
+    });
     show([
       masthead(),
-      h('main', { id: 'main' }, secs.length ? secs : [h('p', { class: 'load-error' }, ['這天的頭版沒有條目。'])]),
+      h('main', { id: 'main', class: 'fp-tl' }, tl.length ? tl : [h('p', { class: 'load-error' }, ['這天的頭版沒有條目。'])]),
       tabs(),
       footer(),
     ]);
@@ -355,9 +363,8 @@
     });
     latest.sort((a, b) => bySeries(a.series, b.series));
     const kids = [
-      h('header', { class: 'masthead fp-mast' }, [
-        h('div', { class: 'mast-top' }, [h('span', { class: 'mast-brand' }, ['AI Reports'])]),
-        h('div', { class: 'fp-days' }, [dayLink(null, 'prev'), h('h1', { class: 'fp-title' }, ['頭版']), dayLink(null, 'next')]),
+      h('header', { class: 'fp-hd' }, [
+        h('div', { class: 'fp-hd-row' }, [h('h1', { class: 'fp-title' }, [h('span', { class: 'fp-date' }, ['頭版'])]), hdButtons([])]),
       ]),
       h('main', { id: 'main', class: 'fp-empty' }, [
         h('p', { class: 'fp-empty-note', role: 'status' }, [latest.length ? '還沒有頭版。先看各類型最新一期：' : '還沒有頭版，也還沒有任何報告。']),
@@ -379,6 +386,7 @@
 
   function problem(text, more) {
     show([
+      bar(),
       h('main', { id: 'main' }, [h('p', { class: 'load-error', role: 'alert' }, [text, more || null])]),
       index ? tabs() : null,
     ]);
@@ -475,7 +483,7 @@
   function layoutPanel() {
     if (!A.THEMES) return; // 瀏覽器還快取著舊版 site.js：沒有配色可選，就不放按鈕
     const toggle = h('button', { type: 'button', class: 'dd-toggle', 'aria-expanded': 'false', 'aria-controls': 'fp-panel' }, [
-      h('span', { class: 'dd-ico', html: ICON_SLIDERS }), h('span', null, ['版面']),
+      h('span', { class: 'dd-ico', html: ICON_SLIDERS }), h('span', { class: 'dd-txt' }, ['版面']), // 頭版報頭只露圖示，字留給報讀器
     ]);
     const panel = h('div', { class: 'dd-panel vw-panel', id: 'fp-panel', role: 'dialog', 'aria-labelledby': 'fp-title', hidden: true });
     const close = h('button', { type: 'button', class: 'dd-close', 'aria-label': '關閉版面設定', html: ICON_CLOSE });
