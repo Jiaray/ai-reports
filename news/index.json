@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-19T00:20:33+08:00",
+ "updated_at": "2026-11-19T11:01:26+08:00",
  "series": [
   {
    "id": "general",
@@ -123,6 +123,18 @@
   }
  ],
  "items": [
+  {
+   "series": "tech_ai",
+   "series_title": "科技 AI 日報",
+   "cadence": "daily",
+   "period": "2026-11-19",
+   "date": "2026-11-19",
+   "title": "科技 AI 日報",
+   "lede": "Anthropic 今日掛牌，估值上看 1.5 兆美元；Google 推 Gemini 4 Neon、微軟一口氣發 7 款 MAI 模型搶性價比；NGINX 爆出 AI 輔助挖出的免認證遠端執行漏洞。",
+   "count": 15,
+   "data": "tech_ai/2026/2026-11-19.json",
+   "generated_at": "2026-11-19T11:01:26+08:00"
+  },
   {
    "series": "international",
    "series_title": "國際新聞日報",

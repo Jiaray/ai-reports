@@ -1,0 +1,118 @@
+{
+ "schema": 1,
+ "date": "2026-11-19",
+ "built_at": "2026-11-19T11:01:26+08:00",
+ "reports": [
+  {
+   "series": "tech_ai",
+   "series_title": "科技 AI 日報",
+   "group": "科技",
+   "period": "2026-11-19",
+   "count": 15,
+   "generated_at": "2026-11-19T11:01:26+08:00"
+  }
+ ],
+ "entries": [
+  {
+   "key": "584db0d8b9",
+   "rank": 1,
+   "title": "Anthropic 以每股 83 美元登 Nasdaq，估值上看 1.5 兆美元、募資約 940 億美元",
+   "summary_html": "Claude 開發商 Anthropic 週四（11/19）在 Nasdaq 掛牌，定價每股 83 美元，高於本月初 70–78 美元的區間，將成為美國第一家純 AI 上市公司。",
+   "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo",
+   "src": "BBC Technology",
+   "ts": "2026-11-19T10:20:15+08:00",
+   "left": "11/19 10:20",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "tech_ai",
+     "period": "2026-11-19",
+     "no": "10",
+     "rank": 1
+    }
+   ]
+  },
+  {
+   "key": "e2b6407cfa",
+   "rank": 2,
+   "title": "Google 發表 Gemini 4 Neon：AA 智慧指數 61 分排第 3，每百萬輸入 token 3 美元",
+   "summary_html": "Google DeepMind 推出主打「前沿智慧＋快速完成端到端任務」的 Gemini 4 Neon，即日起上線 Gemini API、AI Studio、Antigravity 與 Gemini App（Pro／Ultra 訂戶），OpenRouter 也同步開放。",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+   "src": "Hacker News",
+   "ts": "2026-11-19T05:34:07+08:00",
+   "left": "11/19 05:34",
+   "heat": "HN 503",
+   "tags": [],
+   "from": [
+    {
+     "series": "tech_ai",
+     "period": "2026-11-19",
+     "no": "01",
+     "rank": 2
+    }
+   ]
+  },
+  {
+   "key": "ff0c2dfa06",
+   "rank": 3,
+   "title": "NGINX 爆兩個 HTTP/2 免認證遠端執行漏洞（CVSS 9.2），AI 輔助挖出、最老藏了 11 年",
+   "summary_html": "Wiz Research 等五個團隊各自獨立發現 NGINX 的 CVE-2026-123633 與 CVE-2026-123007，F5 已於 11/18 發布修補；同一週 Oracle 也修補了 AI 找到的 Java 漏洞「Java4Shell」。",
+   "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+   "src": "Hacker News",
+   "ts": "2026-11-18T23:19:55+08:00",
+   "left": "11/18 23:19",
+   "heat": "HN 1172",
+   "tags": [],
+   "from": [
+    {
+     "series": "tech_ai",
+     "period": "2026-11-19",
+     "no": "13",
+     "rank": 3
+    }
+   ]
+  },
+  {
+   "key": "0081a6df94",
+   "rank": 4,
+   "title": "Nvidia 臨時執行長 Kress 首場財報會：董事會不讓黃仁勳回任，收緊對 neocloud 的採購兜底",
+   "summary_html": "黃仁勳在任 33 年後於上週請辭，臨時執行長 Colette Kress 主持首場財報電話會，表明董事會不打算讓他回任、也不回答相關問題。",
+   "url": "https://aihot.news/items/gpvt9y9d89gd5nkw92bwhyw6s",
+   "src": "AIHOT",
+   "ts": "2026-11-19T02:34:15+08:00",
+   "left": "11/19 02:34",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "tech_ai",
+     "period": "2026-11-19",
+     "no": "12",
+     "rank": 4
+    }
+   ]
+  },
+  {
+   "key": "0d576c5fe8",
+   "rank": 5,
+   "title": "OpenAI 模型協助 AMD 旗艦 GPU 設計，PPA 最高提升 14%，自研推理晶片 Jalapeño 也受惠",
+   "summary_html": "OpenAI 公布用自家模型做晶片設計的成果：與 AMD 合作不到五個月，在 AMD 工程師已優化多年的旗艦 GPU IP 上找出最高 14% 的功耗、效能、面積（PPA）改善。",
+   "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+   "src": "Hacker News",
+   "ts": "2026-11-19T01:45:47+08:00",
+   "left": "11/19 01:45",
+   "heat": "HN 167",
+   "tags": [],
+   "from": [
+    {
+     "series": "tech_ai",
+     "period": "2026-11-19",
+     "no": "05",
+     "rank": 5
+    }
+   ]
+  }
+ ],
+ "weekly": []
+}
