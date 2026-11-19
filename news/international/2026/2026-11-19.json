@@ -1,0 +1,1661 @@
+{
+ "schema": 1,
+ "series": "international",
+ "series_title": "國際新聞日報",
+ "group": "國際",
+ "cadence": "daily",
+ "period": "2026-11-19",
+ "date": "2026-11-19",
+ "title": "國際新聞日報",
+ "brief": "DAILY INTERNATIONAL BRIEFING",
+ "issue": "NO. 2026-323",
+ "generated_at": "2026-11-19T12:01:40+08:00",
+ "lede": "川習普三方峰會今在深圳登場；Anthropic 募資813億美元創史上最大 IPO；以軍停火後首度越過黃線進攻加薩中部；國際法院今宣判緬甸羅興亞種族滅絕案；聯準會紀要傾向再升息。",
+ "src_tags": [
+  "BBC",
+  "The Guardian",
+  "Al Jazeera",
+  "France 24／RFI",
+  "DW",
+  "Euronews",
+  "Reuters",
+  "CNBC",
+  "Financial Times",
+  "Japan Times",
+  "Straits Times",
+  "SCMP",
+  "Nikkei Asia",
+  "Rappler",
+  "Dawn",
+  "The Diplomat",
+  "聯合國",
+  "Human Rights Watch"
+ ],
+ "intro": [
+  {
+   "kind": "p",
+   "html": "川習普三方峰會今在深圳登場；Anthropic 募資813億美元創史上最大 IPO；以軍停火後首度越過黃線進攻加薩中部；國際法院今宣判緬甸羅興亞種族滅絕案；聯準會紀要傾向再升息。"
+  }
+ ],
+ "sections": [
+  {
+   "name": "焦點",
+   "count": 1,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "01",
+     "key": "37c37d496a",
+     "front": 1,
+     "title": "川習普首度三方峰會今在深圳登場，川普會前稱中俄是「天敵」",
+     "title_html": "川習普首度三方峰會今在深圳登場，川普會前稱中俄是「天敵」",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/chinas-xi-greets-putin-and-trump-at-apec-before-historic-summit",
+     "src": "Reuters、Financial Times、Al Jazeera（卡達政府出資） 等 8 家",
+     "left": "11/19 11:01",
+     "ts": "2026-11-19T11:01:27+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "持續",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美國、中國、俄羅斯領袖首度三方會談19日在深圳登場，川普主打核武管控，北京稱會談涉及「維護世界和平」，但不願把核議題列為核心。",
+     "also": [
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/apec-live-trump-xi-and-putin-to-meet-in-historic-three-way-china-summit"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQdzN3ZEpqNW0wZlBtajBvdU9pSzk1MG9RQ2NhVlBuaFMwaVZBWVhkLVNiMnZHTTBRS2J6Z2xkdWkxRERWakdCc0JBdGtUUlhVbHJlR2dMcVVTV0lCNWVGNi1XSG5zVTVrRW84V0JVZUhOVGhKT0FZMk1uRTd3anM1RFhPUWxWNFdQWFF2WjhhYVFCdnpPMGlLYThjMDExVC1fVFJfeFZ2ZXM?oc=5"
+      },
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/china/diplomacy/article/3374980/natural-enemies-trump-china-russia-ties-he-plays-down-nvidia-tragedy"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/trump-suggests-us-can-sell-blackwell-chips-to-china-in-future"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/fcf6d27b-a04c-4cef-8b03-ce2423566f1f"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/trump-xi-putin-apec-shenzhen-china.html"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/asia-pacific/20261119-xi-trump-putin-talks-live-china-us-russia-leaders-hold-landmark-three-way-meeting"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/apec-summit-xi-trump-and-putin-to-hold-first-ever-trilateral-in-china/live-79964719?maca=en-rss-en-all-1573-xml-mrss"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQZGVNM0xjMGtxNjE0aEFnRWU2QURJZy1TSzZGSkFXNVk0eTM0bkhOZWF4cXJjWGhyZEVfZjNuWjZxVVlqUWh5cDUzckE2QTdISldZeThRZG9sZTB3dzdIU1ZOX2RJV0FMQXJ4V2dKS0U3V0t1YWNpcXE4R2FuZVVRVFJaUUNnYmZkS1pQXzluQ25WaUROQ2NVQk5wNHpPa2NheXhUZFFiQ3o5cjNxcHFWUWRVS3FCNm1meTltX0xiMA?oc=5"
+      },
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/china/military/article/3374979/us-launched-unarmed-icbm-test-hours-trumps-air-force-one-landed-china"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/trumps-historic-meeting-with-xi-putin-headlines-asia-trip"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/putin-and-trump-expected-to-hold-bilateral-talks-at-apec-summit"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQQmphYzlHTmtWY2ttZUFFb0VmdHRaTUtId2RKT1luZE96cXF2ZjFYTDk3WTlVNEZ5Q0hTc0JrSFpLSEwzSV8wblVNOE03R3BXdXU3bnhxUnpvb2FJd2hSMG1uTU9yMmNQLUdtNW5vTmxrSUNyb1REWDlzRl83SUx6QlE2Y09rSGFjY2JTb1JQRXNISTFoWTFRamF5U2VWNGJpM0JEMkhsLUs3VDJCdEVoMzBoZzFjZWgw?oc=5"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：8 家（Reuters、Financial Times、Al Jazeera、SCMP、Straits Times、CNBC、France 24／RFI、DW）",
+      "<strong>今日新增</strong>：三人19日在 APEC 會場互相致意並出席領袖合照；川普受訪稱中俄是「天敵」、峰會未開已是「勝利」，並暗示 Blackwell 晶片日後可賣給中國；美軍在川普專機降落中國前不到兩小時試射一枚未裝彈頭的洲際飛彈。"
+     ],
+     "table": null,
+     "dive_html": "川普在會前接受 Fox News 訪問時說，中國與俄羅斯是「天敵」，兩國結盟「本來就不該被允許發生」，是出於彼此需要而非親近；他同時替去職的輝達前執行長黃仁勳辯護，稱其為無可取代的天才，並表示與習近平談話時曾「簡短」提到黃仁勳的事。川普也暗示，等 Blackwell 不再是市場上最先進的晶片時，美國可以把它賣給中國。據美國空軍聲明，美軍在川普18日搭空軍一號降落中國前不到兩小時，試射一枚未裝彈頭的洲際彈道飛彈。普丁與川普預料另舉行雙邊會談，川普特使近來加緊斡旋結束烏克蘭戰爭。"
+    }
+   ]
+  },
+  {
+   "name": "天災與事故",
+   "count": 5,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "02",
+     "key": "9be9f338a5",
+     "title": "斐濟受聖嬰乾旱衝擊，宣布全國進入災難狀態一個月",
+     "title_html": "斐濟受聖嬰乾旱衝擊，宣布全國進入災難狀態一個月",
+     "url": "https://www.straitstimes.com/asia/australianz/fiji-declares-state-of-disaster-amid-el-nino-driven-drought",
+     "src": "Reuters、Straits Times",
+     "left": "11/19 09:10",
+     "ts": "2026-11-19T09:10:08+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "斐濟總理蘭布卡18日發表全國談話，宣布因聖嬰現象引發的乾旱造成大範圍缺水，全國進入為期一個月的災難狀態。",
+     "also": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxPV1dfbGxkWnZxMTdBR2tnVW9OMDVBcTRtLWw3TUJjRDBzbHpHcjEyamZRdWR1bjdocXhpUDFlMjdTN3pkdVZkOVg2UEF6a3pyNzBkMTFoeDJrMjl0WGszbTE3TnBPRU5PLXBBc216MlItU1JzZ01WRGpJdTlJRHF3cWZxa1FjaGRWRmFKVmpnbFBKRUx4R2l3U054dzFNX1U4eVl0UVo2bXRBRzdlem8taUtybw?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（Reuters、Straits Times）"
+     ],
+     "table": null,
+     "dive_html": "政府從既有預算挪出2000萬斐濟元，供家庭與農民緊急用水；氣象局預測降雨至少到2027年4月都會低於正常，1月前多數地區白天氣溫偏高。災難狀態可依國家災害風險管理委員會建議延長或解除。美國氣候預測中心上週表示聖嬰正在增強，明年1至3月出現強到非常強聖嬰的機率逾79%。"
+    },
+    {
+     "type": "item",
+     "no": "03",
+     "key": "6a0c40898d",
+     "title": "大氣河襲加州灣區，舊金山單日雨量破1918年紀錄",
+     "title_html": "大氣河襲加州灣區，舊金山單日雨量破1918年紀錄",
+     "url": "https://www.theguardian.com/us-news/2026/nov/18/california-atmospheric-river-flooding",
+     "src": "The Guardian、Al Jazeera（卡達政府出資）",
+     "left": "11/19 09:03",
+     "ts": "2026-11-19T09:03:34+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "「大氣河」18日為加州灣區帶來破紀錄降雨，舊金山市中心單日雨量2.28英寸，打破1918年創下的11月18日紀錄，各地淹水停電，風暴正往南加州移動。",
+     "also": [
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/googles-driverless-car-hits-a-roadblock"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（The Guardian、Al Jazeera）"
+     ],
+     "table": null,
+     "dive_html": "據美國國家氣象局，舊金山市中心18日中午前雨量2.11英寸、為76年來同時段最多；聖塔克拉拉多條公路積水，聖荷西市中心有兩輛載客車輛受困、須以船隻救援。風暴18日晚至19日南移，洛杉磯警告土石流高風險區居民可能須撤離，太浩湖一帶高海拔地區另有大雪警報。舊金山市長羅瑞（Daniel Lurie）說，今年強烈聖嬰現象加劇的冬季風暴與淹水季「才剛開始」。Waymo 一輛無人車也在舊金山的淹水中停擺，再度招來檢視。"
+    },
+    {
+     "type": "item",
+     "no": "04",
+     "key": "8a80a14053",
+     "title": "英國調查：貝葉斯號遊艇翻覆前，船員不知其易遭強風擊倒",
+     "title_html": "英國調查：貝葉斯號遊艇翻覆前，船員不知其易遭強風擊倒",
+     "url": "https://www.theguardian.com/world/2026/nov/19/mike-lynch-superyacht-bayesian-vulnerability-to-high-winds-report",
+     "src": "BBC、The Guardian",
+     "left": "11/19 08:01",
+     "ts": "2026-11-19T08:01:11+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "英國海事事故調查局（MAIB）最終報告指出，2024年在西西里外海沉沒、造成科技大亨林區（Mike Lynch）等7人罹難的超級遊艇貝葉斯號，下錨收帆時抵抗強風的能力從未被評估，船員因此不知風險。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c6e9kn15z9d7o"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（BBC、The Guardian）"
+     ],
+     "table": null,
+     "dive_html": "56公尺長的貝葉斯號2024年8月19日黎明前停泊在 Porticello 港附近，遭未被明確預報、約70節（每小時80英里）的極端強風擊中，不到15秒就側翻，18分鐘後沉沒；報告認為強風最可能來自雷暴的「下爆氣流」。船上救生筏都沒有自動充氣或脫離，船員只手動放出一艘。林區與18歲女兒漢娜、律師莫維洛夫婦、銀行家布魯默夫婦及船上廚師罹難，9名船員與6名賓客獲救。報告與義大利檢方傳出歸咎船員失誤的說法形成對比。"
+    },
+    {
+     "type": "item",
+     "no": "05",
+     "key": "3849751c73",
+     "title": "南佛州一夜豪雨逾一英尺，多處社區泡水、猶太會堂屋頂坍塌",
+     "title_html": "南佛州一夜豪雨逾一英尺，多處社區泡水、猶太會堂屋頂坍塌",
+     "url": "https://www.bbc.co.uk/news/videos/crgj3205jv98o",
+     "src": "BBC、Al Jazeera（卡達政府出資）",
+     "left": "11/19 04:29",
+     "ts": "2026-11-19T04:29:18+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "南佛羅里達州17日夜間豪雨，部分地區雨量超過一英尺（約30公分），整片社區至今仍泡在水中，學校、道路、醫院與機場都受影響。",
+     "also": [
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/aje-onl-nf_floodwaters-submerge-cars-in-florida-181126"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（BBC、Al Jazeera）"
+     ],
+     "table": null,
+     "dive_html": "美國國家氣象局資料顯示，部分地區累積雨量逾一英尺；好萊塢市（Hollywood）一座猶太會堂屋頂因大雨坍塌，戴維（Davie）的街道與停車場淪為河道、車輛泡水。本週預料還會再下雨。"
+    },
+    {
+     "type": "item",
+     "no": "06",
+     "key": "376a831464",
+     "title": "風暴布魯娜與查爾斯接連襲葡萄牙，馬德拉創24小時502.7毫米全國雨量紀錄",
+     "title_html": "風暴布魯娜與查爾斯接連襲葡萄牙，馬德拉創24小時502.7毫米全國雨量紀錄",
+     "url": "https://www.euronews.com/2026/11/18/storms-bruna-and-charles-bring-record-rain-and-winds-to-portugal-and-madeira",
+     "src": "Euronews",
+     "left": "11/19 00:13",
+     "ts": "2026-11-19T00:13:32+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "葡萄牙海洋與大氣研究所（IPMA）報告指出，11月7日至12日接連來襲的風暴布魯娜（Bruna）與查爾斯（Charles），使11月的單日雨量與最大陣風紀錄各被打破四次。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "南部阿連特茹的莫拉（Mora）、梅爾托拉（Mértola）測站前12天雨量比常年多180%以上，里斯本 Tapada da Ajuda 測站多174%；10日全國發布警戒、呼籲民眾待在家中，但 IPMA 認為查爾斯實際陣風低於預報，南部沿岸約每小時70至90公里，最強陣風出現在 Fóia 測站、每小時123公里。馬德拉群島 Chão do Areeiro 測站24小時降雨502.7毫米，創全國紀錄。"
+    }
+   ]
+  },
+  {
+   "name": "科學、環境與健康",
+   "count": 3,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "07",
+     "key": "139f2afa8f",
+     "title": "COP31 剩最後幾天仍僵持，萬那杜部長點名阿拉伯集團與俄國卡關",
+     "title_html": "COP31 剩最後幾天仍僵持，萬那杜部長點名阿拉伯集團與俄國卡關",
+     "url": "https://www.france24.com/en/europe/20261119-cop31-vanuatu-un-climate-summit-reform-warns-of-backsliding",
+     "src": "France 24／RFI（法國政府出資）、聯合國（聯合國官方）",
+     "left": "11/19 10:00",
+     "ts": "2026-11-19T10:00:39+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "持續",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "在土耳其安塔利亞舉行的 COP31 進入最後幾天，部長們仍卡在誰出錢、多快擺脫化石燃料等最難的問題。",
+     "also": [
+      {
+       "text": "聯合國",
+       "url": "https://news.un.org/en/story/2026/11/1168833"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（France 24／RFI、聯合國）",
+      "<strong>今日新增</strong>：各國18日啟動檢視氣候承諾是否兌現的「氣候現實檢核」新機制；萬那杜環境部長雷根瓦努公開點名阻撓者，呼籲改革 COP 共識決。"
+     ],
+     "table": null,
+     "dive_html": "雷根瓦努（Ralph Regenvanu）接受法新社訪問時說，「一小群國家」在氣候峰會與塑膠公約談判中都在阻撓進展，主要是阿拉伯集團與包括沙烏地、印度在內約20國的「志同道合開發中國家」（LMDCs），「當然還有俄羅斯」；他主張改革 COP 程序，巴拿馬等國也推動改採多數決以打破僵局。美國今年再度缺席 COP，他認為多邊主義受威脅「很大程度是因為川普」。"
+    },
+    {
+     "type": "item",
+     "no": "08",
+     "key": "df574ed488",
+     "title": "航海家1號升空近50年，成首個距地球一光日的人造物",
+     "title_html": "航海家1號升空近50年，成首個距地球一光日的人造物",
+     "url": "https://www.aljazeera.com/news/2026/11/18/nasas-voyager-1-hits-record-one-light-day-distance-50-years-after-launch",
+     "src": "Al Jazeera（卡達政府出資）、The Guardian",
+     "left": "11/19 07:35",
+     "ts": "2026-11-19T07:35:12+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美國航太總署（NASA）表示，1977年發射的航海家1號18日抵達距地球一光日、約260億公里處，地面訊號單程就要一天才能抵達。",
+     "also": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/commentisfree/2026/nov/18/nasa-voyager-1-pale-blue-dot"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（Al Jazeera、The Guardian）"
+     ],
+     "table": null,
+     "dive_html": "NASA 科學家卡塔利亞（Tiffany Kataria）說，這是「太空有多遼闊的最佳例證」；NASA 估計航海家1號要再飛約1萬8000年才能抵達一光年。它與雙胞胎航海家2號是僅有進入星際空間的探測器，2號預計2035年才會抵達一光日；1號的相機等部分儀器已關閉以節省電力，但仍持續觀測磁場等現象。"
+    },
+    {
+     "type": "item",
+     "no": "09",
+     "key": "0869720370",
+     "title": "世衛：兩款本迪布焦伊波拉專用疫苗下週在剛果展開試驗",
+     "title_html": "世衛：兩款本迪布焦伊波拉專用疫苗下週在剛果展開試驗",
+     "url": "https://www.rfi.fr/en/africa/20261118-strain-specific-ebola-vaccines-to-be-trialled-in-drc-who-announces",
+     "src": "France 24／RFI（法國政府出資）",
+     "left": "11/18 22:38",
+     "ts": "2026-11-18T22:38:59+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "持續",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "世界衛生組織秘書長譚德塞17日宣布，兩款專門對付本迪布焦（Bundibugyo）病毒的候選疫苗最快下週在剛果民主共和國疫情中心開始測試。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>今日新增</strong>：世衛宣布牛津大學與 Moderna 研發的兩款候選疫苗即將進入試驗；疫情累計11376例、5568人死亡。"
+     ],
+     "table": null,
+     "dive_html": "試驗名為「Tumaini」，採環狀接種，替高感染風險的接觸者施打，檢驗安全性、效力與免疫反應；兩款疫苗分別是牛津大學的 ChAdOx1 腺病毒載體疫苗與 Moderna 的 mRNA-1469，都已完成第一期試驗，第二期預定11月26或27日在布尼亞（Bunia）展開。原用於薩伊型伊波拉的 Ervebo 疫苗已於10月23日進入第三期試驗，測試對本迪布焦型是否有保護力。本迪布焦型目前沒有任何疫苗或療法，這波5月宣布的疫情是剛果史上最嚴重、全球第二大的伊波拉疫情。"
+    }
+   ]
+  },
+  {
+   "name": "科技與 AI",
+   "count": 3,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "10",
+     "key": "25d4c57a47",
+     "title": "騰訊砸錢拚 AI 拖累獲利，營業利益減7%、數年來首見衰退",
+     "title_html": "騰訊砸錢拚 AI 拖累獲利，營業利益減7%、數年來首見衰退",
+     "url": "https://www.japantimes.co.jp/business/2026/11/19/tech/tencent-profit-china-ai-spending/",
+     "src": "Japan Times、Nikkei Asia",
+     "left": "11/19 09:37",
+     "ts": "2026-11-19T09:37:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "中國市值最大企業騰訊9月當季營收年增8%至2073億人民幣、低於預期，營業利益下滑7%、遠不如預估，是數年來首次獲利衰退。",
+     "also": [
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/business/china-tech/all-chinese-players-will-rely-on-domestic-chips-eventually-tencent"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（Japan Times、Nikkei Asia）"
+     ],
+     "table": null,
+     "dive_html": "騰訊自由現金流連續第二季為負、擴大到逾690億人民幣，大股東 Prosus 股價在歐洲重挫逾5%。彭博分析指出，這顯示中國科技龍頭願意犧牲利潤率，投資短期看不到回報的 AI；共同創辦人馬化騰上週才要求10萬名員工中的一半運用 AI 尋找新的成長動能。騰訊也表示，「所有中國業者」最終都將依賴國產晶片。"
+    },
+    {
+     "type": "item",
+     "no": "11",
+     "key": "92cdbaff4d",
+     "front": 2,
+     "title": "Anthropic IPO 每股83美元、募資813億美元，超越 SpaceX 成史上最大",
+     "title_html": "Anthropic IPO 每股83美元、募資813億美元，超越 SpaceX 成史上最大",
+     "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+     "src": "Financial Times、Reuters、CNBC 等 9 家",
+     "left": "11/19 09:13",
+     "ts": "2026-11-19T09:13:20+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "持續",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "Claude 開發商 Anthropic 18日以每股83美元定價，擴大發行約9.8億股、募得813億美元，超越 SpaceX 今年6月首次發行的750億美元，成為史上最大 IPO，完全稀釋市值約1.5兆美元。",
+     "also": [
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/economy/2026/11/19/anthropic-raises-81-3bn-in-biggest-ipo-of-all-time"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/technology/2026/nov/18/anthropic-share-price-stock-market-ipo"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/62c0510b-ca65-441e-9baf-675b93903b9e?syn-25a6b1a6=1"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPR3NST2trRTZCZkdmblYtRm5pcldXRUJTVjZkZUJ6bHJYbjFUSUJ6ZGVJNW1SMVg0ZWthVnlfVVRhZnlld192c0pBaUZSUzRZS0xGdFlYRnViSU9RYVhHWXRpVDlULS0tREUzcDhfa0NGSVIzVkFTOXBzeW5JelpBVy1RV2FFWEpwdnFhZnlqUVN0bUxWSXJaTVFzTEQxTDlFVVpkRERxQmplM0V2X3c?oc=5"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/business/2026/11/19/tech/anthropic-ipo-83-per-share/"
+      },
+      {
+       "text": "Rappler",
+       "url": "https://www.rappler.com/world/us-canada/anthropic-ipo-mint-millionaires/"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-retail-investors.html"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/softbank-s-son-calls-missing-anthropic-investment-one-of-his-mistakes"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cj4gnpzll020o"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cmd7159vlr85o"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/a3430f0d-0080-4970-8eec-2c14c8438b3d?syn-25a6b1a6=1"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPcnFyUlh5WE5VSFRRSWxnVGRUXzlROFRSb0VOdmZwamRWYjJ2SWhvTGp4ZTB3eGNYYWZtdkR0WkJLMDIxX2RZa20wOG4yY2xjdVhuTFpWakVUVDJ3X0NJQURrVkNuR0xPZmxtMm56NDQ0OHl2TzdZVDVSc04yYUlmY2hPSHJ1U2JLamhzallLeEZDVWozbGVObjBEWWNvY205Rmh3Rk9lTWE?oc=5"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxOdW1QU3VfRndFeVFEODFZbWVTcUVkcE1CelRpYmJWZ0FleXRVd3EwbjFXeHRmbUJQUDBsQXFQc21iVjdCRHFscy1qQjZWeWhIMnF6d0NBR3gxQmRERFdyLXBDNFFpZDQtY05mT3REaThpVWdVSVQzLUtmOUpweHZmc0dvWEFjbmpxWDdadjNzaFI4ajNmNUZsVVlhb05hWm5qRFdNTV9R?oc=5"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTFBKVlNYZ0xucjVqQUMzV3BSemlBQ2ZPcmxTejY2bXF6bzUyZTR3OEhOc3FoQW5JS095Uzl2LWhJcDdpVXpoeWF3c245cllBNFRjeks3eTdta3kxU3BiWm1IcG1ScWIweFVBdTk0eFpURlFDZi1kUmVIQ0dVTQ?oc=5"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOWkdlbW1ReWtyUXdHSHFPaWw0Q25WdThvUlFSTDY3cGI2THcyNUtSNzVhNVZUdFVkcVF1Rzh3SWl4dVRiTEk3Z3JyLWpGeEx2aGFCYWZ3bTA2SXBia1lXcVBFd2xrRFdNQTllNUV4RGxVOWZreFlLWENXNzF5Njdsa1ZLZ0NWcEVRbzRJdnNuSm0tLTVUY280clRCaXVzOGhSekhNMkhBdGF2Wmc?oc=5"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNcVUzU0FxSzRpM0VvbEdCd3p4TC1rMWdtMXVXZ0R1bHFFMlVycms0R19tMl9mano2LWJCVzlYMEM2eHI3Y2xQTk1SWXc4bG5XbUVIYmxyZDVDX1AxbGRlZU1zNmhuR0NpYkk2dVpiRG5XMVhmeW1rUmo5YTl4MUxQNmhTLTQ3UWV1US0tWDJUb2tmUllwZkp0ZUtxR3FkSzlwUy1aQXRfYW1QdndYcDBUN1JZdmNIX0gy?oc=5"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/08086201-6359-47ec-8854-70462ad5a4c0?syn-25a6b1a6=1"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：9 家（Financial Times、Reuters、CNBC、Al Jazeera、The Guardian、BBC、Japan Times、Nikkei Asia、Rappler）",
+      "<strong>今日新增</strong>：定價高於原訂70至78美元區間，發行股數由8.25億股擴大到約9.8億股；19日以代號「ANT」在那斯達克掛牌。"
+     ],
+     "table": null,
+     "dive_html": "加上谷歌、微軟、輝達、超微等科技公司以 IPO 價格合計投資260億美元的私募，總募資達1073億美元（SpaceX 在承銷商行使超額配售後總額為857億美元）。以目前市值計，Anthropic 將是全球第12大企業、僅次於特斯拉；亞馬遜與谷歌各自持股價值都超過1000億美元。這次上市被視為 AI 產業估值的試金石：產業近來接連受衝擊，包括期中選舉中的反 AI 民意與上週輝達執行長黃仁勳去職，市場也擔心利率走升讓資料中心業者難以負擔債務。軟銀董事長孫正義則坦言，錯過投資 Anthropic 是他的「失誤」之一。"
+    },
+    {
+     "type": "item",
+     "no": "12",
+     "key": "f21f255fd9",
+     "title": "美國連環當機恐因搶修 AI 找出的漏洞，范斯取消行程開會因應",
+     "title_html": "美國連環當機恐因搶修 AI 找出的漏洞，范斯取消行程開會因應",
+     "url": "https://www.theguardian.com/us-news/2026/nov/18/jay-clayton-ai-tech-outages-infrastructure",
+     "src": "Financial Times、Reuters、The Guardian 等 7 家",
+     "left": "11/19 01:25",
+     "ts": "2026-11-19T01:25:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "持續",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美國官方研判微軟、摩根大通、聯邦航空總署（FAA）等一連串大當機，是系統升級與修補更新造成，並非網攻；《金融時報》引述專家指出，各界搶修 AI 找出的軟體漏洞，可能正是系統不穩的來源。",
+     "also": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/us-news/2026/nov/18/zero-evidence-recent-tech-outages-linked-marco-rubio"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/trump-tech-outages-nsa-faa-microsoft.html"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/96c565f1-f229-40b6-91e8-7a849ec4b208?syn-25a6b1a6=1"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxNbG5MRktqdzhYemc3QU9Yd0xudG9uN1lSbkd4YTd3dG44VUlfcTRzcW5WQ19qb2JTX0o0QVV6VHNuV0oxRFNzYUZSX2wySm9WRmk1S2swN2djcWNJc3I0S0FqbzBrV09oZlAzbVFGQUI5bWktb2ZYU3ExYWdCd2hNOHZIei16QU9UZXJDQ0FNRkk0S0FjRG85UUlXX09KTmFtYzQ4SVZQOXBXcHY1VVlzcV9wdGxTR1Mw?oc=5"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c6z0kly2lll7o"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/news/2026/11/19/world/governments-java-computer-hackers/"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/governments-warn-java-flaw-leaves-computer-systems-open-to-hackers"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/faa-ground-stop-router-investigation.html"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/7cd81085-95d0-4511-b640-300a2c8791ff?syn-25a6b1a6=1"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/crkgvxxwpwz2o"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cke89jevqm1vo"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：7 家（Financial Times、Reuters、The Guardian、CNBC、BBC、Japan Times、Straits Times）",
+      "<strong>今日新增</strong>：官員與專家把連環當機歸因於大量軟體修補更新；副總統范斯取消公開行程改開會因應；兩黨參議員致函國家情報總監要求修補基礎設施漏洞；英國金融監理要求倫敦金融城業者加強資安。"
+     ],
+     "table": null,
+     "dive_html": "民主黨參議員坎特威爾（Maria Cantwell）與共和黨參議員朗茲（Mike Rounds）17日致函兼任白宮 AI 總管的國家情報總監克雷頓，信中寫道「AI 找出軟體弱點、協助攻擊者利用的速度，比許多組織應變的速度還快」，而在相互連動的系統上測試與安裝修補程式可能耗時數週到數月，還可能中斷基本服務。克雷頓18日在眾院國土安全委員會作證說，這些是「與維護及技術變更相關的個別服務中斷」，不是協同或國家支持的攻擊；一名政府高層匿名簡報時也說，事件源於系統升級、修補與硬體更換。范斯臨時取消出席《紐約時報》DealBook 峰會，改參加當機相關會議；FAA 先前全國停飛4小時，根因仍在追查。英國金融監理機構則在駭客攻擊激增、加密貨幣交易所幣安遭竊60億美元後，要求倫敦金融城業者強化資安。各國政府另警告 Java 重大漏洞可讓駭客遠端執行程式或癱瘓系統，Java 使用普遍的南韓尤其憂心。"
+    }
+   ]
+  },
+  {
+   "name": "經濟與財經",
+   "count": 3,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "13",
+     "key": "8ee7639c63",
+     "title": "歐盟理事會批准與印尼貿易協定，逾九成商品關稅將取消",
+     "title_html": "歐盟理事會批准與印尼貿易協定，逾九成商品關稅將取消",
+     "url": "https://www.aljazeera.com/economy/2026/11/19/eu-governments-approve-trade-deal-with-indonesia-to-offset-trump-tariffs",
+     "src": "Al Jazeera（卡達政府出資）",
+     "left": "11/19 08:11",
+     "ts": "2026-11-19T08:11:40+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "歐盟各國政府18日批准簽署2025年9月談成的歐盟—印尼貿易協定，並同意可暫時適用；雙方將取消逾九成商品的進口關稅，以抵銷川普關稅的衝擊。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "印尼對歐盟汽車課徵的50%關稅將在5年內取消；愛爾蘭外交暨貿易部長麥肯蒂（Helen McEntee）說，協定每年可替企業省下約6億歐元關稅。雙方自2016年開始談判，一度因歐盟決定2030年前逐步淘汰運輸燃料中的棕櫚油、並對印尼生質柴油課反補貼稅而關係緊張。印尼將於2027年1月1日脫離歐盟普遍化優惠關稅制度，協定簽署後仍須送歐洲議會批准。"
+    },
+    {
+     "type": "item",
+     "no": "14",
+     "key": "879c59d879",
+     "title": "輝達代理執行長克芮斯首開員工大會：調薪提前、盼大家「向前走」",
+     "title_html": "輝達代理執行長克芮斯首開員工大會：調薪提前、盼大家「向前走」",
+     "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-kress-addresses-staff-after-jensen-huang-exit-.html",
+     "src": "Financial Times、CNBC、Japan Times 等 4 家",
+     "left": "11/19 07:45",
+     "ts": "2026-11-19T07:45:50+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "持續",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "輝達代理執行長克芮斯（Colette Kress）18日在黃仁勳辭職後首場員工大會上說「我們向前走吧」，並宣布把原本3月的年度考核、調薪與配股提前到12月。",
+     "also": [
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/nvidia-stock-earnings.html"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/jensen-huang-nvidia-tim-scott-congress.html"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/9ee78a67-fcab-4e43-bee7-09c9244e76b8?syn-25a6b1a6=1"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/nvidia-kress-jensen-huang-return.html"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/nvidia-interim-ceo-colette-kress-talks-earnings-china-transcript.html"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/business/2026/11/19/markets/japan-ai-shares-investors-rethink/"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：4 家（Financial Times、CNBC、Japan Times、BBC）",
+      "<strong>今日新增</strong>：員工大會宣布年度調薪提前；財報後股價下跌並拖累新雲端業者；黃仁勳另同意出席參院銀行委員會。"
+     ],
+     "table": null,
+     "dive_html": "據 CNBC 引述與會者，新任董事長瓊斯（Harvey Jones）在會中說明新執行長遴選進度，會議約一小時、同步以 Teams 直播；現場普遍氛圍是希望黃仁勳回任，已有資深員工致函董事會，警告不考慮讓黃仁勳回來恐流失「無可取代的人才」，《金融時報》也指黃仁勳正設法回鍋。輝達股價已較52週高點下跌37%，財報公布後再跌，並拖累 CoreWeave、Iren 等新雲端業者；日本的鎧俠與愛德萬測試自黃仁勳辭職以來也各跌逾9%。參院銀行委員會主席史考特（Tim Scott）表示，黃仁勳已同意出席該委員會，加上先前宣布的眾院聽證。"
+    },
+    {
+     "type": "item",
+     "no": "15",
+     "key": "3a261481b7",
+     "front": 5,
+     "title": "聯準會10月會議紀要：幾乎全員認為須再升息，憂 AI 推升通膨",
+     "title_html": "聯準會10月會議紀要：幾乎全員認為須再升息，憂 AI 推升通膨",
+     "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+     "src": "Reuters、CNBC",
+     "left": "11/19 03:41",
+     "ts": "2026-11-19T03:41:59+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "聯準會18日公布10月會議紀要，該次會議維持利率在3.75%至4%不變，但「幾乎所有與會者」認為進一步升息「可能是適當的」，並把 AI 相關需求列為「重大的通膨風險來源」。",
+     "also": [
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/federal-reserve-governor-christopher-waller.html"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxOQWp0U1B6TG9KQU5oY25mQTRtbk5hTUZxNnI3azdIZDNNcU9iN1hzSndVckt3eU5ReUZockwxa1JOMVYyNTQ5d281c3NnU1pEU3pKaEZMSUZEdFQ3bG9DaXk4Umx1NG5WQ3ZvMko2VzBYdlgwYUI0Rm9ud1kzU1VMeWdZNXlkd3FJWTBvc25qV1ROWDZubGV4SF9QUk1EcG9BWGprZzRxcU9xa2g5TmRiUDRqR0FoYmNreUNicmFiWQ?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（Reuters、CNBC）"
+     ],
+     "table": null,
+     "dive_html": "紀要顯示「部分」官員主張當次就升息1碼，少數人提到12月可能須升得更多；聯準會理事沃勒（Christopher Waller）同日受訪重申，12月應考慮一次升息2碼，央行可能需要「震撼大家」。官員也憂心 AI 帶來的金融不穩：幕僚指出 AI 業者之間的表外租賃承諾與循環融資安排，在 AI 投資回報不如預期時可能放大損失；「多數」與會者注意到 AI 相關債務快速增加，且多透過複雜不透明的融資結構。官員仍預期2027年起通膨將大幅回落。"
+    }
+   ]
+  },
+  {
+   "name": "社會與治安",
+   "count": 6,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "16",
+     "key": "c66416daa8",
+     "title": "俄國男子涉替莫斯科監視 Palantir 員工，在矽谷被捕",
+     "title_html": "俄國男子涉替莫斯科監視 Palantir 員工，在矽谷被捕",
+     "url": "https://www.bbc.co.uk/news/articles/cq20xg80ly47o",
+     "src": "BBC、Euronews",
+     "left": "11/19 07:28",
+     "ts": "2026-11-19T07:28:03+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美國檢方表示，俄國男子迪烏（Igor D&#x27;iu）在加州帕羅奧圖被捕，被控充當外國政府代理人、跟蹤一家協助烏克蘭的科技國防公司員工；BBC 證實目標是 Palantir。",
+     "also": [
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/18/alleged-russian-agent-arrested-for-spying-on-silicon-valley-tech-firm"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（BBC、Euronews）"
+     ],
+     "table": null,
+     "dive_html": "檢方指出，迪烏6月從伊斯坦堡飛往墨西哥後非法越境入美，經 Telegram 招募，操控者稱俄國為「祖國」，以這家公司供應的武器被用來對付俄國為由，指示他蒐集情報。他購買電腦、手機、無線網路設備與遠端存取軟體，在公司附近咖啡館拍攝員工筆電螢幕，並依指示把筆電放在公司附近特定位置，讓操控者遠端蒐集資訊；被捕時持有偽造美國證件與兩本俄國護照。北加州聯邦檢察官米薩基安（Craig Missakian）說，絕不容許外國政府把矽谷變成情報基地；業界消息人士說，行動並未侵入 Palantir 內部系統。"
+    },
+    {
+     "type": "item",
+     "no": "17",
+     "key": "a7b9c42613",
+     "title": "布格磊證實空襲海地幫派首領「Jeff」豪宅，太子港數千人上街慶祝",
+     "title_html": "布格磊證實空襲海地幫派首領「Jeff」豪宅，太子港數千人上街慶祝",
+     "url": "https://www.euronews.com/2026/11/18/bukele-confirms-airstrike-on-haitian-gang-leader-jeffs-luxury-mansion",
+     "src": "Euronews",
+     "left": "11/19 05:58",
+     "ts": "2026-11-19T05:58:48+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "持續",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "薩爾瓦多總統布格磊18日證實，其部隊攻擊並摧毀海地主要幫派首領拉羅斯的豪宅，目前不清楚拉羅斯是否身亡或當時是否在屋內。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>今日新增</strong>：薩爾瓦多部隊以直升機攻擊海地主要幫派首領拉羅斯（Jeff Larose）的豪宅，是本月第二名遭鎖定住所的幫派首領。"
+     ],
+     "table": null,
+     "dive_html": "布格磊在 X 發布影片，畫面顯示薩爾瓦多直升機接近並開火、建物冒出濃煙，他稱這是送給海地人民、紀念1803年韋爾蒂耶爾戰役（Battle of Vertières）的「禮物」；太子港連續第二天有數千人上街慶祝、高呼布格磊的名字。拉羅斯的幫派多年來控制太子港北方的卡南（Canaan）社區，國際危機組織專家認為是海地組織最嚴密、控制地盤最大的犯罪集團之一；薩國部隊8日也曾攻擊其盟友、「400 Mawozo」首領約瑟夫（Wilson Joseph）的住所。布格磊上月在4名薩國士兵於幫派地盤遇襲失蹤後，派約2500名士兵進駐海地；直升機與爆裂物無人機讓行動升級，但也增加平民風險。"
+    },
+    {
+     "type": "item",
+     "no": "18",
+     "key": "e5b167059b",
+     "title": "伊拉克法院判6名法籍 IS 成員無期徒刑，同案已有16人定罪",
+     "title_html": "伊拉克法院判6名法籍 IS 成員無期徒刑，同案已有16人定罪",
+     "url": "https://www.aljazeera.com/news/2026/11/18/iraq-sentences-six-french-nationals-to-life-in-prison-for-joining-isil",
+     "src": "Al Jazeera（卡達政府出資）、Euronews",
+     "left": "11/19 05:53",
+     "ts": "2026-11-19T05:53:17+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "伊拉克卡赫刑事法院18日以加入伊斯蘭國（IS）判處6名法國籍被告無期徒刑，法國大使館派員旁聽；同案定罪人數增至16人，除1人判15年外全是無期徒刑。",
+     "also": [
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/18/iraqi-court-jails-six-french-islamic-state-members-for-life"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（Al Jazeera、Euronews）"
+     ],
+     "table": null,
+     "dive_html": "這47名法國公民去年從敘利亞移交伊拉克，9月起受審；美國今年2月把來自60多國、逾5700名 IS 被拘留者從庫德族管理的敘利亞監獄移交伊拉克，Euronews 報導這批人將從週日起陸續受審。被判刑者之一、45歲的巴赫努安（Thomas Barnouin）在庭上說，他當年認為赴敘利亞是宗教義務，不知道 IS 會在法國發動攻擊。人權團體批評伊拉克相關審判倉促、缺乏正當程序。"
+    },
+    {
+     "type": "item",
+     "no": "19",
+     "key": "aab473f860",
+     "title": "曼谷大樓地震倒塌案：中鐵十局泰國子公司與主管被判違反外資法",
+     "title_html": "曼谷大樓地震倒塌案：中鐵十局泰國子公司與主管被判違反外資法",
+     "url": "https://www.straitstimes.com/asia/se-asia/a-chinese-executive-is-convicted-in-a-case-linked-to-a-bangkok-building-collapse",
+     "src": "Straits Times",
+     "left": "11/19 01:56",
+     "ts": "2026-11-19T01:56:30+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "泰國曼谷刑事法院18日判決中國國營中國中鐵旗下的「中鐵十局（泰國）」及其董事張傳玲（Zhang Chuanling），以泰籍人頭股東隱匿外資身分、違法經營營建業，各罰款100萬泰銖，張傳玲判刑3年，公司被勒令停業。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "這起案件與2025年3月28日緬甸規模7.7強震時倒塌的曼谷國家審計署新大樓有關，那是泰國唯一在地震中完全倒塌的建物，至少92人罹難；大樓由中鐵十局（泰國）與義泰發展公司（Italian-Thai Development）合資承建，兩家公司主管另因倒塌案面臨其他訴訟。3名泰籍股東也以人頭身分被判有罪；被告否認指控、已獲交保。判決反映泰國社會對中國影響本地商業的疑慮升高。"
+    },
+    {
+     "type": "item",
+     "no": "20",
+     "key": "31e9122e61",
+     "title": "皮尤研究：2035年全球穆斯林人口將超越基督徒",
+     "title_html": "皮尤研究：2035年全球穆斯林人口將超越基督徒",
+     "url": "https://www.dw.com/en/muslims-to-outnumber-christians-by-2035-research-shows/a-79984307?maca=en-rss-en-all-1573-xml-mrss",
+     "src": "Reuters、DW（德國政府出資）、BBC",
+     "left": "11/19 01:52",
+     "ts": "2026-11-19T01:52:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美國皮尤研究中心預測，2035年全球穆斯林將達25.7億人、基督徒25.2億人，伊斯蘭教將成為世界最大宗教，主因是生育率差異。",
+     "also": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMitAFBVV95cUxPZzhzMHplMEVtRTFScDNDeERNU05DOVY1TXVIeDl3Uko3bkcyU3NLYlJPRTVITEIyNHg1TGtZVVJhOWVlUFNYU1hTUk5CaldhMW04UXM4MEJsNjJ2WG02bG56bGJjQW91b2dBUDlHSm5WMnpxbkp6WkFqbjBiUk1tLXczSm9FWEMzZE1YNDRCdU54ME1LS3B5YmhZNVBSeUZ4WXZwN2hvbTBvcjRsQUpCNjBjNDM?oc=5"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cqd01epyrz1do"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Reuters、DW、BBC）"
+     ],
+     "table": null,
+     "dive_html": "皮尤資深人口學家哈克特（Conrad Hackett）說「關鍵是嬰兒」：2020至2025年穆斯林女性平均生育3.1胎、基督徒女性2.5胎，其他女性僅1.6胎，低於世代更替所需的2.1。若趨勢持續，2070年穆斯林將超過36億人、基督徒略低於30億；過半基督徒將住在撒哈拉以南非洲，剛果民主共和國將超越美國成為基督徒最多的國家，美國則不再是基督徒過半；巴基斯坦將有全球最多穆斯林。中國、日本、南韓人口將萎縮，佛教人口減少逾一半。BBC 另指出，印度仍將以印度教徒為主，但穆斯林人口成長較快。"
+    },
+    {
+     "type": "item",
+     "no": "21",
+     "key": "0ad6e2d333",
+     "title": "孟加拉前總理哈希納擬返國引爆衝突，政府全國部署準軍事部隊",
+     "title_html": "孟加拉前總理哈希納擬返國引爆衝突，政府全國部署準軍事部隊",
+     "url": "https://www.straitstimes.com/asia/south-asia/bangladesh-deploys-paramilitary-as-unrest-grows-over-hasinas-return",
+     "src": "Straits Times",
+     "left": "11/18 18:55",
+     "ts": "2026-11-18T18:55:04+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "流亡印度的孟加拉前總理哈希納計劃12月返國，她遭禁的人民聯盟（Awami League）支持者在至少28個縣發動土製炸彈、縱火與衝突，政府18日在全國部署數百名準軍事部隊。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "哈希納2024年8月在要求她下台的暴力抗爭後逃往印度，近日申請新護照與身分證遭政府拒絕；人民聯盟上週宣布為期一週的抗議，19日發動全國封鎖。17日晚間執政黨孟加拉民族主義黨（BNP）一名黨工在哈希納家鄉戈帕爾甘傑（Gopalganj）附近遇害，文化部長住處外也發生土製炸彈爆炸；18日上午皮羅傑布爾（Pirojpur）兩輛巴士遭縱火，一名巴士助手被燒死。警方已逮捕71人，格拉明銀行有37家分行遭攻擊；政府指控海外人民聯盟領袖煽動暴力。11月17日正是哈希納2025年被本地法院判處死刑的日子。"
+    }
+   ]
+  },
+  {
+   "name": "人權、移民與人道",
+   "count": 4,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "22",
+     "key": "d00fde3cac",
+     "title": "馬來西亞自建難民管理系統，聯合國難民署停止當地難民登記",
+     "title_html": "馬來西亞自建難民管理系統，聯合國難民署停止當地難民登記",
+     "url": "https://www.straitstimes.com/asia/unhcr-halts-refugee-registration-in-malaysia",
+     "src": "Straits Times",
+     "left": "11/19 10:00",
+     "ts": "2026-11-19T10:00:08+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "聯合國難民署（UNHCR）18日表示，因馬來西亞政府決定自建庇護申請者管理系統，其馬來西亞辦公室已停止難民登記與證件核發。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "馬來西亞不是聯合國難民公約締約國，把庇護申請者視為非法移民，過去由 UNHCR 替以羅興亞穆斯林為主的難民登記、核發證件並提供協助。UNHCR 表示支持政府強化庇護管理，雙方正擬定強調適當保障與溝通的過渡路線圖，難民署仍會續辦重新安置與緊急保護；人權團體則批評馬國的難民登記計畫不透明、保障不足，政府稱新制有助身分查核與監管。"
+    },
+    {
+     "type": "item",
+     "no": "23",
+     "key": "ef2050480c",
+     "front": 4,
+     "title": "國際法院今宣判緬甸羅興亞種族滅絕案，可能首度認定國家犯種族滅絕",
+     "title_html": "國際法院今宣判緬甸羅興亞種族滅絕案，可能首度認定國家犯種族滅絕",
+     "url": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o",
+     "src": "Reuters、BBC、The Guardian 等 6 家",
+     "left": "11/19 07:04",
+     "ts": "2026-11-19T07:04:06+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "聯合國最高法院國際法院（ICJ）19日宣判甘比亞2019年控告緬甸的種族滅絕案；自1948年《防止及懲治滅絕種族罪公約》簽訂以來，還沒有國家被國際法院判定犯下種族滅絕罪。",
+     "also": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/world/2026/nov/18/us-sanctions-icj-judges-myanmar-genocide-ruling-israel-gaza-court"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/19/icj-to-rule-on-rohingya-genocide-case-against-myanmar"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/icj-to-rule-on-rohingya-genocide-case-against-myanmar-what-to-know/a-79981434?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOUGtSVDRwdUtMc3lyTmxTN1FCam5Fai1UaTdDZ1E3YXM4M3lfZk5yQXduaF9Uc3VjSVJuSzRwOG0wVFY0LURKWnVlR1gtNWZHaHlWaXBmazZlVzh4TGZHb0VfM3NTSHFZS29QMTlZV3Y3dm1GVmJzcHRQaW5yaTJacmV0ZnQ2Z0JrYWxIT3l4UUdTSDlDTnlLaTNERlF0NVF2U3lHR29tdWdabGc?oc=5"
+      },
+      {
+       "text": "The Diplomat",
+       "url": "https://thediplomat.com/2026/11/the-rohingya-are-not-a-legal-test-case-we-are-a-people-waiting-for-justice/"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：6 家（Reuters、BBC、The Guardian、Al Jazeera、DW、The Diplomat）"
+     ],
+     "table": null,
+     "dive_html": "案件源於2017年緬甸軍方在若開邦的「清剿行動」，至少73萬名羅興亞人逃往孟加拉；聯合國2018年調查報告指軍方手段與實際安全威脅「嚴重不成比例」，應調查高層將領的種族滅絕罪責，緬甸則否認種族清洗或滅絕，稱只是回應羅興亞武裝分子的恐怖行動。代表甘比亞的律師蘇雷曼（Arsalan Suleman）說，勝訴將讓種族滅絕公約與國家問責「重獲生機」。《衛報》報導，外界擔心若判決不利緬甸，美國可能制裁國際法院法官，包括今年諾貝爾和平獎得主皮萊（Navi Pillay），因為此案可能成為國際法院審理以色列加薩行動案的先例。"
+    },
+    {
+     "type": "item",
+     "no": "24",
+     "key": "972a21c776",
+     "title": "巴林知名人權鬥士拉賈布流亡土耳其期間辭世，享年62歲",
+     "title_html": "巴林知名人權鬥士拉賈布流亡土耳其期間辭世，享年62歲",
+     "url": "https://www.hrw.org/news/2026/11/18/human-rights-watch-mourns-death-of-activist-nabeel-rajab",
+     "src": "Human Rights Watch（人權組織）",
+     "left": "11/19 05:23",
+     "ts": "2026-11-19T05:23:06+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "人權觀察表示，巴林人權人士拉賈布（Nabeel Rajab）17日在土耳其疑因心臟病發過世，享年62歲。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "拉賈布1990年代崛起，2000年共同創立巴林最早的人權組織之一「巴林人權協會」，後來出任巴林人權中心主席；2011年民主抗爭後多次因和平言論遭拘禁，2018年因批評巴林監獄酷刑與沙烏地主導的葉門戰事被判5年徒刑，2020年因健康惡化獲准返家服完刑期。他今年3月離開巴林以便公開發聲，此後一直流亡，因擔心遭逮捕無法返國。"
+    },
+    {
+     "type": "item",
+     "no": "25",
+     "key": "ed344170b4",
+     "title": "英國制裁8家營建商後，以色列暫緩 E1 屯墾區招標",
+     "title_html": "英國制裁8家營建商後，以色列暫緩 E1 屯墾區招標",
+     "url": "https://www.theguardian.com/world/2026/nov/18/israel-construction-contracts-e1-west-bank-settlement-uk-sanctions",
+     "src": "The Guardian",
+     "left": "11/18 22:05",
+     "ts": "2026-11-18T22:05:38+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "英國16日制裁8家在 E1 地區施工的營建公司後，以色列檢察總長下令土地局與住宅部不得啟動招標，被視為會讓兩國方案無法實現的 E1 屯墾區建案合約因此延後。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "檢察總長巴哈拉夫－米亞拉（Gali Baharav-Miara）認為，擴建屯墾區的決定不該由納坦雅胡領導的看守政府作出，應留給新政府；以色列外交官堅稱與英方制裁無關，並暗指英國外相米勒班（Ed Miliband）出手過早。E1 位於耶路撒冷與約4萬人的屯墾城市馬阿勒阿杜明之間，原定19日宣布擴建，因會把約旦河西岸切成兩半、與東耶路撒冷隔開，米勒班稱這將是巴勒斯坦建國的「喪鐘」。可能接任總理的變革陣營領袖艾森柯特也反對 E1 擴建，此案將成為組閣談判的議題。"
+    }
+   ]
+  },
+  {
+   "name": "文化、體育與人物",
+   "count": 4,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "26",
+     "key": "94d1cffd8a",
+     "title": "梵谷《盛開的栗樹》以1.904億美元成交，刷新梵谷拍賣紀錄",
+     "title_html": "梵谷《盛開的栗樹》以1.904億美元成交，刷新梵谷拍賣紀錄",
+     "url": "https://www.bbc.co.uk/news/articles/c5dj1dkwzvzwo",
+     "src": "BBC",
+     "left": "11/19 08:49",
+     "ts": "2026-11-19T08:49:19+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "蘇富比18日在紐約以1.904億美元售出梵谷生前最後兩個月、1890年所繪的《盛開的栗樹》（Châtaigniers en fleurs），打破2022年1.172億美元的梵谷作品拍賣紀錄。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "拍賣前數小時，蘇富比宣布賣方 Blaquier-Arrieta 家族與畫作前德國擁有者費雪家族的繼承人達成和解；繼承人原主張這幅畫是二戰前費雪家族出版社在納粹統治下蒙受損失、被迫在阿姆斯特丹出售。德國知名出版商費雪（Samuel Fischer）1909年購得此畫，1934年過世後由家族傳承。畫作拍前估價1.8億美元，買家身分尚未公開。"
+    },
+    {
+     "type": "item",
+     "no": "27",
+     "key": "ac9d432219",
+     "title": "德國足協力挺法國迪亞洛挑戰因凡提諾，FIFA 主席選戰升溫",
+     "title_html": "德國足協力挺法國迪亞洛挑戰因凡提諾，FIFA 主席選戰升溫",
+     "url": "https://www.aljazeera.com/news/2026/11/19/german-fa-backs-frances-diallo-for-fifa-presidency",
+     "src": "Al Jazeera（卡達政府出資）、BBC、Japan Times",
+     "left": "11/19 08:44",
+     "ts": "2026-11-19T08:44:50+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "德國足協主席諾伊恩多夫（Bernd Neuendorf）18日宣布全力支持法國足協主席迪亞洛（Philippe Diallo）競選國際足總（FIFA）主席，明年3月對決尋求第四任的現任主席因凡提諾。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/sport/football/articles/cm3eg1w4ypz5o"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/sports/2026/11/19/soccer/tashima-diallo-fifa-presidency/"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Al Jazeera、BBC、Japan Times）"
+     ],
+     "table": null,
+     "dive_html": "迪亞洛16日接受歐洲足總（UEFA）支持參選，荷蘭足協也已表態挺他；他說要擊敗因凡提諾需要106票過半，並稱已獲歐洲以外國家「自發的強力支持」。因凡提諾自2016年起掌舵 FIFA，7月試圖把未來世界盃股份賣給私人投資人引發眾怒，雖迅速撤回，仍遭各方要求下台。BBC 報導英格蘭足總曾研究以法律途徑挑戰因凡提諾的第四任參選資格，但評估勝算低；同樣有意角逐的日本田嶋幸三則表示願與迪亞洛會面，盼把日本「強烈的倫理意識」帶進國際足壇最高職位。"
+    },
+    {
+     "type": "item",
+     "no": "28",
+     "key": "838299843b",
+     "title": "《俠盜獵車手6》全球上市，評論譽為傑作、PlayStation 網路上市前當機",
+     "title_html": "《俠盜獵車手6》全球上市，評論譽為傑作、PlayStation 網路上市前當機",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/18/gta-6-launches-after-13-year-wait-breaking-pre-order-records",
+     "src": "Al Jazeera（卡達政府出資）、BBC、The Guardian 等 7 家",
+     "left": "11/19 07:18",
+     "ts": "2026-11-19T07:18:03+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "持續",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "睽違13年的《俠盜獵車手6》（GTA 6）19日上市，澳洲、紐西蘭玩家率先開玩，評論普遍稱之為「傑作」，預購也打破紀錄。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cw8r75xm8v4po"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/games/2026/nov/19/gta-6-grand-theft-auto-vi-release-launch-australia-first-to-play-game"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/grand-theft-auto-vi-released-as-gamers-rejoice-globally/a-79986461?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/video/2026/11/18/gta-6-countdown-begins-as-billboards-go-up-from-tokyo-to-sydney"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/life/2026/11/19/digital/grand-theft-auto-vi-japan-reaction-video-games-censorship/"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/business/media-entertainment/gamers-become-new-zealanders-for-first-access-to-new-grand-theft-auto"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/games/video/2026/nov/19/more-fun-being-chased-grand-theft-auto-co-creator-reflects-on-franchises-evolution-video"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/games/2026/nov/18/playstation-down-grand-theft-auto-vi-game-release"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/what-makes-grand-theft-auto-vi-more-than-just-a-game/a-79965822?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/life/2026/11/19/digital/grand-theft-auto-5-launch-reaction-rockstar/"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：7 家（Al Jazeera、BBC、The Guardian、DW、Euronews、Japan Times、Nikkei Asia）",
+      "<strong>今日新增</strong>：遊戲正式上市、評價一面倒好評；PlayStation 網路在上市前數小時大規模故障；日本版淡化裸露與暴力內容。"
+     ],
+     "table": null,
+     "dive_html": "遊戲以邁阿密為藍本的罪惡城（Vice City）為舞台，玩家可以裝修房屋、修車、健身，被形容為「完全有生活感、會呼吸的世界」；有玩家為搶先開玩把主機地區設成紐西蘭。PlayStation 在上市前數小時發生大範圍網路問題；日本版則把虛構州 Leonida 中的裸露與暴力元素淡化。"
+    },
+    {
+     "type": "item",
+     "no": "29",
+     "key": "678303faed",
+     "title": "西班牙國家法院對胡立歐．伊格萊西亞斯展開性侵調查",
+     "title_html": "西班牙國家法院對胡立歐．伊格萊西亞斯展開性侵調查",
+     "url": "https://www.bbc.co.uk/news/articles/c6x284pnn4e2o",
+     "src": "BBC、Euronews",
+     "left": "11/19 00:33",
+     "ts": "2026-11-19T00:33:16+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "西班牙國家法院法官皮尼亞（Antonio Piña）18日裁定，對83歲歌手胡立歐．伊格萊西亞斯涉嫌性侵、虐待兩名前女性員工展開刑事調查；BBC 報導兩名女子將於2月3日出庭作證，Euronews 則稱歌手本人同日被傳喚。",
+     "also": [
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/18/singer-julio-iglesias-under-investigation-for-alleged-sexual-offences"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（BBC、Euronews）"
+     ],
+     "table": null,
+     "dive_html": "兩名女子分別是家務員與物理治療師，指控2021年在巴哈馬與多明尼加共和國的住所遭性侵、毆打與有辱人格的對待；調查涵蓋性自主相關罪行、傷害與有辱人格待遇，但人口販運與侵害勞工權益的指控，法官認為聘僱過程「沒有欺騙或詐術」而不予調查。西班牙檢方今年稍早以犯罪發生在國外、缺乏管轄權為由停止偵查，上月改口認定法院有管轄權。指控源自西班牙《El Diario》與美國 Univision 歷時3年的聯合調查，伊格萊西亞斯先前已否認。"
+    }
+   ]
+  },
+  {
+   "name": "戰爭與地緣衝突",
+   "count": 6,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "30",
+     "key": "4cece61a41",
+     "title": "克里米亞大橋本週第三度遇襲，交通暫停",
+     "title_html": "克里米亞大橋本週第三度遇襲，交通暫停",
+     "url": "https://www.dw.com/en/crimean-bridge-has-been-attacked-again-russian-official-says/a-79986700?maca=en-rss-en-all-1573-xml-mrss",
+     "src": "DW（德國政府出資）、BBC、The Guardian 等 5 家",
+     "left": "11/19 11:43",
+     "ts": "2026-11-19T11:43:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "持續",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "俄羅斯扶植的克里米亞首長阿克肖諾夫19日在 Telegram 表示，克里米亞大橋再度遭到攻擊，交通暫時停止、損害評估中，是本週第三次遇襲。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cm879dqn3e1jo"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/world/2026/nov/19/kerch-bridge-crimea-russia-attacked-again-ukraine"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/videos/ckvg28jy77z5o"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261118-crimea-bridge-strike-fact-checking-fake-videos-of-damage-after-ukraine-s-attack"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/europe/20261118-why-ukraine-keeps-trying-to-bring-down-russia-s-bridge-to-crimea"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/what-the-crimean-bridge-attack-means-for-russia/a-79985991?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/video/2026/11/18/new-footage-showing-damage-to-key-bridge-linking-crimea-to-russia"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：5 家（DW、BBC、The Guardian、France 24／RFI、Euronews）",
+      "<strong>今日新增</strong>：19日再傳遇襲、交通暫停，鐵路交通疑受影響；網路另流傳大橋大面積崩塌的 AI 假影片。"
+     ],
+     "table": null,
+     "dive_html": "長19公里的大橋同時有四線道公路與鐵路，是俄羅斯本土與被占領克里米亞之間唯一的橋梁，2022年入侵後一直是俄軍補給南部前線的要道。烏克蘭本週稍早以飛彈和無人機重創大橋，鋼拱倒塌，烏國安全局（SBU）稱其下公路段「完全摧毀」；德新社報導這次攻擊似乎影響鐵路交通。法國24查核指出，網路流傳多支大橋大面積崩塌的影片是 AI 生成。攻擊發生在普丁與川普、習近平三方會談前幾小時。"
+    },
+    {
+     "type": "item",
+     "no": "31",
+     "key": "f4674b7db1",
+     "title": "伊朗戰爭延燒：胡塞飛彈射向利雅德，沙烏地準備葉門戰事打到2027年",
+     "title_html": "伊朗戰爭延燒：胡塞飛彈射向利雅德，沙烏地準備葉門戰事打到2027年",
+     "url": "https://www.japantimes.co.jp/news/2026/11/19/world/saudi-yemen-campaign-2027/",
+     "src": "Reuters、Al Jazeera（卡達政府出資）、BBC 等 6 家",
+     "left": "11/19 09:02",
+     "ts": "2026-11-19T09:02:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "持續",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "兩名聽取沙烏地簡報的西方官員表示，沙烏地準備讓對葉門胡塞組織的戰事延續到明年，這條戰線已成為更大範圍伊朗戰爭中最活躍的前線；胡塞同時以飛彈攻擊利雅德。",
+     "also": [
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/11/19/iran-war-live-saudi-led-coalition-strikes-yemen-ships-on-fire-in-hormuz"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cw4gn9jeqjq7o"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMitwFBVV95cUxOcVVIOHhPWnFWVF94TVJ0cTI0YU5hNERTcWNyU0phOVlSejlUbVFmYmkwSlZUNGNHenVpZHlydHpHdW9kWHc2UFF6aXJfQVZYcElYVlFsT0Y1RUV4Wnl2aVloNU1nY196aHRMNmV0NTFhWDhtVFlSV19MTElzZVRpUEJNYkpKcURQLUtFd1JfNlB3cmRvYmtONW1vNzBHTmgtYXhmMnNLNE54c1hpd2dZNi1mSlRnOG8?oc=5"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOMkJqT2oyYk82bDFiWGJYTVlhX2hxNWs5NzFWY01GTUZVLV8zbWgycFhsTjhuOEcxUTF4Y1BiTWNxUWp4THZhdjBYVnMxd1lCY0d0YlpIWlltUV9JckxaMG5zSURFaW5VV1hGVnBzcm04TENiQWpjWFVwU211MW9qYTdwbERzX19CQkY4UVNseVFMSERmemJPTGY5bmRScXRmaUNEOGhhbm4yOHVGRmtZLXgyN1VBRnJvVngw?oc=5"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/middle-east/20261118-yemen-why-the-houthis-may-besiege-aden-rather-than-storm-it"
+      },
+      {
+       "text": "聯合國",
+       "url": "https://news.un.org/en/story/2026/11/1168830"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：6 家（Reuters、Al Jazeera、BBC、Japan Times、France 24／RFI、聯合國）",
+      "<strong>今日新增</strong>：胡塞組織以飛彈攻擊利雅德；川普聲稱伊朗尋求發展生物武器；沙烏地預期葉門戰事最多再打6個月；聯合國兒童基金會指又有數十名葉門兒童遇害。"
+     ],
+     "table": null,
+     "dive_html": "沙烏地官員現在預估戰事可能再持續最多6個月，儘管戰場失利、國內生活也遭攻擊打亂，仍決定加碼；戰火已在葉門造成數千人死傷、數十萬人流離失所，也打亂沙烏地吸引非石油投資與主辦國際活動的計畫。胡塞本週挺進到葉門政府臨時首都亞丁附近，法國24分析其可能選擇圍城而非強攻。聯合國兒童基金會18日指出，胡塞與政府軍重啟戰火將滿3個月，又有數十名兒童喪生。另一方面，美國國家情報總監表示伊朗威脅「大幅增加」，路透引述消息人士說，以色列情報首長訪美時遊說美以聯合空襲伊朗；美軍17日空襲伊朗格什姆島後，科威特稱擊退兩個月來首次伊朗攻擊，巴林也遭攻擊。"
+    },
+    {
+     "type": "item",
+     "no": "32",
+     "key": "a2c3574e4f",
+     "front": 3,
+     "title": "停火後首次，以軍越過「黃線」對加薩中部發動地面行動",
+     "title_html": "停火後首次，以軍越過「黃線」對加薩中部發動地面行動",
+     "url": "https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza",
+     "src": "The Guardian、BBC、Al Jazeera（卡達政府出資） 等 8 家",
+     "left": "11/19 07:25",
+     "ts": "2026-11-19T07:25:25+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "以色列軍方18日越過分隔以軍控制區與哈瑪斯控制區的「黃線」，在加薩中部努塞拉特（Nuseirat）難民營一帶發動地面行動，是2025年10月停火以來首次，數十名流離失所的巴勒斯坦人再度逃離帳篷。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cw8r7510degno"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/18/what-does-israels-new-ground-offensive-mean-for-palestinians-in-gaza"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/israeli-army-launches-ground-operation-in-hamas-controlled-area-of-gaza"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/israel-launches-new-ground-operation-in-gaza/a-79984958?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/18/israeli-military-launches-new-operation-on-central-gaza-despite-ceasefire"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2045504/israel-forces-kill-3-palestinians-in-fresh-gaza-push"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/news/2026/11/19/world/israel-ground-operation-gaza/"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/video/20261118-israel-begins-new-military-operation-in-gaza"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/middle-east/20261118-gazans-flee-shelters-as-israeli-army-launches-ground-operation-beyond-yellow-line"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2045436/trumps-board-of-peace-faults-israel-and-hamas-for-failure-to-end-gaza-war"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：8 家（The Guardian、BBC、Al Jazeera、France 24／RFI、DW、Euronews、Japan Times、Dawn）"
+     ],
+     "table": null,
+     "dive_html": "以軍與辛貝特（Shin Bet）稱聯合行動是要摧毀一條對部隊構成「立即且直接威脅」的「恐怖隧道」，事前對努塞拉特與布雷吉（Bureij）難民營以北地區發布撤離令，並封閉部分南北向主幹道薩拉丁路；坦克在砲擊掩護下推進。哈瑪斯譴責這是「公然違反停火協議」的危險升級。巴勒斯坦醫護人員說，行動附近一次空襲造成1人死亡，代爾巴拉赫與加薩市另有2人遭以軍射殺。行動前一天，監督停火、由美國支持的「和平委員會」發表12頁報告，指以色列與哈瑪斯都未履行結束敵對的承諾，停火有崩潰之虞，哈瑪斯則斥該委員會「保護以色列」。以軍目前占領加薩逾六成土地，當地210萬人生活條件仍極惡劣；行動同時，以色列在野領袖艾森柯特正尋求在納坦雅胡缺席下組閣。"
+    },
+    {
+     "type": "item",
+     "no": "33",
+     "key": "8884d95056",
+     "title": "歐盟提450億歐元對烏貸款，「自願聯盟」柏林集會挺烏",
+     "title_html": "歐盟提450億歐元對烏貸款，「自願聯盟」柏林集會挺烏",
+     "url": "https://www.theguardian.com/world/2026/nov/18/eu-loan-ukraine-cash-crisis-defences-von-der-leyen-kyiv",
+     "src": "Reuters、The Guardian、Euronews 等 4 家",
+     "left": "11/19 06:34",
+     "ts": "2026-11-19T06:34:03+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "歐盟執委會主席范德賴恩18日提議2027年借給烏克蘭450億歐元，填補資金缺口並強化防衛；烏克蘭的歐洲盟友19日在柏林召開「自願聯盟」峰會，美國特使威特科夫與庫許納也將出席。",
+     "also": [
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/18/europe-tonight-eu-proposes-45bn-ukraine-loan-as-trump-xi-and-putin-meet"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/ukraine-s-allies-gather-in-berlin-for-coalition-of-the-willing-summit/live-79986520?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/coalition-of-the-willing-meets-in-berlin-europe-remains-committed-to-ukraine/a-79974996?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNWHBhRURfZmJHUzhfMW53YjcxYUNlVE1rbFZtTmV2S2Jfcm5hYXFweEJaQlZHbmE0U2Q5Y2IzM29LUExzUUx0UlIyVTNMamhzT3NPS25rbmp3bzZuZDhId1B4YzZXYWZXRkU0clRpUm9scVV5ZXRvMnBSTUlTZlVtTDJlSnFlREg3YTZpM0xVOXl2cV9xaWZpcnF2M01zdw?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：4 家（Reuters、The Guardian、Euronews、DW）"
+     ],
+     "table": null,
+     "dive_html": "貸款分兩部分：250億歐元用於武器、200億歐元用於學校、醫院等民生需求；范德賴恩說，烏克蘭要等俄羅斯賠償損害後才須償還，目的是讓基輔「在談判桌上握有好牌」，並有信心27國都會支持，但已有4個中東歐國家表態不參與，成員國可選擇只支持民生用途。澤倫斯基上月說服歐盟領袖，烏克蘭2027年資金缺口達700億歐元，歐盟承諾負擔450億、其餘盼其他盟友補足；歐盟11個月前才同意900億歐元貸款，支應2026與2027年三分之二的軍民需求。歐盟防務執委庫比留斯（Andrius Kubilius）說，烏克蘭預期俄羅斯今年使用1000萬架無人機、2027年達2000萬架。柏林會議焦點之一，是歐洲能否在烏克蘭前途的談判中扮演角色。"
+    },
+    {
+     "type": "item",
+     "no": "34",
+     "key": "2878dacfa4",
+     "title": "赫格塞斯突訪卡拉卡斯，美委簽軍事合作協議重建防務夥伴關係",
+     "title_html": "赫格塞斯突訪卡拉卡斯，美委簽軍事合作協議重建防務夥伴關係",
+     "url": "https://www.dw.com/en/us-pentagon-chief-hegseth-signs-military-deal-in-venezuela/a-79985607?maca=en-rss-en-all-1573-xml-mrss",
+     "src": "Reuters、DW（德國政府出資）、The Guardian 等 6 家",
+     "left": "11/19 04:19",
+     "ts": "2026-11-19T04:19:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美國國防部長赫格塞斯18日突訪委內瑞拉，與代理總統羅德里格斯簽署軍事合作協議，內容包括情報分享與聯合訓練，是今年1月美軍拿下前總統馬杜洛以來美方最高層級訪問。",
+     "also": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/world/2026/nov/18/pete-hegseth-venezuela-nicolas-maduro-military"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/hegseth-unveils-new-us-venezuela-military-deal"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/18/us-defence-secretary-announces-military-partnership-on-trip-to-venezuela"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/americas/20261118-hegseth-makes-surprise-trip-to-venezuela-renews-military-cooperation"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/18/us-defence-secretary-announces-military-cooperation-in-surprise-caracas-visit"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxPZV9uT1R6QjFJeHlkYmhUeTdIQ0F0Ync2akZibV9hdmhtNEZMelUzSkk1WlFTNTJUd2NKdC1ILW9rWHZJb3JZemxwT2dwNlc5QjNIYzlNS1kwVkt6aDl5aVl0VFdvRUNPYzBMeXJtMnM4YVJPWjdvSzZ6eWlQNXVFdGdhNkw3YzhpQ0V4Yk11dlFKS21RREIxZVcwUFJxS0xKZ25TMDE1bGtDRUJ2aUp2VVFBVkUtSDU1VXBLNENB?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：6 家（Reuters、DW、The Guardian、Al Jazeera、France 24／RFI、Euronews）"
+     ],
+     "table": null,
+     "dive_html": "赫格塞斯稱協議是「重建我們的防務夥伴關係」，並說馬杜洛下台後，委內瑞拉已從美國在區域內「最具侵略性的威脅」變成「順從的安全夥伴」；羅德里格斯則說協議可強化委國軍隊訓練、引進新技術，以「面對共同威脅」。五角大廈未公布行程，由委國官媒播出畫面；赫格塞斯也會見曾屬反馬杜洛政黨的新任外長布蘭科（Oliver Blanco），接著將訪問哥倫比亞。馬杜洛與妻子今年1月被美軍帶往紐約面對販毒指控，川普其後支持羅德里格斯領導委國，並要求開放美國進入委國石油市場。"
+    },
+    {
+     "type": "item",
+     "no": "35",
+     "key": "77aa71dcac",
+     "title": "國際原子能總署：北韓擴建寧邊鈾濃縮設施，10月底外部完工",
+     "title_html": "國際原子能總署：北韓擴建寧邊鈾濃縮設施，10月底外部完工",
+     "url": "https://www.dw.com/en/north-korea-expanded-uranium-enrichment-plant-says-iaea-head/a-79982758?maca=en-rss-en-all-1573-xml-mrss",
+     "src": "DW（德國政府出資）、Straits Times",
+     "left": "11/18 23:15",
+     "ts": "2026-11-18T23:15:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "國際原子能總署（IAEA）署長格羅西18日在理事會季會上說，北韓自9月中起擴建寧邊原有的鈾濃縮設施，新建部分外部已在10月底完工，北韓擴大鈾濃縮「令人嚴重關切」。",
+     "also": [
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/iaea-says-north-korea-is-expanding-uranium-enrichment-plant-at-yongbyon"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（DW、Straits Times）"
+     ],
+     "table": null,
+     "dive_html": "IAEA 自2009年被北韓驅逐後無法入境查核，主要靠衛星影像監控；格羅西也提到平壤西南方降仙（Kangson）濃縮設施持續運作。川普赴中國前曾暗示可能與金正恩會面，但北韓官媒只刊出金正恩造訪滑雪場與白頭山的照片，未提及赴深圳。金正恩今年3月在美以空襲伊朗後指責美國「全球恐怖主義與侵略」，伊朗戰爭強化了北韓擁核自保的想法。"
+    }
+   ]
+  },
+  {
+   "name": "政治與治理",
+   "count": 3,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "36",
+     "key": "aa7b8cd125",
+     "title": "高市早苗在 APEC 會普丁，日俄領袖7年來首度會談；與習近平握手寒暄",
+     "title_html": "高市早苗在 APEC 會普丁，日俄領袖7年來首度會談；與習近平握手寒暄",
+     "url": "https://www.japantimes.co.jp/news/2026/11/19/japan/politics/takaichi-putin-russia-japan-talks/",
+     "src": "Japan Times、SCMP（阿里巴巴持有）、Straits Times",
+     "left": "11/19 11:36",
+     "ts": "2026-11-19T11:36:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      },
+      {
+       "text": "台灣相關",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "日本首相高市早苗18日在深圳 APEC 場邊與俄羅斯總統普丁會談約30分鐘，是日俄領袖7年來首次會面、也是2022年俄國入侵烏克蘭後首次；她同日與習近平握手，是她去年發表台灣有事言論後兩人首度接觸。",
+     "also": [
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/china/diplomacy/article/3374961/japans-takaichi-meets-putin-rare-talks-amid-strained-ties-russia"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/japan-says-pm-takaichi-putin-held-talks-at-apec-summit-in-china"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/japan-pm-takaichi-spoke-with-russias-putin-at-apec-summit-foreign-ministry"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/news/2026/11/18/japan/politics/takaichi-xi-china-japan-apec/"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/news/2026/11/19/japan/politics/xi-takaichi-apec-greeting-protocol/"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/chinas-xi-shakes-hands-with-takaichi-as-ties-remain-strained"
+      },
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/china/diplomacy/article/3374944/xi-greets-takaichi-smile-no-words-china-japan-freeze-lingers"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Japan Times、SCMP、Straits Times）"
+     ],
+     "table": null,
+     "dive_html": "日本政府發言人19日證實會談，雙方「交換意見」並同意維持各層級溝通；這次會面正值日俄關係因烏克蘭戰爭與一名日本記者近期被俄方以間諜罪名逮捕而緊繃。高市早苗與習近平夫婦握手合影的互動比外界預期熱絡，但習近平只微笑、未交談，與她抵達深圳機場時低調的接待形成對比；中日關係自她去年稱台灣遭攻擊可能威脅日本存亡後陷入冰凍。"
+    },
+    {
+     "type": "item",
+     "no": "37",
+     "key": "dc8971aae4",
+     "title": "馬斯克：砸近5億美元助共和黨選期中「很蠢」，自稱「不是 MAGA」",
+     "title_html": "馬斯克：砸近5億美元助共和黨選期中「很蠢」，自稱「不是 MAGA」",
+     "url": "https://www.theguardian.com/us-news/2026/nov/18/elon-musk-maga-trump",
+     "src": "Financial Times、Reuters、The Guardian 等 5 家",
+     "left": "11/19 09:07",
+     "ts": "2026-11-19T09:07:51+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "世界首富馬斯克18日在《紐約時報》DealBook 峰會上承認，期中選舉砸下近5億美元支持共和黨「失敗了」、覺得自己「相當愚蠢」，並說「我不是 MAGA」。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cm9q8j2z3gg8o"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/19/elon-musk-jensen-huang-midterms.html"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/1af0d736-d5e5-4601-989d-638c9cea74b2?syn-25a6b1a6=1"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMi0wFBVV95cUxQTl9SMXVYalFha1V6ZW9BWWRQTUl5TDE3cUlRcjVFTVdSM3VmNUFxbFhkUWlleTFyaG5KUl9ObFE5dkM1NXk1UkNMZHFVRTNHLXVxdF9DRTN0NUdENEtVbUthWTNHVWkwQk1uZUFIWkp4Z21EVkZmdmRLd1FNUHpMSEIxNzY3b29fTWtsMTduYXJveEhPZmVBdjBPWXFPSXg0bjc0bUU5ZWQyck1QZTltSUdPdE5sLTk1cGZacjY0QVRjTWVTdFctMHYtX3NUdnFHVGIw?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：5 家（Financial Times、Reuters、The Guardian、BBC、CNBC）"
+     ],
+     "table": null,
+     "dive_html": "馬斯克人在中國隨川普出訪，以視訊接受索爾金（Andrew Ross Sorkin）45分鐘訪問；他說若 MAGA 指盲目追隨共和黨政策，那他「當然不是」，並認為華府由兩黨分治是好事、兩黨「各有優缺點」——他在2024年競選造勢時曾自稱「黑暗哥德式 MAGA」，當年至少砸2.5億美元助川普勝選。訪談中他也指控烏克蘭總統澤倫斯基在 Starshield 衛星系統使用限制上「說謊」，稱黃仁勳無可取代，並說在 Anthropic 遇到的人都沒觸動他的「邪惡偵測器」，形容對方「看起來是有原則的好人」；他已同意把算力租給 Anthropic。"
+    },
+    {
+     "type": "item",
+     "no": "38",
+     "key": "017ffa8324",
+     "title": "美國民主黨提名傑佛瑞斯任眾院議長，可望成首位非裔議長",
+     "title_html": "美國民主黨提名傑佛瑞斯任眾院議長，可望成首位非裔議長",
+     "url": "https://www.bbc.co.uk/news/articles/cmy49873dn95o",
+     "src": "Reuters、BBC、France 24／RFI（法國政府出資） 等 7 家",
+     "left": "11/19 05:13",
+     "ts": "2026-11-19T05:13:06+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美國眾院民主黨人18日閉門投票以251票對11票，推舉傑佛瑞斯（Hakeem Jeffries）續任黨團領袖並提名為議長人選；新國會1月3日開議時民主黨將握多數，他可望成為首位非裔眾院議長。",
+     "also": [
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/americas/20261118-us-democrats-nominate-hakeem-jeffries-to-be-first-black-speaker-of-the-house"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/us-democrats-nominate-jeffries-to-be-first-black-house-speaker"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2045446/us-democrats-nominate-hakeem-jeffries-to-be-first-black-house-speaker"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/us-house-democrats-nominate-hakeem-jeffries-for-speaker/a-79983827?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxNSFJMeDVVWnRDWmUydUhCQ0lieV9kZjdRc0xKbHA5ZDlMeG1WZ29rTWJpcGxLSE1EZEttb1Vwd2Zrdl8tX0Q1RVNEbGR0OEZqdWxLdnpkZnFBenNBclduTWhENTdhYnY1WXdjZ2RGRTVDMjFPVkpnZnJVZEZ4VngweEtJWTVlakU2ZEtDWUxTMTliZktETXlvcXFXWTFhdU5GeUIyRUxqUkV4aGFX?oc=5"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/18/hakeem-jeffries-moves-closer-to-becoming-first-black-us-house-speaker"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/18/jeffries-house-speaker-congress.html"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/video/20261118-senate-leadership-challenge-exposes-divisions-among-democrat"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：7 家（Reuters、BBC、France 24／RFI、DW、Euronews、CNBC、Dawn）"
+     ],
+     "table": null,
+     "dive_html": "民主黨下屆至少掌握257席，遠超過過半所需的218席，另有7席期中選舉結果未定；眾院議長的總統繼任順位僅次於副總統。傑佛瑞斯2023年起擔任少數黨領袖，這次雖無人出面挑戰，仍有7名新科進步派議員聯名表示，黨的方向須反映選民要求，並要他在醫療、移民等議題作出承諾。參院方面，民主黨準備接掌多數之際，現任領袖舒默面臨參議員范霍倫（Chris Van Hollen）挑戰，凸顯黨內路線分歧。川普表示願在部分議題與民主黨合作，但也誓言動用否決權。"
+    }
+   ]
+  }
+ ],
+ "foot_left": "本報告由 news-aggregator 自動彙整",
+ "stats": {
+  "items": 38,
+  "sections": 10
+ }
+}

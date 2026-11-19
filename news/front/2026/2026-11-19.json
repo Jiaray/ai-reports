@@ -1,8 +1,16 @@
 {
  "schema": 1,
  "date": "2026-11-19",
- "built_at": "2026-11-19T11:54:40+08:00",
+ "built_at": "2026-11-19T12:01:40+08:00",
  "reports": [
+  {
+   "series": "international",
+   "series_title": "國際新聞日報",
+   "group": "國際",
+   "period": "2026-11-19",
+   "count": 38,
+   "generated_at": "2026-11-19T12:01:40+08:00"
+  },
   {
    "series": "finance",
    "series_title": "財經日報",
@@ -21,6 +29,31 @@
   }
  ],
  "entries": [
+  {
+   "key": "37c37d496a",
+   "rank": 1,
+   "title": "川習普首度三方峰會今在深圳登場，川普會前稱中俄是「天敵」",
+   "summary_html": "美國、中國、俄羅斯領袖首度三方會談19日在深圳登場，川普主打核武管控，北京稱會談涉及「維護世界和平」，但不願把核議題列為核心。",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/19/chinas-xi-greets-putin-and-trump-at-apec-before-historic-summit",
+   "src": "Reuters、Financial Times、Al Jazeera（卡達政府出資） 等 8 家",
+   "ts": "2026-11-19T11:01:27+08:00",
+   "left": "11/19 11:01",
+   "heat": "",
+   "tags": [
+    {
+     "text": "持續",
+     "cls": "tag-outline"
+    }
+   ],
+   "from": [
+    {
+     "series": "international",
+     "period": "2026-11-19",
+     "no": "01",
+     "rank": 1
+    }
+   ]
+  },
   {
    "key": "ff64aca378",
    "rank": 1,
@@ -71,6 +104,31 @@
    ]
   },
   {
+   "key": "92cdbaff4d",
+   "rank": 2,
+   "title": "Anthropic IPO 每股83美元、募資813億美元，超越 SpaceX 成史上最大",
+   "summary_html": "Claude 開發商 Anthropic 18日以每股83美元定價，擴大發行約9.8億股、募得813億美元，超越 SpaceX 今年6月首次發行的750億美元，成為史上最大 IPO，完全稀釋市值約1.5兆美元。",
+   "url": "https://www.cnbc.com/2026/11/18/anthropic-ipo-ai-offering-price.html",
+   "src": "Financial Times、Reuters、CNBC 等 9 家",
+   "ts": "2026-11-19T09:13:20+08:00",
+   "left": "11/19 09:13",
+   "heat": "",
+   "tags": [
+    {
+     "text": "持續",
+     "cls": "tag-outline"
+    }
+   ],
+   "from": [
+    {
+     "series": "international",
+     "period": "2026-11-19",
+     "no": "11",
+     "rank": 2
+    }
+   ]
+  },
+  {
    "key": "b6b7093123",
    "rank": 2,
    "title": "Fed理事華勒：12月恐需升息2碼，通膨「走錯方向且正在擴散」",
@@ -112,6 +170,31 @@
      "period": "2026-11-19",
      "no": "01",
      "rank": 2
+    }
+   ]
+  },
+  {
+   "key": "a2c3574e4f",
+   "rank": 3,
+   "title": "停火後首次，以軍越過「黃線」對加薩中部發動地面行動",
+   "summary_html": "以色列軍方18日越過分隔以軍控制區與哈瑪斯控制區的「黃線」，在加薩中部努塞拉特（Nuseirat）難民營一帶發動地面行動，是2025年10月停火以來首次，數十名流離失所的巴勒斯坦人再度逃離帳篷。",
+   "url": "https://www.theguardian.com/world/2026/nov/18/israeli-tanks-cross-yellow-line-boundary-into-hamas-controlled-central-gaza",
+   "src": "The Guardian、BBC、Al Jazeera（卡達政府出資） 等 8 家",
+   "ts": "2026-11-19T07:25:25+08:00",
+   "left": "11/19 07:25",
+   "heat": "",
+   "tags": [
+    {
+     "text": "新事件",
+     "cls": "tag-outline"
+    }
+   ],
+   "from": [
+    {
+     "series": "international",
+     "period": "2026-11-19",
+     "no": "32",
+     "rank": 3
     }
    ]
   },
@@ -161,6 +244,31 @@
    ]
   },
   {
+   "key": "ef2050480c",
+   "rank": 4,
+   "title": "國際法院今宣判緬甸羅興亞種族滅絕案，可能首度認定國家犯種族滅絕",
+   "summary_html": "聯合國最高法院國際法院（ICJ）19日宣判甘比亞2019年控告緬甸的種族滅絕案；自1948年《防止及懲治滅絕種族罪公約》簽訂以來，還沒有國家被國際法院判定犯下種族滅絕罪。",
+   "url": "https://www.bbc.co.uk/news/articles/c5m2l90ez144o",
+   "src": "Reuters、BBC、The Guardian 等 6 家",
+   "ts": "2026-11-19T07:04:06+08:00",
+   "left": "11/19 07:04",
+   "heat": "",
+   "tags": [
+    {
+     "text": "新事件",
+     "cls": "tag-outline"
+    }
+   ],
+   "from": [
+    {
+     "series": "international",
+     "period": "2026-11-19",
+     "no": "23",
+     "rank": 4
+    }
+   ]
+  },
+  {
    "key": "2a7ed7ee18",
    "rank": 4,
    "title": "Anthropic IPO定價每股83美元 高於70至78美元區間",
@@ -202,6 +310,31 @@
      "period": "2026-11-19",
      "no": "13",
      "rank": 4
+    }
+   ]
+  },
+  {
+   "key": "3a261481b7",
+   "rank": 5,
+   "title": "聯準會10月會議紀要：幾乎全員認為須再升息，憂 AI 推升通膨",
+   "summary_html": "聯準會18日公布10月會議紀要，該次會議維持利率在3.75%至4%不變，但「幾乎所有與會者」認為進一步升息「可能是適當的」，並把 AI 相關需求列為「重大的通膨風險來源」。",
+   "url": "https://www.cnbc.com/2026/11/18/fed-minutes-october-2026.html",
+   "src": "Reuters、CNBC",
+   "ts": "2026-11-19T03:41:59+08:00",
+   "left": "11/19 03:41",
+   "heat": "",
+   "tags": [
+    {
+     "text": "新事件",
+     "cls": "tag-outline"
+    }
+   ],
+   "from": [
+    {
+     "series": "international",
+     "period": "2026-11-19",
+     "no": "15",
+     "rank": 5
     }
    ]
   },

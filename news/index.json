@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-19T11:54:40+08:00",
+ "updated_at": "2026-11-19T12:01:40+08:00",
  "series": [
   {
    "id": "general",
@@ -123,6 +123,18 @@
   }
  ],
  "items": [
+  {
+   "series": "international",
+   "series_title": "國際新聞日報",
+   "cadence": "daily",
+   "period": "2026-11-19",
+   "date": "2026-11-19",
+   "title": "國際新聞日報",
+   "lede": "川習普三方峰會今在深圳登場；Anthropic 募資813億美元創史上最大 IPO；以軍停火後首度越過黃線進攻加薩中部；國際法院今宣判緬甸羅興亞種族滅絕案；聯準會紀要傾向再升息。",
+   "count": 38,
+   "data": "international/2026/2026-11-19.json",
+   "generated_at": "2026-11-19T12:01:40+08:00"
+  },
   {
    "series": "finance",
    "series_title": "財經日報",
