@@ -253,24 +253,6 @@
     return h('nav', { class: 'editions fp-tabs', 'aria-label': '新聞類型' }, [list]);
   }
 
-  // 標籤列的捲軸藏起來了，兩端「還有更多」的淡出提示由 report.css 用捲動驅動動畫畫；
-  // 不支援的瀏覽器改用 IntersectionObserver 加 .more-start／.more-end（同 report.js 的 scrollHints）
-  let hintObserver = null;
-  function scrollHints() {
-    if (hintObserver) hintObserver.disconnect();
-    hintObserver = null;
-    if ((window.CSS && CSS.supports('animation-timeline', 'scroll()')) || !('IntersectionObserver' in window)) return;
-    const list = app.querySelector('.ed-tabs');
-    const first = list && list.firstElementChild;
-    if (!first) return;
-    const last = list.lastElementChild;
-    hintObserver = new IntersectionObserver((entries) => entries.forEach(({ target, intersectionRatio }) => {
-      list.classList.toggle(target === first ? 'more-start' : 'more-end', intersectionRatio < 1);
-    }), { root: list, threshold: 1, rootMargin: '1px' });
-    hintObserver.observe(first);
-    if (last !== first) hintObserver.observe(last);
-  }
-
   // 頁尾只留頭版的整理方式；刊名與日期上面都有了，不再重複
   const footer = () => h('footer', { class: 'foot' }, [
     h('span', { class: 'foot-left' }, ['頭版從當天各報告標出的重點整理，同一則新聞只列一次']),
@@ -284,7 +266,6 @@
     app.replaceChildren(...kids.filter(Boolean));
     // 「版面」面板跟著重畫搬到新的那一列，搬動時焦點會掉到 body：放回原本的按鈕（條目的焦點由 render 自己還原）
     if (focused && focused.isConnected && focused !== document.activeElement) focused.focus({ preventScroll: true });
-    requestAnimationFrame(scrollHints);
   }
 
   // ── 整頁 ──────────────────────────────────────────────────────────

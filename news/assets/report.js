@@ -580,38 +580,8 @@
     });
   }
 
-  // 新聞類型標籤列的捲軸是藏起來的，兩端「還有更多」的提示由 report.css 用捲動驅動動畫畫；
-  // 不支援的瀏覽器（Safari 26 以前等）改用 IntersectionObserver 加 .more-start／.more-end（指南的退路寫法）。
-  // 另外把目前的新聞類型捲進標籤列的可視範圍（只捲標籤列本身，不動整頁）
-  let hintObservers = [];
-  function scrollHints() {
-    hintObservers.forEach((o) => o.disconnect());
-    hintObservers = [];
-    const tabs = app.querySelector('.ed-tabs');
-    const cur = tabs && tabs.querySelector('[aria-current=page]');
-    if (cur && tabs.scrollWidth > tabs.clientWidth) {
-      const offset = cur.getBoundingClientRect().left - tabs.getBoundingClientRect().left;
-      tabs.scrollLeft += offset - (tabs.clientWidth - cur.offsetWidth) / 2;
-    }
-    if (window.CSS && CSS.supports('animation-timeline', 'scroll()')) return;
-    app.querySelectorAll('.ed-tabs').forEach((scroller) => {
-      const first = scroller.firstElementChild;
-      const last = scroller.lastElementChild;
-      if (!first) return;
-      const io = new IntersectionObserver((entries) => entries.forEach(({ target, intersectionRatio }) => {
-        scroller.classList.toggle(target === first ? 'more-start' : 'more-end', intersectionRatio < 1);
-      }), { root: scroller, threshold: 1, rootMargin: '1px' });
-      io.observe(first);
-      if (last !== first) io.observe(last);
-      hintObservers.push(io);
-    });
-  }
-
-  // 目前這一期的整頁：報頭上方那一列（期別選單、類型標籤、版面）＋報告。放進畫面後的下一格再設捲動提示
-  const page = () => {
-    requestAnimationFrame(scrollHints);
-    return [editions(shown.entry, shown.data), ...report(shown.data)].filter(Boolean);
-  };
+  // 目前這一期的整頁：報頭上方那一列（期別選單、類型標籤、版面）＋報告。類型標籤放不下時由 CSS 換行，不用捲動
+  const page = () => [editions(shown.entry, shown.data), ...report(shown.data)].filter(Boolean);
 
   const problem = (cur, text, more) => app.replaceChildren(
     ...[all.length ? editions(cur) : null].filter(Boolean),

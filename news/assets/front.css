@@ -52,8 +52,6 @@ a.fp-day:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:
 .fp-ty+.fp-ty::before{content:"、";margin-right:2px;color:var(--color-neutral-600)}
 .fp-tm{font-weight:500;color:var(--color-neutral-600)}
 .fp-tm::before{content:"・";margin-right:2px}
-/* 標題不用報告頁的 text-wrap:balance：平衡換行讓每行提早斷、右邊空一截（使用者嫌不滿版），時間軸照一般換行排滿 */
-.fp-it .row-title{text-wrap:wrap}
 .fp-it.is-lead{padding:10px 12px;background:var(--color-accent-100)}
 .fp-it.is-lead .row-title{font-size:18px;line-height:1.5}
 .fp-pre{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden;margin-top:3px;font:400 14.5px/1.75 var(--font-body);color:var(--color-neutral-800)}
@@ -77,8 +75,7 @@ a.fp-day:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:
 .fp-empty-list a:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
 .fp-empty-when{font:500 13px/1.5 var(--font-body);color:var(--color-neutral-600)}
 
-/* ── 底部的類型標籤列：沿用報告頁 .editions／.ed-tabs／.ed-tab（含兩端「還有更多」的淡出提示，在 report.css），
-   第一個「頭版」是目前頁 ── */
+/* ── 底部的類型標籤列：沿用報告頁 .editions／.ed-tabs／.ed-tab（放不下就換行，在 report.css），第一個「頭版」是目前頁 ── */
 .fp-tabs{margin:var(--space-8) 0 0}
 .fp-tabs .ed-tab:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
 

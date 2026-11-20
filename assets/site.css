@@ -53,8 +53,8 @@ a{color:var(--color-accent-700);text-decoration:none;word-break:break-word;overf
 .mast-top{display:flex;justify-content:space-between;align-items:center;gap:var(--space-3)}
 .mast-brand,.mast-issue{font:600 12px/1 var(--font-heading);letter-spacing:.12em;text-transform:uppercase;color:var(--color-neutral-700)}
 .mast-right{display:flex;align-items:center;gap:var(--space-3)}
-/* 標題換行平衡（text-wrap:balance）：多行標題各行長度相近，最後一行不會只剩一兩個字；內文不用（見 report.css 閱讀舒適度） */
-.mast-title{font:600 56px/1.05 var(--font-heading);margin:var(--space-3) 0 var(--space-2);color:var(--color-text);text-wrap:balance}
+/* 標題、內文都用一般換行排滿欄寬，不用 text-wrap:balance／pretty：平衡換行讓每行提早斷、右邊空一大截（使用者回報不滿版） */
+.mast-title{font:600 56px/1.05 var(--font-heading);margin:var(--space-3) 0 var(--space-2);color:var(--color-text)}
 .mast-date{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-2);margin-bottom:var(--space-3);font:500 15px/1.5 var(--font-heading);color:var(--color-accent)}
 .mast-date .sep{color:var(--color-divider)}
 .intro{margin:var(--space-3) 0 var(--space-3);font:400 14px/1.8 var(--font-body);color:var(--color-neutral-700)}
@@ -86,7 +86,7 @@ a{color:var(--color-accent-700);text-decoration:none;word-break:break-word;overf
 .tag-outline{border:1px solid var(--color-divider);color:var(--color-neutral-600)}
 .tag-hot{border:1px solid var(--color-hot);color:var(--color-hot)}
 .tag-good{border:1px solid var(--color-good);color:var(--color-good)}
-.row-title{margin:0;font:600 23px/1.3 var(--font-heading);text-wrap:balance}
+.row-title{margin:0;font:600 23px/1.3 var(--font-heading)}
 .row-title a{color:var(--color-text)}
 .row-title a:hover{color:var(--color-accent-700)}
 .row-sum{margin:0;font:400 17px/1.9 var(--font-body);color:var(--color-neutral-800)}
