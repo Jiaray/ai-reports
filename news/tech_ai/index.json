@@ -1,10 +1,10 @@
 {
  "schema": 1,
  "series": "tech_ai",
- "title": "科技 AI 日報",
+ "title": "AI 日報",
  "group": "科技",
  "cadence": "daily",
- "updated_at": "2026-11-20T10:31:54+08:00",
+ "updated_at": "2026-11-20T15:26:42+08:00",
  "items": [
   {
    "period": "2026-11-20",

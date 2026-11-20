@@ -9,12 +9,28 @@
   'use strict';
   const A = window.AIR;
   const h = A.h;
+  const B = A.bar; // 報頭的共用元件（bar.js）
   const app = document.getElementById('app');
   const root = document.documentElement;
   const WEEK = '日一二三四五六';
   const TAIPEI_MS = 8 * 3600 * 1000;
   const query = new URLSearchParams(location.search);
   if (!query.get('t')) return; // 頭版（不帶 t）由 front.js 負責
+  // 部署後的快取空窗：瀏覽器還拿著舊的 index.html（沒有載入 bar.js）、卻拿到新的這支——補載 bar.js 後重跑這支，
+  // 不然頁面會停在「載入中…」（front.js 同一段，兩支共用同一次載入 A.barLoad）
+  if (!B) {
+    const self = document.currentScript && document.currentScript.src;
+    if (!self) return;
+    A.barLoad = A.barLoad || new Promise((ok, ko) => {
+      const s = document.createElement('script');
+      s.src = new URL('bar.js', self).href;
+      s.onload = ok;
+      s.onerror = ko;
+      document.head.append(s);
+    });
+    A.barLoad.then(() => document.head.append(Object.assign(document.createElement('script'), { src: self })), () => {});
+    return;
+  }
   let index = { series: [], items: [] };
   let all = [];
   let shown = null; // 目前這一期 { entry, data }：換讀法時重繪用
@@ -59,22 +75,6 @@
     all.sort(newest);
   }
 
-  function periodLabel(e) {
-    let m;
-    if (e.cadence === 'weekly' && (m = /^(\d{4})-W(\d{2})$/.exec(e.period))) return `${m[1]} 年第 ${+m[2]} 週`;
-    if (e.cadence === 'monthly' && (m = /^(\d{4})-(\d{2})$/.exec(e.period))) return `${m[1]} 年 ${+m[2]} 月`;
-    const d = new Date(`${e.period}T00:00:00`);
-    return Number.isNaN(d.getTime()) ? e.period : `${e.period}（週${WEEK[d.getDay()]}）`;
-  }
-  // 手機上日期按鈕的短寫（日報同頭版大字「11/20 週五」）：工具列多了「週報」，長日期在手機放不進一列；年份看目錄面板的分組標題
-  function periodShort(e) {
-    let m;
-    if (e.cadence === 'weekly' && (m = /^\d{4}-W(\d{2})$/.exec(e.period))) return `第 ${+m[1]} 週`;
-    if (e.cadence === 'monthly' && (m = /^\d{4}-(\d{2})$/.exec(e.period))) return `${+m[1]} 月`;
-    m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(e.period);
-    return m ? `${+m[2]}/${+m[3]} 週${WEEK[new Date(Date.UTC(+m[1], m[2] - 1, +m[3])).getUTCDay()]}` : e.period;
-  }
-
   // 這一期的日期（月/日，不補零），條目左欄的日期跟它一樣就不再顯示（使用者要求：任何地方都不重複同一個資訊）
   let issueMD = '';
   const monthDay = (m, d) => `${+m}/${+d}`;
@@ -85,22 +85,19 @@
     return `${m} 月 ${d} 日（${WEEK[new Date(Date.UTC(y, m - 1, d)).getUTCDay()]}）`;
   }
 
-  // 報頭最上面那一列（使用者指定位置）：左上角日期（點開是這天有的新聞與有新聞的日期）、「本日新聞」（回 news/ 的頭版）、
-  // 「本週新聞」（最新一期週報）、右上角「版面」。兩顆連結也是日報、週報兩邊的切換：日報頁標「本日新聞」、週報頁標「本週新聞」
-  // 為目前位置（不只靠顏色：主文字色＋底線；aria-current 是 true，表示同一區、不是那一頁本身）
+  // 報頭最上面那一列（使用者要求：所有頁面同一列，頭版也是）：左上角日期（點開是這天有的新聞與有新聞的日期）、
+  // 「本日新聞」（回 news/ 的頭版）、「本週新聞」（最新一期週報）、右上角「版面」；元件在 bar.js。
+  // 兩顆連結也是日報、週報兩邊的切換：日報頁標「本日新聞」、週報頁標「本週新聞」為目前位置
+  // （不只靠顏色：主文字色＋底線；aria-current 是 true，表示同一邊、不是那一頁本身）
   const cadenceOf = (e) => (e && e.cadence) || 'daily';
   function editions(cur) {
-    const kids = [];
-    if (cur) kids.push(periodPicker(cur));
-    if (all.length) {
-      kids.push(h('a', { class: 'ed-link', href: './', 'aria-current': cur && cadenceOf(cur) === 'daily' ? 'true' : null }, [
-        h('span', { class: 'dd-ico', html: ICON_FRONT }), h('span', null, ['本日新聞']),
-      ]));
-    }
-    const wk = weeklyLink(cur);
-    if (wk) kids.push(wk);
-    if (vwBox) kids.push(vwBox);
-    return kids.length ? h('nav', { class: 'editions', 'aria-label': '報頭工具列' }, kids) : null;
+    if (!cur && !all.length && !vwBox) return null;
+    return B.toolbar([
+      cur ? periodPicker(cur) : null,
+      all.length ? B.navLink('本日新聞', 'front', './', cur && cadenceOf(cur) === 'daily' ? 'true' : null) : null,
+      weeklyLink(cur),
+      vwBox,
+    ]);
   }
 
   // 「本週新聞」（使用者要求：最上方一顆切到週報的按鈕，字數同「本日新聞」）：連到最新一期週報，不分類型；
@@ -108,10 +105,8 @@
   function weeklyLink(cur) {
     const w = all.find((e) => e.cadence === 'weekly'); // all 已依新到舊排序
     if (!w) return null;
-    const here = cur && cur.cadence === 'weekly' ? (keyOf(cur) === keyOf(w) ? 'page' : 'true') : null;
-    return h('a', { class: 'ed-link', href: link(w.series, w.period), 'aria-current': here }, [
-      h('span', { class: 'dd-ico', html: ICON_WEEKLY }), h('span', null, ['本週新聞']),
-    ]);
+    return B.navLink('本週新聞', 'weekly', link(w.series, w.period),
+      cur && cur.cadence === 'weekly' ? (keyOf(cur) === keyOf(w) ? 'page' : 'true') : null);
   }
 
   // 類型順序：index.json 的系列順序，不在裡面的排最後
@@ -120,70 +115,30 @@
     return order.includes(id) ? order.indexOf(id) : order.length;
   }
 
-  // 大標題（使用者要求：和日期的下拉互換，標題的下拉是本頁的章節）：標題文字＋往下的箭頭是一顆按鈕，
-  // 點開是這一期的章節（跳到分區；頁面上不另擺分區目錄），右邊是則數。是頁內連結，用 Tab 依序走，
-  // 不是 ARIA menu（指南：導覽連結不加 menu／menuitem 角色、不攔方向鍵）。按鈕包在 <h1> 裡，標題地標照舊；
-  // 報讀器唸「國際新聞日報，本期章節，按鈕，已收合」。時間軸讀法沒有分區（資料沒有具名分區也一樣）：標題是一般的 <h1>、不帶箭頭。
-  // 同一期的內容不變：建一次，在完整、速讀之間換讀法重繪報頭時重用（不重複掛 document 的事件）
+  // 大標題（使用者要求：標題的下拉是本頁的章節）：點開是這一期的分區（跳到分區；頁面上不另擺分區目錄）與則數，
+  // 地圖外觀在名稱前加分區色塊（data-k）。時間軸讀法沒有分區：一般的 <h1>、不帶箭頭。
+  // 同一期的內容不變：建一次，在完整、速讀之間換讀法重繪報頭時重用
   let chapBox = null;
   let chapKey = '';
   function titleChapters(cur, r) {
-    const named = (r.sections || []).map((s, i) => [s, i]).filter(([s]) => s.name);
-    if (!cur || !named.length || view.read === 'timeline') return h('h1', { class: 'mast-title' }, [r.title]);
+    const items = (r.sections || []).map((s, i) => ({ name: s.name, count: s.count, href: `#sec-${pad(i + 1)}`, k: String((i % 10) + 1) }))
+      .filter((x) => x.name);
+    if (!cur || view.read === 'timeline') return B.titleChapters({ title: r.title, items: [] });
     if (chapBox && chapKey === keyOf(cur)) return chapBox;
     chapKey = keyOf(cur);
-    chapBox = dropdown({
-      cls: 'chap', id: 'chap-panel', title: '本期章節', closeLabel: '關閉本期章節', toggleCls: 'chap-toggle',
-      // 箭頭跟最後一個字綁在一起（不換行）：標題在手機排成兩行時，箭頭接在第二行最後一個字後面，不會漂在右側或單獨掉到下一行
-      toggleKids: [
-        h('span', { class: 'chap-name' }, [
-          r.title.slice(0, -1),
-          h('span', { class: 'chap-tail' }, [r.title.slice(-1), h('span', { class: 'chap-caret', html: ICON_CARET_LG })]),
-        ]),
-        h('span', { class: 'visually-hidden' }, ['，本期章節']),
-      ],
-      wrap: (toggle) => h('h1', { class: 'mast-title' }, [toggle]),
-      body: [h('ul', { class: 'chap-list', 'aria-labelledby': 'chap-panel-title' }, named.map(([s, i]) => h('li', null, [
-        // data-k：地圖外觀在章節名稱前加分區色塊（頁面上的彩色分區目錄拿掉了，顏色對照改由這裡提供）
-        h('a', { class: 'chap-item', href: `#sec-${pad(i + 1)}`, 'data-k': String((i % 10) + 1) }, [
-          h('span', { class: 'chap-sec' }, [s.name]), h('span', { class: 'pd-n' }, [String(s.count)]),
-        ]),
-      ])))],
-      pick: (panel) => panel.querySelector('.chap-item'),
-    });
+    chapBox = B.titleChapters({ title: r.title, items, panelTitle: '本期章節' });
     return chapBox;
   }
 
-  // 日期清單的分組與每列文字：日報依月份分組、一列是「11/18　週三」；週報、月報依年份分組、一列是「第 47 週」「11 月」
-  function periodGroup(e) {
-    const y = e.period.slice(0, 4);
-    if (e.cadence === 'weekly' || e.cadence === 'monthly') return `${y} 年`;
-    const m = /^\d{4}-(\d{2})-\d{2}$/.exec(e.period);
-    return m ? `${y} 年 ${+m[1]} 月` : y;
-  }
-  function periodRow(e) {
-    let m;
-    if (e.cadence === 'weekly' && (m = /^\d{4}-W(\d{2})$/.exec(e.period))) return [`第 ${+m[1]} 週`];
-    if (e.cadence === 'monthly' && (m = /^\d{4}-(\d{2})$/.exec(e.period))) return [`${+m[1]} 月`];
-    m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(e.period);
-    if (!m) return [e.period];
-    const wd = WEEK[new Date(Date.UTC(+m[1], m[2] - 1, +m[3])).getUTCDay()];
-    return [h('span', null, [`${+m[2]}/${+m[3]}`]), h('span', { class: 'pd-wd' }, [`週${wd}`])];
-  }
-
-  // 左上角的日期按鈕（使用者要求：和大標題的下拉互換，日期、週期顯示有的素材）：顯示目前這期，點開是
-  // 左欄「這天的新聞」——同一天（週報同一週、月報同一月）有報告的類型與則數（換類型、日期不變）；
-  // 右欄「有新聞的日期」——同週期（日報／週報／月報）任一類型有報告的期別（換日期：這個類型那期有就留在這個類型，
-  // 沒有就換到那期排第一的類型）。每一項都是連結（換頁，不是表單選值，所以用連結清單、不用 <select>）；點了連結面板就收起。
-  // 素材以載入的資料為準：index.json 的最近 200 份＋這個類型自己的全部期別。
-  // 同一頁的內容不會變：建一次，重繪頁首那一列時重用（不重複掛 document 的事件）
-  const UNIT = { daily: ['日期', '這天的新聞'], weekly: ['週期', '這週的新聞'], monthly: ['月份', '這個月的新聞'] };
+  // 左上角的日期按鈕（版面在 bar.js 的 datePicker）：左欄同一天（週報同一週、月報同一月）有報告的類型與則數
+  // （換類型、日期不變）；右欄同週期（日報／週報／月報）任一類型有報告的期別（換日期：這個類型那期有就留在這個類型，
+  // 沒有就換到那期排第一的類型）。素材以載入的資料為準：index.json 的最近 200 份＋這個類型自己的全部期別。
+  // 同一頁的內容不會變：建一次，重繪頁首那一列時重用
   let pdBox = null;
   let pdKey = '';
   function periodPicker(cur) {
     if (pdBox && pdKey === keyOf(cur)) return pdBox;
     pdKey = keyOf(cur);
-    const [unit, hereName] = UNIT[cadenceOf(cur)] || UNIT.daily;
     const byRank = (a, b) => rankOf(a.series) - rankOf(b.series);
     const byPeriod = new Map(); // 期別 → 那期有的報告（同一類型重出只留最新那份；all 已依新到舊排）
     all.filter((e) => cadenceOf(e) === cadenceOf(cur)).forEach((e) => {
@@ -191,43 +146,15 @@
       if (!list.some((x) => x.series === e.series)) list.push(e);
       byPeriod.set(e.period, list);
     });
-    const here = [...(byPeriod.get(cur.period) || [cur])].sort(byRank);
-    const typeCol = h('div', { class: 'pd-col pd-types' }, [
-      h('p', { class: 'pd-group', id: 'pd-types-label' }, [hereName]),
-      h('ul', { class: 'pd-items', 'aria-labelledby': 'pd-types-label' }, here.map((e) => h('li', null, [
-        h('a', { class: 'pd-item', href: link(e.series, e.period), 'aria-current': e.series === cur.series ? 'page' : null }, [
-          h('span', null, [e.series_title || e.title]), e.count ? h('span', { class: 'pd-n' }, [String(e.count)]) : null,
-        ]),
-      ]))),
-    ]);
-    const groups = [];
-    [...byPeriod.keys()].sort().reverse().forEach((p) => {
+    const here = [...(byPeriod.get(cur.period) || [cur])].sort(byRank).map((e) => ({
+      text: e.series_title || e.title, count: e.count, href: link(e.series, e.period), current: e.series === cur.series,
+    }));
+    const periods = [...byPeriod.keys()].sort().reverse().map((p) => {
       const list = byPeriod.get(p);
       const e = list.find((x) => x.series === cur.series) || [...list].sort(byRank)[0];
-      const name = periodGroup(e);
-      let last = groups[groups.length - 1];
-      if (!last || last.name !== name) groups.push(last = { name, items: [] });
-      last.items.push(e);
+      return { period: p, href: link(e.series, p), current: p === cur.period };
     });
-    const dateCol = h('div', { class: 'pd-col pd-dates' }, groups.flatMap((g, gi) => [
-      h('p', { class: 'pd-group', id: `pd-g${gi}` }, [g.name]),
-      h('ul', { class: 'pd-items', 'aria-labelledby': `pd-g${gi}` }, g.items.map((e) => h('li', null, [
-        h('a', { class: 'pd-item', href: link(e.series, e.period), 'aria-current': e.period === cur.period ? 'page' : null }, periodRow(e)),
-      ]))),
-    ]));
-    pdBox = dropdown({
-      cls: 'pd', id: 'pd-panel', title: unit, closeLabel: `關閉${unit}`,
-      toggleKids: [
-        h('span', { class: 'dd-ico', html: ICON_CALENDAR }),
-        // 長短兩種寫法由 CSS 依寬度只顯示一種（另一種 display:none，報讀器也只唸顯示的那種）
-        h('span', { class: 'visually-hidden' }, [`${unit}：`]), h('span', { class: 'pd-long' }, [periodLabel(cur)]),
-        h('span', { class: 'pd-short' }, [periodShort(cur)]),
-        h('span', { class: 'dd-caret', html: ICON_CARET }),
-      ],
-      body: [h('div', { class: 'pd-body' }, [typeCol, dateCol])],
-      // 打開時焦點落在目前這個類型：往下 Tab 是同一天的其他類型，再往下是其他日期
-      pick: (panel) => panel.querySelector('.pd-types .pd-item[aria-current=page]'),
-    });
+    pdBox = B.datePicker({ period: cur.period, cadence: cadenceOf(cur), here, periods });
     return pdBox;
   }
 
@@ -547,72 +474,13 @@
       // 「版面」面板跟著頁首那一列搬到重建的新列，搬動時焦點會掉到 body：放回面板裡原本那顆按鈕
       if (focused && focused.isConnected && focused !== document.activeElement) focused.focus({ preventScroll: true });
       const el = spot && document.getElementById(spot.id);
-      if (el) window.scrollBy(0, el.getBoundingClientRect().top - Math.max(spot.top, view.read === 'scan' ? 64 : 0));
+      if (el) window.scrollBy(0, el.getBoundingClientRect().top - Math.max(spot.top, B.barHeight()));
     };
     if (!document.startViewTransition) {
       update();
       return Promise.resolve();
     }
     return document.startViewTransition(update).updateCallbackDone;
-  }
-
-  // 頁首下拉面板的圖示（裝飾用，aria-hidden；按鈕的名稱來自文字或 aria-label）：
-  // 調整滑桿（「版面」，方形旋鈕配合藍圖的方角）、月曆（日期）、往下的箭頭（日期按鈕右側，展開時轉向）、關閉
-  const ICON_SLIDERS = '<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M2.5 6H11M15 6h2.5M2.5 14H5M9 14h8.5"/><rect x="11" y="4" width="4" height="4"/><rect x="5" y="12" width="4" height="4"/></svg>';
-  const ICON_CALENDAR = '<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 4.5h14V17H3zM3 8.5h14M7 2.5v4M13 2.5v4"/></svg>';
-  const ICON_CARET = '<svg viewBox="0 0 20 20" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 8l4 4 4-4"/></svg>';
-  const ICON_CLOSE = '<svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M5 5l10 10M15 5 5 15"/></svg>';
-  // 大標題切換器的箭頭：比日期按鈕的箭頭寬一些，放大到標題字級時線條才不會細到看不見
-  const ICON_CARET_LG = '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M5 7.5l5 5 5-5"/></svg>';
-  // 本日新聞（頭版）：一張報紙（同網站圖示的三條橫線），放在連結的字前面，和日期、版面兩顆按鈕的「圖示＋字」一致
-  const ICON_FRONT = '<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 3.5h14v13H3zM6 7.5h8M6 10.5h8M6 13.5h5"/></svg>';
-  // 週報：疊起來的兩張報紙（頭版是一張），代表一週彙整
-  const ICON_WEEKLY = '<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 2.5h11v11H6zM3 5.5v12h12M9 6h5M9 9h5M9 12h3"/></svg>';
-
-  // 打開面板時淡入、往下滑 4px（回應使用者的動作；減少動態時只淡入）。用 WAAPI 不用 @starting-style：
-  // 換讀法時面板會跟著頁首那一列搬家，@starting-style 會在每次搬家重播一次淡入
-  function openMotion(el) {
-    if (!el.animate) return;
-    const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    el.animate(still
-      ? [{ opacity: 0 }, { opacity: 1 }]
-      : [{ opacity: 0, transform: 'translateY(-4px)' }, { opacity: 1, transform: 'none' }], { duration: 140, easing: 'ease-out' });
-  }
-
-  // 報頭的三個下拉面板（左上角日期、右上角版面、大標題的本期章節）共用的骨架與開關：
-  // 面板頂端是標題＋ ×（非 modal 面板要有看得見的關閉鈕，指南）；按鈕切換開關，點外面、按 Esc、按 × 都會收起
-  // （Esc、× 收起後焦點回按鈕）；打開時淡入、焦點移到 pick(panel) 給的元素。點另一顆按鈕也算點外面，所以同時只開一個。
-  // 按鈕在前、面板緊接在後：鍵盤從按鈕按 Tab 直接進面板。
-  // toggleCls 換掉按鈕的樣式（大標題切換器用）；wrap 把按鈕包一層（大標題切換器包進 <h1>）
-  function dropdown({ cls, id, title, closeLabel, toggleKids, body, pick, toggleCls = 'dd-toggle', wrap = (t) => t }) {
-    const toggle = h('button', { type: 'button', class: toggleCls, 'aria-expanded': 'false', 'aria-controls': id }, toggleKids);
-    const close = h('button', { type: 'button', class: 'dd-close', 'aria-label': closeLabel, html: ICON_CLOSE });
-    const panel = h('div', { class: `dd-panel ${cls}-panel`, id, role: 'dialog', 'aria-labelledby': `${id}-title`, hidden: true }, [
-      h('div', { class: 'dd-head' }, [h('span', { class: 'dd-title', id: `${id}-title` }, [title]), close]),
-      ...body,
-    ]);
-    const box = h('div', { class: `dd ${cls}` }, [wrap(toggle), panel]);
-    function open(yes) {
-      panel.hidden = !yes;
-      toggle.setAttribute('aria-expanded', String(yes));
-      if (!yes) return;
-      openMotion(panel);
-      ((pick && pick(panel)) || close).focus();
-    }
-    const shut = () => {
-      open(false);
-      toggle.focus();
-    };
-    toggle.addEventListener('click', () => open(panel.hidden));
-    close.addEventListener('click', shut);
-    panel.addEventListener('click', (e) => { if (e.target.closest('a')) open(false); }); // 點了章節或日期連結就收起
-    document.addEventListener('click', (e) => {
-      if (!panel.hidden && !box.contains(e.target)) open(false);
-    });
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && !panel.hidden) shut();
-    });
-    return box;
   }
 
   function layoutPanel() {
@@ -649,10 +517,10 @@
     sync();
     // 由 editions() 放進報頭上方那一列的最右邊。打開時焦點移到目前選中的讀法，
     // 鍵盤與螢幕閱讀器使用者才知道面板開了、從哪裡開始
-    vwBox = dropdown({
+    vwBox = B.dropdown({
       cls: 'vw', id: 'vw-panel', title: '版面設定', closeLabel: '關閉版面設定',
       // 字包一層 .dd-txt：手機上只露圖示（字留給報讀器），三顆按鈕才放得進一列
-      toggleKids: [h('span', { class: 'dd-ico', html: ICON_SLIDERS }), h('span', { class: 'dd-txt' }, ['版面'])],
+      toggleKids: [h('span', { class: 'dd-ico', html: B.ICON.sliders }), h('span', { class: 'dd-txt' }, ['版面'])],
       body: groups.map((g) => g.el),
       pick: (panel) => panel.querySelector('[aria-pressed=true]'),
     });

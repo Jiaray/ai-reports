@@ -8,6 +8,11 @@
    一行大字（類型名稱＋箭頭）。頭版也用同一列工具列（front.js）。只套在工具列後面接報頭的地方；首頁、404 的 .masthead 不變 */
 .editions{display:flex;align-items:center;gap:var(--space-2);border-top:3px solid var(--color-text);padding-top:var(--space-2)}
 .editions+.masthead{border-top:0;padding-top:0}
+/* 工具列凍結在頂端（使用者要求：不要隨著網頁捲動消失）：底色蓋住捲過去的內容，捲離頂端時底下一條細線（bar.js 加 .is-stuck）。
+   --bar-h 是 bar.js 量到的工具列高度：錨點跳轉（章節、時段、#item-NN）停在工具列下面，頭版的整點標題黏在它下面 */
+.editions{position:sticky;top:0;z-index:20;background:var(--color-bg)}
+.editions.is-stuck{box-shadow:0 1px 0 var(--color-divider)}
+:root{scroll-padding-top:calc(var(--bar-h, 0px) + 8px)}
 /* 大標題的章節下拉：<h1> 裡一顆按鈕，字級、字重沿用大標題；最後一個字後面一個方形箭頭格（藍圖的方角），
    滑過時箭頭格底色變淡藍，展開時箭頭轉向、換主色。按鈕只有文字＋箭頭那麼寬，點標題右邊的空白不會打開。
    文字照一般行內排版（標題長、排成兩行時箭頭接在第二行最後一個字後面）；最後一個字和箭頭包成 .chap-tail 不換行 */

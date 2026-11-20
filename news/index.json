@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T15:47:34+08:00",
+ "updated_at": "2026-11-20T15:57:10+08:00",
  "series": [
   {
    "id": "general",
@@ -25,10 +25,17 @@
   },
   {
    "id": "tech_ai",
-   "title": "科技 AI 日報",
+   "title": "AI 日報",
    "cadence": "daily",
    "group": "科技",
-   "short": "科技 AI"
+   "short": "AI"
+  },
+  {
+   "id": "tech",
+   "title": "科技日報",
+   "cadence": "daily",
+   "group": "科技",
+   "short": "科技"
   },
   {
    "id": "security",
@@ -36,6 +43,13 @@
    "cadence": "daily",
    "group": "科技",
    "short": "資安"
+  },
+  {
+   "id": "health",
+   "title": "健康日報",
+   "cadence": "daily",
+   "group": "綜合",
+   "short": "健康"
   },
   {
    "id": "ai_weekly",
@@ -80,6 +94,13 @@
    "short": "遊戲"
   },
   {
+   "id": "cocos_h5_weekly",
+   "title": "Cocos／H5 遊戲開發週報",
+   "cadence": "weekly",
+   "group": "遊戲",
+   "short": "Cocos 週報"
+  },
+  {
    "id": "taiwan_general",
    "title": "台灣綜合新聞",
    "cadence": "daily",
@@ -106,13 +127,6 @@
    "cadence": "weekly",
    "group": "綜合",
    "short": "閱讀"
-  },
-  {
-   "id": "cocos_h5_weekly",
-   "title": "Cocos／H5 遊戲開發週報",
-   "cadence": "daily",
-   "group": "主題",
-   "short": "Cocos／H5 遊戲開發週報"
   }
  ],
  "items": [
@@ -139,18 +153,6 @@
    "count": 14,
    "data": "finance/2026/2026-11-20.json",
    "generated_at": "2026-11-20T15:47:25+08:00"
-  },
-  {
-   "series": "gamedev",
-   "series_title": "遊戲產業新聞",
-   "cadence": "daily",
-   "period": "2026-11-20",
-   "date": "2026-11-20",
-   "title": "遊戲產業新聞",
-   "lede": "近 24 小時：GTA 6 上市前售出約 1,905 萬套、營收 18.4 億美元；Ubisoft 財報優於預期仍在加拿大裁員 166 人；手遊變現設計與歐盟《數位公平法》監管壓力同步升溫。",
-   "count": 16,
-   "data": "gamedev/2026/2026-11-20.json",
-   "generated_at": "2026-11-20T15:47:14+08:00"
   },
   {
    "series": "github_weekly",
@@ -190,11 +192,11 @@
   },
   {
    "series": "tech_ai",
-   "series_title": "科技 AI 日報",
+   "series_title": "AI 日報",
    "cadence": "daily",
    "period": "2026-11-20",
    "date": "2026-11-20",
-   "title": "科技 AI 日報",
+   "title": "AI 日報",
    "lede": "Anthropic 以 813 億美元募資創史上最大 IPO，首日收盤市值約 1.3 兆美元；Google 連發 Gemini 4 Neon、Genie 4 API 與 Mac 版電腦操作；美國收緊晶片出口管制衝擊中國 AI 算力交易。",
    "count": 15,
    "data": "tech_ai/2026/2026-11-20.json",
@@ -238,11 +240,11 @@
   },
   {
    "series": "tech_ai",
-   "series_title": "科技 AI 日報",
+   "series_title": "AI 日報",
    "cadence": "daily",
    "period": "2026-11-19",
    "date": "2026-11-19",
-   "title": "科技 AI 日報",
+   "title": "AI 日報",
    "lede": "Anthropic 定價每股 83 美元、以代號 ANT 登 Nasdaq，估值上看 1.5 兆美元；Google 推 Gemini 4 Neon、騰訊開放 Hy4 flash 權重；NGINX 爆出 AI 輔助挖出的免認證遠端執行漏洞。",
    "count": 15,
    "data": "tech_ai/2026/2026-11-19.json",

@@ -7,7 +7,23 @@
   const query = new URLSearchParams(location.search);
   if (query.get('t')) return; // 報告頁由 report.js 負責
   const A = window.AIR;
+  // 部署後的快取空窗：瀏覽器還拿著舊的 index.html（沒有載入 bar.js）、卻拿到新的這支——補載 bar.js 後重跑這支，
+  // 不然頁面會停在「載入中…」（report.js 同一段，兩支共用同一次載入 A.barLoad）
+  if (!A.bar) {
+    const self = document.currentScript && document.currentScript.src;
+    if (!self) return;
+    A.barLoad = A.barLoad || new Promise((ok, ko) => {
+      const s = document.createElement('script');
+      s.src = new URL('bar.js', self).href;
+      s.onload = ok;
+      s.onerror = ko;
+      document.head.append(s);
+    });
+    A.barLoad.then(() => document.head.append(Object.assign(document.createElement('script'), { src: self })), () => {});
+    return;
+  }
   const h = A.h;
+  const B = A.bar; // 報頭的共用元件（bar.js）
   const app = document.getElementById('app');
   const root = document.documentElement;
   const WEEK = '日一二三四五六';
@@ -211,16 +227,13 @@
     ]);
   }
 
-  // ── 報頭 ──────────────────────────────────────────────────────────
+  // ── 報頭（使用者要求：所有頁面上方區塊統一功能；元件在 bar.js）──────────────
+  // 最上面是和報告頁同一列的工具列：日期（點開是這天的新聞與有頭版的日期）、「本日新聞」（就是頭版，標成目前位置：
+  // 最新一天 page，其他天 true）、「本週新聞」、「版面」；工具列凍結在頂端。下面是大標題「頭版」，點開是這一頁的時段
+  // （09:00、08:00…、週報與月報，跳過去）。原本的日期大字與 ‹ › 拿掉：日期在日期按鈕（不重複），換日用日期面板（使用者選定）
   // 頭版網址：最新一天是 news/（書籤固定開最新），其他天是 ?f=YYYY-MM-DD
   const dayHref = (d) => (d === dates[0] ? './' : `?f=${d}`);
-  function dayLink(d, dir) {
-    const arrow = h('span', { class: 'fp-arrow', 'aria-hidden': 'true' }, [dir === 'prev' ? '‹' : '›']);
-    if (!d) return h('span', { class: 'fp-day is-off', 'aria-hidden': 'true' }, [arrow]);
-    return h('a', {
-      class: 'fp-day', rel: dir, href: dayHref(d), title: dayLabel(d), 'aria-label': `${dir === 'prev' ? '前一期' : '後一期'}頭版 ${dayLabel(d)}`,
-    }, [arrow]);
-  }
+  const frontLink = (current) => B.navLink('本日新聞', 'front', './', current);
 
   // 「本週新聞」（使用者要求：最上方一顆切到週報的按鈕，字數同「本日新聞」）：連到最新一期週報，不分類型；
   // index.json 還沒有任何週報就不顯示（使用者選定）
@@ -229,58 +242,38 @@
       && (e.cadence || seriesMeta(e.series).cadence) === 'weekly');
     if (!list.length) return null;
     const w = list.reduce((a, b) => (b.date > a.date || (b.date === a.date && b.generated_at > a.generated_at) ? b : a));
-    return h('a', { class: 'ed-link', href: reportHref(w.series, w.period) }, [
-      h('span', { class: 'dd-ico', html: ICON_WEEKLY }), h('span', null, ['本週新聞']),
-    ]);
+    return B.navLink('本週新聞', 'weekly', reportHref(w.series, w.period), null);
   }
 
-  // 報頭：最上面是和報告頁同一列的工具列（「本日新聞」「本週新聞」……「版面」，樣式在 report.css 的 .editions／.ed-link；
-  // 「本日新聞」就是頭版，標成目前位置：最新一天 page，其他天 true），下面一列是日期大字與前後一期。
-  // 原本日期上面的小字「頭版」由工具列的「本日新聞」取代（不重複）；h1 留一段只給報讀器的「本日新聞」。刊名與更新時間拿掉
-  function masthead() {
-    const i = dates.indexOf(front.date);
-    const prev = i >= 0 ? dates[i + 1] : null;
-    const next = i > 0 ? dates[i - 1] : null;
-    return [
-      h('nav', { class: 'editions', 'aria-label': '報頭工具列' }, [
-        h('a', { class: 'ed-link', href: './', 'aria-current': front.date === dates[0] ? 'page' : 'true' }, [
-          h('span', { class: 'dd-ico', html: ICON_FRONT }), h('span', null, ['本日新聞']),
-        ]),
-        weeklyLink(),
-        fpBox,
-      ]),
-      h('header', { class: 'fp-hd' }, [
-        h('div', { class: 'fp-hd-row' }, [
-          h('h1', { class: 'fp-title' }, [
-            h('span', { class: 'visually-hidden' }, ['本日新聞 ']),
-            h('span', { class: 'fp-date' }, [`${md(front.date)} 週${weekday(front.date)}`]),
-          ]),
-          h('div', { class: 'fp-hd-btns' }, [dayLink(prev, 'prev'), dayLink(next, 'next')]),
-        ]),
-        // 預設開最新一個有頭版的日期；那天不是今天時提醒（spec 6.6）。日期大標題已有，提醒不再重寫日期
-        front.date !== today() && front.date === dates[0] ? h('p', { class: 'fp-latest' }, ['今天還沒有頭版，這是最近一期']) : null,
-      ]),
-    ];
+  // 日期按鈕：左欄「這天的新聞」＝那天有出刊的日報（各連到那一期，右邊則數；頭版底部原本的類型列拿掉了，
+  // 使用者要求，類型從這裡進），右欄有頭版的日期（各連到那天的頭版）
+  function datePicker() {
+    const here = [];
+    ((index && index.items) || []).forEach((e) => {
+      if (e && e.series && e.period === front.date && (e.cadence || seriesMeta(e.series).cadence || 'daily') === 'daily'
+        && !here.some((x) => x.series === e.series)) here.push(e);
+    });
+    here.sort((a, b) => bySeries(a.series, b.series));
+    return B.datePicker({
+      period: front.date,
+      cadence: 'daily',
+      here: here.map((e) => ({ text: e.series_title || seriesMeta(e.series).title, count: e.count, href: reportHref(e.series, e.period) })),
+      periods: dates.map((d) => ({ period: d, href: dayHref(d), current: d === front.date })),
+    });
   }
 
-  // ── 底部類型標籤列：第一個「本日新聞」（頭版）是目前頁，其餘是 index.json 有報告的類型（短名取 series[].short）──
-  function tabs() {
-    const items = (index && index.items) || [];
-    const ids = [...new Set((items.length ? items : (front && front.reports) || []).map((e) => e.series).filter(Boolean))].sort(bySeries);
-    const list = h('div', { class: 'ed-tabs' }, [
-      h('a', { class: 'ed-tab', href: './', 'aria-current': 'page' }, ['本日新聞']),
-      ...ids.map((id) => h('a', { class: 'ed-tab', href: `?t=${encodeURIComponent(id)}` }, [seriesMeta(id).short])),
-    ]);
-    return h('nav', { class: 'fp-tabs', 'aria-label': '新聞類型' }, [list]);
-  }
+  // chapters：大標題下拉的時段（render 排時間軸時收集）
+  const masthead = (chapters) => [
+    B.toolbar([datePicker(), frontLink(front.date === dates[0] ? 'page' : 'true'), weeklyLink(), fpBox]),
+    h('header', { class: 'masthead' }, [B.titleChapters({ title: '頭版', items: chapters, panelTitle: '本頁時段' })]),
+    // 預設開最新一個有頭版的日期；那天不是今天時提醒（spec 6.6）。日期在日期按鈕，提醒不再重寫日期
+    front.date !== today() && front.date === dates[0] ? h('p', { class: 'fp-latest' }, ['今天還沒有頭版，這是最近一期']) : null,
+  ];
 
   // 頁尾只留頭版的整理方式；刊名與日期上面都有了，不再重複
   const footer = () => h('footer', { class: 'foot' }, [
     h('span', { class: 'foot-left' }, ['頭版從當天各報告標出的重點整理，同一則新聞只列一次']),
   ]);
-
-  // 載入出錯的畫面沒有報頭：「版面」單獨放在頂端那一列的右邊
-  const bar = () => (fpBox ? h('div', { class: 'fp-bar' }, [fpBox]) : null);
 
   function show(kids) {
     const focused = document.activeElement;
@@ -315,22 +308,35 @@
         read: reportHref(m.series, m.period, m.no),
       });
     };
+    // 每個時段一個 <section>：整點標題只在自己那段黏頂（下一段把它推上去，不疊在一起），
+    // 大標題的「本頁時段」連到 section 本身（連到黏頂中的標題，瀏覽器會以為已經在畫面上而不捲動）
     const tl = [];
+    const chapters = [];
     let group = null;
+    const addRow = (row) => {
+      tl[tl.length - 1].append(row);
+      chapters[chapters.length - 1].count += 1;
+    };
+    const openSlot = (label, day) => {
+      const id = `fp-h${chapters.length + 1}`;
+      tl.push(h('section', { class: 'fp-sec', id }, [hourHead(label, day)]));
+      chapters.push({ name: day ? `${day} ${label}` : label, href: `#${id}`, count: 0 });
+    };
     timed.forEach(({ e, w }) => {
       const g = w ? `${w.day} ${w.hour}` : '-';
       if (g !== group) {
         group = g;
-        tl.push(w ? hourHead(`${w.hour}:00`, w.day !== front.date ? dayLabel(w.day) : null) : hourHead('其他時間'));
+        if (w) openSlot(`${w.hour}:00`, w.day !== front.date ? dayLabel(w.day) : null);
+        else openSlot('其他時間');
       }
-      tl.push(entryRow(e, w));
+      addRow(entryRow(e, w));
     });
     // 週報與月報接在時間軸最後，同樣用整點標題那種黏頂標題；類型後面的灰字是期別，依順位排
     const weekly = [...(front.weekly || [])].sort((a, b) => bySeries(a.series, b.series) || (a.date < b.date ? 1 : -1));
-    if (weekly.some((w) => (w.items || []).length)) tl.push(hourHead('週報與月報'));
+    if (weekly.some((w) => (w.items || []).length)) openSlot('週報與月報');
     weekly.forEach((w) => {
       const cadence = seriesMeta(w.series).cadence || (/-W\d{2}$/.test(w.period) ? 'weekly' : 'monthly');
-      [...(w.items || [])].sort((a, b) => a.rank - b.rank).forEach((it) => tl.push(tlRow(it, {
+      [...(w.items || [])].sort((a, b) => a.rank - b.rank).forEach((it) => addRow(tlRow(it, {
         id: `fp-${w.series}-${it.no}`,
         types: [w.series],
         stamp: h('span', { class: 'fp-tm' }, [A.fmtShort(w.period, cadence)]),
@@ -338,9 +344,8 @@
       })));
     });
     show([
-      ...masthead(),
+      ...masthead(chapters),
       h('main', { id: 'main', class: 'fp-tl' }, tl.length ? tl : [h('p', { class: 'load-error' }, ['這天的頭版沒有條目。'])]),
-      tabs(),
       footer(),
     ]);
     document.title = `頭版 ${dayLabel(front.date)}｜AI Reports`;
@@ -365,10 +370,8 @@
     });
     latest.sort((a, b) => bySeries(a.series, b.series));
     const kids = [
-      h('nav', { class: 'editions', 'aria-label': '報頭工具列' }, [weeklyLink(), fpBox]),
-      h('header', { class: 'fp-hd' }, [
-        h('div', { class: 'fp-hd-row' }, [h('h1', { class: 'fp-title' }, [h('span', { class: 'fp-date' }, ['本日新聞'])])]),
-      ]),
+      B.toolbar([frontLink('page'), weeklyLink(), fpBox]),
+      h('header', { class: 'masthead' }, [B.titleChapters({ title: '頭版', items: [] })]),
       h('main', { id: 'main', class: 'fp-empty' }, [
         h('p', { class: 'fp-empty-note', role: 'status' }, [latest.length ? '還沒有頭版。先看各類型最新一期：' : '還沒有頭版，也還沒有任何報告。']),
         latest.length ? h('ul', { class: 'fp-empty-list' }, latest.map((e) => {
@@ -387,11 +390,11 @@
     document.title = '頭版｜AI Reports';
   }
 
+  // 載入出錯的畫面：工具列照放（沒有日期按鈕），下面只有錯誤訊息
   function problem(text, more) {
     show([
-      bar(),
+      B.toolbar([frontLink(null), weeklyLink(), fpBox]),
       h('main', { id: 'main' }, [h('p', { class: 'load-error', role: 'alert' }, [text, more || null])]),
-      index ? tabs() : null,
     ]);
     document.title = '頭版｜AI Reports';
   }
@@ -466,34 +469,11 @@
   // 從往返快取（bfcache）回來時也檢查一次
   window.addEventListener('pageshow', (e) => { if (e.persisted) refresh(); });
 
-  // ── 右上角「版面」：只有「配色」一組（自動／淺色／深色，沿用 air-theme）。位置與行為同報告頁的 layoutPanel
-  // （使用者要求兩頁的「版面」都固定在右上角）：按鈕在報頭上方那一列的右端，面板在按鈕正下方往下展開；
-  // 打開時焦點移入、有看得見的「關閉」鈕、點外面或按 Esc 關閉、關閉後焦點回到「版面」。
-  // 不用原生 popover：popover 在 top layer，要跟住按鈕得靠 anchor positioning（Firefox 不支援）；
-  // 面板放在按鈕旁的一般 DOM、absolute 定位，就會跟著按鈕。
-  // 外觀直接用報告頁的 .dd-*／.vw-* 樣式（report.css 兩頁都會載入），兩頁的「版面」長得一模一樣；id 用頭版自己的（fp-*）──
-  const ICON_SLIDERS = '<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M2.5 6H11M15 6h2.5M2.5 14H5M9 14h8.5"/><rect x="11" y="4" width="4" height="4"/><rect x="5" y="12" width="4" height="4"/></svg>';
-  const ICON_CLOSE = '<svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M5 5l10 10M15 5 5 15"/></svg>';
-  // 工具列連結的圖示（同報告頁 report.js）：本日新聞是一張報紙，本週新聞是疊起來的兩張
-  const ICON_FRONT = '<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 3.5h14v13H3zM6 7.5h8M6 10.5h8M6 13.5h5"/></svg>';
-  const ICON_WEEKLY = '<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 2.5h11v11H6zM3 5.5v12h12M9 6h5M9 9h5M9 12h3"/></svg>';
-  // 打開時淡入、往下滑 4px（同報告頁；減少動態時只淡入）
-  function openMotion(el) {
-    if (!el.animate) return;
-    const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    el.animate(still
-      ? [{ opacity: 0 }, { opacity: 1 }]
-      : [{ opacity: 0, transform: 'translateY(-4px)' }, { opacity: 1, transform: 'none' }], { duration: 140, easing: 'ease-out' });
-  }
-
+  // ── 右上角「版面」：只有「配色」一組（自動／淺色／深色，沿用 air-theme）。位置與行為同報告頁的「版面」
+  // （bar.js 的 dropdown：面板在按鈕正下方往下展開，打開時焦點移入、點外面或按 Esc 關閉、關閉後焦點回「版面」）；
+  // 外觀直接用報告頁的 .dd-*／.vw-* 樣式（report.css 兩頁都會載入），id 用頭版自己的（fp-*）──
   function layoutPanel() {
     if (!A.THEMES) return; // 瀏覽器還快取著舊版 site.js：沒有配色可選，就不放按鈕
-    const toggle = h('button', { type: 'button', class: 'dd-toggle', 'aria-expanded': 'false', 'aria-controls': 'fp-panel' }, [
-      h('span', { class: 'dd-ico', html: ICON_SLIDERS }), h('span', { class: 'dd-txt' }, ['版面']), // 頭版報頭只露圖示，字留給報讀器
-    ]);
-    const panel = h('div', { class: 'dd-panel vw-panel', id: 'fp-panel', role: 'dialog', 'aria-labelledby': 'fp-title', hidden: true });
-    const close = h('button', { type: 'button', class: 'dd-close', 'aria-label': '關閉版面設定', html: ICON_CLOSE });
-    panel.appendChild(h('div', { class: 'dd-head' }, [h('span', { class: 'dd-title', id: 'fp-title' }, ['版面設定']), close]));
     const buttons = A.THEMES.map(([value, text]) => {
       const b = h('button', { type: 'button' }, [text]);
       b.addEventListener('click', () => {
@@ -502,10 +482,6 @@
       });
       return [b, value];
     });
-    panel.appendChild(h('div', { class: 'vw-group', role: 'group', 'aria-labelledby': 'fp-label-theme' }, [
-      h('span', { class: 'vw-label', id: 'fp-label-theme' }, ['配色']),
-      h('div', { class: 'vw-seg' }, buttons.map((x) => x[0])),
-    ]));
     // 選中狀態與「自動（深色）／自動（淺色）」的說明；別的分頁改配色、系統深淺改變時 site.js 發 air-theme
     function sync() {
       const cur = A.getTheme();
@@ -514,36 +490,17 @@
         if (A.themeLabel) b.textContent = A.themeLabel(value);
       });
     }
-    const focusPicked = () => (panel.querySelector('[aria-pressed=true]') || panel.querySelector('button')).focus();
     document.addEventListener('air-theme', sync);
-    // 開啟後焦點移到目前選中的配色；關閉鈕、Esc 收起後焦點回「版面」
-    const open = (yes) => {
-      panel.hidden = !yes;
-      toggle.setAttribute('aria-expanded', String(yes));
-      if (yes) {
-        openMotion(panel);
-        focusPicked();
-      }
-    };
-    close.addEventListener('click', () => {
-      open(false);
-      toggle.focus();
-    });
-    toggle.addEventListener('click', (e) => {
-      e.stopPropagation();
-      open(panel.hidden);
-    });
-    document.addEventListener('click', (e) => {
-      if (!panel.hidden && !panel.contains(e.target)) open(false);
-    });
-    document.addEventListener('keydown', (e) => {
-      if (e.key === 'Escape' && !panel.hidden) {
-        open(false);
-        toggle.focus();
-      }
-    });
     sync();
-    fpBox = h('div', { class: 'dd vw' }, [toggle, panel]); // 按鈕在前：鍵盤從「版面」按 Tab 直接進面板；由 show() 放進頁首那一列
+    fpBox = B.dropdown({
+      cls: 'vw', id: 'fp-panel', title: '版面設定', closeLabel: '關閉版面設定',
+      toggleKids: [h('span', { class: 'dd-ico', html: B.ICON.sliders }), h('span', { class: 'dd-txt' }, ['版面'])],
+      body: [h('div', { class: 'vw-group', role: 'group', 'aria-labelledby': 'fp-label-theme' }, [
+        h('span', { class: 'vw-label', id: 'fp-label-theme' }, ['配色']),
+        h('div', { class: 'vw-seg' }, buttons.map((x) => x[0])),
+      ])],
+      pick: (panel) => panel.querySelector('[aria-pressed=true]') || panel.querySelector('.vw-seg button'),
+    });
   }
 
   layoutPanel();
