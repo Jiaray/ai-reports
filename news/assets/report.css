@@ -13,6 +13,18 @@
 .editions{position:sticky;top:0;z-index:20;background:var(--color-bg)}
 .editions.is-stuck{box-shadow:0 1px 0 var(--color-divider)}
 :root{scroll-padding-top:calc(var(--bar-h, 0px) + 8px)}
+/* 非當期提示（bar.js 的 staleBanner；使用者在四種樣式中選定「貼齊頂端的整條橫幅」）：在工具列上面、貼齊視窗頂端、
+   整個視窗寬的黃色半透明橫幅，文字置中。不凍結（指南：不要疊兩條黏頂的列），捲動時捲走、工具列照樣凍結。
+   負的上邊距抵掉 .wrap 的上內距；左右用 border-image 鋪滿視窗（不像 100vw 寬度會多出捲軸寬、造成橫向捲動）。
+   半透明黃疊在藍圖、地圖的底色上，字色對合成底色淺色 7.5:1、深色 8.8:1；不只靠顏色：前面有警告圖示 */
+:root{--stale-tint:rgb(242 183 5 / .22);--stale-fg:#5a4300}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--stale-tint:rgb(242 183 5 / .16);--stale-fg:#f3d36b}}
+:root[data-theme=dark]{--stale-tint:rgb(242 183 5 / .16);--stale-fg:#f3d36b}
+.stale{display:flex;align-items:center;justify-content:center;gap:8px;margin:calc(-1 * var(--space-8)) 0 var(--space-3);padding:7px 0;border-image:conic-gradient(var(--stale-tint) 0 0) fill 0 // 0 100vw;color:var(--stale-fg);font:600 14px/1.4 var(--font-body);letter-spacing:.02em;text-align:center}
+.stale-ico,.stale-ico svg{display:block;flex:none}
+@media(max-width:40em){.stale{margin-top:calc(-1 * var(--space-6))}}
+/* 強制色彩模式（Windows 高對比）可能拿掉 border-image 的底色：改用底線標出橫幅 */
+@media(forced-colors:active){.stale{border-image:none;border-bottom:1px solid}}
 /* 大標題的章節下拉：<h1> 裡一顆按鈕，字級、字重沿用大標題；最後一個字後面一個方形箭頭格（藍圖的方角），
    滑過時箭頭格底色變淡藍，展開時箭頭轉向、換主色。按鈕只有文字＋箭頭那麼寬，點標題右邊的空白不會打開。
    文字照一般行內排版（標題長、排成兩行時箭頭接在第二行最後一個字後面）；最後一個字和箭頭包成 .chap-tail 不換行 */

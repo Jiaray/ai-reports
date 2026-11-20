@@ -526,8 +526,10 @@
     });
   }
 
-  // 目前這一期的整頁：報頭最上面那一列（期別選單、頭版、版面）＋報告（大標題是類型切換器）
-  const page = () => [editions(shown.entry), ...report(shown.data, shown.entry)].filter(Boolean);
+  // 目前這一期的整頁：不是今天／本週／本月那一期時最上面的提示條（bar.js）、報頭最上面那一列（日期、本日新聞、本週新聞、版面）
+  // ＋報告（大標題是本期章節的下拉）。部署後的快取空窗可能拿到還沒有 staleBanner 的舊 bar.js：少提示條，頁面照常
+  const stale = () => (B.staleBanner ? B.staleBanner(shown.entry.period) : null);
+  const page = () => [stale(), editions(shown.entry), ...report(shown.data, shown.entry)].filter(Boolean);
 
   const problem = (cur, text, more) => app.replaceChildren(
     ...[all.length ? editions(cur) : null].filter(Boolean),

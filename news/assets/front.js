@@ -262,12 +262,14 @@
     });
   }
 
-  // chapters：大標題下拉的時段（render 排時間軸時收集）
+  // chapters：大標題下拉的時段（render 排時間軸時收集）。
+  // 最上面是非當期提示（bar.js，不是台北的今天才有）：開的是最新一期、今天還沒出刊時（spec 6.6），提示後面接說明
+  // （使用者選定：原本大標題下那一行「今天還沒有頭版，這是最近一期」併進提示條，不出現兩個提示）。日期在日期按鈕，提示不重寫日期。
+  // 部署後的快取空窗可能拿到還沒有 staleBanner 的舊 bar.js：少提示條，頁面照常
   const masthead = (chapters) => [
+    B.staleBanner ? B.staleBanner(front.date, front.date === dates[0] ? '今天還沒有頭版，這是最近一期' : null) : null,
     B.toolbar([datePicker(), frontLink(front.date === dates[0] ? 'page' : 'true'), weeklyLink(), fpBox]),
     h('header', { class: 'masthead' }, [B.titleChapters({ title: '頭版', items: chapters, panelTitle: '本頁時段' })]),
-    // 預設開最新一個有頭版的日期；那天不是今天時提醒（spec 6.6）。日期在日期按鈕，提醒不再重寫日期
-    front.date !== today() && front.date === dates[0] ? h('p', { class: 'fp-latest' }, ['今天還沒有頭版，這是最近一期']) : null,
   ];
 
   // 頁尾只留頭版的整理方式；刊名與日期上面都有了，不再重複

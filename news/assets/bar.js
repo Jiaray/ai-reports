@@ -6,7 +6,8 @@
    3. 期別的寫法：日期按鈕的長短兩種、日期清單的分組與每列
    4. datePicker()、titleChapters()、toolbar()、navLink()：版面一致的元件，資料由各頁算好傳進來
    5. 工具列凍結（position:sticky 在 report.css）：量工具列高度寫進 :root 的 --bar-h（頭版黏頂的時段標題、
-      錨點跳轉要讓開它），捲離頂端時加 .is-stuck（底下一條細線） */
+      錨點跳轉要讓開它），捲離頂端時加 .is-stuck（底下一條細線）
+   6. 非當期提示：開的不是台北時間的今天、本週、本月那一期時，頁面最上面一條黃色橫幅 */
 (() => {
   'use strict';
   const A = window.AIR;
@@ -23,6 +24,8 @@
     caretLg: svg(0, 'M5 7.5l5 5 5-5'), // 大標題的箭頭：不給寬高、跟著外框（.66em），線條比日期按鈕的寬一些
     front: svg(18, 'M3 3.5h14v13H3zM6 7.5h8M6 10.5h8M6 13.5h5'), // 本日新聞：一張報紙（同網站圖示的三條橫線）
     weekly: svg(18, 'M6 2.5h11v11H6zM3 5.5v12h12M9 6h5M9 9h5M9 12h3'), // 本週新聞：疊起來的兩張報紙
+    // 非當期提示：三角形警告（圓角頂點，線條粗一點）
+    warn: '<svg viewBox="0 0 20 20" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true" focusable="false"><path d="M10 2.8 18 17H2z" stroke-linejoin="round"/><path d="M10 8v4.2M10 14.2v.1" stroke-linecap="round" stroke-width="1.9"/></svg>',
   };
 
   // ── 2. 下拉面板 ──────────────────────────────────────────────────────
@@ -218,5 +221,61 @@
   // 捲動補償（換讀法時捲回同一則）要扣掉的工具列高度
   const barHeight = () => (bar && bar.isConnected ? bar.getBoundingClientRect().height : 0);
 
-  A.bar = { ICON, dropdown, periodLabel, periodShort, toolbar, navLink, datePicker, titleChapters, barHeight };
+  // ── 6. 非當期提示 ───────────────────────────────────────────────────
+  // 使用者要求：開的新聞不是今天、本週（月報：本月）那一期時，頁面上方一條黃色半透明提示；使用者在四種樣式中選定
+  // 「貼齊頂端的整條橫幅」，文字只寫「非當日資訊」「非當週資訊」「非當月資訊」（日期已在日期按鈕，不重複）。
+  // 「今天」一律是台北時間，不看瀏覽器時區：用 IANA 時區名（指南：不寫死 UTC 偏移）；瀏覽器不認得時區時才退回 +8（台灣沒有日光節約）。
+  // 不用 Temporal：Safari 還沒有，只為了取年月日不值得載 polyfill
+  const TZ = 'Asia/Taipei';
+  const pad2 = (n) => String(n).padStart(2, '0');
+  function taipeiToday() {
+    try {
+      const p = {};
+      new Intl.DateTimeFormat('en-US', { timeZone: TZ, year: 'numeric', month: 'numeric', day: 'numeric' })
+        .formatToParts(new Date()).forEach((x) => { p[x.type] = +x.value; });
+      if (p.year && p.month && p.day) return [p.year, p.month, p.day];
+    } catch (e) { /* 不支援 timeZone：用下面的固定偏移 */ }
+    const t = new Date(Date.now() + 8 * 3600 * 1000);
+    return [t.getUTCFullYear(), t.getUTCMonth() + 1, t.getUTCDate()];
+  }
+  // ISO 週（同週報期別 YYYY-Www）：那一週的星期四落在哪一年就是哪一年的週；Date.UTC 只當日曆算術用
+  function isoWeek(y, m, d) {
+    const t = new Date(Date.UTC(y, m - 1, d));
+    t.setUTCDate(t.getUTCDate() + 4 - (t.getUTCDay() || 7));
+    const wy = t.getUTCFullYear();
+    return `${wy}-W${pad2(Math.ceil(((t - Date.UTC(wy, 0, 1)) / 86400000 + 1) / 7))}`;
+  }
+  // 依期別的寫法判斷週期（不看 cadence 欄位）：期別和台北現在的同週期期別不同就要提示；認不出的期別不提示
+  const KINDS = [
+    [/^\d{4}-\d{2}-\d{2}$/, '非當日資訊', (y, m, d) => `${y}-${pad2(m)}-${pad2(d)}`],
+    [/^\d{4}-W\d{2}$/, '非當週資訊', isoWeek],
+    [/^\d{4}-\d{2}$/, '非當月資訊', (y, m) => `${y}-${pad2(m)}`],
+  ];
+  function staleText(period) {
+    const kind = KINDS.find(([re]) => re.test(period || ''));
+    return kind && kind[2](...taipeiToday()) !== period ? kind[1] : '';
+  }
+  // 頁面呼叫 staleBanner(這頁的期別, 補充說明) 放在 #app 最前面（工具列上面）；不是非當期就回 null。
+  // note 只在要提示時接在後面（頭版：今天還沒出刊、開的是最近一期）。
+  // 一載入就跟整頁一起畫好（不是事後插進來，不推動版面）；不加 live region：不是動態通知，讀頁面時第一個就讀到
+  let staleOf = null; // 這頁的 { period, note }：分頁開著過了午夜，回到前景時重算
+  function staleBanner(period, note) {
+    staleOf = { period, note };
+    const text = staleText(period);
+    return text ? h('p', { class: 'stale' }, [
+      h('span', { class: 'stale-ico', html: ICON.warn }), h('span', null, [note ? `${text}・${note}` : text]),
+    ]) : null;
+  }
+  function restale() {
+    if (!staleOf || !app) return;
+    const old = app.querySelector(':scope > .stale');
+    const next = staleBanner(staleOf.period, staleOf.note);
+    if (old && next) old.replaceWith(next);
+    else if (old) old.remove();
+    else if (next) app.prepend(next);
+  }
+  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') restale(); });
+  window.addEventListener('pageshow', (e) => { if (e.persisted) restale(); });
+
+  A.bar = { ICON, dropdown, periodLabel, periodShort, toolbar, navLink, datePicker, titleChapters, barHeight, staleBanner };
 })();
