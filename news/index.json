@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T18:18:02+08:00",
+ "updated_at": "2026-11-20T18:20:12+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "security",
+   "series_title": "資安日報",
+   "cadence": "daily",
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "title": "資安日報",
+   "lede": "vCenter 驗證繞過零時差遭中國 APT 利用逾兩個月，已出修補；NGINX、PHP、Drupal、Ruby、OpenSSL、群暉同日揭露重大漏洞；台灣大車隊子公司與鳳凰旅遊相繼傳出個資外洩。",
+   "count": 17,
+   "data": "security/2026/2026-11-20.json",
+   "generated_at": "2026-11-20T18:20:12+08:00"
+  },
   {
    "series": "tech",
    "series_title": "科技日報",
@@ -261,18 +273,6 @@
    "count": 17,
    "data": "gamedev/2026/2026-11-20.json",
    "generated_at": "2026-11-20T16:52:05+08:00"
-  },
-  {
-   "series": "security",
-   "series_title": "資安日報",
-   "cadence": "daily",
-   "period": "2026-11-20",
-   "date": "2026-11-20",
-   "title": "資安日報",
-   "lede": "VMware vCenter 零時差漏洞遭中國駭客自 9 月起利用，博通釋出緊急更新；NGINX、PHP、Ruby、Drupal、OpenSSL 同週密集修補重大漏洞；歐盟執委會遭 AI 滲透框架 ARTEX 攻擊近一個月仍未完全復原。",
-   "count": 15,
-   "data": "security/2026/2026-11-20.json",
-   "generated_at": "2026-11-20T16:51:59+08:00"
   },
   {
    "series": "cocos_h5_weekly",
