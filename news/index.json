@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T16:52:09+08:00",
+ "updated_at": "2026-11-20T16:52:07+08:00",
  "series": [
   {
    "id": "general",
@@ -143,6 +143,18 @@
    "generated_at": "2026-11-20T16:52:09+08:00"
   },
   {
+   "series": "github_weekly",
+   "series_title": "GitHub 趨勢週報",
+   "cadence": "weekly",
+   "period": "2026-W47",
+   "date": "2026-11-20",
+   "title": "GitHub 趨勢週報",
+   "lede": "本週主軸是「替程式代理人補裝備」：瀏覽器三大廠合推網頁最佳實務技能包；Meta、阿里巴巴把內部多年的設計系統與 AI 審碼工具開源；影片剪輯、跨平台研究也被包成代理人技能。",
+   "count": 10,
+   "data": "github_weekly/2026/2026-W47.json",
+   "generated_at": "2026-11-20T16:52:07+08:00"
+  },
+  {
    "series": "gamedev",
    "series_title": "遊戲產業新聞",
    "cadence": "daily",
@@ -165,18 +177,6 @@
    "count": 15,
    "data": "security/2026/2026-11-20.json",
    "generated_at": "2026-11-20T16:51:59+08:00"
-  },
-  {
-   "series": "github_weekly",
-   "series_title": "GitHub 趨勢週報",
-   "cadence": "weekly",
-   "period": "2026-W47",
-   "date": "2026-11-20",
-   "title": "GitHub 趨勢週報",
-   "lede": "本週榜單幾乎被「給程式代理用的工具」包辦：Univer 以 Office SDK 拿下週增 7,248 星居冠；Chrome、Edge、Firefox 與 MDN 聯手推出 Modern Web Guidance；Meta、阿里巴巴把內部用了多年的設計系統與 AI 程式碼審查工具開源。",
-   "count": 10,
-   "data": "github_weekly/2026/2026-W47.json",
-   "generated_at": "2026-11-20T15:46:37+08:00"
   },
   {
    "series": "cocos_h5_weekly",
