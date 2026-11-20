@@ -1,8 +1,16 @@
 {
  "schema": 1,
  "date": "2026-11-20",
- "built_at": "2026-11-20T16:52:50+08:00",
+ "built_at": "2026-11-20T16:53:27+08:00",
  "reports": [
+  {
+   "series": "general",
+   "series_title": "綜合日報",
+   "group": "綜合",
+   "period": "2026-11-20",
+   "count": 25,
+   "generated_at": "2026-11-20T16:53:27+08:00"
+  },
   {
    "series": "international",
    "series_title": "國際新聞日報",
@@ -70,6 +78,43 @@
  ],
  "entries": [
   {
+   "key": "450b4071a4",
+   "rank": 1,
+   "title": "Anthropic 那斯達克掛牌募資 813 億美元創全球紀錄，首日收漲 17%",
+   "summary_html": "Anthropic 以每股 83 美元在那斯達克掛牌，募資 813 億美元打破全球 IPO 紀錄，首日收 97.17 美元，完全稀釋市值近 1.8 兆美元；HN 討論逾千分。",
+   "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/",
+   "src": "Hacker News",
+   "ts": "2026-11-20T01:02:40+08:00",
+   "left": "11/20 01:02",
+   "heat": "HN 1066",
+   "tags": [
+    {
+     "text": "頭條",
+     "cls": "tag-hot"
+    }
+   ],
+   "from": [
+    {
+     "series": "general",
+     "period": "2026-11-20",
+     "no": "08",
+     "rank": 1
+    },
+    {
+     "series": "tech_ai",
+     "period": "2026-11-20",
+     "no": "02",
+     "rank": 1
+    },
+    {
+     "series": "international",
+     "period": "2026-11-20",
+     "no": "09",
+     "rank": 3
+    }
+   ]
+  },
+  {
    "key": "db18c3c586",
    "rank": 1,
    "title": "川普、習近平、普丁深圳首度三方會談，發表「和平宣言」承諾核風險對話",
@@ -91,32 +136,6 @@
      "period": "2026-11-20",
      "no": "01",
      "rank": 1
-    }
-   ]
-  },
-  {
-   "key": "fea67cf9c7",
-   "rank": 1,
-   "title": "Anthropic 那斯達克上市募資 813 億美元創 IPO 紀錄，首日收 97.17 美元、市值約 1.3 兆",
-   "summary_html": "Anthropic 以每股 83 美元定價、代號 $ANT 掛牌，開盤 111.50 美元（漲 34%），收盤 97.17 美元，較發行價高 17%。",
-   "url": "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
-   "src": "The Guardian Technology",
-   "ts": "2026-11-20T06:09:18+08:00",
-   "left": "11/20 06:09",
-   "heat": "",
-   "tags": [],
-   "from": [
-    {
-     "series": "tech_ai",
-     "period": "2026-11-20",
-     "no": "02",
-     "rank": 1
-    },
-    {
-     "series": "international",
-     "period": "2026-11-20",
-     "no": "09",
-     "rank": 3
     }
    ]
   },
@@ -191,6 +210,12 @@
      "period": "2026-11-20",
      "no": "06",
      "rank": 1
+    },
+    {
+     "series": "general",
+     "period": "2026-11-20",
+     "no": "04",
+     "rank": 2
     }
    ]
   },
@@ -354,6 +379,26 @@
    ]
   },
   {
+   "key": "c84c854fba",
+   "rank": 3,
+   "title": "立法院三讀普發現金 2 萬元，國民黨以 50 比 46 票通過",
+   "summary_html": "「全民共享經濟成果及穩定民生特別條例」三讀，全體國民每人 2 萬元，免納所得稅且不得扣押。",
+   "url": "https://www.cna.com.tw/news/aipl/202611200188.aspx",
+   "src": "中央社 CNA",
+   "ts": "2026-11-20T15:56:26+08:00",
+   "left": "11/20 15:56",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "general",
+     "period": "2026-11-20",
+     "no": "02",
+     "rank": 3
+    }
+   ]
+  },
+  {
    "key": "673fe163ae",
    "rank": 3,
    "title": "Nvidia 接觸 Arm 執行長 Rene Haas 接替黃仁勳，股價較 10 月高點跌近 40%",
@@ -464,6 +509,26 @@
      "period": "2026-11-20",
      "no": "08",
      "rank": 3
+    }
+   ]
+  },
+  {
+   "key": "6b2bc52106",
+   "rank": 4,
+   "title": "英國調查權力法庭裁定：政府須承認曾對蘋果下達祕密加密命令",
+   "summary_html": "英國政府原本對是否依《調查權力法》向蘋果發出技術能力通知（TCN）既不承認也不否認，法庭裁定必須承認其存在。",
+   "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+   "src": "Hacker News",
+   "ts": "2026-11-20T00:21:03+08:00",
+   "left": "11/20 00:21",
+   "heat": "HN 634",
+   "tags": [],
+   "from": [
+    {
+     "series": "general",
+     "period": "2026-11-20",
+     "no": "09",
+     "rank": 4
     }
    ]
   },
@@ -602,6 +667,26 @@
      "period": "2026-11-20",
      "no": "09",
      "rank": 4
+    }
+   ]
+  },
+  {
+   "key": "122be7cf5d",
+   "rank": 5,
+   "title": "Anthropic 公布 Claude 解出兩道黑洞物理未解問題",
+   "summary_html": "Claude 完成一項 20 多年前就設定好卻無人算完的計算，並找出檢驗量子重力候選理論一項技術最簡版本的精確極限，論文預印本已公開。",
+   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+   "src": "Hacker News",
+   "ts": "2026-11-20T01:30:44+08:00",
+   "left": "11/20 01:30",
+   "heat": "HN 488",
+   "tags": [],
+   "from": [
+    {
+     "series": "general",
+     "period": "2026-11-20",
+     "no": "05",
+     "rank": 5
     }
    ]
   },

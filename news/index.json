@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T16:52:50+08:00",
+ "updated_at": "2026-11-20T16:53:27+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "general",
+   "series_title": "綜合日報",
+   "cadence": "daily",
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "title": "綜合早報",
+   "lede": "Anthropic 創紀錄 IPO 首日收漲 17%；台股單日重挫 2,393 點、史上第三大跌點；立法院三讀普發現金 2 萬元與 6,076 億元追加預算。",
+   "count": 25,
+   "data": "general/2026/2026-11-20.json",
+   "generated_at": "2026-11-20T16:53:27+08:00"
+  },
   {
    "series": "tech_ai",
    "series_title": "AI 日報",
