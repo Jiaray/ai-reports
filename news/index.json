@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T09:27:21+08:00",
+ "updated_at": "2026-11-20T10:14:14+08:00",
  "series": [
   {
    "id": "general",
@@ -109,6 +109,18 @@
   }
  ],
  "items": [
+  {
+   "series": "security",
+   "series_title": "資安日報",
+   "cadence": "daily",
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "title": "資安日報",
+   "lede": "VMware vCenter 零時差遭中國關聯駭客利用、NGINX／PHP／Drupal／Ruby 同步釋出重大修補；CISA 新增 4 個遭利用漏洞；日本 KARTE 平臺遭駭波及數十家企業。",
+   "count": 15,
+   "data": "security/2026/2026-11-20.json",
+   "generated_at": "2026-11-20T10:14:14+08:00"
+  },
   {
    "series": "international",
    "series_title": "國際新聞日報",
