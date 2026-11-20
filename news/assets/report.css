@@ -137,7 +137,11 @@
 [data-look=atlas] [data-k="7"]{--sec-c:var(--c7)}[data-look=atlas] [data-k="8"]{--sec-c:var(--c8)}
 [data-look=atlas] [data-k="9"]{--sec-c:var(--c9)}[data-look=atlas] [data-k="10"]{--sec-c:var(--c10)}
 [data-look=atlas] .masthead{display:flex;flex-direction:column;border-top:0;border-bottom:1px solid var(--color-divider);padding:var(--space-8) 0 var(--space-4);background-image:var(--contour-img);background-repeat:no-repeat;background-size:560px auto;background-position:right -80px top -40px}
-[data-look=atlas] .mast-title{font:700 46px/1.1 var(--font-heading);margin:0}
+/* 新聞頁大標題：使用者要求整體縮小 15%（藍圖 56→47.6px、窄版 40→34px，蓋過 site.css；地圖 46→39.1px、窄版 34→28.9px）。
+   只改新聞頁：site.css 的 .mast-title 首頁、404 也在用 */
+.mast-title{font-size:47.6px}
+@media(max-width:40em){.mast-title{font-size:34px}}
+[data-look=atlas] .mast-title{font:700 39.1px/1.1 var(--font-heading);margin:0}
 /* 地圖的報頭沒有頂端粗線（等高線裝飾＋底下細線），工具列也不畫粗線 */
 [data-look=atlas] .editions{border-top:0;padding-top:0}
 [data-look=atlas] .sec-tab{align-items:center;gap:10px;background:none;padding:0 0 8px;border-bottom:3px solid var(--sec-c)}
@@ -161,7 +165,7 @@
 [data-look=atlas] .foot{border-top:1px solid var(--color-divider);font-family:var(--font-body)}
 @media(max-width:40em){
 [data-look=atlas] .masthead{padding-top:var(--space-6);background-size:360px auto;background-position:right -110px top -30px}
-[data-look=atlas] .mast-title{font-size:34px}
+[data-look=atlas] .mast-title{font-size:28.9px}
 [data-look=atlas] .row{grid-template-columns:44px 1fr;padding-left:var(--space-3)}
 }
 
