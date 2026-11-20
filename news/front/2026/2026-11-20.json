@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-20",
- "built_at": "2026-11-20T10:31:54+08:00",
+ "built_at": "2026-11-20T10:32:20+08:00",
  "reports": [
   {
    "series": "international",
@@ -25,7 +25,7 @@
    "group": "科技",
    "period": "2026-11-20",
    "count": 15,
-   "generated_at": "2026-11-20T10:14:14+08:00"
+   "generated_at": "2026-11-20T10:32:20+08:00"
   }
  ],
  "entries": [
@@ -83,8 +83,8 @@
   {
    "key": "c5e24a06d3",
    "rank": 1,
-   "title": "VMware vCenter 認證繞過零時差（CVSS 9.8）自 9 月起遭利用，Broadcom 發布緊急修補",
-   "summary_html": "vCenter 的 VMware Directory Service 有認證繞過漏洞，未經驗證、可連上網路的攻擊者能取得管理權限，進而控制所有受管虛擬機。",
+   "title": "VMware vCenter 驗證繞過零日漏洞（CVSS 9.8）9 月起遭利用，Broadcom 釋出緊急修補",
+   "summary_html": "Broadcom 修補 vCenter Server 的 VMware Directory Service 驗證繞過漏洞，未經驗證、可連到網路的攻擊者能直接取得管理員權限。",
    "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
    "src": "BleepingComputer",
    "ts": "2026-11-20T08:26:25+08:00",
@@ -153,8 +153,8 @@
   {
    "key": "7cc3b724b6",
    "rank": 2,
-   "title": "NGINX「nginx2root」兩個 HTTP/2 重大漏洞可遠端執行程式碼，研究人員串接核心漏洞取得 root",
-   "summary_html": "兩個 HTTP/2 記憶體破壞漏洞讓未經驗證的攻擊者能在 NGINX worker 上執行程式碼，影響範圍回溯到 2015 年的版本。",
+   "title": "NGINX「nginx2root」兩項 HTTP/2 重大漏洞可遠端執行程式碼，串接核心漏洞可取得 root",
+   "summary_html": "Wiz 已展示未經驗證的遠端程式碼執行，Xint 串接 Linux 核心 SCTP 漏洞從 NGINX Docker 容器逃逸取得主機 root；Wiz 暫不公開 PoC。",
    "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
    "src": "BleepingComputer",
    "ts": "2026-11-19T22:57:24+08:00",
@@ -170,7 +170,7 @@
     {
      "series": "security",
      "period": "2026-11-20",
-     "no": "06",
+     "no": "05",
      "rank": 2
     }
    ]
@@ -196,18 +196,18 @@
    ]
   },
   {
-   "key": "c5e7bc1c42",
+   "key": "7b2c191d75",
    "rank": 3,
-   "title": "PHP 修補 18 個漏洞，含 7 個重大 RCE 與「phpAfterShell」session 漏洞",
-   "summary_html": "PHP 團隊 11 月 19 日一次修補 18 個 CVE，涵蓋核心引擎、session、PHP-FPM、CGI 等元件，多個可導致遠端程式碼執行。",
-   "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
-   "src": "BleepingComputer",
-   "ts": "2026-11-20T00:28:23+08:00",
-   "left": "11/20 00:28",
+   "title": "CISA 將群暉 DSM、LiteLLM、Apache Axis、REDCap 四項漏洞列入 KEV",
+   "summary_html": "CISA 掌握四項漏洞遭積極利用的證據，分別與勒索軟體、挖礦與 LLMjacking 攻擊有關。",
+   "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+   "src": "The Hacker News",
+   "ts": "2026-11-19T16:00:00+08:00",
+   "left": "11/19 16:00",
    "heat": "",
    "tags": [
     {
-     "text": "僅揭露",
+     "text": "已遭利用",
      "cls": "tag-outline"
     }
    ],
@@ -215,7 +215,7 @@
     {
      "series": "security",
      "period": "2026-11-20",
-     "no": "05",
+     "no": "08",
      "rank": 3
     }
    ]
@@ -270,18 +270,18 @@
    ]
   },
   {
-   "key": "7b2c191d75",
+   "key": "c5e7bc1c42",
    "rank": 4,
-   "title": "CISA 將群暉 DSM、LiteLLM、Apache Axis、REDCap 4 個遭利用漏洞列入 KEV",
-   "summary_html": "CISA 以實際遭利用為由新增 4 個漏洞，分別與勒索軟體、挖礦與 LLMjacking 攻擊有關。",
-   "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
-   "src": "The Hacker News",
-   "ts": "2026-11-19T16:00:00+08:00",
-   "left": "11/19 16:00",
+   "title": "PHP 修補 18 項漏洞，含 PHP-FPM 請求走私等可遠端執行程式碼的重大漏洞",
+   "summary_html": "PHP 團隊 11 月 19 日為所有支援分支發布安全更新，涵蓋核心引擎、session、PHP-FPM、CGI 等元件。",
+   "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
+   "src": "BleepingComputer",
+   "ts": "2026-11-20T00:28:23+08:00",
+   "left": "11/20 00:28",
    "heat": "",
    "tags": [
     {
-     "text": "已遭利用",
+     "text": "僅揭露",
      "cls": "tag-outline"
     }
    ],
@@ -289,7 +289,7 @@
     {
      "series": "security",
      "period": "2026-11-20",
-     "no": "08",
+     "no": "04",
      "rank": 4
     }
    ]
@@ -344,21 +344,21 @@
    ]
   },
   {
-   "key": "0c6183b7e4",
+   "key": "385d5fa32c",
    "rank": 5,
-   "title": "日本 KARTE 行銷平臺遭駭，JINS、三菱 UFJ、DHC 等數十家企業個資外洩",
-   "summary_html": "攻擊者 11 月 13 日利用 PLAID 伺服器漏洞竊取資料庫認證資訊並外傳資料，波及使用 KARTE 的數十家日本企業。",
-   "url": "https://www.ithome.com.tw/news/180640",
+   "title": "歐盟執委會遭開源 AI 滲透框架 ARTEX 入侵，部分系統停擺近一個月",
+   "summary_html": "歐盟執委會證實 10 月 22 日偵測到使用 AI 工具的攻擊，人資平台 Sysper、醫療報銷系統 MyPMO 與內部翻譯服務受影響，員工個資是否外洩仍待釐清。",
+   "url": "https://www.ithome.com.tw/news/180672",
    "src": "iThome 資安",
-   "ts": "2026-11-19T11:00:00+08:00",
-   "left": "11/19 11:00",
+   "ts": "2026-11-20T09:00:00+08:00",
+   "left": "11/20 09:00",
    "heat": "",
    "tags": [],
    "from": [
     {
      "series": "security",
      "period": "2026-11-20",
-     "no": "13",
+     "no": "09",
      "rank": 5
     }
    ]

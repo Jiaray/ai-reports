@@ -4,14 +4,14 @@
  "title": "資安日報",
  "group": "科技",
  "cadence": "daily",
- "updated_at": "2026-11-20T10:14:14+08:00",
+ "updated_at": "2026-11-20T10:32:20+08:00",
  "items": [
   {
    "period": "2026-11-20",
    "date": "2026-11-20",
    "count": 15,
    "data": "security/2026/2026-11-20.json",
-   "generated_at": "2026-11-20T10:14:14+08:00"
+   "generated_at": "2026-11-20T10:32:20+08:00"
   }
  ]
 }
