@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T16:05:52+08:00",
+ "updated_at": "2026-11-20T16:09:31+08:00",
  "series": [
   {
    "id": "general",
@@ -15,13 +15,6 @@
    "cadence": "daily",
    "group": "國際",
    "short": "國際"
-  },
-  {
-   "id": "finance",
-   "title": "財經日報",
-   "cadence": "daily",
-   "group": "財經",
-   "short": "財經"
   },
   {
    "id": "tech_ai",
@@ -45,25 +38,25 @@
    "short": "資安"
   },
   {
+   "id": "gambling",
+   "title": "博奕產業新聞",
+   "cadence": "daily",
+   "group": "遊戲",
+   "short": "博奕"
+  },
+  {
+   "id": "finance",
+   "title": "財經日報",
+   "cadence": "daily",
+   "group": "財經",
+   "short": "財經"
+  },
+  {
    "id": "health",
    "title": "健康日報",
    "cadence": "daily",
    "group": "綜合",
    "short": "健康"
-  },
-  {
-   "id": "ai_weekly",
-   "title": "AI 週報",
-   "cadence": "weekly",
-   "group": "科技",
-   "short": "AI 週報"
-  },
-  {
-   "id": "github",
-   "title": "GitHub 趨勢",
-   "cadence": "daily",
-   "group": "開源",
-   "short": "GitHub"
   },
   {
    "id": "github_weekly",
@@ -73,6 +66,13 @@
    "short": "GitHub 週報"
   },
   {
+   "id": "github",
+   "title": "GitHub 趨勢",
+   "cadence": "daily",
+   "group": "開源",
+   "short": "GitHub"
+  },
+  {
    "id": "github_monthly",
    "title": "GitHub 趨勢月報",
    "cadence": "monthly",
@@ -80,18 +80,18 @@
    "short": "GitHub 月報"
   },
   {
-   "id": "gambling",
-   "title": "博奕產業新聞",
-   "cadence": "daily",
-   "group": "遊戲",
-   "short": "博奕"
+   "id": "ai_weekly",
+   "title": "AI 週報",
+   "cadence": "weekly",
+   "group": "科技",
+   "short": "AI 週報"
   },
   {
-   "id": "gamedev",
-   "title": "遊戲產業新聞",
-   "cadence": "daily",
-   "group": "遊戲",
-   "short": "遊戲"
+   "id": "reading_list",
+   "title": "閱讀清單",
+   "cadence": "weekly",
+   "group": "綜合",
+   "short": "閱讀"
   },
   {
    "id": "cocos_h5_weekly",
@@ -99,6 +99,13 @@
    "cadence": "weekly",
    "group": "遊戲",
    "short": "Cocos 週報"
+  },
+  {
+   "id": "gamedev",
+   "title": "遊戲產業新聞",
+   "cadence": "daily",
+   "group": "遊戲",
+   "short": "遊戲"
   },
   {
    "id": "taiwan_general",
@@ -120,13 +127,6 @@
    "cadence": "daily",
    "group": "台灣",
    "short": "鄉民"
-  },
-  {
-   "id": "reading_list",
-   "title": "閱讀清單",
-   "cadence": "weekly",
-   "group": "綜合",
-   "short": "閱讀"
   }
  ],
  "items": [

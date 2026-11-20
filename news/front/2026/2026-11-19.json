@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-19",
- "built_at": "2026-11-20T15:26:45+08:00",
+ "built_at": "2026-11-20T16:09:31+08:00",
  "reports": [
   {
    "series": "international",
@@ -12,20 +12,20 @@
    "generated_at": "2026-11-19T12:01:40+08:00"
   },
   {
-   "series": "finance",
-   "series_title": "財經日報",
-   "group": "財經",
-   "period": "2026-11-19",
-   "count": 30,
-   "generated_at": "2026-11-19T11:54:40+08:00"
-  },
-  {
    "series": "tech_ai",
    "series_title": "AI 日報",
    "group": "科技",
    "period": "2026-11-19",
    "count": 15,
    "generated_at": "2026-11-19T11:51:21+08:00"
+  },
+  {
+   "series": "finance",
+   "series_title": "財經日報",
+   "group": "財經",
+   "period": "2026-11-19",
+   "count": 30,
+   "generated_at": "2026-11-19T11:54:40+08:00"
   }
  ],
  "entries": [
@@ -50,35 +50,6 @@
      "series": "international",
      "period": "2026-11-19",
      "no": "01",
-     "rank": 1
-    }
-   ]
-  },
-  {
-   "key": "ff64aca378",
-   "rank": 1,
-   "title": "台股盤中重挫逾1,600點失守39,000點 上市櫃逾200檔跌停",
-   "summary_html": "台股19日開低後一度翻紅至40,315.53點，隨即賣壓湧現、最低下探38,259點，高低震盪逾1,900點；櫃買指數重挫逾7%。",
-   "url": "https://money.udn.com/money/story/5612/9888460",
-   "src": "經濟日報",
-   "ts": "2026-11-19T11:38:21+08:00",
-   "left": "11/19 11:38",
-   "heat": "",
-   "tags": [
-    {
-     "text": "頭條",
-     "cls": "tag-hot"
-    },
-    {
-     "text": "利空",
-     "cls": "tag-hot"
-    }
-   ],
-   "from": [
-    {
-     "series": "finance",
-     "period": "2026-11-19",
-     "no": "20",
      "rank": 1
     }
    ]
@@ -116,6 +87,55 @@
    ]
   },
   {
+   "key": "ff64aca378",
+   "rank": 1,
+   "title": "台股盤中重挫逾1,600點失守39,000點 上市櫃逾200檔跌停",
+   "summary_html": "台股19日開低後一度翻紅至40,315.53點，隨即賣壓湧現、最低下探38,259點，高低震盪逾1,900點；櫃買指數重挫逾7%。",
+   "url": "https://money.udn.com/money/story/5612/9888460",
+   "src": "經濟日報",
+   "ts": "2026-11-19T11:38:21+08:00",
+   "left": "11/19 11:38",
+   "heat": "",
+   "tags": [
+    {
+     "text": "頭條",
+     "cls": "tag-hot"
+    },
+    {
+     "text": "利空",
+     "cls": "tag-hot"
+    }
+   ],
+   "from": [
+    {
+     "series": "finance",
+     "period": "2026-11-19",
+     "no": "20",
+     "rank": 1
+    }
+   ]
+  },
+  {
+   "key": "e2b6407cfa",
+   "rank": 2,
+   "title": "Google 發表 Gemini 4 Neon：AA 智慧指數 61 分排第 3，每百萬輸入 token 3 美元",
+   "summary_html": "Google DeepMind 推出主打「前沿級智慧＋快速完成端到端任務」的 Gemini 4 Neon，11/18 起上線 Gemini API（AI Studio）、Gemini for business、Antigravity 與 Gemini App 的 Pro／Ultra 訂戶，OpenRouter 也同步開放。",
+   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
+   "src": "Hacker News",
+   "ts": "2026-11-19T05:34:07+08:00",
+   "left": "11/19 05:34",
+   "heat": "HN 542",
+   "tags": [],
+   "from": [
+    {
+     "series": "tech_ai",
+     "period": "2026-11-19",
+     "no": "01",
+     "rank": 2
+    }
+   ]
+  },
+  {
    "key": "b6b7093123",
    "rank": 2,
    "title": "Fed理事華勒：12月恐需升息2碼，通膨「走錯方向且正在擴散」",
@@ -136,26 +156,6 @@
      "series": "finance",
      "period": "2026-11-19",
      "no": "16",
-     "rank": 2
-    }
-   ]
-  },
-  {
-   "key": "e2b6407cfa",
-   "rank": 2,
-   "title": "Google 發表 Gemini 4 Neon：AA 智慧指數 61 分排第 3，每百萬輸入 token 3 美元",
-   "summary_html": "Google DeepMind 推出主打「前沿級智慧＋快速完成端到端任務」的 Gemini 4 Neon，11/18 起上線 Gemini API（AI Studio）、Gemini for business、Antigravity 與 Gemini App 的 Pro／Ultra 訂戶，OpenRouter 也同步開放。",
-   "url": "https://blog.google/innovation-and-ai/models-and-research/gemini-models/introducing-gemini-4-neon/",
-   "src": "Hacker News",
-   "ts": "2026-11-19T05:34:07+08:00",
-   "left": "11/19 05:34",
-   "heat": "HN 542",
-   "tags": [],
-   "from": [
-    {
-     "series": "tech_ai",
-     "period": "2026-11-19",
-     "no": "01",
      "rank": 2
     }
    ]
@@ -186,6 +186,26 @@
    ]
   },
   {
+   "key": "ff0c2dfa06",
+   "rank": 3,
+   "title": "NGINX 爆兩個 HTTP/2 免認證遠端執行漏洞（CVSS 9.2），AI 輔助挖出、最老藏了 11 年",
+   "summary_html": "Wiz Research、Ikotas Labs、Metnir、Rapid7 與 Xint 各自獨立發現 NGINX 的 CVE-2026-123633 與 CVE-2026-123007，F5 已於 11/18 發布修補；同一週 Oracle 也修補了 AI 找到的 Java 漏洞「Java4Shell」。",
+   "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
+   "src": "Hacker News",
+   "ts": "2026-11-18T23:19:55+08:00",
+   "left": "11/18 23:19",
+   "heat": "HN 1191",
+   "tags": [],
+   "from": [
+    {
+     "series": "tech_ai",
+     "period": "2026-11-19",
+     "no": "14",
+     "rank": 3
+    }
+   ]
+  },
+  {
    "key": "9c6e9fcb5e",
    "rank": 3,
    "title": "輝達第3季營收1,158億美元優於預期 股價仍連5日收黑",
@@ -206,26 +226,6 @@
      "series": "finance",
      "period": "2026-11-19",
      "no": "08",
-     "rank": 3
-    }
-   ]
-  },
-  {
-   "key": "ff0c2dfa06",
-   "rank": 3,
-   "title": "NGINX 爆兩個 HTTP/2 免認證遠端執行漏洞（CVSS 9.2），AI 輔助挖出、最老藏了 11 年",
-   "summary_html": "Wiz Research、Ikotas Labs、Metnir、Rapid7 與 Xint 各自獨立發現 NGINX 的 CVE-2026-123633 與 CVE-2026-123007，F5 已於 11/18 發布修補；同一週 Oracle 也修補了 AI 找到的 Java 漏洞「Java4Shell」。",
-   "url": "https://www.wiz.io/blog/nginx-http2-rce-vulnerabilities",
-   "src": "Hacker News",
-   "ts": "2026-11-18T23:19:55+08:00",
-   "left": "11/18 23:19",
-   "heat": "HN 1191",
-   "tags": [],
-   "from": [
-    {
-     "series": "tech_ai",
-     "period": "2026-11-19",
-     "no": "14",
      "rank": 3
     }
    ]
@@ -301,6 +301,26 @@
    ]
   },
   {
+   "key": "0d576c5fe8",
+   "rank": 5,
+   "title": "OpenAI 模型協助 AMD 旗艦 GPU 設計，PPA 最高提升 14%，自研推理晶片 Jalapeño 也受惠",
+   "summary_html": "OpenAI 公布以自家模型做晶片設計的成果：與 AMD 合作不到五個月，在 AMD 工程師已優化多年的旗艦 GPU IP 上找出最高 14% 的功耗、效能、面積（PPA）改善。",
+   "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
+   "src": "Hacker News",
+   "ts": "2026-11-19T01:45:47+08:00",
+   "left": "11/19 01:45",
+   "heat": "HN 169",
+   "tags": [],
+   "from": [
+    {
+     "series": "tech_ai",
+     "period": "2026-11-19",
+     "no": "05",
+     "rank": 5
+    }
+   ]
+  },
+  {
    "key": "cb6bb7c27d",
    "rank": 5,
    "title": "上市櫃18日破紀錄爆9起違約交割 合計4.27億元、創意居冠",
@@ -321,26 +341,6 @@
      "series": "finance",
      "period": "2026-11-19",
      "no": "29",
-     "rank": 5
-    }
-   ]
-  },
-  {
-   "key": "0d576c5fe8",
-   "rank": 5,
-   "title": "OpenAI 模型協助 AMD 旗艦 GPU 設計，PPA 最高提升 14%，自研推理晶片 Jalapeño 也受惠",
-   "summary_html": "OpenAI 公布以自家模型做晶片設計的成果：與 AMD 合作不到五個月，在 AMD 工程師已優化多年的旗艦 GPU IP 上找出最高 14% 的功耗、效能、面積（PPA）改善。",
-   "url": "https://openai.com/index/advancing-chip-design-with-our-models/",
-   "src": "Hacker News",
-   "ts": "2026-11-19T01:45:47+08:00",
-   "left": "11/19 01:45",
-   "heat": "HN 169",
-   "tags": [],
-   "from": [
-    {
-     "series": "tech_ai",
-     "period": "2026-11-19",
-     "no": "05",
      "rank": 5
     }
    ]
