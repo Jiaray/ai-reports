@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T16:51:59+08:00",
+ "updated_at": "2026-11-20T16:52:05+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "gamedev",
+   "series_title": "遊戲產業新聞",
+   "cadence": "daily",
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "title": "遊戲產業新聞",
+   "lede": "近 24 小時：《GTA 6》上市前估售 1,905 萬套、18.4 億美元；Ubisoft 財報優於預期但裁員 166 人；美國 10 月遊戲支出年減 12%，手遊跌幅最大。",
+   "count": 17,
+   "data": "gamedev/2026/2026-11-20.json",
+   "generated_at": "2026-11-20T16:52:05+08:00"
+  },
   {
    "series": "security",
    "series_title": "資安日報",

@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-20",
- "built_at": "2026-11-20T16:51:59+08:00",
+ "built_at": "2026-11-20T16:52:05+08:00",
  "reports": [
   {
    "series": "international",
@@ -58,6 +58,14 @@
    "period": "2026-W47",
    "count": 20,
    "generated_at": "2026-11-20T14:19:49+08:00"
+  },
+  {
+   "series": "gamedev",
+   "series_title": "遊戲產業新聞",
+   "group": "遊戲",
+   "period": "2026-11-20",
+   "count": 17,
+   "generated_at": "2026-11-20T16:52:05+08:00"
   }
  ],
  "entries": [
@@ -187,6 +195,26 @@
    ]
   },
   {
+   "key": "c44a9652f6",
+   "rank": 1,
+   "title": "Sensor Tower：《GTA 6》上市前估售 1,905 萬套、營收 18.4 億美元，PlayStation 佔七成五",
+   "summary_html": "《GTA 6》11 月 19 日上市，Sensor Tower 估算上市當天早上累計售出約 1,905 萬套、營收約 18.4 億美元，可能是史上最大遊戲首發；數字非 Rockstar 或 Take-Two 官方公布。",
+   "url": "https://80.lv/articles/report-gta-6-generated-nearly-usd2b-in-sales-by-launch-day/",
+   "src": "80 Level",
+   "ts": "2026-11-20T04:48:00+08:00",
+   "left": "11/20 04:48",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "gamedev",
+     "period": "2026-11-20",
+     "no": "02",
+     "rank": 1
+    }
+   ]
+  },
+  {
    "key": "947e6ec924",
    "rank": 2,
    "title": "國際法院 9 比 6 裁定緬甸對羅興亞人犯下種族滅絕，史上首例國家被判種族滅絕",
@@ -306,6 +334,26 @@
    ]
   },
   {
+   "key": "14d3c93adf",
+   "rank": 2,
+   "title": "Ubisoft 第二季訂單 3.89 億歐元優於財測，同時在蒙特婁、魁北克裁員 166 人",
+   "summary_html": "Ubisoft 會計年度第二季淨訂單 3.89 億歐元（4.27 億美元），高於約 3.7 億歐元的財測，主要靠《刺客教條：黑旗 Resynced》；同日宣布裁撤蒙特婁與魁北克市據點 166 個職位。",
+   "url": "https://gamesbeat.com/ubisoft-beats-6-month-bookings-guidance-but-lays-off-more-devs/",
+   "src": "GamesBeat",
+   "ts": "2026-11-20T05:02:00+08:00",
+   "left": "11/20 05:02",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "gamedev",
+     "period": "2026-11-20",
+     "no": "01",
+     "rank": 2
+    }
+   ]
+  },
+  {
    "key": "7c2289051b",
    "rank": 3,
    "title": "OpenAI 發布 GPT-6.2 Astra 與 Sol：成本降 20%–600%，但早期評價兩極",
@@ -395,6 +443,26 @@
      "series": "finance",
      "period": "2026-11-20",
      "no": "09",
+     "rank": 3
+    }
+   ]
+  },
+  {
+   "key": "675e502b35",
+   "rank": 3,
+   "title": "Circana：《決勝時刻：現代戰爭 4》奪美國 10 月銷售冠軍，整體遊戲支出年減 12%",
+   "summary_html": "《決勝時刻：現代戰爭 4》拿下 10 月美國銷售第一，是《決勝時刻》系列連續第 19 年在上市當月奪冠；當月美國遊戲總支出降至 42 億美元。",
+   "url": "https://www.gamesindustry.biz/call-of-duty-modern-warfare-4-debuts-as-top-selling-game-in-us-for-october-2026",
+   "src": "GamesIndustry.biz",
+   "ts": "2026-11-19T22:00:00+08:00",
+   "left": "11/19 22:00",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "gamedev",
+     "period": "2026-11-20",
+     "no": "08",
      "rank": 3
     }
    ]
@@ -513,6 +581,26 @@
      "series": "finance",
      "period": "2026-11-20",
      "no": "03",
+     "rank": 4
+    }
+   ]
+  },
+  {
+   "key": "797fc692a5",
+   "rank": 4,
+   "title": "美國參議院聽證會檢視 Roblox 兒童安全，審議讓受害家庭繞過強制仲裁的跨黨派法案",
+   "summary_html": "參議院司法委員會犯罪與反恐小組委員會舉行聽證，審議 Josh Hawley 與 Dick Durbin 提出的法案，讓兒少性剝削與網路傷害的受害者即使同意過服務條款中的仲裁條款，仍能上公開法庭提告。",
+   "url": "https://www.gamesindustry.biz/us-senate-hearing-examines-child-safety-on-roblox-considers-bipartisan-bill-to-bypass-forced-arbitration",
+   "src": "GamesIndustry.biz",
+   "ts": "2026-11-19T19:52:10+08:00",
+   "left": "11/19 19:52",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "gamedev",
+     "period": "2026-11-20",
+     "no": "09",
      "rank": 4
     }
    ]
