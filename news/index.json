@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T15:47:14+08:00",
+ "updated_at": "2026-11-20T15:47:25+08:00",
  "series": [
   {
    "id": "general",
@@ -116,6 +116,18 @@
   }
  ],
  "items": [
+  {
+   "series": "finance",
+   "series_title": "財經日報",
+   "cadence": "daily",
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "title": "財經日報",
+   "lede": "台股再崩2393點收36033點、單週跌7641點；Anthropic上市先盛後衰引爆亞洲晶片股拋售；美國晶片出口新規生效，傳台積電暫停中國16奈米以下訂單。",
+   "count": 14,
+   "data": "finance/2026/2026-11-20.json",
+   "generated_at": "2026-11-20T15:47:25+08:00"
+  },
   {
    "series": "gamedev",
    "series_title": "遊戲產業新聞",
