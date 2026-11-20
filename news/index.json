@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T15:57:10+08:00",
+ "updated_at": "2026-11-20T16:05:52+08:00",
  "series": [
   {
    "id": "general",
@@ -137,10 +137,10 @@
    "period": "2026-11-20",
    "date": "2026-11-20",
    "title": "資安日報",
-   "lede": "VMware vCenter 零時差漏洞遭中國駭客利用兩個多月才修補；NGINX、PHP、Ruby、Drupal 同週釋出重大更新，網站伺服器堆疊需全面盤點；歐盟執委會遭開源 AI 滲透框架 ARTEX 攻擊近一個月未復原。",
-   "count": 15,
+   "lede": "vCenter 驗證繞過漏洞 CVE-2026-123890 證實遭中國 APT 零時差利用逾兩個月；NGINX、Ruby、Drupal、Synology 同日釋出重大修補；大車隊子公司與愛爾蘭信合社供應商傳出個資外洩。",
+   "count": 18,
    "data": "security/2026/2026-11-20.json",
-   "generated_at": "2026-11-20T15:47:34+08:00"
+   "generated_at": "2026-11-20T16:05:52+08:00"
   },
   {
    "series": "finance",
