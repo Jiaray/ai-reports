@@ -34,9 +34,22 @@
   const FILTER_KEY = 'air-front-filter'; // 快速過濾選了哪些領域（["國際","財經"]）
   const want = query.get('f'); // 指定日期；沒有就開最新一天（書籤與主畫面固定開最新）
 
-  // 條目沿用報告頁速讀讀法的樣式；頭版固定藍圖外觀（報告頁的讀法、外觀選擇不影響頭版）
+  // 條目沿用報告頁速讀讀法的樣式（報告頁的讀法選擇不影響頭版）。外觀和報告頁共用 air-news-look：
+  // 記住的是「一般」就用一般（look-standard.js 把時間軸搬成頭條＋要聞卡片＋即時新聞）；「地圖」用地圖的樣式
+  // （使用者要求：色票、字型、報頭等高線與地圖風格的過濾標籤，全在 CSS；條目排法同藍圖），其他是藍圖。
+  // 部署後的快取空窗拿到舊 index.html（沒載入 look-standard.js、A.look 不在）時不列「一般」、照藍圖畫
+  const KEY_LOOK = 'air-news-look';
+  const LOOKS = [['blueprint', '藍圖'], ['atlas', '地圖'], ...(A.look ? [['standard', '一般']] : [])];
+  function storedLook() {
+    let v = null;
+    try { v = localStorage.getItem(KEY_LOOK); } catch (e) { /* 無痕或停用儲存：用預設 */ }
+    return LOOKS.some((x) => x[0] === v) ? v : LOOKS[0][0];
+  }
+  let look = storedLook();
+  const standard = () => look === 'standard';
+  const applyLook = () => root.setAttribute('data-look', look); // look 一定是 LOOKS 裡的值（storedLook 檢查過）
   root.setAttribute('data-read', 'scan');
-  root.setAttribute('data-look', 'blueprint');
+  applyLook();
   app.classList.add('fp');
 
   let index = null; // news/index.json；抓不到時為 null，類型資訊改用頭版檔自己的 reports
@@ -476,11 +489,10 @@
       })));
     });
     const groups = [...counts.keys()].sort(byGroup).map((g) => ({ g, n: counts.get(g) }));
-    show([
-      ...masthead(groups),
-      h('main', { id: 'main', class: 'fp-tl' }, tl.length ? tl : [h('p', { class: 'load-error' }, ['這天的頭版沒有條目。'])]),
-      footer(),
-    ]);
+    const main = h('main', { id: 'main', class: 'fp-tl' }, tl.length ? tl : [h('p', { class: 'load-error' }, ['這天的頭版沒有條目。'])]);
+    // 外觀「一般」：同一批條目搬成頭條＋要聞卡片＋週報與月報＋即時新聞（look-standard.js；只搬元素，過濾、展開、記看過都照舊）
+    if (standard() && A.look) A.look.arrangeFront(main);
+    show([...masthead(groups), main, footer()]);
     document.title = `頭版 ${dayLabel(front.date)}｜AI Reports`;
     opened.forEach((id) => {
       const d = document.getElementById(id);
@@ -608,36 +620,61 @@
   // 從往返快取（bfcache）回來時也檢查一次
   window.addEventListener('pageshow', (e) => { if (e.persisted) refresh(); });
 
-  // ── 右上角「版面」：只有「配色」一組（自動／淺色／深色，沿用 air-theme）。位置與行為同報告頁的「版面」
+  // ── 右上角「版面」：「外觀」（藍圖／地圖／一般，和報告頁共用 air-news-look；地圖在頭版只換樣式，條目排法同藍圖）
+  // 與「配色」（自動／淺色／深色，沿用 air-theme）兩組。位置與行為同報告頁的「版面」
   // （bar.js 的 dropdown：面板在按鈕正下方往下展開，打開時焦點移入、點外面或按 Esc 關閉、關閉後焦點回「版面」）；
   // 外觀直接用報告頁的 .dd-*／.vw-* 樣式（report.css 兩頁都會載入），id 用頭版自己的（fp-*）──
+  function setLook(v) {
+    const was = standard();
+    look = v;
+    try { localStorage.setItem(KEY_LOOK, v); } catch (e) { /* 無法儲存就只套用本頁 */ }
+    // 進出「一般」要重排條目（一般的頭條與卡片、藍圖／地圖的整點時間軸）；藍圖↔地圖只換 data-look（樣式全在 CSS）。
+    // 同報告頁用 view transition 淡入淡出（減少動態時 report.css 取消）
+    // 重畫時「版面」面板在 masthead() 組新工具列那一刻就搬家、焦點掉到 body（show() 記到的已是 body）：
+    // 先記住面板裡按下的那顆按鈕，畫完放回去，鍵盤使用者不會被丟回頁首
+    const swap = () => {
+      const focused = document.activeElement;
+      applyLook();
+      if (front && standard() !== was) render();
+      if (focused && focused.isConnected && focused !== document.activeElement) focused.focus({ preventScroll: true });
+    };
+    if (document.startViewTransition) document.startViewTransition(swap);
+    else swap();
+  }
   function layoutPanel() {
-    if (!A.THEMES) return; // 瀏覽器還快取著舊版 site.js：沒有配色可選，就不放按鈕
-    const buttons = A.THEMES.map(([value, text]) => {
-      const b = h('button', { type: 'button' }, [text]);
-      b.addEventListener('click', () => {
-        if (value !== A.getTheme()) A.setTheme(value); // 「自動」會刪掉儲存值（跟著系統），見 site.js
-        sync();
+    // 剛部署時瀏覽器可能還快取著舊版 site.js（沒有 THEMES）：少一組配色，不讓整頁卡住
+    const groups = [
+      ['外觀', LOOKS, () => look, setLook],
+      // 「自動」會刪掉儲存值（跟著系統），見 site.js；配色鈕的文字由 themeLabel 給（「自動」會註明目前是深色或淺色）
+      ...(A.THEMES ? [['配色', A.THEMES, A.getTheme, A.setTheme, A.themeLabel]] : []),
+    ].map(([label, list, get, set, labelOf], gi) => {
+      const buttons = list.map(([value, text]) => {
+        const b = h('button', { type: 'button' }, [text]);
+        b.addEventListener('click', () => {
+          if (value !== get()) set(value);
+          sync();
+        });
+        return [b, value];
       });
-      return [b, value];
+      const el = h('div', { class: 'vw-group', role: 'group', 'aria-labelledby': `fp-label-${gi}` }, [
+        h('span', { class: 'vw-label', id: `fp-label-${gi}` }, [label]),
+        h('div', { class: 'vw-seg' }, buttons.map((x) => x[0])),
+      ]);
+      return { el, buttons, get, labelOf };
     });
     // 選中狀態與「自動（深色）／自動（淺色）」的說明；別的分頁改配色、系統深淺改變時 site.js 發 air-theme
     function sync() {
-      const cur = A.getTheme();
-      buttons.forEach(([b, value]) => {
-        b.setAttribute('aria-pressed', String(value === cur));
-        if (A.themeLabel) b.textContent = A.themeLabel(value);
-      });
+      groups.forEach((g) => g.buttons.forEach(([b, value]) => {
+        b.setAttribute('aria-pressed', String(value === g.get()));
+        if (g.labelOf) b.textContent = g.labelOf(value);
+      }));
     }
     document.addEventListener('air-theme', sync);
     sync();
     fpBox = B.dropdown({
       cls: 'vw', id: 'fp-panel', title: '版面設定', closeLabel: '關閉版面設定',
       toggleKids: [h('span', { class: 'dd-ico', html: B.ICON.sliders }), h('span', { class: 'dd-txt' }, ['版面'])],
-      body: [h('div', { class: 'vw-group', role: 'group', 'aria-labelledby': 'fp-label-theme' }, [
-        h('span', { class: 'vw-label', id: 'fp-label-theme' }, ['配色']),
-        h('div', { class: 'vw-seg' }, buttons.map((x) => x[0])),
-      ])],
+      body: groups.map((g) => g.el),
       pick: (panel) => panel.querySelector('[aria-pressed=true]') || panel.querySelector('.vw-seg button'),
     });
   }

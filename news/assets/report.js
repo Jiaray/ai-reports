@@ -37,8 +37,10 @@
   let vwBox = null; // 「版面」按鈕＋面板（layoutPanel 建一次），每次重繪頁首那一列時放進最右邊
 
   // ── 版面：讀法 × 外觀，各取第一個為預設。這次只做這幾種（樣稿另有專注、日曆、直排）──
+  // 外觀「一般」（使用者的晨光日報規格）樣式在 look-standard.css；部署後的快取空窗拿到舊 index.html（沒載入
+  // look-standard.js、A.look 不在）時不列這個選項，記住的值不認得就退回藍圖
   const READS = [['full', '完整'], ['scan', '速讀'], ['timeline', '時間軸']];
-  const LOOKS = [['blueprint', '藍圖'], ['atlas', '地圖']];
+  const LOOKS = [['blueprint', '藍圖'], ['atlas', '地圖'], ...(A.look ? [['standard', '一般']] : [])];
   const KEY_READ = 'air-news-read';
   const KEY_LOOK = 'air-news-look';
   function stored(key, list) {
@@ -217,14 +219,15 @@
   }
 
   // 左欄時間：「11/18 14:20」拆成日期、時刻兩段（藍圖下看起來與原本的整串文字相同）；Today、Hot 這類字樣原樣。
-  // 日期跟這一期相同就只放時刻（日期已在左上角的日期按鈕）；時間軸的日期由分組標題負責，一律只放時刻
-  function rowTime(left, line) {
+  // 日期跟這一期相同就只放時刻（日期已在左上角的日期按鈕）；時間軸的日期由分組標題負責，一律只放時刻。
+  // 條目有 ts（台北時間 ISO）時用 <time datetime>，機器讀得到完整時間（樣式只看 .row-time，外觀不變）
+  function rowTime(left, line, ts) {
     const m = /^((\d{1,2})\/(\d{1,2}))(?:\s+(\d{1,2}:\d{2}))?$/.exec(left || '');
     if (!m) return h('span', { class: 'row-time' }, [h('span', { class: 'rt-txt' }, [left || ''])]);
     const kids = [];
     if (!line && monthDay(m[2], m[3]) !== issueMD) kids.push(h('span', { class: 'rt-d' }, [m[1]]));
     if (m[4]) kids.push(...(kids.length ? [' '] : []), h('span', { class: 'rt-hm' }, [m[4]]));
-    return h('span', { class: 'row-time' }, kids);
+    return h(ts ? 'time' : 'span', { class: 'row-time', datetime: ts || null }, kids);
   }
 
   // 長段落在句末（。！？）分段，提高閱讀舒適度：只在標籤、連結、粗體與引號括號之外斷開；
@@ -387,7 +390,7 @@
     if (o.peek) main.push(peek(it, tags, body, hot));
     else main.push(...(o.fold ? [fold(it, body)] : body));
     // 熱門新聞已有 HOT 徽章，左欄就不再重複「Hot」字樣
-    const left = hot && hot.from === 'left' ? h('span', { class: 'row-time' }) : rowTime(it.left, o.line);
+    const left = hot && hot.from === 'left' ? h('span', { class: 'row-time' }) : rowTime(it.left, o.line, it.ts);
     return h('article', { class: hot ? 'row is-hot' : 'row', id: `item-${it.no}`, 'data-k': o.line ? o.k : null }, [
       h('div', { class: 'row-left' }, [h('span', { class: 'row-no' }, [it.no]), left]),
       h('div', { class: 'row-main' }, main),
