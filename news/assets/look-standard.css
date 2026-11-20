@@ -69,7 +69,9 @@
 [data-look=standard] .vw-seg{gap:0;background:var(--border);border:var(--hair) solid var(--border);border-radius:var(--radius-sm);overflow:hidden}
 [data-look=standard] .vw-seg button{background:var(--surface);font:400 14px/1.2 var(--font-sans)}
 [data-look=standard] .vw-seg button+button{margin-left:var(--hair)}
-[data-look=standard] .vw-seg button[aria-pressed=true]{font-weight:500}
+/* 上一行的 --surface 底與 report.css 的選中規則同權重、又排在後面，會蓋掉選中的深底，剩下 --surface 字＝看不見；選中與 hover 在這裡重寫 */
+[data-look=standard] .vw-seg button[aria-pressed=true]{background:var(--vw-on-bg);color:var(--vw-on-fg);font-weight:500}
+@media(hover:hover){[data-look=standard] .vw-seg button[aria-pressed=false]:hover{background:var(--hover-bg)}}
 [data-look=standard] .vw-label{color:var(--text-3)}
 
 /* ── 共用小元件：分類標籤（12px、500、品牌紅）、熱門徽章（快訊標籤的樣式）、「新」 ── */
