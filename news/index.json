@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T16:52:05+08:00",
+ "updated_at": "2026-11-20T16:52:09+08:00",
  "series": [
   {
    "id": "general",
@@ -131,6 +131,18 @@
  ],
  "items": [
   {
+   "series": "finance",
+   "series_title": "財經日報",
+   "cadence": "daily",
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "title": "財經日報",
+   "lede": "台股重挫 2,393.6 點收 36,033.29 點，創史上第三大收盤跌點，單週跌 17.5%；10 月外銷訂單 1,238.2 億美元創單月新高、連 21 紅；美國 AI 晶片出口管制延伸至算力租賃。",
+   "count": 15,
+   "data": "finance/2026/2026-11-20.json",
+   "generated_at": "2026-11-20T16:52:09+08:00"
+  },
+  {
    "series": "gamedev",
    "series_title": "遊戲產業新聞",
    "cadence": "daily",
@@ -153,18 +165,6 @@
    "count": 15,
    "data": "security/2026/2026-11-20.json",
    "generated_at": "2026-11-20T16:51:59+08:00"
-  },
-  {
-   "series": "finance",
-   "series_title": "財經日報",
-   "cadence": "daily",
-   "period": "2026-11-20",
-   "date": "2026-11-20",
-   "title": "財經日報",
-   "lede": "台股再崩2393點收36033點、單週跌7641點；Anthropic上市先盛後衰引爆亞洲晶片股拋售；美國晶片出口新規生效，傳台積電暫停中國16奈米以下訂單。",
-   "count": 14,
-   "data": "finance/2026/2026-11-20.json",
-   "generated_at": "2026-11-20T15:47:25+08:00"
   },
   {
    "series": "github_weekly",
