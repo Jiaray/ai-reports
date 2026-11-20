@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T16:54:27+08:00",
+ "updated_at": "2026-11-20T16:54:32+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "taiwan_general",
+   "series_title": "台灣綜合新聞",
+   "cadence": "daily",
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "title": "台灣綜合新聞",
+   "lede": "立法院三讀普發現金 2 萬元與 6076 億元追加預算，並要求油電凍漲至 2028 年 1 月底；台股盤中失守 3 萬 6 千點；九合一選前一週，台灣向 Meta 通報近 2700 個疑似中國介選帳號。",
+   "count": 36,
+   "data": "taiwan_general/2026/2026-11-20.json",
+   "generated_at": "2026-11-20T16:54:32+08:00"
+  },
   {
    "series": "reading_list",
    "series_title": "閱讀清單",

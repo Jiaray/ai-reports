@@ -1,0 +1,17 @@
+{
+ "schema": 1,
+ "series": "taiwan_general",
+ "title": "台灣綜合新聞",
+ "group": "台灣",
+ "cadence": "daily",
+ "updated_at": "2026-11-20T16:54:32+08:00",
+ "items": [
+  {
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "count": 36,
+   "data": "taiwan_general/2026/2026-11-20.json",
+   "generated_at": "2026-11-20T16:54:32+08:00"
+  }
+ ]
+}
