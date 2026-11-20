@@ -211,10 +211,10 @@
 
   // ── 一則條目 ──────────────────────────────────────────────────────
   // 左緣一條領域色線；summary 第一行是類型＋時刻（週報月報是期別），接著標題。每輪第一順位（原本的「要聞」）
-  // 淡底色、標題大一號，收合時先露兩行摘要；點開看完整摘要、來源與「看原文／看解讀」。
+  // 淡底色、標題大一號，收合時先露兩行摘要；點開看完整摘要、來源與「看原文／看 AI 解讀」。
   // 原生 <details>：鍵盤、報讀器、「在頁面中尋找」（收合的摘要也搜得到、找到時自動展開）都直接可用。
   // summary 裡的標題用 span、不用 h3（同報告頁速讀：部分螢幕閱讀器把 summary 當按鈕，會丟掉裡面的標題），也不放連結。
-  // o.id：元素 id；o.types：類型 id（第一個決定色線）；o.stamp：類型後面的灰字節點；o.lead：要聞；o.isNew：標「新」；o.read：「看解讀」網址；
+  // o.id：元素 id；o.types：類型 id（第一個決定色線）；o.stamp：類型後面的灰字節點；o.lead：要聞；o.isNew：標「新」；o.read：「看 AI 解讀」網址；
   // o.key：頭版條目的 key（記「看過」用，週報月報沒有）。data-fq 是這則所屬的領域（各類型的 group，空白分隔），快速過濾比對用
   function tlRow(it, o) {
     const hot = hotInfo(it);
@@ -228,7 +228,7 @@
     });
     if (it.heat && !(hot && hot.from === 'heat')) acts.push(h('span', { class: 'tag tag-outline' }, [it.heat]));
     if (it.url) acts.push(h('a', { class: 'fp-act', href: it.url, target: '_blank', rel: 'noopener' }, ['看原文 ↗']));
-    if (o.read) acts.push(h('a', { class: 'fp-act', href: o.read }, ['看解讀']));
+    if (o.read) acts.push(h('a', { class: 'fp-act', href: o.read }, ['看 AI 解讀']));
     const body = [];
     if (it.summary_html) {
       body.push(h('div', { class: 'row-sum' }, paragraphs(it.summary_html).map((x) => h('p', { html: x }))));

@@ -39,9 +39,9 @@
 .chap-toggle:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:4px}
 
 /* ── 外觀：地圖的設計代幣（淺色、深色；--c1…--c10 是分區色，--contour-img 是報頭的等高線裝飾） ── */
-:root[data-look=atlas]{--font-heading:"Avenir Next","Segoe UI",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-body:-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-num:"Avenir Next","Segoe UI",sans-serif;--color-bg:#f6f7f4;--color-text:#1f2a2e;--color-divider:#d3dad8;--color-accent:#1d5f8a;--color-neutral-100:#eef1ee;--color-neutral-200:#e4e9e6;--color-neutral-300:#c4ceca;--color-neutral-600:#5d6d72;--color-neutral-700:#48565b;--color-neutral-800:#2f3b40;--color-accent-100:#e2eef5;--color-accent-200:#c3dceb;--color-accent-300:#8fbad6;--color-accent-600:#1d5f8a;--color-accent-700:#174e72;--color-accent-800:#113a55;--color-accent-900:#0b2638;--color-hot:#b3261e;--color-good:#2e7d32;--tab-bg:transparent;--tab-fg:#1f2a2e;--tab-span:#5d6d72;--tag-neutral-fg:#48565b;--c1:#c0392b;--c2:#ae5510;--c3:#387c32;--c4:#0e7b7a;--c5:#89690e;--c6:#7b4fa3;--c7:#2f6db5;--c8:#b23f7a;--c9:#7a5a43;--c10:#53687a;--contour-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 360' fill='none' stroke='%23cbd5d1' stroke-width='1.2'%3E%3Cpath d='M300 60c70-10 150 20 170 80s-30 130-110 140-170-20-190-80 60-130 130-140zM305 86c55-8 118 16 134 63s-24 102-87 110-134-16-150-63 48-102 103-110zM310 111c40-6 86 12 98 46s-17 75-64 81-98-12-110-46 35-75 76-81zM316 135c25-4 54 7 61 29s-11 47-40 51-61-7-69-29 22-47 48-51zM322 158c12-2 26 3 30 14s-5 23-20 25-30-3-34-14 11-23 24-25zM20 300c40-40 120-60 180-40s100 60 160 70 120-10 150-34M10 332c50-45 140-70 205-48s110 66 175 76 120-14 150-40M60 250c30-24 80-34 120-22s70 40 110 44'/%3E%3C/svg%3E")}
-@media(prefers-color-scheme:dark){:root[data-look=atlas]:not([data-theme=light]){--font-heading:"Avenir Next","Segoe UI",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-body:-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-num:"Avenir Next","Segoe UI",sans-serif;--color-bg:#151a1c;--color-text:#e2e8e9;--color-divider:#2c383c;--color-accent:#7fb6dd;--color-neutral-100:#1b2224;--color-neutral-200:#222a2d;--color-neutral-300:#36423f;--color-neutral-600:#93a4a9;--color-neutral-700:#aebcc0;--color-neutral-800:#cdd6d8;--color-accent-100:#16303f;--color-accent-200:#1d3e52;--color-accent-300:#2c5a76;--color-accent-600:#7fb6dd;--color-accent-700:#9cc8e6;--color-accent-800:#bfdcf0;--color-accent-900:#dceefa;--color-hot:#f2877c;--color-good:#7cc683;--tab-bg:transparent;--tab-fg:#e2e8e9;--tab-span:#93a4a9;--tag-neutral-fg:#aebcc0;--c1:#ef7f72;--c2:#efa25e;--c3:#82c27a;--c4:#4fc4c1;--c5:#d8b54f;--c6:#b896e3;--c7:#7eaaee;--c8:#e982b6;--c9:#c79f80;--c10:#9db1c2;--contour-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 360' fill='none' stroke='%2326332f' stroke-width='1.2'%3E%3Cpath d='M300 60c70-10 150 20 170 80s-30 130-110 140-170-20-190-80 60-130 130-140zM305 86c55-8 118 16 134 63s-24 102-87 110-134-16-150-63 48-102 103-110zM310 111c40-6 86 12 98 46s-17 75-64 81-98-12-110-46 35-75 76-81zM316 135c25-4 54 7 61 29s-11 47-40 51-61-7-69-29 22-47 48-51zM322 158c12-2 26 3 30 14s-5 23-20 25-30-3-34-14 11-23 24-25zM20 300c40-40 120-60 180-40s100 60 160 70 120-10 150-34M10 332c50-45 140-70 205-48s110 66 175 76 120-14 150-40M60 250c30-24 80-34 120-22s70 40 110 44'/%3E%3C/svg%3E")}}
-:root[data-look=atlas][data-theme=dark]{--font-heading:"Avenir Next","Segoe UI",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-body:-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-num:"Avenir Next","Segoe UI",sans-serif;--color-bg:#151a1c;--color-text:#e2e8e9;--color-divider:#2c383c;--color-accent:#7fb6dd;--color-neutral-100:#1b2224;--color-neutral-200:#222a2d;--color-neutral-300:#36423f;--color-neutral-600:#93a4a9;--color-neutral-700:#aebcc0;--color-neutral-800:#cdd6d8;--color-accent-100:#16303f;--color-accent-200:#1d3e52;--color-accent-300:#2c5a76;--color-accent-600:#7fb6dd;--color-accent-700:#9cc8e6;--color-accent-800:#bfdcf0;--color-accent-900:#dceefa;--color-hot:#f2877c;--color-good:#7cc683;--tab-bg:transparent;--tab-fg:#e2e8e9;--tab-span:#93a4a9;--tag-neutral-fg:#aebcc0;--c1:#ef7f72;--c2:#efa25e;--c3:#82c27a;--c4:#4fc4c1;--c5:#d8b54f;--c6:#b896e3;--c7:#7eaaee;--c8:#e982b6;--c9:#c79f80;--c10:#9db1c2;--contour-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 360' fill='none' stroke='%2326332f' stroke-width='1.2'%3E%3Cpath d='M300 60c70-10 150 20 170 80s-30 130-110 140-170-20-190-80 60-130 130-140zM305 86c55-8 118 16 134 63s-24 102-87 110-134-16-150-63 48-102 103-110zM310 111c40-6 86 12 98 46s-17 75-64 81-98-12-110-46 35-75 76-81zM316 135c25-4 54 7 61 29s-11 47-40 51-61-7-69-29 22-47 48-51zM322 158c12-2 26 3 30 14s-5 23-20 25-30-3-34-14 11-23 24-25zM20 300c40-40 120-60 180-40s100 60 160 70 120-10 150-34M10 332c50-45 140-70 205-48s110 66 175 76 120-14 150-40M60 250c30-24 80-34 120-22s70 40 110 44'/%3E%3C/svg%3E")}
+:root[data-look=atlas]{--font-heading:"Avenir Next","Segoe UI","Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-body:"Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-num:"Avenir Next","Segoe UI",sans-serif;--color-bg:#f6f7f4;--color-text:#1f2a2e;--color-divider:#d3dad8;--color-accent:#1d5f8a;--color-neutral-100:#eef1ee;--color-neutral-200:#e4e9e6;--color-neutral-300:#c4ceca;--color-neutral-600:#5d6d72;--color-neutral-700:#48565b;--color-neutral-800:#2f3b40;--color-accent-100:#e2eef5;--color-accent-200:#c3dceb;--color-accent-300:#8fbad6;--color-accent-600:#1d5f8a;--color-accent-700:#174e72;--color-accent-800:#113a55;--color-accent-900:#0b2638;--color-hot:#b3261e;--color-good:#2e7d32;--tab-bg:transparent;--tab-fg:#1f2a2e;--tab-span:#5d6d72;--tag-neutral-fg:#48565b;--c1:#c0392b;--c2:#ae5510;--c3:#387c32;--c4:#0e7b7a;--c5:#89690e;--c6:#7b4fa3;--c7:#2f6db5;--c8:#b23f7a;--c9:#7a5a43;--c10:#53687a;--contour-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 360' fill='none' stroke='%23cbd5d1' stroke-width='1.2'%3E%3Cpath d='M300 60c70-10 150 20 170 80s-30 130-110 140-170-20-190-80 60-130 130-140zM305 86c55-8 118 16 134 63s-24 102-87 110-134-16-150-63 48-102 103-110zM310 111c40-6 86 12 98 46s-17 75-64 81-98-12-110-46 35-75 76-81zM316 135c25-4 54 7 61 29s-11 47-40 51-61-7-69-29 22-47 48-51zM322 158c12-2 26 3 30 14s-5 23-20 25-30-3-34-14 11-23 24-25zM20 300c40-40 120-60 180-40s100 60 160 70 120-10 150-34M10 332c50-45 140-70 205-48s110 66 175 76 120-14 150-40M60 250c30-24 80-34 120-22s70 40 110 44'/%3E%3C/svg%3E")}
+@media(prefers-color-scheme:dark){:root[data-look=atlas]:not([data-theme=light]){--font-heading:"Avenir Next","Segoe UI","Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-body:"Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-num:"Avenir Next","Segoe UI",sans-serif;--color-bg:#151a1c;--color-text:#e2e8e9;--color-divider:#2c383c;--color-accent:#7fb6dd;--color-neutral-100:#1b2224;--color-neutral-200:#222a2d;--color-neutral-300:#36423f;--color-neutral-600:#93a4a9;--color-neutral-700:#aebcc0;--color-neutral-800:#cdd6d8;--color-accent-100:#16303f;--color-accent-200:#1d3e52;--color-accent-300:#2c5a76;--color-accent-600:#7fb6dd;--color-accent-700:#9cc8e6;--color-accent-800:#bfdcf0;--color-accent-900:#dceefa;--color-hot:#f2877c;--color-good:#7cc683;--tab-bg:transparent;--tab-fg:#e2e8e9;--tab-span:#93a4a9;--tag-neutral-fg:#aebcc0;--c1:#ef7f72;--c2:#efa25e;--c3:#82c27a;--c4:#4fc4c1;--c5:#d8b54f;--c6:#b896e3;--c7:#7eaaee;--c8:#e982b6;--c9:#c79f80;--c10:#9db1c2;--contour-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 360' fill='none' stroke='%2326332f' stroke-width='1.2'%3E%3Cpath d='M300 60c70-10 150 20 170 80s-30 130-110 140-170-20-190-80 60-130 130-140zM305 86c55-8 118 16 134 63s-24 102-87 110-134-16-150-63 48-102 103-110zM310 111c40-6 86 12 98 46s-17 75-64 81-98-12-110-46 35-75 76-81zM316 135c25-4 54 7 61 29s-11 47-40 51-61-7-69-29 22-47 48-51zM322 158c12-2 26 3 30 14s-5 23-20 25-30-3-34-14 11-23 24-25zM20 300c40-40 120-60 180-40s100 60 160 70 120-10 150-34M10 332c50-45 140-70 205-48s110 66 175 76 120-14 150-40M60 250c30-24 80-34 120-22s70 40 110 44'/%3E%3C/svg%3E")}}
+:root[data-look=atlas][data-theme=dark]{--font-heading:"Avenir Next","Segoe UI","Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-body:"Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-num:"Avenir Next","Segoe UI",sans-serif;--color-bg:#151a1c;--color-text:#e2e8e9;--color-divider:#2c383c;--color-accent:#7fb6dd;--color-neutral-100:#1b2224;--color-neutral-200:#222a2d;--color-neutral-300:#36423f;--color-neutral-600:#93a4a9;--color-neutral-700:#aebcc0;--color-neutral-800:#cdd6d8;--color-accent-100:#16303f;--color-accent-200:#1d3e52;--color-accent-300:#2c5a76;--color-accent-600:#7fb6dd;--color-accent-700:#9cc8e6;--color-accent-800:#bfdcf0;--color-accent-900:#dceefa;--color-hot:#f2877c;--color-good:#7cc683;--tab-bg:transparent;--tab-fg:#e2e8e9;--tab-span:#93a4a9;--tag-neutral-fg:#aebcc0;--c1:#ef7f72;--c2:#efa25e;--c3:#82c27a;--c4:#4fc4c1;--c5:#d8b54f;--c6:#b896e3;--c7:#7eaaee;--c8:#e982b6;--c9:#c79f80;--c10:#9db1c2;--contour-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 360' fill='none' stroke='%2326332f' stroke-width='1.2'%3E%3Cpath d='M300 60c70-10 150 20 170 80s-30 130-110 140-170-20-190-80 60-130 130-140zM305 86c55-8 118 16 134 63s-24 102-87 110-134-16-150-63 48-102 103-110zM310 111c40-6 86 12 98 46s-17 75-64 81-98-12-110-46 35-75 76-81zM316 135c25-4 54 7 61 29s-11 47-40 51-61-7-69-29 22-47 48-51zM322 158c12-2 26 3 30 14s-5 23-20 25-30-3-34-14 11-23 24-25zM20 300c40-40 120-60 180-40s100 60 160 70 120-10 150-34M10 332c50-45 140-70 205-48s110 66 175 76 120-14 150-40M60 250c30-24 80-34 120-22s70 40 110 44'/%3E%3C/svg%3E")}
 
 /* ── 版面面板（報頭上方那一列右端的按鈕，面板往下展開、靠右對齊）；--sec-c 是條目所屬分區的顏色，藍圖一律用主色 ──
    面板就放在按鈕正下方的一般 DOM 裡、用 absolute 定位：按鈕永遠在內容欄右緣，靠右展開不會超出畫面，不需要 anchor positioning */
@@ -156,8 +156,8 @@
 [data-look=atlas] .rt-d{display:block;font-size:12px;color:var(--color-neutral-600)}
 [data-look=atlas] .rt-hm{display:block;font-size:16px;color:var(--color-text)}
 [data-look=atlas] .row-title{font:700 20px/1.45 var(--font-heading)}
-[data-look=atlas] .row-sum{font:400 16.5px/1.85 var(--font-body)}
-[data-look=atlas] .row-dive{border-left:0;padding:var(--space-3) var(--space-4);background:var(--color-neutral-200);color:var(--color-neutral-800);font:400 15.5px/1.85 var(--font-body)}
+[data-look=atlas] .row-sum{font:400 16.5px/1.7 var(--font-body)}
+[data-look=atlas] .row-dive{border-left:0;padding:var(--space-3) var(--space-4);background:var(--color-neutral-200);color:var(--color-neutral-800);font:400 16px/1.7 var(--font-body)}
 [data-look=atlas] .dive-label{color:var(--color-text);font:700 13px/1 var(--font-body);letter-spacing:.06em}
 [data-look=atlas] .dive-label::before{content:"";display:inline-block;width:8px;height:8px;margin-right:6px;background:var(--sec-c);vertical-align:1px}
 [data-look=atlas] .tag{font:600 12px/1.5 var(--font-body);letter-spacing:.02em}
@@ -166,15 +166,33 @@
 @media(max-width:40em){
 [data-look=atlas] .masthead{padding-top:var(--space-6);background-size:360px auto;background-position:right -110px top -30px}
 [data-look=atlas] .mast-title{font-size:28.9px}
-[data-look=atlas] .row{grid-template-columns:44px 1fr;padding-left:var(--space-3)}
+[data-look=atlas] .row{grid-template-columns:48px 1fr;padding-left:var(--space-3)}
+/* 時刻 16px 約 46px 寬，44px 的左欄放不下會被拆成「22:0／0」兩行 */
+[data-look=atlas] .rt-hm{white-space:nowrap}
 }
 
-/* ── 閱讀舒適度（所有版面）：摘要與解讀由 report.js 在句末分段，段與段之間空約半行；
+/* ── 閱讀舒適度（所有版面）：摘要與解讀由 report.js 在句末分段。
+   內文排版（使用者要求易讀）：行高 1.7（行與行之間空 0.7 字），段距 .75em，段落之間明顯大於行距，一眼分得出段落；
+   不用兩端對齊：窄欄中英混排時，瀏覽器會把整行中文字距拉開（「塞 內 加 爾」），比右緣參差更難讀；
+   行首的「（等全形括號只佔半格（text-spacing-trim，不支援的瀏覽器照舊）；句尾標點可懸在行尾（hanging-punctuation，Safari）；
+   摘要、重點、表格、AI 解讀、收集來源之間比標題與來源標籤之間多空一點，區塊分得開；
    另參獨立一行、字小一號，不再接在摘要尾巴斷行。
    中文內文不用 text-wrap:pretty：iOS（WebKit，iPhone 上的 Chrome 也是）會整段平衡右緣，
    每行提早兩三個字換行、右側留一條空白（使用者回報）；Blink 只調最後幾行，差別不大 ── */
 .row-sum p,.row-dive p{margin:0}
-.row-sum p+p,.row-dive p+p{margin-top:.6em}
+.row-sum p+p,.row-dive p+p{margin-top:.75em}
+:is(.row-sum,.row-dive,.row-bullets,.sec-note,.teaser,.fp-pre){text-spacing-trim:trim-start;hanging-punctuation:allow-end}
+:is(.row-main,.more-body)>:is(.row-bullets,.tbl,.row-dive,.row-srcs){margin-top:var(--space-2)}
+/* 手機（完整讀法，藍圖與地圖）：編號＋時刻只佔標題旁邊，摘要、重點、AI 解讀與收集來源往左延伸到整個條目寬度
+   （使用者要求易讀：原本內文被左欄擠到一行約 18 字，英文名稱一多就提早換行；放寬後約 20–21 字一行）。
+   做法同一般外觀：.row-main 改 display:contents，標題與來源標籤留在右欄，其餘跨兩欄 */
+@media(max-width:40em){
+  [data-read=full]:not([data-look=standard]) .row{row-gap:var(--space-2)}
+  [data-read=full]:not([data-look=standard]) .row-left{grid-row:1;grid-column:1}
+  [data-read=full]:not([data-look=standard]) .row-main{display:contents}
+  [data-read=full]:not([data-look=standard]) .row-main>*{grid-column:1 / -1}
+  [data-read=full]:not([data-look=standard]) .row-main>:is(.row-title,.tags){grid-column:2}
+}
 .row-also{margin:0;font:400 14px/1.8 var(--font-body);color:var(--color-neutral-600)}
 /* 單則條目最後的收集來源（多家報導、另參、其餘連結）：正文（摘要、重點、解讀）連貫讀完再看來源（使用者要求） */
 .row-srcs{display:flex;flex-direction:column;gap:2px}
@@ -190,11 +208,11 @@
 [data-look=atlas] .srcs-list .tag{display:inline;background:none;padding:0;font:inherit;color:inherit;letter-spacing:0}
 [data-look=atlas] .srcs-list .tag:not(:last-child)::after{content:"、"}
 
-/* ── 時間軸：摘要預覽四行、其餘收在「看解讀」後面（只有時間軸會產生 .more、.teaser） ── */
+/* ── 時間軸：摘要預覽四行、其餘收在「看 AI 解讀」後面（只有時間軸會產生 .more、.teaser） ── */
 .more>summary{list-style:none}
 .more>summary::-webkit-details-marker{display:none}
 .more-sum{display:block;cursor:pointer}
-.teaser{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;line-clamp:4;overflow:hidden;font:400 15px/1.75 var(--font-body);color:var(--color-neutral-700)}
+.teaser{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;line-clamp:4;overflow:hidden;font:400 15px/1.65 var(--font-body);color:var(--color-neutral-700)}
 .teaser-all{display:block;margin:0}
 .more-hint{display:block;margin-top:2px;font:500 13px/1.7 var(--font-body);color:var(--color-accent-700)}
 .mh-c{display:none}

@@ -294,7 +294,7 @@
     return t.content.textContent.replace(/\s+/g, ' ').trim();
   }
 
-  // 時間軸：摘要收成兩行，點「看解讀」展開完整摘要、重點、解讀與收集來源；只有摘要可看時整段列出、不必展開
+  // 時間軸：摘要收成兩行，點「看 AI 解讀」展開完整摘要、重點、解讀與收集來源；只有摘要可看時整段列出、不必展開
   function fold(it, body) {
     const more = (it.also || []).length || (it.also_more || []).length || (it.bullets_html || []).length
       || it.table || it.dive_html;
@@ -303,7 +303,7 @@
       h('summary', { class: 'more-sum' }, [
         it.summary_html ? h('span', { class: 'teaser' }, [plainText(it.summary_html)]) : null,
         h('span', { class: 'more-hint' }, [
-          h('span', { class: 'mh-o' }, [it.dive_html ? '看解讀' : '看更多']),
+          h('span', { class: 'mh-o' }, [it.dive_html ? '看 AI 解讀' : '看更多']),
           h('span', { class: 'mh-c' }, ['收起']),
         ]),
       ]),
@@ -330,7 +330,7 @@
     ]);
   }
 
-  // 一則條目。o.peek：速讀（只列標題，點標題展開）；o.fold：時間軸（兩行摘要＋「看解讀」，不列來源標籤，同樣稿）；
+  // 一則條目。o.peek：速讀（只列標題，點標題展開）；o.fold：時間軸（兩行摘要＋「看 AI 解讀」，不列來源標籤，同樣稿）；
   // o.line：時間軸（標分區名稱，data-k 給地圖外觀依分區上色）
   function row(it, o = {}) {
     const hot = hotInfo(it); // 徽章的出處（「爆」熱度、紅色標籤）不再另列成標籤
@@ -369,7 +369,7 @@
     if (it.dive_html) {
       const ps = paragraphs(it.dive_html).map((x) => h('p', { html: x }));
       if (ps.length) {
-        ps[0].prepend(h('span', { class: 'dive-label' }, ['解讀']));
+        ps[0].prepend(h('span', { class: 'dive-label' }, ['AI 解讀']));
         body.push(h('div', { class: 'row-dive' }, ps));
       }
     }

@@ -93,11 +93,11 @@
 .fp-tm::before{content:"・";margin-right:2px}
 .fp-it.is-lead{padding:10px 12px;background:var(--color-accent-100)}
 .fp-it.is-lead .row-title{font-size:18px;line-height:1.5}
-.fp-pre{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden;margin-top:3px;font:400 14.5px/1.75 var(--font-body);color:var(--color-neutral-800)}
+.fp-pre{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden;margin-top:3px;font:400 15px/1.6 var(--font-body);color:var(--color-neutral-800)}
 .fp-it .peek[open] .fp-pre{display:none}
 /* 「新」緊接在標題文字後面（使用者定案：手機、桌機都一樣，不靠右） */
 .fp-new{display:inline-block;margin-left:8px;padding:0 6px;vertical-align:2px;background:var(--color-accent-600);color:var(--color-bg);font:700 11px/1.7 var(--font-body);letter-spacing:.06em;white-space:nowrap}
-/* 展開後：摘要，接著一行「來源、標籤、熱度、看原文 ↗、看解讀」 */
+/* 展開後：摘要，接著一行「來源、標籤、熱度、看原文 ↗、看 AI 解讀」 */
 .fp-acts{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-1) var(--space-4);margin-top:var(--space-1)}
 .fp-act{display:inline-flex;align-items:center;min-height:32px;font:600 14px/1.3 var(--font-body);color:var(--color-accent-700)}
 .fp-act:hover{color:var(--color-accent-800);text-decoration:underline}
