@@ -3,8 +3,8 @@
    按整點分組（黏頂的「10:00」標題），每則左緣一條領域色線；每輪第一順位（原本的「要聞」）淡底色、標題大一號、露兩行摘要。
    條目沿用報告頁速讀的 .peek／.row-title／.row-sum／.hot-badge（front.js 在頭版替 <html> 設 data-read="scan"）。
    這支檔案和報告頁共用一個 index.html，所以只寫 .fp／.fp-* 開頭的選擇器：不碰 :root 的 color-scheme、
-   不寫 html 的 scroll-padding（工具列凍結用的在 report.css，兩頁共用）；工具列、大標題與「版面」沿用報告頁的
-   .editions／.ed-link／.chap-*／.dd-*／.vw-*，報告頁的外觀完全不受影響。 */
+   不寫 html 的 scroll-padding（工具列凍結用的在 report.css，兩頁共用）；工具列與「版面」沿用報告頁的
+   .editions／.ed-link／.dd-*／.vw-*，大標題右邊的快速過濾標籤是頭版自己的 .fp-fq／.fp-chip，報告頁的外觀完全不受影響。 */
 
 /* 領域色（色線與類型名稱）：淺色底、深色底各一組，對比度都在 4.5:1 以上。變數掛在頭版的 #app.fp 上，不放 :root */
 .fp{--g-gen:#53687a;--g-intl:#2f6db5;--g-fin:#a04f0f;--g-tech:#0c7372;--g-oss:#7b4fa3;--g-game:#b23f7a;--g-tw:#337431;--g-topic:#7a5a43}
@@ -20,8 +20,59 @@
 .fp [data-group="主題"]{--g-c:var(--g-topic)}
 
 /* ── 報頭：和報告頁同一套（.stale 非當期提示、.editions 工具列、.masthead 大標題，樣式在 report.css／site.css）：
-   工具列「日期｜本日新聞｜本週新聞｜版面」凍結在頂端，大標題「頭版」點開是本頁時段。不是今天時最上面是非當期提示，
+   工具列「日期｜本日新聞｜本週新聞｜版面」凍結在頂端。不是今天時最上面是非當期提示，
    今天還沒出刊、開的是最近一期時提示後面接「今天還沒有頭版，這是最近一期」（原本大標題下面那一行併進來） ── */
+
+/* ── 大標題「頭版」（沒有下拉）＋右邊的快速過濾標籤（使用者選定：依領域、可多選）。標籤列佔標題右邊剩下的寬度，
+   放不下時在右邊換行（不跑到標題下面，也不橫向捲動）；上下邊距同大標題，兩者垂直置中對齊。
+   標籤是藍圖的方角外框：前面一個領域色塊（同條目左緣的色線），按下時整顆填滿領域色、字用底色（領域色對底色 4.5:1 以上，
+   反過來也一樣）、色塊換成勾（不只靠顏色）。高度貼合字級（使用者要求：上下只留 3px，約 22px 高）。
+   手機（≤40em）拿掉則數、內距收窄。狀態一律看 aria-pressed，不另加 class ── */
+.fp-head{display:flex;align-items:center;column-gap:20px}
+.fp-head .mast-title{flex:none}
+.fp-fq{flex:1 1 0;min-width:0;display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:var(--space-3) 0 var(--space-2)}
+.fp-chip{position:relative;display:inline-flex;align-items:center;gap:5px;padding:3px 8px;background:transparent;color:var(--color-neutral-700);border:1px solid var(--color-neutral-300);border-radius:0;font:500 14px/1 var(--font-heading);letter-spacing:.02em;white-space:nowrap;cursor:pointer}
+.fp-chip-mk{display:grid;place-items:center;flex:none;width:12px;height:12px}
+.fp-chip-mk::before{content:"";width:8px;height:8px;background:var(--g-c,var(--color-accent-600))}
+.fp-chip-mk svg{display:none}
+.fp-chip-n{font:500 12px/1 var(--font-body);color:var(--color-neutral-600)}
+.fp-chip[aria-pressed=true]{background:var(--g-c,var(--color-accent-600));border-color:var(--g-c,var(--color-accent-600));color:var(--color-bg)}
+.fp-chip[aria-pressed=true] .fp-chip-mk::before{display:none}
+.fp-chip[aria-pressed=true] .fp-chip-mk svg{display:block}
+.fp-chip[aria-pressed=true] .fp-chip-n{color:inherit}
+.fp-fq-clear{position:relative;padding:3px 4px;background:transparent;color:var(--color-accent-700);border:0;border-radius:0;font:500 14px/1 var(--font-body);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
+@media(hover:hover){
+.fp-chip[aria-pressed=false]:hover{background:var(--color-accent-100);color:var(--color-text)}
+.fp-fq-clear:hover{color:var(--color-accent-800)}
+}
+.fp-chip:focus-visible,.fp-fq-clear:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
+.fp-tl [hidden]{display:none}
+/* 地圖外觀（使用者要求：外觀選地圖時，標籤也要有地圖的風格）：地圖的報頭本來上下排，這裡改回標題左、標籤右；
+   標籤改成地圖的實心淺底方塊（同地圖的灰底標籤：沒有外框、內文字型、粗一級），色塊大一點，按下一樣填滿領域色；
+   則數用地圖的數字字型、深一階（淺底上 4.5:1 以上）；條目左緣的色線加粗成地圖的 4px */
+[data-look=atlas] .fp-head{flex-direction:row;align-items:center}
+[data-look=atlas] .fp-fq{margin:0}
+[data-look=atlas] .fp-chip{gap:6px;padding:4px 8px;background:var(--color-neutral-200);border:0;color:var(--color-neutral-800);font:600 13px/1 var(--font-body)}
+[data-look=atlas] .fp-chip-mk::before{width:9px;height:9px}
+[data-look=atlas] .fp-chip-n{font-family:var(--font-num);color:var(--color-neutral-700)}
+[data-look=atlas] .fp-chip[aria-pressed=true]{background:var(--g-c,var(--color-accent-600));color:var(--color-bg)}
+[data-look=atlas] .fp-chip[aria-pressed=true] .fp-chip-n{color:inherit}
+[data-look=atlas] .fp-it{border-left-width:4px}
+@media(hover:hover){[data-look=atlas] .fp-chip[aria-pressed=false]:hover{background:var(--color-accent-100);color:var(--color-text)}}
+/* 手機：7 個領域在 360px 以上排成兩列（每顆約 54px：內距、色塊、間距都收小一點） */
+@media(max-width:40em){
+.fp-head{column-gap:12px}
+.fp-fq{gap:4px}
+.fp-chip{gap:4px;padding:3px 6px;font-size:13px}
+.fp-chip-mk{width:10px;height:10px}
+.fp-chip-mk::before{width:7px;height:7px}
+.fp-chip-mk svg{width:10px;height:10px}
+.fp-chip-n{display:none}
+[data-look=atlas] .fp-chip{gap:4px;padding:4px 6px}
+[data-look=atlas] .fp-chip-mk::before{width:8px;height:8px}
+}
+/* 強制色彩模式（Windows 高對比）：底色會被換掉，按下的標籤改用系統色框線標出（勾仍在） */
+@media(forced-colors:active){.fp-chip[aria-pressed=true]{outline:2px solid Highlight;outline-offset:-4px}}
 
 /* ── 時間軸：每個時段一個 .fp-sec，整點標題在自己那段黏在工具列下面（--bar-h，bar.js 量的；底色蓋住捲過去的條目），
    下一段把它推上去；不是頭版那天的時段加註日期 ── */
@@ -65,3 +116,9 @@
 
 /* 觸控螢幕：可點的東西至少 44px（同報告頁）；放在檔尾才蓋得過前面同權重的高度 */
 @media(pointer:coarse){.fp-act{min-height:44px}}
+/* 觸控：使用者要求兩列緊密（列距 6px，不為 44px 拉開）。可點範圍用透明的 ::after 上下各補 3px（列距的一半），
+   約 27–28px 高（WCAG 2.5.8 最低 24px），上下兩列的可點範圍剛好接上、不重疊 */
+@media(pointer:coarse){
+.fp-fq{row-gap:6px}
+.fp-chip::after,.fp-fq-clear::after{content:"";position:absolute;left:0;right:0;top:-3px;bottom:-3px}
+}

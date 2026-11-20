@@ -9,7 +9,7 @@
 .editions{display:flex;align-items:center;gap:var(--space-2);border-top:3px solid var(--color-text);padding-top:var(--space-2)}
 .editions+.masthead{border-top:0;padding-top:0}
 /* 工具列凍結在頂端（使用者要求：不要隨著網頁捲動消失）：底色蓋住捲過去的內容，捲離頂端時底下一條細線（bar.js 加 .is-stuck）。
-   --bar-h 是 bar.js 量到的工具列高度：錨點跳轉（章節、時段、#item-NN）停在工具列下面，頭版的整點標題黏在它下面 */
+   --bar-h 是 bar.js 量到的工具列高度：錨點跳轉（章節、#item-NN）停在工具列下面，頭版的整點標題黏在它下面 */
 .editions{position:sticky;top:0;z-index:20;background:var(--color-bg)}
 .editions.is-stuck{box-shadow:0 1px 0 var(--color-divider)}
 :root{scroll-padding-top:calc(var(--bar-h, 0px) + 8px)}

@@ -31,6 +31,7 @@
   const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
   const SEEN_KEY = 'air-front-seen';
   const SEEN_DAYS = 7;
+  const FILTER_KEY = 'air-front-filter'; // 快速過濾選了哪些領域（["國際","財經"]）
   const want = query.get('f'); // 指定日期；沒有就開最新一天（書籤與主畫面固定開最新）
 
   // 條目沿用報告頁速讀讀法的樣式；頭版固定藍圖外觀（報告頁的讀法、外觀選擇不影響頭版）
@@ -59,6 +60,13 @@
     return order.includes(id) ? order.indexOf(id) : order.length;
   }
   const bySeries = (a, b) => seriesRank(a) - seriesRank(b) || (a < b ? -1 : a > b ? 1 : 0);
+  // 領域順序：series 裡第一次出現的順序（＝選單順序）；不在裡面的排最後、彼此依名稱排
+  function groupRank(g) {
+    const order = [];
+    ((index && index.series) || []).forEach((s) => { if (s && s.group && !order.includes(s.group)) order.push(s.group); });
+    return order.includes(g) ? order.indexOf(g) : order.length;
+  }
+  const byGroup = (a, b) => groupRank(a) - groupRank(b) || (a < b ? -1 : a > b ? 1 : 0);
   // 類型的短名、標題、領域與週期：短名一律取資料的 series[].short（不從標題推）；舊資料沒有 short 時用標題
   function seriesMeta(id) {
     const s = ((index && index.series) || []).find((x) => x.id === id);
@@ -193,7 +201,8 @@
   // 淡底色、標題大一號，收合時先露兩行摘要；點開看完整摘要、來源與「看原文／看解讀」。
   // 原生 <details>：鍵盤、報讀器、「在頁面中尋找」（收合的摘要也搜得到、找到時自動展開）都直接可用。
   // summary 裡的標題用 span、不用 h3（同報告頁速讀：部分螢幕閱讀器把 summary 當按鈕，會丟掉裡面的標題），也不放連結。
-  // o.id：元素 id；o.types：類型 id（第一個決定色線）；o.stamp：類型後面的灰字節點；o.lead：要聞；o.isNew：標「新」；o.read：「看解讀」網址
+  // o.id：元素 id；o.types：類型 id（第一個決定色線）；o.stamp：類型後面的灰字節點；o.lead：要聞；o.isNew：標「新」；o.read：「看解讀」網址；
+  // o.key：頭版條目的 key（記「看過」用，週報月報沒有）。data-fq 是這則所屬的領域（各類型的 group，空白分隔），快速過濾比對用
   function tlRow(it, o) {
     const hot = hotInfo(it);
     const title = h('span', { class: 'row-title' }, [it.title || '']);
@@ -219,7 +228,10 @@
     const cls = ['fp-row', 'fp-it'];
     if (o.lead) cls.push('is-lead');
     if (hot) cls.push('is-hot');
-    return h('article', { class: cls.join(' '), id: o.id, 'data-group': types.length ? seriesMeta(types[0]).group : null }, [
+    const groups = [...new Set(types.map((t) => seriesMeta(t).group))];
+    return h('article', {
+      class: cls.join(' '), id: o.id, 'data-group': groups[0] || null, 'data-fq': groups.join(' '), 'data-key': o.key || null,
+    }, [
       h('details', { class: 'peek' }, [
         h('summary', { class: 'peek-sum' }, [meta, title, pre]),
         h('div', { class: 'more-body' }, body),
@@ -229,8 +241,9 @@
 
   // ── 報頭（使用者要求：所有頁面上方區塊統一功能；元件在 bar.js）──────────────
   // 最上面是和報告頁同一列的工具列：日期（點開是這天的新聞與有頭版的日期）、「本日新聞」（就是頭版，標成目前位置：
-  // 最新一天 page，其他天 true）、「本週新聞」、「版面」；工具列凍結在頂端。下面是大標題「頭版」，點開是這一頁的時段
-  // （09:00、08:00…、週報與月報，跳過去）。原本的日期大字與 ‹ › 拿掉：日期在日期按鈕（不重複），換日用日期面板（使用者選定）
+  // 最新一天 page，其他天 true）、「本週新聞」、「版面」；工具列凍結在頂端。下面是大標題「頭版」，右邊是快速過濾標籤
+  // （使用者要求：頭版的大標題不要下拉——原本點開是本頁時段，幫助不大——改在標題右方放可多選的過濾標籤，選定依領域）。
+  // 原本的日期大字與 ‹ › 拿掉：日期在日期按鈕（不重複），換日用日期面板（使用者選定）
   // 頭版網址：最新一天是 news/（書籤固定開最新），其他天是 ?f=YYYY-MM-DD
   const dayHref = (d) => (d === dates[0] ? './' : `?f=${d}`);
   const frontLink = (current) => B.navLink('本日新聞', 'front', './', current);
@@ -262,15 +275,131 @@
     });
   }
 
-  // chapters：大標題下拉的時段（render 排時間軸時收集）。
+  // groups：這頁有的領域與則數（render 排時間軸時收集）。
   // 最上面是非當期提示（bar.js，不是台北的今天才有）：開的是最新一期、今天還沒出刊時（spec 6.6），提示後面接說明
   // （使用者選定：原本大標題下那一行「今天還沒有頭版，這是最近一期」併進提示條，不出現兩個提示）。日期在日期按鈕，提示不重寫日期。
   // 部署後的快取空窗可能拿到還沒有 staleBanner 的舊 bar.js：少提示條，頁面照常
-  const masthead = (chapters) => [
+  const masthead = (groups) => [
     B.staleBanner ? B.staleBanner(front.date, front.date === dates[0] ? '今天還沒有頭版，這是最近一期' : null) : null,
     B.toolbar([datePicker(), frontLink(front.date === dates[0] ? 'page' : 'true'), weeklyLink(), fpBox]),
-    h('header', { class: 'masthead' }, [B.titleChapters({ title: '頭版', items: chapters, panelTitle: '本頁時段' })]),
+    h('header', { class: 'masthead fp-head' }, [h('h1', { class: 'mast-title' }, ['頭版']), ...filterBar(groups)]),
   ];
+
+  // ── 快速過濾（使用者在三個方案中選定「依領域」，互動照建議預設）──────────────────
+  // 標籤＝這頁有的領域（index.json series 的 group：綜合、國際、科技、遊戲、財經、開源、台灣…），順序照選單，後面是則數
+  // （一則出自多份報告就每個領域都算）；色塊同條目左緣的領域色線。可多選：都沒選＝全部顯示；選了就顯示「任一份來源報告的領域
+  // 有選到」的條目（出自綜合＋財經的那則，選財經時也在）；週報月報依各自類型的領域一起篩；篩完沒有條目的時段連整點標題一起藏起來。
+  // 有選時最後面出現「清除」（不另放「全部」）。選擇記在 localStorage air-front-filter：換日期、下次開都沿用，不寫進網址（傳出去的
+  // 連結不帶自己的篩選）；這天沒有的領域照樣記著（別天出現時還是選著），畫面只套用這天有的，一個都沒有就等於沒選。
+  // 結構照指南的 toolbar：role="toolbar"、按鈕用 aria-pressed（字不隨狀態改）、整列只佔一個 Tab 停點、方向鍵移動（focusgroup，
+  // 不支援的瀏覽器用 roving tabindex 補）；篩選結果用 role="status" 唸「顯示 N 則」（放在 toolbar 外面）。領域少於兩個時不放標籤列。
+  const CHECK = '<svg viewBox="0 0 20 20" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true" focusable="false"><path d="M4 10.5l4 4 8-9"/></svg>';
+  function readFilter() {
+    try {
+      const v = JSON.parse(localStorage.getItem(FILTER_KEY) || '[]');
+      return new Set(Array.isArray(v) ? v.filter((x) => typeof x === 'string') : []);
+    } catch (e) {
+      return new Set(); // 讀不到或內容壞了：當作沒選
+    }
+  }
+  function saveFilter() {
+    try {
+      if (picked.size) localStorage.setItem(FILTER_KEY, JSON.stringify([...picked]));
+      else localStorage.removeItem(FILTER_KEY);
+    } catch (e) { /* 存不了（無痕、空間滿）：這次照樣能篩，下次不記得 */ }
+  }
+  let picked = readFilter(); // 選了的領域（含這天沒有的）；存不進 localStorage 時這份照樣有效
+  let fq = null; // 這次畫面的過濾列 { chips, clear, status, sync }；沒有標籤列時是 null
+
+  // 指南 toolbar 的鍵盤：支援 focusgroup 的瀏覽器由它處理；不支援時自己做 roving tabindex——整列只有一顆 tabindex=0，
+  // 左右鍵在看得到的按鈕之間移動（到頭繞回）、Home／End 到頭尾，只攔自己處理的鍵。回傳 sync：「清除」藏起來後補回停點
+  function roving(bar) {
+    if ('focusGroup' in HTMLElement.prototype) return () => {};
+    const items = () => [...bar.querySelectorAll('button')].filter((b) => !b.hidden);
+    const sync = (cur) => {
+      const list = items();
+      const keep = (cur && list.includes(cur) && cur) || list.find((b) => b.tabIndex === 0) || list[0];
+      bar.querySelectorAll('button').forEach((b) => { b.tabIndex = b === keep ? 0 : -1; });
+    };
+    bar.addEventListener('focusin', (e) => {
+      const b = e.target.closest('button');
+      if (b) sync(b);
+    });
+    bar.addEventListener('keydown', (e) => {
+      const list = items();
+      const i = list.indexOf(document.activeElement);
+      if (i < 0 || e.altKey || e.ctrlKey || e.metaKey) return;
+      const rtl = getComputedStyle(bar).direction === 'rtl';
+      const step = { ArrowRight: rtl ? -1 : 1, ArrowLeft: rtl ? 1 : -1 }[e.key];
+      const next = step ? list[(i + step + list.length) % list.length]
+        : e.key === 'Home' ? list[0] : e.key === 'End' ? list[list.length - 1] : null;
+      if (!next) return;
+      e.preventDefault();
+      next.focus();
+    });
+    sync();
+    return sync;
+  }
+
+  // 標籤列＋念結果用的 status；groups：[{ g, n }]，已照領域順序排好
+  function filterBar(groups) {
+    fq = null;
+    if (groups.length < 2) return [];
+    const chips = groups.map(({ g, n }) => {
+      const b = h('button', { type: 'button', class: 'fp-chip', 'data-group': g, 'aria-pressed': 'false' }, [
+        h('span', { class: 'fp-chip-mk', html: CHECK }), // 沒選是領域色塊、選了是勾（不只靠顏色）
+        h('span', null, [g]),
+        h('span', { class: 'fp-chip-n' }, [String(n), h('span', { class: 'visually-hidden' }, [' 則'])]),
+      ]);
+      b.addEventListener('click', () => {
+        if (picked.has(g)) picked.delete(g);
+        else picked.add(g);
+        saveFilter();
+        applyFilter(true);
+      });
+      return b;
+    });
+    const clear = h('button', { type: 'button', class: 'fp-fq-clear', 'aria-label': '清除篩選', hidden: true }, ['清除']);
+    clear.addEventListener('click', () => {
+      picked = new Set();
+      saveFilter();
+      applyFilter(true);
+    });
+    const bar = h('div', { class: 'fp-fq', role: 'toolbar', 'aria-label': '依領域篩選', focusgroup: 'toolbar wrap' }, [...chips, clear]);
+    const status = h('p', { class: 'visually-hidden', role: 'status' });
+    fq = { chips, clear, status, sync: roving(bar) };
+    return [bar, status];
+  }
+
+  // 套用目前的選擇：按鈕狀態、條目與時段的顯示、「清除」；announce＝使用者剛按了標籤，念出結果。
+  // 顯示中的條目才記成「看過」：第一次看這天時 render 已經全部記下（不會一放出來整片都是「新」），
+  // 之後才進來、又被篩掉的條目不記，放出來時照樣標「新」
+  function applyFilter(announce) {
+    const rows = [...app.querySelectorAll('.fp-tl .fp-it')];
+    const on = new Set(fq ? fq.chips.map((b) => b.dataset.group).filter((g) => picked.has(g)) : []);
+    if (fq) fq.chips.forEach((b) => b.setAttribute('aria-pressed', String(on.has(b.dataset.group))));
+    let shown = 0;
+    rows.forEach((r) => {
+      const ok = !on.size || (r.dataset.fq || '').split(' ').some((g) => on.has(g));
+      r.hidden = !ok;
+      if (ok) shown += 1;
+    });
+    app.querySelectorAll('.fp-tl > .fp-sec').forEach((s) => { s.hidden = !s.querySelector('.fp-it:not([hidden])'); });
+    if (fq) {
+      const lost = fq.clear.contains(document.activeElement);
+      fq.clear.hidden = !on.size;
+      fq.sync();
+      if (lost && fq.clear.hidden) fq.chips[0].focus(); // 按了「清除」它就藏起來：焦點移到第一個標籤，不掉回頁首
+      if (announce) fq.status.textContent = on.size ? `顯示 ${shown} 則` : `顯示全部 ${shown} 則`;
+    }
+    remember(front.date, rows.filter((r) => !r.hidden && r.dataset.key).map((r) => r.dataset.key));
+  }
+  // 別的分頁改了篩選：這頁跟著換（不念結果）
+  window.addEventListener('storage', (e) => {
+    if (e.key !== FILTER_KEY && e.key !== null) return;
+    picked = readFilter();
+    if (front && app.querySelector('.fp-tl')) applyFilter(false);
+  });
 
   // 頁尾只留頭版的整理方式；刊名與日期上面都有了，不再重複
   const footer = () => h('footer', { class: 'foot' }, [
@@ -290,8 +419,12 @@
     const opened = new Set([...app.querySelectorAll('.fp-row')].filter((el) => el.querySelector('details[open]')).map((el) => el.id));
     const active = document.activeElement && document.activeElement.closest && document.activeElement.closest('.fp-row');
     const focusId = active ? active.id : null;
+    const onChip = document.activeElement && document.activeElement.closest && document.activeElement.closest('.fp-fq button');
+    const chipFocus = onChip ? onChip.dataset.group || '' : null; // 焦點在過濾標籤上（'' 是「清除」）：重畫後放回同一顆
 
     const list = (front.entries || []).filter((e) => e && e.key && Array.isArray(e.from) && e.from.length);
+    const seen = readSeen();
+    const firstLook = !!seen && !Array.isArray(seen[front.date]); // 這台裝置第一次看這天
     const fresh = freshKeys(front.date, list.map((e) => e.key));
     // 「要聞」＝第 1 輪順位（各報告最重要的那則）：不再分區，改成時間軸上淡底色、標題大一號
     const top = list.length ? Math.min(...list.map((e) => e.rank)) : 0;
@@ -303,6 +436,7 @@
       const m = e.from[0]; // 主來源（front.py 已依順位、類型順序排好）
       return tlRow(e, {
         id: `fp-${e.key}`,
+        key: e.key,
         types: [...new Set(e.from.map((f) => f.series))].sort(bySeries),
         stamp: w ? h('time', { class: 'fp-tm', datetime: e.ts }, [w.hm]) : null,
         lead: e.rank === top,
@@ -310,20 +444,16 @@
         read: reportHref(m.series, m.period, m.no),
       });
     };
-    // 每個時段一個 <section>：整點標題只在自己那段黏頂（下一段把它推上去，不疊在一起），
-    // 大標題的「本頁時段」連到 section 本身（連到黏頂中的標題，瀏覽器會以為已經在畫面上而不捲動）
+    // 每個時段一個 <section>：整點標題只在自己那段黏頂（下一段把它推上去，不疊在一起）；快速過濾後沒有條目的整段藏起來。
+    // 順便數各領域的則數（過濾標籤後面的數字）
     const tl = [];
-    const chapters = [];
+    const counts = new Map();
     let group = null;
     const addRow = (row) => {
       tl[tl.length - 1].append(row);
-      chapters[chapters.length - 1].count += 1;
+      row.dataset.fq.split(' ').filter(Boolean).forEach((g) => counts.set(g, (counts.get(g) || 0) + 1));
     };
-    const openSlot = (label, day) => {
-      const id = `fp-h${chapters.length + 1}`;
-      tl.push(h('section', { class: 'fp-sec', id }, [hourHead(label, day)]));
-      chapters.push({ name: day ? `${day} ${label}` : label, href: `#${id}`, count: 0 });
-    };
+    const openSlot = (label, day) => tl.push(h('section', { class: 'fp-sec' }, [hourHead(label, day)]));
     timed.forEach(({ e, w }) => {
       const g = w ? `${w.day} ${w.hour}` : '-';
       if (g !== group) {
@@ -345,8 +475,9 @@
         read: reportHref(w.series, w.period, it.no),
       })));
     });
+    const groups = [...counts.keys()].sort(byGroup).map((g) => ({ g, n: counts.get(g) }));
     show([
-      ...masthead(chapters),
+      ...masthead(groups),
       h('main', { id: 'main', class: 'fp-tl' }, tl.length ? tl : [h('p', { class: 'load-error' }, ['這天的頭版沒有條目。'])]),
       footer(),
     ]);
@@ -355,11 +486,17 @@
       const d = document.getElementById(id);
       if (d) d.querySelector('details').open = true;
     });
+    // 畫面渲染後才記下看過的條目：第一次看這天全部記下（同沒有過濾時「第一次看全部不標新」），之後只記顯示中的（applyFilter）
+    if (firstLook) remember(front.date, list.map((e) => e.key));
+    applyFilter(false); // 套用記住的選擇
     if (focusId) {
       const el = document.getElementById(focusId);
-      if (el) el.querySelector('summary').focus({ preventScroll: true });
+      if (el && !el.hidden) el.querySelector('summary').focus({ preventScroll: true });
     }
-    remember(front.date, list.map((e) => e.key)); // 畫面渲染後才記下
+    if (chipFocus != null && fq) {
+      const b = chipFocus ? fq.chips.find((x) => x.dataset.group === chipFocus) : fq.clear;
+      (b && !b.hidden ? b : fq.chips[0]).focus({ preventScroll: true });
+    }
   }
 
   // 網站上還沒有任何頭版（剛部署、front/index.json 不存在或是空的）：不卡在載入中，
@@ -373,7 +510,7 @@
     latest.sort((a, b) => bySeries(a.series, b.series));
     const kids = [
       B.toolbar([frontLink('page'), weeklyLink(), fpBox]),
-      h('header', { class: 'masthead' }, [B.titleChapters({ title: '頭版', items: [] })]),
+      h('header', { class: 'masthead' }, [h('h1', { class: 'mast-title' }, ['頭版'])]),
       h('main', { id: 'main', class: 'fp-empty' }, [
         h('p', { class: 'fp-empty-note', role: 'status' }, [latest.length ? '還沒有頭版。先看各類型最新一期：' : '還沒有頭版，也還沒有任何報告。']),
         latest.length ? h('ul', { class: 'fp-empty-list' }, latest.map((e) => {
