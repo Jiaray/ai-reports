@@ -1,0 +1,626 @@
+{
+ "schema": 1,
+ "series": "cocos_h5_weekly",
+ "series_title": "Cocos／H5 遊戲開發週報",
+ "group": "遊戲",
+ "cadence": "weekly",
+ "period": "2026-W47",
+ "date": "2026-11-20",
+ "title": "Cocos／H5 遊戲開發週報",
+ "brief": "WEEKLY GAME INDUSTRY BRIEFING",
+ "issue": "NO. 2026-324",
+ "generated_at": "2026-11-20T14:19:49+08:00",
+ "lede": "近 7 日（11/13–11/20）重點：Cocos 建置面板改版與 Dashboard 升級彈窗惹議，PinK 路線長帖破百則回覆；PixiJS 3D 開放測試；歐盟 Digital Fairness Act 草案鎖定轉蛋與虛擬貨幣。",
+ "src_tags": [
+  "Cocos 中文社區",
+  "Godot Engine Blog",
+  "GameFromScratch",
+  "Game Developer",
+  "Babylon.js Releases",
+  "Hacker News",
+  "GitHub Trending"
+ ],
+ "intro": [
+  {
+   "kind": "p",
+   "html": "近 7 日（11/13–11/20）重點：Cocos 建置面板改版與 Dashboard 升級彈窗惹議，PinK 路線長帖破百則回覆；PixiJS 3D 開放測試；歐盟 Digital Fairness Act 草案鎖定轉蛋與虛擬貨幣。"
+  }
+ ],
+ "sections": [
+  {
+   "name": "Cocos 引擎與工具鏈",
+   "count": 3,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "01",
+     "key": "f3f22cc80a",
+     "front": 1,
+     "title": "Cocos 新版建置面板入口拆成三個、建置記錄改不了名，Dashboard 被指自動下載引擎佔 40GB",
+     "title_html": "Cocos 新版建置面板入口拆成三個、建置記錄改不了名，Dashboard 被指自動下載引擎佔 40GB",
+     "url": "https://forum.cocos.org/t/topic/178198",
+     "src": "Cocos 中文社區",
+     "left": "11/19 11:11",
+     "ts": "2026-11-19T11:11:15+08:00",
+     "heat": "501 瀏覽 / 14 回覆",
+     "tags": [],
+     "summary_html": "多位開發者回報 Creator 建置面板突然換成新版，zerozerg 說事先不知道有更新、3.8.2 和 3.8.7 都變了，找不到舊的單一入口，建置記錄也改不了名；本週沒有官方回應。",
+     "also": [
+      {
+       "text": "建置記錄改名",
+       "url": "https://forum.cocos.org/t/topic/178170"
+      },
+      {
+       "text": "Dashboard 升級彈窗",
+       "url": "https://forum.cocos.org/t/topic/178187"
+      },
+      {
+       "text": "Dashboard 佔 40GB",
+       "url": "https://forum.cocos.org/t/topic/178194"
+      },
+      {
+       "text": "3.8.8 runtime-bridge",
+       "url": "https://forum.cocos.org/t/topic/178136"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>新面板怎麼用</strong>：zerozerg 摸索後說明，現在分成「終端／應用／場景」三個入口，都先進同一個平台篩選頁，第二層才是以前的設定頁；850670990 補充，原生包和 Web 走「終端」，小遊戲走「應用」；iOS 包仍要在 Mac 上建置（286540194）。",
+      "<strong>抱怨重點</strong>：cwrysp 列出開啟要等好幾秒、建置其他平台會自動多建一份 OpenPaaS、三個入口應改成頁內切換，並建議保留舊版建置入口；654088761 指出以前按 Ctrl+Shift+B 直接開，現在要找二級選單，設好的打包參數放進「任務歷史」且名字改不了，看不出要打包的路徑。",
+      "<strong>建置記錄改名</strong>：kaitao101 的解法是先關掉編輯器，再打開專案根目錄的 profiles\\v2\\packages\\builder.json，每組數字對應一筆建置記錄，搜尋 taskName 屬性直接改；「微信小游戏-」「抖音小游戏-」這類前綴似乎是固定的。",
+      "<strong>Dashboard</strong>：2874536645 問「升級支援一鍵發布全平台」的彈窗不升級就每次開編輯器都跳、能否關掉（無人回覆）；wangrongm2009 說 Dashboard 自動下載引擎佔了 40GB 硬碟，專案多不敢升級，xiaobei1 建議改用英文版官網的 Dashboard（可能還沒有這個升級），wdxkwdl 提到 PinK 一個版本就佔 8GB。",
+      "<strong>3.8.8 的 runtime-bridge</strong>：liuheo 建置微信小遊戲時發現輸出目錄多了 .runtime-bridge/config.snapshot.json，來源是 builtin-extensions/3.8.8/runtime-bridge（0.1.12 版，描述為 Runtime compatibility support）；移出載入目錄後隔天重開編輯器又原樣出現，建置日誌有 runtime-bridge:onAfterBuild 紀錄，至今沒人回覆。"
+     ],
+     "table": null,
+     "dive_html": "這波改動落在 3.8.x 專案（回報涉及 3.8.2、3.8.7、3.8.8），沒主動升級的人也碰到建置入口、記錄命名與輸出內容（OpenPaaS、runtime-bridge 快照）改變。求穩的 525649253 慶幸自己沒更新，956696719 說更新後出包一團糟；偏好命令列建置的 371276998 則「一個命令行就可以不管了」。"
+    },
+    {
+     "type": "item",
+     "no": "02",
+     "key": "e6ba2883c9",
+     "title": "HelloPinK 一週兩版（iOS 1.0.8／Android 1.0.7）：支援載入 Unity、Laya 遊戲，修掃碼後調試面板彈不出來",
+     "title_html": "HelloPinK 一週兩版（iOS 1.0.8／Android 1.0.7）：支援載入 Unity、Laya 遊戲，修掃碼後調試面板彈不出來",
+     "url": "https://forum.cocos.org/t/topic/178159",
+     "src": "Cocos 中文社區",
+     "left": "11/16 18:48",
+     "ts": "2026-11-16T18:48:10+08:00",
+     "heat": "779 瀏覽 / 5 回覆",
+     "tags": [],
+     "summary_html": "發布帳號 wanlai_sud 連續更新 HelloPinK，也就是 Cocos Creator／PinK 掃碼預覽與調試用的手機 App。",
+     "also": [
+      {
+       "text": "iOS 1.0.8／Android 1.0.7",
+       "url": "https://forum.cocos.org/t/topic/178191"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>iOS 1.0.7／Android 1.0.6</strong>：首頁增加調試入口和調試狀態；設定可清除快取；調試模式載入遊戲時顯示日誌與進度；支援載入 Unity 和 Laya 遊戲；vConsole 按鈕可拖動。",
+      "<strong>iOS 1.0.8／Android 1.0.7</strong>：修正 HelloPinK 掃碼後 PinK 調試面板彈不出來；清除快取可一併清掉遊戲存檔。",
+      "<strong>常見錯誤</strong>：華為手機掃碼出現「獲取掃碼簽名失敗，服務端錯誤碼 2002」，wanlai_sud 回覆原因是 HelloPinK 和 PinK 登入的帳號不一致，兩端要用同一支手機號登入才能調試；剛發布時官網下載仍是 1.0.5，重新整理頁面即可拿到新版。"
+     ],
+     "table": null,
+     "dive_html": ""
+    },
+    {
+     "type": "item",
+     "no": "03",
+     "key": "2bf7616916",
+     "title": "「PinK 已經過時」長帖 116 則回覆：純 AI 工作台還是保留編輯器微調",
+     "title_html": "「PinK 已經過時」長帖 116 則回覆：純 AI 工作台還是保留編輯器微調",
+     "url": "https://forum.cocos.org/t/topic/178143",
+     "src": "Cocos 中文社區",
+     "left": "11/14 06:17",
+     "ts": "2026-11-14T06:17:59+08:00",
+     "heat": "3994 瀏覽 / 116 回覆",
+     "tags": [],
+     "summary_html": "發文者 930621236 主張 SUD 與 Cocos 應停止打磨編輯器形態的 PinK，直接做純 AI 對話式工作台，對標騰訊「遊點靈」、極逸 SOON、TapTap 製造、靈光閃應用；前 20 則回覆裡沒有官方回應。",
+     "also": [
+      {
+       "text": "Creator 4.0 下載在哪",
+       "url": "https://forum.cocos.org/t/topic/178146"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>發文者（930621236）</strong>：AI 工作台很快會普及，開發者只需要一個跟 AI 溝通的通道和資產預覽管理視窗，不需要屬性面板、動畫編輯器等傳統介面；同時建議商業專案現階段仍用成熟的 3.8.8 穩定版。",
+      "<strong>反對拿掉手動編輯</strong>：wwd861854655 認為第 7、8 點太激進，「可以不用但不能沒有」；525649253、1286358939 指出簡單改動在編輯器手動調更快、過程可視、零 token。",
+      "<strong>質疑 PinK 方向</strong>：vajoy 說論壇反饋 PinK token 消耗快、成效差，Cocos 應專注引擎與編輯器，閉源編輯器可付費開放 MCP 能力；並批評 3.8.7 起不少嚴重 bug 沒修、至今不支援 tree-shaking，自己留在 Cocos 只因小遊戲適配好。游戏杀-bilibili 認為 PinK 的 AI 和第三方 agent 沒差異，應讓 Cocos 各項能力對 AI 更友善。",
+      "<strong>現有專案</strong>：111969 說老專案用 FGUI，接 PinK 看不到提升；1941629705 認為 PinK 想兼容老專案又想吸新用戶，但出得太晚，多數公司已做好自己的 agent 工具；819642775 說「還不如出 3.8.9 來得實在」。",
+      "<strong>社群替代方案</strong>：nofastfat 用論壇有人開源的 Creator MCP 搭配 Cursor＋Grok4.7 生成 Prefab 節點樹，「能跑，不報錯」；shinjiyu 推薦 enji（Creator 3.8，不需要 IDE 和 MCP），附的「一句話安裝」是要 AI 工具下載並照遠端文件執行：「Download and follow https://raw.githubusercontent.com/kurenai-studio/enji/main/docs/getting-started.md」⚠️ 可疑內容",
+      "<strong>Creator 4.0 在哪</strong>：359091851 說 Creator 4.0 文件看了半年卻沒有下載；xiayangqun 回覆 PinK 裡可以下載 4.0.0-beta2 引擎，並認為 4.0 文件像是從 3.8.8 複製後批次改了版本號，實際上不存在 Creator 4.0.0 編輯器；luosixiang 推測 Creator 已停止開發、官方都在做 PinK。"
+     ],
+     "table": null,
+     "dive_html": ""
+    }
+   ]
+  },
+  {
+   "name": "Cocos 實戰技術分享",
+   "count": 3,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "04",
+     "key": "d1032ddea8",
+     "title": "cc.director.loadScene 加上 227 種轉場特效：執行期拼裝 EffectAsset 的開源範例",
+     "title_html": "cc.director.loadScene 加上 227 種轉場特效：執行期拼裝 EffectAsset 的開源範例",
+     "url": "https://forum.cocos.org/t/topic/178200",
+     "src": "Cocos 中文社區",
+     "left": "11/19 11:56",
+     "ts": "2026-11-19T11:56:39+08:00",
+     "heat": "579 瀏覽 / 14 回覆",
+     "tags": [],
+     "summary_html": "972579559 把從 GLSL 官網拉取的轉場特效核心程式碼接到場景切換與彈出視窗切換，2.x 可用，已有人用 AI 移植到 3.x。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>場景切換</strong>：cc.director.loadScene(&#x27;To&#x27;, 回呼, { name: Enum_Transition.FlameWipe, speed: 1 }) 帶特效切換；省略 name 就隨機轉場；不傳第三個參數則照引擎原本行為。",
+      "<strong>彈出視窗與節點切換</strong>：TransitionHelper.skipToShow({ from, to, name, speed })，同一節點切 active 或節點 A 換節點 B 都可以；省略 from 時預設以整個 Canvas 當轉場前畫面。",
+      "<strong>踩雷</strong>：ph1112 在 2.4.15 測試沒反應，後來發現要開代理才連得上特效來源，作者建議改成自己備份到 CDN 再拉；1772527378 回報 2.x 正常，並已用 AI 移植到 3.x。",
+      "<strong>原始碼</strong>：<a href=\"https://gitee.com/yang-honghong/mytest\" target=\"_blank\" rel=\"noopener\">Gitee 範例專案</a>"
+     ],
+     "table": null,
+     "dive_html": "專案裡看不到 .effect 和 .mtl 檔，因為特效是執行期動態拼成 cc.EffectAsset；回覆者希望附 GIF 或線上體驗，目前要下載到本機才看得到效果。"
+    },
+    {
+     "type": "item",
+     "no": "05",
+     "key": "eae1ba13dc",
+     "title": "小遊戲用 cc.Graphics 當遮罩的坑：每個預配 65535 頂點（2.25MB），100 個吃掉 200MB 以上",
+     "title_html": "小遊戲用 cc.Graphics 當遮罩的坑：每個預配 65535 頂點（2.25MB），100 個吃掉 200MB 以上",
+     "url": "https://forum.cocos.org/t/topic/178196",
+     "src": "Cocos 中文社區",
+     "left": "11/19 10:57",
+     "ts": "2026-11-19T10:57:14+08:00",
+     "heat": "395 瀏覽 / 2 回覆",
+     "tags": [],
+     "summary_html": "it4040 指出 cc.Graphics.prototype.activeSubModel 預設寫死 65535 個頂點的配置，每個 Graphics 獨佔 2.25MB Buffer；列表、圓形遮罩等用了預設 Graphics 的 Mask，100 個就會吃掉 200MB 以上記憶體且不會釋放；本週沒有官方回應。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "286540194 建議圓形遮罩改用 SpriteRenderer 或 shader（可以讓 AI 寫）；發文者回覆他們的遮罩對象是複雜容器、不是單張圖，這個替代方案用不上。"
+    },
+    {
+     "type": "item",
+     "no": "06",
+     "key": "de6d047b0c",
+     "title": "PVP 幀廣播同步科普：伺服器定稿輸入幀、晚到的操作排進下一幀，廣播頻率多在 15–30Hz",
+     "title_html": "PVP 幀廣播同步科普：伺服器定稿輸入幀、晚到的操作排進下一幀，廣播頻率多在 15–30Hz",
+     "url": "https://forum.cocos.org/t/topic/178183",
+     "src": "Cocos 中文社區",
+     "left": "11/18 12:38",
+     "ts": "2026-11-18T12:38:20+08:00",
+     "heat": "491 瀏覽 / 4 回覆",
+     "tags": [],
+     "summary_html": "9608094 系列第二篇，用格鬥遊戲波動拳的例子解釋「伺服器按固定節奏廣播輸入幀、用戶端不預測」的幀廣播同步，並和上一篇的預測回滾比較；作者建議預測回滾只用在 2 人對戰。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>機制</strong>：伺服器只廣播「這一幀有哪些輸入」，遊戲邏輯仍由各手機計算；沒有新操作也廣播空幀；已定稿的幀不能追加，晚到的指令排進下一個廣播幀；同一條指令重送要識別為重試，不能變成兩次操作。",
+      "<strong>上行延遲例子</strong>：以每秒 60 幀計，伺服器在 0 毫秒廣播完第 119 幀，第 120 幀約 16.7 毫秒定稿、第 121 幀約 33.3 毫秒；B 在 2 毫秒按格擋，上行 8 毫秒就趕上第 120 幀，上行 20 毫秒則落到第 121 幀，第 120 幀的命中照算不改寫——只差 12 毫秒就晚了一幀。",
+      "<strong>下行晚到</strong>：用戶端缺幀時要保留狀態等待，補齊連續幀後依序執行追趕，不能把缺的幀當成空幀，也不能跳幀；這和回滾是兩回事。",
+      "<strong>頻率對齊</strong>：作者指出廣播頻率上限通常是 30Hz（每 33.3 毫秒一幀），主流遊戲多半 15Hz 或 20Hz，業務層要把網路幀和邏輯幀對齊：30Hz 每個廣播幀執行 2 次邏輯、20Hz 執行 3 次、15Hz 執行 4 次。"
+     ],
+     "table": null,
+     "dive_html": "兩種做法的體驗代價不同：幀廣播是按鍵響應要等、缺幀時可能停頓；預測回滾可能看到位置或命中被修正，還要負擔保存與重演的開銷。用戶端可以先緩衝少量廣播幀換平順，代價是顯示進度落後、操作到呈現的等待更長；另外相同輸入還要相同演算條件，例如暴擊的隨機結果兩端各自生成就會分歧。"
+    }
+   ]
+  },
+  {
+   "name": "小遊戲平台與發行",
+   "count": 1,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "07",
+     "key": "be788e54c5",
+     "title": "Cocos 小遊戲投 50 元廣告換到 1,300 次訪問、收入反而變差：論壇拆解買量品質與插頁廣告",
+     "title_html": "Cocos 小遊戲投 50 元廣告換到 1,300 次訪問、收入反而變差：論壇拆解買量品質與插頁廣告",
+     "url": "https://forum.cocos.org/t/topic/178166",
+     "src": "Cocos 中文社區",
+     "left": "11/17 11:56",
+     "ts": "2026-11-17T11:56:39+08:00",
+     "heat": "1160 瀏覽 / 28 回覆",
+     "tags": [],
+     "summary_html": "hxs 在騰訊廣告平台開通廣告主、以最低 50 元打底投放，帶來 1.3K 訪問，收入卻比之前更差，回覆整理出幾個可能原因。",
+     "also": [
+      {
+       "text": "同週另一例：買量賠 2 萬",
+       "url": "https://forum.cocos.org/t/topic/178154"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>量的品質</strong>：nhy_jyqw 說買到的是「垃圾量」，使用者進來就走，hxs 認同；cwrysp 懷疑多數是機器人。",
+      "<strong>廣告配置</strong>：3dtanke 指出插頁廣告 eCPM 一般很差，會拉低獎勵影片廣告的整體 eCPM；hxs 已拿掉插頁和橫幅廣告，目前每天約 30 多個使用者。",
+      "<strong>畫面觀感</strong>：2804803784 認為現在使用者對 AI 做的遊戲很敏感，一看畫面就走。",
+      "<strong>同週另一例</strong>：110169 說團隊用 AI 做了 3 個月的遊戲上線，買量賠了 2 萬、無法打正而放棄，「做遊戲不難，獲量才難」。"
+     ],
+     "table": null,
+     "dive_html": ""
+    }
+   ]
+  },
+  {
+   "name": "AI 進入引擎工作流",
+   "count": 4,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "08",
+     "key": "a8a8ee39e3",
+     "title": "老專案 Cocos2d-x 2.2.6／3.17.2 怎麼用 AI：creator_to_cocos2dx 改到 Creator 2.4.15，VS Code＋SweetPad 取代 Xcode",
+     "title_html": "老專案 Cocos2d-x 2.2.6／3.17.2 怎麼用 AI：creator_to_cocos2dx 改到 Creator 2.4.15，VS Code＋SweetPad 取代 Xcode",
+     "url": "https://forum.cocos.org/t/topic/178195",
+     "src": "Cocos 中文社區",
+     "left": "11/19 10:49",
+     "ts": "2026-11-19T10:49:39+08:00",
+     "heat": "356 瀏覽 / 17 回覆",
+     "tags": [],
+     "summary_html": "gerlinbo 分享公司仍用 Cocos2d-x 時的 AI 工作流：用 Creator 拼介面再給 2d-x 讀，並在同一個 IDE 裡 vibe coding＋編譯、安裝、除錯。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>拼介面</strong>：官方 creator_to_cocos2dx 外掛停更已久、支援的 Creator 版本太舊，他把它適配到 2.4.15 並支援多解析度資源；最大的坑是 3.17.2 用的 Spine 3.6，C++ 版支援 .skel、Web 版不支援，Creator 編輯器換了 Spine 執行期也無法預覽，只能魔改 Spine 3.6；另外反向補了 Creator 已沒有的 Menu、MenuItem 組件。",
+      "<strong>IDE</strong>：原本用 Xcode 編譯安裝到 Pad 調試，改成 VS Code＋SweetPad 外掛＋各家 agent 外掛，不必另開 Xcode，也能接 MCP 拼介面。",
+      "<strong>討論</strong>：18513671671 質疑既然 AI 對純程式碼友善、介面可以讓 AI 直接寫，多一層轉換解決什麼問題；gerlinbo 說外掛是在社群大量出現 MCP 之前做的，現在的優勢是解析介面配置的程式碼編好就不用動，改介面不必反覆編譯。18513671671 建議改用 PSD 轉 Prefab 外掛串接，或把給 MCP 的提示詞優化後交給更強的模型直接用程式碼拼、慢慢沉澱成 skill；gerlinbo 認同 MCP 不夠快、不夠精準又吃 token，打算往 skill 方向試。"
+     ],
+     "table": null,
+     "dive_html": ""
+    },
+    {
+     "type": "item",
+     "no": "09",
+     "key": "0fbd479e14",
+     "title": "歐洲遊戲業工會發表生成式 AI 宣言：產業調查 40% 從業者在用、55% 認為對產業有負面影響",
+     "title_html": "歐洲遊戲業工會發表生成式 AI 宣言：產業調查 40% 從業者在用、55% 認為對產業有負面影響",
+     "url": "https://www.gamedeveloper.com/production/europe-s-game-worker-unions-publish-a-manifesto-warning-against-unchecked-ai-usage",
+     "src": "Game Developer",
+     "left": "11/18 05:21",
+     "ts": "2026-11-18T05:21:17+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "IWGB Game Workers 分會與愛爾蘭 Game Workers Unite、西班牙 CSVI、米蘭 FIOM-CGIL 工作委員會聯合發表宣言，從社會經濟、環境、倫理與製作品質面列出生成式 AI 的問題，並提出盡可能停止使用等減害做法。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "宣言的核心論點是生成式 AI 被當成取代人力的方案，帶來不切實際的政策與時程壓力，也讓雇主得以推卸責任。Game Developer 引用今年 State of the Game Industry 調查：40% 從業者在工作中使用生成式 AI 工具（前一年 36%），但 55% 認為它對產業有負面影響、35% 認為好壞參半，只有 8% 認為正面。Reddit gamedev 版有評論者批評宣言太聚焦在美術，很少談程式職缺。"
+    },
+    {
+     "type": "item",
+     "no": "10",
+     "key": "c9883135bf",
+     "title": "兩款 Cocos MCP 外掛上架 Cocos Store：AI Master 只支援 3.8.8，MCP Bridge 2.1.8 內建 395 個工具",
+     "title_html": "兩款 Cocos MCP 外掛上架 Cocos Store：AI Master 只支援 3.8.8，MCP Bridge 2.1.8 內建 395 個工具",
+     "url": "https://forum.cocos.org/t/topic/178155",
+     "src": "Cocos 中文社區",
+     "left": "11/16 16:28",
+     "ts": "2026-11-16T16:28:12+08:00",
+     "heat": "735 瀏覽 / 7 回覆",
+     "tags": [],
+     "summary_html": "本週論壇有兩款讓 AI 編程 agent 直接操作 Cocos Creator 編輯器的 MCP 外掛發布，討論串另外吵起 MCP 和 CLI 哪個好。",
+     "also": [
+      {
+       "text": "Cocos MCP Bridge",
+       "url": "https://forum.cocos.org/t/topic/178182"
+      },
+      {
+       "text": "用 AI 寫編輯器外掛",
+       "url": "https://forum.cocos.org/t/topic/178189"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Cocos MCP AI Master 1.0.0（GameAIMaster，付費）</strong>：只支援 Creator 3.8.8，其他 3.x 專案要先升到 3.8.8；20 多個 MCP 工具、200 個以上動作，內建 Cocos 實戰知識庫；透過編輯器操作改專案、不直接改檔，可核對節點、組件、版面、執行畫面與建置結果；預設端點 127.0.0.1:3600/mcp，支援本機、區網與自備隧道；購買後憑啟用碼使用，不退款。",
+      "<strong>Cocos MCP Bridge 2.1.8（2225466148）</strong>：需 Creator 3.8.0 以上（推薦 3.8.8）與 Node.js 20 以上；395 個工具分 14 組，預設開啟的 13 組共 394 個，另有 1 個高風險工具預設關閉；可在瀏覽器預覽中讀執行期節點樹、日誌與畫面，也能把團隊既有的 Editor.Message 介面註冊成自訂 MCP 工具；閘道預設綁本機 127.0.0.1:9160。作者提醒 UI 適配提示不能取代不同解析度、裝置上的實際驗收。",
+      "<strong>MCP 還是 CLI</strong>：恐惧的海怪 自己做成 CLI 工具；47667370 說 Codex 給效果圖和散圖就能搭出約 98% 完整的 Prefab；游戏杀-bilibili 認為 MCP 和 CLI 都只是把引擎能力暴露給 agent 的介面，MCP 有規範、通用性好，像遊戲畫面截圖沒有介面 agent 拿不到；930621236 則說 MCP 形式「感覺都快不需要了」，自己用 Cursor。",
+      "<strong>自己寫外掛</strong>：xingchen1106 用 Codex 寫了 Cocos 編輯器外掛 Demo，問 DeepSeekHarness 好不好寫；回覆多說很好寫，2022640120 說自己用 DeepSeek 網頁版就寫了好幾個。"
+     ],
+     "table": null,
+     "dive_html": ""
+    },
+    {
+     "type": "item",
+     "no": "11",
+     "key": "c007c5c76b",
+     "title": "能不能不 review AI 寫的程式碼？25 則回覆分成「先定架構」與「全交給 AI」兩派",
+     "title_html": "能不能不 review AI 寫的程式碼？25 則回覆分成「先定架構」與「全交給 AI」兩派",
+     "url": "https://forum.cocos.org/t/topic/178142",
+     "src": "Cocos 中文社區",
+     "left": "11/14 00:52",
+     "ts": "2026-11-14T00:52:56+08:00",
+     "heat": "1352 瀏覽 / 25 回覆",
+     "tags": [],
+     "summary_html": "824843131 說靠 AI 後前端開發效率大增，但 review 跟不上，想知道能否讓 AI 檢查 AI、前端只提需求；回覆從玩笑到實務做法都有。",
+     "also": [
+      {
+       "text": "用 AI 重構框架程式碼",
+       "url": "https://forum.cocos.org/t/topic/178149"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>兩條路（zxcvbnm0014）</strong>：想掌控全局就讓 AI 寫看得懂的程式碼、給強約束，架構自己定，AI 只做一個個小模組；全交給 AI 就不用看懂，有問題讓 AI 修，review 也沒意義。",
+      "<strong>先驗證再重寫（ColaZhang）</strong>：大遊戲要先定架構、把業務模組分清楚，避免 AI 迭代成一團改不動；也可以第一階段讓 AI 放開做，驗證出價值後再定新架構，讓 AI 全部照新架構重寫。",
+      "<strong>重要模組仍要人看（941096560）</strong>：充值、登入或重要資料存取不管誰寫都要更高水平的人 review，其他的寫好規則和測試用例讓 AI review；1569984818 認為至少要用兩個不同模型互審，169281138 提議用 AI 自動化測試兜底。",
+      "<strong>規範常失效（930621236）</strong>：在 Cursor 的專案與全域都寫了開發規範，實際只有「寫文件註解」起作用，而且 AI 常自己加戲、在註解裡編出不存在的需求，之後的 AI 還當成真需求；十來行能寫完的需求也常寫成幾十行、拆成很多檔。",
+      "<strong>模型選擇（zxcvbnm0014）</strong>：用 GPT 沒問題、Qoder 出錯率也不高、WorkBuddy 搭 ds flash 問題較多，現在主 GPT、副 Qoder。",
+      "<strong>重構舊框架</strong>：972579559 讓 AI 看自己的框架程式碼，AI 說得「設計自洽、機制咬合」，他自嘲要不是自己寫的都信了；zxcvbnm0014 認為讓 AI 重構基本不可能，應自己規劃、AI 實作，發文者改成先用 AI 把專案裡的補丁處規整。"
+     ],
+     "table": null,
+     "dive_html": ""
+    }
+   ]
+  },
+  {
+   "name": "Web／H5 底層與其他引擎",
+   "count": 4,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "12",
+     "key": "49889464e3",
+     "title": "Godot 4.8 beta 4：可能是最後一個 beta，Web 平台新增以 HTTPS「serve」的選項",
+     "title_html": "Godot 4.8 beta 4：可能是最後一個 beta，Web 平台新增以 HTTPS「serve」的選項",
+     "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-4/",
+     "src": "Godot Engine Blog",
+     "left": "11/18 20:00",
+     "ts": "2026-11-18T20:00:00+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Thaddeus Crews 發布 Godot 4.8 beta 4，距 beta 3 才一週多，剩下的 release blocker 已處理大半，官方說這可能是 4.8 週期最後一個 beta，也是回報新 bug 與 regression 的最後機會。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>重點修正</strong>：58 位貢獻者提交 123 項修正，以 regression 為主；Web 平台新增 serve HTTPS 選項（GH-124109）；存檔含 metadata 或內嵌場景時更新文字格式版本（GH-125351）；匯入時驗證並拒絕無效的動態字型（GH-125076）；Windows 修正 Android SDK Manager 設定問題（GH-125319）。"
+     ],
+     "table": null,
+     "dive_html": "這版同樣提供 Web 編輯器、XR 編輯器與 Android 編輯器可試；4.8 整體新功能要看 beta 1 的重點整理，這篇只列 beta 3 到 beta 4 的差異。"
+    },
+    {
+     "type": "item",
+     "no": "13",
+     "key": "66be6f24ef",
+     "title": "Babylon.js 9.37.0／9.37.1：WebGPU 網格繪製可選非同步建立管線，修多項 WebGPU 陰影與材質問題",
+     "title_html": "Babylon.js 9.37.0／9.37.1：WebGPU 網格繪製可選非同步建立管線，修多項 WebGPU 陰影與材質問題",
+     "url": "https://github.com/BabylonJS/Babylon.js/releases/tag/9.37.1",
+     "src": "Babylon.js Releases",
+     "left": "11/18 19:53",
+     "ts": "2026-11-18T19:53:42+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Babylon.js 本週連發兩版，以修正為主，跟 Web 部署相關的是 WebGPU 改動與 context loss 後的貼圖重建。",
+     "also": [
+      {
+       "text": "9.37.0",
+       "url": "https://github.com/BabylonJS/Babylon.js/releases/tag/9.37.0"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>9.37.1 新功能</strong>：WebGPU 網格繪製的非同步 pipeline 建立（需自行開啟，#19090）；Inspector Lite 可編輯貼圖（#19176）。",
+      "<strong>9.37.1 修正</strong>：WebGPU 的 ReflectionBlock 片段 irradiance 編譯（#19172）、node material 串接陰影 view matrix（#19171）、陰影深度 normal bias（#19173）；DynamicTexture 在 context loss 後重建時保留 invertY 與 premulAlpha（#19167）；KTX2 可在沒有 DOM 的主執行緒載入 MSC transcoder（#19151）。",
+      "<strong>9.37.0 行為變更</strong>：載入文字時 base64 data URL 改以 UTF-8 解碼（#19169）；Color3／Color4 的 toHexString 會把色彩分量限制在範圍內（#19162）；Inspector Lite 新增貼圖預覽（#19156）。"
+     ],
+     "table": null,
+     "dive_html": ""
+    },
+    {
+     "type": "item",
+     "no": "14",
+     "key": "fc35e8978f",
+     "title": "three.js 追 AAA 畫質：作者逐階段盤點室內光照管線，缺口在 SSR、SSGI 與 BRDF 間接光",
+     "title_html": "three.js 追 AAA 畫質：作者逐階段盤點室內光照管線，缺口在 SSR、SSGI 與 BRDF 間接光",
+     "url": "https://ben3d.ca/blog/building-the-aaa-lighting-pipeline-in-threejs",
+     "src": "Hacker News（本週）",
+     "left": "11/17 05:07",
+     "ts": "2026-11-17T05:07:43+08:00",
+     "heat": "HN 166",
+     "tags": [],
+     "summary_html": "ben3d.ca 系列文把室內場景的 AAA 光照管線（lightmap、light probe、reflection probe，再疊 SSR、SSGI、AO）逐階段對照 three.js 現況，列出已有、審查中與還沒做的部分。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50523291"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>已有</strong>：G-buffer（MRT prepass、octahedral RG16F 法線）；烘焙 GI（lightMap、unwrapper、baker、ray radiosity、denoiser、接縫處理）；LightProbeGrid（烘焙快 8 倍、多次反彈、更新分散到多幀）；GTAO；Stochastic GGX SSR；SSGINode；TRAA 與 TAAU 節點。",
+      "<strong>審查中或草稿</strong>：KHR_lightmap、DDGI visibility、Hi-Z tracing、reflection probe 系統、Catmull-Rom history 等。",
+      "<strong>最大缺口</strong>：SSR 的 Hi-Z tracing 與 coverage、SSGI 的 coverage，以及把兩條 cascade 接進 BRDF 的可插拔間接光。"
+     ],
+     "table": null,
+     "dive_html": "作者說進度這麼快要歸功 three.js 維護者：Michael Herzog（Mugen87）審了大部分 PR，不只一次改寫成更符合 three.js 架構的設計，mrdoob 也對其中許多表態支持。但這些 PR 一直是逐個提出審查，沒有人被要求為整體背書，這個系列就是要把它們拼成一張完整的圖，讓每個 PR 能放在整體裡評估。"
+    },
+    {
+     "type": "item",
+     "no": "15",
+     "key": "bdbe56e75d",
+     "front": 3,
+     "title": "PixiJS 3D 開放測試：WebGPU 優先、可退回 WebGL2，3D 場景像 Sprite 一樣加進 2D 舞台，MIT 授權",
+     "title_html": "PixiJS 3D 開放測試：WebGPU 優先、可退回 WebGL2，3D 場景像 Sprite 一樣加進 2D 舞台，MIT 授權",
+     "url": "https://pixijs.com/blog/pixi-3d-open-beta",
+     "src": "Hacker News（本週）",
+     "left": "11/14 06:15",
+     "ts": "2026-11-14T06:15:32+08:00",
+     "heat": "HN 19",
+     "tags": [],
+     "summary_html": "PixiJS 宣布 PixiJS 3D 進入 open beta，PixiJS 從 2D 擴充成同時是 2D 與 3D 引擎，兩者共用同一個 stage。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50490765"
+      },
+      {
+       "text": "GameFromScratch",
+       "url": "https://gamefromscratch.com/pixijs-moves-into-3d-pixijs-3d/"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>接法</strong>：既有專案不用移植、也不用另跑第二個引擎；從 @pixi/3d 匯入 View3D，Assets.load 載入 glTF 後用 View3D.from(source) 建立，再 addChild 到 stage。可放多個 View3D，各有自己的場景與攝影機，像 Sprite 一樣定位縮放；濾鏡、遮罩可作用在 3D 視圖上，3D 物件接收和 Sprite 一樣的 pointer 事件，2D 容器也能即時畫到 3D 表面。",
+      "<strong>功能</strong>：WebGL2 與 WebGPU 渲染器；glTF 模型（支援 Draco、meshopt 壓縮）；PBR、Phong、Toon 材質；光源與陰影；骨骼與 morph target 動畫；粒子；Bloom、AO 等後處理。",
+      "<strong>其他</strong>：官方說引擎會依裝置、瀏覽器與場景挑最快的渲染方式；另推出 2D 與 3D 的 PixiJS skills 給 coding agent 用；MIT 授權並表示會一直免費。"
+     ],
+     "table": null,
+     "dive_html": "PixiJS 是 Ct.js、GDevelop、RPG Maker MV/MZ 採用的 2D WebGL／WebGPU 框架（GameFromScratch）。官方舉的用法是保留原本的 2D 流程，只在需要處放 3D，例如選單裡旋轉的獎盃或商店畫面的角色；也可以讓一個 View3D 撐滿畫面做整款 3D 遊戲，UI 疊一層 2D 容器。"
+    }
+   ]
+  },
+  {
+   "name": "產業動態",
+   "count": 3,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "16",
+     "key": "46d53c93be",
+     "title": "Ubisoft 加拿大裁 166 人、Take-Two 縮編 Firaxis，Firaxis 負責人 Heather Hazen 離職",
+     "title_html": "Ubisoft 加拿大裁 166 人、Take-Two 縮編 Firaxis，Firaxis 負責人 Heather Hazen 離職",
+     "url": "https://www.gamedeveloper.com/business/ubiosft-lays-off-166-in-canada",
+     "src": "Game Developer",
+     "left": "11/20 01:53",
+     "ts": "2026-11-20T01:53:00+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "本週兩家大廠裁員：Ubisoft 確認蒙特婁與魁北克市辦公室裁 166 人；Take-Two 在《俠盜獵車手 VI》上市前夕縮編 Firaxis。",
+     "also": [
+      {
+       "text": "Firaxis 裁員",
+       "url": "https://www.gamedeveloper.com/business/take-two-lays-off-firaxis-employees-on-eve-of-grand-theft-auto-vi-launch"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Ubisoft</strong>：官方說原因是製作需求不斷變化；據 GamesIndustry.biz，多為製作與支援職，部分來自與騰訊合資、負責《刺客教條》《極地戰嚎》《虹彩六號》的 Vantage Studio，起因是專案取消或大幅縮減規模。兩地工作室長年享有加拿大政府的大額補貼，Ubisoft 數月前才關閉同樣受補貼的 Halifax 工作室。",
+      "<strong>Firaxis</strong>：2K 證實 Firaxis 重組並縮小規模，聚焦設計、技術與玩家體驗，回到策略遊戲本業；負責人 Heather Hazen 離開公司。裁員發生在 Take-Two 公布第二季財報後數天，報導沒有提到裁員人數。"
+     ],
+     "table": null,
+     "dive_html": ""
+    },
+    {
+     "type": "item",
+     "no": "17",
+     "key": "f482344917",
+     "title": "Unity 收購 Synty Studios、推 Fellowship 給 10 組獨立團隊各 5 萬美元；高層回應私有化收購傳聞",
+     "title_html": "Unity 收購 Synty Studios、推 Fellowship 給 10 組獨立團隊各 5 萬美元；高層回應私有化收購傳聞",
+     "url": "https://gamefromscratch.com/unity-announce-fellowship-acquire-synty-studios/",
+     "src": "GameFromScratch",
+     "left": "11/18 00:18",
+     "ts": "2026-11-18T00:18:00+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Unite Tokyo 期間 Unity 連發兩則消息，Game Developer 另專訪產品資深副總裁 Adam Smith 談收購傳聞。",
+     "also": [
+      {
+       "text": "Fellowship 專訪",
+       "url": "https://www.gamedeveloper.com/business/unity-to-support-indies-with-cash-and-dedicated-support-through-new-fellowship-program"
+      },
+      {
+       "text": "收購傳聞",
+       "url": "https://www.gamedeveloper.com/business/-it-s-common-for-there-to-be-speculation-and-headlines-unity-exec-addresses-acquisition-rumors"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Unity Fellowship</strong>：選 10 組距上市約一年的獨立團隊，每組 5 萬美元，不需償還、不分潤、不取 IP，另有專屬窗口、業界專家網路、Unity 活動曝光與行銷 PR 支援；Adam Smith 說不看發行平台，看創意願景。",
+      "<strong>收購 Synty Studios</strong>：POLYGON 系列風格化 3D 美術包的團隊加入 Unity，素材庫將放進 AI 原生遊戲製作平台 Unity Spark，從今年稍晚的封閉測試開始；Synty 品牌、商店與 Synty Pass 照舊，免費素材維持免費，現有授權不變，Unreal 與 Godot 版也會繼續販售，未來調整引擎支援前會提前通知。",
+      "<strong>收購傳聞</strong>：Reuters 本月稍早報導 Unity 正與收購 EA 的投資集團（Silver Lake 與沙烏地阿拉伯公共投資基金 PIF 領軍）洽談全面收購下市；Adam Smith 說財報強勁後出現臆測「極為常見」，此外沒有可說的。"
+     ],
+     "table": null,
+     "dive_html": "Unity 上季營收年增 32%，從約 4.706 億美元增至 6.22 億美元，仍虧損 1.216 億美元（前一年 1.268 億）；成長主要來自廣告部門 Grow Solutions（3.18 億增至 4.57 億美元，增 43%），引擎所在的 Create Solutions 從 1.52 億增至 1.65 億美元（增 8%）；財測 2026 年第四季營收 6.83 億美元。"
+    },
+    {
+     "type": "item",
+     "no": "18",
+     "key": "0ddf7adb70",
+     "front": 2,
+     "title": "歐盟提出 Digital Fairness Act 草案：虛擬貨幣要標示實際金額、未成年預設停用，禁止對未成年販售轉蛋",
+     "title_html": "歐盟提出 Digital Fairness Act 草案：虛擬貨幣要標示實際金額、未成年預設停用，禁止對未成年販售轉蛋",
+     "url": "https://www.gamedeveloper.com/business/european-union-proposes-digital-fairness-act-which-could-have-major-effects-on-game-development",
+     "src": "Game Developer",
+     "left": "11/14 02:32",
+     "ts": "2026-11-14T02:32:59+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "歐盟執委會本週提出 71 頁的 Digital Fairness Act（DFA）草案，適用全體會員國，把遊戲的轉蛋、虛擬貨幣與 UX 設計納入規範；免費遊戲首當其衝，使用同類機制的買斷制遊戲也可能適用。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>虛擬貨幣</strong>：在歐盟境內要顯示對應的真實金額；鎖定未成年的產品預設停用虛擬貨幣，要家長或監護人登入同意才能開啟。",
+      "<strong>轉蛋</strong>：完全禁止賣給未成年；成年人可以買，但購買前要先揭露物品類型、機率等資訊。",
+      "<strong>Pay-to-win</strong>：禁止對未成年販售進度「必需」的內購，但「必需」怎麼定義、成年人能不能買、成年人和未成年同場競技時怎麼辦都還不清楚。",
+      "<strong>成癮設計</strong>：使用者要能關閉非由自身操作觸發的推播通知等設計。",
+      "<strong>其他重點</strong>：禁止操弄式行銷、價格要清楚透明、限制誘導過度消費、網紅行銷要揭露、限制針對未成年或利用敏感個資的個人化廣告與定價、數位合約與訂閱要更容易取消。"
+     ],
+     "table": null,
+     "dive_html": "這仍是提案，尚未通過；Game Developer 認為若通過，可能大幅改變部分遊戲的開發與發行方式，影響範圍不只歐洲，而是全球。"
+    }
+   ]
+  },
+  {
+   "name": "GitHub 週趨勢",
+   "count": 2,
+   "blocks": [
+    {
+     "type": "note",
+     "blocks": [
+      {
+       "kind": "p",
+       "html": "本週三個週榜都沒有遊戲引擎或 Web 繪圖專案；以下兩個跟 H5 開發的前端寫法與瀏覽器除錯有關。"
+      }
+     ]
+    },
+    {
+     "type": "item",
+     "no": "19",
+     "key": "95c23a9afe",
+     "title": "GoogleChrome/modern-web-guidance-src：讓 coding agent 跟上最新 Web 最佳實務的 skills",
+     "title_html": "GoogleChrome/modern-web-guidance-src：讓 coding agent 跟上最新 Web 最佳實務的 skills",
+     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+     "src": "GitHub Trending",
+     "left": "This week",
+     "heat": "+6,858 stars this week",
+     "tags": [],
+     "summary_html": "Modern Web Guidance 的原始碼庫，把 Web 平台知識、最佳實務與瀏覽器相容性資料做成 skills 放進 coding agent，引導它避開舊式寫法、改用現代 Web 平台的原生方案。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Lang</strong>: TypeScript"
+     ],
+     "table": null,
+     "dive_html": "由 Google Chrome、Microsoft Edge、Mozilla Firefox 與 MDN 團隊和社群共同維護。專案指出 LLM 訓練資料充滿舊程式碼，agent 常為了原生 API 就能做到的事產出臃腫的 JavaScript；內容涵蓋 View Transitions、container queries、Popover API、INP 診斷、scheduler.yield 等，CLI 可搜尋指南，也能掃描程式碼裡該現代化的舊寫法，需 Node.js 22 以上。#Web #CodingAgent #前端最佳實務"
+    },
+    {
+     "type": "item",
+     "no": "20",
+     "key": "a67bb8d2a6",
+     "title": "ChromeDevTools/chrome-devtools-mcp：讓 coding agent 操控、檢查 Chrome 的 DevTools MCP",
+     "title_html": "ChromeDevTools/chrome-devtools-mcp：讓 coding agent 操控、檢查 Chrome 的 DevTools MCP",
+     "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+     "src": "GitHub Trending",
+     "left": "This week",
+     "heat": "+3,229 stars this week",
+     "tags": [],
+     "summary_html": "讓 Claude、Cursor、Copilot 等 coding agent 透過 MCP server 或 CLI 控制並檢查執行中的 Chrome 瀏覽器。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Lang</strong>: TypeScript"
+     ],
+     "table": null,
+     "dive_html": "可錄 trace 取得效能建議、分析網路請求、截圖、讀主控台訊息（含 source map 後的堆疊），並用 puppeteer 自動化操作、等待結果；官方只支援 Google Chrome 與 Chrome for Testing。要注意預設會收集使用統計（啟動時加 --no-usage-statistics 關閉），效能工具可能把 trace 網址送到 Google CrUX API（--no-performance-crux 關閉），而且 MCP 用戶端能檢查、修改瀏覽器裡的任何資料。#MCP #ChromeDevTools #H5除錯"
+    }
+   ]
+  }
+ ],
+ "foot_left": "本報告由 news-aggregator 自動彙整",
+ "stats": {
+  "items": 20,
+  "sections": 7
+ }
+}

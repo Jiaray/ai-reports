@@ -1,0 +1,17 @@
+{
+ "schema": 1,
+ "series": "cocos_h5_weekly",
+ "title": "Cocos／H5 遊戲開發週報",
+ "group": "遊戲",
+ "cadence": "weekly",
+ "updated_at": "2026-11-20T14:19:49+08:00",
+ "items": [
+  {
+   "period": "2026-W47",
+   "date": "2026-11-20",
+   "count": 20,
+   "data": "cocos_h5_weekly/2026/2026-W47.json",
+   "generated_at": "2026-11-20T14:19:49+08:00"
+  }
+ ]
+}

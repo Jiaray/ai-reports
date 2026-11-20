@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T10:33:21+08:00",
+ "updated_at": "2026-11-20T14:19:49+08:00",
  "series": [
   {
    "id": "general",
@@ -25,10 +25,17 @@
   },
   {
    "id": "tech_ai",
-   "title": "科技 AI 日報",
+   "title": "AI 日報",
    "cadence": "daily",
    "group": "科技",
-   "short": "科技 AI"
+   "short": "AI"
+  },
+  {
+   "id": "tech",
+   "title": "科技日報",
+   "cadence": "daily",
+   "group": "科技",
+   "short": "科技"
   },
   {
    "id": "security",
@@ -36,6 +43,13 @@
    "cadence": "daily",
    "group": "科技",
    "short": "資安"
+  },
+  {
+   "id": "health",
+   "title": "健康日報",
+   "cadence": "daily",
+   "group": "綜合",
+   "short": "健康"
   },
   {
    "id": "ai_weekly",
@@ -80,6 +94,13 @@
    "short": "遊戲"
   },
   {
+   "id": "cocos_h5_weekly",
+   "title": "Cocos／H5 遊戲開發週報",
+   "cadence": "weekly",
+   "group": "遊戲",
+   "short": "Cocos 週報"
+  },
+  {
    "id": "taiwan_general",
    "title": "台灣綜合新聞",
    "cadence": "daily",
@@ -109,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "cocos_h5_weekly",
+   "series_title": "Cocos／H5 遊戲開發週報",
+   "cadence": "weekly",
+   "period": "2026-W47",
+   "date": "2026-11-20",
+   "title": "Cocos／H5 遊戲開發週報",
+   "lede": "近 7 日（11/13–11/20）重點：Cocos 建置面板改版與 Dashboard 升級彈窗惹議，PinK 路線長帖破百則回覆；PixiJS 3D 開放測試；歐盟 Digital Fairness Act 草案鎖定轉蛋與虛擬貨幣。",
+   "count": 20,
+   "data": "cocos_h5_weekly/2026/2026-W47.json",
+   "generated_at": "2026-11-20T14:19:49+08:00"
+  },
   {
    "series": "gamedev",
    "series_title": "遊戲產業新聞",
@@ -147,7 +180,7 @@
   },
   {
    "series": "tech_ai",
-   "series_title": "科技 AI 日報",
+   "series_title": "AI 日報",
    "cadence": "daily",
    "period": "2026-11-20",
    "date": "2026-11-20",
@@ -195,7 +228,7 @@
   },
   {
    "series": "tech_ai",
-   "series_title": "科技 AI 日報",
+   "series_title": "AI 日報",
    "cadence": "daily",
    "period": "2026-11-19",
    "date": "2026-11-19",

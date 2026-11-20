@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-20",
- "built_at": "2026-11-20T10:33:21+08:00",
+ "built_at": "2026-11-20T14:19:49+08:00",
  "reports": [
   {
    "series": "international",
@@ -42,6 +42,14 @@
    "period": "2026-11-20",
    "count": 16,
    "generated_at": "2026-11-20T10:33:21+08:00"
+  },
+  {
+   "series": "cocos_h5_weekly",
+   "series_title": "Cocos／H5 遊戲開發週報",
+   "group": "遊戲",
+   "period": "2026-W47",
+   "count": 20,
+   "generated_at": "2026-11-20T14:19:49+08:00"
   }
  ],
  "entries": [
@@ -560,5 +568,47 @@
    ]
   }
  ],
- "weekly": []
+ "weekly": [
+  {
+   "series": "cocos_h5_weekly",
+   "series_title": "Cocos／H5 遊戲開發週報",
+   "period": "2026-W47",
+   "date": "2026-11-20",
+   "items": [
+    {
+     "no": "01",
+     "rank": 1,
+     "title": "Cocos 新版建置面板入口拆成三個、建置記錄改不了名，Dashboard 被指自動下載引擎佔 40GB",
+     "summary_html": "多位開發者回報 Creator 建置面板突然換成新版，zerozerg 說事先不知道有更新、3.8.2 和 3.8.7 都變了，找不到舊的單一入口，建置記錄也改不了名；本週沒有官方回應。",
+     "url": "https://forum.cocos.org/t/topic/178198",
+     "src": "Cocos 中文社區",
+     "left": "11/19 11:11",
+     "heat": "501 瀏覽 / 14 回覆",
+     "tags": []
+    },
+    {
+     "no": "18",
+     "rank": 2,
+     "title": "歐盟提出 Digital Fairness Act 草案：虛擬貨幣要標示實際金額、未成年預設停用，禁止對未成年販售轉蛋",
+     "summary_html": "歐盟執委會本週提出 71 頁的 Digital Fairness Act（DFA）草案，適用全體會員國，把遊戲的轉蛋、虛擬貨幣與 UX 設計納入規範；免費遊戲首當其衝，使用同類機制的買斷制遊戲也可能適用。",
+     "url": "https://www.gamedeveloper.com/business/european-union-proposes-digital-fairness-act-which-could-have-major-effects-on-game-development",
+     "src": "Game Developer",
+     "left": "11/14 02:32",
+     "heat": "",
+     "tags": []
+    },
+    {
+     "no": "15",
+     "rank": 3,
+     "title": "PixiJS 3D 開放測試：WebGPU 優先、可退回 WebGL2，3D 場景像 Sprite 一樣加進 2D 舞台，MIT 授權",
+     "summary_html": "PixiJS 宣布 PixiJS 3D 進入 open beta，PixiJS 從 2D 擴充成同時是 2D 與 3D 引擎，兩者共用同一個 stage。",
+     "url": "https://pixijs.com/blog/pixi-3d-open-beta",
+     "src": "Hacker News（本週）",
+     "left": "11/14 06:15",
+     "heat": "HN 19",
+     "tags": []
+    }
+   ]
+  }
+ ]
 }
