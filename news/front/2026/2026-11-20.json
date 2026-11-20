@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-20",
- "built_at": "2026-11-20T15:47:25+08:00",
+ "built_at": "2026-11-20T15:47:34+08:00",
  "reports": [
   {
    "series": "international",
@@ -32,8 +32,8 @@
    "series_title": "資安日報",
    "group": "科技",
    "period": "2026-11-20",
-   "count": 18,
-   "generated_at": "2026-11-20T15:19:31+08:00"
+   "count": 15,
+   "generated_at": "2026-11-20T15:47:34+08:00"
   },
   {
    "series": "github_weekly",
@@ -150,14 +150,14 @@
    ]
   },
   {
-   "key": "bd29968021",
+   "key": "dc6901c8a6",
    "rank": 1,
-   "title": "中國駭客 Armory Castle 搶先兩個月利用 vCenter 零時差漏洞，竊 SAML 簽章材料植後門",
-   "summary_html": "Mandiant 指出中國關聯組織 Armory Castle 在博通修補前，已利用 vCenter 驗證繞過漏洞 CVE-2026-123890 逾兩個月。",
-   "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
-   "src": "ICSDA 資安日報",
-   "ts": "2026-11-20T06:20:14+08:00",
-   "left": "11/20 06:20",
+   "title": "VMware vCenter 零時差漏洞 CVE-2026-123890 遭中國駭客 Armory Castle 自 9 月起利用，博通緊急修補",
+   "summary_html": "VMware Directory Service 的身分驗證繞過漏洞可讓能連上 vCenter 的未驗證攻擊者取得 administrator@vsphere.local 管理員工作階段；博通將此更新列為 ITIL 緊急變更。",
+   "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html",
+   "src": "The Hacker News",
+   "ts": "2026-11-20T14:33:31+08:00",
+   "left": "11/20 14:33",
    "heat": "",
    "tags": [
     {
@@ -296,8 +296,8 @@
   {
    "key": "7cc3b724b6",
    "rank": 2,
-   "title": "NGINX 兩個「nginx2root」HTTP/2 漏洞可未驗證遠端執行程式碼，串接核心漏洞可拿 root",
-   "summary_html": "F5 修補 NGINX 的兩個 HTTP/2 重大漏洞，Wiz 示範在只放靜態檔的伺服器上未經驗證就能遠端執行程式碼。",
+   "title": "NGINX 修補「nginx2root」等 HTTP/2 重大漏洞，研究人員示範未驗證遠端執行程式碼",
+   "summary_html": "Xint、Wiz、Ikotas Labs、Metnir、Rapid7 分別獨立發現兩個 HTTP/2 漏洞，F5 一次修補共 10 個漏洞；目前未見遭實際利用的報導。",
    "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
    "src": "BleepingComputer",
    "ts": "2026-11-19T22:57:24+08:00",
@@ -313,7 +313,7 @@
     {
      "series": "security",
      "period": "2026-11-20",
-     "no": "05",
+     "no": "06",
      "rank": 2
     }
    ]
@@ -408,18 +408,18 @@
    ]
   },
   {
-   "key": "ef3cecb6fd",
+   "key": "f92f66411a",
    "rank": 3,
-   "title": "Ruby 修補 7 個記憶體安全漏洞，「Ruby2Shell」可在預設 Rails 應用未驗證觸發",
-   "summary_html": "Ruby 的正規表示式引擎與字串大小寫轉換有 7 個漏洞，維護團隊確認其中 5 個有可遠端執行程式碼的 PoC。",
-   "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+   "title": "PHP 一次修補 18 個漏洞，7 個重大等級可導致遠端執行程式碼",
+   "summary_html": "PHP 基金會 11 月 19 日釋出安全更新，涵蓋核心引擎、工作階段處理、PHP-FPM、CGI 等元件。",
+   "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html",
    "src": "The Hacker News",
-   "ts": "2026-11-19T16:42:11+08:00",
-   "left": "11/19 16:42",
+   "ts": "2026-11-19T23:18:07+08:00",
+   "left": "11/19 23:18",
    "heat": "",
    "tags": [
     {
-     "text": "已有 PoC",
+     "text": "僅揭露",
      "cls": "tag-outline"
     }
    ],
@@ -427,7 +427,7 @@
     {
      "series": "security",
      "period": "2026-11-20",
-     "no": "07",
+     "no": "05",
      "rank": 3
     }
    ]
@@ -551,18 +551,18 @@
    ]
   },
   {
-   "key": "04fd14ae1a",
+   "key": "ef3cecb6fd",
    "rank": 4,
-   "title": "Synology 修補 DSM OAuth API 重大漏洞 CVE-2026-120382，CVSS 9.8 可任意讀寫檔案",
-   "summary_html": "Synology 發布安全公告 SA-26:21，DSM 與 BeeStation OS 的 OAuth API 有參數分隔字元處理不當漏洞，遠端攻擊者可任意讀寫檔案並造成服務中斷。",
-   "url": "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21",
-   "src": "Hacker News",
-   "ts": "2026-11-20T06:13:40+08:00",
-   "left": "11/20 06:13",
-   "heat": "HN 136",
+   "title": "Ruby 修補 7 個記憶體安全漏洞，Ruby2Shell 據稱可在預設設定的 Rails 應用未驗證觸發",
+   "summary_html": "漏洞位於正規表示式引擎與字串大小寫轉換程式碼；維護者稱 PoC 可證明遠端執行，目前公告未見攻擊。",
+   "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
+   "src": "The Hacker News",
+   "ts": "2026-11-19T16:42:11+08:00",
+   "left": "11/19 16:42",
+   "heat": "",
    "tags": [
     {
-     "text": "僅揭露",
+     "text": "已有 PoC",
      "cls": "tag-outline"
     }
    ],
@@ -570,7 +570,7 @@
     {
      "series": "security",
      "period": "2026-11-20",
-     "no": "04",
+     "no": "08",
      "rank": 4
     }
    ]
@@ -694,14 +694,14 @@
    ]
   },
   {
-   "key": "bdcae02c19",
+   "key": "385d5fa32c",
    "rank": 5,
-   "title": "大車隊子公司全球商務科技遭未授權存取，部分客戶與會員資料恐外洩",
-   "summary_html": "大車隊（2640）發布資安重訊，子公司全球商務科技的資訊系統遭外部未經授權存取，部分客戶及相關人員資料遭存取與擷取。",
-   "url": "https://www.ithome.com.tw/news/180662",
-   "src": "ICSDA 資安日報",
-   "ts": "2026-11-20T06:20:14+08:00",
-   "left": "11/20 06:20",
+   "title": "歐盟執委會證實遭開源 AI 滲透框架 ARTEX 攻擊，近一個月部分系統仍無法使用",
+   "summary_html": "執委會 11 月 19 日證實 10 月 22 日偵測到使用 AI 工具的網路攻擊，Politico 率先揭露駭客使用開源框架 ARTEX。",
+   "url": "https://www.ithome.com.tw/news/180672",
+   "src": "iThome 資安",
+   "ts": "2026-11-20T09:00:00+08:00",
+   "left": "11/20 09:00",
    "heat": "",
    "tags": [],
    "from": [
