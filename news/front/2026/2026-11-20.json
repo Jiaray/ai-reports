@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-20",
- "built_at": "2026-11-20T14:19:49+08:00",
+ "built_at": "2026-11-20T15:19:31+08:00",
  "reports": [
   {
    "series": "international",
@@ -24,8 +24,8 @@
    "series_title": "資安日報",
    "group": "科技",
    "period": "2026-11-20",
-   "count": 15,
-   "generated_at": "2026-11-20T10:32:20+08:00"
+   "count": 18,
+   "generated_at": "2026-11-20T15:19:31+08:00"
   },
   {
    "series": "gambling",
@@ -105,14 +105,14 @@
    ]
   },
   {
-   "key": "c5e24a06d3",
+   "key": "bd29968021",
    "rank": 1,
-   "title": "VMware vCenter 驗證繞過零日漏洞（CVSS 9.8）9 月起遭利用，Broadcom 釋出緊急修補",
-   "summary_html": "Broadcom 修補 vCenter Server 的 VMware Directory Service 驗證繞過漏洞，未經驗證、可連到網路的攻擊者能直接取得管理員權限。",
-   "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
-   "src": "BleepingComputer",
-   "ts": "2026-11-20T08:26:25+08:00",
-   "left": "11/20 08:26",
+   "title": "中國駭客 Armory Castle 搶先兩個月利用 vCenter 零時差漏洞，竊 SAML 簽章材料植後門",
+   "summary_html": "Mandiant 指出中國關聯組織 Armory Castle 在博通修補前，已利用 vCenter 驗證繞過漏洞 CVE-2026-123890 逾兩個月。",
+   "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+   "src": "ICSDA 資安日報",
+   "ts": "2026-11-20T06:20:14+08:00",
+   "left": "11/20 06:20",
    "heat": "",
    "tags": [
     {
@@ -217,8 +217,8 @@
   {
    "key": "7cc3b724b6",
    "rank": 2,
-   "title": "NGINX「nginx2root」兩項 HTTP/2 重大漏洞可遠端執行程式碼，串接核心漏洞可取得 root",
-   "summary_html": "Wiz 已展示未經驗證的遠端程式碼執行，Xint 串接 Linux 核心 SCTP 漏洞從 NGINX Docker 容器逃逸取得主機 root；Wiz 暫不公開 PoC。",
+   "title": "NGINX 兩個「nginx2root」HTTP/2 漏洞可未驗證遠端執行程式碼，串接核心漏洞可拿 root",
+   "summary_html": "F5 修補 NGINX 的兩個 HTTP/2 重大漏洞，Wiz 示範在只放靜態檔的伺服器上未經驗證就能遠端執行程式碼。",
    "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
    "src": "BleepingComputer",
    "ts": "2026-11-19T22:57:24+08:00",
@@ -300,18 +300,18 @@
    ]
   },
   {
-   "key": "7b2c191d75",
+   "key": "ef3cecb6fd",
    "rank": 3,
-   "title": "CISA 將群暉 DSM、LiteLLM、Apache Axis、REDCap 四項漏洞列入 KEV",
-   "summary_html": "CISA 掌握四項漏洞遭積極利用的證據，分別與勒索軟體、挖礦與 LLMjacking 攻擊有關。",
-   "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
+   "title": "Ruby 修補 7 個記憶體安全漏洞，「Ruby2Shell」可在預設 Rails 應用未驗證觸發",
+   "summary_html": "Ruby 的正規表示式引擎與字串大小寫轉換有 7 個漏洞，維護團隊確認其中 5 個有可遠端執行程式碼的 PoC。",
+   "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
    "src": "The Hacker News",
-   "ts": "2026-11-19T16:00:00+08:00",
-   "left": "11/19 16:00",
+   "ts": "2026-11-19T16:42:11+08:00",
+   "left": "11/19 16:42",
    "heat": "",
    "tags": [
     {
-     "text": "已遭利用",
+     "text": "已有 PoC",
      "cls": "tag-outline"
     }
    ],
@@ -319,7 +319,7 @@
     {
      "series": "security",
      "period": "2026-11-20",
-     "no": "08",
+     "no": "07",
      "rank": 3
     }
    ]
@@ -414,15 +414,15 @@
    ]
   },
   {
-   "key": "c5e7bc1c42",
+   "key": "04fd14ae1a",
    "rank": 4,
-   "title": "PHP 修補 18 項漏洞，含 PHP-FPM 請求走私等可遠端執行程式碼的重大漏洞",
-   "summary_html": "PHP 團隊 11 月 19 日為所有支援分支發布安全更新，涵蓋核心引擎、session、PHP-FPM、CGI 等元件。",
-   "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
-   "src": "BleepingComputer",
-   "ts": "2026-11-20T00:28:23+08:00",
-   "left": "11/20 00:28",
-   "heat": "",
+   "title": "Synology 修補 DSM OAuth API 重大漏洞 CVE-2026-120382，CVSS 9.8 可任意讀寫檔案",
+   "summary_html": "Synology 發布安全公告 SA-26:21，DSM 與 BeeStation OS 的 OAuth API 有參數分隔字元處理不當漏洞，遠端攻擊者可任意讀寫檔案並造成服務中斷。",
+   "url": "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21",
+   "src": "Hacker News",
+   "ts": "2026-11-20T06:13:40+08:00",
+   "left": "11/20 06:13",
+   "heat": "HN 136",
    "tags": [
     {
      "text": "僅揭露",
@@ -528,21 +528,21 @@
    ]
   },
   {
-   "key": "385d5fa32c",
+   "key": "bdcae02c19",
    "rank": 5,
-   "title": "歐盟執委會遭開源 AI 滲透框架 ARTEX 入侵，部分系統停擺近一個月",
-   "summary_html": "歐盟執委會證實 10 月 22 日偵測到使用 AI 工具的攻擊，人資平台 Sysper、醫療報銷系統 MyPMO 與內部翻譯服務受影響，員工個資是否外洩仍待釐清。",
-   "url": "https://www.ithome.com.tw/news/180672",
-   "src": "iThome 資安",
-   "ts": "2026-11-20T09:00:00+08:00",
-   "left": "11/20 09:00",
+   "title": "大車隊子公司全球商務科技遭未授權存取，部分客戶與會員資料恐外洩",
+   "summary_html": "大車隊（2640）發布資安重訊，子公司全球商務科技的資訊系統遭外部未經授權存取，部分客戶及相關人員資料遭存取與擷取。",
+   "url": "https://www.ithome.com.tw/news/180662",
+   "src": "ICSDA 資安日報",
+   "ts": "2026-11-20T06:20:14+08:00",
+   "left": "11/20 06:20",
    "heat": "",
    "tags": [],
    "from": [
     {
      "series": "security",
      "period": "2026-11-20",
-     "no": "09",
+     "no": "11",
      "rank": 5
     }
    ]

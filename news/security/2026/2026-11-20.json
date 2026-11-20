@@ -9,9 +9,10 @@
  "title": "資安日報",
  "brief": "DAILY NEWS BRIEFING",
  "issue": "NO. 2026-324",
- "generated_at": "2026-11-20T10:32:20+08:00",
- "lede": "VMware vCenter 零日漏洞遭中國關聯駭客利用兩個多月才修補；NGINX、PHP、Drupal、Ruby、群暉同日釋出重大修補；歐盟執委會遭開源 AI 攻擊框架 ARTEX 入侵近一個月。",
+ "generated_at": "2026-11-20T15:19:31+08:00",
+ "lede": "vCenter 驗證繞過漏洞 CVE-2026-123890 證實遭中國 APT 零時差利用逾兩個月；NGINX、Ruby、Drupal、Synology 同日釋出重大修補；大車隊子公司與愛爾蘭信合社供應商傳出個資外洩。",
  "src_tags": [
+  "ICSDA 資安日報",
   "BleepingComputer",
   "The Hacker News",
   "iThome",
@@ -21,7 +22,7 @@
  "intro": [
   {
    "kind": "p",
-   "html": "VMware vCenter 零日漏洞遭中國關聯駭客利用兩個多月才修補；NGINX、PHP、Drupal、Ruby、群暉同日釋出重大修補；歐盟執委會遭開源 AI 攻擊框架 ARTEX 入侵近一個月。"
+   "html": "vCenter 驗證繞過漏洞 CVE-2026-123890 證實遭中國 APT 零時差利用逾兩個月；NGINX、Ruby、Drupal、Synology 同日釋出重大修補；大車隊子公司與愛爾蘭信合社供應商傳出個資外洩。"
   }
  ],
  "sections": [
@@ -32,14 +33,14 @@
     {
      "type": "item",
      "no": "01",
-     "key": "c5e24a06d3",
+     "key": "bd29968021",
      "front": 1,
-     "title": "VMware vCenter 驗證繞過零日漏洞（CVSS 9.8）9 月起遭利用，Broadcom 釋出緊急修補",
-     "title_html": "VMware vCenter 驗證繞過零日漏洞（CVSS 9.8）9 月起遭利用，Broadcom 釋出緊急修補",
-     "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/",
-     "src": "BleepingComputer",
-     "left": "11/20 08:26",
-     "ts": "2026-11-20T08:26:25+08:00",
+     "title": "中國駭客 Armory Castle 搶先兩個月利用 vCenter 零時差漏洞，竊 SAML 簽章材料植後門",
+     "title_html": "中國駭客 Armory Castle 搶先兩個月利用 vCenter 零時差漏洞，竊 SAML 簽章材料植後門",
+     "url": "https://www.securityweek.com/newly-patched-vmware-vcenter-flaw-exploited-as-zero-day-by-chinese-apt/",
+     "src": "ICSDA 資安日報",
+     "left": "11/20 06:20",
+     "ts": "2026-11-20T06:20:14+08:00",
      "heat": "",
      "tags": [
       {
@@ -47,8 +48,52 @@
        "cls": "tag-outline"
       }
      ],
-     "summary_html": "Broadcom 修補 vCenter Server 的 VMware Directory Service 驗證繞過漏洞，未經驗證、可連到網路的攻擊者能直接取得管理員權限。",
+     "summary_html": "Mandiant 指出中國關聯組織 Armory Castle 在博通修補前，已利用 vCenter 驗證繞過漏洞 CVE-2026-123890 逾兩個月。",
      "also": [
+      {
+       "text": "The Hacker News",
+       "url": "https://thehackernews.com/2026/11/china-linked-hackers-exploit-critical.html"
+      },
+      {
+       "text": "iThome 資安",
+       "url": "https://www.ithome.com.tw/news/180674"
+      },
+      {
+       "text": "BleepingComputer",
+       "url": "https://www.bleepingcomputer.com/news/security/vmware-patches-vcenter-zero-day-exploited-in-attacks-since-september/"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：ICSDA 評為高危、需立即處理；vCenter 7.x、8.x（CVSS 9.8），已於 2025 年 10 月結束一般支援的 7.0 沒有公開修補；Mandiant 已調查多起事件，受害組織總數原文未提供。",
+      "<strong>處置</strong>：升級 vCenter 9.1.1.0200、9.0.2.0200 或 8.0 U3m；修補後檢查 SSO 管理員帳號、異常 SAML 登入與 ESXi 主機活動，必要時輪替資料庫憑證與 SAML 簽章材料；同步修補 BeyondTrust Remote Support CVE-2026-102764。"
+     ],
+     "table": null,
+     "dive_html": "這個組織原名 UNC5221，也稱 Warp Panda。依 Mandiant 調查，攻擊者先以 BeyondTrust Remote Support 零時差 CVE-2026-102764 取得初始存取，橫向移到內網 Linux 設備，9 月初鎖定 vCenter；接著以自製工具 Bonesaw 竊取 LMDB 資料庫、擷取 SAML 簽章材料並建立 SSO 管理員帳號，再偽造 SAML 權杖、安裝後門，取得 vCenter 主加密金鑰與資料庫憑證後移往 ESXi。Bonesaw 也用在已修補 7 月另一個驗證繞過漏洞 CVE-2026-59309 的 vCenter 上，Mandiant 並表示對方在 7 月 29 日該漏洞揭露前就已掌握這個新漏洞。ICSDA 提醒，博通公告本身沒有提到已遭利用，風險評估要搭配威脅情報（ICSDA 觀點）。"
+    },
+    {
+     "type": "item",
+     "no": "02",
+     "key": "9346f1ad67",
+     "title": "博通修補 vCenter 驗證繞過漏洞 CVE-2026-123890，CVSS 9.8 且沒有替代緩解措施",
+     "title_html": "博通修補 vCenter 驗證繞過漏洞 CVE-2026-123890，CVSS 9.8 且沒有替代緩解措施",
+     "url": "https://www.csoonline.com/article/4251012/critical-flaw-in-vmware-vcenter-allows-authentication-bypass-2.html",
+     "src": "ICSDA 資安日報",
+     "left": "11/20 06:20",
+     "ts": "2026-11-20T06:20:14+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "已遭利用",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "博通修補 VMware Directory Service 的驗證繞過漏洞，連同 SDDC Manager 與 VMware Tools 共 5 個漏洞，官方表示都沒有替代緩解方案。",
+     "also": [
+      {
+       "text": "iThome 資安",
+       "url": "https://www.ithome.com.tw/news/180673"
+      },
       {
        "text": "The Hacker News",
        "url": "https://thehackernews.com/2026/11/critical-vmware-vcenter-flaw-cvss-98.html"
@@ -56,54 +101,22 @@
      ],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：所有低於 VMSA 所列修補版本的 vCenter、SDDC Manager、Windows 版 VMware Tools（含 VMware Cloud Foundation、vSphere Foundation、Telco Cloud 內建部署）；CVE-2026-123890，CVSS 9.8；不論是否啟用 Enhanced Linked Mode 都受影響。",
-      "<strong>處置</strong>：依 VMSA-2026-0009 升級到修補版本；官方無替代緩解，網路限制與防火牆可降低暴露面。"
+      "<strong>影響範圍</strong>：ICSDA 評為高危、需立即處理；早於修正版的 vCenter、SDDC Manager、Windows 版 VMware Tools，含單獨部署及 VMware Cloud Foundation、vSphere Foundation、Telco Cloud Platform／Infrastructure 內的版本。主漏洞已遭利用（見上一則）。",
+      "<strong>處置</strong>：vCenter 更新到 9.1.1.0200、9.0.2.0200 或 8.0 U3m，VMware Cloud Foundation 5.x 更新到 5.2.5，Telco Cloud 依 KB463116；vCenter 7.0 只有購買延伸支援才拿得到修補。修補前先縮小能連到 vCenter 與 SDDC Manager 的網段。"
      ],
      "table": null,
-     "dive_html": "Mandiant 與 Google 威脅情報小組（GTIG）報告指出，疑似中國國家支持的駭客組織 Armory Castle（前稱 UNC5221）2026 年 9 月初即利用此漏洞，建立 administrator@vsphere.local 身分的工作階段後執行任意指令、竊取 data.mdb 等檔案。Broadcom 在 VMSA-2026-0009 一併修補 SDDC Manager 與 Windows 版 VMware Tools 的另外四項漏洞，並將此更新定為 ITIL「緊急變更」；Broadcom 本身未證實遭利用。"
-    },
-    {
-     "type": "item",
-     "no": "02",
-     "key": "04fd14ae1a",
-     "title": "群暉 DSM OAuth API 重大漏洞（CVSS 9.8）可任意讀寫檔案",
-     "title_html": "群暉 DSM OAuth API 重大漏洞（CVSS 9.8）可任意讀寫檔案",
-     "url": "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21",
-     "src": "Hacker News",
-     "left": "11/20 06:13",
-     "ts": "2026-11-20T06:13:40+08:00",
-     "heat": "HN 106",
-     "tags": [
-      {
-       "text": "僅揭露",
-       "cls": "tag-outline"
-      }
-     ],
-     "summary_html": "群暉公告 Synology-SA-26:21，CVE-2026-120382 讓遠端攻擊者可讀寫任意檔案並造成阻斷服務，部分版本修補仍在進行中。",
-     "also": [
-      {
-       "text": "Discussion",
-       "url": "https://news.ycombinator.com/item?id=50567209"
-      }
-     ],
-     "also_more": [],
-     "bullets_html": [
-      "<strong>影響範圍</strong>：DSM 7.4、7.3、7.2.2、7.2.1、7.1 與 BeeStation OS 1.5，皆為 Critical；CVE-2026-120382，CVSS 9.8（CWE-88 指令參數分隔處理不當）。",
-      "<strong>處置</strong>：DSM 7.4 升級 7.4.1-90080-2、DSM 7.3 升級 7.3.2-86009-6（預定 11 月 20 日釋出）；7.2.x 建議升到 7.3.2-86009-6；暫時停用 OAuth Service 套件。"
-     ],
-     "table": null,
-     "dive_html": ""
+     "dive_html": "主漏洞只要能連到目標的網路就可能未經授權取得存取權，不需要合法帳號。同批另有 4 個漏洞：SDDC Manager 的 SQL 注入 CVE-2026-123891（8.1）、需驗證的指令注入 CVE-2026-123892（7.2）、本機權限提升 CVE-2026-123893（6.7），以及 VMware Tools 的 SAML 權杖簽章繞過 CVE-2026-123894（6.7）。ICSDA 提醒，這幾個分數不高的漏洞若與主漏洞串接，管理平面可能被逐層突破（ICSDA 觀點）。"
     },
     {
      "type": "item",
      "no": "03",
-     "key": "3797ecb529",
-     "title": "ASUS Control Center Express 寫死金鑰漏洞（CVSS 10.0）可偽造管理員權杖",
-     "title_html": "ASUS Control Center Express 寫死金鑰漏洞（CVSS 10.0）可偽造管理員權杖",
-     "url": "https://www.bleepingcomputer.com/news/security/asus-warns-of-critical-hard-coded-key-flaw-in-control-center-express/",
-     "src": "BleepingComputer",
-     "left": "11/20 05:15",
-     "ts": "2026-11-20T05:15:59+08:00",
+     "key": "7cf301393d",
+     "title": "PHP 十一月更新修補 7 個重大漏洞，可利用性取決於組態",
+     "title_html": "PHP 十一月更新修補 7 個重大漏洞，可利用性取決於組態",
+     "url": "https://www.darkreading.com/application-security/critical-php-flaws-code-execution-panic-php2shell",
+     "src": "ICSDA 資安日報",
+     "left": "11/20 06:20",
+     "ts": "2026-11-20T06:20:14+08:00",
      "heat": "",
      "tags": [
       {
@@ -111,36 +124,16 @@
        "cls": "tag-outline"
       }
      ],
-     "summary_html": "ASUS 修補三項重大漏洞，未經驗證的遠端攻擊者可偽造驗證權杖，取得管理主控台及其受管裝置的管理員權限。",
-     "also": [],
-     "also_more": [],
-     "bullets_html": [
-      "<strong>影響範圍</strong>：Control Center Express 1.7.29 以前版本；CVE-2026-114202（CVSS 10.0，寫死加密金鑰）、CVE-2026-114204（寫死金鑰、低權限可偽造工作階段）、CVE-2026-114205（授權缺陷）；原文未提及遭利用。",
-      "<strong>處置</strong>：升級 Control Center Express v1.7.29。"
-     ],
-     "table": null,
-     "dive_html": ""
-    },
-    {
-     "type": "item",
-     "no": "04",
-     "key": "c5e7bc1c42",
-     "front": 4,
-     "title": "PHP 修補 18 項漏洞，含 PHP-FPM 請求走私等可遠端執行程式碼的重大漏洞",
-     "title_html": "PHP 修補 18 項漏洞，含 PHP-FPM 請求走私等可遠端執行程式碼的重大漏洞",
-     "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/",
-     "src": "BleepingComputer",
-     "left": "11/20 00:28",
-     "ts": "2026-11-20T00:28:23+08:00",
-     "heat": "",
-     "tags": [
-      {
-       "text": "僅揭露",
-       "cls": "tag-outline"
-      }
-     ],
-     "summary_html": "PHP 團隊 11 月 19 日為所有支援分支發布安全更新，涵蓋核心引擎、session、PHP-FPM、CGI 等元件。",
+     "summary_html": "PHP 例行安全更新修補 7 個重大等級漏洞，可能導致程式碼執行，但專家指出能否被利用高度取決於系統組態。",
      "also": [
+      {
+       "text": "iThome 資安",
+       "url": "https://www.ithome.com.tw/news/180678"
+      },
+      {
+       "text": "BleepingComputer",
+       "url": "https://www.bleepingcomputer.com/news/security/php-security-updates-fix-18-flaws-including-critical-rce-bugs/"
+      },
       {
        "text": "The Hacker News",
        "url": "https://thehackernews.com/2026/11/php-fixes-7-critical-flaws-including.html"
@@ -152,19 +145,52 @@
      ],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：所有支援中的 PHP 分支；CVE-2026-129289、CVE-2026-115560、CVE-2026-129182、CVE-2026-129474 等 18 項。",
-      "<strong>處置</strong>：升級至 PHP 8.5.13、8.4.28、8.3.37、8.2.36（或 8.6.0）。"
+      "<strong>影響範圍</strong>：ICSDA 評為中危、建議排程處理；使用 PHP 的網站與網頁應用程式。iThome 報導 PHP 基金會 11 月 19 日的更新共修補 18 個漏洞，其中 7 個為重大等級。是否已遭利用，原文未提供。",
+      "<strong>處置</strong>：套用 PHP 基金會 11 月 19 日的安全更新（8.6.0、8.5.13、8.4.28 等版本），先處理暴露在網際網路上的系統。"
      ],
      "table": null,
-     "dive_html": "Aikido 指出 CVE-2026-129289（CVSS 9.2）只影響會重複使用 PHP-FPM 後端連線的 nginx、Apache、HAProxy、LSAPI 設定，標準不重用連線的設定不受影響。The Hacker News 另列出 CVE-2026-115560（輸入驗證不當，CVSS 9.2）與 CVE-2026-129182（use-after-free，CVSS 9.2）；維護者表示多數漏洞需在非預設或少見設定下才能觸發。The Hacker News 另以專文解析「phpAfterShell」：PHP 預設的檔案型 session 儲存可被操弄成回傳攻擊者選定的物件。原文未提及遭利用。"
+     "dive_html": "Dark Reading 引述專家說法，這批漏洞的可利用性差異很大，不必像過去事件那樣恐慌，但不宜拖延。ICSDA 建議一邊排修補時程、一邊盤點各系統的 PHP 版本與設定，依實際暴露程度排優先順序（ICSDA 觀點）。"
+    },
+    {
+     "type": "item",
+     "no": "04",
+     "key": "04fd14ae1a",
+     "front": 4,
+     "title": "Synology 修補 DSM OAuth API 重大漏洞 CVE-2026-120382，CVSS 9.8 可任意讀寫檔案",
+     "title_html": "Synology 修補 DSM OAuth API 重大漏洞 CVE-2026-120382，CVSS 9.8 可任意讀寫檔案",
+     "url": "https://www.synology.com/en-uk/security/advisory/Synology_SA_26_21",
+     "src": "Hacker News",
+     "left": "11/20 06:13",
+     "ts": "2026-11-20T06:13:40+08:00",
+     "heat": "HN 136",
+     "tags": [
+      {
+       "text": "僅揭露",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "Synology 發布安全公告 SA-26:21，DSM 與 BeeStation OS 的 OAuth API 有參數分隔字元處理不當漏洞，遠端攻擊者可任意讀寫檔案並造成服務中斷。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50567209"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：DSM 7.4、7.3、7.2.2、7.2.1、7.1 與 BeeStation OS 1.5 都是重大等級；DSM Enterprise 1.0、SRM、APM 不受影響。",
+      "<strong>處置</strong>：DSM 7.4 升級 7.4.1-90080-2、DSM 7.3 升級 7.3.2-86009-6（公告預定 11 月 20 日釋出）；7.2.x 建議升到 7.3.2-86009-6；7.1 與 BeeStation OS 仍在處理中。緩解方式是停用 OAuth Service 套件。"
+     ],
+     "table": null,
+     "dive_html": "公告 11 月 19 日 15:47（台北時間）發布，狀態仍是「Ongoing」；CVSS 向量為網路可達、低複雜度、不需權限與使用者互動（AV:N/AC:L/PR:N/UI:N），類型屬 CWE-88。另一個 Synology DSM 漏洞 CVE-2024-10441 同日被 CISA 列入已遭利用清單（見下則），兩者是不同漏洞。"
     },
     {
      "type": "item",
      "no": "05",
      "key": "7cc3b724b6",
      "front": 2,
-     "title": "NGINX「nginx2root」兩項 HTTP/2 重大漏洞可遠端執行程式碼，串接核心漏洞可取得 root",
-     "title_html": "NGINX「nginx2root」兩項 HTTP/2 重大漏洞可遠端執行程式碼，串接核心漏洞可取得 root",
+     "title": "NGINX 兩個「nginx2root」HTTP/2 漏洞可未驗證遠端執行程式碼，串接核心漏洞可拿 root",
+     "title_html": "NGINX 兩個「nginx2root」HTTP/2 漏洞可未驗證遠端執行程式碼，串接核心漏洞可拿 root",
      "url": "https://www.bleepingcomputer.com/news/security/critical-nginx-nginx2root-bugs-let-attackers-hijack-servers/",
      "src": "BleepingComputer",
      "left": "11/19 22:57",
@@ -176,22 +202,22 @@
        "cls": "tag-outline"
       }
      ],
-     "summary_html": "Wiz 已展示未經驗證的遠端程式碼執行，Xint 串接 Linux 核心 SCTP 漏洞從 NGINX Docker 容器逃逸取得主機 root；Wiz 暫不公開 PoC。",
+     "summary_html": "F5 修補 NGINX 的兩個 HTTP/2 重大漏洞，Wiz 示範在只放靜態檔的伺服器上未經驗證就能遠端執行程式碼。",
      "also": [],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：CVE-2026-123007（流量控制記憶體破壞，1.9.5–1.31.8）、CVE-2026-123633（HTTP/2 反向代理 use-after-free，1.19.7–1.31.8）；另有 CVE-2026-121810、CVE-2026-123634、CVE-2026-113425（HTTP/3 代理、DNS 子請求、郵件代理驗證）；原文未提供 CVSS 分數。",
-      "<strong>處置</strong>：升級 NGINX Open Source 1.30.7 stable／1.31.9 mainline，NGINX Plus 升級 37.0.8.1 或 37.3.0.1；暫時無法升級可先停用 HTTP/2（僅涵蓋兩項 nginx2root）。"
+      "<strong>影響範圍</strong>：CVE-2026-123007（流量控制造成 worker 記憶體損毀）影響 1.9.5 到 1.31.8；CVE-2026-123633（HTTP/2 反向代理的 use-after-free）影響 1.19.7 到 1.31.8。同批另修 3 個 use-after-free（HTTP/3 反向代理、DNS 解析子請求、郵件代理驗證）與 TLS 1.3 請求本文造成無窮迴圈的 CVE-2026-118899。",
+      "<strong>處置</strong>：升級 NGINX Open Source 1.30.7 stable 或 1.31.9 mainline，NGINX Plus 升級 37.0.8.1 或 37.3.0.1；暫時無法升級可先關閉 HTTP/2，但只擋得住兩個 nginx2root 漏洞。"
      ],
      "table": null,
-     "dive_html": "兩項漏洞由 Xint、Wiz、Ikotas Labs、Metnir、Rapid7 分別發現，Xint 另找到三項 RCE 漏洞，Censys 在實驗室重現五項中的四項記憶體破壞但未達成 RCE。F5 同次更新另修補五項漏洞，其中 CVE-2026-118899 可經 TLS 1.3 讓 worker 陷入無窮迴圈造成阻斷服務。研究員 Florian Roth 評估比 Node2Shell、Java2Shell 更糟，但對多數部署尚非迫切威脅。"
+     "dive_html": "兩個漏洞分別由 Xint、Wiz、Ikotas Labs、Metnir 與 Rapid7 獨立發現；Xint 示範串接 Linux 核心 SCTP 子系統的另一個漏洞，從 NGINX 的 Docker 容器逃逸並取得主機 root。Censys 在實驗室重現了 5 個漏洞中 4 個的記憶體損毀條件，但沒有做到遠端執行程式碼；Wiz 暫不公開 PoC。研究員 Florian Roth 評估它比 Node2Shell、Java2Shell 更嚴重，但對多數 NGINX 部署還不是迫切威脅。"
     },
     {
      "type": "item",
      "no": "06",
      "key": "df5a560c1b",
-     "title": "Drupal 核心安裝程式重大漏洞可讓匿名攻擊者重裝網站、取得控制",
-     "title_html": "Drupal 核心安裝程式重大漏洞可讓匿名攻擊者重裝網站、取得控制",
+     "title": "Drupal 修補可讓匿名攻擊者重新安裝網站的重大 RCE 漏洞，警告攻擊可能數小時內出現",
+     "title_html": "Drupal 修補可讓匿名攻擊者重新安裝網站的重大 RCE 漏洞，警告攻擊可能數小時內出現",
      "url": "https://www.bleepingcomputer.com/news/security/drupal-patches-critical-rce-flaw-warns-exploits-may-surface-quickly/",
      "src": "BleepingComputer",
      "left": "11/19 21:08",
@@ -199,11 +225,11 @@
      "heat": "",
      "tags": [
       {
-       "text": "已有 PoC",
+       "text": "僅揭露",
        "cls": "tag-outline"
       }
      ],
-     "summary_html": "留在網站上的 /core/install.php 在特定條件下可被未登入者用來重新安裝 Drupal，導致網站被接管或遠端執行程式碼。",
+     "summary_html": "Drupal 安全團隊修補 CVE-2026-132165，匿名攻擊者在特定條件下可利用內建安裝程式重新安裝 Drupal，接管網站或遠端執行程式碼。",
      "also": [
       {
        "text": "The Hacker News",
@@ -212,18 +238,19 @@
      ],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：Drupal 核心所有支援分支；CVE-2026-132165；原文未提供 CVSS。",
-      "<strong>處置</strong>：升級 Drupal 10.6.22、11.3.22 或 11.4.13；網頁伺服器無法寫入或變更 settings.php 權限時可擋下部分攻擊路徑；Drupal Steward WAF 用戶已防護已知手法，仍應升級。"
+      "<strong>影響範圍</strong>：Drupal core；常見於政府、大學、研究機構與大型企業、媒體的多站台部署。同日另修補需管理員權限的中度漏洞 CVE-2026-132166。",
+      "<strong>處置</strong>：升級 Drupal 10.6.22、11.3.22 或 11.4.13；無法立即升級就在網頁伺服器設定或 .htaccess 封鎖 /core/install.php。網頁伺服器無法寫入或變更 settings.php 權限時，部分利用路徑會被擋下。"
      ],
      "table": null,
-     "dive_html": "漏洞由 Anthropic 的 OSS Scanner 發現。Drupal 安全團隊評為重大（風險量表 18/25），認為受影響設定少見、利用複雜，公告記錄已有 PoC、尚無攻擊；事前通知曾警告利用程式可能在數小時內出現。核心預設 .htaccess 不會擋 install.php，需各站自行封鎖。"
+     "dive_html": "漏洞由 Anthropic 的 OSS Scanner 發現。Drupal 在週一的預告中提醒預留時間更新，因為攻擊程式可能在數小時到數天內出現。Drupal 今年 5 月已確認 SQL 注入漏洞 CVE-2026-9082 遭利用，近期 Commerce Core 模組的存取繞過漏洞 CVE-2026-118539 也被用於攻擊；CISA 自 2021 年 11 月以來已將 5 個 Drupal 漏洞列為遭利用，其中 2 個被用於勒索軟體攻擊。"
     },
     {
      "type": "item",
      "no": "07",
      "key": "ef3cecb6fd",
-     "title": "Ruby 修補 7 項記憶體安全漏洞，其中 5 項已有遠端執行程式碼 PoC",
-     "title_html": "Ruby 修補 7 項記憶體安全漏洞，其中 5 項已有遠端執行程式碼 PoC",
+     "front": 3,
+     "title": "Ruby 修補 7 個記憶體安全漏洞，「Ruby2Shell」可在預設 Rails 應用未驗證觸發",
+     "title_html": "Ruby 修補 7 個記憶體安全漏洞，「Ruby2Shell」可在預設 Rails 應用未驗證觸發",
      "url": "https://thehackernews.com/2026/11/ruby-releases-fixes-for-7-regex-and.html",
      "src": "The Hacker News",
      "left": "11/19 16:42",
@@ -235,7 +262,7 @@
        "cls": "tag-outline"
       }
      ],
-     "summary_html": "漏洞位於正規表示式引擎與字串大小寫轉換，3 項重大、3 項高、1 項中度；維護者表示目前沒有攻擊報告。",
+     "summary_html": "Ruby 的正規表示式引擎與字串大小寫轉換有 7 個漏洞，維護團隊確認其中 5 個有可遠端執行程式碼的 PoC。",
      "also": [
       {
        "text": "iThome 資安",
@@ -248,19 +275,18 @@
      ],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：Ruby 4.0、3.4、3.3 修補前版本；以 GHSA 編號公告，原文未提供 CVE 與 CVSS。",
-      "<strong>處置</strong>：升級 Ruby 4.0.10、3.4.13、3.3.14。"
+      "<strong>影響範圍</strong>：3 個重大、3 個高、1 個中度；最嚴重的 CVE-2026-132825（GHSA-34m4-m9fh-gqp5）是特定單位元組編碼（如 ISO-8859-1、Windows-1252）大小寫轉換時的單位元組堆積溢位。各公告都說目前沒有攻擊紀錄，是否受影響取決於攻擊者能否把特製字串或正規表示式送進受影響的程式碼。",
+      "<strong>處置</strong>：升級 Ruby 4.0.10、3.4.13 或 3.3.14。"
      ],
      "table": null,
-     "dive_html": "5 項與 Regexp 編譯、比對有關，2 項在字串大小寫轉換；即使程式只用預先定義的正規表示式，以不分大小寫的反向參照比對特製字串仍可能觸發。風險取決於攻擊者能否把特製樣式或字串送進受影響程式碼。最嚴重的 GHSA-34m4-m9fh-gqp5（Ruby2Shell）為單位元組堆積溢位，在 Lobsters 引發討論。"
+     "dive_html": "Veria Labs 11 月 19 日以「Ruby2Shell」發表研究，指出 CVE-2026-132825 在預設設定的 Rails 與 classic 風格 Sinatra 應用上可經網路、未經驗證觸發；Moritz Sanft 的分析顯示，Rack 處理表單時就會轉換某個欄位的大小寫，新建的 Rails 應用在自身程式碼執行前就已碰到漏洞。Veria Labs 表示會在揭露約一週後公開 PoC，留時間給使用者升級。"
     },
     {
      "type": "item",
      "no": "08",
      "key": "7b2c191d75",
-     "front": 3,
-     "title": "CISA 將群暉 DSM、LiteLLM、Apache Axis、REDCap 四項漏洞列入 KEV",
-     "title_html": "CISA 將群暉 DSM、LiteLLM、Apache Axis、REDCap 四項漏洞列入 KEV",
+     "title": "CISA 將 4 個已遭利用漏洞列入 KEV：Synology DSM、LiteLLM、Apache Axis、REDCap",
+     "title_html": "CISA 將 4 個已遭利用漏洞列入 KEV：Synology DSM、LiteLLM、Apache Axis、REDCap",
      "url": "https://thehackernews.com/2026/11/cisa-warns-of-4-exploited-flaws-linked.html",
      "src": "The Hacker News",
      "left": "11/19 16:00",
@@ -272,169 +298,226 @@
        "cls": "tag-outline"
       }
      ],
-     "summary_html": "CISA 掌握四項漏洞遭積極利用的證據，分別與勒索軟體、挖礦與 LLMjacking 攻擊有關。",
-     "also": [
-      {
-       "text": "iThome 資安",
-       "url": "https://www.ithome.com.tw/news/180644"
-      }
-     ],
+     "summary_html": "CISA 依實際攻擊證據，把 4 個漏洞加入已知遭利用漏洞（KEV）清單，牽涉勒索軟體、挖礦與 LLMjacking 攻擊。",
+     "also": [],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：CVE-2026-90436（Apache Axis 不安全反射，CVSS 9.8）、CVE-2026-90817（REDCap 程式碼注入，CVSS 9.8）、CVE-2026-40217（LiteLLM /guardrails/test_custom_code，CVSS 8.8）、CVE-2024-10441（群暉 DSM，CVSS 9.8）。",
-      "<strong>處置</strong>：原文未提供各產品修補版本，請依各廠商公告更新。"
+      "<strong>影響範圍</strong>：Apache Axis 不安全反射 CVE-2026-90436（9.8）、REDCap 程式碼注入 CVE-2026-90817（9.8）、LiteLLM 經 /guardrails/test_custom_code 的遠端執行 CVE-2026-40217（8.8）、Synology DSM 輸出跳脫不當 CVE-2024-10441（9.8）。",
+      "<strong>處置</strong>：依廠商公告修補；Confluence 只有啟用「Remote API (XML-RPC &amp; SOAP)」時才受 Axis 漏洞影響，該功能自 3.0 起新安裝預設關閉、10.0 已移除。"
      ],
      "table": null,
-     "dive_html": "群暉 10 月底警告的 C3RB3R 勒索攻擊利用了 CVE-2024-10441；Rapid7 本週揭露 Apache Axis 漏洞被用來攻擊 Atlassian Confluence 與 N-able N-central；Palo Alto Networks 10 月上旬指出 REDCap 漏洞被用來植入挖礦程式。聯邦機構除 LiteLLM 期限為 12 月 2 日外，其餘三項須在 11 月 21 日前修補。"
+     "dive_html": "Axis 漏洞被搭配 N-able N-central 的 4EverAble2Shell 漏洞部署挖礦程式；Rapid7 也在客戶的 Confluence Data Center 環境偵測到利用，事件於 11 月 13 日發現。依 Rapid7 紀錄，攻擊者首次執行指令約 3 分鐘後，就用 Confluence 自己的資料庫憑證登入 MySQL，查詢頁面內容、應用程式連結，以及名稱帶有憑證、權杖、VPN 設定與私鑰的附件。"
     }
    ]
   },
   {
    "name": "事件與趨勢",
-   "count": 6,
+   "count": 9,
    "blocks": [
     {
      "type": "item",
      "no": "09",
+     "key": "fa700a4eb8",
+     "title": "Windows 未修補零時差手法 FastUnlock：拿到鎖定中的電腦就能執行程式",
+     "title_html": "Windows 未修補零時差手法 FastUnlock：拿到鎖定中的電腦就能執行程式",
+     "url": "https://thehackernews.com/2026/11/new-unpatched-windows-0-day-fastunlock.html",
+     "src": "The Hacker News",
+     "left": "11/20 13:30",
+     "ts": "2026-11-20T13:30:01+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "已有 PoC",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "研究人員公開 FastUnlock 手法，實體接觸鎖定中的 Windows 電腦就能不登入執行程式，ThreatLocker 當天測試確認可行。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：需實體接觸，且鎖定畫面的復原選項可連到 Microsoft 帳戶；取得的是受限帳戶 WSIAccount，不是管理員。微軟尚未修補、未公布受影響版本，也沒有實際攻擊紀錄。以 TPM 自動解鎖的 BitLocker 不受保護，因為到鎖定畫面時磁碟已經解開。",
+      "<strong>處置</strong>：原文建議嚴格管理筆電、共用座位與櫃台電腦的實體接觸；敏感機器的 BitLocker 加上開機 PIN，離開掌控時關機或休眠，不要只靠鎖定畫面。"
+     ],
+     "table": null,
+     "dive_html": "揭露者以 MSNightmare、Nightmare Eclipse 為代號，GitHub 上只有影片與簡短說明，目前最完整的描述來自 ThreatLocker 的獨立測試。開機 PIN 只保護尚未開機的電腦，對已停在鎖定畫面的電腦無效。"
+    },
+    {
+     "type": "item",
+     "no": "10",
      "key": "385d5fa32c",
-     "front": 5,
-     "title": "歐盟執委會遭開源 AI 滲透框架 ARTEX 入侵，部分系統停擺近一個月",
-     "title_html": "歐盟執委會遭開源 AI 滲透框架 ARTEX 入侵，部分系統停擺近一個月",
+     "title": "歐盟執委會證實遭開源 AI 滲透測試框架 ARTEX 攻擊，人資與醫療報銷系統停擺近一個月",
+     "title_html": "歐盟執委會證實遭開源 AI 滲透測試框架 ARTEX 攻擊，人資與醫療報銷系統停擺近一個月",
      "url": "https://www.ithome.com.tw/news/180672",
      "src": "iThome 資安",
      "left": "11/20 09:00",
      "ts": "2026-11-20T09:00:00+08:00",
      "heat": "",
      "tags": [],
-     "summary_html": "歐盟執委會證實 10 月 22 日偵測到使用 AI 工具的攻擊，人資平台 Sysper、醫療報銷系統 MyPMO 與內部翻譯服務受影響，員工個資是否外洩仍待釐清。",
-     "also": [
-      {
-       "text": "iThome 資安",
-       "url": "https://www.ithome.com.tw/news/180647"
-      }
-     ],
-     "also_more": [],
-     "bullets_html": [
-      "<strong>影響範圍</strong>：歐盟執委會多項內部系統；Eye Security 案例為一家未具名企業。",
-      "<strong>處置</strong>：原文未提供。"
-     ],
-     "table": null,
-     "dive_html": "ARTEX 由開發者 Autumn-27 以 Go 撰寫，7 月在 GitHub 開源，10 週內獲逾 1,500 顆星，讓 LLM 代理自動執行偵察、漏洞利用與提權；CERT-EU 11 月 5 日已警告遭濫用。Eye Security 公布的應變案例中，攻擊者先利用企業自寫的 PHP 上傳漏洞植入 Web Shell、從環境變數取得 API 金鑰後數分鐘內發動攻擊，惡意 Pod 被刪除後一秒內又重建；防守方也用 AI 代理加速調查。"
-    },
-    {
-     "type": "item",
-     "no": "10",
-     "key": "1977168802",
-     "title": "倫敦交通局資料外洩，約 26.5 萬名 Oyster 照片卡用戶受影響",
-     "title_html": "倫敦交通局資料外洩，約 26.5 萬名 Oyster 照片卡用戶受影響",
-     "url": "https://www.bleepingcomputer.com/news/security/transport-for-london-breach-exposes-265-000-oyster-card-users-data/",
-     "src": "BleepingComputer",
-     "left": "11/20 02:20",
-     "ts": "2026-11-20T02:20:01+08:00",
-     "heat": "",
-     "tags": [],
-     "summary_html": "TfL 11 月 16 日因用戶回報收到從 TfL 郵件系統寄出的可疑建帳信而發現入侵，Oyster 照片卡網站已下線。",
+     "summary_html": "歐盟執委會 11 月 19 日證實，10 月 22 日偵測到使用 AI 工具的網路攻擊，人資平台 Sysper、醫療費用報銷系統 MyPMO 與內部翻譯服務受影響。",
      "also": [],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：約 265,000 名 Oyster 照片卡用戶，外洩欄位含全名、電話等。",
-      "<strong>處置</strong>：卡片仍可正常使用，換卡與查詢需聯絡客服；TfL 已寄發外洩通知。"
+      "<strong>影響範圍</strong>：截至 19 日 Sysper 已恢復，醫療保險系統 JSIS 仍無法使用；員工姓名、薪資職等、住址等資料是否外洩仍在調查，發言人 Thomas Regnier 表示尚未發現大規模外洩證據。"
      ],
      "table": null,
-     "dive_html": ""
+     "dive_html": "ARTEX 是開發者 Autumn-27 以 Go 撰寫的 LLM 自主滲透測試框架，7 月在 GitHub 開源，10 週獲得逾 1,500 顆星，10 月 8 日下架後仍持續擴散。FBI 11 月 13 日警告它至少自 8 月起遭濫用，攻擊者最常串接 DeepSeek Flash 等中國模型，部分攻擊從鎖定目標到取得特權不到 3 小時；Cloudflare 統計已有逾 1.2 萬個儲存庫存放相關程式碼，Spectrum 在 2,335 個 AI 攻擊工具控制台中找到約 1,825 個屬 ARTEX 系列（78%）。已知至少 20 家日本企業被鎖定，與中國駭客組織 Storm-0940 及 91APP 遭攻擊事件有關。"
     },
     {
      "type": "item",
      "no": "11",
-     "key": "67401cc888",
-     "title": "N-able 郵件安全雲端伺服器遭入侵，Mail Assure 與 SpamExperts 三大區管理介面停擺",
-     "title_html": "N-able 郵件安全雲端伺服器遭入侵，Mail Assure 與 SpamExperts 三大區管理介面停擺",
-     "url": "https://thehackernews.com/2026/11/n-able-confirms-hackers-accessed-cloud.html",
-     "src": "The Hacker News",
-     "left": "11/19 17:31",
-     "ts": "2026-11-19T17:31:26+08:00",
+     "key": "bdcae02c19",
+     "front": 5,
+     "title": "大車隊子公司全球商務科技遭未授權存取，部分客戶與會員資料恐外洩",
+     "title_html": "大車隊子公司全球商務科技遭未授權存取，部分客戶與會員資料恐外洩",
+     "url": "https://www.ithome.com.tw/news/180662",
+     "src": "ICSDA 資安日報",
+     "left": "11/20 06:20",
+     "ts": "2026-11-20T06:20:14+08:00",
      "heat": "",
      "tags": [],
-     "summary_html": "N-able 揭露駭客取得 Mail Assure 與 Spam Experts Hosted Cloud 一台伺服器存取權，管理介面與 API 遭停用。",
+     "summary_html": "大車隊（2640）發布資安重訊，子公司全球商務科技的資訊系統遭外部未經授權存取，部分客戶及相關人員資料遭存取與擷取。",
      "also": [],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：Mail Assure、SpamExperts 美洲／亞太／歐洲用戶。",
-      "<strong>處置</strong>：N-able 已緩解威脅並持續強化服務，原文未提供客戶端處置。"
+      "<strong>影響範圍</strong>：ICSDA 評為中危、建議排程處理；子公司部分客戶、相關人員與會員資料，外洩筆數與欄位原文未提供。",
+      "<strong>處置</strong>：受影響者留意官方公告，對自稱客服或運輸業者的來電、簡訊先查證。"
      ],
      "table": null,
-     "dive_html": "11 月 16 日起的服務中斷原以為是平台設定問題，後確認為資安事件；N-able 表示目前沒有客戶資料或租戶信箱遭存取的證據。美洲、亞太、歐洲三區的 Mail Assure 與 SpamExperts 仍受影響。"
+     "dive_html": "重訊沒有說明入侵途徑、是否利用特定漏洞或入侵時間長短，實際範圍待公司調查。ICSDA 指出，「存取及擷取」代表資料可能已被帶走，而事件發生在子公司，凸顯集團資安治理要涵蓋各子公司系統（ICSDA 觀點）。"
     },
     {
      "type": "item",
      "no": "12",
-     "key": "7aba46b2e2",
-     "title": "勒索組織 Gentlemen 將 NVIDIA 列上洩漏站，NVIDIA 調查第三方夥伴事件",
-     "title_html": "勒索組織 Gentlemen 將 NVIDIA 列上洩漏站，NVIDIA 調查第三方夥伴事件",
-     "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/",
-     "src": "BleepingComputer",
-     "left": "11/19 17:23",
-     "ts": "2026-11-19T17:23:21+08:00",
+     "key": "7e54063b17",
+     "title": "愛爾蘭銀行軟體商 Wellington IT 遭駭，約 40 家信用合作社會員收款人資料外洩",
+     "title_html": "愛爾蘭銀行軟體商 Wellington IT 遭駭，約 40 家信用合作社會員收款人資料外洩",
+     "url": "https://www.ithome.com.tw/news/180665",
+     "src": "ICSDA 資安日報",
+     "left": "11/20 06:20",
+     "ts": "2026-11-20T06:20:14+08:00",
      "heat": "",
      "tags": [],
-     "summary_html": "Gentlemen 尚未提出入侵證據，倒數到 11 月 28 日；NVIDIA 表示未發現自身系統受影響，正調查可能波及一家服務供應商的事件。",
+     "summary_html": "替愛爾蘭信用合作社提供網路銀行軟體的 Wellington IT 遭駭，會員儲存的收款人資料遭未經授權存取。",
      "also": [],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：NVIDIA 第三方夥伴（範圍未明）。",
-      "<strong>處置</strong>：原文未提供。"
+      "<strong>影響範圍</strong>：ICSDA 評為高危、建議排程處理；全國約 160 家信用合作社中約 40 家受影響。外洩欄位為收款人名稱、暱稱、IBAN、BIC 與付款備註；North East Credit Union 表示帳號、餘額、交易紀錄與登入憑證未受影響。",
+      "<strong>處置</strong>：會員對提及收款人或付款備註的訊息一律透過官方管道回撥確認。"
+     ],
+     "table": null,
+     "dive_html": "依 Cavan Credit Union 引述的調查，駭客 10 月 2 日至 4 日利用網路銀行平台的漏洞入侵，漏洞 10 月 6 日修補，客戶卻到 11 月中旬才收到通知；國務部長 Robert Troy 批評延遲通報，並表示目前沒有發現財務損失。供應商無法確認實際被取走的範圍，因此把所有相關紀錄都視為可能受影響。"
+    },
+    {
+     "type": "item",
+     "no": "13",
+     "key": "afabda8590",
+     "title": "勒索組織 The Gentlemen 宣稱竊得 Nvidia 資料，Nvidia 稱疑為第三方合作夥伴受害",
+     "title_html": "勒索組織 The Gentlemen 宣稱竊得 Nvidia 資料，Nvidia 稱疑為第三方合作夥伴受害",
+     "url": "https://www.ithome.com.tw/news/180664",
+     "src": "ICSDA 資安日報",
+     "left": "11/20 06:20",
+     "ts": "2026-11-20T06:20:14+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "The Gentlemen 把 Nvidia 列上暗網受害者名單並設 10 天倒數，Nvidia 表示正調查可能影響第三方合作夥伴的事件，自身系統尚無遭駭跡象。",
+     "also": [
+      {
+       "text": "BleepingComputer",
+       "url": "https://www.bleepingcomputer.com/news/security/nvidia-investigating-gentlemen-ransomware-breach-claims/"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：ICSDA 評為中危、知識補充；駭客未說明資料類型、未公布樣本，也未交代入侵時間，實際受害者與資料範圍不明。"
+     ],
+     "table": null,
+     "dive_html": "勒索頁面只有公司簡介、Tox 聯絡資訊與倒數計時。ICSDA 建議把它當成待觀察的警訊而非已證實的外洩，並藉機檢查與第三方共享的資料與存取權限（ICSDA 觀點）。"
+    },
+    {
+     "type": "item",
+     "no": "14",
+     "key": "150f8fb554",
+     "title": "挪威兩天內第二家能源公司遭入侵，兩起事件手法相似但未證實關聯",
+     "title_html": "挪威兩天內第二家能源公司遭入侵，兩起事件手法相似但未證實關聯",
+     "url": "https://www.darkreading.com/cyberattacks-data-breaches/second-norwegian-energy-company-breached",
+     "src": "ICSDA 資安日報",
+     "left": "11/20 06:20",
+     "ts": "2026-11-20T06:20:14+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Dark Reading 報導挪威兩天內出現第二家能源公司遭入侵，目前沒有證據把兩起事件連在一起，但兩者相當類似。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：ICSDA 評為中危、知識補充；受害公司名稱、受影響系統、是否外洩或中斷營運，原文未提供。"
+     ],
+     "table": null,
+     "dive_html": "原文沒有入侵途徑、漏洞或攻擊工具的資訊。ICSDA 建議能源與關鍵基礎設施業者趁此盤點對外服務與遠端存取、檢視高權限帳號，並實際演練離線備份還原（ICSDA 觀點）。"
+    },
+    {
+     "type": "item",
+     "no": "15",
+     "key": "d408505cc5",
+     "title": "俄羅斯間諜組織 Cold Relic（前稱 COLDRIVER）假冒受害者信任的人入侵組織",
+     "title_html": "俄羅斯間諜組織 Cold Relic（前稱 COLDRIVER）假冒受害者信任的人入侵組織",
+     "url": "https://www.fortra.com/blog/cold-relic-what-you-need-know",
+     "src": "ICSDA 資安日報",
+     "left": "11/20 06:20",
+     "ts": "2026-11-20T06:20:14+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Fortra 部落格介紹俄羅斯間諜組織 Cold Relic，它透過假冒目標原本就信任的人物滲透企業與機構。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：ICSDA 評為中危、知識補充；受害者名單、數量、地區與產業，原文未提供。",
+      "<strong>處置</strong>：涉及帳號、文件或連結的要求，透過另一條已知管道確認對方身分；重要帳號啟用多因素驗證。"
+     ],
+     "table": null,
+     "dive_html": "摘要沒有說明冒充對象、通訊管道或是否搭配惡意程式與漏洞。ICSDA 提醒，組織換了名稱，比對情資時要把 COLDRIVER 時期累積的指標一併納入（ICSDA 觀點）。"
+    },
+    {
+     "type": "item",
+     "no": "16",
+     "key": "53e4a59238",
+     "title": "THN 週報：駭客改用求職、服務中斷通知等日常誘餌，AI 讓部分攻擊更容易",
+     "title_html": "THN 週報：駭客改用求職、服務中斷通知等日常誘餌，AI 讓部分攻擊更容易",
+     "url": "https://thehackernews.com/2026/11/threatsday-gpt-62-jailbreak-flaws.html",
+     "src": "ICSDA 資安日報",
+     "left": "11/20 06:20",
+     "ts": "2026-11-20T06:20:14+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "The Hacker News 本週威脅週報指出，攻擊者愈來愈常利用工作機會、服務中斷通知與熟悉的應用程式竊取資料、散布惡意程式與騙取存取權限。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：ICSDA 評為中危、知識補充；個別案例的受害規模，原文未提供。",
+      "<strong>處置</strong>：求職附件與通知連結改從官方網站或已知窗口查證，應用程式只從核准來源安裝，並啟用多因素驗證。"
      ],
      "table": null,
      "dive_html": ""
     },
     {
      "type": "item",
-     "no": "13",
-     "key": "0c6183b7e4",
-     "title": "日本行銷平台 KARTE 遭駭，DHC 外洩 1,911 萬筆、JINS 最多 1,829 萬帳號受波及",
-     "title_html": "日本行銷平台 KARTE 遭駭，DHC 外洩 1,911 萬筆、JINS 最多 1,829 萬帳號受波及",
-     "url": "https://www.ithome.com.tw/news/180640",
-     "src": "iThome 資安",
-     "left": "11/19 11:00",
-     "ts": "2026-11-19T11:00:00+08:00",
+     "no": "17",
+     "key": "dfb731a444",
+     "title": "AI 時代的漏洞恐慌症：高風險漏洞揭露後的恐慌、停擺與警報疲勞",
+     "title_html": "AI 時代的漏洞恐慌症：高風險漏洞揭露後的恐慌、停擺與警報疲勞",
+     "url": "https://www.darkreading.com/vulnerabilities-threats/navigating-vulnerability-hysteria-ai-era",
+     "src": "ICSDA 資安日報",
+     "left": "11/20 06:20",
+     "ts": "2026-11-20T06:20:14+08:00",
      "heat": "",
      "tags": [],
-     "summary_html": "PLAID 旗下 KARTE 平台 11 月 13 日遭入侵，攻擊者竊取系統與資料庫認證資訊後外傳資料，數十家日本企業陸續公告。",
-     "also": [
-      {
-       "text": "iThome 資安",
-       "url": "https://www.ithome.com.tw/news/180648"
-      }
-     ],
-     "also_more": [],
-     "bullets_html": [
-      "<strong>影響範圍</strong>：KARTE 客戶數十家；DHC 約 1,911 萬筆、JINS 最多約 1,829 萬帳號。",
-      "<strong>處置</strong>：PLAID 已停用遭竊認證並停止 KARTE 服務。"
-     ],
-     "table": null,
-     "dive_html": "受影響企業包括 JINS、三菱 UFJ 銀行、DHC、MISUMI；台灣 JINS 表示台灣會員未受波及。DHC 外洩姓名、電子郵件、生日、性別、會員 ID 等，密碼與信用卡資料未外洩，這是 DHC 一個月內第二起外洩（10 月 30 日另有 5,096 筆）。PLAID 當天 8:59 偵測異常，15:23 左右完成認證資訊停用與阻斷。"
-    },
-    {
-     "type": "item",
-     "no": "14",
-     "key": "ee05dc42a1",
-     "title": "勒索組織 N0n 宣稱取得 Visa、摩根大通等 59 家企業資料",
-     "title_html": "勒索組織 N0n 宣稱取得 Visa、摩根大通等 59 家企業資料",
-     "url": "https://www.ithome.com.tw/news/180643",
-     "src": "iThome 資安",
-     "left": "11/19 11:00",
-     "ts": "2026-11-19T11:00:00+08:00",
-     "heat": "",
-     "tags": [],
-     "summary_html": "N0n 11 月 16 日將 59 家企業列上暗網洩漏站，威脅 48 小時內未談判就公開資料。",
+     "summary_html": "Dark Reading 記者筆記影片探討高嚴重性漏洞揭露後，外界對 AI 輔助利用的恐懼如何引發恐慌、營運中斷與防禦人員的警報疲勞。",
      "also": [],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：摩根大通、Visa、Mastercard、Walmart、P&amp;G 等 59 家（駭客宣稱）。",
-      "<strong>處置</strong>：原文未提供。"
+      "<strong>影響範圍</strong>：ICSDA 評為低危、知識補充；屬應變管理層面的議題，未涉及特定產品或版本。"
      ],
      "table": null,
-     "dive_html": "N0n 9 月開始活動，宣稱取得 Visa 亞太區逾 150 萬次行銷互動紀錄、Mastercard 中東非洲數十萬筆客戶資料、摩根大通數十萬次行銷互動紀錄。Visa 證實事件出自亞太區一家第三方供應商、自身系統未受影響；摩根大通表示沒有遭攻擊的證據。"
+     "dive_html": "ICSDA 建議把漏洞資訊轉成四個可決策的問題：有沒有用到、有沒有對外暴露、有沒有補償性控制、有沒有被利用的跡象，並依資產重要性排修補優先順序（ICSDA 觀點）。"
     }
    ]
   },
@@ -444,29 +527,42 @@
    "blocks": [
     {
      "type": "item",
-     "no": "15",
-     "key": "3d3c584590",
-     "title": "研究員展示低權限帳號即可在 PostgreSQL、MySQL、Oracle 伺服器執行程式碼",
-     "title_html": "研究員展示低權限帳號即可在 PostgreSQL、MySQL、Oracle 伺服器執行程式碼",
-     "url": "https://thehackernews.com/2026/11/researcher-demonstrates-database-rce.html",
-     "src": "The Hacker News",
-     "left": "11/19 16:14",
-     "ts": "2026-11-19T16:14:00+08:00",
-     "heat": "",
-     "tags": [],
-     "summary_html": "Depthfirst 研究員 Zheng Yu 公開 PoC，利用 SQL 背後的 C／C++ 引擎記憶體破壞漏洞，讓讀不到任何資料表的低權限帳號在資料庫伺服器上執行程式碼。",
-     "also": [],
+     "no": "18",
+     "key": "df98bcb7b8",
+     "title": "OpenSSL 修補 EVP_EncodeBlock() 緩衝區溢位 CVE-2026-121481，官方公告尚未發布",
+     "title_html": "OpenSSL 修補 EVP_EncodeBlock() 緩衝區溢位 CVE-2026-121481，官方公告尚未發布",
+     "url": "https://github.com/openssl/openssl/pull/33652",
+     "src": "Hacker News",
+     "left": "11/20 10:01",
+     "ts": "2026-11-20T10:01:09+08:00",
+     "heat": "HN 169",
+     "tags": [
+      {
+       "text": "僅揭露",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "OpenSSL 的公開修補 PR 讓 EVP_EncodeBlock() 對無效輸入回傳 -1，修正標題標示 CVSS 9.8 的緩衝區溢位。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50569226"
+      }
+     ],
      "also_more": [],
-     "bullets_html": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：PR 標記套用到 master、openssl-4.0 與 openssl-4.1 分支；受影響版本清單與正式安全公告尚未發布。",
+      "<strong>處置</strong>：原文未提供修補版本；留意 OpenSSL 正式公告與各發行版更新。"
+     ],
      "table": null,
-     "dive_html": "PoC 涵蓋 PostgreSQL、MySQL、ClickHouse，另有一條無需登入的 Oracle 攻擊鏈，目前均未見實際攻擊。研究員指出 SQL 權限只管資料表與 schema，管不到引擎本身的記憶體不安全程式碼。"
+     "dive_html": "修補由 OpenSSL 安全回應團隊要求公開進行，同時替 EVP_DecodeBlock() 加上空指標與負長度檢查，並修正 http_client.c 中 base64encode() 錯誤的長度檢查。貢獻者指出這個漏洞的模式與 2021 年的 CVE-2021-23840 相似。HN 上這則有 169 分。"
     }
    ]
   }
  ],
  "foot_left": "本報告由 news-aggregator 自動彙整",
  "stats": {
-  "items": 15,
+  "items": 18,
   "sections": 3
  }
 }

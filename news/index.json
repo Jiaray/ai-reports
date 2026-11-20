@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T14:19:49+08:00",
+ "updated_at": "2026-11-20T15:19:31+08:00",
  "series": [
   {
    "id": "general",
@@ -131,6 +131,18 @@
  ],
  "items": [
   {
+   "series": "security",
+   "series_title": "資安日報",
+   "cadence": "daily",
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "title": "資安日報",
+   "lede": "vCenter 驗證繞過漏洞 CVE-2026-123890 證實遭中國 APT 零時差利用逾兩個月；NGINX、Ruby、Drupal、Synology 同日釋出重大修補；大車隊子公司與愛爾蘭信合社供應商傳出個資外洩。",
+   "count": 18,
+   "data": "security/2026/2026-11-20.json",
+   "generated_at": "2026-11-20T15:19:31+08:00"
+  },
+  {
    "series": "cocos_h5_weekly",
    "series_title": "Cocos／H5 遊戲開發週報",
    "cadence": "weekly",
@@ -165,18 +177,6 @@
    "count": 36,
    "data": "gambling/2026/2026-11-20.json",
    "generated_at": "2026-11-20T10:32:45+08:00"
-  },
-  {
-   "series": "security",
-   "series_title": "資安日報",
-   "cadence": "daily",
-   "period": "2026-11-20",
-   "date": "2026-11-20",
-   "title": "資安日報",
-   "lede": "VMware vCenter 零日漏洞遭中國關聯駭客利用兩個多月才修補；NGINX、PHP、Drupal、Ruby、群暉同日釋出重大修補；歐盟執委會遭開源 AI 攻擊框架 ARTEX 入侵近一個月。",
-   "count": 15,
-   "data": "security/2026/2026-11-20.json",
-   "generated_at": "2026-11-20T10:32:20+08:00"
   },
   {
    "series": "tech_ai",
