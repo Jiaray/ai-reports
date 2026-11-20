@@ -1,0 +1,147 @@
+{
+ "schema": 1,
+ "date": "2026-11-20",
+ "built_at": "2026-11-20T09:21:06+08:00",
+ "reports": [
+  {
+   "series": "international",
+   "series_title": "國際新聞日報",
+   "group": "國際",
+   "period": "2026-11-20",
+   "count": 41,
+   "generated_at": "2026-11-20T09:21:06+08:00"
+  }
+ ],
+ "entries": [
+  {
+   "key": "4dffa5bc2c",
+   "rank": 1,
+   "title": "習近平、川普、普丁深圳首度三方會談，和平宣言未提烏克蘭與伊朗戰爭",
+   "summary_html": "中美俄三國元首在 APEC 深圳峰會期間舉行史上首次三方會談，會後發表和平宣言，承諾就減少核風險、防止核擴散展開對話，並提出改革聯合國、增加石油供應等優先事項。",
+   "url": "https://www.theguardian.com/world/2026/nov/19/china-russia-us-agree-peace-statement-no-mention-ukraine-iran-wars",
+   "src": "Financial Times、BBC、The Guardian 等 14 家",
+   "ts": "2026-11-20T01:13:23+08:00",
+   "left": "11/20 01:13",
+   "heat": "",
+   "tags": [
+    {
+     "text": "新事件",
+     "cls": "tag-outline"
+    }
+   ],
+   "from": [
+    {
+     "series": "international",
+     "period": "2026-11-20",
+     "no": "01",
+     "rank": 1
+    }
+   ]
+  },
+  {
+   "key": "d6d5a75fc7",
+   "rank": 2,
+   "title": "國際法院首度裁定國家犯種族滅絕：緬甸 2017 年迫害羅興亞人成立",
+   "summary_html": "聯合國國際法院（ICJ）裁定緬甸在 2017 年軍事行動中對羅興亞少數民族犯下種族滅絕，是該院首次認定國家須為種族滅絕負責。",
+   "url": "https://www.theguardian.com/world/2026/nov/19/genocide-rohingya-international-court-of-justice-ruling-myanmar",
+   "src": "BBC、DW（德國政府出資）、The Guardian 等 13 家",
+   "ts": "2026-11-19T21:52:10+08:00",
+   "left": "11/19 21:52",
+   "heat": "",
+   "tags": [
+    {
+     "text": "新事件",
+     "cls": "tag-outline"
+    }
+   ],
+   "from": [
+    {
+     "series": "international",
+     "period": "2026-11-20",
+     "no": "21",
+     "rank": 2
+    }
+   ]
+  },
+  {
+   "key": "0c7d46da40",
+   "rank": 3,
+   "title": "習近平在深圳要川普在台灣問題上「做對的事」",
+   "summary_html": "習近平與川普在 APEC 深圳峰會場邊會談，要求美方在台灣問題上「做對的事」，並呼籲雙方管控分歧，避免兩國關係倒退。",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3375023/talks-xi-get-under-way-trump-asks-china-do-more-us-farmers",
+   "src": "Nikkei Asia、SCMP（阿里巴巴持有）、Straits Times",
+   "ts": "2026-11-19T14:24:25+08:00",
+   "left": "11/19 14:24",
+   "heat": "",
+   "tags": [
+    {
+     "text": "新事件",
+     "cls": "tag-outline"
+    },
+    {
+     "text": "台灣相關",
+     "cls": "tag-outline"
+    }
+   ],
+   "from": [
+    {
+     "series": "international",
+     "period": "2026-11-20",
+     "no": "41",
+     "rank": 3
+    }
+   ]
+  },
+  {
+   "key": "fea67cf9c7",
+   "rank": 4,
+   "title": "Anthropic 上市首日市值約 1.3 兆美元，隔日軟銀重挫逾 16%",
+   "summary_html": "Claude 開發商 Anthropic 以每股 83 美元 IPO、募資約 810 億美元，首日收在約 97 美元、漲約 17%，成為全球市值最高的上市公司之一；但未能提振 AI 類股，隔日亞洲科技股大跌。",
+   "url": "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
+   "src": "Financial Times、Reuters、BBC 等 11 家",
+   "ts": "2026-11-20T06:09:18+08:00",
+   "left": "11/20 06:09",
+   "heat": "",
+   "tags": [
+    {
+     "text": "新事件",
+     "cls": "tag-outline"
+    }
+   ],
+   "from": [
+    {
+     "series": "international",
+     "period": "2026-11-20",
+     "no": "14",
+     "rank": 4
+    }
+   ]
+  },
+  {
+   "key": "9f35c6624c",
+   "rank": 5,
+   "title": "美眾院：商務部半年內核准約 88 萬顆 Nvidia、AMD AI 晶片銷往中國",
+   "summary_html": "美國眾議院外交委員會公布，商務部在 2025 年 12 月至 2026 年 5 月間核准對中國企業出口 87.9 萬顆先進 AI 晶片；另據 Reuters，台積電因美國新規收緊對中 AI 晶片管制。",
+   "url": "https://www.aljazeera.com/economy/2026/11/19/us-signed-off-on-sales-of-nearly-900000-ai-chips-to-china-in-six-months",
+   "src": "Reuters、Financial Times、Al Jazeera（卡達政府出資） 等 5 家",
+   "ts": "2026-11-20T05:58:27+08:00",
+   "left": "11/20 05:58",
+   "heat": "",
+   "tags": [
+    {
+     "text": "新事件",
+     "cls": "tag-outline"
+    }
+   ],
+   "from": [
+    {
+     "series": "international",
+     "period": "2026-11-20",
+     "no": "15",
+     "rank": 5
+    }
+   ]
+  }
+ ],
+ "weekly": []
+}
