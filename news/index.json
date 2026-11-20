@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T15:46:37+08:00",
+ "updated_at": "2026-11-20T15:47:14+08:00",
  "series": [
   {
    "id": "general",
@@ -117,6 +117,18 @@
  ],
  "items": [
   {
+   "series": "gamedev",
+   "series_title": "遊戲產業新聞",
+   "cadence": "daily",
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "title": "遊戲產業新聞",
+   "lede": "近 24 小時：GTA 6 上市前售出約 1,905 萬套、營收 18.4 億美元；Ubisoft 財報優於預期仍在加拿大裁員 166 人；手遊變現設計與歐盟《數位公平法》監管壓力同步升溫。",
+   "count": 16,
+   "data": "gamedev/2026/2026-11-20.json",
+   "generated_at": "2026-11-20T15:47:14+08:00"
+  },
+  {
    "series": "github_weekly",
    "series_title": "GitHub 趨勢週報",
    "cadence": "weekly",
@@ -151,18 +163,6 @@
    "count": 20,
    "data": "cocos_h5_weekly/2026/2026-W47.json",
    "generated_at": "2026-11-20T14:19:49+08:00"
-  },
-  {
-   "series": "gamedev",
-   "series_title": "遊戲產業新聞",
-   "cadence": "daily",
-   "period": "2026-11-20",
-   "date": "2026-11-20",
-   "title": "遊戲產業新聞",
-   "lede": "近 24 小時：《GTA 6》上市前預購約 1,905 萬套、18.4 億美元；Ubisoft 季度預訂額優於預期，同時在蒙特婁、魁北克裁員 166 人；美國參院就 Roblox 兒少安全舉行聽證。",
-   "count": 16,
-   "data": "gamedev/2026/2026-11-20.json",
-   "generated_at": "2026-11-20T10:33:21+08:00"
   },
   {
    "series": "gambling",

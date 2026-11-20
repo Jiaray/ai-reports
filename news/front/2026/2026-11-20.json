@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-20",
- "built_at": "2026-11-20T15:46:37+08:00",
+ "built_at": "2026-11-20T15:47:14+08:00",
  "reports": [
   {
    "series": "international",
@@ -49,7 +49,7 @@
    "group": "遊戲",
    "period": "2026-11-20",
    "count": 16,
-   "generated_at": "2026-11-20T10:33:21+08:00"
+   "generated_at": "2026-11-20T15:47:14+08:00"
   },
   {
    "series": "cocos_h5_weekly",
@@ -160,19 +160,24 @@
   {
    "key": "ef46fa1f4b",
    "rank": 1,
-   "title": "《GTA 6》上市前預購 1,905 萬套、營收 18.4 億美元，PS5 與 Xbox 銷量 3:1",
-   "summary_html": "Sensor Tower 估算《GTA 6》截至上市當天早上售出約 1,905 萬套，可望成為史上最大遊戲首發。",
+   "title": "Sensor Tower：GTA 6 上市前售出 1,905 萬套、營收 18.4 億美元，PS5 佔七成五",
+   "summary_html": "市調機構 Sensor Tower 估計《俠盜獵車手 VI》上市當天早上已售出約 1,905 萬套、營收約 18.4 億美元，可能是史上最大的遊戲首發；數字並非 Rockstar 或 Take-Two 官方公布。",
    "url": "https://gamesbeat.com/grand-theft-auto-vi-preorders-hit-19m-before-launch-with-ps5-outselling-xbox-3-1/",
    "src": "GamesBeat",
    "ts": "2026-11-19T23:34:00+08:00",
    "left": "11/19 23:34",
    "heat": "",
-   "tags": [],
+   "tags": [
+    {
+     "text": "頭條",
+     "cls": "tag-hot"
+    }
+   ],
    "from": [
     {
      "series": "gamedev",
      "period": "2026-11-20",
-     "no": "04",
+     "no": "02",
      "rank": 1
     }
    ]
@@ -268,21 +273,21 @@
    ]
   },
   {
-   "key": "14d3c93adf",
+   "key": "68e9bd2d22",
    "rank": 2,
-   "title": "Ubisoft 第二季預訂額 3.89 億歐元優於預期，同步在加拿大裁員 166 人",
-   "summary_html": "《刺客教條 黑旗 Resynced》帶動預訂額超出約 3.7 億歐元的財測，排除合作收入後淨預訂額年增逾 50%。",
-   "url": "https://gamesbeat.com/ubisoft-beats-6-month-bookings-guidance-but-lays-off-more-devs/",
-   "src": "GamesBeat",
-   "ts": "2026-11-20T05:02:00+08:00",
-   "left": "11/20 05:02",
+   "title": "Ubisoft 第二財季預訂額 3.89 億歐元優於預期，同時在蒙特婁、魁北克裁員 166 人",
+   "summary_html": "Ubisoft 宣布裁撤蒙特婁與魁北克市工作室 166 個職位，主要是製作與支援人員，佔兩地人力不到 4%；同日公布的財季預訂額 3.89 億歐元，高於約 3.7 億歐元的財測。",
+   "url": "https://www.gamesindustry.biz/ubisoft-lays-off-166-staff-in-montreal-and-quebec-studios",
+   "src": "GamesIndustry.biz",
+   "ts": "2026-11-19T23:15:00+08:00",
+   "left": "11/19 23:15",
    "heat": "",
    "tags": [],
    "from": [
     {
      "series": "gamedev",
      "period": "2026-11-20",
-     "no": "01",
+     "no": "04",
      "rank": 2
     }
    ]
@@ -353,21 +358,21 @@
    ]
   },
   {
-   "key": "797fc692a5",
+   "key": "a091542847",
    "rank": 3,
-   "title": "美國參院聽證檢視 Roblox 兒少安全，討論跳過強制仲裁的跨黨派法案",
-   "summary_html": "參議員 Josh Hawley 與 Dick Durbin 提出的法案，讓兒少性剝削與網路傷害受害者即使同意過使用條款的私下仲裁，仍可向法院提告。",
-   "url": "https://www.gamesindustry.biz/us-senate-hearing-examines-child-safety-on-roblox-considers-bipartisan-bill-to-bypass-forced-arbitration",
-   "src": "GamesIndustry.biz",
-   "ts": "2026-11-19T19:52:10+08:00",
-   "left": "11/19 19:52",
+   "title": "數據科學家拆解程式碼，指控 Monopoly Go 套用拉霸機制、Royal Kingdom 暗中調高關卡難度",
+   "summary_html": "內容創作者 Ayo Omolewa（Ayoships）發布影片，宣稱反編譯 Scopely《Monopoly Go》與 Dream Games《Royal Kingdom》後發現變現設計細節；以下皆為其單方說法，影片在 Instagram 已破百萬觀看。",
+   "url": "https://mobilegamer.biz/new-decompiling-videos-allege-monopoly-go-borrows-from-slot-machines-and-royal-kingdom-secretly-makes-levels-harder/",
+   "src": "Mobilegamer.biz",
+   "ts": "2026-11-19T21:44:48+08:00",
+   "left": "11/19 21:44",
    "heat": "",
    "tags": [],
    "from": [
     {
      "series": "gamedev",
      "period": "2026-11-20",
-     "no": "08",
+     "no": "13",
      "rank": 3
     }
    ]
@@ -467,21 +472,21 @@
    ]
   },
   {
-   "key": "a091542847",
+   "key": "f2f0a3e54b",
    "rank": 4,
-   "title": "「反編譯」影片指控《Monopoly Go》借用老虎機機制、《Royal Kingdom》暗中調高難度",
-   "summary_html": "數據科學家 Ayo Omolewa（Ayoships）聲稱在 Scopely 程式碼中找到「RTPDist1_low」「NearMiss」「TriesToForceJackpot」等老虎機術語，影片觀看破百萬。",
-   "url": "https://mobilegamer.biz/new-decompiling-videos-allege-monopoly-go-borrows-from-slot-machines-and-royal-kingdom-secretly-makes-levels-harder/",
-   "src": "Mobilegamer.biz",
-   "ts": "2026-11-19T21:44:48+08:00",
-   "left": "11/19 21:44",
+   "title": "歐盟《數位公平法》草案開放意見徵詢至 2027 年 1 月 14 日，擬禁未成年人內購與戰利品箱",
+   "summary_html": "歐盟執委會自 11 月 17 日起開放《數位公平法》（DFA）草案意見徵詢，期限至少到 2027 年 1 月 14 日布魯塞爾時間午夜，並會隨各語言版本到齊逐日延長。",
+   "url": "https://www.pocketgamer.biz/have-your-say-feedback-on-the-eus-digital-fairness-act-proposal-is-open-until-january-14th/",
+   "src": "PocketGamer.biz",
+   "ts": "2026-11-19T23:30:00+08:00",
+   "left": "11/19 23:30",
    "heat": "",
    "tags": [],
    "from": [
     {
      "series": "gamedev",
      "period": "2026-11-20",
-     "no": "13",
+     "no": "03",
      "rank": 4
     }
    ]
