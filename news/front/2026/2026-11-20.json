@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-20",
- "built_at": "2026-11-20T16:52:07+08:00",
+ "built_at": "2026-11-20T16:52:50+08:00",
  "reports": [
   {
    "series": "international",
@@ -17,7 +17,7 @@
    "group": "科技",
    "period": "2026-11-20",
    "count": 15,
-   "generated_at": "2026-11-20T10:31:54+08:00"
+   "generated_at": "2026-11-20T16:52:50+08:00"
   },
   {
    "series": "security",
@@ -97,8 +97,8 @@
   {
    "key": "fea67cf9c7",
    "rank": 1,
-   "title": "Anthropic 納斯達克上市募資 813 億美元，首日收在 97 美元、市值約 1.3 兆",
-   "summary_html": "Anthropic 以每股 83 美元（高於原訂 70–78 美元區間）上市，盤中最高 111.50 美元，收盤約 97 美元，較發行價高約 17%。",
+   "title": "Anthropic 那斯達克上市募資 813 億美元創 IPO 紀錄，首日收 97.17 美元、市值約 1.3 兆",
+   "summary_html": "Anthropic 以每股 83 美元定價、代號 $ANT 掛牌，開盤 111.50 美元（漲 34%），收盤 97.17 美元，較發行價高 17%。",
    "url": "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
    "src": "The Guardian Technology",
    "ts": "2026-11-20T06:09:18+08:00",
@@ -109,7 +109,7 @@
     {
      "series": "tech_ai",
      "period": "2026-11-20",
-     "no": "01",
+     "no": "02",
      "rank": 1
     },
     {
@@ -242,8 +242,8 @@
   {
    "key": "20477ed22c",
    "rank": 2,
-   "title": "Google 推出 Gemini 4 Neon：智慧指數 61 分，每百萬 token 輸入 3 美元",
-   "summary_html": "Gemini 4 Neon 是 Google DeepMind 約七週內的第四款 Gemini 4 模型，定位中階，速度與價格優於 Carbon。",
+   "title": "Google DeepMind 發表 Gemini 4 Neon：Intelligence Index 61 分、每百萬 token 輸入 3 美元",
+   "summary_html": "約七週內第四款 Gemini 4 模型，定位中階，價格低於 Carbon，多項評測逼近 Anthropic 與 OpenAI 前沿模型。",
    "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
    "src": "Latent Space AINews",
    "ts": "2026-11-19T15:07:43+08:00",
@@ -354,21 +354,21 @@
    ]
   },
   {
-   "key": "7c2289051b",
+   "key": "673fe163ae",
    "rank": 3,
-   "title": "OpenAI 發布 GPT-6.2 Astra 與 Sol：成本降 20%–600%，但早期評價兩極",
-   "summary_html": "GPT-6.2 Astra 智慧指數 62 分，僅次於 Fable 5.2 的 65 分；Sol 以約 15% 的單任務成本追平 9 月版 Astra。",
-   "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
-   "src": "Latent Space AINews",
-   "ts": "2026-11-18T18:19:04+08:00",
-   "left": "11/18 18:19",
-   "heat": "Daily Roundup",
+   "title": "Nvidia 接觸 Arm 執行長 Rene Haas 接替黃仁勳，股價較 10 月高點跌近 40%",
+   "summary_html": "黃仁勳上週承認與被控替中國從事間諜活動的女子有婚外情而辭職，董事會委託獵頭物色新執行長。",
+   "url": "https://www.theguardian.com/technology/2026/nov/19/nvidia-new-ceo-search-jensen-huang-arm-rene-haas",
+   "src": "The Guardian Technology",
+   "ts": "2026-11-19T19:29:01+08:00",
+   "left": "11/19 19:29",
+   "heat": "",
    "tags": [],
    "from": [
     {
      "series": "tech_ai",
      "period": "2026-11-20",
-     "no": "08",
+     "no": "15",
      "rank": 3
     }
    ]
@@ -497,21 +497,21 @@
    ]
   },
   {
-   "key": "b47fc54877",
+   "key": "df98bcb7b8",
    "rank": 4,
-   "title": "美國收緊晶片出口與海外雲端通道，中國 AI 算力交易接連瓦解",
-   "summary_html": "月之暗面取消與印尼雲端商的 1.5 億美元合約；台積電、三星暫停部分對中國客戶出貨，須先申請許可。",
-   "url": "https://aihot.news/items/h4bvsjw4ri6to1inm87srlf42",
-   "src": "AIHOT",
-   "ts": "2026-11-20T01:02:41+08:00",
-   "left": "11/20 01:02",
-   "heat": "",
+   "title": "OpenSSL EVP_EncodeBlock() 緩衝區溢位漏洞 CVE-2026-121481，CVSS 9.8",
+   "summary_html": "修補 PR 已公開，對 NULL 緩衝區、負長度與編碼後長度超出 int 的輸入改回傳 -1，正式公告尚未發布。",
+   "url": "https://github.com/openssl/openssl/pull/33652",
+   "src": "Hacker News",
+   "ts": "2026-11-20T10:01:09+08:00",
+   "left": "11/20 10:01",
+   "heat": "HN 208",
    "tags": [],
    "from": [
     {
      "series": "tech_ai",
      "period": "2026-11-20",
-     "no": "06",
+     "no": "11",
      "rank": 4
     }
    ]
@@ -635,21 +635,21 @@
    ]
   },
   {
-   "key": "122be7cf5d",
+   "key": "b47fc54877",
    "rank": 5,
-   "title": "Claude 解出黑洞物理兩道公開難題",
-   "summary_html": "Anthropic 發表研究，Claude 完成一項 20 多年前就設定好卻無人算完的計算，並找出量子重力檢驗技術最簡版本的精確極限。",
-   "url": "https://www.anthropic.com/research/claude-black-hole-physics",
-   "src": "Hacker News",
-   "ts": "2026-11-20T01:30:44+08:00",
-   "left": "11/20 01:30",
-   "heat": "HN 399",
+   "title": "美國收緊 AI 晶片出口管制並封鎖第三國雲端算力，Moonshot 取消 1.5 億美元印尼合約",
+   "summary_html": "美國商務部關閉透過第三國租用雲端算力的管道後，亞洲多筆大型 AI 資料中心交易瓦解。",
+   "url": "https://aihot.news/items/h4bvsjw4ri6to1inm87srlf42",
+   "src": "AIHOT",
+   "ts": "2026-11-20T01:02:41+08:00",
+   "left": "11/20 01:02",
+   "heat": "",
    "tags": [],
    "from": [
     {
      "series": "tech_ai",
      "period": "2026-11-20",
-     "no": "04",
+     "no": "06",
      "rank": 5
     }
    ]
