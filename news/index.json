@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T15:19:31+08:00",
+ "updated_at": "2026-11-20T15:46:37+08:00",
  "series": [
   {
    "id": "general",
@@ -25,17 +25,10 @@
   },
   {
    "id": "tech_ai",
-   "title": "AI 日報",
+   "title": "科技 AI 日報",
    "cadence": "daily",
    "group": "科技",
-   "short": "AI"
-  },
-  {
-   "id": "tech",
-   "title": "科技日報",
-   "cadence": "daily",
-   "group": "科技",
-   "short": "科技"
+   "short": "科技 AI"
   },
   {
    "id": "security",
@@ -43,13 +36,6 @@
    "cadence": "daily",
    "group": "科技",
    "short": "資安"
-  },
-  {
-   "id": "health",
-   "title": "健康日報",
-   "cadence": "daily",
-   "group": "綜合",
-   "short": "健康"
   },
   {
    "id": "ai_weekly",
@@ -94,13 +80,6 @@
    "short": "遊戲"
   },
   {
-   "id": "cocos_h5_weekly",
-   "title": "Cocos／H5 遊戲開發週報",
-   "cadence": "weekly",
-   "group": "遊戲",
-   "short": "Cocos 週報"
-  },
-  {
    "id": "taiwan_general",
    "title": "台灣綜合新聞",
    "cadence": "daily",
@@ -127,9 +106,28 @@
    "cadence": "weekly",
    "group": "綜合",
    "short": "閱讀"
+  },
+  {
+   "id": "cocos_h5_weekly",
+   "title": "Cocos／H5 遊戲開發週報",
+   "cadence": "daily",
+   "group": "主題",
+   "short": "Cocos／H5 遊戲開發週報"
   }
  ],
  "items": [
+  {
+   "series": "github_weekly",
+   "series_title": "GitHub 趨勢週報",
+   "cadence": "weekly",
+   "period": "2026-W47",
+   "date": "2026-11-20",
+   "title": "GitHub 趨勢週報",
+   "lede": "本週榜單幾乎被「給程式代理用的工具」包辦：Univer 以 Office SDK 拿下週增 7,248 星居冠；Chrome、Edge、Firefox 與 MDN 聯手推出 Modern Web Guidance；Meta、阿里巴巴把內部用了多年的設計系統與 AI 程式碼審查工具開源。",
+   "count": 10,
+   "data": "github_weekly/2026/2026-W47.json",
+   "generated_at": "2026-11-20T15:46:37+08:00"
+  },
   {
    "series": "security",
    "series_title": "資安日報",
@@ -180,7 +178,7 @@
   },
   {
    "series": "tech_ai",
-   "series_title": "AI 日報",
+   "series_title": "科技 AI 日報",
    "cadence": "daily",
    "period": "2026-11-20",
    "date": "2026-11-20",
@@ -228,7 +226,7 @@
   },
   {
    "series": "tech_ai",
-   "series_title": "AI 日報",
+   "series_title": "科技 AI 日報",
    "cadence": "daily",
    "period": "2026-11-19",
    "date": "2026-11-19",

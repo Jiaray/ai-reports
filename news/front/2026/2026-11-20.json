@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-20",
- "built_at": "2026-11-20T15:19:31+08:00",
+ "built_at": "2026-11-20T15:46:37+08:00",
  "reports": [
   {
    "series": "international",
@@ -26,6 +26,14 @@
    "period": "2026-11-20",
    "count": 18,
    "generated_at": "2026-11-20T15:19:31+08:00"
+  },
+  {
+   "series": "github_weekly",
+   "series_title": "GitHub 趨勢週報",
+   "group": "開源",
+   "period": "2026-W47",
+   "count": 10,
+   "generated_at": "2026-11-20T15:46:37+08:00"
   },
   {
    "series": "gambling",
@@ -569,6 +577,47 @@
   }
  ],
  "weekly": [
+  {
+   "series": "github_weekly",
+   "series_title": "GitHub 趨勢週報",
+   "period": "2026-W47",
+   "date": "2026-11-20",
+   "items": [
+    {
+     "no": "02",
+     "rank": 1,
+     "title": "GoogleChrome/modern-web-guidance-src：Chrome、Edge、Firefox 與 MDN 聯手讓程式代理改用現代 Web 寫法",
+     "summary_html": "四大瀏覽器陣營共同維護的 agent skills，把 Web 平台最佳實務與瀏覽器相容性資料直接餵給程式代理，本週新增 6,858 星。",
+     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+     "src": "GitHub Trending",
+     "left": "This week",
+     "heat": "+6,858 stars this week",
+     "tags": []
+    },
+    {
+     "no": "01",
+     "rank": 2,
+     "title": "dream-num/univer：給人與 AI 代理共用的開源 Office SDK",
+     "summary_html": "讓開發者把試算表、文件的編輯、計算、協作與檔案處理嵌進自家產品，人和 AI 代理都能操作同一份內容，本週新增 7,248 星居冠。",
+     "url": "https://github.com/dream-num/univer",
+     "src": "GitHub Trending",
+     "left": "This week",
+     "heat": "+7,248 stars this week",
+     "tags": []
+    },
+    {
+     "no": "03",
+     "rank": 3,
+     "title": "meta/astryx：Meta 開源內部用了八年、支撐 13,000 多個應用的設計系統",
+     "summary_html": "Meta 開源內部最大的 React 設計系統，150 多個無障礙元件、品牌主題與深色模式一次到位，並標榜人與 AI 助理用同一套工具開發，本週新增 4,977 星。",
+     "url": "https://github.com/meta/astryx",
+     "src": "GitHub Trending",
+     "left": "This week",
+     "heat": "+4,977 stars this week",
+     "tags": []
+    }
+   ]
+  },
   {
    "series": "cocos_h5_weekly",
    "series_title": "Cocos／H5 遊戲開發週報",

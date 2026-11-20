@@ -1,0 +1,17 @@
+{
+ "schema": 1,
+ "series": "github_weekly",
+ "title": "GitHub 趨勢週報",
+ "group": "開源",
+ "cadence": "weekly",
+ "updated_at": "2026-11-20T15:46:37+08:00",
+ "items": [
+  {
+   "period": "2026-W47",
+   "date": "2026-11-20",
+   "count": 10,
+   "data": "github_weekly/2026/2026-W47.json",
+   "generated_at": "2026-11-20T15:46:37+08:00"
+  }
+ ]
+}
