@@ -222,32 +222,53 @@
     }, [arrow]);
   }
 
-  // 報頭只有一列（樣版 B：原本只放「版面」的那一列左邊整塊空著，使用者覺得浪費）：
-  // 左邊小字「頭版」＋日期大字，右邊前後一期與「版面」三個圖示鈕。刊名與更新時間拿掉
-  const hdButtons = (kids) => h('div', { class: 'fp-hd-btns' }, [...kids, fpBox]);
+  // 「本週新聞」（使用者要求：最上方一顆切到週報的按鈕，字數同「本日新聞」）：連到最新一期週報，不分類型；
+  // index.json 還沒有任何週報就不顯示（使用者選定）
+  function weeklyLink() {
+    const list = ((index && index.items) || []).filter((e) => e && e.series && e.period
+      && (e.cadence || seriesMeta(e.series).cadence) === 'weekly');
+    if (!list.length) return null;
+    const w = list.reduce((a, b) => (b.date > a.date || (b.date === a.date && b.generated_at > a.generated_at) ? b : a));
+    return h('a', { class: 'ed-link', href: reportHref(w.series, w.period) }, [
+      h('span', { class: 'dd-ico', html: ICON_WEEKLY }), h('span', null, ['本週新聞']),
+    ]);
+  }
+
+  // 報頭：最上面是和報告頁同一列的工具列（「本日新聞」「本週新聞」……「版面」，樣式在 report.css 的 .editions／.ed-link；
+  // 「本日新聞」就是頭版，標成目前位置：最新一天 page，其他天 true），下面一列是日期大字與前後一期。
+  // 原本日期上面的小字「頭版」由工具列的「本日新聞」取代（不重複）；h1 留一段只給報讀器的「本日新聞」。刊名與更新時間拿掉
   function masthead() {
     const i = dates.indexOf(front.date);
     const prev = i >= 0 ? dates[i + 1] : null;
     const next = i > 0 ? dates[i - 1] : null;
-    return h('header', { class: 'fp-hd' }, [
-      h('div', { class: 'fp-hd-row' }, [
-        h('h1', { class: 'fp-title' }, [
-          h('span', { class: 'fp-kicker' }, ['頭版']),
-          h('span', { class: 'fp-date' }, [`${md(front.date)} 週${weekday(front.date)}`]),
+    return [
+      h('nav', { class: 'editions', 'aria-label': '報頭工具列' }, [
+        h('a', { class: 'ed-link', href: './', 'aria-current': front.date === dates[0] ? 'page' : 'true' }, [
+          h('span', { class: 'dd-ico', html: ICON_FRONT }), h('span', null, ['本日新聞']),
         ]),
-        hdButtons([dayLink(prev, 'prev'), dayLink(next, 'next')]),
+        weeklyLink(),
+        fpBox,
       ]),
-      // 預設開最新一個有頭版的日期；那天不是今天時提醒（spec 6.6）。日期大標題已有，提醒不再重寫日期
-      front.date !== today() && front.date === dates[0] ? h('p', { class: 'fp-latest' }, ['今天還沒有頭版，這是最近一期']) : null,
-    ]);
+      h('header', { class: 'fp-hd' }, [
+        h('div', { class: 'fp-hd-row' }, [
+          h('h1', { class: 'fp-title' }, [
+            h('span', { class: 'visually-hidden' }, ['本日新聞 ']),
+            h('span', { class: 'fp-date' }, [`${md(front.date)} 週${weekday(front.date)}`]),
+          ]),
+          h('div', { class: 'fp-hd-btns' }, [dayLink(prev, 'prev'), dayLink(next, 'next')]),
+        ]),
+        // 預設開最新一個有頭版的日期；那天不是今天時提醒（spec 6.6）。日期大標題已有，提醒不再重寫日期
+        front.date !== today() && front.date === dates[0] ? h('p', { class: 'fp-latest' }, ['今天還沒有頭版，這是最近一期']) : null,
+      ]),
+    ];
   }
 
-  // ── 底部類型標籤列：第一個「頭版」是目前頁，其餘是 index.json 有報告的類型（短名取 series[].short）──
+  // ── 底部類型標籤列：第一個「本日新聞」（頭版）是目前頁，其餘是 index.json 有報告的類型（短名取 series[].short）──
   function tabs() {
     const items = (index && index.items) || [];
     const ids = [...new Set((items.length ? items : (front && front.reports) || []).map((e) => e.series).filter(Boolean))].sort(bySeries);
     const list = h('div', { class: 'ed-tabs' }, [
-      h('a', { class: 'ed-tab', href: './', 'aria-current': 'page' }, ['頭版']),
+      h('a', { class: 'ed-tab', href: './', 'aria-current': 'page' }, ['本日新聞']),
       ...ids.map((id) => h('a', { class: 'ed-tab', href: `?t=${encodeURIComponent(id)}` }, [seriesMeta(id).short])),
     ]);
     return h('nav', { class: 'fp-tabs', 'aria-label': '新聞類型' }, [list]);
@@ -317,7 +338,7 @@
       })));
     });
     show([
-      masthead(),
+      ...masthead(),
       h('main', { id: 'main', class: 'fp-tl' }, tl.length ? tl : [h('p', { class: 'load-error' }, ['這天的頭版沒有條目。'])]),
       tabs(),
       footer(),
@@ -344,8 +365,9 @@
     });
     latest.sort((a, b) => bySeries(a.series, b.series));
     const kids = [
+      h('nav', { class: 'editions', 'aria-label': '報頭工具列' }, [weeklyLink(), fpBox]),
       h('header', { class: 'fp-hd' }, [
-        h('div', { class: 'fp-hd-row' }, [h('h1', { class: 'fp-title' }, [h('span', { class: 'fp-date' }, ['頭版'])]), hdButtons([])]),
+        h('div', { class: 'fp-hd-row' }, [h('h1', { class: 'fp-title' }, [h('span', { class: 'fp-date' }, ['本日新聞'])])]),
       ]),
       h('main', { id: 'main', class: 'fp-empty' }, [
         h('p', { class: 'fp-empty-note', role: 'status' }, [latest.length ? '還沒有頭版。先看各類型最新一期：' : '還沒有頭版，也還沒有任何報告。']),
@@ -360,7 +382,7 @@
       // 不放底部的類型標籤列：上面的清單已經列出每個類型（使用者要求：任何地方都不重複同一個資訊）
       footer(),
     ];
-    if (!index) kids.splice(2, 0, h('p', { class: 'load-error', role: 'alert' }, ['新聞清單也載入失敗，重新整理再試一次。']));
+    if (!index) kids.splice(3, 0, h('p', { class: 'load-error', role: 'alert' }, ['新聞清單也載入失敗，重新整理再試一次。']));
     show(kids);
     document.title = '頭版｜AI Reports';
   }
@@ -452,6 +474,9 @@
   // 外觀直接用報告頁的 .dd-*／.vw-* 樣式（report.css 兩頁都會載入），兩頁的「版面」長得一模一樣；id 用頭版自己的（fp-*）──
   const ICON_SLIDERS = '<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M2.5 6H11M15 6h2.5M2.5 14H5M9 14h8.5"/><rect x="11" y="4" width="4" height="4"/><rect x="5" y="12" width="4" height="4"/></svg>';
   const ICON_CLOSE = '<svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M5 5l10 10M15 5 5 15"/></svg>';
+  // 工具列連結的圖示（同報告頁 report.js）：本日新聞是一張報紙，本週新聞是疊起來的兩張
+  const ICON_FRONT = '<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 3.5h14v13H3zM6 7.5h8M6 10.5h8M6 13.5h5"/></svg>';
+  const ICON_WEEKLY = '<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 2.5h11v11H6zM3 5.5v12h12M9 6h5M9 9h5M9 12h3"/></svg>';
   // 打開時淡入、往下滑 4px（同報告頁；減少動態時只淡入）
   function openMotion(el) {
     if (!el.animate) return;

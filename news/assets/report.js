@@ -66,6 +66,14 @@
     const d = new Date(`${e.period}T00:00:00`);
     return Number.isNaN(d.getTime()) ? e.period : `${e.period}（週${WEEK[d.getDay()]}）`;
   }
+  // 手機上日期按鈕的短寫（日報同頭版大字「11/20 週五」）：工具列多了「週報」，長日期在手機放不進一列；年份看目錄面板的分組標題
+  function periodShort(e) {
+    let m;
+    if (e.cadence === 'weekly' && (m = /^\d{4}-W(\d{2})$/.exec(e.period))) return `第 ${+m[1]} 週`;
+    if (e.cadence === 'monthly' && (m = /^\d{4}-(\d{2})$/.exec(e.period))) return `${+m[1]} 月`;
+    m = /^(\d{4})-(\d{2})-(\d{2})$/.exec(e.period);
+    return m ? `${+m[2]}/${+m[3]} 週${WEEK[new Date(Date.UTC(+m[1], m[2] - 1, +m[3])).getUTCDay()]}` : e.period;
+  }
 
   // 這一期的日期（月/日，不補零），條目左欄的日期跟它一樣就不再顯示（使用者要求：任何地方都不重複同一個資訊）
   let issueMD = '';
@@ -77,53 +85,73 @@
     return `${m} 月 ${d} 日（${WEEK[new Date(Date.UTC(y, m - 1, d)).getUTCDay()]}）`;
   }
 
-  // 報頭最上面那一列（使用者指定位置）：左上角日期（期別）、「頭版」（回 news/ 不帶參數）、右上角「版面」按鈕。
-  // 其他新聞類型收進大標題（typeSwitcher）：原本這一列的類型標籤一多就換成兩三行（使用者要求收進大標題）
-  function editions(cur, data) {
+  // 報頭最上面那一列（使用者指定位置）：左上角日期（點開是這天有的新聞與有新聞的日期）、「本日新聞」（回 news/ 的頭版）、
+  // 「本週新聞」（最新一期週報）、右上角「版面」。兩顆連結也是日報、週報兩邊的切換：日報頁標「本日新聞」、週報頁標「本週新聞」
+  // 為目前位置（不只靠顏色：主文字色＋底線；aria-current 是 true，表示同一區、不是那一頁本身）
+  const cadenceOf = (e) => (e && e.cadence) || 'daily';
+  function editions(cur) {
     const kids = [];
-    if (cur) kids.push(periodPicker(cur, data));
-    if (all.length) kids.push(h('a', { class: 'ed-front', href: './' }, [h('span', { class: 'dd-ico', html: ICON_FRONT }), h('span', null, ['頭版'])]));
+    if (cur) kids.push(periodPicker(cur));
+    if (all.length) {
+      kids.push(h('a', { class: 'ed-link', href: './', 'aria-current': cur && cadenceOf(cur) === 'daily' ? 'true' : null }, [
+        h('span', { class: 'dd-ico', html: ICON_FRONT }), h('span', null, ['本日新聞']),
+      ]));
+    }
+    const wk = weeklyLink(cur);
+    if (wk) kids.push(wk);
     if (vwBox) kids.push(vwBox);
-    return kids.length ? h('nav', { class: 'editions', 'aria-label': '期別、頭版與版面' }, kids) : null;
+    return kids.length ? h('nav', { class: 'editions', 'aria-label': '報頭工具列' }, kids) : null;
   }
 
-  // 有報告的新聞類型，依 index.json 的系列順序
-  function seriesIds() {
+  // 「本週新聞」（使用者要求：最上方一顆切到週報的按鈕，字數同「本日新聞」）：連到最新一期週報，不分類型；
+  // 還沒有任何週報就不顯示（使用者選定，同「有報告才列出」）。週報頁上標成目前位置：正是那一期 page，其他週報 true
+  function weeklyLink(cur) {
+    const w = all.find((e) => e.cadence === 'weekly'); // all 已依新到舊排序
+    if (!w) return null;
+    const here = cur && cur.cadence === 'weekly' ? (keyOf(cur) === keyOf(w) ? 'page' : 'true') : null;
+    return h('a', { class: 'ed-link', href: link(w.series, w.period), 'aria-current': here }, [
+      h('span', { class: 'dd-ico', html: ICON_WEEKLY }), h('span', null, ['本週新聞']),
+    ]);
+  }
+
+  // 類型順序：index.json 的系列順序，不在裡面的排最後
+  function rankOf(id) {
     const order = (index.series || []).map((s) => s.id);
-    const rank = (id) => (order.includes(id) ? order.indexOf(id) : order.length);
-    return [...new Set(all.map((e) => e.series))].sort((a, b) => rank(a) - rank(b));
+    return order.includes(id) ? order.indexOf(id) : order.length;
   }
 
-  // 大標題就是新聞類型切換器（使用者要求：類型標籤收進大標題）：標題文字＋往下的箭頭是一顆按鈕，
-  // 點開是全部有報告的類型（各連到該類型最新一期，同原本的類型標籤），目前這一類標 aria-current。
-  // 這是頁面導覽連結，用 Tab 依序走，不是 ARIA menu（指南：導覽連結不加 menu／menuitem 角色、不攔方向鍵）。
-  // 按鈕包在 <h1> 裡，標題地標照舊；報讀器唸「新聞類型：國際新聞日報，按鈕，已收合」。
-  // 同一期的內容不變：建一次，換讀法重繪報頭時重用（不重複掛 document 的事件）
-  let tsBox = null;
-  let tsKey = '';
-  function typeSwitcher(cur, title) {
-    const ids = seriesIds();
-    if (!cur || !ids.length) return h('h1', { class: 'mast-title' }, [title]);
-    if (tsBox && tsKey === keyOf(cur)) return tsBox;
-    tsKey = keyOf(cur);
-    const items = ids.map((id) => {
-      const latest = all.find((e) => e.series === id);
-      return h('li', null, [h('a', {
-        class: 'ts-item', href: link(id), 'aria-current': id === cur.series ? 'page' : null,
-      }, [latest.series_title || latest.title])]);
-    });
-    tsBox = dropdown({
-      cls: 'ts', id: 'ts-panel', title: '新聞類型', closeLabel: '關閉新聞類型', toggleCls: 'ts-toggle',
+  // 大標題（使用者要求：和日期的下拉互換，標題的下拉是本頁的章節）：標題文字＋往下的箭頭是一顆按鈕，
+  // 點開是這一期的章節（跳到分區；頁面上不另擺分區目錄），右邊是則數。是頁內連結，用 Tab 依序走，
+  // 不是 ARIA menu（指南：導覽連結不加 menu／menuitem 角色、不攔方向鍵）。按鈕包在 <h1> 裡，標題地標照舊；
+  // 報讀器唸「國際新聞日報，本期章節，按鈕，已收合」。時間軸讀法沒有分區（資料沒有具名分區也一樣）：標題是一般的 <h1>、不帶箭頭。
+  // 同一期的內容不變：建一次，在完整、速讀之間換讀法重繪報頭時重用（不重複掛 document 的事件）
+  let chapBox = null;
+  let chapKey = '';
+  function titleChapters(cur, r) {
+    const named = (r.sections || []).map((s, i) => [s, i]).filter(([s]) => s.name);
+    if (!cur || !named.length || view.read === 'timeline') return h('h1', { class: 'mast-title' }, [r.title]);
+    if (chapBox && chapKey === keyOf(cur)) return chapBox;
+    chapKey = keyOf(cur);
+    chapBox = dropdown({
+      cls: 'chap', id: 'chap-panel', title: '本期章節', closeLabel: '關閉本期章節', toggleCls: 'chap-toggle',
+      // 箭頭跟最後一個字綁在一起（不換行）：標題在手機排成兩行時，箭頭接在第二行最後一個字後面，不會漂在右側或單獨掉到下一行
       toggleKids: [
-        h('span', { class: 'visually-hidden' }, ['新聞類型：']), h('span', { class: 'ts-name' }, [title]),
-        h('span', { class: 'ts-caret', html: ICON_CARET_LG }),
+        h('span', { class: 'chap-name' }, [
+          r.title.slice(0, -1),
+          h('span', { class: 'chap-tail' }, [r.title.slice(-1), h('span', { class: 'chap-caret', html: ICON_CARET_LG })]),
+        ]),
+        h('span', { class: 'visually-hidden' }, ['，本期章節']),
       ],
       wrap: (toggle) => h('h1', { class: 'mast-title' }, [toggle]),
-      body: [h('ul', { class: 'ts-list', 'aria-labelledby': 'ts-panel-title' }, items)],
-      // 打開時焦點落在目前這一類：鍵盤往前、往後都只差幾個 Tab
-      pick: (panel) => panel.querySelector('.ts-item[aria-current=page]'),
+      body: [h('ul', { class: 'chap-list', 'aria-labelledby': 'chap-panel-title' }, named.map(([s, i]) => h('li', null, [
+        // data-k：地圖外觀在章節名稱前加分區色塊（頁面上的彩色分區目錄拿掉了，顏色對照改由這裡提供）
+        h('a', { class: 'chap-item', href: `#sec-${pad(i + 1)}`, 'data-k': String((i % 10) + 1) }, [
+          h('span', { class: 'chap-sec' }, [s.name]), h('span', { class: 'pd-n' }, [String(s.count)]),
+        ]),
+      ])))],
+      pick: (panel) => panel.querySelector('.chap-item'),
     });
-    return tsBox;
+    return chapBox;
   }
 
   // 日期清單的分組與每列文字：日報依月份分組、一列是「11/18　週三」；週報、月報依年份分組、一列是「第 47 週」「11 月」
@@ -143,27 +171,39 @@
     return [h('span', null, [`${+m[2]}/${+m[3]}`]), h('span', { class: 'pd-wd' }, [`週${wd}`])];
   }
 
-  // 左上角的日期按鈕：顯示目前這期，點開是這一期的「目錄」——左欄本期章節（跳到分區，使用者要求章節跳轉放這裡、
-  // 頁面上不再重複擺分區目錄），右欄這個類型的全部期別（換期）。每一項都是連結（換期就是換頁，不是表單選值，
-  // 所以用連結清單、不用 <select>）；點了連結面板就收起。時間軸讀法沒有分區，章節欄由 CSS 藏起來。
+  // 左上角的日期按鈕（使用者要求：和大標題的下拉互換，日期、週期顯示有的素材）：顯示目前這期，點開是
+  // 左欄「這天的新聞」——同一天（週報同一週、月報同一月）有報告的類型與則數（換類型、日期不變）；
+  // 右欄「有新聞的日期」——同週期（日報／週報／月報）任一類型有報告的期別（換日期：這個類型那期有就留在這個類型，
+  // 沒有就換到那期排第一的類型）。每一項都是連結（換頁，不是表單選值，所以用連結清單、不用 <select>）；點了連結面板就收起。
+  // 素材以載入的資料為準：index.json 的最近 200 份＋這個類型自己的全部期別。
   // 同一頁的內容不會變：建一次，重繪頁首那一列時重用（不重複掛 document 的事件）
+  const UNIT = { daily: ['日期', '這天的新聞'], weekly: ['週期', '這週的新聞'], monthly: ['月份', '這個月的新聞'] };
   let pdBox = null;
   let pdKey = '';
-  function periodPicker(cur, data) {
-    const cacheKey = `${keyOf(cur)}${data ? '+data' : ''}`;
-    if (pdBox && pdKey === cacheKey) return pdBox;
-    const named = data ? (data.sections || []).map((s, i) => [s, i]).filter(([s]) => s.name) : [];
-    const secCol = named.length ? h('div', { class: 'pd-col pd-secs' }, [
-      h('p', { class: 'pd-group', id: 'pd-secs-label' }, ['章節']),
-      h('ul', { class: 'pd-items', 'aria-labelledby': 'pd-secs-label' }, named.map(([s, i]) => h('li', null, [
-        // data-k：地圖外觀在章節名稱前加分區色塊（頁面上的彩色分區目錄拿掉了，顏色對照改由這裡提供）
-        h('a', { class: 'pd-item', href: `#sec-${pad(i + 1)}`, 'data-k': String((i % 10) + 1) }, [
-          h('span', { class: 'pd-sec' }, [s.name]), h('span', { class: 'pd-n' }, [String(s.count)]),
+  function periodPicker(cur) {
+    if (pdBox && pdKey === keyOf(cur)) return pdBox;
+    pdKey = keyOf(cur);
+    const [unit, hereName] = UNIT[cadenceOf(cur)] || UNIT.daily;
+    const byRank = (a, b) => rankOf(a.series) - rankOf(b.series);
+    const byPeriod = new Map(); // 期別 → 那期有的報告（同一類型重出只留最新那份；all 已依新到舊排）
+    all.filter((e) => cadenceOf(e) === cadenceOf(cur)).forEach((e) => {
+      const list = byPeriod.get(e.period) || [];
+      if (!list.some((x) => x.series === e.series)) list.push(e);
+      byPeriod.set(e.period, list);
+    });
+    const here = [...(byPeriod.get(cur.period) || [cur])].sort(byRank);
+    const typeCol = h('div', { class: 'pd-col pd-types' }, [
+      h('p', { class: 'pd-group', id: 'pd-types-label' }, [hereName]),
+      h('ul', { class: 'pd-items', 'aria-labelledby': 'pd-types-label' }, here.map((e) => h('li', null, [
+        h('a', { class: 'pd-item', href: link(e.series, e.period), 'aria-current': e.series === cur.series ? 'page' : null }, [
+          h('span', null, [e.series_title || e.title]), e.count ? h('span', { class: 'pd-n' }, [String(e.count)]) : null,
         ]),
       ]))),
-    ]) : null;
+    ]);
     const groups = [];
-    all.filter((e) => e.series === cur.series).forEach((e) => {
+    [...byPeriod.keys()].sort().reverse().forEach((p) => {
+      const list = byPeriod.get(p);
+      const e = list.find((x) => x.series === cur.series) || [...list].sort(byRank)[0];
       const name = periodGroup(e);
       let last = groups[groups.length - 1];
       if (!last || last.name !== name) groups.push(last = { name, items: [] });
@@ -175,17 +215,18 @@
         h('a', { class: 'pd-item', href: link(e.series, e.period), 'aria-current': e.period === cur.period ? 'page' : null }, periodRow(e)),
       ]))),
     ]));
-    pdKey = cacheKey;
     pdBox = dropdown({
-      cls: 'pd', id: 'pd-panel', title: '目錄', closeLabel: '關閉目錄',
+      cls: 'pd', id: 'pd-panel', title: unit, closeLabel: `關閉${unit}`,
       toggleKids: [
         h('span', { class: 'dd-ico', html: ICON_CALENDAR }),
-        h('span', { class: 'visually-hidden' }, ['目錄：']), h('span', null, [periodLabel(cur)]),
+        // 長短兩種寫法由 CSS 依寬度只顯示一種（另一種 display:none，報讀器也只唸顯示的那種）
+        h('span', { class: 'visually-hidden' }, [`${unit}：`]), h('span', { class: 'pd-long' }, [periodLabel(cur)]),
+        h('span', { class: 'pd-short' }, [periodShort(cur)]),
         h('span', { class: 'dd-caret', html: ICON_CARET }),
       ],
-      body: [h('div', { class: 'pd-body' }, [secCol, dateCol])],
-      // 打開時焦點落在第一個看得到的連結（有章節就是第一個章節，時間軸讀法是目前這期）
-      pick: (panel) => [...panel.querySelectorAll('.pd-secs .pd-item, .pd-item[aria-current=page]')].find((a) => a.offsetParent !== null),
+      body: [h('div', { class: 'pd-body' }, [typeCol, dateCol])],
+      // 打開時焦點落在目前這個類型：往下 Tab 是同一天的其他類型，再往下是其他日期
+      pick: (panel) => panel.querySelector('.pd-types .pd-item[aria-current=page]'),
     });
     return pdBox;
   }
@@ -458,9 +499,9 @@
     issueMD = dm ? monthDay(dm[1], dm[2]) : '';
     // 報頭只留大標題（使用者要求：任何地方都不重複同一個資訊）——日期在左上角的日期按鈕，所以地圖外觀的長日期拿掉；
     // 英文刊名（DAILY INTERNATIONAL BRIEFING）跟大標題是同一個名字，拿掉；期號使用者覺得是多餘的裝飾，拿掉（資料照留）。
-    // 大標題本身是新聞類型切換器（typeSwitcher）。
+    // 大標題本身是本期章節的下拉（titleChapters）。
     // 本期來源收到文末（不是首要資訊）。導言（r.intro）依使用者要求不在任何版面顯示，資料照留：Telegram 與首頁列表的摘要還會用到
-    const head = h('header', { class: 'masthead' }, [typeSwitcher(cur, r.title)]);
+    const head = h('header', { class: 'masthead' }, [titleChapters(cur, r)]);
     const tagsOf = r.src_tags || [];
     const srcs = tagsOf.length ? h('aside', { class: 'srcs', 'aria-labelledby': 'srcs-title' }, [
       h('h2', { class: 'srcs-title', id: 'srcs-title' }, ['本期來源']),
@@ -470,8 +511,8 @@
     const foot = h('footer', { class: 'foot' }, [h('span', { class: 'foot-left' }, [r.foot_left])]);
     if (view.read === 'timeline') return [head, timeline(r, key), srcs, foot].filter(Boolean);
     const peekMode = view.read === 'scan';
-    // 分區目錄不放在頁面上，任何讀法都一樣（使用者要求：章節跳轉在左上角的日期按鈕「目錄」裡，不重複擺；
-    // 速讀原本黏在頂端的分區列也一起拿掉）。分區標題只留名稱：「SEC. 01」編號與「N 則」使用者覺得是多餘的裝飾（則數在日期選單的章節清單裡有）
+    // 分區目錄不放在頁面上，任何讀法都一樣（使用者要求：章節跳轉在大標題的下拉裡，不重複擺；
+    // 速讀原本黏在頂端的分區列也一起拿掉）。分區標題只留名稱：「SEC. 01」編號與「N 則」使用者覺得是多餘的裝飾（則數在大標題下拉的章節清單裡有）
     const secs = r.sections.map((s, i) => h('section', { class: 'sec', id: `sec-${pad(i + 1)}`, 'data-k': key(i) }, [
       h('div', { class: 'sec-tab' }, [h('h2', { class: 'sec-name' }, [s.name])]),
       h('div', { class: 'sec-body' }, s.blocks.flatMap((b) => {
@@ -523,8 +564,10 @@
   const ICON_CLOSE = '<svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M5 5l10 10M15 5 5 15"/></svg>';
   // 大標題切換器的箭頭：比日期按鈕的箭頭寬一些，放大到標題字級時線條才不會細到看不見
   const ICON_CARET_LG = '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M5 7.5l5 5 5-5"/></svg>';
-  // 頭版：一張報紙（同網站圖示的三條橫線），放在「頭版」連結的字前面，和日期、版面兩顆按鈕的「圖示＋字」一致
+  // 本日新聞（頭版）：一張報紙（同網站圖示的三條橫線），放在連結的字前面，和日期、版面兩顆按鈕的「圖示＋字」一致
   const ICON_FRONT = '<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 3.5h14v13H3zM6 7.5h8M6 10.5h8M6 13.5h5"/></svg>';
+  // 週報：疊起來的兩張報紙（頭版是一張），代表一週彙整
+  const ICON_WEEKLY = '<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 2.5h11v11H6zM3 5.5v12h12M9 6h5M9 9h5M9 12h3"/></svg>';
 
   // 打開面板時淡入、往下滑 4px（回應使用者的動作；減少動態時只淡入）。用 WAAPI 不用 @starting-style：
   // 換讀法時面板會跟著頁首那一列搬家，@starting-style 會在每次搬家重播一次淡入
@@ -536,7 +579,7 @@
       : [{ opacity: 0, transform: 'translateY(-4px)' }, { opacity: 1, transform: 'none' }], { duration: 140, easing: 'ease-out' });
   }
 
-  // 報頭的三個下拉面板（左上角日期、右上角版面、大標題的類型清單）共用的骨架與開關：
+  // 報頭的三個下拉面板（左上角日期、右上角版面、大標題的本期章節）共用的骨架與開關：
   // 面板頂端是標題＋ ×（非 modal 面板要有看得見的關閉鈕，指南）；按鈕切換開關，點外面、按 Esc、按 × 都會收起
   // （Esc、× 收起後焦點回按鈕）；打開時淡入、焦點移到 pick(panel) 給的元素。點另一顆按鈕也算點外面，所以同時只開一個。
   // 按鈕在前、面板緊接在後：鍵盤從按鈕按 Tab 直接進面板。
@@ -616,7 +659,7 @@
   }
 
   // 目前這一期的整頁：報頭最上面那一列（期別選單、頭版、版面）＋報告（大標題是類型切換器）
-  const page = () => [editions(shown.entry, shown.data), ...report(shown.data, shown.entry)].filter(Boolean);
+  const page = () => [editions(shown.entry), ...report(shown.data, shown.entry)].filter(Boolean);
 
   const problem = (cur, text, more) => app.replaceChildren(
     ...[all.length ? editions(cur) : null].filter(Boolean),

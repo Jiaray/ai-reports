@@ -1,9 +1,9 @@
 /* 頭版（news/ 不帶 t 參數，front.js 渲染）的樣式：使用者在三個樣版中選定的「B 整點分組時間軸」。
-   報頭一列（左「頭版」＋日期、右前後一期與「版面」圖示鈕）；底下沒有分區標題，全部條目依時間由新到舊，
+   報頭是報告頁同款的工具列（本日新聞、本週新聞、版面）＋日期大字與前後一期；底下沒有分區標題，全部條目依時間由新到舊，
    按整點分組（黏頂的「10:00」標題），每則左緣一條領域色線；每輪第一順位（原本的「要聞」）淡底色、標題大一號、露兩行摘要。
    條目沿用報告頁速讀的 .peek／.row-title／.row-sum／.hot-badge（front.js 在頭版替 <html> 設 data-read="scan"）。
    這支檔案和報告頁共用一個 index.html，所以只寫 .fp／.fp-* 開頭的選擇器：不碰 :root 的 color-scheme、
-   不寫 html 的 scroll-padding；「版面」沿用報告頁的 .dd-*／.vw-*，報告頁的外觀完全不受影響。 */
+   不寫 html 的 scroll-padding；工具列與「版面」沿用報告頁的 .editions／.ed-link／.dd-*／.vw-*，報告頁的外觀完全不受影響。 */
 
 /* 領域色（色線與類型名稱）：淺色底、深色底各一組，對比度都在 4.5:1 以上。變數掛在頭版的 #app.fp 上，不放 :root */
 .fp{--g-gen:#53687a;--g-intl:#2f6db5;--g-fin:#a04f0f;--g-tech:#0c7372;--g-oss:#7b4fa3;--g-game:#b23f7a;--g-tw:#337431;--g-topic:#7a5a43}
@@ -18,22 +18,20 @@
 .fp [data-group="台灣"]{--g-c:var(--g-tw)}
 .fp [data-group="主題"]{--g-c:var(--g-topic)}
 
-/* ── 報頭：一列。左邊小字「頭版」疊在日期大字上，右邊 ‹ › 與「版面」三個圖示鈕（不是今天時下面一行提醒「這是最近一期」） ── */
+/* ── 報頭：最上面是和報告頁同一列的工具列（.editions：「本日新聞」「本週新聞」……「版面」，樣式在 report.css；
+   「本日新聞」就是頭版，標成目前位置），下面一列左邊日期大字、右邊 ‹ ›（不是今天時再下面一行提醒「這是最近一期」）。
+   原本日期上面的小字「頭版」由工具列的「本日新聞」取代 ── */
 .fp-hd{border-top:3px solid var(--color-text);padding-top:var(--space-3)}
-.fp-hd-row{display:flex;align-items:flex-end;gap:var(--space-2)}
-.fp-title{display:flex;flex-direction:column;gap:5px;min-width:0;margin:0}
-.fp-kicker{font:600 12px/1 var(--font-heading);letter-spacing:.14em;color:var(--color-accent-700)}
+.editions+.fp-hd{border-top:0;padding-top:var(--space-2)}
+.fp-hd-row{display:flex;align-items:center;gap:var(--space-2)}
+.fp-title{min-width:0;margin:0}
 .fp-date{font:600 clamp(26px,8.4vw,34px)/1 var(--font-heading);color:var(--color-text);white-space:nowrap}
-.fp-hd-btns{display:flex;align-items:center;gap:2px;margin-left:auto}
+.fp-hd-btns{display:flex;align-items:center;gap:2px;margin:0 -8px 0 auto}
 .fp-day{display:inline-flex;align-items:center;justify-content:center;min-width:40px;min-height:40px;color:var(--color-accent-700)}
 a.fp-day:hover{background:var(--color-accent-100)}
 a.fp-day:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
 .fp-day.is-off{color:var(--color-neutral-300)}
 .fp-arrow{font:400 26px/1 var(--font-body);margin-top:-3px}
-/* 「版面」在頭版只露圖示（字留在無障礙樹，報讀器照樣唸「版面」），按鈕撐成 40px 方塊、對齊內容欄右緣 */
-.fp-hd .vw{margin-left:0}
-.fp-hd .dd-toggle{justify-content:center;min-width:40px;min-height:40px;padding:0;margin-right:-8px}
-.fp-hd .dd-txt{position:absolute;clip-path:inset(50%);overflow:hidden;width:1px;height:1px;margin:-1px;white-space:nowrap}
 .fp-latest{margin:var(--space-2) 0 0;font:600 13px/1.5 var(--font-body);color:var(--color-accent-700)}
 
 /* ── 時間軸：整點標題黏在頂端（底色蓋住捲過去的條目），不是頭版那天的時段加註日期 ── */
@@ -93,4 +91,4 @@ a.fp-day:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:
 .fp-bar .dd-toggle{min-height:38px}
 
 /* 觸控螢幕：可點的東西至少 44px（同報告頁）；放在檔尾才蓋得過前面同權重的高度 */
-@media(pointer:coarse){.fp-day,.fp-act,.fp-bar .dd-toggle,.fp-tabs .ed-tab{min-height:44px}.fp-day,.fp-hd .dd-toggle{min-width:44px;min-height:44px}}
+@media(pointer:coarse){.fp-day,.fp-act,.fp-bar .dd-toggle,.fp-tabs .ed-tab{min-height:44px}.fp-day{min-width:44px}}
