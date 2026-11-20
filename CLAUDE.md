@@ -104,6 +104,8 @@ ai-reports/
 - 文字一律寫滿欄寬（使用者要求）：標題與內文都不加 `text-wrap:balance`／`pretty`（balance 把兩行標題切成兩半、右邊空一大截；
   pretty 在 iPhone 的 WebKit 會整段平衡右緣，每行提早兩三個字換行），文字欄也不另設 `max-width`（`.wrap` 最寬 880px 已足夠）。
   改排版後要在 iOS 模擬器的 Safari 看一次，桌機 Chrome 看不出這類問題。
+  沒有斷點的長英數字串（路徑、網址、程式名稱，例如 `/guardrails/test_custom_code`）靠 `site.css` 的 `body{overflow-wrap:break-word}`
+  在放不下時才從中間斷開，不凸出欄外造成手機橫向捲動；不要改成 `anywhere`（會改變最小寬度，表格欄位被擠成一字一行、不再橫向捲動）。
 - 配色：`site.css` 的 `:root{color-scheme:light dark}`，`data-theme=light`／`dark` 各自覆寫；每個 HTML 的 `<head>` 有
   `<meta name="color-scheme">` 與一行 inline 腳本，在第一次繪製前套用 `air-theme`（同時改 meta 與 `data-theme`）。
   `site.js` 因此用 `defer` 載入，頁面腳本（`home.js`、`report.js`、`front.js`）也要 `defer` 並排在它後面，

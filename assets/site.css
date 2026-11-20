@@ -46,7 +46,10 @@
 
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
-body{font:15px/1.7 var(--font-body);color:var(--color-text);background:var(--color-bg);margin:0;transition:background .2s,color .2s}
+/* overflow-wrap:break-word：路徑、網址、程式名稱這類沒有斷點的長英數字串（例：/guardrails/test_custom_code）
+   放不下一行時才在字串中間斷開，不再凸出欄外造成手機橫向捲動。其餘文字照常排滿欄寬、不提早換行；
+   不影響最小寬度的計算，表格照樣是撐開後在 .tbl 裡橫向捲動（anywhere 會把欄位擠成一字一行） */
+body{font:15px/1.7 var(--font-body);color:var(--color-text);background:var(--color-bg);margin:0;transition:background .2s,color .2s;overflow-wrap:break-word}
 .wrap{max-width:880px;margin:0 auto;padding:var(--space-8) var(--space-6)}
 a{color:var(--color-accent-700);text-decoration:none;word-break:break-word;overflow-wrap:anywhere}
 .masthead{border-top:3px solid var(--color-text);border-bottom:1px solid var(--color-divider);padding-top:var(--space-3)}
