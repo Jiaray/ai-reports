@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T18:21:57+08:00",
+ "updated_at": "2026-11-21T00:34:36+08:00",
  "series": [
   {
    "id": "general",
@@ -131,6 +131,18 @@
  ],
  "items": [
   {
+   "series": "gambling",
+   "series_title": "博奕產業新聞",
+   "cadence": "daily",
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "title": "博奕產業新聞",
+   "lede": "近 48 小時：英國拒絕全面禁止博弈廣告；東京、北海道退出日本 2027 年 IR 申請；巴西博彩禁令待最高法院裁決；美國上訴法院再判 Kalshi 敗訴；南韓一年網賭掃蕩逮捕 6,310 人。",
+   "count": 49,
+   "data": "gambling/2026/2026-11-20.json",
+   "generated_at": "2026-11-21T00:34:36+08:00"
+  },
+  {
    "series": "health",
    "series_title": "健康日報",
    "cadence": "daily",
@@ -225,18 +237,6 @@
    "count": 14,
    "data": "ai_weekly/2026/2026-W47.json",
    "generated_at": "2026-11-20T16:54:23+08:00"
-  },
-  {
-   "series": "gambling",
-   "series_title": "博奕產業新聞",
-   "cadence": "daily",
-   "period": "2026-11-20",
-   "date": "2026-11-20",
-   "title": "博奕產業新聞",
-   "lede": "近 48 小時：東京、北海道相繼放棄日本 2027 年 IR 申請，觀光廳表明暫不放寬設施門檻；澳門以 2,400 億澳門元編列 2027 年賭收預算；南韓一年網賭掃蕩逮捕 6,310 人；阿根廷線上博弈稅收大增但七成五投注仍流向非法網站。",
-   "count": 34,
-   "data": "gambling/2026/2026-11-20.json",
-   "generated_at": "2026-11-20T16:53:53+08:00"
   },
   {
    "series": "general",
