@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T10:32:20+08:00",
+ "updated_at": "2026-11-20T10:32:45+08:00",
  "series": [
   {
    "id": "general",
@@ -109,6 +109,18 @@
   }
  ],
  "items": [
+  {
+   "series": "gambling",
+   "series_title": "博奕產業新聞",
+   "cadence": "daily",
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "title": "博奕產業新聞",
+   "lede": "近 48 小時：澳門以 2,400 億澳門元賭收編列 2027 年預算；東京、北海道相繼放棄日本 2027 年 IR 申請；南韓一年掃蕩非法網路賭博逮捕 6,310 人。",
+   "count": 36,
+   "data": "gambling/2026/2026-11-20.json",
+   "generated_at": "2026-11-20T10:32:45+08:00"
+  },
   {
    "series": "security",
    "series_title": "資安日報",
