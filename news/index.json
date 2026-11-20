@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T16:53:53+08:00",
+ "updated_at": "2026-11-20T16:54:23+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "ai_weekly",
+   "series_title": "AI 週報",
+   "cadence": "weekly",
+   "period": "2026-W47",
+   "date": "2026-11-20",
+   "title": "AI 週報",
+   "lede": "黃仁勳辭任 NVIDIA 執行長，開源模型生態失去最大金主；結果計價的 AI 產品要先算清單次成果毛利；論文榜集中在具身智慧與世界模型，閉環「推理＋執行」仍是最大缺口。",
+   "count": 14,
+   "data": "ai_weekly/2026/2026-W47.json",
+   "generated_at": "2026-11-20T16:54:23+08:00"
+  },
   {
    "series": "gambling",
    "series_title": "博奕產業新聞",

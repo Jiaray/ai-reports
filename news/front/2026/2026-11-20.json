@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-20",
- "built_at": "2026-11-20T16:53:53+08:00",
+ "built_at": "2026-11-20T16:54:23+08:00",
  "reports": [
   {
    "series": "general",
@@ -58,6 +58,14 @@
    "period": "2026-W47",
    "count": 10,
    "generated_at": "2026-11-20T16:52:07+08:00"
+  },
+  {
+   "series": "ai_weekly",
+   "series_title": "AI 週報",
+   "group": "科技",
+   "period": "2026-W47",
+   "count": 14,
+   "generated_at": "2026-11-20T16:54:23+08:00"
   },
   {
    "series": "cocos_h5_weekly",
@@ -778,6 +786,36 @@
      "src": "GitHub Trending",
      "left": "This week",
      "heat": "+4,492 stars this week",
+     "tags": []
+    }
+   ]
+  },
+  {
+   "series": "ai_weekly",
+   "series_title": "AI 週報",
+   "period": "2026-W47",
+   "date": "2026-11-20",
+   "items": [
+    {
+     "no": "14",
+     "rank": 1,
+     "title": "黃仁勳辭任 NVIDIA 執行長：開源模型失去最大靠山，但 NVIDIA 仍難被撼動",
+     "summary_html": "NVIDIA 11 月 12 日宣布黃仁勳辭去總裁、執行長與董事職務，Interconnects 談對開源 AI 的衝擊，AI to ROI 談市場與政策連鎖反應。",
+     "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
+     "src": "Interconnects",
+     "left": "11/14 20:23",
+     "heat": "",
+     "tags": []
+    },
+    {
+     "no": "01",
+     "rank": 2,
+     "title": "Mind2Act World：拆解機器人「想」與「做」的診斷基準，最強系統閉環任務成功率僅 12%",
+     "summary_html": "提出 30 個模擬操作任務、180 種配置的診斷基準，分別測「依歷史推理」「精準執行」與兩者閉環組合。",
+     "url": "https://huggingface.co/papers/2611.26444",
+     "src": "HF Papers",
+     "left": "11/20 08:00",
+     "heat": "+33",
      "tags": []
     }
    ]

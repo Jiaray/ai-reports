@@ -1,0 +1,17 @@
+{
+ "schema": 1,
+ "series": "ai_weekly",
+ "title": "AI 週報",
+ "group": "科技",
+ "cadence": "weekly",
+ "updated_at": "2026-11-20T16:54:23+08:00",
+ "items": [
+  {
+   "period": "2026-W47",
+   "date": "2026-11-20",
+   "count": 14,
+   "data": "ai_weekly/2026/2026-W47.json",
+   "generated_at": "2026-11-20T16:54:23+08:00"
+  }
+ ]
+}
