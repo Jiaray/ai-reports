@@ -1,0 +1,17 @@
+{
+ "schema": 1,
+ "series": "tech",
+ "title": "科技日報",
+ "group": "科技",
+ "cadence": "daily",
+ "updated_at": "2026-11-20T18:18:02+08:00",
+ "items": [
+  {
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "count": 15,
+   "data": "tech/2026/2026-11-20.json",
+   "generated_at": "2026-11-20T18:18:02+08:00"
+  }
+ ]
+}

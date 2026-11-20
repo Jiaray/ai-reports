@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T16:57:49+08:00",
+ "updated_at": "2026-11-20T18:18:02+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "tech",
+   "series_title": "科技日報",
+   "cadence": "daily",
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "title": "科技日報",
+   "lede": "加州檢察長傳喚輝達調查晶片流向中國；GTA 6 首發估計賣破 23 億美元；Google 明年 1 月全球強制 Android 開發者驗證；IEA 警告資料中心用電 2030 年倍增。",
+   "count": 15,
+   "data": "tech/2026/2026-11-20.json",
+   "generated_at": "2026-11-20T18:18:02+08:00"
+  },
   {
    "series": "tech_ai",
    "series_title": "AI 日報",
