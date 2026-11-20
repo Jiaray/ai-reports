@@ -1,0 +1,17 @@
+{
+ "schema": 1,
+ "series": "gamedev",
+ "title": "遊戲產業新聞",
+ "group": "遊戲",
+ "cadence": "daily",
+ "updated_at": "2026-11-20T10:33:21+08:00",
+ "items": [
+  {
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "count": 16,
+   "data": "gamedev/2026/2026-11-20.json",
+   "generated_at": "2026-11-20T10:33:21+08:00"
+  }
+ ]
+}

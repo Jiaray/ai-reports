@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-20",
- "built_at": "2026-11-20T10:32:45+08:00",
+ "built_at": "2026-11-20T10:33:21+08:00",
  "reports": [
   {
    "series": "international",
@@ -34,6 +34,14 @@
    "period": "2026-11-20",
    "count": 36,
    "generated_at": "2026-11-20T10:32:45+08:00"
+  },
+  {
+   "series": "gamedev",
+   "series_title": "遊戲產業新聞",
+   "group": "遊戲",
+   "period": "2026-11-20",
+   "count": 16,
+   "generated_at": "2026-11-20T10:33:21+08:00"
   }
  ],
  "entries": [
@@ -134,6 +142,26 @@
    ]
   },
   {
+   "key": "ef46fa1f4b",
+   "rank": 1,
+   "title": "《GTA 6》上市前預購 1,905 萬套、營收 18.4 億美元，PS5 與 Xbox 銷量 3:1",
+   "summary_html": "Sensor Tower 估算《GTA 6》截至上市當天早上售出約 1,905 萬套，可望成為史上最大遊戲首發。",
+   "url": "https://gamesbeat.com/grand-theft-auto-vi-preorders-hit-19m-before-launch-with-ps5-outselling-xbox-3-1/",
+   "src": "GamesBeat",
+   "ts": "2026-11-19T23:34:00+08:00",
+   "left": "11/19 23:34",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "gamedev",
+     "period": "2026-11-20",
+     "no": "04",
+     "rank": 1
+    }
+   ]
+  },
+  {
    "key": "947e6ec924",
    "rank": 2,
    "title": "國際法院 9 比 6 裁定緬甸對羅興亞人犯下種族滅絕，史上首例國家被判種族滅絕",
@@ -224,6 +252,26 @@
    ]
   },
   {
+   "key": "14d3c93adf",
+   "rank": 2,
+   "title": "Ubisoft 第二季預訂額 3.89 億歐元優於預期，同步在加拿大裁員 166 人",
+   "summary_html": "《刺客教條 黑旗 Resynced》帶動預訂額超出約 3.7 億歐元的財測，排除合作收入後淨預訂額年增逾 50%。",
+   "url": "https://gamesbeat.com/ubisoft-beats-6-month-bookings-guidance-but-lays-off-more-devs/",
+   "src": "GamesBeat",
+   "ts": "2026-11-20T05:02:00+08:00",
+   "left": "11/20 05:02",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "gamedev",
+     "period": "2026-11-20",
+     "no": "01",
+     "rank": 2
+    }
+   ]
+  },
+  {
    "key": "7c2289051b",
    "rank": 3,
    "title": "OpenAI 發布 GPT-6.2 Astra 與 Sol：成本降 20%–600%，但早期評價兩極",
@@ -284,6 +332,26 @@
      "series": "gambling",
      "period": "2026-11-20",
      "no": "34",
+     "rank": 3
+    }
+   ]
+  },
+  {
+   "key": "797fc692a5",
+   "rank": 3,
+   "title": "美國參院聽證檢視 Roblox 兒少安全，討論跳過強制仲裁的跨黨派法案",
+   "summary_html": "參議員 Josh Hawley 與 Dick Durbin 提出的法案，讓兒少性剝削與網路傷害受害者即使同意過使用條款的私下仲裁，仍可向法院提告。",
+   "url": "https://www.gamesindustry.biz/us-senate-hearing-examines-child-safety-on-roblox-considers-bipartisan-bill-to-bypass-forced-arbitration",
+   "src": "GamesIndustry.biz",
+   "ts": "2026-11-19T19:52:10+08:00",
+   "left": "11/19 19:52",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "gamedev",
+     "period": "2026-11-20",
+     "no": "08",
      "rank": 3
     }
    ]
@@ -376,6 +444,26 @@
    "from": [
     {
      "series": "gambling",
+     "period": "2026-11-20",
+     "no": "13",
+     "rank": 4
+    }
+   ]
+  },
+  {
+   "key": "a091542847",
+   "rank": 4,
+   "title": "「反編譯」影片指控《Monopoly Go》借用老虎機機制、《Royal Kingdom》暗中調高難度",
+   "summary_html": "數據科學家 Ayo Omolewa（Ayoships）聲稱在 Scopely 程式碼中找到「RTPDist1_low」「NearMiss」「TriesToForceJackpot」等老虎機術語，影片觀看破百萬。",
+   "url": "https://mobilegamer.biz/new-decompiling-videos-allege-monopoly-go-borrows-from-slot-machines-and-royal-kingdom-secretly-makes-levels-harder/",
+   "src": "Mobilegamer.biz",
+   "ts": "2026-11-19T21:44:48+08:00",
+   "left": "11/19 21:44",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "gamedev",
      "period": "2026-11-20",
      "no": "13",
      "rank": 4
