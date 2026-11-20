@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-20",
- "built_at": "2026-11-20T16:53:27+08:00",
+ "built_at": "2026-11-20T16:53:53+08:00",
  "reports": [
   {
    "series": "general",
@@ -40,8 +40,8 @@
    "series_title": "博奕產業新聞",
    "group": "遊戲",
    "period": "2026-11-20",
-   "count": 36,
-   "generated_at": "2026-11-20T10:32:45+08:00"
+   "count": 34,
+   "generated_at": "2026-11-20T16:53:53+08:00"
   },
   {
    "series": "finance",
@@ -165,21 +165,21 @@
    ]
   },
   {
-   "key": "a12f19156f",
+   "key": "760a8379ef",
    "rank": 1,
-   "title": "澳門以 2,400 億澳門元賭收編列 2027 年預算，僅比今年預估高 1.7%",
-   "summary_html": "2027 年預算案以 2,400 億澳門元（約 297 億美元）賭收為主要財源，立法會 11 月 24 日全體會議審議；澳門力報同時報導公務員連續第三年凍薪。",
-   "url": "https://agbrief.com/news/macau/18/11/2026/macau-budgets-mop240-billion-casino-ggr-for-2027-as-visitors-spend-less-on-gaming/",
-   "src": "Asia Gaming Brief",
-   "ts": "2026-11-18T19:17:43+08:00",
-   "left": "11/18 19:17",
+   "title": "東京、北海道放棄日本 2027 年 IR 申請，觀光廳長官稱「現階段難以」放寬設施門檻",
+   "summary_html": "東京都與北海道都不參加 2027 年 5 月 6 日至 11 月 5 日的綜合度假村（IR）申請窗口；北海道要求放寬會展設施門檻，日本觀光廳長官木村典央回應「現階段難以立即修改」。",
+   "url": "https://www.ggrasia.com/tokyo-to-forgo-2027-casino-resort-bid-plans-to-retain-research-budget",
+   "src": "GGRAsia",
+   "ts": "2026-11-20T09:10:29+08:00",
+   "left": "11/20 09:10",
    "heat": "",
    "tags": [],
    "from": [
     {
      "series": "gambling",
      "period": "2026-11-20",
-     "no": "17",
+     "no": "02",
      "rank": 1
     }
    ]
@@ -310,21 +310,21 @@
    ]
   },
   {
-   "key": "c041c783e7",
+   "key": "a12f19156f",
    "rank": 2,
-   "title": "南韓警方年度掃蕩非法網路賭博：逮捕 6,310 人、凍結 1.16 億美元",
-   "summary_html": "韓國警察廳國家調查本部公布 2025 年 11 月至 2026 年 10 月的全國掃蕩成果，316 人遭羈押，凍結犯罪所得 1,548 億韓元。",
-   "url": "https://www.ggrasia.com/south-korea-police-arrested-6310-froze-us116mln-in-online-gambling-crackdown",
-   "src": "GGRAsia",
-   "ts": "2026-11-20T09:10:19+08:00",
-   "left": "11/20 09:10",
+   "title": "澳門以 2,400 億澳門元編列 2027 年賭收預算，僅比今年預估高 1.7%",
+   "summary_html": "澳門 2027 年預算案以 2,400 億澳門元（約 297 億美元）賭收為主要收入基礎，立法會 11 月 24 日全體會議審議；澳門力報同時報導公務員連續第三年凍薪。",
+   "url": "https://agbrief.com/news/macau/18/11/2026/macau-budgets-mop240-billion-casino-ggr-for-2027-as-visitors-spend-less-on-gaming/",
+   "src": "Asia Gaming Brief",
+   "ts": "2026-11-18T19:17:43+08:00",
+   "left": "11/18 19:17",
    "heat": "",
    "tags": [],
    "from": [
     {
      "series": "gambling",
      "period": "2026-11-20",
-     "no": "01",
+     "no": "16",
      "rank": 2
     }
    ]
@@ -444,13 +444,13 @@
    ]
   },
   {
-   "key": "760a8379ef",
+   "key": "c041c783e7",
    "rank": 3,
-   "title": "東京都不參加 2027 年日本 IR 申請，北海道亦退出",
-   "summary_html": "東京都將保留 IR 研究預算（含賭博成癮、海外經驗），北海道則要求放寬會展設施規定，觀光廳長官木村典夫回應現階段放寬「有困難」。",
-   "url": "https://www.ggrasia.com/tokyo-to-forgo-2027-casino-resort-bid-plans-to-retain-research-budget",
+   "title": "南韓一年網賭掃蕩逮捕 6,310 人、凍結 1.16 億美元不法所得",
+   "summary_html": "韓國警察廳國家搜查本部公布 2025 年 11 月至 2026 年 10 月的全國非法網路賭博專案成果：查獲 4,648 案、逮捕 6,310 人（316 人羈押）。",
+   "url": "https://www.ggrasia.com/south-korea-police-arrested-6310-froze-us116mln-in-online-gambling-crackdown",
    "src": "GGRAsia",
-   "ts": "2026-11-20T09:10:29+08:00",
+   "ts": "2026-11-20T09:10:19+08:00",
    "left": "11/20 09:10",
    "heat": "",
    "tags": [],
@@ -458,7 +458,7 @@
     {
      "series": "gambling",
      "period": "2026-11-20",
-     "no": "34",
+     "no": "03",
      "rank": 3
     }
    ]
@@ -602,21 +602,21 @@
    ]
   },
   {
-   "key": "f5176e1d94",
+   "key": "d64dfd7fcc",
    "rank": 4,
-   "title": "Allwyn 第三季營收 12.2 億歐元，年增 19%",
-   "summary_html": "調整後 EBITDA 年增 6% 至 3.96 億歐元、利潤率 32.5%；財務長表示持股 36.75% 的 Betano 隨時可在巴西恢復營運。",
-   "url": "https://www.intergameonline.com/land-based-gaming/news/allwyns-revenue-reaches-1-22bn-in-q3",
-   "src": "InterGame",
-   "ts": "2026-11-19T17:28:00+08:00",
-   "left": "11/19 17:28",
+   "title": "阿根廷 10 月線上博弈稅收年增 47%，業者估七成五投注流向非法網站",
+   "summary_html": "依阿根廷稅關署（ARCA）資料、顧問公司 Econviews 整理，10 月線上博弈稅收約 170 億披索（1,083 萬美元），較去年同月的 115 億披索名目成長 47%。",
+   "url": "https://www.yogonet.com/international/news/2026/11/19/127386-argentina-igaming-tax-revenue-rose-47-in-october-but-75-of-the-market-remains-illegal",
+   "src": "Yogonet International",
+   "ts": "2026-11-19T22:18:04+08:00",
+   "left": "11/19 22:18",
    "heat": "",
    "tags": [],
    "from": [
     {
      "series": "gambling",
      "period": "2026-11-20",
-     "no": "13",
+     "no": "12",
      "rank": 4
     }
    ]
@@ -735,26 +735,6 @@
      "series": "tech_ai",
      "period": "2026-11-20",
      "no": "06",
-     "rank": 5
-    }
-   ]
-  },
-  {
-   "key": "e3c44a1815",
-   "rank": 5,
-   "title": "Coinbase 傳明年將預測市場交易所改為自營",
-   "summary_html": "Bloomberg 報導，Coinbase 可能在 2027 年上半年推出自有事件合約交易所，恐改變或終止與大型預測市場業者的合作。",
-   "url": "https://www.casino.org/news/coinbase-could-move-prediction-market-exchange-in-house-next-year/",
-   "src": "Casino.org News",
-   "ts": "2026-11-20T07:23:36+08:00",
-   "left": "11/20 07:23",
-   "heat": "0 comments",
-   "tags": [],
-   "from": [
-    {
-     "series": "gambling",
-     "period": "2026-11-20",
-     "no": "19",
      "rank": 5
     }
    ]
