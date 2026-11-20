@@ -1,0 +1,17 @@
+{
+ "schema": 1,
+ "series": "reading_list",
+ "title": "閱讀清單",
+ "group": "綜合",
+ "cadence": "weekly",
+ "updated_at": "2026-11-20T16:54:27+08:00",
+ "items": [
+  {
+   "period": "2026-W47",
+   "date": "2026-11-20",
+   "count": 31,
+   "data": "reading_list/2026/2026-W47.json",
+   "generated_at": "2026-11-20T16:54:27+08:00"
+  }
+ ]
+}

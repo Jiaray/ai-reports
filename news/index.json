@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T16:54:23+08:00",
+ "updated_at": "2026-11-20T16:54:27+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "reading_list",
+   "series_title": "閱讀清單",
+   "cadence": "weekly",
+   "period": "2026-W47",
+   "date": "2026-11-20",
+   "title": "閱讀清單",
+   "lede": "Anthropic 以 813 億美元募資完成史上最大 IPO；美中 AI 風險對話與新國會的 AI 立法空間成為播客焦點；卡內基美隆大學把資工課程免費放上 YouTube，HN 本週最熱。",
+   "count": 31,
+   "data": "reading_list/2026/2026-W47.json",
+   "generated_at": "2026-11-20T16:54:27+08:00"
+  },
   {
    "series": "ai_weekly",
    "series_title": "AI 週報",

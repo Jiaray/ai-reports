@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-20",
- "built_at": "2026-11-20T16:54:23+08:00",
+ "built_at": "2026-11-20T16:54:27+08:00",
  "reports": [
   {
    "series": "general",
@@ -66,6 +66,14 @@
    "period": "2026-W47",
    "count": 14,
    "generated_at": "2026-11-20T16:54:23+08:00"
+  },
+  {
+   "series": "reading_list",
+   "series_title": "閱讀清單",
+   "group": "綜合",
+   "period": "2026-W47",
+   "count": 31,
+   "generated_at": "2026-11-20T16:54:27+08:00"
   },
   {
    "series": "cocos_h5_weekly",
@@ -816,6 +824,47 @@
      "src": "HF Papers",
      "left": "11/20 08:00",
      "heat": "+33",
+     "tags": []
+    }
+   ]
+  },
+  {
+   "series": "reading_list",
+   "series_title": "閱讀清單",
+   "period": "2026-W47",
+   "date": "2026-11-20",
+   "items": [
+    {
+     "no": "10",
+     "rank": 1,
+     "title": "Anthropic 完成史上最大 IPO，市值約 1.5 兆美元",
+     "summary_html": "Latent Space AINews：Anthropic 以每股 83 美元定價、募資 813 億美元在 Nasdaq 掛牌（代號 ANT），首日收在 97.17 美元。",
+     "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
+     "src": "Latent Space",
+     "left": "11/20 15:12",
+     "heat": "",
+     "tags": []
+    },
+    {
+     "no": "25",
+     "rank": 2,
+     "title": "卡內基美隆大學把資工課程免費放上 YouTube",
+     "summary_html": "CMU 推出 CS Learn，完整課堂錄影免費公開，HN 本週 2,373 分居冠。",
+     "url": "https://www.cs.cmu.edu/learn/",
+     "src": "Hacker News（本週）",
+     "left": "11/17 04:43",
+     "heat": "HN 2373",
+     "tags": []
+    },
+    {
+     "no": "12",
+     "rank": 3,
+     "title": "Julian Gewirtz：真正讓北京害怕的 AI 風險",
+     "summary_html": "前美國國安會中國與台灣事務資深主任 Julian Gewirtz 分析北京如何看待 AI 風險，以及美中 AI 協議的現實可能。",
+     "url": "https://80000hours.org/podcast/episodes/julian-gewirtz-china-us-ai-deal/",
+     "src": "80000 Hours",
+     "left": "11/20 01:09",
+     "heat": "",
      "tags": []
     }
    ]
