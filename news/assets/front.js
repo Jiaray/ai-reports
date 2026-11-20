@@ -250,7 +250,7 @@
       h('a', { class: 'ed-tab', href: './', 'aria-current': 'page' }, ['頭版']),
       ...ids.map((id) => h('a', { class: 'ed-tab', href: `?t=${encodeURIComponent(id)}` }, [seriesMeta(id).short])),
     ]);
-    return h('nav', { class: 'editions fp-tabs', 'aria-label': '新聞類型' }, [list]);
+    return h('nav', { class: 'fp-tabs', 'aria-label': '新聞類型' }, [list]);
   }
 
   // 頁尾只留頭版的整理方式；刊名與日期上面都有了，不再重複

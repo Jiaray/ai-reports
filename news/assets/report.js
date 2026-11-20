@@ -77,25 +77,53 @@
     return `${m} 月 ${d} 日（${WEEK[new Date(Date.UTC(y, m - 1, d)).getUTCDay()]}）`;
   }
 
-  // 報頭上方那一列（使用者指定位置）：左上角日期（期別）、中間新聞類型標籤、右上角「版面」按鈕。
-  // 類型標籤第一個是「頭版」（回 news/ 不帶參數），其餘依 index.json 的系列順序，只列有報告的。
-  // 有「頭版」可回之後，只有一種新聞也照列（原本只有一種時不列，因為那一個標籤只會跟報頭大標題重複）
+  // 報頭最上面那一列（使用者指定位置）：左上角日期（期別）、「頭版」（回 news/ 不帶參數）、右上角「版面」按鈕。
+  // 其他新聞類型收進大標題（typeSwitcher）：原本這一列的類型標籤一多就換成兩三行（使用者要求收進大標題）
   function editions(cur, data) {
-    const order = (index.series || []).map((s) => s.id);
-    const rank = (id) => (order.includes(id) ? order.indexOf(id) : order.length);
-    const ids = [...new Set(all.map((e) => e.series))].sort((a, b) => rank(a) - rank(b));
     const kids = [];
     if (cur) kids.push(periodPicker(cur, data));
-    if (ids.length) {
-      kids.push(h('div', { class: 'ed-tabs' }, [h('a', { class: 'ed-tab', href: './' }, ['頭版']), ...ids.map((id) => {
-        const latest = all.find((e) => e.series === id);
-        return h('a', {
-          class: 'ed-tab', href: link(id), 'aria-current': cur && id === cur.series ? 'page' : null,
-        }, [latest.series_title || latest.title]);
-      })]));
-    }
+    if (all.length) kids.push(h('a', { class: 'ed-front', href: './' }, [h('span', { class: 'dd-ico', html: ICON_FRONT }), h('span', null, ['頭版'])]));
     if (vwBox) kids.push(vwBox);
-    return kids.length ? h('nav', { class: 'editions', 'aria-label': '期別、新聞類型與版面' }, kids) : null;
+    return kids.length ? h('nav', { class: 'editions', 'aria-label': '期別、頭版與版面' }, kids) : null;
+  }
+
+  // 有報告的新聞類型，依 index.json 的系列順序
+  function seriesIds() {
+    const order = (index.series || []).map((s) => s.id);
+    const rank = (id) => (order.includes(id) ? order.indexOf(id) : order.length);
+    return [...new Set(all.map((e) => e.series))].sort((a, b) => rank(a) - rank(b));
+  }
+
+  // 大標題就是新聞類型切換器（使用者要求：類型標籤收進大標題）：標題文字＋往下的箭頭是一顆按鈕，
+  // 點開是全部有報告的類型（各連到該類型最新一期，同原本的類型標籤），目前這一類標 aria-current。
+  // 這是頁面導覽連結，用 Tab 依序走，不是 ARIA menu（指南：導覽連結不加 menu／menuitem 角色、不攔方向鍵）。
+  // 按鈕包在 <h1> 裡，標題地標照舊；報讀器唸「新聞類型：國際新聞日報，按鈕，已收合」。
+  // 同一期的內容不變：建一次，換讀法重繪報頭時重用（不重複掛 document 的事件）
+  let tsBox = null;
+  let tsKey = '';
+  function typeSwitcher(cur, title) {
+    const ids = seriesIds();
+    if (!cur || !ids.length) return h('h1', { class: 'mast-title' }, [title]);
+    if (tsBox && tsKey === keyOf(cur)) return tsBox;
+    tsKey = keyOf(cur);
+    const items = ids.map((id) => {
+      const latest = all.find((e) => e.series === id);
+      return h('li', null, [h('a', {
+        class: 'ts-item', href: link(id), 'aria-current': id === cur.series ? 'page' : null,
+      }, [latest.series_title || latest.title])]);
+    });
+    tsBox = dropdown({
+      cls: 'ts', id: 'ts-panel', title: '新聞類型', closeLabel: '關閉新聞類型', toggleCls: 'ts-toggle',
+      toggleKids: [
+        h('span', { class: 'visually-hidden' }, ['新聞類型：']), h('span', { class: 'ts-name' }, [title]),
+        h('span', { class: 'ts-caret', html: ICON_CARET_LG }),
+      ],
+      wrap: (toggle) => h('h1', { class: 'mast-title' }, [toggle]),
+      body: [h('ul', { class: 'ts-list', 'aria-labelledby': 'ts-panel-title' }, items)],
+      // 打開時焦點落在目前這一類：鍵盤往前、往後都只差幾個 Tab
+      pick: (panel) => panel.querySelector('.ts-item[aria-current=page]'),
+    });
+    return tsBox;
   }
 
   // 日期清單的分組與每列文字：日報依月份分組、一列是「11/18　週三」；週報、月報依年份分組、一列是「第 47 週」「11 月」
@@ -424,14 +452,15 @@
     return h('main', { class: 'tl', id: 'main' }, kids);
   }
 
-  function report(r) {
+  function report(r, cur) {
     const key = (i) => String((i % 10) + 1); // 分區色號 1–10，給地圖外觀依分區上色（超過 10 區循環）
     const dm = /^\d{4}-(\d{2})-(\d{2})$/.exec(r.date || '');
     issueMD = dm ? monthDay(dm[1], dm[2]) : '';
     // 報頭只留大標題（使用者要求：任何地方都不重複同一個資訊）——日期在左上角的日期按鈕，所以地圖外觀的長日期拿掉；
     // 英文刊名（DAILY INTERNATIONAL BRIEFING）跟大標題是同一個名字，拿掉；期號使用者覺得是多餘的裝飾，拿掉（資料照留）。
+    // 大標題本身是新聞類型切換器（typeSwitcher）。
     // 本期來源收到文末（不是首要資訊）。導言（r.intro）依使用者要求不在任何版面顯示，資料照留：Telegram 與首頁列表的摘要還會用到
-    const head = h('header', { class: 'masthead' }, [h('h1', { class: 'mast-title' }, [r.title])]);
+    const head = h('header', { class: 'masthead' }, [typeSwitcher(cur, r.title)]);
     const tagsOf = r.src_tags || [];
     const srcs = tagsOf.length ? h('aside', { class: 'srcs', 'aria-labelledby': 'srcs-title' }, [
       h('h2', { class: 'srcs-title', id: 'srcs-title' }, ['本期來源']),
@@ -492,6 +521,10 @@
   const ICON_CALENDAR = '<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 4.5h14V17H3zM3 8.5h14M7 2.5v4M13 2.5v4"/></svg>';
   const ICON_CARET = '<svg viewBox="0 0 20 20" width="14" height="14" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M6 8l4 4 4-4"/></svg>';
   const ICON_CLOSE = '<svg viewBox="0 0 20 20" width="16" height="16" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M5 5l10 10M15 5 5 15"/></svg>';
+  // 大標題切換器的箭頭：比日期按鈕的箭頭寬一些，放大到標題字級時線條才不會細到看不見
+  const ICON_CARET_LG = '<svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M5 7.5l5 5 5-5"/></svg>';
+  // 頭版：一張報紙（同網站圖示的三條橫線），放在「頭版」連結的字前面，和日期、版面兩顆按鈕的「圖示＋字」一致
+  const ICON_FRONT = '<svg viewBox="0 0 20 20" width="18" height="18" fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="M3 3.5h14v13H3zM6 7.5h8M6 10.5h8M6 13.5h5"/></svg>';
 
   // 打開面板時淡入、往下滑 4px（回應使用者的動作；減少動態時只淡入）。用 WAAPI 不用 @starting-style：
   // 換讀法時面板會跟著頁首那一列搬家，@starting-style 會在每次搬家重播一次淡入
@@ -503,18 +536,19 @@
       : [{ opacity: 0, transform: 'translateY(-4px)' }, { opacity: 1, transform: 'none' }], { duration: 140, easing: 'ease-out' });
   }
 
-  // 頁首那一列的下拉面板（左上角日期、右上角版面）共用的骨架與開關：
+  // 報頭的三個下拉面板（左上角日期、右上角版面、大標題的類型清單）共用的骨架與開關：
   // 面板頂端是標題＋ ×（非 modal 面板要有看得見的關閉鈕，指南）；按鈕切換開關，點外面、按 Esc、按 × 都會收起
   // （Esc、× 收起後焦點回按鈕）；打開時淡入、焦點移到 pick(panel) 給的元素。點另一顆按鈕也算點外面，所以同時只開一個。
-  // 按鈕在前、面板緊接在後：鍵盤從按鈕按 Tab 直接進面板
-  function dropdown({ cls, id, title, closeLabel, toggleKids, body, pick }) {
-    const toggle = h('button', { type: 'button', class: 'dd-toggle', 'aria-expanded': 'false', 'aria-controls': id }, toggleKids);
+  // 按鈕在前、面板緊接在後：鍵盤從按鈕按 Tab 直接進面板。
+  // toggleCls 換掉按鈕的樣式（大標題切換器用）；wrap 把按鈕包一層（大標題切換器包進 <h1>）
+  function dropdown({ cls, id, title, closeLabel, toggleKids, body, pick, toggleCls = 'dd-toggle', wrap = (t) => t }) {
+    const toggle = h('button', { type: 'button', class: toggleCls, 'aria-expanded': 'false', 'aria-controls': id }, toggleKids);
     const close = h('button', { type: 'button', class: 'dd-close', 'aria-label': closeLabel, html: ICON_CLOSE });
     const panel = h('div', { class: `dd-panel ${cls}-panel`, id, role: 'dialog', 'aria-labelledby': `${id}-title`, hidden: true }, [
       h('div', { class: 'dd-head' }, [h('span', { class: 'dd-title', id: `${id}-title` }, [title]), close]),
       ...body,
     ]);
-    const box = h('div', { class: `dd ${cls}` }, [toggle, panel]);
+    const box = h('div', { class: `dd ${cls}` }, [wrap(toggle), panel]);
     function open(yes) {
       panel.hidden = !yes;
       toggle.setAttribute('aria-expanded', String(yes));
@@ -574,14 +608,15 @@
     // 鍵盤與螢幕閱讀器使用者才知道面板開了、從哪裡開始
     vwBox = dropdown({
       cls: 'vw', id: 'vw-panel', title: '版面設定', closeLabel: '關閉版面設定',
-      toggleKids: [h('span', { class: 'dd-ico', html: ICON_SLIDERS }), h('span', null, ['版面'])],
+      // 字包一層 .dd-txt：手機上只露圖示（字留給報讀器），三顆按鈕才放得進一列
+      toggleKids: [h('span', { class: 'dd-ico', html: ICON_SLIDERS }), h('span', { class: 'dd-txt' }, ['版面'])],
       body: groups.map((g) => g.el),
       pick: (panel) => panel.querySelector('[aria-pressed=true]'),
     });
   }
 
-  // 目前這一期的整頁：報頭上方那一列（期別選單、類型標籤、版面）＋報告。類型標籤放不下時由 CSS 換行，不用捲動
-  const page = () => [editions(shown.entry, shown.data), ...report(shown.data)].filter(Boolean);
+  // 目前這一期的整頁：報頭最上面那一列（期別選單、頭版、版面）＋報告（大標題是類型切換器）
+  const page = () => [editions(shown.entry, shown.data), ...report(shown.data, shown.entry)].filter(Boolean);
 
   const problem = (cur, text, more) => app.replaceChildren(
     ...[all.length ? editions(cur) : null].filter(Boolean),

@@ -1,26 +1,25 @@
 /* 共用新聞頁的補充樣式；報告本體的藍圖樣式都在 ../../assets/site.css。
-   1. 報頭上方那一列：左上角日期（點開是本期目錄：章節＋其他日期）、新聞類型標籤列、右上角「版面」按鈕。
+   1. 報頭：最上面一列是左上角日期（點開是本期目錄：章節＋其他日期）、「頭版」、右上角「版面」按鈕；
+      下面的大標題本身是新聞類型切換器（點開是全部類型）。
    2. 「版面」面板與非預設版面：讀法 data-read＝scan（速讀）／timeline（時間軸），外觀 data-look＝atlas（地圖）。
       預設（full＋blueprint）不套這些覆寫，維持原本的藍圖。規格與數值照使用者的版型樣稿（國際新聞日報 2026-11-18），
       規則順序也照樣稿：外觀 → 讀法 → 讀法×外觀的組合。 */
-/* 日期、版面兩個按鈕對齊標籤列的第一行（標籤換成多行時不被撐高） */
-.editions{display:flex;align-items:flex-start;gap:var(--space-4);margin-bottom:var(--space-6)}
-/* 新聞類型標籤：純文字導覽（原本的方格按鈕使用者覺得醜）。其他類型用次要字色、滑過變主文字色；
-   目前這一類用主文字色＋底下 2px 主色線標出，不只靠顏色（指南）。強制色彩模式改用底線，見下方 forced-colors。
-   放不下就換行，不橫向捲動：原本藏捲軸、兩端淡出的捲動列，類型一多前後幾個就在可視範圍外，
-   用滑鼠的桌機沒有橫向捲動也點不到（使用者回報）。換行在任何寬度都看得到、點得到每一個，也不用 JS。
-   這是頁面導覽連結（aria-current），不是 ARIA tablist，換行不影響順序與目前這一類的辨識 */
-.ed-tabs{display:flex;flex-wrap:wrap;flex:0 1 auto;min-width:0;gap:0 20px}
-.ed-tab{flex:none;display:flex;align-items:center;padding:9px 0;color:var(--color-neutral-700);font:500 16px/1.25 var(--font-heading);letter-spacing:.02em;white-space:nowrap}
-.ed-tab:hover{color:var(--color-text)}
-.ed-tab[aria-current=page]{color:var(--color-text);font-weight:600;box-shadow:inset 0 -2px var(--color-accent-600)}
-/* 手機：第一行左邊日期、右邊「版面」，第二行起是類型標籤（放不下就換行）。
-   用 ::after 當換行點，標籤列維持內容寬度（撐滿的話，標籤後面會露出一截格線底色） */
-@media(max-width:40em){
-.editions{flex-wrap:wrap;gap:0 var(--space-2)}
-.editions::after{content:"";order:1;flex-basis:100%}
-.ed-tabs{order:2;max-width:100%;margin-top:var(--space-2);column-gap:18px}
-}
+/* 報頭（使用者要求：類型標籤除了「頭版」都收進大標題）：3px 粗線移到工具列上方，工具列和大標題合成一塊報頭——
+   粗線、一列小字（日期、頭版、版面）、一行大字（類型名稱＋箭頭），同頭版報頭的結構。
+   原本的類型標籤列一多就換成兩三行，把大標題往下推。只套在報告頁（工具列後面接報頭）；首頁、404 的 .masthead 不變 */
+.editions{display:flex;align-items:center;gap:var(--space-2);border-top:3px solid var(--color-text);padding-top:var(--space-2)}
+.editions+.masthead{border-top:0;padding-top:0}
+/* 大標題切換器：<h1> 裡一顆按鈕，字級、字重沿用大標題；後面一個方形箭頭格（藍圖的方角），
+   滑過時箭頭格底色變淡藍，展開時箭頭轉向、換主色。按鈕只有文字＋箭頭那麼寬，點標題右邊的空白不會打開 */
+.ts{width:fit-content;max-width:100%}
+.ts-toggle{display:inline-flex;align-items:center;gap:.14em;max-width:100%;margin:0;padding:0;background:transparent;color:inherit;border:0;border-radius:0;font:inherit;letter-spacing:inherit;text-align:start;cursor:pointer}
+.ts-name{min-width:0}
+.ts-caret{flex:none;display:flex;align-items:center;justify-content:center;width:.66em;height:.66em;color:var(--color-neutral-600);transition:background-color .15s,color .15s}
+.ts-caret svg{display:block;width:100%;height:100%;transition:rotate .15s}
+.ts-toggle:hover .ts-caret{background:var(--color-accent-100);color:var(--color-text)}
+.ts-toggle[aria-expanded=true] .ts-caret{background:var(--color-accent-100);color:var(--color-accent-700)}
+.ts-toggle[aria-expanded=true] .ts-caret svg{rotate:180deg}
+.ts-toggle:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:4px}
 
 /* ── 外觀：地圖的設計代幣（淺色、深色；--c1…--c10 是分區色，--contour-img 是報頭的等高線裝飾） ── */
 :root[data-look=atlas]{--font-heading:"Avenir Next","Segoe UI",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-body:-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-num:"Avenir Next","Segoe UI",sans-serif;--color-bg:#f6f7f4;--color-text:#1f2a2e;--color-divider:#d3dad8;--color-accent:#1d5f8a;--color-neutral-100:#eef1ee;--color-neutral-200:#e4e9e6;--color-neutral-300:#c4ceca;--color-neutral-600:#5d6d72;--color-neutral-700:#48565b;--color-neutral-800:#2f3b40;--color-accent-100:#e2eef5;--color-accent-200:#c3dceb;--color-accent-300:#8fbad6;--color-accent-600:#1d5f8a;--color-accent-700:#174e72;--color-accent-800:#113a55;--color-accent-900:#0b2638;--color-hot:#b3261e;--color-good:#2e7d32;--tab-bg:transparent;--tab-fg:#1f2a2e;--tab-span:#5d6d72;--tag-neutral-fg:#48565b;--c1:#c0392b;--c2:#ae5510;--c3:#387c32;--c4:#0e7b7a;--c5:#89690e;--c6:#7b4fa3;--c7:#2f6db5;--c8:#b23f7a;--c9:#7a5a43;--c10:#53687a;--contour-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 360' fill='none' stroke='%23cbd5d1' stroke-width='1.2'%3E%3Cpath d='M300 60c70-10 150 20 170 80s-30 130-110 140-170-20-190-80 60-130 130-140zM305 86c55-8 118 16 134 63s-24 102-87 110-134-16-150-63 48-102 103-110zM310 111c40-6 86 12 98 46s-17 75-64 81-98-12-110-46 35-75 76-81zM316 135c25-4 54 7 61 29s-11 47-40 51-61-7-69-29 22-47 48-51zM322 158c12-2 26 3 30 14s-5 23-20 25-30-3-34-14 11-23 24-25zM20 300c40-40 120-60 180-40s100 60 160 70 120-10 150-34M10 332c50-45 140-70 205-48s110 66 175 76 120-14 150-40M60 250c30-24 80-34 120-22s70 40 110 44'/%3E%3C/svg%3E")}
@@ -31,15 +30,27 @@
    面板就放在按鈕正下方的一般 DOM 裡、用 absolute 定位：按鈕永遠在內容欄右緣，靠右展開不會超出畫面，不需要 anchor positioning */
 :root{--sec-c:var(--color-accent-600);--vw-on-bg:var(--color-accent-600);--vw-on-fg:var(--color-bg)}
 /* 頁首那一列的兩個下拉（左上角日期 .pd、右上角版面 .vw）共用 .dd-*：
-   按鈕是「圖示＋字」，不加框，滑過、展開時才有淡淡的底色；展開時字與圖示換主色 */
+   按鈕是「圖示＋字」，不加框，滑過、展開時才有淡淡的底色；展開時字與圖示換主色。中間的「頭版」連結長得一樣 */
 .dd{position:relative;flex:none;display:flex}
 .vw{margin-left:auto}
-.dd-toggle{display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 var(--space-3);background:transparent;color:var(--color-neutral-700);border:0;border-radius:0;font:500 15px/1 var(--font-heading);letter-spacing:.02em;white-space:nowrap;cursor:pointer}
-.dd-toggle:hover{background:var(--color-accent-100);color:var(--color-text)}
+.dd-toggle,.ed-front{display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 var(--space-3);background:transparent;color:var(--color-neutral-700);border:0;border-radius:0;font:500 15px/1 var(--font-heading);letter-spacing:.02em;white-space:nowrap;cursor:pointer}
+.dd-toggle:hover,.ed-front:hover{background:var(--color-accent-100);color:var(--color-text)}
 .dd-toggle[aria-expanded=true]{background:var(--color-accent-100);color:var(--color-accent-700)}
 /* 按鈕的圖示與字對齊內容欄的左右緣（滑過的底色往外多出一點，不往內縮） */
 .pd .dd-toggle{margin-left:calc(-1 * var(--space-3))}
 .vw .dd-toggle{margin-right:calc(-1 * var(--space-3))}
+/* 手機：日期、頭版、版面三顆放在同一列，不換行也不橫向捲動。「版面」只露圖示（字留給報讀器唸，同頭版的「版面」），
+   按鈕之間的間距收掉（按鈕自己的內距就是間隔）；特別窄（340px 以下）「頭版」也拿掉圖示、內距收窄 */
+@media(max-width:40em){
+.editions{gap:0}
+.editions .vw .dd-txt{position:absolute;clip-path:inset(50%);overflow:hidden;width:1px;height:1px;margin:-1px;white-space:nowrap}
+}
+@media(max-width:21.25em){
+.ed-front .dd-ico{display:none}
+.editions .dd-toggle,.editions .ed-front{padding:0 8px}
+.editions .pd .dd-toggle{margin-left:-8px}
+.editions .vw .dd-toggle{margin-right:-8px}
+}
 .dd-ico,.dd-ico svg,.dd-caret,.dd-caret svg,.dd-close svg{display:block;flex:none}
 .dd-caret{margin-left:-2px;color:var(--color-neutral-600)}
 .dd-toggle[aria-expanded=true] .dd-caret{color:inherit;rotate:180deg}
@@ -75,6 +86,14 @@
 .pd-item[aria-current=page] .pd-wd{color:inherit}
 .pd-item:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
 [data-look=atlas] .pd-sec::before{content:"";display:inline-block;width:10px;height:10px;margin-right:8px;background:var(--sec-c)}
+/* 大標題的類型清單：從標題左緣往下展開，同「目錄」面板的清單（留白、滑過淡藍、目前這一類主色字＋左側 2px 主色線）。
+   類型再多也不超出畫面：清單自己捲動 */
+.ts-panel{left:0;right:auto;width:min(300px,calc(100vw - 32px))}
+.ts-list{max-height:min(60vh,26rem);overflow-y:auto;overscroll-behavior:contain;margin:0;padding:var(--space-2) 0;list-style:none;border-top:1px solid var(--color-divider)}
+.ts-item{display:flex;align-items:center;min-height:40px;padding:6px var(--space-3);color:var(--color-text);font:500 16px/1.35 var(--font-heading);letter-spacing:.02em}
+.ts-item:hover{background:var(--color-accent-100)}
+.ts-item[aria-current=page]{color:var(--color-accent-700);font-weight:600;box-shadow:inset 2px 0 var(--color-accent-600)}
+.ts-item:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
 /* 版面面板：每組一列，左邊項目名稱、右邊分段選項 */
 .vw-group{display:grid;grid-template-columns:3.5em minmax(0,1fr);align-items:center;gap:var(--space-3);padding:var(--space-3) 0;border-top:1px solid var(--color-divider)}
 .vw-label{font:500 13px/1.4 var(--font-body);color:var(--color-neutral-600)}
@@ -85,11 +104,12 @@
 .vw-seg button[aria-pressed=true]{background:var(--vw-on-bg);color:var(--vw-on-fg)}
 /* 很窄的手機（面板內寬不到 290px）：項目名稱放到選項上面 */
 @container(width < 290px){.vw-group{grid-template-columns:minmax(0,1fr);gap:var(--space-2)}}
-.dd-toggle:focus-visible,.dd-close:focus-visible,.more-sum:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
+.dd-toggle:focus-visible,.ed-front:focus-visible,.dd-close:focus-visible,.more-sum:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
 .vw-seg button:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
 /* 強制色彩模式（Windows 高對比）會拿掉背景色，選中狀態改用外框表示；平常不影響 */
-@media(forced-colors:active){.vw-seg button[aria-pressed=true]{outline:2px solid;outline-offset:-4px}.ed-tab[aria-current=page],.pd-item[aria-current=page]{text-decoration:underline 2px;text-underline-offset:5px}}/* 換讀法、外觀時的淡入淡出（report.js 用 view transition）；使用者要求減少動態時不播 */
-@media(prefers-reduced-motion:reduce){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}}
+@media(forced-colors:active){.vw-seg button[aria-pressed=true]{outline:2px solid;outline-offset:-4px}.ts-item[aria-current=page],.pd-item[aria-current=page]{text-decoration:underline 2px;text-underline-offset:5px}.ts-toggle[aria-expanded=true] .ts-caret{outline:1px solid}}
+/* 換讀法、外觀時的淡入淡出（report.js 用 view transition）；使用者要求減少動態時不播（大標題箭頭的轉向也不播） */
+@media(prefers-reduced-motion:reduce){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}.ts-caret,.ts-caret svg{transition:none}}
 
 /* ── 外觀：地圖 ── */
 [data-look=atlas] [data-k="1"]{--sec-c:var(--c1)}[data-look=atlas] [data-k="2"]{--sec-c:var(--c2)}
@@ -99,6 +119,8 @@
 [data-look=atlas] [data-k="9"]{--sec-c:var(--c9)}[data-look=atlas] [data-k="10"]{--sec-c:var(--c10)}
 [data-look=atlas] .masthead{display:flex;flex-direction:column;border-top:0;border-bottom:1px solid var(--color-divider);padding:var(--space-8) 0 var(--space-4);background-image:var(--contour-img);background-repeat:no-repeat;background-size:560px auto;background-position:right -80px top -40px}
 [data-look=atlas] .mast-title{font:700 46px/1.1 var(--font-heading);margin:0}
+/* 地圖的報頭沒有頂端粗線（等高線裝飾＋底下細線），工具列也不畫粗線 */
+[data-look=atlas] .editions{border-top:0;padding-top:0}
 [data-look=atlas] .sec-tab{align-items:center;gap:10px;background:none;padding:0 0 8px;border-bottom:3px solid var(--sec-c)}
 [data-look=atlas] .sec-tab::before{content:"";width:14px;height:14px;flex:none;background:var(--sec-c)}
 [data-look=atlas] .sec-no{display:none}
@@ -226,4 +248,4 @@
 
 /* ── 觸控螢幕上的按鈕、標籤與期別選單至少 44px 高（指南：at least 44×44 on touch screens）；滑鼠、觸控板不變。
    放在檔尾，才蓋得過前面速讀分區鈕等同權重的高度 ── */
-@media(pointer:coarse){.ed-tab,.dd-toggle,.vw-seg button,.dd-close,.pd-item{min-height:44px}.dd-close{min-width:44px}}
+@media(pointer:coarse){.ed-front,.dd-toggle,.vw-seg button,.dd-close,.pd-item,.ts-item{min-height:44px}.dd-close{min-width:44px}}
