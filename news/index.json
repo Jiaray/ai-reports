@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T10:14:14+08:00",
+ "updated_at": "2026-11-20T10:31:54+08:00",
  "series": [
   {
    "id": "general",
@@ -109,6 +109,18 @@
   }
  ],
  "items": [
+  {
+   "series": "tech_ai",
+   "series_title": "科技 AI 日報",
+   "cadence": "daily",
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "title": "科技 AI 日報",
+   "lede": "Anthropic 以 813 億美元募資創史上最大 IPO，首日收盤市值約 1.3 兆美元；Google 連發 Gemini 4 Neon、Genie 4 API 與 Mac 版電腦操作；美國收緊晶片出口管制衝擊中國 AI 算力交易。",
+   "count": 15,
+   "data": "tech_ai/2026/2026-11-20.json",
+   "generated_at": "2026-11-20T10:31:54+08:00"
+  },
   {
    "series": "security",
    "series_title": "資安日報",

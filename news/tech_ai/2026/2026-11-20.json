@@ -1,0 +1,430 @@
+{
+ "schema": 1,
+ "series": "tech_ai",
+ "series_title": "科技 AI 日報",
+ "group": "科技",
+ "cadence": "daily",
+ "period": "2026-11-20",
+ "date": "2026-11-20",
+ "title": "科技 AI 日報",
+ "brief": "DAILY TECH & AI BRIEFING",
+ "issue": "NO. 2026-324",
+ "generated_at": "2026-11-20T10:31:54+08:00",
+ "lede": "Anthropic 以 813 億美元募資創史上最大 IPO，首日收盤市值約 1.3 兆美元；Google 連發 Gemini 4 Neon、Genie 4 API 與 Mac 版電腦操作；美國收緊晶片出口管制衝擊中國 AI 算力交易。",
+ "src_tags": [
+  "Hacker News",
+  "AIHOT",
+  "TLDR AI",
+  "Latent Space AINews",
+  "BBC",
+  "衛報"
+ ],
+ "intro": [
+  {
+   "kind": "p",
+   "html": "Anthropic 以 813 億美元募資創史上最大 IPO，首日收盤市值約 1.3 兆美元；Google 連發 Gemini 4 Neon、Genie 4 API 與 Mac 版電腦操作；美國收緊晶片出口管制衝擊中國 AI 算力交易。"
+  }
+ ],
+ "sections": [
+  {
+   "name": "AI 前沿",
+   "count": 8,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "01",
+     "key": "fea67cf9c7",
+     "front": 1,
+     "title": "Anthropic 納斯達克上市募資 813 億美元，首日收在 97 美元、市值約 1.3 兆",
+     "title_html": "Anthropic 納斯達克上市募資 813 億美元，首日收在 97 美元、市值約 1.3 兆",
+     "url": "https://www.theguardian.com/technology/2026/nov/19/anthropic-public-trading-ipo",
+     "src": "The Guardian Technology",
+     "left": "11/20 06:09",
+     "ts": "2026-11-20T06:09:18+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Anthropic 以每股 83 美元（高於原訂 70–78 美元區間）上市，盤中最高 111.50 美元，收盤約 97 美元，較發行價高約 17%。",
+     "also": [
+      {
+       "text": "Hacker News",
+       "url": "https://www.reuters.com/business/finance/anthropics-historic-debut-put-ais-promise-peril-wall-st-test-2026-11-19/"
+      },
+      {
+       "text": "BBC Technology",
+       "url": "https://www.bbc.co.uk/news/articles/c6742m39xgzxo"
+      },
+      {
+       "text": "AIHOT",
+       "url": "https://aihot.news/items/gklqioeodqeuqgz3lttg83ztv"
+      },
+      {
+       "text": "The Guardian Technology",
+       "url": "https://www.theguardian.com/technology/nils-pratley-on-finance/2026/nov/19/anthropic-keeps-ai-party-swinging-but-atmosphere-bubbly"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "BBC Technology",
+       "url": "https://www.bbc.co.uk/news/articles/c3x29ggenz12o"
+      },
+      {
+       "text": "AIHOT",
+       "url": "https://aihot.news/items/zs46vfwtzhs7fzho1p17mfisf"
+      },
+      {
+       "text": "AIHOT",
+       "url": "https://aihot.news/items/a8d06cpj4vy2dkdzazgsqsrwx"
+      },
+      {
+       "text": "AIHOT",
+       "url": "https://aihot.news/items/bj8r4lnrbcoi5cl1asnyn6qt5"
+      },
+      {
+       "text": "AIHOT",
+       "url": "https://aihot.news/items/gp3hccimt42ak2uh82nrpty65"
+      },
+      {
+       "text": "AIHOT",
+       "url": "https://aihot.news/items/w8zhbr5smu0072gyuzmmay1eo"
+      },
+      {
+       "text": "The Guardian Technology",
+       "url": "https://www.theguardian.com/technology/video/2026/nov/19/anthropic-dario-amodei-acknowledges-ai-risks-before-ipo-video"
+      }
+     ],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "Anthropic 週三晚間宣布擴大發行 9.8 億股、募資 813 億美元，超越 SpaceX 6 月創下的 750 億美元紀錄；開盤後一度上漲 34%、市值突破 2 兆美元，收盤時市值近 1.3 兆、完全稀釋 1.75 兆美元。TechCrunch 引述分析師指出，IPO 加上同步私募，Anthropic 現金儲備預估達 2,200 億美元。TechCrunch 另算出 Amazon 持股 14.7%、價值逾 1,590 億美元，Google 持股 13.7%，兩家合計約 3,079 億美元，被視為 AI「循環融資」模式的檢驗。The Verge 則聚焦長期利益信託（LTBT）治理架構：它讓管理層免受股東獲利壓力，同時也移除了一般的權力制衡。CEO Dario Amodei 在敲鐘後聲明，公司不會向商業或政治壓力低頭。衛報評論（Nils Pratley）以 1990 年代末網路泡沫對照，質疑 2 兆美元估值。"
+    },
+    {
+     "type": "item",
+     "no": "02",
+     "key": "4a73a2c8b9",
+     "title": "Mac 版 Gemini 上線電腦操作，可跨資料夾、應用與網頁代辦任務",
+     "title_html": "Mac 版 Gemini 上線電腦操作，可跨資料夾、應用與網頁代辦任務",
+     "url": "https://aihot.news/items/h5xjk79bhcu8vgnbrynj208uj",
+     "src": "AIHOT",
+     "left": "11/20 05:52",
+     "ts": "2026-11-20T05:52:19+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Google Labs 副總裁 Josh Woodward 宣布，Gemini 可在背景視窗點擊、捲動與輸入，螢幕與游標控制權仍歸使用者。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "官方示範中，Gemini 把草圖在 Blender 裡做成已綁定骨架的 3D 模型。"
+    },
+    {
+     "type": "item",
+     "no": "03",
+     "key": "18b1435d0d",
+     "title": "Gemini API 推出 Tool Retrieval 預覽，代理按需載入工具 schema",
+     "title_html": "Gemini API 推出 Tool Retrieval 預覽，代理按需載入工具 schema",
+     "url": "https://aihot.news/items/n3npoqbr48wu58cke5p3ox18l",
+     "src": "AIHOT",
+     "left": "11/20 02:00",
+     "ts": "2026-11-20T02:00:00+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Interactions API 新增 Tool Retrieval，讓代理只在需要時載入工具參數 schema，不必每次請求都帶上全部工具定義。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": ""
+    },
+    {
+     "type": "item",
+     "no": "04",
+     "key": "122be7cf5d",
+     "front": 5,
+     "title": "Claude 解出黑洞物理兩道公開難題",
+     "title_html": "Claude 解出黑洞物理兩道公開難題",
+     "url": "https://www.anthropic.com/research/claude-black-hole-physics",
+     "src": "Hacker News",
+     "left": "11/20 01:30",
+     "ts": "2026-11-20T01:30:44+08:00",
+     "heat": "HN 399",
+     "tags": [],
+     "summary_html": "Anthropic 發表研究，Claude 完成一項 20 多年前就設定好卻無人算完的計算，並找出量子重力檢驗技術最簡版本的精確極限。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50563148"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "第一項結果顯示，與黑洞形成相關的突變在時空不再有確定形狀時仍然存在；第二項則針對全像對偶（holographic duality）中用來檢驗量子重力候選理論的技術，求出其最簡版本的確切界限。兩篇預印本已公開，Anthropic 部落格分別以淺白與技術版說明。"
+    },
+    {
+     "type": "item",
+     "no": "05",
+     "key": "07aff0ef09",
+     "title": "Genie 4 世界模型開放 Gemini API 與 AI Studio",
+     "title_html": "Genie 4 世界模型開放 Gemini API 與 AI Studio",
+     "url": "https://aihot.news/items/n1nzpfmd3f6zc4abq3s8yxrde",
+     "src": "AIHOT",
+     "left": "11/20 01:17",
+     "ts": "2026-11-20T01:17:39+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "由文字或圖片生成 720p、24fps 的可互動世界，可用 WASD、提示詞與 48kHz 立體聲即時操控。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "Google 的 Philipp Schmid 宣布，開發者可透過 WebRTC（瀏覽器搭配臨時 token）或 WebSocket 串流接入；TLDR AI 指出 Genie 4 同時在 Project Genie 開放給符合資格的 Google AI Ultra 訂閱者。"
+    },
+    {
+     "type": "item",
+     "no": "06",
+     "key": "b47fc54877",
+     "front": 4,
+     "title": "美國收緊晶片出口與海外雲端通道，中國 AI 算力交易接連瓦解",
+     "title_html": "美國收緊晶片出口與海外雲端通道，中國 AI 算力交易接連瓦解",
+     "url": "https://aihot.news/items/h4bvsjw4ri6to1inm87srlf42",
+     "src": "AIHOT",
+     "left": "11/20 01:02",
+     "ts": "2026-11-20T01:02:41+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "月之暗面取消與印尼雲端商的 1.5 億美元合約；台積電、三星暫停部分對中國客戶出貨，須先申請許可。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "美國商務部同時收緊 AI 晶片出口並關閉第三國雲端算力通道。月之暗面原計畫租用 Nvidia Blackwell Ultra B300 叢集訓練 Kimi K4，已預付約 50%（業界標準約 15%）。字節跳動、百度崑崙受影響；非 AI 晶片豁免取消後，小米、Oppo、vivo 的手機處理器也被波及。"
+    },
+    {
+     "type": "item",
+     "no": "07",
+     "key": "20477ed22c",
+     "front": 2,
+     "title": "Google 推出 Gemini 4 Neon：智慧指數 61 分，每百萬 token 輸入 3 美元",
+     "title_html": "Google 推出 Gemini 4 Neon：智慧指數 61 分，每百萬 token 輸入 3 美元",
+     "url": "https://latent.space/p/ainews-gemini-4-neon-gdm-s-opus-sol-contender/",
+     "src": "Latent Space AINews",
+     "left": "11/19 15:07",
+     "ts": "2026-11-19T15:07:43+08:00",
+     "heat": "Daily Roundup",
+     "tags": [],
+     "summary_html": "Gemini 4 Neon 是 Google DeepMind 約七週內的第四款 Gemini 4 模型，定位中階，速度與價格優於 Carbon。",
+     "also": [
+      {
+       "text": "TLDR AI",
+       "url": "https://tldr.tech/ai/2026-11-19"
+      },
+      {
+       "text": "AIHOT",
+       "url": "https://aihot.news/items/z0unnn7ryj39a3tuns8b1l4a6"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "定價為輸入 3 美元、快取輸入 0.15 美元、輸出 15 美元（每百萬 token），1M token 上下文、四段推理強度；Artificial Analysis 智慧指數 61 分，high 強度時與 Carbon 同為 60 分。上線管道包括付費 Gemini API、AI Studio、Android Studio、Gemini 企業版與 Antigravity，Gemini app 的 Pro／Ultra 使用者可選「Deeper analysis」；Cursor、GitHub Copilot、LangChain 首日整合。Arena 統計 Gemini 4 系列的發布間隔從 28 天、15 天縮到 6 天，舊的 Argon 上市 1.5 個月即退役。TLDR AI 另引私人評測指出 Carbon 修 bug 耗時近一小時，Claude Opus 5.5 與 GPT-6 Astra 遠快得多。"
+    },
+    {
+     "type": "item",
+     "no": "08",
+     "key": "7c2289051b",
+     "front": 3,
+     "title": "OpenAI 發布 GPT-6.2 Astra 與 Sol：成本降 20%–600%，但早期評價兩極",
+     "title_html": "OpenAI 發布 GPT-6.2 Astra 與 Sol：成本降 20%–600%，但早期評價兩極",
+     "url": "https://latent.space/p/ainews-gpt-6-2-astra-the-2-frontier-model-is-better-and-20-600-cheaper-but-has-mixed-reviews-6-2-sol/",
+     "src": "Latent Space AINews",
+     "left": "11/18 18:19",
+     "ts": "2026-11-18T18:19:04+08:00",
+     "heat": "Daily Roundup",
+     "tags": [],
+     "summary_html": "GPT-6.2 Astra 智慧指數 62 分，僅次於 Fable 5.2 的 65 分；Sol 以約 15% 的單任務成本追平 9 月版 Astra。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "兩款模型已上線 ChatGPT Work 與 Codex（Plus、Pro、Enterprise、Edu），API 名稱為 gpt-6.2-astra 與 gpt-6.2-sol，Astra 定價每百萬 token 輸入 8 美元、快取 0.40 美元。Latent Space 的結論是 Anthropic 仍握有最強模型，OpenAI 則在每美元智慧上領先；不過網紅圈負評強烈，Latent Space 認為部分批評成立，強化學習留下的怪異痕跡明顯。發布時間點刻意落在 Anthropic 上市前兩天。"
+    }
+   ]
+  },
+  {
+   "name": "科技動態",
+   "count": 7,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "09",
+     "key": "a8f641bc17",
+     "title": "GTA 6 首日銷售估逾 2,450 萬套、營收約 23.6 億美元",
+     "title_html": "GTA 6 首日銷售估逾 2,450 萬套、營收約 23.6 億美元",
+     "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o",
+     "src": "BBC Technology",
+     "left": "11/20 10:13",
+     "ts": "2026-11-20T10:13:05+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Sensor Tower 估算《GTA 6》成為史上最大娛樂產品首發，Rockstar 與 Take-Two 未公布數字，只說需求「前所未有」。",
+     "also": [
+      {
+       "text": "BBC Technology",
+       "url": "https://www.bbc.co.uk/news/articles/c6z74ep2n17zo"
+      },
+      {
+       "text": "The Guardian Technology",
+       "url": "https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-vi-critics-response-masterpiece"
+      },
+      {
+       "text": "The Guardian Technology",
+       "url": "https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-six-fans-skip-work-pull-all-nighters"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "歷經 13 年等待，首發營收已逼近今年最賣座電影《蜘蛛人：嶄新的一天》整檔期的 25 億美元。衛報彙整評論普遍給予傑作評價，也報導玩家請假通宵遊玩。"
+    },
+    {
+     "type": "item",
+     "no": "10",
+     "key": "7c01653370",
+     "title": "英國秘密行動修補數萬台商用冰箱漏洞",
+     "title_html": "英國秘密行動修補數萬台商用冰箱漏洞",
+     "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o",
+     "src": "BBC Technology",
+     "left": "11/20 08:02",
+     "ts": "2026-11-20T08:02:07+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "BBC 披露，英國超市、倉庫、餐廳、加油站與球場的冷藏設備在 10 月底被發現重大漏洞，各方趕在駭客利用前修補。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "近期歐洲多波攻擊讓數百家商店的冷藏溫度被調高，造成數噸食物報廢、數百萬英鎊損失；法國將其中一波歸咎伊朗，德黑蘭否認。英國原以為設備不同而倖免，實際上仍有可被利用的弱點。"
+    },
+    {
+     "type": "item",
+     "no": "11",
+     "key": "6b2bc52106",
+     "title": "英國法院裁定政府須承認曾對 Apple 發出秘密加密命令",
+     "title_html": "英國法院裁定政府須承認曾對 Apple 發出秘密加密命令",
+     "url": "https://macanorak.com/uk-government-forced-to-admit-it-issued-apple-a-secret-encryption-order/",
+     "src": "Hacker News",
+     "left": "11/20 00:21",
+     "ts": "2026-11-20T00:21:03+08:00",
+     "heat": "HN 516",
+     "tags": [],
+     "summary_html": "調查權力法庭裁定，英國政府不能再對是否向 Apple 發出技術能力通知（TCN）「不證實也不否認」。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50562113"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "TCN 依《2016 年調查權力法》第 253 條發出，可要求科技公司修改服務以配合調查，並禁止公司對外談論；此案源於英方要求存取 iCloud 加密資料。裁定不代表命令內容公開，但打破了政府對命令存在本身的保密。"
+    },
+    {
+     "type": "item",
+     "no": "12",
+     "key": "50a5a49960",
+     "title": "IMF 總裁警告 AI 需求將推升全球利率",
+     "title_html": "IMF 總裁警告 AI 需求將推升全球利率",
+     "url": "https://www.theguardian.com/world/2026/nov/19/imf-head-warns-ai-demand-push-up-interest-rates-apec",
+     "src": "The Guardian Technology",
+     "left": "11/19 23:15",
+     "ts": "2026-11-19T23:15:14+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Kristalina Georgieva 在 APEC 表示，AI 硬體需求正推高全球消費者物價，加上中東戰爭的能源衝擊，主要央行恐須升息。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": ""
+    },
+    {
+     "type": "item",
+     "no": "13",
+     "key": "21575d4806",
+     "title": "OpenJDK Base64 AVX-512 解碼漏洞會破壞 Java 堆積",
+     "title_html": "OpenJDK Base64 AVX-512 解碼漏洞會破壞 Java 堆積",
+     "url": "https://github.com/openjdk/jdk/pull/32781",
+     "src": "Hacker News",
+     "left": "11/19 19:47",
+     "ts": "2026-11-19T19:47:03+08:00",
+     "heat": "HN 375",
+     "tags": [],
+     "summary_html": "x86_64 AVX-512 VBMI 路徑的 Base64 解碼 stub 在處理長度不足 4 的無效輸入時，輸出長度被減成負值，寫出邏輯範圍外、破壞 heap；修補方式是長度 &lt;4 時提早返回 Java。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50558906"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": ""
+    },
+    {
+     "type": "item",
+     "no": "14",
+     "key": "673fe163ae",
+     "title": "Nvidia 物色新執行長，傳接觸 Arm 執行長 Rene Haas",
+     "title_html": "Nvidia 物色新執行長，傳接觸 Arm 執行長 Rene Haas",
+     "url": "https://www.theguardian.com/technology/2026/nov/19/nvidia-new-ceo-search-jensen-huang-arm-rene-haas",
+     "src": "The Guardian Technology",
+     "left": "11/19 19:29",
+     "ts": "2026-11-19T19:29:01+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "據 Bloomberg，Nvidia 董事會委託的獵頭 Heidrick &amp; Struggles 已開始接觸人選，64 歲的 Haas 被視為頭號人選。",
+     "also": [
+      {
+       "text": "AIHOT",
+       "url": "https://aihot.news/items/w1q2gyqsel49b4vbqeodf0qmc"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "共同創辦人黃仁勳上週因婚外情爭議辭職；Haas 曾任 Nvidia 運算產品總經理，2013 年加入 Arm、2022 年起任執行長。The Verge 整理，Nvidia 第三季營收年增一倍至 1,158 億美元，股價卻較 10 月高點跌近 40%。"
+    },
+    {
+     "type": "item",
+     "no": "15",
+     "key": "aae72e4c06",
+     "title": "IEA：2030 年資料中心碳排將增加 70%",
+     "title_html": "IEA：2030 年資料中心碳排將增加 70%",
+     "url": "https://www.theguardian.com/world/2026/nov/19/datacentres-to-create-70-more-carbon-emissions-by-2030-iea-report-warns",
+     "src": "The Guardian Technology",
+     "left": "11/19 13:00",
+     "ts": "2026-11-19T13:00:18+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "國際能源總署預估 2030 年資料中心用電將倍增，其中四分之三來自 AI 擴張，美國約 60% 電力將來自天然氣。",
+     "also": [
+      {
+       "text": "AIHOT",
+       "url": "https://aihot.news/items/wefmgc42bqc1uhcqc2gv3haav"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "美中兩國以化石燃料支撐 AI 發展是碳排上升主因。MIT 團隊另在《Environmental Research Letters》估算，2023 年資料中心用電帶來的空氣污染在美國造成約 650 例過早死亡。"
+    }
+   ]
+  }
+ ],
+ "foot_left": "本報告由 news-aggregator 自動彙整",
+ "stats": {
+  "items": 15,
+  "sections": 2
+ }
+}
