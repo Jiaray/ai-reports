@@ -158,6 +158,13 @@
 [data-look=atlas] .row-title{font:700 20px/1.45 var(--font-heading)}
 [data-look=atlas] .row-sum{font:400 16.5px/1.7 var(--font-body)}
 [data-look=atlas] .row-dive{border-left:0;padding:var(--space-3) var(--space-4);background:var(--color-neutral-200);color:var(--color-neutral-800);font:400 16px/1.7 var(--font-body)}
+/* 藍圖的「AI 解讀」標籤：亮藍實心方塊、反白粗字（使用者要求：換一個比鋼藍搶眼、仍屬藍圖色系的藍，凸顯標籤文字）。
+   淺色 #1765c9 底＋白字（對比 5.6:1），深色 #5aa2ff 底＋深藍字（7.0:1）；方角同藍圖。地圖、一般外觀各有自己的標籤樣式 */
+:root{--ai-bg:#1765c9;--ai-fg:#fff}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--ai-bg:#5aa2ff;--ai-fg:#0b1622}}
+:root[data-theme=dark]{--ai-bg:#5aa2ff;--ai-fg:#0b1622}
+:root:not([data-look=atlas]):not([data-look=standard]) .dive-label{display:inline-block;padding:3px 7px;margin-right:var(--space-2);background:var(--ai-bg);color:var(--ai-fg);font:700 12.5px/1.25 var(--font-body);letter-spacing:.05em;vertical-align:1px}
+@media(forced-colors:active){.dive-label{border:1px solid}}
 [data-look=atlas] .dive-label{color:var(--color-text);font:700 13px/1 var(--font-body);letter-spacing:.06em}
 [data-look=atlas] .dive-label::before{content:"";display:inline-block;width:8px;height:8px;margin-right:6px;background:var(--sec-c);vertical-align:1px}
 [data-look=atlas] .tag{font:600 12px/1.5 var(--font-body);letter-spacing:.02em}
