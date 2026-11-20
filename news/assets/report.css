@@ -183,16 +183,6 @@
 .row-sum p+p,.row-dive p+p{margin-top:.75em}
 :is(.row-sum,.row-dive,.row-bullets,.sec-note,.teaser,.fp-pre){text-spacing-trim:trim-start;hanging-punctuation:allow-end}
 :is(.row-main,.more-body)>:is(.row-bullets,.tbl,.row-dive,.row-srcs){margin-top:var(--space-2)}
-/* 手機（完整讀法，藍圖與地圖）：編號＋時刻只佔標題旁邊，摘要、重點、AI 解讀與收集來源往左延伸到整個條目寬度
-   （使用者要求易讀：原本內文被左欄擠到一行約 18 字，英文名稱一多就提早換行；放寬後約 20–21 字一行）。
-   做法同一般外觀：.row-main 改 display:contents，標題與來源標籤留在右欄，其餘跨兩欄 */
-@media(max-width:40em){
-  [data-read=full]:not([data-look=standard]) .row{row-gap:var(--space-2)}
-  [data-read=full]:not([data-look=standard]) .row-left{grid-row:1;grid-column:1}
-  [data-read=full]:not([data-look=standard]) .row-main{display:contents}
-  [data-read=full]:not([data-look=standard]) .row-main>*{grid-column:1 / -1}
-  [data-read=full]:not([data-look=standard]) .row-main>:is(.row-title,.tags){grid-column:2}
-}
 .row-also{margin:0;font:400 14px/1.8 var(--font-body);color:var(--color-neutral-600)}
 /* 單則條目最後的收集來源（多家報導、另參、其餘連結）：正文（摘要、重點、解讀）連貫讀完再看來源（使用者要求） */
 .row-srcs{display:flex;flex-direction:column;gap:2px}
