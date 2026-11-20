@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-20",
- "built_at": "2026-11-20T18:20:12+08:00",
+ "built_at": "2026-11-20T18:21:57+08:00",
  "reports": [
   {
    "series": "general",
@@ -58,6 +58,14 @@
    "period": "2026-11-20",
    "count": 15,
    "generated_at": "2026-11-20T16:52:09+08:00"
+  },
+  {
+   "series": "health",
+   "series_title": "健康日報",
+   "group": "綜合",
+   "period": "2026-11-20",
+   "count": 15,
+   "generated_at": "2026-11-20T18:21:57+08:00"
   },
   {
    "series": "github_weekly",
@@ -280,6 +288,26 @@
    ]
   },
   {
+   "key": "276f88abf8",
+   "rank": 1,
+   "title": "美國失去麻疹消除認證，賓州再傳死亡病例；調查顯示多數美國人不了解麻疹風險",
+   "summary_html": "泛美衛生組織（PAHO）宣布美國失去維持 26 年的麻疹消除認證；賓州大學安能堡公共政策中心調查逾 1,000 名成人，發現許多美國人對麻疹風險與兒童疫苗的安全性、效益認識不清。",
+   "url": "https://medicalxpress.com/news/2026-11-pennsylvania-measles-death-survey-americans.html",
+   "src": "Medical Xpress",
+   "ts": "2026-11-20T11:00:02+08:00",
+   "left": "11/20 11:00",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "health",
+     "period": "2026-11-20",
+     "no": "09",
+     "rank": 1
+    }
+   ]
+  },
+  {
    "key": "c44a9652f6",
    "rank": 1,
    "title": "Sensor Tower：《GTA 6》上市前估售 1,905 萬套、營收 18.4 億美元，PlayStation 佔七成五",
@@ -485,6 +513,26 @@
    ]
   },
   {
+   "key": "2360518c6b",
+   "rank": 2,
+   "title": "台大、中研院追蹤 2,674 名 B 肝患者 26 年：肝指數正常仍有肝癌風險，表面抗原濃度是關鍵",
+   "summary_html": "台灣肝病醫療策進會響應世界肝炎檢測週，與中研院、台大醫院呼籲 B 肝患者不要只看病毒量與肝指數，可與醫師討論加做 B 型肝炎表面抗原（HBsAg）定量檢測。",
+   "url": "https://www.cna.com.tw/news/ahel/202611200246.aspx",
+   "src": "中央社 健康",
+   "ts": "2026-11-20T17:22:30+08:00",
+   "left": "11/20 17:22",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "health",
+     "period": "2026-11-20",
+     "no": "13",
+     "rank": 2
+    }
+   ]
+  },
+  {
    "key": "14d3c93adf",
    "rank": 2,
    "title": "Ubisoft 第二季訂單 3.89 億歐元優於財測，同時在蒙特婁、魁北克裁員 166 人",
@@ -649,6 +697,26 @@
      "series": "finance",
      "period": "2026-11-20",
      "no": "05",
+     "rank": 3
+    }
+   ]
+  },
+  {
+   "key": "b7a0bb28c6",
+   "rank": 3,
+   "title": "韓國通報 10 年來首起霍亂病例，患者過去兩個月未出國",
+   "summary_html": "韓國疾病管理廳通報東南部港市昌原出現境內 10 年來首起霍亂病例，患者近兩個月未出國，已於 17 日康復出院，當局正追查感染源與接觸者。",
+   "url": "https://www.cna.com.tw/news/aopl/202611200221.aspx",
+   "src": "中央社 健康",
+   "ts": "2026-11-20T17:00:37+08:00",
+   "left": "11/20 17:00",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "health",
+     "period": "2026-11-20",
+     "no": "07",
      "rank": 3
     }
    ]
@@ -827,6 +895,26 @@
      "series": "finance",
      "period": "2026-11-20",
      "no": "13",
+     "rank": 4
+    }
+   ]
+  },
+  {
+   "key": "cced664dad",
+   "rank": 4,
+   "title": "英國 212 款植物性食品與飲品全數驗出至少一種黴菌毒素",
+   "summary_html": "義大利帕爾馬大學主導、英國克蘭菲爾德大學參與的研究，檢測英國市售 212 款素食與純素產品，包括肉類替代品、燕麥奶、杏仁奶、豆奶，每一款都驗出 19 種黴菌毒素中的至少一種，許多產品同時含多種。",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261118073749.htm",
+   "src": "ScienceDaily Health",
+   "ts": "2026-11-19T19:13:29+08:00",
+   "left": "11/19 19:13",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "health",
+     "period": "2026-11-20",
+     "no": "04",
      "rank": 4
     }
    ]

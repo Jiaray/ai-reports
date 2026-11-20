@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T18:20:12+08:00",
+ "updated_at": "2026-11-20T18:21:57+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "health",
+   "series_title": "健康日報",
+   "cadence": "daily",
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "title": "健康日報",
+   "lede": "美國失去麻疹消除認證，賓州再傳死亡病例；台大與中研院 26 年追蹤研究指 B 肝表面抗原濃度與肝癌風險相關；韓國出現 10 年來首起霍亂病例。",
+   "count": 15,
+   "data": "health/2026/2026-11-20.json",
+   "generated_at": "2026-11-20T18:21:57+08:00"
+  },
   {
    "series": "security",
    "series_title": "資安日報",
