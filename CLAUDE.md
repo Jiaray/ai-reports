@@ -42,6 +42,7 @@
 - 手動 commit（改網站本身時）：commit 前跑 `git diff --cached --name-only`，確認清單全在「可以上傳」範圍內；commit 訊息用繁體中文的 Conventional Commits。
 - push 被拒（遠端有新 commit）：先 `git pull --rebase` 再推，不要 force。
 - 誤推了禁止內容：立刻停手，告訴使用者推了什麼、在哪個 commit。不要自行改寫歷史；要不要清除由使用者決定，而且已推送的內容要視同已外洩。
+- 分支（使用者要求）：直接在 `main` 上改、commit、推 `origin main`，不另開分支。雲端 session（claude.ai/code）會指派 `claude/…` 工作分支，這裡不用：開工前先 `git checkout main && git pull --ff-only`，工作分支不推。什麼時候可以 commit、push 照本節開頭。
 
 ## 架構
 
