@@ -23,7 +23,9 @@
     if (!self) return;
     A.barLoad = A.barLoad || new Promise((ok, ko) => {
       const s = document.createElement('script');
-      s.src = new URL('bar.js', self).href;
+      const u = new URL('bar.js', self);
+      u.search = new URL(self).search; // 帶同一個版本號（?v=），不拿到快取裡的舊 bar.js
+      s.src = u.href;
       s.onload = ok;
       s.onerror = ko;
       document.head.append(s);

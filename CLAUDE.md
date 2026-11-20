@@ -184,6 +184,7 @@ ai-reports/
 - 網址傳出去之後，就不要改路徑規則、系列代號或 repo 名稱，否則舊連結全部失效。
 - 改 `news/assets/report.js` 會影響所有既有報告的呈現。資料帶 `schema` 版本，改資料格式時渲染器要能讀舊版本。
 - 連結一律用相對路徑（網站掛在 `/ai-reports/` 子路徑下）；`404.html` 例外，用 `/ai-reports/` 開頭的絕對路徑。
+- CSS、JS 的版本號（使用者要求：改版推上去不必等快取過期）：`index.html`、`404.html`、`news/index.html` 引用 `assets/`、`news/assets/` 的每個 CSS、JS 都帶 `?v=<台北日期＋兩位序號>`（例 `?v=2026112101`）。改了任何 CSS、JS，就把三個 HTML 裡全部的 `?v=` 改成同一個新值，一起 commit。report.js、front.js 補載 bar.js 時沿用自己網址上的 `?v=`。GitHub Pages 的 HTML 本身仍快取 10 分鐘，這段時間內打開過的人要等 HTML 過期才換新。
 
 ## 新增一個類別
 
