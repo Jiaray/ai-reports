@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-20T16:54:32+08:00",
+ "updated_at": "2026-11-20T16:54:42+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "taiwan_disaster",
+   "series_title": "台灣防災示警",
+   "cadence": "daily",
+   "period": "2026-11-20",
+   "date": "2026-11-20",
+   "title": "台灣防災示警",
+   "lede": "中央氣象署對桃園至屏東、台東、澎湖等 11 縣市發布強風特報至 21 日晚間；公路局 20 日 17 時起預警性封閉台14甲線合歡山路段防結冰；日本熊本規模 5.7 地震，氣象廳提醒一週內慎防再震。",
+   "count": 3,
+   "data": "taiwan_disaster/2026/2026-11-20.json",
+   "generated_at": "2026-11-20T16:54:42+08:00"
+  },
   {
    "series": "taiwan_general",
    "series_title": "台灣綜合新聞",

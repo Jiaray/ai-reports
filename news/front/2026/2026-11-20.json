@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-20",
- "built_at": "2026-11-20T16:54:32+08:00",
+ "built_at": "2026-11-20T16:54:42+08:00",
  "reports": [
   {
    "series": "general",
@@ -98,6 +98,14 @@
    "period": "2026-11-20",
    "count": 36,
    "generated_at": "2026-11-20T16:54:32+08:00"
+  },
+  {
+   "series": "taiwan_disaster",
+   "series_title": "台灣防災示警",
+   "group": "台灣",
+   "period": "2026-11-20",
+   "count": 3,
+   "generated_at": "2026-11-20T16:54:42+08:00"
   }
  ],
  "entries": [
@@ -290,6 +298,26 @@
    ]
   },
   {
+   "key": "f5d3810e7b",
+   "rank": 1,
+   "title": "強風特報：桃園至屏東、台東、澎湖局部地區平均風 6 級以上或陣風 8 級以上",
+   "summary_html": "中央氣象署發布：東北風偏強，20 日下午至 21 日晚上上述縣市局部地區有平均風 6 級以上或陣風 8 級以上發生的機率，請注意。",
+   "url": "https://alerts.ncdr.nat.gov.tw/Capstorage/CWA/2026/Weather_warnings_WIND/fifows_strong-wind_202611201631.cap",
+   "src": "NCDR / 中央氣象署",
+   "ts": "2026-11-20T16:31:01+08:00",
+   "left": "11/20 16:31",
+   "heat": "官方生效中示警",
+   "tags": [],
+   "from": [
+    {
+     "series": "taiwan_disaster",
+     "period": "2026-11-20",
+     "no": "01",
+     "rank": 1
+    }
+   ]
+  },
+  {
    "key": "947e6ec924",
    "rank": 2,
    "title": "國際法院 9 比 6 裁定緬甸對羅興亞人犯下種族滅絕，史上首例國家被判種族滅絕",
@@ -444,6 +472,26 @@
      "series": "taiwan_general",
      "period": "2026-11-20",
      "no": "05",
+     "rank": 2
+    }
+   ]
+  },
+  {
+   "key": "0f193054c0",
+   "rank": 2,
+   "title": "道路封閉：台14甲線合歡山路段防夜間低溫結冰預警性封閉",
+   "summary_html": "交通部公路局發布：為防範合歡山夜間低溫道路結冰，台14甲線翠峰至松雪樓路段於 20 日 17 時實施預警性封閉，花蓮秀林段同步管制；翌日視道路狀況再決定是否開放通行。",
+   "url": "https://alerts.ncdr.nat.gov.tw/Capstorage/THB/2026/roadClose/THB-Bobe_631_24019_43171_20261120110755.cap",
+   "src": "NCDR / 交通部公路局",
+   "ts": "2026-11-20T11:07:55+08:00",
+   "left": "11/20 11:07",
+   "heat": "官方生效中示警",
+   "tags": [],
+   "from": [
+    {
+     "series": "taiwan_disaster",
+     "period": "2026-11-20",
+     "no": "02",
      "rank": 2
     }
    ]
