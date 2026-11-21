@@ -285,28 +285,33 @@
 }
 
 /* ── 手機右下角的功能鈕（bar.js 第 7 段；使用者在四種樣板中選定「C 扇面」，功能鈕與扇面都只有圖示，頂端工具列保留）──
-   只在窄版出現。墨色方塊（同報頭粗線的墨色），圖示是一把從右下角張開的扇子，展開時變 ×；後面一層由角落往外漸淡的霧面。
-   扇面是一整片不透明的扇形，內圈前往（本日新聞、本週新聞）、外圈打開面板（日期、章節或頭版的過濾、版面），
-   外緣 2px 墨色線呼應面板頂端的粗線；名稱（.fab-tip）只在手指按住滑過、鍵盤聚焦時浮在圖示上方。
+   只在窄版出現。功能鈕和回到頂端是一對（使用者要求大小相同）：都是 44px 方塊、同一套外框，回到頂端疊在正上方（間隔 8px）；
+   圖示是一把從右下角張開的扇子，展開時變 ×、按鈕換成選中色（同分段選項選中那格）。後面一層由角落往外漸淡的霧面。
+   扇面的內圈前往（本日新聞、本週新聞）、外圈打開面板（日期、章節或頭版的過濾、版面）；名稱（.fab-tip）只在手指按住滑過、
+   鍵盤聚焦時浮在圖示上方。這裡是藍圖的樣子：方角、細線、頂端 2px 墨色線（同面板），扇面一整片、細線分格、外緣墨色線；
+   地圖接在後面（[data-look=atlas]），一般在 look-standard.css。
    --fab-ready：bar.js 確認這段樣式已載入才裝功能鈕（部署後的快取空窗） */
-:root{--fab-ready:1;--fab-x:max(16px,env(safe-area-inset-right,0px));--fab-y:max(16px,env(safe-area-inset-bottom,0px))}
+:root{--fab-ready:1;--fab-size:44px;--fab-x:max(16px,env(safe-area-inset-right,0px));--fab-y:max(16px,env(safe-area-inset-bottom,0px))}
 .fab-layer{display:none}
 @media(max-width:40em){.fab-layer:not([hidden]){display:block;position:fixed;inset:0;z-index:40;pointer-events:none}}
 .fab-layer>*{pointer-events:auto}
 .fab-sheet .fab-layer{visibility:hidden}
 .fab-scrim{position:absolute;inset:0;background:radial-gradient(120% 80% at 100% 100%,color-mix(in srgb,var(--color-bg) 94%,transparent) 0 38%,color-mix(in srgb,var(--color-bg) 66%,transparent) 100%);-webkit-backdrop-filter:blur(2px);backdrop-filter:blur(2px);opacity:0;visibility:hidden;touch-action:none;transition:opacity .18s,visibility 0s linear .18s}
 .fab-layer.is-open .fab-scrim{opacity:1;visibility:visible;transition-delay:0s}
-.fab-btn{position:absolute;right:var(--fab-x);bottom:var(--fab-y);display:flex;align-items:center;justify-content:center;width:56px;height:56px;padding:0;background:var(--color-text);color:var(--color-bg);border:0;border-radius:0;box-shadow:0 14px 28px -14px rgb(0 0 0 / .6);cursor:pointer;touch-action:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent}
+.fab-btn{position:absolute;right:var(--fab-x);bottom:var(--fab-y);display:flex;align-items:center;justify-content:center;width:var(--fab-size);height:var(--fab-size);padding:0;background:var(--color-bg);color:var(--color-text);border:1px solid var(--color-divider);border-top:2px solid var(--color-text);border-radius:0;box-shadow:0 10px 24px -14px rgb(0 0 0 / .55);cursor:pointer;touch-action:none;user-select:none;-webkit-user-select:none;-webkit-touch-callout:none;-webkit-tap-highlight-color:transparent;transition:background-color .15s,color .15s,border-color .15s}
+@media(hover:hover){.fab-btn:hover{background:var(--color-accent-100)}}
+.fab-layer.is-open .fab-btn{background:var(--vw-on-bg);border-color:var(--vw-on-bg);color:var(--vw-on-fg)}
 .fab-btn svg{position:absolute;width:20px;height:20px;transition:opacity .15s,rotate .2s}
 .fab-btn svg+svg{opacity:0;rotate:-90deg}
 .fab-layer.is-open .fab-btn svg:first-child{opacity:0;rotate:90deg}
 .fab-layer.is-open .fab-btn svg+svg{opacity:1;rotate:0deg}
 .fab-btn:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:3px}
-.fab-anchor{position:absolute;right:calc(var(--fab-x) + 28px);bottom:calc(var(--fab-y) + 28px);width:0;height:0}
+.fab-anchor{position:absolute;right:calc(var(--fab-x) + var(--fab-size) / 2);bottom:calc(var(--fab-y) + var(--fab-size) / 2);width:0;height:0}
 .fab-pie{position:absolute;right:0;bottom:0;transform-origin:100% 100%;transform:scale(.25);opacity:0;visibility:hidden;filter:drop-shadow(0 14px 18px rgb(0 0 0 / .18));transition:transform .24s cubic-bezier(.2,.9,.3,1.08),opacity .14s,visibility 0s linear .24s}
 .fab-layer.is-open .fab-pie{transform:none;opacity:1;visibility:visible;transition-delay:0s}
 .fab-it{position:absolute;inset:0;display:block;padding:0;background:var(--color-bg);color:var(--color-text);border:0;border-radius:0;cursor:pointer;-webkit-tap-highlight-color:transparent;-webkit-touch-callout:none;transition:background-color .12s,color .12s}
-.fab-it:hover,.fab-it.is-hot,.fab-it.is-focus{background:var(--color-accent-100);color:var(--color-accent-700)}
+.fab-it:is(.is-hot,.is-focus){background:var(--color-accent-100);color:var(--color-accent-700)}
+@media(hover:hover){.fab-it:hover{background:var(--color-accent-100);color:var(--color-accent-700)}}
 .fab-it:focus{outline:0}
 .fab-it:active{background:var(--vw-on-bg);color:var(--vw-on-fg)}
 .fab-in{position:absolute;translate:-50% -50%}
@@ -318,13 +323,14 @@
 .fab-lines .fab-rim{stroke:var(--color-text);stroke-width:2}
 .fab-lines .is-hot,.fab-lines .is-focus{stroke:var(--color-accent-600);stroke-width:2}
 .fab-tip{position:absolute;z-index:1;translate:-50% calc(-100% - 16px);padding:3px 8px;background:var(--color-text);color:var(--color-bg);font:500 13px/1.35 var(--font-body);white-space:nowrap;pointer-events:none}
-/* 回到頂端（site.js）疊在功能鈕正上方、中線對齊；扇面或底部面板打開時先藏起來。窄版內容底部多留空間，捲到底不被兩顆按鈕蓋住 */
+/* 回到頂端（site.js）和功能鈕同大小、同外框，疊在正上方；扇面或底部面板打開時先藏起來。
+   窄版內容底部多留空間，捲到底時兩顆按鈕不蓋住頁尾 */
 @media(max-width:40em){
-.has-fab .to-top{right:calc(var(--fab-x) + 6px);bottom:calc(var(--fab-y) + 68px)}
+.has-fab .to-top{right:var(--fab-x);bottom:calc(var(--fab-y) + var(--fab-size) + 8px);width:var(--fab-size);height:var(--fab-size);color:var(--color-text);border-top:2px solid var(--color-text)}
+.has-fab .to-top svg{width:20px;height:20px}
 :is(.fab-open,.fab-sheet) .to-top{visibility:hidden;opacity:0}
-html.has-fab .wrap{padding-bottom:calc(var(--space-6) + 128px)}
+html.has-fab .wrap{padding-bottom:calc(var(--space-6) + 112px)}
 }
-@media(max-width:40em) and (pointer:fine){.has-fab .to-top{right:calc(var(--fab-x) + 8px)}}
 /* 從功能鈕打開的面板：同一個面板改成貼齊底部、整個畫面寬，頂端一條小把手；最高 85%，裡面照原本的清單捲動 */
 .dd .dd-panel.is-sheet{position:fixed;top:auto;right:0;bottom:0;left:0;z-index:45;width:auto;max-height:85vh;max-height:85dvh;overflow-y:auto;overscroll-behavior:contain;padding:0 max(var(--space-4),env(safe-area-inset-right,0px)) calc(var(--space-2) + env(safe-area-inset-bottom,0px)) max(var(--space-4),env(safe-area-inset-left,0px));border:0;border-top:2px solid var(--color-text);box-shadow:0 -24px 44px -30px rgb(0 0 0 / .6)}
 .dd .dd-panel.is-sheet::before{content:"";display:block;width:36px;height:4px;margin:8px auto 0;background:var(--color-neutral-300)}
@@ -334,13 +340,29 @@ html.has-fab .wrap{padding-bottom:calc(var(--space-6) + 128px)}
 .fq-clear{min-height:44px;padding:0 var(--space-2);background:transparent;color:var(--color-accent-700);border:0;border-radius:0;font:500 15px/1 var(--font-body);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
 .fq-list{margin:0;padding:var(--space-2) 0;list-style:none;border-top:1px solid var(--color-divider)}
 .fq-item{display:flex;align-items:center;gap:10px;width:100%;min-height:44px;padding:6px var(--space-2);background:transparent;color:var(--color-text);border:0;border-radius:0;font:500 16px/1.35 var(--font-heading);letter-spacing:.02em;text-align:start;cursor:pointer}
-.fq-item:hover{background:var(--color-accent-100)}
+@media(hover:hover){.fq-item:hover{background:var(--color-accent-100)}}
 .fq-name{flex:1}
 .fq-mk{display:grid;place-items:center;flex:none;width:18px;height:18px;border:2px solid var(--g-c,var(--color-accent-600));color:var(--color-bg)}
 .fq-mk svg{display:none;width:12px;height:12px;stroke-width:2.4}
 .fq-item[aria-pressed=true] .fq-mk{background:var(--g-c,var(--color-accent-600))}
 .fq-item[aria-pressed=true] .fq-mk svg{display:block}
 .fq-item:focus-visible,.fq-clear:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
+/* 地圖外觀：同地圖的標籤與解讀框——實心淺底方塊、沒有外框與粗線；扇面切成一塊塊色塊（格間留縫，像地圖上的區塊），
+   選中與按住用地圖的主色；底部面板也拿掉頂端粗線，過濾的色塊是實心的領域色。回到頂端在桌機也換成同樣的實心方塊 */
+[data-look=atlas] :is(.fab-btn,.to-top){background:var(--color-neutral-200);color:var(--color-neutral-800);border:0;box-shadow:0 8px 20px -12px rgb(0 0 0 / .45)}
+@media(hover:hover){[data-look=atlas] :is(.fab-btn,.to-top):hover{background:var(--color-accent-100);color:var(--color-text)}}
+[data-look=atlas] .fab-layer.is-open .fab-btn{background:var(--color-accent-600);color:var(--color-bg)}
+[data-look=atlas] .fab-it{background:var(--color-neutral-200);color:var(--color-neutral-800)}
+[data-look=atlas] .fab-it:is(.is-hot,.is-focus){background:var(--color-accent-100);color:var(--color-accent-700)}
+@media(hover:hover){[data-look=atlas] .fab-it:hover{background:var(--color-accent-100);color:var(--color-accent-700)}}
+[data-look=atlas] .fab-it:active{background:var(--color-accent-600);color:var(--color-bg)}
+[data-look=atlas] .fab-lines path{stroke:none}
+[data-look=atlas] .fab-lines :is(.is-hot,.is-focus){stroke:var(--color-accent-600);stroke-width:2}
+[data-look=atlas] .fab-tip{font:600 13px/1.35 var(--font-body)}
+[data-look=atlas] .dd .dd-panel.is-sheet{border:0;box-shadow:0 -12px 32px -14px rgb(0 0 0 / .4)}
+[data-look=atlas] .fq-item{font:600 15px/1.35 var(--font-body);letter-spacing:0}
+[data-look=atlas] .fq-mk{width:16px;height:16px;border:0;background:var(--g-c,var(--color-accent-600))}
+[data-look=atlas] .fq-item[aria-pressed=true]{background:var(--color-neutral-200)}
 @media(prefers-reduced-motion:reduce){.fab-pie,.fab-layer.is-open .fab-pie{transform:none;transition:opacity .12s,visibility 0s linear .12s}.fab-btn svg,.fab-scrim{transition:none}}
 @media(forced-colors:active){.fab-btn{border:1px solid ButtonText}.fab-it.is-hot,.fab-it.is-focus{outline:2px solid Highlight;outline-offset:-4px}.fq-item[aria-pressed=true] .fq-mk{background:Highlight}}
 @media print{.fab-layer{display:none!important}}

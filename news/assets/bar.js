@@ -322,7 +322,12 @@
   // 從這裡打開的面板是頂端那個面板本身，改成貼齊底部（.is-sheet），收起後焦點回功能鈕。
   // 項目從 #app 裡的工具列讀出來，各頁不必另外呼叫；#app 換內容時重建。
   // 部署後的快取空窗可能拿到舊的 report.css：讀不到 --fab-ready 就不裝，免得頁尾多出沒有樣式的按鈕
-  const FAB_R = [40, 114, 188]; // 扇面半徑：中間空 40px 給功能鈕，內圈到 114、外圈到 188（只有一圈時 40–188）
+  // 扇面半徑：中間空 34px 給功能鈕（44px 方塊，同回到頂端），內圈到 98、外圈到 162（只有一圈時 34–162）。
+  // 每種外觀的扇面形狀（使用者要求功能 UI 符合各外觀的風格）：藍圖一整片、細線分格；地圖分成一塊塊色塊（格與格之間留縫）；
+  // 一般是分開的圓角卡片（留縫＋6px 圓角）。換外觀時重建
+  const FAB_R = [34, 98, 162];
+  const FAB_SHAPE = { blueprint: { gap: 0, round: 0 }, atlas: { gap: 4, round: 0 }, standard: { gap: 4, round: 6 } };
+  const lookNow = () => root.getAttribute('data-look') || 'blueprint';
   const SVGNS = 'http://www.w3.org/2000/svg';
   const sv = (tag, attrs) => {
     const el = document.createElementNS(SVGNS, tag);
@@ -384,6 +389,25 @@
       const t = (a * Math.PI) / 180;
       return `${(S - r * Math.cos(t)).toFixed(2)} ${(S - r * Math.sin(t)).toFixed(2)}`;
     };
+    const shape = FAB_SHAPE[lookNow()] || FAB_SHAPE.blueprint;
+    // 一格扇形的外框：格與格之間留 gap（兩側各縮 gap/2，邊線與原本的分格線平行；整片扇形的外緣不縮），
+    // 四個角用二次曲線修圓 round px（控制點在原本的尖角）
+    function cellPath(r0, r1, a0, a1) {
+      const g = shape.gap / 2;
+      const rc = shape.round;
+      const ri = r0 + (r0 === FAB_R[0] ? 0 : g);
+      const ro = r1 - (r1 === FAB_R[2] ? 0 : g);
+      const ds = a0 === 0 ? 0 : g;
+      const de = a1 === 90 ? 0 : g;
+      const A0 = (r) => a0 + (Math.asin(ds / r) * 180) / Math.PI; // 縮進 ds 後的邊線在半徑 r 處的角度
+      const A1 = (r) => a1 - (Math.asin(de / r) * 180) / Math.PI;
+      if (!rc) return `M${P(ro, A0(ro))}A${ro} ${ro} 0 0 1 ${P(ro, A1(ro))}L${P(ri, A1(ri))}A${ri} ${ri} 0 0 0 ${P(ri, A0(ri))}Z`;
+      const deg = (len, r) => (len / r) * 180 / Math.PI;
+      return `M${P(ro - rc, A0(ro - rc))}Q${P(ro, A0(ro))} ${P(ro, A0(ro) + deg(rc, ro))}`
+        + `A${ro} ${ro} 0 0 1 ${P(ro, A1(ro) - deg(rc, ro))}Q${P(ro, A1(ro))} ${P(ro - rc, A1(ro - rc))}`
+        + `L${P(ri + rc, A1(ri + rc))}Q${P(ri, A1(ri))} ${P(ri, A1(ri) - deg(rc, ri))}`
+        + `A${ri} ${ri} 0 0 0 ${P(ri, A0(ri) + deg(rc, ri))}Q${P(ri, A0(ri))} ${P(ri + rc, A0(ri + rc))}Z`;
+    }
     const rings = [items.links.slice().reverse(), items.panels].filter((r) => r.length);
     const bounds = rings.length === 2 ? [[FAB_R[0], FAB_R[1]], [FAB_R[1], FAB_R[2]]] : [[FAB_R[0], FAB_R[2]]];
     const pie = h('div', { class: 'fab-pie', id: 'fab-pie', role: 'group', 'aria-label': '功能' });
@@ -395,7 +419,7 @@
       list.forEach((x, k) => {
         const a0 = (90 * k) / list.length;
         const a1 = (90 * (k + 1)) / list.length;
-        const d = `M${P(r1, a0)}A${r1} ${r1} 0 0 1 ${P(r1, a1)}L${P(r0, a1)}A${r0} ${r0} 0 0 0 ${P(r0, a0)}Z`;
+        const d = cellPath(r0, r1, a0, a1);
         const el = x.href
           ? h('a', { class: 'fab-it', href: x.href, 'aria-current': x.current || null })
           : h('button', { type: 'button', class: 'fab-it', 'aria-haspopup': 'dialog' });
@@ -545,7 +569,7 @@
     }
     ensureFab();
     fab.layer.hidden = false;
-    const key = JSON.stringify([items.panels.map((x) => [x.key, x.label]), items.links.map((x) => [x.label, x.href, x.current])]);
+    const key = JSON.stringify([lookNow(), items.panels.map((x) => [x.key, x.label]), items.links.map((x) => [x.label, x.href, x.current])]);
     if (key === fab.key) return;
     fab.key = key;
     setFan(false);
@@ -638,6 +662,7 @@
     fq.open(true, sheetHow());
   }
   syncFab();
+  new MutationObserver(() => syncFab()).observe(root, { attributes: true, attributeFilter: ['data-look'] }); // 換外觀：扇面換形狀
 
   A.bar = { ICON, dropdown, periodLabel, periodShort, toolbar, navLink, datePicker, titleChapters, barHeight, staleBanner };
 })();

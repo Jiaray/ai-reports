@@ -229,10 +229,31 @@
 /* 回到頂端按鈕（site.js）：--surface 底、0.5px 框、8px 圓角 */
 [data-look=standard] .to-top{background:var(--surface);color:var(--text-2);border:var(--hair) solid var(--border);border-radius:var(--radius)}
 [data-look=standard] .to-top:hover{background:var(--surface);color:var(--accent)}
-/* 右下角功能鈕（bar.js、report.css）：功能鈕 8px 圓角；從功能鈕打開的底部面板上緣圓角、--surface 底、0.5px 框 */
-[data-look=standard] .fab-btn{border-radius:var(--radius)}
-[data-look=standard] .fab-tip{border-radius:var(--radius-sm)}
+/* 右下角功能鈕（bar.js、report.css）：功能鈕和回到頂端同一套——--surface 底、0.5px 框、8px 圓角、淡陰影，滑過字換品牌紅；
+   展開時功能鈕換成選中色（--text 底）。扇面是分開的圓角卡片（bar.js 依外觀留縫、修圓角），0.5px 框，按住或滑過換 --hover-bg、
+   圖示換品牌紅；底部面板上緣圓角；過濾的勾選框是圓角方框，選中時 --text 填滿（同頭版標籤選中的樣子，不用領域色） */
+[data-look=standard] :is(.fab-btn,.to-top){background:var(--surface);color:var(--text-2);border:var(--hair) solid var(--border);border-radius:var(--radius);box-shadow:0 6px 18px -8px rgb(0 0 0 / .22)}
+@media(hover:hover){[data-look=standard] :is(.fab-btn,.to-top):hover{background:var(--surface);color:var(--accent)}}
+[data-look=standard] .fab-layer.is-open .fab-btn{background:var(--text);border-color:var(--text);color:var(--surface)}
+[data-look=standard] .fab-btn:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+[data-look=standard] .fab-pie{filter:drop-shadow(0 8px 16px rgb(0 0 0 / .14))}
+[data-look=standard] .fab-it{background:var(--surface);color:var(--text-2)}
+[data-look=standard] .fab-it:is(.is-hot,.is-focus){background:var(--hover-bg);color:var(--accent)}
+@media(hover:hover){[data-look=standard] .fab-it:hover{background:var(--hover-bg);color:var(--accent)}}
+[data-look=standard] .fab-it:active{background:var(--text);color:var(--surface)}
+[data-look=standard] .fab-it[aria-current] .fab-ico{box-shadow:0 4px 0 -2px var(--accent)}
+[data-look=standard] .fab-lines path{stroke:var(--border);stroke-width:1}
+[data-look=standard] .fab-lines .fab-rim{stroke:none}
+[data-look=standard] .fab-lines .is-focus{stroke:var(--focus);stroke-width:2}
+[data-look=standard] .fab-tip{border-radius:var(--radius-sm);font:500 13px/1.35 var(--font-sans)}
 [data-look=standard] .dd .dd-panel.is-sheet{border:var(--hair) solid var(--border);border-bottom:0;border-radius:var(--radius) var(--radius) 0 0;box-shadow:0 -12px 32px -12px rgb(0 0 0 / .25)}
+[data-look=standard] .dd .dd-panel.is-sheet::before{border-radius:2px;background:var(--border)}
+[data-look=standard] .fq-item{font:400 15px/1.4 var(--font-sans);letter-spacing:0;border-radius:var(--radius-sm)}
+@media(hover:hover){[data-look=standard] .fq-item:hover{background:var(--hover-bg)}}
+[data-look=standard] .fq-mk{border:1.5px solid var(--text-3);border-radius:var(--radius-sm)}
+[data-look=standard] .fq-item[aria-pressed=true] .fq-mk{background:var(--text);border-color:var(--text);color:var(--surface)}
+[data-look=standard] .fq-clear{color:var(--link);font:400 15px/1 var(--font-sans)}
+[data-look=standard] :is(.fq-item,.fq-clear):focus-visible{outline:2px solid var(--focus);outline-offset:-2px}
 /* 數字（時間、期別、則數）一律等寬：放在檔尾、選擇器加重，蓋過前面各處 font 簡寫把 font-variant-numeric 重設回 normal */
 :root[data-look=standard] :is(time,.row-time,.rt-hm,.rt-d,.rt-txt,.fp-tm,.pd-n,.pd-wd,.pd-item,.tl-day){font-variant-numeric:tabular-nums}
 /* 減少動態：關掉切換配色時的底色、文字色轉場 */
