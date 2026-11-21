@@ -216,6 +216,9 @@
 [data-look=standard] :is(.std-list,.std-latest) .more-body{margin-left:62px}
 [data-look=standard] .std-list .more-body{margin-left:74px}
 [data-look=standard] .std-latest .fp-it .row-sum{font-size:15px}
+/* 頭版展開的 AI 解讀與上面的摘要同字級（頭條、卡片 --fs-lead；即時新聞 15px） */
+[data-look=standard] .fp-it .row-dive{font-size:var(--fs-lead)}
+[data-look=standard] .std-latest .fp-it .row-dive{font-size:15px}
 /* 平板以下（< 1024px）：側欄移到主欄下面、不黏頂、不自己捲動 */
 @media(max-width:63.99em){
 [data-look=standard] .fp-tl.std-home{grid-template-columns:minmax(0,1fr);grid-template-rows:none}

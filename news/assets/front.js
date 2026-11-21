@@ -224,10 +224,10 @@
 
   // ── 一則條目 ──────────────────────────────────────────────────────
   // 左緣一條領域色線；summary 第一行是類型＋時刻（週報月報是期別），接著標題。每輪第一順位（原本的「要聞」）
-  // 淡底色、標題大一號，收合時先露兩行摘要；點開看完整摘要、來源與「看原文／看 AI 解讀」。
+  // 淡底色、標題大一號，收合時先露兩行摘要；點開看完整摘要、AI 解讀（頭版檔的 dive_html）、來源與「看原文」。
   // 原生 <details>：鍵盤、報讀器、「在頁面中尋找」（收合的摘要也搜得到、找到時自動展開）都直接可用。
   // summary 裡的標題用 span、不用 h3（同報告頁速讀：部分螢幕閱讀器把 summary 當按鈕，會丟掉裡面的標題），也不放連結。
-  // o.id：元素 id；o.types：類型 id（第一個決定色線）；o.stamp：類型後面的灰字節點；o.lead：要聞；o.isNew：標「新」；o.read：「看 AI 解讀」網址；
+  // o.id：元素 id；o.types：類型 id（第一個決定色線）；o.stamp：類型後面的灰字節點；o.lead：要聞；o.isNew：標「新」；
   // o.key：頭版條目的 key（記「看過」用）。data-fq 是這則的類型（類型代號，空白分隔），快速過濾比對用
   function tlRow(it, o) {
     const hot = hotInfo(it);
@@ -241,10 +241,15 @@
     });
     if (it.heat && !(hot && hot.from === 'heat')) acts.push(h('span', { class: 'tag tag-outline' }, [it.heat]));
     if (it.url) acts.push(h('a', { class: 'fp-act', href: it.url, target: '_blank', rel: 'noopener' }, ['看原文 ↗']));
-    if (o.read) acts.push(h('a', { class: 'fp-act', href: o.read }, ['看 AI 解讀']));
     const body = [];
     if (it.summary_html) {
       body.push(h('div', { class: 'row-sum' }, paragraphs(it.summary_html).map((x) => h('p', { html: x }))));
+    }
+    // AI 解讀直接接在摘要後面（使用者要求：頭版展開就看得到，不再放跳到報告頁的「看 AI 解讀」）；樣式同報告頁
+    if (it.dive_html) {
+      const ps = paragraphs(it.dive_html).map((x) => h('p', { html: x }));
+      ps[0].prepend(h('span', { class: 'dive-label' }, ['AI 解讀']));
+      body.push(h('div', { class: 'row-dive' }, ps));
     }
     body.push(h('div', { class: 'fp-acts' }, acts));
     const types = o.types || [];
@@ -469,18 +474,14 @@
     const timed = list.map((e) => ({ e, w: when(e.ts) }));
     timed.sort((a, b) => (a.w && b.w ? b.w.ms - a.w.ms : (a.w ? -1 : 0) + (b.w ? 1 : 0))
       || a.e.rank - b.e.rank || bySeries(a.e.from[0].series, b.e.from[0].series) || (a.e.key < b.e.key ? -1 : 1));
-    const entryRow = (e, w) => {
-      const m = e.from[0]; // 主來源（front.py 已依順位、類型順序排好）
-      return tlRow(e, {
-        id: `fp-${e.key}`,
-        key: e.key,
-        types: [...new Set(e.from.map((f) => f.series))].sort(bySeries),
-        stamp: w ? h('time', { class: 'fp-tm', datetime: e.ts }, [w.hm]) : null,
-        lead: e.rank === top,
-        isNew: fresh.has(e.key),
-        read: reportHref(m.series, m.period, m.no),
-      });
-    };
+    const entryRow = (e, w) => tlRow(e, {
+      id: `fp-${e.key}`,
+      key: e.key,
+      types: [...new Set(e.from.map((f) => f.series))].sort(bySeries),
+      stamp: w ? h('time', { class: 'fp-tm', datetime: e.ts }, [w.hm]) : null,
+      lead: e.rank === top,
+      isNew: fresh.has(e.key),
+    });
     // 每個時段一個 <section>：時段標題只在自己那段黏頂（下一段把它推上去，不疊在一起）；快速過濾後沒有條目的整段藏起來。
     // 每日頭版依整點分組（不是那天的加註日期），每週頭版依日期分組。順便數各類型的則數（過濾標籤後面的數字）
     const tl = [];
