@@ -323,10 +323,10 @@
   // 項目從 #app 裡的工具列讀出來，各頁不必另外呼叫；#app 換內容時重建。
   // 部署後的快取空窗可能拿到舊的 report.css：讀不到 --fab-ready 就不裝，免得頁尾多出沒有樣式的按鈕
   // 扇面半徑：中間空 34px 給功能鈕（44px 方塊，同回到頂端），內圈到 98、外圈到 162（只有一圈時 34–162）。
-  // 每種外觀的扇面形狀（使用者要求功能 UI 符合各外觀的風格）：藍圖一整片、細線分格；地圖分成一塊塊色塊（格與格之間留縫）；
-  // 一般是分開的圓角卡片（留縫＋6px 圓角）。換外觀時重建
+  // 每種外觀的扇面形狀（使用者要求功能 UI 符合各外觀的風格）：藍圖一整片、細線分格；地圖分成一塊塊圓角色塊（格與格之間留縫，
+  // 使用者要求地圖一律圓角）；一般是分開的圓角卡片（留縫＋6px 圓角）。換外觀時重建
   const FAB_R = [34, 98, 162];
-  const FAB_SHAPE = { blueprint: { gap: 0, round: 0 }, atlas: { gap: 4, round: 0 }, standard: { gap: 4, round: 6 } };
+  const FAB_SHAPE = { blueprint: { gap: 0, round: 0 }, atlas: { gap: 4, round: 6 }, standard: { gap: 4, round: 6 } };
   const lookNow = () => root.getAttribute('data-look') || 'blueprint';
   const SVGNS = 'http://www.w3.org/2000/svg';
   const sv = (tag, attrs) => {
@@ -577,10 +577,13 @@
     fab.anchor.prepend(buildPie(items));
   }
 
-  // 頭版的過濾（front.js 的快速過濾標籤 .fp-fq）：底部面板列出同樣的領域與則數，按了就代按頁面上那顆標籤——
-  // 選擇、記憶（air-front-filter）、念「顯示 N 則」都照 front.js，這裡只照抄狀態
+  // 頭版的過濾（front.js 的快速過濾標籤 .fp-fq）：底部面板列出同樣的類型與則數，按了就代按頁面上那顆標籤——
+  // 選擇、記憶（air-front-types）、念「顯示 N 則」都照 front.js，這裡只照抄狀態。
+  // 標籤的代號是 data-type、名稱是 .fp-chip-t（舊版 front.js 的標籤是領域：代號與名稱都是 data-group）
   let fq = null;
   const realChips = () => [...document.querySelectorAll('#app .fp-fq .fp-chip')];
+  const chipId = (c) => c.dataset.type || c.dataset.group;
+  const chipName = (c) => { const t = c.querySelector('.fp-chip-t'); return t ? t.textContent : c.dataset.group; };
   function proxyClick(el) {
     proxying = true;
     try { el.click(); } finally { proxying = false; }
@@ -589,7 +592,7 @@
     const chips = realChips();
     let any = false;
     fq.list.querySelectorAll('.fq-item').forEach((b) => {
-      const real = chips.find((c) => c.dataset.group === b.dataset.group);
+      const real = chips.find((c) => chipId(c) === b.dataset.id);
       const on = Boolean(real && real.getAttribute('aria-pressed') === 'true');
       b.setAttribute('aria-pressed', String(on));
       any = any || on;
@@ -609,7 +612,7 @@
       const list = h('ul', { class: 'fq-list', 'aria-labelledby': 'fq-panel-title' });
       const clear = h('button', { type: 'button', class: 'fq-clear', hidden: true }, ['清除']);
       const panel = h('div', { class: 'dd-panel fq-panel', id: 'fq-panel', role: 'dialog', 'aria-labelledby': 'fq-panel-title', hidden: true }, [
-        h('div', { class: 'dd-head' }, [h('span', { class: 'dd-title', id: 'fq-panel-title' }, ['依領域過濾']), clear, close]),
+        h('div', { class: 'dd-head' }, [h('span', { class: 'dd-title', id: 'fq-panel-title' }, ['依類型過濾']), clear, close]),
         list,
       ]);
       const box = h('div', { class: 'dd fq' }, [panel]);
@@ -636,7 +639,7 @@
       close.addEventListener('click', fq.shut);
       list.addEventListener('click', (e) => {
         const b = e.target.closest('.fq-item');
-        const real = b && realChips().find((c) => c.dataset.group === b.dataset.group);
+        const real = b && realChips().find((c) => chipId(c) === b.dataset.id);
         if (real) proxyClick(real);
         syncFilter();
       });
@@ -649,9 +652,9 @@
     // 每次打開照頁面上現在的標籤重列（頭版重畫後領域、則數可能不同）；色塊沿用標籤的領域色
     fq.list.replaceChildren(...chips.map((c) => {
       const n = c.querySelector('.fp-chip-n');
-      const b = h('button', { type: 'button', class: 'fq-item', 'data-group': c.dataset.group, 'aria-pressed': 'false' }, [
+      const b = h('button', { type: 'button', class: 'fq-item', 'data-id': chipId(c), 'aria-pressed': 'false' }, [
         h('span', { class: 'fq-mk', html: ICON.check }),
-        h('span', { class: 'fq-name' }, [c.dataset.group]),
+        h('span', { class: 'fq-name' }, [chipName(c)]),
         h('span', { class: 'pd-n' }, [n && n.firstChild ? n.firstChild.textContent : '']),
       ]);
       const color = getComputedStyle(c).getPropertyValue('--g-c').trim();

@@ -54,10 +54,15 @@
 [data-look=standard] .vw .dd-toggle{margin-right:-10px}
 [data-look=standard] .dd-caret{color:var(--text-3)}
 [data-look=standard] :is(.dd-toggle,.ed-link,.dd-close,.chap-toggle,.fp-act,.fp-chip,.fp-fq-clear,.peek>summary,.more-sum,a):focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+/* 手機：同 report.css，按鈕之間不另留間距、內距隨螢幕寬度伸縮（--ed-pad），本日新聞、本週新聞照樣是圖示＋字；
+   340px 以下「版面」也不保留 40px 寬 */
 @media(max-width:40em){
-[data-look=standard] .editions{min-height:56px}
+[data-look=standard] .editions{min-height:56px;gap:0}
+[data-look=standard] :is(.dd-toggle,.ed-link){padding:0 var(--ed-pad)}
+[data-look=standard] .pd .dd-toggle,[data-look=standard] .editions>.ed-link:first-child{margin-left:calc(-1 * var(--ed-pad))}
 [data-look=standard] .vw .dd-toggle{min-width:40px;justify-content:center}
 }
+@media(max-width:21.25em){[data-look=standard] .vw .dd-toggle{min-width:0;margin-right:calc(-1 * var(--ed-pad))}}
 
 /* ── 下拉面板（日期、章節、版面）：--surface 底、0.5px 框、8px 圓角、淡陰影；目前項目左側 2px 品牌紅線 ── */
 [data-look=standard] .dd-panel{background:var(--surface);border:var(--hair) solid var(--border);border-radius:var(--radius);box-shadow:0 12px 32px -12px rgb(0 0 0 / .25)}
@@ -185,10 +190,10 @@
 [data-look=standard] .fp-act{color:var(--link);font:500 14px/1.3 var(--font-sans)}
 [data-look=standard] .fp-act:hover{color:var(--accent)}
 [data-look=standard] .fp-pre{font:var(--fw-body) 15px/1.6 var(--font-sans);letter-spacing:var(--ls-body);color:var(--text-2)}
-/* 頭條：分類標籤 → 大標題 → 導言（完整摘要）→ 時間 */
+/* 頭條：分類標籤 → 大標題 → 導言（摘要前三行，展開後是完整摘要；使用者要求收合與展開要看得出差別）→ 時間 */
 [data-look=standard] .std-lead .fp-it{padding:4px 0 28px;border-bottom:var(--hair) solid var(--border)}
 [data-look=standard] .std-lead .row-title{font-size:var(--fs-hero);line-height:1.3}
-[data-look=standard] .std-lead .fp-pre{display:block;-webkit-line-clamp:none;line-clamp:none;margin-top:4px;font-size:var(--fs-lead);line-height:1.7}
+[data-look=standard] .std-lead .fp-pre{-webkit-line-clamp:3;line-clamp:3;margin-top:4px;font-size:var(--fs-lead);line-height:1.7}
 [data-look=standard] .std-lead .fp-it .peek>summary{row-gap:8px}
 /* 要聞卡片：兩欄、間距 16px；--surface 底、0.5px 框、8px 圓角；標籤 → 標題 → 兩行摘要 → 時間 */
 [data-look=standard] .std-cards{margin-top:24px}
@@ -240,6 +245,7 @@
 [data-look=standard] .fab-it{background:var(--surface);color:var(--text-2)}
 [data-look=standard] .fab-it:is(.is-hot,.is-focus){background:var(--hover-bg);color:var(--accent)}
 @media(hover:hover){[data-look=standard] .fab-it:hover{background:var(--hover-bg);color:var(--accent)}}
+[data-look=standard] .fab-it[aria-current]{background:color-mix(in srgb,var(--accent) 14%,var(--surface));color:var(--text)}
 [data-look=standard] .fab-it:active{background:var(--text);color:var(--surface)}
 [data-look=standard] .fab-it[aria-current] .fab-ico{box-shadow:0 4px 0 -2px var(--accent)}
 [data-look=standard] .fab-lines path{stroke:var(--border);stroke-width:1}

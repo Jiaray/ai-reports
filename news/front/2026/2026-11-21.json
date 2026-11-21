@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-21",
- "built_at": "2026-11-21T10:22:48+08:00",
+ "built_at": "2026-11-21T15:56:21+08:00",
  "reports": [
   {
    "series": "general",
@@ -66,38 +66,6 @@
    "period": "2026-11-21",
    "count": 15,
    "generated_at": "2026-11-21T10:09:45+08:00"
-  },
-  {
-   "series": "github_weekly",
-   "series_title": "GitHub 趨勢週報",
-   "group": "開源",
-   "period": "2026-W47",
-   "count": 10,
-   "generated_at": "2026-11-20T16:52:07+08:00"
-  },
-  {
-   "series": "ai_weekly",
-   "series_title": "AI 週報",
-   "group": "科技",
-   "period": "2026-W47",
-   "count": 14,
-   "generated_at": "2026-11-20T16:54:23+08:00"
-  },
-  {
-   "series": "reading_list",
-   "series_title": "閱讀清單",
-   "group": "綜合",
-   "period": "2026-W47",
-   "count": 29,
-   "generated_at": "2026-11-21T09:23:44+08:00"
-  },
-  {
-   "series": "cocos_h5_weekly",
-   "series_title": "Cocos／H5 遊戲開發週報",
-   "group": "遊戲",
-   "period": "2026-W47",
-   "count": 20,
-   "generated_at": "2026-11-20T14:19:49+08:00"
   }
  ],
  "entries": [
@@ -824,161 +792,6 @@
      "period": "2026-11-21",
      "no": "13",
      "rank": 5
-    }
-   ]
-  }
- ],
- "weekly": [
-  {
-   "series": "github_weekly",
-   "series_title": "GitHub 趨勢週報",
-   "period": "2026-W47",
-   "date": "2026-11-20",
-   "items": [
-    {
-     "no": "01",
-     "rank": 1,
-     "title": "dream-num/univer：可嵌入產品的開源 Office SDK",
-     "summary_html": "讓開發者把試算表、文件的編輯、計算、協作與檔案處理嵌進自家產品，同時開放給人與 AI 代理人操作。",
-     "url": "https://github.com/dream-num/univer",
-     "src": "GitHub Trending",
-     "left": "This week",
-     "heat": "+7,248 stars this week",
-     "tags": []
-    },
-    {
-     "no": "02",
-     "rank": 2,
-     "title": "GoogleChrome/modern-web-guidance-src：讓程式代理人寫出現代網頁的技能包",
-     "summary_html": "由 Chrome、Edge、Firefox 與 MDN 團隊共同維護，把網頁平台最佳實務與瀏覽器相容性資料直接灌進程式代理人。",
-     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-     "src": "GitHub Trending",
-     "left": "This week",
-     "heat": "+6,858 stars this week",
-     "tags": []
-    },
-    {
-     "no": "04",
-     "rank": 3,
-     "title": "alibaba/open-code-review：阿里巴巴內部 AI 審碼工具開源",
-     "summary_html": "確定性流程結合 LLM 代理人的程式碼審查 CLI，能逐行留言，內建 NPE、執行緒安全、XSS、SQL 注入等多語言規則。",
-     "url": "https://github.com/alibaba/open-code-review",
-     "src": "GitHub Trending",
-     "left": "This week",
-     "heat": "+4,492 stars this week",
-     "tags": []
-    }
-   ]
-  },
-  {
-   "series": "ai_weekly",
-   "series_title": "AI 週報",
-   "period": "2026-W47",
-   "date": "2026-11-20",
-   "items": [
-    {
-     "no": "14",
-     "rank": 1,
-     "title": "黃仁勳辭任 NVIDIA 執行長：開源模型失去最大靠山，但 NVIDIA 仍難被撼動",
-     "summary_html": "NVIDIA 11 月 12 日宣布黃仁勳辭去總裁、執行長與董事職務，Interconnects 談對開源 AI 的衝擊，AI to ROI 談市場與政策連鎖反應。",
-     "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
-     "src": "Interconnects",
-     "left": "11/14 20:23",
-     "heat": "",
-     "tags": []
-    },
-    {
-     "no": "01",
-     "rank": 2,
-     "title": "Mind2Act World：拆解機器人「想」與「做」的診斷基準，最強系統閉環任務成功率僅 12%",
-     "summary_html": "提出 30 個模擬操作任務、180 種配置的診斷基準，分別測「依歷史推理」「精準執行」與兩者閉環組合。",
-     "url": "https://huggingface.co/papers/2611.26444",
-     "src": "HF Papers",
-     "left": "11/20 08:00",
-     "heat": "+33",
-     "tags": []
-    }
-   ]
-  },
-  {
-   "series": "reading_list",
-   "series_title": "閱讀清單",
-   "period": "2026-W47",
-   "date": "2026-11-21",
-   "items": [
-    {
-     "no": "17",
-     "rank": 1,
-     "title": "Anthropic 以 813 億美元完成史上最大 IPO，首日收漲 17%",
-     "summary_html": "Latent Space 的 AINews 報導，Anthropic 以每股 83 美元定價，在 Nasdaq 以 $ANT 掛牌，開盤 111.50 美元、比 IPO 價高 34.3%，開盤時完全稀釋估值約 2 兆美元；收盤 97.17 美元、漲 17%，盤後跌約 5% 至 92.60 美元。這次募資 813 億美元，超過 SpaceX 6 月的 750 億美元，成為史上最大 IPO；含同步私募的預期淨收入 1,048 億美元，AMD 同意隨 IPO 投資 25 億美元。Dario 與 Daniela Amodei 藉此宣示，Anthropic 會依能否確保系統安全、維持在人類控制下來決定訓練與部署的節奏；Dario 的上市談話說，強大的 AI 與人類合作「可能把一個世紀的科學與醫學進展壓縮到十年」，並點名濫用、經濟衝擊與失控三類風險。F 類股在多數股東事項上握有 50.1% 投票權；依 SEC 文件與投資人估算，員工平均身家可能超過 4,000 萬美元。",
-     "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
-     "src": "Latent Space",
-     "left": "11/20 15:12",
-     "heat": "",
-     "tags": []
-    },
-    {
-     "no": "25",
-     "rank": 2,
-     "title": "卡內基美隆大學把資工課程免費放上 YouTube，含 AI 代理、ML 系統等研究所課程",
-     "summary_html": "卡內基美隆大學（CMU）推出 CS Learn，把七個系所的完整課堂錄影免費放上 YouTube，涵蓋 AI、機器人、系統、生物等領域。已上線的包括 10-605 大型資料集機器學習、15-110 計算原理、17-214 軟體建構原理、15-442 機器學習系統（陳天奇與 Zhihao Jia）、17-635 軟體架構、11-768 AI 代理（Daniel Fried 與 Graham Neubig）、17-645 生產環境中的機器學習等；2027 年 1 月再上線機率與計算、多模態機器學習、產品管理、AI 與機器學習等課。下一步是以 CMU 真實課程製作的自學教材，附即時回饋與徽章，之後加入 AI 家教；網站同時導向 CMU Online 的付費學分與企業培訓。CS Learn 由學生在 ScottyLabs 支援下打造。",
-     "url": "https://www.cs.cmu.edu/learn/",
-     "src": "Hacker News（本週）",
-     "left": "11/17 04:43",
-     "heat": "HN 2377",
-     "tags": []
-    },
-    {
-     "no": "11",
-     "rank": 3,
-     "title": "前白宮國安會官員 Julian Gewirtz：北京真正害怕的 AI 風險與美中協議的可能",
-     "summary_html": "80000 Hours 訪問歷史學者、拜登政府國安會前中國與台灣事務資深主任 Julian Gewirtz。他認為談北京是否重視 AI 風險，要「從中國的實際狀況與中共在意什麼出發」：中共最在意政權安全，中文論述裡的「極端失控風險」同時指失去政治控制與失去對 AI 系統的控制。他說最可能改變北京立場的是中國自身對風險的認知，其次是看到美國在國內監管 AI，作為華府認真看待風險的「昂貴訊號」；過去一年左右影響北京最大的是 Anthropic 的 Claude Mythos，加深了它對美國網路能力的憂慮。他主張從雙方利益一致處（如都不想失去對 AI 的控制）平行行動、逐步累積；許多中國 AI 公司已相信 AGI，政府較不然，但「連這點也在改變」，轉變的明確證據會是集中算力或大量採購北京至今限量的 Nvidia 晶片等實質行動。節目錄於 10 月 2 日。",
-     "url": "https://80000hours.org/podcast/episodes/julian-gewirtz-china-us-ai-deal/",
-     "src": "80000 Hours",
-     "left": "11/20 01:09",
-     "heat": "",
-     "tags": []
-    }
-   ]
-  },
-  {
-   "series": "cocos_h5_weekly",
-   "series_title": "Cocos／H5 遊戲開發週報",
-   "period": "2026-W47",
-   "date": "2026-11-20",
-   "items": [
-    {
-     "no": "01",
-     "rank": 1,
-     "title": "Cocos 新版建置面板入口拆成三個、建置記錄改不了名，Dashboard 被指自動下載引擎佔 40GB",
-     "summary_html": "多位開發者回報 Creator 建置面板突然換成新版，zerozerg 說事先不知道有更新、3.8.2 和 3.8.7 都變了，找不到舊的單一入口，建置記錄也改不了名；本週沒有官方回應。",
-     "url": "https://forum.cocos.org/t/topic/178198",
-     "src": "Cocos 中文社區",
-     "left": "11/19 11:11",
-     "heat": "501 瀏覽 / 14 回覆",
-     "tags": []
-    },
-    {
-     "no": "18",
-     "rank": 2,
-     "title": "歐盟提出 Digital Fairness Act 草案：虛擬貨幣要標示實際金額、未成年預設停用，禁止對未成年販售轉蛋",
-     "summary_html": "歐盟執委會本週提出 71 頁的 Digital Fairness Act（DFA）草案，適用全體會員國，把遊戲的轉蛋、虛擬貨幣與 UX 設計納入規範；免費遊戲首當其衝，使用同類機制的買斷制遊戲也可能適用。",
-     "url": "https://www.gamedeveloper.com/business/european-union-proposes-digital-fairness-act-which-could-have-major-effects-on-game-development",
-     "src": "Game Developer",
-     "left": "11/14 02:32",
-     "heat": "",
-     "tags": []
-    },
-    {
-     "no": "15",
-     "rank": 3,
-     "title": "PixiJS 3D 開放測試：WebGPU 優先、可退回 WebGL2，3D 場景像 Sprite 一樣加進 2D 舞台，MIT 授權",
-     "summary_html": "PixiJS 宣布 PixiJS 3D 進入 open beta，PixiJS 從 2D 擴充成同時是 2D 與 3D 引擎，兩者共用同一個 stage。",
-     "url": "https://pixijs.com/blog/pixi-3d-open-beta",
-     "src": "Hacker News（本週）",
-     "left": "11/14 06:15",
-     "heat": "HN 19",
-     "tags": []
     }
    ]
   }

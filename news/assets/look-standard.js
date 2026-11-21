@@ -1,7 +1,8 @@
 /* 外觀「一般」（data-look=standard）的頭版排版與瀏覽器頂列顏色。樣式在 look-standard.css。
    index.html 在 bar.js 之後、report.js／front.js 之前載入（都是 defer），掛在 window.AIR.look。
    1. arrangeFront(main)：front.js 畫好時間軸後，把同一批條目（.fp-it，含「新」標記、過濾用的 data-fq）搬成
-      頭條（第一順位裡出自最多份報告的那則）＋要聞卡片（其餘第一順位）＋週報與月報＋右側「即時新聞」（其餘條目，新到舊）。
+      頭條（第一順位裡出自最多份報告的那則）＋要聞卡片（其餘第一順位）＋右側「即時新聞」（其餘條目，新到舊）。
+      「週報與月報」那塊只給舊版 front.js（每日頭版還畫週報、條目沒有 key）用；現在週報月報在每週頭版，條目都有 key。
       只搬元素、不重建：展開、過濾、記「看過」都照 front.js 原本的做法。每塊都是 .fp-sec，過濾後沒有條目就整塊藏起來。
    2. theme-color：一般外觀時讓手機瀏覽器的頂列用 Header 的底色（--surface），其他外觀拿掉這個 meta、維持原狀。 */
 (() => {

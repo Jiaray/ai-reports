@@ -12,6 +12,17 @@
    --bar-h 是 bar.js 量到的工具列高度：錨點跳轉（章節、#item-NN）停在工具列下面，頭版的整點標題黏在它下面 */
 .editions{position:sticky;top:0;z-index:20;background:var(--color-bg)}
 .editions.is-stuck{box-shadow:0 1px 0 var(--color-divider)}
+/* 藍圖外觀的圖面細節（site.css 開頭有總說明）：工具列上緣是圖框的雙細線（1px 實線＋下方 3px 再一條 1px，--rule 色；
+   細線畫在背景，底色照樣蓋住捲過去的內容），按鈕字距略開；面板、功能鈕、回到頂端的頂線同樣改成 1px --rule，
+   面板底色比圖紙亮一階、陰影柔一點；熱門徽章是紅線框（像圖面上的修訂紅線），不填滿紅底 */
+:root:not([data-look=atlas],[data-look=standard]) .editions{border-top:1px solid var(--rule);background:linear-gradient(var(--rule),var(--rule)) 0 3px/100% 1px no-repeat,var(--color-bg)}
+:root:not([data-look=atlas],[data-look=standard]) :is(.dd-toggle,.ed-link){letter-spacing:.04em}
+:root:not([data-look=atlas],[data-look=standard]) .mast-title{letter-spacing:.03em}
+:root:not([data-look=atlas],[data-look=standard]) .dd-panel{background:var(--color-neutral-100);border-color:var(--color-divider);border-top:1px solid var(--rule);box-shadow:0 28px 56px -28px rgb(0 0 0 / .55)}
+:root:not([data-look=atlas],[data-look=standard]) .dd .dd-panel.is-sheet{border-top:1px solid var(--rule)}
+:root:not([data-look=atlas],[data-look=standard]) :is(.fab-btn,.has-fab .to-top){border:1px solid var(--color-divider);border-top-color:var(--rule)}
+:root:not([data-look=atlas],[data-look=standard]) .fab-lines .fab-rim{stroke:var(--rule);stroke-width:1}
+:root:not([data-look=atlas],[data-look=standard]) .hot-badge{background:transparent;color:var(--color-hot);box-shadow:inset 0 0 0 1px var(--color-hot)}
 :root{scroll-padding-top:calc(var(--bar-h, 0px) + 8px)}
 /* 非當期提示（bar.js 的 staleBanner；使用者在四種樣式中選定「貼齊頂端的整條橫幅」）：在工具列上面、貼齊視窗頂端、
    整個視窗寬的黃色半透明橫幅，文字置中。不凍結（指南：不要疊兩條黏頂的列），捲動時捲走、工具列照樣凍結。
@@ -59,21 +70,24 @@
 .pd .dd-toggle,.editions>.ed-link:first-child{margin-left:calc(-1 * var(--space-3))}
 .vw .dd-toggle{margin-right:calc(-1 * var(--space-3))}
 /* 手機：日期、本日新聞、本週新聞、版面放在同一列，不換行也不橫向捲動。日期改短寫（11/20 週五、第 47 週），
-   「本日新聞」「本週新聞」只留字，「版面」只露圖示（字留給報讀器唸），按鈕之間的間距收掉（按鈕自己的內距就是間隔）；
-   特別窄（340px 以下）日期也拿掉月曆圖示、內距再收窄 */
+   「本日新聞」「本週新聞」照樣是圖示＋字（使用者要求：圖示同右下角扇面的那兩格，看得出是同一組功能；扇面的圖示就是從這裡讀的），
+   「版面」只露圖示（字留給報讀器唸），按鈕之間的間距收掉（按鈕自己的內距就是間隔）。
+   內距（--ed-pad）隨螢幕寬度在 4px 到 --space-3 之間伸縮；再窄依序：日期拿掉月曆圖示（356px 以下）、字與圖示小一號（340px 以下） */
 .pd-short{display:none}
 @media(max-width:40em){
-.editions{gap:0}
+.editions{gap:0;--ed-pad:clamp(4px,(100vw - 336px) / 6,var(--space-3))}
+.editions :is(.dd-toggle,.ed-link){padding:0 var(--ed-pad)}
+.editions .pd .dd-toggle,.editions>.ed-link:first-child{margin-left:calc(-1 * var(--ed-pad))}
+.editions .vw .dd-toggle{margin-right:calc(-1 * var(--ed-pad))}
+.editions .ed-link{gap:4px}
 .editions .vw .dd-txt{position:absolute;clip-path:inset(50%);overflow:hidden;width:1px;height:1px;margin:-1px;white-space:nowrap}
-.editions .ed-link .dd-ico{display:none}
 .pd-long{display:none}
 .pd-short{display:inline}
 }
+@media(max-width:22.25em){.editions .pd .dd-ico{display:none}}
 @media(max-width:21.25em){
-.editions .pd .dd-ico{display:none}
-.editions .dd-toggle,.editions .ed-link{padding:0 6px}
-.editions .pd .dd-toggle,.editions>.ed-link:first-child{margin-left:-6px}
-.editions .vw .dd-toggle{margin-right:-6px}
+.editions :is(.dd-toggle,.ed-link){font-size:14px}
+.editions .ed-link .dd-ico svg{width:16px;height:16px}
 }
 .dd-ico,.dd-ico svg,.dd-caret,.dd-caret svg,.dd-close svg{display:block;flex:none}
 .dd-caret{margin-left:-2px;color:var(--color-neutral-600)}
@@ -170,6 +184,17 @@
 [data-look=atlas] .tag{font:600 12px/1.5 var(--font-body);letter-spacing:.02em}
 [data-look=atlas] .tag-neutral{background:var(--color-neutral-200)}
 [data-look=atlas] .foot{border-top:1px solid var(--color-divider);font-family:var(--font-body)}
+/* 地圖外觀一律圓角（使用者要求：按鈕、選單、標籤等各種 UI 不要同藍圖的銳角）：小元件 --r-sm、面板與色塊框 --r-md、
+   色塊記號 2px。條目左緣的色線不加（直線才像地圖的圖例條）；淡底的條目只有右側兩角圓。頭版的標籤在 front.css，扇面的圓角在 bar.js 的 FAB_SHAPE */
+:root[data-look=atlas]{--r-sm:6px;--r-md:10px}
+[data-look=atlas] :is(.dd-toggle,.ed-link,.chap-toggle,.dd-close,.vw-seg button,.pd-item,.chap-item,.fq-item,.fq-clear,.tag,.hot-badge,.more-sum,.fab-btn,.to-top,.fab-tip,.skip-link){border-radius:var(--r-sm)}
+[data-look=atlas] :is(.row-dive,.vw-seg){border-radius:var(--r-md)}
+[data-look=atlas] .vw-seg{overflow:hidden}
+[data-look=atlas] .dd-panel{border:1px solid var(--color-divider);border-radius:var(--r-md);box-shadow:0 18px 40px -20px rgb(0 0 0 / .45)}
+[data-look=atlas] .dd .dd-panel.is-sheet{border-radius:16px 16px 0 0}
+[data-look=atlas] .dd .dd-panel.is-sheet::before{border-radius:2px}
+[data-look=atlas] :is(.chap-sec::before,.sec-tab::before,.dive-label::before,.fq-mk){border-radius:2px}
+[data-look=atlas] .ed-link[aria-current]{box-shadow:none;background:var(--color-neutral-200);color:var(--color-text)}
 @media(max-width:40em){
 [data-look=atlas] .masthead{padding-top:var(--space-6);background-size:360px auto;background-position:right -110px top -30px}
 [data-look=atlas] .mast-title{font-size:28.9px}
@@ -288,7 +313,7 @@
    只在窄版出現。功能鈕和回到頂端是一對（使用者要求大小相同）：都是 44px 方塊、同一套外框，回到頂端疊在正上方（間隔 8px）；
    圖示是一把從右下角張開的扇子，展開時變 ×、按鈕換成選中色（同分段選項選中那格）。後面一層由角落往外漸淡的霧面。
    扇面的內圈前往（本日新聞、本週新聞）、外圈打開面板（日期、章節或頭版的過濾、版面）；名稱（.fab-tip）只在手指按住滑過、
-   鍵盤聚焦時浮在圖示上方。這裡是藍圖的樣子：方角、細線、頂端 2px 墨色線（同面板），扇面一整片、細線分格、外緣墨色線；
+   鍵盤聚焦時浮在圖示上方。目前位置（同工具列的本日新聞／本週新聞）那格換一個底色（使用者要求），圖示下照舊一條主色線。這裡是藍圖的樣子：方角、細線、頂端 2px 墨色線（同面板），扇面一整片、細線分格、外緣墨色線；
    地圖接在後面（[data-look=atlas]），一般在 look-standard.css。
    --fab-ready：bar.js 確認這段樣式已載入才裝功能鈕（部署後的快取空窗） */
 :root{--fab-ready:1;--fab-size:44px;--fab-x:max(16px,env(safe-area-inset-right,0px));--fab-y:max(16px,env(safe-area-inset-bottom,0px))}
@@ -313,6 +338,7 @@
 .fab-it:is(.is-hot,.is-focus){background:var(--color-accent-100);color:var(--color-accent-700)}
 @media(hover:hover){.fab-it:hover{background:var(--color-accent-100);color:var(--color-accent-700)}}
 .fab-it:focus{outline:0}
+.fab-it[aria-current]{background:color-mix(in srgb,var(--color-accent-600) 30%,var(--color-bg));color:var(--color-accent-800)}
 .fab-it:active{background:var(--vw-on-bg);color:var(--vw-on-fg)}
 .fab-in{position:absolute;translate:-50% -50%}
 .fab-ico,.fab-ico svg{display:block;width:20px;height:20px}
@@ -355,6 +381,7 @@ html.has-fab .wrap{padding-bottom:calc(var(--space-6) + 112px)}
 [data-look=atlas] .fab-it{background:var(--color-neutral-200);color:var(--color-neutral-800)}
 [data-look=atlas] .fab-it:is(.is-hot,.is-focus){background:var(--color-accent-100);color:var(--color-accent-700)}
 @media(hover:hover){[data-look=atlas] .fab-it:hover{background:var(--color-accent-100);color:var(--color-accent-700)}}
+[data-look=atlas] .fab-it[aria-current]{background:color-mix(in srgb,var(--color-accent-600) 34%,var(--color-neutral-200));color:var(--color-accent-800)}
 [data-look=atlas] .fab-it:active{background:var(--color-accent-600);color:var(--color-bg)}
 [data-look=atlas] .fab-lines path{stroke:none}
 [data-look=atlas] .fab-lines :is(.is-hot,.is-focus){stroke:var(--color-accent-600);stroke-width:2}

@@ -1,21 +1,24 @@
 {
  "schema": 1,
- "updated_at": "2026-11-21T10:22:48+08:00",
+ "updated_at": "2026-11-21T15:56:21+08:00",
  "dates": [
   {
    "date": "2026-11-21",
-   "count": 31,
-   "weekly": 11
+   "count": 31
   },
   {
    "date": "2026-11-20",
-   "count": 43,
-   "weekly": 8
+   "count": 43
   },
   {
    "date": "2026-11-19",
-   "count": 13,
-   "weekly": 0
+   "count": 13
+  }
+ ],
+ "weeks": [
+  {
+   "week": "2026-W47",
+   "count": 11
   }
  ]
 }

@@ -90,8 +90,8 @@
   }
 
   // 報頭最上面那一列（使用者要求：所有頁面同一列，頭版也是）：左上角日期（點開是這天有的新聞與有新聞的日期）、
-  // 「本日新聞」（回 news/ 的頭版）、「本週新聞」（最新一期週報）、右上角「版面」；元件在 bar.js。
-  // 兩顆連結也是日報、週報兩邊的切換：日報頁標「本日新聞」、週報頁標「本週新聞」為目前位置
+  // 「本日新聞」（回 news/ 的每日頭版）、「本週新聞」（news/?w 的每週頭版）、右上角「版面」；元件在 bar.js。
+  // 兩顆連結也是日報、週報兩邊的切換：日報頁標「本日新聞」、週報與月報頁標「本週新聞」為目前位置（月報收在每週頭版）
   // （不只靠顏色：主文字色＋底線；aria-current 是 true，表示同一邊、不是那一頁本身）
   const cadenceOf = (e) => (e && e.cadence) || 'daily';
   function editions(cur) {
@@ -104,13 +104,11 @@
     ]);
   }
 
-  // 「本週新聞」（使用者要求：最上方一顆切到週報的按鈕，字數同「本日新聞」）：連到最新一期週報，不分類型；
-  // 還沒有任何週報就不顯示（使用者選定，同「有報告才列出」）。週報頁上標成目前位置：正是那一期 page，其他週報 true
+  // 「本週新聞」（使用者要求：最上方一顆切到週報的按鈕，字數同「本日新聞」）：連到每週頭版的最新一週（使用者要求：
+  // 本週新聞也有自己的頭版）；還沒有任何週報、月報就不顯示（使用者選定，同「有報告才列出」）。週報、月報頁上標成目前位置（true）
   function weeklyLink(cur) {
-    const w = all.find((e) => e.cadence === 'weekly'); // all 已依新到舊排序
-    if (!w) return null;
-    return B.navLink('本週新聞', 'weekly', link(w.series, w.period),
-      cur && cur.cadence === 'weekly' ? (keyOf(cur) === keyOf(w) ? 'page' : 'true') : null);
+    if (!all.some((e) => cadenceOf(e) !== 'daily')) return null;
+    return B.navLink('本週新聞', 'weekly', '?w', cur && cadenceOf(cur) !== 'daily' ? 'true' : null);
   }
 
   // 類型順序：index.json 的系列順序，不在裡面的排最後

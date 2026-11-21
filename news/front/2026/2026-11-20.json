@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-20",
- "built_at": "2026-11-21T02:47:03+08:00",
+ "built_at": "2026-11-21T15:56:21+08:00",
  "reports": [
   {
    "series": "general",
@@ -66,30 +66,6 @@
    "period": "2026-11-20",
    "count": 15,
    "generated_at": "2026-11-20T18:21:57+08:00"
-  },
-  {
-   "series": "github_weekly",
-   "series_title": "GitHub 趨勢週報",
-   "group": "開源",
-   "period": "2026-W47",
-   "count": 10,
-   "generated_at": "2026-11-20T16:52:07+08:00"
-  },
-  {
-   "series": "ai_weekly",
-   "series_title": "AI 週報",
-   "group": "科技",
-   "period": "2026-W47",
-   "count": 14,
-   "generated_at": "2026-11-20T16:54:23+08:00"
-  },
-  {
-   "series": "cocos_h5_weekly",
-   "series_title": "Cocos／H5 遊戲開發週報",
-   "group": "遊戲",
-   "period": "2026-W47",
-   "count": 20,
-   "generated_at": "2026-11-20T14:19:49+08:00"
   },
   {
    "series": "gamedev",
@@ -1077,120 +1053,6 @@
      "period": "2026-11-20",
      "no": "16",
      "rank": 5
-    }
-   ]
-  }
- ],
- "weekly": [
-  {
-   "series": "github_weekly",
-   "series_title": "GitHub 趨勢週報",
-   "period": "2026-W47",
-   "date": "2026-11-20",
-   "items": [
-    {
-     "no": "01",
-     "rank": 1,
-     "title": "dream-num/univer：可嵌入產品的開源 Office SDK",
-     "summary_html": "讓開發者把試算表、文件的編輯、計算、協作與檔案處理嵌進自家產品，同時開放給人與 AI 代理人操作。",
-     "url": "https://github.com/dream-num/univer",
-     "src": "GitHub Trending",
-     "left": "This week",
-     "heat": "+7,248 stars this week",
-     "tags": []
-    },
-    {
-     "no": "02",
-     "rank": 2,
-     "title": "GoogleChrome/modern-web-guidance-src：讓程式代理人寫出現代網頁的技能包",
-     "summary_html": "由 Chrome、Edge、Firefox 與 MDN 團隊共同維護，把網頁平台最佳實務與瀏覽器相容性資料直接灌進程式代理人。",
-     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-     "src": "GitHub Trending",
-     "left": "This week",
-     "heat": "+6,858 stars this week",
-     "tags": []
-    },
-    {
-     "no": "04",
-     "rank": 3,
-     "title": "alibaba/open-code-review：阿里巴巴內部 AI 審碼工具開源",
-     "summary_html": "確定性流程結合 LLM 代理人的程式碼審查 CLI，能逐行留言，內建 NPE、執行緒安全、XSS、SQL 注入等多語言規則。",
-     "url": "https://github.com/alibaba/open-code-review",
-     "src": "GitHub Trending",
-     "left": "This week",
-     "heat": "+4,492 stars this week",
-     "tags": []
-    }
-   ]
-  },
-  {
-   "series": "ai_weekly",
-   "series_title": "AI 週報",
-   "period": "2026-W47",
-   "date": "2026-11-20",
-   "items": [
-    {
-     "no": "14",
-     "rank": 1,
-     "title": "黃仁勳辭任 NVIDIA 執行長：開源模型失去最大靠山，但 NVIDIA 仍難被撼動",
-     "summary_html": "NVIDIA 11 月 12 日宣布黃仁勳辭去總裁、執行長與董事職務，Interconnects 談對開源 AI 的衝擊，AI to ROI 談市場與政策連鎖反應。",
-     "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
-     "src": "Interconnects",
-     "left": "11/14 20:23",
-     "heat": "",
-     "tags": []
-    },
-    {
-     "no": "01",
-     "rank": 2,
-     "title": "Mind2Act World：拆解機器人「想」與「做」的診斷基準，最強系統閉環任務成功率僅 12%",
-     "summary_html": "提出 30 個模擬操作任務、180 種配置的診斷基準，分別測「依歷史推理」「精準執行」與兩者閉環組合。",
-     "url": "https://huggingface.co/papers/2611.26444",
-     "src": "HF Papers",
-     "left": "11/20 08:00",
-     "heat": "+33",
-     "tags": []
-    }
-   ]
-  },
-  {
-   "series": "cocos_h5_weekly",
-   "series_title": "Cocos／H5 遊戲開發週報",
-   "period": "2026-W47",
-   "date": "2026-11-20",
-   "items": [
-    {
-     "no": "01",
-     "rank": 1,
-     "title": "Cocos 新版建置面板入口拆成三個、建置記錄改不了名，Dashboard 被指自動下載引擎佔 40GB",
-     "summary_html": "多位開發者回報 Creator 建置面板突然換成新版，zerozerg 說事先不知道有更新、3.8.2 和 3.8.7 都變了，找不到舊的單一入口，建置記錄也改不了名；本週沒有官方回應。",
-     "url": "https://forum.cocos.org/t/topic/178198",
-     "src": "Cocos 中文社區",
-     "left": "11/19 11:11",
-     "heat": "501 瀏覽 / 14 回覆",
-     "tags": []
-    },
-    {
-     "no": "18",
-     "rank": 2,
-     "title": "歐盟提出 Digital Fairness Act 草案：虛擬貨幣要標示實際金額、未成年預設停用，禁止對未成年販售轉蛋",
-     "summary_html": "歐盟執委會本週提出 71 頁的 Digital Fairness Act（DFA）草案，適用全體會員國，把遊戲的轉蛋、虛擬貨幣與 UX 設計納入規範；免費遊戲首當其衝，使用同類機制的買斷制遊戲也可能適用。",
-     "url": "https://www.gamedeveloper.com/business/european-union-proposes-digital-fairness-act-which-could-have-major-effects-on-game-development",
-     "src": "Game Developer",
-     "left": "11/14 02:32",
-     "heat": "",
-     "tags": []
-    },
-    {
-     "no": "15",
-     "rank": 3,
-     "title": "PixiJS 3D 開放測試：WebGPU 優先、可退回 WebGL2，3D 場景像 Sprite 一樣加進 2D 舞台，MIT 授權",
-     "summary_html": "PixiJS 宣布 PixiJS 3D 進入 open beta，PixiJS 從 2D 擴充成同時是 2D 與 3D 引擎，兩者共用同一個 stage。",
-     "url": "https://pixijs.com/blog/pixi-3d-open-beta",
-     "src": "Hacker News（本週）",
-     "left": "11/14 06:15",
-     "heat": "HN 19",
-     "tags": []
     }
    ]
   }

@@ -1,5 +1,7 @@
-/* 頭版（news/ 不帶 t 參數）：讀 index.json（類型設定與各類型最新報告）、front/index.json（有頭版的日期，新到舊）
-   與當天的頭版檔 front/<年>/<日期>.json，照使用者選定的樣版 B（整點分組時間軸）渲染。?f=YYYY-MM-DD 開指定日期。
+/* 頭版（news/ 不帶 t 參數）：讀 index.json（類型設定與各類型最新報告）、front/index.json（有頭版的日期與週，新到舊）
+   與那一期的頭版檔，照使用者選定的樣版 B（時間軸）渲染。兩種頭版（使用者要求：日報的頭版不放週報，週報另有自己的頭版）：
+   - 每日頭版（本日新聞）：news/ 開最新一天、?f=YYYY-MM-DD 開指定日期；檔案 front/<年>/<日期>.json，依整點分組。
+   - 每週頭版（本週新聞）：news/?w 開最新一週、?w=YYYY-Www 開指定週；檔案 front/<ISO 年>/<YYYY-Www>.json（當週的週報與月報），依日期分組。
    帶 t 參數是報告頁，這支什麼都不做（交給 report.js）。site.js 是 defer、排在本檔前面，執行時 window.AIR 已經在。
    *_html 欄位是 publish.py 淨化過的片段（只留 http/https 連結與粗體），其餘欄位一律當純文字（AIR.h 的子節點字串）。 */
 (() => {
@@ -31,10 +33,16 @@
   const WEEK = '日一二三四五六';
   const TAIPEI_MS = 8 * 3600 * 1000;
   const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
+  const WEEK_RE = /^\d{4}-W\d{2}$/;
   const SEEN_KEY = 'air-front-seen';
   const SEEN_DAYS = 7;
-  const FILTER_KEY = 'air-front-filter'; // 快速過濾選了哪些領域（["國際","財經"]）
-  const want = query.get('f'); // 指定日期；沒有就開最新一天（書籤與主畫面固定開最新）
+  const SEEN_WEEKS = 2;
+  const FILTER_KEY = 'air-front-types'; // 快速過濾選了哪些類型（["finance","gambling"]）
+  try { localStorage.removeItem('air-front-filter'); } catch (e) { /* 舊版依領域過濾的選擇，已不用 */ }
+  const weekMode = query.has('w'); // 每週頭版
+  const PERIOD_RE = weekMode ? WEEK_RE : DATE_RE;
+  // 指定的日期（週）；沒有就開最新一期（書籤與主畫面固定開最新）
+  const want = (weekMode ? query.get('w') : query.get('f')) || null;
 
   // 條目沿用報告頁速讀讀法的樣式（報告頁的讀法選擇不影響頭版）。外觀和報告頁共用 air-news-look：
   // 記住的是「一般」就用一般（look-standard.js 把時間軸搬成頭條＋要聞卡片＋即時新聞）；「地圖」用地圖的樣式
@@ -55,7 +63,7 @@
   app.classList.add('fp');
 
   let index = null; // news/index.json；抓不到時為 null，類型資訊改用頭版檔自己的 reports
-  let dates = []; // 有頭版的日期，新到舊
+  let dates = []; // 有頭版的日期（每週頭版：週），新到舊
   let front = null; // 目前顯示的頭版檔
   let fpBox = null; // 「版面」按鈕＋面板（layoutPanel 建一次），每次重畫時放進報頭上方那一列的右端
   const marked = new Map(); // 這次開頁以來標過「新」的 key（日期 → Set）：回前景重畫時照樣標著
@@ -67,6 +75,14 @@
   const weekday = (iso) => WEEK[new Date(`${iso}T00:00:00Z`).getUTCDay()];
   const md = (iso) => `${+iso.slice(5, 7)}/${+iso.slice(8, 10)}`; // 2026-11-18 → 11/18
   const dayLabel = (iso) => `${md(iso)}（${weekday(iso)}）`; // → 11/18（三）
+  // ISO 週（同週報期別 YYYY-Www）：那一週的星期四落在哪一年就是哪一年的週
+  function isoWeek(iso) {
+    const t = new Date(`${iso}T00:00:00Z`);
+    t.setUTCDate(t.getUTCDate() + 4 - (t.getUTCDay() || 7));
+    const y = t.getUTCFullYear();
+    return `${y}-W${String(Math.ceil(((t - Date.UTC(y, 0, 1)) / 86400000 + 1) / 7)).padStart(2, '0')}`;
+  }
+  const period = () => (weekMode ? front.week : front.date); // 這頁的期別
 
   // ── 類型 ──────────────────────────────────────────────────────────
   // 類型順序（spec 6.3）：index.json 的 series 順序；不在裡面的臨時主題排最後、彼此依代號排
@@ -75,13 +91,6 @@
     return order.includes(id) ? order.indexOf(id) : order.length;
   }
   const bySeries = (a, b) => seriesRank(a) - seriesRank(b) || (a < b ? -1 : a > b ? 1 : 0);
-  // 領域順序：series 裡第一次出現的順序（＝選單順序）；不在裡面的排最後、彼此依名稱排
-  function groupRank(g) {
-    const order = [];
-    ((index && index.series) || []).forEach((s) => { if (s && s.group && !order.includes(s.group)) order.push(s.group); });
-    return order.includes(g) ? order.indexOf(g) : order.length;
-  }
-  const byGroup = (a, b) => groupRank(a) - groupRank(b) || (a < b ? -1 : a > b ? 1 : 0);
   // 類型的短名、標題、領域與週期：短名一律取資料的 series[].short（不從標題推）；舊資料沒有 short 時用標題
   function seriesMeta(id) {
     const s = ((index && index.series) || []).find((x) => x.id === id);
@@ -118,13 +127,15 @@
       return {}; // 內容壞了：當作沒看過，之後重寫
     }
   }
-  const keepFrom = () => addDays(today(), 1 - SEEN_DAYS);
-  // 這一天要標「新」的 key：第一次看這天全部不標（之後才進來的才標）；太舊的日期不記也不標
+  // 記多久：日期留 7 天、週留 2 週（含這週）
+  const keep = (p) => (DATE_RE.test(p) ? p >= addDays(today(), 1 - SEEN_DAYS)
+    : WEEK_RE.test(p) && p >= isoWeek(addDays(today(), -7 * (SEEN_WEEKS - 1))));
+  // 這一天（週）要標「新」的 key：第一次看全部不標（之後才進來的才標）；太舊的不記也不標
   function freshKeys(date, keys) {
     const set = marked.get(date) || new Set();
     marked.set(date, set);
     const all = readSeen();
-    if (all && date >= keepFrom() && Array.isArray(all[date])) {
+    if (all && keep(date) && Array.isArray(all[date])) {
       const before = new Set(all[date]);
       keys.forEach((k) => { if (!before.has(k)) set.add(k); });
     }
@@ -133,10 +144,10 @@
   // 畫面渲染後記下這天的 key（和舊紀錄合併），順便丟掉 7 天前的紀錄
   function remember(date, keys) {
     const all = readSeen();
-    if (!all || date < keepFrom()) return;
+    if (!all || !keep(date)) return;
     const next = {};
     Object.keys(all).forEach((d) => {
-      if (DATE_RE.test(d) && d >= keepFrom() && Array.isArray(all[d])) next[d] = all[d].filter((k) => typeof k === 'string');
+      if (keep(d) && Array.isArray(all[d])) next[d] = all[d].filter((k) => typeof k === 'string');
     });
     next[date] = [...new Set([...(next[date] || []), ...keys])];
     try {
@@ -208,7 +219,7 @@
   // 摘要的純文字（要聞收合時的兩行預覽用）：DOMParser 不執行腳本、不載圖片
   const plainText = (html) => new DOMParser().parseFromString(html, 'text/html').body.textContent.trim();
 
-  // 整點標題（黏在頂端）：「10:00」，不是頭版那天的加註日期；週報月報、沒有時間的條目也用同一種標題
+  // 時段標題（黏在頂端）：每日頭版是整點「10:00」（不是頭版那天的加註日期），每週頭版是日期「11/20（五）」；沒有時間的條目也用同一種標題
   const hourHead = (label, day) => h('h2', { class: 'fp-hr' }, [label, day ? h('span', { class: 'fp-hr-day' }, [day]) : null]);
 
   // ── 一則條目 ──────────────────────────────────────────────────────
@@ -217,7 +228,7 @@
   // 原生 <details>：鍵盤、報讀器、「在頁面中尋找」（收合的摘要也搜得到、找到時自動展開）都直接可用。
   // summary 裡的標題用 span、不用 h3（同報告頁速讀：部分螢幕閱讀器把 summary 當按鈕，會丟掉裡面的標題），也不放連結。
   // o.id：元素 id；o.types：類型 id（第一個決定色線）；o.stamp：類型後面的灰字節點；o.lead：要聞；o.isNew：標「新」；o.read：「看 AI 解讀」網址；
-  // o.key：頭版條目的 key（記「看過」用，週報月報沒有）。data-fq 是這則所屬的領域（各類型的 group，空白分隔），快速過濾比對用
+  // o.key：頭版條目的 key（記「看過」用）。data-fq 是這則的類型（類型代號，空白分隔），快速過濾比對用
   function tlRow(it, o) {
     const hot = hotInfo(it);
     const title = h('span', { class: 'row-title' }, [it.title || '']);
@@ -243,9 +254,9 @@
     const cls = ['fp-row', 'fp-it'];
     if (o.lead) cls.push('is-lead');
     if (hot) cls.push('is-hot');
-    const groups = [...new Set(types.map((t) => seriesMeta(t).group))];
     return h('article', {
-      class: cls.join(' '), id: o.id, 'data-group': groups[0] || null, 'data-fq': groups.join(' '), 'data-key': o.key || null,
+      class: cls.join(' '), id: o.id, 'data-group': types.length ? seriesMeta(types[0]).group : null, 'data-fq': types.join(' '),
+      'data-key': o.key || null,
     }, [
       h('details', { class: 'peek' }, [
         h('summary', { class: 'peek-sum' }, [meta, title, pre]),
@@ -255,57 +266,65 @@
   }
 
   // ── 報頭（使用者要求：所有頁面上方區塊統一功能；元件在 bar.js）──────────────
-  // 最上面是和報告頁同一列的工具列：日期（點開是這天的新聞與有頭版的日期）、「本日新聞」（就是頭版，標成目前位置：
-  // 最新一天 page，其他天 true）、「本週新聞」、「版面」；工具列凍結在頂端。下面是大標題「頭版」，右邊是快速過濾標籤
-  // （使用者要求：頭版的大標題不要下拉——原本點開是本頁時段，幫助不大——改在標題右方放可多選的過濾標籤，選定依領域）。
+  // 最上面是和報告頁同一列的工具列：日期（點開是這天的新聞與有頭版的日期；每週頭版是週）、「本日新聞」（每日頭版）、
+  // 「本週新聞」（每週頭版）、「版面」；這頁是哪一種就標成目前位置（最新一期 page，其他期 true）。工具列凍結在頂端。
+  // 下面是大標題「頭版」（每週頭版是「週報頭版」），右邊是快速過濾標籤（使用者要求：頭版的大標題不要下拉）。
   // 原本的日期大字與 ‹ › 拿掉：日期在日期按鈕（不重複），換日用日期面板（使用者選定）
-  // 頭版網址：最新一天是 news/（書籤固定開最新），其他天是 ?f=YYYY-MM-DD
+  // 網址：最新一天是 news/、其他天 ?f=YYYY-MM-DD；最新一週是 ?w、其他週 ?w=YYYY-Www（書籤固定開最新）
   const dayHref = (d) => (d === dates[0] ? './' : `?f=${d}`);
+  const weekHref = (w) => (w === dates[0] ? '?w' : `?w=${w}`);
+  const periodHref = (p) => (weekMode ? weekHref(p) : dayHref(p));
+  const latestHref = weekMode ? '?w' : './';
+  const here = () => (period() === dates[0] ? 'page' : 'true');
   const frontLink = (current) => B.navLink('本日新聞', 'front', './', current);
+  const TITLE = weekMode ? '週報頭版' : '頭版';
+  const cadenceOf = (e) => e.cadence || seriesMeta(e.series).cadence || 'daily';
 
-  // 「本週新聞」（使用者要求：最上方一顆切到週報的按鈕，字數同「本日新聞」）：連到最新一期週報，不分類型；
-  // index.json 還沒有任何週報就不顯示（使用者選定）
-  function weeklyLink() {
-    const list = ((index && index.items) || []).filter((e) => e && e.series && e.period
-      && (e.cadence || seriesMeta(e.series).cadence) === 'weekly');
-    if (!list.length) return null;
-    const w = list.reduce((a, b) => (b.date > a.date || (b.date === a.date && b.generated_at > a.generated_at) ? b : a));
-    return B.navLink('本週新聞', 'weekly', reportHref(w.series, w.period), null);
+  // 「本週新聞」（使用者要求：最上方一顆切到週報的按鈕，字數同「本日新聞」）：連到每週頭版的最新一週；
+  // index.json 還沒有任何週報、月報就不顯示（使用者選定）
+  function weeklyLink(current) {
+    const any = ((index && index.items) || []).some((e) => e && e.series && e.period && cadenceOf(e) !== 'daily');
+    return any || weekMode ? B.navLink('本週新聞', 'weekly', '?w', current) : null;
   }
 
   // 日期按鈕：左欄「這天的新聞」＝那天有出刊的日報（各連到那一期，右邊則數；頭版底部原本的類型列拿掉了，
-  // 使用者要求，類型從這裡進），右欄有頭版的日期（各連到那天的頭版）
+  // 使用者要求，類型從這裡進），右欄有頭版的日期（各連到那天的頭版）。每週頭版：左欄「這週的新聞」＝那週的週報
+  // 與那週發布的月報，右欄有頭版的週
   function datePicker() {
-    const here = [];
+    const p = period();
+    const mine = (e) => (weekMode
+      ? (cadenceOf(e) === 'weekly' ? e.period === p : cadenceOf(e) === 'monthly' && DATE_RE.test(e.date || '') && isoWeek(e.date) === p)
+      : cadenceOf(e) === 'daily' && e.period === p);
+    const list = [];
     ((index && index.items) || []).forEach((e) => {
-      if (e && e.series && e.period === front.date && (e.cadence || seriesMeta(e.series).cadence || 'daily') === 'daily'
-        && !here.some((x) => x.series === e.series)) here.push(e);
+      if (e && e.series && e.period && mine(e) && !list.some((x) => x.series === e.series)) list.push(e);
     });
-    here.sort((a, b) => bySeries(a.series, b.series));
+    list.sort((a, b) => bySeries(a.series, b.series));
     return B.datePicker({
-      period: front.date,
-      cadence: 'daily',
-      here: here.map((e) => ({ text: e.series_title || seriesMeta(e.series).title, count: e.count, href: reportHref(e.series, e.period) })),
-      periods: dates.map((d) => ({ period: d, href: dayHref(d), current: d === front.date })),
+      period: p,
+      cadence: weekMode ? 'weekly' : 'daily',
+      here: list.map((e) => ({ text: e.series_title || seriesMeta(e.series).title, count: e.count, href: reportHref(e.series, e.period) })),
+      periods: dates.map((d) => ({ period: d, href: periodHref(d), current: d === p })),
     });
   }
 
-  // groups：這頁有的領域與則數（render 排時間軸時收集）。
-  // 最上面是非當期提示（bar.js，不是台北的今天才有）：開的是最新一期、今天還沒出刊時（spec 6.6），提示後面接說明
+  // types：這頁有的類型與則數（render 排時間軸時收集）。
+  // 最上面是非當期提示（bar.js，不是台北的今天、本週才有）：開的是最新一期、今天（本週）還沒出刊時（spec 6.6），提示後面接說明
   // （使用者選定：原本大標題下那一行「今天還沒有頭版，這是最近一期」併進提示條，不出現兩個提示）。日期在日期按鈕，提示不重寫日期。
   // 部署後的快取空窗可能拿到還沒有 staleBanner 的舊 bar.js：少提示條，頁面照常
-  const masthead = (groups) => [
-    B.staleBanner ? B.staleBanner(front.date, front.date === dates[0] ? '今天還沒有頭版，這是最近一期' : null) : null,
-    B.toolbar([datePicker(), frontLink(front.date === dates[0] ? 'page' : 'true'), weeklyLink(), fpBox]),
-    h('header', { class: 'masthead fp-head' }, [h('h1', { class: 'mast-title' }, ['頭版']), ...filterBar(groups)]),
+  const masthead = (types) => [
+    B.staleBanner ? B.staleBanner(period(), period() === dates[0] ? (weekMode ? '本週還沒有週報頭版，這是最近一期' : '今天還沒有頭版，這是最近一期') : null) : null,
+    B.toolbar([datePicker(), frontLink(weekMode ? null : here()), weeklyLink(weekMode ? here() : null), fpBox]),
+    h('header', { class: 'masthead fp-head' }, [h('h1', { class: 'mast-title' }, [TITLE]), ...filterBar(types)]),
   ];
 
-  // ── 快速過濾（使用者在三個方案中選定「依領域」，互動照建議預設）──────────────────
-  // 標籤＝這頁有的領域（index.json series 的 group：綜合、國際、科技、遊戲、財經、開源、台灣…），順序照選單，後面是則數
-  // （一則出自多份報告就每個領域都算）；色塊同條目左緣的領域色線。可多選：都沒選＝全部顯示；選了就顯示「任一份來源報告的領域
-  // 有選到」的條目（出自綜合＋財經的那則，選財經時也在）；週報月報依各自類型的領域一起篩；篩完沒有條目的時段連整點標題一起藏起來。
-  // 有選時最後面出現「清除」（不另放「全部」）。選擇記在 localStorage air-front-filter：換日期、下次開都沿用，不寫進網址（傳出去的
-  // 連結不帶自己的篩選）；這天沒有的領域照樣記著（別天出現時還是選著），畫面只套用這天有的，一個都沒有就等於沒選。
+  // ── 快速過濾（互動照建議預設）──────────────────────────────────────────
+  // 標籤＝這頁條目上看得到的類型名稱（使用者要求：條目寫「博奕」，標籤就是「博奕」，不要歸到領域「遊戲」；
+  // index.json series 的 short：綜合、國際、AI、科技、資安、博奕、財經、健康…），順序照選單，後面是則數
+  // （一則出自多份報告就每個類型都算）；色塊同條目左緣的領域色線。可多選：都沒選＝全部顯示；選了就顯示「任一份來源報告的類型
+  // 有選到」的條目（出自綜合＋財經的那則，選財經時也在）；篩完沒有條目的時段連時段標題一起藏起來。
+  // 有選時最後面出現「清除」（不另放「全部」）。選擇記在 localStorage air-front-types（類型代號）：換日期、下次開都沿用，不寫進網址
+  // （傳出去的連結不帶自己的篩選）；這天沒有的類型照樣記著（別天出現時還是選著），畫面只套用這天有的，一個都沒有就等於沒選。
   // 結構照指南的 toolbar：role="toolbar"、按鈕用 aria-pressed（字不隨狀態改）、整列只佔一個 Tab 停點、方向鍵移動（focusgroup，
   // 不支援的瀏覽器用 roving tabindex 補）；篩選結果用 role="status" 唸「顯示 N 則」（放在 toolbar 外面）。領域少於兩個時不放標籤列。
   const CHECK = '<svg viewBox="0 0 20 20" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true" focusable="false"><path d="M4 10.5l4 4 8-9"/></svg>';
@@ -323,7 +342,7 @@
       else localStorage.removeItem(FILTER_KEY);
     } catch (e) { /* 存不了（無痕、空間滿）：這次照樣能篩，下次不記得 */ }
   }
-  let picked = readFilter(); // 選了的領域（含這天沒有的）；存不進 localStorage 時這份照樣有效
+  let picked = readFilter(); // 選了的類型（含這天沒有的）；存不進 localStorage 時這份照樣有效
   let fq = null; // 這次畫面的過濾列 { chips, clear, status, sync }；沒有標籤列時是 null
 
   // 指南 toolbar 的鍵盤：支援 focusgroup 的瀏覽器由它處理；不支援時自己做 roving tabindex——整列只有一顆 tabindex=0，
@@ -356,19 +375,21 @@
     return sync;
   }
 
-  // 標籤列＋念結果用的 status；groups：[{ g, n }]，已照領域順序排好
-  function filterBar(groups) {
+  // 標籤列＋念結果用的 status；types：[{ t, n }]（t 是類型代號），已照類型順序排好。
+  // data-type 是比對用的類型代號、data-group 給色塊用的領域色；bar.js 的過濾面板照這兩個與 .fp-chip-t 的字抄一份
+  function filterBar(types) {
     fq = null;
-    if (groups.length < 2) return [];
-    const chips = groups.map(({ g, n }) => {
-      const b = h('button', { type: 'button', class: 'fp-chip', 'data-group': g, 'aria-pressed': 'false' }, [
+    if (types.length < 2) return [];
+    const chips = types.map(({ t, n }) => {
+      const m = seriesMeta(t);
+      const b = h('button', { type: 'button', class: 'fp-chip', 'data-type': t, 'data-group': m.group, 'aria-pressed': 'false' }, [
         h('span', { class: 'fp-chip-mk', html: CHECK }), // 沒選是領域色塊、選了是勾（不只靠顏色）
-        h('span', null, [g]),
+        h('span', { class: 'fp-chip-t' }, [m.short]),
         h('span', { class: 'fp-chip-n' }, [String(n), h('span', { class: 'visually-hidden' }, [' 則'])]),
       ]);
       b.addEventListener('click', () => {
-        if (picked.has(g)) picked.delete(g);
-        else picked.add(g);
+        if (picked.has(t)) picked.delete(t);
+        else picked.add(t);
         saveFilter();
         applyFilter(true);
       });
@@ -380,7 +401,7 @@
       saveFilter();
       applyFilter(true);
     });
-    const bar = h('div', { class: 'fp-fq', role: 'toolbar', 'aria-label': '依領域篩選', focusgroup: 'toolbar wrap' }, [...chips, clear]);
+    const bar = h('div', { class: 'fp-fq', role: 'toolbar', 'aria-label': '依類型篩選', focusgroup: 'toolbar wrap' }, [...chips, clear]);
     const status = h('p', { class: 'visually-hidden', role: 'status' });
     fq = { chips, clear, status, sync: roving(bar) };
     return [bar, status];
@@ -391,11 +412,11 @@
   // 之後才進來、又被篩掉的條目不記，放出來時照樣標「新」
   function applyFilter(announce) {
     const rows = [...app.querySelectorAll('.fp-tl .fp-it')];
-    const on = new Set(fq ? fq.chips.map((b) => b.dataset.group).filter((g) => picked.has(g)) : []);
-    if (fq) fq.chips.forEach((b) => b.setAttribute('aria-pressed', String(on.has(b.dataset.group))));
+    const on = new Set(fq ? fq.chips.map((b) => b.dataset.type).filter((t) => picked.has(t)) : []);
+    if (fq) fq.chips.forEach((b) => b.setAttribute('aria-pressed', String(on.has(b.dataset.type))));
     let shown = 0;
     rows.forEach((r) => {
-      const ok = !on.size || (r.dataset.fq || '').split(' ').some((g) => on.has(g));
+      const ok = !on.size || (r.dataset.fq || '').split(' ').some((t) => on.has(t));
       r.hidden = !ok;
       if (ok) shown += 1;
     });
@@ -407,7 +428,7 @@
       if (lost && fq.clear.hidden) fq.chips[0].focus(); // 按了「清除」它就藏起來：焦點移到第一個標籤，不掉回頁首
       if (announce) fq.status.textContent = on.size ? `顯示 ${shown} 則` : `顯示全部 ${shown} 則`;
     }
-    remember(front.date, rows.filter((r) => !r.hidden && r.dataset.key).map((r) => r.dataset.key));
+    remember(period(), rows.filter((r) => !r.hidden && r.dataset.key).map((r) => r.dataset.key));
   }
   // 別的分頁改了篩選：這頁跟著換（不念結果）
   window.addEventListener('storage', (e) => {
@@ -418,7 +439,8 @@
 
   // 頁尾只留頭版的整理方式；刊名與日期上面都有了，不再重複
   const footer = () => h('footer', { class: 'foot' }, [
-    h('span', { class: 'foot-left' }, ['頭版從當天各報告標出的重點整理，同一則新聞只列一次']),
+    h('span', { class: 'foot-left' }, [weekMode ? '週報頭版從當週各週報、月報標出的重點整理，同一則新聞只列一次'
+      : '頭版從當天各日報標出的重點整理，同一則新聞只列一次']),
   ]);
 
   function show(kids) {
@@ -435,12 +457,12 @@
     const active = document.activeElement && document.activeElement.closest && document.activeElement.closest('.fp-row');
     const focusId = active ? active.id : null;
     const onChip = document.activeElement && document.activeElement.closest && document.activeElement.closest('.fp-fq button');
-    const chipFocus = onChip ? onChip.dataset.group || '' : null; // 焦點在過濾標籤上（'' 是「清除」）：重畫後放回同一顆
+    const chipFocus = onChip ? onChip.dataset.type || '' : null; // 焦點在過濾標籤上（'' 是「清除」）：重畫後放回同一顆
 
     const list = (front.entries || []).filter((e) => e && e.key && Array.isArray(e.from) && e.from.length);
     const seen = readSeen();
-    const firstLook = !!seen && !Array.isArray(seen[front.date]); // 這台裝置第一次看這天
-    const fresh = freshKeys(front.date, list.map((e) => e.key));
+    const firstLook = !!seen && !Array.isArray(seen[period()]); // 這台裝置第一次看這天（週）
+    const fresh = freshKeys(period(), list.map((e) => e.key));
     // 「要聞」＝第 1 輪順位（各報告最重要的那則）：不再分區，改成時間軸上淡底色、標題大一號
     const top = list.length ? Math.min(...list.map((e) => e.rank)) : 0;
     // 時間軸由新到舊；沒有時間的排最後，照順位、類型順序
@@ -459,8 +481,8 @@
         read: reportHref(m.series, m.period, m.no),
       });
     };
-    // 每個時段一個 <section>：整點標題只在自己那段黏頂（下一段把它推上去，不疊在一起）；快速過濾後沒有條目的整段藏起來。
-    // 順便數各領域的則數（過濾標籤後面的數字）
+    // 每個時段一個 <section>：時段標題只在自己那段黏頂（下一段把它推上去，不疊在一起）；快速過濾後沒有條目的整段藏起來。
+    // 每日頭版依整點分組（不是那天的加註日期），每週頭版依日期分組。順便數各類型的則數（過濾標籤後面的數字）
     const tl = [];
     const counts = new Map();
     let group = null;
@@ -470,61 +492,52 @@
     };
     const openSlot = (label, day) => tl.push(h('section', { class: 'fp-sec' }, [hourHead(label, day)]));
     timed.forEach(({ e, w }) => {
-      const g = w ? `${w.day} ${w.hour}` : '-';
+      const g = !w ? '-' : weekMode ? w.day : `${w.day} ${w.hour}`;
       if (g !== group) {
         group = g;
-        if (w) openSlot(`${w.hour}:00`, w.day !== front.date ? dayLabel(w.day) : null);
-        else openSlot('其他時間');
+        if (!w) openSlot('其他時間');
+        else if (weekMode) openSlot(dayLabel(w.day));
+        else openSlot(`${w.hour}:00`, w.day !== front.date ? dayLabel(w.day) : null);
       }
       addRow(entryRow(e, w));
     });
-    // 週報與月報接在時間軸最後，同樣用整點標題那種黏頂標題；類型後面的灰字是期別，依順位排
-    const weekly = [...(front.weekly || [])].sort((a, b) => bySeries(a.series, b.series) || (a.date < b.date ? 1 : -1));
-    if (weekly.some((w) => (w.items || []).length)) openSlot('週報與月報');
-    weekly.forEach((w) => {
-      const cadence = seriesMeta(w.series).cadence || (/-W\d{2}$/.test(w.period) ? 'weekly' : 'monthly');
-      [...(w.items || [])].sort((a, b) => a.rank - b.rank).forEach((it) => addRow(tlRow(it, {
-        id: `fp-${w.series}-${it.no}`,
-        types: [w.series],
-        stamp: h('span', { class: 'fp-tm' }, [A.fmtShort(w.period, cadence)]),
-        read: reportHref(w.series, w.period, it.no),
-      })));
-    });
-    const groups = [...counts.keys()].sort(byGroup).map((g) => ({ g, n: counts.get(g) }));
-    const main = h('main', { id: 'main', class: 'fp-tl' }, tl.length ? tl : [h('p', { class: 'load-error' }, ['這天的頭版沒有條目。'])]);
-    // 外觀「一般」：同一批條目搬成頭條＋要聞卡片＋週報與月報＋即時新聞（look-standard.js；只搬元素，過濾、展開、記看過都照舊）
+    // 舊版的每日頭版檔另帶 weekly（週報月報接在最後）：使用者要求日報的頭版不放週報，週報改看每週頭版，這裡不畫
+    const types = [...counts.keys()].sort(bySeries).map((t) => ({ t, n: counts.get(t) }));
+    const main = h('main', { id: 'main', class: 'fp-tl' }, tl.length ? tl : [h('p', { class: 'load-error' }, [weekMode ? '這週的頭版沒有條目。' : '這天的頭版沒有條目。'])]);
+    // 外觀「一般」：同一批條目搬成頭條＋要聞卡片＋即時新聞（look-standard.js；只搬元素，過濾、展開、記看過都照舊）
     if (standard() && A.look) A.look.arrangeFront(main);
-    show([...masthead(groups), main, footer()]);
-    document.title = `頭版 ${dayLabel(front.date)}｜AI Reports`;
+    show([...masthead(types), main, footer()]);
+    document.title = `${TITLE} ${weekMode ? B.periodLabel(front.week, 'weekly') : dayLabel(front.date)}｜AI Reports`;
     opened.forEach((id) => {
       const d = document.getElementById(id);
       if (d) d.querySelector('details').open = true;
     });
     // 畫面渲染後才記下看過的條目：第一次看這天全部記下（同沒有過濾時「第一次看全部不標新」），之後只記顯示中的（applyFilter）
-    if (firstLook) remember(front.date, list.map((e) => e.key));
+    if (firstLook) remember(period(), list.map((e) => e.key));
     applyFilter(false); // 套用記住的選擇
     if (focusId) {
       const el = document.getElementById(focusId);
       if (el && !el.hidden) el.querySelector('summary').focus({ preventScroll: true });
     }
     if (chipFocus != null && fq) {
-      const b = chipFocus ? fq.chips.find((x) => x.dataset.group === chipFocus) : fq.clear;
+      const b = chipFocus ? fq.chips.find((x) => x.dataset.type === chipFocus) : fq.clear;
       (b && !b.hidden ? b : fq.chips[0]).focus({ preventScroll: true });
     }
   }
 
-  // 網站上還沒有任何頭版（剛部署、front/index.json 不存在或是空的）：不卡在載入中，
-  // 說明「還沒有頭版」並列出各類型最新一期的連結（Review Focus 4）
+  // 網站上還沒有任何頭版（剛部署、front/index.json 不存在或是空的；每週頭版還沒建）：不卡在載入中，
+  // 說明「還沒有頭版」並列出各類型最新一期的連結（Review Focus 4；每週頭版只列週報、月報）
   function noFront() {
     const items = (index && index.items) || [];
     const latest = [];
     items.forEach((e) => {
-      if (e && e.series && e.period && !latest.some((x) => x.series === e.series)) latest.push(e);
+      if (e && e.series && e.period && (cadenceOf(e) === 'daily') !== weekMode
+        && !latest.some((x) => x.series === e.series)) latest.push(e);
     });
     latest.sort((a, b) => bySeries(a.series, b.series));
     const kids = [
-      B.toolbar([frontLink('page'), weeklyLink(), fpBox]),
-      h('header', { class: 'masthead' }, [h('h1', { class: 'mast-title' }, ['頭版'])]),
+      B.toolbar([frontLink(weekMode ? null : 'page'), weeklyLink(weekMode ? 'page' : null), fpBox]),
+      h('header', { class: 'masthead' }, [h('h1', { class: 'mast-title' }, [TITLE])]),
       h('main', { id: 'main', class: 'fp-empty' }, [
         h('p', { class: 'fp-empty-note', role: 'status' }, [latest.length ? '還沒有頭版。先看各類型最新一期：' : '還沒有頭版，也還沒有任何報告。']),
         latest.length ? h('ul', { class: 'fp-empty-list' }, latest.map((e) => {
@@ -540,22 +553,24 @@
     ];
     if (!index) kids.splice(3, 0, h('p', { class: 'load-error', role: 'alert' }, ['新聞清單也載入失敗，重新整理再試一次。']));
     show(kids);
-    document.title = '頭版｜AI Reports';
+    document.title = `${TITLE}｜AI Reports`;
   }
 
   // 載入出錯的畫面：工具列照放（沒有日期按鈕），下面只有錯誤訊息
   function problem(text, more) {
     show([
-      B.toolbar([frontLink(null), weeklyLink(), fpBox]),
+      B.toolbar([frontLink(null), weeklyLink(null), fpBox]),
       h('main', { id: 'main' }, [h('p', { class: 'load-error', role: 'alert' }, [text, more || null])]),
     ]);
-    document.title = '頭版｜AI Reports';
+    document.title = `${TITLE}｜AI Reports`;
   }
 
+  // 頭版檔：front/<年>/<期別>.json（週的年是 ISO 年，就是期別的前四碼）
   const frontPath = (d) => `front/${d.slice(0, 4)}/${d}.json`;
-  const validDates = (doc) => (doc && Array.isArray(doc.dates) ? doc.dates : [])
-    .map((x) => x && x.date).filter((d) => typeof d === 'string' && DATE_RE.test(d));
-  // 要開哪一天：指定了 f 就是那天，否則最新一天
+  // 清單裡的期別：每日頭版讀 dates[].date，每週頭版讀 weeks[].week
+  const validDates = (doc) => (doc && Array.isArray(doc[weekMode ? 'weeks' : 'dates']) ? doc[weekMode ? 'weeks' : 'dates'] : [])
+    .map((x) => x && x[weekMode ? 'week' : 'date']).filter((d) => typeof d === 'string' && PERIOD_RE.test(d));
+  // 要開哪一期：指定了 f（w）就是那一期，否則最新一期
   const target = () => (want || dates[0] || null);
 
   async function main() {
@@ -568,14 +583,14 @@
       return;
     }
     const d = target();
-    if (!DATE_RE.test(d) || !dates.includes(d)) {
-      problem(`找不到 ${d} 的頭版。`, h('a', { href: './' }, ['看最新頭版']));
+    if (!PERIOD_RE.test(d) || !dates.includes(d)) {
+      problem(`找不到 ${d} 的${TITLE}。`, h('a', { href: latestHref }, [`看最新${TITLE}`]));
       return;
     }
     try {
       front = await A.getJSON(frontPath(d));
     } catch (err) {
-      problem(`這天的頭版載入失敗（${err.message}），重新整理再試一次。`);
+      problem(`這${weekMode ? '週' : '天'}的${TITLE}載入失敗（${err.message}），重新整理再試一次。`);
       return;
     }
     if (!isFront(front, d)) {
@@ -584,8 +599,8 @@
     }
     render();
   }
-  // 頭版檔要是物件、日期等於要開的那天（手改壞或部署到一半時不硬畫）
-  const isFront = (doc, d) => !!doc && typeof doc === 'object' && doc.date === d;
+  // 頭版檔要是物件、日期（週）等於要開的那一期（手改壞或部署到一半時不硬畫）
+  const isFront = (doc, d) => !!doc && typeof doc === 'object' && doc[weekMode ? 'week' : 'date'] === d;
 
   // ── 回到前景時更新：重抓日期清單與正在看的那天；最新日期或頭版檔的 built_at 變了才重畫。
   // 正在看指定日期（?f=）時不跳日期；開的是 news/（最新一天）而有了更新的一天，就換到新的一天 ──
@@ -605,7 +620,7 @@
       if (!next.includes(d)) return;
       const doc2 = await A.getJSON(frontPath(d)).catch(() => null);
       if (!isFront(doc2, d)) return;
-      const changed = datesChanged || !front || doc2.date !== front.date || doc2.built_at !== front.built_at;
+      const changed = datesChanged || !front || doc2.date !== front.date || doc2.week !== front.week || doc2.built_at !== front.built_at;
       prev = [dates, front];
       dates = next;
       front = doc2;
@@ -685,7 +700,7 @@
   main()
     .catch((err) => { // 渲染途中出錯也不能卡在「載入中…」
       console.error('頭版載入失敗', err);
-      const msg = '頭版顯示失敗，重新整理再試一次。';
+      const msg = `${TITLE}顯示失敗，重新整理再試一次。`;
       try { problem(msg); } catch (e) { app.textContent = msg; } // 連錯誤頁都畫不出來時至少換掉載入中
     })
     .finally(() => { ready = true; });
