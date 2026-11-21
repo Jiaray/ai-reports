@@ -229,6 +229,10 @@
 /* 回到頂端按鈕（site.js）：--surface 底、0.5px 框、8px 圓角 */
 [data-look=standard] .to-top{background:var(--surface);color:var(--text-2);border:var(--hair) solid var(--border);border-radius:var(--radius)}
 [data-look=standard] .to-top:hover{background:var(--surface);color:var(--accent)}
+/* 右下角功能鈕（bar.js、report.css）：功能鈕 8px 圓角；從功能鈕打開的底部面板上緣圓角、--surface 底、0.5px 框 */
+[data-look=standard] .fab-btn{border-radius:var(--radius)}
+[data-look=standard] .fab-tip{border-radius:var(--radius-sm)}
+[data-look=standard] .dd .dd-panel.is-sheet{border:var(--hair) solid var(--border);border-bottom:0;border-radius:var(--radius) var(--radius) 0 0;box-shadow:0 -12px 32px -12px rgb(0 0 0 / .25)}
 /* 數字（時間、期別、則數）一律等寬：放在檔尾、選擇器加重，蓋過前面各處 font 簡寫把 font-variant-numeric 重設回 normal */
 :root[data-look=standard] :is(time,.row-time,.rt-hm,.rt-d,.rt-txt,.fp-tm,.pd-n,.pd-wd,.pd-item,.tl-day){font-variant-numeric:tabular-nums}
 /* 減少動態：關掉切換配色時的底色、文字色轉場 */
