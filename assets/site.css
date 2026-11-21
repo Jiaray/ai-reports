@@ -1,62 +1,49 @@
-/* AI Reports 全站樣式：沿用新聞日報原本的「工程藍圖」版型（元件同 md2html2.py）——方角、細線、帳冊式條目＋檔案夾標籤式分區。
-   配色與線條照建築師事務所的正式圖面重新設計（使用者要求：像真的藍圖、要有高級質感、適合久讀）：
-   深色是藍曬圖（深墨藍圖紙、灰白字，不用純白、不用高彩度的亮藍），淺色是白底藍線圖（冷白圖紙、深藍墨字）。
-   線條分兩級：--rule 是圖框與標題的實線（半透明的字色），--color-divider 是條目之間的細線；不再用整條字色粗線。
-   圖紙上只有很稀的定位格：每 96px 一條近乎看不見的格線，交點一個小十字（製圖的對位記號），不鋪密集方格。
-   深色跟隨系統，可由報頭的配色切換覆蓋。
-   color-scheme 跟著同一套規則（自動＝跟系統、淺色、深色），讓瀏覽器原生的捲軸、下拉選單與底色也一起變深淺。 */
+/* AI Reports 全站樣式：沿用新聞日報原本的「工程藍圖」版型（設計代幣與元件同 md2html2.py）——
+   鋼藍單一主色、方角、細線、帳冊式條目＋檔案夾標籤式分區。深色跟隨系統，可由報頭的配色切換覆蓋。
+   color-scheme 跟著同一套規則（自動＝跟系統、淺色、深色），讓瀏覽器原生的捲軸、下拉選單與底色也一起變深淺；
+   色票本身不受影響，淺色畫面完全不變。 */
 :root{
   color-scheme:light dark;
   /* 中文用思源黑體（Noto Sans TC，news/index.html 從 Google Fonts 載入；使用者選定：比蘋方 Regular 筆畫飽滿）。
-     載入前或沒載入的頁面（首頁、404）退回蘋方。--font-heading 的英數仍用窄體（標籤），中文字落到思源黑體；
-     --font-mono 是藍圖的編號、時刻（系統等寬字：iOS／macOS 的 SF Mono、Windows 的 Consolas，不另載字型） */
+     載入前或沒載入的頁面（首頁、404）退回蘋方。--font-heading 的英數仍用窄體（編號、時刻、標籤），中文字落到思源黑體 */
   --font-heading:"Barlow Condensed","Avenir Next Condensed","Arial Narrow","Noto Sans TC",-apple-system,"PingFang TC",sans-serif;
   --font-body:"Noto Sans TC",-apple-system,"PingFang TC",system-ui,sans-serif;
-  --font-mono:ui-monospace,"SF Mono",SFMono-Regular,Menlo,Consolas,"Roboto Mono","Liberation Mono",monospace;
   --space-1:3.4px;--space-2:6.8px;--space-3:10.2px;--space-4:13.6px;--space-6:20.4px;--space-8:27.2px;
-  /* 淺色：白底藍線圖——冷白的圖紙、深藍墨字，線是淡藍灰 */
-  --color-bg:#f4f6f9;--color-text:#132847;--color-divider:#d2dbe7;--color-accent:#23579e;
-  --color-neutral-100:#edf1f6;--color-neutral-200:#e2e8f0;--color-neutral-300:#c6d1df;
-  --color-neutral-600:#56698a;--color-neutral-700:#42567a;--color-neutral-800:#2c4066;
-  --color-accent-100:#e3ebf5;--color-accent-200:#cbdaee;--color-accent-300:#a1bbdf;
-  --color-accent-600:#2a5ea8;--color-accent-700:#204e8f;--color-accent-800:#193f75;--color-accent-900:#112c55;
-  --color-hot:#b8362c;--color-hot:oklch(0.52 0.16 28);
+  --color-bg:#f2f2f3;--color-text:#1d1f20;--color-divider:#d4d5d7;--color-accent:#5980a6;
+  --color-neutral-100:#f2f2f3;--color-neutral-200:#d7d8d9;--color-neutral-300:#bdbdbe;
+  --color-neutral-600:#6d6e6f;--color-neutral-700:#525455;--color-neutral-800:#38393a;
+  --color-accent-100:#dee9f5;--color-accent-200:#bed8f1;--color-accent-300:#9abbdd;
+  --color-accent-600:#3b6d9a;--color-accent-700:#2d5b85;--color-accent-800:#214566;--color-accent-900:#153048;
+  --color-hot:#b02b27;--color-hot:oklch(0.5 0.17 27);
   --color-good:#0b7643;--color-good:oklch(0.5 0.12 155);
-  --tab-bg:#1a3d73;--tab-fg:#f4f6f9;--tab-span:var(--color-accent-300);
+  --tab-bg:var(--color-accent-900);--tab-fg:var(--color-bg);--tab-span:var(--color-accent-300);
   --tag-neutral-fg:var(--color-neutral-700);
-  --rule:#8496b2;
-  --grid-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96'%3E%3Cpath d='M48.5 0V96M0 48.5H96' stroke='%2323579e' stroke-opacity='.045'/%3E%3Cpath d='M48.5 42.5v12M42.5 48.5h12' stroke='%2323579e' stroke-opacity='.2'/%3E%3C/svg%3E");
 }
 @media(prefers-color-scheme:dark){:root:not([data-theme=light]){
-  /* 深色：藍曬圖——深墨藍的圖紙（使用者要求：亮藍刺眼、不適合久讀），灰白字，次要的字與線是淡藍灰 */
-  --color-bg:#0a1830;--color-text:#dde6f2;--color-divider:#203556;
-  --color-neutral-100:#0d1d38;--color-neutral-200:#122444;--color-neutral-300:#253b5f;
-  --color-neutral-600:#8b9fbd;--color-neutral-700:#a5b6ce;--color-neutral-800:#c2cee0;
-  --color-accent:#9cc4ec;
-  --color-accent-100:#10264a;--color-accent-200:#173158;--color-accent-300:#24416e;
-  --color-accent-600:#8ab6e4;--color-accent-700:#a7c9ee;--color-accent-800:#c5dbf3;--color-accent-900:#e0ecf9;
-  --color-hot:#e8907e;--color-hot:oklch(0.74 0.11 32);
-  --color-good:#74cf9b;--color-good:oklch(0.79 0.12 155);
-  --tab-bg:#a9bfdc;--tab-fg:#0a1830;--tab-span:#24416e;
-  --tag-neutral-fg:var(--color-neutral-700);
-  --rule:#5b7499;
-  --grid-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96'%3E%3Cpath d='M48.5 0V96M0 48.5H96' stroke='%2396b9e6' stroke-opacity='.04'/%3E%3Cpath d='M48.5 42.5v12M42.5 48.5h12' stroke='%23a8c8f0' stroke-opacity='.2'/%3E%3C/svg%3E");
+  --color-bg:#16181a;--color-text:#e6e8ea;--color-divider:#3b4147;
+  --color-neutral-100:#24282c;--color-neutral-200:#2c3136;--color-neutral-300:#3b4147;
+  --color-neutral-600:#8a9299;--color-neutral-700:#9aa1a8;--color-neutral-800:#b3b9bf;
+  --color-accent:#7da0c2;
+  --color-accent-100:#222c37;--color-accent-200:#2b3a49;--color-accent-300:#3a5069;
+  --color-accent-600:#7da0c2;--color-accent-700:#94b2cf;--color-accent-800:#b6cade;--color-accent-900:#d6e2ee;
+  --color-hot:#f47c70;--color-hot:oklch(0.72 0.15 27);
+  --color-good:#60bb83;--color-good:oklch(0.72 0.12 155);
+  --tab-bg:var(--color-accent-600);--tab-fg:#14161a;--tab-span:var(--color-accent-100);
+  --tag-neutral-fg:var(--color-neutral-600);
 }}
 :root[data-theme=light]{color-scheme:light}
 :root[data-theme=dark]{
   color-scheme:dark;
-  --color-bg:#0a1830;--color-text:#dde6f2;--color-divider:#203556;
-  --color-neutral-100:#0d1d38;--color-neutral-200:#122444;--color-neutral-300:#253b5f;
-  --color-neutral-600:#8b9fbd;--color-neutral-700:#a5b6ce;--color-neutral-800:#c2cee0;
-  --color-accent:#9cc4ec;
-  --color-accent-100:#10264a;--color-accent-200:#173158;--color-accent-300:#24416e;
-  --color-accent-600:#8ab6e4;--color-accent-700:#a7c9ee;--color-accent-800:#c5dbf3;--color-accent-900:#e0ecf9;
-  --color-hot:#e8907e;--color-hot:oklch(0.74 0.11 32);
-  --color-good:#74cf9b;--color-good:oklch(0.79 0.12 155);
-  --tab-bg:#a9bfdc;--tab-fg:#0a1830;--tab-span:#24416e;
-  --tag-neutral-fg:var(--color-neutral-700);
-  --rule:#5b7499;
-  --grid-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='96' height='96'%3E%3Cpath d='M48.5 0V96M0 48.5H96' stroke='%2396b9e6' stroke-opacity='.04'/%3E%3Cpath d='M48.5 42.5v12M42.5 48.5h12' stroke='%23a8c8f0' stroke-opacity='.2'/%3E%3C/svg%3E");
+  --color-bg:#16181a;--color-text:#e6e8ea;--color-divider:#3b4147;
+  --color-neutral-100:#24282c;--color-neutral-200:#2c3136;--color-neutral-300:#3b4147;
+  --color-neutral-600:#8a9299;--color-neutral-700:#9aa1a8;--color-neutral-800:#b3b9bf;
+  --color-accent:#7da0c2;
+  --color-accent-100:#222c37;--color-accent-200:#2b3a49;--color-accent-300:#3a5069;
+  --color-accent-600:#7da0c2;--color-accent-700:#94b2cf;--color-accent-800:#b6cade;--color-accent-900:#d6e2ee;
+  --color-hot:#f47c70;--color-hot:oklch(0.72 0.15 27);
+  --color-good:#60bb83;--color-good:oklch(0.72 0.12 155);
+  --tab-bg:var(--color-accent-600);--tab-fg:#14161a;--tab-span:var(--color-accent-100);
+  --tag-neutral-fg:var(--color-neutral-600);
 }
 
 *{box-sizing:border-box}
@@ -66,26 +53,6 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
    不影響最小寬度的計算，表格照樣是撐開後在 .tbl 裡橫向捲動（anywhere 會把欄位擠成一字一行） */
 body{font:15px/1.7 var(--font-body);color:var(--color-text);background:var(--color-bg);margin:0;transition:background .2s,color .2s;overflow-wrap:break-word}
 .wrap{max-width:880px;margin:0 auto;padding:var(--space-8) var(--space-6)}
-/* ── 藍圖外觀的圖面細節（地圖、一般不套；選擇器開頭都是 :root:not([data-look=atlas],[data-look=standard])）──
-   圖紙：定位格＋十字，跟著頁面捲動（工具列、分區框是實心底，蓋住格線）。報頭上緣是圖框的雙細線（1px 實線＋下方 3px 再一條 1px）；
-   新聞頁的報頭由工具列接手（report.css），這裡只管首頁、404 的報頭。
-   分區標題是尺寸線的樣子：前面一個菱形記號、底下一條 --rule 實線、右端一個短豎的端點記號；分區的框是蓋住格線的圖紙。
-   條目之間是細線（第一則不畫，標題的實線就是上緣）；編號與時刻用等寬字；標籤是細框、不填底 */
-:root:not([data-look=atlas],[data-look=standard]) body{background-image:var(--grid-img);background-position:-1px -1px}
-:root:not([data-look=atlas],[data-look=standard]) .masthead:not(.editions+.masthead){border-top:1px solid var(--rule);background:linear-gradient(var(--rule),var(--rule)) 0 3px/100% 1px no-repeat}
-:root:not([data-look=atlas],[data-look=standard]) .sec-body{background:var(--color-bg);border-color:var(--color-divider)}
-:root:not([data-look=atlas],[data-look=standard]) .sec-tab{position:relative;align-items:center;gap:10px;padding:2px 0 10px;background:none;color:var(--color-text);border-bottom:1px solid var(--rule)}
-:root:not([data-look=atlas],[data-look=standard]) .sec-tab::before{content:"";flex:none;width:6px;height:6px;margin:0 2px 0 3px;border:1px solid var(--color-accent-600);rotate:45deg}
-:root:not([data-look=atlas],[data-look=standard]) .sec-tab::after{content:"";position:absolute;right:0;bottom:-4px;width:1px;height:7px;background:var(--rule)}
-:root:not([data-look=atlas],[data-look=standard]) .sec-name{font-weight:600;letter-spacing:.06em}
-:root:not([data-look=atlas],[data-look=standard]) :is(.sec-no,.sec-count){color:var(--color-neutral-600);font-family:var(--font-mono);font-weight:500;letter-spacing:.12em}
-:root:not([data-look=atlas],[data-look=standard],[data-read=timeline]) .row{border-top:1px solid var(--color-divider)}
-:root:not([data-look=atlas],[data-look=standard]) .sec-body>.row:first-child{border-top:0}
-:root:not([data-look=atlas],[data-look=standard]) .row-no{font:400 21px/1 var(--font-mono);letter-spacing:-.02em;color:var(--color-accent-600)}
-:root:not([data-look=atlas],[data-look=standard]) .row-time{font:400 11.5px/1.35 var(--font-mono);letter-spacing:.02em}
-:root:not([data-look=atlas],[data-look=standard]) .tag{font-weight:500;letter-spacing:.05em}
-:root:not([data-look=atlas],[data-look=standard]) .tag-neutral{background:transparent;box-shadow:inset 0 0 0 1px var(--color-neutral-300)}
-@media print{body{background-image:none!important}}
 a{color:var(--color-accent-700);text-decoration:none;word-break:break-word;overflow-wrap:anywhere}
 .masthead{border-top:3px solid var(--color-text);border-bottom:1px solid var(--color-divider);padding-top:var(--space-3)}
 .mast-top{display:flex;justify-content:space-between;align-items:center;gap:var(--space-3)}

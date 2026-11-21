@@ -81,8 +81,6 @@
    下一段把它推上去；不是頭版那天的時段加註日期 ── */
 .fp-tl{margin-top:var(--space-2)}
 .fp-hr{position:sticky;top:var(--bar-h,0px);z-index:2;display:flex;align-items:baseline;gap:var(--space-2);margin:var(--space-4) 0 var(--space-1);padding:7px 0 6px;background:var(--color-bg);border-bottom:1px solid var(--color-divider);font:600 15px/1.2 var(--font-heading);letter-spacing:.04em;color:var(--color-neutral-700)}
-/* 藍圖：時段標題的時刻用等寬字、底線是 --rule（同分區標題的尺寸線） */
-:root:not([data-look=atlas],[data-look=standard]) .fp-hr{font:500 14px/1.2 var(--font-mono);letter-spacing:.06em;border-bottom-color:var(--rule)}
 .fp-hr-day{font:500 12.5px/1 var(--font-body);letter-spacing:0;color:var(--color-neutral-600)}
 
 /* ── 一則條目：左緣 3px 領域色線；summary 是「類型・時刻」一行、標題、（要聞）兩行摘要，右上角是報告頁的展開箭頭 ── */

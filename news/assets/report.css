@@ -12,17 +12,6 @@
    --bar-h 是 bar.js 量到的工具列高度：錨點跳轉（章節、#item-NN）停在工具列下面，頭版的整點標題黏在它下面 */
 .editions{position:sticky;top:0;z-index:20;background:var(--color-bg)}
 .editions.is-stuck{box-shadow:0 1px 0 var(--color-divider)}
-/* 藍圖外觀的圖面細節（site.css 開頭有總說明）：工具列上緣是圖框的雙細線（1px 實線＋下方 3px 再一條 1px，--rule 色；
-   細線畫在背景，底色照樣蓋住捲過去的內容），按鈕字距略開；面板、功能鈕、回到頂端的頂線同樣改成 1px --rule，
-   面板底色比圖紙亮一階、陰影柔一點；熱門徽章是紅線框（像圖面上的修訂紅線），不填滿紅底 */
-:root:not([data-look=atlas],[data-look=standard]) .editions{border-top:1px solid var(--rule);background:linear-gradient(var(--rule),var(--rule)) 0 3px/100% 1px no-repeat,var(--color-bg)}
-:root:not([data-look=atlas],[data-look=standard]) :is(.dd-toggle,.ed-link){letter-spacing:.04em}
-:root:not([data-look=atlas],[data-look=standard]) .mast-title{letter-spacing:.03em}
-:root:not([data-look=atlas],[data-look=standard]) .dd-panel{background:var(--color-neutral-100);border-color:var(--color-divider);border-top:1px solid var(--rule);box-shadow:0 28px 56px -28px rgb(0 0 0 / .55)}
-:root:not([data-look=atlas],[data-look=standard]) .dd .dd-panel.is-sheet{border-top:1px solid var(--rule)}
-:root:not([data-look=atlas],[data-look=standard]) :is(.fab-btn,.has-fab .to-top){border:1px solid var(--color-divider);border-top-color:var(--rule)}
-:root:not([data-look=atlas],[data-look=standard]) .fab-lines .fab-rim{stroke:var(--rule);stroke-width:1}
-:root:not([data-look=atlas],[data-look=standard]) .hot-badge{background:transparent;color:var(--color-hot);box-shadow:inset 0 0 0 1px var(--color-hot)}
 :root{scroll-padding-top:calc(var(--bar-h, 0px) + 8px)}
 /* 非當期提示（bar.js 的 staleBanner；使用者在四種樣式中選定「貼齊頂端的整條橫幅」）：在工具列上面、貼齊視窗頂端、
    整個視窗寬的黃色半透明橫幅，文字置中。不凍結（指南：不要疊兩條黏頂的列），捲動時捲走、工具列照樣凍結。
