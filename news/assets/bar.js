@@ -3,7 +3,7 @@
    （頭版的大標題沒有下拉，右邊是快速過濾標籤，在 front.js）。
    index.html 在 site.js 之後、report.js／front.js 之前載入（都是 defer），掛在 window.AIR.bar。
    1. 圖示（裝飾用，aria-hidden；按鈕的名稱來自文字或 aria-label）
-   2. dropdown()：報頭三種下拉面板（日期、大標題、版面）共用的骨架與開關
+   2. dropdown()：報頭三種下拉面板（日期、大標題、版面）共用的骨架與開關；從功能鈕打開時是底部面板（背景變暗模糊、往下拖收起）
    3. 期別的寫法：日期按鈕的長短兩種、日期清單的分組與每列
    4. datePicker()、titleChapters()、toolbar()、navLink()：版面一致的元件，資料由各頁算好傳進來
    5. 工具列凍結（position:sticky 在 report.css）：量工具列高度寫進 :root 的 --bar-h（頭版黏頂的時段標題、
@@ -47,6 +47,83 @@
     else el.animate([{ opacity: 0, transform: 'translateY(-4px)' }, { opacity: 1, transform: 'none' }], { duration: 140, easing: 'ease-out' });
   }
 
+  // 底部面板（sheet）的背景：整頁變暗、模糊（使用者要求：打開時讓人專心看面板），點一下就收起。
+  // 放在面板旁邊、同一個 .dd 裡（工具列的面板跟著工具列的疊放層級，背景才蓋得住工具列）；
+  // touch-action:none：從背景開始的拖曳不會變成捲動頁面或下拉重新整理
+  function makeShade(shut) {
+    const shade = h('div', { class: 'dd-shade', hidden: true });
+    shade.addEventListener('click', (e) => {
+      e.stopPropagation();
+      shut();
+    });
+    return shade;
+  }
+  function showShade(shade, yes) {
+    shade.hidden = !yes;
+    shade.style.opacity = '';
+    if (yes && shade.animate) shade.animate([{ opacity: 0 }, { opacity: 1 }], { duration: 200, easing: 'ease-out' });
+  }
+
+  // 底部面板往下拖就收起（使用者回報：頂端那一槓看起來能往下拉，拉了卻變成整頁下拉重新整理）：
+  // 按在把手與標題列（面板頂端 64px）往下拖，或清單已捲到最上面時往下拖，面板跟著手指走；放開時拖過三成高（最多 140px）
+  // 或往下甩就收起，否則彈回。拖面板時攔下 touchmove（非 passive），瀏覽器就不會拿去捲背景或下拉重新整理；
+  // 往上拖、清單還沒到頂時照常捲清單。只在面板是 .is-sheet 時作用
+  function sheetDrag(panel, shade, shut) {
+    let s = null;
+    const reset = () => {
+      panel.style.transform = '';
+      panel.style.transition = '';
+      shade.style.opacity = '';
+    };
+    panel.addEventListener('touchstart', (e) => {
+      s = null;
+      if (!panel.classList.contains('is-sheet') || e.touches.length !== 1) return;
+      const y = e.touches[0].clientY;
+      s = { y, t: Date.now(), dy: 0, on: false, head: y - panel.getBoundingClientRect().top < 64 };
+    }, { passive: true });
+    panel.addEventListener('touchmove', (e) => {
+      if (!s) return;
+      const dy = e.touches[0].clientY - s.y;
+      if (!s.on) {
+        if (dy === 0) return;
+        if (dy > 0 && (s.head || panel.scrollTop <= 0)) s.on = true;
+        else if (s.head) return e.preventDefault(); // 標題列往上拖：不捲背景
+        else {
+          s = null; // 往上：交給清單捲動
+          return;
+        }
+      }
+      e.preventDefault();
+      s.dy = Math.max(0, dy);
+      panel.style.transition = 'none';
+      panel.style.transform = `translateY(${s.dy}px)`;
+      shade.style.opacity = String(Math.max(0, 1 - s.dy / panel.offsetHeight));
+    }, { passive: false });
+    const end = () => {
+      if (!s || !s.on) {
+        s = null;
+        return;
+      }
+      const { dy, t } = s;
+      s = null;
+      const fling = dy / Math.max(1, Date.now() - t) > 0.6;
+      if (dy > Math.min(140, panel.offsetHeight * 0.3) || (fling && dy > 24)) {
+        const go = panel.animate ? panel.animate([{ transform: `translateY(${dy}px)` }, { transform: 'translateY(100%)' }],
+          { duration: 160, easing: 'ease-in' }) : null;
+        const done = () => { shut(); reset(); };
+        if (go) go.onfinish = done;
+        else done();
+      } else {
+        panel.style.transition = 'transform .18s ease-out';
+        panel.style.transform = '';
+        shade.style.opacity = '';
+        setTimeout(reset, 200);
+      }
+    };
+    panel.addEventListener('touchend', end);
+    panel.addEventListener('touchcancel', end);
+  }
+
   // 頁面上建過的下拉：點外面、Esc 由這裡的一組 document 監聽統一處理（頭版重畫時不會越掛越多監聽）。
   // proxying：功能鈕的過濾面板代按頁面上的標籤時，那一下不算「點外面」
   const live = new Set();
@@ -75,7 +152,9 @@
       h('div', { class: 'dd-head' }, [h('span', { class: 'dd-title', id: `${id}-title` }, [title]), close]),
       ...body,
     ]);
-    const box = h('div', { class: `dd ${cls}` }, [wrap(toggle), panel]);
+    let shut = null;
+    const shade = makeShade(() => shut());
+    const box = h('div', { class: `dd ${cls}` }, [wrap(toggle), shade, panel]);
     // how：{ sheet: true, after(had) }＝從功能鈕打開，面板貼齊底部（.is-sheet）；收起時呼叫 after，
     // had 表示收起前焦點在面板裡（after 把焦點交回功能鈕，不回頂端的按鈕）
     let after = null;
@@ -84,6 +163,7 @@
       const sheet = Boolean(yes && how && how.sheet);
       panel.hidden = !yes;
       panel.classList.toggle('is-sheet', sheet);
+      showShade(shade, sheet);
       toggle.setAttribute('aria-expanded', String(yes));
       if (!yes) {
         if (after) {
@@ -102,11 +182,12 @@
       openMotion(panel, sheet);
       ((pick && pick(panel)) || close).focus({ preventScroll: sheet });
     }
-    const shut = () => {
+    shut = () => {
       const fromFab = Boolean(after);
       open(false);
       if (!fromFab) toggle.focus();
     };
+    sheetDrag(panel, shade, shut);
     ctrls.set(panel, { open });
     toggle.addEventListener('click', () => open(panel.hidden));
     close.addEventListener('click', shut);
@@ -615,13 +696,15 @@
         h('div', { class: 'dd-head' }, [h('span', { class: 'dd-title', id: 'fq-panel-title' }, ['依類型過濾']), clear, close]),
         list,
       ]);
-      const box = h('div', { class: 'dd fq' }, [panel]);
+      const shade = makeShade(() => fq.shut());
+      const box = h('div', { class: 'dd fq' }, [shade, panel]);
       document.body.append(box);
       let after = null;
       const open = (yes, how) => {
         const had = !yes && !panel.hidden && panel.contains(document.activeElement);
         panel.hidden = !yes;
         panel.classList.toggle('is-sheet', yes);
+        showShade(shade, yes);
         if (!yes) {
           if (after) {
             const f = after;
@@ -635,6 +718,7 @@
         (list.querySelector('[aria-pressed=true]') || list.querySelector('.fq-item') || close).focus({ preventScroll: true });
       };
       fq = { box, panel, list, clear, open, shut: () => open(false) };
+      sheetDrag(panel, shade, fq.shut);
       live.add(fq);
       close.addEventListener('click', fq.shut);
       list.addEventListener('click', (e) => {

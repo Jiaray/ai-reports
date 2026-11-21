@@ -79,6 +79,7 @@
 .editions .ed-link .dd-ico svg{width:16px;height:16px}
 }
 .dd-ico,.dd-ico svg,.dd-caret,.dd-caret svg,.dd-close svg{display:block;flex:none}
+.dd-close svg{width:20px;height:20px}
 .dd-caret{margin-left:-2px;color:var(--color-neutral-600)}
 .dd-toggle[aria-expanded=true] .dd-caret{color:inherit;rotate:180deg}
 /* 面板：像一張規格表，標題列＋ ×，下面一列一列用細線分開；頂端 2px 粗線呼應報頭的粗線。
@@ -86,7 +87,7 @@
 .dd-panel{position:absolute;top:calc(100% + 8px);right:0;z-index:30;width:min(360px,calc(100vw - 32px));container-type:inline-size;padding:0 var(--space-4) var(--space-2);background:var(--color-bg);color:var(--color-text);border:1px solid var(--color-divider);border-top:2px solid var(--color-text);box-shadow:0 20px 40px -28px rgb(0 0 0 / .6)}
 .dd-head{display:flex;align-items:center;justify-content:space-between;gap:var(--space-3);min-height:46px;margin-right:calc(-1 * var(--space-2))}
 .dd-title{font:600 15px/1.3 var(--font-heading);letter-spacing:.02em}
-.dd-close{display:inline-flex;align-items:center;justify-content:center;width:32px;height:32px;padding:0;background:transparent;color:var(--color-neutral-600);border:0;border-radius:0;cursor:pointer}
+.dd-close{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;padding:0;background:transparent;color:var(--color-neutral-600);border:0;border-radius:0;cursor:pointer}
 .dd-close:hover{background:var(--color-accent-100);color:var(--color-text)}
 /* 日期按鈕的面板：左欄這天有的新聞（類型＋則數，換類型），右欄有新聞的日期（依月份分組，週報、月報依年份），
    面板夠寬時兩欄並排、各自捲動，窄時上下疊、整塊一起捲；分組標題黏在頂端。
@@ -349,6 +350,20 @@ html.has-fab .wrap{padding-bottom:calc(var(--space-6) + 112px)}
 /* 從功能鈕打開的面板：同一個面板改成貼齊底部、整個畫面寬，頂端一條小把手；最高 85%，裡面照原本的清單捲動 */
 .dd .dd-panel.is-sheet{position:fixed;top:auto;right:0;bottom:0;left:0;z-index:45;width:auto;max-height:85vh;max-height:85dvh;overflow-y:auto;overscroll-behavior:contain;padding:0 max(var(--space-4),env(safe-area-inset-right,0px)) calc(var(--space-2) + env(safe-area-inset-bottom,0px)) max(var(--space-4),env(safe-area-inset-left,0px));border:0;border-top:2px solid var(--color-text);box-shadow:0 -24px 44px -30px rgb(0 0 0 / .6)}
 .dd .dd-panel.is-sheet::before{content:"";display:block;width:36px;height:4px;margin:8px auto 0;background:var(--color-neutral-300)}
+/* 底部面板打開時（使用者回報：頂端那一槓看起來能往下拉，拉了卻變成整頁下拉重新整理）：
+   - 整頁不能捲、不會下拉重新整理（html.fab-sheet；面板自己的清單照常捲，overscroll-behavior:contain 不外溢）
+   - 那一槓是真的把手：按住面板頂端往下拖就收起（bar.js 的 sheetDrag），把手加寬、加粗一點
+   - 背景一層暗色＋模糊（.dd-shade，使用者要求：讓人專心看面板），點一下收起；從背景開始的拖曳不會捲動頁面
+   - × 加大（使用者要求）：44px、實心淺底，圖示 22px */
+html.fab-sheet,html.fab-sheet body{overflow:hidden;overscroll-behavior:none}
+.dd .dd-panel.is-sheet::before{width:44px;height:5px;margin-top:9px}
+:root{--shade:rgb(12 16 22 / .34)}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--shade:rgb(0 0 0 / .52)}}
+:root[data-theme=dark]{--shade:rgb(0 0 0 / .52)}
+.dd-shade{position:fixed;inset:0;z-index:44;background:var(--shade);-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px);touch-action:none}
+.dd-shade[hidden]{display:none}
+.is-sheet .dd-close{width:44px;height:44px;background:var(--color-neutral-200);color:var(--color-text)}
+.is-sheet .dd-close svg{width:22px;height:22px;stroke-width:1.8}
 /* 頭版的過濾面板（bar.js 代按頁面上的領域標籤）：一列一個領域，色塊同標籤的領域色，選了填滿並打勾（不只靠顏色） */
 .fq-panel .dd-head{gap:var(--space-2)}
 .fq-panel .dd-title{margin-right:auto}

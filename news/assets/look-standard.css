@@ -254,7 +254,8 @@
 [data-look=standard] .fab-lines .is-focus{stroke:var(--focus);stroke-width:2}
 [data-look=standard] .fab-tip{border-radius:var(--radius-sm);font:500 13px/1.35 var(--font-sans)}
 [data-look=standard] .dd .dd-panel.is-sheet{border:var(--hair) solid var(--border);border-bottom:0;border-radius:var(--radius) var(--radius) 0 0;box-shadow:0 -12px 32px -12px rgb(0 0 0 / .25)}
-[data-look=standard] .dd .dd-panel.is-sheet::before{border-radius:2px;background:var(--border)}
+[data-look=standard] .dd .dd-panel.is-sheet::before{border-radius:3px;background:var(--border)}
+[data-look=standard] .is-sheet .dd-close{border-radius:50%}
 [data-look=standard] .fq-item{font:400 15px/1.4 var(--font-sans);letter-spacing:0;border-radius:var(--radius-sm)}
 @media(hover:hover){[data-look=standard] .fq-item:hover{background:var(--hover-bg)}}
 [data-look=standard] .fq-mk{border:1.5px solid var(--text-3);border-radius:var(--radius-sm)}
