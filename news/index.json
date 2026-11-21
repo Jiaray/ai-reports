@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-21T00:34:36+08:00",
+ "updated_at": "2026-11-21T09:23:41+08:00",
  "series": [
   {
    "id": "general",
@@ -131,6 +131,30 @@
  ],
  "items": [
   {
+   "series": "international",
+   "series_title": "國際新聞日報",
+   "cadence": "daily",
+   "period": "2026-11-21",
+   "date": "2026-11-21",
+   "title": "國際新聞日報",
+   "lede": "俄軍大規模空襲烏克蘭，巡弋飛彈落入北約成員波蘭；Anthropic 上市次日下挫、全球科技股拋售，台股重挫 6.7%；英國與歐盟簽下脫歐以來最大和解協議；台積電依美國新規收緊中國 AI 晶片訂單。",
+   "count": 34,
+   "data": "international/2026/2026-11-21.json",
+   "generated_at": "2026-11-21T09:23:41+08:00"
+  },
+  {
+   "series": "reading_list",
+   "series_title": "閱讀清單",
+   "cadence": "weekly",
+   "period": "2026-W47",
+   "date": "2026-11-21",
+   "title": "閱讀清單",
+   "lede": "Anthropic 以 813 億美元完成史上最大 IPO，創辦人承諾依安全程度決定訓練與部署節奏；卡內基美隆大學把資工課程免費放上 YouTube，HN 本週最熱；80000 Hours 兩集談美中 AI 協議與新國會的立法空間。",
+   "count": 29,
+   "data": "reading_list/2026/2026-W47.json",
+   "generated_at": "2026-11-21T02:43:35+08:00"
+  },
+  {
    "series": "gambling",
    "series_title": "博奕產業新聞",
    "cadence": "daily",
@@ -213,18 +237,6 @@
    "count": 36,
    "data": "taiwan_general/2026/2026-11-20.json",
    "generated_at": "2026-11-20T16:54:32+08:00"
-  },
-  {
-   "series": "reading_list",
-   "series_title": "閱讀清單",
-   "cadence": "weekly",
-   "period": "2026-W47",
-   "date": "2026-11-20",
-   "title": "閱讀清單",
-   "lede": "Anthropic 以 813 億美元募資完成史上最大 IPO；美中 AI 風險對話與新國會的 AI 立法空間成為播客焦點；卡內基美隆大學把資工課程免費放上 YouTube，HN 本週最熱。",
-   "count": 31,
-   "data": "reading_list/2026/2026-W47.json",
-   "generated_at": "2026-11-20T16:54:27+08:00"
   },
   {
    "series": "ai_weekly",
@@ -365,7 +377,7 @@
    "period": "2026-11-18",
    "date": "2026-11-18",
    "title": "綜合日報",
-   "lede": "輝達後黃仁勳時代震盪擴大，代理執行長收緊對 AI 新創的資金支持、微軟高層稱客戶更確信要分散晶片來源，前副手 Jay Puri 也捲入對中走私疑雲；OpenAI 發表 GPT-6.2 Astra 與 Sol，Astra 拿下 ARC-AGI-3 滿分，開發者實測卻褒貶不一；美國本週航班、銀行與國安局網路接連中斷，官員…",
+   "lede": "輝達後黃仁勳時代震盪擴大，代理執行長收緊對 AI 新創的資金支持、微軟高層稱客戶更確信要分散晶片來源，前副手 Jay Puri 也捲入對中走私疑雲；OpenAI 發表 GPT-6.2 Astra 與 Sol，Astra 拿下 ARC-AGI-3 滿分，開發者實測卻褒貶不一；美國本週航班、銀行與國安局網路接連中斷，官員指向修補 AI 揪出的漏洞時壓垮系統；台股月結算震盪逾 1,600 點後收漲 1…",
    "count": 35,
    "data": "general/2026/2026-11-18.json",
    "generated_at": "2026-11-18T16:14:45+08:00"

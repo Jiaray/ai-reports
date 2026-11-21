@@ -1,0 +1,1556 @@
+{
+ "schema": 1,
+ "series": "international",
+ "series_title": "國際新聞日報",
+ "group": "國際",
+ "cadence": "daily",
+ "period": "2026-11-21",
+ "date": "2026-11-21",
+ "title": "國際新聞日報",
+ "brief": "DAILY INTERNATIONAL BRIEFING",
+ "issue": "NO. 2026-325",
+ "generated_at": "2026-11-21T09:23:41+08:00",
+ "lede": "俄軍大規模空襲烏克蘭，巡弋飛彈落入北約成員波蘭；Anthropic 上市次日下挫、全球科技股拋售，台股重挫 6.7%；英國與歐盟簽下脫歐以來最大和解協議；台積電依美國新規收緊中國 AI 晶片訂單。",
+ "src_tags": [
+  "The Guardian",
+  "Straits Times",
+  "France 24／RFI",
+  "聯合國",
+  "DW",
+  "Euronews",
+  "Japan Times",
+  "BBC",
+  "Al Jazeera",
+  "Dawn",
+  "Nikkei Asia",
+  "Reuters",
+  "Financial Times",
+  "Rappler",
+  "WSJ",
+  "Human Rights Watch",
+  "SCMP",
+  "The Diplomat"
+ ],
+ "intro": [
+  {
+   "kind": "p",
+   "html": "俄軍大規模空襲烏克蘭，巡弋飛彈落入北約成員波蘭；Anthropic 上市次日下挫、全球科技股拋售，台股重挫 6.7%；英國與歐盟簽下脫歐以來最大和解協議；台積電依美國新規收緊中國 AI 晶片訂單。"
+  }
+ ],
+ "sections": [
+  {
+   "name": "天災與事故",
+   "count": 2,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "01",
+     "key": "bbf82cc332",
+     "title": "阿富汗法拉省學童把未爆迫擊砲彈帶進宗教學校，爆炸釀 4 死 2 傷",
+     "title_html": "阿富汗法拉省學童把未爆迫擊砲彈帶進宗教學校，爆炸釀 4 死 2 傷",
+     "url": "https://www.straitstimes.com/asia/blast-from-old-mortar-shell-kills-four-students-in-afghanistan",
+     "src": "Straits Times",
+     "left": "11/20 20:59",
+     "ts": "2026-11-20T20:59:42+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "阿富汗西部法拉省（Farah）巴克瓦縣一所宗教學校的學生，午休時發現一枚舊迫擊砲彈並帶回校內，年紀較小的學生按壓砲彈後爆炸，4 名學生死亡、2 人受傷。省警方發言人 Kalimullah Nangyal 11 月 20 日向法新社證實，罹難學生 10 至 16 歲，傷者已送往中央醫院。聯合國地雷行動處統計，1989 年蘇聯撤軍以來已有逾 4.5 萬名阿富汗人死傷於戰爭遺留爆裂物與地雷；聯合國人道事務協調廳 10 月報告指出，今年 1 到 9 月有 324 名平民因爆裂物傷亡，近八成是兒童，全國約 260 萬人住在已知危險區 1 公里內，包括 898 所學校與 209 處醫療設施。",
+     "also": [
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/blast-from-old-mortar-shell-kills-four-students-in-afghanistan"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "數十年戰爭留下的未爆彈，受害者以兒童為主，撿拾、搬運是最常見的致命情境。近 900 所學校緊鄰已知危險區，代表排雷與風險教育若不擴大，這類悲劇會一再發生；在援助經費緊縮下，排雷進度更難加快。"
+    },
+    {
+     "type": "item",
+     "no": "02",
+     "key": "34ed9397c7",
+     "title": "加州沿岸巨浪警報延續、局部浪高上看 22 英尺；印度氣旋 Akvan 逼近，奧里薩邦撤離近 7.2 萬人",
+     "title_html": "加州沿岸巨浪警報延續、局部浪高上看 22 英尺；印度氣旋 Akvan 逼近，奧里薩邦撤離近 7.2 萬人",
+     "url": "https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state",
+     "src": "The Guardian",
+     "left": "11/20 17:03",
+     "ts": "2026-11-20T17:03:20+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "太平洋低壓接連生成強浪，加州本週持續發布海岸危險警報，效力到週五晚間，預估浪高 10 至 18 英尺，聖路易斯奧比斯波郡與聖塔芭芭拉郡中部海灘局部 18 至 22 英尺；上週五美國國家海洋暨大氣總署（NOAA）外海浮標測得逾 30 英尺（9 公尺）浪高，蒙特雷浮標 34.1 英尺，為 30 年來最高，上週末多處海灘與碼頭封閉。風暴也帶來豪雨與強風：舊金山週三雨量破紀錄，沙加緬度 3.2 萬戶停電，週日晚間前奧勒岡南部與北加州部分地區雨量恐逾 100 毫米。同一份天氣追蹤指出，熱帶氣旋 Akvan 預計週五在印度 Narsapur 與 Puri 之間登陸，奧里薩邦已撤離近 7.2 萬人，陣風上看每小時 70 英里，雨量可能超過 200 毫米。",
+     "also": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/us-news/2026/nov/20/california-coastal-communities-alert-big-waves-hit-state"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "加州這波是多個低壓系統接力，巨浪、破紀錄降雨與停電同時出現，週末北加州還有大雨，土石流與河川暴漲是接下來的風險。印度則是預防性撤離，實際災情要看登陸後的通報；兩地都顯示極端天氣已從單一事件變成連續數週的考驗。"
+    }
+   ]
+  },
+  {
+   "name": "科學、環境與健康",
+   "count": 3,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "03",
+     "key": "bc7ca4a145",
+     "title": "COP31 延長談判仍無新草案，碳捕存目標取代化石燃料字眼引批評",
+     "title_html": "COP31 延長談判仍無新草案，碳捕存目標取代化石燃料字眼引批評",
+     "url": "https://www.theguardian.com/world/live/2026/nov/20/cop31-climate-crisis-talks-turkey-latest-news-updates",
+     "src": "The Guardian、France 24／RFI（法國政府出資）、聯合國（聯合國官方） 等 8 家",
+     "left": "11/21 02:11",
+     "ts": "2026-11-21T02:11:16+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "持續",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "聯合國 COP31 氣候峰會原定 11 月 20 日在土耳其安塔利亞閉幕，但各國仍卡在一份完全未提化石燃料的協議草案，談判延長後仍未見新版草案（衛報、France 24）。衛報指出，沙烏地阿拉伯等國力推在最終協議強調碳捕捉、利用與封存（CCUS），草案括號內寫入 2035 年前「朝」每年捕存 25 億噸二氧化碳努力。Climate Analytics 專家 Neil Grant 稱 CCUS 是化石燃料利益的「木馬」：全球現有設施全數滿載只能捕捉約 6,000 萬噸，實際只運轉一半，要達標需十年成長 40 倍，且約八成大型 CCS 計畫已延誤或取消。歐洲、非洲、拉美與太平洋國家組成的集團要求明確處理化石燃料並加強氣候融資（聯合國新聞）；場外活動人士高喊「可恥」（Euronews）。",
+     "also": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/world/live/2026/nov/20/cop31-climate-crisis-talks-turkey-latest-news-updates"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/video/20261120-cop31-wrapping-up-in-turkey-climate-deal-elusive-as-fossil-fuels-go-unmentioned"
+      },
+      {
+       "text": "聯合國",
+       "url": "https://news.un.org/en/story/2026/11/1168845"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/at-cop31-conflict-over-climate-science-slows-action-on-global-warming/a-80004894?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/video/2026/11/20/turkey-activists-chant-shame-as-cop31-negotiations-falter"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/environment/2026/11/20/climate-change/cop-fossil-fuel-language/"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/cop31-delivers-deals-for-host-turkey-as-climate-diplomacy-stalls"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c6074k5jjrzko"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "聯合國",
+       "url": "https://news.un.org/en/story/2026/11/1168839"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/cop31-un-climate-summit-enters-final-phase-with-no-deal-in-sight/live-79999516?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/why-china-is-unwilling-to-be-the-worlds-next-climate-leader"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/africa-at-cop31-will-climate-cash-finally-flow/a-80002269?maca=en-rss-en-all-1573-xml-mrss"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：8 家（The Guardian、France 24／RFI、聯合國、DW、Euronews、Japan Times、Straits Times、BBC）",
+      "<strong>今日新增</strong>：原訂 11 月 20 日閉幕的談判延長；草案改提碳捕存，括號內列 2035 年每年 25 億噸目標，活動人士在場外抗議。"
+     ],
+     "table": null,
+     "dive_html": "草案從「化石燃料」轉向「碳捕存」，等於把減量責任換成技術承諾，產油國可用捕存取代減產；以現有產能 40 倍的落差，25 億噸很難兌現。若化石燃料字眼最終缺席，就是從 COP28「轉型脫離化石燃料」的共識後退。延長賽的看點是這段文字能否回到文本，以及非洲國家要的新增資金。"
+    },
+    {
+     "type": "item",
+     "no": "04",
+     "key": "80a32d761c",
+     "title": "南韓昌原確診 10 年來首例霍亂，患者兩個月未出國、感染源追查中",
+     "title_html": "南韓昌原確診 10 年來首例霍亂，患者兩個月未出國、感染源追查中",
+     "url": "https://www.straitstimes.com/asia/east-asia/south-korea-confirms-its-first-case-of-cholera-in-10-years",
+     "src": "Straits Times",
+     "left": "11/20 14:50",
+     "ts": "2026-11-20T14:50:14+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "韓國疾病管理廳 11 月 20 日證實出現 2016 年以來首例霍亂。患者 11 月初因嘔吐、腹瀉到東南部港市昌原的醫院急診，檢體確認為霍亂，已於 11 月 17 日康復出院；患者過去兩個月沒有出國，衛生單位正追查感染源與接觸者。南韓上一次是 2016 年 3 例，疑因受汙染海鮮感染；2001 年曾爆發至少 162 人發病的較大疫情。疾管廳說明，霍亂主要經受汙染的水與食物傳播，也可經患者糞便或嘔吐物接觸傳染，嚴重時會脫水、休克，延誤治療可能致命；當局呼籲民眾只喝安全飲水、吃熟食、清洗或削皮蔬果，並要求醫療院所迅速檢驗與通報疑似病例。",
+     "also": [
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/south-korea-confirms-its-first-case-of-cholera-in-10-years"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "患者沒有出國史，代表可能是境內感染；若源頭是海鮮或水源，影響就不只單一病例。接下來看接觸者篩檢與是否出現第二例。昌原是港市，若追到海產供應鏈，可能牽動水產品檢驗與出口。"
+    },
+    {
+     "type": "item",
+     "no": "05",
+     "key": "8864c85aae",
+     "title": "歐日水星探測器 BepiColombo 飛行 8 年、約 100 億公里，即將以 37 分鐘減速機動入軌",
+     "title_html": "歐日水星探測器 BepiColombo 飛行 8 年、約 100 億公里，即將以 37 分鐘減速機動入軌",
+     "url": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro",
+     "src": "BBC",
+     "left": "11/20 13:59",
+     "ts": "2026-11-20T13:59:56+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "歐洲太空總署（ESA）與日本宇宙航空研究開發機構（JAXA）合作的 BepiColombo 探測器 2018 年從法屬圭亞那升空，飛行近 8 年、約 100 億公里後即將進入水星軌道。為抵抗太陽的強大引力，探測器全程「踩煞車」，繞行地球一次、金星兩次、水星六次來減速；推進系統出問題，使原本 7 年的航程多了一年。入軌需執行 37 分鐘的「手煞車迴轉」讓水星重力捕獲，若出錯可能飛越水星。水星表面溫度最高 430°C、最低 -180°C，並持續承受強烈太陽輻射；此前只有 NASA 的水手 10 號（1970 年代三度飛掠）與信使號（2011 年起繞行 4 年）造訪。任務希望解開隕石坑為何有冰、表面神祕凹地如何形成等謎題。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "水星是內太陽系研究最少的行星，BepiColombo 若成功入軌，將是信使號之後首次長期近距觀測。推進系統曾出問題，37 分鐘的入軌機動能否一次完成是眼前唯一關卡；成功之後，冰與凹地的觀測可回答水星如何形成、如何與太陽風暴互動。"
+    }
+   ]
+  },
+  {
+   "name": "科技與 AI",
+   "count": 6,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "06",
+     "key": "ae58bd9e7f",
+     "title": "英國政府秘密行動修補冷藏設備漏洞，數萬台超市冰箱免遭駭；歐洲至少 7 國超市本月遇襲",
+     "title_html": "英國政府秘密行動修補冷藏設備漏洞，數萬台超市冰箱免遭駭；歐洲至少 7 國超市本月遇襲",
+     "url": "https://www.theguardian.com/technology/2026/nov/20/cybersecurity-operation-thwarts-attack-on-uk-supermarket-fridges-and-freezers",
+     "src": "Reuters、The Guardian、BBC",
+     "left": "11/21 02:06",
+     "ts": "2026-11-21T02:06:52+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "衛報與 BBC 報導，英國政府與國家網路安全中心（NCSC）主導一項秘密行動，修補超市、倉庫、餐廳、加油站與體育場冷藏設備的資安漏洞，保護了數萬台冰箱與冷凍櫃。漏洞在 Resource Data Management（RDM）生產的資料管理器，由冷凍顧問公司 Omega Solutions 員工 Neil McCourt 發現，再由 Pen Test Partners 調查並通報製造商。業者說若漏洞被搶先利用，可完全控制設備並干擾多處冷藏系統；Pen Test Partners 合夥人 Ken Munro 說必須低調處理，以免被伊朗等國家行為者察覺。本月歐洲至少 7 國連鎖超市遭網攻，法國 10 月數百家零售商受害、巴黎公開指控伊朗。研究人員警告仍有許多設備暴露在風險中。",
+     "also": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxORVlPYjE2cEpJQjlLNzNNcjVjRnI3LUxkcnE5UVJBak9QOTlPUXR2S1htU3BEUWxfM0RfUmo2QVVfX0g3cXpzTjdUSFNRMERVR0FKUVJ4T21TYUhUU2d3bE9tV2hpaGo1bUxqc25WR0VYWFl0Z0UxZDBiMGM3RUdYODlURmFxYnVvcm9KTXVhZWdObGl0bTZfNENXTTlhdG9ibzVNX1hCOFpkQ1k?oc=5"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/technology/2026/nov/20/cybersecurity-operation-thwarts-attack-on-uk-supermarket-fridges-and-freezers"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/videos/cqpv94x1zj89o"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Reuters、The Guardian、BBC）"
+     ],
+     "table": null,
+     "dive_html": "冷藏設備成為攻擊面，打的是食品供應鏈與民生，攻擊已從法國擴散到多國。英國這次是先發現、先修補的少見案例，但「低調修補」也代表外界無法確認覆蓋率。對零售與物流業者，物聯網設備的韌體更新與網路隔離已經是食品安全問題，不只是資訊部門的事。"
+    },
+    {
+     "type": "item",
+     "no": "07",
+     "key": "e3c6b02099",
+     "title": "聯合國特定常規武器公約會議最後一天卡關，俄國阻擋 AI 致命自主武器規範談判",
+     "title_html": "聯合國特定常規武器公約會議最後一天卡關，俄國阻擋 AI 致命自主武器規範談判",
+     "url": "https://www.euronews.com/2026/11/20/russia-stalls-un-bid-to-regulate-ai-killer-robots-as-talks-near-deadline",
+     "src": "Euronews",
+     "left": "11/20 23:03",
+     "ts": "2026-11-20T23:03:59+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "聯合國《特定常規武器公約》（CCW）審議會議 11 月 20 日在日內瓦進入最後一天，128 個締約國花一週討論是否、以何種條件與時程啟動致命自主武器系統規範談判，到下午仍未突破僵局，任何決定都需全體共識。多數國家支持具法律約束力的協議，但擁有技術的美國與俄國不願受限；時程上，紅十字國際委員會與非政府組織希望一年內談完，美國提議五年，法國主張約束與非約束措施並行。俄國週一開幕時反對歐盟與公民團體等觀察員參與，迫使討論改為非正式形式，週四又多次要求修改最終報告草案。一名外交官向法新社說，各方「已非常接近同意需要談判，只有一個代表團積極反對」。倡議聯盟「阻止殺手機器人」說這類武器已在烏克蘭戰爭中測試或部署。",
+     "also": [
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/20/russia-stalls-un-bid-to-regulate-ai-killer-robots-as-talks-near-deadline"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "共識決讓單一國家就能擋下整個程序，俄國的程序戰正好暴露 CCW 框架的極限。即使最後勉強同意「開始談判」，美國主張的五年時程也遠落後戰場部署的速度。若 CCW 走不通，支持國可能轉向聯合國大會或公約外的平行談判，就像當年禁止地雷的做法。"
+    },
+    {
+     "type": "item",
+     "no": "08",
+     "key": "a91f921003",
+     "title": "日本 H3 火箭發射作業將由 JAXA 移交三菱重工，從下一次發射開始",
+     "title_html": "日本 H3 火箭發射作業將由 JAXA 移交三菱重工，從下一次發射開始",
+     "url": "https://www.japantimes.co.jp/business/2026/11/20/companies/h3-rocket-mitsubishi/",
+     "src": "Japan Times、Nikkei Asia",
+     "left": "11/20 16:43",
+     "ts": "2026-11-20T16:43:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "日本文部科學大臣 Yoshihiro Seki 11 月 20 日宣布，宇宙航空研究開發機構（JAXA）將從下一次發射起，把旗艦 H3 火箭的發射作業移交三菱重工。H3 是 JAXA 與三菱重工共同開發的兩節液體燃料火箭，2023 年首發與去年 12 月的 8 號機兩度失敗，之後連續三次成功，文科省認為技術已足夠成熟。移交分階段進行，先從配備兩具 LE-9 液態引擎與兩具 SRB-3 固體助推器的 H3-22 構型開始，這個構型 7 次發射成功 5 次，紀錄在三種構型中最好。改良版 LE-9 引擎等新元件投入使用時仍由 JAXA 負責發射，確認可靠後再移交。日經亞洲也報導此事。",
+     "also": [
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/business/2026/11/20/companies/h3-rocket-mitsubishi/"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/business/aerospace-defense-industries/japan-to-transfer-h3-rocket-launch-operations-to-mitsubishi-heavy"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（Japan Times、Nikkei Asia）"
+     ],
+     "table": null,
+     "dive_html": "這沿用了前一代 H2A 由國家開發、民間接手發射的模式，目的是讓 H3 進入商業發射市場。但 H3-22 七次中有兩次失敗，可靠度仍是爭取國際客戶的最大門檻；三菱重工接手後的發射頻率與成功率，會決定日本在商業發射市場的競爭力。"
+    },
+    {
+     "type": "item",
+     "no": "09",
+     "key": "d89893c6fa",
+     "front": 4,
+     "title": "美國新規生效，台積電暫停中國客戶 16 奈米以下訂單，多數限用 28、40 奈米且不得用 HBM",
+     "title_html": "美國新規生效，台積電暫停中國客戶 16 奈米以下訂單，多數限用 28、40 奈米且不得用 HBM",
+     "url": "https://www.straitstimes.com/asia/east-asia/tsmc-tightens-china-ai-chip-curbs-as-new-us-rules-close-manufacturing-loophole-sources-say",
+     "src": "Straits Times、Nikkei Asia",
+     "left": "11/20 14:25",
+     "ts": "2026-11-20T14:25:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      },
+      {
+       "text": "台灣相關",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "據兩名知情人士與路透看到的台積電指引，美國商務部新規 11 月 19 日生效後，台積電收緊對中國晶片設計公司的限制：16 奈米及以下製程的相關訂單，除非客戶取得美國出口許可，一律暫停；中國客戶原則上只能用 28 與 40 奈米製程，且晶片不得使用高頻寬記憶體（HBM）或先進封裝。新規取消了讓部分中國客戶不需個別許可即可取得先進製造服務的合規途徑：過去台積電可檢查晶片的算力等技術特性，判斷是否在管制範圍外，新規下這套驗證不再適用，相關晶片推定受管制。台積電也將更嚴格審查客戶、股權結構與運輸路線，包括海外中間商。台積電回應稱知悉並將遵守美國工業暨安全局規定，不評論市場傳聞。日經亞洲另報導，供應鏈警告新管制將造成更廣泛衝擊。",
+     "also": [
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/tsmc-tightens-china-ai-chip-curbs-as-new-us-rules-close-manufacturing-loophole-sources-say"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/business/tech/semiconductors/chip-supply-chain-warns-of-broader-disruption-from-new-us-export-controls"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（Straits Times、Nikkei Asia）"
+     ],
+     "table": null,
+     "dive_html": "多數先進 AI 晶片採 7 奈米以下製程，這等於堵上中國業者透過台積電代工高階 AI 晶片的最後縫隙，北京發展輝達替代品將更依賴本土產能。對台積電，短期是合規成本與部分中國訂單流失；更大的變數是美方會不會把管制再往成熟製程延伸。同一天台股與台積電股價重挫，市場對出口管制與 AI 需求的雙重疑慮正在疊加。"
+    },
+    {
+     "type": "item",
+     "no": "10",
+     "key": "526f8a35a7",
+     "title": "Google 下架逾 1.9 萬個挺印尼政府 YouTube 頻道，印尼數位部要求說明判定方法與誤判率",
+     "title_html": "Google 下架逾 1.9 萬個挺印尼政府 YouTube 頻道，印尼數位部要求說明判定方法與誤判率",
+     "url": "https://www.straitstimes.com/asia/se-asia/indonesia-asks-google-to-clarify-removal-of-19000-youtube-channels-ministry-says",
+     "src": "Straits Times",
+     "left": "11/20 13:56",
+     "ts": "2026-11-20T13:56:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "Google 10 月 30 日發布的 2026 年第三季「影響力行動公報」指出，7 到 9 月下架逾 1.9 萬個「支持印尼政府與其施政」的 YouTube 頻道，使印尼成為遭移除頻道最多的國家，其次是中國與俄國。印尼通訊與數位部 11 月 20 日表示，已要求 Google 以書面說明偵測方法、審查流程、準確度與誤判率，以及如何判定操作者的來源地；部方稱 Google 印尼與 YouTube 東南亞代表在 19 日會議上承認公報說明不足、容易被誤解。Google 發言人回應，公司例行打擊協調性影響力行動，「不論政治立場一律執法」。海峽時報分析，過去五年與印尼相關的頻道移除有 99% 發生在 2025 年 9 月之後；普拉伯沃支持度 7 月跌到 51%，先前約 80%。",
+     "also": [
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/se-asia/indonesia-asks-google-to-clarify-removal-of-19000-youtube-channels-ministry-says"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/se-asia/what-the-mass-purge-of-indonesia-linked-youtube-channels-says-about-its-political-discourse"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "被下架的是「挺政府」頻道，出面質疑平台的卻是政府，Google 把它們歸為協調性影響力行動，暗示背後可能有組織性的親政府操作。印尼要求公開方法與誤判率，表面是透明度，實際上也是對平台施壓。移除時間集中在支持度下滑期間，接下來看 Google 是否提交更多證據、印尼是否以監管手段回應。"
+    },
+    {
+     "type": "item",
+     "no": "11",
+     "key": "3500c75a46",
+     "title": "美國連環當機後，白宮撤換國家網路總監 Cairncross，五角大廈資訊長 Davies 代理",
+     "title_html": "美國連環當機後，白宮撤換國家網路總監 Cairncross，五角大廈資訊長 Davies 代理",
+     "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-all-1573-xml-mrss",
+     "src": "DW（德國政府出資）、BBC、Al Jazeera（卡達政府出資） 等 4 家",
+     "left": "11/20 12:21",
+     "ts": "2026-11-20T12:21:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美國本週接連發生科技當機，波及航空、銀行與國家安全網路，白宮國家網路總監 Sean Cairncross 隨後去職（DW）；CBS 報導他因失去白宮幕僚長 Stephen Miller 的信任而遭開除（BBC），多家媒體引述消息人士也稱他是被解職。國務卿魯比歐在 X 宣布由五角大廈資訊長 Kirsten Davies 接任，媒體引述白宮官員稱為代理職務；Davies 發文感謝川普與 Miller，稱美國要「主導網路領域好幾個世代」，國防部長赫格塞斯稱她是「盡忠職守的愛國者與專業人士」。這波當機連國家安全局（NSA）都受影響，高層官員稱沒有證據顯示是網路攻擊。半島電視台引述專家批評政府沒有認真看待 AI 攻擊威脅，民眾已開始囤積物資。",
+     "also": [
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/white-house-replaces-cyber-security-chief-after-tech-outages/a-79998531?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cwz0k3nn5p5mo"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/20/outages-in-us-cause-worry-despite-official-attempts-to-downplay-concerns"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2045884/trump-ousts-cyber-director-after-tech-outages-spark-criticism-sources"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：4 家（DW、BBC、Al Jazeera、Dawn）"
+     ],
+     "table": null,
+     "dive_html": "官方一邊說沒有網攻證據，一邊撤換網路安全最高負責人，等於把問題定調為治理失能；但當機原因仍未公開，換人回答不了「發生什麼事」。接任者出身國防體系，政策可能更偏軍事化。國會是否要求公開當機調查、民眾囤貨是否擴大，是接下來的觀察點。"
+    }
+   ]
+  },
+  {
+   "name": "經濟與財經",
+   "count": 4,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "12",
+     "key": "fd28116146",
+     "front": 2,
+     "title": "Anthropic 上市第二天一度跌 12%，那斯達克抹去今年漲幅，台股重挫 6.7%、亞股寫 2020 年來最慘一週",
+     "title_html": "Anthropic 上市第二天一度跌 12%，那斯達克抹去今年漲幅，台股重挫 6.7%、亞股寫 2020 年來最慘一週",
+     "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+     "src": "Reuters、Financial Times、The Guardian 等 7 家",
+     "left": "11/21 00:26",
+     "ts": "2026-11-21T00:26:07+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      },
+      {
+       "text": "台灣相關",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "Anthropic 11 月 19 日上市首日收在約 97 美元、比 83 美元發行價高 17%，20 日開盤後一度重挫 12% 至 85.12 美元，逼近發行價（衛報）。科技股同步遭拋售：那斯達克跌 2.9%、抹去 2026 年全部漲幅，道瓊與標普 500 一度進入修正區，AMD 跌 11.2%、輝達跌近 7%；路透報導輝達市值被 Alphabet 超越、比特幣跌破 6 萬美元。亞股寫下 2020 年以來最慘一週：台股重挫 6.7% 至 4 月中以來低點，台積電跌約 6%，證交所董事長出面承諾維持市場穩定；日經指數跌 5%、韓國 Kospi 跌 5.5%。路透另報導 Anthropic 超額配售後 IPO 募資增至 935 億美元。",
+     "also": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxPNWtIWXhnWHpsWWZSZ2dFVFRFSXBHaUxOWlp1VnFSZEoycGRtMDE1NVhuM2NEa2ZUTHlLN0lFbG5aX295SThLcFVXMEV3VmJidHF2amdDelVYWWprLXRsNWpodU9LcERma2xnc2pWaTZGbmNHZnYwREdjQnBOcGR0S0JSdnZTaC1aYmtBWXdRXzJiVDhHbFBEZ3lDdWhzS3Q3dnFMY3d3cjZIdw?oc=5"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/23fa83d8-e078-4853-959e-bd1f19d14ff5?syn-25a6b1a6=1"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/economy/2026/11/20/us-tech-sell-off-continues-as-anthropic-tumbles-after-mega-ipo"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c6808ym10vzgo"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/business/markets/asian-tech-stocks-fall-sharply-after-anthropic-s-blockbuster-ipo"
+      },
+      {
+       "text": "Rappler",
+       "url": "https://www.rappler.com/technology/anthropic-post-debut-stumble-reality-check-ai-trade/"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/b1b2e948-ff5e-48c4-bc3e-f8e75c9e4af1?syn-25a6b1a6=1"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMif0FVX3lxTE84ZFFzbDlRd0J6aHAxMkFGQUl6R2swRWt1ZTFUNWhNZlB1Q3VTMFlIcWNUUWpvZGY4TjdodG9qYkw5eVZiaENISVhjZlVQNy1RRjZ2QktKOER1d3lNOUxyOTc3aThONVdUU3VmX19fMnl2ZmpZeG1idEFGR1BkMlk?oc=5"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxOR1lHWVFlSnZTcW9OVTZGU0lwdDdreE5TSm94Z0FTZDktRHRLOEU0LVBTTHpOZ1lYYmFCZ041UWUtTEh6VEFhczZFd2xlSjNLRlNNMHhDd2tFcDl2N1BIMndRY1VaN09HeHowT0hVblhkd1ZpUGxTakdwVFk4cjFWTzlTRnJQeWNGUW92YUxWUG9XR3BzM0hrZDdaWU5vUHJyMVdRcDktdWNMSUlkLS1Nek1SZjYxQQ?oc=5"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxOY0VmbDFSZy1pMm1jZlE3SG1PMDdjcHdmZnp3WWFQbTBSSHBndDktSEhpRFB4MkRYZUhTQXFhNm9YY0pwNlczMkxtOF9ZMVA2R1VHN2k1MmE3VkN6d292amFiX1JKUUxVcmN4NmxFTGYwbkhlakpkeTZ4eE5yRkxxTTlubE9PUU1jWmtrZVF6RjhiMWhhYmp2Q29Ucy1aMm13T0F0WTMwSGRBZWdQV3pyRjlZRm9pUEVnV0EzQQ?oc=5"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMihAFBVV95cUxNVEJfUmdFQ0ZvVC1TbUh4dXZxdzlrTVZYenFybjM0RnpESDZ2aFRsMmRsWHpjbEF4cjlCWWJtQnZiWXhINVZhUng3YW9ILWZXejhNY3BJelJKRWw1TDRzaDRtdU92ZlhRUXRMdVpzYXlWaUQ3MUx2aWtEU2VaVlhLOHlqV2Q?oc=5"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNUFRZLXRpZ3l4cURJRTFHakoybEV5aVV6MmZMZWt5aGNxazc3MlRrZklsWGlyOE9HcFBVWXdIWGEzRmNXVjZjcDlPTjdPRnN6d2JnNWtPem45bGZxM3I3N3VhWkZZMXp1Y3VDMzFMUTVncGJYOEFKRTY1Y19ZNHpZeWhxUjMxczEtZE82cVRWaERoZmwwUkdXNWFqNjlpVUZ4azg5V191T3E2Nm9VanZwYU1uOS1sakNSUFVwaXBUaTFJclI5bXc?oc=5"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：7 家（Reuters、Financial Times、The Guardian、Al Jazeera、BBC、Nikkei Asia、Rappler）"
+     ],
+     "table": null,
+     "dive_html": "Anthropic 被當成 AI 交易的風向球，上市隔天就回吐漲幅，說明市場的疑問不在單一公司，而在 AI 資本支出能否回本；分析師說投資人「仍相信 AI，但更挑價格」。台、日、韓跌幅都大於美股，因為指數高度集中在晶片供應鏈，同日又有台積電收緊對中訂單的消息。指數基金年底前可能吸納 Anthropic 最多三成股份是潛在支撐；若美股正式進入修正，亞洲科技股的評價修正可能延續。"
+    },
+    {
+     "type": "item",
+     "no": "13",
+     "key": "a596c1cec5",
+     "title": "美參院 62 比 33 通過能源許可改革，加速電廠與輸電線審查，大型資料中心須分攤電網成本",
+     "title_html": "美參院 62 比 33 通過能源許可改革，加速電廠與輸電線審查，大型資料中心須分攤電網成本",
+     "url": "https://www.theguardian.com/us-news/2026/nov/20/senate-energy-datacenters-review-bill",
+     "src": "WSJ、The Guardian、Al Jazeera（卡達政府出資）",
+     "left": "11/20 23:09",
+     "ts": "2026-11-20T23:09:09+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美國參議院 11 月 19 日以 62 票對 33 票通過兩黨《美國可負擔與就業法案》，縮短電廠、輸電線、管線與礦場等能源建設的聯邦審查時程，限制透過法院挑戰核准，並要求大型 AI 資料中心負擔更多電網升級成本。包括少數黨領袖舒默在內的 15 名民主黨參議員支持，共和黨 Josh Hawley 與 Mike Rounds 反對。這是本月期中選舉共和黨大敗後國會的第一項重大行動；法案送交眾院，眾院去年曾通過範圍較小、較偏產業的版本。川普敦促通過並表示會簽署，稱這是「美國能源獨立的大勝利」。法案修改《國家環境政策法》、《淨水法》與《瀕危物種法》等，環保團體批評會鎖定更多化石燃料計畫、削弱社區挑戰開發案的權利。",
+     "also": [
+      {
+       "text": "WSJ",
+       "url": "https://www.wsj.com/politics/policy/senate-passes-measure-designed-to-speed-up-energy-projects-lower-consumer-costs-dcacc9c6?mod=rss_usnews"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/us-news/2026/nov/20/senate-energy-datacenters-review-bill"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/20/us-senate-passes-bill-to-speed-up-energy-project-approvals"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（WSJ、The Guardian、Al Jazeera）"
+     ],
+     "table": null,
+     "dive_html": "電價與資料中心在期中選舉成為焦點，兩黨都需要向選民交代，這是法案能跨黨派過關的原因。「資料中心付費」條款意味 AI 業者的用電成本將上升，對正被市場質疑資本支出的科技業又多一項成本。關鍵在眾院：民主黨 1 月接掌國會前能否完成，拖到新國會條文可能再改。"
+    },
+    {
+     "type": "item",
+     "no": "14",
+     "key": "38cba966b6",
+     "title": "沙烏地與日本簽約補充石油儲備，東京將為國家儲備購買最多 800 萬桶沙國原油",
+     "title_html": "沙烏地與日本簽約補充石油儲備，東京將為國家儲備購買最多 800 萬桶沙國原油",
+     "url": "https://www.japantimes.co.jp/business/2026/11/20/saudi-japan-oil-deal/",
+     "src": "Japan Times",
+     "left": "11/20 19:07",
+     "ts": "2026-11-20T19:07:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "據彭博（日本時報轉載），沙烏地阿拉伯與日本達成協議，協助補充日本已消耗的原油儲備，並擴大沙國在日本的儲油容量。依沙烏地通訊社 11 月 20 日刊出的聯合聲明，日本將視市場條件，為國家石油儲備購買最多 800 萬桶沙國原油。報導指出，美伊戰爭造成史上最大的石油供應中斷，產油國與消費國正紛紛採取措施強化能源安全。",
+     "also": [
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/business/2026/11/20/saudi-japan-oil-deal/"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "日本原油高度仰賴中東，荷莫茲海峽受戰爭衝擊後動用儲備，如今需要回補；沙國把油存放在日本，也等於把亞洲大客戶綁在自己的供應上。這類產消雙邊儲油協議若成為趨勢，台灣、南韓等同樣仰賴中東原油的經濟體可能跟進。"
+    },
+    {
+     "type": "item",
+     "no": "15",
+     "key": "e25e68af3d",
+     "title": "俄國接管日本菸草 7 家子公司，JT 認列 1.4 兆日圓損失、全年轉為營業虧損",
+     "title_html": "俄國接管日本菸草 7 家子公司，JT 認列 1.4 兆日圓損失、全年轉為營業虧損",
+     "url": "https://www.japantimes.co.jp/business/2026/11/20/japan-tobacco-russia-seizure-charge/",
+     "src": "Japan Times、Nikkei Asia",
+     "left": "11/20 10:36",
+     "ts": "2026-11-20T10:36:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "日本菸草產業（JT）11 月 20 日宣布，因失去俄國子公司的控制權，將認列 1.4 兆日圓（約 89 億美元）費用，全年由原估 1 兆日圓營業利益轉為 3,680 億日圓營業虧損，並轉為全年淨損、下修股利預測；營收預測也下修 630 億日圓至 3.8 兆日圓。俄國總統本月簽署命令，將 JT 在俄 7 家子公司全數置於「臨時管理」，JT 因此喪失經營權，必須把它們移出合併報表。首相高市早苗週三在中國與普丁會面時，曾提出資產遭扣押問題，以及俄方逮捕一名日本記者一事。日經亞洲報導，JT 股價跌 10%，約 90 萬名投資人受衝擊。",
+     "also": [
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/business/2026/11/20/japan-tobacco-russia-seizure-charge/"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/business/markets/equities/japan-tobacco-shares-fall-10-russia-seizure-hits-900-000-investors"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（Japan Times、Nikkei Asia）"
+     ],
+     "table": null,
+     "dive_html": "JT 是 2022 年後少數仍留在俄國經營的大型外企，如今被總統令接管，說明「留下來」也保不住資產，其他仍在俄國的日本與歐洲企業勢必重新評估風險。高市當面提出後未見轉圜，日俄關係改善空間有限；90 萬名散戶受損，可能讓東京對俄立場更強硬。"
+    }
+   ]
+  },
+  {
+   "name": "社會與治安",
+   "count": 6,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "16",
+     "key": "ab96d4d314",
+     "title": "涉與印度官員合謀暗殺美籍錫克教分離運動人士，印度男子 Gupta 在紐約被判逾 19 年",
+     "title_html": "涉與印度官員合謀暗殺美籍錫克教分離運動人士，印度男子 Gupta 在紐約被判逾 19 年",
+     "url": "https://www.theguardian.com/us-news/2026/nov/20/indian-man-sentenced-prison-murder-plot-sikh-separatist",
+     "src": "The Guardian、BBC、Dawn",
+     "left": "11/21 02:24",
+     "ts": "2026-11-21T02:24:12+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "55 歲印度男子 Nikhil Gupta 11 月 20 日在曼哈頓聯邦法院被法官 Victor Marrero 判處 235 個月（逾 19 年）徒刑。他今年 2 月承認僱兇殺人、共謀僱兇殺人與共謀洗錢；檢方指他與印度政府官員 Vikash Yadav 合謀殺害美加雙重國籍、主張錫克建國的「錫克正義」組織律師 Gurpatwant Singh Pannun，兩人安排把 1.5 萬美元現金交給「殺手」，對方其實是美國臥底執法人員。Yadav 也遭起訴，但不在美方羈押；檢方原求刑約 24 年。Gupta 庭上道歉，Pannun 則說會繼續爭取旁遮普自決。印度政府否認涉入，稱這類計畫違反政府政策；美加當局則稱此案屬於針對印度異議人士的更大範圍行動。",
+     "also": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/us-news/2026/nov/20/indian-man-sentenced-prison-murder-plot-sikh-separatist"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cq702ez8d4lwo"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2045944/indian-man-jailed-over-us-murder-plot-against-sikh-separatist"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（The Guardian、BBC、Dawn）"
+     ],
+     "table": null,
+     "dive_html": "判決讓「印度官員參與」這項指控在美國法院留下紀錄，即使新德里否認，美印、加印關係仍會持續承壓。Yadav 仍未到案，美方是否要求引渡是下一個外交考驗；對海外錫克社群，這是跨國鎮壓可被追訴的先例。"
+    },
+    {
+     "type": "item",
+     "no": "17",
+     "key": "7e8a721d4a",
+     "title": "歐洲逾 25 國學生與勞工上街抗議生活成本與軍費，義大利總工會大罷工、逾百城市示威",
+     "title_html": "歐洲逾 25 國學生與勞工上街抗議生活成本與軍費，義大利總工會大罷工、逾百城市示威",
+     "url": "https://www.euronews.com/2026/11/20/thousands-protest-across-europe-demanding-better-wages-and-services",
+     "src": "Reuters、Euronews、Al Jazeera（卡達政府出資） 等 6 家",
+     "left": "11/21 01:37",
+     "ts": "2026-11-21T01:37:39+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "11 月 20 日歐洲逾 25 國出現協調性抗議，學生與勞工要求提高薪資、改善生活條件、增加公共服務投資，並反對軍費擴張，活動預計延續整個週末（Euronews）。義大利最大工會 CGIL 發動 24 小時大罷工，配合國際學生動員日，全國逾 100 地示威，大眾運輸、學校與部分醫療機構受影響；羅馬有人朝教育部丟擲物品，波隆那發生警民衝突，米蘭有人焚燒川普與以色列總理納坦雅胡的紙板人像（半島電視台）。CGIL 領袖 Maurizio Landini 說「歐洲各地要求改變的聲音正在升高」。克羅埃西亞學生在十多個城市罷課；維也納大學外數百人集會，警方用胡椒噴霧驅散並逮捕數人；德國示威者反對恢復義務兵役。半島電視台說這波抗議受法國近月示威啟發，英國、西班牙、瑞典也有響應。",
+     "also": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxNT203dWpPR19PY3FGeGlGWkNqRklXMDA0cEtFTXBoY21LbVhhaEVNNzVXWTJfOUhUOURwUVVtQXBVazBOdjRjNmVnRktLOGxHam9tZ3ZneGp3bXNfQ2lHOU0yY0I2WF9qdnJxSkNrVm1Pc0REblNaMXJxRHZqRnpDcmY5MEhOdkNaeUZMUVFQYUxDUXRKbmhmckRvQnBHZUlXclh6ZEJJSUJQYll3SUNfdGJ5WQ?oc=5"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/20/thousands-protest-across-europe-demanding-better-wages-and-services"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/20/protests-held-across-europe-over-wages-services-high-living-costs"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/videos/c6dx12ppeqn4o"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/video/20261120-gen-z-protests-spread-across-europe-mass-rallies-over-cost-of-living-in-spain"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/germany-news-kids-take-to-streets-over-school-climate-and-costs/live-79998529?maca=en-rss-en-all-1573-xml-mrss"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiqgFBVV95cUxOYmk0cW5ick4ySXNTUG00Mk1HTEtuckdLR3pqMDJKY0RJYlpUaFJpakJFUFFldWdfZkg2LWdzMHljeGlVMFFzdjJvajlaT0VRY3F5VzVqYTVpaHJZcXpKcTQ2cGo0dExPNkhXbGZlY2w2Ry1yamRiLXk5VWxWSENuYS01djR4U2RlRWpTUzdrdDVoUEJDZFEtODlHNGNmU1Bnb3JQY3VMVTFudw?oc=5"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/videos/c62l5jweqr4ko"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/video/2026/11/20/italy-workers-and-students-stage-nationwide-strike-over-living-costs"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：6 家（Reuters、Euronews、Al Jazeera、BBC、France 24／RFI、DW）"
+     ],
+     "table": null,
+     "dive_html": "訴求從房租、學費到軍費排擠社福，串起的是「國防優先」預算與年輕世代生活成本的衝突。義大利 10 月的動員曾演變成暴動，這次衝突相對零星。若週末延續並與法國示威合流，會對各國 2027 年預算審議形成壓力，梅洛尼政府的預算案首當其衝。"
+    },
+    {
+     "type": "item",
+     "no": "18",
+     "key": "e9650a9973",
+     "title": "德州死刑犯 Dennes 注射 63 分鐘才斷氣、痛苦尖叫，各界呼籲全美暫停注射死刑",
+     "title_html": "德州死刑犯 Dennes 注射 63 分鐘才斷氣、痛苦尖叫，各界呼籲全美暫停注射死刑",
+     "url": "https://www.theguardian.com/us-news/2026/nov/20/botched-execution-texas",
+     "src": "The Guardian、BBC",
+     "left": "11/21 00:48",
+     "ts": "2026-11-21T00:48:08+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "70 歲德州死刑犯 Reinaldo Dennes 11 月 19 日晚間在亨茨維爾監獄執行注射死刑，行刑人員遲遲找不到可注射鎮靜劑戊巴比妥的靜脈，歷時 63 分鐘才宣告死亡。在床邊的靈性顧問 Jeff Hood 描述，Dennes 痛苦掙扎近 5 分鐘，大喊腿「像著火」、「不該是這樣」，並祈求解脫；德州官員仍稱執行成功。此案與田納西州 9 月 Christa Pike 的失敗行刑相似：兩案都用戊巴比妥、都難以建立靜脈通路、受刑人都描述劇痛與灼燒感，Pike 是唯一挺過全劑量行刑藥物的人。死刑資訊中心執行長 Robin Maher 質問「美國人還要容忍多少次失敗的行刑」，全美暫停注射死刑的呼聲再起。Dennes 因 1996 年在休士頓槍殺鑽石商 Janos Szucs 被判死。",
+     "also": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/us-news/2026/nov/20/botched-execution-texas"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/ck20vl1dd8qzo"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/us-news/2026/nov/20/reinaldo-dennes-texas-execution-lethal-injection-botched"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（The Guardian、BBC）"
+     ],
+     "table": null,
+     "dive_html": "兩個月內兩起戊巴比妥行刑出狀況，削弱了這款藥物「較人道」的說法，也給死刑犯律師以「殘酷且不尋常刑罰」挑戰執行程序的新依據。官方稱成功與目擊證詞的落差，可能促使法院要求公開行刑紀錄或暫緩後續執行。"
+    },
+    {
+     "type": "item",
+     "no": "19",
+     "key": "77203b320b",
+     "title": "法國警方調查演員德巴狄厄涉在 2018 年片場性侵女子，作家韋勒貝克涉共犯",
+     "title_html": "法國警方調查演員德巴狄厄涉在 2018 年片場性侵女子，作家韋勒貝克涉共犯",
+     "url": "https://www.france24.com/en/france/20261120-france-investigates-gerard-depardieu-writer-houellebecq-over-alleged-gang-rape",
+     "src": "France 24／RFI（法國政府出資）",
+     "left": "11/21 00:27",
+     "ts": "2026-11-21T00:27:56+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "兩名掌握案情人士 11 月 20 日證實調查新聞網站 Mediapart 的報導：法國警方正調查 77 歲演員 Gérard Depardieu（德巴狄厄）被控在 2018 年 12 月拍攝電影《Thalasso》期間性侵並侵害一名女子，龔固爾文學獎得主 Michel Houellebecq（韋勒貝克）涉嫌共犯，導演 Guillaume Nicloux 也被指控共犯。當時 32 歲的演員兼舞者向 Mediapart 表示，拍攝某場戲時韋勒貝克壓制她、德巴狄厄以手指侵入，韋勒貝克還在鏡頭運轉時強迫她進行口交。德巴狄厄已有性侵定罪紀錄，本週一撤回另一起片場性侵兩名女性案的上訴，下週將得知是否因涉嫌強暴女演員 Charlotte Arnould 受審。",
+     "also": [
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/france/20261120-france-investigates-gerard-depardieu-writer-houellebecq-over-alleged-gang-rape"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "指控牽涉法國影壇與文壇最具國際知名度的兩人，加上導演被控共犯，焦點從個人行為擴大到片場權力結構。目前仍在調查、尚未起訴；但德巴狄厄撤回上訴、另案下週決定是否開庭，司法壓力正在累積，法國文化界對 #MeToo 的檢視也可能延伸到出版界。"
+    },
+    {
+     "type": "item",
+     "no": "20",
+     "key": "4e73c3befc",
+     "title": "南非 7 到 9 月 581 名女性遇害，約堡周邊 13 名女性陳屍案已逮捕 8 人",
+     "title_html": "南非 7 到 9 月 581 名女性遇害，約堡周邊 13 名女性陳屍案已逮捕 8 人",
+     "url": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o",
+     "src": "BBC",
+     "left": "11/20 23:55",
+     "ts": "2026-11-20T23:55:16+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "南非警方 11 月 20 日公布最新犯罪統計，7 到 9 月共有 581 名女性遇害，其中 131 人在約翰尼斯堡所在的豪登省，包括 13 名在約堡周邊被棄屍公共場所、半裸且有瘀傷的女性，此案曾引發全國憤怒。同期全國謀殺案 5,590 件，比去年同期少 204 件，平均每天仍約 60 件。警方先前以「重大異常」為由停止公布女性遇害數字，因此無法判斷增減。代理警政部長 Firoz Cachalia 呼籲加強防範針對婦女與兒童的暴力。自由邦省 Botshabelo 本週三有 3 名蒙面男子闖入民宅開槍，5 名女性與 1 名幼兒遇害，尚無人被捕。豪登省警察首長 Tommy Mthombeni 週四表示，13 人命案已逮捕 8 人。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c69vwyjp0339o"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "女性遇害數據中斷後重新公布，本身就反映統計透明度的問題，數字無法與過去比較，也讓政策成效難以評估。13 人命案逮捕 8 人是警方回應民怨的進展，但每天 60 起謀殺的總量只微幅下降；接下來看被捕者能否起訴定罪，以及其他陳屍案是否有關聯。"
+    },
+    {
+     "type": "item",
+     "no": "21",
+     "key": "a16b334b3f",
+     "title": "越南國會修刑法廢除販毒等多項罪名死刑，死刑只剩叛國、謀殺、恐怖主義與製毒 4 罪",
+     "title_html": "越南國會修刑法廢除販毒等多項罪名死刑，死刑只剩叛國、謀殺、恐怖主義與製毒 4 罪",
+     "url": "https://www.straitstimes.com/asia/se-asia/vietnam-scraps-capital-punishment-for-drug-trafficking",
+     "src": "Straits Times",
+     "left": "11/20 19:28",
+     "ts": "2026-11-20T19:28:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "越南國會 11 月 20 日通過刑法修正案，廢除販毒罪的死刑，死刑只保留叛國、謀殺、恐怖主義與非法製毒 4 項罪名；危害人類罪、戰爭罪、叛亂與強姦未成年人等也一併刪除死刑，最重改為無期徒刑。公安部長梁三光表示，有證據顯示部分販毒者是「被引誘、欺騙或脅迫」，仍可「改造、教育並給予彌補機會」，不必判死；部分國會代表先前對刪除販毒死刑有疑慮。越南 2013 年起以注射取代槍決，從未公布執行人數；國際特赦組織估計 2023 年底有逾 1,200 人在死囚區。今年 9 月仍有 11 人因從法國販毒到越南被判死刑。1985 年刑法曾有 44 項死罪。",
+     "also": [
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/se-asia/vietnam-scraps-capital-punishment-for-drug-trafficking"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "東南亞多數國家對毒品採嚴刑峻法，越南把販毒移出死罪在區域內相當少見，也可能影響已判死的外籍毒犯。保留「製毒」死刑，顯示政策是區分上游製造與下游運送；但執行數字從不公開，修法後處決實際減少多少仍難驗證。"
+    }
+   ]
+  },
+  {
+   "name": "人權、移民與人道",
+   "count": 4,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "22",
+     "key": "658331a489",
+     "title": "緬甸拒絕國際法院種族滅絕判決稱「不公平」，中國批越權、美國審慎、歐盟讚揚",
+     "title_html": "緬甸拒絕國際法院種族滅絕判決稱「不公平」，中國批越權、美國審慎、歐盟讚揚",
+     "url": "https://www.aljazeera.com/news/2026/11/20/myanmar-china-object-to-unfair-icj-genocide-ruling",
+     "src": "Al Jazeera（卡達政府出資）、The Guardian、Straits Times 等 8 家",
+     "left": "11/20 21:41",
+     "ts": "2026-11-20T21:41:49+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "持續",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "國際法院 11 月 19 日以 9 比 6 判定緬甸在 2017 年「清除行動」中對羅興亞人犯下國家支持的種族滅絕，緬甸 20 日拒絕接受。發言人 Khaing Khaing Soe 在奈比多說，判決「不是一致決，不公平」；外交部稱「極度失望」，並說難民要「情況允許時」才能返國。中國外交部發言人郭嘉昆稱這類判決「不利於解決爭端」，批評「越權管轄、擴大解釋」；半島電視台指出，法院中的中國籍法官除一項外都投票支持緬甸。美國國務院說正在研究判決，並強調避免國際法院「政治化」；歐盟稱判決具里程碑意義，英國重申全力支持，澳洲要求緬甸完全遵守。聯大主席呼籲讓羅興亞人安全返鄉。判決要求緬甸賠償並允許流離者返回；目前仍有逾 130 萬羅興亞人流離，其中 120 萬在孟加拉難民營。",
+     "also": [
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/20/myanmar-china-object-to-unfair-icj-genocide-ruling"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/law/2026/nov/20/us-eu-reaction-myanmar-rohingya-genocide-icj-ruling-trump-international-law"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/myanmar-says-disappointed-by-icj-ruling-on-rohingya-genocide"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/myanmar-genocide-ruling-rohingya-say-struggle-for-justice-not-over/a-80003365?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "聯合國",
+       "url": "https://news.un.org/en/story/2026/11/1168836"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.com/zhongwen/articles/c5n4eylmmg8po/trad"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/news/2026/11/20/asia-pacific/politics/rohingya-crisis-icj-myanmar/"
+      },
+      {
+       "text": "Human Rights Watch",
+       "url": "https://www.hrw.org/news/2026/11/19/world-court-finds-myanmar-committed-rohingya-genocide"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/myanmar-calls-icj-ruling-on-genocide-unfair"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/se-asia/myanmar-says-un-court-ruling-finding-it-responsible-for-rohingya-genocide-unfair"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/se-asia/un-general-assembly-chief-tells-myanmar-to-bring-rohingya-home"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/news/2026/11/20/asia-pacific/politics/myanmar-genocide-general-president/"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/south-asia/myanmars-rohingya-win-landmark-genocide-ruling-but-return-home-remains-distant"
+      },
+      {
+       "text": "Human Rights Watch",
+       "url": "https://www.hrw.org/news/2026/11/19/today-the-truth-has-been-recognized"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：8 家（Al Jazeera、The Guardian、Straits Times、DW、聯合國、BBC、Japan Times、Human Rights Watch）",
+      "<strong>今日新增</strong>：緬甸政府與外交部正式拒絕判決；中國、美國、歐盟、英國、澳洲表態；聯大主席要求讓羅興亞人返鄉。"
+     ],
+     "table": null,
+     "dive_html": "國際法院沒有執行力，落實要靠安理會，而中國的公開反對預示任何執行決議都可能被否決。美國的保留，與前一天美中俄聯合呼籲國際司法機構勿濫用管轄權的立場一致。判決在法律上創下先例，衛報指出也可能成為以色列被控種族滅絕案的參考；但在政治上，大國正冷處理這項判決。"
+    },
+    {
+     "type": "item",
+     "no": "23",
+     "key": "988d36ae94",
+     "title": "世界糧食計畫署：2027 年需 121 億美元援助 9,100 萬人，全球 2.66 億人陷急性飢餓",
+     "title_html": "世界糧食計畫署：2027 年需 121 億美元援助 9,100 萬人，全球 2.66 億人陷急性飢餓",
+     "url": "https://news.un.org/en/story/2026/11/1168846",
+     "src": "聯合國（聯合國官方）",
+     "left": "11/20",
+     "ts": "2026-11-20T00:00:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "世界糧食計畫署（WFP）11 月 20 日在日內瓦發布 2027 年全球展望，明年需要 121 億美元才能援助 9,100 萬人，並警告資金持續短缺，還會有數百萬人挨餓。報告指出全球至少 2.66 億人面臨急性飢餓，約 3,900 萬人處於緊急或更嚴重等級，主因是衝突、經濟衝擊與氣候變遷。助理執行長 Matthew Hollingworth 說，援助預算被削減，WFP 只能優先處理最危急的個案，「我們正把人留在後面」，能觸及與無法觸及者的落差可能擴大。他指出衝突讓荷莫茲海峽、曼德海峽與黑海三條關鍵航道同時受阻，超級聖嬰干擾收成，燃料與運輸成本推高糧價，世界可能面臨六年內第三次全球糧食危機。WFP 呼籲各國提供彈性、可預期的資金。",
+     "also": [
+      {
+       "text": "聯合國",
+       "url": "https://news.un.org/en/story/2026/11/1168846"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "三條航道同時受阻是這份展望與往年最大的不同，荷莫茲海峽與曼德海峽一帶的戰事直接推高糧食運輸成本。需求擴大、資金縮水，WFP 實際能援助的人數可能低於規劃的 9,100 萬。仰賴進口糧食的國家也會透過價格感受到衝擊。"
+    },
+    {
+     "type": "item",
+     "no": "24",
+     "key": "1a529bd46a",
+     "title": "聯合國婦女署：塔利班逾百道禁令加上援助削減，阿富汗近 300 處人道醫療設施關閉",
+     "title_html": "聯合國婦女署：塔利班逾百道禁令加上援助削減，阿富汗近 300 處人道醫療設施關閉",
+     "url": "https://news.un.org/en/story/2026/11/1168844",
+     "src": "聯合國（聯合國官方）",
+     "left": "11/20",
+     "ts": "2026-11-20T00:00:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "阿富汗境內援助與發展機構 11 月 20 日警告，對婦女與女童權利的「攻擊」持續升級，愈來愈多女性無法取得必要醫療。聯合國婦女署指出，主因之一是事實上的掌權當局 2021 年以來頒布逾 100 道命令，大幅限制女性外出、受教與就業，援助經費大砍更讓情況惡化。婦女署、聯合國人道事務協調廳與夥伴統計：近 300 處人道醫療設施關閉或暫停，影響逾 100 萬名婦女與女童；逾 193 處性別暴力倖存者服務據點關閉；約 340 萬名婦女與女童可能無法取得飲水與衛生服務。婦女署人道行動主管 Sofia Calltorp 警告，阿富汗 2,200 萬名婦女與女童長期可能被排除在醫療之外；她在庫納爾省遇到多次流產卻無法就醫的婦女，也有男性說禁令讓他們無法協助女性。",
+     "also": [
+      {
+       "text": "聯合國",
+       "url": "https://news.un.org/en/story/2026/11/1168844"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "禁令與援助削減形成雙重擠壓：前者讓女性難以出門就醫，後者讓原本就少的服務點關門，孕產婦是最直接的受害者。國際對塔利班施壓至今看不到成效，短期內唯一可變的是援助資金能否恢復。"
+    },
+    {
+     "type": "item",
+     "no": "25",
+     "key": "9997a5ed68",
+     "title": "聯合國兒童基金會：烏克蘭今年前 10 月至少 114 名兒童遇害、1,030 人受傷，創四年新高",
+     "title_html": "聯合國兒童基金會：烏克蘭今年前 10 月至少 114 名兒童遇害、1,030 人受傷，創四年新高",
+     "url": "https://news.un.org/en/story/2026/11/1168847",
+     "src": "Reuters、聯合國（聯合國官方）",
+     "left": "11/20",
+     "ts": "2026-11-20T00:00:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "聯合國兒童基金會（UNICEF）11 月 20 日在基輔一座兩度遭炸的幼兒園廢墟前說明，烏克蘭兒童傷亡升至紀錄水準：依聯合國烏克蘭人權監察團數據，2026 年前 10 個月至少 114 名兒童死亡、1,030 人受傷，平均每天逾 3 名兒童傷亡；10 月單月至少 146 名兒童死傷，比去年同月增加 150%。今年兒童死亡人數已比 2025 年全年多兩成以上，受傷人數增加近六成；路透引述 UNICEF 說已接近 2022 年的水準。發言人 Louise Wateridge 說，基輔近幾週防空警報大增，「夜復一夜被警報與爆炸驚醒」。供熱與電廠嚴重受損，全國多數地區每天輪流停電 4 到 18 小時，供水也受影響；去年冬天近 200 萬名兒童在零下 20°C 時缺暖氣、電與水。",
+     "also": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxNaExfUUZkNENZRUdVX0dmbXRJcDdIQ2MzcENRcWlvSnYtUXF5Q1hObkZkU01ZUHFGQ1FaRmlqWXRIVWFZdWU5NDQ4WEtVVi1uS1M5eFRaNmtnbEJRVDRHdkRwenRQdXlJekFFOGtucU9lUndDX3lkams4ZzF3VkwySDdiVVAwMWNwTG9CdjFkcGU5endqOHpZRlFHdmtjNG5BaVNVWg?oc=5"
+      },
+      {
+       "text": "聯合國",
+       "url": "https://news.un.org/en/story/2026/11/1168847"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（Reuters、聯合國）"
+     ],
+     "table": null,
+     "dive_html": "兒童傷亡攀升與俄軍擴大空襲城市與能源設施同步，當天基輔又遭大規模空襲。冬季停電、斷水會把風險從傷亡延伸到疾病與失溫，兒童首當其衝；和談若拖過冬天，人道缺口只會擴大。"
+    }
+   ]
+  },
+  {
+   "name": "文化、體育與人物",
+   "count": 2,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "26",
+     "key": "d10cc5570c",
+     "title": "辛辛那提動物園明星河馬 Fiona 誤吞遊客針織帽不治，得年 9 歲",
+     "title_html": "辛辛那提動物園明星河馬 Fiona 誤吞遊客針織帽不治，得年 9 歲",
+     "url": "https://www.france24.com/en/video/20261120-cincinnati-zoo-s-famed-fiona-the-hippo-dies-days-after-eating-a-visitor-s-hat",
+     "src": "WSJ、France 24／RFI（法國政府出資）、BBC",
+     "left": "11/20 22:48",
+     "ts": "2026-11-20T22:48:52+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美國俄亥俄州辛辛那提動物園 11 月 19 日宣布，河馬 Fiona 在吞下一頂意外被拋進圍欄的針織帽數天後，因併發症死亡，年僅 9 歲。動物園聲明說，獸醫與保育團隊多次設法救治，「最終仍演變成醫療緊急狀況」，消息令人「極度悲傷」。Fiona 2017 年早產六週出生，體重只有 13 公斤，約是該物種過去最低出生紀錄的一半；動物園持續記錄她的成長與求生過程，讓她成為全球社群媒體明星，2018 年體重達 1,000 磅。",
+     "also": [
+      {
+       "text": "WSJ",
+       "url": "https://www.wsj.com/us-news/cincinnatis-famous-hippo-fiona-dies-after-ingesting-a-visitors-hat-8bcf8c11?mod=rss_usnews"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/video/20261120-cincinnati-zoo-s-famed-fiona-the-hippo-dies-days-after-eating-a-visitor-s-hat"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/videos/cq39gvj9y7xpo"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/video/20261120-%F0%9F%A6%9B-usa-fiona-cincinnati-zoo-s-famous-hippo-has-died"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（WSJ、France 24／RFI、BBC）"
+     ],
+     "table": null,
+     "dive_html": "Fiona 是動物園用社群經營打造出的明星，死因卻是遊客的帽子掉進圍欄，可能促使各地動物園檢討參觀區與動物區之間的防護與物品管理。"
+    },
+    {
+     "type": "item",
+     "no": "27",
+     "key": "a8f641bc17",
+     "title": "《俠盜獵車手 6》預購加首日估售逾 2,450 萬套、約 23.6 億美元，史上最大娛樂首發",
+     "title_html": "《俠盜獵車手 6》預購加首日估售逾 2,450 萬套、約 23.6 億美元，史上最大娛樂首發",
+     "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o",
+     "src": "BBC、The Guardian、France 24／RFI（法國政府出資）",
+     "left": "11/20 21:08",
+     "ts": "2026-11-20T21:08:30+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "持續",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "分析機構 Sensor Tower 估計，《俠盜獵車手 6》（GTA 6）預購加首日銷售逾 2,450 萬套、約 23.6 億美元；相較之下，今年票房最高的電影《Spider-Man: Brand New Day》整個院線期是 25 億美元。Rockstar 與母公司 Take-Two 沒有公布數字，只說需求「前所未有」。Cloudflare 數據顯示，英國 PS5 下載量在上市時達平常 8.6 倍；最早開賣的紐西蘭在上市前 4 小時飆到 14.8 倍，顯示有玩家切換地區搶先玩。開發成本估計逾 10 億美元，可能是史上最貴的遊戲；Sensor Tower 預估它會讓玩家花在其他單人遊戲的時間減少 10%，Niko Partners 預期今年全球銷售可超過 30 億美元。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/games/2026/nov/19/grand-theft-auto-six-fans-skip-work-pull-all-nighters"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/games/2026/nov/20/grand-theft-auto-vi-players-review"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/tv-shows/scoop/20261120-gta-vi-when-the-biggest-ever-entertainment-release-becomes-the-biggest-headline"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（BBC、The Guardian、France 24／RFI）",
+      "<strong>今日新增</strong>：Sensor Tower 估算首發銷量與營收；Cloudflare 公布各地下載與連線流量暴增倍數。"
+     ],
+     "table": null,
+     "dive_html": "首發營收逼近年度票房冠軍的整個院線期，鞏固了 3A 大作「少而巨」的商業模式；但逾 10 億美元的成本也說明只有極少數公司玩得起。「排擠其他單人遊戲 10% 遊玩時間」對同檔期遊戲是直接壓力。目前都是第三方估算，實際數字要等 Take-Two 財報。"
+    }
+   ]
+  },
+  {
+   "name": "戰爭與地緣衝突",
+   "count": 5,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "28",
+     "key": "80154fe65d",
+     "title": "丹麥認定俄國情報機關策劃暗殺美烏雙籍饒舌歌手 Kyivstoner，驅逐俄國國防武官",
+     "title_html": "丹麥認定俄國情報機關策劃暗殺美烏雙籍饒舌歌手 Kyivstoner，驅逐俄國國防武官",
+     "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing",
+     "src": "Reuters、The Guardian、Euronews",
+     "left": "11/21 02:16",
+     "ts": "2026-11-21T02:16:12+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "丹麥外交大臣拉斯穆森 11 月 20 日召見俄國大使，宣布 7 天內驅逐俄國駐哥本哈根國防武官，並說「我們很清楚地告訴你們：你們被揭穿了」。丹麥警方說，9 月已阻止俄國情報機關企圖殺害美烏雙重國籍饒舌歌手 Kyivstoner：3 名與丹麥黑道有關的男子在 9 月 25 日演唱會開場前 5 分鐘、開車前往哥本哈根北方場地途中被捕，車上有兩把上膛手槍與兩把刀；當晚第 4 人落網，演唱會取消。嫌犯被依協助外國情報機構與殺人未遂罪起訴並否認犯行。丹麥安全情報局局長 Kieffer-Kristensen 說這是丹麥首見的俄國暗殺企圖，顯示俄國「愈來愈具侵略性且願意冒險」。丹麥也考慮暫停對俄國人的申根簽證；Euronews 報導當局已對涉案幫派展開全國掃蕩。",
+     "also": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQRzZOQTlKQWt4VWhLc0JPVzRZTFE0YW85V0w4QUhPWWktYk0xVEZ3c0tzTXRxVjB3QjNDbFRNY2djaUp2aWdSX2hTbld5MGxJQmh2bklTNF8zbUFLS0dET3JzUUU5NjdhYnRxNURCNjI0RE9tQ2huMmV6eVRjb2tEYUd4Zm5iem9jR1Y2bElTU1B2aS02TmRJNWdjdzhEeDZVLXFoUk51MkRzMkFET2lQa1FkdThwY0RkZVRjemlRMA?oc=5"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/world/2026/nov/20/denmark-russian-diplomat-us-ukrainian-rapper-attempted-killing"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/20/two-danes-suspected-of-russian-backed-plot-to-kill-ukrainian-rapper"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Reuters、The Guardian、Euronews）"
+     ],
+     "table": null,
+     "dive_html": "雇用當地黑道執行暗殺，是俄國近年在歐洲常見的「代理破壞」手法；丹麥同時推動歐盟收緊對俄簽證，反制從外交驅逐擴大到人員往來。與愛沙尼亞同日宣布關閉邊境一起看，北歐與波羅的海國家已把俄國混合戰視為直接的安全威脅。"
+    },
+    {
+     "type": "item",
+     "no": "29",
+     "key": "1c65bd77cc",
+     "front": 1,
+     "title": "俄軍大規模空襲烏克蘭、基輔至少 6 死，Kh-101 巡弋飛彈落入北約成員波蘭",
+     "title_html": "俄軍大規模空襲烏克蘭、基輔至少 6 死，Kh-101 巡弋飛彈落入北約成員波蘭",
+     "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro",
+     "src": "Reuters、Financial Times、BBC 等 7 家",
+     "left": "11/21 00:54",
+     "ts": "2026-11-21T00:54:29+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "俄國 11 月 20 日凌晨對烏克蘭發動澤倫斯基所稱開戰以來最大規模的空襲之一，基輔至少 6 人死亡（美聯社報 8 人）；BBC 說俄軍鎖定基輔渡河設施，時間在烏克蘭攻擊克里米亞大橋數天後，普丁先前誓言「痛苦」報復。空襲期間，波蘭稱 3 個俄國物體侵入領空：國防部長 Kosiniak-Kamysz 說一枚 Kh-101 巡弋飛彈約 6:30 落在距烏克蘭邊境約 50 公里的 Nowy Lipowiec 農村，另有一枚疑似飛彈與一架噴射無人機墜落，無人受傷。波蘭稱這是「挑釁」，總理 Tusk 說看來不是意外，因英法主導、11 國參與的「意願聯盟」演習正在附近進行；北約秘書長 Rutte 譴責「嚴重侵犯波蘭領空」。路透另報導俄方回絕美國的類北約安全保證構想，FT 稱川普希望 1 月前促成和議。",
+     "also": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxPejRoNTB3Y2hjdXRxMmNON0lac2xkWldNSmQ5RXFTM0NrMDFJaEE3QWxsOHJoYTgwLTFUN1A5MGRkU0h6ejNsLXdraFB0MjhNTkVROEJjNG5WWm00azhpbUNDN2FRUW1uRXplazJmU08za2gtYlc0bEc5bk9XMEpfbndzU3VVTVB3LUNyR3llYW1rdkI5UmtzeFNsZmhNNllGY3g1WnF5ZDZpLTRGZ0Q5RUstaGJuSnFESFJCZ2d0RG41RDcyZW9QZmV3?oc=5"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/6c1b8a64-35f9-4aba-8605-45a4abdce6b8?syn-25a6b1a6=1"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cqx2x9dklxnro"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/video/20261120-russia-pummels-ukraine-with-massive-strikes-missile-hits-poland"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/20/poland-condemns-russian-provocation-after-airspace-violations"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/video/2026/11/20/polish-cities-sound-air-raid-sirens-after-russian-missile-strike"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/ukraine-updates-russian-attack-one-of-largest-zelenskyy-says/live-79999822?maca=en-rss-en-all-1573-xml-mrss"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxOaV9UOTYwUmtwcUI0bFo2OXMzZ1VIWGV4OEdRTXdQNkZYZ2tTOTZRdEJpQ1B1cEVQNVJMU0dQRlg2azAwOHlHY2hKQWZKa1FvcUQtSGZWTW1hSlA2SmI4Wnlkc1FrbUQyWTBjMTVMN2FrVHk1SWRDX3pwZHFkWGZXcTFBRjNiXzc4SFBIeEVvSWJMQWZwTE5fY08tMldaLVZqbUkxMDJzcVJiNTNudUE?oc=5"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOamN2T09McmJvdzlKWjl1YkJvNmxtZHJRbGJuXzRqeUtjQnQ2R0M2eXVFcTBhcGNiM0tQaTRoZ3ctb1pUdkFFVjFoSzBGcEJvRnZXMXA5X1RMc1NhZ0NsYzk5OFlGOTZkNzBmRTRyM0pXUVZBV3hIQmFKak04V0ZoQUtxSjdpb2NfTDhXWHNfYUMzeG5IVWdMQm42UXJtdUZoV0FXcGZZSTk1Qk45d185UldTWlpYUTdsVkNV?oc=5"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/poland-hit-by-at-least-one-russian-missile-says-polish-govt"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/video/2026/11/20/ukraine-rescue-teams-search-wreckage-after-deadly-russian-strike-on-kyiv"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c6x29gn4pdn9o"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/videos/c65y19wy3xl8o"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：7 家（Reuters、Financial Times、BBC、France 24／RFI、Al Jazeera、Euronews、DW）"
+     ],
+     "table": null,
+     "dive_html": "飛彈落點緊鄰意願聯盟為「戰後駐軍」準備的演習場，若如 Tusk 所說並非意外，等於俄國用實彈測試北約的反應。這發生在深圳三方峰會與柏林會議之後，顯示莫斯科在談判桌外持續升高軍事壓力；回絕類北約保證，也讓川普「1 月前達成協議」的時程更難實現。波蘭已要求北約追加支援，接下來看北約是否啟動第四條諮商。"
+    },
+    {
+     "type": "item",
+     "no": "30",
+     "key": "883e61c0c8",
+     "title": "沙國聯軍空襲葉門荷台達港，胡塞揚言轟炸沙國紅海港口、警告航空公司避開沙國領空",
+     "title_html": "沙國聯軍空襲葉門荷台達港，胡塞揚言轟炸沙國紅海港口、警告航空公司避開沙國領空",
+     "url": "https://www.aljazeera.com/news/2026/11/20/saudi-coalition-and-houthis-exchange-threats-to-bomb-key-ports",
+     "src": "Reuters、Al Jazeera（卡達政府出資）、Dawn",
+     "left": "11/20 22:48",
+     "ts": "2026-11-20T22:48:04+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "持續",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "胡塞武裝前一天攻擊利雅德最高的摩天大樓後，雙方 11 月 20 日互相揚言轟炸對方關鍵港口。沙國主導的聯軍呼籲民眾撤離胡塞控制的荷台達港部分區域；胡塞軍事發言人 Yahya Saree 隨即在 X 上表示，若聯軍攻擊荷台達，吉達港與沙國紅海沿岸所有港口都將成為「目標」，要求港口人員與船隻立即撤離，並警告航空公司避開沙國領空（麥加、麥地那附近除外），因「未來幾小時將是作戰區」，還點名南部 Shuqaiq 電廠。之後聯軍發言人 Turki al-Malki 宣布展開「針對性行動」，打擊荷台達港用於走私、運送武器與彈道飛彈的設施，並在沙那、薩達與塔伊茲省持續行動。巴基斯坦外交部則譴責胡塞攻擊身為沙國主權基金總部的利雅德大樓。",
+     "also": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNQUE1UEFGeklRZGtscWJhNkdxRWpyWHkwQ29IcVQ1Umc2VHlkWlJGZzZPTC00SFl2a3J0SXY3TGo0X0t2a3A5ckMzbmtZXy1mYzdoa0F5Vmo1TGFaU1RIbEZHak5iTi1oRXhWWF9CbWZ2QWFLRG1HSG5Rc1dSbHZlaGNNSDlvZ2RiekJzbnpqMC1aektLZU1MSHBWN25PYURzUGduTjhURQ?oc=5"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/20/saudi-coalition-and-houthis-exchange-threats-to-bomb-key-ports"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2045872/pakistan-unequivocally-condemns-houthi-attack-on-riyadhs-tallest-skyscraper"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Reuters、Al Jazeera、Dawn）",
+      "<strong>今日新增</strong>：聯軍要求荷台達港周邊民眾撤離並發動空襲；胡塞威脅吉達等紅海港口與 Shuqaiq 電廠，並警告民航避開沙國領空。"
+     ],
+     "table": null,
+     "dive_html": "衝突已從葉門境內延伸到沙國本土經濟要地與紅海航運，並與美國主導的對伊朗戰爭同時進行。胡塞若真攻擊吉達港，紅海航運與朝聖交通都會受衝擊，WFP 點名的曼德海峽阻塞也可能惡化。荷台達是葉門人道物資的主要入口，港口遭空襲會加重當地糧食危機。"
+    },
+    {
+     "type": "item",
+     "no": "31",
+     "key": "91778f647d",
+     "title": "指控俄軍情局指使破壞國防廠，愛沙尼亞 12 月 1 日起關閉對俄 5 處公路口岸",
+     "title_html": "指控俄軍情局指使破壞國防廠，愛沙尼亞 12 月 1 日起關閉對俄 5 處公路口岸",
+     "url": "https://www.euronews.com/2026/11/20/estonia-to-shut-border-with-russia-over-gru-linked-sabotage-attack",
+     "src": "Reuters、Euronews",
+     "left": "11/20 22:41",
+     "ts": "2026-11-20T22:41:57+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "愛沙尼亞政府 11 月 20 日正式批准，自 12 月 1 日起關閉與俄國邊界全部 5 處公路口岸（Narva-1、Narva-2、Koidula、Luhamaa、Saatse），6 個月後可能檢討，鐵路不受影響；總理 Kristen Michal 說不會讓俄國「利用我們的開放來對付我們」。起因是 11 月 14 日夜間塔林附近 Viimsi 國防公司 Threod Systems 廠區遭縱火未遂，生產與產品未受損；當局拘留 8 名拉脫維亞人，並稱證據顯示由俄國軍事情報局（GRU）下令，愛沙尼亞國防企業今年已兩度遭鎖定。實際上決定前只有 3 處口岸在使用。俄國否認涉入，外交部批評這是「恐俄」，路透報導莫斯科指愛沙尼亞築起新「鐵幕」並揚言回應。",
+     "also": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxQRDVRQW5RZGNBNU85SFFyWk5kaFNWZV9kZ2U1Nnp5VWlYTktJQ2daYmh1Si1aUlR1Y053SHM2cHV0RTktZFZacmQ1Y0tXX1ZmMTdIaFY2WVhkT0pSYnJVbEt2NzdZRWZ4OFYxMGl0TFp2TzViSmdXMFhQNm0zbzA1WTNJb2R5aDhIZ2RZWDBxSkpTYUMxNV9pSHBieWhLZzNwdFB4eXFYZlVsV015bTJ5SlhyU08wbkMwQTNnbTVvTEdfZ0E?oc=5"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQeU5KSE9iVEk1aUVlNnFFVVpfVzh6NVBKVUk2RDQyczI3dE9FQVRSNHRNZzVMYldHOERSZXNOeTlzUktYNXFhMWp3ZWhndlpJb1N1Q0hCVHNnbm9MdUh6NUE4SHpCTUU0YkN6eVN5ZWJaNG5mLWdzQnA2OTR5Z0hUREtlSUhQWHZHaDN6U3A3N3FRUWVJblE?oc=5"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/20/estonia-to-shut-border-with-russia-over-gru-linked-sabotage-attack"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（Reuters、Euronews）"
+     ],
+     "table": null,
+     "dive_html": "愛沙尼亞跟進芬蘭 2023 年關閉陸界的做法，北約東翼對俄陸路往來幾乎全面收縮。原本只剩 3 處口岸在用，象徵意義大於交通影響；但以俄語居民為主的 Narva 跨境探親與通勤會受衝擊。俄方的「回應」可能是對等限制，也可能是更多混合戰手段。"
+    },
+    {
+     "type": "item",
+     "no": "32",
+     "key": "469d09a800",
+     "title": "美中在上海舉行海事安全會談，與川習深圳會面同步，共軍海軍接待美軍太平洋部隊代表",
+     "title_html": "美中在上海舉行海事安全會談，與川習深圳會面同步，共軍海軍接待美軍太平洋部隊代表",
+     "url": "https://www.scmp.com/news/china/military/article/3375274/us-and-china-hold-maritime-security-talks-parallel-trump-xi-meetings",
+     "src": "SCMP（阿里巴巴持有）",
+     "left": "11/20 21:05",
+     "ts": "2026-11-20T21:05:33+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "據南華早報，美國與中國本週在上海舉行海事安全會談，時間與習近平、川普在深圳的峰會同步。中國人民解放軍海軍接待了美國太平洋司令部、太平洋艦隊與空軍、海岸防衛隊及五角大廈的代表，會議從週三進行到週五，內容包括雙方操作人員討論如何降低不安全、不專業互動的風險。",
+     "also": [
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/china/military/article/3375274/us-and-china-hold-maritime-security-talks-parallel-trump-xi-meetings"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "這類兩軍海事磋商是避免海空意外的少數管道，選在元首會面同期舉行，顯示雙方想把峰會氛圍落到軍事溝通上。若台海與南海的近距離攔截因此減少，可降低誤判風險，但不代表政治分歧縮小。"
+    }
+   ]
+  },
+  {
+   "name": "政治與治理",
+   "count": 2,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "33",
+     "key": "1efc3952f0",
+     "front": 3,
+     "title": "英歐布魯塞爾峰會簽三項協議：取消食品檢查、連結碳市場，10 萬名英國青年可赴歐生活工作",
+     "title_html": "英歐布魯塞爾峰會簽三項協議：取消食品檢查、連結碳市場，10 萬名英國青年可赴歐生活工作",
+     "url": "https://www.theguardian.com/politics/2026/nov/20/burnham-trade-youth-mobility-deals-biggest-step-towards-eu-since-brexit",
+     "src": "Financial Times、Reuters、The Guardian 等 8 家",
+     "left": "11/21 01:57",
+     "ts": "2026-11-21T01:57:10+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "英國首相 Andy Burnham 11 月 20 日在布魯塞爾與歐盟執委會主席范德賴恩、歐洲理事會主席科斯塔達成脫歐以來最大幅度的關係修補：三項協議涵蓋食品與農產品貿易（取消檢查、減少文書）、排放交易體系連結與青年流動計畫，讓 10 萬名英國年輕人可在歐盟生活、工作、求學與旅行，歐洲青年也可對等赴英；BBC 說適用 18 至 31 歲、最長 3 年。Burnham 稱協議可讓英國 GDP 增加 0.5%、約 170 億英鎊，相關法案下週送進國會。但歐盟威脅，若英國不讓歐洲學生付本國生學費，6 個月內可能擋下協議；范德賴恩說有信心找到解法。改革黨黨魁法拉吉同日在布魯塞爾開記者會批評 Burnham 天真。衛報引民調，英國五分之四國會選區的選民支持重返歐盟。",
+     "also": [
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/334b5f12-4344-4680-be04-a7554120ec60?syn-25a6b1a6=1"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxPMFZfOXJRS2RFTTlMenB0cXUxNG1mNnVFaThZUGVfM0J0cnY5ckZmRTZDbWZGVWtWSFBhR3lHMF9ZZWVMOHpOSFNMZjNROTc0Z3JFSkJzaUdXYVpQWmg2T1E5ckIyYk82bXpHUzUzTTRkc1dTX2hzYi12RHVVYUxPM0ExbDRNb29tcVhPdEJaZ3RrUQ?oc=5"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/politics/2026/nov/20/burnham-trade-youth-mobility-deals-biggest-step-towards-eu-since-brexit"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c6jreyqgw4e9o"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/20/uk-eu-deal-what-we-know-so-far"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/video/20261120-uk-and-eu-strike-landmark-deal-to-rebuild-ties-after-brexit"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/eu-and-uk-strike-landmark-deal-to-strengthen-ties-after-brexit/a-80001076?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/20/burnham-drew-a-line-under-brexit-at-the-eu-uk-summit-but-where-does-britain-go-next"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/be7924c4-8e29-4630-82f3-f94001765d37?syn-25a6b1a6=1"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cm1wr029evnqo"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c6jeqv9nv5eqo"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/video/20261120-burnham-hails-landmark-eu-uk-deal-as-good-day-for-britain-europe"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/politics/2026/nov/20/voters-in-four-out-of-five-uk-parliamentary-seats-back-rejoining-eu"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：8 家（Financial Times、Reuters、The Guardian、BBC、Al Jazeera、France 24／RFI、DW、Euronews）"
+     ],
+     "table": null,
+     "dive_html": "協議由前任首相施凱爾啟動、Burnham 收割，象徵英國政治重心從「完成脫歐」轉向「修補脫歐」。學費爭議是歐盟手上的籌碼，6 個月期限讓協議仍有變數。Burnham 說本屆國會不會走得更遠，但「腦力激盪」未來關係、民調傾向重返歐盟，可能讓歐盟關係成為下次大選的主軸，改革黨則是最明確的反對聲音。"
+    },
+    {
+     "type": "item",
+     "no": "34",
+     "key": "7c103dd977",
+     "front": 5,
+     "title": "九合一選前，台灣向 Meta 通報近 2,700 個疑似中國操作的 Threads 帳號",
+     "title_html": "九合一選前，台灣向 Meta 通報近 2,700 個疑似中國操作的 Threads 帳號",
+     "url": "https://www.straitstimes.com/asia/east-asia/taiwan-tells-meta-thousands-of-china-linked-accounts-seek-to-influence-elections",
+     "src": "Straits Times、BBC、The Diplomat",
+     "left": "11/20 13:36",
+     "ts": "2026-11-20T13:36:31+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      },
+      {
+       "text": "台灣相關",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "據三名政府官員與路透看到的內部報告，台灣近幾週向 Meta 通報近 2,700 個 Threads 帳號，認為是中國資訊戰的一部分，企圖影響 11 月 28 日的縣市長選舉。這些帳號幾乎都在過去 4 個月內開設、疑似批次建立，多數被判定為中國帳號，其中約 2,400 個可依相似中文名稱分成 27 群；另有 260 個帳號散布逾 2,150 支 AI 生成影片，累計 235 萬次互動，主要攻擊民進黨政治人物。安全官員說，目的是製造對立、降低對民主的信任並勸阻投票。Meta 表示已移除台灣通報的帳號，許多早被系統停用，這些「低品質假帳號」沒有發布選舉相關內容、多數沒有追蹤者。北京一貫否認干預台灣選舉。BBC 中文指出，台北、新北、高雄三都選情最激烈，結果可能牽動 2028 年總統大選。",
+     "also": [
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/taiwan-tells-meta-thousands-of-china-linked-accounts-seek-to-influence-elections"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/tackling-doubt-and-distrust-taiwan-cracks-down-on-disinformation-ahead-of-local-elections"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.com/zhongwen/articles/cmp3vyl0x1x6o/trad"
+      },
+      {
+       "text": "The Diplomat",
+       "url": "https://thediplomat.com/2026/11/taiwans-local-elections-the-races-to-watch/"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Straits Times、BBC、The Diplomat）"
+     ],
+     "table": null,
+     "dive_html": "官員描述的手法不要求選民支持誰，而是製造對立、勸人別投票，鎖定的是投票率，對靠動員的選舉影響可能大於直接造謠。Meta 說帳號幾乎沒有追蹤者，與台灣官方的威脅評估有落差，顯示平台與政府對「影響力行動」的認定標準不同。選前最後一週，AI 生成影片的擴散是主要觀察指標。"
+    }
+   ]
+  }
+ ],
+ "foot_left": "本報告由 news-aggregator 自動彙整",
+ "stats": {
+  "items": 34,
+  "sections": 9
+ }
+}
