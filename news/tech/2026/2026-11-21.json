@@ -1,0 +1,406 @@
+{
+ "schema": 1,
+ "series": "tech",
+ "series_title": "科技日報",
+ "group": "科技",
+ "cadence": "daily",
+ "period": "2026-11-21",
+ "date": "2026-11-21",
+ "title": "科技日報",
+ "brief": "DAILY TECH & AI BRIEFING",
+ "issue": "NO. 2026-325",
+ "generated_at": "2026-11-21T10:09:54+08:00",
+ "lede": "輝達遭 SEC 查會計、加州發傳票追查晶片流向，黃仁勳去職後監管壓力擴大；廣義黎曼猜想同日冒出人工與 AI 兩份證明，待數學界驗證；GTA VI 首日營收 37.9 億美元創娛樂紀錄；川普揚言重稅阻止資料中心外移",
+ "src_tags": [
+  "Hacker News",
+  "Ars Technica",
+  "The Verge",
+  "科技新報",
+  "BBC",
+  "衛報"
+ ],
+ "intro": [
+  {
+   "kind": "p",
+   "html": "輝達遭 SEC 查會計、加州發傳票追查晶片流向，黃仁勳去職後監管壓力擴大；廣義黎曼猜想同日冒出人工與 AI 兩份證明，待數學界驗證；GTA VI 首日營收 37.9 億美元創娛樂紀錄；川普揚言重稅阻止資料中心外移"
+  }
+ ],
+ "sections": [
+  {
+   "name": "硬體與晶片",
+   "count": 3,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "01",
+     "key": "afb15c1bfc",
+     "title": "美國公開 H200 出口許可資料：字節跳動、阿里巴巴合計申請近 196 萬顆，獲批量遠低於申請",
+     "title_html": "美國公開 H200 出口許可資料：字節跳動、阿里巴巴合計申請近 196 萬顆，獲批量遠低於申請",
+     "url": "https://technews.tw/2026/11/21/us-2026-h200-export-china/",
+     "src": "科技新報",
+     "left": "11/21 09:12",
+     "ts": "2026-11-21T09:12:04+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "美國依《出口管制改革法案》（ECRA）公開商務部工業與安全局（BIS）涉及輝達與超微高階 AI 晶片輸中的許可資料。截至 2026 年 5 月的 H200 申請量，字節跳動 101.5 萬顆、阿里巴巴 94.895 萬顆，兩家合計近 196.4 萬顆；騰訊、京東、快手分別申請 15 萬、11.63 萬、11.58 萬顆，滴滴 9.978 萬顆。獲批數量排名不同：字節跳動與騰訊各獲批 15 萬顆，滴滴 9.978 萬顆居第三，阿里巴巴與快手各 7.5 萬顆，米哈遊 5.78 萬顆，百度、京東分別 4.3 萬與 4.13 萬顆。美國企業提出的高階 AI 晶片輸出申請總量 3,444,160 顆，核准 879,868 顆，批准率約 25.5%。文中提醒，取得許可不代表交易已經完成。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "申請與獲批的落差顯示，華府是用許可證逐案調節中國取得高階算力的速度，而不是全面放行或全面封鎖。阿里巴巴申請近 95 萬顆只獲批 7.5 萬顆，對其雲端與模型訓練的算力規劃衝擊最大；滴滴則是申請量全數獲批。這份資料在輝達因前執行長與 Megaspeed 的牽連受到調查時公開，許可紀錄可能成為國會追查的素材；但文中沒有實際出貨量，許可數字不能直接換算成中國已到手的算力。"
+    },
+    {
+     "type": "item",
+     "no": "02",
+     "key": "c4b0222f29",
+     "title": "Meta 重新檢討 2030 淨零目標：資料中心擴建讓年排放增加近四成",
+     "title_html": "Meta 重新檢討 2030 淨零目標：資料中心擴建讓年排放增加近四成",
+     "url": "https://arstechnica.com/ai/2026/11/meta-reconsiders-2030-net-zero-goal-amid-record-emissions-from-ai-data-centers/",
+     "src": "Ars Technica",
+     "left": "11/21 05:47",
+     "ts": "2026-11-21T05:47:10+08:00",
+     "heat": "21 comments",
+     "tags": [],
+     "summary_html": "Meta 在 11 月 19 日發布的 2026 年永續報告中表示，正在重新評估時程、順序與中期里程碑，包括 2030 年淨零排放期限與近期的排放強度目標。執筆的資料中心副總裁 Rachel Peterson 與淨零永續主管 Blair Swedeen 寫道「長期抱負沒變，但營運環境變了」，因為 AI 基礎設施需求成長「比幾乎所有人預期的都快」。報告顯示 Meta 總排放從 2024 年的 1,560 萬公噸二氧化碳當量增至 2025 年逾 2,170 萬公噸，增幅近 40%，增量多來自資料中心伺服器等「資本財」。同期 Microsoft 增 25%、Google 增 18%、Amazon 增 16%，三家至今都維持原本的永續目標。Ars 指出，業者雖加碼再生能源，新資料中心仍常仰賴燃燒天然氣發電。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "Meta 是美國四大科技巨頭中第一家公開鬆動淨零期限的，等於承認算力競賽與減碳承諾在現階段無法兼顧；其他三家排放同樣兩位數成長，若陸續跟進，企業氣候承諾的可信度會整體下滑。增量主要來自伺服器等資本財而不只是用電，代表光靠購買綠電解決不了，硬體製造的隱含碳才是難題。這份報告也會給正在收緊資料中心審批的各州更多論據。"
+    },
+    {
+     "type": "item",
+     "no": "03",
+     "key": "3a0cb236fd",
+     "front": 4,
+     "title": "川普揚言對海外蓋資料中心的美國企業課「巨額稅」，連幕僚都是當場才聽到",
+     "title_html": "川普揚言對海外蓋資料中心的美國企業課「巨額稅」，連幕僚都是當場才聽到",
+     "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+     "src": "The Verge",
+     "left": "11/21 02:50",
+     "ts": "2026-11-21T02:50:19+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "美國總統川普 20 日在記者會上說：「我們不會允許我們的公司在國外蓋資料中心」，揚言對這麼做的企業課「巨額稅」，理由是「中國會把它們全拿走」，並說過去晶片等產業外移「對國家極具破壞性」。他沒有交代細節，還說「我還沒跟我的人講過，現在才告訴他們」。BBC 指出，Meta、Google 等已簽約在海外興建資料中心，政策要怎麼執行並不清楚；資料中心是 11 月初期中選舉的焦點，不少主張從嚴管制的民主黨候選人勝選。The Verge 指出，各州正以暫停令與新限制收緊資料中心申請，民主黨多數的新國會幾個月內就職，這項構想恐難落實。同一週華府也宣布，購買先進晶片須取得許可，以監控算力是否被用來服務中國企業。",
+     "also": [
+      {
+       "text": "BBC Technology",
+       "url": "https://www.bbc.co.uk/news/articles/cmde1lw9y54ko"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "業者正被兩股力量夾擊：各州收緊、社區反彈把機房往海外推，川普則想用稅負把它們留在國內，選址空間會被進一步壓縮。若真成為政策，衝擊最大的是在東南亞等地布局算力的雲端業者，也會和同週的晶片許可新規疊加，管制範圍等於從「晶片能賣給誰」延伸到「機房能蓋在哪」。目前只是記者會上的即興表態，沒有法源、稅率與適用範圍；接下來要看白宮是否提出具體方案，以及民主黨掌控的國會是否買單。"
+    }
+   ]
+  },
+  {
+   "name": "軟體與平台",
+   "count": 2,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "04",
+     "key": "d1e87ef3ac",
+     "title": "Google 2027 年 1 月關閉 Nest App，8 月起智慧音箱改用 Gemini for Home 取代 Google 助理",
+     "title_html": "Google 2027 年 1 月關閉 Nest App，8 月起智慧音箱改用 Gemini for Home 取代 Google 助理",
+     "url": "https://www.theverge.com/tech/1038834/google-assistant-smart-speakers-nest-app-killed-shut-down",
+     "src": "The Verge",
+     "left": "11/21 02:06",
+     "ts": "2026-11-21T02:06:41+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Google 宣布調整智慧家庭軟體：Nest App 將在 2027 年 1 月 25 日關閉，Nest 恆溫器、攝影機與 Nest Protect 警報器都改由 Google Home App 管理；已設定 Home App 的使用者，裝置與攝影機錄影紀錄會在當天自動移轉，Nest Aware（第一代）訂閱自動轉為 Google Home Premium，Nest 帳號資料則從 2027 年 3 月 25 日起刪除。2027 年 8 月 2 日起，智慧音箱與智慧螢幕上的 Google 助理將由 Gemini for Home 取代，Google 稱新助理能處理更複雜的問題、用自然語句對話。Google 今年稍早已在手機上停用 Google 助理，並表示會在 8 月轉換前公布更多細節。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "這是 Google 把智慧家庭從 Nest 品牌整併進 Home 的收尾，語音助理也全面換成生成式模型。對使用者的實際風險在過渡期：沒在期限前設定 Home App 的人，帳號資料兩個月後就開始刪除；舊型音箱能否順暢執行 Gemini、原本依賴固定指令的自動化流程會不會失效，Google 都還沒說明。"
+    },
+    {
+     "type": "item",
+     "no": "05",
+     "key": "11f79f6f88",
+     "title": "Signal 將封鎖 iOS 27 與 Android 內建 AI 代理擷取聊天畫面",
+     "title_html": "Signal 將封鎖 iOS 27 與 Android 內建 AI 代理擷取聊天畫面",
+     "url": "https://signal.org/blog/protecting-your-privacy/",
+     "src": "Hacker News",
+     "left": "11/20 17:42",
+     "ts": "2026-11-20T17:42:16+08:00",
+     "heat": "HN 511",
+     "tags": [],
+     "summary_html": "Signal 的 Meredith Whittaker 20 日發文宣布，將限制行動作業系統內建的 AI 代理擷取、儲存 Signal 資料：在 iOS 27 上禁止 App 內截圖，在 Android 上偵測到 AI 助理嘗試讀取 Signal 畫面時加以阻擋。她指出 Google 與 Apple 正把 Gemini Intelligence、Siri 的螢幕感知等代理功能深度整合進作業系統，這些代理靠「掃描」螢幕取得資訊，Signal 資料一旦被擷取，就會落到代理使用的本機資料庫或遠端伺服器，超出 Signal 的控制，她稱這對 Signal 是「生存威脅」。Signal 去年已用同樣方式阻擋 Windows 11 的 Microsoft Recall。想截圖的使用者可在設定中關閉這項保護，但可能讓自己與聯絡人的內容外露。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50572348"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "端對端加密保護的是傳輸過程，作業系統層的代理卻在解密後的螢幕端讀取內容，加密通訊的安全邊界因此從協定轉移到作業系統。Signal 只能用截圖封鎖這種粗糙手段自保，還得犧牲使用者截圖的便利；若 Apple、Google 不提供讓 App 明確拒絕代理讀取的官方介面，銀行、醫療等處理敏感資料的 App 也會面臨同樣處境。Android 端「偵測到才擋」能否涵蓋各家手機廠的助理，文中沒有交代。"
+    }
+   ]
+  },
+  {
+   "name": "產業與法規",
+   "count": 5,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "06",
+     "key": "a48bd659db",
+     "title": "黃仁勳去職後的輝達：財務長代理執行長、接班人選未定，董事會被批平時不制衡",
+     "title_html": "黃仁勳去職後的輝達：財務長代理執行長、接班人選未定，董事會被批平時不制衡",
+     "url": "https://finance.technews.tw/2026/11/21/what-challenges-would-taiwanese-suppliers-face-after-jensen-departure/",
+     "src": "科技新報",
+     "left": "11/21 08:00",
+     "ts": "2026-11-21T08:00:49+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "《今周刊》文章指出，黃仁勳 11 月初被爆婚外情後，董事會接受辭呈，輝達市值單日一度蒸發逾 6,000 億美元；財務長 Colette Kress 出任代理執行長，外界盛傳的人選包括內部的 Ian Buck、安謀執行長 Rene Haas、超微執行長蘇姿丰與川普推薦的蘋果前執行長庫克。財務面，市場估算輝達上半年股權投資現金淨流出 352 億美元、約自由現金流的一半，摩根士丹利警告至 2028 年底廣義信用曝險恐達 2,000 億美元；郭明錤等人認為台廠至 2028 年訂單變數不大。《商業周刊》文章則檢討董事會：董事平均任期約 15 年、是標普 500 平均的 2 倍，10 位外部董事沒有現任或前任標普 500 執行長，也沒有國安背景；黃仁勳持股不到 4%、沒有特別表決權，董事會有權卻三十多年幾乎不用，出事後才開始找接班人。",
+     "also": [
+      {
+       "text": "科技新報",
+       "url": "https://finance.technews.tw/2026/11/21/nvidia-board-30-years-silence-ceo-replaced-dereliction-duty-truth/"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "兩篇指向同一個結構問題：輝達的擴張倚賴創辦人個人判斷，以及替客戶提供信用擔保的生態系經營。由財務長代理後，最可能先收緊的是對新興雲端業者的資金支持，壓力會沿伺服器代工鏈傳到台灣；「台廠短期無虞」的說法多出自供應鏈與分析師本身，長期風險在雲端巨頭轉向自研晶片後的議價權。董事會沒預先備妥接班人，讓領導空窗和國會調查重疊，重大投資與產能決策可能因此延後。"
+    },
+    {
+     "type": "item",
+     "no": "07",
+     "key": "9efc52d1f8",
+     "title": "YouTube 傳將以 30 億美元和解美國學區的社群成癮訴訟，並加入青少年保護措施",
+     "title_html": "YouTube 傳將以 30 億美元和解美國學區的社群成癮訴訟，並加入青少年保護措施",
+     "url": "https://www.theverge.com/streaming/1039096/youtube-social-media-addiction-school-districts-settlement",
+     "src": "The Verge",
+     "left": "11/21 06:51",
+     "ts": "2026-11-21T06:51:40+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "彭博引述消息人士報導，YouTube 準備支付 30 億美元，和解數千個美國學區指控其「成癮設計」傷害兒童的訴訟，雙方已「原則上」達成協議，內容也包括新的青少年保護措施。和解可讓 Google 避開學區對 YouTube、Meta、Snap、TikTok 提起的一波聯邦多區訴訟（MDL）；第一場指標性審判前四家已以總計 2,700 萬美元和解，下一場 2027 年 2 月在加州奧克蘭開審，被告是 Meta、Snap 與 TikTok。Meta 8 月同意 10 年內支付 171 億美元，和解 47 州等提起的訴訟，其中剩下的 53 億美元要等 YouTube 與 TikTok 推出類似措施並支付相當金額才給付。YouTube 與 Meta 今年 3 月已在另一起社群成癮案中被判過失。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "30 億美元的規模顯示，平台業者已把「成癮設計」責任視為難以在法庭上勝訴的風險，寧可花錢換取不必公開審理產品設計細節。Meta 的和解條款把部分款項綁在 YouTube、TikTok 是否跟進，使和解變成推動產業標準的槓桿：YouTube 一旦接受青少年保護措施，TikTok 會成為最後一家承受壓力的大平台。保護措施的具體內容尚未公開，那才決定青少年的使用體驗會改變多少。"
+    },
+    {
+     "type": "item",
+     "no": "08",
+     "key": "b05c36fbb6",
+     "title": "FCC 下令加州不得對 AT&T 執行「最後服務提供者」規定，AT&T 擬停掉近 20 萬戶市話",
+     "title_html": "FCC 下令加州不得對 AT&amp;T 執行「最後服務提供者」規定，AT&amp;T 擬停掉近 20 萬戶市話",
+     "url": "https://arstechnica.com/tech-policy/2026/11/fcc-orders-california-to-stop-enforcing-phone-service-rules-against-att/",
+     "src": "Ars Technica",
+     "left": "11/21 06:28",
+     "ts": "2026-11-21T06:28:24+08:00",
+     "heat": "32 comments",
+     "tags": [],
+     "summary_html": "美國聯邦通訊委員會（FCC）命令加州停止對 AT&amp;T 執行「最後服務提供者」（COLR）規定，接受 AT&amp;T 以聯邦優先於州法為由的請求。COLR 要求 AT&amp;T 向服務區內任何人提供電話服務；AT&amp;T 想停止受理新的市話用戶，並在 2027 年 6 月 1 日終止 18.4 萬戶住宅與 1.5 萬戶企業的服務。AT&amp;T 先前走法院途徑被聯邦法官駁回；它在 21 州有線服務區中已有 20 州解除這項義務，只剩加州。FCC 主席 Brendan Carr 說加州規定「為已逝去的時代設計」；AT&amp;T 主張以連接行動網路的無線家用電話取代銅線即可，FCC 同意。民主黨籍委員 Anna Gomez 投反對票，說州電信委員會往往是消費者的最後防線。加州規定包含吃到飽通話方案、低收入戶 Lifeline 優惠與聽障轉接服務，加州可能對 FCC 提告。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "爭點不只是一州的電話規則，而是銅線退場時由誰判定「替代服務夠不夠好」。FCC 以聯邦優先權直接蓋過州規定，若這套做法站得住，其他州對電信業者的消費者保護條款也可能被同樣架空。直接受影響的是接不到光纖的住戶：無線家用電話能否滿足 Lifeline 優惠、聽障轉接等義務，FCC 命令沒有回答，加州若提告，法院怎麼判會決定這些用戶的保障。"
+    },
+    {
+     "type": "item",
+     "no": "09",
+     "key": "4b3f595fab",
+     "front": 3,
+     "title": "GTA VI 首日營收 37.9 億美元，Rockstar 稱創下跨媒介娛樂紀錄",
+     "title_html": "GTA VI 首日營收 37.9 億美元，Rockstar 稱創下跨媒介娛樂紀錄",
+     "url": "https://www.theverge.com/games/1036279/gta-vi-sales",
+     "src": "The Verge",
+     "left": "11/21 06:10",
+     "ts": "2026-11-21T06:10:53+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Rockstar Games 宣布，《俠盜獵車手 VI》（GTA VI）週四上市首日營收 37.9 億美元，創下「所有媒介的娛樂新紀錄」，預購售出 3,250 萬套；母公司 Take-Two 說數字是截至週四結束的估算。BBC 對照，今年最賣座電影的全期票房為 25 億美元，前作 GTA V 曾以 5 天 11.5 億美元創電玩首週紀錄。Cloudflare 觀測英國 PS5 下載量在上市前後達平時的 8.6 倍，最早開賣的紐西蘭在開賣前四小時暴增 14.8 倍，顯示有玩家跨區搶先玩；Rockstar 線上服務流量在澳洲達平時 11.2 倍、美東 9.3 倍。Sensor Tower 估計約四分之三銷售在 PS5、其餘在 Xbox；開發成本估計逾 10 億美元，可能是史上最貴的遊戲。",
+     "also": [
+      {
+       "text": "BBC Technology",
+       "url": "https://www.bbc.co.uk/news/articles/c9zr5nyv5dj2o"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "首日數字由發行商自報、以估算為基礎，和電影整個檔期票房比較也是不同口徑，但量級已說明單一 3A 大作能撐起一整個主機世代的銷量。目前只在 PS5 與 Xbox 推出、且四分之三賣在 PS5，Sony 的主機與周邊營收可能是最大受益者，日後的 PC 版則是 Take-Two 的下一波營收。Cloudflare 的流量數據也顯示，超大型遊戲上市已成為網路基礎設施的尖峰事件，CDN 與主機平台的承載力是上市日的實際風險。"
+    },
+    {
+     "type": "item",
+     "no": "10",
+     "key": "c72cb9838d",
+     "front": 1,
+     "title": "輝達遭 SEC 調查會計問題，加州檢察長也發傳票追查晶片是否流入中國",
+     "title_html": "輝達遭 SEC 調查會計問題，加州檢察長也發傳票追查晶片是否流入中國",
+     "url": "https://www.marketscreener.com/news/us-sec-s-nvidia-probe-is-examining-potential-accounting-issues-sources-say-ce785ed3dd8ff627",
+     "src": "Hacker News",
+     "left": "11/21 04:22",
+     "ts": "2026-11-21T04:22:41+08:00",
+     "heat": "HN 224",
+     "tags": [],
+     "summary_html": "路透引述兩名知情人士報導，美國證券交易委員會（SEC）執法人員正在調查輝達可能的會計問題，但無法確定調查何時展開、涉及哪些問題，SEC 拒絕評論。據衛報，加州檢察長 Rob Bonta 19 日對輝達發出調查傳票，追查其先進晶片是否違反美國管制流入中國、前執行長黃仁勳的行為是否讓中國取得晶片或機密資訊，以及公司是否誤導投資人，他說相關行為「亮起鮮紅警示燈」。黃仁勳一週前因多段婚外情辭職，對象之一 Alice Huang 被美方懷疑是中國間諜（中國否認），她主導過的新加坡 Megaspeed 近年購入近 50 億美元輝達產品，正因涉嫌轉運受管制晶片到中國受調查。衛報說輝達股價自黃仁勳承認外遇以來跌兩成、市值蒸發近 1 兆美元；黃仁勳 12 月 1 日將赴國會作證。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50581438"
+      },
+      {
+       "text": "The Guardian Technology",
+       "url": "https://www.theguardian.com/technology/2026/nov/20/california-investigates-nvidia-over-whether-chip-exports-ended-up-in-china"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "調查焦點正從個人醜聞轉向公司本身：SEC 查會計、加州以證券法追究是否誤導投資人，兩者都可能衍生罰款或重編財報，殺傷力比 CEO 去職更持久。加州從「誤導投資人」切入，等於繞開聯邦出口管制的管轄，讓州政府也能對晶片外流施壓。路透明說不知道 SEC 查的是哪類會計問題，市場只能先往壞處定價；黃仁勳 12 月 1 日的國會證詞，會影響案情往國安還是財務方向擴大。"
+    }
+   ]
+  },
+  {
+   "name": "科學與太空",
+   "count": 5,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "11",
+     "key": "9a6190d200",
+     "title": "亞太最大單一離岸風場海龍完工併網 1GW，鑄件供應商永冠同週下市",
+     "title_html": "亞太最大單一離岸風場海龍完工併網 1GW，鑄件供應商永冠同週下市",
+     "url": "https://technews.tw/2026/11/21/hai-long-offshore-wind-project-connects-to-taiwan-grid/",
+     "src": "科技新報",
+     "left": "11/21 09:00",
+     "ts": "2026-11-21T09:00:58+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "據《財訊》報導，由日本三井物產、加拿大北陸能源與馬來西亞淨達力合資的海龍離岸風電計畫 11 月 17 日宣布完工，73 座風機全數併入台電電網，增加約 1GW 綠電；台灣第二階段潛力場址除台電二期外已全數完工。海龍由 2A（300MW）、2B（232MW）與 3 號（512MW）組成，位於彰化外海 45 至 70 公里，2023 年完成 1,170 億元專案融資；海龍 2A 也與台積電簽署企業購售電合約，是台灣離岸風電首例。在地化方面，額外加購 52 套在地組裝機艙，帶動西門子歌美颯擴建台中機艙廠與 9 家台廠加入供應鏈。同週，生產機艙輪轂與底座鑄件的永冠因可轉債償付問題與未如期申報財報，18 日終止上市，影響約 4.3 萬名股東，是繼森崴後第二家下市的風電概念股；永冠策略長李奕蒼說，照現況供應鏈將出現一年多的空白。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "同一週的完工與下市，點出台灣離岸風電國產化的兩面：大型開發商靠國際融資與企業購電合約撐得起長期案場，在地供應商卻高度依賴政府釋出風場的節奏，案量一斷檔就面臨現金流壓力。台積電簽下購電合約，顯示科技業的綠電需求已是開發商的重要買方；下一階段場址的開發時程，會決定其他在地供應商是否重演永冠的處境。"
+    },
+    {
+     "type": "item",
+     "no": "12",
+     "key": "3a6032c14a",
+     "title": "國會情報委員會準主席揚言凍結 SpaceX 政府合約經費，追問 Starshield 在烏克蘭斷訊",
+     "title_html": "國會情報委員會準主席揚言凍結 SpaceX 政府合約經費，追問 Starshield 在烏克蘭斷訊",
+     "url": "https://arstechnica.com/space/2026/11/incoming-house-chair-threatens-spacex-funding-over-ukraine-controversy/",
+     "src": "Ars Technica",
+     "left": "11/21 06:16",
+     "ts": "2026-11-21T06:16:51+08:00",
+     "heat": "93 comments",
+     "tags": [],
+     "summary_html": "預計明年 1 月出任眾議院情報委員會主席的民主黨眾議員 Jim Himes 20 日致函 SpaceX 創辦人馬斯克，因 Starshield 在烏克蘭的使用爭議，揚言不再支持以 SpaceX 為主要供應商的政府系統經費；他寫道，SpaceX「可能單方面修改美國政府合約」又不回應國會監督，「讓美國政府與 SpaceX 的每份合約都受到質疑」。Starshield 是 SpaceX 給政府客戶的衛星服務，含軍用版 Starlink 通訊，美國政府購買後提供烏克蘭使用。烏克蘭總統澤倫斯基 10 月 19 日說，前線部分地區的設備在時速 130–161 公里時停止運作，限制了無人機的使用。爭議核心是誰決定限制 Starshield 效能，說法分別指向馬斯克、SpaceX、五角大廈與白宮，馬斯克則說存取由美國官員控制。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "民主黨明年起掌控參眾兩院，Himes 的信顯示國會不只要調查，還準備動用預算權。SpaceX 在軍事與情報衛星通訊上幾乎沒有替代者，「單一民營業者能否左右戰場通訊」因此成為採購制度問題；若國會要求合約明訂服務變更須經政府授權，國防部與商業太空業者的合作模式會跟著改寫。最大的缺口是到底誰下的決定，目前各方說法互相矛盾。"
+    },
+    {
+     "type": "item",
+     "no": "13",
+     "key": "51cbc0040f",
+     "title": "天文學家首度完整目睹「共同包層演化」：仙女座巨星吞噬伴星後爆發",
+     "title_html": "天文學家首度完整目睹「共同包層演化」：仙女座巨星吞噬伴星後爆發",
+     "url": "https://arstechnica.com/science/2026/11/astronomers-watched-a-star-spiral-to-its-death-inside-a-giant-companion/",
+     "src": "Ars Technica",
+     "left": "11/21 04:41",
+     "ts": "2026-11-21T04:41:17+08:00",
+     "heat": "9 comments",
+     "tags": [],
+     "summary_html": "哥倫比亞大學天文物理學家 Viraj Karambelkar 領導的團隊在《自然》發表研究，首度完整觀測到「共同包層演化」：仙女座星系中一顆約 7 倍太陽質量的巨星，花了將近十年慢慢吞噬質量小得多的伴星，最後在 2025 年底爆發。這個過程在 1970 年代被提出，用來解釋宇宙中最緊密的雙星如何形成，但從未有人當場捕捉。團隊用帕洛瑪天文台的 WINTER 紅外線望遠鏡與 NASA NEOWISE 任務資料，搜尋仙女座亮度變化的恆星時發現這個系統 AT 2025abao，巨星已連續增亮七年；之後彙整約十多台望遠鏡與巡天資料，回溯到 1989 年的照相底片。模型顯示巨星寬約太陽的 350 倍，亮度約是伴星的 1.8 萬倍；團隊依吞噬前拋出的塵埃量，估計伴星約 0.7 倍太陽質量。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "共同包層演化是解釋緊密雙星成因的主流理論，過去只能靠理論模型與事後推斷；這次從前兆到爆發的完整紀錄，可以直接拿來檢驗模型中最不確定的部分，也就是伴星損失的軌道能量能拋掉多少包層。研究也示範了長期巡天與舊底片檔案的價值：要在事件發生後回頭翻三十多年的資料，才拼得出全貌。"
+    },
+    {
+     "type": "item",
+     "no": "14",
+     "key": "1400be933d",
+     "title": "NASA 登月計畫成形：Starship 首度在發射塔回收，明年挑戰延宕兩年的軌道加注",
+     "title_html": "NASA 登月計畫成形：Starship 首度在發射塔回收，明年挑戰延宕兩年的軌道加注",
+     "url": "https://arstechnica.com/space/2026/11/nasas-new-moon-plan-is-taking-shape-but-some-big-questions-remain/",
+     "src": "Ars Technica",
+     "left": "11/21 04:26",
+     "ts": "2026-11-21T04:26:33+08:00",
+     "heat": "28 comments",
+     "tags": [],
+     "summary_html": "SpaceX 上週六首度在發射塔半空中接住 Starship，為 NASA 登月計畫清除一大障礙，可望提高發射頻率，並推進預定明年進行的軌道推進劑加注示範；這項示範自 2024 年底以來已延後兩年。SpaceX 計畫明年初啟用甘迺迪太空中心的第二個 Starship 發射場，當地也在蓋第二座工廠。NASA 今年稍早把 Artemis III 從登月改為近地軌道任務：四名太空人搭 SLS 火箭與 Orion 太空船升空，先與 New Glenn 發射的 Blue Origin 藍月登陸器對接兩天，進入艙內測試環境控制與維生系統，再與 Starship 對接兩小時，太空人不進入 Starship。之後還有無人 Starship 月面登陸示範，需要大量軌道加注。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "發射塔回收是快速重複使用的前提，也是軌道加注所需高頻發射的基礎。Artemis III 改成近地軌道測試、同時驗證兩家登陸器，顯示 NASA 選擇先降低風險、保留備案，代價是真正載人登月往後推。整個時程最脆弱的一環仍是軌道加注：示範若再延誤，需要大量加注的無人登月示範與後續載人登月都會連帶順延。"
+    },
+    {
+     "type": "item",
+     "no": "15",
+     "key": "81fd9565f7",
+     "front": 2,
+     "title": "廣義黎曼猜想同日冒出兩份證明：Stanford 博士後的人工手稿，與 Anthropic 數學家用 Claude 產出的 Lean 證明",
+     "title_html": "廣義黎曼猜想同日冒出兩份證明：Stanford 博士後的人工手稿，與 Anthropic 數學家用 Claude 產出的 Lean 證明",
+     "url": "https://math216.wordpress.com/2026/11/20/hurried-announcement-alessandro-masullo-grh/",
+     "src": "Hacker News",
+     "left": "11/21 02:33",
+     "ts": "2026-11-21T02:33:14+08:00",
+     "heat": "HN 1580",
+     "tags": [],
+     "summary_html": "Stanford 教授 Ravi Vakil 20 日在部落格「倉促宣布」，博士後 Alessandro Masullo 提出廣義黎曼猜想（GRH）的證明，Brian Conrad 已仔細審閱數月、意見正在納入，「目前看來不錯」，並強調「全部由人完成，沒有 AI」；原想潤稿一年再發表，現先公開草稿請同行檢查。同一天，Anthropic 員工、數學家 Levent Alpöge 宣布用未公開的 Claude 版本，約六週內得出 GRH 證明並以 Lean 形式化；BBC 報導完整證明超過 25 萬行，Scott Aaronson 部落格則寫 1,740 萬行。Terence Tao 說這份只有 Lean 版本的證明需要時間消化，初步看來動用了朗蘭茲綱領與算術幾何的現代成果；他也提到 Alpöge 與 Tristan Buckmaster 在大量 AI 協助下，證明了三維 Navier-Stokes 方程的有限時間爆破。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50579568"
+      },
+      {
+       "text": "BBC Technology",
+       "url": "https://www.bbc.co.uk/news/articles/c6pqr2g7w059o"
+      },
+      {
+       "text": "Hacker News",
+       "url": "https://alpo.ge/remark.pdf"
+      },
+      {
+       "text": "Hacker News",
+       "url": "https://terrytao.wordpress.com/2026/11/20/unforced-euler-singularity-unforced-navier-stokes-singularity-and-the-generalized-riemann-hypothesis/"
+      },
+      {
+       "text": "Hacker News",
+       "url": "https://scottaaronson.blog/?p=10344"
+      },
+      {
+       "text": "Hacker News",
+       "url": "https://borretti.me/article/re-riemann"
+      },
+      {
+       "text": "Hacker News",
+       "url": "https://github.com/tristanbuckmaster/navier-stokes/"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "兩份證明代表兩種驗證路線：Masullo 的手稿有資深學者把關，仍須同行逐行檢查；Alpöge 的證明由 Lean 機器檢查，理論上較難藏錯，卻缺少人讀得懂的論證，數學界得先從巨量程式碼中抽出證明策略，才算真正理解。兩個來源對 Lean 行數的說法差了近 70 倍，連規模都還沒有定論；Aaronson 也提到質疑者會指出 Lean 核心曾有可證出 0=1 的錯誤。任一份成立都會是數論史上的里程碑，但在驗證完成前，兩件都只能算「提出證明」。"
+    }
+   ]
+  }
+ ],
+ "foot_left": "本報告由 news-aggregator 自動彙整",
+ "stats": {
+  "items": 15,
+  "sections": 4
+ }
+}

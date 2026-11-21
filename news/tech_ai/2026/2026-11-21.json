@@ -1,0 +1,398 @@
+{
+ "schema": 1,
+ "series": "tech_ai",
+ "series_title": "AI 日報",
+ "group": "科技",
+ "cadence": "daily",
+ "period": "2026-11-21",
+ "date": "2026-11-21",
+ "title": "AI 日報",
+ "brief": "DAILY TECH & AI BRIEFING",
+ "issue": "NO. 2026-325",
+ "generated_at": "2026-11-21T10:10:12+08:00",
+ "lede": "Anthropic 數學家宣稱與 Claude 證明黎曼猜想、只放出 1737 萬行 Lean 程式碼；Anthropic 上市次日跌 9%，AI 股拋售讓那斯達克一週蒸發約 4 兆美元；Signal 阻擋 iOS 27 與 Android 系統 AI 代理擷取畫面。",
+ "src_tags": [
+  "AIHOT",
+  "TLDR AI",
+  "Latent Space AINews",
+  "Hacker News"
+ ],
+ "intro": [
+  {
+   "kind": "p",
+   "html": "Anthropic 數學家宣稱與 Claude 證明黎曼猜想、只放出 1737 萬行 Lean 程式碼；Anthropic 上市次日跌 9%，AI 股拋售讓那斯達克一週蒸發約 4 兆美元；Signal 阻擋 iOS 27 與 Android 系統 AI 代理擷取畫面。"
+  }
+ ],
+ "sections": [
+  {
+   "name": "模型與研究",
+   "count": 7,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "01",
+     "key": "6a5063e8d8",
+     "title": "實驗：65 個 AI 模型各問十次，73% 推薦同一本書、98% 建議把 1 萬美元買指數基金",
+     "title_html": "實驗：65 個 AI 模型各問十次，73% 推薦同一本書、98% 建議把 1 萬美元買指數基金",
+     "url": "https://a90.com/experiments/same-advice/",
+     "src": "Hacker News",
+     "left": "11/21 00:58",
+     "ts": "2026-11-21T00:58:05+08:00",
+     "heat": "HN 57",
+     "tags": [],
+     "summary_html": "a90.com 的一項實驗，在不給系統提示的情況下，把日常問題各問 65 個 AI 模型十次。「推薦一本改變人生的書」有 73% 回答《活出意義來》，要商業點子 76% 給訂閱盒，送爸爸的禮物 47% 是皮夾，歐洲三天旅遊 46% 推薦里斯本，科技新創取名 37% 是 Nexora、69% 以 Nex 開頭；問讀什麼科系 90% 說電腦科學，問 1 萬美元怎麼投資 98% 說指數基金。要 AI 虛構一個人，3,151 個人裡 69% 剛好 34 歲，各家也有慣用的名字：Claude 愛用 Marisol、Gemini 愛用 Elena；Gemini 虛構的「Elena Vance」今年出現在 684 個新 GitHub 專案中，2025 年以前一個都沒有。只用顏色、城市、名字這類無害問題，59% 的模型回答最像同公司的另一個模型（隨機只有 4%）。作者在一個能逐階段量測的開放模型中發現，偏好答案是在被訓練成助理那一步出現的。同一對話裡要求「再一個」會換答案，但開新對話又回到同一本書；作者建議告訴 AI 自己的具體情況，或請它列十個選項自己挑，叫它「有原創性」沒用。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50577872"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "這把「後訓練讓輸出分佈收斂」從研究議題變成可感受的社會現象：當上億人在新對話裡問同一個問題，投資、職涯這類建議會同步推向同一方向。對產品與工程團隊更直接的影響是，用 LLM 產生測試資料、假使用者或命名時，分佈會嚴重偏斜（例如 34 歲、Elena），需要自己注入多樣性。這是單一作者的實驗，取樣溫度等設定在摘錄中沒有交代。"
+    },
+    {
+     "type": "item",
+     "no": "02",
+     "key": "bf937ceaa1",
+     "front": 1,
+     "title": "Anthropic 數學家 Levent Alpöge 宣稱與 Claude 證明黎曼猜想，只放出 1737 萬行 Lean 程式碼、沒有論文",
+     "title_html": "Anthropic 數學家 Levent Alpöge 宣稱與 Claude 證明黎曼猜想，只放出 1737 萬行 Lean 程式碼、沒有論文",
+     "url": "https://aihot.news/items/vu6fw8wmrs3xcln4u9gwzf1f4",
+     "src": "AIHOT",
+     "left": "11/21 00:54",
+     "ts": "2026-11-21T00:54:55+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Anthropic 數學家 Levent Alpöge 在個人網站宣布，他與 Claude 合作證明了黎曼猜想。他沒有發表論文，只放出 14 個壓縮檔，內含 175,187 個 Lean 檔、共 1737 萬行程式碼。AIHOT 收錄的中文評論（數字生命卡茲克）形容這是「人類看不懂的程式碼」，文章整理了這項證明聲明的來龍去脈與技術路線，並提醒驗證尚未完成；AIHOT 顯示另有 4 家媒體報導。《經濟學人》也以「AI 可能已解決數學最重要的問題」為題報導。",
+     "also": [
+      {
+       "text": "Hacker News",
+       "url": "https://www.economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "黎曼猜想是千禧年大獎難題之一，若成立會是 AI 參與解決的最高等級數學成果。用 Lean 形式化的好處是正確性可交給證明檢查器判定，不必等人工審稿；關鍵在兩處：定理陳述是否忠實形式化了黎曼猜想，以及 17 萬多個檔案裡有沒有未證明的假設（如 sorry 或自訂公理）。1737 萬行的規模讓人幾乎不可能讀懂證明思路，就算檢查通過，數學界對「沒有人類理解的證明」仍會有爭議。宣布者是 Anthropic 員工，屬當事方；在獨立團隊重跑 Lean 檢查之前，應視為聲明而非定論。"
+    },
+    {
+     "type": "item",
+     "no": "03",
+     "key": "bba873b640",
+     "title": "Kling Image 4.0 發布：原生 8K 輸出，Artificial Analysis 評測文生圖第 7、圖像編輯第 6",
+     "title_html": "Kling Image 4.0 發布：原生 8K 輸出，Artificial Analysis 評測文生圖第 7、圖像編輯第 6",
+     "url": "https://aihot.news/items/rhln87mprozseglkairsway74",
+     "src": "AIHOT",
+     "left": "11/21 00:40",
+     "ts": "2026-11-21T00:40:57+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Kling AI 發布 Kling Image 4.0，主打原生 8K、更強的真實感、風格一致的圖像組與進階文字渲染。Artificial Analysis 評測顯示，它在文生圖排第 7、圖像編輯排第 6，前面只有 OpenAI 與 Microsoft AI 的模型；圖像編輯緊跟在第 5 名的 GPT Image 2.5 Flare（max）之後，7 項編輯操作中有 5 項進入前 5，2K 價格不到排在它前面任一 OpenAI 模型的三分之一。前代 Kling Image 3.0 Omni 原本文生圖第 86、圖像編輯第 67，新版在兩個榜單都提升超過 225 Elo。黑色星期五限時價：2K 每張低至 0.022 美元、原生 8K 每張低至 0.033 美元。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "一代之間從第 86 名跳到第 7 名，顯示圖像生成的頭部差距正在縮小，Kling 打的是「接近 OpenAI 的品質、三分之一的價格」。對需要大量出圖的電商、廣告與遊戲美術流程，單價比排名更關鍵，但 0.022 美元是黑五限時價，常態定價還沒公布。原生 8K 與文字渲染的品質目前只有官方展示和單一評測機構的排名佐證。"
+    },
+    {
+     "type": "item",
+     "no": "04",
+     "key": "0000282282",
+     "front": 4,
+     "title": "Architect Labs 以 AI 自主設計新 CPU 架構 Frostbite，每瓦效能達現代 CPU 核心的 4.59 倍",
+     "title_html": "Architect Labs 以 AI 自主設計新 CPU 架構 Frostbite，每瓦效能達現代 CPU 核心的 4.59 倍",
+     "url": "https://architectlabs.com/blog/frostbite",
+     "src": "Hacker News",
+     "left": "11/20 18:01",
+     "ts": "2026-11-20T18:01:41+08:00",
+     "heat": "HN 629",
+     "tags": [],
+     "summary_html": "Architect Labs 發表 Frostbite，一款從頭打造全新指令集的通用 CPU。團隊說，他們的 AI 系統自主迭代了編譯器、ISA、架構、微架構、RTL、驗證到最終 GDS 佈局。Frostbite 利用 interaction nets（交互網）的特性：每一步運算都是局部的、每個依賴都明確、每個值只有一個擁有者。在最初選定的 25 項工作負載上（其中 15 項保留到最終評估才使用），與經過矽驗證的現代超純量 CPU 核心（雙發射、循序執行）相比，每瓦效能達 4.59 倍，每單位面積效能也大幅提升。文章指出，主流程式語言隱藏了程式各部分的依賴，CPU 只能在執行期重新找出來；單核效能自 2000 年代初大致停滯，多核又得靠深層快取與一致性協定，耗面積、耗電且難擴展。他們的前作 Redwood 曾展示 AI 依既定架構實作推論加速器，這次則宣稱 AI 發現了人類難以設計出的硬體原語。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50572503"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "比較對象是雙發射循序核心，不是高階亂序核心，4.59 倍放到伺服器 CPU 上要打折。做到 GDS 代表可交付製造的佈局，但文中沒有流片後的實測數據。最大缺口在軟體：interaction nets 要求程式改用圖重寫模型表達，既有程式碼與編譯器生態如何移植沒有交代。真正的意義在流程：若 AI 能從 ISA 一路自動做到佈局驗證，晶片設計的迭代成本會大降，加速器、網路晶片等專用硬體可能最先受惠。"
+    },
+    {
+     "type": "item",
+     "no": "05",
+     "key": "be019368e0",
+     "front": 5,
+     "title": "Thinking Machines Lab 開放 Inkling 2 Mini 權重：循環 Transformer、總參數 26.4B，約 20GB 可在筆電執行",
+     "title_html": "Thinking Machines Lab 開放 Inkling 2 Mini 權重：循環 Transformer、總參數 26.4B，約 20GB 可在筆電執行",
+     "url": "https://aihot.news/items/y7nk77dxae51qwi826gpmvbho",
+     "src": "AIHOT",
+     "left": "11/20 15:00",
+     "ts": "2026-11-20T15:00:00+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Thinking Machines Lab 發布開放權重模型 Inkling 2 Mini，是混合專家（MoE）架構的循環式 Transformer：每生成一個 token，中間 12 層會跑三遍，總參數 26.4B、激活 3.4B，計入循環後每 token 的權重激活量為 5.4B。官方稱它在 DeepSWE v1.1（48.2%）與 Vals Index v2.2（46.5%）上領先所有總參數低於 100B 的開放權重模型，SWE-bench Pro v2 Hard 拿 77.9%（Qwen3.8-27B 為 73.8%），理論解碼速度 54.4 tokens/s。權重大多原生採 NVFP4、最後四層 MXFP8，總記憶體約 20GB，32GB 以上記憶體的 Mac 可本地執行；研究人員在航班上用 MacBook Pro（M5 Pro、48GB）離線執行，幾分鐘做出可玩的飛行模擬器。官方也坦言循環無法讓權重存下更多知識，事實型基準和同尺寸模型相當，靠搜尋與工具補足。同步釋出研究用的可變循環變體：不靠思維鏈的任務時間跨度從循環一次的 16 秒提升到循環三次的 37 秒，循環越多思維鏈越短但仍清晰可讀。模型已在 Tinker 上線。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "循環架構是用重複計算換參數量：記憶體占用壓在筆電範圍，推理深度靠多跑幾遍中間層補回來，對本地部署的代理式編程很有吸引力。但「不寫出來也能推理更久」直接衝擊靠讀思維鏈監督模型的安全做法，官方自測說思維鏈仍可讀、破壞行為測試沒有變差，這仍是單方結果。基準分數也是官方自報，且註明各模型評測設定不同，需等第三方在相同條件下重測。"
+    },
+    {
+     "type": "item",
+     "no": "06",
+     "key": "ad532e3f07",
+     "title": "MiniMax 內部模型 MIM 宣稱對 NIST 候選演算法等密碼方案做出首個實用攻擊，技術報告與 PoC 開源",
+     "title_html": "MiniMax 內部模型 MIM 宣稱對 NIST 候選演算法等密碼方案做出首個實用攻擊，技術報告與 PoC 開源",
+     "url": "https://aihot.news/items/sakj36g0tvzaeoianryyn6o6g",
+     "src": "AIHOT",
+     "left": "11/20 14:41",
+     "ts": "2026-11-20T14:41:45+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "MiniMax 研究團隊用內部研究模型 MIM 對現代密碼方案做自動化密碼分析，報告稱在 NIST 候選演算法、同行評審方案與公開挑戰基準上，取得多個此前沒有實用攻擊方案的首個實用破解，把部分理論攻擊變成可執行的攻擊，並大幅刷新求解紀錄。技術報告、PoC 程式碼與驗證軌跡已公開。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "若 NIST 候選演算法真被實用破解，影響的是正在進行的密碼標準化，而不只是學術紀錄；摘要沒有點名是哪些方案、攻擊所需的運算量多少，這是判斷嚴重程度的關鍵缺口。公開驗證軌跡讓密碼學界能逐步複核，比只發新聞稿可信。這也顯示前沿模型的攻擊性資安能力已到能產出新破解的程度，各家安全評估會更重視密碼分析類測試。"
+    },
+    {
+     "type": "item",
+     "no": "07",
+     "key": "afb95c9706",
+     "title": "Replit 基準：32 個 Opus 代理協作讓 NumPy 工作負載提速 18.9 倍，單一代理僅 3.7 倍",
+     "title_html": "Replit 基準：32 個 Opus 代理協作讓 NumPy 工作負載提速 18.9 倍，單一代理僅 3.7 倍",
+     "url": "https://tldr.tech/ai/2026-11-20",
+     "src": "TLDR AI",
+     "left": "11/20 08:00",
+     "ts": "2026-11-20T08:00:00+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "TLDR AI 11 月 20 日一期摘錄 Replit 的最佳化基準結果：在一項 NumPy 工作負載上，32 個 Opus 代理協作達到 18.9 倍加速，單一代理只有 3.7 倍。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "代理數放大 32 倍、效果約放大 5 倍，說明多代理平行探索在「有明確量測指標的效能最佳化」上確實有效，但報酬遞減明顯；摘錄沒有交代時間預算與 token 成本，團隊要評估的是每單位加速要多花多少推論費用。這類可自動驗證的任務最適合先導入代理群。"
+    }
+   ]
+  },
+  {
+   "name": "產品與工具",
+   "count": 4,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "08",
+     "key": "a10752057b",
+     "title": "Figma 示範 Specs 加 Figma agent 產出實作計畫，再經 Figma MCP 交給 Codex 寫程式",
+     "title_html": "Figma 示範 Specs 加 Figma agent 產出實作計畫，再經 Figma MCP 交給 Codex 寫程式",
+     "url": "https://aihot.news/items/w612ivonntodntv1ydkt2lqwh",
+     "src": "AIHOT",
+     "left": "11/21 06:17",
+     "ts": "2026-11-21T06:17:00+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Figma 在 Workflow lab 示範一套完整流程：工程師用 Specs 在畫布上彙整 PRD、Hex 資料、FigJam 圖、標註過的設計與元件說明，再讓 Figma agent 產生給編碼代理使用的實作計畫；最後透過 Figma MCP 把計畫連結交給 Codex，讓它讀取全部上下文並實作功能。文中提到 Specs 與 code layers 已開放 beta，所有方案都能使用。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "Figma 想占住「規格來源」的位置：讓設計檔不只是畫面，而是編碼代理讀取需求與上下文的中樞。MCP 再次成為跨工具交接的標準介面，和 Epic 的 Unreal Engine 走同一條路。這是官方示範，沒有實際專案的成效數字；對團隊的價值在於 PRD、資料與設計集中一處，減少代理誤解需求，但前提是團隊願意把規格維護在 Figma 裡。"
+    },
+    {
+     "type": "item",
+     "no": "09",
+     "key": "31a25ad726",
+     "title": "ChatGPT 推出 Space：側邊欄集中管理頁面、簡報、圖片與檔案，可從連接的工具自動更新",
+     "title_html": "ChatGPT 推出 Space：側邊欄集中管理頁面、簡報、圖片與檔案，可從連接的工具自動更新",
+     "url": "https://aihot.news/items/ekf0so0xitc52thkrxx3mwax1",
+     "src": "AIHOT",
+     "left": "11/21 02:48",
+     "ts": "2026-11-21T02:48:12+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "ChatGPT 官方宣布，側邊欄中的 Space 成為頁面、簡報、圖片、檔案與上傳內容的新家。使用者可以用 ChatGPT 寫作、做研究、生成圖片，並以互動式圖表建立頁面；也能把想法做成帶圖片與圖表的簡報，再邀請他人協作，貼文說使用者的 dot 也能一起加入。頁面與簡報可以設定從已連接的工具自動更新，讓待辦清單、專案追蹤與旅遊行程保持最新。AIHOT 歸類的同事件顯示，Space 已向 Plus 用戶開放。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "ChatGPT 正從對話介面轉成管理產出物的工作區，「從連接工具自動更新」讓頁面變成會自己同步的活文件，直接和 Notion、Google Docs 這類協作文件工具重疊。讓 dot 加入協作，代表 OpenAI 想把代理放進共用文件流程，而不只在對話框裡回答。公告沒有說明權限控管與企業版的資料邊界，這是團隊導入前要先問清楚的。"
+    },
+    {
+     "type": "item",
+     "no": "10",
+     "key": "14b67dddb8",
+     "title": "Epic Games 為 AI 寫程式轉向：Unreal Engine 6 將移除 Blueprints，營運長稱全力拚開發速度",
+     "title_html": "Epic Games 為 AI 寫程式轉向：Unreal Engine 6 將移除 Blueprints，營運長稱全力拚開發速度",
+     "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+     "src": "Hacker News",
+     "left": "11/20 20:16",
+     "ts": "2026-11-20T20:16:36+08:00",
+     "heat": "HN 58",
+     "tags": [],
+     "summary_html": "IEEE Spectrum 報導，Seeker Entertainment 今年 9 月資金用罄，線上遊戲 KinForge 因沒人付 AWS 伺服器費用而無法遊玩。共同創辦人 Travis McGeathy 隨手把 Claude Code 指向專案，要它讓遊戲脫離 AWS；四小時幾乎放手的工作後，Claude 做出玩家可自架的版本，支援網際網路與區域網路點對點連線，還自己加上斷線續玩的存檔功能。文中提到 Anthropic 11 月 9 日發布的 Fable 5.2 能生成帶自訂引擎、《決勝時刻》風格的 3D 遊戲。Epic 營運長 Daniel Vogel 說：「如果 Unreal Engine 停滯不前，明年底它的價值在哪？所以我們全力轉向速度。」Epic 將在 Unreal Engine 6 移除視覺化腳本系統 Blueprints；McGeathy 說 AI 不擅長處理 Blueprints，寧可直接寫程式碼。目前 LLM 主要透過 MCP 伺服器與 Unreal Engine 互動。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50573681"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "為人設計的視覺化工具，在 AI 成為主要開發者後反而成了負擔：Blueprints 是節點圖，模型難讀難改，程式碼才是 AI 的母語。引擎商的護城河從「好用的編輯器」轉向「讓 AI 好操作的介面與迭代速度」，Vogel 承認任何固定功能終究能被複製。對大量依賴 Blueprints 的團隊，UE6 遷移成本會是明年的實際問題；KinForge 的案例也顯示 AI 讓沒人維護的專案能被低成本救活。"
+    },
+    {
+     "type": "item",
+     "no": "11",
+     "key": "a22c687c43",
+     "title": "Apple 徵才打造可跨 App、瀏覽器與命令列執行任務的 AI 代理，職缺已撤下",
+     "title_html": "Apple 徵才打造可跨 App、瀏覽器與命令列執行任務的 AI 代理，職缺已撤下",
+     "url": "https://www.theverge.com/tech/1038227/apple-ai-agent-engineer-job-listing",
+     "src": "Hacker News",
+     "left": "11/20 19:22",
+     "ts": "2026-11-20T19:22:27+08:00",
+     "heat": "HN 19",
+     "tags": [],
+     "summary_html": "The Verge 引述 Bloomberg 發現的一則職缺報導，Apple 正在找工程師領導打造代理式 AI 助理，能瀏覽網頁、跨 App 工作、寫程式與呼叫服務；職缺之後已撤下。職缺寫道：「我們正在打造能像人一樣在工具之間移動的 AI 代理……它們在 App、瀏覽器、命令列、程式碼與 API 之間規劃並執行多步驟任務，並可協調專門的子代理。」這名工程師將與 Siri、UI Frameworks 與 Apple Foundation Models 團隊密切合作。Apple 9 月開始推出 AI 升級版 Siri，可詢問畫面內容、跨 App 執行動作；iOS 27.3 將以開發者預覽讓開發者把 Siri AI 整合進「所有 App」。報導列出的競品有 Meta 的 Muse、OpenAI 的 Dots、Anthropic 的 Duet 與 Google 的 Tasks，Muse、ChatGPT 與 Perplexity 已能透過 Mac App 操控電腦，Google 也剛讓 Gemini 這麼做。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50573166"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "職缺提到命令列與程式碼，代表 Apple 的目標不只是手機上的 Siri 小技巧，而是 Mac 上能做開發與知識工作的通用代理，正面迎戰已能操控電腦的對手。Apple 的優勢是系統層權限與裝置端模型，但這也正是 Signal 這次反制的對象：系統代理越能跨 App 讀取內容，第三方 App 與 Apple 的隱私承諾之間的張力越大。職缺只是招募階段，推出時程沒有任何線索。"
+    }
+   ]
+  },
+  {
+   "name": "產業與政策",
+   "count": 4,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "12",
+     "key": "9dc1234c7f",
+     "title": "歐洲人權法院禁止羅馬尼亞律師兩年代理案件：書狀引用 AI 捏造的判例與段落",
+     "title_html": "歐洲人權法院禁止羅馬尼亞律師兩年代理案件：書狀引用 AI 捏造的判例與段落",
+     "url": "https://www.echr.coe.int/w/romanian-lawyer-barred-for-two-years-from-representing-applicants-before-the-court-over-unverified-ai-generated-citations",
+     "src": "Hacker News",
+     "left": "11/21 02:11",
+     "ts": "2026-11-21T02:11:11+08:00",
+     "heat": "HN 24",
+     "tags": [],
+     "summary_html": "歐洲人權法院 11 月 18 日公布，院長於 11 月 13 日決定，兩年內禁止一名羅馬尼亞律師在該院代理或協助當事人。審理該案的分庭發現，她提交的意見書在判例引用上錯誤百出：引用不存在的（「幻覺」）案件、真實判決中虛構的段落，以及與主張無關、甚至明顯相反的判例。這名律師承認用 AI 工具起草意見書，稱這些錯誤是「不準確」與「引註錯誤」。分庭認定這是反覆出現的實質錯誤模式，而非個別引註失誤，違反法院所要求、也見於各國國內法的專業與倫理義務，遂向院長提出附理由的禁令建議，院長予以核准。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50579237"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "法院處分的是律師本人，不是 AI 工具，等於明確把「核實 AI 產出」列為專業義務的一部分，且罰則是禁止出庭代理，比警告或罰款更重。由國際法院層級作出，對歐洲各國律師公會制定 AI 使用規範有示範效果。對任何用 LLM 撰寫正式文件的團隊，教訓相同：引用與數據必須有人逐條比對原始來源，「引註錯誤」的說法在審查者眼中站不住腳。"
+    },
+    {
+     "type": "item",
+     "no": "13",
+     "key": "321223b3ab",
+     "title": "數百名 Google 員工連署：反對切斷關閉 Gemini 的學校使用 Google 搜尋",
+     "title_html": "數百名 Google 員工連署：反對切斷關閉 Gemini 的學校使用 Google 搜尋",
+     "url": "https://www.motherjones.com/politics/2026/11/google-alphabet-union-school-ai-protest-gemini-workers-petition/",
+     "src": "Hacker News",
+     "left": "11/21 00:59",
+     "ts": "2026-11-21T00:59:27+08:00",
+     "heat": "HN 266",
+     "tags": [],
+     "summary_html": "Mother Jones 報導，數百名 Google 員工要求高層撤回一項政策：從明年起，關閉 Gemini AI 工具的學校將無法使用 Google 搜尋。Google 兩週前在美國選舉日意外宣布此事，主管稱是要回應教師與家長對課堂 AI 的疑慮。此後各地社區抗議，紐約、洛杉磯、芝加哥、波士頓、波特蘭、博爾德與達勒姆同日集會，由全國性的家長與社區倡議組織聯盟發起。美國許多學區使用 Google 軟體與 Chromebook，Chromebook 內建 AI 課堂工具，Google 搜尋也嵌入由 Gemini 驅動的 AI Overview 與 AI Mode。紐約市、洛杉磯與芝加哥三大學區正在討論改用其他搜尋引擎。代表逾 1,000 名員工的 Alphabet Workers Union 在連署中寫道：「切斷不想用 AI 的學校的搜尋權限，不會說服我們的使用者，反而更可能讓他們完全拒用 Google 產品。」連署對象包括執行長 Sundar Pichai、教育部門主管 Chris Phillips 與搜尋主管 Elizabeth Reid。一名教育部門工程師說，多數員工在公開宣布前並不知情。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50577901"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "用搜尋存取權當籌碼推課堂 AI，等於把市占最高的產品和 AI 綁在一起，在 Google 搜尋已受反壟斷檢視的背景下，容易招來監管與輿論壓力。三大學區研究替代搜尋引擎，顯示反彈已從抗議變成實際的採購風險，可能波及 Chromebook 在教育市場的地位。工會以商業後果而非反 AI 立場為論點，較可能打動管理層；關鍵是 Google 會不會在明年生效前修改政策。"
+    },
+    {
+     "type": "item",
+     "no": "14",
+     "key": "fd28116146",
+     "front": 2,
+     "title": "Anthropic 上市次日跌 9% 回到 88 美元，AI 股拋售讓那斯達克一週蒸發約 4 兆美元",
+     "title_html": "Anthropic 上市次日跌 9% 回到 88 美元，AI 股拋售讓那斯達克一週蒸發約 4 兆美元",
+     "url": "https://www.theguardian.com/business/2026/nov/20/global-stock-markets-slump-anthropic-ipo-ai-sell-off",
+     "src": "Hacker News",
+     "left": "11/20 21:29",
+     "ts": "2026-11-20T21:29:59+08:00",
+     "heat": "HN 192",
+     "tags": [],
+     "summary_html": "Anthropic 週四以每股 83 美元掛牌，開盤 111.50 美元、首日收 97.17 美元；週五第二個交易日跌約 9%，衛報記為 88.30 美元、AIHOT 記為 88.17 美元，幾乎回吐上市後的漲幅。這筆募資 813 億美元、史上最大的 IPO 沒能止住 AI 相關股的拋售：衛報引《華爾街日報》指出，那斯達克本週蒸發約 4 兆美元市值，週五抹去 2026 年全部漲幅，道瓊與標普 500 進入修正區間。SanDisk 跌 14%，Micron 跌幅衛報寫 12%、AIHOT 寫 10%，衛報另稱 Nvidia 跌 14%。亞股寫下 2020 年以來最差的一週：台股跌 6.7%、觸及 4 月中以來低點，台積電跌約 6%，證交所董事長出面承諾維持市場穩定；日經跌 5%、韓國 Kospi 跌 5.5%，SoftBank 跌 14.5%、創兩年多來最差單日。Saxo 策略師 Neil Wilson 形容科技股是「無止盡的賣壓」。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50574383"
+      },
+      {
+       "text": "AIHOT",
+       "url": "https://aihot.news/items/ufyn252g3i251j0mfwy8xth9r"
+      },
+      {
+       "text": "Hacker News",
+       "url": "https://www.wsj.com/finance/stocks/anthropics-ipo-bust-punctuates-4-trillion-ai-wipeout-on-wall-street-f1f1ec90"
+      },
+      {
+       "text": "Latent Space AINews",
+       "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "這檔 IPO 原被當成 AI 行情的試金石，第二天就逼近發行價，顯示市場對 AI 建設投入能否回本的疑慮，壓過了單一明星公司的熱度。跌幅集中在記憶體、GPU 與晶圓代工，賣壓指向整條算力供應鏈；台股跌幅在亞股中最深，反映其權重高度集中在 AI 硬體。接下來要看 Anthropic 是否跌破 83 美元發行價，以及 Latent Space 提醒的、未來一年約 1 兆美元股份陸續解禁帶來的賣壓。"
+    },
+    {
+     "type": "item",
+     "no": "15",
+     "key": "11f79f6f88",
+     "front": 3,
+     "title": "Signal 將阻擋 iOS 27 與 Android 系統內建 AI 代理擷取畫面，Whittaker 稱是「生存威脅」",
+     "title_html": "Signal 將阻擋 iOS 27 與 Android 系統內建 AI 代理擷取畫面，Whittaker 稱是「生存威脅」",
+     "url": "https://signal.org/blog/protecting-your-privacy/",
+     "src": "Hacker News",
+     "left": "11/20 17:42",
+     "ts": "2026-11-20T17:42:16+08:00",
+     "heat": "HN 511",
+     "tags": [],
+     "summary_html": "Signal 總裁 Meredith Whittaker 11 月 20 日發文宣布，Signal 將限制作業系統內建的新一代 AI 代理擷取、儲存 Signal 資料：在 iOS 27 上阻擋 App 內截圖，在能偵測到 AI 助理試圖讀取畫面的 Android 版本上也會阻擋。去年 Signal 已在 Windows 11 預設啟用截圖阻擋，防止微軟 Recall 擷取訊息畫面。她指出，Google 與 Apple 正把 Gemini Intelligence、Siri AI 的 Onscreen Awareness 等代理能力深度整合進系統，這些代理靠「掃描」畫面取得資訊，資料被擷取後交給代理使用，存進本機資料庫或遠端伺服器，從此不在 Signal 的控制範圍，削弱了開源程式碼與經形式化驗證的加密協定所提供的隱私保證，她稱這是對 Signal 的「生存威脅」。想截圖的使用者可在設定中關閉保護，但可能讓自己與聯絡人的內容曝光。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50572348"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "端對端加密只保護傳輸途中，系統層代理直接讀畫面，等於在解密後的端點取資料；App 能做的只剩截圖阻擋這類防守，若系統代理改走其他管道讀取內容就擋不住。這把 App 開發者與平台商的利益衝突擺上檯面，而 Apple 正招募工程師打造跨 App 執行任務的代理。系統代理越深入，銀行、醫療等處理敏感資料的 App 越可能跟進封鎖；要看 Apple、Google 會不會提供讓 App 正式拒絕代理讀取的介面。"
+    }
+   ]
+  }
+ ],
+ "foot_left": "本報告由 news-aggregator 自動彙整",
+ "stats": {
+  "items": 15,
+  "sections": 3
+ }
+}

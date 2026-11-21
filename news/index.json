@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-21T09:23:44+08:00",
+ "updated_at": "2026-11-21T10:22:48+08:00",
  "series": [
   {
    "id": "general",
@@ -131,6 +131,102 @@
  ],
  "items": [
   {
+   "series": "international",
+   "series_title": "國際新聞日報",
+   "cadence": "daily",
+   "period": "2026-11-21",
+   "date": "2026-11-21",
+   "title": "國際新聞日報",
+   "lede": "AI 股拋售擴大，那斯達克抹去今年漲幅、台股挫 6.7%；俄軍大規模空襲烏克蘭，巡弋飛彈墜落波蘭；英歐簽署脫歐後重設協議；台積電依美國新規收緊對中 AI 晶片代工。",
+   "count": 36,
+   "data": "international/2026/2026-11-21.json",
+   "generated_at": "2026-11-21T10:22:48+08:00"
+  },
+  {
+   "series": "gambling",
+   "series_title": "博奕產業新聞",
+   "cadence": "daily",
+   "period": "2026-11-21",
+   "date": "2026-11-21",
+   "title": "博奕產業新聞",
+   "lede": "近 48 小時：澳門六家博企三年非博彩投資只達承諾的 27%；越南擬將本國人賭場日票調高 150%、取消財力證明；Betano 暫停 Flamengo 贊助；英國拒絕全面禁止博弈廣告；東京不參加日本 2027 年 IR 申請。",
+   "count": 35,
+   "data": "gambling/2026/2026-11-21.json",
+   "generated_at": "2026-11-21T10:14:42+08:00"
+  },
+  {
+   "series": "general",
+   "series_title": "綜合日報",
+   "cadence": "daily",
+   "period": "2026-11-21",
+   "date": "2026-11-21",
+   "title": "綜合早報",
+   "lede": "Anthropic 上市次日跌回發行價附近、AI 拋售延燒，那斯達克抹去全年漲幅、台股單週重挫 17.5%；廣義黎曼猜想同日出現兩份證明宣稱；川普揚言不准美企在海外建資料中心。",
+   "count": 17,
+   "data": "general/2026/2026-11-21.json",
+   "generated_at": "2026-11-21T10:12:03+08:00"
+  },
+  {
+   "series": "security",
+   "series_title": "資安日報",
+   "cadence": "daily",
+   "period": "2026-11-21",
+   "date": "2026-11-21",
+   "title": "資安日報",
+   "lede": "Cisco Expressway 重大漏洞 PoC 公開後遭利用、F5 緊急修補 BIG-IP 五個重大 RCE，vCenter 零時差已有修補；摩根大通、Visa、萬事達卡因供應商遭駭外洩客戶資料；AI 代理自主找出並利用零時差，Bell Canada 也遭「代理式」駭客竊資。",
+   "count": 16,
+   "data": "security/2026/2026-11-21.json",
+   "generated_at": "2026-11-21T10:11:43+08:00"
+  },
+  {
+   "series": "finance",
+   "series_title": "財經日報",
+   "cadence": "daily",
+   "period": "2026-11-21",
+   "date": "2026-11-21",
+   "title": "財經日報",
+   "lede": "美股週五 AI 殺盤擴大，費半跌 10.73%、台積電 ADR 跌 9.48%；台股本週跌 17.5%，上市櫃融資單日大減 637 億元創紀錄；輝達傳遭 SEC 調查會計作業，股價重挫 14%；普發現金 2 萬元特別條例三讀。",
+   "count": 20,
+   "data": "finance/2026/2026-11-21.json",
+   "generated_at": "2026-11-21T10:11:02+08:00"
+  },
+  {
+   "series": "tech_ai",
+   "series_title": "AI 日報",
+   "cadence": "daily",
+   "period": "2026-11-21",
+   "date": "2026-11-21",
+   "title": "AI 日報",
+   "lede": "Anthropic 數學家宣稱與 Claude 證明黎曼猜想、只放出 1737 萬行 Lean 程式碼；Anthropic 上市次日跌 9%，AI 股拋售讓那斯達克一週蒸發約 4 兆美元；Signal 阻擋 iOS 27 與 Android 系統 AI 代理擷取畫面。",
+   "count": 15,
+   "data": "tech_ai/2026/2026-11-21.json",
+   "generated_at": "2026-11-21T10:10:12+08:00"
+  },
+  {
+   "series": "tech",
+   "series_title": "科技日報",
+   "cadence": "daily",
+   "period": "2026-11-21",
+   "date": "2026-11-21",
+   "title": "科技日報",
+   "lede": "輝達遭 SEC 查會計、加州發傳票追查晶片流向，黃仁勳去職後監管壓力擴大；廣義黎曼猜想同日冒出人工與 AI 兩份證明，待數學界驗證；GTA VI 首日營收 37.9 億美元創娛樂紀錄；川普揚言重稅阻止資料中心外移",
+   "count": 15,
+   "data": "tech/2026/2026-11-21.json",
+   "generated_at": "2026-11-21T10:09:54+08:00"
+  },
+  {
+   "series": "health",
+   "series_title": "健康日報",
+   "cadence": "daily",
+   "period": "2026-11-21",
+   "date": "2026-11-21",
+   "title": "健康日報",
+   "lede": "美國、墨西哥、玻利維亞同週失去麻疹消除認證，疫苗覆蓋下滑的代價落在兒童身上；胰臟癌口服藥 daraxonrasib 與減重新藥 retatrutide 公布亮眼試驗數據；FDA 駁回 Capricor 裘馨氏症細胞療法，美國聯邦醫保試辦生活型態介入。",
+   "count": 15,
+   "data": "health/2026/2026-11-21.json",
+   "generated_at": "2026-11-21T10:09:45+08:00"
+  },
+  {
    "series": "reading_list",
    "series_title": "閱讀清單",
    "cadence": "weekly",
@@ -141,18 +237,6 @@
    "count": 29,
    "data": "reading_list/2026/2026-W47.json",
    "generated_at": "2026-11-21T09:23:44+08:00"
-  },
-  {
-   "series": "international",
-   "series_title": "國際新聞日報",
-   "cadence": "daily",
-   "period": "2026-11-21",
-   "date": "2026-11-21",
-   "title": "國際新聞日報",
-   "lede": "俄軍大規模空襲烏克蘭，巡弋飛彈落入北約成員波蘭；Anthropic 上市次日下挫、全球科技股拋售，台股重挫 6.7%；英國與歐盟簽下脫歐以來最大和解協議；台積電依美國新規收緊中國 AI 晶片訂單。",
-   "count": 34,
-   "data": "international/2026/2026-11-21.json",
-   "generated_at": "2026-11-21T09:23:41+08:00"
   },
   {
    "series": "gambling",
