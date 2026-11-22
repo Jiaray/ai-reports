@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-21T10:22:48+08:00",
+ "updated_at": "2026-11-22T11:19:45+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,54 @@
   }
  ],
  "items": [
+  {
+   "series": "cocos_h5_weekly",
+   "series_title": "Cocos／H5 遊戲開發週報",
+   "cadence": "weekly",
+   "period": "2026-W47",
+   "date": "2026-11-22",
+   "title": "Cocos／H5 遊戲開發週報",
+   "lede": "近 7 日：Cocos Dashboard 升級改版構建面板，3.8.x 專案也被換新、論壇要求保留舊入口；微信小遊戲網路類型選「單機」可先上線再等備案；兩款 Cocos MCP 外掛上架，社群爭論 MCP 與 CLI；PixiJS 推出 3D，Three.js 逐步補齊 AAA 光照管線。",
+   "count": 20,
+   "data": "cocos_h5_weekly/2026/2026-W47.json",
+   "generated_at": "2026-11-22T11:19:45+08:00"
+  },
+  {
+   "series": "ai_weekly",
+   "series_title": "AI 週報",
+   "cadence": "weekly",
+   "period": "2026-W47",
+   "date": "2026-11-22",
+   "title": "AI 週報",
+   "lede": "Anthropic 上市首日收漲 17%，AI to ROI 視為情緒指標而非定論；黃仁勳辭職後 NVIDIA 市值蒸發 1.4 兆美元，仍被看作最難撼動的對手；論文榜聚焦閉環行動與世界模型，推理與執行一合成就崩。",
+   "count": 15,
+   "data": "ai_weekly/2026/2026-W47.json",
+   "generated_at": "2026-11-22T11:18:40+08:00"
+  },
+  {
+   "series": "general",
+   "series_title": "綜合日報",
+   "cadence": "daily",
+   "period": "2026-11-22",
+   "date": "2026-11-22",
+   "title": "綜合早報",
+   "lede": "金管會祭第三波救市，23 日起全面禁止平盤以下放空、融券保證金拉到 150%；Lean 與 Mathlib 社群認證 Alpöge 1,700 萬行的黎曼猜想證明正確；VIX 一度衝上 40、輝達單週重挫 23%；選前一週，賴士葆罵沈伯洋「人渣」，蔣萬安代團隊道歉。",
+   "count": 12,
+   "data": "general/2026/2026-11-22.json",
+   "generated_at": "2026-11-22T11:17:27+08:00"
+  },
+  {
+   "series": "health",
+   "series_title": "健康日報",
+   "cadence": "daily",
+   "period": "2026-11-22",
+   "date": "2026-11-22",
+   "title": "健康日報",
+   "lede": "美國麻疹疫情擴大，維吉尼亞州出現今年首例幼童死亡；健保署 12 月起調高急診下轉獎勵、10 月起放寬頭頸癌免疫治療給付；英、澳監管單位分別盯上醫美黑五促銷與美妝活動上的非法香菸。",
+   "count": 8,
+   "data": "health/2026/2026-11-22.json",
+   "generated_at": "2026-11-22T11:16:38+08:00"
+  },
   {
    "series": "international",
    "series_title": "國際新聞日報",
@@ -323,18 +371,6 @@
    "generated_at": "2026-11-20T16:54:32+08:00"
   },
   {
-   "series": "ai_weekly",
-   "series_title": "AI 週報",
-   "cadence": "weekly",
-   "period": "2026-W47",
-   "date": "2026-11-20",
-   "title": "AI 週報",
-   "lede": "黃仁勳辭任 NVIDIA 執行長，開源模型生態失去最大金主；結果計價的 AI 產品要先算清單次成果毛利；論文榜集中在具身智慧與世界模型，閉環「推理＋執行」仍是最大缺口。",
-   "count": 14,
-   "data": "ai_weekly/2026/2026-W47.json",
-   "generated_at": "2026-11-20T16:54:23+08:00"
-  },
-  {
    "series": "general",
    "series_title": "綜合日報",
    "cadence": "daily",
@@ -381,18 +417,6 @@
    "count": 17,
    "data": "gamedev/2026/2026-11-20.json",
    "generated_at": "2026-11-20T16:52:05+08:00"
-  },
-  {
-   "series": "cocos_h5_weekly",
-   "series_title": "Cocos／H5 遊戲開發週報",
-   "cadence": "weekly",
-   "period": "2026-W47",
-   "date": "2026-11-20",
-   "title": "Cocos／H5 遊戲開發週報",
-   "lede": "近 7 日（11/13–11/20）重點：Cocos 建置面板改版與 Dashboard 升級彈窗惹議，PinK 路線長帖破百則回覆；PixiJS 3D 開放測試；歐盟 Digital Fairness Act 草案鎖定轉蛋與虛擬貨幣。",
-   "count": 20,
-   "data": "cocos_h5_weekly/2026/2026-W47.json",
-   "generated_at": "2026-11-20T14:19:49+08:00"
   },
   {
    "series": "international",

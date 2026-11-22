@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "week": "2026-W47",
- "built_at": "2026-11-22T01:50:55+08:00",
+ "built_at": "2026-11-22T11:19:45+08:00",
  "reports": [
   {
    "series": "github_weekly",
@@ -16,8 +16,8 @@
    "series_title": "AI 週報",
    "group": "科技",
    "period": "2026-W47",
-   "count": 14,
-   "generated_at": "2026-11-20T16:54:23+08:00"
+   "count": 15,
+   "generated_at": "2026-11-22T11:18:40+08:00"
   },
   {
    "series": "reading_list",
@@ -33,7 +33,7 @@
    "group": "遊戲",
    "period": "2026-W47",
    "count": 20,
-   "generated_at": "2026-11-20T14:19:49+08:00"
+   "generated_at": "2026-11-22T11:19:45+08:00"
   }
  ],
  "entries": [
@@ -58,22 +58,22 @@
    ]
   },
   {
-   "key": "8479f47633",
+   "key": "756e638b64",
    "rank": 1,
-   "title": "黃仁勳辭任 NVIDIA 執行長：開源模型失去最大靠山，但 NVIDIA 仍難被撼動",
-   "summary_html": "NVIDIA 11 月 12 日宣布黃仁勳辭去總裁、執行長與董事職務，Interconnects 談對開源 AI 的衝擊，AI to ROI 談市場與政策連鎖反應。",
-   "dive_html": "依 AI to ROI 整理，事件起於《紐約時報》10 月 29 日報導美國情報單位認定 Megaspeed 高層 Alice Huang 為中國情報資產並與黃仁勳關係密切；CFO Colette Kress 暫代執行長，前 Synopsys 執行長 Harvey Jones 出任 NVIDIA 首位董事長。報導後 NVIDIA 市值約蒸發 1.4 兆美元，美銀估其客戶擔保曝險近 3,000 億美元，財長 Bessent 要求把 Megaspeed 列入管制實體清單。Interconnects 的 Nathan Lambert 認為這是美國開源模型生態的重大挫敗：黃仁勳是以創辦人風格大舉資助開源模型的人，新經營層首要任務是穩住出貨，這筆資金很可能枯竭；而開源模型經濟仍在起步，算力短缺下也難以真正商品化。AI to ROI 則判斷 NVIDIA 留下的體量難以撼動，產業各方都需要它成功。",
-   "url": "https://www.interconnects.ai/p/open-source-ai-without-jensen",
-   "src": "Interconnects",
-   "ts": "2026-11-14T20:23:15+08:00",
-   "left": "11/14 20:23",
+   "title": "AI to ROI 週評：Anthropic 掛牌首日收漲 17%，作者視為情緒指標而非定論",
+   "summary_html": "AI to ROI（Ray Rike、Peter Buchanan）11/20 這期週評的要聞包括 Anthropic（代號 ANT）上市、NVIDIA 第三季財報再大幅超預期、美國補上中國 AI 公司取得 NVIDIA 晶片的出口管制漏洞、Microsoft 推出 7 款專用模型（標題稱 Copilot 開始在企業內封鎖 Claude）等。Anthropic 發行價 83 美元，文中稱是史上最大 IPO；首筆成交 111.50 美元，盤中低點 92.72 美元，收 97.17 美元、漲 17%。Vanda Research 統計開盤 30 分鐘散戶成交 2.55 億美元，淨買超僅次於 SpaceX 上市，散戶是賣掉其他股票來買；當天美股三大指數都跌逾 2%，NVIDIA 跌 3.3%。作者認為 ANT 是情緒指標而非定論：開盤漲幅吐回一半，顯示市場想要 AI 曝險但價格容忍有限；180 天後禁售期屆滿將釋出 37 億股，首份財報要看定價與算力產能訊號。",
+   "dive_html": "散戶賣其他股票買 ANT、NVIDIA 與半導體指數同日下跌，顯示資金可能是在 AI 族群內部輪動而非新增，模型公司上市反而從硬體股抽走資金。作者點出禁售期與首份財報，但擷取內容沒有營收、獲利或估值倍數，「史上最大 IPO」也沒給募資金額，判斷溢價是否合理的關鍵數字缺席。若 Copilot 在企業端封鎖 Claude 屬實，代表 Microsoft 把 Anthropic 當成對手處理，對 Anthropic 企業營收的影響可能比首日股價更大。",
+   "url": "https://ai2roi.substack.com/p/ai-to-roi-news-and-analysis-november-78a",
+   "src": "AI to ROI",
+   "ts": "2026-11-20T21:31:17+08:00",
+   "left": "11/20 21:31",
    "heat": "",
    "tags": [],
    "from": [
     {
      "series": "ai_weekly",
      "period": "2026-W47",
-     "no": "14",
+     "no": "11",
      "rank": 1
     }
    ]
@@ -102,14 +102,14 @@
   {
    "key": "f3f22cc80a",
    "rank": 1,
-   "title": "Cocos 新版建置面板入口拆成三個、建置記錄改不了名，Dashboard 被指自動下載引擎佔 40GB",
-   "summary_html": "多位開發者回報 Creator 建置面板突然換成新版，zerozerg 說事先不知道有更新、3.8.2 和 3.8.7 都變了，找不到舊的單一入口，建置記錄也改不了名；本週沒有官方回應。",
-   "dive_html": "這波改動落在 3.8.x 專案（回報涉及 3.8.2、3.8.7、3.8.8），沒主動升級的人也碰到建置入口、記錄命名與輸出內容（OpenPaaS、runtime-bridge 快照）改變。求穩的 525649253 慶幸自己沒更新，956696719 說更新後出包一團糟；偏好命令列建置的 371276998 則「一個命令行就可以不管了」。",
+   "title": "Cocos 構建面板隨 Dashboard 升級改版：拆成終端、應用、場景三個入口，3.8.2、3.8.7 也被換新",
+   "summary_html": "zerozerg 只想出一個網頁版和一個 Android APK，卻發現構建面板整個換新，連用快捷鍵叫出的也是新版，官方文件（Creator 4.0 手冊的構建面板頁）沒有對應說明。他自己摸出新版是「終端／應用／場景」三個入口指向同一個平台篩選頁，第二層才是原本的設定頁，並說引擎突然更新、3.8.2 與 3.8.7 的面板都變了，「連阻止的機會都沒」。同週另有三帖相關：247703646 發現構建記錄不能再改名；wangrongm2009 與 2874536645 抱怨 Dashboard 每次開啟都跳「升級支援一鍵發布全平台」的彈窗，引擎下載還佔掉 40G 硬碟。四帖都沒有官方回應。",
+   "dive_html": "風險不在新介面本身，而在升級路徑：據回報既有的 3.8.x 專案面板一起被換，靠固定構建參數區分測試版與正式版的團隊，流程可能在沒察覺時改變。官方說明出來前，穩妥做法是 Dashboard 先別點升級、引擎鎖在專案驗證過的版本，CI 改用命令列構建、不依賴面板操作；要沿用構建記錄名稱可照 `builder.json` 的解法，但改設定檔前先備份。若「自動多構建一份 OpenPaaS」屬實，出包時間與產物目錄都會變，部署腳本要重新檢查輸出路徑。",
    "url": "https://forum.cocos.org/t/topic/178198",
    "src": "Cocos 中文社區",
    "ts": "2026-11-19T11:11:15+08:00",
    "left": "11/19 11:11",
-   "heat": "501 瀏覽 / 14 回覆",
+   "heat": "632 瀏覽 / 13 回覆",
    "tags": [],
    "from": [
     {
@@ -141,22 +141,22 @@
    ]
   },
   {
-   "key": "63dbb81e2a",
+   "key": "d1b8dd9927",
    "rank": 2,
-   "title": "Mind2Act World：拆解機器人「想」與「做」的診斷基準，最強系統閉環任務成功率僅 12%",
-   "summary_html": "提出 30 個模擬操作任務、180 種配置的診斷基準，分別測「依歷史推理」「精準執行」與兩者閉環組合。",
-   "dive_html": "創新在於把失敗歸因到 Mind、Act 或兩者的組合，並為每個系統產出能力側寫卡。結果顯示單項能力不會自動轉移：最強代理在 Mind 任務成功 52.7%、Act 任務 39.0%，進入需靠環境回饋銜接推理與動作的 Mind2Act 任務卻只剩 12.0%。多模態代理能記住任務狀態但做不好持續接觸，端到端 VLA 策略能重複熟練動作卻記不住狀態，作者據此把「透過環境回饋組合推理與執行」列為具身智慧的主要未解問題。",
-   "url": "https://huggingface.co/papers/2611.26444",
-   "src": "HF Papers",
-   "ts": "2026-11-20T08:00:00+08:00",
-   "left": "11/20 08:00",
-   "heat": "+33",
+   "title": "AI to ROI：黃仁勳因醜聞辭職、NVIDIA 市值蒸發 1.4 兆美元，仍是最難撼動的對手",
+   "summary_html": "AI to ROI 11/17 評論。文中說 NVIDIA 於 11/12 宣布黃仁勳即日辭去總裁、執行長與董事，起因是他與一名疑似中國間諜的女性發生婚外情等醜聞；她任職於 NVIDIA 最大的亞洲夥伴 Megaspeed，該公司被懷疑非法把晶片賣進中國。財務長 Colette Kress 代理執行長，Harvey Jones 出任首位董事長。作者指出黃仁勳只持股約 3.6%，董事會要他走就拿得掉。引述 Reuters，自 10/29 起 NVIDIA 市值蒸發約 1.4 兆美元，但 PitchBook 指出 11/5 AI 與半導體股也因市場預期選後監管收緊而重挫。其他疑慮包括：Bank of America 估 NVIDIA 替客戶資料中心融資擔保的曝險近 3,000 億美元、循環融資、NVIDIA 是否續投新創，以及出口管制收緊；財政部長 Scott Bessent 要把 Megaspeed 列入管制實體清單。",
+   "dive_html": "作者把市值下跌拆成醜聞、選後監管預期、融資擔保與循環融資幾股力量，暗示問題不只在換帥：若近 3,000 億美元的擔保曝險屬實，NVIDIA 已從賣晶片變成替買家扛信用風險，資料中心景氣一旦反轉，衝擊會被放大。對新創與開源生態，最直接的變數是 NVIDIA 的投資會不會縮手，這比誰接任執行長更影響募資環境。Megaspeed 若被列管，NVIDIA 的亞洲通路與中國市場都會再受壓；擷取段落沒有交代代理執行長的策略方向，也沒有營收衝擊的估計。",
+   "url": "https://ai2roi.substack.com/p/jensen-huang-or-not-nvidia-is-still",
+   "src": "AI to ROI",
+   "ts": "2026-11-17T21:31:56+08:00",
+   "left": "11/17 21:31",
+   "heat": "",
    "tags": [],
    "from": [
     {
      "series": "ai_weekly",
      "period": "2026-W47",
-     "no": "01",
+     "no": "14",
      "rank": 2
     }
    ]
@@ -183,22 +183,22 @@
    ]
   },
   {
-   "key": "0ddf7adb70",
+   "key": "604d62e054",
    "rank": 2,
-   "title": "歐盟提出 Digital Fairness Act 草案：虛擬貨幣要標示實際金額、未成年預設停用，禁止對未成年販售轉蛋",
-   "summary_html": "歐盟執委會本週提出 71 頁的 Digital Fairness Act（DFA）草案，適用全體會員國，把遊戲的轉蛋、虛擬貨幣與 UX 設計納入規範；免費遊戲首當其衝，使用同類機制的買斷制遊戲也可能適用。",
-   "dive_html": "這仍是提案，尚未通過；Game Developer 認為若通過，可能大幅改變部分遊戲的開發與發行方式，影響範圍不只歐洲，而是全球。",
-   "url": "https://www.gamedeveloper.com/business/european-union-proposes-digital-fairness-act-which-could-have-major-effects-on-game-development",
-   "src": "Game Developer",
-   "ts": "2026-11-14T02:32:59+08:00",
-   "left": "11/14 02:32",
-   "heat": "",
+   "title": "微信小遊戲網路類型選「單機」可在備案完成前上線：實測能接激勵廣告，但 wx.request 回傳 -9003",
+   "summary_html": "億元程序員引用官方預估：無版號小遊戲備案約需 10 個工作日（平台初審＋主管部門審核），小程式備案 3–10 個工作日，合計至少兩週多。他實測的做法是備案照常走，但填資料時網路類型選「單機」，提交審核時也選單機，審核通過後就能直接發布，線上版本與「備案進行中」並存。代價是隱私協議無法修改，取得暱稱頭像、好友排行榜等介面不能用，`wx.request` 回傳錯誤碼 -9003（他說 PC 等部分機型能發出請求，待驗證）。單機版符合流量主條件後，次日即可接激勵影片廣告；要改回聯網，他說得等前一次備案結束再重新備案。他表示沒看到官方說明，不確定是不是 bug，也可能被修改。唯一一則回覆 weijinda 說備案通過後直接改成聯網即可，不用重新備案。",
+   "dive_html": "這個做法讓純單機、靠廣告變現的小遊戲能先上線測留存與 eCPM，再決定要不要投入聯網功能，對用 AI 快速做原型的團隊影響最大。但它來自單一作者實測，沒有官方文件，平台隨時可能收緊；作者與回覆者對「改回聯網要不要重新備案」說法相反，上線前要自己確認。有排行榜、雲端存檔或伺服器校驗的遊戲不適用，送審填的網路類型也要與實際功能一致，否則可能在審核或之後被下架。",
+   "url": "https://forum.cocos.org/t/topic/178213",
+   "src": "Cocos 中文社區",
+   "ts": "2026-11-20T12:52:38+08:00",
+   "left": "11/20 12:52",
+   "heat": "364 瀏覽 / 1 回覆",
    "tags": [],
    "from": [
     {
      "series": "cocos_h5_weekly",
      "period": "2026-W47",
-     "no": "18",
+     "no": "07",
      "rank": 2
     }
    ]
@@ -219,6 +219,27 @@
      "series": "github_weekly",
      "period": "2026-W47",
      "no": "04",
+     "rank": 3
+    }
+   ]
+  },
+  {
+   "key": "fa658dae2a",
+   "rank": 3,
+   "title": "Memia 引 Zvi 析 Claude Mythos 5.2 系統卡：METR 估內部 AI 研發加速 1.9 倍，Anthropic 未啟動自主性門檻",
+   "summary_html": "Memia 2026.46 期（Ben Reid）是科技週掃描，作者說本期由 AI 代理讀取 95 個以上新聞源、整理約 289 則訊號，並提醒內容可能有錯誤與幻覺。本期引介 Zvi Mowshowitz 對 Anthropic 上市前推出的 Claude Mythos 5.2 與 Fable 5.2 的分析（Memia 形容是「IPO 孤注一擲式」的發表）：Zvi 認為 Mythos 5.2 系統卡大致是「分數上升、門檻未觸發」的老模式，唯一例外是 METR 估計 Anthropic 內部 AI 研發約加速 1.9 倍（信賴區間上限 2.28 倍），Anthropic 幾天後卻決定不觸發「自主性威脅模型 2」，又在發表隔天的 S-1 更新中悄悄承認這一點。上週最多人點的連結是〈在中國，AI 泡沫已經破了〉。",
+   "dive_html": "若 METR 的 1.9 倍估計站得住，代表前沿實驗室用自家模型加速研發的回饋迴圈已經可以量化，這正是各家安全框架裡「自主 AI 研發」門檻要防的情境；門檻判斷與 S-1 揭露之間出現落差，會讓外界質疑自律式安全承諾在上市壓力下的可信度。這則是 AI 代理彙整、再轉述的二手評論，系統卡與 S-1 的實際措辭沒有出現，「悄悄承認」的具體內容要回到 Zvi 原文與文件確認。接下來可看投資人與監管機關是否把安全門檻的認定當成上市公司的重大資訊揭露。",
+   "url": "https://memia.substack.com/p/memia-202646-sexpionage-or-hit-job",
+   "src": "Memia",
+   "ts": "2026-11-18T11:38:08+08:00",
+   "left": "11/18 11:38",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "ai_weekly",
+     "period": "2026-W47",
+     "no": "13",
      "rank": 3
     }
    ]
@@ -245,22 +266,22 @@
    ]
   },
   {
-   "key": "bdbe56e75d",
+   "key": "eae1ba13dc",
    "rank": 3,
-   "title": "PixiJS 3D 開放測試：WebGPU 優先、可退回 WebGL2，3D 場景像 Sprite 一樣加進 2D 舞台，MIT 授權",
-   "summary_html": "PixiJS 宣布 PixiJS 3D 進入 open beta，PixiJS 從 2D 擴充成同時是 2D 與 3D 引擎，兩者共用同一個 stage。",
-   "dive_html": "PixiJS 是 Ct.js、GDevelop、RPG Maker MV/MZ 採用的 2D WebGL／WebGPU 框架（GameFromScratch）。官方舉的用法是保留原本的 2D 流程，只在需要處放 3D，例如選單裡旋轉的獎盃或商店畫面的角色；也可以讓一個 View3D 撐滿畫面做整款 3D 遊戲，UI 疊一層 2D 容器。",
-   "url": "https://pixijs.com/blog/pixi-3d-open-beta",
-   "src": "Hacker News（本週）",
-   "ts": "2026-11-14T06:15:32+08:00",
-   "left": "11/14 06:15",
-   "heat": "HN 19",
+   "title": "Cocos cc.Graphics 預設配 65535 個頂點、每個佔 2.25MB：100 個遮罩吃掉 200MB 以上記憶體且不釋放",
+   "summary_html": "it4040 指出 `cc.Graphics.prototype.activeSubModel` 預設寫死配置 65535 個頂點，每個 Graphics 獨佔 2.25MB 緩衝區；專案若大量使用遮罩（列表、圓形遮罩很常見）又用預設的 Graphics，100 個就會吃掉 200MB 以上記憶體，而且不會釋放，他稱這是小遊戲的大坑。回覆的做法：286540194 建議圓形遮罩改用 SpriteRenderer 或 shader，並說現在叫 AI 寫一個 shader 很簡單；it4040 回說他們遮的是複雜容器，不是單張圖；554326014 說當年也踩過，後來把預設遮罩全部改成白色圖片，不再用預設的 Graphics。帖中沒有官方回應。",
+   "dive_html": "小遊戲平台的記憶體上限緊，每個實例固定吃 2.25MB 的配置，會在列表項目一多時直接放大成閃退風險。可照做的方向：遮罩改用圖片模板（白色圖）或 shader，避免每個列表 Item 各帶一個 Graphics；非用 Graphics 不可時集中共用，不要在可重複的 Item 裡各建一個。發文者說的「不會釋放」沒有附測試數據，節點銷毀後是否回收，建議先在真機用記憶體工具量一次再決定改法。",
+   "url": "https://forum.cocos.org/t/topic/178196",
+   "src": "Cocos 中文社區",
+   "ts": "2026-11-19T10:57:14+08:00",
+   "left": "11/19 10:57",
+   "heat": "743 瀏覽 / 4 回覆",
    "tags": [],
    "from": [
     {
      "series": "cocos_h5_weekly",
      "period": "2026-W47",
-     "no": "15",
+     "no": "05",
      "rank": 3
     }
    ]
