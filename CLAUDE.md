@@ -12,7 +12,7 @@
 
 ### 可以上傳
 
-- `news/` 底下由 news-aggregator `scripts/publish.py`、`scripts/front.py` 產生的檔案：`news/<系列>/<年>/<期別>.json`、`news/<系列>/index.json`（類型清單）、`news/index.json`、`news/front/index.json`、`news/front/<年>/<YYYY-MM-DD>.json`（每日頭版）、`news/front/<ISO 年>/<YYYY-Www>.json`（每週頭版）。`news/archive/` 已廢除，只允許刪除。
+- `news/` 底下由 news-aggregator `scripts/publish.py`、`scripts/front.py` 產生的檔案：`news/<系列>/<年>/<期別>.json`、`news/<系列>/index.json`（類型清單）、`news/index.json`、`news/front/index.json`、`news/front/<年>/<YYYY-MM-DD>.json`（每日頭版）、`news/front/<ISO 年>/<YYYY-Www>.json`（每週頭版）、`news/stories.json`（議題對照表，news-aggregator 的 `story_review.py` 寫入）。`news/archive/` 已廢除，只允許刪除。
 - 網站本身：`index.html`、`404.html`、`catalog.json`、`assets/`、`news/index.html`、`news/manifest.webmanifest`、`news/assets/`，以及日後新類別的同類檔案。
 - 本 repo 的 `README.md`、`CLAUDE.md`、`.gitignore`、`.nojekyll`。
 
@@ -66,12 +66,14 @@ ai-reports/
     ├── front/                                                                                  ← front.py
     │   ├── index.json            dates：最近 60 個有每日頭版的日期與則數；weeks：最近 26 個有每週頭版的週與則數
     │   ├── <年>/<YYYY-MM-DD>.json 每日頭版：當天各日報標 front 的條目依 key 合併，同一事件不同網址的也併成一則
-    │   │                         （引用了對方的主連結、標題也相近；front.py 的 merge_events）。舊檔另帶 weekly，網頁已不畫
+    │   │                         （引用了對方的主連結、標題也相近；front.py 的 merge_events）；facets 取各來源的聯集。舊檔另帶 weekly，網頁已不畫
     │   └── <ISO 年>/<YYYY-Www>.json 每週頭版：那週的週報＋那週發布的月報，格式同每日頭版（date 換成 week）
+    ├── stories.json              議題對照表：facets.story 的改名合併、歸入上層、退役規則與待核准提案；報告不改，讀取時套用  ← story_review.py
     ├── <系列>/index.json         這個類型的全部期別（新到舊，不含導言；取代舊的 archive）               ← publish.py
     ├── <系列>/<年>/<期別>.json   報告資料（schema 1，欄位對應 md2html2.py 的 render；條目的 ts 是
     │                             時間軸排序用的台北時間 ISO，解析不出時間就沒有；key 是條目固定編號，
-    │                             front 是頭版順位，沒標就沒有）
+    │                             front 是頭版順位，沒標就沒有；facets 是分類標籤：地區、主題、機構…，
+    │                             news-aggregator 的 facets.py 定義，頁面不顯示，給日後的功能用，沒標就沒有）
     └── general/2026/2026-11-18.html  第一版留下的轉址頁（保留）
 ```
 
