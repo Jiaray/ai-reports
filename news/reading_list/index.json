@@ -4,14 +4,14 @@
  "title": "閱讀清單",
  "group": "綜合",
  "cadence": "weekly",
- "updated_at": "2026-11-23T10:06:19+08:00",
+ "updated_at": "2026-11-23T17:19:15+08:00",
  "items": [
   {
    "period": "2026-W48",
    "date": "2026-11-23",
-   "count": 4,
+   "count": 5,
    "data": "reading_list/2026/2026-W48.json",
-   "generated_at": "2026-11-23T10:06:19+08:00"
+   "generated_at": "2026-11-23T17:19:15+08:00"
   },
   {
    "period": "2026-W47",
