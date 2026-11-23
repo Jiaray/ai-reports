@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T17:13:55+08:00",
+ "updated_at": "2026-11-23T17:13:56+08:00",
  "series": [
   {
    "id": "general",
@@ -131,6 +131,18 @@
  ],
  "items": [
   {
+   "series": "tech",
+   "series_title": "科技日報",
+   "cadence": "daily",
+   "period": "2026-11-23",
+   "date": "2026-11-23",
+   "title": "科技日報",
+   "lede": "黃仁勳婚外情與晶片流中國案延燒，川普籲輝達聘回、參議員要商務部長作證；美國一週內連環大當機，情報總監與微軟都說還會再來；台積電稱先進製程仍供不應求；〈GTA 6〉首日零售銷售額 37.9 億美元。",
+   "count": 14,
+   "data": "tech/2026/2026-11-23.json",
+   "generated_at": "2026-11-23T17:13:56+08:00"
+  },
+  {
    "series": "gambling",
    "series_title": "博奕產業新聞",
    "cadence": "daily",
@@ -225,18 +237,6 @@
    "count": 10,
    "data": "finance/2026/2026-11-23.json",
    "generated_at": "2026-11-23T09:50:52+08:00"
-  },
-  {
-   "series": "tech",
-   "series_title": "科技日報",
-   "cadence": "daily",
-   "period": "2026-11-23",
-   "date": "2026-11-23",
-   "title": "科技日報",
-   "lede": "輝達在黃仁勳去職後擴大與台積電等 6 家台廠結盟，紐時揭中國國安部專案小組搶 AI 晶片；傳 CrowdStrike 洽購 Zscaler；美國接連大當機，微軟與情報首長都說還會再來；日本三大車廠統一零件規格降本。",
-   "count": 12,
-   "data": "tech/2026/2026-11-23.json",
-   "generated_at": "2026-11-23T09:47:43+08:00"
   },
   {
    "series": "international",
