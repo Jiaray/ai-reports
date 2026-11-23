@@ -4,14 +4,14 @@
  "title": "AI 週報",
  "group": "科技",
  "cadence": "weekly",
- "updated_at": "2026-11-23T10:05:20+08:00",
+ "updated_at": "2026-11-23T17:17:28+08:00",
  "items": [
   {
    "period": "2026-W48",
    "date": "2026-11-23",
-   "count": 2,
+   "count": 11,
    "data": "ai_weekly/2026/2026-W48.json",
-   "generated_at": "2026-11-23T10:05:20+08:00"
+   "generated_at": "2026-11-23T17:17:28+08:00"
   },
   {
    "period": "2026-W47",

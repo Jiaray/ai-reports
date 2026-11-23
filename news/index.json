@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T17:16:53+08:00",
+ "updated_at": "2026-11-23T17:17:28+08:00",
  "series": [
   {
    "id": "general",
@@ -131,6 +131,18 @@
  ],
  "items": [
   {
+   "series": "ai_weekly",
+   "series_title": "AI 週報",
+   "cadence": "weekly",
+   "period": "2026-W48",
+   "date": "2026-11-23",
+   "title": "AI 週報",
+   "lede": "Anthropic 上市首日收漲 17%、輝達財報再超預期卻深陷黃仁勳醜聞後的治理與出口管制壓力；成果計價的毛利算法浮上檯面；論文聚焦長上下文記憶、擴散語言模型與世界模型的物理一致性。",
+   "count": 11,
+   "data": "ai_weekly/2026/2026-W48.json",
+   "generated_at": "2026-11-23T17:17:28+08:00"
+  },
+  {
    "series": "finance",
    "series_title": "財經日報",
    "cadence": "daily",
@@ -237,18 +249,6 @@
    "count": 4,
    "data": "reading_list/2026/2026-W48.json",
    "generated_at": "2026-11-23T10:06:19+08:00"
-  },
-  {
-   "series": "ai_weekly",
-   "series_title": "AI 週報",
-   "cadence": "weekly",
-   "period": "2026-W48",
-   "date": "2026-11-23",
-   "title": "AI 週報",
-   "lede": "Ben Tossell 提出「代理人生產力焦慮」：每月付 200 美元的代理人讓人越挖越多坑；KDnuggets 以四個問題整理 2026 年開源與商用模型的選型框架。本期 Hugging Face 論文榜抓取失敗，未收論文。",
-   "count": 2,
-   "data": "ai_weekly/2026/2026-W48.json",
-   "generated_at": "2026-11-23T10:05:20+08:00"
   },
   {
    "series": "international",
