@@ -1,0 +1,102 @@
+{
+ "schema": 1,
+ "series": "gambling",
+ "series_title": "博奕產業新聞",
+ "group": "遊戲",
+ "cadence": "daily",
+ "period": "2026-11-23",
+ "date": "2026-11-23",
+ "title": "博奕產業新聞",
+ "brief": "DAILY CASINO & GAMING BRIEFING",
+ "issue": "NO. 2026-327",
+ "generated_at": "2026-11-23T09:06:34+08:00",
+ "lede": "近 48 小時：MGM 為 2030 年大阪 IR 開幕取經江原樂園的成癮防治；加拿大亞伯達 iGaming 市場競爭升溫，業者轉向球迷體驗與體育贊助。",
+ "src_tags": [
+  "Asia Gaming Brief",
+  "Casino.org News"
+ ],
+ "intro": [
+  {
+   "kind": "p",
+   "html": "近 48 小時：MGM 為 2030 年大阪 IR 開幕取經江原樂園的成癮防治；加拿大亞伯達 iGaming 市場競爭升溫，業者轉向球迷體驗與體育贊助。"
+  }
+ ],
+ "sections": [
+  {
+   "name": "監管與政策",
+   "count": 1,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "01",
+     "key": "11d70bf164",
+     "front": 1,
+     "title": "MGM 赴韓國江原樂園考察賭博成癮防治，備戰 2030 年大阪 IR",
+     "title_html": "MGM 赴韓國江原樂園考察賭博成癮防治，備戰 2030 年大阪 IR",
+     "url": "https://agbrief.com/news/south-korea/22/11/2026/mgm-studies-kangwon-lands-gambling-addiction-programmes-ahead-of-2030-osaka-ir-opening/",
+     "src": "Asia Gaming Brief",
+     "left": "11/22 19:25",
+     "ts": "2026-11-22T19:25:57+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "開發日本首座綜合度假村的 MGM 團隊 10 月初造訪江原樂園，考察其成癮防治與現場預防措施。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "據《首爾經濟日報》11 月 21 日報導，MGM 團隊參觀一般賭場樓層與會員區，並走訪江原樂園成癮照護中心（KLACC），特別關注樓面預防措施與顧客管理。MGM 與歐力士在夢洲人工島投資約 1.5 兆日圓興建 MGM Osaka，預計 2030 年秋季開幕；與江原樂園一樣開放本國人入場，日本賭場管理委員會規定本國人任 7 天內最多入場 3 次、28 天內最多 10 次。"
+    }
+   ]
+  },
+  {
+   "name": "營運商與併購",
+   "count": 2,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "02",
+     "key": "98964c82bd",
+     "front": 2,
+     "title": "theScore Bet 在亞伯達 iGaming 市場以免費刺青等球迷體驗做出區隔",
+     "title_html": "theScore Bet 在亞伯達 iGaming 市場以免費刺青等球迷體驗做出區隔",
+     "url": "https://www.casino.org/news/canadian-gaming-thescore-bet-alberta-marketing/",
+     "src": "Casino.org News",
+     "left": "11/23 05:01",
+     "ts": "2026-11-23T05:01:04+08:00",
+     "heat": "0 comments",
+     "tags": [],
+     "summary_html": "theScore Bet 在卡加利灰杯賽週末包下刺青店，兩天送出約 160 個 CFL 主題免費刺青，預約數小時內額滿。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "亞伯達 iGaming 市場 7 月開放後競爭迅速升溫；行銷副總 Justin Hergianto 表示活動「3RD&amp;INK」目的不在立即拉註冊，而是建立與球迷的關係、拉開品牌差異。"
+    },
+    {
+     "type": "item",
+     "no": "03",
+     "key": "a062920432",
+     "title": "Betty 成為加拿大職業女子冰球聯盟 PWHL 官方線上賭場夥伴",
+     "title_html": "Betty 成為加拿大職業女子冰球聯盟 PWHL 官方線上賭場夥伴",
+     "url": "https://www.casino.org/news/canadian-gaming-betty-pwhl-partnership/",
+     "src": "Casino.org News",
+     "left": "11/21 22:21",
+     "ts": "2026-11-21T22:21:50+08:00",
+     "heat": "0 comments",
+     "tags": [],
+     "summary_html": "在安大略與亞伯達持照的 iGaming 業者 Betty 首度贊助職業女子運動，將冠名 PWHL 在亞伯達的巡迴賽並參與多倫多明星賽。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "PWHL 第四季 12 月 5 日開打，本季擴編至 12 隊（新增漢米爾頓、底特律、拉斯維加斯、聖荷西）；Betty 冠名 1 月 23 日愛德蒙頓與 2 月 15 日卡加利兩場 Takeover Tour，並於 3 月 7 日多倫多明星賽設點。"
+    }
+   ]
+  }
+ ],
+ "foot_left": "本報告由 news-aggregator 自動彙整",
+ "stats": {
+  "items": 3,
+  "sections": 2
+ }
+}

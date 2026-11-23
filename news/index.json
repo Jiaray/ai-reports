@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T09:06:10+08:00",
+ "updated_at": "2026-11-23T09:06:34+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "gambling",
+   "series_title": "博奕產業新聞",
+   "cadence": "daily",
+   "period": "2026-11-23",
+   "date": "2026-11-23",
+   "title": "博奕產業新聞",
+   "lede": "近 48 小時：MGM 為 2030 年大阪 IR 開幕取經江原樂園的成癮防治；加拿大亞伯達 iGaming 市場競爭升溫，業者轉向球迷體驗與體育贊助。",
+   "count": 3,
+   "data": "gambling/2026/2026-11-23.json",
+   "generated_at": "2026-11-23T09:06:34+08:00"
+  },
   {
    "series": "security",
    "series_title": "資安日報",
