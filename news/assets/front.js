@@ -227,7 +227,8 @@
   // 淡底色、標題大一號，收合時先露兩行摘要；點開看完整摘要、AI 解讀（頭版檔的 dive_html）、來源與「看原文」。
   // 原生 <details>：鍵盤、報讀器、「在頁面中尋找」（收合的摘要也搜得到、找到時自動展開）都直接可用。
   // summary 裡的標題用 span、不用 h3（同報告頁標題讀法：部分螢幕閱讀器把 summary 當按鈕，會丟掉裡面的標題），也不放連結。
-  // o.id：元素 id；o.types：系列 id（第一個決定色線）；o.stamp：系列後面的灰字節點；o.lead：要聞；o.isNew：標「新」；
+  // o.id：元素 id；o.types：系列 id（第一個決定色線）；o.from：來源報告（系列、期別、編號；連到報告裡的這一則）；
+  // o.stamp：系列後面的灰字節點；o.lead：要聞；o.isNew：標「新」；
   // o.key：頭版條目的 key（記「看過」用）。data-fq 是這則的系列（系列代號，空白分隔），快速過濾比對用
   function tlRow(it, o) {
     const hot = hotInfo(it);
@@ -241,6 +242,22 @@
     });
     if (it.heat && !(hot && hot.from === 'heat')) acts.push(h('span', { class: 'tag tag-outline' }, [it.heat]));
     if (it.url) acts.push(h('a', { class: 'fp-act', href: it.url, target: '_blank', rel: 'noopener' }, ['看原文 ↗']));
+    // 所屬的系列（使用者要求：焦點的新聞附上所屬系列的連結）：接在「看原文」後面寫「出自 ▤財經日報」——灰字「出自」，
+    // 連結是報紙圖示＋系列全名（同日期面板「這天的新聞」），連到那一期報告裡的這一則（#item-NN）。使用者在三種寫法中選定
+    // 「出自」加圖示：原本的「財經日報 →」箭頭看起來像指向後面的「分類」。圖示同工具列：日報是本日焦點的報紙、週報月報是本週回顧的兩張報紙。
+    // 同一則出自多份報告就每份一個、用「、」隔開，照系列順序
+    const linked = new Set();
+    const srcLinks = [];
+    (o.from || []).filter((f) => f && f.series && f.period).sort((a, b) => bySeries(a.series, b.series)).forEach((f) => {
+      if (linked.has(f.series)) return;
+      linked.add(f.series);
+      const m = seriesMeta(f.series);
+      if (srcLinks.length) srcLinks.push(h('span', { class: 'fp-from-sep' }, ['、']));
+      srcLinks.push(h('a', { class: 'fp-act fp-series', href: reportHref(f.series, f.period, f.no) }, [
+        h('span', { class: 'fp-series-ico', html: B.ICON[(m.cadence || 'daily') === 'daily' ? 'front' : 'weekly'] || '' }), m.title,
+      ]));
+    });
+    if (srcLinks.length) acts.push(h('span', { class: 'fp-from' }, [h('span', { class: 'fp-from-lab' }, ['出自']), ...srcLinks]));
     const body = [];
     if (it.summary_html) {
       body.push(h('div', { class: 'row-sum' }, paragraphs(it.summary_html).map((x) => h('p', { html: x }))));
@@ -258,7 +275,11 @@
       title: it.title || '', types: types.map((t) => seriesMeta(t).short), src: it.src,
       tags: [...(it.tags || []).map((t) => t.text), it.heat, hot && hot.label].filter(Boolean),
     }) : null;
-    if (fx) acts.push(fx.toggle);
+    if (fx) {
+      // 「出自」和「分類」之間一條直線（使用者要求：分開兩件事，分類不會看成連結的一部分）；只有兩者都在時才放
+      if (srcLinks.length) acts.push(h('span', { class: 'fp-sep', 'aria-hidden': 'true' }));
+      acts.push(fx.toggle);
+    }
     body.push(h('div', { class: 'fp-acts' }, acts));
     if (fx) body.push(fx.panel);
     const meta = h('span', { class: 'fp-mt' }, [...types.map(typeTag), o.stamp || null]);
@@ -461,6 +482,7 @@
       id: `fp-${e.key}`,
       key: e.key,
       types: [...new Set(e.from.map((f) => f.series))].sort(bySeries),
+      from: e.from,
       stamp: w ? h('time', { class: 'fp-tm', datetime: e.ts }, [w.hm]) : null,
       lead: e.rank === top,
       isNew: fresh.has(e.key),

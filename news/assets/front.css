@@ -105,6 +105,13 @@
 .fp-act{display:inline-flex;align-items:center;min-height:32px;font:600 14px/1.3 var(--font-body);color:var(--color-accent-700)}
 .fp-act:hover{color:var(--color-accent-800);text-decoration:underline}
 .fp-act:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
+/* 所屬系列（front.js）：灰字「出自」＋連結（報紙圖示＋系列全名，樣子同看原文），多份報告用「、」隔開；
+   後面有「分類」時中間一條細直線（用 border 畫，強制色彩模式才不會被拿掉） */
+.fp-from{display:inline-flex;flex-wrap:wrap;align-items:center;column-gap:6px;font:400 13px/1.3 var(--font-body);color:var(--color-neutral-600)}
+.fp-from-sep{margin-left:-4px}
+.fp-series{gap:4px}
+.fp-series-ico,.fp-series-ico svg{display:block;flex:none;width:16px;height:16px}
+.fp-sep{align-self:center;width:0;height:1.1em;border-left:1px solid var(--color-neutral-300)}
 @media(forced-colors:active){.fp-it{border-left-color:CanvasText}.fp-it.is-lead{outline:1px solid CanvasText}}
 
 /* ── 還沒有頭版：說明＋各系列最新一期的連結 ── */

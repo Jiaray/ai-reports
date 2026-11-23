@@ -205,6 +205,8 @@
 [data-look=standard] .fp-acts{gap:4px 16px}
 [data-look=standard] .fp-act{color:var(--link);font:500 14px/1.3 var(--font-sans)}
 [data-look=standard] .fp-act:hover{color:var(--accent)}
+[data-look=standard] .fp-from{color:var(--text-3);font:400 13px/1.3 var(--font-sans)}
+[data-look=standard] .fp-sep{border-left-color:var(--border)}
 [data-look=standard] .fp-pre{font:var(--fw-body) 15px/1.6 var(--font-sans);letter-spacing:var(--ls-body);color:var(--text-2)}
 /* 頭條：分類標籤 → 大標題 → 導言（摘要前三行，展開後是完整摘要；使用者要求收合與展開要看得出差別）→ 時間 */
 [data-look=standard] .std-lead .fp-it{padding:4px 0 28px;border-bottom:var(--hair) solid var(--border)}

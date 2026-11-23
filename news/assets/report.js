@@ -501,7 +501,10 @@
       update();
       return Promise.resolve();
     }
-    return document.startViewTransition(update).updateCallbackDone;
+    // 連續快速切換時前一個淡入淡出會被跳過，ready 以 AbortError 拒絕：接住，不在主控台留未處理的錯誤（畫面照樣換好）
+    const vt = document.startViewTransition(update);
+    vt.ready.catch(() => {});
+    return vt.updateCallbackDone;
   }
 
   // 讀法（使用者要求：從「版面」面板搬出來，放在大標題那一行的最右邊；「速讀」改名「標題」）：完整／標題／時間軸三選一。
@@ -646,9 +649,13 @@
     shown = { entry, data };
     document.title = `${data.title} ${data.date}｜AI Reports`;
     app.replaceChildren(...page());
+    // 網址帶 #item-NN（本日焦點、本週回顧的系列連結）：捲到那一則；標題讀法收合著的就先展開，一到就看得到內容。
+    // 等下一個畫面再捲：bar.js 要先量好工具列高度（--bar-h，scroll-padding-top 靠它讓開凍結的工具列），不然那一則會被工具列蓋住
     if (location.hash) {
       const target = document.getElementById(decodeURIComponent(location.hash.slice(1)));
-      if (target) target.scrollIntoView();
+      const peek = target && target.querySelector('details.peek');
+      if (peek) peek.open = true;
+      if (target) requestAnimationFrame(() => target.scrollIntoView());
     }
   }
 
