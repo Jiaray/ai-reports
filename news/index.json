@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T17:19:15+08:00",
+ "updated_at": "2026-11-23T17:19:41+08:00",
  "series": [
   {
    "id": "general",
@@ -131,6 +131,18 @@
  ],
  "items": [
   {
+   "series": "international",
+   "series_title": "國際新聞日報",
+   "cadence": "daily",
+   "period": "2026-11-23",
+   "date": "2026-11-23",
+   "title": "國際新聞日報",
+   "lede": "烏克蘭以海上無人機在利比亞擊沉俄艦；COP31 延長兩天仍未達協議；AI 股災延燒，南韓、台灣相繼護盤；紐時揭 Nvidia 醜聞女主角曾聯繫中國國安部；印尼糖果工廠大火 24 死。",
+   "count": 38,
+   "data": "international/2026/2026-11-23.json",
+   "generated_at": "2026-11-23T17:19:41+08:00"
+  },
+  {
    "series": "reading_list",
    "series_title": "閱讀清單",
    "cadence": "weekly",
@@ -249,18 +261,6 @@
    "count": 15,
    "data": "health/2026/2026-11-23.json",
    "generated_at": "2026-11-23T17:12:58+08:00"
-  },
-  {
-   "series": "international",
-   "series_title": "國際新聞日報",
-   "cadence": "daily",
-   "period": "2026-11-23",
-   "date": "2026-11-23",
-   "title": "國際新聞日報",
-   "lede": "COP31 在化石燃料爭議中破局；疑似烏克蘭海上無人機在利比亞擊沉俄艦，芬蘭灣俄國貨船同遭攻擊；美國民主黨拿下 1992 年來最大眾院多數；Anthropic 數學家宣稱借助 Claude 證明黎曼猜想；亞股 AI 泡沫賣壓擴大。",
-   "count": 36,
-   "data": "international/2026/2026-11-23.json",
-   "generated_at": "2026-11-23T09:45:11+08:00"
   },
   {
    "series": "cocos_h5_weekly",
