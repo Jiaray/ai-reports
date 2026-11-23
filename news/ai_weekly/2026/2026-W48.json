@@ -1,0 +1,157 @@
+{
+ "schema": 1,
+ "series": "ai_weekly",
+ "series_title": "AI 週報",
+ "group": "科技",
+ "cadence": "weekly",
+ "period": "2026-W48",
+ "date": "2026-11-23",
+ "title": "AI 週報",
+ "brief": "WEEKLY TECH & AI BRIEFING",
+ "issue": "NO. 2026-327",
+ "generated_at": "2026-11-23T10:05:20+08:00",
+ "lede": "Ben Tossell 提出「代理人生產力焦慮」：每月付 200 美元的代理人讓人越挖越多坑；KDnuggets 以四個問題整理 2026 年開源與商用模型的選型框架。本期 Hugging Face 論文榜抓取失敗，未收論文。",
+ "src_tags": [
+  "Ben's Bites",
+  "KDnuggets"
+ ],
+ "intro": [
+  {
+   "kind": "p",
+   "html": "Ben Tossell 提出「代理人生產力焦慮」：每月付 200 美元的代理人讓人越挖越多坑；KDnuggets 以四個問題整理 2026 年開源與商用模型的選型框架。本期 Hugging Face 論文榜抓取失敗，未收論文。"
+  }
+ ],
+ "sections": [
+  {
+   "name": "產業評論（Newsletters）",
+   "count": 2,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "01",
+     "key": "fc44f375d8",
+     "title": "KDnuggets：開源還是商用大型語言模型？2026 年的四問選型框架",
+     "title_html": "KDnuggets：開源還是商用大型語言模型？2026 年的四問選型框架",
+     "url": "https://www.kdnuggets.com/open-source-vs-proprietary-llms-a-decision-framework-for-2026",
+     "src": "KDnuggets",
+     "left": "11/20 23:00",
+     "ts": "2026-11-20T23:00:00+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Vinod Chugani 認為，與 18 個月前相比，開源與商用模型的能力差距已大幅縮小；大規模使用時成本對開源有利，低用量與快速迭代仍偏向商用 API，而資料隱私、微調需求、基礎設施能力與法規遵循，在多數實際決策裡比跑分更重要。他把選型歸結成四個問題：資料敏感度要求什麼、使用量多大、需要多少客製化、團隊基礎設施能承擔什麼。文中提醒「開源」多半只是開放權重，訓練資料與方法未必公開，部分授權不符合開放原始碼促進會的定義；並舉 Meta Llama 4 Scout 的 1,000 萬 Token 上下文、DeepSeek R1 的推理能力與 MIT 授權為例。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "框架本身不新，價值在把決策重心從「誰跑分高」拉回資料主權與成本結構，對有個資或法遵壓力的企業較實用。文中對各模型的描述偏向概覽，沒有實際成本試算或部署案例，引用時要自行補上自家用量數據。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "AI",
+       "產業與企業"
+      ],
+      "event": [
+       "調查報告"
+      ],
+      "sector": [
+       "AI",
+       "軟體與雲端"
+      ],
+      "org": [
+       "Meta",
+       "DeepSeek"
+      ],
+      "affects": [
+       "企業",
+       "開發者"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "回顧分析"
+      ],
+      "keyword": [
+       "開源模型",
+       "Llama 4",
+       "DeepSeek R1",
+       "模型選型"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "02",
+     "key": "da0d85edee",
+     "front": 1,
+     "title": "Ben's Bites：代理人讓人「做了不想做的工作」，越用越像在挖沙坑",
+     "title_html": "Ben&#x27;s Bites：代理人讓人「做了不想做的工作」，越用越像在挖沙坑",
+     "url": "https://www.bensbites.com/p/productiv-icky",
+     "src": "Ben's Bites",
+     "left": "11/17 22:14",
+     "ts": "2026-11-17T22:14:18+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Ben Tossell 造了一個詞「productiv-icky」，指做了原本沒打算做的工作的那種不適感。他的論點是：每個「好」都附帶隱藏的額外工作（yes-tax），陌生人的來信他會直接忽略，但換成每月 200 美元、急著幫忙的代理人提議「幫你處理」，人就很難拒絕。他認為大家開始覺得額度用不完就浪費，只因為別人都在用；看到別人的代理人一夜之間訂好牙醫、回了家人訊息、甚至開了公司，就覺得自己落後，於是到處開小任務、整天檢查代理人做得對不對，「開始衡量鏟子，而不是坑」。他的結論是：在整片海灘上只挖一個坑，下次代理人再提議時先問自己是否真的需要。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "這篇反映的是代理人普及後的新管理成本：任務自動化了，但「監督」與「決定要不要做」的負擔回到人身上，和 GitHub 上審閱代理人工作的工具大量冒出是同一個現象。以 Token 用量當產出指標的風氣若延續，企業可能高估代理人帶來的效益。文章是作者個人觀察，沒有提供用量或時間數據佐證。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "AI",
+       "勞動"
+      ],
+      "event": [
+       "聲明評論"
+      ],
+      "sector": [
+       "AI"
+      ],
+      "person": [
+       "Ben Tossell"
+      ],
+      "affects": [
+       "一般使用者",
+       "勞工"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "評論觀點"
+      ],
+      "keyword": [
+       "AI 代理人",
+       "生產力",
+       "Token 用量"
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "foot_left": "本報告由 news-aggregator 自動彙整",
+ "stats": {
+  "items": 2,
+  "sections": 1
+ }
+}

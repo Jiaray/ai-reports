@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T10:04:16+08:00",
+ "updated_at": "2026-11-23T10:05:20+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "ai_weekly",
+   "series_title": "AI 週報",
+   "cadence": "weekly",
+   "period": "2026-W48",
+   "date": "2026-11-23",
+   "title": "AI 週報",
+   "lede": "Ben Tossell 提出「代理人生產力焦慮」：每月付 200 美元的代理人讓人越挖越多坑；KDnuggets 以四個問題整理 2026 年開源與商用模型的選型框架。本期 Hugging Face 論文榜抓取失敗，未收論文。",
+   "count": 2,
+   "data": "ai_weekly/2026/2026-W48.json",
+   "generated_at": "2026-11-23T10:05:20+08:00"
+  },
   {
    "series": "github_weekly",
    "series_title": "GitHub 趨勢週報",
