@@ -1,11 +1,5 @@
-/* AI Reports 全站樣式：沿用新聞日報原本的「工程藍圖」版型（設計代幣與元件同 md2html2.py）——
-   鋼藍單一主色、方角、細線、帳冊式條目＋檔案夾標籤式分區。深色跟隨系統，可由報頭的配色切換覆蓋。
-   color-scheme 跟著同一套規則（自動＝跟系統、淺色、深色），讓瀏覽器原生的捲軸、下拉選單與底色也一起變深淺；
-   色票本身不受影響，淺色畫面完全不變。 */
 :root{
   color-scheme:light dark;
-  /* 中文用思源黑體（Noto Sans TC，news/index.html 從 Google Fonts 載入；使用者選定：比蘋方 Regular 筆畫飽滿）。
-     載入前或沒載入的頁面（首頁、404）退回蘋方。--font-heading 的英數仍用窄體（編號、時刻、標籤），中文字落到思源黑體 */
   --font-heading:"Barlow Condensed","Avenir Next Condensed","Arial Narrow","Noto Sans TC",-apple-system,"PingFang TC",sans-serif;
   --font-body:"Noto Sans TC",-apple-system,"PingFang TC",system-ui,sans-serif;
   --space-1:3.4px;--space-2:6.8px;--space-3:10.2px;--space-4:13.6px;--space-6:20.4px;--space-8:27.2px;
@@ -48,9 +42,6 @@
 
 *{box-sizing:border-box}
 html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
-/* overflow-wrap:break-word：路徑、網址、程式名稱這類沒有斷點的長英數字串（例：/guardrails/test_custom_code）
-   放不下一行時才在字串中間斷開，不再凸出欄外造成手機橫向捲動。其餘文字照常排滿欄寬、不提早換行；
-   不影響最小寬度的計算，表格照樣是撐開後在 .tbl 裡橫向捲動（anywhere 會把欄位擠成一字一行） */
 body{font:15px/1.7 var(--font-body);color:var(--color-text);background:var(--color-bg);margin:0;transition:background .2s,color .2s;overflow-wrap:break-word}
 .wrap{max-width:880px;margin:0 auto;padding:var(--space-8) var(--space-6)}
 a{color:var(--color-accent-700);text-decoration:none;word-break:break-word;overflow-wrap:anywhere}
@@ -58,7 +49,6 @@ a{color:var(--color-accent-700);text-decoration:none;word-break:break-word;overf
 .mast-top{display:flex;justify-content:space-between;align-items:center;gap:var(--space-3)}
 .mast-brand,.mast-issue{font:600 12px/1 var(--font-heading);letter-spacing:.12em;text-transform:uppercase;color:var(--color-neutral-700)}
 .mast-right{display:flex;align-items:center;gap:var(--space-3)}
-/* 標題、內文都用一般換行排滿欄寬，不用 text-wrap:balance／pretty：平衡換行讓每行提早斷、右邊空一大截（使用者回報不滿版） */
 .mast-title{font:600 56px/1.05 var(--font-heading);margin:var(--space-3) 0 var(--space-2);color:var(--color-text)}
 .mast-date{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-2);margin-bottom:var(--space-3);font:500 15px/1.5 var(--font-heading);color:var(--color-accent)}
 .mast-date .sep{color:var(--color-divider)}
@@ -113,35 +103,26 @@ ul.sec-note{padding-left:var(--space-4)}
 .foot-right{text-transform:uppercase;letter-spacing:.08em}
 .seealso-more{font:400 14px/1.8 var(--font-body);color:var(--color-neutral-600)}
 .seealso-more summary{cursor:pointer;color:var(--color-accent-700)}
-/* 窄版斷點用 em：預設字級（16px）下等於 640px；使用者把瀏覽器預設字級調大時，會提早換成窄版、不擠字 */
 @media(max-width:40em){
-/* 底部多留 56px：右下角「回到頂端」按鈕在捲到底時不蓋住頁尾 */
 .wrap{padding:var(--space-6) var(--space-4) calc(var(--space-6) + 56px)}
 .mast-title{font-size:40px}
 .toc{grid-template-columns:repeat(2,1fr)}
-/* 手機讓內文接近滿版（使用者要求）：分區框左右內距減半，條目左欄（編號＋時刻）收窄到剛好放得下 */
 .sec-body{padding:var(--space-2) var(--space-3) var(--space-4)}
 .row{grid-template-columns:36px 1fr;gap:var(--space-2)}
 .intro{font-size:15px}
 }
 
-/* 以下是網站版的補充：載入狀態、錯誤訊息、首頁分區標題連結 */
 [hidden]{display:none!important}
 .loading{margin:var(--space-8) 0;font:500 15px/1.5 var(--font-heading);letter-spacing:.04em;color:var(--color-neutral-600)}
 .load-error{margin:var(--space-6) 0;padding:var(--space-2) 0 var(--space-2) var(--space-3);border-left:2px solid var(--color-hot);font:400 15px/1.8 var(--font-body);color:var(--color-neutral-800)}
 .load-error a{margin-left:var(--space-2)}
 .sec-name a{color:inherit}
 
-/* 「跳到主要內容」略過連結：平常看不到（仍在無障礙樹裡），用鍵盤 Tab 到時出現在左上角、不推動版面（指南的 visually-hidden 寫法） */
 .visually-hidden:where(:not(:focus-within,:active)){position:absolute!important;clip-path:inset(50%)!important;overflow:hidden!important;width:1px!important;height:1px!important;margin:-1px!important;padding:0!important;border:0!important;white-space:nowrap!important}
 .skip-link{position:fixed;top:8px;left:8px;z-index:50;padding:10px 16px;background:var(--color-bg);color:var(--color-text);border:2px solid var(--color-accent-600);font:600 15px/1.2 var(--font-body)}
-/* 強制色彩模式（Windows 高對比）會拿掉背景色，選中狀態改用外框表示；平常不影響 */
 @media(forced-colors:active){.theme-switch button[aria-pressed=true]{outline:2px solid;outline-offset:-4px}}
-/* 觸控螢幕上，首頁配色鈕至少 44×44（指南：at least 44×44 on touch screens）；滑鼠、觸控板不變 */
 @media(pointer:coarse){.theme-switch button{min-height:44px;min-width:44px}}
 
-/* 回到頂端（使用者要求，每一頁都有）：site.js 建立。頁首放一個看不見、一個畫面高的哨兵，被捲出畫面後按鈕才淡入；
-   固定在右下角，避開 iPhone 的瀏海與底部安全區；方角細框沿用藍圖，z-index 低於「目錄」「版面」面板 */
 .to-top-sentinel{position:absolute;top:0;left:0;width:1px;height:100vh;pointer-events:none;visibility:hidden}
 .to-top{position:fixed;z-index:20;right:max(16px,env(safe-area-inset-right,0px));bottom:max(16px,env(safe-area-inset-bottom,0px));display:inline-flex;align-items:center;justify-content:center;width:40px;height:40px;padding:0;background:var(--color-bg);color:var(--color-neutral-700);border:1px solid var(--color-divider);border-radius:0;box-shadow:0 10px 24px -14px rgb(0 0 0 / .55);cursor:pointer;visibility:hidden;opacity:0;translate:0 8px;transition:visibility .2s,opacity .2s ease,translate .2s ease}
 .to-top.is-on{visibility:visible;opacity:1;translate:none}
