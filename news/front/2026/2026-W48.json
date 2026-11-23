@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "week": "2026-W48",
- "built_at": "2026-11-23T10:08:30+08:00",
+ "built_at": "2026-11-23T17:14:30+08:00",
  "reports": [
   {
    "series": "github_weekly",
@@ -9,7 +9,7 @@
    "group": "開源",
    "period": "2026-W48",
    "count": 10,
-   "generated_at": "2026-11-23T10:04:16+08:00"
+   "generated_at": "2026-11-23T17:14:30+08:00"
   },
   {
    "series": "ai_weekly",
@@ -40,9 +40,9 @@
   {
    "key": "404dff4b1c",
    "rank": 1,
-   "title": "dream-num/univer：可嵌進自家產品的開源 Office SDK",
-   "summary_html": "Univer 把自己定位成「在你的產品裡打造 Office 應用」的 SDK，提供編輯、計算、協作與檔案處理，服務對象同時包含人與既有的 AI 代理人，並沿用使用者自己的資料與權限。產品線涵蓋試算表、文件、簡報、關聯式表格、畫布與 PDF；開源核心可先做出試算表編輯器，再透過 Facade API 與事件把應用或代理人接進來，README 也說明自訂功能的邊界、跨功能編輯與復原／重做的組合方式，另有 CLI、代理人整合與開發者技能。本週新增 6,436 星，以 TypeScript 撰寫。",
-   "dive_html": "Univer 把「代理人能操作的文件格式」當賣點，切中企業想把 AI 放進表單、報表流程卻不想依賴微軟或 Google 雲端的需求。Facade API 加事件流的設計，讓代理人改表格與人手動改走同一套復原紀錄，是可借鏡之處。限制在開源核心與商業 SDK 的分界：PDF、簡報等能力是否在開源授權內，導入前要先讀 Scope and licensing。#OfficeSDK #AgentReady #TypeScript",
+   "title": "dream-num/univer：可嵌入產品、給人與 AI agent 共用的開源 Office SDK",
+   "summary_html": "Univer 定位為「在自己產品裡打造 Office 應用」的 SDK，提供編輯、計算（公式）、協作與檔案處理，涵蓋試算表、文件、簡報、關聯式表格、畫布與 PDF。Office SDK 分三部分，基礎的 Web SDK 包含內容模型、編輯、渲染、公式計算與 Facade API（面向應用程式的 API），可用外掛組成嵌入式編輯器或完整的 Office 應用，也能重用內容模型與命令做無介面（Headless）處理。README 強調同一套能力同時開放給人與既有的 AI agent，並使用接入方自己的資料與權限；開源核心可擴充，另有 CLI、agent 整合與開發者 skill。本週新增約 6,400 顆星。",
+   "dive_html": "把 Office 能力拆成可組合的 SDK，並明確把「agent 透過 Facade API 讀寫試算表」當成一級用途，切中企業想讓 AI 操作結構化文件卻不想把資料送上第三方 SaaS 的需求。與直接嵌入 OnlyOffice、Collabora 這類整套伺服器的作法相比，Univer 走前端外掛與 Headless 計算，整合彈性較高；但 README 提到「Scope and licensing」，代表部分能力屬商業授權，選用前要先確認開源核心是否夠用。#OfficeSDK #AgentReady #TypeScript",
    "url": "https://github.com/dream-num/univer",
    "src": "GitHub Trending",
    "left": "This week",
@@ -57,11 +57,10 @@
     ],
     "topic": [
      "開源",
-     "科技",
-     "AI"
+     "科技"
     ],
     "event": [
-     "產品發布"
+     "版本更新"
     ],
     "sector": [
      "軟體與雲端"
@@ -70,11 +69,10 @@
      "Univer"
     ],
     "affects": [
-     "開發者",
-     "企業"
+     "開發者"
     ],
     "importance": [
-     "高"
+     "中"
     ],
     "tone": [
      "正面"
@@ -85,7 +83,8 @@
     "keyword": [
      "Univer",
      "Office SDK",
-     "試算表"
+     "試算表",
+     "TypeScript"
     ]
    },
    "from": [
@@ -292,9 +291,9 @@
   {
    "key": "f7cfdfd7bc",
    "rank": 2,
-   "title": "alibaba/open-code-review：阿里巴巴內部兩年的 AI 審碼工具開源",
-   "summary_html": "Open Code Review 原是阿里巴巴集團官方的內部 AI 審碼助手，README 說過去兩年服務數萬名開發者、找出數百萬個程式缺陷，現孵化為開源專案。它讀取 Git diff，透過具工具呼叫能力的代理人把變更檔送給可設定的 LLM（相容 OpenAI 與 Anthropic），產出精確到行的結構化意見；代理人可讀整檔、搜尋程式庫、參照其他變更檔。`ocr scan` 可審整個檔案或目錄。內建 NPE、執行緒安全、XSS、SQL 注入等多語言規則。官方基準以 50 個開源專案、200 個真實 PR 建立，宣稱同模型下精確率與 F1 明顯高於 Claude Code 等通用代理人，Token 約只用九分之一，但召回率較低，是刻意偏向精確的取捨。本週新增 3,700 星，以 Go 撰寫。",
-   "dive_html": "「確定性管線＋LLM 代理人」的混合架構，回應了 AI 審碼最大的痛點：意見太多、雜訊太高。拿召回換精確與成本，適合放在 CI 當第一道門檻，不適合當唯一的安全審查。基準是官方自建、自比，需要第三方重現才可信。#CodeReview #HybridAgent #Go",
+   "title": "alibaba/open-code-review：阿里巴巴內部 AI code review 工具開源",
+   "summary_html": "Open Code Review 是 AI 程式碼審查 CLI，原為阿里巴巴集團內部官方的 AI code review 助手，README 稱兩年來服務數萬名開發者、找出數百萬個缺陷後才開源。它讀取 Git diff，透過具工具呼叫能力的 agent 把變更檔送給可設定的 LLM（相容 OpenAI 與 Anthropic），產出精確到行的結構化審查意見；agent 能讀整份檔案、搜尋程式碼庫、看其他變更檔補上下文，另有 `ocr scan` 審整份檔案。架構是確定性管線加 LLM agent 的混合式，內建多語言規則（NPE、執行緒安全、XSS、SQL injection）。README 引用自建的 AACR-Bench（50 個開源 repo、200 個真實 PR、10 種語言、1,505 個人工標註問題）稱：同一模型下 Precision 與 F1 明顯高於 Claude Code 這類通用 agent、token 只用約九分之一，但 Recall 較低，是刻意取捨。",
+   "dive_html": "大廠把跑過內部規模的工具開源，加上可換模型的 CLI 形式，對想在 CI 接 AI 審查又顧慮雜訊的團隊很有吸引力。「高精準、低召回」是正確的產品取捨：審查留言太多誤報會被開發者直接忽略。不過基準是阿里巴巴自建、自評，對照組也由他們挑選，數字需要第三方重跑驗證；低召回意味著不能取代人工審查或 SAST。#CodeReview #LLMAgent #DevSecOps",
    "url": "https://github.com/alibaba/open-code-review",
    "src": "GitHub Trending",
    "left": "This week",
@@ -302,8 +301,7 @@
    "tags": [],
    "facets": {
     "region": [
-     "中國大陸",
-     "全球"
+     "中國大陸"
     ],
     "country": [
      "CN"
@@ -337,12 +335,13 @@
      "正面"
     ],
     "stage": [
-     "持續發展"
+     "突發"
     ],
     "keyword": [
-     "Code Review",
-     "LLM Agent",
-     "OpenCodeReview"
+     "Open Code Review",
+     "AI code review",
+     "AACR-Bench",
+     "Go"
     ]
    },
    "from": [
@@ -423,60 +422,63 @@
    ]
   },
   {
-   "key": "d9a650738e",
+   "key": "0d415288aa",
    "rank": 3,
-   "title": "ag-ui-protocol/ag-ui：代理人與前端互動的開放協定 1.0 定版",
-   "summary_html": "AG-UI 是輕量、以事件為基礎的開放協定，標準化 AI 代理人如何接上使用者介面。README 指出代理人會串流 token、在回應中呼叫工具、更新共享狀態、暫停等人確認、產生子代理人，各框架做法不一；AG-UI 改成一條雙向事件串流，代理人送出型別化事件，任何用戶端都能渲染。1.0 已推出，規格凍結並以 JSON Schema 定義，TypeScript、Python、.NET SDK 由規格產生，0.x 與 1.0 雙向相容。`npx create-ag-ui-app` 可產生 Next.js 上的 CopilotKit 前端或終端機用戶端。",
-   "dive_html": "規格凍結加雙向相容，是協定從實驗走向可被企業依賴的關鍵一步。它和 MCP 分工互補：MCP 管代理人怎麼用工具，AG-UI 管代理人怎麼對人呈現，前端團隊可以不再為每個代理人框架各寫一套串流處理。範本預設呼叫 OpenAI，換其他模型要自己接。#AGUI #AgentProtocol #Frontend",
-   "url": "https://github.com/ag-ui-protocol/ag-ui",
+   "title": "meta/astryx：Meta 內部用了八年的設計系統開源，主打 agent ready",
+   "summary_html": "Astryx 是 Meta 內部發展八年的設計系統，README 稱它是公司內使用最多、規模最大的設計系統，支撐 13,000 多個應用。目前為 Beta，基於 React 19+ 與 StyleX，提供 150 多個無障礙元件、品牌層級主題、深色模式、範本與 CLI。使用者直接引入預先建置的 CSS 與具型別的 React 元件，不必裝建置外掛或採用特定樣式庫；樣式可用 Tailwind、CSS Modules 或純 CSS 以 className 覆寫，主題就是一組 CSS 自訂屬性。內部構件直接匯出，`swizzle` 可把元件完整原始碼抽到專案裡自行維護。API、文件與 CLI 一起設計，讓人和 AI 助手用同一套參考來開發。",
+   "dive_html": "「agent ready」在這裡的具體意思是文件與 API 設計成模型也讀得懂、CLI 可被 agent 呼叫，反映前端工具開始把 AI 助手當成第一類使用者。不綁 StyleX、主題用 CSS 變數，降低了採用門檻，是和 MUI、Chakra 這類需要配套樣式方案的元件庫的主要差別。限制是只支援 React 19 以上且仍在 Beta，既有舊專案升級成本不低。#DesignSystem #React #AgentReady",
+   "url": "https://github.com/meta/astryx",
    "src": "GitHub Trending",
    "left": "This week",
-   "heat": "+3,620 stars this week",
+   "heat": "+3,626 stars this week",
    "tags": [],
    "facets": {
     "region": [
-     "全球"
+     "北美"
+    ],
+    "country": [
+     "US"
     ],
     "taiwan": [
      "無"
     ],
     "topic": [
      "開源",
-     "AI"
+     "科技"
     ],
     "event": [
-     "版本更新"
+     "產品發布"
     ],
     "sector": [
-     "AI",
      "軟體與雲端"
     ],
     "org": [
-     "CopilotKit"
+     "Meta"
     ],
     "affects": [
      "開發者"
     ],
     "importance": [
-     "高"
+     "中"
     ],
     "tone": [
      "正面"
     ],
     "stage": [
-     "持續發展"
+     "突發"
     ],
     "keyword": [
-     "AG-UI",
-     "Agent Protocol",
-     "事件串流"
+     "Astryx",
+     "React 19",
+     "StyleX",
+     "設計系統"
     ]
    },
    "from": [
     {
      "series": "github_weekly",
      "period": "2026-W48",
-     "no": "06",
+     "no": "05",
      "rank": 3
     }
    ]

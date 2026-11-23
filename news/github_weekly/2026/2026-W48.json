@@ -9,15 +9,15 @@
  "title": "GitHub 趨勢週報",
  "brief": "WEEKLY GITHUB TRENDING",
  "issue": "NO. 2026-327",
- "generated_at": "2026-11-23T10:04:16+08:00",
- "lede": "本週榜單仍由「替程式代理人補裝備」主導：Univer 以 Office SDK 定位拿下週增星冠軍；阿里巴巴、Meta、Google 持續開源內部工具與代理人技能包；影片剪輯、跨平台研究、設計稿都被包成可直接呼叫的代理人技能。",
+ "generated_at": "2026-11-23T17:14:30+08:00",
+ "lede": "本週榜單幾乎被「給 coding agent 用的工具」包辦；Univer 以 Office SDK 定位拿下週冠；Google、Meta、阿里巴巴三家大廠把內部工具開源上榜。",
  "src_tags": [
   "GitHub Trending"
  ],
  "intro": [
   {
    "kind": "p",
-   "html": "本週榜單仍由「替程式代理人補裝備」主導：Univer 以 Office SDK 定位拿下週增星冠軍；阿里巴巴、Meta、Google 持續開源內部工具與代理人技能包；影片剪輯、跨平台研究、設計稿都被包成可直接呼叫的代理人技能。"
+   "html": "本週榜單幾乎被「給 coding agent 用的工具」包辦；Univer 以 Office SDK 定位拿下週冠；Google、Meta、阿里巴巴三家大廠把內部工具開源上榜。"
   }
  ],
  "sections": [
@@ -30,21 +30,21 @@
      "no": "01",
      "key": "404dff4b1c",
      "front": 1,
-     "title": "dream-num/univer：可嵌進自家產品的開源 Office SDK",
-     "title_html": "dream-num/univer：可嵌進自家產品的開源 Office SDK",
+     "title": "dream-num/univer：可嵌入產品、給人與 AI agent 共用的開源 Office SDK",
+     "title_html": "dream-num/univer：可嵌入產品、給人與 AI agent 共用的開源 Office SDK",
      "url": "https://github.com/dream-num/univer",
      "src": "GitHub Trending",
      "left": "This week",
      "heat": "+6,436 stars this week",
      "tags": [],
-     "summary_html": "Univer 把自己定位成「在你的產品裡打造 Office 應用」的 SDK，提供編輯、計算、協作與檔案處理，服務對象同時包含人與既有的 AI 代理人，並沿用使用者自己的資料與權限。產品線涵蓋試算表、文件、簡報、關聯式表格、畫布與 PDF；開源核心可先做出試算表編輯器，再透過 Facade API 與事件把應用或代理人接進來，README 也說明自訂功能的邊界、跨功能編輯與復原／重做的組合方式，另有 CLI、代理人整合與開發者技能。本週新增 6,436 星，以 TypeScript 撰寫。",
+     "summary_html": "Univer 定位為「在自己產品裡打造 Office 應用」的 SDK，提供編輯、計算（公式）、協作與檔案處理，涵蓋試算表、文件、簡報、關聯式表格、畫布與 PDF。Office SDK 分三部分，基礎的 Web SDK 包含內容模型、編輯、渲染、公式計算與 Facade API（面向應用程式的 API），可用外掛組成嵌入式編輯器或完整的 Office 應用，也能重用內容模型與命令做無介面（Headless）處理。README 強調同一套能力同時開放給人與既有的 AI agent，並使用接入方自己的資料與權限；開源核心可擴充，另有 CLI、agent 整合與開發者 skill。本週新增約 6,400 顆星。",
      "also": [],
      "also_more": [],
      "bullets_html": [
       "<strong>Lang</strong>: TypeScript"
      ],
      "table": null,
-     "dive_html": "Univer 把「代理人能操作的文件格式」當賣點，切中企業想把 AI 放進表單、報表流程卻不想依賴微軟或 Google 雲端的需求。Facade API 加事件流的設計，讓代理人改表格與人手動改走同一套復原紀錄，是可借鏡之處。限制在開源核心與商業 SDK 的分界：PDF、簡報等能力是否在開源授權內，導入前要先讀 Scope and licensing。#OfficeSDK #AgentReady #TypeScript",
+     "dive_html": "把 Office 能力拆成可組合的 SDK，並明確把「agent 透過 Facade API 讀寫試算表」當成一級用途，切中企業想讓 AI 操作結構化文件卻不想把資料送上第三方 SaaS 的需求。與直接嵌入 OnlyOffice、Collabora 這類整套伺服器的作法相比，Univer 走前端外掛與 Headless 計算，整合彈性較高；但 README 提到「Scope and licensing」，代表部分能力屬商業授權，選用前要先確認開源核心是否夠用。#OfficeSDK #AgentReady #TypeScript",
      "facets": {
       "region": [
        "全球"
@@ -54,11 +54,10 @@
       ],
       "topic": [
        "開源",
-       "科技",
-       "AI"
+       "科技"
       ],
       "event": [
-       "產品發布"
+       "版本更新"
       ],
       "sector": [
        "軟體與雲端"
@@ -67,11 +66,10 @@
        "Univer"
       ],
       "affects": [
-       "開發者",
-       "企業"
+       "開發者"
       ],
       "importance": [
-       "高"
+       "中"
       ],
       "tone": [
        "正面"
@@ -82,7 +80,8 @@
       "keyword": [
        "Univer",
        "Office SDK",
-       "試算表"
+       "試算表",
+       "TypeScript"
       ]
      }
     },
@@ -90,21 +89,21 @@
      "type": "item",
      "no": "02",
      "key": "01e478ba12",
-     "title": "mvanhorn/last30days-skill：跨 Reddit、X、HN、Polymarket 的近 30 天研究技能",
-     "title_html": "mvanhorn/last30days-skill：跨 Reddit、X、HN、Polymarket 的近 30 天研究技能",
+     "title": "mvanhorn/last30days-skill：跨 Reddit、X、YouTube、HN、Polymarket 做 30 天話題研究的 agent skill",
+     "title_html": "mvanhorn/last30days-skill：跨 Reddit、X、YouTube、HN、Polymarket 做 30 天話題研究的 agent skill",
      "url": "https://github.com/mvanhorn/last30days-skill",
      "src": "GitHub Trending",
      "left": "This week",
      "heat": "+4,731 stars this week",
      "tags": [],
-     "summary_html": "這個代理人技能平行搜尋 Reddit、X、YouTube、TikTok、HN、Polymarket、GitHub、arXiv 等來源，以按讚數、互動量與預測市場的真金白銀當作評分訊號，再由 AI 代理人彙整成一份簡報。README 寫明目前是 v4 管線；Claude Code 可用外掛市集安裝並自動更新，Codex、Cursor、Copilot、Gemini CLI 等 50 多種相容 Agent Skills 的環境可用 `npx skills add` 安裝。Reddit、HN、Polymarket、GitHub 免設定即可用，設定精靈可再解鎖 X、YouTube、TikTok 等來源。本週新增 4,731 星。",
+     "summary_html": "/last30days 是一個 agent skill，自稱「由按讚、讚數與真金白銀評分的搜尋引擎」：平行搜尋 Reddit、X、YouTube（含逐字稿）、TikTok、Hacker News、Polymarket 與網頁，依真人互動程度打分，再由 AI agent 判讀綜整成一份簡報。README 寫明目前是 v4 管線；Reddit、HN、Polymarket、GitHub 免設定即可用，主題是公司時還會查專利與徵才頁，其餘來源（X、YouTube、TikTok、arXiv、Techmeme 等）跑一次設定精靈解鎖。可從 Claude Code 外掛市集安裝，也支援 Codex、Cursor、Copilot、Gemini CLI 等 50 多種 Agent Skills 宿主。",
      "also": [],
      "also_more": [],
      "bullets_html": [
       "<strong>Lang</strong>: Python"
      ],
      "table": null,
-     "dive_html": "它把「搜尋排序依據」從編輯判斷換成社群互動與下注金額，對追熱點、做市場調查很有效率，但也把網路聲量的偏誤原封不動帶進簡報：熱門不等於正確，預測市場賠率也不是事實。適合拿來快速掃描輿論，不適合當事實查核依據。#AgentSkills #Research #SocialSignals",
+     "dive_html": "賣點是補上各家模型的搜尋盲區：README 自己點出 ChatGPT 搜不到 X、Gemini 沒有 Reddit、Claude 原生都沒有，用 skill 把社群訊號拉進 agent。以互動數與預測市場賠率當權重，對「最近大家在吵什麼」很有效，但熱度不等於正確，容易放大炒作與跟風；用在產品調研或輿情掃描合適，當事實查核來源則要保守。也顯示 Agent Skills 已成跨宿主的發行格式。#AgentSkills #SocialListening #Research",
      "facets": {
       "region": [
        "全球"
@@ -120,7 +119,8 @@
        "版本更新"
       ],
       "sector": [
-       "AI"
+       "AI",
+       "網路平台"
       ],
       "affects": [
        "開發者",
@@ -130,7 +130,7 @@
        "中"
       ],
       "tone": [
-       "正面"
+       "中性"
       ],
       "stage": [
        "持續發展"
@@ -138,7 +138,8 @@
       "keyword": [
        "Agent Skills",
        "Claude Code",
-       "Polymarket"
+       "Polymarket",
+       "Reddit"
       ]
      }
     },
@@ -146,21 +147,21 @@
      "type": "item",
      "no": "03",
      "key": "45b453e349",
-     "title": "kajisho5/ffmpeg-skill：給程式代理人的本機影片剪輯工具組",
-     "title_html": "kajisho5/ffmpeg-skill：給程式代理人的本機影片剪輯工具組",
+     "title": "kajisho5/ffmpeg-skill：讓 coding agent 在本機用 FFmpeg 剪片、上字幕、轉直式",
+     "title_html": "kajisho5/ffmpeg-skill：讓 coding agent 在本機用 FFmpeg 剪片、上字幕、轉直式",
      "url": "https://github.com/kajisho5/ffmpeg-skill",
      "src": "GitHub Trending",
      "left": "This week",
      "heat": "+3,748 stars this week",
      "tags": [],
-     "summary_html": "專案提供 42 個 FFmpeg 工具，附機器可讀的介面合約與 MCP 伺服器，讓 Claude Code、Cursor、Codex 等代理人在本機剪片並自行檢查輸出：剪輯、字幕（含卡拉 OK 式動畫）、9:16 重新構圖、去除停頓、響度標準化、各平台匯出等。只用 Python 標準函式庫，不上雲、不需 API 金鑰。剪完可產生本機 HTML 審片頁，顯示來源、每一步的檢查、手機安全區預覽與時間軸，點片段寫意見後可複製成指令貼回代理人。本週新增 3,748 星。",
+     "summary_html": "這個專案提供 42 個 FFmpeg 工具與一份機器可讀的介面契約，外加 MCP 伺服器，讓 Claude Code、Cursor、Codex 或任何 MCP 用戶端直接在本機剪輯影片，並自行檢查輸出結果；不走雲端、不需 API key，只用 Python 標準函式庫。功能包含剪接、動態字幕（含卡拉 OK 效果）、9:16 重新構圖、去除靜音、響度標準化與各平台匯出。剪完可產生本機的審閱 HTML 頁面，列出素材、每一步的檢查、手機框內的成品與時間軸，使用者點選片段寫下修改意見即可複製回 agent。展示的 12 段影片中 9 段由 Google Veo 生成、3 段為手機拍攝。",
      "also": [],
      "also_more": [],
      "bullets_html": [
       "<strong>Lang</strong>: Python"
      ],
      "table": null,
-     "dive_html": "亮點是「代理人自己驗收」：每步附檢查結果，讓不懂 FFmpeg 參數的人也能把剪輯交給 AI 而不必逐條看指令。純標準函式庫、純本機的取捨降低部署門檻與隱私疑慮。限制是效果仍受 FFmpeg 濾鏡能力約束，複雜特效與調色無法取代專業剪輯軟體。#FFmpeg #MCP #LocalFirst",
+     "dive_html": "關鍵設計在「機器可讀契約＋自我檢查」：agent 呼叫 FFmpeg 最常見的問題是參數寫錯卻不知道，這裡把每個工具的輸入輸出與驗證規格化，比讓模型自由拼 ffmpeg 指令可靠得多。審閱頁把人的回饋轉成指令送回 agent，是 human-in-the-loop 的實用做法。適合做短影音、課程剪輯的個人與小團隊；複雜調色或多軌合成仍可能超出 42 個工具的範圍。#FFmpeg #MCP #LocalFirst",
      "facets": {
       "region": [
        "全球"
@@ -173,15 +174,14 @@
        "AI"
       ],
       "event": [
-       "產品發布"
+       "版本更新"
       ],
       "sector": [
        "軟體與雲端",
        "媒體與娛樂"
       ],
       "affects": [
-       "開發者",
-       "一般使用者"
+       "開發者"
       ],
       "importance": [
        "中"
@@ -195,7 +195,8 @@
       "keyword": [
        "FFmpeg",
        "MCP",
-       "Claude Code"
+       "Claude Code",
+       "影片剪輯"
       ]
      }
     },
@@ -204,25 +205,24 @@
      "no": "04",
      "key": "f7cfdfd7bc",
      "front": 2,
-     "title": "alibaba/open-code-review：阿里巴巴內部兩年的 AI 審碼工具開源",
-     "title_html": "alibaba/open-code-review：阿里巴巴內部兩年的 AI 審碼工具開源",
+     "title": "alibaba/open-code-review：阿里巴巴內部 AI code review 工具開源",
+     "title_html": "alibaba/open-code-review：阿里巴巴內部 AI code review 工具開源",
      "url": "https://github.com/alibaba/open-code-review",
      "src": "GitHub Trending",
      "left": "This week",
      "heat": "+3,700 stars this week",
      "tags": [],
-     "summary_html": "Open Code Review 原是阿里巴巴集團官方的內部 AI 審碼助手，README 說過去兩年服務數萬名開發者、找出數百萬個程式缺陷，現孵化為開源專案。它讀取 Git diff，透過具工具呼叫能力的代理人把變更檔送給可設定的 LLM（相容 OpenAI 與 Anthropic），產出精確到行的結構化意見；代理人可讀整檔、搜尋程式庫、參照其他變更檔。`ocr scan` 可審整個檔案或目錄。內建 NPE、執行緒安全、XSS、SQL 注入等多語言規則。官方基準以 50 個開源專案、200 個真實 PR 建立，宣稱同模型下精確率與 F1 明顯高於 Claude Code 等通用代理人，Token 約只用九分之一，但召回率較低，是刻意偏向精確的取捨。本週新增 3,700 星，以 Go 撰寫。",
+     "summary_html": "Open Code Review 是 AI 程式碼審查 CLI，原為阿里巴巴集團內部官方的 AI code review 助手，README 稱兩年來服務數萬名開發者、找出數百萬個缺陷後才開源。它讀取 Git diff，透過具工具呼叫能力的 agent 把變更檔送給可設定的 LLM（相容 OpenAI 與 Anthropic），產出精確到行的結構化審查意見；agent 能讀整份檔案、搜尋程式碼庫、看其他變更檔補上下文，另有 `ocr scan` 審整份檔案。架構是確定性管線加 LLM agent 的混合式，內建多語言規則（NPE、執行緒安全、XSS、SQL injection）。README 引用自建的 AACR-Bench（50 個開源 repo、200 個真實 PR、10 種語言、1,505 個人工標註問題）稱：同一模型下 Precision 與 F1 明顯高於 Claude Code 這類通用 agent、token 只用約九分之一，但 Recall 較低，是刻意取捨。",
      "also": [],
      "also_more": [],
      "bullets_html": [
       "<strong>Lang</strong>: Go"
      ],
      "table": null,
-     "dive_html": "「確定性管線＋LLM 代理人」的混合架構，回應了 AI 審碼最大的痛點：意見太多、雜訊太高。拿召回換精確與成本，適合放在 CI 當第一道門檻，不適合當唯一的安全審查。基準是官方自建、自比，需要第三方重現才可信。#CodeReview #HybridAgent #Go",
+     "dive_html": "大廠把跑過內部規模的工具開源，加上可換模型的 CLI 形式，對想在 CI 接 AI 審查又顧慮雜訊的團隊很有吸引力。「高精準、低召回」是正確的產品取捨：審查留言太多誤報會被開發者直接忽略。不過基準是阿里巴巴自建、自評，對照組也由他們挑選，數字需要第三方重跑驗證；低召回意味著不能取代人工審查或 SAST。#CodeReview #LLMAgent #DevSecOps",
      "facets": {
       "region": [
-       "中國大陸",
-       "全球"
+       "中國大陸"
       ],
       "country": [
        "CN"
@@ -256,12 +256,13 @@
        "正面"
       ],
       "stage": [
-       "持續發展"
+       "突發"
       ],
       "keyword": [
-       "Code Review",
-       "LLM Agent",
-       "OpenCodeReview"
+       "Open Code Review",
+       "AI code review",
+       "AACR-Bench",
+       "Go"
       ]
      }
     },
@@ -269,25 +270,25 @@
      "type": "item",
      "no": "05",
      "key": "0d415288aa",
-     "title": "meta/astryx：Meta 內部八年的設計系統開源，標榜代理人友善",
-     "title_html": "meta/astryx：Meta 內部八年的設計系統開源，標榜代理人友善",
+     "front": 3,
+     "title": "meta/astryx：Meta 內部用了八年的設計系統開源，主打 agent ready",
+     "title_html": "meta/astryx：Meta 內部用了八年的設計系統開源，主打 agent ready",
      "url": "https://github.com/meta/astryx",
      "src": "GitHub Trending",
      "left": "This week",
      "heat": "+3,626 stars this week",
      "tags": [],
-     "summary_html": "Astryx 在 Meta 內部發展八年，README 說是公司裡使用最廣的設計系統，支撐 13,000 多個應用。它提供 150 多個無障礙元件、品牌層級主題、深色模式、範本與 CLI，以 React 19 以上與 StyleX 打造，目前為 Beta。使用者直接匯入預建 CSS 與型別化的 React 元件，不需建置外掛；可用 Tailwind、CSS Modules 或一般 CSS 以 className 覆寫；主題就是一組 CSS 自訂屬性；`swizzle` 能把元件完整原始碼彈出到專案自行維護。",
+     "summary_html": "Astryx 是 Meta 內部發展八年的設計系統，README 稱它是公司內使用最多、規模最大的設計系統，支撐 13,000 多個應用。目前為 Beta，基於 React 19+ 與 StyleX，提供 150 多個無障礙元件、品牌層級主題、深色模式、範本與 CLI。使用者直接引入預先建置的 CSS 與具型別的 React 元件，不必裝建置外掛或採用特定樣式庫；樣式可用 Tailwind、CSS Modules 或純 CSS 以 className 覆寫，主題就是一組 CSS 自訂屬性。內部構件直接匯出，`swizzle` 可把元件完整原始碼抽到專案裡自行維護。API、文件與 CLI 一起設計，讓人和 AI 助手用同一套參考來開發。",
      "also": [],
      "also_more": [],
      "bullets_html": [
       "<strong>Lang</strong>: TypeScript"
      ],
      "table": null,
-     "dive_html": "「不鎖樣式方案、元件內部全開放」是對 MUI、Ant Design 這類封裝較重的設計系統的回應，也讓 AI 產生 UI 時能直接沿用一致的元件。React 19 以上的門檻會擋住舊專案；Beta 狀態與 Meta 對外維護的長期承諾，是企業採用前最該評估的風險。#DesignSystem #React #StyleX",
+     "dive_html": "「agent ready」在這裡的具體意思是文件與 API 設計成模型也讀得懂、CLI 可被 agent 呼叫，反映前端工具開始把 AI 助手當成第一類使用者。不綁 StyleX、主題用 CSS 變數，降低了採用門檻，是和 MUI、Chakra 這類需要配套樣式方案的元件庫的主要差別。限制是只支援 React 19 以上且仍在 Beta，既有舊專案升級成本不低。#DesignSystem #React #AgentReady",
      "facets": {
       "region": [
-       "北美",
-       "全球"
+       "北美"
       ],
       "country": [
        "US"
@@ -303,8 +304,7 @@
        "產品發布"
       ],
       "sector": [
-       "軟體與雲端",
-       "網路平台"
+       "軟體與雲端"
       ],
       "org": [
        "Meta"
@@ -319,7 +319,7 @@
        "正面"
       ],
       "stage": [
-       "持續發展"
+       "突發"
       ],
       "keyword": [
        "Astryx",
@@ -333,22 +333,21 @@
      "type": "item",
      "no": "06",
      "key": "d9a650738e",
-     "front": 3,
-     "title": "ag-ui-protocol/ag-ui：代理人與前端互動的開放協定 1.0 定版",
-     "title_html": "ag-ui-protocol/ag-ui：代理人與前端互動的開放協定 1.0 定版",
+     "title": "ag-ui-protocol/ag-ui：Agent 與使用者介面互動協定 AG-UI 1.0 定版",
+     "title_html": "ag-ui-protocol/ag-ui：Agent 與使用者介面互動協定 AG-UI 1.0 定版",
      "url": "https://github.com/ag-ui-protocol/ag-ui",
      "src": "GitHub Trending",
      "left": "This week",
      "heat": "+3,620 stars this week",
      "tags": [],
-     "summary_html": "AG-UI 是輕量、以事件為基礎的開放協定，標準化 AI 代理人如何接上使用者介面。README 指出代理人會串流 token、在回應中呼叫工具、更新共享狀態、暫停等人確認、產生子代理人，各框架做法不一；AG-UI 改成一條雙向事件串流，代理人送出型別化事件，任何用戶端都能渲染。1.0 已推出，規格凍結並以 JSON Schema 定義，TypeScript、Python、.NET SDK 由規格產生，0.x 與 1.0 雙向相容。`npx create-ag-ui-app` 可產生 Next.js 上的 CopilotKit 前端或終端機用戶端。",
+     "summary_html": "AG-UI 是開放、輕量、以事件為基礎的協定，標準化 AI agent 與前端應用的連接方式。README 指出 agent 不符合請求／回應模型：會串流 token、在回應中途呼叫工具、更新共享狀態、暫停等人、生出子 agent，而每個框架做法都不同；AG-UI 用一條雙向事件串流取代客製接線，agent 發出型別化事件，任何用戶端都能渲染，同一個 agent 可接網頁、行動 App、終端機或 Slack。1.0 已發布，規格凍結並以 JSON Schema 定義，TypeScript、Python、.NET SDK 由規格產生，且與 0.x 雙向相容。`npx create-ag-ui-app` 可產生 CopilotKit（Next.js）或終端機前端的範本。",
      "also": [],
      "also_more": [],
      "bullets_html": [
       "<strong>Lang</strong>: TypeScript"
      ],
      "table": null,
-     "dive_html": "規格凍結加雙向相容，是協定從實驗走向可被企業依賴的關鍵一步。它和 MCP 分工互補：MCP 管代理人怎麼用工具，AG-UI 管代理人怎麼對人呈現，前端團隊可以不再為每個代理人框架各寫一套串流處理。範本預設呼叫 OpenAI，換其他模型要自己接。#AGUI #AgentProtocol #Frontend",
+     "dive_html": "MCP 解決 agent 對工具，A2A 解決 agent 對 agent，AG-UI 補的是 agent 對使用者介面這一段；1.0 凍結規格並雙向相容，是讓框架作者願意投入實作的關鍵訊號。對前端團隊的意義是可以不綁特定 agent 框架寫 UI。要看的是 LangGraph、各大雲端的 agent 平台是否原生輸出 AG-UI 事件，否則仍停留在 CopilotKit 生態內。#AgentProtocol #Streaming #Frontend",
      "facets": {
       "region": [
        "全球"
@@ -357,8 +356,8 @@
        "無"
       ],
       "topic": [
-       "開源",
-       "AI"
+       "AI",
+       "開源"
       ],
       "event": [
        "版本更新"
@@ -374,7 +373,7 @@
        "開發者"
       ],
       "importance": [
-       "高"
+       "中"
       ],
       "tone": [
        "正面"
@@ -384,8 +383,9 @@
       ],
       "keyword": [
        "AG-UI",
-       "Agent Protocol",
-       "事件串流"
+       "Agent 協定",
+       "事件串流",
+       "JSON Schema"
       ]
      }
     },
@@ -393,21 +393,21 @@
      "type": "item",
      "no": "07",
      "key": "95c23a9afe",
-     "title": "GoogleChrome/modern-web-guidance-src：讓程式代理人寫現代網頁的最佳實務技能包",
-     "title_html": "GoogleChrome/modern-web-guidance-src：讓程式代理人寫現代網頁的最佳實務技能包",
+     "title": "GoogleChrome/modern-web-guidance-src：讓 coding agent 跟上現代 Web 最佳實務的 skill 集",
+     "title_html": "GoogleChrome/modern-web-guidance-src：讓 coding agent 跟上現代 Web 最佳實務的 skill 集",
      "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
      "src": "GitHub Trending",
      "left": "This week",
      "heat": "+3,575 stars this week",
      "tags": [],
-     "summary_html": "Modern Web Guidance 是一組把網頁平台專業知識、最佳實務與瀏覽器相容性資料嵌進程式代理人的技能，由 Google Chrome、Microsoft Edge、Mozilla Firefox 與 MDN 團隊共同維護。README 說明動機：LLM 訓練資料含大量舊式程式碼，代理人常產生臃腫的舊寫法。用 `npx modern-web-guidance@latest install` 安裝（需 Node.js 22 以上），也可不安裝直接 `search`、`retrieve` 指南，或用 `legacy-scan` 掃描程式庫找出可現代化的舊寫法。本 repo 是撰寫、校準與評測內容的原始碼庫。",
+     "summary_html": "Modern Web Guidance 是一組 skill，把 Web 平台知識、最佳實務與瀏覽器相容性資料直接嵌入 coding agent，引導它避開舊式寫法、改用現代 Web 平台能力。README 說明動機：LLM 訓練資料裡有大量舊程式碼，agent 常預設產出肥大的 JavaScript。專案由 Google Chrome、Microsoft Edge、Mozilla Firefox 與 MDN 團隊共同維護，附評估儀表板。`npx modern-web-guidance@latest install` 互動安裝（需 Node.js 22+），也可不安裝直接 `search` 找指南、`retrieve` 取指南，或用 `legacy-scan` 掃描程式碼庫裡該現代化的寫法。",
      "also": [],
      "also_more": [],
      "bullets_html": [
       "<strong>Lang</strong>: TypeScript"
      ],
      "table": null,
-     "dive_html": "三大瀏覽器廠商聯手，代表「代理人寫出的程式碼品質」已被視為平台層級的問題。`legacy-scan` 對維護老專案的團隊最實用。限制是技能只能引導、不能強制，最終仍取決於代理人是否照用；評測看板值得追蹤實際成效。#WebPlatform #AgentSkills #BestPractices",
+     "dive_html": "由四大瀏覽器相關團隊聯名維護，等於把「什麼才算現代寫法」的話語權正式延伸到 AI 產生的程式碼上，可信度比社群整理的 prompt 集高。最實際的是 legacy-scan：能直接用在既有專案找可改用原生 dialog、CSS 動畫等平台能力的地方。它解決的是知識過時，不保證 agent 一定遵循，仍需搭配審查。#WebPlatform #AgentSkills #Frontend",
      "facets": {
       "region": [
        "全球"
@@ -417,19 +417,18 @@
       ],
       "topic": [
        "開源",
-       "科技",
-       "AI"
+       "AI",
+       "科技"
       ],
       "event": [
        "產品發布"
       ],
       "sector": [
-       "軟體與雲端",
-       "網路平台"
+       "軟體與雲端"
       ],
       "org": [
-       "Google",
-       "Microsoft",
+       "Google Chrome",
+       "Microsoft Edge",
        "Mozilla",
        "MDN"
       ],
@@ -443,12 +442,13 @@
        "正面"
       ],
       "stage": [
-       "持續發展"
+       "突發"
       ],
       "keyword": [
+       "Modern Web Guidance",
        "Agent Skills",
-       "Web Platform",
-       "瀏覽器相容性"
+       "Baseline",
+       "legacy-scan"
       ]
      }
     },
@@ -456,21 +456,21 @@
      "type": "item",
      "no": "08",
      "key": "09a3e479d0",
-     "title": "backnotprop/plannotator：審閱代理人計畫與程式碼的本機工作台",
-     "title_html": "backnotprop/plannotator：審閱代理人計畫與程式碼的本機工作台",
+     "title": "backnotprop/plannotator：在瀏覽器標註 agent 的計畫與程式碼、一鍵回饋",
+     "title_html": "backnotprop/plannotator：在瀏覽器標註 agent 的計畫與程式碼、一鍵回饋",
      "url": "https://github.com/backnotprop/plannotator",
      "src": "GitHub Trending",
      "left": "This week",
      "heat": "+2,815 stars this week",
      "tags": [],
-     "summary_html": "Plannotator 是在瀏覽器執行的本機審閱介面，支援 Claude Code、Codex、Copilot CLI、Gemini CLI、OpenCode 等多種程式代理人。代理人提出決策、計畫、HTML 或完成工作時，介面自動開啟，使用者可標註、留言並一鍵把意見送回代理人。新功能 Plannotator Inbox 集中呈現多代理人工作中的決策、原型與變體，也支援個人助理類代理人。程式碼審閱可看本機變更或遠端 PR，支援 Git、GitButler、Jujutsu、Perforce、GitHub、GitLab，大型變更可走引導式審閱。",
+     "summary_html": "Plannotator 是本機、瀏覽器介面的審閱工具，支援 Claude Code、Codex、Copilot CLI、Gemini CLI、OpenCode、Kiro、Amp 等 coding agent，透過外掛、hook 與指令接入。當 agent 提出決策、計畫或 HTML，或做完工作時，頁面在瀏覽器開啟，使用者標註、留言後直接把回饋送回 agent。也能審本機變更或遠端 PR、在 diff 上留言與建議程式碼，支援 Git、GitButler、Jujutsu、Perforce、GitHub、GitLab。新推出的 Plannotator Inbox 把多 agent 工作中的決策、原型、變體與計畫集中呈現。",
      "also": [],
      "also_more": [],
      "bullets_html": [
       "<strong>Lang</strong>: TypeScript"
      ],
      "table": null,
-     "dive_html": "當多個代理人並行工作，人類的瓶頸從「寫」變成「審」；Plannotator 把散落在終端機的計畫與 diff 收進同一個標註介面，切中這個轉變。它依賴各代理人的外掛與 hook 整合，代理人介面一改就可能失效，維護速度是長期關鍵。#HumanInTheLoop #CodeReview #AgentWorkflow",
+     "dive_html": "多 agent 並行後，瓶頸從「寫」轉到「人看不完」，Plannotator 押注的正是審閱層。把標註結構化送回 agent，比在終端機打一段文字回饋精確。它與本週的 ffmpeg-skill 審閱頁、Plannotator Inbox 都指向同一趨勢：agent 工具開始搶「人類決策介面」。工具本身依賴各家 agent 的 hook 介面，宿主改版時可能要跟著調整。#HumanInTheLoop #CodeReview #AgentUX",
      "facets": {
       "region": [
        "全球"
@@ -479,74 +479,15 @@
        "無"
       ],
       "topic": [
-       "開源",
-       "AI"
+       "AI",
+       "開源"
       ],
       "event": [
        "版本更新"
       ],
       "sector": [
-       "軟體與雲端",
-       "AI"
-      ],
-      "affects": [
-       "開發者"
-      ],
-      "importance": [
-       "中"
-      ],
-      "tone": [
-       "正面"
-      ],
-      "stage": [
-       "持續發展"
-      ],
-      "keyword": [
-       "Plannotator",
-       "Code Review",
-       "Claude Code"
-      ]
-     }
-    },
-    {
-     "type": "item",
-     "no": "09",
-     "key": "52adf762d4",
-     "title": "google-labs-code/stitch-skills：Google Stitch 設計工具的代理人技能集",
-     "title_html": "google-labs-code/stitch-skills：Google Stitch 設計工具的代理人技能集",
-     "url": "https://github.com/google-labs-code/stitch-skills",
-     "src": "GitHub Trending",
-     "left": "This week",
-     "heat": "+2,683 stars this week",
-     "tags": [],
-     "summary_html": "這是配合 Stitch MCP 伺服器的代理人技能與外掛集合，遵循 Agent Skills 開放標準，相容 Codex、Antigravity、Gemini CLI、Claude Code、Cursor 與 OpenCode。分成 stitch-design（設計）、stitch-build（建置與元件）、stitch-utilities（工具）三組外掛；Codex 可加入外掛市集後選裝，Claude Code 與 Cursor 用 `npx plugins add` 安裝到專案或工作區。本週新增 2,683 星。",
-     "also": [],
-     "also_more": [],
-     "bullets_html": [
-      "<strong>Lang</strong>: TypeScript"
-     ],
-     "table": null,
-     "dive_html": "Google 把設計稿產生工具 Stitch 接進各家代理人，而不是只綁自家 Gemini，顯示「技能跨平台」已成為工具商爭取開發者的基本盤。對前端團隊而言，價值在把設計到程式碼的交接自動化；但實際品質取決於 Stitch 本身，README 只描述安裝與分組。#Stitch #DesignToCode #AgentSkills",
-     "facets": {
-      "region": [
-       "全球"
-      ],
-      "taiwan": [
-       "無"
-      ],
-      "topic": [
-       "開源",
-       "AI"
-      ],
-      "event": [
-       "產品發布"
-      ],
-      "sector": [
-       "軟體與雲端",
-       "AI"
-      ],
-      "org": [
-       "Google"
+       "AI",
+       "軟體與雲端"
       ],
       "affects": [
        "開發者"
@@ -561,31 +502,32 @@
        "持續發展"
       ],
       "keyword": [
-       "Stitch",
-       "MCP",
-       "Agent Skills"
+       "Plannotator",
+       "Claude Code",
+       "Code Review",
+       "human-in-the-loop"
       ]
      }
     },
     {
      "type": "item",
-     "no": "10",
-     "key": "a67bb8d2a6",
-     "title": "ChromeDevTools/chrome-devtools-mcp：讓代理人操作與檢查真實 Chrome",
-     "title_html": "ChromeDevTools/chrome-devtools-mcp：讓代理人操作與檢查真實 Chrome",
-     "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+     "no": "09",
+     "key": "52adf762d4",
+     "title": "google-labs-code/stitch-skills：Google Stitch 設計工具的 Agent Skills 與外掛集",
+     "title_html": "google-labs-code/stitch-skills：Google Stitch 設計工具的 Agent Skills 與外掛集",
+     "url": "https://github.com/google-labs-code/stitch-skills",
      "src": "GitHub Trending",
      "left": "This week",
-     "heat": "+2,268 stars this week",
+     "heat": "+2,683 stars this week",
      "tags": [],
-     "summary_html": "chrome-devtools-mcp 以 MCP 伺服器與 CLI 兩種形式，讓 Antigravity、Claude、Cursor、Copilot 等程式代理人控制並檢查一個執行中的 Chrome。功能包括錄製追蹤並萃取效能建議、分析網路請求、截圖、讀取主控台訊息（含 source map 還原的堆疊）、以 Puppeteer 自動化操作並等待結果。README 提醒：它會把瀏覽器內容暴露給 MCP 用戶端，代理人可檢視、修改瀏覽器裡任何資料，應避免分享敏感資訊；官方只支援 Google Chrome 與 Chrome for Testing。本週新增 2,268 星。",
+     "summary_html": "這是一組給 Google Stitch 用的 agent skill 與外掛，遵循 Agent Skills 開放標準，可用於 Codex、Antigravity、Gemini CLI、Claude Code、Cursor 與 OpenCode（手動安裝），搭配 Stitch MCP 伺服器運作。外掛分三組：stitch-design（設計類 skill）、stitch-build（建置與元件）、stitch-utilities（工具類）。Codex 可用 CLI 或介面加入外掛市集後挑選安裝；Claude Code 與 Cursor 用 `npx plugins add` 安裝到專案或工作區。",
      "also": [],
      "also_more": [],
      "bullets_html": [
       "<strong>Lang</strong>: TypeScript"
      ],
      "table": null,
-     "dive_html": "讓代理人「看得到自己寫的網頁跑起來怎樣」，是前端除錯自動化的關鍵缺口，效能追蹤分析更是一般瀏覽器自動化工具少有的。風險同樣明確：登入狀態與 Cookie 全在代理人眼前，建議用獨立的測試設定檔而非日常瀏覽器。#ChromeDevTools #MCP #Debugging",
+     "dive_html": "Google 自家工具的 skill 同時支援 Codex 與 Claude Code，再次說明 Agent Skills 已成跨廠商的事實標準，各家不再只綁自己的 agent。對前端團隊來說，價值在把「設計稿→元件程式碼」這段交給 agent 時有官方背書的流程；但前提是團隊已採用 Stitch，否則參考價值有限。#AgentSkills #DesignToCode #MCP",
      "facets": {
       "region": [
        "全球"
@@ -594,14 +536,14 @@
        "無"
       ],
       "topic": [
-       "開源",
-       "科技",
-       "AI"
+       "AI",
+       "開源"
       ],
       "event": [
-       "版本更新"
+       "產品發布"
       ],
       "sector": [
+       "AI",
        "軟體與雲端"
       ],
       "org": [
@@ -611,10 +553,69 @@
        "開發者"
       ],
       "importance": [
+       "低"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "Google Stitch",
+       "Agent Skills",
+       "MCP",
+       "Codex"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "10",
+     "key": "a67bb8d2a6",
+     "title": "ChromeDevTools/chrome-devtools-mcp：讓 coding agent 操作與檢查真實 Chrome 的 DevTools MCP",
+     "title_html": "ChromeDevTools/chrome-devtools-mcp：讓 coding agent 操作與檢查真實 Chrome 的 DevTools MCP",
+     "url": "https://github.com/ChromeDevTools/chrome-devtools-mcp",
+     "src": "GitHub Trending",
+     "left": "This week",
+     "heat": "+2,268 stars this week",
+     "tags": [],
+     "summary_html": "chrome-devtools-mcp 讓 Antigravity、Claude、Cursor、Copilot 等 coding agent 控制並檢查一個實際運作的 Chrome，提供 MCP 伺服器與 CLI 兩種形式。主要功能：用 DevTools 錄製 trace 並萃取可行動的效能洞察；分析網路請求、截圖、讀取主控台訊息（含 source map 還原的堆疊）；以 Puppeteer 自動化操作並自動等待結果。README 提醒它會把瀏覽器內容暴露給 MCP 用戶端，讓其能檢查、除錯與修改瀏覽器裡的任何資料，應避免分享敏感資訊；官方只支援 Google Chrome 與 Chrome for Testing。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Lang</strong>: TypeScript"
+     ],
+     "table": null,
+     "dive_html": "讓 agent 看得到真實渲染、網路與 console，等於補上前端開發「寫完卻不知道跑起來怎樣」的回饋迴圈，效能 trace 分析更是一般瀏覽器自動化工具沒有的強項。官方的安全警語值得認真看待：agent 能讀寫已登入瀏覽器的所有資料，遇到網頁上的提示注入時風險不小，建議用獨立設定檔或 Chrome for Testing。#DevTools #MCP #WebPerf",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "開源",
+       "AI"
+      ],
+      "event": [
+       "版本更新"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "Google Chrome"
+      ],
+      "affects": [
+       "開發者"
+      ],
+      "importance": [
        "中"
       ],
       "tone": [
-       "好壞參半"
+       "正面"
       ],
       "stage": [
        "持續發展"
@@ -622,7 +623,8 @@
       "keyword": [
        "Chrome DevTools",
        "MCP",
-       "Puppeteer"
+       "Puppeteer",
+       "效能分析"
       ]
      }
     }
