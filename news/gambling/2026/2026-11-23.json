@@ -9,72 +9,982 @@
  "title": "博奕產業新聞",
  "brief": "DAILY CASINO & GAMING BRIEFING",
  "issue": "NO. 2026-327",
- "generated_at": "2026-11-23T09:06:34+08:00",
- "lede": "近 48 小時：MGM 為 2030 年大阪 IR 開幕取經江原樂園的成癮防治；加拿大亞伯達 iGaming 市場競爭升溫，業者轉向球迷體驗與體育贊助。",
+ "generated_at": "2026-11-23T17:13:55+08:00",
+ "lede": "近 48 小時：巴西博彩禁令拖累 Flutter 第三季認列 8.73 億美元減損；MGM 因 Kalshi 入會退出美國問題賭博全國委員會；澳門核准終極德州撲克上桌；Betfred 再關 73 家投注站，英國機台稅將升至 25%。",
  "src_tags": [
+  "iGaming Business",
+  "GGRAsia",
   "Asia Gaming Brief",
-  "Casino.org News"
+  "InterGame",
+  "Casino.org News",
+  "澳門廣播電視（Google News）",
+  "澳門力報（Google News）"
  ],
  "intro": [
   {
    "kind": "p",
-   "html": "近 48 小時：MGM 為 2030 年大阪 IR 開幕取經江原樂園的成癮防治；加拿大亞伯達 iGaming 市場競爭升溫，業者轉向球迷體驗與體育贊助。"
+   "html": "近 48 小時：巴西博彩禁令拖累 Flutter 第三季認列 8.73 億美元減損；MGM 因 Kalshi 入會退出美國問題賭博全國委員會；澳門核准終極德州撲克上桌；Betfred 再關 73 家投注站，英國機台稅將升至 25%。"
   }
  ],
  "sections": [
   {
    "name": "監管與政策",
-   "count": 1,
+   "count": 7,
    "blocks": [
     {
      "type": "item",
      "no": "01",
+     "key": "a3e394cb85",
+     "front": 2,
+     "title": "MGM 與 BetMGM 退出美國問題賭博全國委員會，抗議其接納預測市場 Kalshi",
+     "title_html": "MGM 與 BetMGM 退出美國問題賭博全國委員會，抗議其接納預測市場 Kalshi",
+     "url": "https://www.intergameonline.com/land-based-gaming/news/mgm-quits-ncpg-over-kalshi-stance",
+     "src": "InterGame",
+     "left": "11/23 16:58",
+     "ts": "2026-11-23T16:58:00+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "MGM Resorts International 與旗下運動博彩品牌 BetMGM 取消美國問題賭博全國委員會（NCPG）會籍，抗議 NCPG 接納預測市場業者 Kalshi 為會員。MGM 法遵長 Stephen Martino 與 BetMGM 法遵長 Rhea Loney 致函 NCPG 臨時執行長 Charles Jeffers 與理事長 Derek Longmeier，稱「沒有任何組織比 NCPG 更應清楚 Kalshi 與其他預測市場對責任博彩的風險」。BetMGM 責任博彩總監 Rich Taylor 也將立即辭去 NCPG 理事。在此之前，密西根博彩管理委員會、俄亥俄賭場管理委員會、內華達問題賭博委員會與華盛頓州 Evergreen 問題賭博委員會都已退出。Kalshi 於 5 月成為 NCPG 首個白金級會員；NCPG 回應稱對預測市場合法性保持中立，並批評退出者「把政治擺在處理傷害之前」。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "這是美國傳統博彩業與預測市場的對抗延伸到責任博彩領域：MGM 是第一家公開退出的大型賭場營運商，州級監管機構也接連退出，NCPG 作為業界與監管之間的中立平台，正當性與經費都可能受壓。對 Kalshi 而言，加入 NCPG 原可替「非博彩」定位背書，如今反成爭議焦點。接下來可看其他大型營運商是否跟進，以及 NCPG 是否調整與 Kalshi 的關係。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "博奕",
+       "社會"
+      ],
+      "event": [
+       "爭議風波",
+       "聲明評論"
+      ],
+      "story": [
+       "預測市場博彩爭議"
+      ],
+      "sector": [
+       "博奕",
+       "金融"
+      ],
+      "org": [
+       "MGM Resorts",
+       "BetMGM",
+       "NCPG",
+       "Kalshi"
+      ],
+      "person": [
+       "Stephen Martino",
+       "Rhea Loney"
+      ],
+      "affects": [
+       "企業",
+       "玩家"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "預測市場",
+       "責任博彩",
+       "NCPG"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "02",
+     "key": "f4f93301d0",
+     "front": 3,
+     "title": "澳門核准終極德州撲克為真人荷官賭桌遊戲",
+     "title_html": "澳門核准終極德州撲克為真人荷官賭桌遊戲",
+     "url": "https://www.ggrasia.com/macau-regulators-nods-ultimate-texas-holdem-poker-as-live-dealer-game",
+     "src": "GGRAsia",
+     "left": "11/23 16:26",
+     "ts": "2026-11-23T16:26:31+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "澳門週一在《政府公報》公布核准終極德州撲克（Ultimate Texas Hold&#x27;em）在賭場使用，11 月 17 日起生效，命令由經濟財政司司長吳惠嫻簽署；她 6 月出任司長前曾主管博彩監察協調局。這是玩家對莊家的桌上遊戲，發牌前須下底注與盲注，可另押 Trips 與累積彩池副注，副注分開結算。業界人士估算，在最佳玩法下主遊戲莊家優勢約為底注的 2.185%、總投注的 0.526%，整體返還率 99.47%；Trips 副注莊家優勢 3.336%，因澳門同花大順賠 100 比 1（一般為 50 比 1）而略優於常見的 3.5%。公報未載明累積彩池的固定獎額、起始金額與提撥率，影響尚無法評估。金沙中國已在真人荷官梭哈與三張牌撲克提供連線累積彩池。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "澳門新增可用遊戲須經公報核准，節奏緩慢，每一款新玩法都代表營運商多一項吸引中場客的工具。終極德州撲克莊家優勢低、節奏快，配合累積彩池有機會拉高副注投注量；彩池參數公布後，才看得出營運商能從副注賺多少。",
+     "facets": {
+      "region": [
+       "港澳"
+      ],
+      "country": [
+       "MO"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "博奕"
+      ],
+      "event": [
+       "政策法規"
+      ],
+      "sector": [
+       "博奕"
+      ],
+      "org": [
+       "澳門經濟財政司",
+       "澳門博彩監察協調局",
+       "金沙中國"
+      ],
+      "person": [
+       "吳惠嫻"
+      ],
+      "affects": [
+       "企業",
+       "玩家"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "終極德州撲克",
+       "Ultimate Texas Hold'em",
+       "真人荷官",
+       "累積彩池"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "03",
+     "key": "75bb64c9b0",
+     "title": "肯亞國家彩券目標 2027 年 4 月開賣，營運商招標仍未啟動",
+     "title_html": "肯亞國家彩券目標 2027 年 4 月開賣，營運商招標仍未啟動",
+     "url": "https://igamingbusiness.com/lottery/kenya-national-lottery-april-2027-launch/",
+     "src": "iGaming Business",
+     "left": "11/23 16:07",
+     "ts": "2026-11-23T16:07:36+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "肯亞國家彩券委員會（NLB）代理執行長 Martin Talian 表示目標在 2027 年 4 月賣出第一張彩券，先上數位平台再擴及其他形式，但委員會尚未開始挑選營運商。《國家彩券法》2023 年 12 月 29 日生效，肯亞在 2006、2008 年都嘗試過國家彩券未成，2019 年法案也因國會屆期而失效。7 月公布的營運規則規定：執照由委員會申請、博彩監管局核發；營運商須至少 30% 股份由肯亞公民持有、在肯亞設登記辦公室、博彩資本至少 20 億肯亞先令；執照 7 年，申請費 1,000 萬、執照費 5,000 萬肯亞先令，並須讓委員會與監管局即時存取營運與財務資料。參議院委員會正審查這套規則與另外五套博彩法規，期限 11 月 26 日；肯亞博彩業者協會（AGOK）主張部分費用與資本門檻是進入障礙，要求撤銷。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "肯亞過去兩次國家彩券計畫都未落地，這次雖有法源與規則，但營運商招標未開、參議院仍可能修改規則，2027 年 4 月的時程相當緊。高資本門檻與本地持股要求偏向大型在地聯盟，國際彩券營運商若要進場多半須找在地夥伴。11 月 26 日參議院審查結果是下一個觀察點。",
+     "facets": {
+      "region": [
+       "非洲"
+      ],
+      "country": [
+       "KE"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "博奕",
+       "政治"
+      ],
+      "event": [
+       "政策法規"
+      ],
+      "story": [
+       "肯亞國家彩券"
+      ],
+      "sector": [
+       "博奕"
+      ],
+      "org": [
+       "肯亞國家彩券委員會",
+       "肯亞博彩監管局",
+       "肯亞參議院",
+       "AGOK"
+      ],
+      "person": [
+       "Martin Talian"
+      ],
+      "affects": [
+       "企業",
+       "政府與監管"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "國家彩券",
+       "Legal Notice 116",
+       "博彩法規"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "04",
+     "key": "e0106c4215",
+     "title": "吳惠嫻：澳門博彩毛收入仍相對平穩",
+     "title_html": "吳惠嫻：澳門博彩毛收入仍相對平穩",
+     "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxNUmNWZ0xseFBIOWlMVG9WLXhRa0t3X1djVjRQU2t2RUhlY0dNOGUxUFkydVZxV0Zmd1gwZVhybnRaT1lMcWRyVlBlU3pnc3dXQlIxYTVmVDh6WFZvVXJZSUwtbTNLeGkydFNMT3ZTU2dRX0djRlJDZHcxU3d6QUcyYzl6LVEwTlBwWW9CSTYyWmJ2eEF1WUVLQnh3c29ZR1k?oc=5",
+     "src": "澳門廣播電視（Google News）",
+     "left": "11/23 14:19",
+     "ts": "2026-11-23T14:19:51+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "澳門廣播電視報導，經濟財政司司長吳惠嫻表示澳門博彩毛收入仍相對平穩。",
+     "also": [
+      {
+       "text": "Google News 澳門博彩",
+       "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxQU09PYm9IRnJrU1NqbmlGc3ptWTJxWFdmVmFNTmFNRzd5aWZieHIzQzRscE9iVVJpMkxKNC1uQlk2V2M0dXFqc3J3aWMzSXBGRktCQ3FsbGhEajkyQlBWNHpaZkM3QThvRDR0aHhsNWc2cEVwYVdTVkNtNThRUlpvaVFNSDhmdjVjMzJ2dkxDUHFUU283MVE1ajQ1LWN0RDQ?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "region": [
+       "港澳"
+      ],
+      "country": [
+       "MO"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "博奕",
+       "經濟"
+      ],
+      "event": [
+       "聲明評論"
+      ],
+      "sector": [
+       "博奕"
+      ],
+      "org": [
+       "澳門經濟財政司"
+      ],
+      "person": [
+       "吳惠嫻"
+      ],
+      "affects": [
+       "企業",
+       "政府與監管"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "後續追蹤"
+      ],
+      "keyword": [
+       "博彩毛收入"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "05",
+     "key": "ddc97dadc5",
+     "title": "澳門政府將培訓本地人銜接衛星賭場外籍員工退場職缺",
+     "title_html": "澳門政府將培訓本地人銜接衛星賭場外籍員工退場職缺",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxPTHo1aGtZcXhKa1J1UmV0bVJkbnI5OXJQNmNJQXVWMXRGbDhxZlhHNWpacmcyWHBBYlN0VW5sRzF0cXpXQ2VkRzZJSkFHQUJUY2JGLXJoX2dNbTJKWkY2UDg0azRFZE9oX0VxMUxzSWRBaUpJZEVsSTgwT0Z3Ql8xdndmdw?oc=5",
+     "src": "澳門廣播電視（Google News）",
+     "left": "11/23 11:37",
+     "ts": "2026-11-23T11:37:14+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "澳門廣播電視報導，澳門政府將培訓本地居民，銜接衛星賭場（休閒企業）外籍員工退場後空出的職位。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "region": [
+       "港澳"
+      ],
+      "country": [
+       "MO"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "博奕",
+       "勞動"
+      ],
+      "event": [
+       "政策法規"
+      ],
+      "sector": [
+       "博奕"
+      ],
+      "org": [
+       "澳門特區政府"
+      ],
+      "affects": [
+       "勞工"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "後續追蹤"
+      ],
+      "keyword": [
+       "衛星賭場",
+       "外籍員工"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "06",
+     "key": "c08ad0d91c",
+     "title": "吳惠嫻：以嚴格機制核算、監督博企非博彩投資執行成效",
+     "title_html": "吳惠嫻：以嚴格機制核算、監督博企非博彩投資執行成效",
+     "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxQckN5SkVISmJQYk9JVkgwNW81N1AtenozcjRaTzJaenZVcnJ0aFg1bFFEckJPY3Jud29ZOUtsMkhzX3YxT3pnN25lYUpkVFRSUlRUbFVhc2U4UGVYOWdmRUJjRlI2TEZYYlhtaVIzbTg2aGtCOEJXU2MxR0p5aXJ5T2xJZw?oc=5",
+     "src": "澳門廣播電視（Google News）",
+     "left": "11/23 11:07",
+     "ts": "2026-11-23T11:07:08+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "澳門廣播電視報導，吳惠嫻表示將以嚴格機制核算並監督非博彩投資的執行效果。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "region": [
+       "港澳"
+      ],
+      "country": [
+       "MO"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "博奕",
+       "經濟"
+      ],
+      "event": [
+       "聲明評論"
+      ],
+      "sector": [
+       "博奕",
+       "觀光"
+      ],
+      "org": [
+       "澳門經濟財政司"
+      ],
+      "person": [
+       "吳惠嫻"
+      ],
+      "affects": [
+       "企業",
+       "政府與監管"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "後續追蹤"
+      ],
+      "keyword": [
+       "非博彩投資"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "07",
      "key": "11d70bf164",
-     "front": 1,
-     "title": "MGM 赴韓國江原樂園考察賭博成癮防治，備戰 2030 年大阪 IR",
-     "title_html": "MGM 赴韓國江原樂園考察賭博成癮防治，備戰 2030 年大阪 IR",
+     "title": "MGM 赴韓國江原樂園考察成癮防治，為 2030 年大阪 IR 開幕準備",
+     "title_html": "MGM 赴韓國江原樂園考察成癮防治，為 2030 年大阪 IR 開幕準備",
      "url": "https://agbrief.com/news/south-korea/22/11/2026/mgm-studies-kangwon-lands-gambling-addiction-programmes-ahead-of-2030-osaka-ir-opening/",
      "src": "Asia Gaming Brief",
      "left": "11/22 19:25",
      "ts": "2026-11-22T19:25:57+08:00",
      "heat": "",
      "tags": [],
-     "summary_html": "開發日本首座綜合度假村的 MGM 團隊 10 月初造訪江原樂園，考察其成癮防治與現場預防措施。",
+     "summary_html": "據《首爾經濟日報》11 月 21 日報導，開發日本首座綜合度假村的 MGM 人員 10 月初前往南韓唯一開放本國人入場的江原樂園（旌善郡），參觀一般賭區與會員區，並走訪江原樂園成癮照護中心（KLACC）與場內預防設施，特別關注現場防治措施與顧客管理。MGM 與歐力士在夢洲興建 MGM 大阪，投資約 1.5 兆日圓，預定 2030 年秋天開幕，將同時開放日本國民入場；日本賭場管理委員會規定日本人每連續 7 天最多入場 3 次、28 天最多 10 次，並須提供本人或家屬申請限制入場的機制。江原樂園自 2001 年設成癮預防機構。韓國業界也注意到此行：10 月韓國賭場協會研討會公布對江原樂園 493 名顧客的調查，52.1% 有意造訪大阪 IR，高於 2018 年的 47.9%。",
      "also": [],
      "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "據《首爾經濟日報》11 月 21 日報導，MGM 團隊參觀一般賭場樓層與會員區，並走訪江原樂園成癮照護中心（KLACC），特別關注樓面預防措施與顧客管理。MGM 與歐力士在夢洲人工島投資約 1.5 兆日圓興建 MGM Osaka，預計 2030 年秋季開幕；與江原樂園一樣開放本國人入場，日本賭場管理委員會規定本國人任 7 天內最多入場 3 次、28 天內最多 10 次。"
+     "dive_html": "日本 IR 能否被社會接受，關鍵之一是賭博成癮疑慮，MGM 提前向開放本國人的江原樂園取經，顯示營運商意識到入場管制之外還需現場可見的防治機制來爭取輿論。調查數字也透露大阪 IR 對江原樂園既有客源有吸引力，江原樂園在交流的同時恐面臨客源外流，韓國業界可能據此要求放寬國內賭場限制。",
+     "facets": {
+      "region": [
+       "東北亞"
+      ],
+      "country": [
+       "JP",
+       "KR"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "博奕",
+       "社會",
+       "健康與醫療"
+      ],
+      "event": [
+       "其他"
+      ],
+      "story": [
+       "大阪 IR 開發"
+      ],
+      "sector": [
+       "博奕",
+       "觀光"
+      ],
+      "org": [
+       "MGM",
+       "江原樂園",
+       "歐力士",
+       "日本賭場管理委員會"
+      ],
+      "affects": [
+       "企業",
+       "玩家",
+       "政府與監管"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "MGM 大阪",
+       "賭博成癮",
+       "KLACC",
+       "入場限制"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "市場與營收（GGR）",
+   "count": 3,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "08",
+     "key": "9c7c96ec7c",
+     "front": 1,
+     "title": "巴西博彩禁令重創拉美業者第三季財報，Flutter 認列 8.73 億美元減損、淨虧 11.5 億美元",
+     "title_html": "巴西博彩禁令重創拉美業者第三季財報，Flutter 認列 8.73 億美元減損、淨虧 11.5 億美元",
+     "url": "https://igamingbusiness.com/finance/q3-latam-round-up-brazil-shutdown-casts-shadow-operator-results/",
+     "src": "iGaming Business",
+     "left": "11/23 16:09",
+     "ts": "2026-11-23T16:09:56+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "巴西總統魯拉 9 月底發布第 1.394 號臨時措施禁止博彩業，目前正由聯邦最高法院審查合憲性，且須經國會審議才會成為永久禁令；國會也可能修改內容，或任由措施失效讓市場全面重開。Flutter 第三季淨虧 11.5 億美元，主因是巴西業務 8.73 億美元的非現金減損；Flutter 去年以 3.56 億美元取得 Betnacional 母公司 NSX Group 56% 股權，禁令後關閉 Betfair 巴西業務，只留 Betnacional。加上美國與國際市場賽果不利，Flutter 將全年營收指引中位數下修 3 億美元、調整後 EBITDA 下修 1.6 億美元。執行長 Dan Taylor 表示「非常失望」，但若合法市場恢復隨時可重啟。Entain 執行長 Stella David 則相信市場會以某種形式重開，可能只開放運動博彩、不含線上賭場；Entain 巴西淨博彩收入在禁令前的第三季已年減 36%。文章指出，沒有重押巴西的業者第三季在拉美多半成長強勁。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "巴西曾被視為全球最大的新興合法博彩市場，業者花大錢取得執照與併購，一紙臨時措施就讓 Flutter 一季認列近 9 億美元減損，凸顯新興市場的政策風險。最高法院與國會的走向決定這筆投資能否回收；若最後只開放運動博彩，線上賭場占比高的業者受傷更重。業者普遍表態「準備回來但會更謹慎」，顯示即使市場重開，搶市補貼與併購熱度也難回到禁令前。",
+     "facets": {
+      "region": [
+       "中南美"
+      ],
+      "country": [
+       "BR"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "博奕",
+       "產業與企業",
+       "政治"
+      ],
+      "event": [
+       "財報營運",
+       "政策法規"
+      ],
+      "story": [
+       "巴西博彩禁令"
+      ],
+      "sector": [
+       "博奕"
+      ],
+      "org": [
+       "Flutter",
+       "Entain",
+       "Betnacional",
+       "巴西聯邦最高法院",
+       "巴西國會"
+      ],
+      "person": [
+       "魯拉",
+       "Dan Taylor",
+       "Stella David"
+      ],
+      "affects": [
+       "企業",
+       "投資人"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "回顧分析"
+      ],
+      "keyword": [
+       "臨時措施 1.394",
+       "減損",
+       "運動博彩"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "09",
+     "key": "4fe8f700d0",
+     "title": "澳門中場賭收帶動復甦，券商看好金沙中國受惠",
+     "title_html": "澳門中場賭收帶動復甦，券商看好金沙中國受惠",
+     "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE1jVVo4VVJxc1JFT3M1SnJUaGx2c3lxZWZpYXVVcWxrYVhUdDlnZUlpNXhEUU1VRlRsUFU4X2IxY0lXcHlMbFpDS2JIcGx5WG1FT2pV?oc=5",
+     "src": "澳門力報（Google News）",
+     "left": "11/23 13:21",
+     "ts": "2026-11-23T13:21:19+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "澳門力報報導，澳門中場賭收帶動博彩業復甦，券商看好金沙中國受惠。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "region": [
+       "港澳"
+      ],
+      "country": [
+       "MO"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "博奕",
+       "金融市場"
+      ],
+      "event": [
+       "經濟數據"
+      ],
+      "sector": [
+       "博奕"
+      ],
+      "org": [
+       "金沙中國"
+      ],
+      "affects": [
+       "企業",
+       "投資人"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "回顧分析"
+      ],
+      "keyword": [
+       "中場",
+       "賭收"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "10",
+     "key": "926fec40b3",
+     "title": "日本 JCM 預估本年度博彩事業營業利益增約三成至 65 億日圓",
+     "title_html": "日本 JCM 預估本年度博彩事業營業利益增約三成至 65 億日圓",
+     "url": "https://www.ggrasia.com/jcm-forecasts-30pct-rise-in-annual-gaming-profit-to-us41mln",
+     "src": "GGRAsia",
+     "left": "11/23 11:57",
+     "ts": "2026-11-23T11:57:15+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "日本博彩設備商 JCM（Japan Cash Machine）在上週五的投資人簡報中預估，截至 2027 年 3 月的年度全球博彩事業營業利益年增約 29.6%，達 65 億日圓（約 4,090 萬美元），營收預估 258 億日圓、年增約 20.2%。博彩事業供應老虎機用紙鈔辨識機、印表機與賭場現金處理自動化系統；上半年（至 9 月 30 日）營收 143.3 億日圓、年增 46.6%，營業利益 37.1 億日圓、增 67.7%，占集團營收 69.6%。公司將成長歸因於北美紙鈔辨識機與印表機銷售強勁、歐洲銷售增加，並正推出新款紙鈔辨識機 iVIZION 2。集團全年營業利益預估由 30 億上修至 49 億日圓，合併營收預估維持 390 億日圓。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "JCM 的成長幾乎靠北美，反映美國賭場持續更新老虎機周邊設備；新紙鈔防偽特徵也推動辨識機換機需求，iVIZION 2 正好吃到這波。博彩事業已占營收近七成，JCM 的獲利對北美賭場資本支出循環愈來愈敏感。",
+     "facets": {
+      "region": [
+       "東北亞",
+       "北美",
+       "歐洲"
+      ],
+      "country": [
+       "JP",
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "博奕",
+       "產業與企業"
+      ],
+      "event": [
+       "財報營運"
+      ],
+      "sector": [
+       "博奕",
+       "硬體與消費電子"
+      ],
+      "org": [
+       "JCM"
+      ],
+      "affects": [
+       "企業",
+       "投資人"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "紙鈔辨識機",
+       "iVIZION 2",
+       "印表機"
+      ]
+     }
     }
    ]
   },
   {
    "name": "營運商與併購",
-   "count": 2,
+   "count": 5,
    "blocks": [
     {
      "type": "item",
-     "no": "02",
+     "no": "11",
+     "key": "34e176bbd9",
+     "title": "Stake 取得阿根廷拉里奧哈省線上博彩執照",
+     "title_html": "Stake 取得阿根廷拉里奧哈省線上博彩執照",
+     "url": "https://www.intergameonline.com/igaming/news/stake-la-rioja-argentina-igaming-licence",
+     "src": "InterGame",
+     "left": "11/23 16:37",
+     "ts": "2026-11-23T16:37:00+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "線上博彩業者 Stake 取得阿根廷拉里奧哈省博彩管理局（AJALaR）核准，可在該省營運，是繼 6 月進入布宜諾斯艾利斯省後在阿根廷的第二張執照。Stake 為 Easygo 旗下品牌，在拉美另持有巴西、哥倫比亞、墨西哥與祕魯執照。拉美總經理 Diana Otalora 表示，該省有熱情的運動文化與日益數位化的玩家，Stake 看好阿根廷長期潛力。文章也提到，奈及利亞監管機構 9 月指 Stake 在當地非法營運。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "阿根廷採省級發照，業者須逐省申請，Stake 一省一省推進是典型做法。在巴西禁令陰影下，拉美其他已開放市場對國際業者的吸引力相對上升；但奈及利亞的非法營運指控顯示 Stake 的合規紀錄可能成為各地審照的考量。",
+     "facets": {
+      "region": [
+       "中南美"
+      ],
+      "country": [
+       "AR"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "博奕",
+       "產業與企業"
+      ],
+      "event": [
+       "政策法規"
+      ],
+      "sector": [
+       "博奕"
+      ],
+      "org": [
+       "Stake",
+       "Easygo",
+       "AJALaR"
+      ],
+      "person": [
+       "Diana Otalora"
+      ],
+      "affects": [
+       "企業",
+       "玩家"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "線上博彩執照",
+       "運動博彩"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "12",
+     "key": "6e187ec2d7",
+     "front": 4,
+     "title": "英國 Betfred 再關 73 家投注站，365 個職位受影響",
+     "title_html": "英國 Betfred 再關 73 家投注站，365 個職位受影響",
+     "url": "https://www.intergameonline.com/land-based-gaming/news/betfred-to-close-73-betting-shops",
+     "src": "InterGame",
+     "left": "11/23 16:36",
+     "ts": "2026-11-23T16:36:00+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "英國博彩公司 Betfred 宣布再關閉 73 家投注站，365 個職位面臨風險。宣布前 Betfred 有 1,094 家門市，已從 2017 年高峰的 1,680 家縮減；7 月底它才宣布關閉 132 家，理由是成本上升與近年博彩稅調漲。創辦人 Fred Done 說：「投注站是我的一生，關掉任何一家都像親手殺死自己的孩子。」數週前英國秋季預算宣布機台博弈稅（Machine Game Duty）將於 2027 年 4 月由 20% 調升至 25%。博彩與遊戲協會（BGC）稱這是對就業與商店街「又一次毀滅性打擊」，引用 EY 模型指出調稅會讓數千個工作不保，並稱調稅等於把優勢讓給不安全的非法黑市。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "機台稅加碼直擊實體投注站的主要獲利來源，Betfred 半年內累計關店逾 200 家，顯示業者已在提前反應 2027 年稅率。BGC 的黑市論述是業界一貫的遊說說法，文中沒有獨立數據佐證；接下來可看其他投注站連鎖是否跟進關店。",
+     "facets": {
+      "region": [
+       "歐洲"
+      ],
+      "country": [
+       "GB"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "博奕",
+       "勞動",
+       "經濟"
+      ],
+      "event": [
+       "財報營運",
+       "政策法規"
+      ],
+      "story": [
+       "英國博彩稅調升"
+      ],
+      "sector": [
+       "博奕",
+       "零售與消費"
+      ],
+      "org": [
+       "Betfred",
+       "Betting and Gaming Council"
+      ],
+      "person": [
+       "Fred Done"
+      ],
+      "affects": [
+       "勞工",
+       "企業"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "投注站",
+       "機台博弈稅",
+       "Autumn Budget"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "13",
+     "key": "050b2876f4",
+     "title": "濟州夢幻塔母公司樂天觀光開發借 400 億韓元償還可轉債",
+     "title_html": "濟州夢幻塔母公司樂天觀光開發借 400 億韓元償還可轉債",
+     "url": "https://www.ggrasia.com/jeju-dream-tower-backer-borrows-us30mln-for-convertible-bond-repayment-due-this-month",
+     "src": "GGRAsia",
+     "left": "11/23 09:34",
+     "ts": "2026-11-23T09:34:12+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "濟州夢幻塔度假村（內有外國人專用賭場）的開發商樂天觀光開發，週五向韓國交易所申報借款 400 億韓元（約 2,980 萬美元），用於償還 11 月 29 日到期的可轉換公司債本息。這批債券原發行 350 億韓元，本息合計約 440 億韓元。新借款年利率 9%，2027 年 5 月 30 日到期，金額相當於公司 2025 年底合併權益的 10.86%。該公司 10 月賭場營收月增 115.4%、年增 24.1%，達約 625.3 億韓元。iM 證券 10 月報告指出，濟州夢幻塔計畫 2027 年起將賭桌容量增加約 27%。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "以 9% 利率的短期借款償還可轉債，顯示公司再融資成本不低、現金調度偏緊；但賭場營收年增與擴桌計畫說明本業在改善。半年後新借款到期時能否以營運現金流或更低利率再融資，是觀察其財務壓力的關鍵。",
+     "facets": {
+      "region": [
+       "東北亞"
+      ],
+      "country": [
+       "KR"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "博奕",
+       "金融市場"
+      ],
+      "event": [
+       "財報營運"
+      ],
+      "sector": [
+       "博奕",
+       "觀光"
+      ],
+      "org": [
+       "樂天觀光開發",
+       "濟州夢幻塔",
+       "韓國交易所"
+      ],
+      "affects": [
+       "企業",
+       "投資人"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "好壞參半"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "可轉換公司債",
+       "外國人專用賭場"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "14",
      "key": "98964c82bd",
-     "front": 2,
-     "title": "theScore Bet 在亞伯達 iGaming 市場以免費刺青等球迷體驗做出區隔",
-     "title_html": "theScore Bet 在亞伯達 iGaming 市場以免費刺青等球迷體驗做出區隔",
+     "title": "theScore Bet 以球迷體驗搶攻競爭激烈的亞伯達省 iGaming 市場",
+     "title_html": "theScore Bet 以球迷體驗搶攻競爭激烈的亞伯達省 iGaming 市場",
      "url": "https://www.casino.org/news/canadian-gaming-thescore-bet-alberta-marketing/",
      "src": "Casino.org News",
      "left": "11/23 05:01",
      "ts": "2026-11-23T05:01:04+08:00",
      "heat": "0 comments",
      "tags": [],
-     "summary_html": "theScore Bet 在卡加利灰杯賽週末包下刺青店，兩天送出約 160 個 CFL 主題免費刺青，預約數小時內額滿。",
+     "summary_html": "theScore Bet 在加拿大職業美式足球聯盟（CFL）灰杯賽期間，於卡加利 McMahon 球場附近的刺青店舉辦「3RD &amp; INK」活動，兩天免費替球迷刺約 160 個 CFL 主題刺青，預約數小時內額滿。行銷副總 Justin Hergianto 表示目的不在立即衝註冊，而是建立與球迷的關係，「我們更像在做關係生意」。亞伯達省 7 月開放 iGaming，目前有 30 家持照業者、51 個網站；theScore Bet 是 CFL 官方授權博彩營運商，也與多倫多藍鳥、加拿大高爾夫協會及 NFL 加拿大合作。他表示公司帶著安大略省經驗進入亞伯達，但兩省不同，行銷策略不能直接照搬。",
      "also": [],
      "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "亞伯達 iGaming 市場 7 月開放後競爭迅速升溫；行銷副總 Justin Hergianto 表示活動「3RD&amp;INK」目的不在立即拉註冊，而是建立與球迷的關係、拉開品牌差異。"
+     "dive_html": "亞伯達開放才數月就有 30 家業者，獲客成本勢必快速上升；體驗式行銷是避開紅利戰、又能累積品牌好感的做法。效果難以量化，文章也沒有提供註冊或投注轉換數據。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "CA"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "博奕",
+       "體育"
+      ],
+      "event": [
+       "活動賽事"
+      ],
+      "sector": [
+       "博奕",
+       "媒體與娛樂"
+      ],
+      "org": [
+       "theScore Bet",
+       "CFL"
+      ],
+      "person": [
+       "Justin Hergianto"
+      ],
+      "affects": [
+       "企業",
+       "玩家"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "回顧分析"
+      ],
+      "keyword": [
+       "亞伯達",
+       "行銷",
+       "灰杯"
+      ]
+     }
     },
     {
      "type": "item",
-     "no": "03",
+     "no": "15",
      "key": "a062920432",
      "title": "Betty 成為加拿大職業女子冰球聯盟 PWHL 官方線上賭場夥伴",
      "title_html": "Betty 成為加拿大職業女子冰球聯盟 PWHL 官方線上賭場夥伴",
@@ -84,19 +994,197 @@
      "ts": "2026-11-21T22:21:50+08:00",
      "heat": "0 comments",
      "tags": [],
-     "summary_html": "在安大略與亞伯達持照的 iGaming 業者 Betty 首度贊助職業女子運動，將冠名 PWHL 在亞伯達的巡迴賽並參與多倫多明星賽。",
+     "summary_html": "在安大略與亞伯達持照的線上賭場業者 Betty 成為職業女子冰球聯盟（PWHL）官方線上賭場夥伴，是 Betty 首次贊助職業女子運動。PWHL 第四季 12 月 5 日開打，本季擴編至 12 隊；Betty 將冠名亞伯達的 Takeover Tour 賽事（1 月 23 日艾德蒙頓、2 月 15 日卡加利），並參與 3 月 7 日多倫多明星賽。PWHL 上季觀眾首度突破 100 萬人次。Betty 7 月 13 日亞伯達開放當天上線，2023 年 2 月進入安大略，另與 Maple Leaf Sports &amp; Entertainment 合作，擔任多倫多楓葉、暴龍、多倫多 FC 與阿格諾特隊的官方線上賭場夥伴。",
      "also": [],
      "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "PWHL 第四季 12 月 5 日開打，本季擴編至 12 隊（新增漢米爾頓、底特律、拉斯維加斯、聖荷西）；Betty 冠名 1 月 23 日愛德蒙頓與 2 月 15 日卡加利兩場 Takeover Tour，並於 3 月 7 日多倫多明星賽設點。"
+     "dive_html": "與 theScore Bet 一樣，Betty 以體育贊助在亞伯達新市場建立品牌；選擇女子運動有助觸及傳統博彩以外的客群。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "CA"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "博奕",
+       "體育"
+      ],
+      "event": [
+       "併購投資"
+      ],
+      "sector": [
+       "博奕",
+       "媒體與娛樂"
+      ],
+      "org": [
+       "Betty",
+       "PWHL"
+      ],
+      "person": [
+       "Andrea Stodart",
+       "Chelsea Purcell"
+      ],
+      "affects": [
+       "企業"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "體育贊助",
+       "女子運動"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "供應商與新遊戲（含老虎機）",
+   "count": 2,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "16",
+     "key": "9adc832fdc",
+     "title": "PopOK Gaming 與 01.tech 聚合平台合作擴大遊戲通路",
+     "title_html": "PopOK Gaming 與 01.tech 聚合平台合作擴大遊戲通路",
+     "url": "https://www.intergameonline.com/igaming/products/popok-gaming-igaming-deal-01tech",
+     "src": "InterGame",
+     "left": "11/23 16:47",
+     "ts": "2026-11-23T16:47:00+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "SoftConstruct 旗下遊戲供應商 PopOK Gaming 與 iGaming 聚合及白牌方案商 01.tech 合作，將遊戲接入 01.tech 的營運商網路。這是 PopOK 繼 Bitville Gaming、EGT Digital 之後的又一項通路合作。PopOK 業務開發主管 Ani Matevosyan 表示合作有助接觸新營運商與市場；01.tech 遊戲聚合負責人 Inna Polly 稱合作潛力大。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "博奕"
+      ],
+      "event": [
+       "併購投資"
+      ],
+      "sector": [
+       "博奕"
+      ],
+      "org": [
+       "PopOK Gaming",
+       "01.tech",
+       "SoftConstruct"
+      ],
+      "person": [
+       "Ani Matevosyan",
+       "Inna Polly"
+      ],
+      "affects": [
+       "企業"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "遊戲聚合",
+       "線上老虎機"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "17",
+     "key": "158ff3bba7",
+     "title": "Sega Sammy：仁川百樂達城智慧賭桌營收優於傳統賭桌，考慮推向海外",
+     "title_html": "Sega Sammy：仁川百樂達城智慧賭桌營收優於傳統賭桌，考慮推向海外",
+     "url": "https://www.ggrasia.com/paradise-citys-smart-tables-outperform-conventional-units-sega-sammy",
+     "src": "GGRAsia",
+     "left": "11/23 09:49",
+     "ts": "2026-11-23T09:49:07+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Sega Sammy 在週五公布的 11 月 6 日法說會問答摘要中表示，南韓仁川外國人專用賭場度假村百樂達城（Paradise City）導入的智慧賭桌營收高於傳統賭桌，但未量化差距，也未揭露已裝設數量、技術供應商與後續時程。管理層說這項技術提高了牌局週轉率，並有助於防弊與荷官訓練，集團考慮逐步汰換百樂達城現有賭桌，也在探索把智慧賭桌賣給海外賭場，包括興建中、目標 2030 年底開幕的日本首座 IR MGM 大阪。百樂達城由 Sega Sammy 與南韓 Paradise 合資的 Paradise SegaSammy 營運。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "Sega Sammy 同時是設備商與度假村股東，先在自家場館驗證再對外銷售。缺少具體營收提升數據與供應商資訊，說服力有限；能否打入 MGM 大阪，取決於日本監管對桌台系統的認證要求。",
+     "facets": {
+      "region": [
+       "東北亞"
+      ],
+      "country": [
+       "KR",
+       "JP"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "博奕",
+       "科技"
+      ],
+      "event": [
+       "財報營運",
+       "產品發布"
+      ],
+      "story": [
+       "大阪 IR 開發"
+      ],
+      "sector": [
+       "博奕"
+      ],
+      "org": [
+       "Sega Sammy",
+       "Paradise SegaSammy",
+       "百樂達城",
+       "MGM 大阪"
+      ],
+      "affects": [
+       "企業"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "智慧賭桌",
+       "防弊",
+       "荷官訓練"
+      ]
+     }
     }
    ]
   }
  ],
  "foot_left": "本報告由 news-aggregator 自動彙整",
  "stats": {
-  "items": 3,
-  "sections": 2
+  "items": 17,
+  "sections": 4
  }
 }

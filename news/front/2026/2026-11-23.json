@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-23",
- "built_at": "2026-11-23T17:13:14+08:00",
+ "built_at": "2026-11-23T17:13:55+08:00",
  "reports": [
   {
    "series": "international",
@@ -40,8 +40,8 @@
    "series_title": "博奕產業新聞",
    "group": "遊戲",
    "period": "2026-11-23",
-   "count": 3,
-   "generated_at": "2026-11-23T09:06:34+08:00"
+   "count": 17,
+   "generated_at": "2026-11-23T17:13:55+08:00"
   },
   {
    "series": "finance",
@@ -322,22 +322,78 @@
    ]
   },
   {
-   "key": "11d70bf164",
+   "key": "9c7c96ec7c",
    "rank": 1,
-   "title": "MGM 赴韓國江原樂園考察賭博成癮防治，備戰 2030 年大阪 IR",
-   "summary_html": "開發日本首座綜合度假村的 MGM 團隊 10 月初造訪江原樂園，考察其成癮防治與現場預防措施。",
-   "dive_html": "據《首爾經濟日報》11 月 21 日報導，MGM 團隊參觀一般賭場樓層與會員區，並走訪江原樂園成癮照護中心（KLACC），特別關注樓面預防措施與顧客管理。MGM 與歐力士在夢洲人工島投資約 1.5 兆日圓興建 MGM Osaka，預計 2030 年秋季開幕；與江原樂園一樣開放本國人入場，日本賭場管理委員會規定本國人任 7 天內最多入場 3 次、28 天內最多 10 次。",
-   "url": "https://agbrief.com/news/south-korea/22/11/2026/mgm-studies-kangwon-lands-gambling-addiction-programmes-ahead-of-2030-osaka-ir-opening/",
-   "src": "Asia Gaming Brief",
-   "ts": "2026-11-22T19:25:57+08:00",
-   "left": "11/22 19:25",
+   "title": "巴西博彩禁令重創拉美業者第三季財報，Flutter 認列 8.73 億美元減損、淨虧 11.5 億美元",
+   "summary_html": "巴西總統魯拉 9 月底發布第 1.394 號臨時措施禁止博彩業，目前正由聯邦最高法院審查合憲性，且須經國會審議才會成為永久禁令；國會也可能修改內容，或任由措施失效讓市場全面重開。Flutter 第三季淨虧 11.5 億美元，主因是巴西業務 8.73 億美元的非現金減損；Flutter 去年以 3.56 億美元取得 Betnacional 母公司 NSX Group 56% 股權，禁令後關閉 Betfair 巴西業務，只留 Betnacional。加上美國與國際市場賽果不利，Flutter 將全年營收指引中位數下修 3 億美元、調整後 EBITDA 下修 1.6 億美元。執行長 Dan Taylor 表示「非常失望」，但若合法市場恢復隨時可重啟。Entain 執行長 Stella David 則相信市場會以某種形式重開，可能只開放運動博彩、不含線上賭場；Entain 巴西淨博彩收入在禁令前的第三季已年減 36%。文章指出，沒有重押巴西的業者第三季在拉美多半成長強勁。",
+   "dive_html": "巴西曾被視為全球最大的新興合法博彩市場，業者花大錢取得執照與併購，一紙臨時措施就讓 Flutter 一季認列近 9 億美元減損，凸顯新興市場的政策風險。最高法院與國會的走向決定這筆投資能否回收；若最後只開放運動博彩，線上賭場占比高的業者受傷更重。業者普遍表態「準備回來但會更謹慎」，顯示即使市場重開，搶市補貼與併購熱度也難回到禁令前。",
+   "url": "https://igamingbusiness.com/finance/q3-latam-round-up-brazil-shutdown-casts-shadow-operator-results/",
+   "src": "iGaming Business",
+   "ts": "2026-11-23T16:09:56+08:00",
+   "left": "11/23 16:09",
    "heat": "",
    "tags": [],
+   "facets": {
+    "region": [
+     "中南美"
+    ],
+    "country": [
+     "BR"
+    ],
+    "taiwan": [
+     "無"
+    ],
+    "topic": [
+     "博奕",
+     "產業與企業",
+     "政治"
+    ],
+    "event": [
+     "財報營運",
+     "政策法規"
+    ],
+    "story": [
+     "巴西博彩禁令"
+    ],
+    "sector": [
+     "博奕"
+    ],
+    "org": [
+     "Flutter",
+     "Entain",
+     "Betnacional",
+     "巴西聯邦最高法院",
+     "巴西國會"
+    ],
+    "person": [
+     "魯拉",
+     "Dan Taylor",
+     "Stella David"
+    ],
+    "affects": [
+     "企業",
+     "投資人"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "負面"
+    ],
+    "stage": [
+     "回顧分析"
+    ],
+    "keyword": [
+     "臨時措施 1.394",
+     "減損",
+     "運動博彩"
+    ]
+   },
    "from": [
     {
      "series": "gambling",
      "period": "2026-11-23",
-     "no": "01",
+     "no": "08",
      "rank": 1
     }
    ]
@@ -758,22 +814,76 @@
    ]
   },
   {
-   "key": "98964c82bd",
+   "key": "a3e394cb85",
    "rank": 2,
-   "title": "theScore Bet 在亞伯達 iGaming 市場以免費刺青等球迷體驗做出區隔",
-   "summary_html": "theScore Bet 在卡加利灰杯賽週末包下刺青店，兩天送出約 160 個 CFL 主題免費刺青，預約數小時內額滿。",
-   "dive_html": "亞伯達 iGaming 市場 7 月開放後競爭迅速升溫；行銷副總 Justin Hergianto 表示活動「3RD&amp;INK」目的不在立即拉註冊，而是建立與球迷的關係、拉開品牌差異。",
-   "url": "https://www.casino.org/news/canadian-gaming-thescore-bet-alberta-marketing/",
-   "src": "Casino.org News",
-   "ts": "2026-11-23T05:01:04+08:00",
-   "left": "11/23 05:01",
-   "heat": "0 comments",
+   "title": "MGM 與 BetMGM 退出美國問題賭博全國委員會，抗議其接納預測市場 Kalshi",
+   "summary_html": "MGM Resorts International 與旗下運動博彩品牌 BetMGM 取消美國問題賭博全國委員會（NCPG）會籍，抗議 NCPG 接納預測市場業者 Kalshi 為會員。MGM 法遵長 Stephen Martino 與 BetMGM 法遵長 Rhea Loney 致函 NCPG 臨時執行長 Charles Jeffers 與理事長 Derek Longmeier，稱「沒有任何組織比 NCPG 更應清楚 Kalshi 與其他預測市場對責任博彩的風險」。BetMGM 責任博彩總監 Rich Taylor 也將立即辭去 NCPG 理事。在此之前，密西根博彩管理委員會、俄亥俄賭場管理委員會、內華達問題賭博委員會與華盛頓州 Evergreen 問題賭博委員會都已退出。Kalshi 於 5 月成為 NCPG 首個白金級會員；NCPG 回應稱對預測市場合法性保持中立，並批評退出者「把政治擺在處理傷害之前」。",
+   "dive_html": "這是美國傳統博彩業與預測市場的對抗延伸到責任博彩領域：MGM 是第一家公開退出的大型賭場營運商，州級監管機構也接連退出，NCPG 作為業界與監管之間的中立平台，正當性與經費都可能受壓。對 Kalshi 而言，加入 NCPG 原可替「非博彩」定位背書，如今反成爭議焦點。接下來可看其他大型營運商是否跟進，以及 NCPG 是否調整與 Kalshi 的關係。",
+   "url": "https://www.intergameonline.com/land-based-gaming/news/mgm-quits-ncpg-over-kalshi-stance",
+   "src": "InterGame",
+   "ts": "2026-11-23T16:58:00+08:00",
+   "left": "11/23 16:58",
+   "heat": "",
    "tags": [],
+   "facets": {
+    "region": [
+     "北美"
+    ],
+    "country": [
+     "US"
+    ],
+    "taiwan": [
+     "無"
+    ],
+    "topic": [
+     "博奕",
+     "社會"
+    ],
+    "event": [
+     "爭議風波",
+     "聲明評論"
+    ],
+    "story": [
+     "預測市場博彩爭議"
+    ],
+    "sector": [
+     "博奕",
+     "金融"
+    ],
+    "org": [
+     "MGM Resorts",
+     "BetMGM",
+     "NCPG",
+     "Kalshi"
+    ],
+    "person": [
+     "Stephen Martino",
+     "Rhea Loney"
+    ],
+    "affects": [
+     "企業",
+     "玩家"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "負面"
+    ],
+    "stage": [
+     "持續發展"
+    ],
+    "keyword": [
+     "預測市場",
+     "責任博彩",
+     "NCPG"
+    ]
+   },
    "from": [
     {
      "series": "gambling",
      "period": "2026-11-23",
-     "no": "02",
+     "no": "01",
      "rank": 2
     }
    ]
@@ -1151,6 +1261,74 @@
    ]
   },
   {
+   "key": "f4f93301d0",
+   "rank": 3,
+   "title": "澳門核准終極德州撲克為真人荷官賭桌遊戲",
+   "summary_html": "澳門週一在《政府公報》公布核准終極德州撲克（Ultimate Texas Hold&#x27;em）在賭場使用，11 月 17 日起生效，命令由經濟財政司司長吳惠嫻簽署；她 6 月出任司長前曾主管博彩監察協調局。這是玩家對莊家的桌上遊戲，發牌前須下底注與盲注，可另押 Trips 與累積彩池副注，副注分開結算。業界人士估算，在最佳玩法下主遊戲莊家優勢約為底注的 2.185%、總投注的 0.526%，整體返還率 99.47%；Trips 副注莊家優勢 3.336%，因澳門同花大順賠 100 比 1（一般為 50 比 1）而略優於常見的 3.5%。公報未載明累積彩池的固定獎額、起始金額與提撥率，影響尚無法評估。金沙中國已在真人荷官梭哈與三張牌撲克提供連線累積彩池。",
+   "dive_html": "澳門新增可用遊戲須經公報核准，節奏緩慢，每一款新玩法都代表營運商多一項吸引中場客的工具。終極德州撲克莊家優勢低、節奏快，配合累積彩池有機會拉高副注投注量；彩池參數公布後，才看得出營運商能從副注賺多少。",
+   "url": "https://www.ggrasia.com/macau-regulators-nods-ultimate-texas-holdem-poker-as-live-dealer-game",
+   "src": "GGRAsia",
+   "ts": "2026-11-23T16:26:31+08:00",
+   "left": "11/23 16:26",
+   "heat": "",
+   "tags": [],
+   "facets": {
+    "region": [
+     "港澳"
+    ],
+    "country": [
+     "MO"
+    ],
+    "taiwan": [
+     "無"
+    ],
+    "topic": [
+     "博奕"
+    ],
+    "event": [
+     "政策法規"
+    ],
+    "sector": [
+     "博奕"
+    ],
+    "org": [
+     "澳門經濟財政司",
+     "澳門博彩監察協調局",
+     "金沙中國"
+    ],
+    "person": [
+     "吳惠嫻"
+    ],
+    "affects": [
+     "企業",
+     "玩家"
+    ],
+    "importance": [
+     "中"
+    ],
+    "tone": [
+     "正面"
+    ],
+    "stage": [
+     "突發"
+    ],
+    "keyword": [
+     "終極德州撲克",
+     "Ultimate Texas Hold'em",
+     "真人荷官",
+     "累積彩池"
+    ]
+   },
+   "from": [
+    {
+     "series": "gambling",
+     "period": "2026-11-23",
+     "no": "02",
+     "rank": 3
+    }
+   ]
+  },
+  {
    "key": "5627883bfb",
    "rank": 3,
    "title": "外資今年賣超台股 3.2 兆元創史上最大，連八週賣超，券商傳大戶與高頻交易離場",
@@ -1522,6 +1700,79 @@
      "series": "security",
      "period": "2026-11-23",
      "no": "01",
+     "rank": 4
+    }
+   ]
+  },
+  {
+   "key": "6e187ec2d7",
+   "rank": 4,
+   "title": "英國 Betfred 再關 73 家投注站，365 個職位受影響",
+   "summary_html": "英國博彩公司 Betfred 宣布再關閉 73 家投注站，365 個職位面臨風險。宣布前 Betfred 有 1,094 家門市，已從 2017 年高峰的 1,680 家縮減；7 月底它才宣布關閉 132 家，理由是成本上升與近年博彩稅調漲。創辦人 Fred Done 說：「投注站是我的一生，關掉任何一家都像親手殺死自己的孩子。」數週前英國秋季預算宣布機台博弈稅（Machine Game Duty）將於 2027 年 4 月由 20% 調升至 25%。博彩與遊戲協會（BGC）稱這是對就業與商店街「又一次毀滅性打擊」，引用 EY 模型指出調稅會讓數千個工作不保，並稱調稅等於把優勢讓給不安全的非法黑市。",
+   "dive_html": "機台稅加碼直擊實體投注站的主要獲利來源，Betfred 半年內累計關店逾 200 家，顯示業者已在提前反應 2027 年稅率。BGC 的黑市論述是業界一貫的遊說說法，文中沒有獨立數據佐證；接下來可看其他投注站連鎖是否跟進關店。",
+   "url": "https://www.intergameonline.com/land-based-gaming/news/betfred-to-close-73-betting-shops",
+   "src": "InterGame",
+   "ts": "2026-11-23T16:36:00+08:00",
+   "left": "11/23 16:36",
+   "heat": "",
+   "tags": [],
+   "facets": {
+    "region": [
+     "歐洲"
+    ],
+    "country": [
+     "GB"
+    ],
+    "taiwan": [
+     "無"
+    ],
+    "topic": [
+     "博奕",
+     "勞動",
+     "經濟"
+    ],
+    "event": [
+     "財報營運",
+     "政策法規"
+    ],
+    "story": [
+     "英國博彩稅調升"
+    ],
+    "sector": [
+     "博奕",
+     "零售與消費"
+    ],
+    "org": [
+     "Betfred",
+     "Betting and Gaming Council"
+    ],
+    "person": [
+     "Fred Done"
+    ],
+    "affects": [
+     "勞工",
+     "企業"
+    ],
+    "importance": [
+     "中"
+    ],
+    "tone": [
+     "負面"
+    ],
+    "stage": [
+     "持續發展"
+    ],
+    "keyword": [
+     "投注站",
+     "機台博弈稅",
+     "Autumn Budget"
+    ]
+   },
+   "from": [
+    {
+     "series": "gambling",
+     "period": "2026-11-23",
+     "no": "12",
      "rank": 4
     }
    ]
