@@ -1,0 +1,201 @@
+{
+ "schema": 1,
+ "week": "2026-W48",
+ "built_at": "2026-11-23T10:04:16+08:00",
+ "reports": [
+  {
+   "series": "github_weekly",
+   "series_title": "GitHub 趨勢週報",
+   "group": "開源",
+   "period": "2026-W48",
+   "count": 10,
+   "generated_at": "2026-11-23T10:04:16+08:00"
+  }
+ ],
+ "entries": [
+  {
+   "key": "404dff4b1c",
+   "rank": 1,
+   "title": "dream-num/univer：可嵌進自家產品的開源 Office SDK",
+   "summary_html": "Univer 把自己定位成「在你的產品裡打造 Office 應用」的 SDK，提供編輯、計算、協作與檔案處理，服務對象同時包含人與既有的 AI 代理人，並沿用使用者自己的資料與權限。產品線涵蓋試算表、文件、簡報、關聯式表格、畫布與 PDF；開源核心可先做出試算表編輯器，再透過 Facade API 與事件把應用或代理人接進來，README 也說明自訂功能的邊界、跨功能編輯與復原／重做的組合方式，另有 CLI、代理人整合與開發者技能。本週新增 6,436 星，以 TypeScript 撰寫。",
+   "dive_html": "Univer 把「代理人能操作的文件格式」當賣點，切中企業想把 AI 放進表單、報表流程卻不想依賴微軟或 Google 雲端的需求。Facade API 加事件流的設計，讓代理人改表格與人手動改走同一套復原紀錄，是可借鏡之處。限制在開源核心與商業 SDK 的分界：PDF、簡報等能力是否在開源授權內，導入前要先讀 Scope and licensing。#OfficeSDK #AgentReady #TypeScript",
+   "url": "https://github.com/dream-num/univer",
+   "src": "GitHub Trending",
+   "left": "This week",
+   "heat": "+6,436 stars this week",
+   "tags": [],
+   "facets": {
+    "region": [
+     "全球"
+    ],
+    "taiwan": [
+     "無"
+    ],
+    "topic": [
+     "開源",
+     "科技",
+     "AI"
+    ],
+    "event": [
+     "產品發布"
+    ],
+    "sector": [
+     "軟體與雲端"
+    ],
+    "org": [
+     "Univer"
+    ],
+    "affects": [
+     "開發者",
+     "企業"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "正面"
+    ],
+    "stage": [
+     "持續發展"
+    ],
+    "keyword": [
+     "Univer",
+     "Office SDK",
+     "試算表"
+    ]
+   },
+   "from": [
+    {
+     "series": "github_weekly",
+     "period": "2026-W48",
+     "no": "01",
+     "rank": 1
+    }
+   ]
+  },
+  {
+   "key": "f7cfdfd7bc",
+   "rank": 2,
+   "title": "alibaba/open-code-review：阿里巴巴內部兩年的 AI 審碼工具開源",
+   "summary_html": "Open Code Review 原是阿里巴巴集團官方的內部 AI 審碼助手，README 說過去兩年服務數萬名開發者、找出數百萬個程式缺陷，現孵化為開源專案。它讀取 Git diff，透過具工具呼叫能力的代理人把變更檔送給可設定的 LLM（相容 OpenAI 與 Anthropic），產出精確到行的結構化意見；代理人可讀整檔、搜尋程式庫、參照其他變更檔。`ocr scan` 可審整個檔案或目錄。內建 NPE、執行緒安全、XSS、SQL 注入等多語言規則。官方基準以 50 個開源專案、200 個真實 PR 建立，宣稱同模型下精確率與 F1 明顯高於 Claude Code 等通用代理人，Token 約只用九分之一，但召回率較低，是刻意偏向精確的取捨。本週新增 3,700 星，以 Go 撰寫。",
+   "dive_html": "「確定性管線＋LLM 代理人」的混合架構，回應了 AI 審碼最大的痛點：意見太多、雜訊太高。拿召回換精確與成本，適合放在 CI 當第一道門檻，不適合當唯一的安全審查。基準是官方自建、自比，需要第三方重現才可信。#CodeReview #HybridAgent #Go",
+   "url": "https://github.com/alibaba/open-code-review",
+   "src": "GitHub Trending",
+   "left": "This week",
+   "heat": "+3,700 stars this week",
+   "tags": [],
+   "facets": {
+    "region": [
+     "中國大陸",
+     "全球"
+    ],
+    "country": [
+     "CN"
+    ],
+    "taiwan": [
+     "無"
+    ],
+    "topic": [
+     "開源",
+     "AI",
+     "資安"
+    ],
+    "event": [
+     "產品發布"
+    ],
+    "sector": [
+     "軟體與雲端",
+     "AI"
+    ],
+    "org": [
+     "阿里巴巴"
+    ],
+    "affects": [
+     "開發者",
+     "企業"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "正面"
+    ],
+    "stage": [
+     "持續發展"
+    ],
+    "keyword": [
+     "Code Review",
+     "LLM Agent",
+     "OpenCodeReview"
+    ]
+   },
+   "from": [
+    {
+     "series": "github_weekly",
+     "period": "2026-W48",
+     "no": "04",
+     "rank": 2
+    }
+   ]
+  },
+  {
+   "key": "d9a650738e",
+   "rank": 3,
+   "title": "ag-ui-protocol/ag-ui：代理人與前端互動的開放協定 1.0 定版",
+   "summary_html": "AG-UI 是輕量、以事件為基礎的開放協定，標準化 AI 代理人如何接上使用者介面。README 指出代理人會串流 token、在回應中呼叫工具、更新共享狀態、暫停等人確認、產生子代理人，各框架做法不一；AG-UI 改成一條雙向事件串流，代理人送出型別化事件，任何用戶端都能渲染。1.0 已推出，規格凍結並以 JSON Schema 定義，TypeScript、Python、.NET SDK 由規格產生，0.x 與 1.0 雙向相容。`npx create-ag-ui-app` 可產生 Next.js 上的 CopilotKit 前端或終端機用戶端。",
+   "dive_html": "規格凍結加雙向相容，是協定從實驗走向可被企業依賴的關鍵一步。它和 MCP 分工互補：MCP 管代理人怎麼用工具，AG-UI 管代理人怎麼對人呈現，前端團隊可以不再為每個代理人框架各寫一套串流處理。範本預設呼叫 OpenAI，換其他模型要自己接。#AGUI #AgentProtocol #Frontend",
+   "url": "https://github.com/ag-ui-protocol/ag-ui",
+   "src": "GitHub Trending",
+   "left": "This week",
+   "heat": "+3,620 stars this week",
+   "tags": [],
+   "facets": {
+    "region": [
+     "全球"
+    ],
+    "taiwan": [
+     "無"
+    ],
+    "topic": [
+     "開源",
+     "AI"
+    ],
+    "event": [
+     "版本更新"
+    ],
+    "sector": [
+     "AI",
+     "軟體與雲端"
+    ],
+    "org": [
+     "CopilotKit"
+    ],
+    "affects": [
+     "開發者"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "正面"
+    ],
+    "stage": [
+     "持續發展"
+    ],
+    "keyword": [
+     "AG-UI",
+     "Agent Protocol",
+     "事件串流"
+    ]
+   },
+   "from": [
+    {
+     "series": "github_weekly",
+     "period": "2026-W48",
+     "no": "06",
+     "rank": 3
+    }
+   ]
+  }
+ ]
+}

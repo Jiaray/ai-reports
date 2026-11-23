@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T09:53:03+08:00",
+ "updated_at": "2026-11-23T10:04:16+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "github_weekly",
+   "series_title": "GitHub 趨勢週報",
+   "cadence": "weekly",
+   "period": "2026-W48",
+   "date": "2026-11-23",
+   "title": "GitHub 趨勢週報",
+   "lede": "本週榜單仍由「替程式代理人補裝備」主導：Univer 以 Office SDK 定位拿下週增星冠軍；阿里巴巴、Meta、Google 持續開源內部工具與代理人技能包；影片剪輯、跨平台研究、設計稿都被包成可直接呼叫的代理人技能。",
+   "count": 10,
+   "data": "github_weekly/2026/2026-W48.json",
+   "generated_at": "2026-11-23T10:04:16+08:00"
+  },
   {
    "series": "health",
    "series_title": "健康日報",
