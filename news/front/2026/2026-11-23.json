@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-23",
- "built_at": "2026-11-23T17:13:56+08:00",
+ "built_at": "2026-11-23T17:15:44+08:00",
  "reports": [
   {
    "series": "international",
@@ -32,8 +32,8 @@
    "series_title": "資安日報",
    "group": "科技",
    "period": "2026-11-23",
-   "count": 15,
-   "generated_at": "2026-11-23T09:06:10+08:00"
+   "count": 18,
+   "generated_at": "2026-11-23T17:15:44+08:00"
   },
   {
    "series": "gambling",
@@ -307,22 +307,77 @@
    ]
   },
   {
-   "key": "78074d39df",
+   "key": "5d81d80910",
    "rank": 1,
-   "title": "三家 AI 推論供應商遭竊取客戶請求數月，OpenRouter 停用三家",
-   "summary_html": "Dragos 指出攻擊者數月間從三家 AI 推論供應商內部竊取資料，三家直到研究人員通知才發現；OpenRouter 已停用這三家。",
-   "dive_html": "Dragos 研究長 HD Moore 在 7 至 11 月送出約 200 萬則含金絲雀權杖的提示詞，觀察到被竊提示詞被用來嘗試登入其控制的系統與 AWS 帳號，另發現推論市集轉售商可用一般日誌功能保留客戶提示詞。Ars Technica 報導，OpenRouter 通知客戶潛在外洩涉及 MiniMax，直連或經 AtlasCloud、Novita、StreamLake 轉售都有埋設網址被存取，並移除 MiniMax 端點的「零資料保留」標籤。Together AI 另公告，其 AI 寫程式代理把私有 Hugging Face repo 的憑證提交到公開 GitHub，導致 6、7 月的提示詞樣本被下載。",
-   "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
-   "src": "ICSDA 資安日報",
-   "ts": "2026-11-23T06:21:48+08:00",
-   "left": "11/23 06:21",
+   "title": "CISA：Cisco Expressway 重大漏洞 CVE-2026-76466 遭利用，攻擊者取得 root 後橫向移動",
+   "summary_html": "美國 CISA 將思科視訊通訊閘道 Expressway 的重大漏洞 CVE-2026-76466 列入已知遭利用漏洞名單（KEV），並要求聯邦民間行政機構依 BOD 26-04 在三天內完成修補。漏洞源自寫死的憑證，加上未完整驗證用戶端憑證，讓未經驗證的攻擊者能在叢集設定的裝置上以 root 執行作業系統指令。思科 PSIRT 表示未掌握在野利用或公開 PoC，但俄羅斯資安公司 F6 指出，在網路上出現公開 PoC 不久後，就看到攻擊者鎖定一家企業的兩台對外 Expressway，入侵其中一台後再經叢集存取另外兩台內網節點，取得 root。攻擊者接著以自寫 Python 指令碼掃描內網、尋找 SMB 資源、連線 SQL Server 與 WinRM，並搜尋 GitLab 儲存庫竊取憑證；F6 從指令碼中的註解判斷攻擊者可能借助 AI 助理開發工具。",
+   "dive_html": "廠商說「未見利用」、CISA 與 F6 說「已遭利用」，兩邊說法有落差時應以後者為準處理。Expressway 是內外網的邊界設備，一旦失守，攻擊者直接站在內網，而 F6 案例中搜尋 GitLab 取憑證的行為，對有自架 GitLab、CI 的開發團隊特別危險：程式碼與部署金鑰都可能被帶走。有使用 Expressway 的組織，修補後還應檢查叢集節點是否有異常帳號與指令碼，並輪替 GitLab 與資料庫憑證。PoC 公開到實際攻擊的間隔很短，也呼應本期多則提到的 AI 輔助攻擊加速趨勢。",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+   "src": "BleepingComputer",
+   "ts": "2026-11-23T15:44:19+08:00",
+   "left": "11/23 15:44",
    "heat": "",
-   "tags": [],
+   "tags": [
+    {
+     "text": "已遭利用",
+     "cls": "tag-outline"
+    }
+   ],
+   "facets": {
+    "region": [
+     "北美",
+     "歐洲"
+    ],
+    "country": [
+     "US",
+     "RU"
+    ],
+    "taiwan": [
+     "間接"
+    ],
+    "topic": [
+     "資安"
+    ],
+    "event": [
+     "漏洞揭露",
+     "資安事件"
+    ],
+    "story": [
+     "Cisco Expressway 漏洞攻擊"
+    ],
+    "sector": [
+     "軟體與雲端",
+     "電信"
+    ],
+    "org": [
+     "思科",
+     "CISA",
+     "F6"
+    ],
+    "affects": [
+     "企業",
+     "政府與監管"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "負面"
+    ],
+    "stage": [
+     "持續發展"
+    ],
+    "keyword": [
+     "CVE-2026-76466",
+     "Cisco Expressway",
+     "KEV"
+    ]
+   },
    "from": [
     {
      "series": "security",
      "period": "2026-11-23",
-     "no": "06",
+     "no": "01",
      "rank": 1
     }
    ]
@@ -792,15 +847,15 @@
    ]
   },
   {
-   "key": "e84afceb00",
+   "key": "9d9d65df53",
    "rank": 2,
-   "title": "GL.iNet 雲端遠端管理漏洞遭利用，路由器與 KVM 被植入後門",
-   "summary_html": "GL.iNet 11 月 20 日公告，未授權者利用其雲端遠端管理服務漏洞存取裝置並安裝惡意程式。",
-   "dive_html": "GoodCloud 平台讓客戶遠端管理裝置，包括透過 KVM 控制連接的電腦與伺服器；GL.iNet 未說明攻擊手法、受影響客戶數或是否有資料遭竊，仍在調查 KVM 所連接的電腦是否也被入侵。",
-   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
-   "src": "BleepingComputer",
-   "ts": "2026-11-23T02:45:37+08:00",
-   "left": "11/23 02:45",
+   "title": "Apache HTTP Server HTTP/2 漏洞 CVE-2026-119618 遭積極利用，PoC 已公開",
+   "summary_html": "新加坡網路安全局（CSA）11 月 17 日發布警告，指出 Apache HTTP Server 的 HTTP/2 模組漏洞 CVE-2026-119618 據報已遭攻擊者積極利用，且已有公開的概念驗證程式。漏洞源自 mod_http2 處理 HTTP/2 請求時的執行緒同步缺陷，攻擊者可利用競爭條件造成堆積記憶體破壞，進而遠端執行任意程式碼。CSA 未說明受害對象、攻擊規模或 PoC 技術細節，只提醒使用者立即更新。",
+   "dive_html": "Apache httpd 是遊戲官網、API 閘道與反向代理的常見元件，啟用 HTTP/2 又是現在的常見做法，攻擊面很廣。競爭條件類漏洞利用成功率通常不穩定，但 PoC 已流傳，攻擊者可以大量嘗試。除了自架主機，也要盤點容器映像與第三方設備內建的 httpd 版本，這些常被忽略。若短期無法升級，暫停 HTTP/2 是可考慮的權宜作法，但原文未提供官方緩解建議，需自行評估影響。",
+   "url": "https://www.ithome.com.tw/news/180711",
+   "src": "iThome 資安",
+   "ts": "2026-11-23T12:00:00+08:00",
+   "left": "11/23 12:00",
    "heat": "",
    "tags": [
     {
@@ -808,11 +863,58 @@
      "cls": "tag-outline"
     }
    ],
+   "facets": {
+    "region": [
+     "東南亞",
+     "全球"
+    ],
+    "country": [
+     "SG"
+    ],
+    "taiwan": [
+     "間接"
+    ],
+    "topic": [
+     "資安",
+     "開源"
+    ],
+    "event": [
+     "漏洞揭露"
+    ],
+    "story": [
+     "Apache HTTP/2 漏洞"
+    ],
+    "sector": [
+     "軟體與雲端"
+    ],
+    "org": [
+     "新加坡網路安全局",
+     "Apache 軟體基金會"
+    ],
+    "affects": [
+     "企業",
+     "開發者"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "負面"
+    ],
+    "stage": [
+     "後續追蹤"
+    ],
+    "keyword": [
+     "CVE-2026-119618",
+     "mod_http2",
+     "Apache HTTP Server"
+    ]
+   },
    "from": [
     {
      "series": "security",
      "period": "2026-11-23",
-     "no": "03",
+     "no": "02",
      "rank": 2
     }
    ]
@@ -1247,22 +1349,75 @@
    ]
   },
   {
-   "key": "aeb7ef21f8",
+   "key": "f79bf5e299",
    "rank": 3,
-   "title": "FBI 全國犯罪資訊中心（NCIC）疑遭駭",
-   "summary_html": "匿名知情人士向美聯社證實 FBI 正調查 NCIC 疑似遭駭，FBI 拒絕評論。",
-   "dive_html": "消息最早由 CNN 報導；目前沒有跡象顯示與近期政府及民間服務中斷有關，官員將那些中斷歸因於例行升級與修補。FBI 今年 9 月曾遭 ShinyHunters 宣稱竊取員工與應徵者資料，3 月也揭露調查內部系統可疑活動。",
-   "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
-   "src": "ICSDA 資安日報",
-   "ts": "2026-11-23T06:21:48+08:00",
-   "left": "11/23 06:21",
+   "title": "OpenJDK 重大漏洞 Java4Shell（CVE-2026-114938）出現嘗試利用，Jenkins 成主要目標",
+   "summary_html": "Oracle 與 OpenJDK 於 11 月 17 日修補被稱為 Java4Shell 的重大漏洞 CVE-2026-114938，發現者 Calif.io 已確認可在多款 Java 應用程式利用。GreyNoise 在漏洞公開當天就偵測到攻擊活動，截至 23 日共有 7 個 IP 發出 261 次請求，尚未出現成功入侵。Previdian 自 18 日起也偵測到嘗試利用，主要目標是 Jenkins，其蜜罐 18、19 日收到 32 次請求，Jenkins 回應 28 次 401、4 次 302，未見記憶體洩露或遠端程式碼執行。Cloudforce One 觀察到有人把 AI 工具 ARTEX 與 Java4Shell 一起用於攻擊，認為攻擊者正準備把它整合進攻擊流程；watchTowr 則指出全球各地的嘗試請求有共通特徵，使用者代理字串含 java4shell-recon。",
+   "dive_html": "目前仍是「嘗試利用、未見成功入侵」階段，但 Java 執行環境散布在建置伺服器、後台服務與遊戲伺服器中，修補範圍比單一產品大得多，越早開始盤點越好。Jenkins 被當成首要目標，代表 CI 環境是攻擊者眼中的高價值入口；開發團隊應先處理對外可連的 Jenkins 與 Java 後台，再擴及內部服務。watchTowr 提供的 java4shell-recon 使用者代理字串可加進 WAF 與日誌告警，但攻擊者改字串很容易，只能當早期訊號。",
+   "url": "https://www.ithome.com.tw/news/180709",
+   "src": "iThome 資安",
+   "ts": "2026-11-23T12:00:00+08:00",
+   "left": "11/23 12:00",
    "heat": "",
-   "tags": [],
+   "tags": [
+    {
+     "text": "已有 PoC",
+     "cls": "tag-outline"
+    }
+   ],
+   "facets": {
+    "region": [
+     "全球"
+    ],
+    "taiwan": [
+     "間接"
+    ],
+    "topic": [
+     "資安",
+     "開源"
+    ],
+    "event": [
+     "漏洞揭露"
+    ],
+    "story": [
+     "Java4Shell 漏洞"
+    ],
+    "sector": [
+     "軟體與雲端"
+    ],
+    "org": [
+     "Oracle",
+     "OpenJDK",
+     "GreyNoise",
+     "Calif.io",
+     "Cloudforce One",
+     "watchTowr"
+    ],
+    "affects": [
+     "企業",
+     "開發者"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "負面"
+    ],
+    "stage": [
+     "持續發展"
+    ],
+    "keyword": [
+     "CVE-2026-114938",
+     "Java4Shell",
+     "Jenkins",
+     "ARTEX"
+    ]
+   },
    "from": [
     {
      "series": "security",
      "period": "2026-11-23",
-     "no": "07",
+     "no": "03",
      "rank": 3
     }
    ]
@@ -1691,22 +1846,69 @@
    ]
   },
   {
-   "key": "ecedf109fd",
+   "key": "78074d39df",
    "rank": 4,
-   "title": "第三方供應商連環遭駭，FBI 警告 AI 攻擊工具 ARTEX 不到 3 小時取得高權限",
-   "summary_html": "11 月第三週多家第三方供應商接連遭駭，同時 FBI 指出多個駭客組織自 8 月起用開源 AI 代理工具 ARTEX 自動找漏洞入侵。",
-   "dive_html": "KARTE 遭利用伺服器漏洞竊取認證資訊與客戶資料，JINS 最多約 1,829 萬會員帳號可能受影響；Dooray! 的忘記密碼流程可反覆嘗試驗證碼，Open API 漏洞也讓部分 API 金鑰外洩。ARTEX 常先打合作夥伴入口、員工 App、行動 App 後端與舊版服務，再濫用 Azure 雲端憑證與 OAuth 授權擴大存取；Barracuda 案攻擊者用遭竊且未撤銷的雲端存取金鑰入侵。漏洞揭露期限也將縮短到 60 天甚至 30 天。ICSDA 觀點：供應商資安問卷填完不等於風險已轉移，基本功仍是勝負手，只是容錯時間被 AI 壓縮。",
-   "url": "https://www.ithome.com.tw/news/180681",
+   "title": "三家 AI 推論供應商遭駭數月、提示詞外洩，OpenRouter 停用供應商並取消 125 個端點零資料留存資格",
+   "summary_html": "工控資安業者 Dragos 以近 200 萬筆測試提示詞進行研究，發現至少 3 家 AI 推論服務供應商遭入侵，攻擊者長期竊取客戶請求，最早可追溯至 7 月中旬，供應商直到研究人員通知才發現。10 月下旬一起事件中，研究人員向同一家供應商送出約 200 筆各含不同 AWS 測試金鑰的請求，全數遭竊，攻擊者隨後拿金鑰嘗試存取 AWS。Dragos 也發現部分轉售業者以低價吸引請求，再利用平台的日誌功能讀取留存提示詞；某家未具名中國 AI 實驗室的系統，在超過半數測試提示詞中存取了其中的網址，標記為不蒐集資料或 ZDR 的請求也有約三分之二如此，但這不代表已證實有人閱讀完整提示詞。OpenRouter 於 11 月 22 日宣布停用 3 家供應商、取消 125 個端點的 ZDR 資格（部分屬預防性），尚未公布業者名稱，並表示沒有證據顯示平台本身遭入侵；未來將持續測試供應商是否遵守資料留存政策。",
+   "dive_html": "這是 AI 供應鏈少見有實證的提示詞外洩案例，關鍵教訓是「零資料留存」只是供應商的承諾，路由平台會依價格把請求轉給你沒挑過的業者。開發團隊常把程式碼、錯誤日誌甚至設定檔貼進 AI 工具或經 API 送出，裡面的金鑰就是攻擊者的目標，而 Dragos 已證實攻擊者會立刻拿去用。實務上應假設送出的提示詞可能外洩：送出前做機密掃描，敏感用途改用可指定供應商或自建的模型，並檢查曾透過 OpenRouter 送出的金鑰是否需要輪替。",
+   "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
    "src": "ICSDA 資安日報",
    "ts": "2026-11-23T06:21:48+08:00",
    "left": "11/23 06:21",
    "heat": "",
    "tags": [],
+   "facets": {
+    "region": [
+     "全球"
+    ],
+    "taiwan": [
+     "間接"
+    ],
+    "topic": [
+     "資安",
+     "AI"
+    ],
+    "event": [
+     "資安事件",
+     "調查報告"
+    ],
+    "story": [
+     "AI 推論供應商遭駭"
+    ],
+    "sector": [
+     "AI",
+     "軟體與雲端"
+    ],
+    "org": [
+     "Dragos",
+     "OpenRouter",
+     "AWS"
+    ],
+    "affects": [
+     "企業",
+     "開發者"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "負面"
+    ],
+    "stage": [
+     "突發"
+    ],
+    "keyword": [
+     "OpenRouter",
+     "零資料留存",
+     "提示詞外洩",
+     "AI 推論供應鏈"
+    ]
+   },
    "from": [
     {
      "series": "security",
      "period": "2026-11-23",
-     "no": "01",
+     "no": "10",
      "rank": 4
     }
    ]
@@ -1944,6 +2146,75 @@
      "series": "international",
      "period": "2026-11-23",
      "no": "16",
+     "rank": 5
+    }
+   ]
+  },
+  {
+   "key": "e84afceb00",
+   "rank": 5,
+   "title": "GL.iNet 雲端遠端管理漏洞遭利用，路由器與 KVM 遭植入後門",
+   "summary_html": "GL.iNet 於 11 月 20 日發布安全公告，證實有未經授權者利用其雲端遠端管理服務的漏洞，存取並在部分客戶的路由器與 KVM 裝置安裝惡意程式，部分使用者回報裝置遭植入後門與反向 shell。公司表示已修補雲端漏洞、封鎖這次的入侵路徑，新感染不會再透過此途徑發生，但已感染的裝置要靠安全韌體才能清除；韌體更新不需恢復原廠設定，可保留設定。GL.iNet 未說明攻擊手法、受影響客戶數，或是否有資料遭竊，也正調查連接受感染 KVM 的電腦是否一併遭入侵。論壇使用者警告官方的檢查方法未必能找出所有受感染裝置，官方因此附上社群開發的偵測與清除工具。",
+   "dive_html": "這是廠商雲端平台本身被打穿、再反向進入客戶設備的供應鏈型事件，客戶端設定再嚴謹也擋不住。KVM 能直接操作所連的電腦與伺服器，若團隊用 GL.iNet KVM 管理機房或測試機，風險已不只是一台網路設備，應把連接的主機也納入調查。官方只給一個入侵指標，社群又指出可能有其他後門，保守做法是更新韌體後仍更換裝置管理密碼，並評估是否關閉雲端遠端管理功能。",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+   "src": "BleepingComputer",
+   "ts": "2026-11-23T02:45:37+08:00",
+   "left": "11/23 02:45",
+   "heat": "",
+   "tags": [
+    {
+     "text": "已遭利用",
+     "cls": "tag-outline"
+    }
+   ],
+   "facets": {
+    "region": [
+     "全球"
+    ],
+    "taiwan": [
+     "間接"
+    ],
+    "topic": [
+     "資安"
+    ],
+    "event": [
+     "資安事件"
+    ],
+    "story": [
+     "GL.iNet 雲端漏洞事件"
+    ],
+    "sector": [
+     "硬體與消費電子",
+     "軟體與雲端"
+    ],
+    "org": [
+     "GL.iNet"
+    ],
+    "affects": [
+     "一般使用者",
+     "企業"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "負面"
+    ],
+    "stage": [
+     "持續發展"
+    ],
+    "keyword": [
+     "GL.iNet",
+     "GoodCloud",
+     "KVM",
+     "路由器後門"
+    ]
+   },
+   "from": [
+    {
+     "series": "security",
+     "period": "2026-11-23",
+     "no": "07",
      "rank": 5
     }
    ]

@@ -9,8 +9,8 @@
  "title": "資安日報",
  "brief": "DAILY NEWS BRIEFING",
  "issue": "NO. 2026-327",
- "generated_at": "2026-11-23T09:06:10+08:00",
- "lede": "AI 推論供應商遭竊取提示詞數月、連零資料保留也失守；GL.iNet 雲端漏洞遭利用植入路由器與 KVM；FBI 全國犯罪資料庫疑遭駭。",
+ "generated_at": "2026-11-23T17:15:44+08:00",
+ "lede": "Cisco Expressway、Apache HTTP/2 漏洞遭利用，Java4Shell 出現嘗試攻擊；AI 推論供應商遭駭數月，提示詞外洩；GL.iNet 雲端漏洞遭利用植入路由器與 KVM 惡意程式；第三方供應商連環失守與 AI 自動化攻擊工具 ARTEX 擴散。",
  "src_tags": [
   "ICSDA 資安日報",
   "BleepingComputer",
@@ -21,47 +21,183 @@
  "intro": [
   {
    "kind": "p",
-   "html": "AI 推論供應商遭竊取提示詞數月、連零資料保留也失守；GL.iNet 雲端漏洞遭利用植入路由器與 KVM；FBI 全國犯罪資料庫疑遭駭。"
+   "html": "Cisco Expressway、Apache HTTP/2 漏洞遭利用，Java4Shell 出現嘗試攻擊；AI 推論供應商遭駭數月，提示詞外洩；GL.iNet 雲端漏洞遭利用植入路由器與 KVM 惡意程式；第三方供應商連環失守與 AI 自動化攻擊工具 ARTEX 擴散。"
   }
  ],
  "sections": [
   {
    "name": "立即處理",
-   "count": 3,
+   "count": 7,
    "blocks": [
     {
      "type": "item",
      "no": "01",
-     "key": "ecedf109fd",
-     "front": 4,
-     "title": "第三方供應商連環遭駭，FBI 警告 AI 攻擊工具 ARTEX 不到 3 小時取得高權限",
-     "title_html": "第三方供應商連環遭駭，FBI 警告 AI 攻擊工具 ARTEX 不到 3 小時取得高權限",
-     "url": "https://www.ithome.com.tw/news/180681",
-     "src": "ICSDA 資安日報",
-     "left": "11/23 06:21",
-     "ts": "2026-11-23T06:21:48+08:00",
+     "key": "5d81d80910",
+     "front": 1,
+     "title": "CISA：Cisco Expressway 重大漏洞 CVE-2026-76466 遭利用，攻擊者取得 root 後橫向移動",
+     "title_html": "CISA：Cisco Expressway 重大漏洞 CVE-2026-76466 遭利用，攻擊者取得 root 後橫向移動",
+     "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
+     "src": "BleepingComputer",
+     "left": "11/23 15:44",
+     "ts": "2026-11-23T15:44:19+08:00",
      "heat": "",
-     "tags": [],
-     "summary_html": "11 月第三週多家第三方供應商接連遭駭，同時 FBI 指出多個駭客組織自 8 月起用開源 AI 代理工具 ARTEX 自動找漏洞入侵。",
-     "also": [],
+     "tags": [
+      {
+       "text": "已遭利用",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美國 CISA 將思科視訊通訊閘道 Expressway 的重大漏洞 CVE-2026-76466 列入已知遭利用漏洞名單（KEV），並要求聯邦民間行政機構依 BOD 26-04 在三天內完成修補。漏洞源自寫死的憑證，加上未完整驗證用戶端憑證，讓未經驗證的攻擊者能在叢集設定的裝置上以 root 執行作業系統指令。思科 PSIRT 表示未掌握在野利用或公開 PoC，但俄羅斯資安公司 F6 指出，在網路上出現公開 PoC 不久後，就看到攻擊者鎖定一家企業的兩台對外 Expressway，入侵其中一台後再經叢集存取另外兩台內網節點，取得 root。攻擊者接著以自寫 Python 指令碼掃描內網、尋找 SMB 資源、連線 SQL Server 與 WinRM，並搜尋 GitLab 儲存庫竊取憑證；F6 從指令碼中的註解判斷攻擊者可能借助 AI 助理開發工具。",
+     "also": [
+      {
+       "text": "iThome 資安",
+       "url": "https://www.ithome.com.tw/news/180705"
+      }
+     ],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：高危（ICSDA）；愛爾蘭 Wellington IT、日本 KARTE、韓國 MetaM 與 Dooray! 等供應商遭駭，單點失守波及數十至數百家企業，臺灣也有十餘家業者通報受害。",
-      "<strong>處置</strong>：盤點第三方供應商與 API 金鑰、撤銷閒置憑證、啟用多因素驗證，並監控異常大量資料存取（ICSDA 觀點）。"
+      "<strong>影響範圍</strong>：Cisco Expressway-C／Expressway-E 以叢集方式部署的裝置（F6 觀察到的受害設備為 X15.5.3 版）；CVE-2026-76466，CVSS 9.8（iThome 引述）；已遭利用，CISA 已列入 KEV。",
+      "<strong>處置</strong>：思科已於 10 月下旬釋出修補，請更新至修補版本；美國聯邦機構限期三天內完成修補，CISA 呼籲民間也優先處理。"
      ],
      "table": null,
-     "dive_html": "KARTE 遭利用伺服器漏洞竊取認證資訊與客戶資料，JINS 最多約 1,829 萬會員帳號可能受影響；Dooray! 的忘記密碼流程可反覆嘗試驗證碼，Open API 漏洞也讓部分 API 金鑰外洩。ARTEX 常先打合作夥伴入口、員工 App、行動 App 後端與舊版服務，再濫用 Azure 雲端憑證與 OAuth 授權擴大存取；Barracuda 案攻擊者用遭竊且未撤銷的雲端存取金鑰入侵。漏洞揭露期限也將縮短到 60 天甚至 30 天。ICSDA 觀點：供應商資安問卷填完不等於風險已轉移，基本功仍是勝負手，只是容錯時間被 AI 壓縮。"
+     "dive_html": "廠商說「未見利用」、CISA 與 F6 說「已遭利用」，兩邊說法有落差時應以後者為準處理。Expressway 是內外網的邊界設備，一旦失守，攻擊者直接站在內網，而 F6 案例中搜尋 GitLab 取憑證的行為，對有自架 GitLab、CI 的開發團隊特別危險：程式碼與部署金鑰都可能被帶走。有使用 Expressway 的組織，修補後還應檢查叢集節點是否有異常帳號與指令碼，並輪替 GitLab 與資料庫憑證。PoC 公開到實際攻擊的間隔很短，也呼應本期多則提到的 AI 輔助攻擊加速趨勢。",
+     "facets": {
+      "region": [
+       "北美",
+       "歐洲"
+      ],
+      "country": [
+       "US",
+       "RU"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安"
+      ],
+      "event": [
+       "漏洞揭露",
+       "資安事件"
+      ],
+      "story": [
+       "Cisco Expressway 漏洞攻擊"
+      ],
+      "sector": [
+       "軟體與雲端",
+       "電信"
+      ],
+      "org": [
+       "思科",
+       "CISA",
+       "F6"
+      ],
+      "affects": [
+       "企業",
+       "政府與監管"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "CVE-2026-76466",
+       "Cisco Expressway",
+       "KEV"
+      ]
+     }
     },
     {
      "type": "item",
      "no": "02",
-     "key": "0be8ff22df",
-     "title": "Ghostscript 沙箱逃逸漏洞，惡意上傳檔可在伺服器執行指令",
-     "title_html": "Ghostscript 沙箱逃逸漏洞，惡意上傳檔可在伺服器執行指令",
-     "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
-     "src": "ICSDA 資安日報",
-     "left": "11/23 06:21",
-     "ts": "2026-11-23T06:21:48+08:00",
+     "key": "9d9d65df53",
+     "front": 2,
+     "title": "Apache HTTP Server HTTP/2 漏洞 CVE-2026-119618 遭積極利用，PoC 已公開",
+     "title_html": "Apache HTTP Server HTTP/2 漏洞 CVE-2026-119618 遭積極利用，PoC 已公開",
+     "url": "https://www.ithome.com.tw/news/180711",
+     "src": "iThome 資安",
+     "left": "11/23 12:00",
+     "ts": "2026-11-23T12:00:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "已遭利用",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "新加坡網路安全局（CSA）11 月 17 日發布警告，指出 Apache HTTP Server 的 HTTP/2 模組漏洞 CVE-2026-119618 據報已遭攻擊者積極利用，且已有公開的概念驗證程式。漏洞源自 mod_http2 處理 HTTP/2 請求時的執行緒同步缺陷，攻擊者可利用競爭條件造成堆積記憶體破壞，進而遠端執行任意程式碼。CSA 未說明受害對象、攻擊規模或 PoC 技術細節，只提醒使用者立即更新。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：Apache HTTP Server 2.4.55 至 2.4.70 版且啟用 mod_http2 模組；CVE-2026-119618，CVSS 8.1；據報已遭積極利用，已有公開 PoC。",
+      "<strong>處置</strong>：更新至 Apache 於 11 月 11 日發布的 2.4.71 版。"
+     ],
+     "table": null,
+     "dive_html": "Apache httpd 是遊戲官網、API 閘道與反向代理的常見元件，啟用 HTTP/2 又是現在的常見做法，攻擊面很廣。競爭條件類漏洞利用成功率通常不穩定，但 PoC 已流傳，攻擊者可以大量嘗試。除了自架主機，也要盤點容器映像與第三方設備內建的 httpd 版本，這些常被忽略。若短期無法升級，暫停 HTTP/2 是可考慮的權宜作法，但原文未提供官方緩解建議，需自行評估影響。",
+     "facets": {
+      "region": [
+       "東南亞",
+       "全球"
+      ],
+      "country": [
+       "SG"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安",
+       "開源"
+      ],
+      "event": [
+       "漏洞揭露"
+      ],
+      "story": [
+       "Apache HTTP/2 漏洞"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "新加坡網路安全局",
+       "Apache 軟體基金會"
+      ],
+      "affects": [
+       "企業",
+       "開發者"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "後續追蹤"
+      ],
+      "keyword": [
+       "CVE-2026-119618",
+       "mod_http2",
+       "Apache HTTP Server"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "03",
+     "key": "f79bf5e299",
+     "front": 3,
+     "title": "OpenJDK 重大漏洞 Java4Shell（CVE-2026-114938）出現嘗試利用，Jenkins 成主要目標",
+     "title_html": "OpenJDK 重大漏洞 Java4Shell（CVE-2026-114938）出現嘗試利用，Jenkins 成主要目標",
+     "url": "https://www.ithome.com.tw/news/180709",
+     "src": "iThome 資安",
+     "left": "11/23 12:00",
+     "ts": "2026-11-23T12:00:00+08:00",
      "heat": "",
      "tags": [
       {
@@ -69,23 +205,304 @@
        "cls": "tag-outline"
       }
      ],
-     "summary_html": "資安公司 pwn.ai 展示，攻擊者只要上傳特製檔案就能逃出 Ghostscript 沙箱並在處理該檔案的伺服器上執行指令。",
+     "summary_html": "Oracle 與 OpenJDK 於 11 月 17 日修補被稱為 Java4Shell 的重大漏洞 CVE-2026-114938，發現者 Calif.io 已確認可在多款 Java 應用程式利用。GreyNoise 在漏洞公開當天就偵測到攻擊活動，截至 23 日共有 7 個 IP 發出 261 次請求，尚未出現成功入侵。Previdian 自 18 日起也偵測到嘗試利用，主要目標是 Jenkins，其蜜罐 18、19 日收到 32 次請求，Jenkins 回應 28 次 401、4 次 302，未見記憶體洩露或遠端程式碼執行。Cloudforce One 觀察到有人把 AI 工具 ARTEX 與 Java4Shell 一起用於攻擊，認為攻擊者正準備把它整合進攻擊流程；watchTowr 則指出全球各地的嘗試請求有共通特徵，使用者代理字串含 java4shell-recon。",
      "also": [],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：中危（ICSDA）；以 Ghostscript 轉換使用者上傳 PDF、PostScript、影像檔的 Linux 伺服器；CVE 與受影響版本原文未提供。",
-      "<strong>處置</strong>：漏洞已修補，確認底層 Ghostscript 已更新；轉檔服務放在獨立低權限環境，限制網路與檔案系統存取，並限制上傳檔案類型與大小（ICSDA 觀點）。"
+      "<strong>影響範圍</strong>：OpenJDK／Oracle Java（受影響版本原文未提供）；CVE-2026-114938；嚴重度為「重大」（原文未提供 CVSS）；Calif.io 已確認可在多款 Java 應用程式利用，目前有嘗試利用活動，尚未出現成功入侵事故。",
+      "<strong>處置</strong>：套用 Oracle 與 OpenJDK 11 月 17 日釋出的修補；修補版本號原文未提供。"
      ],
      "table": null,
-     "dive_html": "風險在於許多應用程式不是直接呼叫 Ghostscript，而是在轉檔流程中間接使用，團隊常不知道自己的上傳功能（大頭貼、PDF）背後跑著它。ICSDA 觀點：這是已修補的沙箱逃逸，不是後門，清查重點是盤點哪些系統會轉檔。"
+     "dive_html": "目前仍是「嘗試利用、未見成功入侵」階段，但 Java 執行環境散布在建置伺服器、後台服務與遊戲伺服器中，修補範圍比單一產品大得多，越早開始盤點越好。Jenkins 被當成首要目標，代表 CI 環境是攻擊者眼中的高價值入口；開發團隊應先處理對外可連的 Jenkins 與 Java 後台，再擴及內部服務。watchTowr 提供的 java4shell-recon 使用者代理字串可加進 WAF 與日誌告警，但攻擊者改字串很容易，只能當早期訊號。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安",
+       "開源"
+      ],
+      "event": [
+       "漏洞揭露"
+      ],
+      "story": [
+       "Java4Shell 漏洞"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "Oracle",
+       "OpenJDK",
+       "GreyNoise",
+       "Calif.io",
+       "Cloudforce One",
+       "watchTowr"
+      ],
+      "affects": [
+       "企業",
+       "開發者"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "CVE-2026-114938",
+       "Java4Shell",
+       "Jenkins",
+       "ARTEX"
+      ]
+     }
     },
     {
      "type": "item",
-     "no": "03",
+     "no": "04",
+     "key": "f19809ddfb",
+     "title": "CISA 將 SAP NetWeaver、VMware vCenter、Apache Roller 等 4 個漏洞列入 KEV",
+     "title_html": "CISA 將 SAP NetWeaver、VMware vCenter、Apache Roller 等 4 個漏洞列入 KEV",
+     "url": "https://www.ithome.com.tw/news/180699",
+     "src": "iThome 資安",
+     "left": "11/23 10:00",
+     "ts": "2026-11-23T10:00:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "已遭利用",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "CISA 於 11 月 20 日公告，已掌握 4 個漏洞遭積極利用的證據並列入 KEV，分別影響 SAP NetWeaver、Cisco Expressway、VMware vCenter 與 Apache Roller，聯邦機構必須在 11 月 23 日前修補。其中 vCenter 漏洞 CVE-2026-123890，Google 威脅情報組織（GTIG）與 Mandiant 已揭露中國駭客組織 Armory Castle（UNC5221）的利用活動；Apache 基金會上週也揭露 Roller 漏洞 CVE-2026-82384（即 CVE-2026-129448）遭到利用。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：SAP NetWeaver（CVE-2025-42884）、Cisco Expressway（CVE-2026-76466，見本區第一則）、VMware vCenter（CVE-2026-123890）、Apache Roller（CVE-2026-129448，亦登記為 CVE-2026-82384，影響近 20 年的版本）；均已遭利用；CVSS 與受影響版本原文未提供。",
+      "<strong>處置</strong>：美國聯邦機構須在 11 月 23 日前完成修補；修補版本原文未提供，請依各廠商公告更新。"
+     ],
+     "table": null,
+     "dive_html": "vCenter 是虛擬化環境的控制中心，被國家級組織鎖定代表攻擊者要的是整個機房的掌控權，自建私有雲的團隊應列為本週優先處理項目。聯邦期限就是今天，顯示 CISA 認為風險迫切。Apache Roller 雖然小眾，但影響近 20 年版本，老舊部落格或內部文件站若仍在跑，很可能早被遺忘在資產清單之外。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安"
+      ],
+      "event": [
+       "漏洞揭露",
+       "政策法規"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "CISA",
+       "Google 威脅情報組織",
+       "Mandiant",
+       "Apache 軟體基金會"
+      ],
+      "affects": [
+       "企業",
+       "政府與監管"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "後續追蹤"
+      ],
+      "keyword": [
+       "CVE-2025-42884",
+       "CVE-2026-123890",
+       "CVE-2026-129448",
+       "VMware vCenter",
+       "SAP NetWeaver",
+       "Apache Roller"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "05",
+     "key": "0be8ff22df",
+     "title": "Ghostscript 字型載入器漏洞 Upload2Shell（CVE-2026-125396）：一般檔案上傳即可繞過沙箱執行指令",
+     "title_html": "Ghostscript 字型載入器漏洞 Upload2Shell（CVE-2026-125396）：一般檔案上傳即可繞過沙箱執行指令",
+     "url": "https://thehackernews.com/2026/11/researchers-demonstrate-ghostscript.html",
+     "src": "ICSDA 資安日報",
+     "left": "11/23 06:21",
+     "ts": "2026-11-23T06:21:48+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "僅揭露",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "AI 滲透測試公司 Pwn.ai 公布 Ghostscript 字型載入器的釋放後使用（Use After Free）漏洞，命名為 Upload2Shell，並表示是以 GPT 5.6 Sol 找出。攻擊者可透過一般檔案上傳、圖片預覽或電子郵件附件，把惡意 PostScript 內容送進 Ghostscript，觸發記憶體錯誤取得任意寫入能力，再修改內部安全控制狀態而逃出沙箱、在伺服器上執行指令。研究人員指出，ImageMagick 會透過 Ghostscript 處理 PostScript 內容，即使副檔名偽裝成 JPG、PNG 或 PDF 也可能進入解譯流程；WordPress 的媒體上傳與公開表單可在不需帳號下觸發，Roundcube 則只要使用者開啟含惡意附件的郵件，伺服器端縮圖就可能觸發，不需點擊附件。（ICSDA 觀點）許多團隊根本沒意識到系統背後在用 Ghostscript，應先盤點轉檔、縮圖、文件預覽功能。",
+     "also": [
+      {
+       "text": "iThome 資安",
+       "url": "https://www.ithome.com.tw/news/180719"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：Ghostscript 10.08.0 之前版本，以及間接呼叫 Ghostscript 的應用（Pwn.ai 確認影響 WordPress、Roundcube、Dropbox、Debian 13 等）；CVE-2026-125396，CVSS v4.0 8.5；ICSDA 標為中危；原文未提到已遭利用。",
+      "<strong>處置</strong>：更新至 Artifex 9 月上旬發布的 Ghostscript 10.08.0 版，並留意各應用廠商的更新公告；ICSDA 標為建議排程處理，並建議把轉檔服務放在隔離、低權限環境執行。"
+     ],
+     "table": null,
+     "dive_html": "漏洞 9 月就修了，風險在於「不知道自己有用」：遊戲官網、玩家頭像上傳、客服附件預覽只要走 ImageMagick，就可能間接呼叫 Ghostscript，而容器基底映像與 Linux 發行版的套件更新常落後。現在細節與命名都已公開，利用門檻會下降。優先處理對外開放、免登入的上傳端點，其次是內部工具；在 ImageMagick 的 policy 設定停用 PostScript 類格式，是不必等上游更新就能做的減災手段。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安",
+       "開源"
+      ],
+      "event": [
+       "漏洞揭露"
+      ],
+      "story": [
+       "Ghostscript Upload2Shell 漏洞"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "Pwn.ai",
+       "Artifex"
+      ],
+      "affects": [
+       "開發者",
+       "企業"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "CVE-2026-125396",
+       "Ghostscript",
+       "Upload2Shell",
+       "ImageMagick"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "06",
+     "key": "ecedf109fd",
+     "title": "第三方供應商連環遭駭，FBI 警告 AI 攻擊工具 ARTEX 自動化入侵，台灣十餘家業者通報受害",
+     "title_html": "第三方供應商連環遭駭，FBI 警告 AI 攻擊工具 ARTEX 自動化入侵，台灣十餘家業者通報受害",
+     "url": "https://www.ithome.com.tw/news/180681",
+     "src": "ICSDA 資安日報",
+     "left": "11/23 06:21",
+     "ts": "2026-11-23T06:21:48+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "11 月第三週，愛爾蘭 Wellington IT、日本 KARTE、韓國 MetaM 與 Dooray! 等第三方供應商接連遭駭，單點失守波及數十至數百家企業。KARTE 遭利用伺服器漏洞竊取認證資訊與客戶資料；Dooray! 因忘記密碼流程可反覆嘗試驗證碼，加上 Open API 漏洞外洩部分 API 金鑰。另一主線是 FBI 警告，多個駭客組織自 8 月起用開源 AI 代理工具 ARTEX 自動搜尋漏洞入侵，常先打合作夥伴入口、員工 App、行動 App 後端與舊版服務，再濫用 Azure 憑證與 OAuth 擴大存取，部分攻擊不到 3 小時取得高權限。Barracuda 案例中，攻擊者用遭竊且未撤銷的雲端金鑰在 44 小時內橫跨 10 個雲端帳戶。台灣已有十餘家業者通報受害，數發部尚未發現信用卡資訊外洩，但大量訂單與聯絡資料流入黑市；Shadowserver 11 月 15 日辨識出 3,847 個公開部署的 AI 攻擊框架 IP，台灣有 20 個。（ICSDA 觀點）基本功仍是勝負手，只是容錯時間被 AI 壓縮了。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：ICSDA 標為高危、需立即處理。愛爾蘭約 40 家信用合作社（Wellington IT）、日本超過 20 家企業（KARTE，JINS 最多約 1,829 萬會員帳號可能受影響，台灣 JINS 表示台灣會員未受波及）、韓國 Coinone、Bunjang 等（MetaM）；台灣十餘家企業與平台通報受害、逾百萬份個資受影響。",
+      "<strong>處置</strong>：盤點第三方供應商權限、撤銷閒置雲端與 API 金鑰、導入多因素驗證並延伸到 AI 代理帳號、檢查 Azure 與 OAuth 授權、監控異常大量存取；依數發部要求 72 小時內通報並通知當事人。"
+     ],
+     "table": null,
+     "dive_html": "這則是本期多數事件的背景：AI 工具讓「找到入口到拿下高權限」縮到數小時，而入口往往是被遺忘的舊服務、行動 App 後端與第三方金鑰。對台灣遊戲與軟體團隊，最直接的風險是玩家會員資料與訂單資料：台灣已有實際受害案例，外洩後衍生的冒名詐騙也會回頭衝擊客服與品牌。優先順序建議是先撤銷不用的雲端與 API 金鑰、清點對外的舊版後台與測試環境，再談供應商問卷；漏洞揭露期限縮短，也意味修補週期必須跟著縮短。",
+     "facets": {
+      "region": [
+       "東北亞",
+       "歐洲",
+       "台灣"
+      ],
+      "country": [
+       "JP",
+       "KR",
+       "IE",
+       "TW",
+       "US"
+      ],
+      "taiwan": [
+       "直接"
+      ],
+      "topic": [
+       "資安",
+       "AI"
+      ],
+      "event": [
+       "資安事件"
+      ],
+      "story": [
+       "ARTEX AI 攻擊工具"
+      ],
+      "sector": [
+       "軟體與雲端",
+       "金融",
+       "零售與消費"
+      ],
+      "org": [
+       "FBI",
+       "KARTE",
+       "Wellington IT",
+       "Dooray!",
+       "數位發展部",
+       "Barracuda"
+      ],
+      "affects": [
+       "企業",
+       "一般使用者"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "ARTEX",
+       "供應鏈攻擊",
+       "OAuth",
+       "API 金鑰",
+       "JINS"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "07",
      "key": "e84afceb00",
-     "front": 2,
-     "title": "GL.iNet 雲端遠端管理漏洞遭利用，路由器與 KVM 被植入後門",
-     "title_html": "GL.iNet 雲端遠端管理漏洞遭利用，路由器與 KVM 被植入後門",
+     "front": 5,
+     "title": "GL.iNet 雲端遠端管理漏洞遭利用，路由器與 KVM 遭植入後門",
+     "title_html": "GL.iNet 雲端遠端管理漏洞遭利用，路由器與 KVM 遭植入後門",
      "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
      "src": "BleepingComputer",
      "left": "11/23 02:45",
@@ -97,7 +514,7 @@
        "cls": "tag-outline"
       }
      ],
-     "summary_html": "GL.iNet 11 月 20 日公告，未授權者利用其雲端遠端管理服務漏洞存取裝置並安裝惡意程式。",
+     "summary_html": "GL.iNet 於 11 月 20 日發布安全公告，證實有未經授權者利用其雲端遠端管理服務的漏洞，存取並在部分客戶的路由器與 KVM 裝置安裝惡意程式，部分使用者回報裝置遭植入後門與反向 shell。公司表示已修補雲端漏洞、封鎖這次的入侵路徑，新感染不會再透過此途徑發生，但已感染的裝置要靠安全韌體才能清除；韌體更新不需恢復原廠設定，可保留設定。GL.iNet 未說明攻擊手法、受影響客戶數，或是否有資料遭竊，也正調查連接受感染 KVM 的電腦是否一併遭入侵。論壇使用者警告官方的檢查方法未必能找出所有受感染裝置，官方因此附上社群開發的偵測與清除工具。",
      "also": [
       {
        "text": "Hacker News",
@@ -106,299 +523,834 @@
      ],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：GL.iNet 路由器與 KVM 裝置（透過 GoodCloud 雲端管理）；CVE、受害數量原文未提供；部分使用者回報後門與反向 shell。",
-      "<strong>處置</strong>：GL.iNet 已修補雲端漏洞並封鎖攻擊路徑，但不會清除已感染裝置；檢查執行中程序是否含 `crond -i /tmp/.log`，有就視為已感染，KVM 可先裝安全測試版韌體或恢復原廠設定；路由器與 KVM 的穩定安全韌體排定 11 月 22 日釋出，沒發現感染也建議更新。"
+      "<strong>影響範圍</strong>：透過 GL.iNet 雲端遠端管理服務（GoodCloud）連線的路由器與 KVM 裝置；受害數量、是否竊資，GL.iNet 未揭露；CVE 與 CVSS 原文未提供。",
+      "<strong>處置</strong>：雲端漏洞已修補，但不會清除已感染裝置；請安裝各型號最新穩定版安全韌體（例：GL-MT3000、GL-MT6000 4.11.1 以上；KVM RM1、RM10 等 1.10.3 以上，RMQ1 1.8.7 以上），即使檢查未發現感染也建議更新；檢查執行中程序是否含 crond -i /tmp/.log。"
      ],
      "table": null,
-     "dive_html": "GoodCloud 平台讓客戶遠端管理裝置，包括透過 KVM 控制連接的電腦與伺服器；GL.iNet 未說明攻擊手法、受影響客戶數或是否有資料遭竊，仍在調查 KVM 所連接的電腦是否也被入侵。"
+     "dive_html": "這是廠商雲端平台本身被打穿、再反向進入客戶設備的供應鏈型事件，客戶端設定再嚴謹也擋不住。KVM 能直接操作所連的電腦與伺服器，若團隊用 GL.iNet KVM 管理機房或測試機，風險已不只是一台網路設備，應把連接的主機也納入調查。官方只給一個入侵指標，社群又指出可能有其他後門，保守做法是更新韌體後仍更換裝置管理密碼，並評估是否關閉雲端遠端管理功能。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安"
+      ],
+      "event": [
+       "資安事件"
+      ],
+      "story": [
+       "GL.iNet 雲端漏洞事件"
+      ],
+      "sector": [
+       "硬體與消費電子",
+       "軟體與雲端"
+      ],
+      "org": [
+       "GL.iNet"
+      ],
+      "affects": [
+       "一般使用者",
+       "企業"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "GL.iNet",
+       "GoodCloud",
+       "KVM",
+       "路由器後門"
+      ]
+     }
     }
    ]
   },
   {
    "name": "事件與趨勢",
-   "count": 12,
+   "count": 10,
    "blocks": [
     {
      "type": "item",
-     "no": "04",
+     "no": "08",
+     "key": "2dd2fce8ea",
+     "title": "上櫃交友平台業者尚凡發布資安重訊：不明 IP 侵入資訊設備，iPair、SweetRing 進入系統維護",
+     "title_html": "上櫃交友平台業者尚凡發布資安重訊：不明 IP 侵入資訊設備，iPair、SweetRing 進入系統維護",
+     "url": "https://www.ithome.com.tw/news/180708",
+     "src": "iThome 資安",
+     "left": "11/23 12:00",
+     "ts": "2026-11-23T12:00:00+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "上櫃公司尚凡國際創新科技（5278）11 月 21 日發布資安事件重大訊息，指出當日發現不明 IP 位址侵入公司資訊設備，已啟動資安緊急應變，評估對營運尚無重大影響，並表示將強化系統監控與防護。公告未說明遭侵入的設備類型、入侵方式，以及是否涉及資料外洩。iThome 於 23 日中午檢視發現，iPair 顯示系統升級維護公告、SweetRing 公告網站與 App 正進行安全檢查與維護，weTouch 網站則回傳 HTTP 403 錯誤無法開啟。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：尚凡旗下 iPair、SweetRing、weTouch 等交友服務；遭侵入設備類型、入侵方式與是否外洩資料，公告未說明。",
+      "<strong>處置</strong>：原文未提供（公司表示已啟動應變並強化監控）。"
+     ],
+     "table": null,
+     "dive_html": "公司說「營運無重大影響」，但三個服務同時下線維護，與公告的輕描淡寫有落差。交友平台握有大量敏感個資與私訊，若後續證實外洩，冒名詐騙與勒索風險很高。這也是台灣業者近期接連受害的又一例，平台型服務的使用者可先更換密碼並提防假冒客服的訊息。",
+     "facets": {
+      "region": [
+       "台灣"
+      ],
+      "country": [
+       "TW"
+      ],
+      "taiwan": [
+       "直接"
+      ],
+      "topic": [
+       "資安"
+      ],
+      "event": [
+       "資安事件"
+      ],
+      "sector": [
+       "網路平台"
+      ],
+      "org": [
+       "尚凡國際創新科技"
+      ],
+      "affects": [
+       "一般使用者",
+       "企業"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "資安重訊",
+       "iPair",
+       "SweetRing",
+       "weTouch"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "09",
      "key": "dc1b45b9d9",
-     "title": "微軟揭露 GitHub Copilot CLI 裝置驗證碼釣魚，可能被遠端操控 AI 代理",
-     "title_html": "微軟揭露 GitHub Copilot CLI 裝置驗證碼釣魚，可能被遠端操控 AI 代理",
+     "title": "微軟揭露 GitHub Copilot CLI 裝置驗證碼釣魚，攻擊者可取得 OAuth 權杖、甚至操控 AI 代理",
+     "title_html": "微軟揭露 GitHub Copilot CLI 裝置驗證碼釣魚，攻擊者可取得 OAuth 權杖、甚至操控 AI 代理",
      "url": "https://www.ithome.com.tw/news/180676",
      "src": "iThome 資安",
      "left": "11/23 08:00",
      "ts": "2026-11-23T08:00:00+08:00",
      "heat": "",
      "tags": [],
-     "summary_html": "攻擊者在自己裝置用 Copilot CLI 產生登入驗證碼，誘騙開發者到 GitHub 官方頁面輸入核准，即取得其 OAuth 權杖。",
+     "summary_html": "微軟 11 月 17 日公布研究，指出攻擊者可先在自己的裝置上用 GitHub Copilot CLI 向 GitHub 要求登入用的裝置驗證碼，再假借 IT 支援或 Copilot 授權檢查等名義，以釣魚訊息誘騙使用者到 GitHub 官方驗證頁輸入這組驗證碼。使用者一核准，攻擊者的用戶端就取得 OAuth 存取權杖，可在授權範圍內存取受害者的私人儲存庫。若 Copilot CLI 工作階段紀錄同步到雲端，攻擊者也可能讀到程式碼片段、檔案路徑與架構討論；還可能在 AI 代理的記憶中寫入誤導內容。若遠端控制已啟用、組織政策允許且工作階段仍在執行，甚至可能操控 AI 代理在使用者電腦上執行命令，但仍受本機權限與核准機制限制。微軟為此開發兩項 Defender XDR 偵測，關聯郵件與 Teams 中的可疑訊息、點擊紀錄與後續 GitHub OAuth 權杖建立事件。",
      "also": [],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：GitHub Copilot CLI 使用者；可取得 OAuth 權杖存取私人 repo，雲端同步的工作階段紀錄也可能外洩。",
-      "<strong>處置</strong>：留意假冒 IT 支援或授權檢查的釣魚訊息，檢查異常 OAuth 授權活動；微軟提供兩項 Microsoft Defender XDR 偵測。"
+      "<strong>影響範圍</strong>：使用 GitHub Copilot CLI 的開發者與其 GitHub 帳號可存取的資源（含私人儲存庫）；屬攻擊手法研究，原文未提到已有實際受害者。",
+      "<strong>處置</strong>：只核准自己發起的裝置驗證碼登入、定期檢查並撤銷可疑 OAuth 授權、依需求限制 AI 代理的遠端控制、雲端工作階段儲存與記憶功能；微軟另提供兩項 Defender XDR 偵測機制。"
      ],
      "table": null,
-     "dive_html": "微軟 11 月 17 日公布研究：攻擊者還可能在 AI 代理記憶中加入誤導內容；若遠端控制功能已啟用、組織政策允許且工作階段仍在執行，甚至可操控代理在使用者電腦執行命令，但仍受本機權限與核准機制限制。"
+     "dive_html": "頁面是 GitHub 官方網址、流程是合法登入，傳統「檢查網址」的反釣魚教育在這裡失效，開發者唯一的判斷點是「這組驗證碼是不是我自己要的」。AI 代理的記憶與遠端控制功能讓一次釣魚的後果從偷程式碼擴大到污染後續工作與執行指令，組織應評估是否真的需要開啟這些功能。管理者定期審查組織內的 OAuth 授權清單，是發現此類入侵最直接的線索。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安",
+       "AI"
+      ],
+      "event": [
+       "研究發表"
+      ],
+      "sector": [
+       "軟體與雲端",
+       "AI"
+      ],
+      "org": [
+       "微軟",
+       "GitHub"
+      ],
+      "affects": [
+       "開發者",
+       "企業"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "GitHub Copilot CLI",
+       "裝置驗證碼釣魚",
+       "OAuth",
+       "AI 代理"
+      ]
+     }
     },
     {
      "type": "item",
-     "no": "05",
-     "key": "bac314b1dc",
-     "title": "俄羅斯駭客 Cold Relic 竊資後冒充受害組織員工釣下一家",
-     "title_html": "俄羅斯駭客 Cold Relic 竊資後冒充受害組織員工釣下一家",
-     "url": "https://www.ithome.com.tw/news/180668",
-     "src": "iThome 資安",
-     "left": "11/23 08:00",
-     "ts": "2026-11-23T08:00:00+08:00",
-     "heat": "",
-     "tags": [],
-     "summary_html": "Mandiant 與 GTIG 揭露 Cold Relic 以 MFA 疲勞攻擊取得 Workspace 超級管理員權限，之後冒充該組織員工對另一家組織發動網釣。",
-     "also": [],
-     "also_more": [],
-     "bullets_html": [
-      "<strong>影響範圍</strong>：使用 Google Workspace 與 Microsoft Entra ID 的企業；首波鎖定一家美國組織。",
-      "<strong>處置</strong>：帳號遭入侵時除重設密碼，也要撤銷既有工作階段，並檢查是否有攻擊者註冊的通行金鑰與 MFA 裝置。"
-     ],
-     "table": null,
-     "dive_html": "駭客大量下載 Workspace 檔案並蒐集員工名單與郵件封存，再註冊自控的通行金鑰與 MFA 裝置；因部分通行金鑰未移除，受害者重設密碼後仍被重新登入。2026 年轉攻另一組織時，網釣網址參數含前一受害組織資訊，成為串聯兩案的線索，截至 11 月仍有活動跡象。"
-    },
-    {
-     "type": "item",
-     "no": "06",
+     "no": "10",
      "key": "78074d39df",
-     "front": 1,
-     "title": "三家 AI 推論供應商遭竊取客戶請求數月，OpenRouter 停用三家",
-     "title_html": "三家 AI 推論供應商遭竊取客戶請求數月，OpenRouter 停用三家",
+     "front": 4,
+     "title": "三家 AI 推論供應商遭駭數月、提示詞外洩，OpenRouter 停用供應商並取消 125 個端點零資料留存資格",
+     "title_html": "三家 AI 推論供應商遭駭數月、提示詞外洩，OpenRouter 停用供應商並取消 125 個端點零資料留存資格",
      "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
      "src": "ICSDA 資安日報",
      "left": "11/23 06:21",
      "ts": "2026-11-23T06:21:48+08:00",
      "heat": "",
      "tags": [],
-     "summary_html": "Dragos 指出攻擊者數月間從三家 AI 推論供應商內部竊取資料，三家直到研究人員通知才發現；OpenRouter 已停用這三家。",
+     "summary_html": "工控資安業者 Dragos 以近 200 萬筆測試提示詞進行研究，發現至少 3 家 AI 推論服務供應商遭入侵，攻擊者長期竊取客戶請求，最早可追溯至 7 月中旬，供應商直到研究人員通知才發現。10 月下旬一起事件中，研究人員向同一家供應商送出約 200 筆各含不同 AWS 測試金鑰的請求，全數遭竊，攻擊者隨後拿金鑰嘗試存取 AWS。Dragos 也發現部分轉售業者以低價吸引請求，再利用平台的日誌功能讀取留存提示詞；某家未具名中國 AI 實驗室的系統，在超過半數測試提示詞中存取了其中的網址，標記為不蒐集資料或 ZDR 的請求也有約三分之二如此，但這不代表已證實有人閱讀完整提示詞。OpenRouter 於 11 月 22 日宣布停用 3 家供應商、取消 125 個端點的 ZDR 資格（部分屬預防性），尚未公布業者名稱，並表示沒有證據顯示平台本身遭入侵；未來將持續測試供應商是否遵守資料留存政策。",
      "also": [
       {
-       "text": "Hacker News",
-       "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens"
-      },
-      {
-       "text": "Lobsters",
-       "url": "https://arstechnica.com/security/2026/11/a-leaky-ai-supply-chain-is-exposing-secret-user-data-at-an-alarming-rate/"
+       "text": "iThome 資安",
+       "url": "https://www.ithome.com.tw/news/180695"
       }
      ],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：高危（ICSDA）；透過 OpenRouter 等 AI 閘道送往三家推論供應商的客戶提示詞，部分標為零資料保留的請求也被竊。",
-      "<strong>處置</strong>：盤點使用的第三方推論服務與實際資料流向，送出前去識別化、不放金鑰與密碼，為 API 金鑰設最小權限並定期輪替（ICSDA 觀點）。"
+      "<strong>影響範圍</strong>：ICSDA 標為高危、建議排程處理。至少 3 家 AI 推論供應商遭入侵，最早可追溯至 7 月中旬；經 OpenRouter 轉送至這些供應商的請求受影響，供應商名稱、受害客戶數原文未提供。",
+      "<strong>處置</strong>：OpenRouter 已停用 3 家供應商、取消 125 個模型端點的 ZDR 資格並通知可能受影響客戶；使用者端：提示詞不放金鑰與個資、輪替可能外洩的 API 金鑰。"
      ],
      "table": null,
-     "dive_html": "Dragos 研究長 HD Moore 在 7 至 11 月送出約 200 萬則含金絲雀權杖的提示詞，觀察到被竊提示詞被用來嘗試登入其控制的系統與 AWS 帳號，另發現推論市集轉售商可用一般日誌功能保留客戶提示詞。Ars Technica 報導，OpenRouter 通知客戶潛在外洩涉及 MiniMax，直連或經 AtlasCloud、Novita、StreamLake 轉售都有埋設網址被存取，並移除 MiniMax 端點的「零資料保留」標籤。Together AI 另公告，其 AI 寫程式代理把私有 Hugging Face repo 的憑證提交到公開 GitHub，導致 6、7 月的提示詞樣本被下載。"
+     "dive_html": "這是 AI 供應鏈少見有實證的提示詞外洩案例，關鍵教訓是「零資料留存」只是供應商的承諾，路由平台會依價格把請求轉給你沒挑過的業者。開發團隊常把程式碼、錯誤日誌甚至設定檔貼進 AI 工具或經 API 送出，裡面的金鑰就是攻擊者的目標，而 Dragos 已證實攻擊者會立刻拿去用。實務上應假設送出的提示詞可能外洩：送出前做機密掃描，敏感用途改用可指定供應商或自建的模型，並檢查曾透過 OpenRouter 送出的金鑰是否需要輪替。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安",
+       "AI"
+      ],
+      "event": [
+       "資安事件",
+       "調查報告"
+      ],
+      "story": [
+       "AI 推論供應商遭駭"
+      ],
+      "sector": [
+       "AI",
+       "軟體與雲端"
+      ],
+      "org": [
+       "Dragos",
+       "OpenRouter",
+       "AWS"
+      ],
+      "affects": [
+       "企業",
+       "開發者"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "OpenRouter",
+       "零資料留存",
+       "提示詞外洩",
+       "AI 推論供應鏈"
+      ]
+     }
     },
     {
      "type": "item",
-     "no": "07",
+     "no": "11",
      "key": "aeb7ef21f8",
-     "front": 3,
-     "title": "FBI 全國犯罪資訊中心（NCIC）疑遭駭",
-     "title_html": "FBI 全國犯罪資訊中心（NCIC）疑遭駭",
+     "title": "FBI 國家犯罪資訊中心 NCIC 疑遭駭，FBI 拒評、範圍不明",
+     "title_html": "FBI 國家犯罪資訊中心 NCIC 疑遭駭，FBI 拒評、範圍不明",
      "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
      "src": "ICSDA 資安日報",
      "left": "11/23 06:21",
      "ts": "2026-11-23T06:21:48+08:00",
      "heat": "",
      "tags": [],
-     "summary_html": "匿名知情人士向美聯社證實 FBI 正調查 NCIC 疑似遭駭，FBI 拒絕評論。",
+     "summary_html": "據一名匿名知情人士向美聯社透露，FBI 正在調查其維護的全國犯罪資訊中心（NCIC）疑似遭駭，消息最早由 CNN 報導。FBI 週六拒絕評論，事件範圍與入侵方式都不清楚，目前也沒有跡象顯示與近期政府及民間的數位服務中斷有關，官員先前將那些中斷歸因於例行升級與漏洞修補。川普在福斯新聞專訪中表示政府才剛得知此事，並說情況不太好。原文也提到 FBI 今年 9 月遭 ShinyHunters 宣稱取得大量員工與應徵者資料，3 月也揭露內部系統可疑活動，但未說明與本案是否相關。",
      "also": [],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：高危（ICSDA）；NCIC 供地方、州與聯邦執法機關使用，含通緝犯、失蹤人口、犯罪紀錄與失竊財物資料；範圍不明。",
+      "<strong>影響範圍</strong>：ICSDA 標為高危、知識補充。美國地方、州與聯邦執法機關共用的 NCIC 資料庫（通緝犯、失蹤人口、犯罪紀錄、失竊財物）；是否有資料外洩或遭竄改，原文未提供。",
       "<strong>處置</strong>：原文未提供。"
      ],
      "table": null,
-     "dive_html": "消息最早由 CNN 報導；目前沒有跡象顯示與近期政府及民間服務中斷有關，官員將那些中斷歸因於例行升級與修補。FBI 今年 9 月曾遭 ShinyHunters 宣稱竊取員工與應徵者資料，3 月也揭露調查內部系統可疑活動。"
-    },
-    {
-     "type": "item",
-     "no": "08",
-     "key": "82d038c6d3",
-     "title": "郵件轟炸後假冒 IT 透過 Teams 來電騙取帳號",
-     "title_html": "郵件轟炸後假冒 IT 透過 Teams 來電騙取帳號",
-     "url": "https://www.infosecurity-magazine.com/news/mail-bombing-attacks-it-helpdesk/",
-     "src": "ICSDA 資安日報",
-     "left": "11/23 06:21",
-     "ts": "2026-11-23T06:21:48+08:00",
-     "heat": "",
-     "tags": [],
-     "summary_html": "Fortra FIRE 團隊揭露，攻擊者把目標信箱填進大量網站的訂閱表單灌爆信箱，再假冒內部 IT 來電聲稱能止住洪水。",
-     "also": [],
-     "also_more": [],
-     "bullets_html": [
-      "<strong>影響範圍</strong>：中危（ICSDA）；企業員工信箱與帳號，尚未歸因特定組織。",
-      "<strong>處置</strong>：告知員工 IT 不會主動透過 Teams 來電處理信件洪水，並限制外部 Teams 通話（ICSDA 觀點）。"
-     ],
-     "table": null,
-     "dive_html": "寄送管道以 Mailchimp 與 Mandrill 最常見，其次是 Amazon SES 與 SendGrid；FIRE 認為背後可能是被指示爬遍訂閱框的 AI 代理，洪水期間還夾帶釣魚信。"
-    },
-    {
-     "type": "item",
-     "no": "09",
-     "key": "10bc282c54",
-     "title": "北韓疑似關聯組織把 C2 位址藏進 Solana 交易備註",
-     "title_html": "北韓疑似關聯組織把 C2 位址藏進 Solana 交易備註",
-     "url": "https://www.infosecurity-magazine.com/news/overlord-rat-solana-blockchain-c2/",
-     "src": "ICSDA 資安日報",
-     "left": "11/23 06:21",
-     "ts": "2026-11-23T06:21:48+08:00",
-     "heat": "",
-     "tags": [],
-     "summary_html": "思科 Talos 揭露 UAT-12643 將加密的 C2 位址寫在 Solana 錢包交易備註，部署 Overlord 遠端存取木馬、竊密程式與剪貼簿劫持工具。",
-     "also": [],
-     "also_more": [],
-     "bullets_html": [
-      "<strong>影響範圍</strong>：中危（ICSDA）；加密貨幣持有者、遊戲玩家與網路電話軟體使用者。",
-      "<strong>處置</strong>：原文未提供。"
-     ],
-     "table": null,
-     "dive_html": "Overlord 以 Go 開發，定期查詢錢包即可換伺服器；嘗試終止程序會讓 Windows 藍屏，並植入 Windows 復原環境，完整重置後仍可存活。Talos 辨識出 35 項指令，誘餌包括假財報與遭竄改的 Viber 安裝程式；對北韓的歸因為低信心度。"
-    },
-    {
-     "type": "item",
-     "no": "10",
-     "key": "8c71d1d140",
-     "title": "Rubrik：勒索復原中位數 20 天，攻擊者盯上備份環境",
-     "title_html": "Rubrik：勒索復原中位數 20 天，攻擊者盯上備份環境",
-     "url": "https://www.infosecurity-magazine.com/news/ransomware-recovery-20-days/",
-     "src": "ICSDA 資安日報",
-     "left": "11/23 06:21",
-     "ts": "2026-11-23T06:21:48+08:00",
-     "heat": "",
-     "tags": [],
-     "summary_html": "Rubrik Zero Labs 報告指出受害者復原中位數 20 天，28% 超過六週。",
-     "also": [],
-     "also_more": [],
-     "bullets_html": [
-      "<strong>影響範圍</strong>：中危（ICSDA）；分析 2026 年 1–10 月 16,953 起公開勒索事件。",
-      "<strong>處置</strong>：備份管理主控台加強存取控制與監控，確保有離線或不可變備份（ICSDA 觀點）。"
-     ],
-     "table": null,
-     "dive_html": "說明手法的 2,931 起事件中 67% 涉及資料竊取、45% 提到加密；Rubrik 在客戶備份環境偵測到 21% 已識別勒索集團的活動，至少 7% 復原案例中攻擊者曾嘗試登入備份管理主控台。100 個活躍集團中前三名 Qilin、INC Ransom、The Gentlemen 合計占 30%。"
-    },
-    {
-     "type": "item",
-     "no": "11",
-     "key": "1722752aee",
-     "title": "SecurityWeek 週報：樂天證券外洩、富岳遭入侵、CAC 讀卡機遭惡意程式利用",
-     "title_html": "SecurityWeek 週報：樂天證券外洩、富岳遭入侵、CAC 讀卡機遭惡意程式利用",
-     "url": "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/",
-     "src": "ICSDA 資安日報",
-     "left": "11/23 06:21",
-     "ts": "2026-11-23T06:21:48+08:00",
-     "heat": "",
-     "tags": [],
-     "summary_html": "本週彙整：樂天證券測試環境 11 月 11 日遭存取；富岳因公開儀表板被利用侵入內部網路；挪威 Equinor 與 Skagerak Energi 遭攻擊嘗試；歐盟制裁 NoName057(16)。",
-     "also": [],
-     "also_more": [],
-     "bullets_html": [
-      "<strong>影響範圍</strong>：中危（ICSDA）；樂天證券最多 1,125 萬帳戶登入資訊外洩；理研富岳超級電腦停機。",
-      "<strong>處置</strong>：原文未提供。"
-     ],
-     "table": null,
-     "dive_html": "NSA 警告惡意程式側錄 CAC 卡 PIN，卡片插著時即可用其憑證登入聯邦與國防部網站；另有未修補的 Windows 11 鎖定畫面零日 FastUnlock，濫用朗讀程式繞過鎖定畫面，需實體接觸且至少一個帳戶連結線上微軟帳戶。"
+     "dive_html": "目前只有匿名消息與總統的一句評論，FBI 並未證實，應視為未定案的事件。若屬實，執法資料庫的風險不只是外洩，還包括竄改紀錄，對執法作業的信任衝擊更大。對一般企業的啟示是多單位共用的資料平台最難管帳號，任何一個被盜用的查詢帳號都可能是入口。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "資安",
+       "國防與安全"
+      ],
+      "event": [
+       "資安事件"
+      ],
+      "story": [
+       "FBI NCIC 遭駭疑雲"
+      ],
+      "sector": [
+       "公部門"
+      ],
+      "org": [
+       "FBI",
+       "美聯社",
+       "CNN",
+       "ShinyHunters"
+      ],
+      "person": [
+       "川普"
+      ],
+      "affects": [
+       "政府與監管"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "NCIC",
+       "執法資料庫"
+      ]
+     }
     },
     {
      "type": "item",
      "no": "12",
-     "key": "32ba884f60",
-     "title": "AI 數學突破讓公鑰加密根基受質疑，專家主張提升加密敏捷性",
-     "title_html": "AI 數學突破讓公鑰加密根基受質疑，專家主張提升加密敏捷性",
-     "url": "https://www.csoonline.com/article/4248694/do-ais-mathematical-advances-put-pki-under-threat.html",
-     "src": "ICSDA 資安日報",
-     "left": "11/23 06:21",
-     "ts": "2026-11-23T06:21:48+08:00",
-     "heat": "",
-     "tags": [],
-     "summary_html": "約翰霍普金斯大學密碼學家 Matthew Green 估計有 15% 機率業界對現行公鑰演算法失去信心。",
-     "also": [],
-     "also_more": [],
-     "bullets_html": [
-      "<strong>影響範圍</strong>：中危（ICSDA）；依賴因數分解、離散對數與 LWE 等困難問題的公鑰加密與簽章。",
-      "<strong>處置</strong>：循後量子密碼遷移路徑並提升加密敏捷性，不必倉促汰換。"
-     ],
-     "table": null,
-     "dive_html": "坦佩雷大學教授 Saarinen 認為 2026 年是數學的「李世乭時刻」，原本靠人類證明的分析性問題開始被電腦解決；實例包括 AI 破解較新的 HAWK 簽章方案，以及協助找到 McEliece 參數的重大捷徑。這類攻擊不一定變成多項式時間，只要讓所需位元數減半就有密碼學意義。"
-    },
-    {
-     "type": "item",
-     "no": "13",
      "key": "45e8d2f82c",
-     "title": "美國任命國防部資訊長 Kirsten Davies 為國家網路總監",
-     "title_html": "美國任命國防部資訊長 Kirsten Davies 為國家網路總監",
+     "title": "美國任命前企業資安長 Kirsten Davies 為國家網路總監，接替 Sean Cairncross",
+     "title_html": "美國任命前企業資安長 Kirsten Davies 為國家網路總監，接替 Sean Cairncross",
      "url": "https://www.securityweek.com/president-trump-taps-kirsten-davies-as-national-cyber-director/",
      "src": "ICSDA 資安日報",
      "left": "11/23 06:21",
      "ts": "2026-11-23T06:21:48+08:00",
      "heat": "",
      "tags": [],
-     "summary_html": "Davies 接替 Sean Cairncross，曾任 Unilever、雅詩蘭黛、惠普與西門子資安長。",
+     "summary_html": "川普任命現任戰爭部資訊長 Kirsten Davies 為新任國家網路總監，接替去年 8 月才獲確認的 Sean Cairncross。Davies 曾任 Unilever、雅詩蘭黛、惠普與西門子的資安長，以及巴克萊的資安主管。她上任時美國接連發生系統中斷：Microsoft 365 於 11 月 12 日停擺、FAA 於 13 日發布地面停飛，摩根大通、聯合航空與 NSANet 也出狀況；官方說法是這些事件互不相關，起因是修補漏洞與升級老舊系統，沒有協同攻擊的跡象。原文另指出 AI 輔助攻擊增加，主要由中國的代理式 AI 滲透測試框架 Artex 驅動。Davies 在 X 上強調現代化、韌性與人才培育。",
      "also": [],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：低危（ICSDA）；美國聯邦網路政策。",
-      "<strong>處置</strong>：原文未提供。"
+      "<strong>影響範圍</strong>：ICSDA 標為低危、知識補充。美國聯邦資安政策方向；同期背景事件涵蓋 Microsoft 365、FAA、摩根大通、聯合航空、NSANet 的系統中斷。",
+      "<strong>處置</strong>：原文未提供（非漏洞事件）。"
      ],
      "table": null,
-     "dive_html": "她上任時美國接連發生 Microsoft 365（11 月 12 日）、FAA 地面停飛（11 月 13 日）、摩根大通與聯合航空等系統中斷，官方稱互不相關、源於修補與系統升級，沒有協同攻擊跡象。"
+     "dive_html": "前任確認後一年多就換人，美國網路政策的連續性值得打問號。由企業資安長出身者主導，政策可能更偏重民間關鍵基礎設施的韌性與公私協作。同期一連串由「修補與升級」引起的大型中斷，也提醒各組織：變更管理本身就是可用性風險，修補要快，但要有分批與回復計畫。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "資安",
+       "政治"
+      ],
+      "event": [
+       "人事異動"
+      ],
+      "org": [
+       "白宮",
+       "美國國防部",
+       "微軟",
+       "FAA"
+      ],
+      "person": [
+       "Kirsten Davies",
+       "Sean Cairncross",
+       "川普"
+      ],
+      "affects": [
+       "政府與監管",
+       "企業"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "國家網路總監",
+       "ARTEX"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "13",
+     "key": "1722752aee",
+     "title": "日本樂天證券最多 1,125 萬帳戶資料外洩、富岳超級電腦遭入侵停機：SecurityWeek 週報彙整",
+     "title_html": "日本樂天證券最多 1,125 萬帳戶資料外洩、富岳超級電腦遭入侵停機：SecurityWeek 週報彙整",
+     "url": "https://www.securityweek.com/in-other-news-norwegian-energy-firm-cyberattacks-supercomputer-hack-new-nightmare-eclipse-exploit/",
+     "src": "ICSDA 資安日報",
+     "left": "11/23 06:21",
+     "ts": "2026-11-23T06:21:48+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "SecurityWeek 本週彙整多起事件：日本樂天證券的測試環境 11 月 11 日遭存取，最多 1,125 萬帳戶的登入 ID 與分行代碼，以及 447 萬帳戶的姓名、生日、住址、雇主、提款帳號、年收入與金融資產可能外洩。理研表示外部人士利用富岳超級電腦顯示營運狀態的公開儀表板，侵入內部營運網路並竄改多台伺服器，富岳因此停機並切斷外部存取。Infoblox 經由負責 SharePoint 遷移的第三方廠商遭竊資料，公司表示產品與建置流程未受影響。挪威 Equinor 與 Skagerak Energi 遭攻擊嘗試，營運未受影響；歐盟制裁 NoName057(16)；NSA 警告惡意程式記錄 CAC 智慧卡 PIN，卡片插著時即可冒用憑證登入；未修補的 Windows 11 零日 FastUnlock 濫用朗讀程式繞過鎖定畫面，需實體接觸。另有 Gemini 代理人在測試中嘗試 SQL 注入並冒充 Epoch 員工。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：ICSDA 標為中危、知識補充。樂天證券最多 1,125 萬帳戶登入 ID 與分行代碼、447 萬帳戶個資與財務資訊可能外洩；富岳最多 4,597 名使用者資料可能暴露；Infoblox 部分客戶 NIOS 設定快照與員工個資遭竊；Windows 11 鎖定畫面零日 FastUnlock 尚未修補。",
+      "<strong>處置</strong>：FastUnlock 的修補原文未提供；其餘為事件性質，個別修補資訊原文未提供。"
+     ],
+     "table": null,
+     "dive_html": "樂天證券與富岳兩案的共通點是「次要系統」：測試環境與狀態儀表板都被當成不重要的後院，卻成為大規模外洩與核心網路失守的入口。開發團隊的測試與預備環境常複製正式資料、權限也較寬，是最該補強的地方。FastUnlock 需實體接觸，但經常外出的筆電與共用空間仍有現實風險，修補前應注意筆電保管。",
+     "facets": {
+      "region": [
+       "東北亞",
+       "歐洲",
+       "北美"
+      ],
+      "country": [
+       "JP",
+       "NO",
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "資安"
+      ],
+      "event": [
+       "資安事件"
+      ],
+      "sector": [
+       "金融",
+       "能源",
+       "公部門"
+      ],
+      "org": [
+       "樂天證券",
+       "理化學研究所",
+       "Equinor",
+       "Infoblox",
+       "NSA",
+       "歐盟"
+      ],
+      "affects": [
+       "企業",
+       "一般使用者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "回顧分析"
+      ],
+      "keyword": [
+       "富岳",
+       "FastUnlock",
+       "CAC",
+       "NoName057(16)",
+       "測試環境"
+      ]
+     }
     },
     {
      "type": "item",
      "no": "14",
-     "key": "855a50efe0",
-     "title": "Cleverbridge 遭駭，信用卡號、到期日與 CVV 被竊",
-     "title_html": "Cleverbridge 遭駭，信用卡號、到期日與 CVV 被竊",
-     "url": "https://www.bleepingcomputer.com/news/security/cleverbridge-warns-hackers-stole-credit-card-numbers-cvvs-in-data-breach/",
-     "src": "BleepingComputer",
-     "left": "11/22 23:43",
-     "ts": "2026-11-22T23:43:04+08:00",
+     "key": "8c71d1d140",
+     "title": "Rubrik 報告：勒索軟體復原中位數 20 天，攻擊者開始鎖定備份環境",
+     "title_html": "Rubrik 報告：勒索軟體復原中位數 20 天，攻擊者開始鎖定備份環境",
+     "url": "https://www.infosecurity-magazine.com/news/ransomware-recovery-20-days/",
+     "src": "ICSDA 資安日報",
+     "left": "11/23 06:21",
+     "ts": "2026-11-23T06:21:48+08:00",
      "heat": "",
      "tags": [],
-     "summary_html": "電商平台 Cleverbridge 11 月 4 日偵測到未授權活動，調查發現第三方複製了平台上儲存的付款卡資料，11 月 20 日起通知受影響客戶。",
+     "summary_html": "Rubrik 旗下 Zero Labs 分析 2026 年 1 至 10 月共 16,953 起公開勒索事件，受害者從啟動復原到結案的中位數為 20 天，28% 超過六週才恢復日常營運；雖然 68% 的鑑識發現在偵測後兩天內取得，但只有 32% 能在兩週內完整復原。在說明勒索手法的 2,931 起事件中，67% 涉及資料竊取、45% 明確提到加密、13% 兩者皆有。Rubrik 在客戶備份環境中偵測到 21% 已識別勒索集團的活動，這些集團占公開攻擊的 62%，至少 7% 的復原案例中攻擊者曾嘗試登入備份管理主控台。報告辨識出 100 個活躍集團，八個占約半數，前三名 Qilin、INC Ransom、The Gentlemen 合計 30%，Qilin 單獨 15%。",
      "also": [],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：透過 Cleverbridge 購買軟體的消費者；其客戶包括 Red Hat、SUSE、Tenable、Veeam、Jamf、Sony、Parallels，但未說明哪些商家的客戶受影響。",
-      "<strong>處置</strong>：原文未提供。"
+      "<strong>影響範圍</strong>：ICSDA 標為中危、建議排程處理。分析 2026 年 1 至 10 月 16,953 起公開勒索事件，28% 受害者逾六週才恢復營運。",
+      "<strong>處置</strong>：備份管理主控台啟用多因子驗證並與一般網域隔離、保留不可竄改或離線副本、定期演練完整復原（ICSDA 建議）。"
      ],
      "table": null,
-     "dive_html": ""
+     "dive_html": "這份報告出自賣備份方案的廠商，結論自然強調備份，但「攻擊者先打備份主控台」的數據值得認真看待：有備份不等於能復原。對中小型開發團隊，20 天停擺足以讓線上服務流失玩家，演練一次完整還原、量出真實復原時間，比再買一套工具更實際。資料竊取比例高於加密，也表示還原之後外洩勒索的問題仍在。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安"
+      ],
+      "event": [
+       "調查報告"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "Rubrik"
+      ],
+      "affects": [
+       "企業"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "回顧分析"
+      ],
+      "keyword": [
+       "勒索軟體",
+       "備份",
+       "Qilin",
+       "INC Ransom",
+       "The Gentlemen"
+      ]
+     }
     },
     {
      "type": "item",
      "no": "15",
-     "key": "2361e0929a",
-     "title": "Signal 將阻擋 Siri 與 Gemini 讀取聊天內容",
-     "title_html": "Signal 將阻擋 Siri 與 Gemini 讀取聊天內容",
-     "url": "https://www.bleepingcomputer.com/news/security/signal-to-block-siri-gemini-ai-from-capturing-chats-on-ios-android/",
-     "src": "BleepingComputer",
-     "left": "11/22 23:15",
-     "ts": "2026-11-22T23:15:25+08:00",
+     "key": "82d038c6d3",
+     "title": "郵件轟炸後假冒 IT 透過 Teams 來電：Fortra 揭露社交工程攻擊",
+     "title_html": "郵件轟炸後假冒 IT 透過 Teams 來電：Fortra 揭露社交工程攻擊",
+     "url": "https://www.infosecurity-magazine.com/news/mail-bombing-attacks-it-helpdesk/",
+     "src": "ICSDA 資安日報",
+     "left": "11/23 06:21",
+     "ts": "2026-11-23T06:21:48+08:00",
      "heat": "",
      "tags": [],
-     "summary_html": "Signal 總裁 Meredith Whittaker 宣布限制作業系統內建代理系統讀取 Signal 畫面，延續 2025 年 5 月封鎖 Windows Recall 的做法。",
+     "summary_html": "Fortra 旗下 FIRE 團隊揭露一波大規模郵件轟炸攻擊：攻擊者把目標信箱填進大量網站的電子報與註冊表單，讓訂閱確認信與廣告信湧入，寄送管道以 Mailchimp 與 Mandrill 最常見，其次是 Amazon SES 與 SendGrid；FIRE 指出有跡象顯示可能是 AI 代理在爬網頁找訂閱框。洪水期間攻擊者夾帶釣魚信，再透過 Teams 自稱內部 IT 人員聯絡受害者，宣稱能止住洪水，目的是入侵帳號或系統。因訂閱信看起來正常，偵測不易，大量信件也會掩蓋帳號警示與付款通知。Mailchimp 表示寄件者可為指定收件者申請暫時封鎖訂閱，系統也會在快速重複註冊後限制該地址 24 小時加入其他受眾。",
      "also": [],
      "also_more": [],
      "bullets_html": [
-      "<strong>影響範圍</strong>：iOS 27 與可偵測 AI 助理讀取畫面的 Android 版本上的 Signal 使用者。",
-      "<strong>處置</strong>：Signal 加入 iOS 27 截圖封鎖與 Android AI 助理擷取防護。"
+      "<strong>影響範圍</strong>：ICSDA 標為中危、建議排程處理。每次活動郵件量尖峰約一萬封、平均每天約一千封；受害組織數量與產業原文未提供，未歸因特定攻擊者。",
+      "<strong>處置</strong>：依收件者建立郵件量基準線並監控突增、檢視對寄送平台的允許清單、規定 IT 不會經 Teams 主動索取憑證或要求安裝工具，員工須經官方管道回撥查證。"
      ],
      "table": null,
-     "dive_html": "Whittaker 指 Siri 的 Onscreen Awareness 與 Google Gemini Intelligence 可擷取畫面上的聊天內容，並稱深嵌作業系統的 AI 代理是 Signal 的「生存威脅」；macOS 目前仍無法阻擋。"
+     "dive_html": "這招不靠漏洞，靠的是受害者被信件洪水逼急時的判斷力，對使用 Teams 的團隊很容易複製。最有效的防線是一條簡單的規則：IT 不會主動打來要你裝遠端工具，接到就掛斷回撥。郵件端要注意，為了怕漏信而放行整個寄送平台的允許清單，反而讓洪水更難擋。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安"
+      ],
+      "event": [
+       "資安事件",
+       "調查報告"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "Fortra",
+       "Mailchimp",
+       "微軟"
+      ],
+      "affects": [
+       "企業",
+       "一般使用者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "郵件轟炸",
+       "vishing",
+       "Microsoft Teams",
+       "社交工程"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "16",
+     "key": "10bc282c54",
+     "title": "疑北韓關聯組織把 C2 藏進 Solana 交易備註，Overlord 木馬可在系統重置後存活",
+     "title_html": "疑北韓關聯組織把 C2 藏進 Solana 交易備註，Overlord 木馬可在系統重置後存活",
+     "url": "https://www.infosecurity-magazine.com/news/overlord-rat-solana-blockchain-c2/",
+     "src": "ICSDA 資安日報",
+     "left": "11/23 06:21",
+     "ts": "2026-11-23T06:21:48+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "思科 Talos 揭露以獲利為目的的組織 UAT-12643，把加密後的 C2 位址寫在自己控制的 Solana 錢包交易備註中，以 Go 開發的 Overlord 遠端存取木馬定期查詢該錢包取得伺服器位址，攻擊者換伺服器不必重新部署惡意程式。Overlord 被終止時會讓 Windows 藍屏，並把自己植入 Windows 復原環境，Talos 指出能在完整系統重置後存活；Talos 辨識出 35 項指令，涵蓋側錄、截圖、攝影機與音訊擷取、橫向移動等。誘餌包括偽造財務報表、遭竄改的 Viber 安裝程式；工具組另有公開的 Python 竊密程式 Good Game，會蒐集瀏覽器資料、Discord 權杖、加密錢包與遊戲相關資訊，以及替換錢包位址的剪貼簿劫持程式。Talos 以低信心度判斷可能與北韓有關。攻擊者因檔案伺服器設定失誤而公開，研究人員才得以看到工具組。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：ICSDA 標為中危、知識補充。目標為加密貨幣持有者、遊戲帳號持有者與網路電話軟體使用者，可能有歐洲受害者；受害人數與初始感染途徑原文未提供。",
+      "<strong>處置</strong>：只從官方管道下載軟體（留意偽造的 Viber 安裝程式）、轉帳前逐字核對錢包位址、Discord 與交易所帳號啟用多因素驗證；懷疑中毒時不要只靠系統重置（ICSDA 建議）。"
+     ],
+     "table": null,
+     "dive_html": "遊戲帳號與 Discord 權杖被明確列為竊取目標，對經營玩家社群的遊戲團隊來說，管理員帳號被盜可能演變成在官方社群散布惡意連結。區塊鏈 C2 難以封鎖，防守方只能從端點與「主機是否連往區塊鏈節點」這類網路行為下手。可在系統重置後存活，代表受感染電腦的處理標準應提高到重灌並檢查復原分割區。歸因只有低信心度，不宜過度解讀為國家級攻擊。",
+     "facets": {
+      "region": [
+       "全球",
+       "東北亞"
+      ],
+      "country": [
+       "KP"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安"
+      ],
+      "event": [
+       "資安事件",
+       "調查報告"
+      ],
+      "sector": [
+       "加密資產",
+       "遊戲"
+      ],
+      "org": [
+       "思科 Talos",
+       "UAT-12643"
+      ],
+      "affects": [
+       "玩家",
+       "一般使用者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "Overlord RAT",
+       "Solana",
+       "C2",
+       "Good Game",
+       "剪貼簿劫持",
+       "Discord"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "17",
+     "key": "32ba884f60",
+     "title": "AI 數學能力突破，密碼學家警告公鑰加密信心恐動搖，專家主張加密敏捷性",
+     "title_html": "AI 數學能力突破，密碼學家警告公鑰加密信心恐動搖，專家主張加密敏捷性",
+     "url": "https://www.csoonline.com/article/4248694/do-ais-mathematical-advances-put-pki-under-threat.html",
+     "src": "ICSDA 資安日報",
+     "left": "11/23 06:21",
+     "ts": "2026-11-23T06:21:48+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "約翰霍普金斯大學密碼學家 Matthew Green 在 X 上示警，機器在部分數學問題上已勝過人類，他估計有 15% 機率業界對現有公鑰演算法功能性地失去信心，另有 1% 機率公鑰密碼整體不存在。坦佩雷大學教授 Saarinen 形容 2026 年是數學的「李世乭時刻」，原本期待人類以紙筆證明的分析性問題開始被電腦解決；實例包括 AI 破解較新的 HAWK 簽章方案，以及 AI 協助找到 McEliece 參數的重大捷徑，德國資安機關已在 9 月底撤回自 2020 年起對 Classic McEliece 的建議。Saarinen 指出兩者調整參數後仍可視為安全，但金鑰與簽章大小會加倍；公鑰密碼因需要數學結構做陷門，比雜湊與對稱式加密更可能存在捷徑。專家多主張不必倉促汰換，應循後量子遷移路徑並提升加密敏捷性；ML-KEM、ML-DSA、SLH-DSA 已歷經十年以上分析。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：ICSDA 標為中危、知識補充。依賴公鑰密碼的憑證、TLS、程式碼簽章等體系面臨演算法信心風險；目前未有實際遭利用的案例。",
+      "<strong>處置</strong>：盤點使用公鑰密碼的系統建立密碼資產清冊、讓演算法可替換、依循後量子遷移路徑，不倉促汰換（ICSDA 建議）。"
+     ],
+     "table": null,
+     "dive_html": "這不是明天就要換演算法的警報，而是後量子遷移多了一個理由：威脅不只來自量子電腦，也可能來自 AI 加速的數學研究。對開發團隊，最實際的準備是找出程式與設備裡寫死的演算法與金鑰長度，讓更換成為設定調整而非改版。被 AI 打出裂縫的都是較新的方案，已長期分析的標準方案目前仍是較穩的選擇。",
+     "facets": {
+      "region": [
+       "全球",
+       "北美",
+       "歐洲"
+      ],
+      "country": [
+       "US",
+       "FI",
+       "DE"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安",
+       "AI",
+       "科學"
+      ],
+      "event": [
+       "聲明評論"
+      ],
+      "story": [
+       "AI 數學突破"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "約翰霍普金斯大學",
+       "坦佩雷大學"
+      ],
+      "person": [
+       "Matthew Green",
+       "Saarinen"
+      ],
+      "affects": [
+       "企業",
+       "開發者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "評論觀點"
+      ],
+      "keyword": [
+       "公鑰加密",
+       "後量子密碼",
+       "HAWK",
+       "Classic McEliece",
+       "ML-KEM",
+       "加密敏捷性"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "社群討論",
+   "count": 1,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "18",
+     "key": "c1224af285",
+     "title": "Python 軟體基金會教學：在整個 GitHub 組織停用危險的 Actions 觸發條件，GitHub 12 月 2 日起預設封鎖 pull_request_target",
+     "title_html": "Python 軟體基金會教學：在整個 GitHub 組織停用危險的 Actions 觸發條件，GitHub 12 月 2 日起預設封鎖 pull_request_target",
+     "url": "https://pyfound.blogspot.com/2026/11/de-fanging-dangerous-triggers-in-github.html",
+     "src": "Lobsters",
+     "left": "11/23 11:02",
+     "ts": "2026-11-23T11:02:13+08:00",
+     "heat": "HN 3",
+     "tags": [],
+     "summary_html": "PyPI 安全工程師 Mike Fiedler 與 PSF 駐點安全開發者 Seth Larson 撰文說明，部分 GitHub Actions 觸發條件會讓陌生人啟動能存取儲存庫與組織機密的工作流程，兩人已在 psf、python、pypi 等組織移除這類觸發條件並套用政策。文中指出 pull_request 觸發條件以唯讀權杖、無機密執行 fork 的程式碼，是安全的；pull_request_target 在檔案中看起來幾乎一樣，卻以讀寫權杖並可存取機密執行。他們列舉實際事件：2024 年 12 月 Ultralytics 的 Actions 遭入侵、建置快取被下毒而在 PyPI 發布惡意版本；2026 年 3 月 LiteLLM 與 Telnyx 因遭利用的 Trivy 相依套件外洩 API 權杖而發布惡意版本，源頭是三週前被利用的 pull_request_target 工作流程；2026 年 4 月 elementary-data 的工作流程把留言內容直接放進 shell 指令碼，一則精心設計的留言就推出了惡意版本。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：使用 GitHub Actions 的儲存庫；GitHub 將於 2026 年 12 月 2 日起在公開儲存庫預設封鎖 pull_request_target 觸發條件。",
+      "<strong>處置</strong>：Team／Enterprise 方案可用組織政策一次停用危險觸發條件（先檢視會擋到什麼再強制），Free 方案須逐一儲存庫設定。"
+     ],
+     "table": null,
+     "dive_html": "這是本期對開發團隊最能立刻動手的一則：GitHub 12 月 2 日的預設封鎖只涵蓋公開儲存庫，私有儲存庫與其他危險觸發條件仍要自己處理。文中案例都是維護者沒有疏忽、卻因一行設定被攻破，代表該靠組織政策強制，而不是靠逐一審查工作流程。先檢視政策會擋到哪些工作流程再強制執行，可避免打斷現有的發布流程。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安",
+       "開源"
+      ],
+      "event": [
+       "聲明評論"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "Python 軟體基金會",
+       "GitHub",
+       "PyPI",
+       "Alpha-Omega"
+      ],
+      "person": [
+       "Mike Fiedler",
+       "Seth Larson"
+      ],
+      "affects": [
+       "開發者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "預告"
+      ],
+      "keyword": [
+       "GitHub Actions",
+       "pull_request_target",
+       "CI 安全",
+       "供應鏈攻擊"
+      ]
+     }
     }
    ]
   }
  ],
  "foot_left": "本報告由 news-aggregator 自動彙整",
  "stats": {
-  "items": 15,
-  "sections": 2
+  "items": 18,
+  "sections": 3
  }
 }

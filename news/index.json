@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T17:14:56+08:00",
+ "updated_at": "2026-11-23T17:15:44+08:00",
  "series": [
   {
    "id": "general",
@@ -131,6 +131,18 @@
  ],
  "items": [
   {
+   "series": "security",
+   "series_title": "資安日報",
+   "cadence": "daily",
+   "period": "2026-11-23",
+   "date": "2026-11-23",
+   "title": "資安日報",
+   "lede": "Cisco Expressway、Apache HTTP/2 漏洞遭利用，Java4Shell 出現嘗試攻擊；AI 推論供應商遭駭數月，提示詞外洩；GL.iNet 雲端漏洞遭利用植入路由器與 KVM 惡意程式；第三方供應商連環失守與 AI 自動化攻擊工具 ARTEX 擴散。",
+   "count": 18,
+   "data": "security/2026/2026-11-23.json",
+   "generated_at": "2026-11-23T17:15:44+08:00"
+  },
+  {
    "series": "cocos_h5_weekly",
    "series_title": "Cocos／H5 遊戲開發週報",
    "cadence": "weekly",
@@ -249,18 +261,6 @@
    "count": 36,
    "data": "international/2026/2026-11-23.json",
    "generated_at": "2026-11-23T09:45:11+08:00"
-  },
-  {
-   "series": "security",
-   "series_title": "資安日報",
-   "cadence": "daily",
-   "period": "2026-11-23",
-   "date": "2026-11-23",
-   "title": "資安日報",
-   "lede": "AI 推論供應商遭竊取提示詞數月、連零資料保留也失守；GL.iNet 雲端漏洞遭利用植入路由器與 KVM；FBI 全國犯罪資料庫疑遭駭。",
-   "count": 15,
-   "data": "security/2026/2026-11-23.json",
-   "generated_at": "2026-11-23T09:06:10+08:00"
   },
   {
    "series": "cocos_h5_weekly",
