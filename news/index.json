@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T17:15:44+08:00",
+ "updated_at": "2026-11-23T17:16:53+08:00",
  "series": [
   {
    "id": "general",
@@ -131,6 +131,18 @@
  ],
  "items": [
   {
+   "series": "finance",
+   "series_title": "財經日報",
+   "cadence": "daily",
+   "period": "2026-11-23",
+   "date": "2026-11-23",
+   "title": "財經日報",
+   "lede": "證交所融資維持率降至 120%、致函上市公司鼓勵庫藏股，台股破底翻漲 778 點但三大法人仍賣超 511 億元；經濟部長龔明鑫列六大穩市措施、估明年出口破 1 兆美元；美國 AI 晶片出口新規生效，東南亞出貨暫停。",
+   "count": 30,
+   "data": "finance/2026/2026-11-23.json",
+   "generated_at": "2026-11-23T17:16:53+08:00"
+  },
+  {
    "series": "security",
    "series_title": "資安日報",
    "cadence": "daily",
@@ -237,18 +249,6 @@
    "count": 2,
    "data": "ai_weekly/2026/2026-W48.json",
    "generated_at": "2026-11-23T10:05:20+08:00"
-  },
-  {
-   "series": "finance",
-   "series_title": "財經日報",
-   "cadence": "daily",
-   "period": "2026-11-23",
-   "date": "2026-11-23",
-   "title": "財經日報",
-   "lede": "台股上週重挫 17.5%，金管會第三波穩市措施上路、國安基金進場，23 日早盤高低震盪逾 1,200 點；外資今年賣超 3.2 兆元創紀錄；FT 揭黃樂晶片網絡牽涉太子集團；韓國也準備啟動股市穩定基金。",
-   "count": 10,
-   "data": "finance/2026/2026-11-23.json",
-   "generated_at": "2026-11-23T09:50:52+08:00"
   },
   {
    "series": "international",

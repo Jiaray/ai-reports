@@ -4,14 +4,14 @@
  "title": "財經日報",
  "group": "財經",
  "cadence": "daily",
- "updated_at": "2026-11-23T09:50:52+08:00",
+ "updated_at": "2026-11-23T17:16:53+08:00",
  "items": [
   {
    "period": "2026-11-23",
    "date": "2026-11-23",
-   "count": 10,
+   "count": 30,
    "data": "finance/2026/2026-11-23.json",
-   "generated_at": "2026-11-23T09:50:52+08:00"
+   "generated_at": "2026-11-23T17:16:53+08:00"
   },
   {
    "period": "2026-11-21",
