@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T10:05:20+08:00",
+ "updated_at": "2026-11-23T10:06:19+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "reading_list",
+   "series_title": "閱讀清單",
+   "cadence": "weekly",
+   "period": "2026-W48",
+   "date": "2026-11-23",
+   "title": "閱讀清單",
+   "lede": "黎曼猜想同日出現 Claude 輔助的 Lean 證明與人類 12 年手寫證明，「可驗證卻讀不懂」成為焦點；形式化驗證被視為對抗 AI 劣質產出的新武器；內格爾獲百萬美元博古睿哲學獎；歐洲放寬化學品規範引發討論。",
+   "count": 4,
+   "data": "reading_list/2026/2026-W48.json",
+   "generated_at": "2026-11-23T10:06:19+08:00"
+  },
   {
    "series": "ai_weekly",
    "series_title": "AI 週報",

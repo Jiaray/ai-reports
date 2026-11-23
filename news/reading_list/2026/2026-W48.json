@@ -1,0 +1,307 @@
+{
+ "schema": 1,
+ "series": "reading_list",
+ "series_title": "閱讀清單",
+ "group": "綜合",
+ "cadence": "weekly",
+ "period": "2026-W48",
+ "date": "2026-11-23",
+ "title": "閱讀清單",
+ "brief": "DAILY NEWS BRIEFING",
+ "issue": "NO. 2026-327",
+ "generated_at": "2026-11-23T10:06:19+08:00",
+ "lede": "黎曼猜想同日出現 Claude 輔助的 Lean 證明與人類 12 年手寫證明，「可驗證卻讀不懂」成為焦點；形式化驗證被視為對抗 AI 劣質產出的新武器；內格爾獲百萬美元博古睿哲學獎；歐洲放寬化學品規範引發討論。",
+ "src_tags": [
+  "Latent Space",
+  "Hacker News（本週）"
+ ],
+ "intro": [
+  {
+   "kind": "p",
+   "html": "黎曼猜想同日出現 Claude 輔助的 Lean 證明與人類 12 年手寫證明，「可驗證卻讀不懂」成為焦點；形式化驗證被視為對抗 AI 劣質產出的新武器；內格爾獲百萬美元博古睿哲學獎；歐洲放寬化學品規範引發討論。"
+  }
+ ],
+ "sections": [
+  {
+   "name": "播客與長文",
+   "count": 2,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "01",
+     "key": "45149ab56a",
+     "front": 1,
+     "title": "Latent Space：黎曼猜想一天內出現兩份獨立證明，一份由 Claude 主導",
+     "title_html": "Latent Space：黎曼猜想一天內出現兩份獨立證明，一份由 Claude 主導",
+     "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+     "src": "Latent Space",
+     "left": "11/21 13:02",
+     "ts": "2026-11-21T13:02:13+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "據 AINews 整理，兩位數學家在幾小時內先後宣稱獨立證明了黎曼猜想。Anthropic 的 Levent Alpöge 先發表以 Claude 推動的證明，形式是一份短文加約 1.3GB 的 Lean 程式碼（約當 25 萬頁），而非完整論文；Elliot Glazer 確認形式化的命題是廣義黎曼猜想（GRH），並認為 Lean 出錯的機率遠低於 1%，只要編譯完成且沒有額外公理，大概就是正確的，但不會有人讀完全部內容。隨後 Alessandro Masullo 公開他耗時 12 年、940 頁、完全由人撰寫的未完成證明。文中提醒 OpenAI 9 月的納維－斯托克斯方程式宣稱仍是前車之鑑，批評者認為其 Lean 證明與自然語言結果不符；兩份 AI 宣稱的千禧年難題成果都需要數年驗證。Alpöge 說他只發 Lean，是因為不願在尚未掌握周邊數學前發表「一大坨讀不懂的劣質產出」。",
+     "also": [
+      {
+       "text": "經濟學人",
+       "url": "https://www.economist.com/science-and-technology/2026/11/20/ai-may-have-solved-the-most-important-problem-in-mathematics"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "這件事把「正確」與「理解」拆開：機器驗證可能保證結果成立，但數學社群傳統上靠讀懂證明來吸收新方法，一份無人能讀的證明對學科本身的貢獻有限。若證明成立，衡量 AI 能力的標準會從考試題轉向未解難題，也會推高形式化驗證工具的需求。要看的是編譯結果、是否動用額外公理，以及 GRH 的形式化敘述是否被獨立檢核。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "科學",
+       "AI"
+      ],
+      "event": [
+       "研究發表"
+      ],
+      "story": [
+       "AI 數學突破"
+      ],
+      "org": [
+       "Anthropic",
+       "OpenAI"
+      ],
+      "person": [
+       "Levent Alpöge",
+       "Alessandro Masullo",
+       "Elliot Glazer"
+      ],
+      "affects": [
+       "一般民眾"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "好壞參半"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "黎曼猜想",
+       "Lean",
+       "形式化證明",
+       "千禧年大獎難題"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "02",
+     "key": "790fce6927",
+     "title": "Latent Space：對抗 AI 劣質產出的新武器——形式化驗證",
+     "title_html": "Latent Space：對抗 AI 劣質產出的新武器——形式化驗證",
+     "url": "https://latent.space/p/formal-verification/",
+     "src": "Latent Space",
+     "left": "11/21 05:18",
+     "ts": "2026-11-21T05:18:41+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "文章指出「slop」（大型語言模型的低品質產出）是 2026 年 AI 業界的年度詞彙，大量程式碼由 AI 產生，避免劣質產出成了工程師的日常課題；形式化驗證以數學證明與邏輯確認軟硬體正確性，Harmonic、Theorem、Axiom Math 與新創 &amp;Truth 等公司都投入。&amp;Truth 共同創辦人、史丹佛教授 Clark Barrett 是 SMT 求解器 cvc5 的共同作者，他說 cvc5 每天在 Amazon 的生產管線被呼叫數十億次，也用於 Amazon 代理式開發環境 Kiro 的規格分析與測試產生。他認為代理人「驗證」多半是跑測試、自我批評或讓另一個模型評分，差別在於「怎麼知道做完了」：測試與掃描能找到很多問題，卻無法確定是否還有漏網之魚。&amp;Truth 以 Lean 為基礎，結合 AI 與自動推理產生 Lean 可檢查的證明，第一個工具 &amp;Atlas 從 C 語言開源程式碼著手建立地圖。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "當程式碼產量由 AI 撐大，測試的覆蓋不足會被放大，形式化驗證從學術工具變成可賣的產品並不意外。實際門檻在「規格」：證明只能保證程式符合寫下的規格，規格本身寫錯仍會出事。從 C 開源程式碼切入，對準的是記憶體安全與基礎設施這類錯誤代價高的場景。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "AI",
+       "科技",
+       "開源"
+      ],
+      "event": [
+       "聲明評論"
+      ],
+      "sector": [
+       "AI",
+       "軟體與雲端"
+      ],
+      "org": [
+       "&Truth",
+       "Harmonic",
+       "Axiom Math",
+       "Amazon",
+       "史丹佛大學"
+      ],
+      "person": [
+       "Clark Barrett"
+      ],
+      "affects": [
+       "開發者",
+       "企業"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "回顧分析"
+      ],
+      "keyword": [
+       "形式化驗證",
+       "Lean",
+       "cvc5",
+       "SMT"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "HN 本週長文討論",
+   "count": 2,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "03",
+     "key": "3482c58c62",
+     "title": "歐洲放寬化學品規範，但科學正把化學物質與文明病連在一起",
+     "title_html": "歐洲放寬化學品規範，但科學正把化學物質與文明病連在一起",
+     "url": "https://www.lemonde.fr/en/opinion/article/2026/11/22/as-science-increasingly-shows-the-role-chemical-substances-play-in-lifestyle-diseases-europe-weakens-its-regulations_6786595_23.html",
+     "src": "Hacker News（本週）",
+     "left": "11/22 23:42",
+     "ts": "2026-11-22T23:42:40+08:00",
+     "heat": "HN 156",
+     "tags": [],
+     "summary_html": "《世界報》評論指出，在科學研究越來越顯示化學物質與文明病有關之際，歐洲反而放寬化學品規範；本週在 Hacker News 獲 156 分。原文頁面無法擷取，細節請見原文。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50600677"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "region": [
+       "歐洲"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "健康與醫療",
+       "環境與氣候",
+       "政治"
+      ],
+      "event": [
+       "政策法規"
+      ],
+      "org": [
+       "歐盟"
+      ],
+      "affects": [
+       "一般民眾",
+       "企業"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "評論觀點"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "04",
+     "key": "dddd7679dd",
+     "title": "博古睿哲學獎百萬美元頒給《當一隻蝙蝠是什麼感覺》作者內格爾",
+     "title_html": "博古睿哲學獎百萬美元頒給《當一隻蝙蝠是什麼感覺》作者內格爾",
+     "url": "https://berggruen.org/news/usd1-million-berggruen-philosophy-prize-awarded-to-thomas-nagel",
+     "src": "Hacker News（本週）",
+     "left": "11/20 21:18",
+     "ts": "2026-11-20T21:18:44+08:00",
+     "heat": "HN 10",
+     "tags": [],
+     "summary_html": "博古睿研究院 11 月 17 日宣布，哲學家湯瑪斯．內格爾獲 2026 年博古睿哲學與文化獎，獎金 100 萬美元，頒給思想深刻影響人類自我理解的人。內格爾的研究橫跨道德哲學、法律與政治理論、形上學與心靈哲學，最知名的是 1974 年的〈當一隻蝙蝠是什麼感覺？〉，探討意識的主觀經驗；2024 年五十週年版中，他提出一種統一的形上學作為心物二元問題的可能解答，並溯源至史賓諾莎。創辦人 Nicolas Berggruen 說這些問題對未來的 AI 也是核心；紐約大學哲學家 David Chalmers 說內格爾的著作為過去五十年的意識哲學與科學定下議程，在動物與 AI 意識成為焦點的 2020 年代更顯重要。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50574251"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "頒獎方與評語都把內格爾連到 AI 意識辯論，顯示這個五十年前的哲學問題已被拉進科技政策討論。對讀者而言，這是回頭讀原典的好時機：要討論 AI 有沒有感受，先要說清楚「主觀經驗」指的是什麼。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "文化與娛樂",
+       "科學"
+      ],
+      "event": [
+       "活動賽事"
+      ],
+      "org": [
+       "博古睿研究院",
+       "紐約大學"
+      ],
+      "person": [
+       "Thomas Nagel",
+       "Nicolas Berggruen",
+       "David Chalmers"
+      ],
+      "affects": [
+       "一般民眾"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "博古睿哲學與文化獎",
+       "意識哲學"
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "foot_left": "本報告由 news-aggregator 自動彙整",
+ "stats": {
+  "items": 4,
+  "sections": 2
+ }
+}

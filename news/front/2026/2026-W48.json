@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "week": "2026-W48",
- "built_at": "2026-11-23T10:05:20+08:00",
+ "built_at": "2026-11-23T10:06:19+08:00",
  "reports": [
   {
    "series": "github_weekly",
@@ -18,6 +18,14 @@
    "period": "2026-W48",
    "count": 2,
    "generated_at": "2026-11-23T10:05:20+08:00"
+  },
+  {
+   "series": "reading_list",
+   "series_title": "閱讀清單",
+   "group": "綜合",
+   "period": "2026-W48",
+   "count": 4,
+   "generated_at": "2026-11-23T10:06:19+08:00"
   }
  ],
  "entries": [
@@ -137,6 +145,72 @@
      "series": "ai_weekly",
      "period": "2026-W48",
      "no": "02",
+     "rank": 1
+    }
+   ]
+  },
+  {
+   "key": "45149ab56a",
+   "rank": 1,
+   "title": "Latent Space：黎曼猜想一天內出現兩份獨立證明，一份由 Claude 主導",
+   "summary_html": "據 AINews 整理，兩位數學家在幾小時內先後宣稱獨立證明了黎曼猜想。Anthropic 的 Levent Alpöge 先發表以 Claude 推動的證明，形式是一份短文加約 1.3GB 的 Lean 程式碼（約當 25 萬頁），而非完整論文；Elliot Glazer 確認形式化的命題是廣義黎曼猜想（GRH），並認為 Lean 出錯的機率遠低於 1%，只要編譯完成且沒有額外公理，大概就是正確的，但不會有人讀完全部內容。隨後 Alessandro Masullo 公開他耗時 12 年、940 頁、完全由人撰寫的未完成證明。文中提醒 OpenAI 9 月的納維－斯托克斯方程式宣稱仍是前車之鑑，批評者認為其 Lean 證明與自然語言結果不符；兩份 AI 宣稱的千禧年難題成果都需要數年驗證。Alpöge 說他只發 Lean，是因為不願在尚未掌握周邊數學前發表「一大坨讀不懂的劣質產出」。",
+   "dive_html": "這件事把「正確」與「理解」拆開：機器驗證可能保證結果成立，但數學社群傳統上靠讀懂證明來吸收新方法，一份無人能讀的證明對學科本身的貢獻有限。若證明成立，衡量 AI 能力的標準會從考試題轉向未解難題，也會推高形式化驗證工具的需求。要看的是編譯結果、是否動用額外公理，以及 GRH 的形式化敘述是否被獨立檢核。",
+   "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/",
+   "src": "Latent Space",
+   "ts": "2026-11-21T13:02:13+08:00",
+   "left": "11/21 13:02",
+   "heat": "",
+   "tags": [],
+   "facets": {
+    "region": [
+     "全球"
+    ],
+    "taiwan": [
+     "無"
+    ],
+    "topic": [
+     "科學",
+     "AI"
+    ],
+    "event": [
+     "研究發表"
+    ],
+    "story": [
+     "AI 數學突破"
+    ],
+    "org": [
+     "Anthropic",
+     "OpenAI"
+    ],
+    "person": [
+     "Levent Alpöge",
+     "Alessandro Masullo",
+     "Elliot Glazer"
+    ],
+    "affects": [
+     "一般民眾"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "好壞參半"
+    ],
+    "stage": [
+     "突發"
+    ],
+    "keyword": [
+     "黎曼猜想",
+     "Lean",
+     "形式化證明",
+     "千禧年大獎難題"
+    ]
+   },
+   "from": [
+    {
+     "series": "reading_list",
+     "period": "2026-W48",
+     "no": "01",
      "rank": 1
     }
    ]
