@@ -374,6 +374,14 @@
 .fab-tip{position:absolute;z-index:1;translate:-50% calc(-100% - 16px);padding:3px 8px;background:var(--color-text);color:var(--color-bg);font:500 13px/1.35 var(--font-body);white-space:nowrap;pointer-events:none}
 /* 回到頂端（site.js）和功能鈕同大小、同外框，疊在正上方；扇面或底部面板打開時先藏起來。
    窄版內容底部多留空間，捲到底時兩顆按鈕不蓋住頁尾 */
+/* 手機有功能鈕時收起頂端工具列（使用者要求：關掉上方凍結的那一列，每個功能都從扇面進）：日期、本日焦點、本週回顧、版面的按鈕
+   全部藏起來、不凍結（bar.js 量到不凍結就把 --bar-h 記成 0，黏頂的時段標題與錨點跳轉貼齊畫面頂端）。
+   各下拉面板照樣留在工具列的 DOM 裡：扇面打開的就是這些面板（改成貼齊底部的 .is-sheet），所以不能整列 display:none。
+   藍圖留下頂端 3px 粗線當報頭；地圖、一般本來就沒有。快取空窗沒有功能鈕時（沒有 .has-fab）工具列照舊 */
+@media(max-width:40em){
+html.has-fab .editions{position:static;min-height:0;padding-top:0;gap:0;box-shadow:none;border-image:none;background:none}
+html.has-fab .editions :is(.dd-toggle,.ed-link){display:none}
+}
 @media(max-width:40em){
 .has-fab .to-top{right:var(--fab-x);bottom:calc(var(--fab-y) + var(--fab-size) + 8px);width:var(--fab-size);height:var(--fab-size);color:var(--color-text);border-top:2px solid var(--color-text)}
 .has-fab .to-top svg{width:20px;height:20px}

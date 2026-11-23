@@ -31,14 +31,18 @@
     warn: '<svg viewBox="0 0 20 20" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true" focusable="false"><path d="M10 2.8 18 17H2z" stroke-linejoin="round"/><path d="M10 8v4.2M10 14.2v.1" stroke-linecap="round" stroke-width="1.9"/></svg>',
     // 右下角功能鈕（第 7 段）：一把從右下角張開的扇子（暗示往左上方展開）、本期章節、頭版的過濾（漏斗）、過濾面板裡的勾
     fan: svg(20, 'M17 17H3.5A13.5 13.5 0 0 1 17 3.5zM17 17 5.3 10.25M17 17 10.25 5.3'),
-    chapters: svg(18, 'M3 5.5h2M7.5 5.5H17M3 10h2M7.5 10H17M3 14.5h2M7.5 14.5H17'),
+    // 章節：左邊一個往右的箭頭＋三條線（跳到分區）；原本的「短橫＋長線」和讀法「標題」的方點清單太像，扇面上兩格相鄰認不出來
+    chapters: svg(18, 'M8.5 5h8.5M8.5 10h8.5M8.5 15h8.5M3 7l3 3-3 3').replace('<path ', '<path stroke-linecap="round" stroke-linejoin="round" '),
     filter: svg(18, 'M2.5 3.5h15l-6 7v6l-3-1.5v-4.5z'),
     check: svg(12, 'M4 10.5l3.5 3.5L16 5.5'),
-    // 讀法（報告頁大標題右邊的選項、扇面那一格與底部面板）：一本打開的書；完整＝整段文字、標題＝標題清單、時間軸＝串在一條線上的點
+    // 讀法（報告頁大標題右邊的選項、扇面那一格與底部面板共用同一組圖示）：完整＝整段文字、標題＝標題清單、
+    // 時間軸＝時鐘加上逆時針的回溯箭頭（使用者要求重新設計：原本「線上串點」和標題的清單太像）。
+    // 書本只在舊版 report.js 沒有選項圖示時，給扇面那一格退回用
     read: svg(18, 'M10 5.5C8.2 4.2 5.8 3.5 3 3.5v12c2.8 0 5.2.7 7 2 1.8-1.3 4.2-2 7-2v-12c-2.8 0-5.2.7-7 2zM10 5.5v12'),
     readFull: svg(16, 'M3.5 4.5h13M3.5 8h13M3.5 11.5h13M3.5 15h8'),
     readScan: svg(16, 'M7.5 5h9M7.5 10h9M7.5 15h9', '<rect x="3" y="4" width="2" height="2"/><rect x="3" y="9" width="2" height="2"/><rect x="3" y="14" width="2" height="2"/>'),
-    readTimeline: svg(16, 'M5 3v14M9 5h8M9 10h8M9 15h5', '<circle cx="5" cy="5" r="1.6" fill="currentColor"/><circle cx="5" cy="10" r="1.6" fill="currentColor"/><circle cx="5" cy="15" r="1.6" fill="currentColor"/>'),
+    readTimeline: svg(16, 'M2.5 10a7.5 7.5 0 1 0 7.5-7.5 8.1 8.1 0 0 0-5.6 2.3L2.5 6.7M2.5 2.5v4.2h4.2M10 5.8V10l3.3 1.7')
+      .replace('<path ', '<path stroke-linecap="round" stroke-linejoin="round" '),
   };
 
   // ── 2. 下拉面板 ──────────────────────────────────────────────────────
@@ -344,16 +348,21 @@
   }
 
   // ── 5. 工具列凍結在頂端 ─────────────────────────────────────────────
-  // 工具列每次重畫都是新的元素：#app 的子節點一換就重新找、重新量
+  // 工具列每次重畫都是新的元素：#app 的子節點一換就重新找、重新量。
+  // 手機有右下角功能鈕時工具列收起、不凍結（report.css）：量成 0，黏頂的時段標題、錨點跳轉、換讀法的捲動補償都不用讓開它。
+  // 收起與展開時工具列高度一定會變，ResizeObserver 會重量，順便記下這時凍不凍結（捲動時不必每次讀樣式）
   const root = document.documentElement;
   const app = document.getElementById('app');
   let bar = null;
+  let pinned = true; // 工具列現在是不是凍結在頂端（position:sticky）
   const measure = () => {
-    if (bar && bar.isConnected) root.style.setProperty('--bar-h', `${Math.round(bar.getBoundingClientRect().height)}px`);
+    if (!bar || !bar.isConnected) return;
+    pinned = getComputedStyle(bar).position === 'sticky';
+    root.style.setProperty('--bar-h', `${pinned ? Math.round(bar.getBoundingClientRect().height) : 0}px`);
   };
   const ro = 'ResizeObserver' in window ? new ResizeObserver(measure) : null;
   const stuck = () => {
-    if (bar && bar.isConnected) bar.classList.toggle('is-stuck', window.scrollY > 0 && bar.getBoundingClientRect().top <= 0.5);
+    if (bar && bar.isConnected) bar.classList.toggle('is-stuck', pinned && window.scrollY > 0 && bar.getBoundingClientRect().top <= 0.5);
   };
   function track() {
     const el = app && app.querySelector(':scope > .editions');
@@ -366,6 +375,11 @@
     stuck();
   }
   if (app) new MutationObserver(() => { track(); syncFab(); }).observe(app, { childList: true });
+  // 跨過手機寬度時工具列收起或展開：直接重量（不等 ResizeObserver；收起成 0 高時它不一定會通知）
+  if (window.matchMedia) {
+    const narrow = window.matchMedia('(max-width: 40em)');
+    if (narrow.addEventListener) narrow.addEventListener('change', measure);
+  }
   let ticking = false;
   window.addEventListener('scroll', () => {
     if (ticking) return;
@@ -373,7 +387,7 @@
     requestAnimationFrame(() => { ticking = false; stuck(); });
   }, { passive: true });
   // 捲動補償（換讀法時捲回同一則）要扣掉的工具列高度
-  const barHeight = () => (bar && bar.isConnected ? bar.getBoundingClientRect().height : 0);
+  const barHeight = () => (bar && bar.isConnected && pinned ? bar.getBoundingClientRect().height : 0);
 
   // ── 6. 非當期提示 ───────────────────────────────────────────────────
   // 使用者要求：開的新聞不是今天、本週（月報：本月）那一期時，頁面上方一條黃色半透明提示；使用者在四種樣式中選定
@@ -433,7 +447,8 @@
 
   // ── 7. 手機右下角的功能鈕 ───────────────────────────────────────
   // 使用者要求（手機單手操作，功能都在上方不好按）：工具列的功能收進右下角一顆按鈕，點開扇形展開；四種樣板中選定
-  // 「C 扇面」、功能鈕與扇面都只有圖示、頂端工具列保留。只在窄版（≤ 40em，report.css）出現，桌機照舊用工具列。
+  // 「C 扇面」、功能鈕與扇面都只有圖示。原本頂端工具列保留，後來使用者要求手機關掉它、每個功能都從扇面進
+  // （report.css 的 html.has-fab .editions；工具列上的每一項都要有對應的一格）。只在窄版（≤ 40em，report.css）出現，桌機照舊用工具列。
   // 扇面：內圈是前往（本日焦點、本週回顧，照工具列有的連結），外圈打開面板（日期、本期章節或頭版的過濾、版面）。
   // 每格是裁成扇形的按鈕（clip-path 連點擊範圍一起裁），線條另畫在上面一層 SVG；名稱平常藏著（報讀器照唸），
   // 手指按住滑過、鍵盤聚焦時浮在圖示上方。點一下展開、再點一格；也可以按住功能鈕不放，滑到那格再放開。
@@ -491,7 +506,14 @@
     panel('pd-panel', pdTitle ? pdTitle.textContent : '日期', 'calendar');
     if (app.querySelector('.fp-fq .fp-chip')) panels.push({ key: 'fq', label: '過濾', icon: 'filter', run: openFilter });
     else panel('chap-panel', '章節', 'chapters');
-    if (app.querySelector('.read-sw .read-opt')) panels.push({ key: 'rd', label: '讀法', icon: 'read', run: openRead });
+    // 讀法那格的圖示＝目前選中的讀法（使用者要求：同桌機大標題旁選中那顆，看圖示就認得是哪個功能、現在是哪種讀法）；
+    // 名稱帶上目前的讀法，換讀法時扇面會跟著重建（fab.key 有名稱）。舊版 report.js 沒有選項圖示時退回書本
+    const curRead = app.querySelector('.read-sw .read-opt[aria-pressed=true]');
+    if (curRead) {
+      const ico = curRead.querySelector('.read-ico');
+      const name = curRead.querySelector('.read-name');
+      panels.push({ key: 'rd', label: `讀法：${name ? name.textContent : curRead.textContent}`, icon: 'read', html: ico && ico.innerHTML, run: openRead });
+    }
     panel('vw-panel', '版面', 'sliders');
     panel('fp-panel', '版面', 'sliders');
     const links = [...bar.querySelectorAll(':scope > a.ed-link')].map((a) => {
@@ -679,6 +701,7 @@
     const items = fabItems();
     const has = Boolean(items && items.panels.length + items.links.length);
     root.classList.toggle('has-fab', has);
+    measure(); // 有沒有功能鈕決定手機上的工具列收不收起（report.css），--bar-h 要跟著重量
     if (!has) {
       if (fab) {
         setFan(false);
