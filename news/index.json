@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T10:08:30+08:00",
+ "updated_at": "2026-11-23T17:12:58+08:00",
  "series": [
   {
    "id": "general",
@@ -131,6 +131,18 @@
  ],
  "items": [
   {
+   "series": "health",
+   "series_title": "健康日報",
+   "cadence": "daily",
+   "period": "2026-11-23",
+   "date": "2026-11-23",
+   "title": "健康日報",
+   "lede": "民主剛果伊波拉疫情遇武裝衝突、WHO 籲和平；統合分析指第 2 型糖尿病患阿茲海默症風險高 53%；北榮研究頑固型憂鬱症有明顯家族聚集；常用藥物對腸道菌的影響可延續多年。",
+   "count": 15,
+   "data": "health/2026/2026-11-23.json",
+   "generated_at": "2026-11-23T17:12:58+08:00"
+  },
+  {
    "series": "cocos_h5_weekly",
    "series_title": "Cocos／H5 遊戲開發週報",
    "cadence": "weekly",
@@ -177,18 +189,6 @@
    "count": 10,
    "data": "github_weekly/2026/2026-W48.json",
    "generated_at": "2026-11-23T10:04:16+08:00"
-  },
-  {
-   "series": "health",
-   "series_title": "健康日報",
-   "cadence": "daily",
-   "period": "2026-11-23",
-   "date": "2026-11-23",
-   "title": "健康日報",
-   "lede": "高雄鼓山區新增本土登革熱群聚；40 項研究統合分析指第 2 型糖尿病與阿茲海默症風險高 53% 相關；英國團隊以 AI 從病歷提早 5 年找出膀胱癌警訊；降血壓藥 losartan 在小鼠活化棕色脂肪。",
-   "count": 13,
-   "data": "health/2026/2026-11-23.json",
-   "generated_at": "2026-11-23T09:53:03+08:00"
   },
   {
    "series": "finance",
