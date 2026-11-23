@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T09:50:52+08:00",
+ "updated_at": "2026-11-23T09:53:03+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "health",
+   "series_title": "健康日報",
+   "cadence": "daily",
+   "period": "2026-11-23",
+   "date": "2026-11-23",
+   "title": "健康日報",
+   "lede": "高雄鼓山區新增本土登革熱群聚；40 項研究統合分析指第 2 型糖尿病與阿茲海默症風險高 53% 相關；英國團隊以 AI 從病歷提早 5 年找出膀胱癌警訊；降血壓藥 losartan 在小鼠活化棕色脂肪。",
+   "count": 13,
+   "data": "health/2026/2026-11-23.json",
+   "generated_at": "2026-11-23T09:53:03+08:00"
+  },
   {
    "series": "finance",
    "series_title": "財經日報",
