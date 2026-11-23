@@ -1,8 +1,16 @@
 {
  "schema": 1,
  "date": "2026-11-23",
- "built_at": "2026-11-23T09:07:15+08:00",
+ "built_at": "2026-11-23T09:45:11+08:00",
  "reports": [
+  {
+   "series": "international",
+   "series_title": "國際新聞日報",
+   "group": "國際",
+   "period": "2026-11-23",
+   "count": 36,
+   "generated_at": "2026-11-23T09:45:11+08:00"
+  },
   {
    "series": "tech_ai",
    "series_title": "AI 日報",
@@ -26,46 +34,96 @@
    "period": "2026-11-23",
    "count": 3,
    "generated_at": "2026-11-23T09:06:34+08:00"
-  },
-  {
-   "series": "github_weekly",
-   "series_title": "GitHub 趨勢週報",
-   "group": "開源",
-   "period": "2026-W47",
-   "count": 10,
-   "generated_at": "2026-11-20T16:52:07+08:00"
-  },
-  {
-   "series": "ai_weekly",
-   "series_title": "AI 週報",
-   "group": "科技",
-   "period": "2026-W47",
-   "count": 15,
-   "generated_at": "2026-11-22T11:18:40+08:00"
-  },
-  {
-   "series": "reading_list",
-   "series_title": "閱讀清單",
-   "group": "綜合",
-   "period": "2026-W47",
-   "count": 29,
-   "generated_at": "2026-11-21T09:23:44+08:00"
-  },
-  {
-   "series": "cocos_h5_weekly",
-   "series_title": "Cocos／H5 遊戲開發週報",
-   "group": "遊戲",
-   "period": "2026-W47",
-   "count": 20,
-   "generated_at": "2026-11-22T11:19:45+08:00"
   }
  ],
  "entries": [
+  {
+   "key": "a13ce2be8e",
+   "rank": 1,
+   "title": "COP31 破局：歐盟拒簽未提化石燃料的「安塔利亞協定」，史上最長氣候峰會無協議收場",
+   "summary_html": "原定週五閉幕的聯合國氣候峰會 COP31 在土耳其安塔利亞拖到週日下午，成為史上最長的一屆，最終仍未達成協議，Al Jazeera 指這是 2009 年以來首次以失敗收場。土耳其與澳洲共同主席提出的「安塔利亞協定」草案邀各國電氣化經濟、要求富國出資協助窮國調適，並盡量降低超過 1.5°C 門檻的「溢出」，但全文沒有提到化石燃料。代表歐盟發言的愛爾蘭環境部長 O&#x27;Brien 說草案「沒有回應當下」「甚至沒提化石燃料」，歐盟不會背書，英國與部分開發中國家站在同一邊。FT 指分裂主軸在阿拉伯集團與歐盟陣營之間；聯合國秘書長古特瑞斯把氣候行動停滯歸咎化石燃料利益。Japan Times 提到，沒有宣言不會取消前幾屆峰會的既有義務。",
+   "dive_html": "化石燃料措辭成了破局主因，顯示產油國與歐盟陣營的分歧已從「怎麼減」退回「要不要寫」。共識決制度下單一集團就能否決，COP 作為減碳主平台的效力會更受質疑，各國可能改走雙邊或區域工具（例如歐盟的碳邊境調整機制）推進；對出口導向的經濟體，貿易端的碳要求可能比聯合國協議來得更快。",
+   "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
+   "src": "Financial Times、Reuters、BBC 等 13 家",
+   "ts": "2026-11-23T00:14:46+08:00",
+   "left": "11/23 00:14",
+   "heat": "",
+   "tags": [
+    {
+     "text": "持續",
+     "cls": "tag-outline"
+    }
+   ],
+   "facets": {
+    "region": [
+     "全球",
+     "中東",
+     "歐洲"
+    ],
+    "country": [
+     "TR",
+     "AU"
+    ],
+    "taiwan": [
+     "無"
+    ],
+    "topic": [
+     "環境與氣候",
+     "外交",
+     "能源"
+    ],
+    "event": [
+     "外交互動"
+    ],
+    "story": [
+     "COP31 氣候談判"
+    ],
+    "sector": [
+     "能源"
+    ],
+    "org": [
+     "聯合國",
+     "歐盟"
+    ],
+    "person": [
+     "Darragh O'Brien",
+     "古特瑞斯"
+    ],
+    "affects": [
+     "政府與監管",
+     "一般民眾"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "負面"
+    ],
+    "stage": [
+     "持續發展"
+    ],
+    "keyword": [
+     "COP31",
+     "化石燃料",
+     "安塔利亞協定",
+     "1.5°C"
+    ]
+   },
+   "from": [
+    {
+     "series": "international",
+     "period": "2026-11-23",
+     "no": "01",
+     "rank": 1
+    }
+   ]
+  },
   {
    "key": "07283d4899",
    "rank": 1,
    "title": "Lean 與 Mathlib 社群確認 Anthropic 數學家 Levent Alpöge 與 Claude 合作的黎曼猜想證明正確",
    "summary_html": "Alpöge 於 11 月 20 日以約 1700 萬行 Lean 程式碼發布證明，數十人獨立執行驗證得到相同結果，Lean 與 Mathlib 社群聲明「完全相信證明正確」。",
+   "dive_html": "Alpöge 選擇只發布 Lean 程式碼（約 1.3GB、相當 25 萬頁）而不寫完整論文，理由是自己尚未掌握證明周邊的數學，不想丟出「無法閱讀的 slop」；MIT 數學家 Andrew Sutherland 整理了各方獨立驗證。Latent Space 指出，數小時後 Alessandro Masullo 也公開了自己寫了 12 年、940 頁的純人工證明稿，形成「AI 版大概正確但難以理解、人類版易懂但大概有技術錯誤」的對比；Elliot Glazer 確認形式化敘述就是廣義黎曼猜想（GRH），並估 Lean 本身出錯的機率遠低於 1%。2022 年菲爾茲獎得主 James Maynard 表示相信證明正確，但強調要有人真正理解並能向他人解釋，數學界才會全面認可。Metaculus 原本預估的解決日期是 2035 年 5 月，陶哲軒上個月還預期要到 2050 年前後。",
    "url": "https://aihot.news/items/ikpixx0j7414se1f6lww2csek",
    "src": "AIHOT",
    "ts": "2026-11-22T19:08:31+08:00",
@@ -86,6 +144,7 @@
    "rank": 1,
    "title": "三家 AI 推論供應商遭竊取客戶請求數月，OpenRouter 停用三家",
    "summary_html": "Dragos 指出攻擊者數月間從三家 AI 推論供應商內部竊取資料，三家直到研究人員通知才發現；OpenRouter 已停用這三家。",
+   "dive_html": "Dragos 研究長 HD Moore 在 7 至 11 月送出約 200 萬則含金絲雀權杖的提示詞，觀察到被竊提示詞被用來嘗試登入其控制的系統與 AWS 帳號，另發現推論市集轉售商可用一般日誌功能保留客戶提示詞。Ars Technica 報導，OpenRouter 通知客戶潛在外洩涉及 MiniMax，直連或經 AtlasCloud、Novita、StreamLake 轉售都有埋設網址被存取，並移除 MiniMax 端點的「零資料保留」標籤。Together AI 另公告，其 AI 寫程式代理把私有 Hugging Face repo 的憑證提交到公開 GitHub，導致 6、7 月的提示詞樣本被下載。",
    "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
    "src": "ICSDA 資安日報",
    "ts": "2026-11-23T06:21:48+08:00",
@@ -106,6 +165,7 @@
    "rank": 1,
    "title": "MGM 赴韓國江原樂園考察賭博成癮防治，備戰 2030 年大阪 IR",
    "summary_html": "開發日本首座綜合度假村的 MGM 團隊 10 月初造訪江原樂園，考察其成癮防治與現場預防措施。",
+   "dive_html": "據《首爾經濟日報》11 月 21 日報導，MGM 團隊參觀一般賭場樓層與會員區，並走訪江原樂園成癮照護中心（KLACC），特別關注樓面預防措施與顧客管理。MGM 與歐力士在夢洲人工島投資約 1.5 兆日圓興建 MGM Osaka，預計 2030 年秋季開幕；與江原樂園一樣開放本國人入場，日本賭場管理委員會規定本國人任 7 天內最多入場 3 次、28 天內最多 10 次。",
    "url": "https://agbrief.com/news/south-korea/22/11/2026/mgm-studies-kangwon-lands-gambling-addiction-programmes-ahead-of-2030-osaka-ir-opening/",
    "src": "Asia Gaming Brief",
    "ts": "2026-11-22T19:25:57+08:00",
@@ -122,10 +182,83 @@
    ]
   },
   {
+   "key": "969b3e367a",
+   "rank": 2,
+   "title": "俄國海軍護衛艦 Merkury 在利比亞班加西遭疑似烏克蘭海上無人機擊沉，同晚再有貨輪遇襲",
+   "summary_html": "停靠利比亞東部班加西海軍基地、返俄途中補給燃料的俄國海軍護衛艦 Merkury，週日凌晨遭疑似烏克蘭海上無人機攻擊，夜間發生劇烈爆炸並起火。利比亞東部政府的軍方官員告訴美聯社，數架無人機來襲，至少 4 架被攔截摧毀、2 架命中；衛星影像顯示艦艇已翻覆沉沒。地點距烏克蘭南部逾 1,000 英里（約 1,600 公里），目前無人宣稱犯案。數小時後，一艘懸掛馬爾他國旗的商船週日晚間也在班加西外海遭海上無人機攻擊。",
+   "dive_html": "若確認是烏克蘭所為，代表其海上無人機的作戰半徑已延伸到地中海南岸，俄國的海外補給據點不再是安全後方。利比亞東部由與俄國關係密切的勢力控制，這次攻擊等於把北非捲進俄烏戰事；俄方若報復或加強護航，地中海航運的保險與航線風險都會上升。",
+   "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+   "src": "Reuters、BBC、The Guardian 等 7 家",
+   "ts": "2026-11-23T05:33:44+08:00",
+   "left": "11/23 05:33",
+   "heat": "",
+   "tags": [
+    {
+     "text": "新事件",
+     "cls": "tag-outline"
+    }
+   ],
+   "facets": {
+    "region": [
+     "非洲",
+     "歐洲"
+    ],
+    "country": [
+     "LY",
+     "RU",
+     "UA"
+    ],
+    "taiwan": [
+     "無"
+    ],
+    "topic": [
+     "戰爭與衝突",
+     "國防與安全"
+    ],
+    "event": [
+     "軍事行動"
+    ],
+    "story": [
+     "俄烏戰爭",
+     "烏克蘭攻擊境外俄國船艦"
+    ],
+    "org": [
+     "俄羅斯海軍",
+     "利比亞東部政府"
+    ],
+    "affects": [
+     "政府與監管"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "負面"
+    ],
+    "stage": [
+     "突發"
+    ],
+    "keyword": [
+     "Merkury",
+     "海上無人機",
+     "班加西"
+    ]
+   },
+   "from": [
+    {
+     "series": "international",
+     "period": "2026-11-23",
+     "no": "29",
+     "rank": 2
+    }
+   ]
+  },
+  {
    "key": "f85ff2002e",
    "rank": 2,
    "title": "MiniCPM 8B 成為寮國國家模型，下載量破 7000 萬",
    "summary_html": "面壁智慧轉發觀察：MiniCPM 8B 寮國國家模型已接入寮國政府 G-Chat v2 通訊軟體，寮國語翻譯在國際基準上勝過 GPT-4o。",
+   "dive_html": "截至 2026 年 11 月 MiniCPM 下載量逾 7000 萬；馬來西亞用 VoxCPM2 做語音互動，肯亞一家銀行在其上跑端側風控代理，也有開發者推出離線應用。貼文主張小模型競爭已從參數量轉向誰能便宜、離線地嵌進日常系統。",
    "url": "https://aihot.news/items/dr26culfdd1cb21w56i8iruts",
    "src": "AIHOT",
    "ts": "2026-11-22T19:25:20+08:00",
@@ -146,6 +279,7 @@
    "rank": 2,
    "title": "GL.iNet 雲端遠端管理漏洞遭利用，路由器與 KVM 被植入後門",
    "summary_html": "GL.iNet 11 月 20 日公告，未授權者利用其雲端遠端管理服務漏洞存取裝置並安裝惡意程式。",
+   "dive_html": "GoodCloud 平台讓客戶遠端管理裝置，包括透過 KVM 控制連接的電腦與伺服器；GL.iNet 未說明攻擊手法、受影響客戶數或是否有資料遭竊，仍在調查 KVM 所連接的電腦是否也被入侵。",
    "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
    "src": "BleepingComputer",
    "ts": "2026-11-23T02:45:37+08:00",
@@ -171,6 +305,7 @@
    "rank": 2,
    "title": "theScore Bet 在亞伯達 iGaming 市場以免費刺青等球迷體驗做出區隔",
    "summary_html": "theScore Bet 在卡加利灰杯賽週末包下刺青店，兩天送出約 160 個 CFL 主題免費刺青，預約數小時內額滿。",
+   "dive_html": "亞伯達 iGaming 市場 7 月開放後競爭迅速升溫；行銷副總 Justin Hergianto 表示活動「3RD&amp;INK」目的不在立即拉註冊，而是建立與球迷的關係、拉開品牌差異。",
    "url": "https://www.casino.org/news/canadian-gaming-thescore-bet-alberta-marketing/",
    "src": "Casino.org News",
    "ts": "2026-11-23T05:01:04+08:00",
@@ -187,10 +322,85 @@
    ]
   },
   {
+   "key": "e1de8a9341",
+   "rank": 3,
+   "title": "美國民主黨拿下至少 258 席眾院席次，創 1992 年來最大多數",
+   "summary_html": "北卡羅來納州第 5 選區重新計票後，民主黨 Chuck Hubbard 擊敗已連任 11 屆、曾任眾院規則委員會主席的共和黨議員 Virginia Foxx，Foxx 週日認輸，民主黨在眾院至少拿下 258 席，是 1992 年以來最大多數；共和黨至少 173 席。民主黨在 11 月 3 日期中選舉同時翻轉參眾兩院，眾院已淨增 44 席，多於川普第一任期中選舉 2018 年的 40 席。尚有 4 席未定：明尼蘇達、田納西各一，路易斯安那兩席將於 12 月決選。FT 報導，眾院民主黨計畫動用調查權追查對川普政府的貪腐指控，資深議員 Richard Neal 也誓言就川普的減稅與關稅政策舉行聽證、設法撤回。",
+   "dive_html": "逾 250 席的多數讓民主黨即使內部有雜音也能通過法案，國會將成為川普任期後半最大的制衡力量。對外影響最直接的是關稅：若眾院推動撤回關稅措施，台灣等出口導向經濟體可能受惠；但法案仍需總統簽署，否決權讓實質逆轉有限，調查與聽證才是近期主戰場。",
+   "url": "https://www.theguardian.com/us-news/2026/nov/22/house-democrats-historic-sweep",
+   "src": "Reuters、Financial Times、BBC 等 7 家",
+   "ts": "2026-11-23T03:17:56+08:00",
+   "left": "11/23 03:17",
+   "heat": "",
+   "tags": [
+    {
+     "text": "新事件",
+     "cls": "tag-outline"
+    }
+   ],
+   "facets": {
+    "region": [
+     "北美"
+    ],
+    "country": [
+     "US"
+    ],
+    "taiwan": [
+     "間接"
+    ],
+    "topic": [
+     "政治"
+    ],
+    "event": [
+     "選舉政局"
+    ],
+    "story": [
+     "2026 美國期中選舉"
+    ],
+    "org": [
+     "美國眾議院",
+     "民主黨",
+     "共和黨"
+    ],
+    "person": [
+     "Chuck Hubbard",
+     "Virginia Foxx",
+     "Richard Neal",
+     "川普"
+    ],
+    "affects": [
+     "政府與監管"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "中性"
+    ],
+    "stage": [
+     "後續追蹤"
+    ],
+    "keyword": [
+     "期中選舉",
+     "眾議院",
+     "關稅"
+    ]
+   },
+   "from": [
+    {
+     "series": "international",
+     "period": "2026-11-23",
+     "no": "35",
+     "rank": 3
+    }
+   ]
+  },
+  {
    "key": "ce223767cc",
    "rank": 3,
    "title": "AI 代理群在 pequalnp.com 公開直播挑戰 P vs NP",
    "summary_html": "一個協調式 AI 代理隊伍把 P vs NP 拆成待證引理，所有證明都經同一個 Lean 檢查器驗證，網站即時顯示已驗證、被駁回與放棄的路線。",
+   "dive_html": "參與者可把任務貼進 Claude Code、Cursor、Codex 或 Gemini CLI 等能跑 shell、git 與 Lean 的代理，由「調度台」指派一個開放步驟去證；網站把各路線分成瞄準 P≠NP 與 P=NP 兩邊，並說明權重只是已驗證引理數，不是機率也不是證明。ACM 通訊部落格同期也發表〈2026 年秋天發生了什麼：AI 與 P vs NP〉回顧。",
    "url": "https://pequalnp.com/",
    "src": "Hacker News",
    "ts": "2026-11-23T05:53:45+08:00",
@@ -211,6 +421,7 @@
    "rank": 3,
    "title": "FBI 全國犯罪資訊中心（NCIC）疑遭駭",
    "summary_html": "匿名知情人士向美聯社證實 FBI 正調查 NCIC 疑似遭駭，FBI 拒絕評論。",
+   "dive_html": "消息最早由 CNN 報導；目前沒有跡象顯示與近期政府及民間服務中斷有關，官員將那些中斷歸因於例行升級與修補。FBI 今年 9 月曾遭 ShinyHunters 宣稱竊取員工與應徵者資料，3 月也揭露調查內部系統可疑活動。",
    "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
    "src": "ICSDA 資安日報",
    "ts": "2026-11-23T06:21:48+08:00",
@@ -227,10 +438,82 @@
    ]
   },
   {
+   "key": "e744e1aaa5",
+   "rank": 4,
+   "title": "Anthropic 數學家 Alpöge 宣稱借助 Claude 六週證明黎曼猜想，兩組織獨立驗證",
+   "summary_html": "Anthropic 的土耳其裔美籍數學家 Levent Alpöge 週五在個人網站發文，說他與公司的 AI 工具 Claude 合作約六週，證明了 1859 年提出、關於質數分布的黎曼猜想，這是千禧年大獎難題之一。據衛報，週六下午有兩個組織宣布，審閱他發表證明所用的程式語言後已獨立驗證此說法。France 24 指這份證明是 1,700 萬行程式碼，沒有人完整讀過；黎曼猜想專家 Brian Conrey 稱這是「數學史上最大的事」，諾丁漢大學物理學家 Tony Padilla 則說驗證可能要好幾年，Alpöge 應公開他是怎麼做到的。衛報也提到，數學界對高獲利的私人公司砸大錢投入此領域感到不安。",
+   "dive_html": "證明以程式碼形式發表，所謂「驗證」可能是機器檢查程式碼成立，而非數學家逐行理解推理；Padilla 的保留點出關鍵缺口：若沒人讀得懂過程，數學界能否接受、能否從中衍生新方法都是問題。消息在 Anthropic 上市隔天發布，商業宣傳成分也會被放大檢視。若成立，AI 在前沿數學的角色將從輔助轉為主導，克雷數學研究所如何看待千禧年大獎是下一個看點。",
+   "url": "https://www.france24.com/en/tv-shows/tech-24/20261122-it-can-take-years-why-the-ai-riemann-proof-is-far-from-settled",
+   "src": "BBC、France 24／RFI（法國政府出資）、The Guardian 等 4 家",
+   "ts": "2026-11-22T22:18:55+08:00",
+   "left": "11/22 22:18",
+   "heat": "",
+   "tags": [
+    {
+     "text": "新事件",
+     "cls": "tag-outline"
+    }
+   ],
+   "facets": {
+    "region": [
+     "北美",
+     "全球"
+    ],
+    "country": [
+     "US"
+    ],
+    "taiwan": [
+     "無"
+    ],
+    "topic": [
+     "科學",
+     "AI"
+    ],
+    "event": [
+     "研究發表"
+    ],
+    "sector": [
+     "AI"
+    ],
+    "org": [
+     "Anthropic"
+    ],
+    "person": [
+     "Levent Alpöge",
+     "Brian Conrey",
+     "Tony Padilla"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "正面"
+    ],
+    "stage": [
+     "突發"
+    ],
+    "keyword": [
+     "黎曼猜想",
+     "千禧年大獎難題",
+     "Claude",
+     "形式化證明"
+    ]
+   },
+   "from": [
+    {
+     "series": "international",
+     "period": "2026-11-23",
+     "no": "13",
+     "rank": 4
+    }
+   ]
+  },
+  {
    "key": "ecedf109fd",
    "rank": 4,
    "title": "第三方供應商連環遭駭，FBI 警告 AI 攻擊工具 ARTEX 不到 3 小時取得高權限",
    "summary_html": "11 月第三週多家第三方供應商接連遭駭，同時 FBI 指出多個駭客組織自 8 月起用開源 AI 代理工具 ARTEX 自動找漏洞入侵。",
+   "dive_html": "KARTE 遭利用伺服器漏洞竊取認證資訊與客戶資料，JINS 最多約 1,829 萬會員帳號可能受影響；Dooray! 的忘記密碼流程可反覆嘗試驗證碼，Open API 漏洞也讓部分 API 金鑰外洩。ARTEX 常先打合作夥伴入口、員工 App、行動 App 後端與舊版服務，再濫用 Azure 雲端憑證與 OAuth 授權擴大存取；Barracuda 案攻擊者用遭竊且未撤銷的雲端存取金鑰入侵。漏洞揭露期限也將縮短到 60 天甚至 30 天。ICSDA 觀點：供應商資安問卷填完不等於風險已轉移，基本功仍是勝負手，只是容錯時間被 AI 壓縮。",
    "url": "https://www.ithome.com.tw/news/180681",
    "src": "ICSDA 資安日報",
    "ts": "2026-11-23T06:21:48+08:00",
@@ -245,170 +528,76 @@
      "rank": 4
     }
    ]
-  }
- ],
- "weekly": [
-  {
-   "series": "github_weekly",
-   "series_title": "GitHub 趨勢週報",
-   "period": "2026-W47",
-   "date": "2026-11-20",
-   "items": [
-    {
-     "no": "01",
-     "rank": 1,
-     "title": "dream-num/univer：可嵌入產品的開源 Office SDK",
-     "summary_html": "讓開發者把試算表、文件的編輯、計算、協作與檔案處理嵌進自家產品，同時開放給人與 AI 代理人操作。",
-     "url": "https://github.com/dream-num/univer",
-     "src": "GitHub Trending",
-     "left": "This week",
-     "heat": "+7,248 stars this week",
-     "tags": []
-    },
-    {
-     "no": "02",
-     "rank": 2,
-     "title": "GoogleChrome/modern-web-guidance-src：讓程式代理人寫出現代網頁的技能包",
-     "summary_html": "由 Chrome、Edge、Firefox 與 MDN 團隊共同維護，把網頁平台最佳實務與瀏覽器相容性資料直接灌進程式代理人。",
-     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
-     "src": "GitHub Trending",
-     "left": "This week",
-     "heat": "+6,858 stars this week",
-     "tags": []
-    },
-    {
-     "no": "04",
-     "rank": 3,
-     "title": "alibaba/open-code-review：阿里巴巴內部 AI 審碼工具開源",
-     "summary_html": "確定性流程結合 LLM 代理人的程式碼審查 CLI，能逐行留言，內建 NPE、執行緒安全、XSS、SQL 注入等多語言規則。",
-     "url": "https://github.com/alibaba/open-code-review",
-     "src": "GitHub Trending",
-     "left": "This week",
-     "heat": "+4,492 stars this week",
-     "tags": []
-    }
-   ]
   },
   {
-   "series": "ai_weekly",
-   "series_title": "AI 週報",
-   "period": "2026-W47",
-   "date": "2026-11-22",
-   "items": [
+   "key": "6670527b02",
+   "rank": 5,
+   "title": "AI 泡沫疑慮延燒，南韓 KOSPI 開盤一度重挫 3.7%，亞股備戰賣壓",
+   "summary_html": "南韓 KOSPI 指數週一開盤一度重挫 3.7%，延續上週五亞太與美國由科技股領跌的賣壓；KOSPI 週五已收跌 5.2%。Al Jazeera 指投資人預期台灣、中國與香港股市稍後開盤也將劇烈波動，市場對 AI 熱潮能否持續的疑慮升高。Reuters 報導美股期貨週一早盤反彈，但亞洲市場嚴陣以待；CNBC 形容那斯達克正「自由落體」。",
+   "dive_html": "南韓與台灣股市高度集中在 AI 供應鏈的記憶體與晶圓代工股，美國 AI 估值一旦修正，兩地首當其衝。這波賣壓又疊加 Nvidia 合規風暴，若美股期貨反彈守不住，亞洲可能出現連續性的外資賣超；真正的基本面訊號要看大型雲端業者是否下修資本支出。",
+   "url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount",
+   "src": "Reuters、Al Jazeera（卡達政府出資）、CNBC",
+   "ts": "2026-11-23T08:18:03+08:00",
+   "left": "11/23 08:18",
+   "heat": "",
+   "tags": [
     {
-     "no": "11",
-     "rank": 1,
-     "title": "AI to ROI 週評：Anthropic 掛牌首日收漲 17%，作者視為情緒指標而非定論",
-     "summary_html": "AI to ROI（Ray Rike、Peter Buchanan）11/20 這期週評的要聞包括 Anthropic（代號 ANT）上市、NVIDIA 第三季財報再大幅超預期、美國補上中國 AI 公司取得 NVIDIA 晶片的出口管制漏洞、Microsoft 推出 7 款專用模型（標題稱 Copilot 開始在企業內封鎖 Claude）等。Anthropic 發行價 83 美元，文中稱是史上最大 IPO；首筆成交 111.50 美元，盤中低點 92.72 美元，收 97.17 美元、漲 17%。Vanda Research 統計開盤 30 分鐘散戶成交 2.55 億美元，淨買超僅次於 SpaceX 上市，散戶是賣掉其他股票來買；當天美股三大指數都跌逾 2%，NVIDIA 跌 3.3%。作者認為 ANT 是情緒指標而非定論：開盤漲幅吐回一半，顯示市場想要 AI 曝險但價格容忍有限；180 天後禁售期屆滿將釋出 37 億股，首份財報要看定價與算力產能訊號。",
-     "url": "https://ai2roi.substack.com/p/ai-to-roi-news-and-analysis-november-78a",
-     "src": "AI to ROI",
-     "left": "11/20 21:31",
-     "heat": "",
-     "tags": []
-    },
-    {
-     "no": "14",
-     "rank": 2,
-     "title": "AI to ROI：黃仁勳因醜聞辭職、NVIDIA 市值蒸發 1.4 兆美元，仍是最難撼動的對手",
-     "summary_html": "AI to ROI 11/17 評論。文中說 NVIDIA 於 11/12 宣布黃仁勳即日辭去總裁、執行長與董事，起因是他與一名疑似中國間諜的女性發生婚外情等醜聞；她任職於 NVIDIA 最大的亞洲夥伴 Megaspeed，該公司被懷疑非法把晶片賣進中國。財務長 Colette Kress 代理執行長，Harvey Jones 出任首位董事長。作者指出黃仁勳只持股約 3.6%，董事會要他走就拿得掉。引述 Reuters，自 10/29 起 NVIDIA 市值蒸發約 1.4 兆美元，但 PitchBook 指出 11/5 AI 與半導體股也因市場預期選後監管收緊而重挫。其他疑慮包括：Bank of America 估 NVIDIA 替客戶資料中心融資擔保的曝險近 3,000 億美元、循環融資、NVIDIA 是否續投新創，以及出口管制收緊；財政部長 Scott Bessent 要把 Megaspeed 列入管制實體清單。",
-     "url": "https://ai2roi.substack.com/p/jensen-huang-or-not-nvidia-is-still",
-     "src": "AI to ROI",
-     "left": "11/17 21:31",
-     "heat": "",
-     "tags": []
-    },
-    {
-     "no": "13",
-     "rank": 3,
-     "title": "Memia 引 Zvi 析 Claude Mythos 5.2 系統卡：METR 估內部 AI 研發加速 1.9 倍，Anthropic 未啟動自主性門檻",
-     "summary_html": "Memia 2026.46 期（Ben Reid）是科技週掃描，作者說本期由 AI 代理讀取 95 個以上新聞源、整理約 289 則訊號，並提醒內容可能有錯誤與幻覺。本期引介 Zvi Mowshowitz 對 Anthropic 上市前推出的 Claude Mythos 5.2 與 Fable 5.2 的分析（Memia 形容是「IPO 孤注一擲式」的發表）：Zvi 認為 Mythos 5.2 系統卡大致是「分數上升、門檻未觸發」的老模式，唯一例外是 METR 估計 Anthropic 內部 AI 研發約加速 1.9 倍（信賴區間上限 2.28 倍），Anthropic 幾天後卻決定不觸發「自主性威脅模型 2」，又在發表隔天的 S-1 更新中悄悄承認這一點。上週最多人點的連結是〈在中國，AI 泡沫已經破了〉。",
-     "url": "https://memia.substack.com/p/memia-202646-sexpionage-or-hit-job",
-     "src": "Memia",
-     "left": "11/18 11:38",
-     "heat": "",
-     "tags": []
+     "text": "新事件",
+     "cls": "tag-outline"
     }
-   ]
-  },
-  {
-   "series": "reading_list",
-   "series_title": "閱讀清單",
-   "period": "2026-W47",
-   "date": "2026-11-21",
-   "items": [
+   ],
+   "facets": {
+    "region": [
+     "東北亞",
+     "北美",
+     "全球"
+    ],
+    "country": [
+     "KR",
+     "US",
+     "TW"
+    ],
+    "taiwan": [
+     "間接"
+    ],
+    "topic": [
+     "金融市場",
+     "AI"
+    ],
+    "event": [
+     "市場波動"
+    ],
+    "story": [
+     "AI 泡沫疑慮"
+    ],
+    "sector": [
+     "AI",
+     "半導體"
+    ],
+    "affects": [
+     "投資人"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "負面"
+    ],
+    "stage": [
+     "持續發展"
+    ],
+    "keyword": [
+     "KOSPI",
+     "那斯達克",
+     "AI 泡沫"
+    ]
+   },
+   "from": [
     {
-     "no": "17",
-     "rank": 1,
-     "title": "Anthropic 以 813 億美元完成史上最大 IPO，首日收漲 17%",
-     "summary_html": "Latent Space 的 AINews 報導，Anthropic 以每股 83 美元定價，在 Nasdaq 以 $ANT 掛牌，開盤 111.50 美元、比 IPO 價高 34.3%，開盤時完全稀釋估值約 2 兆美元；收盤 97.17 美元、漲 17%，盤後跌約 5% 至 92.60 美元。這次募資 813 億美元，超過 SpaceX 6 月的 750 億美元，成為史上最大 IPO；含同步私募的預期淨收入 1,048 億美元，AMD 同意隨 IPO 投資 25 億美元。Dario 與 Daniela Amodei 藉此宣示，Anthropic 會依能否確保系統安全、維持在人類控制下來決定訓練與部署的節奏；Dario 的上市談話說，強大的 AI 與人類合作「可能把一個世紀的科學與醫學進展壓縮到十年」，並點名濫用、經濟衝擊與失控三類風險。F 類股在多數股東事項上握有 50.1% 投票權；依 SEC 文件與投資人估算，員工平均身家可能超過 4,000 萬美元。",
-     "url": "https://latent.space/p/ainews-anthropic-successfully-completes-largest-ipo-in-history-valued-at-1-5t/",
-     "src": "Latent Space",
-     "left": "11/20 15:12",
-     "heat": "",
-     "tags": []
-    },
-    {
-     "no": "25",
-     "rank": 2,
-     "title": "卡內基美隆大學把資工課程免費放上 YouTube，含 AI 代理、ML 系統等研究所課程",
-     "summary_html": "卡內基美隆大學（CMU）推出 CS Learn，把七個系所的完整課堂錄影免費放上 YouTube，涵蓋 AI、機器人、系統、生物等領域。已上線的包括 10-605 大型資料集機器學習、15-110 計算原理、17-214 軟體建構原理、15-442 機器學習系統（陳天奇與 Zhihao Jia）、17-635 軟體架構、11-768 AI 代理（Daniel Fried 與 Graham Neubig）、17-645 生產環境中的機器學習等；2027 年 1 月再上線機率與計算、多模態機器學習、產品管理、AI 與機器學習等課。下一步是以 CMU 真實課程製作的自學教材，附即時回饋與徽章，之後加入 AI 家教；網站同時導向 CMU Online 的付費學分與企業培訓。CS Learn 由學生在 ScottyLabs 支援下打造。",
-     "url": "https://www.cs.cmu.edu/learn/",
-     "src": "Hacker News（本週）",
-     "left": "11/17 04:43",
-     "heat": "HN 2377",
-     "tags": []
-    },
-    {
-     "no": "11",
-     "rank": 3,
-     "title": "前白宮國安會官員 Julian Gewirtz：北京真正害怕的 AI 風險與美中協議的可能",
-     "summary_html": "80000 Hours 訪問歷史學者、拜登政府國安會前中國與台灣事務資深主任 Julian Gewirtz。他認為談北京是否重視 AI 風險，要「從中國的實際狀況與中共在意什麼出發」：中共最在意政權安全，中文論述裡的「極端失控風險」同時指失去政治控制與失去對 AI 系統的控制。他說最可能改變北京立場的是中國自身對風險的認知，其次是看到美國在國內監管 AI，作為華府認真看待風險的「昂貴訊號」；過去一年左右影響北京最大的是 Anthropic 的 Claude Mythos，加深了它對美國網路能力的憂慮。他主張從雙方利益一致處（如都不想失去對 AI 的控制）平行行動、逐步累積；許多中國 AI 公司已相信 AGI，政府較不然，但「連這點也在改變」，轉變的明確證據會是集中算力或大量採購北京至今限量的 Nvidia 晶片等實質行動。節目錄於 10 月 2 日。",
-     "url": "https://80000hours.org/podcast/episodes/julian-gewirtz-china-us-ai-deal/",
-     "src": "80000 Hours",
-     "left": "11/20 01:09",
-     "heat": "",
-     "tags": []
-    }
-   ]
-  },
-  {
-   "series": "cocos_h5_weekly",
-   "series_title": "Cocos／H5 遊戲開發週報",
-   "period": "2026-W47",
-   "date": "2026-11-22",
-   "items": [
-    {
-     "no": "01",
-     "rank": 1,
-     "title": "Cocos 構建面板隨 Dashboard 升級改版：拆成終端、應用、場景三個入口，3.8.2、3.8.7 也被換新",
-     "summary_html": "zerozerg 只想出一個網頁版和一個 Android APK，卻發現構建面板整個換新，連用快捷鍵叫出的也是新版，官方文件（Creator 4.0 手冊的構建面板頁）沒有對應說明。他自己摸出新版是「終端／應用／場景」三個入口指向同一個平台篩選頁，第二層才是原本的設定頁，並說引擎突然更新、3.8.2 與 3.8.7 的面板都變了，「連阻止的機會都沒」。同週另有三帖相關：247703646 發現構建記錄不能再改名；wangrongm2009 與 2874536645 抱怨 Dashboard 每次開啟都跳「升級支援一鍵發布全平台」的彈窗，引擎下載還佔掉 40G 硬碟。四帖都沒有官方回應。",
-     "url": "https://forum.cocos.org/t/topic/178198",
-     "src": "Cocos 中文社區",
-     "left": "11/19 11:11",
-     "heat": "632 瀏覽 / 13 回覆",
-     "tags": []
-    },
-    {
-     "no": "07",
-     "rank": 2,
-     "title": "微信小遊戲網路類型選「單機」可在備案完成前上線：實測能接激勵廣告，但 wx.request 回傳 -9003",
-     "summary_html": "億元程序員引用官方預估：無版號小遊戲備案約需 10 個工作日（平台初審＋主管部門審核），小程式備案 3–10 個工作日，合計至少兩週多。他實測的做法是備案照常走，但填資料時網路類型選「單機」，提交審核時也選單機，審核通過後就能直接發布，線上版本與「備案進行中」並存。代價是隱私協議無法修改，取得暱稱頭像、好友排行榜等介面不能用，`wx.request` 回傳錯誤碼 -9003（他說 PC 等部分機型能發出請求，待驗證）。單機版符合流量主條件後，次日即可接激勵影片廣告；要改回聯網，他說得等前一次備案結束再重新備案。他表示沒看到官方說明，不確定是不是 bug，也可能被修改。唯一一則回覆 weijinda 說備案通過後直接改成聯網即可，不用重新備案。",
-     "url": "https://forum.cocos.org/t/topic/178213",
-     "src": "Cocos 中文社區",
-     "left": "11/20 12:52",
-     "heat": "364 瀏覽 / 1 回覆",
-     "tags": []
-    },
-    {
-     "no": "05",
-     "rank": 3,
-     "title": "Cocos cc.Graphics 預設配 65535 個頂點、每個佔 2.25MB：100 個遮罩吃掉 200MB 以上記憶體且不釋放",
-     "summary_html": "it4040 指出 `cc.Graphics.prototype.activeSubModel` 預設寫死配置 65535 個頂點，每個 Graphics 獨佔 2.25MB 緩衝區；專案若大量使用遮罩（列表、圓形遮罩很常見）又用預設的 Graphics，100 個就會吃掉 200MB 以上記憶體，而且不會釋放，他稱這是小遊戲的大坑。回覆的做法：286540194 建議圓形遮罩改用 SpriteRenderer 或 shader，並說現在叫 AI 寫一個 shader 很簡單；it4040 回說他們遮的是複雜容器，不是單張圖；554326014 說當年也踩過，後來把預設遮罩全部改成白色圖片，不再用預設的 Graphics。帖中沒有官方回應。",
-     "url": "https://forum.cocos.org/t/topic/178196",
-     "src": "Cocos 中文社區",
-     "left": "11/19 10:57",
-     "heat": "743 瀏覽 / 4 回覆",
-     "tags": []
+     "series": "international",
+     "period": "2026-11-23",
+     "no": "16",
+     "rank": 5
     }
    ]
   }

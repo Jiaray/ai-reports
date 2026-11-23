@@ -1,0 +1,3057 @@
+{
+ "schema": 1,
+ "series": "international",
+ "series_title": "國際新聞日報",
+ "group": "國際",
+ "cadence": "daily",
+ "period": "2026-11-23",
+ "date": "2026-11-23",
+ "title": "國際新聞日報",
+ "brief": "DAILY INTERNATIONAL BRIEFING",
+ "issue": "NO. 2026-327",
+ "generated_at": "2026-11-23T09:45:11+08:00",
+ "lede": "COP31 在化石燃料爭議中破局；疑似烏克蘭海上無人機在利比亞擊沉俄艦，芬蘭灣俄國貨船同遭攻擊；美國民主黨拿下 1992 年來最大眾院多數；Anthropic 數學家宣稱借助 Claude 證明黎曼猜想；亞股 AI 泡沫賣壓擴大。",
+ "src_tags": [
+  "Financial Times",
+  "Reuters",
+  "BBC",
+  "The Guardian",
+  "Al Jazeera",
+  "France 24／RFI",
+  "聯合國",
+  "DW",
+  "Euronews",
+  "Japan Times",
+  "Dawn",
+  "Rappler",
+  "Premium Times",
+  "Straits Times",
+  "SCMP",
+  "CNBC",
+  "Nikkei Asia",
+  "Human Rights Watch"
+ ],
+ "intro": [
+  {
+   "kind": "p",
+   "html": "COP31 在化石燃料爭議中破局；疑似烏克蘭海上無人機在利比亞擊沉俄艦，芬蘭灣俄國貨船同遭攻擊；美國民主黨拿下 1992 年來最大眾院多數；Anthropic 數學家宣稱借助 Claude 證明黎曼猜想；亞股 AI 泡沫賣壓擴大。"
+  }
+ ],
+ "sections": [
+  {
+   "name": "焦點",
+   "count": 1,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "01",
+     "key": "a13ce2be8e",
+     "front": 1,
+     "title": "COP31 破局：歐盟拒簽未提化石燃料的「安塔利亞協定」，史上最長氣候峰會無協議收場",
+     "title_html": "COP31 破局：歐盟拒簽未提化石燃料的「安塔利亞協定」，史上最長氣候峰會無協議收場",
+     "url": "https://www.theguardian.com/environment/2026/nov/22/cop31-climate-talks-set-to-end-in-deep-division-as-key-deal-rejected",
+     "src": "Financial Times、Reuters、BBC 等 13 家",
+     "left": "11/23 00:14",
+     "ts": "2026-11-23T00:14:46+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "持續",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "原定週五閉幕的聯合國氣候峰會 COP31 在土耳其安塔利亞拖到週日下午，成為史上最長的一屆，最終仍未達成協議，Al Jazeera 指這是 2009 年以來首次以失敗收場。土耳其與澳洲共同主席提出的「安塔利亞協定」草案邀各國電氣化經濟、要求富國出資協助窮國調適，並盡量降低超過 1.5°C 門檻的「溢出」，但全文沒有提到化石燃料。代表歐盟發言的愛爾蘭環境部長 O&#x27;Brien 說草案「沒有回應當下」「甚至沒提化石燃料」，歐盟不會背書，英國與部分開發中國家站在同一邊。FT 指分裂主軸在阿拉伯集團與歐盟陣營之間；聯合國秘書長古特瑞斯把氣候行動停滯歸咎化石燃料利益。Japan Times 提到，沒有宣言不會取消前幾屆峰會的既有義務。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cqwy06zrd26lo"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/video/inside-story/2026/11/22/why-has-the-cop31-climate-summit-failed-to-reach-agreement"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/video/20261123-cop31-climate-talks-collapse"
+      },
+      {
+       "text": "聯合國",
+       "url": "https://news.un.org/en/story/2026/11/1168855"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/cop31-climate-talks-end-without-consensus-on-how-to-fund-vulnerable-countries-or-move-the-world-away-from-coal-oil-and-gas-use/a-80003610?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/22/cop31-climate-talks-fail-after-eu-and-others-reject-final-deal-proposal"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2046327/cop31-climate-talks-collapse-as-eu-and-others-reject-deal"
+      },
+      {
+       "text": "Rappler",
+       "url": "https://www.rappler.com/world/global-affairs/cop31-outcomes-november-22-2026/"
+      },
+      {
+       "text": "Premium Times",
+       "url": "https://www.premiumtimesng.com/business/business-news/927305-cop31-nigeria-absent-at-closing-plenary.html"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/1b6089f6-2201-43b4-8ed4-0c689a916afa?syn-25a6b1a6=1"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/environment/2026/11/23/climate-change/climate-diplomacy-cop31-collapse/"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQQ1RyOVZKTlV6bndHdTJhb3ZfZkI5R081UGttS1pZMDB4T0s0ekRPNGRQLW5FUERHRGVFLUxLQTFEcnFKSHpwVDBOQThBRGVaZkJfVTlMUzZPOFc3b3dZZllkVUVuRF9Lbnc3d3pzd01KQTE5WFpzR1h4alU4dUF1ZW0yYkpFeHF1RjRvbklfbWJqdDNXV1lkVkFCQnlRZw?oc=5"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/environment/video/2026/nov/22/eu-officials-reject-cop31-deal-as-it-doesnt-speak-to-reality-of-the-climate-crisis-video"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/videos/cr1ewge81q4qo"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/un-climate-talks-collapse-without-a-deal"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/environment/20261121-latest-cop31-deal-sidesteps-fossil-fuels-amid-growing-divisions"
+      },
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/videos/cx987g7q019go"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/cop31-climate-deal-not-adopted-summit-president-says/live-79999516?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Premium Times",
+       "url": "https://www.premiumtimesng.com/news/top-news/927246-un-chief-blames-fossil-fuel-interests-for-climate-inaction-as-cop31-ends-without-consensus.html"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/environment/2026/11/22/climate-change/cop31-climate-talks/"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxQc3loZzVPSEw4YTN0RXZEdEpveVFkV0JoU0dtRTktZXR6LS1XVGRNVElxWHpWVUQ3eEhOMllBam9jYlNIX29HeW9ncUwyWkNhenBPcmRZeTNBNmt6MF96SkU5TS1zWUVBSEFOS0FMV1gwVmJoS3c3bGw4TjgwLUU5NTFOUEtzOWx3dy04NkhLMW9CMmJxM1dLeVRBRWMyVl9SY1A3THFB?oc=5"
+      }
+     ],
+     "bullets_html": [
+      "<strong>多家報導</strong>：13 家（Financial Times、Reuters、BBC、The Guardian、Al Jazeera、France 24／RFI、聯合國、DW、Euronews、Japan Times、Dawn、Rappler、Premium Times）",
+      "<strong>今日新增</strong>：會期延長兩天後，歐盟、英國與部分開發中國家否決最終草案，大會正式宣告未通過協議。"
+     ],
+     "table": null,
+     "dive_html": "化石燃料措辭成了破局主因，顯示產油國與歐盟陣營的分歧已從「怎麼減」退回「要不要寫」。共識決制度下單一集團就能否決，COP 作為減碳主平台的效力會更受質疑，各國可能改走雙邊或區域工具（例如歐盟的碳邊境調整機制）推進；對出口導向的經濟體，貿易端的碳要求可能比聯合國協議來得更快。",
+     "facets": {
+      "region": [
+       "全球",
+       "中東",
+       "歐洲"
+      ],
+      "country": [
+       "TR",
+       "AU"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "環境與氣候",
+       "外交",
+       "能源"
+      ],
+      "event": [
+       "外交互動"
+      ],
+      "story": [
+       "COP31 氣候談判"
+      ],
+      "sector": [
+       "能源"
+      ],
+      "org": [
+       "聯合國",
+       "歐盟"
+      ],
+      "person": [
+       "Darragh O'Brien",
+       "古特瑞斯"
+      ],
+      "affects": [
+       "政府與監管",
+       "一般民眾"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "COP31",
+       "化石燃料",
+       "安塔利亞協定",
+       "1.5°C"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "天災與事故",
+   "count": 3,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "02",
+     "key": "edceaa44a1",
+     "title": "奈及利亞巴耶爾薩州翻船死亡增至 29 人，總統撥款 2.5 億奈拉撫卹",
+     "title_html": "奈及利亞巴耶爾薩州翻船死亡增至 29 人，總統撥款 2.5 億奈拉撫卹",
+     "url": "https://www.premiumtimesng.com/regional/south-south-regional/927299-bayelsa-boat-mishap-death-toll-rises-tinubu-approves-n250mn-for-victims-families.html",
+     "src": "Premium Times",
+     "left": "11/23 06:01",
+     "ts": "2026-11-23T06:01:42+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "奈及利亞總統提努布（Bola Tinubu）核准撥款 2.5 億奈拉給巴耶爾薩州船難罹難者家屬，死亡人數已增至 29 人。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "region": [
+       "非洲"
+      ],
+      "country": [
+       "NG"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "災害與事故"
+      ],
+      "event": [
+       "意外事故"
+      ],
+      "person": [
+       "提努布"
+      ],
+      "affects": [
+       "一般民眾"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "後續追蹤"
+      ],
+      "keyword": [
+       "巴耶爾薩州"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "03",
+     "key": "7c35c7b163",
+     "title": "桑吉巴觀光區 Nungwi 大火：6 家旅館與數十間商店燒毀，遊客撤離無傷亡",
+     "title_html": "桑吉巴觀光區 Nungwi 大火：6 家旅館與數十間商店燒毀，遊客撤離無傷亡",
+     "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/fire-breaks-out-at-popular-tourist-hotspot-in-zanzibar",
+     "src": "Al Jazeera（卡達政府出資）",
+     "left": "11/23 04:29",
+     "ts": "2026-11-23T04:29:01+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "坦尚尼亞桑吉巴島熱門觀光區 Nungwi 週日發生大火，延燒 6 家旅館與數十間商店。當局說火源是一家旅館麵包坊的烤爐，火勢蔓延到相鄰的茅草屋頂建物；遊客已撤離，未傳出死傷。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "region": [
+       "非洲"
+      ],
+      "country": [
+       "TZ"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "災害與事故"
+      ],
+      "event": [
+       "意外事故"
+      ],
+      "sector": [
+       "觀光"
+      ],
+      "affects": [
+       "一般民眾"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "桑吉巴",
+       "Nungwi"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "04",
+     "key": "3684e9678a",
+     "title": "印尼萬丹省糖果工廠大火：至少 3 死、36 人失蹤，警方移出 24 個屍袋",
+     "title_html": "印尼萬丹省糖果工廠大火：至少 3 死、36 人失蹤，警方移出 24 個屍袋",
+     "url": "https://www.theguardian.com/world/2026/nov/22/fire-confectionary-factory-indonesia-jakarta",
+     "src": "BBC、The Guardian、France 24／RFI（法國政府出資） 等 7 家",
+     "left": "11/22 15:11",
+     "ts": "2026-11-22T15:11:17+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "位於印尼萬丹省 Cikande、距雅加達約 50 公里的 Fonusa Agung Mulia 糖果零食工廠，週六（21 日）下午約 4 點 30 分起火。搜救官員 Rizky Dwianto 週日說，已知 3 人死亡、36 人失蹤、4 人受傷送醫；空拍畫面顯示廠房大面積燒毀、屋頂多處坍塌，部分區域仍在悶燒，失蹤者家屬聚集在廠外等候消息。Dawn 與海峽時報報導，警方週日已從廠內移出 24 個屍袋，搜救週一續行；執行長說起火當班約有 300 人在場。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cw8dvg5pgm0eo"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/indonesia-factory-hit-by-deadly-blaze-three-killed-and-36-missing"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/dozens-missing-as-deadly-fire-hits-indonesian-candy-factory/a-80012342?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/22/emergency-workers-recover-at-least-six-body-bags-after-indonesian-factory-fire"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2046306/search-for-indonesia-factory-fire-missing-to-resume-on-monday-police-remove-24-body-bags"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/se-asia/rescuers-say-39-missing-after-indonesia-factory-fire"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：7 家（BBC、The Guardian、France 24／RFI、DW、Euronews、Straits Times、Dawn）"
+     ],
+     "table": null,
+     "dive_html": "24 個屍袋與官方「3 死」的落差，代表死亡人數很可能大幅上修，最終規模取決於失蹤者的確認。約 300 人同班的工廠在數小時內全面延燒，接下來的焦點會是逃生動線、消防設備與建材是否合規；若調查指向管理疏失，可能帶動對勞力密集工廠的稽查。",
+     "facets": {
+      "region": [
+       "東南亞"
+      ],
+      "country": [
+       "ID"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "災害與事故",
+       "勞動"
+      ],
+      "event": [
+       "意外事故"
+      ],
+      "story": [
+       "印尼糖果工廠大火"
+      ],
+      "sector": [
+       "農業與食品",
+       "製造"
+      ],
+      "org": [
+       "Fonusa Agung Mulia"
+      ],
+      "affects": [
+       "勞工"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "萬丹省",
+       "Cikande"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "科學、環境與健康",
+   "count": 6,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "05",
+     "key": "56423aec95",
+     "title": "美軍援引緊急權限繞過法院禁令，擬週二前在愛荷華引爆數噸疊氮化鉛",
+     "title_html": "美軍援引緊急權限繞過法院禁令，擬週二前在愛荷華引爆數噸疊氮化鉛",
+     "url": "https://www.theguardian.com/us-news/2026/nov/22/army-blow-up-bomb-making-chemicals-iowa",
+     "src": "Reuters、BBC、The Guardian",
+     "left": "11/23 08:50",
+     "ts": "2026-11-23T08:50:39+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美國陸軍計畫援引緊急條款，避開法院暫緩令，在愛荷華州 Middletown 的陸軍彈藥廠引爆數噸已劣化的疊氮化鉛等製彈化學品，最快週二前執行。政府律師週六深夜向第八巡迴上訴法院表示，天氣轉冷會讓延宕更危險，「保護人員與周邊社區需要迅速行動」。上訴法院週四才應環保團體請求暫停相關許可；環團批評此舉是規避法院命令，迴避公眾對安全與透明的要求。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cvglrx764gdxo"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPWktPQlhDQmZja2RjS09vdFlCdkFtTjVHVE1xRHVMeDBVNkFiVWlrMVdlQXl2SjRsekFabUxiV05Ud0RlR1M3aVhDcVlNNURCYnVFZXBaT1RDTmNQb3ViblpuQVNGdUVwQmlad1dWc2pYaWtpeXZCQVBnalZaT1M5RTcwUzdXZndua3JNdGpHOERNczk0NExoLXRIMUttMlRXRVdTSjNmWFR6dUJVSVVlOEhVNXpHakZfVzNiY1QybVFmeXFCamYtMg?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Reuters、BBC、The Guardian）"
+     ],
+     "table": null,
+     "dive_html": "爭點在於行政機關能否以緊急安全為由跳過司法審查。若引爆如期進行，環團的訴訟可能轉向事後追究污染與程序違法，此案也可能成為其他軍事設施環保爭議援引的前例。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "環境與氣候",
+       "法律與司法",
+       "國防與安全"
+      ],
+      "event": [
+       "訴訟判決"
+      ],
+      "org": [
+       "美國陸軍",
+       "第八巡迴上訴法院"
+      ],
+      "affects": [
+       "一般民眾"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "疊氮化鉛",
+       "愛荷華陸軍彈藥廠"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "06",
+     "key": "22a1a8e21c",
+     "title": "英國啟動全球最大 AI 乳癌篩檢試驗，近 70 萬名女性受邀",
+     "title_html": "英國啟動全球最大 AI 乳癌篩檢試驗，近 70 萬名女性受邀",
+     "url": "https://www.bbc.co.uk/news/articles/cmpdwnw3nvzjo",
+     "src": "BBC",
+     "left": "11/23 08:49",
+     "ts": "2026-11-23T08:49:22+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "英國將邀請近 70 萬名女性參加名為 EDITH 的試驗，這是全球規模最大、評估 AI 協助乳癌篩檢的研究，已從劍橋大學醫院開始招募，全英共 30 個據點。英國 50 至 71 歲女性每三年受邀篩檢一次，每年逾 200 萬人受檢；目前每張乳房攝影由兩名專家判讀，試驗中其中一人改由 AI 取代。共同主持人、華威大學教授 Taylor-Phillips 說，AI 可能提升早期偵測，但要避免過度診斷那些永遠不會引起症狀的輕微病灶。英國每年約 5.9 萬例乳癌。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "先前小型研究已顯示 AI 能提高檢出率，這次的重點是用大樣本確認召回率與過度診斷是否上升，這正是醫療 AI 能否進入常規流程的門檻。若結果正面，雙人判讀改為人機判讀可紓解放射科人力，採類似篩檢制度的國家也可能參照。",
+     "facets": {
+      "region": [
+       "歐洲"
+      ],
+      "country": [
+       "GB"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "健康與醫療",
+       "AI"
+      ],
+      "event": [
+       "研究發表"
+      ],
+      "sector": [
+       "醫療照護",
+       "AI"
+      ],
+      "org": [
+       "英國國民保健署",
+       "華威大學",
+       "劍橋大學醫院"
+      ],
+      "person": [
+       "Sian Taylor-Phillips"
+      ],
+      "affects": [
+       "病患與醫護"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "預告"
+      ],
+      "keyword": [
+       "EDITH 試驗",
+       "乳房攝影",
+       "乳癌篩檢"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "07",
+     "key": "625f757689",
+     "title": "剛果伊圖里省伊波拉疫區爆發激戰，WHO 譚德塞：醫護躲進產房逾 24 小時",
+     "title_html": "剛果伊圖里省伊波拉疫區爆發激戰，WHO 譚德塞：醫護躲進產房逾 24 小時",
+     "url": "https://www.aljazeera.com/news/2026/11/23/who-chief-calls-for-peace-amid-heavy-fighting-in-ebola-hit-dr-congo-region",
+     "src": "Reuters、Al Jazeera（卡達政府出資）",
+     "left": "11/23 08:39",
+     "ts": "2026-11-23T08:39:51+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "世界衛生組織（WHO）秘書長譚德塞週日在 X 上表示，剛果民主共和國東北部伊圖里省一家醫院附近自前一天起爆發激烈交火，地點接近伊波拉疫情最早出現的區域；戰事打亂防疫工作，醫護與援助夥伴被迫躲在產科病房超過 24 小時，病患與工作人員面臨「嚴重風險」，他呼籲和平。Al Jazeera 附的相關報導提到，非洲疾管中心曾說這波剛果疫情「仍未受控」。",
+     "also": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMi5wFBVV95cUxOVnZjcE50YXJiLWxXZE5OQldXSndtUVlUbnNJckNPY1lQM1ZpdlExMlNJX08zNFJQbnFYd3FKT3ZZbzBqY2s4a3c0RVg0M2dELVZrLUx5R0tobENIQWk2QUdNZG9YRl95STZFUlVOVTlVcThuRG90VndEZEZhaE5jbTRVYkN1SUxoYmlteUhlempZSVNGRjJNWjhZdXlSNzMtM1Q3VExpZmFqZHJKbVdjT3lpekdsb0dXQXg0NHdsUkZwdlNzQW9CaGVhblM2b0VHSWRZTGlFVUJBSnd3LXA2SXJoUlVmV1E?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（Reuters、Al Jazeera）"
+     ],
+     "table": null,
+     "dive_html": "伊波拉防疫靠追蹤接觸者與隔離，交戰一中斷，失聯的接觸者就可能把病毒帶往他處。在非洲疾管中心已評估疫情未受控的情況下，若戰事延續，擴散到周邊地區的風險會明顯升高。",
+     "facets": {
+      "region": [
+       "非洲"
+      ],
+      "country": [
+       "CD"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "健康與醫療",
+       "戰爭與衝突"
+      ],
+      "event": [
+       "疫情公衛"
+      ],
+      "story": [
+       "剛果伊波拉疫情"
+      ],
+      "org": [
+       "世界衛生組織"
+      ],
+      "person": [
+       "譚德塞"
+      ],
+      "affects": [
+       "病患與醫護",
+       "一般民眾"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "伊波拉",
+       "伊圖里省"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "08",
+     "key": "78b7685e14",
+     "title": "美國失去麻疹消除地位數日後，維吉尼亞州 5 歲以下幼童死亡",
+     "title_html": "美國失去麻疹消除地位數日後，維吉尼亞州 5 歲以下幼童死亡",
+     "url": "https://www.aljazeera.com/news/2026/11/22/virginia-reports-first-measles-linked-death-of-2026-in-child-younger-than-5",
+     "src": "Al Jazeera（卡達政府出資）",
+     "left": "11/23 02:00",
+     "ts": "2026-11-23T02:00:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "維吉尼亞州衛生局週五宣布，一名未滿 5 歲的幼童死於麻疹相關病因，是該州 2026 年首例；當局以家屬隱私為由未透露細節。這距美國失去維持 26 年的「麻疹消除」認定只有幾天。維州今年累計 220 例，多數在州中部，絕大多數未接種疫苗，其中 0 至 4 歲 40 名、5 至 12 歲 75 名（截至 11 月 19 日）。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "病例集中在學齡前與學童，顯示接種缺口已在兒童族群形成群聚。失去消除地位代表病毒在國內持續傳播超過一年，幼童死亡可能促使州政府加強入學接種查核；感恩節旅遊潮是短期擴散的風險點。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "健康與醫療"
+      ],
+      "event": [
+       "疫情公衛"
+      ],
+      "story": [
+       "美國麻疹疫情"
+      ],
+      "org": [
+       "維吉尼亞州衛生局"
+      ],
+      "affects": [
+       "一般民眾",
+       "病患與醫護"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "麻疹",
+       "疫苗"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "09",
+     "key": "4c8a1693b5",
+     "title": "歐日水星探測器 BepiColombo 飛行 8 年後進入水星軌道",
+     "title_html": "歐日水星探測器 BepiColombo 飛行 8 年後進入水星軌道",
+     "url": "https://www.euronews.com/2026/11/22/bepicolombo-space-probe-enters-mercurys-orbit-after-eight-year-journey",
+     "src": "Reuters、BBC、Euronews",
+     "left": "11/22 23:27",
+     "ts": "2026-11-22T23:27:12+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "歐洲太空總署（ESA）週日清晨宣布，與日本宇宙航空研究開發機構（JAXA）合作的 BepiColombo 探測器，2018 年自法屬圭亞那發射、飛行 8 年後成功被水星捕獲進入軌道。ESA 在 X 上說探測器已與地面恢復聯繫，飛行動力團隊確認入軌，下週初再更新。依任務規劃，歐洲與日本兩具軌道器將於 12 月 9 至 10 日分離，科學觀測期預計 2027 年 4 月開始。Reuters 的標題則指入軌時回報了一項故障。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c39w9l4v1p9ro"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMinAFBVV95cUxOY19EQkgzcWxJMDg3NUxKeFRER0NLRlRsTFN0TGJEelRLZ2xhYi10MTgtNm93R1FOblRBMDRUbTZkaUpORFl1bWVTYlh3bThiQzJDeUZLZkpaTWJ0QlpMV19HVHFzbzZzZFBtN1BzVUVsNFRZcFFka2dlRDNIZEFDMWt2TG5BNWhQZkdPUWhEUnp5UUNKbUJSeTNDd08?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Reuters、BBC、Euronews）"
+     ],
+     "table": null,
+     "dive_html": "水星貼近太陽，探測器要大幅減速才能入軌，難度高於飛往外行星，這也是航程長達 8 年的原因之一。若兩具軌道器順利分工觀測，將補上 NASA 信使號之後的資料空白。Reuters 提到的故障目前沒有細節，12 月分離能否如期是第一個檢驗點。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "country": [
+       "JP"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "科學"
+      ],
+      "event": [
+       "其他"
+      ],
+      "sector": [
+       "航太"
+      ],
+      "org": [
+       "歐洲太空總署",
+       "日本宇宙航空研究開發機構"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "BepiColombo",
+       "水星"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "10",
+     "key": "aea264e532",
+     "title": "泰國擬禁止向緬甸出口稀土採礦化學品，泰中緬 24 日起會談跨境污染",
+     "title_html": "泰國擬禁止向緬甸出口稀土採礦化學品，泰中緬 24 日起會談跨境污染",
+     "url": "https://www.straitstimes.com/asia/thailand-plans-to-block-exports-of-chemicals-used-in-myanmar-rare-earth-mining",
+     "src": "Straits Times",
+     "left": "11/22 21:42",
+     "ts": "2026-11-22T21:42:24+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "泰國副總理 Yodchanan Wongsawat 週六表示，泰國計畫停止向緬甸出口稀土採礦使用的化學品，以「動用一切可能途徑」處理跨境污染，對象是供應緬甸及其他「相關國家」的稀土生產，但未說明細節。泰、中、緬三國預定 11 月 24 至 26 日就此會談。緬甸稀土濫採被認為與泰北河川污染有關，泰國政府週日也說將把 Kok 河泰國段劃為「污染管制區」。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "緬甸稀土礦主要供應中國冶煉，泰國掐住化學品出口等於對上游施壓，三方會談能否讓中方介入礦區管理是成效關鍵。稀土供應鏈本已因中國管制緊繃，若緬甸產量受影響，國際稀土價格與替代來源的需求可能再被推高。",
+     "facets": {
+      "region": [
+       "東南亞",
+       "中國大陸"
+      ],
+      "country": [
+       "TH",
+       "MM",
+       "CN"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "環境與氣候",
+       "外交"
+      ],
+      "event": [
+       "政策法規"
+      ],
+      "story": [
+       "緬甸稀土採礦污染"
+      ],
+      "sector": [
+       "製造"
+      ],
+      "person": [
+       "Yodchanan Wongsawat"
+      ],
+      "affects": [
+       "一般民眾",
+       "企業"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "稀土",
+       "Kok 河"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "科技與 AI",
+   "count": 5,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "11",
+     "key": "fb61cc4234",
+     "title": "Nvidia 晶片流中國案延燒：美國調查與黃仁勳有染的疑似中國間諜，黃仁勳 12 月 1 日赴國會作證",
+     "title_html": "Nvidia 晶片流中國案延燒：美國調查與黃仁勳有染的疑似中國間諜，黃仁勳 12 月 1 日赴國會作證",
+     "url": "https://www.theguardian.com/us-news/2026/nov/22/jensen-huang-nvidia-john-kennedy",
+     "src": "Financial Times、Reuters、The Guardian 等 7 家",
+     "left": "11/23 04:23",
+     "ts": "2026-11-23T04:23:36+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "持續",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "Nvidia 前執行長黃仁勳 11 月 12 日因被指與疑似中國間諜 Alice Huang（黃樂）及兩名員工有婚外關係而下台；Alice Huang 曾任新加坡 Megaspeed International 執行董事，衛報說 Megaspeed 經手約 120 億美元晶片銷售。國家情報總監 Clayton 週日說 Nvidia 晶片是各方最想要的「寶石」，司法部長 Todd Blanche 已表明正調查 Alice Huang 與其公司；黃仁勳將於 12 月 1 日出席眾院情報、外交與中國特別委員會。財長貝森特說美方正向 Nvidia 追問對中國的銷售、要查出誰負責合規，並不排除黃仁勳回任，川普則呼籲讓他復職。共和黨參議員 John Kennedy 追問中國如何繞過出口管制。日經另報導 Nvidia 伺服器供應商因美國管制暫停東南亞出貨。",
+     "also": [
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/us-news/2026/nov/22/howard-lutnick-nvidia-china"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/91b7a3a6-8ac5-4327-ad03-6d951f287346?syn-25a6b1a6=1"
+      },
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/world/united-states-canada/article/3375404/us-seeks-answers-nvidias-sale-chips-china-bessent-says"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQcm1fbVJENmFGZU81bGR4WXVfeDMwdWdaY0xNbmVBN3hmaXVVeVBLelJxT3dubnROYnVkM2NCRXRfcFFvMGNtZ0FlM3c5LWt1WUVGclQzY1ZJTVBCR2d2dXozSXRqN0VIM1NsV0d2YVJLRjJpRnlIcVRNSlZqeURwLWhKa1V4dUNvWDdlZmNoMnQxQ1d6WlVGalNpdjVSZm9PMXRzUA?oc=5"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/business/2026/11/23/tech/us-spy-ex-nvidia-ceo/"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/chinas-spies-set-sights-on-ai-chips-years-before-nvidia-scandal"
+      },
+      {
+       "text": "Nikkei Asia",
+       "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/nvidia-server-suppliers-halt-southeast-asia-shipments-over-us-curbs"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：7 家（Financial Times、Reuters、The Guardian、SCMP、Japan Times、Straits Times、Nikkei Asia）",
+      "<strong>今日新增</strong>：國家情報總監證實正調查 Megaspeed 前高層 Alice Huang；財長貝森特說要查出誰負責 Nvidia 合規，並不排除黃仁勳回任；日經報導 Nvidia 伺服器供應商暫停東南亞出貨。"
+     ],
+     "table": null,
+     "dive_html": "案情已從個人醜聞擴大為出口管制破口調查，衝擊不只 Nvidia：若東南亞轉運被認定是主要漏洞，伺服器組裝鏈（多在台灣廠商手中）的出貨與客戶審查都會被拉緊，日經報導的停運可能只是開始。川普與財長公開談黃仁勳回任，顯示白宮仍把 Nvidia 視為產業資產；12 月 1 日作證時，國會鷹派與白宮的立場落差值得對照。",
+     "facets": {
+      "region": [
+       "北美",
+       "中國大陸",
+       "東南亞"
+      ],
+      "country": [
+       "US",
+       "CN",
+       "SG"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "產業與企業",
+       "國防與安全",
+       "科技"
+      ],
+      "event": [
+       "犯罪執法",
+       "爭議風波"
+      ],
+      "story": [
+       "Nvidia 晶片流中國案"
+      ],
+      "sector": [
+       "半導體",
+       "AI"
+      ],
+      "org": [
+       "Nvidia",
+       "Megaspeed",
+       "美國財政部",
+       "美國國家情報總監辦公室"
+      ],
+      "person": [
+       "黃仁勳",
+       "Alice Huang",
+       "Jay Clayton",
+       "貝森特",
+       "John Kennedy"
+      ],
+      "affects": [
+       "企業",
+       "投資人"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "後續追蹤"
+      ],
+      "keyword": [
+       "出口管制",
+       "AI 晶片"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "12",
+     "key": "76ab22259b",
+     "title": "美國航空、微軟、銀行接連當機，國家情報總監克萊頓：系統升級期間還會有「顛簸」",
+     "title_html": "美國航空、微軟、銀行接連當機，國家情報總監克萊頓：系統升級期間還會有「顛簸」",
+     "url": "https://www.cnbc.com/2026/11/22/jay-clayton-tech-outages-faa-microsoft-thanksgiving.html",
+     "src": "Reuters、Financial Times、CNBC 等 5 家",
+     "left": "11/23 01:14",
+     "ts": "2026-11-23T01:14:03+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美國國家情報總監 Jay Clayton 週日在 CNN《國情咨文》節目說，美國人要為「路上的顛簸」做準備：政府與企業為因應 AI 時代升級系統、加強資安，期間可能還會出現暫時中斷。近期聯邦航空總署（FAA）、微軟 Outlook 與摩根大通等接連出事，影響航班、通訊與銀行交易；官員說這些事件成因各異，看來不是協同或 AI 發動的網路攻擊。感恩節週四登場，正值一年最繁忙的旅遊週之一。FT 與 Reuters 報導，達美航空週日在亞特蘭大樞紐因自動化系統問題短暫延誤，FAA 說與本月全國性當機無關。Euronews 則報導，川普稱傳出的 FBI 遭駭事件「不好」，但可能有好處。",
+     "also": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxQX1ZQQTFqN0xpOERieUhlT0puQ0pnQnNnRnQtaW8yb3VGWkFvM3hGeTA3QlBrR1VCNUhjS21TQ1JISlNWMG5mdlc3NVVmOUZ0LWZrMTB4R3h4YlpIVnJObWVQcmhLUDFiRnhCY1c1RTE5NzhwQzIwTXQ3MkxfN1hQSU9ZbkVidFZCWE1PWWxHMWgtem5ZSzBoOU1oYUVuZ0NEOW00V0Jlb1pEUVdrNUF3blEtSEw4dkpsYU9ya0w0N3UxTmRE?oc=5"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/22/reported-fbi-hack-not-good-but-could-have-benefits-trump-says"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/technology/2026/nov/22/hacks-ai-internet-outages-airlines-banks-microsoft-apple"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/14566557-3f63-4eeb-b589-6cb1144dc918?syn-25a6b1a6=1"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMi2gFBVV95cUxNUi1YSXI0MDNzWFFveF90TU5ObVc1eVBONWJnaGdLaGMyV0lrYjJwbkFUM0lUVXJkUGpPRXNkbEw3c29yTDdNaGJWeEV3ZUw0UzhKbjdzYXBkQ2ZwY3JaRkxjM1hIazJXdmlnN3dCNkNMOW5lcEVIcE1BN3NMSWNCem5JSHpRSzRkOUdKUzFjbnJWZUhnWG5CWkR6dDB1LWFsdFp0TS0xU2h0QWZZdVprUVRnVXk4MkpRY1lDX2U5S1g3OWIzd3dqa080eU5xOFk0ekE4UlBsakxQUQ?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：5 家（Reuters、Financial Times、CNBC、Euronews、The Guardian）"
+     ],
+     "table": null,
+     "dive_html": "官方一面否認協同攻擊、一面預告還會當機，等於承認基礎設施在升級期間的脆弱。FBI 遭駭若屬實就不只是升級陣痛，情報首長的說法可信度取決於後續調查是否公開。感恩節是近期的壓力測試，航空系統若再出事，國會對 FAA 現代化進度的追究可能升溫。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "科技",
+       "資安",
+       "交通"
+      ],
+      "event": [
+       "資安事件",
+       "聲明評論"
+      ],
+      "org": [
+       "美國國家情報總監辦公室",
+       "聯邦航空總署",
+       "微軟",
+       "摩根大通",
+       "達美航空",
+       "聯邦調查局"
+      ],
+      "person": [
+       "Jay Clayton",
+       "川普"
+      ],
+      "affects": [
+       "一般使用者",
+       "消費者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "系統當機",
+       "Outlook",
+       "FBI 遭駭"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "13",
+     "key": "e744e1aaa5",
+     "front": 4,
+     "title": "Anthropic 數學家 Alpöge 宣稱借助 Claude 六週證明黎曼猜想，兩組織獨立驗證",
+     "title_html": "Anthropic 數學家 Alpöge 宣稱借助 Claude 六週證明黎曼猜想，兩組織獨立驗證",
+     "url": "https://www.france24.com/en/tv-shows/tech-24/20261122-it-can-take-years-why-the-ai-riemann-proof-is-far-from-settled",
+     "src": "BBC、France 24／RFI（法國政府出資）、The Guardian 等 4 家",
+     "left": "11/22 22:18",
+     "ts": "2026-11-22T22:18:55+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "Anthropic 的土耳其裔美籍數學家 Levent Alpöge 週五在個人網站發文，說他與公司的 AI 工具 Claude 合作約六週，證明了 1859 年提出、關於質數分布的黎曼猜想，這是千禧年大獎難題之一。據衛報，週六下午有兩個組織宣布，審閱他發表證明所用的程式語言後已獨立驗證此說法。France 24 指這份證明是 1,700 萬行程式碼，沒有人完整讀過；黎曼猜想專家 Brian Conrey 稱這是「數學史上最大的事」，諾丁漢大學物理學家 Tony Padilla 則說驗證可能要好幾年，Alpöge 應公開他是怎麼做到的。衛報也提到，數學界對高獲利的私人公司砸大錢投入此領域感到不安。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.com/zhongwen/articles/cwe85gr487dno/trad"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/technology/2026/nov/21/anthropic-riemann-hypothesis-solved-claude-ai"
+      },
+      {
+       "text": "SCMP",
+       "url": "https://www.scmp.com/news/china/science/article/3375386/has-ai-solved-riemann-hypothesis-claim-makes-waves-200th-birthday-event-china"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：4 家（BBC、France 24／RFI、The Guardian、SCMP）"
+     ],
+     "table": null,
+     "dive_html": "證明以程式碼形式發表，所謂「驗證」可能是機器檢查程式碼成立，而非數學家逐行理解推理；Padilla 的保留點出關鍵缺口：若沒人讀得懂過程，數學界能否接受、能否從中衍生新方法都是問題。消息在 Anthropic 上市隔天發布，商業宣傳成分也會被放大檢視。若成立，AI 在前沿數學的角色將從輔助轉為主導，克雷數學研究所如何看待千禧年大獎是下一個看點。",
+     "facets": {
+      "region": [
+       "北美",
+       "全球"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "科學",
+       "AI"
+      ],
+      "event": [
+       "研究發表"
+      ],
+      "sector": [
+       "AI"
+      ],
+      "org": [
+       "Anthropic"
+      ],
+      "person": [
+       "Levent Alpöge",
+       "Brian Conrey",
+       "Tony Padilla"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "黎曼猜想",
+       "千禧年大獎難題",
+       "Claude",
+       "形式化證明"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "14",
+     "key": "f908da6e29",
+     "title": "南韓教育部長崔教振為大學入學考 AI 作弊風波請辭，李在明批准",
+     "title_html": "南韓教育部長崔教振為大學入學考 AI 作弊風波請辭，李在明批准",
+     "url": "https://www.theguardian.com/world/2026/nov/22/south-korea-education-minister-resigns-after-ai-cheating-scandal-engulfs-university-exams",
+     "src": "BBC、The Guardian、France 24／RFI（法國政府出資） 等 5 家",
+     "left": "11/22 20:12",
+     "ts": "2026-11-22T20:12:07+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "南韓教育部長崔教振週日請辭，承認為防堵 AI 作弊在大學修能考試前臨時加碼的措施造成混亂，說自己「準備不足」；總統李在明已批准。風波起於上週日，全國稅務士考試的榜首坦承用微型攝影機與智慧型手機作弊拿到近乎滿分，距修能僅四天。官員緊急推出一連串防範措施，包括封鎖考區公共 Wi-Fi、監考人數加倍、發送緊急警報偵測夾帶的手機，並要求考生只帶鉛筆，橡皮擦由考場提供。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cw3dgk29d37no"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/south-korea-ai-cheating-sparks-exam-security-chaos"
+      },
+      {
+       "text": "Japan Times",
+       "url": "https://www.japantimes.co.jp/news/2026/11/22/asia-pacific/politics/south-korea-education-minister-resigns/"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/east-asia/south-korea-education-chief-resigns-amid-ai-cheating-scandal"
+      },
+      {
+       "text": "Straits Times",
+       "url": "https://www.straitstimes.com/asia/south-koreas-education-minister-quits-over-exam-cheating-chaos"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：5 家（BBC、The Guardian、France 24／RFI、Japan Times、Straits Times）"
+     ],
+     "table": null,
+     "dive_html": "一名考生的自白就讓部長下台，反映修能在南韓社會的分量。AI 加上穿戴裝置讓傳統監考失效，各國大型考試接下來都得面對同樣問題：要嘛改用訊號干擾、金屬偵測等硬體手段，要嘛調整題型，降低可被即時查詢的比重。",
+     "facets": {
+      "region": [
+       "東北亞"
+      ],
+      "country": [
+       "KR"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "教育",
+       "AI",
+       "政治"
+      ],
+      "event": [
+       "人事異動",
+       "爭議風波"
+      ],
+      "story": [
+       "南韓 AI 考試作弊風波"
+      ],
+      "org": [
+       "南韓教育部"
+      ],
+      "person": [
+       "崔教振",
+       "李在明"
+      ],
+      "affects": [
+       "特定族群"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "後續追蹤"
+      ],
+      "keyword": [
+       "修能考試",
+       "AI 作弊"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "15",
+     "key": "7751ababce",
+     "title": "聯合國特定常規武器公約會議未談出規範，紅十字會警告自主武器管制將錯過時機",
+     "title_html": "聯合國特定常規武器公約會議未談出規範，紅十字會警告自主武器管制將錯過時機",
+     "url": "https://www.theguardian.com/science/2026/nov/22/red-cross-warns-too-late-regulate-autonomous-weapons-united-nations",
+     "src": "The Guardian",
+     "left": "11/22 17:00",
+     "ts": "2026-11-22T17:00:22+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "聯合國《特定常規武器公約》逾 120 個締約國在日內瓦結束為期一週的會議，只同意在未來兩年討論一項規範自主武器的文書，人權團體認為遠不及迫切需要。紅十字國際委員會國際法主任 Cordula Droege 說，AI 已開始部署在戰場、甚至可能已進入武器系統，「若放任不管，就更難把精靈收回瓶子」。自主武器指無需人類監督即可行動的軍事系統，常仰賴 AI。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "公約採共識決，主要軍事強國可以拖延實質規範，「再談兩年」等於讓技術先行。戰場上無人機已大量投入，規範越晚，既成事實越難逆轉；若公約框架持續卡關，支持管制的國家可能比照禁雷公約，另走公約外條約的路線。",
+     "facets": {
+      "region": [
+       "全球",
+       "歐洲"
+      ],
+      "country": [
+       "CH"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "國防與安全",
+       "AI",
+       "外交"
+      ],
+      "event": [
+       "外交互動"
+      ],
+      "org": [
+       "紅十字國際委員會",
+       "聯合國"
+      ],
+      "person": [
+       "Cordula Droege"
+      ],
+      "affects": [
+       "政府與監管"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "自主武器",
+       "特定常規武器公約"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "經濟與財經",
+   "count": 2,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "16",
+     "key": "6670527b02",
+     "front": 5,
+     "title": "AI 泡沫疑慮延燒，南韓 KOSPI 開盤一度重挫 3.7%，亞股備戰賣壓",
+     "title_html": "AI 泡沫疑慮延燒，南韓 KOSPI 開盤一度重挫 3.7%，亞股備戰賣壓",
+     "url": "https://www.aljazeera.com/news/2026/11/23/south-koreas-stock-market-tumbles-as-ai-bubble-fears-mount",
+     "src": "Reuters、Al Jazeera（卡達政府出資）、CNBC",
+     "left": "11/23 08:18",
+     "ts": "2026-11-23T08:18:03+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "南韓 KOSPI 指數週一開盤一度重挫 3.7%，延續上週五亞太與美國由科技股領跌的賣壓；KOSPI 週五已收跌 5.2%。Al Jazeera 指投資人預期台灣、中國與香港股市稍後開盤也將劇烈波動，市場對 AI 熱潮能否持續的疑慮升高。Reuters 報導美股期貨週一早盤反彈，但亞洲市場嚴陣以待；CNBC 形容那斯達克正「自由落體」。",
+     "also": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMigwFBVV95cUxNR2c4ZVNmcHBzVFctOTBkRUd2d0VHTklseUhCcEtZT2VHbU1WbWprMUk2aDZSQ2tkZHNYVE9EWUgyaEkxeWtyN0M2V2NzR2ZCTHFmMEhvbHFDeExTNUdTeDF3WkxJZ2RSdmZ2cHBxWlFjTXdoa1hXdlZQRWtyTFFKVlJjMA?oc=5"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMizAFBVV95cUxQSFRxak5ZYUFPNWxVbzlJdy1Mcm9xMTRVZ0ctY205NFVGVEFtcDdFNG1Iem05TjVBcnYzWUVUeXcyWndZNlpnR25GMW5GdkJ2blJjeUdXdlhvZ1VqNWpVSGdYX1RsQ1F3eUhkRUFaX0lxQTNnVFNySmphdG1KM2Y0NTZrdGRoTWxEaE0ybmVSUnBtdDB2VW9tWGtrYkZfUmZUaUdxWDUyUEZGZ2tSajBqSTJydzNhb2xwaTctX21xQmxmXzFyZ1BIWE80ZF8?oc=5"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/22/the-nasdaq-is-in-freefall-heres-one-stock-to-look-at.html"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Reuters、Al Jazeera、CNBC）"
+     ],
+     "table": null,
+     "dive_html": "南韓與台灣股市高度集中在 AI 供應鏈的記憶體與晶圓代工股，美國 AI 估值一旦修正，兩地首當其衝。這波賣壓又疊加 Nvidia 合規風暴，若美股期貨反彈守不住，亞洲可能出現連續性的外資賣超；真正的基本面訊號要看大型雲端業者是否下修資本支出。",
+     "facets": {
+      "region": [
+       "東北亞",
+       "北美",
+       "全球"
+      ],
+      "country": [
+       "KR",
+       "US",
+       "TW"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "金融市場",
+       "AI"
+      ],
+      "event": [
+       "市場波動"
+      ],
+      "story": [
+       "AI 泡沫疑慮"
+      ],
+      "sector": [
+       "AI",
+       "半導體"
+      ],
+      "affects": [
+       "投資人"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "KOSPI",
+       "那斯達克",
+       "AI 泡沫"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "17",
+     "key": "1e9bebaadd",
+     "title": "土耳其 170 億美元基金弊案：檢方要求凍結 108 名獲利逾 200 萬美元交易員的資產",
+     "title_html": "土耳其 170 億美元基金弊案：檢方要求凍結 108 名獲利逾 200 萬美元交易員的資產",
+     "url": "https://www.euronews.com/2026/11/22/turkey-prosecutors-seek-asset-freezes-on-108-high-profit-traders",
+     "src": "Euronews",
+     "left": "11/23 03:21",
+     "ts": "2026-11-23T03:21:21+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "據反對黨土耳其勞工黨（TİP）議員 Şık 披露的 11 月 18 日檢方文件，調查投資基金弊案的檢察官要求凍結 108 人持有的證券，這些人在疑似市場操縱期間各自交易獲利逾 1 億里拉（約 200 萬美元以上）；文件也要求金融機構密切監控他們的大額提領、轉帳與不動產交易，但凍結是否已執行仍不清楚。這起弊案牽涉約 170 億美元的投資基金，已衝擊土耳其股市，並引發外界對監理與政商關係的質疑。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "資訊來自反對黨議員轉述的文件，官方尚未證實，凍結是否落實是判斷檢方決心的關鍵。弊案若證實牽涉政治人脈，對仰賴外資回流的土耳其資本市場是信任打擊，可能拖累里拉與外資部位。",
+     "facets": {
+      "region": [
+       "中東"
+      ],
+      "country": [
+       "TR"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "金融市場",
+       "法律與司法"
+      ],
+      "event": [
+       "犯罪執法"
+      ],
+      "story": [
+       "土耳其投資基金弊案"
+      ],
+      "sector": [
+       "金融"
+      ],
+      "org": [
+       "土耳其勞工黨"
+      ],
+      "affects": [
+       "投資人"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "市場操縱",
+       "投資基金"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "社會與治安",
+   "count": 1,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "18",
+     "key": "1dd2c0b6af",
+     "title": "歐洲連三天抗議生活成本與住房，法國已連續六個週末示威",
+     "title_html": "歐洲連三天抗議生活成本與住房，法國已連續六個週末示威",
+     "url": "https://www.france24.com/en/europe-sees-new-protests-over-rising-costs-inequality-and-public-services",
+     "src": "France 24／RFI（法國政府出資）、Euronews",
+     "left": "11/22 17:41",
+     "ts": "2026-11-22T17:41:29+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "歐洲多國週日進入連續第三天抗議，繼週五的大規模示威與週六較小規模集會之後，從葡萄牙到法國都有人上街，訴求集中在生活成本上漲與可負擔住房；法國已連續六個週末示威。Euronews 報導，週六（21 日）數千人冒雨在葡萄牙里斯本遊行，要求加薪、提高退休金並設法降低生活成本。",
+     "also": [
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/video/2026/11/22/portugal-workers-brave-downpours-to-demand-a-more-affordable-life"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（France 24／RFI、Euronews）"
+     ],
+     "table": null,
+     "dive_html": "多國同步、以生活成本為主軸的抗議，顯示通膨壓力已從單一國家議題變成區域性的政治風險。若住房與能源價格沒有緩解，這股不滿可能在後續選舉中轉為對執政黨的懲罰。",
+     "facets": {
+      "region": [
+       "歐洲"
+      ],
+      "country": [
+       "FR",
+       "PT",
+       "ES",
+       "IT"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "社會",
+       "經濟",
+       "勞動"
+      ],
+      "event": [
+       "示威抗議"
+      ],
+      "affects": [
+       "一般民眾",
+       "勞工"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "生活成本",
+       "住房"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "人權、移民與人道",
+   "count": 3,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "19",
+     "key": "c5e4b3b3f0",
+     "title": "土耳其數千人在伊斯坦堡遊行，抗議當局接管 Sözcü TV 等反對派媒體",
+     "title_html": "土耳其數千人在伊斯坦堡遊行，抗議當局接管 Sözcü TV 等反對派媒體",
+     "url": "https://www.dw.com/en/turkey-thousands-protest-closure-of-critical-media-outlets/a-80015347?maca=en-rss-en-all-1573-xml-mrss",
+     "src": "DW（德國政府出資）",
+     "left": "11/23 05:31",
+     "ts": "2026-11-23T05:31:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "數千人週日在伊斯坦堡遊行數公里，抗議多家反對派媒體遭關閉，高舉「我們要思想自由、新聞自由、記者自由」的布條。導火線是警方數天前突襲 Sözcü TV，這是土耳其僅存的少數反對派電視台之一，高層遭逮捕，政府指派託管人並將公司置於強制管理；DW 說這是一年內第三起類似接管，先前 Tele1、收視最高的新聞台 Halk TV 與主要新聞網站 T24 也遭同樣處置。曾短暫被拘留的記者 Timur Soykan 說，政府正竭盡所能讓記者噤聲。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "以託管接管媒體不必正式關台，卻能直接改變編輯方向，一年內用了三次，顯示已成制度化工具。主要反對派媒體幾乎被清空後，選民的資訊來源將更集中在親政府管道，對未來選舉的公平性影響最大。",
+     "facets": {
+      "region": [
+       "中東"
+      ],
+      "country": [
+       "TR"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "人權",
+       "政治"
+      ],
+      "event": [
+       "示威抗議"
+      ],
+      "story": [
+       "土耳其媒體打壓"
+      ],
+      "org": [
+       "Sözcü TV",
+       "Halk TV",
+       "Tele1",
+       "T24"
+      ],
+      "person": [
+       "Timur Soykan"
+      ],
+      "affects": [
+       "特定族群"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "新聞自由",
+       "託管"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "20",
+     "key": "0d33e50177",
+     "title": "ICE 在西雅圖機場登機橋上逮捕兩人，華盛頓州長斥聯邦幹員「失控」",
+     "title_html": "ICE 在西雅圖機場登機橋上逮捕兩人，華盛頓州長斥聯邦幹員「失控」",
+     "url": "https://www.aljazeera.com/news/2026/11/22/horrific-and-chilling-officials-condemn-ice-arrests-at-seattle-airport",
+     "src": "Al Jazeera（卡達政府出資）、DW（德國政府出資）、Dawn",
+     "left": "11/23 03:10",
+     "ts": "2026-11-23T03:10:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美國移民及海關執法局（ICE）週六上午在西雅圖塔科馬國際機場，趁乘客登上飛往洛杉磯的阿拉斯加航空 1306 航班時，在登機橋上逮捕兩人；乘客拍下的影片顯示蒙面幹員強行帶走當事人，影片在網路瘋傳，週六晚間引發抗議。華盛頓州長稱場面「駭人」，說聯邦移民幹員「失控」；內華達州當選州長 Aaron Ford 也批評「義警式」的 ICE 幹員，支持設下限制其行動的保障措施。",
+     "also": [
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/us-ice-arrests-2-at-seattle-airport-in-chilling-scenes-governor/a-80012480?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2046346/washington-governor-calls-ice-out-of-control-after-seattle-airport-arrests"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Al Jazeera、DW、Dawn）"
+     ],
+     "table": null,
+     "dive_html": "機場登機區屬聯邦管轄，州政府能做的有限，反彈可能轉向國會：民主黨在期中選舉翻轉兩院，限制 ICE 執法方式的立法或撥款附帶條件，可望成為新國會的早期攻防。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "移民與難民",
+       "人權"
+      ],
+      "event": [
+       "犯罪執法",
+       "爭議風波"
+      ],
+      "story": [
+       "美國 ICE 移民掃蕩"
+      ],
+      "org": [
+       "美國移民及海關執法局",
+       "阿拉斯加航空"
+      ],
+      "person": [
+       "Aaron Ford"
+      ],
+      "affects": [
+       "特定族群"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "ICE",
+       "西雅圖塔科馬機場"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "21",
+     "key": "d4bb76db92",
+     "title": "以色列屯墾者夜襲西岸 4 個巴勒斯坦村莊縱火，反對派領袖艾森柯特斥「猶太恐怖主義」",
+     "title_html": "以色列屯墾者夜襲西岸 4 個巴勒斯坦村莊縱火，反對派領袖艾森柯特斥「猶太恐怖主義」",
+     "url": "https://www.theguardian.com/world/2026/nov/22/netanyahu-rival-condemns-settler-arson-attacks-palestinian-villages-west-bank",
+     "src": "Reuters、The Guardian、France 24／RFI（法國政府出資） 等 6 家",
+     "left": "11/22 23:22",
+     "ts": "2026-11-22T23:22:38+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "數十名激進以色列屯墾者週六深夜突襲被占領的約旦河西岸至少 4 個巴勒斯坦村落，燒毀約十多輛車與數棟房屋，並塗寫種族主義標語。拉姆安拉附近的 Kafr Malik 牆上出現希伯來文「這是第一次復仇」，Deir al-Sudan 有車輛起火，Deir Ballut 一座農業建物遭縱火，Deir Abu Mashal 也有車輛被燒。以色列警方已派鑑識小組調查。反對派領袖 Gadi Eisenkot 稱之為「猶太恐怖主義」，在以色列國內引發政治爭議。人權觀察同日發文，指澳洲對西岸屯墾者的制裁加大了壓力。",
+     "also": [
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/middle-east/20261122-israel-s-eisenkot-slams-jewish-terrorism-after-attacks-by-settlers-in-west-bank"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/west-bank-attacks-opposition-leader-eisenkot-decries-jewish-terrorism"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/israel-investigates-west-bank-fires"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/israel-s-eisenkot-condemns-jewish-terrorism-in-west-bank/a-80013861?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/video/2026/11/22/west-bank-four-palestinian-villages-targeted-in-suspected-settler-attacks"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxPV0NtOW83bnNaeXNoY0g0REh2Ym8yMU52U0FCaGVTRy1oeTRrM1dPclNpZTF4QWVtVE95eG9TUXJkT3JBZldRWDNjejBRcFpiWTVPV1ZqeEVZdS1qMVZ6QzVvNUtSRXY0RUxLX05pdlB3V0tvLXA1Nk0wQXhxT1dQYVNyMm1YYTZtX0pRZFI4VWNDTHctYVk2NnJMdDlWSmhxbWlzbVg5OWFacVhQUzdHSU5lNDdJTlBRZVhlVXZaUQ?oc=5"
+      },
+      {
+       "text": "Human Rights Watch",
+       "url": "https://www.hrw.org/news/2026/11/23/australias-sanctions-on-west-bank-settlers-increase-pressure"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：6 家（Reuters、The Guardian、France 24／RFI、DW、Euronews、Human Rights Watch）"
+     ],
+     "table": null,
+     "dive_html": "艾森柯特正在籌組新政府，他公開以「恐怖主義」定性，等於把屯墾者暴力放上組閣談判桌。國際上，澳洲的制裁顯示西方國家對屯墾者的個人制裁仍在擴大，以色列新政府若不處理，外交壓力會持續累積。",
+     "facets": {
+      "region": [
+       "中東"
+      ],
+      "country": [
+       "IL",
+       "PS"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "人權",
+       "戰爭與衝突",
+       "政治"
+      ],
+      "event": [
+       "犯罪執法",
+       "爭議風波"
+      ],
+      "story": [
+       "西岸屯墾者暴力"
+      ],
+      "org": [
+       "以色列警方",
+       "人權觀察"
+      ],
+      "person": [
+       "艾森柯特"
+      ],
+      "affects": [
+       "特定族群"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "屯墾者",
+       "Kafr Malik"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "文化、體育與人物",
+   "count": 5,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "22",
+     "key": "2c8bfaa220",
+     "title": "寶格麗集團主席 Paolo Bulgari 辭世，享壽 89 歲",
+     "title_html": "寶格麗集團主席 Paolo Bulgari 辭世，享壽 89 歲",
+     "url": "https://www.bbc.co.uk/news/articles/c8e39qk5vrpdo",
+     "src": "Reuters、BBC",
+     "left": "11/23 08:33",
+     "ts": "2026-11-23T08:33:36+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "帶領家族事業成為國際奢侈品牌的義大利珠寶商 Paolo Bulgari 在羅馬辭世，享壽 89 歲，家族稱他是「我們這個時代最偉大的珠寶商」。他自 1984 年起擔任寶格麗集團主席，品牌作品曾為好萊塢明星與黛安娜王妃等王室成員配戴。寶格麗由他的祖父、希臘銀匠 Sotirios Voulgaris 於 19 世紀末在羅馬創立；Paolo 離開學校不久即入行，成為寶石專家，主導公司的國際擴張，並跨足腕錶、香水等領域。",
+     "also": [
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNX2pUWUhndWMyWTFmXzVMM0Q5YVR0UWtpSzc3c0JJOFc0X0hZWUtDc052d2VpMzNfT29HSThjMnNiRE55dk8xQjJsWldTNnpxaUcwQ2N0LV9FRTJYRlJRM21JdC12a05WWGFGZXNMazBKdG8xUG1Rb1FLa1duZFBZdVJBNHBHRnFvTGE1Y0VsVGRuajRTVE85ekNzc3JUdUZUMWZ5RFJ2dTVIdi1MMktlMkpScGEwVDlrN19ZNXJvX3FJdGpKYmc?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（Reuters、BBC）"
+     ],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "region": [
+       "歐洲"
+      ],
+      "country": [
+       "IT"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "產業與企業",
+       "文化與娛樂"
+      ],
+      "event": [
+       "其他"
+      ],
+      "sector": [
+       "零售與消費"
+      ],
+      "org": [
+       "寶格麗"
+      ],
+      "person": [
+       "Paolo Bulgari"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "珠寶"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "23",
+     "key": "7e276867e6",
+     "title": "澳洲音樂推手、《Countdown》主持人 Molly Meldrum 辭世，享壽 83 歲",
+     "title_html": "澳洲音樂推手、《Countdown》主持人 Molly Meldrum 辭世，享壽 83 歲",
+     "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-dies-aged-83",
+     "src": "BBC、The Guardian",
+     "left": "11/23 08:25",
+     "ts": "2026-11-23T08:25:40+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "澳洲音樂記者、廣播人兼製作人 Ian「Molly」Meldrum 週一凌晨在墨爾本一家醫院安詳辭世，享壽 83 歲，由他的長年好友兼經紀人 Mark Klemens 證實。Meldrum 以音樂節目《Countdown》主持人聞名，數十年來形塑澳洲人的音樂品味，把澳洲音樂推向國際，也把國際音樂引進澳洲。總理艾班尼斯、歌手 Jason Donovan 等人紛紛致哀。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c3qj57rkd2k1o"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/music/2026/nov/23/molly-meldrum-music-industry-tributes"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（BBC、The Guardian）"
+     ],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "region": [
+       "大洋洲"
+      ],
+      "country": [
+       "AU"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "文化與娛樂"
+      ],
+      "event": [
+       "其他"
+      ],
+      "sector": [
+       "媒體與娛樂"
+      ],
+      "person": [
+       "Molly Meldrum",
+       "艾班尼斯"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "Countdown"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "24",
+     "key": "3eb6c660e6",
+     "title": "FIFA 週一將確認英國四協會合辦 2035 年女足世界盃，英國 1966 年後首辦世界盃",
+     "title_html": "FIFA 週一將確認英國四協會合辦 2035 年女足世界盃，英國 1966 年後首辦世界盃",
+     "url": "https://www.bbc.co.uk/sport/football/articles/cx30g83716lzo",
+     "src": "BBC",
+     "left": "11/23 05:44",
+     "ts": "2026-11-23T05:44:37+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "國際足總（FIFA）預定週一確認，由英格蘭、北愛爾蘭、蘇格蘭與威爾斯聯合申辦的 2035 年女足世界盃主辦權；四協會是唯一申辦者，這也將是英國自 1966 年以來首度舉辦世界盃。賽事規劃 48 隊、104 場、為期 39 天，提議 19 座場館（英格蘭 14、北愛 1、蘇格蘭 2、威爾斯 2）。FIFA 評估報告給申辦案 4.3 分（滿分 5），但合約架構列為「中度風險」，指部分政府保證在稅務與安全方面有保留，外界認為與 FIFA 要求足球相關活動免稅一事未達共識有關。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "region": [
+       "歐洲"
+      ],
+      "country": [
+       "GB"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "體育"
+      ],
+      "event": [
+       "活動賽事"
+      ],
+      "org": [
+       "國際足總"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "預告"
+      ],
+      "keyword": [
+       "女足世界盃"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "25",
+     "key": "2bacdc6c45",
+     "title": "Alcaraz 直落二擊敗世界球王 Zverev，首奪 ATP 年終總決賽冠軍",
+     "title_html": "Alcaraz 直落二擊敗世界球王 Zverev，首奪 ATP 年終總決賽冠軍",
+     "url": "https://www.bbc.co.uk/sport/tennis/articles/c60evlendg0jo",
+     "src": "BBC",
+     "left": "11/23 04:15",
+     "ts": "2026-11-23T04:15:48+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "23 歲的西班牙球星 Carlos Alcaraz 在義大利杜林以 6-2、7-6（9-7）擊敗世界第一 Alexander Zverev，第四度參賽首次奪得 ATP 年終總決賽冠軍，也是連續 14 勝、連續第三座冠軍。Alcaraz 今年先成為最年輕完成職業全滿貫的男子選手，之後因手腕傷勢缺陣逾四個月；本週他左大腿仍纏著厚重繃帶。Zverev 趁 Alcaraz 與 Sinner 傷缺期間登上球王，並拿下個人前兩座大滿貫。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "region": [
+       "歐洲"
+      ],
+      "country": [
+       "ES",
+       "DE",
+       "IT"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "體育"
+      ],
+      "event": [
+       "活動賽事"
+      ],
+      "person": [
+       "Carlos Alcaraz",
+       "Alexander Zverev"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "ATP 年終總決賽",
+       "網球"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "26",
+     "key": "0b9c65c7cc",
+     "title": "Márquez 葡萄牙站封王，第 8 座 MotoGP 冠軍超越 Rossi",
+     "title_html": "Márquez 葡萄牙站封王，第 8 座 MotoGP 冠軍超越 Rossi",
+     "url": "https://www.euronews.com/2026/11/22/marc-marquez-wins-eighth-motogp-title-in-portugal-surpassing-rossis-record",
+     "src": "Euronews",
+     "left": "11/23 03:35",
+     "ts": "2026-11-23T03:35:38+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "西班牙 Ducati 車手 Marc Márquez 週日在葡萄牙 Portimão 賽道以第八名完賽，確定奪得個人第 8 座 MotoGP 最高級別世界冠軍，超越 Valentino Rossi 的 7 座，與 Giacomo Agostini 並列最高級別封王次數紀錄。他生涯共 10 座世界冠軍（另有 125cc、Moto2 各一），也超過 Rossi 的 9 座。分站冠軍由 Aprilia 的 Marco Bezzecchi 拿下。Márquez 本季飽受傷勢困擾。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "region": [
+       "歐洲"
+      ],
+      "country": [
+       "ES",
+       "PT"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "體育"
+      ],
+      "event": [
+       "活動賽事"
+      ],
+      "org": [
+       "Ducati"
+      ],
+      "person": [
+       "Marc Márquez",
+       "Valentino Rossi"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "MotoGP"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "戰爭與地緣衝突",
+   "count": 6,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "27",
+     "key": "066ac24fc8",
+     "title": "蘇丹喀土穆遭無人機襲擊，住宅與聯合國建物受損，軍方指控衣索比亞",
+     "title_html": "蘇丹喀土穆遭無人機襲擊，住宅與聯合國建物受損，軍方指控衣索比亞",
+     "url": "https://www.france24.com/en/video/20261123-drone-strikes-hit-homes-united-nations-building-in-sudan-s-capital",
+     "src": "Al Jazeera（卡達政府出資）、France 24／RFI（法國政府出資）、DW（德國政府出資）",
+     "left": "11/23 08:43",
+     "ts": "2026-11-23T08:43:36+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "蘇丹首都喀土穆週日清晨遭無人機襲擊，住宅與一棟聯合國建物受損，蘇丹軍方指控鄰國衣索比亞發動攻擊。DW 報導，聯合國機構說讓人道工作者暴露在這類攻擊下「無法接受」。Al Jazeera 則報導快速支援部隊（RSF）的無人機攻擊造成數名平民死亡、多棟建物受損。蘇丹內戰已進入第四年，無人機戰愈趨激烈。",
+     "also": [
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/civilians-killed-in-rsf-drone-strikes-in-sudan"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/africa/20261122-drone-strikes-hit-homes-and-un-building-in-sudan-s-khartoum"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/sudan-drones-hit-un-building-residential-area-in-khartoum/a-80015122?maca=en-rss-en-all-1573-xml-mrss"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Al Jazeera、France 24／RFI、DW）"
+     ],
+     "table": null,
+     "dive_html": "軍方把矛頭指向衣索比亞，與 Al Jazeera 指稱的 RSF 攻擊說法不同，兩者是否同一波攻擊、衣索比亞是否介入，目前都沒有公開證據。指控若坐實，蘇丹內戰將升級為區域衝突。",
+     "facets": {
+      "region": [
+       "非洲"
+      ],
+      "country": [
+       "SD",
+       "ET"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "戰爭與衝突",
+       "人權"
+      ],
+      "event": [
+       "軍事行動"
+      ],
+      "story": [
+       "蘇丹內戰"
+      ],
+      "org": [
+       "蘇丹軍方",
+       "快速支援部隊",
+       "聯合國"
+      ],
+      "affects": [
+       "一般民眾"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "喀土穆",
+       "無人機"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "28",
+     "key": "3254ef278d",
+     "title": "俄軍空襲基輔州 Dymer 公寓 6 死，7 歲男童受困 14 小時獲救",
+     "title_html": "俄軍空襲基輔州 Dymer 公寓 6 死，7 歲男童受困 14 小時獲救",
+     "url": "https://www.bbc.co.uk/news/articles/cqdr15l32d3go",
+     "src": "Reuters、BBC、France 24／RFI（法國政府出資） 等 4 家",
+     "left": "11/23 07:53",
+     "ts": "2026-11-23T07:53:45+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "俄軍週日清晨空襲基輔北方的 Dymer 村，一棟住宅大樓部分倒塌，基輔州長 Tymur Tkachenko 說已有 6 人死亡、6 人受傷，仍有人失蹤；一名 7 歲男童在空襲 14 小時後從瓦礫中救出，情況穩定。總統澤倫斯基說逾 130 人投入救援，會持續到掌握每一個人的下落；他也說基輔州 Vyshneve 一家雜貨店另遭攻擊，3 死 13 傷。Euronews 稍早引述當局說有 15 人失蹤。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/videos/cre3dvd1k9y1o"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/russian-strike-kills-2-in-kyiv"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/22/14-people-missing-after-russian-drone-strike-on-kyiv-region"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/video/2026/11/22/ukraine-up-to-seven-feared-trapped-beneath-rubble-near-kyiv-after-russian-attack"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPUmFwN2pYTHZEVndFX2hfN3VOQnduN3pEYnZXa2tfT1d1UGZDejk3ZU11dkwwLTdsUTltdm0taU8wTnpNTkZVV045Z3pkc0czd2FSS1lEZDhyLVVCNFJvNk9xUHR2ZUxydnAyYTJDVzd3RWIwQ1E0YjAyc2R6bkpkbkt1aThfVldjUGRKbkhXanhraVo3SkJHcHBuMmxBcXJreDhQSEx1QV9ZUXhDOHdhbmZMRkZoeVBOXzJ5ag?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：4 家（Reuters、BBC、France 24／RFI、Euronews）"
+     ],
+     "table": null,
+     "dive_html": "攻擊在凌晨民眾熟睡時命中住宅，平民傷亡難以避免。同一天烏克蘭疑似在班加西、芬蘭灣打擊俄國船隻，雙方都在擴大打擊範圍，談判桌外的軍事施壓並未降溫。",
+     "facets": {
+      "region": [
+       "歐洲"
+      ],
+      "country": [
+       "UA",
+       "RU"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "戰爭與衝突"
+      ],
+      "event": [
+       "軍事行動"
+      ],
+      "story": [
+       "俄烏戰爭",
+       "基輔空襲"
+      ],
+      "org": [
+       "烏克蘭國家緊急服務局"
+      ],
+      "person": [
+       "澤倫斯基",
+       "Tymur Tkachenko"
+      ],
+      "affects": [
+       "一般民眾"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "Dymer",
+       "Vyshneve"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "29",
+     "key": "969b3e367a",
+     "front": 2,
+     "title": "俄國海軍護衛艦 Merkury 在利比亞班加西遭疑似烏克蘭海上無人機擊沉，同晚再有貨輪遇襲",
+     "title_html": "俄國海軍護衛艦 Merkury 在利比亞班加西遭疑似烏克蘭海上無人機擊沉，同晚再有貨輪遇襲",
+     "url": "https://www.theguardian.com/world/2026/nov/22/blast-russian-ship-suspected-drone-attack-benghazi-libya",
+     "src": "Reuters、BBC、The Guardian 等 7 家",
+     "left": "11/23 05:33",
+     "ts": "2026-11-23T05:33:44+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "停靠利比亞東部班加西海軍基地、返俄途中補給燃料的俄國海軍護衛艦 Merkury，週日凌晨遭疑似烏克蘭海上無人機攻擊，夜間發生劇烈爆炸並起火。利比亞東部政府的軍方官員告訴美聯社，數架無人機來襲，至少 4 架被攔截摧毀、2 架命中；衛星影像顯示艦艇已翻覆沉沒。地點距烏克蘭南部逾 1,000 英里（約 1,600 公里），目前無人宣稱犯案。數小時後，一艘懸掛馬爾他國旗的商船週日晚間也在班加西外海遭海上無人機攻擊。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cr894gjz0j0yo"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/suspected-drone-attack-causes-explosion-on-russian-ship-in-libya"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/video/20261122-russian-ship-attacked-near-benghazi-in-suspected-drone-attack-ukraine"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/africa/20261122-russian-warship-hit-by-suspected-ukrainian-drone-at-libya-s-benghazi-naval-base"
+      },
+      {
+       "text": "DW",
+       "url": "https://www.dw.com/en/libya-suspected-drone-attack-hits-russian-ship-in-benghazi/a-80014545?maca=en-rss-en-all-1573-xml-mrss"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/22/suspected-drone-strike-hits-russian-ship-at-libyas-benghazi-port-raising-regional-security"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNSHNFQ2hvQUxyR05zYXIyVjczNjE3eEVLWWhMdk1mS01BQV91dy03OU5SSzVzbzlvVk1ManQ2TFhqU2xkRkhZcGthVlZad0E1aVRKU1E5ZWxJTWRQVG5UYmFYYmcxZGJ1TFc1YzE0a2E4XzQ4SGJLNjNlc0otTGhGRnRWTHpmeW1mWnVBLTNhYmFLU3JOUTVfSTliN19fMG9rRWlmeFdKNHFSU1JVTTdnQUNhUlBUWmRSTDVXUUJuUW9fNEV2cjNWdTlPZw?oc=5"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/22/second-ship-targeted-in-series-of-naval-drone-attacks-off-libyan-coast"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：7 家（Reuters、BBC、The Guardian、Al Jazeera、France 24／RFI、DW、Euronews）"
+     ],
+     "table": null,
+     "dive_html": "若確認是烏克蘭所為，代表其海上無人機的作戰半徑已延伸到地中海南岸，俄國的海外補給據點不再是安全後方。利比亞東部由與俄國關係密切的勢力控制，這次攻擊等於把北非捲進俄烏戰事；俄方若報復或加強護航，地中海航運的保險與航線風險都會上升。",
+     "facets": {
+      "region": [
+       "非洲",
+       "歐洲"
+      ],
+      "country": [
+       "LY",
+       "RU",
+       "UA"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "戰爭與衝突",
+       "國防與安全"
+      ],
+      "event": [
+       "軍事行動"
+      ],
+      "story": [
+       "俄烏戰爭",
+       "烏克蘭攻擊境外俄國船艦"
+      ],
+      "org": [
+       "俄羅斯海軍",
+       "利比亞東部政府"
+      ],
+      "affects": [
+       "政府與監管"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "Merkury",
+       "海上無人機",
+       "班加西"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "30",
+     "key": "084fb59dac",
+     "title": "波蘭檢方：上週五有三枚俄國飛彈飛入波蘭境內",
+     "title_html": "波蘭檢方：上週五有三枚俄國飛彈飛入波蘭境內",
+     "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNM1VMUS1oUkxlYzRWaDg5WjNPbGJoV2t1LTlRNkVMWnF6a3Q3aUljXzlCal9hWmdhWnlkYzdKNjdFVGdwVk1WUFFucGdfbUlnY3RtUjBsdFBxVTdmTGNjcnJ1a0VDNnk5eFh5NDdWaGNWcjNWcFI2WkoxZnFUbkI5UHZ6YTdYZUVMa19Ldk5YTERtX3ZialpvbjI4eFVoQ0Eyd2l0NGxoVQ?oc=5",
+     "src": "Reuters",
+     "left": "11/23 01:19",
+     "ts": "2026-11-23T01:19:43+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "Reuters 報導，波蘭檢方表示上週五有三枚俄國飛彈飛入波蘭境內。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "region": [
+       "歐洲"
+      ],
+      "country": [
+       "PL",
+       "RU"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "國防與安全",
+       "戰爭與衝突"
+      ],
+      "event": [
+       "軍事行動"
+      ],
+      "story": [
+       "俄烏戰爭"
+      ],
+      "org": [
+       "波蘭檢察署"
+      ],
+      "affects": [
+       "政府與監管"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "後續追蹤"
+      ],
+      "keyword": [
+       "北約",
+       "領空"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "31",
+     "key": "4c9d70de27",
+     "title": "遭無人機擊中的受制裁俄國貨船 Sparta II 漂入芬蘭海域後被拖走，芬蘭總理：戰火已延燒到身邊",
+     "title_html": "遭無人機擊中的受制裁俄國貨船 Sparta II 漂入芬蘭海域後被拖走，芬蘭總理：戰火已延燒到身邊",
+     "url": "https://www.bbc.co.uk/news/articles/cj752ddve27ko",
+     "src": "Financial Times、Reuters、BBC 等 4 家",
+     "left": "11/23 01:18",
+     "ts": "2026-11-23T01:18:26+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "開往俄國飛地加里寧格勒的貨船 Sparta II 週六上午在芬蘭灣東部遭無人機攻擊起火，隨後漂入芬蘭海域，船員已撤回俄國；芬蘭國防軍說很可能是烏克蘭所為，基輔尚未回應。芬蘭邊境警衛隊週日下午說外觀已不見火勢，但熱像儀顯示部分貨櫃仍有高溫，船身輕微傾斜、情況穩定，未偵測到燃油或危險物質外洩，俄方已開始拖離。加里寧格勒州長說攻擊用了兩架無人機。美國 2022 年、烏克蘭今年都已制裁這艘船，營運公司自稱 2011 年成立於俄國國防部體系內。FT 引述芬蘭總理說「戰爭正蔓延到我們的鄰近地區」。",
+     "also": [
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/22/finland-confirms-russia-is-towing-drone-hit-cargo-ship-after-baltic-sea-attack"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/2c959c95-97a5-4957-9eb2-8436c34ba374?syn-25a6b1a6=1"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxPTXUxa0FLT1o3Tzh4MUR0MV9ZenU1LU9PZl9QSzhsQXlOQThFNUxWbWFXRXZTOHFpb1lJdG1GTV9hOUZsc2x4YzBOSzV3ZHZkV2pyNjNIaTVWZEViQ2lLb3JkcjJsbGhVNXFmWXQ5c0pDTkVXeG9IbmlKV3AxYUtfNE5DVnhWX3lvNmg0SF9SZ1lHQzEtSnY1REsycUlvWFVEOFlBSXR3?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：4 家（Financial Times、Reuters、BBC、Euronews）"
+     ],
+     "table": null,
+     "dive_html": "與同日班加西的攻擊合看，烏克蘭似乎在系統性打擊與俄國軍方相關的海上補給線。攻擊發生在北約成員國海域旁，芬蘭的處境兩難：既要譴責戰火外溢，又難對攻擊俄國軍用貨船的一方施壓。類似事件若增加，波羅的海的航運與漏油風險將成為沿岸北約國家的新負擔。",
+     "facets": {
+      "region": [
+       "歐洲"
+      ],
+      "country": [
+       "FI",
+       "RU",
+       "UA"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "戰爭與衝突",
+       "國防與安全"
+      ],
+      "event": [
+       "軍事行動"
+      ],
+      "story": [
+       "俄烏戰爭",
+       "烏克蘭攻擊境外俄國船艦"
+      ],
+      "org": [
+       "芬蘭邊境警衛隊",
+       "芬蘭國防軍"
+      ],
+      "person": [
+       "Alexei Besprozvannykh"
+      ],
+      "affects": [
+       "政府與監管"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "後續追蹤"
+      ],
+      "keyword": [
+       "Sparta II",
+       "芬蘭灣",
+       "加里寧格勒"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "32",
+     "key": "ed3bf2853f",
+     "title": "伊朗戰爭升溫：伊朗海軍稱荷莫茲海峽油輪遭焚，巴林工業設施中彈，胡塞稱攻擊沙國 Rabigh 煉油廠",
+     "title_html": "伊朗戰爭升溫：伊朗海軍稱荷莫茲海峽油輪遭焚，巴林工業設施中彈，胡塞稱攻擊沙國 Rabigh 煉油廠",
+     "url": "https://www.japantimes.co.jp/news/2026/11/22/world/bahrain-iran-attack-hormuz/",
+     "src": "Reuters、Al Jazeera（卡達政府出資）、Euronews 等 6 家",
+     "left": "11/22 13:19",
+     "ts": "2026-11-22T13:19:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "持續",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "伊朗海軍宣稱，荷莫茲海峽內違反其規定的油輪遭焚燒；伊斯蘭革命衛隊則說「敵人」企圖在國內煽動動亂。巴林說伊朗投射物擊中一處工業設施，兩人受傷，其中一人是巴基斯坦籍；Japan Times 指巴林上週多次遇襲，打破自 2 月底美以空襲伊朗開戰後的一段平靜。沙烏地阿拉伯說擊毀一架葉門胡塞武裝發射的無人機，胡塞則宣稱攻擊了沙國 Rabigh 煉油廠。Euronews 報導，美軍說週六是對伊朗海上封鎖的第 130 天；伊朗油輪從 Kharg 島出發闖封鎖的說法互相矛盾，追蹤網站指該船並不存在。伊朗表示仍願與美國達成協議，Dawn 報導川普有意達成「永久協議」。",
+     "also": [
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/liveblog/2026/11/22/iran-war-live-tankers-set-ablaze-in-hormuz-as-irgc-warns-of-unrest-threat"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/22/tanker-incident-involving-military-forces-reported-in-strait-of-hormuz"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/22/tracking-site-says-iranian-tanker-reportedly-sailing-through-strait-of-hormuz-does-not-exi"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2046321/pakistani-among-two-injured-in-iranian-attacks-bahrain-says"
+      },
+      {
+       "text": "CNBC",
+       "url": "https://www.cnbc.com/2026/11/22/saudi-houthi-bahrain-iran-attacks-araghchi-talks.html"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQSjZLZW5ua05hQkRTLVhvZnNHZnpUM05mT3ZxNl9FUUoyMEhMN0gtTUVfT0Zhb0g2eUxaeHlvZWlIWXNTVGlSMlczMHdBUERvRjVsQVZVSW92MlFESWlmTGxVaWM2aXYwZ0NtUTlna3k4ZkV2S0k4YkhVOFRjaWRrcmhZeWg5NHpQaW9pRGIybUFpalV3U2lzdlZ5QzYteENUSWpWdm90SXNFWVU4OWxBaGx3?oc=5"
+      },
+      {
+       "text": "Dawn",
+       "url": "https://www.dawn.com/news/2046200/trump-intends-to-secure-permanent-deal-with-iran"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：6 家（Reuters、Al Jazeera、Euronews、CNBC、Japan Times、Dawn）",
+      "<strong>今日新增</strong>：伊朗海軍宣稱焚燒違反其規定的油輪；巴林說伊朗投射物擊中工業設施、2 人受傷；胡塞宣稱攻擊沙國 Rabigh 煉油廠，沙國說擊毀一架胡塞無人機。"
+     ],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "region": [
+       "中東"
+      ],
+      "country": [
+       "IR",
+       "BH",
+       "SA",
+       "YE",
+       "US"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "戰爭與衝突",
+       "能源"
+      ],
+      "event": [
+       "軍事行動"
+      ],
+      "story": [
+       "美伊戰爭"
+      ],
+      "sector": [
+       "能源"
+      ],
+      "org": [
+       "伊斯蘭革命衛隊",
+       "胡塞武裝",
+       "美軍"
+      ],
+      "person": [
+       "川普",
+       "阿拉奇"
+      ],
+      "affects": [
+       "一般民眾",
+       "企業"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "荷莫茲海峽",
+       "海上封鎖",
+       "Rabigh 煉油廠"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "政治與治理",
+   "count": 4,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "33",
+     "key": "e2be825e0d",
+     "title": "川普在維吉尼亞球場第三度為 $TRUMP 迷因幣大戶辦晚宴，民主黨批利益衝突",
+     "title_html": "川普在維吉尼亞球場第三度為 $TRUMP 迷因幣大戶辦晚宴，民主黨批利益衝突",
+     "url": "https://www.theguardian.com/us-news/2026/nov/22/trump-cryptocurrency-gala-meme-coin",
+     "src": "Reuters、The Guardian、Al Jazeera（卡達政府出資）",
+     "left": "11/23 08:31",
+     "ts": "2026-11-23T08:31:31+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "川普週日晚間在維吉尼亞州 Sterling 的川普國家高爾夫俱樂部，第三度為自家迷因幣 $TRUMP 的大戶舉辦晚宴，民主黨指控總統不當從加密貨幣事業獲利。活動依持幣排名分級，共 185 名持有人：120 名出席者可獲川普香水、海報、紀念票與「川普手錶」，前 29 名受邀 VIP 酒會，前 4 名獲贈「TRUMP 18K 金錶」；拳王 Floyd Mayweather、創投人 Kevin O&#x27;Leary 等人到場。Reuters 形容該幣正在「暴跌」。",
+     "also": [
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/22/trump-to-host-private-dinner-for-largest-owners-of-his-meme-coin"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQWjJxV2tNOWN0U2lzczlZWVgtQ0xIblpuY05HTUlTOEhsU1lXVTNUN2dfbFFhUUNFaVZveEdVTTBvLUl3cC1oaXRSZHNyZEpfNFhEb3R4SU1fRHVZbnFPNUhZaklEUmtmQ0xvVnlJbkRmcmVJLUdLM0RjUlZ5R3k5Z29uUWpPeHUwVFhWcko3YWE0VFdJWXhSN1dTMmZQVU9RdDNrSDdOMA?oc=5"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（Reuters、The Guardian、Al Jazeera）"
+     ],
+     "table": null,
+     "dive_html": "總統親自招待自家幣的大戶，持幣越多、接觸越近，這種以幣換接觸的結構正是利益衝突爭議的核心。民主黨明年掌握眾院調查權，FT 也報導其調查計畫，這類活動很可能成為新國會的早期調查標的。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "政治",
+       "金融市場"
+      ],
+      "event": [
+       "爭議風波"
+      ],
+      "sector": [
+       "加密資產"
+      ],
+      "org": [
+       "民主黨"
+      ],
+      "person": [
+       "川普"
+      ],
+      "affects": [
+       "投資人"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "$TRUMP",
+       "迷因幣"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "34",
+     "key": "1db6c23072",
+     "title": "英相伯納姆將向國會力推「里程碑」英歐協議，稱可為經濟增加 170 億英鎊",
+     "title_html": "英相伯納姆將向國會力推「里程碑」英歐協議，稱可為經濟增加 170 億英鎊",
+     "url": "https://www.bbc.co.uk/news/articles/cmde1dy82lepo",
+     "src": "BBC、The Guardian、France 24／RFI（法國政府出資）",
+     "left": "11/23 06:49",
+     "ts": "2026-11-23T06:49:10+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "英國首相伯納姆（Andy Burnham）週五在布魯塞爾與歐盟達成協議，涵蓋英國食品出口、排放交易與青年體驗計畫，他稱為「雙贏」。BBC 報導，他週一將告訴國會，這項「里程碑」協議讓下一個十年有「非常實際的可能」比過去更好，是「破碎現狀或改變」之間的選擇，也是本屆國會「最大的單一成長措施」，並重申可為英國經濟增加 170 億英鎊。協議引來各方批評，前首相梅伊說對其歐盟計畫感到「震驚」，要他「接受脫歐、向前走」。衛報報導，英國出口商普遍歡迎脫歐檢查即將結束，但對落實時程太長感到不滿。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/cvj6l8y3x1x4o"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/business/2026/nov/22/uk-eu-food-sps-deal-brexit-checks"
+      },
+      {
+       "text": "The Guardian",
+       "url": "https://www.theguardian.com/politics/2026/nov/22/theresa-may-blast-from-the-past-tories-brexit"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/tv-shows/spotlight/20261122-burnham-brejoin-the-ghosts-of-brexit"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：3 家（BBC、The Guardian、France 24／RFI）"
+     ],
+     "table": null,
+     "dive_html": "食品檢疫與排放交易對接，本質是英國在部分領域重新接受歐盟規則，換取邊境摩擦減少，這正是保守黨與脫歐派反彈的原因。伯納姆把協議包裝成生活成本議題，顯示他押注民意已轉向親歐；但落實時程拉長，經濟效益短期難以兌現，政治爭議反而會先到。",
+     "facets": {
+      "region": [
+       "歐洲"
+      ],
+      "country": [
+       "GB"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "政治",
+       "外交",
+       "經濟"
+      ],
+      "event": [
+       "外交互動",
+       "政策法規"
+      ],
+      "story": [
+       "英歐關係重設"
+      ],
+      "org": [
+       "歐盟",
+       "英國國會"
+      ],
+      "person": [
+       "Andy Burnham",
+       "梅伊"
+      ],
+      "affects": [
+       "企業",
+       "一般民眾"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "好壞參半"
+      ],
+      "stage": [
+       "後續追蹤"
+      ],
+      "keyword": [
+       "脫歐",
+       "排放交易",
+       "青年體驗計畫",
+       "食品出口"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "35",
+     "key": "e1de8a9341",
+     "front": 3,
+     "title": "美國民主黨拿下至少 258 席眾院席次，創 1992 年來最大多數",
+     "title_html": "美國民主黨拿下至少 258 席眾院席次，創 1992 年來最大多數",
+     "url": "https://www.theguardian.com/us-news/2026/nov/22/house-democrats-historic-sweep",
+     "src": "Reuters、Financial Times、BBC 等 7 家",
+     "left": "11/23 03:17",
+     "ts": "2026-11-23T03:17:56+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "北卡羅來納州第 5 選區重新計票後，民主黨 Chuck Hubbard 擊敗已連任 11 屆、曾任眾院規則委員會主席的共和黨議員 Virginia Foxx，Foxx 週日認輸，民主黨在眾院至少拿下 258 席，是 1992 年以來最大多數；共和黨至少 173 席。民主黨在 11 月 3 日期中選舉同時翻轉參眾兩院，眾院已淨增 44 席，多於川普第一任期中選舉 2018 年的 40 席。尚有 4 席未定：明尼蘇達、田納西各一，路易斯安那兩席將於 12 月決選。FT 報導，眾院民主黨計畫動用調查權追查對川普政府的貪腐指控，資深議員 Richard Neal 也誓言就川普的減稅與關稅政策舉行聽證、設法撤回。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.co.uk/news/articles/c6vg29g7dlyno"
+      },
+      {
+       "text": "Al Jazeera",
+       "url": "https://www.aljazeera.com/news/2026/11/22/democrats-win-largest-house-majority-since-1992-with-north-carolina-seat"
+      },
+      {
+       "text": "France 24／RFI",
+       "url": "https://www.france24.com/en/americas/20261122-democrat-hubbard-wins-north-carolina-recount-clinching-historic-house-majority"
+      },
+      {
+       "text": "Euronews",
+       "url": "https://www.euronews.com/2026/11/22/midterms-us-democrats-secure-biggest-house-majority-in-decades"
+      },
+      {
+       "text": "Reuters",
+       "url": "https://news.google.com/rss/articles/CBMiwAFBVV95cUxOZzZjY0pNZnpnUmtsZ3RudXpZeDh4TnlWZDFIZHBvUk0tbVlxREhydk5zRTJhX0lYcjFXQTNNTzBtOFM4NlNhTE9DZnl3SUZiM3RpTzRzZTJ4aURMSUJCdDRGb0l2MWh5MFJmTWgwS1k4Ql9vTGh1eWVGbEw3WGVCS1UtTkNGVVoxS0EyZVl3Vmw0UThpTlVUWWN2WlNyaWR6a1FYYlJZaWl1MlAyQ01OSEcyY3hMai0zUWdfUUc3MkQ?oc=5"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/9d2983a7-196d-4164-a0c1-e262f32fd8c9?syn-25a6b1a6=1"
+      },
+      {
+       "text": "Financial Times",
+       "url": "https://www.ft.com/content/8af97161-2ae0-4655-9f8b-a560f9227359?syn-25a6b1a6=1"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：7 家（Reuters、Financial Times、BBC、The Guardian、Al Jazeera、France 24／RFI、Euronews）"
+     ],
+     "table": null,
+     "dive_html": "逾 250 席的多數讓民主黨即使內部有雜音也能通過法案，國會將成為川普任期後半最大的制衡力量。對外影響最直接的是關稅：若眾院推動撤回關稅措施，台灣等出口導向經濟體可能受惠；但法案仍需總統簽署，否決權讓實質逆轉有限，調查與聽證才是近期主戰場。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "政治"
+      ],
+      "event": [
+       "選舉政局"
+      ],
+      "story": [
+       "2026 美國期中選舉"
+      ],
+      "org": [
+       "美國眾議院",
+       "民主黨",
+       "共和黨"
+      ],
+      "person": [
+       "Chuck Hubbard",
+       "Virginia Foxx",
+       "Richard Neal",
+       "川普"
+      ],
+      "affects": [
+       "政府與監管"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "後續追蹤"
+      ],
+      "keyword": [
+       "期中選舉",
+       "眾議院",
+       "關稅"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "36",
+     "key": "11e3b9d31c",
+     "title": "饒舌歌手出身的尼泊爾總理沙哈首訪印度，爭取山洪重建援助",
+     "title_html": "饒舌歌手出身的尼泊爾總理沙哈首訪印度，爭取山洪重建援助",
+     "url": "https://www.dw.com/en/india-nepal-pm-balendra-shah-heads-to-delhi-for-first-bilateral-visit/live-80008104?maca=en-rss-en-all-1573-xml-mrss",
+     "src": "BBC、DW（德國政府出資）",
+     "left": "11/22 15:20",
+     "ts": "2026-11-22T15:20:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "新事件",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "饒舌歌手出身、尼泊爾史上最年輕的總理沙哈（Balendra Shah）抵達新德里，這是他今年上任後首次雙邊出訪。BBC 中文報導，他盼重啟兩國關係並爭取山洪重建援助，但邊界爭議與執政經驗不足是考驗，如何平衡對華關係也受關注。",
+     "also": [
+      {
+       "text": "BBC",
+       "url": "https://www.bbc.com/zhongwen/articles/c64gn9jl5lveo/trad"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>多家報導</strong>：2 家（BBC、DW）"
+     ],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "region": [
+       "南亞"
+      ],
+      "country": [
+       "NP",
+       "IN",
+       "CN"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "外交",
+       "政治"
+      ],
+      "event": [
+       "外交互動"
+      ],
+      "person": [
+       "Balendra Shah"
+      ],
+      "affects": [
+       "政府與監管"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "尼泊爾",
+       "印度"
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "foot_left": "本報告由 news-aggregator 自動彙整",
+ "stats": {
+  "items": 36,
+  "sections": 10
+ }
+}
