@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-22T11:19:45+08:00",
+ "updated_at": "2026-11-23T09:05:33+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "tech_ai",
+   "series_title": "AI 日報",
+   "cadence": "daily",
+   "period": "2026-11-23",
+   "date": "2026-11-23",
+   "title": "AI 日報",
+   "lede": "黎曼猜想的 Claude 協作證明獲 Lean 社群確認；AI 推論供應鏈提示詞外洩事件持續延燒；端側小模型 MiniCPM 成為老撾國家模型。",
+   "count": 12,
+   "data": "tech_ai/2026/2026-11-23.json",
+   "generated_at": "2026-11-23T09:05:33+08:00"
+  },
   {
    "series": "cocos_h5_weekly",
    "series_title": "Cocos／H5 遊戲開發週報",
@@ -485,7 +497,7 @@
    "period": "2026-11-18",
    "date": "2026-11-18",
    "title": "綜合日報",
-   "lede": "輝達後黃仁勳時代震盪擴大，代理執行長收緊對 AI 新創的資金支持、微軟高層稱客戶更確信要分散晶片來源，前副手 Jay Puri 也捲入對中走私疑雲；OpenAI 發表 GPT-6.2 Astra 與 Sol，Astra 拿下 ARC-AGI-3 滿分，開發者實測卻褒貶不一；美國本週航班、銀行與國安局網路接連中斷，官員指向修補 AI 揪出的漏洞時壓垮系統；台股月結算震盪逾 1,600 點後收漲 1…",
+   "lede": "輝達後黃仁勳時代震盪擴大，代理執行長收緊對 AI 新創的資金支持、微軟高層稱客戶更確信要分散晶片來源，前副手 Jay Puri 也捲入對中走私疑雲；OpenAI 發表 GPT-6.2 Astra 與 Sol，Astra 拿下 ARC-AGI-3 滿分，開發者實測卻褒貶不一；美國本週航班、銀行與國安局網路接連中斷，官員…",
    "count": 35,
    "data": "general/2026/2026-11-18.json",
    "generated_at": "2026-11-18T16:14:45+08:00"

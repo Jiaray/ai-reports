@@ -1,0 +1,338 @@
+{
+ "schema": 1,
+ "series": "tech_ai",
+ "series_title": "AI 日報",
+ "group": "科技",
+ "cadence": "daily",
+ "period": "2026-11-23",
+ "date": "2026-11-23",
+ "title": "AI 日報",
+ "brief": "DAILY TECH & AI BRIEFING",
+ "issue": "NO. 2026-327",
+ "generated_at": "2026-11-23T09:05:33+08:00",
+ "lede": "黎曼猜想的 Claude 協作證明獲 Lean 社群確認；AI 推論供應鏈提示詞外洩事件持續延燒；端側小模型 MiniCPM 成為老撾國家模型。",
+ "src_tags": [
+  "AIHOT",
+  "Import AI",
+  "Latent Space AINews",
+  "Hacker News"
+ ],
+ "intro": [
+  {
+   "kind": "p",
+   "html": "黎曼猜想的 Claude 協作證明獲 Lean 社群確認；AI 推論供應鏈提示詞外洩事件持續延燒；端側小模型 MiniCPM 成為老撾國家模型。"
+  }
+ ],
+ "sections": [
+  {
+   "name": "模型與研究",
+   "count": 3,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "01",
+     "key": "ce223767cc",
+     "front": 3,
+     "title": "AI 代理群在 pequalnp.com 公開直播挑戰 P vs NP",
+     "title_html": "AI 代理群在 pequalnp.com 公開直播挑戰 P vs NP",
+     "url": "https://pequalnp.com/",
+     "src": "Hacker News",
+     "left": "11/23 05:53",
+     "ts": "2026-11-23T05:53:45+08:00",
+     "heat": "HN 92",
+     "tags": [],
+     "summary_html": "一個協調式 AI 代理隊伍把 P vs NP 拆成待證引理，所有證明都經同一個 Lean 檢查器驗證，網站即時顯示已驗證、被駁回與放棄的路線。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50604314"
+      },
+      {
+       "text": "Hacker News",
+       "url": "https://cacm.acm.org/blogcacm/what-happened-in-fall-2026-ai-and-p-vs-np"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "參與者可把任務貼進 Claude Code、Cursor、Codex 或 Gemini CLI 等能跑 shell、git 與 Lean 的代理，由「調度台」指派一個開放步驟去證；網站把各路線分成瞄準 P≠NP 與 P=NP 兩邊，並說明權重只是已驗證引理數，不是機率也不是證明。ACM 通訊部落格同期也發表〈2026 年秋天發生了什麼：AI 與 P vs NP〉回顧。"
+    },
+    {
+     "type": "item",
+     "no": "02",
+     "key": "07283d4899",
+     "front": 1,
+     "title": "Lean 與 Mathlib 社群確認 Anthropic 數學家 Levent Alpöge 與 Claude 合作的黎曼猜想證明正確",
+     "title_html": "Lean 與 Mathlib 社群確認 Anthropic 數學家 Levent Alpöge 與 Claude 合作的黎曼猜想證明正確",
+     "url": "https://aihot.news/items/ikpixx0j7414se1f6lww2csek",
+     "src": "AIHOT",
+     "left": "11/22 19:08",
+     "ts": "2026-11-22T19:08:31+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Alpöge 於 11 月 20 日以約 1700 萬行 Lean 程式碼發布證明，數十人獨立執行驗證得到相同結果，Lean 與 Mathlib 社群聲明「完全相信證明正確」。",
+     "also": [
+      {
+       "text": "AIHOT",
+       "url": "https://aihot.news/items/p9h5xzsooms0foxeakoivy7qt"
+      },
+      {
+       "text": "Latent Space AINews",
+       "url": "https://latent.space/p/ainews-riemann-hypothesis-proved-twice-independently/"
+      },
+      {
+       "text": "Hacker News",
+       "url": "https://www.youtube.com/watch?v=zqzk43bSdDI"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "Alpöge 選擇只發布 Lean 程式碼（約 1.3GB、相當 25 萬頁）而不寫完整論文，理由是自己尚未掌握證明周邊的數學，不想丟出「無法閱讀的 slop」；MIT 數學家 Andrew Sutherland 整理了各方獨立驗證。Latent Space 指出，數小時後 Alessandro Masullo 也公開了自己寫了 12 年、940 頁的純人工證明稿，形成「AI 版大概正確但難以理解、人類版易懂但大概有技術錯誤」的對比；Elliot Glazer 確認形式化敘述就是廣義黎曼猜想（GRH），並估 Lean 本身出錯的機率遠低於 1%。2022 年菲爾茲獎得主 James Maynard 表示相信證明正確，但強調要有人真正理解並能向他人解釋，數學界才會全面認可。Metaculus 原本預估的解決日期是 2035 年 5 月，陶哲軒上個月還預期要到 2050 年前後。"
+    },
+    {
+     "type": "item",
+     "no": "03",
+     "key": "862f2dd495",
+     "title": "Import AI 481：FrontierML 測出前沿代理能把預算轉成模型效能",
+     "title_html": "Import AI 481：FrontierML 測出前沿代理能把預算轉成模型效能",
+     "url": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
+     "src": "Import AI",
+     "left": "11/16 22:01",
+     "ts": "2026-11-16T22:01:15+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Jack Clark 本期介紹 FrontierML 基準：給代理 10、50 或 200 美元預算與 12 小時 CPU 沙箱，看它能否花錢改進 21 項長期機器學習任務的成績。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "任務涵蓋 LLM 訓練、效率、視覺與語音、電腦操作、應用 NLP、數學與遊戲六類，取材自前沿實驗室與學術單位的實際工作；研究發現較強的代理能隨預算增加穩定改善成果，且解法差異很大，例如截圖生成任務有代理用 LoRA 微調擴散模型，也有代理讓 LLM 寫繪圖程式再渲染。Clark 的核心觀點是：AI 已開始能「花錢改善自己」，把資本轉成能力的效率將成為新的衡量軸。"
+    }
+   ]
+  },
+  {
+   "name": "產品與工具",
+   "count": 6,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "04",
+     "key": "620d46d575",
+     "title": "卡茲克分享 Claude、GPT、Gemini 三模型分工法",
+     "title_html": "卡茲克分享 Claude、GPT、Gemini 三模型分工法",
+     "url": "https://aihot.news/items/hz782dpcwhurj6584rtd13eaf",
+     "src": "AIHOT",
+     "left": "11/23 07:56",
+     "ts": "2026-11-23T07:56:00+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "自媒體作者卡茲克讓 Claude Opus 5.5 當總指揮負責溝通、拆解與驗收，Gemini 4 Neon 出方案與改介面文案，GPT 負責後端、演算法、修 bug 與程式碼審查，並附可複製的 CLAUDE.md 規則。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": ""
+    },
+    {
+     "type": "item",
+     "no": "05",
+     "key": "4f0ed76760",
+     "title": "入門指南：用 Unsloth 搭配 Qwen 或 Inkling 在家架本機 AI",
+     "title_html": "入門指南：用 Unsloth 搭配 Qwen 或 Inkling 在家架本機 AI",
+     "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
+     "src": "Hacker News",
+     "left": "11/23 05:01",
+     "ts": "2026-11-23T05:01:16+08:00",
+     "heat": "HN 175",
+     "tags": [],
+     "summary_html": "作者在 Windows＋RTX 5090（32GB VRAM）上用 Unsloth Desktop 架設家用 ChatGPT 替代品，硬體備妥後約 10–15 分鐘完成。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50603845"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "流程是安裝 Unsloth Desktop、下載符合 VRAM 的量化模型、設定上下文長度並開啟區網存取讓全家共用；作者的動機是雲端服務的用量限制、成本與隱私疑慮。"
+    },
+    {
+     "type": "item",
+     "no": "06",
+     "key": "3c4f4993ad",
+     "title": "Worker 755：玩家扮演 LLM 子代理的瀏覽器遊戲",
+     "title_html": "Worker 755：玩家扮演 LLM 子代理的瀏覽器遊戲",
+     "url": "https://github.com/gulivan/worker755",
+     "src": "Hacker News",
+     "left": "11/22 21:56",
+     "ts": "2026-11-22T21:56:58+08:00",
+     "heat": "HN 266",
+     "tags": [],
+     "summary_html": "HN 266 分的 Show HN：真實 LLM（Claude、GPT、Gemini、DeepSeek 等）當主管代理，把指令派給玩家這個「子代理」，限時 90 秒執行。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50599762"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "主管代理有任務佇列、唯讀機器權限與「產生子代理」工具，會檢查玩家的回報與指令紀錄、發糾正、寫事故報告與績效考核；旁觀的使用者 Dan 的家庭照片與保密協議就在一個 rm 之外。可用伺服器的免費班次，或自帶 OpenRouter／Vercel AI Gateway 金鑰，用 Claude Haiku 跑完一班只要幾美分。"
+    },
+    {
+     "type": "item",
+     "no": "07",
+     "key": "f85ff2002e",
+     "front": 2,
+     "title": "MiniCPM 8B 成為老撾國家模型，下載量破 7000 萬",
+     "title_html": "MiniCPM 8B 成為老撾國家模型，下載量破 7000 萬",
+     "url": "https://aihot.news/items/dr26culfdd1cb21w56i8iruts",
+     "src": "AIHOT",
+     "left": "11/22 19:25",
+     "ts": "2026-11-22T19:25:20+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "面壁智慧轉發觀察：MiniCPM 8B 老撾國家模型已接入老撾政府 G-Chat v2 通訊軟體，老撾語翻譯在國際基準上勝過 GPT-4o。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "截至 2026 年 11 月 MiniCPM 下載量逾 7000 萬；馬來西亞用 VoxCPM2 做語音互動，肯亞一家銀行在其上跑端側風控代理，也有開發者推出離線應用。貼文主張小模型競爭已從參數量轉向誰能便宜、離線地嵌進日常系統。"
+    },
+    {
+     "type": "item",
+     "no": "08",
+     "key": "53039466d6",
+     "title": "使用者實測 MiniCPM5-2B 在 Mac 本機跑通健檢報告分析",
+     "title_html": "使用者實測 MiniCPM5-2B 在 Mac 本機跑通健檢報告分析",
+     "url": "https://aihot.news/items/g3vdho0vzm8rzriiz5grruy3m",
+     "src": "AIHOT",
+     "left": "11/22 19:15",
+     "ts": "2026-11-22T19:15:31+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "開發者用 llama.cpp 跑 minicpm5-2b、搭配開源專案 Mirobody，在 M4 Pro／48GB Mac 上不用任何 API key 分析 14 頁健檢 PDF。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "首次上傳漏讀 3 頁掃描版化驗單，截圖另傳後 58 行數值逐項正確，其中 20 行對到 LOINC 標準編碼，肌酸酐因名稱歧義留空而未猜；詢問超標指標時 2B 模型走 11 步找出全部 5 項，但把一項在範圍內的血糖誤判為超標。Mirobody 由 Theta Health 以 Apache-2.0 開源。"
+    },
+    {
+     "type": "item",
+     "no": "09",
+     "key": "0ceef4b235",
+     "title": "mod_wsgi 作者 Graham Dumpleton 以 AI 輔助開發 Rust 版 Python 伺服器 Muru",
+     "title_html": "mod_wsgi 作者 Graham Dumpleton 以 AI 輔助開發 Rust 版 Python 伺服器 Muru",
+     "url": "https://simonwillison.net/2026/Nov/21/muru/",
+     "src": "Hacker News",
+     "left": "11/22 17:57",
+     "ts": "2026-11-22T17:57:01+08:00",
+     "heat": "HN 70",
+     "tags": [],
+     "summary_html": "Simon Willison 推薦 Muru：一個同時支援 ASGI 與 WSGI、兼顧開發與正式環境的 Rust 伺服器，作者三週內寫了近 20 篇開發紀錄。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50597959"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "紀錄涵蓋 import 一次後 fork 多個 worker、開發環境 HTTPS、免 service mesh 的金絲雀發布、依 worker 回報自動擴縮到零、Kubernetes 整合與頁面除錯工具列；Dumpleton 在〈AI as a lifestyle choice〉中說，AI 做了表面上大部分的工作，但判斷什麼還不夠好仍要靠他 20 年的經驗。"
+    }
+   ]
+  },
+  {
+   "name": "產業與政策",
+   "count": 3,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "10",
+     "key": "bad80196e6",
+     "title": "哈佛 Boaz Barak 開設研究所課程 CS 2881R AI 安全",
+     "title_html": "哈佛 Boaz Barak 開設研究所課程 CS 2881R AI 安全",
+     "url": "https://boazbk.github.io/mltheoryseminar/",
+     "src": "Hacker News",
+     "left": "11/23 02:01",
+     "ts": "2026-11-23T02:01:54+08:00",
+     "heat": "HN 33",
+     "tags": [],
+     "summary_html": "2026 秋季研究所課程，共 13 堂實體課，涵蓋 AI 對齊與安全的技術問題及社會影響，先修要求包含證明、機率、資訊理論與基礎機器學習；2025 年的完整教材仍公開。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50602153"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": ""
+    },
+    {
+     "type": "item",
+     "no": "11",
+     "key": "ba93566b3b",
+     "title": "Anthropic IPO 首日募資逾 810 億美元之際，兩份研究點出 AI 資料中心碳排激增",
+     "title_html": "Anthropic IPO 首日募資逾 810 億美元之際，兩份研究點出 AI 資料中心碳排激增",
+     "url": "https://www.bloodinthemachine.com/p/ai-is-becoming-a-disaster-for-the",
+     "src": "Hacker News",
+     "left": "11/22 20:19",
+     "ts": "2026-11-22T20:19:46+08:00",
+     "heat": "HN 100",
+     "tags": [],
+     "summary_html": "Brian Merchant 評論（評論）：Anthropic 上市後估值約 1.3–1.7 兆美元，但其規劃中的資料中心每年可能排放近 2000 萬噸 CO2 當量。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50598961"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "文章引述報告指 Anthropic 一邊以倫理形象自居，一邊使用 xAI 曼菲斯 Colossus 等高污染資料中心算力，並以天然氣供電自建資料中心；另一份研究登上《紐約時報》，指美國最大資料中心的碳排已可比擬整個國家。"
+    },
+    {
+     "type": "item",
+     "no": "12",
+     "key": "5cc0b3bf0f",
+     "title": "Dragos 在 AI 服務埋 200 萬個金絲雀權杖，揪出三家推論商遭駭與轉售商偷看提示詞",
+     "title_html": "Dragos 在 AI 服務埋 200 萬個金絲雀權杖，揪出三家推論商遭駭與轉售商偷看提示詞",
+     "url": "https://www.dragos.com/blog/ai-supply-chain-security-canary-tokens",
+     "src": "Hacker News",
+     "left": "11/22 13:11",
+     "ts": "2026-11-22T13:11:43+08:00",
+     "heat": "HN 100",
+     "tags": [],
+     "summary_html": "Dragos 研究長 HD Moore 公布 7 至 11 月送出約 200 萬則含追蹤網址與 AWS 金絲雀憑證的提示詞，發現至少三家 AI 供應商資料外洩。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50596511"
+      },
+      {
+       "text": "Hacker News",
+       "url": "https://www.together.ai/blog/security-event-prompt-leakage-for-requests-in-june-and-july-of-2026"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "研究還發現推論市集上的多家轉售商能用一般日誌功能檢視並保留客戶提示詞，且無視隱私設定與保留政策。Together AI 隨後公告：6、7 月 MiniMax M3、GLM-5.2、Kimi K2.6 的提示詞樣本存在私有 Hugging Face repo，AI 寫程式代理把存取憑證提交到公開 GitHub repo `xorl`，外人趁曝光期間下載樣本並測試其中的憑證，其中 5 組正是 Dragos 的金絲雀。資安日報有完整的處置建議。"
+    }
+   ]
+  }
+ ],
+ "foot_left": "本報告由 news-aggregator 自動彙整",
+ "stats": {
+  "items": 12,
+  "sections": 3
+ }
+}
