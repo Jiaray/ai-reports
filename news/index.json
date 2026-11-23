@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T09:45:11+08:00",
+ "updated_at": "2026-11-23T09:47:43+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "tech",
+   "series_title": "科技日報",
+   "cadence": "daily",
+   "period": "2026-11-23",
+   "date": "2026-11-23",
+   "title": "科技日報",
+   "lede": "輝達在黃仁勳去職後擴大與台積電等 6 家台廠結盟，紐時揭中國國安部專案小組搶 AI 晶片；傳 CrowdStrike 洽購 Zscaler；美國接連大當機，微軟與情報首長都說還會再來；日本三大車廠統一零件規格降本。",
+   "count": 12,
+   "data": "tech/2026/2026-11-23.json",
+   "generated_at": "2026-11-23T09:47:43+08:00"
+  },
   {
    "series": "international",
    "series_title": "國際新聞日報",
