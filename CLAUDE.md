@@ -38,9 +38,12 @@
 
 本專案允許模型執行 `git add`（限指名路徑，不得用 `-A`、`.` 或萬用字元）、`git commit`、`git push`；force push、rebase 或 amend 已推送的 commit、刪分支等改寫既有歷史的動作，以及更改 repo 設定，都不在範圍內。此宣告要與使用者全域 CLAUDE.md 的專案豁免清單同時成立才生效。
 
-- 報告一律用 `publish.py --push` 發布（頭版補建用 `front.py build --push`）：兩者都先 `git pull --ff-only`，只 add／commit 自己產生的報告檔、索引與頭版檔，路徑不在允許清單就拒絕，也不會把其他已 stage 的檔案帶進 commit。
+- 報告一律用 `publish.py --push` 發布（頭版補建用 `front.py build --push`，議題對照表由 `story_review.py … --push` 寫入）：都先和遠端自動整合（見下一條），只 add／commit 自己產生的報告檔、索引、頭版檔與 `news/stories.json`，路徑不在允許清單就拒絕，也不會把其他已 stage 的檔案帶進 commit。
 - 手動 commit（改網站本身時）：commit 前跑 `git diff --cached --name-only`，確認清單全在「可以上傳」範圍內；commit 訊息用繁體中文的 Conventional Commits。
-- push 被拒（遠端有新 commit）：先 `git pull --rebase` 再推，不要 force。
+- 和遠端整合一律自動，不手動 `git pull --rebase`、不 force（使用者會在不同機器同時跑不同主題）：
+  - 寫檔前與 push 被拒（遠端有新 commit）時，上面三支腳本自動整合：遠端只是比較新就快轉；本機有還沒推的 commit 就 rebase 到遠端上（只動還沒推的 commit，不留合併 commit），衝突逐檔處理：索引與頭版先取遠端的、整合完從報告重建，同一期的報告用本機這次的，`news/stories.json` 三方合併；之後重推，最多 3 次。
+  - 合併不了（`news/` 以外的檔兩邊都改過、議題對照表兩邊互相矛盾、有進行到一半的 rebase／merge）：恢復成整合前的狀態（這次的改動都還在），exit 3，記進 news-aggregator 的待裁決清單，執行結束時用 Telegram 通知使用者，訊息附回覆格式。不要自己解衝突，等使用者回覆；回覆由 `publish.py --sync --push` 處理（`--prefer 路徑=遠端|本機` 選邊、`--abort-stale` 放棄進行到一半的整合）。
+  - 手動改網站的 commit 推送被拒時，一樣跑 `publish.py --sync --push`（在 news-aggregator 的 skill 根目錄執行；本 repo 不在 `~/github/ai-reports` 時加 `--site`）整合後重推。
 - 誤推了禁止內容：立刻停手，告訴使用者推了什麼、在哪個 commit。不要自行改寫歷史；要不要清除由使用者決定，而且已推送的內容要視同已外洩。
 - 分支（使用者要求）：直接在 `main` 上改、commit、推 `origin main`，不另開分支。雲端 session（claude.ai/code）會指派 `claude/…` 工作分支，這裡不用：開工前先 `git checkout main && git pull --ff-only`，工作分支不推。什麼時候可以 commit、push 照本節開頭。
 
