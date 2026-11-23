@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T10:06:19+08:00",
+ "updated_at": "2026-11-23T10:08:30+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "cocos_h5_weekly",
+   "series_title": "Cocos／H5 遊戲開發週報",
+   "cadence": "weekly",
+   "period": "2026-W48",
+   "date": "2026-11-23",
+   "title": "Cocos／H5 遊戲開發週報",
+   "lede": "近 7 日（補上期未收的討論）：Cocos Dashboard 升級彈窗每次都跳、引擎快取占 40G，論壇抱怨不敢升級；第三款 Cocos MCP 外掛內建 395 個工具，社群續辯 MCP 與 CLI；Babylon.js 9.37 加入 WebGPU 非同步管線選項；Unity 回應私有化傳聞，育碧、Firaxis 相繼裁員。",
+   "count": 11,
+   "data": "cocos_h5_weekly/2026/2026-W48.json",
+   "generated_at": "2026-11-23T10:08:30+08:00"
+  },
   {
    "series": "reading_list",
    "series_title": "閱讀清單",
