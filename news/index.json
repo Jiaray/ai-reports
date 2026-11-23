@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T09:05:33+08:00",
+ "updated_at": "2026-11-23T09:06:10+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "security",
+   "series_title": "資安日報",
+   "cadence": "daily",
+   "period": "2026-11-23",
+   "date": "2026-11-23",
+   "title": "資安日報",
+   "lede": "AI 推論供應商遭竊取提示詞數月、連零資料保留也失守；GL.iNet 雲端漏洞遭利用植入路由器與 KVM；FBI 全國犯罪資料庫疑遭駭。",
+   "count": 15,
+   "data": "security/2026/2026-11-23.json",
+   "generated_at": "2026-11-23T09:06:10+08:00"
+  },
   {
    "series": "tech_ai",
    "series_title": "AI 日報",

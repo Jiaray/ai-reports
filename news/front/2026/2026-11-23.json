@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-23",
- "built_at": "2026-11-23T09:05:33+08:00",
+ "built_at": "2026-11-23T09:06:10+08:00",
  "reports": [
   {
    "series": "tech_ai",
@@ -10,6 +10,14 @@
    "period": "2026-11-23",
    "count": 12,
    "generated_at": "2026-11-23T09:05:33+08:00"
+  },
+  {
+   "series": "security",
+   "series_title": "資安日報",
+   "group": "科技",
+   "period": "2026-11-23",
+   "count": 15,
+   "generated_at": "2026-11-23T09:06:10+08:00"
   },
   {
    "series": "github_weekly",
@@ -66,6 +74,26 @@
    ]
   },
   {
+   "key": "78074d39df",
+   "rank": 1,
+   "title": "三家 AI 推論供應商遭竊取客戶請求數月，OpenRouter 停用三家",
+   "summary_html": "Dragos 指出攻擊者數月間從三家 AI 推論供應商內部竊取資料，三家直到研究人員通知才發現；OpenRouter 已停用這三家。",
+   "url": "https://thehackernews.com/2026/11/openrouter-drops-3-providers-after.html",
+   "src": "ICSDA 資安日報",
+   "ts": "2026-11-23T06:21:48+08:00",
+   "left": "11/23 06:21",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "security",
+     "period": "2026-11-23",
+     "no": "06",
+     "rank": 1
+    }
+   ]
+  },
+  {
    "key": "f85ff2002e",
    "rank": 2,
    "title": "MiniCPM 8B 成為老撾國家模型，下載量破 7000 萬",
@@ -81,6 +109,31 @@
      "series": "tech_ai",
      "period": "2026-11-23",
      "no": "07",
+     "rank": 2
+    }
+   ]
+  },
+  {
+   "key": "e84afceb00",
+   "rank": 2,
+   "title": "GL.iNet 雲端遠端管理漏洞遭利用，路由器與 KVM 被植入後門",
+   "summary_html": "GL.iNet 11 月 20 日公告，未授權者利用其雲端遠端管理服務漏洞存取裝置並安裝惡意程式。",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-exploit-glinet-cloud-flaw-to-infect-routers-kvm-devices/",
+   "src": "BleepingComputer",
+   "ts": "2026-11-23T02:45:37+08:00",
+   "left": "11/23 02:45",
+   "heat": "",
+   "tags": [
+    {
+     "text": "已遭利用",
+     "cls": "tag-outline"
+    }
+   ],
+   "from": [
+    {
+     "series": "security",
+     "period": "2026-11-23",
+     "no": "03",
      "rank": 2
     }
    ]
@@ -102,6 +155,46 @@
      "period": "2026-11-23",
      "no": "01",
      "rank": 3
+    }
+   ]
+  },
+  {
+   "key": "aeb7ef21f8",
+   "rank": 3,
+   "title": "FBI 全國犯罪資訊中心（NCIC）疑遭駭",
+   "summary_html": "匿名知情人士向美聯社證實 FBI 正調查 NCIC 疑似遭駭，FBI 拒絕評論。",
+   "url": "https://www.securityweek.com/fbi-investigating-apparent-hack-of-its-key-national-criminal-justice-database-ap-source-says/",
+   "src": "ICSDA 資安日報",
+   "ts": "2026-11-23T06:21:48+08:00",
+   "left": "11/23 06:21",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "security",
+     "period": "2026-11-23",
+     "no": "07",
+     "rank": 3
+    }
+   ]
+  },
+  {
+   "key": "ecedf109fd",
+   "rank": 4,
+   "title": "第三方供應商連環遭駭，FBI 警告 AI 攻擊工具 ARTEX 不到 3 小時取得高權限",
+   "summary_html": "11 月第三週多家第三方供應商接連遭駭，同時 FBI 指出多個駭客組織自 8 月起用開源 AI 代理工具 ARTEX 自動找漏洞入侵。",
+   "url": "https://www.ithome.com.tw/news/180681",
+   "src": "ICSDA 資安日報",
+   "ts": "2026-11-23T06:21:48+08:00",
+   "left": "11/23 06:21",
+   "heat": "",
+   "tags": [],
+   "from": [
+    {
+     "series": "security",
+     "period": "2026-11-23",
+     "no": "01",
+     "rank": 4
     }
    ]
   }
