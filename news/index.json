@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T09:06:34+08:00",
+ "updated_at": "2026-11-23T09:07:15+08:00",
  "series": [
   {
    "id": "general",
@@ -131,6 +131,18 @@
  ],
  "items": [
   {
+   "series": "tech_ai",
+   "series_title": "AI 日報",
+   "cadence": "daily",
+   "period": "2026-11-23",
+   "date": "2026-11-23",
+   "title": "AI 日報",
+   "lede": "黎曼猜想的 Claude 協作證明獲 Lean 社群確認；AI 推論供應鏈提示詞外洩事件持續延燒；端側小模型 MiniCPM 成為寮國國家模型。",
+   "count": 12,
+   "data": "tech_ai/2026/2026-11-23.json",
+   "generated_at": "2026-11-23T09:07:15+08:00"
+  },
+  {
    "series": "gambling",
    "series_title": "博奕產業新聞",
    "cadence": "daily",
@@ -153,18 +165,6 @@
    "count": 15,
    "data": "security/2026/2026-11-23.json",
    "generated_at": "2026-11-23T09:06:10+08:00"
-  },
-  {
-   "series": "tech_ai",
-   "series_title": "AI 日報",
-   "cadence": "daily",
-   "period": "2026-11-23",
-   "date": "2026-11-23",
-   "title": "AI 日報",
-   "lede": "黎曼猜想的 Claude 協作證明獲 Lean 社群確認；AI 推論供應鏈提示詞外洩事件持續延燒；端側小模型 MiniCPM 成為老撾國家模型。",
-   "count": 12,
-   "data": "tech_ai/2026/2026-11-23.json",
-   "generated_at": "2026-11-23T09:05:33+08:00"
   },
   {
    "series": "cocos_h5_weekly",
