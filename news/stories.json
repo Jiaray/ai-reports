@@ -1,13 +1,12 @@
 {
- "rules": [],
- "pending": [
+ "rules": [
   {
    "id": 1,
    "type": "parent",
    "from": "烏克蘭攻擊境外俄國船艦",
    "to": "俄烏戰爭",
    "reason": "班加西與芬蘭灣的船艦遇襲是俄烏戰爭向境外延伸的並行支線，兩則都同時標了俄烏戰爭",
-   "proposed_at": "2026-11-23"
+   "approved_at": "2026-11-23"
   },
   {
    "id": 2,
@@ -15,14 +14,15 @@
    "from": "基輔空襲",
    "to": "俄烏戰爭",
    "reason": "基輔地區空襲是俄烏戰爭中反覆出現的支線，掛在上層方便串連",
-   "proposed_at": "2026-11-23"
+   "approved_at": "2026-11-23"
   }
  ],
+ "pending": [],
  "rejected": [],
  "dismissed": [],
  "revoked": [],
  "next_id": 3,
  "reviewed_at": "2026-11-23",
  "schema": 1,
- "updated_at": "2026-11-23T09:54:01+08:00"
+ "updated_at": "2026-11-23T09:58:56+08:00"
 }
