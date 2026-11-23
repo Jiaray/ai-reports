@@ -274,7 +274,7 @@
         h('span', { class: 'dd-caret', html: ICON.caret }),
       ],
       body: [h('div', { class: 'pd-body' }, [typeCol, dateCol])],
-      // 打開時焦點落在目前這個類型（頭版沒有，就是第一個類型）；只有日期欄時落在目前這期
+      // 打開時焦點落在目前這個系列（頭版沒有，就是第一個系列）；只有日期欄時落在目前這期
       pick: (panel) => ['.pd-types .pd-item[aria-current=page]', '.pd-types .pd-item', '.pd-item[aria-current=page]']
         .map((s) => panel.querySelector(s)).find(Boolean),
     });
@@ -658,7 +658,7 @@
     fab.anchor.prepend(buildPie(items));
   }
 
-  // 頭版的過濾（front.js 的快速過濾標籤 .fp-fq）：底部面板列出同樣的類型與則數，按了就代按頁面上那顆標籤——
+  // 頭版的過濾（front.js 的快速過濾標籤 .fp-fq）：底部面板列出同樣的系列與則數，按了就代按頁面上那顆標籤——
   // 選擇、記憶（air-front-types）、念「顯示 N 則」都照 front.js，這裡只照抄狀態。
   // 標籤的代號是 data-type、名稱是 .fp-chip-t（舊版 front.js 的標籤是領域：代號與名稱都是 data-group）
   let fq = null;
@@ -693,7 +693,7 @@
       const list = h('ul', { class: 'fq-list', 'aria-labelledby': 'fq-panel-title' });
       const clear = h('button', { type: 'button', class: 'fq-clear', hidden: true }, ['清除']);
       const panel = h('div', { class: 'dd-panel fq-panel', id: 'fq-panel', role: 'dialog', 'aria-labelledby': 'fq-panel-title', hidden: true }, [
-        h('div', { class: 'dd-head' }, [h('span', { class: 'dd-title', id: 'fq-panel-title' }, ['依類型過濾']), clear, close]),
+        h('div', { class: 'dd-head' }, [h('span', { class: 'dd-title', id: 'fq-panel-title' }, ['依系列過濾']), clear, close]),
         list,
       ]);
       const shade = makeShade(() => fq.shut());

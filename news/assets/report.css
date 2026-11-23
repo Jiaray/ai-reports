@@ -5,7 +5,7 @@
       預設（full＋blueprint）不套這些覆寫，維持原本的藍圖。規格與數值照使用者的版型樣稿（國際新聞日報 2026-11-18），
       規則順序也照樣稿：外觀 → 讀法 → 讀法×外觀的組合。 */
 /* 報頭：3px 粗線在工具列上方，工具列和大標題合成一塊報頭——粗線、一列小字（日期、本日新聞、本週新聞、版面）、
-   一行大字（類型名稱＋箭頭）。頭版也用同一列工具列（front.js）。只套在工具列後面接報頭的地方；首頁、404 的 .masthead 不變 */
+   一行大字（系列名稱＋箭頭）。頭版也用同一列工具列（front.js）。只套在工具列後面接報頭的地方；首頁、404 的 .masthead 不變 */
 .editions{display:flex;align-items:center;gap:var(--space-2);border-top:3px solid var(--color-text);padding-top:var(--space-2)}
 .editions+.masthead{border-top:0;padding-top:0}
 /* 工具列凍結在頂端（使用者要求：不要隨著網頁捲動消失）：底色蓋住捲過去的內容，捲離頂端時底下一條細線（bar.js 加 .is-stuck）。
@@ -48,7 +48,7 @@
 :root{--sec-c:var(--color-accent-600);--vw-on-bg:var(--color-accent-600);--vw-on-fg:var(--color-bg)}
 /* 頁首那一列的兩個下拉（左上角日期 .pd、右上角版面 .vw）共用 .dd-*：
    按鈕是「圖示＋字」，不加框，滑過、展開時才有淡淡的底色；展開時字與圖示換主色。中間的「頭版」「週報」連結（.ed-link）長得一樣，
-   在週報頁上「週報」是目前位置：主文字色＋底下 2px 主色線（同類型標籤的目前頁，不只靠顏色） */
+   在週報頁上「週報」是目前位置：主文字色＋底下 2px 主色線（同系列標籤的目前頁，不只靠顏色） */
 .dd{position:relative;flex:none;display:flex}
 .vw{margin-left:auto}
 .dd-toggle,.ed-link{display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 var(--space-3);background:transparent;color:var(--color-neutral-700);border:0;border-radius:0;font:500 15px/1 var(--font-heading);letter-spacing:.02em;white-space:nowrap;cursor:pointer}
@@ -89,7 +89,7 @@
 .dd-title{font:600 15px/1.3 var(--font-heading);letter-spacing:.02em}
 .dd-close{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;padding:0;background:transparent;color:var(--color-neutral-600);border:0;border-radius:0;cursor:pointer}
 .dd-close:hover{background:var(--color-accent-100);color:var(--color-text)}
-/* 日期按鈕的面板：左欄這天有的新聞（類型＋則數，換類型），右欄有新聞的日期（依月份分組，週報、月報依年份），
+/* 日期按鈕的面板：左欄這天有的新聞（系列＋則數，換系列），右欄有新聞的日期（依月份分組，週報、月報依年份），
    面板夠寬時兩欄並排、各自捲動，窄時上下疊、整塊一起捲；分組標題黏在頂端。
    清單不加格線與底色，只用留白分組；滑過底色淡藍；目前這一類、這一期用主色字＋左側 2px 主色線（不只靠顏色） */
 .pd-panel{left:0;right:auto;width:min(520px,calc(100vw - 32px))}
@@ -120,7 +120,7 @@
 /* 版面面板：每組一列，左邊項目名稱、右邊分段選項 */
 .vw-group{display:grid;grid-template-columns:3.5em minmax(0,1fr);align-items:center;gap:var(--space-3);padding:var(--space-3) 0;border-top:1px solid var(--color-divider)}
 .vw-label{font:500 13px/1.4 var(--font-body);color:var(--color-neutral-600)}
-/* 分段選項：同類型標籤列的細線格（底色當格線、1px 間隔），選中那格用主色填滿 */
+/* 分段選項：同系列標籤列的細線格（底色當格線、1px 間隔），選中那格用主色填滿 */
 .vw-seg{display:flex;gap:1px;background:var(--color-divider);border:1px solid var(--color-divider)}
 .vw-seg button{flex:1 1 0;min-height:34px;padding:0 var(--space-2);background:var(--color-bg);color:var(--color-text);border:0;border-radius:0;font:500 14px/1.2 var(--font-heading);white-space:nowrap;cursor:pointer}
 .vw-seg button:hover{background:var(--color-accent-100)}
@@ -197,7 +197,7 @@
    內文排版（使用者要求易讀）：行高 1.7（行與行之間空 0.7 字），段距 .75em，段落之間明顯大於行距，一眼分得出段落；
    不用兩端對齊：窄欄中英混排時，瀏覽器會把整行中文字距拉開（「塞 內 加 爾」），比右緣參差更難讀；
    行首的「（等全形括號只佔半格（text-spacing-trim，不支援的瀏覽器照舊）；句尾標點可懸在行尾（hanging-punctuation，Safari）；
-   摘要、重點、表格、AI 解讀、收集來源之間比標題與來源標籤之間多空一點，區塊分得開；
+   摘要、重點、表格、AI 解讀、文末連結之間比標題與來源標籤之間多空一點，區塊分得開；
    另參獨立一行、字小一號，不再接在摘要尾巴斷行。
    中文內文不用 text-wrap:pretty：iOS（WebKit，iPhone 上的 Chrome 也是）會整段平衡右緣，
    每行提早兩三個字換行、右側留一條空白（使用者回報）；Blink 只調最後幾行，差別不大 ── */
@@ -206,7 +206,7 @@
 :is(.row-sum,.row-dive,.row-bullets,.sec-note,.teaser,.fp-pre){text-spacing-trim:trim-start;hanging-punctuation:allow-end}
 :is(.row-main,.more-body)>:is(.row-bullets,.tbl,.row-dive,.row-srcs){margin-top:var(--space-2)}
 .row-also{margin:0;font:400 14px/1.8 var(--font-body);color:var(--color-neutral-600)}
-/* 單則條目最後的收集來源（多家報導、另參、其餘連結）：正文（摘要、重點、解讀）連貫讀完再看來源（使用者要求） */
+/* 單則條目最後的文末連結（多家報導、另參、其餘連結）：正文（摘要、重點、解讀）連貫讀完再看來源（使用者要求） */
 .row-srcs{display:flex;flex-direction:column;gap:2px}
 
 /* ── 本期來源：從報頭移到文末、頁尾之前（使用者要求：不是首要資訊）。藍圖用中性標籤，地圖改成頓號串接的一行字 ── */
@@ -234,7 +234,7 @@
 .more-body{display:flex;flex-direction:column;gap:var(--space-2)}
 
 /* ── 速讀的條目只列標題（使用者要求：兩行摘要短到讀不出東西），點標題展開；右側小箭頭提示可展開。
-   展開後第一行是來源、標籤與「看原文」連結，接著摘要、重點、解讀，收集來源在最後（.more-body）。 ── */
+   展開後第一行是來源、標籤與「看原文」連結，接著摘要、重點、解讀，文末連結在最後（.more-body）。 ── */
 .peek>summary{display:flex;align-items:flex-start;gap:var(--space-3);list-style:none;cursor:pointer}
 .peek>summary::-webkit-details-marker{display:none}
 .peek>summary>.row-title{flex:1;min-width:0}

@@ -6,10 +6,10 @@
    不寫 html 的 scroll-padding（工具列凍結用的在 report.css，兩頁共用）；工具列與「版面」沿用報告頁的
    .editions／.ed-link／.dd-*／.vw-*，大標題右邊的快速過濾標籤是頭版自己的 .fp-fq／.fp-chip，報告頁的外觀完全不受影響。 */
 
-/* 領域色（色線與類型名稱）：淺色底、深色底各一組，對比度都在 4.5:1 以上。變數掛在頭版的 #app.fp 上，不放 :root */
-.fp{--g-gen:#53687a;--g-intl:#2f6db5;--g-fin:#a04f0f;--g-tech:#0c7372;--g-oss:#7b4fa3;--g-game:#b23f7a;--g-tw:#337431;--g-topic:#7a5a43}
-@media(prefers-color-scheme:dark){:root:not([data-theme=light]) .fp{--g-gen:#9db1c2;--g-intl:#7eaaee;--g-fin:#efa25e;--g-tech:#4fc4c1;--g-oss:#b896e3;--g-game:#e982b6;--g-tw:#82c27a;--g-topic:#c79f80}}
-:root[data-theme=dark] .fp{--g-gen:#9db1c2;--g-intl:#7eaaee;--g-fin:#efa25e;--g-tech:#4fc4c1;--g-oss:#b896e3;--g-game:#e982b6;--g-tw:#82c27a;--g-topic:#c79f80}
+/* 領域色（色線與系列名稱）：淺色底、深色底各一組，對比度都在 4.5:1 以上。變數掛在頭版的 #app.fp 上，不放 :root */
+.fp{--g-gen:#53687a;--g-intl:#2f6db5;--g-fin:#a04f0f;--g-tech:#0c7372;--g-oss:#7b4fa3;--g-game:#b23f7a;--g-tw:#337431;--g-other:#7a5a43}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]) .fp{--g-gen:#9db1c2;--g-intl:#7eaaee;--g-fin:#efa25e;--g-tech:#4fc4c1;--g-oss:#b896e3;--g-game:#e982b6;--g-tw:#82c27a;--g-other:#c79f80}}
+:root[data-theme=dark] .fp{--g-gen:#9db1c2;--g-intl:#7eaaee;--g-fin:#efa25e;--g-tech:#4fc4c1;--g-oss:#b896e3;--g-game:#e982b6;--g-tw:#82c27a;--g-other:#c79f80}
 .fp [data-group="綜合"]{--g-c:var(--g-gen)}
 .fp [data-group="國際"]{--g-c:var(--g-intl)}
 .fp [data-group="財經"]{--g-c:var(--g-fin)}
@@ -17,7 +17,7 @@
 .fp [data-group="開源"]{--g-c:var(--g-oss)}
 .fp [data-group="遊戲"]{--g-c:var(--g-game)}
 .fp [data-group="台灣"]{--g-c:var(--g-tw)}
-.fp [data-group="主題"]{--g-c:var(--g-topic)}
+.fp [data-group="其他"]{--g-c:var(--g-other)}
 
 /* ── 報頭：和報告頁同一套（.stale 非當期提示、.editions 工具列、.masthead 大標題，樣式在 report.css／site.css）：
    工具列「日期｜本日新聞｜本週新聞｜版面」凍結在頂端。不是今天時最上面是非當期提示，
@@ -83,7 +83,7 @@
 .fp-hr{position:sticky;top:var(--bar-h,0px);z-index:2;display:flex;align-items:baseline;gap:var(--space-2);margin:var(--space-4) 0 var(--space-1);padding:7px 0 6px;background:var(--color-bg);border-bottom:1px solid var(--color-divider);font:600 15px/1.2 var(--font-heading);letter-spacing:.04em;color:var(--color-neutral-700)}
 .fp-hr-day{font:500 12.5px/1 var(--font-body);letter-spacing:0;color:var(--color-neutral-600)}
 
-/* ── 一則條目：左緣 3px 領域色線；summary 是「類型・時刻」一行、標題、（要聞）兩行摘要，右上角是報告頁的展開箭頭 ── */
+/* ── 一則條目：左緣 3px 領域色線；summary 是「系列・時刻」一行、標題、（要聞）兩行摘要，右上角是報告頁的展開箭頭 ── */
 .fp-it{margin:var(--space-2) 0;padding:6px 0 6px 12px;border-left:3px solid var(--g-c,var(--color-divider))}
 .fp-it .peek>summary{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:var(--space-3);row-gap:2px;align-items:start}
 .fp-it .peek>summary>*{grid-column:1}
@@ -107,7 +107,7 @@
 .fp-act:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
 @media(forced-colors:active){.fp-it{border-left-color:CanvasText}.fp-it.is-lead{outline:1px solid CanvasText}}
 
-/* ── 還沒有頭版：說明＋各類型最新一期的連結 ── */
+/* ── 還沒有頭版：說明＋各系列最新一期的連結 ── */
 .fp-empty{margin:var(--space-6) 0 0}
 .fp-empty-note{margin:0 0 var(--space-3);font:400 16px/1.8 var(--font-body);color:var(--color-neutral-800)}
 .fp-empty-list{margin:0;padding:0;list-style:none;border-top:1px solid var(--color-divider)}

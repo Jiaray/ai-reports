@@ -1,4 +1,4 @@
-/* 頭版（news/ 不帶 t 參數）：讀 index.json（類型設定與各類型最新報告）、front/index.json（有頭版的日期與週，新到舊）
+/* 頭版（news/ 不帶 t 參數）：讀 index.json（系列設定與各系列最新報告）、front/index.json（有頭版的日期與週，新到舊）
    與那一期的頭版檔，照使用者選定的樣版 B（時間軸）渲染。兩種頭版（使用者要求：日報的頭版不放週報，週報另有自己的頭版）：
    - 每日頭版（本日新聞）：news/ 開最新一天、?f=YYYY-MM-DD 開指定日期；檔案 front/<年>/<日期>.json，依整點分組。
    - 每週頭版（本週新聞）：news/?w 開最新一週、?w=YYYY-Www 開指定週；檔案 front/<ISO 年>/<YYYY-Www>.json（當週的週報與月報），依日期分組。
@@ -37,7 +37,7 @@
   const SEEN_KEY = 'air-front-seen';
   const SEEN_DAYS = 7;
   const SEEN_WEEKS = 2;
-  const FILTER_KEY = 'air-front-types'; // 快速過濾選了哪些類型（["finance","gambling"]）
+  const FILTER_KEY = 'air-front-types'; // 快速過濾選了哪些系列（["finance","gambling"]）
   try { localStorage.removeItem('air-front-filter'); } catch (e) { /* 舊版依領域過濾的選擇，已不用 */ }
   const weekMode = query.has('w'); // 每週頭版
   const PERIOD_RE = weekMode ? WEEK_RE : DATE_RE;
@@ -62,7 +62,7 @@
   applyLook();
   app.classList.add('fp');
 
-  let index = null; // news/index.json；抓不到時為 null，類型資訊改用頭版檔自己的 reports
+  let index = null; // news/index.json；抓不到時為 null，系列資訊改用頭版檔自己的 reports
   let dates = []; // 有頭版的日期（每週頭版：週），新到舊
   let front = null; // 目前顯示的頭版檔
   let fpBox = null; // 「版面」按鈕＋面板（layoutPanel 建一次），每次重畫時放進報頭上方那一列的右端
@@ -84,14 +84,14 @@
   }
   const period = () => (weekMode ? front.week : front.date); // 這頁的期別
 
-  // ── 類型 ──────────────────────────────────────────────────────────
-  // 類型順序（spec 6.3）：index.json 的 series 順序；不在裡面的臨時主題排最後、彼此依代號排
+  // ── 系列 ──────────────────────────────────────────────────────────
+  // 系列順序（spec 6.3）：index.json 的 series 順序；不在裡面的臨時系列排最後、彼此依系列代號排
   function seriesRank(id) {
     const order = ((index && index.series) || []).map((s) => s.id);
     return order.includes(id) ? order.indexOf(id) : order.length;
   }
   const bySeries = (a, b) => seriesRank(a) - seriesRank(b) || (a < b ? -1 : a > b ? 1 : 0);
-  // 類型的短名、標題、領域與週期：短名一律取資料的 series[].short（不從標題推）；舊資料沒有 short 時用標題
+  // 系列的短名、標題、領域與週期：短名一律取資料的 series[].short（不從標題推）；舊資料沒有 short 時用標題
   function seriesMeta(id) {
     const s = ((index && index.series) || []).find((x) => x.id === id);
     const r = ((front && front.reports) || []).find((x) => x.series === id);
@@ -100,11 +100,11 @@
     return {
       title,
       short: (s && s.short) || title,
-      group: (s && s.group) || (r && r.group) || '主題',
+      group: (s && s.group) || (r && r.group) || '其他',
       cadence: (s && s.cadence) || (it && it.cadence) || '',
     };
   }
-  // 類型名稱：純文字、用領域色（時間軸樣版 B，不再是外框標籤）
+  // 系列名稱：純文字、用領域色（時間軸樣版 B，不再是外框標籤）
   const typeTag = (id) => {
     const m = seriesMeta(id);
     return h('span', { class: 'fp-ty', 'data-group': m.group }, [m.short]);
@@ -223,12 +223,12 @@
   const hourHead = (label, day) => h('h2', { class: 'fp-hr' }, [label, day ? h('span', { class: 'fp-hr-day' }, [day]) : null]);
 
   // ── 一則條目 ──────────────────────────────────────────────────────
-  // 左緣一條領域色線；summary 第一行是類型＋時刻（週報月報是期別），接著標題。每輪第一順位（原本的「要聞」）
+  // 左緣一條領域色線；summary 第一行是系列＋時刻（週報月報是期別），接著標題。每輪第一順位（原本的「要聞」）
   // 淡底色、標題大一號，收合時先露兩行摘要；點開看完整摘要、AI 解讀（頭版檔的 dive_html）、來源與「看原文」。
   // 原生 <details>：鍵盤、報讀器、「在頁面中尋找」（收合的摘要也搜得到、找到時自動展開）都直接可用。
   // summary 裡的標題用 span、不用 h3（同報告頁速讀：部分螢幕閱讀器把 summary 當按鈕，會丟掉裡面的標題），也不放連結。
-  // o.id：元素 id；o.types：類型 id（第一個決定色線）；o.stamp：類型後面的灰字節點；o.lead：要聞；o.isNew：標「新」；
-  // o.key：頭版條目的 key（記「看過」用）。data-fq 是這則的類型（類型代號，空白分隔），快速過濾比對用
+  // o.id：元素 id；o.types：系列 id（第一個決定色線）；o.stamp：系列後面的灰字節點；o.lead：要聞；o.isNew：標「新」；
+  // o.key：頭版條目的 key（記「看過」用）。data-fq 是這則的系列（系列代號，空白分隔），快速過濾比對用
   function tlRow(it, o) {
     const hot = hotInfo(it);
     const title = h('span', { class: 'row-title' }, [it.title || '']);
@@ -252,7 +252,7 @@
       body.push(h('div', { class: 'row-dive' }, ps));
     }
     const types = o.types || [];
-    // 分類標籤（facets.js，同報告頁）：預設收合；條目上看得到的類型、來源、標籤不再列。
+    // 分類標籤（facets.js，同報告頁）：預設收合；條目上看得到的系列、來源、標籤不再列。
     // 開關接在來源標籤與「看原文」那一列的最後面（使用者要求：不另建一行），清單放在那一列下方
     const fx = A.facets && A.facets.parts && it.facets ? A.facets.parts(it.facets, {
       title: it.title || '', types: types.map((t) => seriesMeta(t).short), src: it.src,
@@ -262,7 +262,7 @@
     body.push(h('div', { class: 'fp-acts' }, acts));
     if (fx) body.push(fx.panel);
     const meta = h('span', { class: 'fp-mt' }, [...types.map(typeTag), o.stamp || null]);
-    // 預覽和展開後的摘要是同一段字：預覽對報讀器隱藏，summary 唸起來就只有類型、時刻與標題
+    // 預覽和展開後的摘要是同一段字：預覽對報讀器隱藏，summary 唸起來就只有系列、時刻與標題
     const pre = o.lead && it.summary_html ? h('span', { class: 'fp-pre', 'aria-hidden': 'true' }, [plainText(it.summary_html)]) : null;
     const cls = ['fp-row', 'fp-it'];
     if (o.lead) cls.push('is-lead');
@@ -300,8 +300,8 @@
     return any || weekMode ? B.navLink('本週新聞', 'weekly', '?w', current) : null;
   }
 
-  // 日期按鈕：左欄「這天的新聞」＝那天有出刊的日報（各連到那一期，右邊則數；頭版底部原本的類型列拿掉了，
-  // 使用者要求，類型從這裡進），右欄有頭版的日期（各連到那天的頭版）。每週頭版：左欄「這週的新聞」＝那週的週報
+  // 日期按鈕：左欄「這天的新聞」＝那天有出刊的日報（各連到那一期，右邊則數；頭版底部原本的系列列拿掉了，
+  // 使用者要求，系列從這裡進），右欄有頭版的日期（各連到那天的頭版）。每週頭版：左欄「這週的新聞」＝那週的週報
   // 與那週發布的月報，右欄有頭版的週
   function datePicker() {
     const p = period();
@@ -321,7 +321,7 @@
     });
   }
 
-  // types：這頁有的類型與則數（render 排時間軸時收集）。
+  // types：這頁有的系列與則數（render 排時間軸時收集）。
   // 最上面是非當期提示（bar.js，不是台北的今天、本週才有）：開的是最新一期、今天（本週）還沒出刊時（spec 6.6），提示後面接說明
   // （使用者選定：原本大標題下那一行「今天還沒有頭版，這是最近一期」併進提示條，不出現兩個提示）。日期在日期按鈕，提示不重寫日期。
   // 部署後的快取空窗可能拿到還沒有 staleBanner 的舊 bar.js：少提示條，頁面照常
@@ -332,12 +332,12 @@
   ];
 
   // ── 快速過濾（互動照建議預設）──────────────────────────────────────────
-  // 標籤＝這頁條目上看得到的類型名稱（使用者要求：條目寫「博奕」，標籤就是「博奕」，不要歸到領域「遊戲」；
+  // 標籤＝這頁條目上看得到的系列名稱（使用者要求：條目寫「博奕」，標籤就是「博奕」，不要歸到領域「遊戲」；
   // index.json series 的 short：綜合、國際、AI、科技、資安、博奕、財經、健康…），順序照選單，後面是則數
-  // （一則出自多份報告就每個類型都算）；色塊同條目左緣的領域色線。可多選：都沒選＝全部顯示；選了就顯示「任一份來源報告的類型
+  // （一則出自多份報告就每個系列都算）；色塊同條目左緣的領域色線。可多選：都沒選＝全部顯示；選了就顯示「任一份來源報告的系列
   // 有選到」的條目（出自綜合＋財經的那則，選財經時也在）；篩完沒有條目的時段連時段標題一起藏起來。
-  // 有選時最後面出現「清除」（不另放「全部」）。選擇記在 localStorage air-front-types（類型代號）：換日期、下次開都沿用，不寫進網址
-  // （傳出去的連結不帶自己的篩選）；這天沒有的類型照樣記著（別天出現時還是選著），畫面只套用這天有的，一個都沒有就等於沒選。
+  // 有選時最後面出現「清除」（不另放「全部」）。選擇記在 localStorage air-front-types（系列代號）：換日期、下次開都沿用，不寫進網址
+  // （傳出去的連結不帶自己的篩選）；這天沒有的系列照樣記著（別天出現時還是選著），畫面只套用這天有的，一個都沒有就等於沒選。
   // 結構照指南的 toolbar：role="toolbar"、按鈕用 aria-pressed（字不隨狀態改）、整列只佔一個 Tab 停點、方向鍵移動（focusgroup，
   // 不支援的瀏覽器用 roving tabindex 補）；篩選結果用 role="status" 唸「顯示 N 則」（放在 toolbar 外面）。領域少於兩個時不放標籤列。
   const CHECK = '<svg viewBox="0 0 20 20" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true" focusable="false"><path d="M4 10.5l4 4 8-9"/></svg>';
@@ -355,7 +355,7 @@
       else localStorage.removeItem(FILTER_KEY);
     } catch (e) { /* 存不了（無痕、空間滿）：這次照樣能篩，下次不記得 */ }
   }
-  let picked = readFilter(); // 選了的類型（含這天沒有的）；存不進 localStorage 時這份照樣有效
+  let picked = readFilter(); // 選了的系列（含這天沒有的）；存不進 localStorage 時這份照樣有效
   let fq = null; // 這次畫面的過濾列 { chips, clear, status, sync }；沒有標籤列時是 null
 
   // 指南 toolbar 的鍵盤：支援 focusgroup 的瀏覽器由它處理；不支援時自己做 roving tabindex——整列只有一顆 tabindex=0，
@@ -388,8 +388,8 @@
     return sync;
   }
 
-  // 標籤列＋念結果用的 status；types：[{ t, n }]（t 是類型代號），已照類型順序排好。
-  // data-type 是比對用的類型代號、data-group 給色塊用的領域色；bar.js 的過濾面板照這兩個與 .fp-chip-t 的字抄一份
+  // 標籤列＋念結果用的 status；types：[{ t, n }]（t 是系列代號），已照系列順序排好。
+  // data-type 是比對用的系列代號、data-group 給色塊用的領域色；bar.js 的過濾面板照這兩個與 .fp-chip-t 的字抄一份
   function filterBar(types) {
     fq = null;
     if (types.length < 2) return [];
@@ -414,7 +414,7 @@
       saveFilter();
       applyFilter(true);
     });
-    const bar = h('div', { class: 'fp-fq', role: 'toolbar', 'aria-label': '依類型篩選', focusgroup: 'toolbar wrap' }, [...chips, clear]);
+    const bar = h('div', { class: 'fp-fq', role: 'toolbar', 'aria-label': '依系列篩選', focusgroup: 'toolbar wrap' }, [...chips, clear]);
     const status = h('p', { class: 'visually-hidden', role: 'status' });
     fq = { chips, clear, status, sync: roving(bar) };
     return [bar, status];
@@ -478,7 +478,7 @@
     const fresh = freshKeys(period(), list.map((e) => e.key));
     // 「要聞」＝第 1 輪順位（各報告最重要的那則）：不再分區，改成時間軸上淡底色、標題大一號
     const top = list.length ? Math.min(...list.map((e) => e.rank)) : 0;
-    // 時間軸由新到舊；沒有時間的排最後，照順位、類型順序
+    // 時間軸由新到舊；沒有時間的排最後，照順位、系列順序
     const timed = list.map((e) => ({ e, w: when(e.ts) }));
     timed.sort((a, b) => (a.w && b.w ? b.w.ms - a.w.ms : (a.w ? -1 : 0) + (b.w ? 1 : 0))
       || a.e.rank - b.e.rank || bySeries(a.e.from[0].series, b.e.from[0].series) || (a.e.key < b.e.key ? -1 : 1));
@@ -491,7 +491,7 @@
       isNew: fresh.has(e.key),
     });
     // 每個時段一個 <section>：時段標題只在自己那段黏頂（下一段把它推上去，不疊在一起）；快速過濾後沒有條目的整段藏起來。
-    // 每日頭版依整點分組（不是那天的加註日期），每週頭版依日期分組。順便數各類型的則數（過濾標籤後面的數字）
+    // 每日頭版依整點分組（不是那天的加註日期），每週頭版依日期分組。順便數各系列的則數（過濾標籤後面的數字）
     const tl = [];
     const counts = new Map();
     let group = null;
@@ -535,7 +535,7 @@
   }
 
   // 網站上還沒有任何頭版（剛部署、front/index.json 不存在或是空的；每週頭版還沒建）：不卡在載入中，
-  // 說明「還沒有頭版」並列出各類型最新一期的連結（Review Focus 4；每週頭版只列週報、月報）
+  // 說明「還沒有頭版」並列出各系列最新一期的連結（Review Focus 4；每週頭版只列週報、月報）
   function noFront() {
     const items = (index && index.items) || [];
     const latest = [];
@@ -548,7 +548,7 @@
       B.toolbar([frontLink(weekMode ? null : 'page'), weeklyLink(weekMode ? 'page' : null), fpBox]),
       h('header', { class: 'masthead' }, [h('h1', { class: 'mast-title' }, [TITLE])]),
       h('main', { id: 'main', class: 'fp-empty' }, [
-        h('p', { class: 'fp-empty-note', role: 'status' }, [latest.length ? '還沒有頭版。先看各類型最新一期：' : '還沒有頭版，也還沒有任何報告。']),
+        h('p', { class: 'fp-empty-note', role: 'status' }, [latest.length ? '還沒有頭版。先看各系列最新一期：' : '還沒有頭版，也還沒有任何報告。']),
         latest.length ? h('ul', { class: 'fp-empty-list' }, latest.map((e) => {
           const m = seriesMeta(e.series);
           return h('li', null, [h('a', { href: reportHref(e.series, e.period) }, [
@@ -557,7 +557,7 @@
           ])]);
         })) : null,
       ]),
-      // 不放底部的類型標籤列：上面的清單已經列出每個類型（使用者要求：任何地方都不重複同一個資訊）
+      // 不放底部的系列標籤列：上面的清單已經列出每個系列（使用者要求：任何地方都不重複同一個資訊）
       footer(),
     ];
     if (!index) kids.splice(3, 0, h('p', { class: 'load-error', role: 'alert' }, ['新聞清單也載入失敗，重新整理再試一次。']));
@@ -583,7 +583,7 @@
   const target = () => (want || dates[0] || null);
 
   async function main() {
-    // 類型設定與日期清單同時抓，不排隊；頭版檔等日期清單回來才知道要抓哪天
+    // 系列設定與日期清單同時抓，不排隊；頭版檔等日期清單回來才知道要抓哪天
     // 議題對照表（facets.js）一起抓；讀不到就照原樣顯示議題
     const [idx, list] = await Promise.allSettled([A.getJSON('index.json'), A.getJSON('front/index.json'), A.facets ? A.facets.load() : null]);
     index = idx.status === 'fulfilled' && idx.value && typeof idx.value === 'object' ? idx.value : null;

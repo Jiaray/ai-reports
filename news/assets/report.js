@@ -1,6 +1,6 @@
-/* 共用新聞頁（news/index.html）的報告頁：讀 index.json 自動列出有報告的新聞類型，依網址 ?t=<系列>&d=<期別>
-   載入該期報告 JSON 渲染；只帶 t 顯示該類型最新一期。不帶 t 是頭版，這支什麼都不做（交給 front.js）。
-   期別選單讀該類型的 <系列>/index.json（全部期別）；抓不到就只用 index.json 裡的最近幾期。
+/* 共用新聞頁（news/index.html）的報告頁：讀 index.json 自動列出有報告的新聞系列，依網址 ?t=<系列>&d=<期別>
+   載入該期報告 JSON 渲染；只帶 t 顯示該系列最新一期。不帶 t 是頭版，這支什麼都不做（交給 front.js）。
+   期別選單讀該系列的 <系列>/index.json（全部期別）；抓不到就只用 index.json 裡的最近幾期。
    預設是原本的「工程藍圖」版型（DOM 結構同 md2html2.py 的 render()）。右上角「版面」可切換讀法（完整／速讀／時間軸）、
    外觀（藍圖／地圖）與配色，選擇記在 localStorage（同一裝置記住）；規格來自使用者的版型樣稿。
    讀法決定 DOM，換讀法就重繪；外觀與配色只改 <html> 的 data-look／data-theme，樣式全在 CSS。
@@ -37,7 +37,7 @@
   let all = [];
   let shown = null; // 目前這一期 { entry, data }：換讀法時重繪用
   let stories = null; // 議題對照表的載入（facets.js）
-  let seriesNames = []; // 這一期的類型名稱（分類標籤不再重複列）
+  let seriesNames = []; // 這一期的系列名稱（分類標籤不再重複列）
   let vwBox = null; // 「版面」按鈕＋面板（layoutPanel 建一次），每次重繪頁首那一列時放進最右邊
 
   // ── 版面：讀法 × 外觀，各取第一個為預設。這次只做這幾種（樣稿另有專注、日曆、直排）──
@@ -113,7 +113,7 @@
     return B.navLink('本週新聞', 'weekly', '?w', cur && cadenceOf(cur) !== 'daily' ? 'true' : null);
   }
 
-  // 類型順序：index.json 的系列順序，不在裡面的排最後
+  // 系列順序：index.json 的系列順序，不在裡面的排最後
   function rankOf(id) {
     const order = (index.series || []).map((s) => s.id);
     return order.includes(id) ? order.indexOf(id) : order.length;
@@ -134,9 +134,9 @@
     return chapBox;
   }
 
-  // 左上角的日期按鈕（版面在 bar.js 的 datePicker）：左欄同一天（週報同一週、月報同一月）有報告的類型與則數
-  // （換類型、日期不變）；右欄同週期（日報／週報／月報）任一類型有報告的期別（換日期：這個類型那期有就留在這個類型，
-  // 沒有就換到那期排第一的類型）。素材以載入的資料為準：index.json 的最近 200 份＋這個類型自己的全部期別。
+  // 左上角的日期按鈕（版面在 bar.js 的 datePicker）：左欄同一天（週報同一週、月報同一月）有報告的系列與則數
+  // （換系列、日期不變）；右欄同週期（日報／週報／月報）任一系列有報告的期別（換日期：這個系列那期有就留在這個系列，
+  // 沒有就換到那期排第一的系列）。素材以載入的資料為準：index.json 的最近 200 份＋這個系列自己的全部期別。
   // 同一頁的內容不會變：建一次，重繪頁首那一列時重用
   let pdBox = null;
   let pdKey = '';
@@ -144,7 +144,7 @@
     if (pdBox && pdKey === keyOf(cur)) return pdBox;
     pdKey = keyOf(cur);
     const byRank = (a, b) => rankOf(a.series) - rankOf(b.series);
-    const byPeriod = new Map(); // 期別 → 那期有的報告（同一類型重出只留最新那份；all 已依新到舊排）
+    const byPeriod = new Map(); // 期別 → 那期有的報告（同一系列重出只留最新那份；all 已依新到舊排）
     all.filter((e) => cadenceOf(e) === cadenceOf(cur)).forEach((e) => {
       const list = byPeriod.get(e.period) || [];
       if (!list.some((x) => x.series === e.series)) list.push(e);
@@ -296,7 +296,7 @@
     return t.content.textContent.replace(/\s+/g, ' ').trim();
   }
 
-  // 時間軸：摘要收成兩行，點「看 AI 解讀」展開完整摘要、重點、解讀與收集來源；只有摘要可看時整段列出、不必展開
+  // 時間軸：摘要收成兩行，點「看 AI 解讀」展開完整摘要、重點、解讀與文末連結；只有摘要可看時整段列出、不必展開
   const foldsMore = (it) => (it.also || []).length || (it.also_more || []).length || (it.bullets_html || []).length
     || it.table || it.dive_html;
   function fold(it, body) {
@@ -319,7 +319,7 @@
     : h('h3', { class: 'row-title', html: it.title_html }));
 
   // 速讀：只列標題（使用者要求：兩行摘要短到讀不出東西），點標題展開；熱門新聞在標題前加紅色徽章。
-  // 展開後第一行是來源、標籤與原文連結，接著摘要、重點與解讀，收集來源（多家報導、另參）在最後；沒有內容可展開就照常把標題做成原文連結
+  // 展開後第一行是來源、標籤與原文連結，接著摘要、重點與解讀，文末連結（多家報導、另參）在最後；沒有內容可展開就照常把標題做成原文連結
   // 放在 <summary> 裡的標題用 span、不用 h3：部分螢幕閱讀器把 summary 當成按鈕，會丟掉裡面的標題（指南：不要把標題放進 summary）
   function peek(it, tags, body, hot) {
     const title = body.length ? h('span', { class: 'row-title', html: it.title_html }) : titleLink(it);
@@ -358,7 +358,7 @@
       title,
       tags.length ? h('div', { class: 'tags' }, tags) : null,
     ];
-    // 正文連貫閱讀（使用者要求）：摘要 → 重點 → 表格 → 解讀；收集來源（另參、其餘連結）一律收在條目最後。
+    // 正文連貫閱讀（使用者要求）：摘要 → 重點 → 表格 → 解讀；文末連結（另參、其餘連結）一律收在條目最後。
     // 「多家報導：N 家（…）」重點不顯示：家數已在標題下的「N 家報導」，各家又在「另參」逐一列出連結，
     // 再列一次就重複了（使用者要求：任何地方都不重複同一個資訊）。摘要與解讀在句末分段（paragraphs），長段落讀起來舒服
     const isSrcBullet = (b) => /^<strong>多家報導/.test(b);
@@ -389,7 +389,7 @@
     if (moreList.length) {
       srcs.push(h('details', { class: 'seealso-more' }, [h('summary', null, [`其餘 ${moreList.length} 個連結`]), ...links(moreList, seen, linkOpt)]));
     }
-    // 分類標籤（facets.js）：預設收合；頁面上已有的類型、來源、標籤不再列。開關不另建一行（使用者要求）：
+    // 分類標籤（facets.js）：預設收合；頁面上已有的系列、來源、標籤不再列。開關不另建一行（使用者要求）：
     // 有另參就接在另參那一行最後面，只有「其餘 N 個連結」就和它排在同一列；都沒有才自己一行。清單放在最後。
     // 時間軸沒有東西可展開時（只有摘要）開關與清單接在摘要後面。快取空窗拿到舊 index.html（沒有 facets.js）就不放
     const fx = A.facets && A.facets.parts && it.facets ? A.facets.parts(it.facets, {
@@ -503,7 +503,7 @@
   }
 
   function layoutPanel() {
-    // 每一列：左邊項目名稱、右邊相連的分段選項（選中那格用主色填滿，同目前的類型標籤）
+    // 每一列：左邊項目名稱、右邊相連的分段選項（選中那格用主色填滿，同目前的系列標籤）
     const groups = [
       ['讀法', READS, () => view.read, (v) => { view.read = v; store(KEY_READ, v); redraw(true); }],
       ['外觀', LOOKS, () => view.look, (v) => { view.look = v; store(KEY_LOOK, v); redraw(false); }],
@@ -555,7 +555,7 @@
     h('p', { class: 'load-error', role: 'alert' }, [text, more || null]),
   );
 
-  // 這個類型的全部期別（<系列>/index.json）。代號不合規則、檔案不存在（舊資料還沒有類型清單）或格式不對都回 null，
+  // 這個系列的全部期別（<系列>/index.json）。代號不合規則、檔案不存在（舊資料還沒有系列清單）或格式不對都回 null，
   // 呼叫端就只用 index.json 裡的項目，不報錯
   async function seriesList(t) {
     if (!/^[a-z0-9_-]+$/.test(t)) return null;
@@ -579,7 +579,7 @@
       return;
     }
     merge(index.items || []);
-    // 類型清單的項目沒有 series、series_title、cadence：從 index.json 的類型設定補（沒有就用清單自己的）
+    // 系列清單的項目沒有 series、series_title、cadence：從 index.json 的系列設定補（沒有就用清單自己的）
     const doc = await listing;
     if (doc) {
       const info = (index.series || []).find((s) => s.id === t) || {};
@@ -590,9 +590,9 @@
     }
     const entry = all.find((e) => e.series === t && (!d || e.period === d));
     if (!entry) {
-      // 這個類型還有別期就帶去它的最新一期，連類型都沒有就回頭版
+      // 這個系列還有別期就帶去它的最新一期，連系列都沒有就回頭版
       const more = all.some((e) => e.series === t)
-        ? h('a', { href: link(t) }, ['看這個類型的最新一期'])
+        ? h('a', { href: link(t) }, ['看這個系列的最新一期'])
         : h('a', { href: './' }, ['回頭版']);
       if (all.length) problem(null, `找不到這一期（${t}${d ? ` ${d}` : ''}）。`, more);
       else problem(null, '還沒有任何報告。');
