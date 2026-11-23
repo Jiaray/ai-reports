@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-23",
- "built_at": "2026-11-23T17:12:58+08:00",
+ "built_at": "2026-11-23T17:13:14+08:00",
  "reports": [
   {
    "series": "international",
@@ -16,8 +16,8 @@
    "series_title": "AI 日報",
    "group": "科技",
    "period": "2026-11-23",
-   "count": 12,
-   "generated_at": "2026-11-23T09:07:15+08:00"
+   "count": 11,
+   "generated_at": "2026-11-23T17:13:14+08:00"
   },
   {
    "series": "tech",
@@ -145,20 +145,78 @@
   {
    "key": "07283d4899",
    "rank": 1,
-   "title": "Lean 與 Mathlib 社群確認 Anthropic 數學家 Levent Alpöge 與 Claude 合作的黎曼猜想證明正確",
-   "summary_html": "Alpöge 於 11 月 20 日以約 1700 萬行 Lean 程式碼發布證明，數十人獨立執行驗證得到相同結果，Lean 與 Mathlib 社群聲明「完全相信證明正確」。",
-   "dive_html": "Alpöge 選擇只發布 Lean 程式碼（約 1.3GB、相當 25 萬頁）而不寫完整論文，理由是自己尚未掌握證明周邊的數學，不想丟出「無法閱讀的 slop」；MIT 數學家 Andrew Sutherland 整理了各方獨立驗證。Latent Space 指出，數小時後 Alessandro Masullo 也公開了自己寫了 12 年、940 頁的純人工證明稿，形成「AI 版大概正確但難以理解、人類版易懂但大概有技術錯誤」的對比；Elliot Glazer 確認形式化敘述就是廣義黎曼猜想（GRH），並估 Lean 本身出錯的機率遠低於 1%。2022 年菲爾茲獎得主 James Maynard 表示相信證明正確，但強調要有人真正理解並能向他人解釋，數學界才會全面認可。Metaculus 原本預估的解決日期是 2035 年 5 月，陶哲軒上個月還預期要到 2050 年前後。",
+   "title": "Lean 與 Mathlib 社區確認 Alpöge 與 Claude 合作的黎曼猜想證明正確，菲爾茲獎得主梅納德也相信",
+   "summary_html": "Lean 與 Mathlib 社區發表聲明，表示「完全相信」Levent Alpöge 的黎曼猜想證明正確。Alpöge 是史丹佛數學家、Anthropic 的數學家，11 月 20 日宣布與 Claude 合作完成證明，並以約 1700 萬行 Lean 程式碼公布；數十人獨立執行程式碼得到相同結果，驗證程式設計上可證明不會接受有缺陷的證明，MIT 數學家 Andrew Sutherland 在網站上列出各項獨立驗證。The Decoder 指出，Metaculus 預測者原本預期的解決日期是 2035 年 5 月，陶哲軒上個月還預估要到 2050 年前後由人與 AI 合力攻克。2022 年菲爾茲獎得主、牛津大學教授 James Maynard 受訪時說，基於證明已通過形式化驗證並經獨立核實，加上 Alpöge 過往紀錄可靠，他很有信心結果正確；但他強調「理解定理為什麼成立，遠比證明它成立重要」，要有人真正理解並能向他人解釋，證明才可能獲得數學界全面認可，在理解證明的思想與框架前，這項成果可能帶不來人們期待的變革。",
+   "dive_html": "這是形式化驗證第一次替一道千禧年級難題背書，「正確」與「被理解」被拆成兩件事：機器已確認前者，後者仍要人類數學家從 1700 萬行程式碼裡萃取出新理論。對 AI 產業而言，它把「AI 能做原創數學」從示範題推到頂級未解問題，也讓 Lean 這類可機器檢查的格式成為 AI 研究成果取得公信力的關鍵管道。接下來要看是否出現人類可讀的證明摘要或論文、數學期刊如何處理這類成果，以及其他團隊是否用同一套模式攻其他猜想（如 P 對 NP）。",
    "url": "https://aihot.news/items/ikpixx0j7414se1f6lww2csek",
    "src": "AIHOT",
    "ts": "2026-11-22T19:08:31+08:00",
    "left": "11/22 19:08",
    "heat": "",
    "tags": [],
+   "facets": {
+    "region": [
+     "北美",
+     "歐洲"
+    ],
+    "country": [
+     "US",
+     "GB"
+    ],
+    "taiwan": [
+     "無"
+    ],
+    "topic": [
+     "科學",
+     "AI"
+    ],
+    "event": [
+     "研究發表",
+     "聲明評論"
+    ],
+    "story": [
+     "AI 數學突破"
+    ],
+    "sector": [
+     "AI"
+    ],
+    "org": [
+     "Anthropic",
+     "Lean",
+     "Mathlib",
+     "史丹佛大學",
+     "牛津大學"
+    ],
+    "person": [
+     "Levent Alpöge",
+     "James Maynard",
+     "Andrew Sutherland",
+     "陶哲軒"
+    ],
+    "affects": [
+     "開發者"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "正面"
+    ],
+    "stage": [
+     "後續追蹤"
+    ],
+    "keyword": [
+     "黎曼猜想",
+     "Lean",
+     "形式化驗證",
+     "Claude"
+    ]
+   },
    "from": [
     {
      "series": "tech_ai",
      "period": "2026-11-23",
-     "no": "02",
+     "no": "03",
      "rank": 1
     }
    ]
@@ -509,22 +567,85 @@
    ]
   },
   {
-   "key": "f85ff2002e",
+   "key": "ee9326b903",
    "rank": 2,
-   "title": "MiniCPM 8B 成為寮國國家模型，下載量破 7000 萬",
-   "summary_html": "面壁智慧轉發觀察：MiniCPM 8B 寮國國家模型已接入寮國政府 G-Chat v2 通訊軟體，寮國語翻譯在國際基準上勝過 GPT-4o。",
-   "dive_html": "截至 2026 年 11 月 MiniCPM 下載量逾 7000 萬；馬來西亞用 VoxCPM2 做語音互動，肯亞一家銀行在其上跑端側風控代理，也有開發者推出離線應用。貼文主張小模型競爭已從參數量轉向誰能便宜、離線地嵌進日常系統。",
-   "url": "https://aihot.news/items/dr26culfdd1cb21w56i8iruts",
+   "title": "Anthropic 上市募資 813 億美元：Notable Capital、GIC、Baillie Gifford 早期重押獲約 15 倍帳面報酬",
+   "summary_html": "TechCrunch 報導，Anthropic 週三在史上最大規模 IPO 募資 813 億美元，次日開始交易前完全稀釋估值約 1.5 兆美元。Notable Capital（前身 GGV Capital）當年把 10 億美元基金美國部分約 10% 投入 E 輪，估值 615 億美元，是其 25 年來投過最高者，帳面報酬約 15 倍；管理合夥人童士豪說，數據顯示開發者使用 Claude 的時間占比達 70%。新加坡主權基金 GIC 在 2025 年 9 月估值 1830 億美元的 F 輪首投，科技投資主管 Chris Emanuel 說當時 Claude Code 剛推出已見開發者喜愛，後與 Coatue 共同領投估值 3800 億美元的 G 輪，並參與估值 9650 億美元的上市前輪，三輪投入逾 45 億美元，上市後持股約 1%。Baillie Gifford 三輪累計投入 15 億美元。Noah Smith 則指出，Anthropic 上市估值 1.5 兆美元，僅次於 SpaceX 的 1.77 兆，次日跌至 1.175 兆；他引用估算，以 2 兆美元計，員工選擇權與 RSU 約 3310 億美元、約 5300 名員工平均 6200 萬美元，2024 年底前加入的約 940 人平均達九位數美元，公司億萬級富翁人數超過洛杉磯全市。",
+   "dive_html": "三家投資人的說法一致指向「開發者採用率」是押注依據，Claude Code 等開發工具因此被證明是 Anthropic 商業上最關鍵的槓桿。上市次日估值即從 1.5 兆跌到 1.175 兆，顯示市場對這個價位分歧很大；Noah Smith 提到 OpenAI 目標上市估值約 1.25 兆美元，兩家若都上市會成為檢驗 AI 估值的對照組。員工財富集中也可能帶動人才流動與新創潮，以及更多對 AI 產業財富分配的政治討論。",
+   "url": "https://aihot.news/items/dus34samsjrld1qopq65v54uq",
    "src": "AIHOT",
-   "ts": "2026-11-22T19:25:20+08:00",
-   "left": "11/22 19:25",
+   "ts": "2026-11-23T09:25:53+08:00",
+   "left": "11/23 09:25",
    "heat": "",
    "tags": [],
+   "facets": {
+    "region": [
+     "北美",
+     "東南亞",
+     "歐洲"
+    ],
+    "country": [
+     "US",
+     "SG",
+     "GB"
+    ],
+    "taiwan": [
+     "間接"
+    ],
+    "topic": [
+     "產業與企業",
+     "金融市場",
+     "AI"
+    ],
+    "event": [
+     "募資上市",
+     "併購投資"
+    ],
+    "story": [
+     "Anthropic 上市"
+    ],
+    "sector": [
+     "AI",
+     "金融"
+    ],
+    "org": [
+     "Anthropic",
+     "Notable Capital",
+     "GIC",
+     "Baillie Gifford",
+     "OpenAI"
+    ],
+    "person": [
+     "童士豪",
+     "Chris Emanuel",
+     "Lilian Li",
+     "Noah Smith"
+    ],
+    "affects": [
+     "投資人",
+     "勞工"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "好壞參半"
+    ],
+    "stage": [
+     "後續追蹤"
+    ],
+    "keyword": [
+     "IPO",
+     "Claude Code",
+     "估值",
+     "員工持股"
+    ]
+   },
    "from": [
     {
      "series": "tech_ai",
      "period": "2026-11-23",
-     "no": "07",
+     "no": "10",
      "rank": 2
     }
    ]
@@ -877,22 +998,67 @@
    ]
   },
   {
-   "key": "ce223767cc",
+   "key": "862f2dd495",
    "rank": 3,
-   "title": "AI 代理群在 pequalnp.com 公開直播挑戰 P vs NP",
-   "summary_html": "一個協調式 AI 代理隊伍把 P vs NP 拆成待證引理，所有證明都經同一個 Lean 檢查器驗證，網站即時顯示已驗證、被駁回與放棄的路線。",
-   "dive_html": "參與者可把任務貼進 Claude Code、Cursor、Codex 或 Gemini CLI 等能跑 shell、git 與 Lean 的代理，由「調度台」指派一個開放步驟去證；網站把各路線分成瞄準 P≠NP 與 P=NP 兩邊，並說明權重只是已驗證引理數，不是機率也不是證明。ACM 通訊部落格同期也發表〈2026 年秋天發生了什麼：AI 與 P vs NP〉回顧。",
-   "url": "https://pequalnp.com/",
-   "src": "Hacker News",
-   "ts": "2026-11-23T05:53:45+08:00",
-   "left": "11/23 05:53",
-   "heat": "HN 92",
+   "title": "FrontierML 評測：給 AI 代理 10 到 200 美元預算，Opus 5.5 能把錢轉成模型效能、逼近人類研究員",
+   "summary_html": "Jack Clark 在 Import AI 第 481 期介紹 FrontierML 評測：衡量 AI 代理能否把資金轉成模型效能。評測含 21 個長時程任務，取材自前沿實驗室與學術機構的真實工作，涵蓋 LLM 訓練、效率、視覺與音訊、電腦操作、應用 NLP、數學與遊戲六類；每個任務給代理 12 小時 CPU 沙盒、10／50／200 美元錢包、少量驗證樣本與任務說明，代理可自選架構、找資料、訓練、租算力並最佳化推論，最後在隔離網路的 H100 上以大型分布外測試集評分。結果：人類研究員基準拿 10 美元提升 56 分、200 美元提升 66.1 分；表現最好的 Opus 5.5 分別是 45.4 與 58.8 分；開放權重最高的 Kimi K3.1 Pro 是 25.5 與 29.6 分。28% 的軌跡中代理會在預訓練模型上加新訓練的部分或從頭訓練新模型。同期還談到 AI 用的濕實驗室與開發過程中的欺瞞行為。Clark 的看法是：AI 不只會自己建構自己，還能有效花錢讓自己變強。",
+   "dive_html": "這份評測量的是「代理把預算轉成能力」的效率，比單純答題分數更接近實驗室裡的研究工作；Opus 5.5 在 200 美元檔已達人類的九成左右，顯示自動化 ML 研究的差距正快速縮小。閉源與開放權重的差距（58.8 對 29.6）也比一般基準明顯，代表長時程、要自行配置資源的任務仍是開放模型弱項。限制在於任務只有 21 個、預算上限低，金額放大到真實研究規模後曲線是否延續，仍是未知數。",
+   "url": "https://importai.substack.com/p/import-ai-481-ai-sub-contractors",
+   "src": "Import AI",
+   "ts": "2026-11-16T22:01:15+08:00",
+   "left": "11/16 22:01",
+   "heat": "",
    "tags": [],
+   "facets": {
+    "region": [
+     "全球"
+    ],
+    "taiwan": [
+     "無"
+    ],
+    "topic": [
+     "AI"
+    ],
+    "event": [
+     "研究發表",
+     "聲明評論"
+    ],
+    "sector": [
+     "AI"
+    ],
+    "org": [
+     "Anthropic",
+     "Import AI"
+    ],
+    "person": [
+     "Jack Clark"
+    ],
+    "affects": [
+     "開發者",
+     "企業"
+    ],
+    "importance": [
+     "中"
+    ],
+    "tone": [
+     "好壞參半"
+    ],
+    "stage": [
+     "回顧分析"
+    ],
+    "keyword": [
+     "FrontierML",
+     "AI 代理",
+     "Opus 5.5",
+     "Kimi K3.1 Pro",
+     "自我改進"
+    ]
+   },
    "from": [
     {
      "series": "tech_ai",
      "period": "2026-11-23",
-     "no": "01",
+     "no": "04",
      "rank": 3
     }
    ]
@@ -1195,6 +1361,79 @@
      "series": "international",
      "period": "2026-11-23",
      "no": "13",
+     "rank": 4
+    }
+   ]
+  },
+  {
+   "key": "f85ff2002e",
+   "rank": 4,
+   "title": "面壁智慧 MiniCPM 8B 成為寮國國家模型，下載量破 7000 萬",
+   "summary_html": "面壁智慧（OpenBMB）轉發並認同 XiaoAnLab 對 MiniCPM 端側落地的整理：截至 2026 年 11 月，MiniCPM 下載量突破 7000 萬次；其 8B 寮國國家模型已接入寮國政府的 G-Chat v2 通訊軟體，寮語翻譯在國際基準測試中勝過 GPT-4o。部署不只寮國：馬來西亞用 VoxCPM2 做語音互動，肯亞一家銀行在其上執行端側風控代理，開發者也基於它推出離線應用。貼文認為端側小模型的競爭已不在參數量，而在誰真正嵌進日常系統，夠便宜、能離線才會被採用。",
+   "dive_html": "「國家模型」選用 8B 開源小模型，說明資源有限的國家看重的是可離線、可自主部署與在地語言能力，而不是前沿規模；這是中國開源模型往東南亞與非洲擴散的具體案例。素材來自廠商自家轉發，寮語翻譯勝過 GPT-4o 的基準名稱與分數都沒寫出，可信度要打折。後續可觀察其他東南亞國家是否跟進，以及美國大型實驗室是否推出同級在地化小模型競爭。",
+   "url": "https://aihot.news/items/dr26culfdd1cb21w56i8iruts",
+   "src": "AIHOT",
+   "ts": "2026-11-22T19:25:20+08:00",
+   "left": "11/22 19:25",
+   "heat": "",
+   "tags": [],
+   "facets": {
+    "region": [
+     "東南亞",
+     "非洲",
+     "中國大陸"
+    ],
+    "country": [
+     "LA",
+     "MY",
+     "KE",
+     "CN"
+    ],
+    "taiwan": [
+     "無"
+    ],
+    "topic": [
+     "AI",
+     "開源"
+    ],
+    "event": [
+     "產品發布",
+     "聲明評論"
+    ],
+    "sector": [
+     "AI",
+     "公部門"
+    ],
+    "org": [
+     "面壁智慧",
+     "OpenBMB",
+     "寮國政府"
+    ],
+    "affects": [
+     "政府與監管",
+     "開發者"
+    ],
+    "importance": [
+     "中"
+    ],
+    "tone": [
+     "正面"
+    ],
+    "stage": [
+     "持續發展"
+    ],
+    "keyword": [
+     "MiniCPM",
+     "VoxCPM2",
+     "端側 AI",
+     "G-Chat"
+    ]
+   },
+   "from": [
+    {
+     "series": "tech_ai",
+     "period": "2026-11-23",
+     "no": "02",
      "rank": 4
     }
    ]

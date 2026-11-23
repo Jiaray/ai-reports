@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T17:12:58+08:00",
+ "updated_at": "2026-11-23T17:13:14+08:00",
  "series": [
   {
    "id": "general",
@@ -131,6 +131,18 @@
  ],
  "items": [
   {
+   "series": "tech_ai",
+   "series_title": "AI 日報",
+   "cadence": "daily",
+   "period": "2026-11-23",
+   "date": "2026-11-23",
+   "title": "AI 日報",
+   "lede": "Lean 社區確認 Alpöge 與 Claude 合作的黎曼猜想證明正確，菲爾茲獎得主梅納德也表態相信；Anthropic 上市後，早期投資機構與員工的帳面財富成焦點，碳排爭議同步升溫；FrontierML 評測顯示 Opus 5.5 已能把預算轉成模型效能；端側小模型 MiniCPM 成為寮國國家模型。",
+   "count": 11,
+   "data": "tech_ai/2026/2026-11-23.json",
+   "generated_at": "2026-11-23T17:13:14+08:00"
+  },
+  {
    "series": "health",
    "series_title": "健康日報",
    "cadence": "daily",
@@ -225,18 +237,6 @@
    "count": 36,
    "data": "international/2026/2026-11-23.json",
    "generated_at": "2026-11-23T09:45:11+08:00"
-  },
-  {
-   "series": "tech_ai",
-   "series_title": "AI 日報",
-   "cadence": "daily",
-   "period": "2026-11-23",
-   "date": "2026-11-23",
-   "title": "AI 日報",
-   "lede": "黎曼猜想的 Claude 協作證明獲 Lean 社群確認；AI 推論供應鏈提示詞外洩事件持續延燒；端側小模型 MiniCPM 成為寮國國家模型。",
-   "count": 12,
-   "data": "tech_ai/2026/2026-11-23.json",
-   "generated_at": "2026-11-23T09:07:15+08:00"
   },
   {
    "series": "gambling",
