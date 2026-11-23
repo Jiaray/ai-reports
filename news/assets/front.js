@@ -251,8 +251,16 @@
       ps[0].prepend(h('span', { class: 'dive-label' }, ['AI 解讀']));
       body.push(h('div', { class: 'row-dive' }, ps));
     }
-    body.push(h('div', { class: 'fp-acts' }, acts));
     const types = o.types || [];
+    // 分類標籤（facets.js，同報告頁）：預設收合；條目上看得到的類型、來源、標籤不再列。
+    // 開關接在來源標籤與「看原文」那一列的最後面（使用者要求：不另建一行），清單放在那一列下方
+    const fx = A.facets && A.facets.parts && it.facets ? A.facets.parts(it.facets, {
+      title: it.title || '', types: types.map((t) => seriesMeta(t).short), src: it.src,
+      tags: [...(it.tags || []).map((t) => t.text), it.heat, hot && hot.label].filter(Boolean),
+    }) : null;
+    if (fx) acts.push(fx.toggle);
+    body.push(h('div', { class: 'fp-acts' }, acts));
+    if (fx) body.push(fx.panel);
     const meta = h('span', { class: 'fp-mt' }, [...types.map(typeTag), o.stamp || null]);
     // 預覽和展開後的摘要是同一段字：預覽對報讀器隱藏，summary 唸起來就只有類型、時刻與標題
     const pre = o.lead && it.summary_html ? h('span', { class: 'fp-pre', 'aria-hidden': 'true' }, [plainText(it.summary_html)]) : null;
@@ -576,7 +584,8 @@
 
   async function main() {
     // 類型設定與日期清單同時抓，不排隊；頭版檔等日期清單回來才知道要抓哪天
-    const [idx, list] = await Promise.allSettled([A.getJSON('index.json'), A.getJSON('front/index.json')]);
+    // 議題對照表（facets.js）一起抓；讀不到就照原樣顯示議題
+    const [idx, list] = await Promise.allSettled([A.getJSON('index.json'), A.getJSON('front/index.json'), A.facets ? A.facets.load() : null]);
     index = idx.status === 'fulfilled' && idx.value && typeof idx.value === 'object' ? idx.value : null;
     dates = list.status === 'fulfilled' ? validDates(list.value) : [];
     if (!dates.length) {

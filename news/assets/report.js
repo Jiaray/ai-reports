@@ -36,6 +36,8 @@
   let index = { series: [], items: [] };
   let all = [];
   let shown = null; // 目前這一期 { entry, data }：換讀法時重繪用
+  let stories = null; // 議題對照表的載入（facets.js）
+  let seriesNames = []; // 這一期的類型名稱（分類標籤不再重複列）
   let vwBox = null; // 「版面」按鈕＋面板（layoutPanel 建一次），每次重繪頁首那一列時放進最右邊
 
   // ── 版面：讀法 × 外觀，各取第一個為預設。這次只做這幾種（樣稿另有專注、日曆、直排）──
@@ -295,9 +297,10 @@
   }
 
   // 時間軸：摘要收成兩行，點「看 AI 解讀」展開完整摘要、重點、解讀與收集來源；只有摘要可看時整段列出、不必展開
+  const foldsMore = (it) => (it.also || []).length || (it.also_more || []).length || (it.bullets_html || []).length
+    || it.table || it.dive_html;
   function fold(it, body) {
-    const more = (it.also || []).length || (it.also_more || []).length || (it.bullets_html || []).length
-      || it.table || it.dive_html;
+    const more = foldsMore(it);
     if (!more) return it.summary_html ? h('p', { class: 'teaser teaser-all', html: it.summary_html }) : null;
     return h('details', { class: 'more' }, [
       h('summary', { class: 'more-sum' }, [
@@ -386,9 +389,22 @@
     if (moreList.length) {
       srcs.push(h('details', { class: 'seealso-more' }, [h('summary', null, [`其餘 ${moreList.length} 個連結`]), ...links(moreList, seen, linkOpt)]));
     }
+    // 分類標籤（facets.js）：預設收合；頁面上已有的類型、來源、標籤不再列。開關不另建一行（使用者要求）：
+    // 有另參就接在另參那一行最後面，只有「其餘 N 個連結」就和它排在同一列；都沒有才自己一行。清單放在最後。
+    // 時間軸沒有東西可展開時（只有摘要）開關與清單接在摘要後面。快取空窗拿到舊 index.html（沒有 facets.js）就不放
+    const fx = A.facets && A.facets.parts && it.facets ? A.facets.parts(it.facets, {
+      title: plainText(it.title_html || ''), types: seriesNames, src: it.src,
+      tags: [...(it.tags || []).map((t) => t.text), it.heat, hot && hot.label].filter(Boolean),
+    }) : null;
+    let fxBar = null;
+    if (fx && srcs.length && alsoList.length) srcs[0].append(fx.toggle);
+    else if (fx && srcs.length) srcs[srcs.length - 1] = h('div', { class: 'fct-with' }, [srcs[srcs.length - 1], fx.toggle]);
+    else if (fx) fxBar = A.facets.bar(fx.toggle);
     if (srcs.length) body.push(h('div', { class: 'row-srcs' }, srcs));
+    const foldOnly = o.fold && !foldsMore(it); // 時間軸只有摘要：沒有可展開的 body
+    if (fx && !foldOnly) body.push(...[fxBar, fx.panel].filter(Boolean));
     if (o.peek) main.push(peek(it, tags, body, hot));
-    else main.push(...(o.fold ? [fold(it, body)] : body));
+    else main.push(...(o.fold ? [fold(it, body), ...(fx && foldOnly ? [fxBar, fx.panel] : [])] : body));
     // 熱門新聞已有 HOT 徽章，左欄就不再重複「Hot」字樣
     const left = hot && hot.from === 'left' ? h('span', { class: 'row-time' }) : rowTime(it.left, o.line, it.ts);
     return h('article', { class: hot ? 'row is-hot' : 'row', id: `item-${it.no}`, 'data-k': o.line ? o.k : null }, [
@@ -555,6 +571,7 @@
     const t = query.get('t') || '';
     const d = query.get('d') || '';
     const listing = seriesList(t); // 和 index.json 同時抓，不排隊
+    stories = A.facets ? A.facets.load() : null;
     try {
       index = await A.getJSON('index.json');
     } catch (err) {
@@ -588,6 +605,10 @@
       problem(entry, `這一期的資料載入失敗（${err.message}），重新整理再試一次。`);
       return;
     }
+    // 議題對照表（facets.js）：和報告同時抓、畫之前等它；讀不到就照原樣
+    if (A.facets) await stories;
+    const info = (index.series || []).find((s) => s.id === entry.series) || {};
+    seriesNames = [info.short, info.title, info.group, entry.series_title].filter(Boolean);
     shown = { entry, data };
     document.title = `${data.title} ${data.date}｜AI Reports`;
     app.replaceChildren(...page());

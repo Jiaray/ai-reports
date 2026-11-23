@@ -271,3 +271,10 @@
 @media(prefers-reduced-motion:reduce){:root[data-look=standard] body{transition:none}}
 /* 強制色彩模式：卡片與 Header 的底色會被換掉，改用框線 */
 @media(forced-colors:active){[data-look=standard] .editions{border-bottom:1px solid}[data-look=standard] .std-grid>.fp-it{border:1px solid}}
+
+/* 分類標籤（facets.js）：系統字，面向名稱 --text-3、值 --text-2 */
+[data-look=standard] .fct-tg,[data-look=standard] .fct-row dt{color:var(--text-3)}
+[data-look=standard] .fct-tg{font-family:var(--font-sans);letter-spacing:.02em}
+[data-look=standard] .fct-tg:hover{color:var(--text-2)}
+[data-look=standard] .fct-list{font-family:var(--font-sans)}
+[data-look=standard] .fct-row dd{color:var(--text-2)}

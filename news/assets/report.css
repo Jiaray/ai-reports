@@ -396,6 +396,34 @@ html.fab-sheet,html.fab-sheet body{overflow:hidden;overscroll-behavior:none}
 [data-look=atlas] .fq-item[aria-pressed=true]{background:var(--color-neutral-200)}
 @media(prefers-reduced-motion:reduce){.fab-pie,.fab-layer.is-open .fab-pie{transform:none;transition:opacity .12s,visibility 0s linear .12s}.fab-btn svg,.fab-scrim{transition:none}}
 @media(forced-colors:active){.fab-btn{border:1px solid ButtonText}.fab-it.is-hot,.fab-it.is-focus{outline:2px solid Highlight;outline-offset:-4px}.fq-item[aria-pressed=true] .fq-mk{background:Highlight}}
+/* ── 分類標籤（facets.js；使用者要求：預設收合、淡化、不刻意引人注意；三種試作中選定 A 小字清單）：
+   開關 .fct-tg 不另建一行（使用者要求）：接在條目最後那一列的尾巴——報告頁是另參那一行（只有「其餘 N 個連結」時和它排同一列，
+   .fct-with），頭版是來源標籤與「看原文」那一列（.fp-acts）；都沒有才自己一行（.fct-bar）。
+   開關是一行 12px 次要色小字「分類」＋小箭頭，不加框不加底；清單 .fct-panel 放在那一列下方，一個面向一行「面向　值、值」，字小一號、次要色。
+   顏色用 --color-neutral-600／700（淺深色、三種外觀都 ≥ 4.5:1），不用 opacity 淡化（會掉到對比度不足）。
+   觸控螢幕上可點範圍由透明 ::before 上下補到 44px，外觀不放大；補出來的範圍蓋到上一行時，另參的連結疊在上面、照樣點得到 ── */
+.fct-tg{position:relative;display:inline-flex;align-items:center;gap:3px;margin:0;padding:0;border:0;background:none;cursor:pointer;font:400 12px/1.5 var(--font-body);letter-spacing:.04em;color:var(--color-neutral-600);white-space:nowrap;vertical-align:baseline;-webkit-tap-highlight-color:transparent}
+.fct-tg::before{content:"";position:absolute;inset:-6px -8px}
+.fct-tg::after{content:"";width:.38em;height:.38em;margin-left:2px;border:solid currentColor;border-width:0 1.2px 1.2px 0;transform:translateY(-.12em) rotate(45deg);transition:transform .15s}
+.fct-tg[aria-expanded=true]::after{transform:translateY(.08em) rotate(-135deg)}
+.fct-tg:hover{color:var(--color-neutral-800)}
+.fct-tg:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
+.row-also .fct-tg{margin-left:1em}
+.fct-with{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:1em}
+.fct-bar{margin-top:var(--space-2)}
+.fct-panel{margin-top:var(--space-1)}
+.fct-list{margin:0;font:400 12.5px/1.6 var(--font-body)}
+.fct-row{display:flex;gap:.9em}
+.fct-row dt{flex:0 0 4.2em;color:var(--color-neutral-600)}
+.fct-row dd{margin:0;min-width:0;color:var(--color-neutral-700)}
+.fct-v+.fct-v::before{content:"、"}
+@media(pointer:coarse){
+  .fct-tg::before{inset:-13px -10px}
+  .row-also a{position:relative;z-index:1}
+  .fp-acts .fct-tg{min-height:44px}
+}
+@media(prefers-reduced-motion:reduce){.fct-tg::after{transition:none}}
+[data-look=atlas] .fct-tg:focus-visible{border-radius:var(--r-sm)}
 @media print{.fab-layer{display:none!important}}
 
 /* ── 觸控螢幕上的按鈕、標籤與期別選單至少 44px 高（指南：at least 44×44 on touch screens）；滑鼠、觸控板不變。

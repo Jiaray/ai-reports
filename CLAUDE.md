@@ -63,7 +63,7 @@ ai-reports/
     ├── manifest.webmanifest      手機主畫面的名稱「AI 頭版」與圖示
     ├── assets/                   bar.js（報頭共用元件：下拉、日期面板、報告頁的大標題下拉、工具列凍結、非當期提示）；
     │                             report.js、report.css（報告頁：網址路由、渲染器、「版面」切換；報頭樣式也在這）；
-    │                             front.js、front.css（頭版）；look-standard.css、look-standard.js（外觀「一般」的樣式、
+    │                             front.js、front.css（頭版）；facets.js（條目的分類標籤，報告頁與頭版共用）；look-standard.css、look-standard.js（外觀「一般」的樣式、
     │                             頭版的頭條＋卡片排法、theme-color）；icon-192／512.png
     ├── index.json                類型設定（series，含 group、short；順序＝標籤與頭版的類型順序）＋最近 200 份（含導言）  ← publish.py
     ├── front/                                                                                  ← front.py
@@ -168,6 +168,23 @@ ai-reports/
     條目「標題（卡片標題的 1.3 倍，手機約 22px、桌機約 26px；使用者要求放大 30%）→ 時刻＋來源 → 內文（行高 1.7、段距 .8em）→ 重點 → 解讀（規格的引言：左 3px 品牌紅線、灰字）→ 另參（藍色底線連結，看過變紫）」。
     速讀是「即時新聞」式列表，時間軸沿用原結構換中性色。條目時間用 `<time datetime>`（report.js，所有外觀共用、樣式不變）。
   - 一般外觀時 `<head>` 多一個 `<meta name="theme-color">`（Header 底色），其他外觀拿掉。斷點 40em／64em。
+- 分類標籤（使用者要求：每則新聞顯示 facets，預設收合、淡化、不要讓讀者刻意注意；三種試作中選定「A 小字清單」）：
+  元件在 `news/assets/facets.js`（`window.AIR.facets`，`index.html` 在 look-standard.js 之後、report.js／front.js 之前 `defer` 載入），
+  樣式在 report.css 的「分類標籤」區塊（一般外觀另在 look-standard.css）。開關不另建一行（使用者要求）：接在條目最後那一列的尾巴——
+  報告頁是另參那一行（只有「其餘 N 個連結」時和它排同一列），頭版是來源標籤與「看原文」那一列（`.fp-acts`）；都沒有才自己一行（`.fct-bar`）。
+  所以不用 `<details>`：開關是 `<button class="fct-tg" aria-expanded aria-controls>`，一行 12px 次要色小字「分類」＋小箭頭；
+  清單 `.fct-panel` 放在那一列下方、`hidden="until-found"`（在頁面中尋找照樣找得到，找到時自動展開），是 `<dl>`，一個面向一行「面向名稱　值、值」（12.5px，
+  名稱 `--color-neutral-600`、值 `--color-neutral-700`；一般外觀 `--text-3`／`--text-2`）。淡化靠次要色與字級，不用 opacity（對比度要 ≥ 4.5:1）。
+  觸控螢幕上開關由透明 `::before` 上下補到 44px，外觀不放大；補出來的範圍蓋到上一行時，另參的連結疊在上面、照樣點得到。
+  報告頁三種讀法都有：完整讀法直接在條目最後；速讀在點標題展開的內容裡；時間軸在「看 AI 解讀」展開的內容裡，條目只有摘要可看時開關與清單接在摘要後面。
+  沒有 `facets` 的條目（舊報告）什麼都不加，頁面和以前一樣。部署後的快取空窗（舊 index.html 沒載入 facets.js）就少這一塊。
+  - 面向順序與中文名稱照 news-aggregator `facets.py` 的 `DIMENSIONS`（facets.js 的 `DIMS` 照抄；那邊改了這裡要跟著改）：
+    地區、國家、台灣關聯、主題、事件、議題、產業、機構、人物、影響、重要度、調性、進展、關鍵詞。國家是 ISO 代碼，用 `Intl.DisplayNames` 顯示中文國名。
+  - 不重複（同「任何版面不出現重複資訊」）：頁面上已有的類型名稱（報告頁是這期的類型短名、標題、領域；頭版是條目上的類型）、
+    標籤與熱門徽章的文字、來源字串裡的媒體（機構）、標題裡已寫的國家／機構／人物／關鍵詞不列；台灣關聯「無」不列；
+    標籤「持續」時不列進展，「中性／利多／利空」時不列調性；同一個值前面的面向列過就不再列。
+  - 議題套用 `news/stories.json`（報告不改，讀取時套用；讀不到照原樣）：改名（alias）顯示新名稱、退役（retire）不顯示、
+    子議題寫成「上層 › 子議題」，上層另外單獨列著就不再重複。
 - 報頭不顯示導言（使用者要求所有版面都拿掉）；資料的 `intro`／`lede` 照留，給 Telegram 訊息與首頁列表的摘要用。
 - 閱讀舒適度（使用者要求）：摘要與解讀在句末（。！？）自動分段、每段至少約 60 字，另參獨立一行；速讀只列標題、
   點標題展開；時間軸摘要預覽四行。熱門新聞（來源標 Hot、PTT「爆」、頭條／直播／利空）在所有版面的標題前加紅色徽章，
