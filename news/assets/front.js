@@ -1,7 +1,7 @@
 /* 頭版（news/ 不帶 t 參數）：讀 index.json（系列設定與各系列最新報告）、front/index.json（有頭版的日期與週，新到舊）
    與那一期的頭版檔，照使用者選定的樣版 B（時間軸）渲染。兩種頭版（使用者要求：日報的頭版不放週報，週報另有自己的頭版）：
-   - 每日頭版（本日新聞）：news/ 開最新一天、?f=YYYY-MM-DD 開指定日期；檔案 front/<年>/<日期>.json，依整點分組。
-   - 每週頭版（本週新聞）：news/?w 開最新一週、?w=YYYY-Www 開指定週；檔案 front/<ISO 年>/<YYYY-Www>.json（當週的週報與月報），依日期分組。
+   - 每日頭版（本日焦點）：news/ 開最新一天、?f=YYYY-MM-DD 開指定日期；檔案 front/<年>/<日期>.json，依整點分組。
+   - 每週頭版（本週回顧）：news/?w 開最新一週、?w=YYYY-Www 開指定週；檔案 front/<ISO 年>/<YYYY-Www>.json（當週的週報與月報），依日期分組。
    帶 t 參數是報告頁，這支什麼都不做（交給 report.js）。site.js 是 defer、排在本檔前面，執行時 window.AIR 已經在。
    *_html 欄位是 publish.py 淨化過的片段（只留 http/https 連結與粗體），其餘欄位一律當純文字（AIR.h 的子節點字串）。 */
 (() => {
@@ -44,7 +44,7 @@
   // 指定的日期（週）；沒有就開最新一期（書籤與主畫面固定開最新）
   const want = (weekMode ? query.get('w') : query.get('f')) || null;
 
-  // 條目沿用報告頁速讀讀法的樣式（報告頁的讀法選擇不影響頭版）。外觀和報告頁共用 air-news-look：
+  // 條目沿用報告頁標題讀法的樣式（報告頁的讀法選擇不影響頭版）。外觀和報告頁共用 air-news-look：
   // 記住的是「一般」就用一般（look-standard.js 把時間軸搬成頭條＋要聞卡片＋即時新聞）；「地圖」用地圖的樣式
   // （使用者要求：色票、字型、報頭等高線與地圖風格的過濾標籤，全在 CSS；條目排法同藍圖），其他是藍圖。
   // 部署後的快取空窗拿到舊 index.html（沒載入 look-standard.js、A.look 不在）時不列「一般」、照藍圖畫
@@ -226,7 +226,7 @@
   // 左緣一條領域色線；summary 第一行是系列＋時刻（週報月報是期別），接著標題。每輪第一順位（原本的「要聞」）
   // 淡底色、標題大一號，收合時先露兩行摘要；點開看完整摘要、AI 解讀（頭版檔的 dive_html）、來源與「看原文」。
   // 原生 <details>：鍵盤、報讀器、「在頁面中尋找」（收合的摘要也搜得到、找到時自動展開）都直接可用。
-  // summary 裡的標題用 span、不用 h3（同報告頁速讀：部分螢幕閱讀器把 summary 當按鈕，會丟掉裡面的標題），也不放連結。
+  // summary 裡的標題用 span、不用 h3（同報告頁標題讀法：部分螢幕閱讀器把 summary 當按鈕，會丟掉裡面的標題），也不放連結。
   // o.id：元素 id；o.types：系列 id（第一個決定色線）；o.stamp：系列後面的灰字節點；o.lead：要聞；o.isNew：標「新」；
   // o.key：頭版條目的 key（記「看過」用）。data-fq 是這則的系列（系列代號，空白分隔），快速過濾比對用
   function tlRow(it, o) {
@@ -279,9 +279,10 @@
   }
 
   // ── 報頭（使用者要求：所有頁面上方區塊統一功能；元件在 bar.js）──────────────
-  // 最上面是和報告頁同一列的工具列：日期（點開是這天的新聞與有頭版的日期；每週頭版是週）、「本日新聞」（每日頭版）、
-  // 「本週新聞」（每週頭版）、「版面」；這頁是哪一種就標成目前位置（最新一期 page，其他期 true）。工具列凍結在頂端。
-  // 下面是大標題「頭版」（每週頭版是「週報頭版」），右邊是快速過濾標籤（使用者要求：頭版的大標題不要下拉）。
+  // 最上面是和報告頁同一列的工具列：日期（點開是這天的新聞與有頭版的日期；每週頭版是週）、「本日焦點」（每日頭版）、
+  // 「本週回顧」（每週頭版）、「版面」；這頁是哪一種就標成目前位置（最新一期 page，其他期 true）。工具列凍結在頂端。
+  // 下面是大標題，和工具列那顆同名（使用者要求）：每日頭版「本日焦點」（原「頭版」）、每週頭版「本週回顧」（原「週報頭版」）；
+  // 右邊是快速過濾標籤（使用者要求：頭版的大標題不要下拉）。
   // 原本的日期大字與 ‹ › 拿掉：日期在日期按鈕（不重複），換日用日期面板（使用者選定）
   // 網址：最新一天是 news/、其他天 ?f=YYYY-MM-DD；最新一週是 ?w、其他週 ?w=YYYY-Www（書籤固定開最新）
   const dayHref = (d) => (d === dates[0] ? './' : `?f=${d}`);
@@ -289,15 +290,15 @@
   const periodHref = (p) => (weekMode ? weekHref(p) : dayHref(p));
   const latestHref = weekMode ? '?w' : './';
   const here = () => (period() === dates[0] ? 'page' : 'true');
-  const frontLink = (current) => B.navLink('本日新聞', 'front', './', current);
-  const TITLE = weekMode ? '週報頭版' : '頭版';
+  const frontLink = (current) => B.navLink('本日焦點', 'front', './', current);
+  const TITLE = weekMode ? '本週回顧' : '本日焦點';
   const cadenceOf = (e) => e.cadence || seriesMeta(e.series).cadence || 'daily';
 
-  // 「本週新聞」（使用者要求：最上方一顆切到週報的按鈕，字數同「本日新聞」）：連到每週頭版的最新一週；
+  // 「本週回顧」（使用者要求：最上方一顆切到週報的按鈕，字數同「本日焦點」）：連到每週頭版的最新一週；
   // index.json 還沒有任何週報、月報就不顯示（使用者選定）
   function weeklyLink(current) {
     const any = ((index && index.items) || []).some((e) => e && e.series && e.period && cadenceOf(e) !== 'daily');
-    return any || weekMode ? B.navLink('本週新聞', 'weekly', '?w', current) : null;
+    return any || weekMode ? B.navLink('本週回顧', 'weekly', '?w', current) : null;
   }
 
   // 日期按鈕：左欄「這天的新聞」＝那天有出刊的日報（各連到那一期，右邊則數；頭版底部原本的系列列拿掉了，
@@ -323,10 +324,10 @@
 
   // types：這頁有的系列與則數（render 排時間軸時收集）。
   // 最上面是非當期提示（bar.js，不是台北的今天、本週才有）：開的是最新一期、今天（本週）還沒出刊時（spec 6.6），提示後面接說明
-  // （使用者選定：原本大標題下那一行「今天還沒有頭版，這是最近一期」併進提示條，不出現兩個提示）。日期在日期按鈕，提示不重寫日期。
+  // （使用者選定：原本大標題下那一行「今天還沒有焦點，這是最近一期」併進提示條，不出現兩個提示）。日期在日期按鈕，提示不重寫日期。
   // 部署後的快取空窗可能拿到還沒有 staleBanner 的舊 bar.js：少提示條，頁面照常
   const masthead = (types) => [
-    B.staleBanner ? B.staleBanner(period(), period() === dates[0] ? (weekMode ? '本週還沒有週報頭版，這是最近一期' : '今天還沒有頭版，這是最近一期') : null) : null,
+    B.staleBanner ? B.staleBanner(period(), period() === dates[0] ? (weekMode ? '本週還沒有回顧，這是最近一期' : '今天還沒有焦點，這是最近一期') : null) : null,
     B.toolbar([datePicker(), frontLink(weekMode ? null : here()), weeklyLink(weekMode ? here() : null), fpBox]),
     h('header', { class: 'masthead fp-head' }, [h('h1', { class: 'mast-title' }, [TITLE]), ...filterBar(types)]),
   ];
@@ -358,35 +359,9 @@
   let picked = readFilter(); // 選了的系列（含這天沒有的）；存不進 localStorage 時這份照樣有效
   let fq = null; // 這次畫面的過濾列 { chips, clear, status, sync }；沒有標籤列時是 null
 
-  // 指南 toolbar 的鍵盤：支援 focusgroup 的瀏覽器由它處理；不支援時自己做 roving tabindex——整列只有一顆 tabindex=0，
-  // 左右鍵在看得到的按鈕之間移動（到頭繞回）、Home／End 到頭尾，只攔自己處理的鍵。回傳 sync：「清除」藏起來後補回停點
-  function roving(bar) {
-    if ('focusGroup' in HTMLElement.prototype) return () => {};
-    const items = () => [...bar.querySelectorAll('button')].filter((b) => !b.hidden);
-    const sync = (cur) => {
-      const list = items();
-      const keep = (cur && list.includes(cur) && cur) || list.find((b) => b.tabIndex === 0) || list[0];
-      bar.querySelectorAll('button').forEach((b) => { b.tabIndex = b === keep ? 0 : -1; });
-    };
-    bar.addEventListener('focusin', (e) => {
-      const b = e.target.closest('button');
-      if (b) sync(b);
-    });
-    bar.addEventListener('keydown', (e) => {
-      const list = items();
-      const i = list.indexOf(document.activeElement);
-      if (i < 0 || e.altKey || e.ctrlKey || e.metaKey) return;
-      const rtl = getComputedStyle(bar).direction === 'rtl';
-      const step = { ArrowRight: rtl ? -1 : 1, ArrowLeft: rtl ? 1 : -1 }[e.key];
-      const next = step ? list[(i + step + list.length) % list.length]
-        : e.key === 'Home' ? list[0] : e.key === 'End' ? list[list.length - 1] : null;
-      if (!next) return;
-      e.preventDefault();
-      next.focus();
-    });
-    sync();
-    return sync;
-  }
+  // 指南 toolbar 的鍵盤在 bar.js 的 roving（報告頁的讀法也用）；部署後的快取空窗拿到還沒有它的舊 bar.js 時不補方向鍵，
+  // 每顆按鈕照樣用 Tab 走得到
+  const roving = (bar) => (B.roving ? B.roving(bar) : () => {});
 
   // 標籤列＋念結果用的 status；types：[{ t, n }]（t 是系列代號），已照系列順序排好。
   // data-type 是比對用的系列代號、data-group 給色塊用的領域色；bar.js 的過濾面板照這兩個與 .fp-chip-t 的字抄一份
@@ -452,8 +427,8 @@
 
   // 頁尾只留頭版的整理方式；刊名與日期上面都有了，不再重複
   const footer = () => h('footer', { class: 'foot' }, [
-    h('span', { class: 'foot-left' }, [weekMode ? '週報頭版從當週各週報、月報標出的重點整理，同一則新聞只列一次'
-      : '頭版從當天各日報標出的重點整理，同一則新聞只列一次']),
+    h('span', { class: 'foot-left' }, [weekMode ? '本週回顧從當週各週報、月報標出的重點整理，同一則新聞只列一次'
+      : '本日焦點從當天各日報標出的重點整理，同一則新聞只列一次']),
   ]);
 
   function show(kids) {
@@ -512,7 +487,7 @@
     });
     // 舊版的每日頭版檔另帶 weekly（週報月報接在最後）：使用者要求日報的頭版不放週報，週報改看每週頭版，這裡不畫
     const types = [...counts.keys()].sort(bySeries).map((t) => ({ t, n: counts.get(t) }));
-    const main = h('main', { id: 'main', class: 'fp-tl' }, tl.length ? tl : [h('p', { class: 'load-error' }, [weekMode ? '這週的頭版沒有條目。' : '這天的頭版沒有條目。'])]);
+    const main = h('main', { id: 'main', class: 'fp-tl' }, tl.length ? tl : [h('p', { class: 'load-error' }, [weekMode ? '這週的回顧沒有條目。' : '這天的焦點沒有條目。'])]);
     // 外觀「一般」：同一批條目搬成頭條＋要聞卡片＋即時新聞（look-standard.js；只搬元素，過濾、展開、記看過都照舊）
     if (standard() && A.look) A.look.arrangeFront(main);
     show([...masthead(types), main, footer()]);
@@ -548,7 +523,7 @@
       B.toolbar([frontLink(weekMode ? null : 'page'), weeklyLink(weekMode ? 'page' : null), fpBox]),
       h('header', { class: 'masthead' }, [h('h1', { class: 'mast-title' }, [TITLE])]),
       h('main', { id: 'main', class: 'fp-empty' }, [
-        h('p', { class: 'fp-empty-note', role: 'status' }, [latest.length ? '還沒有頭版。先看各系列最新一期：' : '還沒有頭版，也還沒有任何報告。']),
+        h('p', { class: 'fp-empty-note', role: 'status' }, [latest.length ? `還沒有${TITLE}。先看各系列最新一期：` : `還沒有${TITLE}，也還沒有任何報告。`]),
         latest.length ? h('ul', { class: 'fp-empty-list' }, latest.map((e) => {
           const m = seriesMeta(e.series);
           return h('li', null, [h('a', { href: reportHref(e.series, e.period) }, [
@@ -604,7 +579,7 @@
       return;
     }
     if (!isFront(front, d)) {
-      problem(`${d} 的頭版檔內容不完整，重新整理再試一次。`);
+      problem(`${d} 的${TITLE}內容不完整，重新整理再試一次。`);
       return;
     }
     render();

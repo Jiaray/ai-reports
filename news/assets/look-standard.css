@@ -41,7 +41,7 @@
 [data-look=standard] :focus-visible{outline-color:var(--focus)}
 
 /* ── Header（工具列）：凍結在頂端，底色 --surface 鋪滿整個視窗寬（border-image 不會造成橫向捲動），底下一條 0.5px 細線；
-   「本日新聞」「本週新聞」是主選單：14px、--text-2，目前位置換 --text、字重 500、底下 2px --accent 線（同規格）。
+   「本日焦點」「本週回顧」是主選單：14px、--text-2，目前位置換 --text、字重 500、底下 2px --accent 線（同規格）。
    日期與「版面」是圖示＋字的按鈕，滑過時字換品牌紅 ── */
 [data-look=standard] .editions{min-height:64px;padding:0;gap:4px;border-top:0;background:transparent;
   border-image:linear-gradient(to top,var(--border) var(--hair),var(--surface) var(--hair)) fill 0 // 0 100vw}
@@ -54,7 +54,7 @@
 [data-look=standard] .vw .dd-toggle{margin-right:-10px}
 [data-look=standard] .dd-caret{color:var(--text-3)}
 [data-look=standard] :is(.dd-toggle,.ed-link,.dd-close,.chap-toggle,.fp-act,.fp-chip,.fp-fq-clear,.peek>summary,.more-sum,a):focus-visible{outline:2px solid var(--focus);outline-offset:2px}
-/* 手機：同 report.css，按鈕之間不另留間距、內距隨螢幕寬度伸縮（--ed-pad），本日新聞、本週新聞照樣是圖示＋字；
+/* 手機：同 report.css，按鈕之間不另留間距、內距隨螢幕寬度伸縮（--ed-pad），本日焦點、本週回顧照樣是圖示＋字；
    340px 以下「版面」也不保留 40px 寬 */
 @media(max-width:40em){
 [data-look=standard] .editions{min-height:56px;gap:0}
@@ -92,6 +92,21 @@
 [data-look=standard] .masthead{border:0;padding:32px 0 8px}
 [data-look=standard] .mast-title{margin:0;font:var(--fw-head) var(--fs-title)/1.3 var(--font-sans);letter-spacing:0;color:var(--text-head)}
 [data-look=standard] .chap-caret{width:.6em;height:.6em;margin-left:.2em;border-radius:var(--radius-sm)}
+/* 大標題那一行最右邊的讀法（report.css 的 .read-*）：新聞網站的膠囊切換——0.5px 細框的圓角膠囊，小標「讀法」用 --text-3，
+   選中那顆 --text 實心膠囊、字用 --surface（同「版面」選中與過濾標籤選中的樣子，不用品牌紅：規格的紅只給分類標籤與熱門徽章）；
+   滑過時字換品牌紅（同 Header）。標題沒有上下邊距，讀法也不留；換行時上下隔 12px */
+[data-look=standard] .read-head{row-gap:12px}
+[data-look=standard] .read-sw{--read-h:30px;gap:2px;margin:0 0 0 auto;padding:3px;border:var(--hair) solid var(--border);border-radius:999px;background:var(--surface)}
+[data-look=standard] .read-lab{padding:0 6px 0 11px;background:none;border:0;color:var(--text-3);font:400 13px/1 var(--font-sans);letter-spacing:0}
+[data-look=standard] .read-opt{gap:6px;padding:0 13px;border-radius:999px;color:var(--text-2);font:400 13.5px/1 var(--font-sans);letter-spacing:0}
+[data-look=standard] .read-opt+.read-opt{border-left:0}
+[data-look=standard] .read-ico{color:var(--text-3)}
+[data-look=standard] .read-opt[aria-pressed=true]{background:var(--text);color:var(--surface);box-shadow:none}
+[data-look=standard] .read-opt[aria-pressed=true] .read-ico{color:inherit}
+@media(hover:hover){[data-look=standard] .read-opt[aria-pressed=false]:hover{background:transparent;color:var(--accent)}[data-look=standard] .read-opt[aria-pressed=false]:hover .read-ico{color:inherit}}
+[data-look=standard] .read-opt:focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+[data-look=standard] .rds-item[aria-pressed=true]{background:var(--hover-bg);color:var(--text);box-shadow:inset 2px 0 var(--accent)}
+[data-look=standard] .rds-item[aria-pressed=true] :is(.rds-ico,.rds-mk){color:var(--text)}
 [data-look=standard] .chap-toggle:hover .chap-caret,[data-look=standard] .chap-toggle[aria-expanded=true] .chap-caret{background:var(--hover-bg);color:var(--accent)}
 /* 分區：區塊標題（規格的 .section-title：粗字、底下 2px --text 實線） */
 [data-look=standard] .sec{margin-top:40px}
@@ -114,7 +129,7 @@
 [data-look=standard][data-read=full] .row-main>.tags{grid-row:2;grid-column:2}
 [data-look=standard][data-read=full] .row-left:has(.row-time:empty)~.row-main>.tags{grid-column:1 / -1}
 [data-look=standard] .row-time{font:400 var(--fs-meta)/1.5 var(--font-sans);letter-spacing:0;color:var(--text-3)}
-/* 報告頁的條目標題（完整、時間軸讀法）比卡片標題大 30%（使用者要求）；速讀另有 16px，頭版的卡片、清單不受影響 */
+/* 報告頁的條目標題（完整、時間軸讀法）比卡片標題大 30%（使用者要求）；標題讀法另有 16px，頭版的卡片、清單不受影響 */
 [data-look=standard] .row-title{font:var(--fw-head) calc(var(--fs-card) * 1.3)/1.35 var(--font-sans);letter-spacing:0;color:var(--text-head)}
 [data-look=standard] .row-title a{color:var(--text-head)}
 [data-look=standard] .row-title a:hover{color:var(--accent)}
@@ -143,7 +158,7 @@
   border-image:linear-gradient(to bottom,var(--border) var(--hair),var(--surface) var(--hair)) fill 0 // 0 100vw}
 [data-look=standard] .load-error{color:var(--text)}
 
-/* ── 速讀：規格「即時新聞」的列表（左欄時間 52px、右邊標題 15–16px），列與列之間細線 ── */
+/* ── 標題讀法：規格「即時新聞」的列表（左欄時間 52px、右邊標題 15–16px），列與列之間細線 ── */
 [data-look=standard][data-read=scan] .row{grid-template-columns:52px minmax(0,1fr);padding:14px 0}
 [data-look=standard][data-read=scan] .rt-hm{font:500 15px/1.5 var(--font-sans);color:var(--text-3)}
 [data-look=standard][data-read=scan] .row-title{font:var(--fw-body) 16px/1.6 var(--font-sans)}

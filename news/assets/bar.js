@@ -1,11 +1,12 @@
 /* 新聞頁報頭的共用部分：報告頁（report.js）與頭版（front.js）的報頭長得一樣（使用者要求：所有頁面上方區塊統一功能）——
-   最上面一列工具列「日期｜本日新聞｜本週新聞｜……｜版面」凍結在頂端，下面是大標題，報告頁的大標題點開是本期章節
+   最上面一列工具列「日期｜本日焦點｜本週回顧｜……｜版面」凍結在頂端，下面是大標題，報告頁的大標題點開是本期章節
    （頭版的大標題沒有下拉，右邊是快速過濾標籤，在 front.js）。
    index.html 在 site.js 之後、report.js／front.js 之前載入（都是 defer），掛在 window.AIR.bar。
    1. 圖示（裝飾用，aria-hidden；按鈕的名稱來自文字或 aria-label）
    2. dropdown()：報頭三種下拉面板（日期、大標題、版面）共用的骨架與開關；從功能鈕打開時是底部面板（背景變暗模糊、往下拖收起）
    3. 期別的寫法：日期按鈕的長短兩種、日期清單的分組與每列
-   4. datePicker()、titleChapters()、toolbar()、navLink()：版面一致的元件，資料由各頁算好傳進來
+   4. datePicker()、titleChapters()、toolbar()、navLink()：版面一致的元件，資料由各頁算好傳進來；
+      roving()：toolbar（頭版的過濾標籤、報告頁的讀法）在不支援 focusgroup 的瀏覽器補方向鍵
    5. 工具列凍結（position:sticky 在 report.css）：量工具列高度寫進 :root 的 --bar-h（頭版黏頂的時段標題、
       錨點跳轉要讓開它），捲離頂端時加 .is-stuck（底下一條細線）
    6. 非當期提示：開的不是台北時間的今天、本週、本月那一期時，頁面最上面一條黃色橫幅
@@ -24,8 +25,8 @@
     caret: svg(14, 'M6 8l4 4 4-4'), // 日期按鈕右側，展開時轉向
     close: svg(16, 'M5 5l10 10M15 5 5 15'),
     caretLg: svg(0, 'M5 7.5l5 5 5-5'), // 大標題的箭頭：不給寬高、跟著外框（.66em），線條比日期按鈕的寬一些
-    front: svg(18, 'M3 3.5h14v13H3zM6 7.5h8M6 10.5h8M6 13.5h5'), // 本日新聞：一張報紙（同網站圖示的三條橫線）
-    weekly: svg(18, 'M6 2.5h11v11H6zM3 5.5v12h12M9 6h5M9 9h5M9 12h3'), // 本週新聞：疊起來的兩張報紙
+    front: svg(18, 'M3 3.5h14v13H3zM6 7.5h8M6 10.5h8M6 13.5h5'), // 本日焦點：一張報紙（同網站圖示的三條橫線）
+    weekly: svg(18, 'M6 2.5h11v11H6zM3 5.5v12h12M9 6h5M9 9h5M9 12h3'), // 本週回顧：疊起來的兩張報紙
     // 非當期提示：三角形警告（圓角頂點，線條粗一點）
     warn: '<svg viewBox="0 0 20 20" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true" focusable="false"><path d="M10 2.8 18 17H2z" stroke-linejoin="round"/><path d="M10 8v4.2M10 14.2v.1" stroke-linecap="round" stroke-width="1.9"/></svg>',
     // 右下角功能鈕（第 7 段）：一把從右下角張開的扇子（暗示往左上方展開）、本期章節、頭版的過濾（漏斗）、過濾面板裡的勾
@@ -33,6 +34,11 @@
     chapters: svg(18, 'M3 5.5h2M7.5 5.5H17M3 10h2M7.5 10H17M3 14.5h2M7.5 14.5H17'),
     filter: svg(18, 'M2.5 3.5h15l-6 7v6l-3-1.5v-4.5z'),
     check: svg(12, 'M4 10.5l3.5 3.5L16 5.5'),
+    // 讀法（報告頁大標題右邊的選項、扇面那一格與底部面板）：一本打開的書；完整＝整段文字、標題＝標題清單、時間軸＝串在一條線上的點
+    read: svg(18, 'M10 5.5C8.2 4.2 5.8 3.5 3 3.5v12c2.8 0 5.2.7 7 2 1.8-1.3 4.2-2 7-2v-12c-2.8 0-5.2.7-7 2zM10 5.5v12'),
+    readFull: svg(16, 'M3.5 4.5h13M3.5 8h13M3.5 11.5h13M3.5 15h8'),
+    readScan: svg(16, 'M7.5 5h9M7.5 10h9M7.5 15h9', '<rect x="3" y="4" width="2" height="2"/><rect x="3" y="9" width="2" height="2"/><rect x="3" y="14" width="2" height="2"/>'),
+    readTimeline: svg(16, 'M5 3v14M9 5h8M9 10h8M9 15h5', '<circle cx="5" cy="5" r="1.6" fill="currentColor"/><circle cx="5" cy="10" r="1.6" fill="currentColor"/><circle cx="5" cy="15" r="1.6" fill="currentColor"/>'),
   };
 
   // ── 2. 下拉面板 ──────────────────────────────────────────────────────
@@ -206,7 +212,7 @@
     if (cadence === 'monthly' && (m = /^(\d{4})-(\d{2})$/.exec(period))) return `${m[1]} 年 ${+m[2]} 月`;
     return (m = ymd(period)) ? `${period}（週${wdOf(m)}）` : period;
   }
-  // 手機上的短寫法（日報同頭版的「11/20 週五」）：工具列放了本日新聞、本週新聞，長日期在手機放不進一列；年份看面板的分組標題
+  // 手機上的短寫法（日報同頭版的「11/20 週五」）：工具列放了本日焦點、本週回顧，長日期在手機放不進一列；年份看面板的分組標題
   function periodShort(period, cadence) {
     let m;
     if (cadence === 'weekly' && (m = /^\d{4}-W(\d{2})$/.exec(period))) return `第 ${+m[1]} 週`;
@@ -229,14 +235,14 @@
   }
 
   // ── 4. 元件 ──────────────────────────────────────────────────────────
-  // 工具列：報告頁與頭版同一列（日期、本日新聞、本週新聞、版面；沒有的就不放）
+  // 工具列：報告頁與頭版同一列（日期、本日焦點、本週回顧、版面；沒有的就不放）
   const toolbar = (kids) => h('nav', { class: 'editions', 'aria-label': '報頭工具列' }, kids.filter(Boolean));
-  // 本日新聞、本週新聞兩顆連結（圖示＋字）；current 是 aria-current 的值（page＝就是這頁，true＝同一邊的其他頁）
+  // 本日焦點、本週回顧兩顆連結（圖示＋字）；current 是 aria-current 的值（page＝就是這頁，true＝同一邊的其他頁）
   const navLink = (text, icon, href, current) => h('a', { class: 'ed-link', href, 'aria-current': current || null }, [
     h('span', { class: 'dd-ico', html: ICON[icon] }), h('span', null, [text]),
   ]);
 
-  // 日期按鈕（使用者要求：本日新聞時顯示日期、本週新聞時顯示週；日期、週期顯示有的素材）：按鈕是目前這期，點開是兩欄——
+  // 日期按鈕（使用者要求：本日焦點時顯示日期、本週回顧時顯示週；日期、週期顯示有的素材）：按鈕是目前這期，點開是兩欄——
   // 左欄「這天的新聞」（週報「這週的新聞」）：那一期有的報告與則數；右欄有新聞的期別（依月份或年份分組）。
   // 每一項都是連結（換頁，不是表單選值，所以用連結清單、不用 <select>）。
   // here：[{ text, count, href, current }]；periods：[{ period, href, current }]（新到舊）
@@ -304,6 +310,37 @@
       ])))],
       pick: (panel) => panel.querySelector('.chap-item'),
     });
+  }
+
+  // 指南 toolbar 的鍵盤（頭版的過濾標籤、報告頁大標題旁的讀法共用）：支援 focusgroup 的瀏覽器由它處理；不支援時自己做
+  // roving tabindex——整列只有一顆 tabindex=0，左右鍵在看得到的按鈕之間移動（到頭繞回）、Home／End 到頭尾，只攔自己處理的鍵。
+  // 回傳 sync：按鈕藏起來（頭版的「清除」）後補回停點
+  function roving(bar) {
+    if ('focusGroup' in HTMLElement.prototype) return () => {};
+    const items = () => [...bar.querySelectorAll('button')].filter((b) => !b.hidden);
+    const sync = (cur) => {
+      const list = items();
+      const keep = (cur && list.includes(cur) && cur) || list.find((b) => b.tabIndex === 0) || list[0];
+      bar.querySelectorAll('button').forEach((b) => { b.tabIndex = b === keep ? 0 : -1; });
+    };
+    bar.addEventListener('focusin', (e) => {
+      const b = e.target.closest('button');
+      if (b) sync(b);
+    });
+    bar.addEventListener('keydown', (e) => {
+      const list = items();
+      const i = list.indexOf(document.activeElement);
+      if (i < 0 || e.altKey || e.ctrlKey || e.metaKey) return;
+      const rtl = getComputedStyle(bar).direction === 'rtl';
+      const step = { ArrowRight: rtl ? -1 : 1, ArrowLeft: rtl ? 1 : -1 }[e.key];
+      const next = step ? list[(i + step + list.length) % list.length]
+        : e.key === 'Home' ? list[0] : e.key === 'End' ? list[list.length - 1] : null;
+      if (!next) return;
+      e.preventDefault();
+      next.focus();
+    });
+    sync();
+    return sync;
   }
 
   // ── 5. 工具列凍結在頂端 ─────────────────────────────────────────────
@@ -397,7 +434,7 @@
   // ── 7. 手機右下角的功能鈕 ───────────────────────────────────────
   // 使用者要求（手機單手操作，功能都在上方不好按）：工具列的功能收進右下角一顆按鈕，點開扇形展開；四種樣板中選定
   // 「C 扇面」、功能鈕與扇面都只有圖示、頂端工具列保留。只在窄版（≤ 40em，report.css）出現，桌機照舊用工具列。
-  // 扇面：內圈是前往（本日新聞、本週新聞，照工具列有的連結），外圈打開面板（日期、本期章節或頭版的過濾、版面）。
+  // 扇面：內圈是前往（本日焦點、本週回顧，照工具列有的連結），外圈打開面板（日期、本期章節或頭版的過濾、版面）。
   // 每格是裁成扇形的按鈕（clip-path 連點擊範圍一起裁），線條另畫在上面一層 SVG；名稱平常藏著（報讀器照唸），
   // 手指按住滑過、鍵盤聚焦時浮在圖示上方。點一下展開、再點一格；也可以按住功能鈕不放，滑到那格再放開。
   // 從這裡打開的面板是頂端那個面板本身，改成貼齊底部（.is-sheet），收起後焦點回功能鈕。
@@ -441,7 +478,7 @@
     if (c) c.open(true, sheetHow());
   };
 
-  // 工具列上有的功能：外圈面板（日期、章節或過濾、版面），內圈連結（本日新聞、本週新聞）
+  // 工具列上有的功能：外圈面板（日期、章節或過濾、版面），內圈連結（本日焦點、本週回顧）
   function fabItems() {
     const bar = app && app.querySelector(':scope > .editions');
     if (!bar) return null;
@@ -454,6 +491,7 @@
     panel('pd-panel', pdTitle ? pdTitle.textContent : '日期', 'calendar');
     if (app.querySelector('.fp-fq .fp-chip')) panels.push({ key: 'fq', label: '過濾', icon: 'filter', run: openFilter });
     else panel('chap-panel', '章節', 'chapters');
+    if (app.querySelector('.read-sw .read-opt')) panels.push({ key: 'rd', label: '讀法', icon: 'read', run: openRead });
     panel('vw-panel', '版面', 'sliders');
     panel('fp-panel', '版面', 'sliders');
     const links = [...bar.querySelectorAll(':scope > a.ed-link')].map((a) => {
@@ -463,7 +501,7 @@
     return { panels, links };
   }
 
-  // 扇面：角度 0°＝功能鈕正左方、90°＝正上方；外圈的日期在最下面、版面在最上面，內圈本日新聞在上、本週新聞在下
+  // 扇面：角度 0°＝功能鈕正左方、90°＝正上方；外圈由下往上是日期、章節（或過濾）、讀法、版面，內圈本日焦點在上、本週回顧在下
   function buildPie(items) {
     const S = FAB_R[2] + 2;
     const P = (r, a) => {
@@ -521,7 +559,7 @@
       });
     });
     lines.append(sv('path', { class: 'fab-rim', d: `M${P(FAB_R[2], 0)}A${FAB_R[2]} ${FAB_R[2]} 0 0 1 ${P(FAB_R[2], 90)}` }));
-    // 鍵盤順序：外圈的日期、章節、版面，再來本日新聞、本週新聞
+    // 鍵盤順序：外圈的日期、章節、版面，再來本日焦點、本週回顧
     [...items.panels, ...items.links].forEach((x) => { if (cells.has(x)) pie.append(cells.get(x)); });
     pie.append(lines);
     return pie;
@@ -685,42 +723,53 @@
       if (first) first.focus();
     }
   }
+  // 功能鈕自己的底部面板（頭版的過濾、報告頁的讀法；頁面上沒有對應的下拉，只從功能鈕打開）：標題＋ extra ＋ ×、底下一份清單。
+  // 打開時焦點落在清單裡選中的那一項（沒有就第一項）；收起、背景、往下拖、Esc 都同工具列的面板。
+  // 回傳 { box, panel, list, open(yes, how), shut }
+  function sheetBox({ id, cls, title, closeLabel, extra = [] }) {
+    const close = h('button', { type: 'button', class: 'dd-close', 'aria-label': closeLabel, html: ICON.close });
+    const list = h('ul', { class: 'fq-list', 'aria-labelledby': `${id}-title` });
+    const panel = h('div', { class: `dd-panel ${cls}-panel`, id, role: 'dialog', 'aria-labelledby': `${id}-title`, hidden: true }, [
+      h('div', { class: 'dd-head' }, [h('span', { class: 'dd-title', id: `${id}-title` }, [title]), ...extra, close]),
+      list,
+    ]);
+    const s = { panel, list };
+    const shade = makeShade(() => s.shut());
+    s.box = h('div', { class: `dd ${cls}` }, [shade, panel]);
+    document.body.append(s.box);
+    let after = null;
+    s.open = (yes, how) => {
+      const had = !yes && !panel.hidden && panel.contains(document.activeElement);
+      panel.hidden = !yes;
+      panel.classList.toggle('is-sheet', yes);
+      showShade(shade, yes);
+      if (!yes) {
+        if (after) {
+          const f = after;
+          after = null;
+          f(had);
+        }
+        return;
+      }
+      after = (how && how.after) || null;
+      openMotion(panel, true);
+      (list.querySelector('[aria-pressed=true]') || list.querySelector('.fq-item') || close).focus({ preventScroll: true });
+    };
+    s.shut = () => s.open(false);
+    sheetDrag(panel, shade, s.shut);
+    live.add(s);
+    close.addEventListener('click', s.shut);
+    return s;
+  }
+
   function openFilter() {
     const chips = realChips();
     if (!chips.length) return;
     if (!fq) {
-      const close = h('button', { type: 'button', class: 'dd-close', 'aria-label': '關閉過濾', html: ICON.close });
-      const list = h('ul', { class: 'fq-list', 'aria-labelledby': 'fq-panel-title' });
       const clear = h('button', { type: 'button', class: 'fq-clear', hidden: true }, ['清除']);
-      const panel = h('div', { class: 'dd-panel fq-panel', id: 'fq-panel', role: 'dialog', 'aria-labelledby': 'fq-panel-title', hidden: true }, [
-        h('div', { class: 'dd-head' }, [h('span', { class: 'dd-title', id: 'fq-panel-title' }, ['依系列過濾']), clear, close]),
-        list,
-      ]);
-      const shade = makeShade(() => fq.shut());
-      const box = h('div', { class: 'dd fq' }, [shade, panel]);
-      document.body.append(box);
-      let after = null;
-      const open = (yes, how) => {
-        const had = !yes && !panel.hidden && panel.contains(document.activeElement);
-        panel.hidden = !yes;
-        panel.classList.toggle('is-sheet', yes);
-        showShade(shade, yes);
-        if (!yes) {
-          if (after) {
-            const f = after;
-            after = null;
-            f(had);
-          }
-          return;
-        }
-        after = (how && how.after) || null;
-        openMotion(panel, true);
-        (list.querySelector('[aria-pressed=true]') || list.querySelector('.fq-item') || close).focus({ preventScroll: true });
-      };
-      fq = { box, panel, list, clear, open, shut: () => open(false) };
-      sheetDrag(panel, shade, fq.shut);
-      live.add(fq);
-      close.addEventListener('click', fq.shut);
+      fq = sheetBox({ id: 'fq-panel', cls: 'fq', title: '依系列過濾', closeLabel: '關閉過濾', extra: [clear] });
+      fq.clear = clear;
+      const { list } = fq;
       list.addEventListener('click', (e) => {
         const b = e.target.closest('.fq-item');
         const real = b && realChips().find((c) => chipId(c) === b.dataset.id);
@@ -748,8 +797,37 @@
     syncFilter();
     fq.open(true, sheetHow());
   }
+
+  // 報告頁的讀法（report.js 大標題右邊的 .read-sw；手機上藏起來、改從這裡選）：底部面板列出同樣的選項（圖示＋名稱，選中的打勾），
+  // 按了就代按頁面上那顆按鈕——換讀法、記憶（air-news-read）都照 report.js。三選一，選了就收起
+  let rd = null;
+  const realReads = () => [...document.querySelectorAll('#app .read-sw .read-opt')];
+  function openRead() {
+    const opts = realReads();
+    if (!opts.length) return;
+    if (!rd) {
+      rd = sheetBox({ id: 'rd-panel', cls: 'rds', title: '讀法', closeLabel: '關閉讀法' });
+      rd.list.addEventListener('click', (e) => {
+        const b = e.target.closest('.fq-item');
+        const real = b && realReads().find((x) => x.dataset.v === b.dataset.v);
+        if (!real) return;
+        rd.shut();
+        if (real.getAttribute('aria-pressed') !== 'true') proxyClick(real);
+      });
+    }
+    rd.list.replaceChildren(...opts.map((o) => {
+      const ico = o.querySelector('.read-ico');
+      const name = o.querySelector('.read-name');
+      return h('li', null, [h('button', { type: 'button', class: 'fq-item rds-item', 'data-v': o.dataset.v, 'aria-pressed': o.getAttribute('aria-pressed') }, [
+        h('span', { class: 'rds-ico', html: ico ? ico.innerHTML : '' }),
+        h('span', { class: 'fq-name' }, [name ? name.textContent : o.textContent]),
+        h('span', { class: 'rds-mk', html: ICON.check }),
+      ])]);
+    }));
+    rd.open(true, sheetHow());
+  }
   syncFab();
   new MutationObserver(() => syncFab()).observe(root, { attributes: true, attributeFilter: ['data-look'] }); // 換外觀：扇面換形狀
 
-  A.bar = { ICON, dropdown, periodLabel, periodShort, toolbar, navLink, datePicker, titleChapters, barHeight, staleBanner };
+  A.bar = { ICON, dropdown, periodLabel, periodShort, toolbar, navLink, datePicker, titleChapters, roving, barHeight, staleBanner };
 })();

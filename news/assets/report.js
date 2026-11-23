@@ -1,8 +1,8 @@
 /* 共用新聞頁（news/index.html）的報告頁：讀 index.json 自動列出有報告的新聞系列，依網址 ?t=<系列>&d=<期別>
    載入該期報告 JSON 渲染；只帶 t 顯示該系列最新一期。不帶 t 是頭版，這支什麼都不做（交給 front.js）。
    期別選單讀該系列的 <系列>/index.json（全部期別）；抓不到就只用 index.json 裡的最近幾期。
-   預設是原本的「工程藍圖」版型（DOM 結構同 md2html2.py 的 render()）。右上角「版面」可切換讀法（完整／速讀／時間軸）、
-   外觀（藍圖／地圖）與配色，選擇記在 localStorage（同一裝置記住）；規格來自使用者的版型樣稿。
+   預設是原本的「工程藍圖」版型（DOM 結構同 md2html2.py 的 render()）。大標題右邊切換讀法（完整／標題／時間軸），
+   右上角「版面」切換外觀（藍圖／地圖／一般）與配色，選擇記在 localStorage（同一裝置記住）；規格來自使用者的版型樣稿。
    讀法決定 DOM，換讀法就重繪；外觀與配色只改 <html> 的 data-look／data-theme，樣式全在 CSS。
    *_html 欄位是 publish.py 用 md2html2.inline 淨化過的片段（只留 http/https 連結與粗體），其餘欄位一律當純文字。 */
 (() => {
@@ -43,7 +43,8 @@
   // ── 版面：讀法 × 外觀，各取第一個為預設。這次只做這幾種（樣稿另有專注、日曆、直排）──
   // 外觀「一般」（使用者的晨光日報規格）樣式在 look-standard.css；部署後的快取空窗拿到舊 index.html（沒載入
   // look-standard.js、A.look 不在）時不列這個選項，記住的值不認得就退回藍圖
-  const READS = [['full', '完整'], ['scan', '速讀'], ['timeline', '時間軸']];
+  // 讀法的值（scan）沿用舊名，使用者存在 localStorage 的選擇照樣認得；畫面上的名稱是「標題」（使用者要求，原「速讀」）
+  const READS = [['full', '完整'], ['scan', '標題'], ['timeline', '時間軸']];
   const LOOKS = [['blueprint', '藍圖'], ['atlas', '地圖'], ...(A.look ? [['standard', '一般']] : [])];
   const KEY_READ = 'air-news-read';
   const KEY_LOOK = 'air-news-look';
@@ -92,25 +93,25 @@
   }
 
   // 報頭最上面那一列（使用者要求：所有頁面同一列，頭版也是）：左上角日期（點開是這天有的新聞與有新聞的日期）、
-  // 「本日新聞」（回 news/ 的每日頭版）、「本週新聞」（news/?w 的每週頭版）、右上角「版面」；元件在 bar.js。
-  // 兩顆連結也是日報、週報兩邊的切換：日報頁標「本日新聞」、週報與月報頁標「本週新聞」為目前位置（月報收在每週頭版）
+  // 「本日焦點」（回 news/ 的每日頭版）、「本週回顧」（news/?w 的每週頭版）、右上角「版面」；元件在 bar.js。
+  // 兩顆連結也是日報、週報兩邊的切換：日報頁標「本日焦點」、週報與月報頁標「本週回顧」為目前位置（月報收在每週頭版）
   // （不只靠顏色：主文字色＋底線；aria-current 是 true，表示同一邊、不是那一頁本身）
   const cadenceOf = (e) => (e && e.cadence) || 'daily';
   function editions(cur) {
     if (!cur && !all.length && !vwBox) return null;
     return B.toolbar([
       cur ? periodPicker(cur) : null,
-      all.length ? B.navLink('本日新聞', 'front', './', cur && cadenceOf(cur) === 'daily' ? 'true' : null) : null,
+      all.length ? B.navLink('本日焦點', 'front', './', cur && cadenceOf(cur) === 'daily' ? 'true' : null) : null,
       weeklyLink(cur),
       vwBox,
     ]);
   }
 
-  // 「本週新聞」（使用者要求：最上方一顆切到週報的按鈕，字數同「本日新聞」）：連到每週頭版的最新一週（使用者要求：
-  // 本週新聞也有自己的頭版）；還沒有任何週報、月報就不顯示（使用者選定，同「有報告才列出」）。週報、月報頁上標成目前位置（true）
+  // 「本週回顧」（使用者要求：最上方一顆切到週報的按鈕，字數同「本日焦點」）：連到每週頭版的最新一週（使用者要求：
+  // 本週回顧也有自己的頭版）；還沒有任何週報、月報就不顯示（使用者選定，同「有報告才列出」）。週報、月報頁上標成目前位置（true）
   function weeklyLink(cur) {
     if (!all.some((e) => cadenceOf(e) !== 'daily')) return null;
-    return B.navLink('本週新聞', 'weekly', '?w', cur && cadenceOf(cur) !== 'daily' ? 'true' : null);
+    return B.navLink('本週回顧', 'weekly', '?w', cur && cadenceOf(cur) !== 'daily' ? 'true' : null);
   }
 
   // 系列順序：index.json 的系列順序，不在裡面的排最後
@@ -121,7 +122,7 @@
 
   // 大標題（使用者要求：標題的下拉是本頁的章節）：點開是這一期的分區（跳到分區；頁面上不另擺分區目錄）與則數，
   // 地圖外觀在名稱前加分區色塊（data-k）。時間軸讀法沒有分區：一般的 <h1>、不帶箭頭。
-  // 同一期的內容不變：建一次，在完整、速讀之間換讀法重繪報頭時重用
+  // 同一期的內容不變：建一次，在完整、標題讀法之間換讀法重繪報頭時重用
   let chapBox = null;
   let chapKey = '';
   function titleChapters(cur, r) {
@@ -318,7 +319,7 @@
     ? h('h3', { class: 'row-title' }, [h('a', { href: it.url, target: '_blank', rel: 'noopener', html: it.title_html })])
     : h('h3', { class: 'row-title', html: it.title_html }));
 
-  // 速讀：只列標題（使用者要求：兩行摘要短到讀不出東西），點標題展開；熱門新聞在標題前加紅色徽章。
+  // 標題讀法：只列標題（使用者要求：兩行摘要短到讀不出東西），點標題展開；熱門新聞在標題前加紅色徽章。
   // 展開後第一行是來源、標籤與原文連結，接著摘要、重點與解讀，文末連結（多家報導、另參）在最後；沒有內容可展開就照常把標題做成原文連結
   // 放在 <summary> 裡的標題用 span、不用 h3：部分螢幕閱讀器把 summary 當成按鈕，會丟掉裡面的標題（指南：不要把標題放進 summary）
   function peek(it, tags, body, hot) {
@@ -333,7 +334,7 @@
     ]);
   }
 
-  // 一則條目。o.peek：速讀（只列標題，點標題展開）；o.fold：時間軸（兩行摘要＋「看 AI 解讀」，不列來源標籤，同樣稿）；
+  // 一則條目。o.peek：標題讀法（只列標題，點標題展開）；o.fold：時間軸（兩行摘要＋「看 AI 解讀」，不列來源標籤，同樣稿）；
   // o.line：時間軸（標分區名稱，data-k 給地圖外觀依分區上色）
   function row(it, o = {}) {
     const hot = hotInfo(it); // 徽章的出處（「爆」熱度、紅色標籤）不再另列成標籤
@@ -447,7 +448,8 @@
     // 英文刊名（DAILY INTERNATIONAL BRIEFING）跟大標題是同一個名字，拿掉；期號使用者覺得是多餘的裝飾，拿掉（資料照留）。
     // 大標題本身是本期章節的下拉（titleChapters）。
     // 本期來源收到文末（不是首要資訊）。導言（r.intro）依使用者要求不在任何版面顯示，資料照留：Telegram 與首頁列表的摘要還會用到
-    const head = h('header', { class: 'masthead' }, [titleChapters(cur, r)]);
+    // 大標題那一行的最右邊是讀法（使用者要求：從「版面」面板搬到這裡）
+    const head = h('header', { class: 'masthead read-head' }, [titleChapters(cur, r), readSwitch()]);
     const tagsOf = r.src_tags || [];
     const srcs = tagsOf.length ? h('aside', { class: 'srcs', 'aria-labelledby': 'srcs-title' }, [
       h('h2', { class: 'srcs-title', id: 'srcs-title' }, ['本期來源']),
@@ -458,7 +460,7 @@
     if (view.read === 'timeline') return [head, timeline(r, key), srcs, foot].filter(Boolean);
     const peekMode = view.read === 'scan';
     // 分區目錄不放在頁面上，任何讀法都一樣（使用者要求：章節跳轉在大標題的下拉裡，不重複擺；
-    // 速讀原本黏在頂端的分區列也一起拿掉）。分區標題只留名稱：「SEC. 01」編號與「N 則」使用者覺得是多餘的裝飾（則數在大標題下拉的章節清單裡有）
+    // 標題讀法原本黏在頂端的分區列也一起拿掉）。分區標題只留名稱：「SEC. 01」編號與「N 則」使用者覺得是多餘的裝飾（則數在大標題下拉的章節清單裡有）
     const secs = r.sections.map((s, i) => h('section', { class: 'sec', id: `sec-${pad(i + 1)}`, 'data-k': key(i) }, [
       h('div', { class: 'sec-tab' }, [h('h2', { class: 'sec-name' }, [s.name])]),
       h('div', { class: 'sec-body' }, s.blocks.flatMap((b) => {
@@ -502,10 +504,42 @@
     return document.startViewTransition(update).updateCallbackDone;
   }
 
+  // 讀法（使用者要求：從「版面」面板搬出來，放在大標題那一行的最右邊；「速讀」改名「標題」）：完整／標題／時間軸三選一。
+  // 靠右對齊，標題有沒有章節箭頭（時間軸沒有）都不會推動它（使用者要求：換讀法時按鈕不能移動）。
+  // 前面一個小標「讀法」，每個選項是圖示＋字（圖示在 bar.js 的 ICON，扇面的讀法面板照抄）。三種外觀各一套樣子，在 report.css／look-standard.css 的 .read-*；
+  // 手機（有右下角功能鈕時）藏起來，改從扇面的「讀法」選（bar.js 的 openRead 代按這裡的按鈕）。
+  // 結構照指南的 toolbar（同頭版的過濾標籤）：role="toolbar"、按鈕用 aria-pressed（字不隨狀態改、永遠剛好一顆 true）、
+  // 整列只佔一個 Tab 停點、方向鍵移動（focusgroup，不支援的瀏覽器用 bar.js 的 roving 補）。
+  // 建一次重用：換讀法重繪報頭時同一組按鈕搬到新的大標題旁，redraw 才能把焦點放回剛按的那顆
+  const READ_ICON = { full: 'readFull', scan: 'readScan', timeline: 'readTimeline' };
+  let readBar = null;
+  function readSwitch() {
+    if (readBar) return readBar;
+    const buttons = READS.map(([value, text]) => {
+      const b = h('button', { type: 'button', class: 'read-opt', 'data-v': value, 'aria-pressed': String(value === view.read) }, [
+        h('span', { class: 'read-ico', html: B.ICON[READ_ICON[value]] || '' }),
+        h('span', { class: 'read-name' }, [text]),
+      ]);
+      b.addEventListener('click', () => {
+        if (value === view.read) return;
+        view.read = value;
+        store(KEY_READ, value);
+        buttons.forEach((x) => x.setAttribute('aria-pressed', String(x === b)));
+        redraw(true);
+      });
+      return b;
+    });
+    readBar = h('div', { class: 'read-sw', role: 'toolbar', 'aria-labelledby': 'read-lab', focusgroup: 'toolbar wrap' }, [
+      h('span', { class: 'read-lab', id: 'read-lab' }, ['讀法']),
+      ...buttons,
+    ]);
+    if (B.roving) B.roving(readBar);
+    return readBar;
+  }
+
   function layoutPanel() {
-    // 每一列：左邊項目名稱、右邊相連的分段選項（選中那格用主色填滿，同目前的系列標籤）
+    // 每一列：左邊項目名稱、右邊相連的分段選項（選中那格用主色填滿，同目前的系列標籤）。讀法不在這裡（在大標題右邊，readSwitch）
     const groups = [
-      ['讀法', READS, () => view.read, (v) => { view.read = v; store(KEY_READ, v); redraw(true); }],
       ['外觀', LOOKS, () => view.look, (v) => { view.look = v; store(KEY_LOOK, v); redraw(false); }],
       // 剛部署時瀏覽器可能還快取著舊版 site.js（沒有 THEMES）：少一組配色，不讓整頁卡住。
       // 配色鈕的文字由 site.js 的 themeLabel 給（「自動」會註明目前是深色或淺色）
@@ -534,7 +568,7 @@
     // 別的分頁改了配色、或系統深淺改變（site.js 發出 air-theme）：更新選中狀態與「自動」的說明
     document.addEventListener('air-theme', sync);
     sync();
-    // 由 editions() 放進報頭上方那一列的最右邊。打開時焦點移到目前選中的讀法，
+    // 由 editions() 放進報頭上方那一列的最右邊。打開時焦點移到目前選中的外觀，
     // 鍵盤與螢幕閱讀器使用者才知道面板開了、從哪裡開始
     vwBox = B.dropdown({
       cls: 'vw', id: 'vw-panel', title: '版面設定', closeLabel: '關閉版面設定',
@@ -545,7 +579,7 @@
     });
   }
 
-  // 目前這一期的整頁：不是今天／本週／本月那一期時最上面的提示條（bar.js）、報頭最上面那一列（日期、本日新聞、本週新聞、版面）
+  // 目前這一期的整頁：不是今天／本週／本月那一期時最上面的提示條（bar.js）、報頭最上面那一列（日期、本日焦點、本週回顧、版面）
   // ＋報告（大標題是本期章節的下拉）。部署後的快取空窗可能拿到還沒有 staleBanner 的舊 bar.js：少提示條，頁面照常
   const stale = () => (B.staleBanner ? B.staleBanner(shown.entry.period) : null);
   const page = () => [stale(), editions(shown.entry), ...report(shown.data, shown.entry)].filter(Boolean);
@@ -590,10 +624,10 @@
     }
     const entry = all.find((e) => e.series === t && (!d || e.period === d));
     if (!entry) {
-      // 這個系列還有別期就帶去它的最新一期，連系列都沒有就回頭版
+      // 這個系列還有別期就帶去它的最新一期，連系列都沒有就回每日頭版（本日焦點）
       const more = all.some((e) => e.series === t)
         ? h('a', { href: link(t) }, ['看這個系列的最新一期'])
-        : h('a', { href: './' }, ['回頭版']);
+        : h('a', { href: './' }, ['回本日焦點']);
       if (all.length) problem(null, `找不到這一期（${t}${d ? ` ${d}` : ''}）。`, more);
       else problem(null, '還沒有任何報告。');
       return;
