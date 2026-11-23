@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "week": "2026-W48",
- "built_at": "2026-11-23T17:14:30+08:00",
+ "built_at": "2026-11-23T17:14:56+08:00",
  "reports": [
   {
    "series": "github_weekly",
@@ -32,8 +32,8 @@
    "series_title": "Cocos／H5 遊戲開發週報",
    "group": "遊戲",
    "period": "2026-W48",
-   "count": 11,
-   "generated_at": "2026-11-23T10:08:30+08:00"
+   "count": 20,
+   "generated_at": "2026-11-23T17:14:56+08:00"
   }
  ],
  "entries": [
@@ -223,23 +223,20 @@
    ]
   },
   {
-   "key": "892bbd2793",
+   "key": "f3f22cc80a",
    "rank": 1,
-   "title": "Cocos Dashboard 升級彈窗每次開都跳、引擎快取吃掉 40G，開發者不敢升級",
-   "summary_html": "兩則帖子都抱怨 Cocos Dashboard 推送「支援一鍵發布全平台」的升級：發文者 wangrongm2009 說 Dashboard 已在背景下載好引擎、占了 40G 硬碟，卻每次都彈出升級提示，自己手上專案多、影響太大，不敢升級；另一帖發文者也問不升級時每次開編輯器都會跳彈窗，有沒有取消方法。回覆中 xiaobei1 建議改到英文版 Cocos 網站下載 Dashboard，那邊可能還沒有這個升級；wdxkwdl 補充 PinK 一個版本就占 8G，之後只會更多。兩帖都沒有官方回應。",
-   "dive_html": "這是上週構建面板改版爭議的延續：升級被設計成難以拒絕，而多專案、多版本並存的團隊最怕工具鏈被動更新。在官方提供關閉選項前，維持舊版 Dashboard 的團隊應固定安裝來源與版本，並把引擎快取目錄移到大容量磁碟；改用英文站版本只是社群推測，未經官方證實。",
-   "url": "https://forum.cocos.org/t/topic/178194",
+   "title": "新版構建面板拆成三個入口，開發者抱怨看不懂、要求保留舊版",
+   "summary_html": "發文者 zerozerg 只想出網頁版與 Android APK，卻發現構建介面整個換新，快捷鍵叫出來的也是新面板，文件沒跟著更新。摸索後整理出：新面板分成「終端／應用／場景」三個入口，指向同一個平台篩選的一級介面，二級介面才是以前的設定頁；原生包與 Web 要點「構建終端」，小遊戲相關在「構建應用」。其他回覆的意見：",
+   "dive_html": "帖中顯示 3.8.x 舊版本的構建介面也跟著變，對有既定出包流程的團隊是實質風險：打包參數改存任務歷史且無法命名，正式版／測試版分開構建的習慣會被打亂。手上有上線專案的團隊，短期內最穩的做法是改用命令列構建，把參數固定在腳本裡，不依賴面板；也要留意「構建其他平台時自動多建 OpenPaaS」是否拖慢 CI。官方是否提供舊版入口，是接下來要看的。",
+   "url": "https://forum.cocos.org/t/topic/178198",
    "src": "Cocos 中文社區",
-   "ts": "2026-11-19T10:10:45+08:00",
-   "left": "11/19 10:10",
-   "heat": "423 瀏覽 / 2 回覆",
+   "ts": "2026-11-19T11:11:15+08:00",
+   "left": "11/19 11:11",
+   "heat": "737 瀏覽 / 13 回覆",
    "tags": [],
    "facets": {
     "region": [
      "中國大陸"
-    ],
-    "country": [
-     "CN"
     ],
     "taiwan": [
      "無"
@@ -249,6 +246,7 @@
      "科技"
     ],
     "event": [
+     "版本更新",
      "爭議風波"
     ],
     "story": [
@@ -265,25 +263,25 @@
      "開發者"
     ],
     "importance": [
-     "中"
+     "高"
     ],
     "tone": [
      "負面"
     ],
     "stage": [
-     "後續追蹤"
+     "持續發展"
     ],
     "keyword": [
-     "Cocos Dashboard",
-     "一鍵發布全平台",
-     "PinK"
+     "構建面板",
+     "Cocos Creator",
+     "OpenPaaS"
     ]
    },
    "from": [
     {
      "series": "cocos_h5_weekly",
      "period": "2026-W48",
-     "no": "03",
+     "no": "02",
      "rank": 1
     }
    ]
@@ -354,41 +352,34 @@
    ]
   },
   {
-   "key": "8e42242287",
+   "key": "e6e31dcde8",
    "rank": 2,
-   "title": "Cocos MCP Bridge 2.1.8 內建 395 個工具，讓 AI 改場景、做 UI、看預覽",
-   "summary_html": "發文者介紹付費擴充 Cocos MCP Bridge：透過 MCP 協定連接 Creator 與 Cursor 等 AI 用戶端，讓 AI 讀取場景與資源、在開放範圍內操作編輯器。2.1.8 版內建 395 個工具、分 14 組，涵蓋場景與節點、UI 與 Prefab、資源管理（SpriteFrame、Bundle、Auto Atlas）、預覽除錯（讀取瀏覽器預覽的執行期節點樹、日誌與畫面）、構建、以及接入團隊自訂工具；預設啟用 13 組 394 個工具，1 個高危工具預設關閉。回覆裡有人說自己做成 CLI、有人說 Codex 看效果圖和切圖就能搭出約 98% 完整的預製體，質疑何必用 MCP；作者回應 MCP 可串接其他外掛與 skill；「游戲殺-bilibili」認為 MCP 和 CLI 都只是把引擎能力開放給代理人的介面，MCP 的好處是有規範、通用，像截取遊戲畫面就需要接口。同週另一帖問用 DeepSeek 寫 Cocos 編輯器外掛難不難，回覆多說很好寫，有人用網頁版就寫了好幾個。",
-   "dive_html": "這是兩週內第三款 Cocos MCP 外掛，討論焦點已從「能不能做」轉向「該用 MCP 還是 CLI」。對團隊而言，關鍵差異在能否讀取執行期畫面與節點狀態做自我驗收，純改專案檔的 CLI 做不到這點。開放數百個可寫入的編輯器工具也代表風險，導入前應確認哪些工具會刪改資源，並在版控乾淨的分支上試。",
-   "url": "https://forum.cocos.org/t/topic/178182",
+   "title": "社群補丁：修正 Spine 純數字動畫名報錯與構建後 [...map.keys()] 失效",
+   "summary_html": "865500815 分享兩個自用的 Creator 補丁腳本（開源在 Gitee），針對官方一直沒修或修了又回退的問題：",
+   "dive_html": "展開運算子這個坑最危險：預覽正常、上線才壞，而且只影響 3.8.5 以後的構建，很容易被當成業務邏輯錯誤追很久。用 3.8.5 以上出 Web／小遊戲包的專案，至少該在程式碼搜尋 `...map.`、`...set` 這類寫法；不想改編輯器安裝檔，可以改寫成 `Array.from(map.keys())` 避開。修改 app.asar 屬於非官方作法，團隊導入前要確認每台建置機都一致套用。",
+   "url": "https://forum.cocos.org/t/topic/178238",
    "src": "Cocos 中文社區",
-   "ts": "2026-11-18T12:38:14+08:00",
-   "left": "11/18 12:38",
-   "heat": "664 瀏覽 / 4 回覆",
+   "ts": "2026-11-23T16:21:02+08:00",
+   "left": "11/23 16:21",
+   "heat": "91 瀏覽 / 2 回覆",
    "tags": [],
    "facets": {
     "region": [
      "中國大陸"
-    ],
-    "country": [
-     "CN"
     ],
     "taiwan": [
      "無"
     ],
     "topic": [
      "遊戲",
-     "AI",
-     "科技"
+     "開源"
     ],
     "event": [
-     "產品發布"
-    ],
-    "story": [
-     "Cocos MCP 外掛"
+     "版本更新"
     ],
     "sector": [
      "遊戲",
-     "AI"
+     "軟體與雲端"
     ],
     "org": [
      "Cocos"
@@ -406,17 +397,18 @@
      "持續發展"
     ],
     "keyword": [
-     "MCP",
-     "Cocos MCP Bridge",
-     "Cursor",
-     "Codex"
+     "Spine",
+     "Babel",
+     "展開運算子",
+     "cocos-engine#18820",
+     "Cocos Creator 3.8"
     ]
    },
    "from": [
     {
      "series": "cocos_h5_weekly",
      "period": "2026-W48",
-     "no": "05",
+     "no": "01",
      "rank": 2
     }
    ]
@@ -484,78 +476,61 @@
    ]
   },
   {
-   "key": "e07b0414c5",
+   "key": "eae1ba13dc",
    "rank": 3,
-   "title": "Unity 主管回應私有化傳聞：強勁季報後常見臆測，季營收年增 32%",
-   "summary_html": "Reuters 本月稍早報導，Unity 正與先前收購 EA 的投資集團（由 Silver Lake 與沙烏地公共投資基金領軍）洽談全面收購、下市私有化。Unity 產品資深副總裁 Adam Smith 接受 Game Developer 專訪時說，強勁季報後出現臆測與頭條「極其常見」，對相關對話「沒有其他可說」。Unity 最新一季營收由約 4.706 億美元增至 6.22 億美元、年增 32%；虧損 1.216 億美元，較去年的 1.268 億美元改善 4%；廣告部門 Grow Solutions 營收由 3.18 億增至 4.57 億美元、增 43%，是主要成長來源。",
-   "dive_html": "營收成長主要來自廣告而非引擎業務，若真被私有化，買方的盤算可能更偏向廣告變現，引擎授權與定價政策的走向值得引擎選型時納入考量。Unity 未否認洽談，只是不評論；對正評估 Cocos、Godot 或 Unity 的團隊，這是長期授權風險的參考點，不是立即要改決策的訊號。",
-   "url": "https://www.gamedeveloper.com/business/-it-s-common-for-there-to-be-speculation-and-headlines-unity-exec-addresses-acquisition-rumors",
-   "src": "Game Developer",
-   "ts": "2026-11-17T02:14:49+08:00",
-   "left": "11/17 02:14",
-   "heat": "",
+   "title": "小遊戲 Graphics 遮罩每個獨佔 2.25MB，100 個吃掉 200MB 以上記憶體",
+   "summary_html": "it4040 指出 Cocos 的 `cc.Graphics.prototype.activeSubModel` 預設寫死配置 65535 個頂點，每個 Graphics 獨佔 2.25MB Buffer；專案只要用 Mask（列表、圓形遮罩很常見）且採預設的 Graphics 型遮罩，100 個就會吃掉 200MB 以上記憶體，而且不會釋放。回覆中 286540194 建議圓形遮罩改用 Sprite 或 shader；554326014 說他們當年也踩過，後來把預設遮罩全改成白色圖片型遮罩、不再用預設的 Graphics；408293635 問是否所有版本都如此，帖中沒有人回答，也沒有官方回應。",
+   "dive_html": "小遊戲平台記憶體上限低，這種「每個元件固定配一大塊 Buffer」的成本在 PC 預覽時幾乎感覺不到，到手機上才觸發閃退。帖子沒寫明適用的引擎版本，自己的專案可以先用記憶體工具比對 Mask 數量與記憶體曲線。實務上最便宜的修法就是回覆者的做法：清單項目與頭像框改用圖片型（SPRITE_STENCIL）遮罩。",
+   "url": "https://forum.cocos.org/t/topic/178196",
+   "src": "Cocos 中文社區",
+   "ts": "2026-11-19T10:57:14+08:00",
+   "left": "11/19 10:57",
+   "heat": "1006 瀏覽 / 5 回覆",
    "tags": [],
    "facets": {
     "region": [
-     "北美",
-     "中東"
-    ],
-    "country": [
-     "US",
-     "SA"
+     "中國大陸"
     ],
     "taiwan": [
      "無"
     ],
     "topic": [
      "遊戲",
-     "產業與企業",
-     "金融市場"
+     "科技"
     ],
     "event": [
-     "併購投資",
      "聲明評論"
     ],
-    "story": [
-     "Unity 私有化傳聞"
-    ],
     "sector": [
-     "遊戲",
-     "軟體與雲端"
+     "遊戲"
     ],
     "org": [
-     "Unity",
-     "Silver Lake",
-     "沙烏地公共投資基金",
-     "Reuters"
-    ],
-    "person": [
-     "Adam Smith"
+     "Cocos"
     ],
     "affects": [
-     "開發者",
-     "投資人"
+     "開發者"
     ],
     "importance": [
      "中"
     ],
     "tone": [
-     "中性"
+     "負面"
     ],
     "stage": [
-     "後續追蹤"
+     "評論觀點"
     ],
     "keyword": [
-     "Unity",
-     "私有化",
-     "Grow Solutions"
+     "cc.Graphics",
+     "Mask",
+     "記憶體",
+     "小遊戲"
     ]
    },
    "from": [
     {
      "series": "cocos_h5_weekly",
      "period": "2026-W48",
-     "no": "11",
+     "no": "07",
      "rank": 3
     }
    ]

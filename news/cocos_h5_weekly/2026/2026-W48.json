@@ -9,62 +9,67 @@
  "title": "Cocos／H5 遊戲開發週報",
  "brief": "WEEKLY GAME INDUSTRY BRIEFING",
  "issue": "NO. 2026-327",
- "generated_at": "2026-11-23T10:08:30+08:00",
- "lede": "近 7 日（補上期未收的討論）：Cocos Dashboard 升級彈窗每次都跳、引擎快取占 40G，論壇抱怨不敢升級；第三款 Cocos MCP 外掛內建 395 個工具，社群續辯 MCP 與 CLI；Babylon.js 9.37 加入 WebGPU 非同步管線選項；Unity 回應私有化傳聞，育碧、Firaxis 相繼裁員。",
+ "generated_at": "2026-11-23T17:14:56+08:00",
+ "lede": "近 7 日：新版構建面板與 Dashboard 升級彈窗引發大量抱怨；小遊戲 Graphics 遮罩吃記憶體、構建後展開運算子失效等坑有了社群解法；PixiJS 推出 3D、Unity 宣布收購 Synty 與獨立開發補助。",
  "src_tags": [
   "Cocos 中文社區",
+  "GameFromScratch",
+  "Godot Engine Blog",
   "Babylon.js Releases",
-  "Hacker News（本週）",
-  "Game Developer"
+  "Game Developer",
+  "Hacker News",
+  "GitHub Trending"
  ],
  "intro": [
   {
    "kind": "p",
-   "html": "近 7 日（補上期未收的討論）：Cocos Dashboard 升級彈窗每次都跳、引擎快取占 40G，論壇抱怨不敢升級；第三款 Cocos MCP 外掛內建 395 個工具，社群續辯 MCP 與 CLI；Babylon.js 9.37 加入 WebGPU 非同步管線選項；Unity 回應私有化傳聞，育碧、Firaxis 相繼裁員。"
+   "html": "近 7 日：新版構建面板與 Dashboard 升級彈窗引發大量抱怨；小遊戲 Graphics 遮罩吃記憶體、構建後展開運算子失效等坑有了社群解法；PixiJS 推出 3D、Unity 宣布收購 Synty 與獨立開發補助。"
   }
  ],
  "sections": [
   {
    "name": "Cocos 引擎與工具鏈",
-   "count": 3,
+   "count": 4,
    "blocks": [
     {
      "type": "item",
      "no": "01",
-     "key": "dd712e0a91",
-     "title": "3.8.7 原生 iOS App 偶現洋紅色區塊，回覆指向貼圖缺失",
-     "title_html": "3.8.7 原生 iOS App 偶現洋紅色區塊，回覆指向貼圖缺失",
-     "url": "https://forum.cocos.org/t/topic/178220",
+     "key": "e6e31dcde8",
+     "front": 2,
+     "title": "社群補丁：修正 Spine 純數字動畫名報錯與構建後 [...map.keys()] 失效",
+     "title_html": "社群補丁：修正 Spine 純數字動畫名報錯與構建後 [...map.keys()] 失效",
+     "url": "https://forum.cocos.org/t/topic/178238",
      "src": "Cocos 中文社區",
-     "left": "11/22 11:50",
-     "ts": "2026-11-22T11:50:44+08:00",
-     "heat": "184 瀏覽 / 1 回覆",
+     "left": "11/23 16:21",
+     "ts": "2026-11-23T16:21:02+08:00",
+     "heat": "91 瀏覽 / 2 回覆",
      "tags": [],
-     "summary_html": "發文者用 Cocos Creator 3.8.7 發布原生 iOS App，部分介面偶爾出現洋紅色區塊（該區域原本是圖片），只發生在 iOS。唯一的回覆 weijinda 說這是貼圖缺失的表現，原因要查專案本身。沒有官方回應。",
+     "summary_html": "865500815 分享兩個自用的 Creator 補丁腳本（開源在 Gitee），針對官方一直沒修或修了又回退的問題：",
      "also": [],
      "also_more": [],
-     "bullets_html": [],
+     "bullets_html": [
+      "Spine 動畫名是純數字（如 0、1、2）時，Inspector 的動畫下拉枚舉報「already defined in Enum」；補丁只改編輯器的顯示名（顯示成 [0]、[1]），播放仍用真實動畫名。已驗證 2.4.10、2.4.15、3.4.x、3.6.2、3.8.0–3.8.8。",
+      "對應 cocos-engine#18820：web-mobile 等構建產物把 `[...map.keys()]` 誤編譯成 `[].concat(map.keys())`，陣列裡只有一個迭代器物件；編輯器預覽正常、構建後才出錯。3.8.0 官方修過，3.8.5 起回退。原因是構建時 BabelTransformer 以 loose=true 編譯，spread 外掛的 loose 模式假設所有可迭代物件都是陣列；補丁寫入 `assumptions.iterableIsArray = false` 讓 spread 改用規範的 `_toConsumableArray`。已驗證 3.6.2、3.8.5–3.8.8（2.x、3.4.x 無此管線）。 腳本會自動找本機 Creator、可 `--dry-run` 預覽、預設備份、`npm run restore` 還原；改的是 Creator 安裝目錄（補丁二含 app.asar），要重啟編輯器，升級或重裝後要重跑。回覆者表示當天也遇到 Spine 問題，改名重新匯出解決。"
+     ],
      "table": null,
-     "dive_html": "洋紅色是引擎找不到貼圖時的預設替代色，「偶現」且只在 iOS，較可能和非同步載入時序、資源釋放或特定壓縮格式在 iOS 上失敗有關。3.8.7 原生 iOS 專案可先檢查動態載入的 SpriteFrame 是否被提前釋放，以及 iOS 平台的紋理壓縮設定。",
+     "dive_html": "展開運算子這個坑最危險：預覽正常、上線才壞，而且只影響 3.8.5 以後的構建，很容易被當成業務邏輯錯誤追很久。用 3.8.5 以上出 Web／小遊戲包的專案，至少該在程式碼搜尋 `...map.`、`...set` 這類寫法；不想改編輯器安裝檔，可以改寫成 `Array.from(map.keys())` 避開。修改 app.asar 屬於非官方作法，團隊導入前要確認每台建置機都一致套用。",
      "facets": {
       "region": [
        "中國大陸"
-      ],
-      "country": [
-       "CN"
       ],
       "taiwan": [
        "無"
       ],
       "topic": [
        "遊戲",
-       "科技"
+       "開源"
       ],
       "event": [
-       "其他"
+       "版本更新"
       ],
       "sector": [
-       "遊戲"
+       "遊戲",
+       "軟體與雲端"
       ],
       "org": [
        "Cocos"
@@ -73,45 +78,50 @@
        "開發者"
       ],
       "importance": [
-       "低"
+       "中"
       ],
       "tone": [
-       "負面"
+       "正面"
       ],
       "stage": [
-       "突發"
+       "持續發展"
       ],
       "keyword": [
-       "Cocos Creator 3.8.7",
-       "iOS",
-       "洋紅色貼圖"
+       "Spine",
+       "Babel",
+       "展開運算子",
+       "cocos-engine#18820",
+       "Cocos Creator 3.8"
       ]
      }
     },
     {
      "type": "item",
      "no": "02",
-     "key": "f026bf4f7b",
-     "title": "舊專案打包 Android 時反覆產生「android-android」資料夾",
-     "title_html": "舊專案打包 Android 時反覆產生「android-android」資料夾",
-     "url": "https://forum.cocos.org/t/topic/178210",
+     "key": "f3f22cc80a",
+     "front": 1,
+     "title": "新版構建面板拆成三個入口，開發者抱怨看不懂、要求保留舊版",
+     "title_html": "新版構建面板拆成三個入口，開發者抱怨看不懂、要求保留舊版",
+     "url": "https://forum.cocos.org/t/topic/178198",
      "src": "Cocos 中文社區",
-     "left": "11/20 10:00",
-     "ts": "2026-11-20T10:00:00+08:00",
-     "heat": "222 瀏覽 / 0 回覆",
+     "left": "11/19 11:11",
+     "ts": "2026-11-19T11:11:15+08:00",
+     "heat": "737 瀏覽 / 13 回覆",
      "tags": [],
-     "summary_html": "發文者說舊專案打包 Android 時，有時正常產生 android 資料夾，有時卻產生名為「android-android」的資料夾，刪除 library、profiles、temp 資料夾或重新命名 native 資料夾都無效，要反覆折騰好幾次才正常。帖子目前沒有回覆，發文者沒寫引擎版本。",
+     "summary_html": "發文者 zerozerg 只想出網頁版與 Android APK，卻發現構建介面整個換新，快捷鍵叫出來的也是新面板，文件沒跟著更新。摸索後整理出：新面板分成「終端／應用／場景」三個入口，指向同一個平台篩選的一級介面，二級介面才是以前的設定頁；原生包與 Web 要點「構建終端」，小遊戲相關在「構建應用」。其他回覆的意見：",
      "also": [],
      "also_more": [],
-     "bullets_html": [],
+     "bullets_html": [
+      "654088761：以前 Ctrl+Shift+B 直接打包，現在要找二級選單；設好的打包參數放在任務歷史裡且改不了名稱，看不出各自的輸出路徑。",
+      "cwrysp：開啟要等好幾秒；構建其他平台會自動多建一份 OpenPaaS；平台分類應該在頁面內切換，不要三個入口；建議同時保留舊版構建入口。",
+      "371276998 偏好用腳本、命令列構建；525649253 慶幸自己沒更新。",
+      "zerozerg 指出自己沒察覺就被更新，3.8.2 與 3.8.7 的介面都變了。 前 13 則回覆裡沒有官方回應。"
+     ],
      "table": null,
-     "dive_html": "路徑名稱重複拼接像是建置設定裡的平台目錄與預設值衝突，舊專案升級後的建置紀錄最可疑。遇到同樣狀況可先比對構建面板的輸出路徑與舊建置設定檔；沒有官方回應前，這只是單一案例，無法判斷是否為特定版本的問題。",
+     "dive_html": "帖中顯示 3.8.x 舊版本的構建介面也跟著變，對有既定出包流程的團隊是實質風險：打包參數改存任務歷史且無法命名，正式版／測試版分開構建的習慣會被打亂。手上有上線專案的團隊，短期內最穩的做法是改用命令列構建，把參數固定在腳本裡，不依賴面板；也要留意「構建其他平台時自動多建 OpenPaaS」是否拖慢 CI。官方是否提供舊版入口，是接下來要看的。",
      "facets": {
       "region": [
        "中國大陸"
-      ],
-      "country": [
-       "CN"
       ],
       "taiwan": [
        "無"
@@ -121,10 +131,15 @@
        "科技"
       ],
       "event": [
-       "其他"
+       "版本更新",
+       "爭議風波"
+      ],
+      "story": [
+       "Cocos Dashboard 改版"
       ],
       "sector": [
-       "遊戲"
+       "遊戲",
+       "軟體與雲端"
       ],
       "org": [
        "Cocos"
@@ -133,18 +148,18 @@
        "開發者"
       ],
       "importance": [
-       "低"
+       "高"
       ],
       "tone": [
        "負面"
       ],
       "stage": [
-       "突發"
+       "持續發展"
       ],
       "keyword": [
+       "構建面板",
        "Cocos Creator",
-       "Android 建置",
-       "native 資料夾"
+       "OpenPaaS"
       ]
      }
     },
@@ -152,16 +167,15 @@
      "type": "item",
      "no": "03",
      "key": "892bbd2793",
-     "front": 1,
-     "title": "Cocos Dashboard 升級彈窗每次開都跳、引擎快取吃掉 40G，開發者不敢升級",
-     "title_html": "Cocos Dashboard 升級彈窗每次開都跳、引擎快取吃掉 40G，開發者不敢升級",
+     "title": "Cocos Dashboard 下載新引擎佔 40G、升級彈窗無法關閉",
+     "title_html": "Cocos Dashboard 下載新引擎佔 40G、升級彈窗無法關閉",
      "url": "https://forum.cocos.org/t/topic/178194",
      "src": "Cocos 中文社區",
      "left": "11/19 10:10",
      "ts": "2026-11-19T10:10:45+08:00",
-     "heat": "423 瀏覽 / 2 回覆",
+     "heat": "443 瀏覽 / 2 回覆",
      "tags": [],
-     "summary_html": "兩則帖子都抱怨 Cocos Dashboard 推送「支援一鍵發布全平台」的升級：發文者 wangrongm2009 說 Dashboard 已在背景下載好引擎、占了 40G 硬碟，卻每次都彈出升級提示，自己手上專案多、影響太大，不敢升級；另一帖發文者也問不升級時每次開編輯器都會跳彈窗，有沒有取消方法。回覆中 xiaobei1 建議改到英文版 Cocos 網站下載 Dashboard，那邊可能還沒有這個升級；wdxkwdl 補充 PinK 一個版本就占 8G，之後只會更多。兩帖都沒有官方回應。",
+     "summary_html": "wangrongm2009 反映 Cocos Dashboard 在背景下載引擎，佔用 40G 硬碟，下載完後每次開啟都跳出升級提示；因為手上專案多、影響太大而不敢升級。回覆中 xiaobei1 建議改從英文版 Cocos 網站下載 Dashboard，那邊「可能還沒有這個升級」；wdxkwdl 提到 PinK 一個版本就佔 8G。另一帖（2874536645）同樣詢問「升級支持一鍵發布全平台」的彈窗能否取消，不升級的話每次打開編輯器都會彈出，該帖沒有回覆。",
      "also": [
       {
        "text": "Cocos 中文社區",
@@ -171,13 +185,10 @@
      "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "這是上週構建面板改版爭議的延續：升級被設計成難以拒絕，而多專案、多版本並存的團隊最怕工具鏈被動更新。在官方提供關閉選項前，維持舊版 Dashboard 的團隊應固定安裝來源與版本，並把引擎快取目錄移到大容量磁碟；改用英文站版本只是社群推測，未經官方證實。",
+     "dive_html": "背景下載加上強迫式彈窗，和上一則構建面板改版是同一波推動，官方顯然想把使用者往新版、全平台發布流程上帶。對多專案、多版本並存的團隊，磁碟與誤升級風險都要預先處理：可把常用引擎版本固定在獨立目錄、CI 機器不跑 Dashboard。英文版 Dashboard 的繞道只是回覆者的推測，不保證長期有效。",
      "facets": {
       "region": [
        "中國大陸"
-      ],
-      "country": [
-       "CN"
       ],
       "taiwan": [
        "無"
@@ -209,45 +220,41 @@
        "負面"
       ],
       "stage": [
-       "後續追蹤"
+       "持續發展"
       ],
       "keyword": [
        "Cocos Dashboard",
-       "一鍵發布全平台",
-       "PinK"
+       "PinK",
+       "一鍵發布全平台"
       ]
      }
-    }
-   ]
-  },
-  {
-   "name": "Cocos 實戰技術分享",
-   "count": 1,
-   "blocks": [
+    },
     {
      "type": "item",
      "no": "04",
-     "key": "53ab9eda43",
-     "title": "2.4.11 拖曳不跟手：別累加位移量，直接把觸點轉成節點座標",
-     "title_html": "2.4.11 拖曳不跟手：別累加位移量，直接把觸點轉成節點座標",
-     "url": "https://forum.cocos.org/t/topic/178190",
+     "key": "e6ba2883c9",
+     "title": "HelloPinK 連發兩版：支援載入 Unity、Laya 遊戲並修正調試面板",
+     "title_html": "HelloPinK 連發兩版：支援載入 Unity、Laya 遊戲並修正調試面板",
+     "url": "https://forum.cocos.org/t/topic/178159",
      "src": "Cocos 中文社區",
-     "left": "11/18 17:25",
-     "ts": "2026-11-18T17:25:33+08:00",
-     "heat": "577 瀏覽 / 5 回覆",
+     "left": "11/16 18:48",
+     "ts": "2026-11-16T18:48:10+08:00",
+     "heat": "891 瀏覽 / 5 回覆",
      "tags": [],
-     "summary_html": "發文者在 Cocos Creator 2.4.11 試了幾種寫法，拖曳節點時總覺得移動比手指慢。回覆中 worm 指出關鍵是座標轉換：要把當前觸點位置轉成節點座標直接指定，不要用相對移動量累加，否則一定有累積誤差；另有人確認做法是取觸點目前位置、轉成世界座標再指定給節點；頭號玩家則建議用向量處理並附上 3.x 搖桿範例帖。",
-     "also": [],
+     "summary_html": "官方帳號 wanlai_sud 發布 HelloPinK iOS 1.0.7／Android 1.0.6：首頁加入調試入口與狀態、設定中可清除快取、調試模式下載入遊戲時顯示日誌與進度、支援載入 Unity 與 Laya 遊戲、vConsole 按鈕可拖動。兩天後再發 iOS 1.0.8／Android 1.0.7，修正 HelloPinK 掃碼時 PinK 調試面板彈不出來的問題，清除快取也可清除遊戲存檔。回覆中有人反映官網仍是 1.0.5（官方回覆已更新、重新整理即可）；華為手機掃碼出現簽名失敗、錯誤碼 2002，官方說明是 HelloPinK 與 PinK 登入的手機號不一致所致。",
+     "also": [
+      {
+       "text": "Cocos 中文社區",
+       "url": "https://forum.cocos.org/t/topic/178191"
+      }
+     ],
      "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "這是 2.x 常見的坑：用 `touch.getDelta()` 逐幀累加會受縮放、父節點座標系與丟幀影響而落後。2.4.x 專案改用觸點的世界座標經 `convertToNodeSpaceAR` 轉成父節點座標再指定，通常就能跟手；3.x 同理，只是 API 改到 UITransform 上。",
+     "dive_html": "HelloPinK 開始支援載入 Unity 與 Laya 遊戲，代表 PinK 的真機預覽工具想做成跨引擎的測試殼，而非只服務 Cocos。對實際使用者最有用的是錯誤碼 2002 的解法：兩端帳號必須一致，團隊共用測試機時特別容易踩到。",
      "facets": {
       "region": [
        "中國大陸"
-      ],
-      "country": [
-       "CN"
       ],
       "taiwan": [
        "無"
@@ -257,7 +264,132 @@
        "科技"
       ],
       "event": [
-       "其他"
+       "版本更新"
+      ],
+      "sector": [
+       "遊戲",
+       "軟體與雲端"
+      ],
+      "org": [
+       "Cocos"
+      ],
+      "affects": [
+       "開發者"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "HelloPinK",
+       "PinK",
+       "掃碼預覽",
+       "vConsole"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "Cocos 實戰技術分享",
+   "count": 4,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "05",
+     "key": "def56b9474",
+     "title": "Cocos Profiler 0.0.2 上架：Creator 3.x 效能診斷，支援微信、抖音小遊戲",
+     "title_html": "Cocos Profiler 0.0.2 上架：Creator 3.x 效能診斷，支援微信、抖音小遊戲",
+     "url": "https://forum.cocos.org/t/topic/178237",
+     "src": "Cocos 中文社區",
+     "left": "11/23 16:21",
+     "ts": "2026-11-23T16:21:00+08:00",
+     "heat": "73 瀏覽 / 1 回覆",
+     "tags": [],
+     "summary_html": "llsansun 發布 Cocos Store 上的效能診斷外掛「cocos性能全面剖析」3.x 版 0.0.2。功能包括：錄下卡頓操作後在 CPU 時間軸看熱點函式、呼叫次數與呼叫鏈；記憶體頁看 JS 堆、紋理與緩衝變化，查資源的引用計數與持有者；按需抓下一幀，檢視 Draw Call 的幾何、渲染狀態與 Shader；錄 Trace 比對特定 API 呼叫前後的場景；在即時預覽中直接選節點、暫時調整屬性。Web 支援編輯器內預覽、瀏覽器預覽與 Web 診斷構建，0.0.2 新增受支援瀏覽器上的 WebGPU 繪製與資源診斷；小遊戲支援微信、抖音診斷構建，也適配支付寶、淘寶，部分能力取決於宿主與裝置。涵蓋 Creator 3.0 到 3.8 多個小版本，並修正 3.8.6 等舊版產生微信診斷包時的基礎庫設定錯誤。回覆者問商品說明寫「Creator 2.x 使用獨立安裝包」是否代表有 2.x 版，帖中尚無回答。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "小遊戲最難查的是真機上的卡頓與記憶體不回落，這個外掛把錄製、引用關係與 Draw Call 檢視整合進 Creator，正好補上官方工具的缺口；搭配上一則 Graphics 記憶體問題，正是用來驗證的工具。目前才 0.0.2，抖音、支付寶的完整回放能力尚未全面驗證，導入時以微信小遊戲為主較保險。",
+     "facets": {
+      "region": [
+       "中國大陸"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "遊戲",
+       "科技"
+      ],
+      "event": [
+       "產品發布"
+      ],
+      "sector": [
+       "遊戲",
+       "軟體與雲端"
+      ],
+      "org": [
+       "Cocos Store"
+      ],
+      "affects": [
+       "開發者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "Cocos Profiler",
+       "Draw Call",
+       "WebGPU",
+       "微信小遊戲",
+       "抖音小遊戲"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "06",
+     "key": "d1032ddea8",
+     "title": "cc.director.loadScene 擴充：一行參數接上 227 種 GL 轉場特效",
+     "title_html": "cc.director.loadScene 擴充：一行參數接上 227 種 GL 轉場特效",
+     "url": "https://forum.cocos.org/t/topic/178200",
+     "src": "Cocos 中文社區",
+     "left": "11/19 11:56",
+     "ts": "2026-11-19T11:56:39+08:00",
+     "heat": "800 瀏覽 / 14 回覆",
+     "tags": [],
+     "summary_html": "972579559 分享一個 2.x 轉場工具（Gitee 開源）：從 GLSL 轉場特效網站拉取 227 種特效的核心程式碼，執行時動態組成 `cc.EffectAsset`，所以專案裡看不到 .effect 與 .mtl 檔。用法是在 `cc.director.loadScene` 傳第三個參數指定特效名稱與速度，省略名稱就隨機轉場，不傳參數則維持引擎原本行為；另有 `TransitionHelper.skipToShow` 處理彈窗開關或節點 A 到 B 的轉場。回覆中 ph1112 在 2.4.15 上沒有反應，後來發現要翻牆才拉得到特效；作者建議改成自己備份到 CDN 拉取。1772527378 表示 2.x 正常，並已用 AI 移植到 3.x。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "動態組 shader 的作法很聰明，但執行時依賴外部網站是上線大忌，國內網路下載失敗會直接讓轉場失效，正式使用一定要把特效原始碼打包進專案或放自家 CDN。另一個值得注意的是回覆者用 AI 把 2.x 程式移植到 3.x，顯示小型工具的跨版本移植成本已大幅降低。",
+     "facets": {
+      "region": [
+       "中國大陸"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "遊戲",
+       "開源"
+      ],
+      "event": [
+       "產品發布"
       ],
       "sector": [
        "遊戲"
@@ -272,72 +404,54 @@
        "低"
       ],
       "tone": [
-       "中性"
+       "正面"
       ],
       "stage": [
        "突發"
       ],
       "keyword": [
-       "Cocos Creator 2.4.11",
-       "觸控拖曳",
-       "座標轉換"
+       "gl-transitions",
+       "loadScene",
+       "EffectAsset",
+       "Cocos Creator 2.x"
       ]
      }
-    }
-   ]
-  },
-  {
-   "name": "AI 進入引擎工作流",
-   "count": 2,
-   "blocks": [
+    },
     {
      "type": "item",
-     "no": "05",
-     "key": "8e42242287",
-     "front": 2,
-     "title": "Cocos MCP Bridge 2.1.8 內建 395 個工具，讓 AI 改場景、做 UI、看預覽",
-     "title_html": "Cocos MCP Bridge 2.1.8 內建 395 個工具，讓 AI 改場景、做 UI、看預覽",
-     "url": "https://forum.cocos.org/t/topic/178182",
+     "no": "07",
+     "key": "eae1ba13dc",
+     "front": 3,
+     "title": "小遊戲 Graphics 遮罩每個獨佔 2.25MB，100 個吃掉 200MB 以上記憶體",
+     "title_html": "小遊戲 Graphics 遮罩每個獨佔 2.25MB，100 個吃掉 200MB 以上記憶體",
+     "url": "https://forum.cocos.org/t/topic/178196",
      "src": "Cocos 中文社區",
-     "left": "11/18 12:38",
-     "ts": "2026-11-18T12:38:14+08:00",
-     "heat": "664 瀏覽 / 4 回覆",
+     "left": "11/19 10:57",
+     "ts": "2026-11-19T10:57:14+08:00",
+     "heat": "1006 瀏覽 / 5 回覆",
      "tags": [],
-     "summary_html": "發文者介紹付費擴充 Cocos MCP Bridge：透過 MCP 協定連接 Creator 與 Cursor 等 AI 用戶端，讓 AI 讀取場景與資源、在開放範圍內操作編輯器。2.1.8 版內建 395 個工具、分 14 組，涵蓋場景與節點、UI 與 Prefab、資源管理（SpriteFrame、Bundle、Auto Atlas）、預覽除錯（讀取瀏覽器預覽的執行期節點樹、日誌與畫面）、構建、以及接入團隊自訂工具；預設啟用 13 組 394 個工具，1 個高危工具預設關閉。回覆裡有人說自己做成 CLI、有人說 Codex 看效果圖和切圖就能搭出約 98% 完整的預製體，質疑何必用 MCP；作者回應 MCP 可串接其他外掛與 skill；「游戲殺-bilibili」認為 MCP 和 CLI 都只是把引擎能力開放給代理人的介面，MCP 的好處是有規範、通用，像截取遊戲畫面就需要接口。同週另一帖問用 DeepSeek 寫 Cocos 編輯器外掛難不難，回覆多說很好寫，有人用網頁版就寫了好幾個。",
-     "also": [
-      {
-       "text": "Cocos 中文社區",
-       "url": "https://forum.cocos.org/t/topic/178189"
-      }
-     ],
+     "summary_html": "it4040 指出 Cocos 的 `cc.Graphics.prototype.activeSubModel` 預設寫死配置 65535 個頂點，每個 Graphics 獨佔 2.25MB Buffer；專案只要用 Mask（列表、圓形遮罩很常見）且採預設的 Graphics 型遮罩，100 個就會吃掉 200MB 以上記憶體，而且不會釋放。回覆中 286540194 建議圓形遮罩改用 Sprite 或 shader；554326014 說他們當年也踩過，後來把預設遮罩全改成白色圖片型遮罩、不再用預設的 Graphics；408293635 問是否所有版本都如此，帖中沒有人回答，也沒有官方回應。",
+     "also": [],
      "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "這是兩週內第三款 Cocos MCP 外掛，討論焦點已從「能不能做」轉向「該用 MCP 還是 CLI」。對團隊而言，關鍵差異在能否讀取執行期畫面與節點狀態做自我驗收，純改專案檔的 CLI 做不到這點。開放數百個可寫入的編輯器工具也代表風險，導入前應確認哪些工具會刪改資源，並在版控乾淨的分支上試。",
+     "dive_html": "小遊戲平台記憶體上限低，這種「每個元件固定配一大塊 Buffer」的成本在 PC 預覽時幾乎感覺不到，到手機上才觸發閃退。帖子沒寫明適用的引擎版本，自己的專案可以先用記憶體工具比對 Mask 數量與記憶體曲線。實務上最便宜的修法就是回覆者的做法：清單項目與頭像框改用圖片型（SPRITE_STENCIL）遮罩。",
      "facets": {
       "region": [
        "中國大陸"
-      ],
-      "country": [
-       "CN"
       ],
       "taiwan": [
        "無"
       ],
       "topic": [
        "遊戲",
-       "AI",
        "科技"
       ],
       "event": [
-       "產品發布"
-      ],
-      "story": [
-       "Cocos MCP 外掛"
+       "聲明評論"
       ],
       "sector": [
-       "遊戲",
-       "AI"
+       "遊戲"
       ],
       "org": [
        "Cocos"
@@ -349,37 +463,98 @@
        "中"
       ],
       "tone": [
-       "正面"
+       "負面"
       ],
       "stage": [
-       "持續發展"
+       "評論觀點"
       ],
       "keyword": [
-       "MCP",
-       "Cocos MCP Bridge",
-       "Cursor",
-       "Codex"
+       "cc.Graphics",
+       "Mask",
+       "記憶體",
+       "小遊戲"
       ]
      }
     },
     {
      "type": "item",
-     "no": "06",
-     "key": "6223c6e0e2",
-     "title": "論壇熱帖：有人真靠 AI 賺到錢嗎？用 AI 做遊戲上線、買量賠 2 萬",
-     "title_html": "論壇熱帖：有人真靠 AI 賺到錢嗎？用 AI 做遊戲上線、買量賠 2 萬",
-     "url": "https://forum.cocos.org/t/topic/178154",
+     "no": "08",
+     "key": "de6d047b0c",
+     "title": "PVP 同步科普第二篇：幀廣播同步的原理與適用情境",
+     "title_html": "PVP 同步科普第二篇：幀廣播同步的原理與適用情境",
+     "url": "https://forum.cocos.org/t/topic/178183",
      "src": "Cocos 中文社區",
-     "left": "11/16 15:32",
-     "ts": "2026-11-16T15:32:58+08:00",
-     "heat": "1507 瀏覽 / 15 回覆",
+     "left": "11/18 12:38",
+     "ts": "2026-11-18T12:38:20+08:00",
+     "heat": "622 瀏覽 / 4 回覆",
      "tags": [],
-     "summary_html": "發文者問論壇有沒有人真的靠 AI 賺錢（1,507 瀏覽、15 回覆）。回覆中被點名的路子多是開 API 中轉站、賣 AI 教程、做短劇，但有人說短劇成本高、平台抽成重；110169 說他們用 AI 做了 3 個月的遊戲上線，買量虧了 2 萬、無法回本而放棄，「做遊戲不難，獲量才難」；也有人認為真賺錢的人不會在論壇說，教你賺錢的多半是割韭菜。",
+     "summary_html": "9608094 延續上一篇「預測回滾幀同步」，介紹幀廣播同步。他建議預測回滾只用在 2 人對戰，以「兩人三足」比喻：參與者多時，各自的手機效能與網路不一致，會互相拉扯、多方回滾。幀廣播同步則由伺服器統一整理操作，放進帶幀號的資料包發給所有玩家，各手機按相同順序執行相同操作、各自計算遊戲世界；廣播的是「這一幀有哪些輸入」，不是畫面或戰場實況。文中討論的是不疊加預測的版本：伺服器以固定節奏廣播輸入幀，收到的操作排進下一個廣播幀，客戶端只執行已收到的連續幀。文章以每秒 60 幀、格鬥遊戲的波動拳為例逐幀說明。",
      "also": [],
      "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "回覆呈現的共識是：AI 降低的是製作成本，沒改變小遊戲的獲客成本。開發速度變快後，產品同質化會更嚴重、買量更貴，小團隊的瓶頸會更集中在發行與留存。這是論壇個人經驗，不是統計數據。",
+     "dive_html": "對做多人即時對戰的 H5／小遊戲團隊，這篇的價值在於清楚區分兩種方案的適用人數：2 人用預測回滾手感最好，3 人以上改用幀廣播較穩。不預測的幀廣播代價是輸入延遲至少一個廣播週期，對格鬥類可能太鈍、對休閒競技則足夠，選型時要拿自己的玩法實測。",
+     "facets": {
+      "region": [
+       "中國大陸"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "遊戲",
+       "科技"
+      ],
+      "event": [
+       "其他"
+      ],
+      "sector": [
+       "遊戲"
+      ],
+      "affects": [
+       "開發者"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "回顧分析"
+      ],
+      "keyword": [
+       "幀同步",
+       "幀廣播同步",
+       "預測回滾",
+       "PVP"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "小遊戲平台與發行",
+   "count": 2,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "09",
+     "key": "604d62e054",
+     "title": "微信小遊戲備案期間先以「單機」類型上線的作法",
+     "title_html": "微信小遊戲備案期間先以「單機」類型上線的作法",
+     "url": "https://forum.cocos.org/t/topic/178213",
+     "src": "Cocos 中文社區",
+     "left": "11/20 12:52",
+     "ts": "2026-11-20T12:52:38+08:00",
+     "heat": "511 瀏覽 / 1 回覆",
+     "tags": [],
+     "summary_html": "亿元程序员整理微信小遊戲備案時程：無版號小遊戲備案預估 10 個工作日、小程式備案 3–10 個工作日，合計至少兩週多。他實測的作法是：備案與提交審核時網路類型都選「單機」，審核通過即可發布上線，與仍在進行的備案不衝突。代價是隱私協議無法修改，取得暱稱頭像、好友排行榜等介面不能用；`wx.request` 也無法使用、回傳 -9003 錯誤碼（作者說 PC 等部分機型能發出請求，待驗證）。單機版滿足流量主條件後次日可接激勵影片廣告，之後也能改回聯網，但要等前一次備案結束。回覆中 weijinda 表示備案通過後直接改成聯網即可，不用重新備案。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "對用 AI 快速做小遊戲、想先測市場的開發者，這是縮短驗證週期的實用技巧，但前提是遊戲真的能純單機運作：任何後端存檔、排行榜、登入都會在 -9003 下失效。平台規則隨時可能收緊，這屬於作者實測經驗而非官方承諾，正式產品仍應同步走完聯網備案。",
      "facets": {
       "region": [
        "中國大陸"
@@ -392,15 +567,80 @@
       ],
       "topic": [
        "遊戲",
-       "AI",
-       "經濟"
+       "法律與司法"
+      ],
+      "event": [
+       "政策法規"
+      ],
+      "sector": [
+       "遊戲",
+       "網路平台"
+      ],
+      "org": [
+       "微信"
+      ],
+      "affects": [
+       "開發者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "評論觀點"
+      ],
+      "keyword": [
+       "微信小遊戲",
+       "備案",
+       "wx.request",
+       "流量主"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "10",
+     "key": "be788e54c5",
+     "title": "花 50 元買量、1.3K 訪問收入反而下滑：小遊戲買量與廣告變現討論",
+     "title_html": "花 50 元買量、1.3K 訪問收入反而下滑：小遊戲買量與廣告變現討論",
+     "url": "https://forum.cocos.org/t/topic/178166",
+     "src": "Cocos 中文社區",
+     "left": "11/17 11:56",
+     "ts": "2026-11-17T11:56:39+08:00",
+     "heat": "2028 瀏覽 / 48 回覆",
+     "tags": [],
+     "summary_html": "hxs 在騰訊廣告平台開廣告主、投了最低 50 元廣告，帶來約 1.3K 訪問，收入卻不升反降。48 則回覆中的主要看法：",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "nhy_jyqw：買到的是垃圾流量，使用者進來就走（hxs 認同）。",
+      "3dtanke：插屏廣告 eCPM 很差，會拖累激勵影片的整體 eCPM；hxs 說已拿掉插屏與橫幅，目前每天約 30 個使用者。3dtanke 自述平均時長約 400 秒時，一個月有幾百元收入，偶爾會突然爆量。",
+      "cwrysp 認為多半是機器人；2804803784 認為使用者對 AI 做的遊戲很敏感，看到畫面就離開。",
+      "t99t99t99 認為這種畫風與玩法吃點自然流量就夠了。"
+     ],
+     "table": null,
+     "dive_html": "這帖是小額買量的典型教訓：低預算投放拿到的多是低品質流量，反而稀釋留存與 eCPM。小團隊與其買量，不如先把留存與平均時長做起來；若要測投放，應同時看次留與廣告 eCPM，而不是只看訪問數。「AI 畫風被玩家排斥」的說法雖是單一回覆的觀察，但與近期社群討論方向一致，美術風格值得列入上線前測試。",
+     "facets": {
+      "region": [
+       "中國大陸"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "遊戲"
       ],
       "event": [
        "聲明評論"
       ],
       "sector": [
        "遊戲",
-       "AI"
+       "網路平台"
+      ],
+      "org": [
+       "騰訊廣告"
       ],
       "affects": [
        "開發者"
@@ -415,55 +655,50 @@
        "評論觀點"
       ],
       "keyword": [
-       "AI 變現",
        "買量",
-       "API 中轉站",
-       "短劇"
+       "eCPM",
+       "激勵影片",
+       "插屏廣告"
       ]
      }
     }
    ]
   },
   {
-   "name": "Web／H5 底層與其他引擎",
+   "name": "AI 進入引擎工作流",
    "count": 2,
    "blocks": [
     {
      "type": "item",
-     "no": "07",
-     "key": "f1147e4339",
-     "title": "獨立開發者花七年自寫引擎做出《Satelital》：從 LÖVE 轉 C++、SDL2 到自寫渲染器",
-     "title_html": "獨立開發者花七年自寫引擎做出《Satelital》：從 LÖVE 轉 C++、SDL2 到自寫渲染器",
-     "url": "https://spectralorbit.com/blog/satelital_game_engine",
-     "src": "Hacker News（本週）",
-     "left": "11/19 02:23",
-     "ts": "2026-11-19T02:23:03+08:00",
-     "heat": "HN 40",
+     "no": "11",
+     "key": "a8a8ee39e3",
+     "title": "Cocos2d-x 老專案如何搭 AI：Creator 拼介面轉 C++／Lua，或直接讓 AI 寫介面",
+     "title_html": "Cocos2d-x 老專案如何搭 AI：Creator 拼介面轉 C++／Lua，或直接讓 AI 寫介面",
+     "url": "https://forum.cocos.org/t/topic/178195",
+     "src": "Cocos 中文社區",
+     "left": "11/19 10:49",
+     "ts": "2026-11-19T10:49:39+08:00",
+     "heat": "562 瀏覽 / 17 回覆",
      "tags": [],
-     "summary_html": "作者七年前決定從零學做遊戲，上週發行解謎遊戲《Satelital》，玩法是學習外星邏輯的規則發現。身為獨立開發者，他幾乎自己做了所有工具：引擎、渲染器、謎題、編輯器、UX、美術與音樂。他原本做網頁與手機 App，受 Jonathan Blow 的演講與《The Witness》啟發轉向遊戲；曾用 LÖVE 框架做 game jam 作品，但覺得不了解畫面背後原理很受限，於是學 C++、用 SDL2 並盡量少用標準函式庫，先用簡單圖形做出四類謎題原型，之後為了更好的畫面轉向寫著色器。本文在 Hacker News 獲 40 分。",
-     "also": [
-      {
-       "text": "Discussion",
-       "url": "https://news.ycombinator.com/item?id=50550015"
-      }
-     ],
+     "summary_html": "gerlinbo 的單位仍用 Cocos2d-x 2.2.6 與 3.17.2。他把停更的官方 creator_to_cocos2dx 外掛適配到 Creator 2.4.15 並支援多解析度資源，最大的坑是 3.17.2 支援的 Spine 3.6 在 C++ 版可讀 .skel、Web 版卻不行，只能魔改 Spine 3.6 執行時；還反向加入 Menu、MenuItem 等 Creator 已沒有的元件。開發環境改用 VS Code＋SweetPad 外掛＋各家 Agent 外掛，在同一 IDE 內 vibe coding、編譯、安裝到 iPad 調試，並用 MCP 拼介面。他的問題是：介面該讓 AI 寫純程式碼，還是 MCP 先拼再寫？討論中 18513671671 認為 C++／Lua 介面直接讓 AI 一次寫完即可，多一層轉換意義不大，建議把拼介面的提示詞優化成 skill；gerlinbo 回應這套外掛在 MCP 大量湧現前就做好了，現有優勢是改介面不必重新編譯，並承認 MCP 不夠快、不夠準又吃 token，之後會往 skill 方向試。",
+     "also": [],
      "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "這是「為了學習而自寫引擎」的完整案例，代價是七年開發期，適合把技術理解當目標的個人開發者，不適合要準時上線的商業專案。對 H5 開發者的參考價值在於從框架往下學渲染與著色器的路徑，有助於理解 Cocos、PixiJS 這類引擎的效能瓶頸。",
+     "dive_html": "這串反映出老技術棧團隊的實際處境：引擎換不掉，但工作流可以先 AI 化。「改介面不用重編譯」對 C++ 專案確實有價值，而「MCP 吃 token、不夠精準」的回饋則和上一則的爭論互相印證。仍維護 2dx 專案的團隊，可參考 SweetPad 這條不開 Xcode 的路線。",
      "facets": {
       "region": [
-       "全球"
+       "中國大陸"
       ],
       "taiwan": [
        "無"
       ],
       "topic": [
-       "遊戲",
-       "科技"
+       "AI",
+       "遊戲"
       ],
       "event": [
-       "其他"
+       "聲明評論"
       ],
       "sector": [
        "遊戲"
@@ -475,43 +710,110 @@
        "低"
       ],
       "tone": [
-       "正面"
+       "中性"
       ],
       "stage": [
-       "回顧分析"
+       "評論觀點"
       ],
       "keyword": [
-       "自製遊戲引擎",
-       "C++",
-       "SDL2",
-       "LÖVE",
-       "著色器"
+       "Cocos2d-x",
+       "creator_to_cocos2dx",
+       "SweetPad",
+       "MCP",
+       "Spine 3.6"
       ]
      }
     },
     {
      "type": "item",
-     "no": "08",
-     "key": "f147a21aa1",
-     "title": "Babylon.js 9.37：WebGPU 網格繪製可選非同步管線建立，Inspector Lite 加貼圖預覽",
-     "title_html": "Babylon.js 9.37：WebGPU 網格繪製可選非同步管線建立，Inspector Lite 加貼圖預覽",
-     "url": "https://github.com/BabylonJS/Babylon.js/releases/tag/9.37.0",
-     "src": "Babylon.js Releases",
-     "left": "11/17 03:28",
-     "ts": "2026-11-17T03:28:47+08:00",
+     "no": "12",
+     "key": "8e42242287",
+     "title": "Cocos MCP Bridge 2.1.8：395 個 MCP 工具讓 AI 參與場景編輯與預覽調試",
+     "title_html": "Cocos MCP Bridge 2.1.8：395 個 MCP 工具讓 AI 參與場景編輯與預覽調試",
+     "url": "https://forum.cocos.org/t/topic/178182",
+     "src": "Cocos 中文社區",
+     "left": "11/18 12:38",
+     "ts": "2026-11-18T12:38:14+08:00",
+     "heat": "692 瀏覽 / 4 回覆",
+     "tags": [],
+     "summary_html": "2225466148 介紹付費擴充 Cocos MCP Bridge：透過 MCP 協定連接 Creator 與 Cursor 等 AI 用戶端，讓 AI 讀取場景與資源資訊並執行編輯器操作。2.1.8 版內建 395 個工具、分 14 組，涵蓋場景與節點、UI 與 Prefab（依規格搭介面、檢查尺寸與文字）、資源管理（引用查詢、SpriteFrame、Bundle、Auto Atlas）、預覽調試（讀取瀏覽器預覽的執行時節點樹、日誌與畫面）、構建（讀參數、發起構建、查任務狀態）與自訂工具；1 個高危工具預設關閉。回覆中出現爭論：",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "恐懼的海怪自己做成 CLI 工具；47667370 認為 Codex 已能依效果圖與散圖搭出約 98% 完整的預製體，質疑何必用 MCP。",
+      "作者回應 MCP 可當中轉站嵌入自訂外掛、配合 skill 還原設計稿並支援適配與子預製體提取，排查問題也方便。",
+      "游戏杀-bilibili 認為 MCP 與 CLI 都只是把引擎能力暴露給 agent 的介面，MCP 有規範、通用性好，而遊戲畫面截圖這類能力沒有介面 agent 拿不到。"
+     ],
+     "table": null,
+     "dive_html": "爭論的核心不是 MCP 好不好，而是 agent 需要「看得到執行結果」：直接改檔案能搭出預製體，卻看不到渲染後的畫面與執行時錯誤，這正是 MCP 預覽調試工具的價值。395 個工具全開會大量佔用模型上下文、增加 token 成本，實務上應只開需要的分組。",
+     "facets": {
+      "region": [
+       "中國大陸"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "AI",
+       "遊戲"
+      ],
+      "event": [
+       "版本更新"
+      ],
+      "story": [
+       "Cocos MCP 外掛"
+      ],
+      "sector": [
+       "遊戲",
+       "AI"
+      ],
+      "org": [
+       "Cocos Store"
+      ],
+      "affects": [
+       "開發者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "Cocos MCP Bridge",
+       "MCP",
+       "Cursor",
+       "Prefab"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "Web／H5 底層與其他引擎",
+   "count": 4,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "13",
+     "key": "49889464e3",
+     "title": "Godot 4.8 beta 4：發布阻礙大致清完，可能是最後一個 beta",
+     "title_html": "Godot 4.8 beta 4：發布阻礙大致清完，可能是最後一個 beta",
+     "url": "https://godotengine.org/article/dev-snapshot-godot-4-8-beta-4/",
+     "src": "Godot Engine Blog",
+     "left": "11/18 20:00",
+     "ts": "2026-11-18T20:00:00+08:00",
      "heat": "",
      "tags": [],
-     "summary_html": "9.37.0 修正載入文字時把 base64 data URL 以 UTF-8 解碼、Color3/Color4 `toHexString` 夾限色彩分量、Native 端 Gaussian Splatting 貼圖上傳依呼叫順序、浮動原點下投影世界矩陣偏移，並替 Inspector Lite 加入貼圖預覽與檢視場景可渲染物件。9.37.1 新增 WebGPU 網格繪製的非同步管線建立（需自行開啟）、Native 端在支援整數顏色附件時的網格混合、Inspector Lite 貼圖編輯，修正 WebGPU 的串接陰影視圖矩陣、陰影深度法線偏移、ReflectionBlock 編譯，並讓 DynamicTexture 在 context 遺失重建後保留 invertY 與 premulAlpha 設定。",
-     "also": [
-      {
-       "text": "Babylon.js Releases",
-       "url": "https://github.com/BabylonJS/Babylon.js/releases/tag/9.37.1"
-      }
-     ],
+     "summary_html": "Godot 在 4.8 beta 3 之後一週多就推出 beta 4，官方表示大部分剩餘的發布阻礙已處理完，這可能是 4.8 週期的最後幾個、甚至最後一個 beta，也是回報新 bug 與回歸問題的最後機會。這次的變更以回歸修正為主（例如 3D 拖尾點縮放錯誤），4.8 的整體新功能請見 beta 1 的重點說明。這個版本同樣提供 Web 編輯器、XR 編輯器與 Android 編輯器可試用。",
+     "also": [],
      "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "WebGPU 非同步管線建立是減少首次繪製卡頓的常見手法，對場景物件多、材質種類多的 Web 遊戲較有感，但預設關閉、要自行評估相容性。context 遺失後保留 DynamicTexture 設定的修正，對手機瀏覽器切背景回來畫面異常的問題直接有幫助。",
+     "dive_html": "4.8 進入收尾，代表正式版不遠；有 Godot Web 匯出需求的團隊，現在是用自己的專案跑一輪回歸測試、把問題回報上去的最好時機，等正式版後再修通常要再等一個小版本。",
      "facets": {
       "region": [
        "全球"
@@ -520,16 +822,77 @@
        "無"
       ],
       "topic": [
-       "開源",
        "遊戲",
-       "科技"
+       "開源"
       ],
       "event": [
        "版本更新"
       ],
       "sector": [
-       "軟體與雲端",
        "遊戲"
+      ],
+      "org": [
+       "Godot Foundation"
+      ],
+      "affects": [
+       "開發者"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "Godot 4.8",
+       "beta",
+       "Web 編輯器"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "14",
+     "key": "66be6f24ef",
+     "title": "Babylon.js 9.37.0／9.37.1：WebGPU 非同步管線建立與多項 WebGPU 修正",
+     "title_html": "Babylon.js 9.37.0／9.37.1：WebGPU 非同步管線建立與多項 WebGPU 修正",
+     "url": "https://github.com/BabylonJS/Babylon.js/releases/tag/9.37.1",
+     "src": "Babylon.js Releases",
+     "left": "11/18 19:53",
+     "ts": "2026-11-18T19:53:42+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Babylon.js 本週發布 9.37.0 與 9.37.1。9.37.1 的新功能有：WebGPU 網格繪製可選擇啟用非同步管線建立（opt-in）、Native 在支援整數顏色附件時可做網格混合、Inspector Lite 加入紋理編輯；修正包括 WebGPU 的 ReflectionBlock 片段輻照度編譯、節點材質的級聯陰影視圖矩陣、陰影深度的法線偏移，以及 context 遺失後重建 DynamicTexture 時保留 invertY 與 premulAlpha。9.37.0 則加入 Inspector Lite 的紋理預覽與場景可渲染物檢視、載入文字時把 base64 data URL 以 UTF-8 解碼、Color3／Color4 的 toHexString 夾住顏色分量，並修正 USDZ 匯出的法線貼圖解碼。",
+     "also": [
+      {
+       "text": "Babylon.js Releases",
+       "url": "https://github.com/BabylonJS/Babylon.js/releases/tag/9.37.0"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "WebGPU 非同步管線建立是減少首次繪製卡頓（shader 編譯造成的掉幀）的重要手段，目前為 opt-in，有 WebGPU 版本的專案值得開來測試。context 遺失後保留紋理設定的修正，對行動瀏覽器切背景再回來畫面錯亂的問題有直接幫助。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "遊戲",
+       "開源"
+      ],
+      "event": [
+       "版本更新"
+      ],
+      "sector": [
+       "遊戲",
+       "軟體與雲端"
       ],
       "org": [
        "Babylon.js",
@@ -548,10 +911,135 @@
        "持續發展"
       ],
       "keyword": [
-       "Babylon.js 9.37",
+       "Babylon.js",
        "WebGPU",
        "Gaussian Splatting",
        "Inspector Lite"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "15",
+     "key": "fc35e8978f",
+     "title": "Three.js 追趕 AAA 光照管線：逐段盤點已有、審查中與待補的功能",
+     "title_html": "Three.js 追趕 AAA 光照管線：逐段盤點已有、審查中與待補的功能",
+     "url": "https://ben3d.ca/blog/building-the-aaa-lighting-pipeline-in-threejs",
+     "src": "Hacker News（本週）",
+     "left": "11/17 05:07",
+     "ts": "2026-11-17T05:07:43+08:00",
+     "heat": "HN 166",
+     "tags": [],
+     "summary_html": "這篇 HN 本週 166 分的文章是系列第三篇。作者在第二篇為室內場景選定一套管線：lightmap、light probe 與 reflection probe，上面再加 SSR、SSGI 與環境光遮蔽；這篇逐段比對 Three.js：遊戲需要什麼、Three.js 已有什麼、還缺什麼。管線分兩部分：事前建立三種快取（靜態網格的 lightmap、動態物件的 light probe 網格、每個房間的 reflection probe），每幀讀取快取再疊加螢幕空間計算。文中表格列出 G-buffer、烘焙 GI、動態 GI、遮蔽、SSR、SSGI、反射探針等各階段在 Three.js 中已有的功能（如 GTAO、隨機 GGX SSR、SSGINode、LightProbeGrid 烘焙快 8 倍）、審查中或草稿（如 KHR_lightmap 擴充、DDGI 可見性、Hi-Z 追蹤），以及仍待實作的部分。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50523291"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "這份盤點顯示 Web 3D 的畫質瓶頸已從「做不到」轉成「一堆功能在審查中」，未來一兩個版本 Three.js 的室內場景光照可能明顯進步。不過這些都是重度 GPU 的技術，與手機 H5 遊戲的效能預算差距很大，比較適合用在產品展示、建築視覺化類的 Web 專案。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "遊戲",
+       "科技"
+      ],
+      "event": [
+       "研究發表"
+      ],
+      "sector": [
+       "遊戲",
+       "軟體與雲端"
+      ],
+      "org": [
+       "Three.js"
+      ],
+      "affects": [
+       "開發者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "回顧分析"
+      ],
+      "keyword": [
+       "Three.js",
+       "SSGI",
+       "SSR",
+       "Lightmap",
+       "GTAO"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "16",
+     "key": "45fe228743",
+     "title": "PixiJS 推出 3D：Pixi3D 支援 WebGPU、glTF 與 PBR",
+     "title_html": "PixiJS 推出 3D：Pixi3D 支援 WebGPU、glTF 與 PBR",
+     "url": "https://gamefromscratch.com/pixijs-moves-into-3d-pixijs-3d/",
+     "src": "GameFromScratch",
+     "left": "11/17 00:06",
+     "ts": "2026-11-17T00:06:16+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "GameFromScratch 報導，2D WebGL／WebGPU 框架 PixiJS（Ct.js、GDevelop、RPG Maker MV/MZ 等引擎都在用）推出 Pixi3D 進入 3D 領域。功能包括 WebGL2 與 WebGPU 渲染器、像 Sprite 一樣加進 stage 的 3D 視圖、支援 Draco 與 meshopt 壓縮的 glTF 模型、PBR／Phong／Toon 材質、光源與陰影、骨骼與形變目標動畫、粒子、Bloom 與環境光遮蔽等後處理，以及 3D 物件的指標事件。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "「3D 視圖像 Sprite 一樣加進 stage」是關鍵設計，讓既有 2D PixiJS 專案可以局部嵌入 3D 元素（角色展示、轉盤、道具），不必整個換成 three.js 或 Babylon.js。對 H5 遊戲團隊，這擴大了 2D 為主、少量 3D 的作法；但新函式庫的效能與相容性在低階手機與小遊戲容器內的表現還需要實測。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "遊戲",
+       "開源"
+      ],
+      "event": [
+       "產品發布"
+      ],
+      "sector": [
+       "遊戲",
+       "軟體與雲端"
+      ],
+      "org": [
+       "PixiJS"
+      ],
+      "affects": [
+       "開發者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "PixiJS",
+       "Pixi3D",
+       "WebGPU",
+       "glTF",
+       "PBR"
       ]
      }
     }
@@ -563,63 +1051,49 @@
    "blocks": [
     {
      "type": "item",
-     "no": "09",
-     "key": "46d53c93be",
-     "title": "遊戲業裁員續延：育碧加拿大裁 166 人、Take-Two 縮編 Firaxis",
-     "title_html": "遊戲業裁員續延：育碧加拿大裁 166 人、Take-Two 縮編 Firaxis",
-     "url": "https://www.gamedeveloper.com/business/ubiosft-lays-off-166-in-canada",
-     "src": "Game Developer",
-     "left": "11/20 01:53",
-     "ts": "2026-11-20T01:53:00+08:00",
+     "no": "17",
+     "key": "804c91228f",
+     "title": "ArtStation Marketplace 12 月 18 日停止接單，交易移往 Gumroad",
+     "title_html": "ArtStation Marketplace 12 月 18 日停止接單，交易移往 Gumroad",
+     "url": "https://gamefromscratch.com/artstation-marketplace-shutting-down/",
+     "src": "GameFromScratch",
+     "left": "11/19 23:36",
+     "ts": "2026-11-19T23:36:50+08:00",
      "heat": "",
      "tags": [],
-     "summary_html": "育碧證實在蒙特婁與魁北克市裁撤 166 個職位，多為製作與支援人員，部分來自與騰訊合資、負責《刺客教條》《極地戰嚎》《虹彩六號》的 Vantage Studio；據 GamesIndustry.biz，原因是專案取消或大幅縮減範圍，育碧說將提供資遣費、延長醫療福利與轉職協助。兩個工作室長期受加拿大政府補貼，育碧數月前已關閉同樣受補貼的哈利法克斯工作室。另一方面，Take-Two 在《GTA VI》上市前夕裁減《文明帝國》開發商 Firaxis 人員，2K 發言人說工作室將重組、聚焦策略遊戲的設計、技術與玩家體驗，負責人 Heather Hazen 也將離職。",
-     "also": [
-      {
-       "text": "Game Developer",
-       "url": "https://www.gamedeveloper.com/business/take-two-lays-off-firaxis-employees-on-eve-of-grand-theft-auto-vi-launch"
-      }
-     ],
+     "summary_html": "經歷 Epic Games 收購、再隨 SketchFab 一併賣給 KitBash3D 後，ArtStation 宣布關閉 Marketplace：2026 年 12 月 18 日起停止接受新訂單，但藝術家的商店頁保留。結帳與下載改由 Gumroad 處理，商品仍顯示在藝術家 ArtStation 個人頁的 Store 分頁，舊商品連結會導向該分頁；2027 年初將加入依分類瀏覽的商品動態與作品頁上的 Project Ads。買家過去的購買與下載保留到 2028 年 12 月 31 日；賣家現在就可連結 Gumroad 帳號遷移商品。",
+     "also": [],
      "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "兩起裁員都發生在母公司有大作或財報亮點的時候，顯示大廠正把資源集中到少數主力品牌、砍掉邊緣專案。政府補貼沒能保住職位，也讓靠稅務優惠吸引工作室的地區政策受到檢驗。對開發者而言，3A 人才外流可能持續流向獨立團隊與小遊戲、H5 等成本較低的領域。",
+     "dive_html": "對買過 ArtStation 素材的團隊，最實際的動作是在 2028 年底前把已購資產下載備份並保存授權證明，避免日後追溯授權時找不到來源。這也是美術資產市集持續整併的一例：本週 Unity 收購 Synty、ArtStation 把交易外包，素材取得管道正在集中化。",
      "facets": {
       "region": [
-       "北美"
-      ],
-      "country": [
-       "CA",
-       "US"
+       "全球"
       ],
       "taiwan": [
        "無"
       ],
       "topic": [
-       "遊戲",
-       "勞動",
-       "產業與企業"
+       "產業與企業",
+       "遊戲"
       ],
       "event": [
-       "財報營運",
-       "人事異動"
+       "財報營運"
       ],
       "sector": [
+       "網路平台",
        "遊戲"
       ],
       "org": [
-       "育碧",
-       "騰訊",
-       "Vantage Studio",
-       "Take-Two",
-       "Firaxis",
-       "2K"
-      ],
-      "person": [
-       "Heather Hazen"
+       "ArtStation",
+       "Gumroad",
+       "KitBash3D",
+       "Epic Games"
       ],
       "affects": [
-       "勞工"
+       "開發者",
+       "消費者"
       ],
       "importance": [
        "中"
@@ -628,39 +1102,118 @@
        "負面"
       ],
       "stage": [
-       "持續發展"
+       "預告"
       ],
       "keyword": [
-       "裁員",
-       "Assassin's Creed",
-       "Civilization"
+       "ArtStation Marketplace",
+       "Gumroad",
+       "美術資產"
       ]
      }
     },
     {
      "type": "item",
-     "no": "10",
-     "key": "eef3ba3314",
-     "title": "英國 26 億美元集體訴訟遭駁回：法庭不認定 PlayStation 數位商店 30% 抽成構成壟斷",
-     "title_html": "英國 26 億美元集體訴訟遭駁回：法庭不認定 PlayStation 數位商店 30% 抽成構成壟斷",
-     "url": "https://www.gamedeveloper.com/console/playstation-emerges-victorious-in-a-2-6-billion-lawsuit-alleging-a-digital-monopoly",
+     "no": "18",
+     "key": "0fbd479e14",
+     "title": "歐洲遊戲工會聯合發表宣言，警告生成式 AI 濫用",
+     "title_html": "歐洲遊戲工會聯合發表宣言，警告生成式 AI 濫用",
+     "url": "https://www.gamedeveloper.com/production/europe-s-game-worker-unions-publish-a-manifesto-warning-against-unchecked-ai-usage",
      "src": "Game Developer",
-     "left": "11/19 02:14",
-     "ts": "2026-11-19T02:14:35+08:00",
+     "left": "11/18 05:21",
+     "ts": "2026-11-18T05:21:17+08:00",
      "heat": "",
      "tags": [],
-     "summary_html": "英國消費者權益人士 Alex Neill 於 2023 年代表 890 萬名英國 PlayStation 用戶提起 26 億美元集體訴訟，主張 Sony 對 PlayStation Store 所有數位購買抽成 30%、又同時決定商店售價，屬濫用支配地位、導致售價過高。倫敦競爭上訴法庭已駁回此案，訴訟不會再進行。據報導，法庭部分理由是消費者仍可選擇實體版，因此 PlayStation 無法壟斷數位銷售，但 PlayStation 將於 2028 年停產實體遊戲；整體而言法庭不接受數位商店定價過高的主張。",
+     "summary_html": "IWGB Game Workers&#x27; Branch 與愛爾蘭 Game Workers Unite Ireland、西班牙 CSVI、米蘭 FIOM-CGIL 工作委員會聯合發表宣言，從社會經濟、環境、倫理與製作品質等角度列出生成式 AI 的問題，並提出工會應對方案。核心論點是生成式 AI 造成工作條件惡化與失業：被當成人力替代品推銷、帶來不切實際的時程壓力，並讓雇主得以推卸責任。宣言寫道，生成式 AI 目前正在傷害遊戲產業、從業者與他們做出的遊戲，若不加約束，傷害會持續擴大。",
      "also": [],
      "also_more": [],
      "bullets_html": [],
      "table": null,
-     "dive_html": "這個判決讓平台 30% 抽成在英國少了一個法律挑戰，對同樣面臨抽成爭議的手機與小遊戲平台也是有利先例。但法庭部分依據的「實體版仍可選」會在 2028 年消失，未來若有人以此為由再訴，結果未必相同。",
+     "dive_html": "這份宣言與同週 Ubisoft 加碼 AI、Unity 推 AI 原生平台形成對照，顯示歐洲勞資雙方對 AI 導入的立場正在拉開。對在歐洲發行或與歐洲工作室合作的團隊，AI 生成內容的揭露與工作流程可能成為談判項目，值得事先盤點自己專案中 AI 素材的來源與比例。",
      "facets": {
       "region": [
        "歐洲"
       ],
       "country": [
        "GB",
+       "IE",
+       "ES",
+       "IT"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "遊戲",
+       "勞動",
+       "AI"
+      ],
+      "event": [
+       "聲明評論"
+      ],
+      "sector": [
+       "遊戲",
+       "AI"
+      ],
+      "org": [
+       "IWGB Game Workers",
+       "Game Workers Unite Ireland",
+       "CSVI",
+       "FIOM-CGIL"
+      ],
+      "affects": [
+       "勞工",
+       "開發者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "評論觀點"
+      ],
+      "keyword": [
+       "生成式 AI",
+       "工會",
+       "宣言"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "19",
+     "key": "f482344917",
+     "title": "Unity 收購 Synty Studios、推 5 萬美元獨立開發補助，並回應私有化傳聞",
+     "title_html": "Unity 收購 Synty Studios、推 5 萬美元獨立開發補助，並回應私有化傳聞",
+     "url": "https://gamefromscratch.com/unity-announce-fellowship-acquire-synty-studios/",
+     "src": "GameFromScratch",
+     "left": "11/18 00:18",
+     "ts": "2026-11-18T00:18:00+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Unity 在 Unite Tokyo 期間宣布兩件事。一是 Unity Fellowship：挑選 10 個距上市約一年的獨立團隊，各給 5 萬美元，不要求償還、不分潤、不取得 IP，並提供專屬窗口、專家網絡、Unity 活動曝光與行銷公關支援。二是收購以 POLYGON 系列低多邊形美術包聞名的 Synty Studios，其資產將進入 Unity 即將推出的「AI 原生」遊戲製作平台 Unity Spark，Spark 直接連接 Unity Asset Store。另據 Game Developer，路透社本月稍早報導 Unity 正與先前收購 EA 的投資集團（由 Silver Lake 與沙烏地公共投資基金領軍）洽談私有化全面收購；Unity 產品資深副總裁 Adam Smith 受訪時表示，公司交出強勁季報後出現猜測與標題「極為常見」，對相關對話「沒有其他可說」。",
+     "also": [
+      {
+       "text": "Game Developer",
+       "url": "https://www.gamedeveloper.com/business/unity-to-support-indies-with-cash-and-dedicated-support-through-new-fellowship-program"
+      },
+      {
+       "text": "Game Developer",
+       "url": "https://www.gamedeveloper.com/business/-it-s-common-for-there-to-be-speculation-and-headlines-unity-exec-addresses-acquisition-rumors"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "收購 Synty 並直接灌進 Unity Spark，顯示 Unity 想以「AI 生成＋現成美術資產」吸引非專業創作者；對既有 Asset Store 賣家而言，官方自營大型資產庫會帶來競爭壓力。私有化傳聞方面，Smith 的回應沒有否認，若真的下市，Unity 的定價與授權政策將少一層公開市場的約束，是開發者評估引擎長期風險時要追蹤的變數。",
+     "facets": {
+      "region": [
+       "北美",
+       "東北亞"
+      ],
+      "country": [
+       "US",
        "JP"
       ],
       "taiwan": [
@@ -668,77 +1221,7 @@
       ],
       "topic": [
        "遊戲",
-       "法律與司法"
-      ],
-      "event": [
-       "訴訟判決"
-      ],
-      "sector": [
-       "遊戲"
-      ],
-      "org": [
-       "Sony",
-       "PlayStation",
-       "英國競爭上訴法庭"
-      ],
-      "person": [
-       "Alex Neill"
-      ],
-      "affects": [
-       "玩家",
-       "開發者"
-      ],
-      "importance": [
-       "中"
-      ],
-      "tone": [
-       "好壞參半"
-      ],
-      "stage": [
-       "後續追蹤"
-      ],
-      "keyword": [
-       "PlayStation Store",
-       "30% 抽成",
-       "集體訴訟"
-      ]
-     }
-    },
-    {
-     "type": "item",
-     "no": "11",
-     "key": "e07b0414c5",
-     "front": 3,
-     "title": "Unity 主管回應私有化傳聞：強勁季報後常見臆測，季營收年增 32%",
-     "title_html": "Unity 主管回應私有化傳聞：強勁季報後常見臆測，季營收年增 32%",
-     "url": "https://www.gamedeveloper.com/business/-it-s-common-for-there-to-be-speculation-and-headlines-unity-exec-addresses-acquisition-rumors",
-     "src": "Game Developer",
-     "left": "11/17 02:14",
-     "ts": "2026-11-17T02:14:49+08:00",
-     "heat": "",
-     "tags": [],
-     "summary_html": "Reuters 本月稍早報導，Unity 正與先前收購 EA 的投資集團（由 Silver Lake 與沙烏地公共投資基金領軍）洽談全面收購、下市私有化。Unity 產品資深副總裁 Adam Smith 接受 Game Developer 專訪時說，強勁季報後出現臆測與頭條「極其常見」，對相關對話「沒有其他可說」。Unity 最新一季營收由約 4.706 億美元增至 6.22 億美元、年增 32%；虧損 1.216 億美元，較去年的 1.268 億美元改善 4%；廣告部門 Grow Solutions 營收由 3.18 億增至 4.57 億美元、增 43%，是主要成長來源。",
-     "also": [],
-     "also_more": [],
-     "bullets_html": [],
-     "table": null,
-     "dive_html": "營收成長主要來自廣告而非引擎業務，若真被私有化，買方的盤算可能更偏向廣告變現，引擎授權與定價政策的走向值得引擎選型時納入考量。Unity 未否認洽談，只是不評論；對正評估 Cocos、Godot 或 Unity 的團隊，這是長期授權風險的參考點，不是立即要改決策的訊號。",
-     "facets": {
-      "region": [
-       "北美",
-       "中東"
-      ],
-      "country": [
-       "US",
-       "SA"
-      ],
-      "taiwan": [
-       "無"
-      ],
-      "topic": [
-       "遊戲",
-       "產業與企業",
-       "金融市場"
+       "產業與企業"
       ],
       "event": [
        "併購投資",
@@ -748,14 +1231,14 @@
        "Unity 私有化傳聞"
       ],
       "sector": [
-       "遊戲",
-       "軟體與雲端"
+       "遊戲"
       ],
       "org": [
        "Unity",
+       "Synty Studios",
        "Silver Lake",
        "沙烏地公共投資基金",
-       "Reuters"
+       "路透社"
       ],
       "person": [
        "Adam Smith"
@@ -768,15 +1251,93 @@
        "中"
       ],
       "tone": [
-       "中性"
+       "好壞參半"
       ],
       "stage": [
-       "後續追蹤"
+       "持續發展"
       ],
       "keyword": [
-       "Unity",
-       "私有化",
-       "Grow Solutions"
+       "Unity Fellowship",
+       "Unity Spark",
+       "Synty",
+       "POLYGON"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "GitHub 週趨勢",
+   "count": 1,
+   "blocks": [
+    {
+     "type": "note",
+     "blocks": [
+      {
+       "kind": "p",
+       "html": "本週三個週榜以 coding agent 工具為主，和遊戲引擎直接相關的專案不多；以下挑與 H5 開發流程相關的一則。"
+      }
+     ]
+    },
+    {
+     "type": "item",
+     "no": "20",
+     "key": "95c23a9afe",
+     "title": "GoogleChrome/modern-web-guidance-src：讓 coding agent 寫出現代 Web 寫法的 skill 集",
+     "title_html": "GoogleChrome/modern-web-guidance-src：讓 coding agent 寫出現代 Web 寫法的 skill 集",
+     "url": "https://github.com/GoogleChrome/modern-web-guidance-src",
+     "src": "GitHub Trending",
+     "left": "This week",
+     "heat": "+3,575 stars this week",
+     "tags": [],
+     "summary_html": "一組把 Web 平台知識、最佳實務與瀏覽器相容性資料嵌入 coding agent 的 skill，由 Google Chrome、Microsoft Edge、Mozilla Firefox 與 MDN 團隊共同維護。README 說明 LLM 訓練資料中有大量舊程式碼，agent 常產出肥大的 JavaScript；這套 skill 引導它改用現代平台能力。`npx modern-web-guidance@latest install` 安裝（需 Node.js 22+），也能直接 `search`、`retrieve` 指南，或用 `legacy-scan` 掃描程式碼庫中該現代化的寫法。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>Lang</strong>: TypeScript"
+     ],
+     "table": null,
+     "dive_html": "對 H5 遊戲而言，遊戲本體多在 Canvas／WebGL 裡，這套指南幫助較大的是外層：載入頁、活動頁、彈窗與 DOM UI。用 AI 寫這些周邊頁面的團隊，裝上後可減少 agent 產出過時寫法、降低相容性問題。#WebPlatform #AgentSkills #Frontend",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "開源",
+       "AI",
+       "科技"
+      ],
+      "event": [
+       "產品發布"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "Google Chrome",
+       "Microsoft Edge",
+       "Mozilla",
+       "MDN"
+      ],
+      "affects": [
+       "開發者"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "Modern Web Guidance",
+       "Agent Skills",
+       "legacy-scan"
       ]
      }
     }
@@ -785,7 +1346,7 @@
  ],
  "foot_left": "本報告由 news-aggregator 自動彙整",
  "stats": {
-  "items": 11,
-  "sections": 5
+  "items": 20,
+  "sections": 7
  }
 }
