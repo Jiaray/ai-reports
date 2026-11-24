@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <meta name="color-scheme" content="light dark">
-<script>try{var t=localStorage.getItem('air-theme');if(t==='light'||t==='dark'){document.documentElement.setAttribute('data-theme',t);document.querySelector('meta[name=color-scheme]').content=t}var l=localStorage.getItem('air-news-look');if(l==='atlas'||l==='standard')document.documentElement.setAttribute('data-look',l)}catch(e){}</script>
+<script>/* 防閃：第一次繪製前先套用記住的配色與外觀（地圖、一般；藍圖是預設不用設）；其餘程式在 site.js、report.js、front.js */try{var t=localStorage.getItem('air-theme');if(t==='light'||t==='dark'){document.documentElement.setAttribute('data-theme',t);document.querySelector('meta[name=color-scheme]').content=t}var l=localStorage.getItem('air-news-look');if(l==='atlas'||l==='standard')document.documentElement.setAttribute('data-look',l)}catch(e){}</script>
 <meta name="robots" content="noindex,nofollow">
 <title>新聞簡報｜AI Reports</title>
 <meta name="description" content="每天從公開新聞來源彙整的繁體中文簡報：綜合、國際、財經、AI 等。">
@@ -14,22 +14,26 @@
 <meta property="og:title" content="新聞簡報｜AI Reports">
 <meta property="og:description" content="每天從公開新聞來源彙整的繁體中文簡報：綜合、國際、財經、AI 等。">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' fill='%23153048'/%3E%3Cpath d='M9 11h14M9 16h14M9 21h9' stroke='%23fff' stroke-width='2.5'/%3E%3C/svg%3E">
+<!-- 加入主畫面（名稱「AI 頭版」，從 news/ 頭版開）：manifest 給 Android／桌機，apple-touch-icon 給 iOS -->
 <link rel="manifest" href="manifest.webmanifest">
 <link rel="apple-touch-icon" href="assets/icon-192.png">
 <meta name="apple-mobile-web-app-title" content="AI 頭版">
+<!-- 思源黑體（Noto Sans TC）：藍圖、地圖外觀的內文與標題（使用者選定）。可變字重 400–700 一套檔案；display=swap：字型到之前先用系統字 -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@400..700&display=swap">
-<link rel="stylesheet" href="../assets/site.css?v=2026112308">
-<link rel="stylesheet" href="assets/report.css?v=2026112308">
-<link rel="stylesheet" href="assets/front.css?v=2026112308">
-<link rel="stylesheet" href="assets/look-standard.css?v=2026112308">
-<script src="../assets/site.js?v=2026112308" defer></script>
-<script src="assets/bar.js?v=2026112308" defer></script>
-<script src="assets/look-standard.js?v=2026112308" defer></script>
-<script src="assets/facets.js?v=2026112308" defer></script>
-<script src="assets/report.js?v=2026112308" defer></script>
-<script src="assets/front.js?v=2026112308" defer></script>
+<!-- ?v=：CSS、JS 的版本號（使用者要求：改版推上去就拿到新檔，不等快取過期）。改了 assets/ 或 news/assets/ 任何 CSS、JS，
+     把 index.html、404.html、news/index.html 裡全部的 ?v= 改成同一個新值（台北日期＋兩位序號，例 2026112101） -->
+<link rel="stylesheet" href="../assets/site.css?v=2026112401">
+<link rel="stylesheet" href="assets/report.css?v=2026112401">
+<link rel="stylesheet" href="assets/front.css?v=2026112401">
+<link rel="stylesheet" href="assets/look-standard.css?v=2026112401">
+<script src="../assets/site.js?v=2026112401" defer></script>
+<script src="assets/bar.js?v=2026112401" defer></script>
+<script src="assets/look-standard.js?v=2026112401" defer></script>
+<script src="assets/facets.js?v=2026112401" defer></script>
+<script src="assets/report.js?v=2026112401" defer></script>
+<script src="assets/front.js?v=2026112401" defer></script>
 </head>
 <body>
 <a class="skip-link visually-hidden" href="#main">跳到主要內容</a>
