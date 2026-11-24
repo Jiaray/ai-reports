@@ -1,0 +1,1082 @@
+{
+ "schema": 1,
+ "series": "tech",
+ "series_title": "科技日報",
+ "group": "科技",
+ "cadence": "daily",
+ "period": "2026-11-24",
+ "date": "2026-11-24",
+ "title": "科技日報",
+ "brief": "DAILY TECH & AI BRIEFING",
+ "issue": "NO. 2026-328",
+ "generated_at": "2026-11-24T09:07:56+08:00",
+ "lede": "黃仁勳在川普介入下重掌輝達、股價單日漲逾三成，美方同日將 Megaspeed 列入黑名單；CrowdStrike 以約 440 億美元併 Zscaler；獨立瀏覽器 Ladybird 釋出 alpha、Stalwart 宣稱可直接取代 Exchange；西方情報憂俄國最快 12 月把核武衛星送上軌道。",
+ "src_tags": [
+  "Hacker News",
+  "Ars Technica",
+  "The Verge",
+  "科技新報",
+  "BBC",
+  "衛報"
+ ],
+ "intro": [
+  {
+   "kind": "p",
+   "html": "黃仁勳在川普介入下重掌輝達、股價單日漲逾三成，美方同日將 Megaspeed 列入黑名單；CrowdStrike 以約 440 億美元併 Zscaler；獨立瀏覽器 Ladybird 釋出 alpha、Stalwart 宣稱可直接取代 Exchange；西方情報憂俄國最快 12 月把核武衛星送上軌道。"
+  }
+ ],
+ "sections": [
+  {
+   "name": "硬體與晶片",
+   "count": 3,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "01",
+     "key": "3c7214ece7",
+     "front": 2,
+     "title": "美商務部將新加坡資料中心商 Megaspeed 列入黑名單，涉嫌把輝達晶片轉運中國",
+     "title_html": "美商務部將新加坡資料中心商 Megaspeed 列入黑名單，涉嫌把輝達晶片轉運中國",
+     "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo",
+     "src": "BBC Technology",
+     "left": "11/24 07:16",
+     "ts": "2026-11-24T07:16:08+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "美國商務部宣布計畫把新加坡公司 Megaspeed 及其子公司 Speedmatrix 加入貿易黑名單，禁止美國企業對其出售晶片等先進技術，生效日未公布。Megaspeed 主要開發資料中心，曾大量採購輝達晶片、金額達數十億美元，與中國業務往來密切，阿里巴巴據報是大客戶之一。商務部表示已調查近兩年，懷疑其違反出口管制、協助輝達晶片流入中國（中國自 2022 年起被禁止購買這類晶片）。前高管 Alice Huang 被指與黃仁勳有婚外情，且被美國情報認為替北京工作，使該公司受到更多檢視；中國否認她是間諜，並警告美方不要藉此實施「技術封鎖」。黑名單宣布與輝達董事會讓黃仁勳復職在同一天。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "白宮一邊替黃仁勳背書「沒有國安風險」，一邊對 Megaspeed 動手，等於把責任落在轉運商身上，讓輝達本身與晶片外流案切開。但調查近兩年才出手，顯示新加坡等第三地轉運仍是出口管制的漏洞；後續要看黑名單何時生效、是否擴及其他東南亞資料中心業者，以及輝達在案中角色的調查會不會有結論。",
+     "facets": {
+      "region": [
+       "東南亞",
+       "北美",
+       "中國大陸"
+      ],
+      "country": [
+       "SG",
+       "US",
+       "CN"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "科技",
+       "國防與安全",
+       "政治"
+      ],
+      "event": [
+       "政策法規",
+       "犯罪執法"
+      ],
+      "story": [
+       "Nvidia 晶片流中國案"
+      ],
+      "sector": [
+       "半導體",
+       "AI"
+      ],
+      "org": [
+       "美國商務部",
+       "Megaspeed",
+       "Speedmatrix",
+       "輝達",
+       "阿里巴巴"
+      ],
+      "person": [
+       "黃仁勳",
+       "Alice Huang"
+      ],
+      "affects": [
+       "企業",
+       "政府與監管"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "實體清單",
+       "出口管制"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "02",
+     "key": "e6efe33a08",
+     "title": "Arm 發律師函，熱門 AArch64 指令參考站 12 月 4 日停站",
+     "title_html": "Arm 發律師函，熱門 AArch64 指令參考站 12 月 4 日停站",
+     "url": "https://arm.jonpalmisc.com/",
+     "src": "Hacker News",
+     "left": "11/24 03:17",
+     "ts": "2026-11-24T03:17:55+08:00",
+     "heat": "HN 823",
+     "tags": [],
+     "summary_html": "個人維護的「Jon&#x27;s Arm Reference」網站宣布將於 2026 年 12 月 4 日關站，站長 Jon 表示 Arm 的律師通知他下架網站，否則將採取法律行動。該站提供 Armv8-A 與 Armv9-A 架構的 AArch64 指令集與系統暫存器參考文件，可搜尋並瀏覽 Base、SIMD、SVE、SME 指令及 AArch64／AArch32 暫存器。站長感謝多年來的使用者（包括 Arm 內部員工），並表示會研究讓既有書籤與連結繼續可用的辦法。這則在 Hacker News 獲 800 多分。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50617499"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "這個站受歡迎，是因為官方文件難以快速查詢；Arm 選擇發律師函而非改善自家文件，可能在開發者社群引起反感。爭點多半落在文件的著作權，後續若有人以其他形式重建，或 Arm 改善官方查詢介面，都會影響編譯器、作業系統與逆向工程社群的日常工作。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "科技",
+       "法律與司法"
+      ],
+      "event": [
+       "爭議風波"
+      ],
+      "sector": [
+       "半導體",
+       "軟體與雲端"
+      ],
+      "org": [
+       "Arm"
+      ],
+      "affects": [
+       "開發者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "AArch64",
+       "Armv9-A",
+       "指令集文件"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "03",
+     "key": "677c0e35fb",
+     "title": "MacBook 觸控板變喇叭：Nospeaker 用觸覺馬達合成語音",
+     "title_html": "MacBook 觸控板變喇叭：Nospeaker 用觸覺馬達合成語音",
+     "url": "https://github.com/os6/nospeaker",
+     "src": "Hacker News",
+     "left": "11/23 19:31",
+     "ts": "2026-11-23T19:31:54+08:00",
+     "heat": "HN 271",
+     "tags": [],
+     "summary_html": "開源專案 Nospeaker 利用 MacBook 觸控板底下負責模擬點擊觸感的小型觸覺馬達發聲：以每秒最高 4,000 次驅動馬達，產生聽得見的聲音並轉成語音，可以說話、唱歌，也能當樂器，Mac 靜音時照樣出聲。程式支援 Apple Silicon 與 Intel Mac，可指定 macOS 內建語音、播放 100 Hz 到 4 kHz 的掃頻音；發行版經 Apple Developer ID 簽章與公證，也可從原始碼自行建置。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50610318"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "把致動器當揚聲器的玩法展示了觸覺馬達的頻寬，對一般使用者是趣味實驗，但也提醒安全研究者：不被視為音訊輸出的硬體同樣可能發出聲音，靜音設定不等於裝置完全無聲。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "科技",
+       "開源"
+      ],
+      "event": [
+       "產品發布"
+      ],
+      "sector": [
+       "硬體與消費電子"
+      ],
+      "org": [
+       "Apple"
+      ],
+      "affects": [
+       "開發者",
+       "一般使用者"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "keyword": [
+       "Nospeaker",
+       "觸覺馬達",
+       "MacBook 觸控板"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "軟體與平台",
+   "count": 5,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "04",
+     "key": "485decdaf4",
+     "title": "Kagi 推出 Kagi Mail 公測，主打無追蹤、無廣告挑戰 Gmail",
+     "title_html": "Kagi 推出 Kagi Mail 公測，主打無追蹤、無廣告挑戰 Gmail",
+     "url": "https://www.theverge.com/tech/1041000/kagi-mail-email-google-gmail-alternative",
+     "src": "The Verge",
+     "left": "11/24 08:02",
+     "ts": "2026-11-24T08:02:52+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "已推出付費搜尋與 Orion 瀏覽器的 Kagi 發布電子郵件服務 Kagi Mail 公測版，主打「無監控、無廣告、開放標準、不綁定」。使用者可取得 @kagimail.com 地址，也支援無限別名與自有網域，提供 50GB 空間與內建行事曆；聯絡人與通訊錄排在 2027 年第一季，原生行動 App 要到 2027 年第三季。服務建在開放標準與開源基礎上（Stalwart 伺服器、IMAP、JMAP、CalDAV），可用任何相容客戶端收信；另有以自然語言設定的分類規則、收件匣重點與信件問答等 AI 功能，可一鍵全部關閉。試用 60 天後年費 99 美元，月費 25 美元的 Kagi Ultimate 方案內含。",
+     "also": [
+      {
+       "text": "Hacker News",
+       "url": "https://blog.kagi.com/kagi-mail-public-beta"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "Kagi 的策略是把 Google 的核心服務逐一做成付費、無廣告版本，郵件是黏著度最高、也最難搬家的一塊。行動 App 要到 2027 年下半年才有，短期內對一般使用者的吸引力有限，比較可能先吸引已付費的 Kagi 用戶與重視隱私的小團隊。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "科技"
+      ],
+      "event": [
+       "產品發布"
+      ],
+      "sector": [
+       "網路平台",
+       "軟體與雲端"
+      ],
+      "org": [
+       "Kagi",
+       "Google",
+       "Fastmail",
+       "Tuta"
+      ],
+      "affects": [
+       "一般使用者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "keyword": [
+       "Kagi Mail",
+       "Gmail",
+       "JMAP",
+       "CalDAV",
+       "Stalwart"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "05",
+     "key": "5d77209223",
+     "front": 4,
+     "title": "獨立瀏覽器 Ladybird 釋出 alpha，多年來首個全新自製引擎",
+     "title_html": "獨立瀏覽器 Ladybird 釋出 alpha，多年來首個全新自製引擎",
+     "url": "https://www.theverge.com/tech/1040872/ladybird-indie-browser-engine-alpha-testing",
+     "src": "The Verge",
+     "left": "11/24 06:38",
+     "ts": "2026-11-24T06:38:09+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Ladybird 開發者 Andreas Kling 宣布，這款從零打造引擎的獨立瀏覽器在開發四年多後於 macOS 與 Linux 推出 alpha 版，Windows 版要到專案「後期階段」才會推出。The Verge 指出，這是多年來首個帶著全新引擎問世的瀏覽器；目前主流瀏覽器只用三種引擎：Firefox 的 Gecko、Safari 的 WebKit，以及 Chromium 從 WebKit 分出的 Blink（Chrome、Edge、Opera 都用）。Ladybird 由非營利組織支持，目標是獨立、快速、安全、尊重隱私的瀏覽器；專案原以 C++ 開發，後來借助 AI 把程式移植到 Rust。Kling 坦言 alpha 版「簡陋但可用」，部分網站會無法運作。這則在 Hacker News 獲逾 1,300 分。",
+     "also": [
+      {
+       "text": "Hacker News",
+       "url": "https://ladybird.org/posts/alpha/"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "瀏覽器引擎寡占讓網頁標準實際上由 Google 主導，Ladybird 進入可試用階段，意味著第四個獨立實作開始能在真實網頁上檢驗相容性。短期內它不會撼動市占，關鍵在網站相容率能多快提升、非營利模式能否撐住長期維護，以及 Windows 版的時程。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "科技",
+       "開源"
+      ],
+      "event": [
+       "版本更新"
+      ],
+      "sector": [
+       "軟體與雲端",
+       "網路平台"
+      ],
+      "org": [
+       "Ladybird"
+      ],
+      "person": [
+       "Andreas Kling"
+      ],
+      "affects": [
+       "一般使用者",
+       "開發者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "keyword": [
+       "Ladybird",
+       "瀏覽器引擎",
+       "Gecko",
+       "Blink",
+       "WebKit",
+       "Rust"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "06",
+     "key": "d5878f2f15",
+     "title": "Stalwart 1.2.0 實作 Exchange 協定，Outlook 可直接連線的開源郵件伺服器",
+     "title_html": "Stalwart 1.2.0 實作 Exchange 協定，Outlook 可直接連線的開源郵件伺服器",
+     "url": "https://stalw.art/blog/microsoft-exchange-replacement/",
+     "src": "Hacker News",
+     "left": "11/24 06:32",
+     "ts": "2026-11-24T06:32:29+08:00",
+     "heat": "HN 168",
+     "tags": [],
+     "summary_html": "開源郵件伺服器 Stalwart 發布 1.2.0 版，宣稱可直接取代 Microsoft Exchange：新增 MAPI over HTTP、Exchange Web Services（EWS）、Exchange ActiveSync 與 Autodiscover 支援，Outlook、Apple Mail 與手機郵件 App 能像連 Exchange 一樣連上，郵件、行事曆、聯絡人、工作與記事都在同一帳號；功能放在以 AGPL 授權的社群版。專案維護者指出，Exchange 2016／2019 已於 2025 年 10 月終止支援，付費延伸安全更新據報在 2026 年 10 月結束；Subscription Edition 是唯一受支援的地端版本，新版 Outlook for Windows 不支援地端 Exchange 帳號，Exchange Online 的 EWS 從 2026 年 10 月開始關閉、2027 年 4 月全面停用。Kagi 同日推出的 Kagi Mail 也以 Stalwart 為伺服器。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50620349"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "微軟把地端 Exchange 逐步邊緣化，留下一批不想或不能上雲的組織，Stalwart 正好切進這個缺口。宣稱「直接取代」仍要看 MAPI 與 Outlook 細部行為的相容度，以及大型部署的遷移工具與支援能力；Kagi 採用它，至少提供了一個商用服務的實戰案例。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "科技",
+       "開源"
+      ],
+      "event": [
+       "版本更新"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "Stalwart",
+       "微軟"
+      ],
+      "affects": [
+       "企業",
+       "開發者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "keyword": [
+       "Stalwart",
+       "Microsoft Exchange",
+       "MAPI over HTTP",
+       "EWS",
+       "ActiveSync",
+       "AGPL"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "07",
+     "key": "42afc3642f",
+     "title": "Apple 未說明理由，將開源筆記 App FSNotes 下架歐盟商店，開發者求助無門",
+     "title_html": "Apple 未說明理由，將開源筆記 App FSNotes 下架歐盟商店，開發者求助無門",
+     "url": "https://github.com/glushchenko/fsnotes/discussions/2056",
+     "src": "Hacker News",
+     "left": "11/24 02:48",
+     "ts": "2026-11-24T02:48:10+08:00",
+     "heat": "HN 499",
+     "tags": [],
+     "summary_html": "開源筆記 App FSNotes 的烏克蘭獨立開發者在 GitHub 發文表示，經營 9 年的 App 幾週前被 Apple 從所有歐洲 App Store 下架，沒有明確說明，也沒有能迅速解決的管道。事情起於他沒收到 10 月的銷售款項，他在 11 月 5 日與 17 日開了兩張客服單，至今沒有任何回覆；他已在 App Store Connect 完成歐盟《數位服務法》（DSA）要求的合規資料，並提交烏克蘭政府商業登記文件，證明自己是合法登記、依法納稅的個體戶。他說 App 在排名與搜尋結果中的位置正在流失，即使恢復也難以挽回；FSNotes 仍可在 GitHub 免費取得。這則在 Hacker News 獲近 500 分。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50616933"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "目前只有開發者單方說法，Apple 未回應下架原因；從他補交 DSA 資料的過程看，問題可能卡在交易商身分審核。小型開發者遇到合規審查卡關時幾乎沒有申訴管道，若 Hacker News 上的關注促成 Apple 回應，可能再次凸顯平台審查流程缺乏透明度。",
+     "facets": {
+      "region": [
+       "歐洲"
+      ],
+      "country": [
+       "UA"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "科技",
+       "開源"
+      ],
+      "event": [
+       "爭議風波"
+      ],
+      "sector": [
+       "網路平台",
+       "軟體與雲端"
+      ],
+      "org": [
+       "Apple",
+       "App Store"
+      ],
+      "affects": [
+       "開發者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "FSNotes",
+       "App Store",
+       "數位服務法",
+       "DSA"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "08",
+     "key": "b1ae1a6721",
+     "title": "Win4wine 讓 Windows XP 的檔案總管在 Wine 上當 Linux 桌面",
+     "title_html": "Win4wine 讓 Windows XP 的檔案總管在 Wine 上當 Linux 桌面",
+     "url": "https://github.com/mikuta0407/win4wine",
+     "src": "Hacker News",
+     "left": "11/23 20:28",
+     "ts": "2026-11-23T20:28:11+08:00",
+     "heat": "HN 212",
+     "tags": [],
+     "summary_html": "實驗性開源專案 Win4wine，把 Windows XP 的 explorer.exe 放在修補過的 Wine 上，當作 Linux 的桌面殼層：工作列、開始功能表、桌面與資料夾視窗都是 XP 原版，Linux App 也會套上 XP 視窗框，支援工作列、Alt+Tab 與最小化／最大化，並出現在「所有程式」；Linux 的系統匣圖示與網路、電池、音量狀態也接到 XP 的通知區域。專案不附微軟檔案，需從使用者自己的 XP 光碟映像取出；沒有 XP 的可改用自由軟體 ReactOS 的殼層，也能試驗 Windows 7 殼層。作者強調只在新裝的 Debian 13 上測過，建議在虛擬機試用。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50610743"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "這是懷舊取向的實驗，不是日常可用的桌面，但顯示 Wine 對 Windows 系統元件的相容度已能跑起整個殼層，並與 Linux 原生視窗及系統匣整合。對 Wine 開發者而言，這類專案能暴露一般 App 測不到的系統 API 缺口。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "科技",
+       "開源"
+      ],
+      "event": [
+       "產品發布"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "Wine",
+       "ReactOS",
+       "微軟"
+      ],
+      "affects": [
+       "開發者",
+       "一般使用者"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "正面"
+      ],
+      "keyword": [
+       "Win4wine",
+       "Wine",
+       "Windows XP",
+       "explorer.exe",
+       "ReactOS",
+       "Debian 13"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "產業與法規",
+   "count": 4,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "09",
+     "key": "39569d0bc4",
+     "front": 3,
+     "title": "CrowdStrike 以約 440 億美元全股票併 Zscaler，創資安業最大併購",
+     "title_html": "CrowdStrike 以約 440 億美元全股票併 Zscaler，創資安業最大併購",
+     "url": "https://infosecu.technews.tw/2026/11/24/crowdstrike-to-acquire-zscaler/",
+     "src": "科技新報",
+     "left": "11/24 08:50",
+     "ts": "2026-11-24T08:50:01+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "CrowdStrike 11 月 23 日宣布以全股票交易收購同業 Zscaler，交易價值約 439 億美元，為資安產業史上最大併購。Zscaler 股東每股可換 1.135 股 CrowdStrike，以 20 日收盤價計溢價約 34%；雙方董事會已一致通過，還需 Zscaler 股東與監管機關批准，預計在 CrowdStrike 2028 會計年度下半年（2027 年 8 月至 2028 年 1 月）完成，持股 34% 的 Zscaler 創辦人兼執行長 Jay Chaudhry 已簽約支持。CrowdStrike 計畫把 Zscaler 的零信任網路安全功能整合進 Falcon 平台，並向約 8,000 家尚未使用其產品的 Zscaler 客戶推銷，預估合併後年度經常性收入超過 100 億美元。CrowdStrike 同日公布營收年增 28.3%、上修全年展望；消息公布後 Zscaler 收漲 17.67%，CrowdStrike 跌 8.92%。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "端點防護加上雲端網路存取，目標是做成和 Palo Alto Networks、微軟正面對決的一站式平台，延續 Google 併 Wiz、Palo Alto 併 CyberArk 的整併潮。收購方股價重挫反映市場擔心稀釋與溢價；交割要拖到 2027 年後，反壟斷審查與兩邊客戶的流失是主要變數。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "資安",
+       "產業與企業"
+      ],
+      "event": [
+       "併購投資",
+       "財報營運"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "CrowdStrike",
+       "Zscaler",
+       "Palo Alto Networks",
+       "微軟",
+       "William Blair"
+      ],
+      "person": [
+       "Jay Chaudhry"
+      ],
+      "affects": [
+       "企業",
+       "投資人"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "零信任",
+       "Falcon",
+       "Zero Trust Exchange",
+       "全股票交易"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "10",
+     "key": "88c939963f",
+     "title": "監控定價：業者用個資推算你願付的最高價",
+     "title_html": "監控定價：業者用個資推算你願付的最高價",
+     "url": "https://arstechnica.com/tech-policy/2026/11/surveillance-pricing-uses-our-personal-data-to-make-us-pay-more/",
+     "src": "Ars Technica",
+     "left": "11/24 04:11",
+     "ts": "2026-11-24T04:11:43+08:00",
+     "heat": "52 comments",
+     "tags": [],
+     "summary_html": "Ars Technica 專文介紹「監控定價」：依非營利組織 EPIC 的定義，這是一種演算法定價，依個人或群體的資料對同一商品或服務收取不同價格，目的是推算顧客願意付的最高價，資料來自瀏覽紀錄、智慧裝置與 App。它和依供需、庫存、競品價格調價的動態定價不同。文中舉例：Consumer Reports 2025 年發現 Instacart 的價格差異換算一個四口之家一年約差 1,200 美元，Instacart 之後已移除相關工具；Target App 曾被指用定位資料，讓人在店內時看到的電視貴 100 美元；Orbitz 2012 年被發現對 macOS 使用者優先顯示較貴的旅館。業者常否認自己的做法屬於監控定價。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "監控定價讓標價失去參考意義，消費者難以比價，也把個資蒐集直接轉成價差。它和動態定價界線模糊，正是業者能推託的空間；監管上要看是否有州或聯邦立法要求揭露個人化定價，以及限制用敏感資料定價。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "科技",
+       "社會",
+       "法律與司法"
+      ],
+      "event": [
+       "調查報告"
+      ],
+      "sector": [
+       "零售與消費",
+       "網路平台"
+      ],
+      "org": [
+       "EPIC",
+       "Instacart",
+       "Target",
+       "Orbitz",
+       "ZipRecruiter",
+       "Consumer Reports"
+      ],
+      "affects": [
+       "消費者",
+       "政府與監管"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "回顧分析"
+      ],
+      "keyword": [
+       "監控定價",
+       "個人化定價",
+       "動態定價",
+       "個資"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "11",
+     "key": "f46bae4b16",
+     "title": "亞馬遜在包裹貼貼紙、首頁彈窗，動員顧客反對紐約市《配送保護法》",
+     "title_html": "亞馬遜在包裹貼貼紙、首頁彈窗，動員顧客反對紐約市《配送保護法》",
+     "url": "https://arstechnica.com/tech-policy/2026/11/amazon-fights-delivery-protection-act-by-putting-stickers-on-its-packages/",
+     "src": "Ars Technica",
+     "left": "11/24 03:38",
+     "ts": "2026-11-24T03:38:13+08:00",
+     "heat": "64 comments",
+     "tags": [],
+     "summary_html": "紐約市部分亞馬遜顧客收到的包裹上貼著「市議會可能讓每筆訂單多付最多 5 美元」的貼紙，附 QR code 引導聯絡市議員表達反對。亞馬遜要阻擋的是編號 0518-2026 的《配送保護法》，該法要求在市內設有最後一哩配送設施的業者（如亞馬遜、FedEx）直接雇用目前外包的配送人員。Ars Technica 指出，亞馬遜過去從未用包裹做政治倡議；上週它也對紐約用戶顯示首頁橫幅與 App 彈窗，在部落格稱法案可能迫使它考慮把營運移出紐約、讓配送更慢更貴。紐約市長 Zohran Mamdani 與國際卡車司機工會的亞馬遜分部支持法案。亞馬遜發言人說是對顧客「透明」說明法案影響；截至上週五，顧客已寄出逾 6 萬封信給市議員。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "平台把購物頁面與實體包裹變成遊說管道，等於用龐大用戶基礎對地方立法施壓，且只呈現單方說法。法案核心是外包司機的雇用責任，若在紐約過關，可能成為其他城市規範最後一哩配送勞動的範本；亞馬遜的強硬動員也顯示它把這視為關鍵成本戰。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "產業與企業",
+       "勞動",
+       "政治"
+      ],
+      "event": [
+       "政策法規",
+       "爭議風波"
+      ],
+      "sector": [
+       "零售與消費",
+       "網路平台"
+      ],
+      "org": [
+       "亞馬遜",
+       "紐約市議會",
+       "國際卡車司機工會"
+      ],
+      "person": [
+       "Zohran Mamdani"
+      ],
+      "affects": [
+       "消費者",
+       "勞工",
+       "企業"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "Delivery Protection Act",
+       "最後一哩配送",
+       "外包司機"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "12",
+     "key": "e3a79f42fb",
+     "front": 1,
+     "title": "黃仁勳在川普介入下重掌輝達，股價單日漲逾 31%、市值回升近 1 兆美元",
+     "title_html": "黃仁勳在川普介入下重掌輝達，股價單日漲逾 31%、市值回升近 1 兆美元",
+     "url": "https://www.cnbc.com/2026/11/23/nvidia-jensen-huang-ceo.html",
+     "src": "Hacker News",
+     "left": "11/23 22:00",
+     "ts": "2026-11-23T22:00:18+08:00",
+     "heat": "HN 2034",
+     "tags": [],
+     "summary_html": "輝達董事會 11 月 23 日宣布一致決議恢復黃仁勳的執行長、總裁與董事職務，即刻生效；董事會表示決定前「得到美國政府高層的意見」，並確信此舉「不構成國安風險」。黃仁勳本月中旬因多段婚外情報導請辭，其中一名對象 Alice Huang 被指為中國間諜，《紐約時報》報導她與中國國家安全部官員有聯繫。川普對 CNBC 說是他「說服」董事會、「談成了這筆交易」，稱黃仁勳「沒做錯任何事」；《衛報》引《紐約時報》說副總統范斯在協商中扮演關鍵角色。輝達股價當天收漲約 31%，市值增加近 1 兆美元，帶動那斯達克漲 6.5%、費城半導體指數漲 14.03%，美光漲 19%、AMD 漲近 7%；BBC 指出輝達股價仍比一個月前低約 21%，另有路透報導 SEC 正調查其會計處理（BBC 未證實）。代理執行長約 10 天的 Colette Kress 回任財務長。評論分歧：XTB 分析師稱黃仁勳對產業有「護身符般的影響力」；The Information 專欄作家皮爾斯警告黃仁勳「靠川普保住飯碗」，白宮可能要求入股或安插董事；《衛報》評論認為董事會應集體請辭，The Verge 以「菁英免責」批評。黃仁勳返回總部時承諾「第二次會做得更好」。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50611576"
+      },
+      {
+       "text": "The Guardian Technology",
+       "url": "https://www.theguardian.com/technology/2026/nov/23/jensen-huang-reinstated-as-nvidia-chief-executive"
+      },
+      {
+       "text": "BBC Technology",
+       "url": "https://www.bbc.co.uk/news/articles/cq62pn6j42jko"
+      },
+      {
+       "text": "科技新報",
+       "url": "https://technews.tw/2026/11/24/jensen-huang-retakes-control-nvidia-us-media-warns-lingering-controversy-potential-trump-demands-reciprocity/"
+      },
+      {
+       "text": "The Verge",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1040652/jensen-huang-nvidia-trump-reinstated"
+      },
+      {
+       "text": "Hacker News",
+       "url": "https://foreignpolicy.com/2026/11/23/jensen-huang-nvidia-return-ceo-national-security-scandal/"
+      }
+     ],
+     "also_more": [
+      {
+       "text": "科技新報",
+       "url": "https://technews.tw/2026/11/24/jensen-huang-reinstated-as-nvidia-ceo/"
+      },
+      {
+       "text": "The Verge",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang"
+      },
+      {
+       "text": "The Verge",
+       "url": "https://www.theverge.com/ai-artificial-intelligence/1040819/welcome-to-elite-impunity-jensen-huang"
+      },
+      {
+       "text": "BBC Technology",
+       "url": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo"
+      },
+      {
+       "text": "BBC Technology",
+       "url": "https://www.bbc.co.uk/news/articles/c68798vdprwpo"
+      },
+      {
+       "text": "The Guardian Technology",
+       "url": "https://www.theguardian.com/technology/nils-pratley-on-finance/2026/nov/23/nvidia-board-jensen-huang-return"
+      }
+     ],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "這次復職把美國總統直接介入上市公司執行長任免的先例擺到檯面上：股價反應顯示市場認定輝達離不開黃仁勳，但董事會的治理權威已明顯受損，後續可能出現董事離職、主管異動。風險還在後面：Alice Huang 與晶片外流的調查、尚未證實的 SEC 調查，以及明年 1 月民主黨掌控國會後的追究。台灣供應鏈與台股和輝達連動極深，這輪暴跌暴漲也顯示單一人物風險已直接傳導到整個半導體族群。",
+     "facets": {
+      "region": [
+       "北美",
+       "中國大陸"
+      ],
+      "country": [
+       "US",
+       "CN"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "產業與企業",
+       "金融市場",
+       "政治"
+      ],
+      "event": [
+       "人事異動",
+       "市場波動"
+      ],
+      "story": [
+       "Nvidia 晶片流中國案",
+       "黃仁勳去留風波"
+      ],
+      "sector": [
+       "半導體",
+       "AI"
+      ],
+      "org": [
+       "輝達",
+       "白宮",
+       "美國證券交易委員會",
+       "Megaspeed"
+      ],
+      "person": [
+       "黃仁勳",
+       "川普",
+       "范斯",
+       "Colette Kress",
+       "Alice Huang"
+      ],
+      "affects": [
+       "投資人",
+       "企業"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "好壞參半"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "輝達",
+       "執行長復職",
+       "費城半導體指數",
+       "國家安全"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "科學與太空",
+   "count": 2,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "13",
+     "key": "3f6e6e0248",
+     "title": "俄國例行 ISS 補給任務 Progress MS-36 突然保密，NASA 拒答發射時間",
+     "title_html": "俄國例行 ISS 補給任務 Progress MS-36 突然保密，NASA 拒答發射時間",
+     "url": "https://arstechnica.com/space/2026/11/russia-will-launch-a-routine-iss-supply-mission-tomorrow-apparently-its-a-big-secret/",
+     "src": "Ars Technica",
+     "left": "11/24 04:34",
+     "ts": "2026-11-24T04:34:51+08:00",
+     "heat": "24 comments",
+     "tags": [],
+     "summary_html": "NASA 23 日的國際太空站記者會上，SpaceNews 記者詢問本週俄國 Progress 貨運任務的日期與時間，NASA 低軌計畫的 Gaurang Patel 只回應「請直接洽 Roscosmos」。這趟 Progress MS-36 預定在 24 日 10:13 UTC（台灣時間 18:13）從拜科努爾發射，前往美俄共同營運的太空站。Ars Technica 指出，NASA 過去每次都直播這類貨運發射，9 月時仍有直播，這次節目表卻完全沒有；俄國太空記者 Anatoly Zak 證實 Roscosmos 近幾個月「大幅縮減」所有發射的公開資訊，其 Telegram 頻道也未提及。這趟貨物中有一具協助太空漫步的機器人。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "例行補給被當成機密，反映美俄太空合作在政治緊張下的透明度持續下降；決定看來源自 Roscosmos，NASA 選擇配合而非公開。國際太空站仍需兩國協作運轉，資訊流減少讓外界更難判斷任務風險；同一天傳出俄國核武衛星的報導，也讓俄方發射活動受到更多關注。",
+     "facets": {
+      "region": [
+       "歐洲",
+       "北美"
+      ],
+      "country": [
+       "RU",
+       "US",
+       "KZ"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "科學",
+       "外交"
+      ],
+      "event": [
+       "爭議風波"
+      ],
+      "sector": [
+       "航太"
+      ],
+      "org": [
+       "NASA",
+       "Roscosmos",
+       "國際太空站"
+      ],
+      "person": [
+       "Gaurang Patel",
+       "Anatoly Zak"
+      ],
+      "affects": [
+       "政府與監管"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "預告"
+      ],
+      "keyword": [
+       "Progress MS-36",
+       "拜科努爾",
+       "國際太空站"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "14",
+     "key": "34d720d755",
+     "front": 5,
+     "title": "德媒：西方情報憂俄國最快 12 月把核武衛星送上軌道",
+     "title_html": "德媒：西方情報憂俄國最快 12 月把核武衛星送上軌道",
+     "url": "https://arstechnica.com/space/2026/11/russia-may-launch-a-nuclear-armed-satellite-far-sooner-than-we-thought/",
+     "src": "Ars Technica",
+     "left": "11/24 03:28",
+     "ts": "2026-11-24T03:28:30+08:00",
+     "heat": "49 comments",
+     "tags": [],
+     "summary_html": "德國公共廣播 NDR、WDR 與《南德日報》報導，包括德國聯邦國防軍與聯邦情報局在內的西方情報機構認為，俄國正準備今年把核武衛星部署到太空，研發進度比先前估計更快，多個北約國家已交換情報。報導稱這枚代號 Sputnik-S 的衛星多年來存放在莫斯科周邊，德國太空司令部認為最快 12 月就可能發射；入軌後可停留數月甚至數年，等待引爆命令。軌道核爆將無差別威脅低地球軌道上數千顆衛星，包括 Starlink、Starshield 等軍民通訊網、西方偵察衛星與國際太空站，也會波及俄國與中國自己的衛星。克里姆林宮發言人佩斯科夫稱報導充滿「據稱」「可能」等字眼、來源不明，不值得認真看待。若真發射將違反 1967 年《外太空條約》；俄國 2024 年曾在聯合國安理會否決重申太空禁核的決議草案。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "低軌衛星已是通訊、導航與軍事偵察的基礎設施，一顆在軌待命的核武就足以對整個星系構成要脅，威懾效果不必真正引爆。消息源自情報評估、俄方否認，目前無法證實；接下來要看是否出現實際發射跡象、北約與美國的公開回應，以及衛星營運商是否開始評估抗輻射與備援。",
+     "facets": {
+      "region": [
+       "歐洲",
+       "全球"
+      ],
+      "country": [
+       "RU",
+       "DE"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "國防與安全",
+       "科技"
+      ],
+      "event": [
+       "調查報告",
+       "軍事行動"
+      ],
+      "sector": [
+       "航太",
+       "國防",
+       "電信"
+      ],
+      "org": [
+       "德國聯邦情報局",
+       "德國太空司令部",
+       "克里姆林宮",
+       "北約",
+       "聯合國安理會"
+      ],
+      "person": [
+       "佩斯科夫",
+       "梅爾茨"
+      ],
+      "affects": [
+       "企業",
+       "政府與監管",
+       "一般民眾"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "預告"
+      ],
+      "keyword": [
+       "Sputnik-S",
+       "外太空條約",
+       "反衛星武器",
+       "Starlink",
+       "低地球軌道"
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "foot_left": "本報告由 news-aggregator 自動彙整",
+ "stats": {
+  "items": 14,
+  "sections": 4
+ }
+}
