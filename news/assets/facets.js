@@ -35,13 +35,20 @@
     if (!loading) {
       loading = A.getJSON('stories.json').then((doc) => {
         const next = { alias: new Map(), parent: new Map(), retire: new Set() };
+        const ups = [];
         ((doc && Array.isArray(doc.rules)) ? doc.rules : []).forEach((r) => {
           if (!r || typeof r.from !== 'string' || !r.from) return;
           if (r.type === 'alias' && typeof r.to === 'string' && r.to) next.alias.set(r.from, r.to);
-          else if (r.type === 'parent' && typeof r.to === 'string' && r.to) next.parent.set(r.from, r.to);
+          else if (r.type === 'parent' && typeof r.to === 'string' && r.to) ups.push([r.from, r.to]);
           else if (r.type === 'retire') next.retire.add(r.from);
         });
         rules = next;
+        // parent 兩邊換成改名合併後的名稱（同 facets.py story_rules）：子議題改名後仍掛在原上層；同名先核准的優先
+        ups.forEach(([from, to]) => {
+          const c = canonical(from);
+          const p = canonical(to);
+          if (c && p && c !== p && !next.parent.has(c)) next.parent.set(c, p);
+        });
       }).catch(() => { /* 沒有對照表或讀不到：議題照原樣顯示 */ });
     }
     return loading;
