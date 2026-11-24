@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-24T09:12:07+08:00",
+ "updated_at": "2026-11-24T09:17:09+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "international",
+   "series_title": "國際新聞日報",
+   "cadence": "daily",
+   "period": "2026-11-24",
+   "date": "2026-11-24",
+   "title": "國際新聞日報",
+   "lede": "黃仁勳在川普介入下重返 Nvidia，美股科技股大反彈、國會兩黨誓言追查；德國警告俄國最快 60 天內部署太空核武，歐盟提第 22 輪對俄制裁；胰臟癌新藥早期試驗傳出突破；台灣地方選舉進入最後一週",
+   "count": 40,
+   "data": "international/2026/2026-11-24.json",
+   "generated_at": "2026-11-24T09:17:09+08:00"
+  },
   {
    "series": "gambling",
    "series_title": "博奕產業新聞",

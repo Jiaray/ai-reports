@@ -4,8 +4,15 @@
  "title": "國際新聞日報",
  "group": "國際",
  "cadence": "daily",
- "updated_at": "2026-11-23T17:19:41+08:00",
+ "updated_at": "2026-11-24T09:17:09+08:00",
  "items": [
+  {
+   "period": "2026-11-24",
+   "date": "2026-11-24",
+   "count": 40,
+   "data": "international/2026/2026-11-24.json",
+   "generated_at": "2026-11-24T09:17:09+08:00"
+  },
   {
    "period": "2026-11-23",
    "date": "2026-11-23",
