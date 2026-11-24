@@ -1,13 +1,11 @@
-/* 外觀「一般」（data-look=standard）：照使用者提供的「晨光日報」設計規格改寫成新聞頁的一種外觀。
-   中性色＋品牌紅（--accent，只用在分類標籤、熱門徽章、解讀的引言線、hover），系統黑體、不載入字型；
-   淺色、深色各一套色票，深色時內文字重降到 300、標題 600、字距加大。版面：頭版是主欄（頭條＋兩欄卡片＋週報月報）＋
-   右側 320px「即時新聞」，報告頁是置中單欄（內容 720px）。工具列是凍結在頂端的 Header（底色 --surface、底下一條細線）。
-   只寫 [data-look=standard] 開頭的選擇器：藍圖、地圖兩種外觀完全不受影響。 */
+/* 外觀「一般」；頭版排法在 look-standard.js。品牌紅 --accent 只給分類標籤類文字、徽章、解讀引言線、hover、目前位置；
+   其餘中性色（不用領域色），選中用 --text 實心。資料沒有圖片：純文字卡片，不放圖片佔位、不載外部圖片。
+   定案不做：Logo、快訊列、系列主選單、深淺切換鈕、搜尋、分享、作者、相關新聞。 */
 
-/* ── 設計代幣：規格的 token，再對應到網站共用的 --color-*／--font-*（共用元件跟著換色） ── */
+/* ── 設計代幣：淺深各一套（非反轉），對應到共用 --color-*／--font-*，共用元件跟著換色 ── */
 :root[data-look=standard]{
   --bg:#FAFAF7;--surface:#FFFFFF;--text:#1A1A1A;--text-head:#1A1A1A;--text-2:#5C5C5C;--text-3:#73736E;--border:#E5E3DD;
-  --accent:#B3261E;--badge-bg:#B3261E;--badge-text:#FFFFFF;--link:#1F4E8C;--visited:#5B3E8C;--img-placeholder:#E9E7E1;--focus:#1F4E8C;
+  --accent:#B3261E;--badge-bg:#B3261E;--badge-text:#FFFFFF;--link:#1F4E8C;--visited:#5B3E8C;--focus:#1F4E8C;
   --hover-bg:#F1EFE9;
   --fw-body:400;--fw-head:700;--ls-body:.02em;
   --font-sans:-apple-system,BlinkMacSystemFont,"PingFang TC","Segoe UI",Roboto,"Microsoft JhengHei","Noto Sans CJK TC",sans-serif;
@@ -25,24 +23,22 @@
 }
 @media(prefers-color-scheme:dark){:root[data-look=standard]:not([data-theme=light]){
   --bg:#121316;--surface:#1C1F24;--text:#E8E6E3;--text-head:#D6D4D0;--text-2:#A0A4AB;--text-3:#858A93;--border:#2A2E35;
-  --accent:#EF5350;--badge-bg:#4A1B1B;--badge-text:#FFB4AB;--link:#7AB3FF;--visited:#B49CE0;--img-placeholder:#262A31;--focus:#7AB3FF;
+  --accent:#EF5350;--badge-bg:#4A1B1B;--badge-text:#FFB4AB;--link:#7AB3FF;--visited:#B49CE0;--focus:#7AB3FF;
   --hover-bg:#23272D;--fw-body:300;--fw-head:600;--ls-body:.03em;
 }}
 :root[data-look=standard][data-theme=dark]{
   --bg:#121316;--surface:#1C1F24;--text:#E8E6E3;--text-head:#D6D4D0;--text-2:#A0A4AB;--text-3:#858A93;--border:#2A2E35;
-  --accent:#EF5350;--badge-bg:#4A1B1B;--badge-text:#FFB4AB;--link:#7AB3FF;--visited:#B49CE0;--img-placeholder:#262A31;--focus:#7AB3FF;
+  --accent:#EF5350;--badge-bg:#4A1B1B;--badge-text:#FFB4AB;--link:#7AB3FF;--visited:#B49CE0;--focus:#7AB3FF;
   --hover-bg:#23272D;--fw-body:300;--fw-head:600;--ls-body:.03em;
 }
 
-/* ── 全頁：內容最寬 1200px、左右 20px；Header 貼齊頂端（.wrap 不留上內距） ── */
+/* ── 全頁：.wrap 不留上內距，Header 貼齊頂端 ── */
 :root[data-look=standard] body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:var(--font-sans)}
 [data-look=standard] .wrap{max-width:1200px;padding:0 20px 48px}
 [data-look=standard] .stale{margin-top:0;margin-bottom:0}
 [data-look=standard] :focus-visible{outline-color:var(--focus)}
 
-/* ── Header（工具列）：凍結在頂端，底色 --surface 鋪滿整個視窗寬（border-image 不會造成橫向捲動），底下一條 0.5px 細線；
-   「本日焦點」「本週回顧」是主選單：14px、--text-2，目前位置換 --text、字重 500、底下 2px --accent 線（同規格）。
-   日期與「版面」是圖示＋字的按鈕，滑過時字換品牌紅 ── */
+/* ── Header（.editions）：底色與底線用 border-image 鋪滿視窗寬（不造成橫向捲動） ── */
 [data-look=standard] .editions{min-height:64px;padding:0;gap:4px;border-top:0;background:transparent;
   border-image:linear-gradient(to top,var(--border) var(--hair),var(--surface) var(--hair)) fill 0 // 0 100vw}
 [data-look=standard] .editions.is-stuck{box-shadow:none}
@@ -54,17 +50,8 @@
 [data-look=standard] .vw .dd-toggle{margin-right:-10px}
 [data-look=standard] .dd-caret{color:var(--text-3)}
 [data-look=standard] :is(.dd-toggle,.ed-link,.dd-close,.chap-toggle,.fp-act,.fp-chip,.fp-fq-clear,.peek>summary,.more-sum,a):focus-visible{outline:2px solid var(--focus);outline-offset:2px}
-/* 手機：同 report.css，按鈕之間不另留間距、內距隨螢幕寬度伸縮（--ed-pad），本日焦點、本週回顧照樣是圖示＋字；
-   340px 以下「版面」也不保留 40px 寬 */
-@media(max-width:40em){
-[data-look=standard] .editions{min-height:56px;gap:0}
-[data-look=standard] :is(.dd-toggle,.ed-link){padding:0 var(--ed-pad)}
-[data-look=standard] .pd .dd-toggle,[data-look=standard] .editions>.ed-link:first-child{margin-left:calc(-1 * var(--ed-pad))}
-[data-look=standard] .vw .dd-toggle{min-width:40px;justify-content:center}
-}
-@media(max-width:21.25em){[data-look=standard] .vw .dd-toggle{min-width:0;margin-right:calc(-1 * var(--ed-pad))}}
 
-/* ── 下拉面板（日期、章節、版面）：--surface 底、0.5px 框、8px 圓角、淡陰影；目前項目左側 2px 品牌紅線 ── */
+/* ── 下拉面板 ── */
 [data-look=standard] .dd-panel{background:var(--surface);border:var(--hair) solid var(--border);border-radius:var(--radius);box-shadow:0 12px 32px -12px rgb(0 0 0 / .25)}
 [data-look=standard] .pd-group{background:var(--surface);color:var(--text-3);font-size:13px}
 [data-look=standard] .dd-title{font:700 15px/1.3 var(--font-sans);color:var(--text-head)}
@@ -74,12 +61,12 @@
 [data-look=standard] .vw-seg{gap:0;background:var(--border);border:var(--hair) solid var(--border);border-radius:var(--radius-sm);overflow:hidden}
 [data-look=standard] .vw-seg button{background:var(--surface);font:400 14px/1.2 var(--font-sans)}
 [data-look=standard] .vw-seg button+button{margin-left:var(--hair)}
-/* 上一行的 --surface 底與 report.css 的選中規則同權重、又排在後面，會蓋掉選中的深底，剩下 --surface 字＝看不見；選中與 hover 在這裡重寫 */
+/* 上一行與 report.css 的選中規則同權重又在後，會蓋掉選中深底：選中、hover 在此重寫 */
 [data-look=standard] .vw-seg button[aria-pressed=true]{background:var(--vw-on-bg);color:var(--vw-on-fg);font-weight:500}
 @media(hover:hover){[data-look=standard] .vw-seg button[aria-pressed=false]:hover{background:var(--hover-bg)}}
 [data-look=standard] .vw-label{color:var(--text-3)}
 
-/* ── 共用小元件：分類標籤（12px、500、品牌紅）、熱門徽章（快訊標籤的樣式）、「新」 ── */
+/* ── 共用小元件 ── */
 [data-look=standard] .hot-badge{margin-right:8px;padding:2px 6px;vertical-align:2px;border-radius:var(--radius-sm);background:var(--badge-bg);color:var(--badge-text);font:500 12px/1.3 var(--font-sans);letter-spacing:.04em}
 [data-look=standard] .fp-new{margin-left:8px;padding:1px 5px;vertical-align:2px;border:1px solid var(--accent);border-radius:var(--radius-sm);background:none;color:var(--accent);font:500 12px/1.3 var(--font-sans);letter-spacing:.04em}
 [data-look=standard] .tags{gap:4px 12px}
@@ -87,14 +74,12 @@
 [data-look=standard] .tag-neutral,[data-look=standard] .tag-outline{color:var(--text-3);font-weight:400;font-size:var(--fs-meta);letter-spacing:0}
 [data-look=standard] .tag-good{color:var(--text-2)}
 
-/* ── 報告頁：置中單欄（內容 720px）；Header 照樣是整個 1200 寬 ── */
+/* ── 報告頁：內容置中 720px，.editions、.stale 除外 ── */
 [data-look=standard] #app:not(.fp)>:not(.editions,.stale){max-width:720px;margin-inline:auto}
 [data-look=standard] .masthead{border:0;padding:32px 0 8px}
 [data-look=standard] .mast-title{margin:0;font:var(--fw-head) var(--fs-title)/1.3 var(--font-sans);letter-spacing:0;color:var(--text-head)}
 [data-look=standard] .chap-caret{width:.6em;height:.6em;margin-left:.2em;border-radius:var(--radius-sm)}
-/* 大標題那一行最右邊的讀法（report.css 的 .read-*）：新聞網站的膠囊切換——0.5px 細框的圓角膠囊，小標「讀法」用 --text-3，
-   選中那顆 --text 實心膠囊、字用 --surface（同「版面」選中與過濾標籤選中的樣子，不用品牌紅：規格的紅只給分類標籤與熱門徽章）；
-   滑過時字換品牌紅（同 Header）。標題沒有上下邊距，讀法也不留；換行時上下隔 12px */
+/* 讀法切換（.read-*） */
 [data-look=standard] .read-head{row-gap:12px}
 [data-look=standard] .read-sw{--read-h:30px;gap:2px;margin:0 0 0 auto;padding:3px;border:var(--hair) solid var(--border);border-radius:999px;background:var(--surface)}
 [data-look=standard] .read-lab{padding:0 6px 0 11px;background:none;border:0;color:var(--text-3);font:400 13px/1 var(--font-sans);letter-spacing:0}
@@ -108,15 +93,14 @@
 [data-look=standard] .rds-item[aria-pressed=true]{background:var(--hover-bg);color:var(--text);box-shadow:inset 2px 0 var(--accent)}
 [data-look=standard] .rds-item[aria-pressed=true] :is(.rds-ico,.rds-mk){color:var(--text)}
 [data-look=standard] .chap-toggle:hover .chap-caret,[data-look=standard] .chap-toggle[aria-expanded=true] .chap-caret{background:var(--hover-bg);color:var(--accent)}
-/* 分區：區塊標題（規格的 .section-title：粗字、底下 2px --text 實線） */
+/* 分區 */
 [data-look=standard] .sec{margin-top:40px}
 [data-look=standard] .sec-tab{display:block;padding:0 0 8px;background:none;color:var(--text-head);border-bottom:2px solid var(--text)}
 [data-look=standard] .sec-name{font:700 18px/1.3 var(--font-sans);letter-spacing:0}
 [data-look=standard] .sec-body{padding:0;border:0;background:none}
 [data-look=standard] .sec-sub{margin:24px 0 0;font:700 17px/1.4 var(--font-sans);letter-spacing:0;color:var(--text-head)}
 [data-look=standard] .sec-note{font:var(--fw-body) 16px/1.65 var(--font-sans);color:var(--text-2)}
-/* 一則條目（完整讀法）：時刻與來源標籤排在標題下同一行（規格：分類標籤 → 標題 → 時間），
-   條目之間 0.5px 細線；不放編號 */
+/* 條目（完整讀法）：grid 把時刻、來源標籤排到標題下同一行 */
 [data-look=standard] .row{border-top:var(--hair) solid var(--border)}
 [data-look=standard] .sec-body>.row:first-child,[data-look=standard] .sec-tab+.sec-body>.row:first-child{border-top:0}
 [data-look=standard] .row-no{display:none}
@@ -129,18 +113,18 @@
 [data-look=standard][data-read=full] .row-main>.tags{grid-row:2;grid-column:2}
 [data-look=standard][data-read=full] .row-left:has(.row-time:empty)~.row-main>.tags{grid-column:1 / -1}
 [data-look=standard] .row-time{font:400 var(--fs-meta)/1.5 var(--font-sans);letter-spacing:0;color:var(--text-3)}
-/* 報告頁的條目標題（完整、時間軸讀法）比卡片標題大 30%（使用者要求）；標題讀法另有 16px，頭版的卡片、清單不受影響 */
+/* 定案：報告頁條目標題＝卡片標題 ×1.3（標題讀法另設 16px） */
 [data-look=standard] .row-title{font:var(--fw-head) calc(var(--fs-card) * 1.3)/1.35 var(--font-sans);letter-spacing:0;color:var(--text-head)}
 [data-look=standard] .row-title a{color:var(--text-head)}
 [data-look=standard] .row-title a:hover{color:var(--accent)}
-/* 內文：規格的內文字級、行高、字距；段距 1em；連結藍色加底線、看過的換紫 */
+/* 內文（定案：段距 .8em）與連結 */
 [data-look=standard] .row-sum{font:var(--fw-body) var(--fs-body)/1.7 var(--font-sans);letter-spacing:var(--ls-body);color:var(--text)}
 [data-look=standard] .row-sum p+p,[data-look=standard] .row-dive p+p{margin-top:.8em}
 [data-look=standard] .row-bullets{font:var(--fw-body) 16px/1.65 var(--font-sans);letter-spacing:var(--ls-body);color:var(--text);padding-left:1.2em}
 [data-look=standard] :is(.row-sum,.row-bullets,.row-dive,.sec-note,.seealso,.seealso-more,.tbl) a{color:var(--link);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
 [data-look=standard] :is(.row-sum,.row-bullets,.row-dive,.sec-note,.seealso,.seealso-more,.tbl) a:visited{color:var(--visited)}
 [data-look=standard] :is(.row-sum,.row-bullets,.row-dive,.sec-note,.seealso,.seealso-more,.tbl) a:hover{color:var(--accent)}
-/* 解讀＝規格的引言：左邊 3px 品牌紅線、左內距 16px、--text-2、不加圓角 */
+/* AI 解讀：引言樣式 */
 [data-look=standard] .row-dive{margin:4px 0 0;padding:0 0 0 16px;border-left:3px solid var(--accent);background:none;font:var(--fw-body) var(--fs-body)/1.7 var(--font-sans);letter-spacing:var(--ls-body);color:var(--text-2)}
 [data-look=standard] .dive-label{margin-right:8px;color:var(--accent);font:500 var(--fs-tag)/1 var(--font-sans);letter-spacing:.04em}
 [data-look=standard] .row-also,[data-look=standard] .seealso-more{font:400 14px/1.8 var(--font-sans);color:var(--text-3)}
@@ -148,7 +132,7 @@
 [data-look=standard] .tbl th,[data-look=standard] .tbl td{border:var(--hair) solid var(--border)}
 [data-look=standard] .tbl th{background:var(--surface);color:var(--text-2)}
 [data-look=standard] .tbl table{font:var(--fw-body) 15px/1.6 var(--font-sans)}
-/* 本期來源與 Footer：Footer 底色 --surface 鋪滿整個視窗寬、上方細線、13px --text-3 */
+/* 本期來源、Footer（border-image 同 Header） */
 [data-look=standard] .srcs{margin-top:48px}
 [data-look=standard] .srcs-title{font:700 15px/1.5 var(--font-sans);letter-spacing:0;color:var(--text-head)}
 [data-look=standard] .srcs-list{display:block;font:400 13px/1.7 var(--font-sans);color:var(--text-3)}
@@ -158,13 +142,13 @@
   border-image:linear-gradient(to bottom,var(--border) var(--hair),var(--surface) var(--hair)) fill 0 // 0 100vw}
 [data-look=standard] .load-error{color:var(--text)}
 
-/* ── 標題讀法：規格「即時新聞」的列表（左欄時間 52px、右邊標題 15–16px），列與列之間細線 ── */
+/* ── 標題讀法：即時新聞式列表 ── */
 [data-look=standard][data-read=scan] .row{grid-template-columns:52px minmax(0,1fr);padding:14px 0}
 [data-look=standard][data-read=scan] .rt-hm{font:500 15px/1.5 var(--font-sans);color:var(--text-3)}
 [data-look=standard][data-read=scan] .row-title{font:var(--fw-body) 16px/1.6 var(--font-sans)}
 [data-look=standard] .peek>summary:hover .row-title{color:var(--accent)}
 [data-look=standard] .peek>summary::after{border-color:var(--text-3)}
-/* ── 時間軸：沿用原本結構，換成中性色（分區色點一律 --text-3） ── */
+/* ── 時間軸：只換中性色（分區色點 --sec-c 見代幣） ── */
 [data-look=standard] .tl-day{border-bottom:2px solid var(--text);font:700 15px/1.4 var(--font-sans);letter-spacing:0}
 [data-look=standard][data-read=timeline] .row{border-top:0}
 [data-look=standard][data-read=timeline] .rt-hm{font:500 16px/1.5 var(--font-sans)}
@@ -172,11 +156,10 @@
 [data-look=standard] .teaser{font:var(--fw-body) 15px/1.65 var(--font-sans);color:var(--text-2)}
 [data-look=standard] .more-hint{color:var(--link)}
 
-/* ── 頭版：主欄（頭條、要聞卡片、週報與月報）＋右側 320px「即時新聞」（桌機黏頂；比畫面高時側欄自己捲動） ── */
+/* ── 頭版（look-standard.js 排成 .std-home）：主欄＋右側即時新聞 ── */
 [data-look=standard] .fp-head{padding:28px 0 4px;column-gap:24px}
 [data-look=standard] .fp-head .mast-title{font-size:clamp(22px,1vw + 18px,28px)}
-/* 過濾標籤：中性色的圓角膠囊、拿掉領域色塊（規格：紅色以外一律中性色）；高度照頭版的規則貼合字級（使用者要求，
-   可點範圍由 front.css 的透明 ::after 補足），只換顏色、圓角與左右內距 */
+/* 過濾標籤：高度與可點範圍照 front.css，只換顏色、圓角、左右內距 */
 [data-look=standard] .fp .fp-chip{padding:3px 10px;border:var(--hair) solid var(--border);border-radius:999px;background:var(--surface);color:var(--text-2);font:400 14px/1 var(--font-sans);letter-spacing:0}
 @media(max-width:40em){[data-look=standard] .fp .fp-chip{padding:3px 8px;font-size:13px}}
 [data-look=standard] .fp .fp-chip-mk{display:none}
@@ -186,12 +169,12 @@
 [data-look=standard] .fp .fp-chip[aria-pressed=true] .fp-chip-n{color:inherit}
 @media(hover:hover){[data-look=standard] .fp .fp-chip[aria-pressed=false]:hover{background:var(--surface);color:var(--accent)}}
 [data-look=standard] .fp .fp-fq-clear{color:var(--link)}
-[data-look=standard] .fp-tl.std-home{display:grid;grid-template-columns:minmax(0,1fr) 320px;grid-template-rows:auto auto auto 1fr;column-gap:40px;margin-top:20px;align-items:start}
-[data-look=standard] .std-home>.std-lead,[data-look=standard] .std-home>.std-cards,[data-look=standard] .std-home>.std-weekly{grid-column:1}
+[data-look=standard] .fp-tl.std-home{display:grid;grid-template-columns:minmax(0,1fr) 320px;grid-template-rows:auto auto 1fr;column-gap:40px;margin-top:20px;align-items:start}
+[data-look=standard] .std-home>.std-lead,[data-look=standard] .std-home>.std-cards{grid-column:1}
 [data-look=standard] .std-home>.std-latest{grid-column:2;grid-row:1 / -1;position:sticky;top:calc(var(--bar-h,64px) + 16px);max-height:calc(100dvh - var(--bar-h,64px) - 32px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}
 [data-look=standard] .std-title{margin:0 0 4px;padding:0 0 8px;border-bottom:2px solid var(--text);font:700 15px/1.4 var(--font-sans);color:var(--text-head)}
 [data-look=standard] .std-latest .std-title{position:sticky;top:0;z-index:1;background:var(--bg)}
-/* 頭版的條目（front.js 的 .fp-it）在「一般」外觀拿掉領域色線與淡底色 */
+/* 頭版條目（.fp-it） */
 [data-look=standard] .fp-it{margin:0;padding:0;border-left:0;background:none}
 [data-look=standard] .fp-it.is-lead{padding:0;background:none}
 [data-look=standard] .fp-mt{font:500 var(--fs-tag)/1.5 var(--font-sans);gap:0}
@@ -208,41 +191,38 @@
 [data-look=standard] .fp-from{color:var(--text-3);font:400 13px/1.3 var(--font-sans)}
 [data-look=standard] .fp-sep{border-left-color:var(--border)}
 [data-look=standard] .fp-pre{font:var(--fw-body) 15px/1.6 var(--font-sans);letter-spacing:var(--ls-body);color:var(--text-2)}
-/* 頭條：分類標籤 → 大標題 → 導言（摘要前三行，展開後是完整摘要；使用者要求收合與展開要看得出差別）→ 時間 */
+/* 頭條：時間由 look-standard.js 的 timeLast 移到預覽後。定案：預覽三行（收合與展開要看得出差別） */
 [data-look=standard] .std-lead .fp-it{padding:4px 0 28px;border-bottom:var(--hair) solid var(--border)}
 [data-look=standard] .std-lead .row-title{font-size:var(--fs-hero);line-height:1.3}
 [data-look=standard] .std-lead .fp-pre{-webkit-line-clamp:3;line-clamp:3;margin-top:4px;font-size:var(--fs-lead);line-height:1.7}
 [data-look=standard] .std-lead .fp-it .peek>summary{row-gap:8px}
-/* 要聞卡片：兩欄、間距 16px；--surface 底、0.5px 框、8px 圓角；標籤 → 標題 → 兩行摘要 → 時間 */
+/* 要聞卡片：兩行預覽補圖片的位置 */
 [data-look=standard] .std-cards{margin-top:24px}
 [data-look=standard] .std-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px;align-items:start}
 [data-look=standard] .std-grid>.fp-it{padding:16px;background:var(--surface);border:var(--hair) solid var(--border);border-radius:var(--radius)}
 [data-look=standard] .std-grid .fp-it .peek>summary{row-gap:6px}
-/* 週報與月報、即時新聞：每列「時間（或期別）＋標題」兩欄，列與列之間細線 */
-[data-look=standard] .std-weekly{margin-top:40px}
-[data-look=standard] :is(.std-list,.std-latest)>.fp-it{padding:12px 0;border-top:var(--hair) solid var(--border)}
+/* 即時新聞：每列「時間＋標題」兩欄 */
+[data-look=standard] .std-latest>.fp-it{padding:12px 0;border-top:var(--hair) solid var(--border)}
 [data-look=standard] .std-title+.fp-it{border-top:0}
-[data-look=standard] :is(.std-list,.std-latest) .fp-it .peek>summary{grid-template-columns:52px minmax(0,1fr) auto;column-gap:10px;row-gap:2px}
-[data-look=standard] .std-list .fp-it .peek>summary{grid-template-columns:64px minmax(0,1fr) auto}
-[data-look=standard] :is(.std-list,.std-latest) .fp-mt{display:contents}
-[data-look=standard] :is(.std-list,.std-latest) .fp-tm{grid-column:1;grid-row:1 / span 2;padding-top:1px;font-size:13px;line-height:1.6}
-[data-look=standard] :is(.std-list,.std-latest) .fp-ty{grid-column:2;grid-row:1;justify-self:start}
-[data-look=standard] :is(.std-list,.std-latest) .fp-ty+.fp-ty{display:none}
-[data-look=standard] :is(.std-list,.std-latest) .row-title{grid-column:2;font:var(--fw-body) var(--fs-list)/1.6 var(--font-sans);color:var(--text)}
-[data-look=standard] :is(.std-list,.std-latest) .peek>summary::after{grid-column:3;grid-row:1 / span 2}
-[data-look=standard] :is(.std-list,.std-latest) .more-body{margin-left:62px}
-[data-look=standard] .std-list .more-body{margin-left:74px}
+[data-look=standard] .std-latest .fp-it .peek>summary{grid-template-columns:52px minmax(0,1fr) auto;column-gap:10px;row-gap:2px}
+[data-look=standard] .std-latest .fp-mt{display:contents}
+[data-look=standard] .std-latest .fp-tm{grid-column:1;grid-row:1 / span 2;padding-top:1px;font-size:13px;line-height:1.6}
+[data-look=standard] .std-latest .fp-ty{grid-column:2;grid-row:1;justify-self:start}
+[data-look=standard] .std-latest .fp-ty+.fp-ty{display:none}
+[data-look=standard] .std-latest .row-title{grid-column:2;font:var(--fw-body) var(--fs-list)/1.6 var(--font-sans);color:var(--text)}
+[data-look=standard] .std-latest .peek>summary::after{grid-column:3;grid-row:1 / span 2}
+[data-look=standard] .std-latest .more-body{margin-left:62px}
 [data-look=standard] .std-latest .fp-it .row-sum{font-size:15px}
-/* 頭版展開的 AI 解讀與上面的摘要同字級（頭條、卡片 --fs-lead；即時新聞 15px） */
+/* 定案：頭版展開的 AI 解讀與摘要同字級 */
 [data-look=standard] .fp-it .row-dive{font-size:var(--fs-lead)}
 [data-look=standard] .std-latest .fp-it .row-dive{font-size:15px}
-/* 平板以下（< 1024px）：側欄移到主欄下面、不黏頂、不自己捲動 */
+/* < 64em：即時新聞移到主欄下方 */
 @media(max-width:63.99em){
 [data-look=standard] .fp-tl.std-home{grid-template-columns:minmax(0,1fr);grid-template-rows:none}
 [data-look=standard] .std-home>.std-latest{grid-column:1;grid-row:auto;position:static;max-height:none;overflow:visible;margin-top:40px}
 [data-look=standard] .std-latest .std-title{position:static}
 }
-/* 手機（< 640px）：卡片改成一列一則，不要框線與圓角，則與則之間細線 */
+/* 手機：卡片一列一則、去框 */
 @media(max-width:40em){
 [data-look=standard] .wrap{padding:0 16px 104px}
 [data-look=standard] .fp-head{padding-top:20px}
@@ -252,12 +232,10 @@
 [data-look=standard] .std-grid>.fp-it:first-child{border-top:0}
 [data-look=standard] .std-cards{margin-top:8px}
 }
-/* 回到頂端按鈕（site.js）：--surface 底、0.5px 框、8px 圓角 */
+/* 回到頂端（site.js） */
 [data-look=standard] .to-top{background:var(--surface);color:var(--text-2);border:var(--hair) solid var(--border);border-radius:var(--radius)}
 [data-look=standard] .to-top:hover{background:var(--surface);color:var(--accent)}
-/* 右下角功能鈕（bar.js、report.css）：功能鈕和回到頂端同一套——--surface 底、0.5px 框、8px 圓角、淡陰影，滑過字換品牌紅；
-   展開時功能鈕換成選中色（--text 底）。扇面是分開的圓角卡片（bar.js 依外觀留縫、修圓角），0.5px 框，按住或滑過換 --hover-bg、
-   圖示換品牌紅；底部面板上緣圓角；過濾的勾選框是圓角方框，選中時 --text 填滿（同頭版標籤選中的樣子，不用領域色） */
+/* 功能鈕（bar.js、report.css）：與回到頂端同一套外框；扇面的縫與圓角由 bar.js 的 FAB_SHAPE 依外觀算 */
 [data-look=standard] :is(.fab-btn,.to-top){background:var(--surface);color:var(--text-2);border:var(--hair) solid var(--border);border-radius:var(--radius);box-shadow:0 6px 18px -8px rgb(0 0 0 / .22)}
 @media(hover:hover){[data-look=standard] :is(.fab-btn,.to-top):hover{background:var(--surface);color:var(--accent)}}
 [data-look=standard] .fab-layer.is-open .fab-btn{background:var(--text);border-color:var(--text);color:var(--surface)}
@@ -282,14 +260,14 @@
 [data-look=standard] .fq-item[aria-pressed=true] .fq-mk{background:var(--text);border-color:var(--text);color:var(--surface)}
 [data-look=standard] .fq-clear{color:var(--link);font:400 15px/1 var(--font-sans)}
 [data-look=standard] :is(.fq-item,.fq-clear):focus-visible{outline:2px solid var(--focus);outline-offset:-2px}
-/* 數字（時間、期別、則數）一律等寬：放在檔尾、選擇器加重，蓋過前面各處 font 簡寫把 font-variant-numeric 重設回 normal */
+/* 數字等寬：font 簡寫會把 font-variant-numeric 重設回 normal → 放檔尾、選擇器加重 */
 :root[data-look=standard] :is(time,.row-time,.rt-hm,.rt-d,.rt-txt,.fp-tm,.pd-n,.pd-wd,.pd-item,.tl-day){font-variant-numeric:tabular-nums}
-/* 減少動態：關掉切換配色時的底色、文字色轉場 */
+/* 減少動態：關掉 site.css body 的配色轉場 */
 @media(prefers-reduced-motion:reduce){:root[data-look=standard] body{transition:none}}
-/* 強制色彩模式：卡片與 Header 的底色會被換掉，改用框線 */
+/* 強制色彩：底色被換掉 → Header、卡片改用框線 */
 @media(forced-colors:active){[data-look=standard] .editions{border-bottom:1px solid}[data-look=standard] .std-grid>.fp-it{border:1px solid}}
 
-/* 分類標籤（facets.js）：系統字，面向名稱 --text-3、值 --text-2 */
+/* 分類標籤（facets.js） */
 [data-look=standard] .fct-tg,[data-look=standard] .fct-row dt{color:var(--text-3)}
 [data-look=standard] .fct-tg{font-family:var(--font-sans);letter-spacing:.02em}
 [data-look=standard] .fct-tg:hover{color:var(--text-2)}

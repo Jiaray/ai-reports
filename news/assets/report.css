@@ -1,33 +1,24 @@
-/* 共用新聞頁的補充樣式；報告本體的藍圖樣式都在 ../../assets/site.css。
-   1. 報頭：最上面一列是左上角日期（點開是這天有的新聞＋有新聞的日期）、「本日焦點」、「本週回顧」（有週報才有）、
-      右上角「版面」按鈕；下面的大標題本身是本期章節的下拉（點開跳到分區）。
-   2. 讀法（大標題右邊）、「版面」面板與非預設版面：讀法 data-read＝scan（標題，原名標題讀法）／timeline（時間軸），外觀 data-look＝atlas（地圖）。
-      預設（full＋blueprint）不套這些覆寫，維持原本的藍圖。規格與數值照使用者的版型樣稿（國際新聞日報 2026-11-18），
-      規則順序也照樣稿：外觀 → 讀法 → 讀法×外觀的組合。 */
-/* 報頭：3px 粗線在工具列上方，工具列和大標題合成一塊報頭——粗線、一列小字（日期、本日焦點、本週回顧、版面）、
-   一行大字（系列名稱＋箭頭）。頭版也用同一列工具列（front.js）。只套在工具列後面接報頭的地方；首頁、404 的 .masthead 不變 */
+/* 新聞頁補充樣式，報告頁、頭版都載入（報頭、面板、功能鈕兩頁共用）；藍圖本體在 site.css，一般外觀在 look-standard.css。
+   分段：報頭、讀法切換、地圖代幣、下拉面板、外觀：地圖、閱讀舒適度、本期來源、時間軸摘要、標題讀法、時間軸、讀法×外觀、功能鈕、分類標籤、觸控高度。
+   非預設版面規則順序：外觀 → 讀法 → 讀法×外觀（同權重後者蓋前者） */
+/* ── 報頭 ── 3px 粗線在工具列上方；.editions+.masthead 只動新聞頁，首頁、404 的 .masthead 不變 */
 .editions{display:flex;align-items:center;gap:var(--space-2);border-top:3px solid var(--color-text);padding-top:var(--space-2)}
 .editions+.masthead{border-top:0;padding-top:0}
-/* 工具列凍結在頂端（使用者要求：不要隨著網頁捲動消失）：底色蓋住捲過去的內容，捲離頂端時底下一條細線（bar.js 加 .is-stuck）。
-   --bar-h 是 bar.js 量到的工具列高度：錨點跳轉（章節、#item-NN）停在工具列下面，頭版的整點標題黏在它下面 */
+/* 工具列凍結：.is-stuck、--bar-h 由 bar.js 寫入 */
 .editions{position:sticky;top:0;z-index:20;background:var(--color-bg)}
 .editions.is-stuck{box-shadow:0 1px 0 var(--color-divider)}
 :root{scroll-padding-top:calc(var(--bar-h, 0px) + 8px)}
-/* 非當期提示（bar.js 的 staleBanner；使用者在四種樣式中選定「貼齊頂端的整條橫幅」）：在工具列上面、貼齊視窗頂端、
-   整個視窗寬的黃色半透明橫幅，文字置中。不凍結（指南：不要疊兩條黏頂的列），捲動時捲走、工具列照樣凍結。
-   負的上邊距抵掉 .wrap 的上內距；左右用 border-image 鋪滿視窗（不像 100vw 寬度會多出捲軸寬、造成橫向捲動）。
-   半透明黃疊在藍圖、地圖的底色上，字色對合成底色淺色 7.5:1、深色 8.8:1；不只靠顏色：前面有警告圖示 */
+/* 非當期提示（bar.js 的 staleBanner）：不凍結（不疊兩條黏頂的列）。負上邊距抵掉 .wrap 上內距；border-image 鋪滿視窗寬
+   （100vw 會多出捲軸寬、橫向捲動）。字色對合成底色淺 7.5:1、深 8.8:1；另有警告圖示，不只靠顏色 */
 :root{--stale-tint:rgb(242 183 5 / .22);--stale-fg:#5a4300}
 @media(prefers-color-scheme:dark){:root:not([data-theme=light]){--stale-tint:rgb(242 183 5 / .16);--stale-fg:#f3d36b}}
 :root[data-theme=dark]{--stale-tint:rgb(242 183 5 / .16);--stale-fg:#f3d36b}
 .stale{display:flex;align-items:center;justify-content:center;gap:8px;margin:calc(-1 * var(--space-8)) 0 var(--space-3);padding:7px 0;border-image:conic-gradient(var(--stale-tint) 0 0) fill 0 // 0 100vw;color:var(--stale-fg);font:600 14px/1.4 var(--font-body);letter-spacing:.02em;text-align:center}
 .stale-ico,.stale-ico svg{display:block;flex:none}
 @media(max-width:40em){.stale{margin-top:calc(-1 * var(--space-6))}}
-/* 強制色彩模式（Windows 高對比）可能拿掉 border-image 的底色：改用底線標出橫幅 */
+/* 強制色彩可能拿掉 border-image 底色 → 改底線 */
 @media(forced-colors:active){.stale{border-image:none;border-bottom:1px solid}}
-/* 大標題的章節下拉：<h1> 裡一顆按鈕，字級、字重沿用大標題；最後一個字後面一個方形箭頭格（藍圖的方角），
-   滑過時箭頭格底色變淡藍，展開時箭頭轉向、換主色。按鈕只有文字＋箭頭那麼寬，點標題右邊的空白不會打開。
-   文字照一般行內排版（標題長、排成兩行時箭頭接在第二行最後一個字後面）；最後一個字和箭頭包成 .chap-tail 不換行 */
+/* 章節下拉（bar.js 的 titleChapters）：<h1> 裡的按鈕只到文字＋箭頭寬，點右側空白不開；.chap-tail＝最後一字＋箭頭，不換行 */
 .chap{width:fit-content;max-width:100%}
 .chap-toggle{display:inline-block;max-width:100%;margin:0;padding:0;background:transparent;color:inherit;border:0;border-radius:0;font:inherit;letter-spacing:inherit;text-align:start;cursor:pointer}
 .chap-tail{white-space:nowrap}
@@ -37,12 +28,8 @@
 .chap-toggle[aria-expanded=true] .chap-caret{background:var(--color-accent-100);color:var(--color-accent-700)}
 .chap-toggle[aria-expanded=true] .chap-caret svg{rotate:180deg}
 .chap-toggle:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:4px}
-/* ── 讀法（report.js 的 readSwitch；使用者要求從版面面板搬出來）：大標題那一行的最右邊（margin-left:auto），
-   標題有沒有章節箭頭都不會推動它（使用者要求：換讀法時按鈕不能移動；字重也不隨選中改變，寬度固定）；放不下時換到下一行、照樣靠右。
-   手機有右下角功能鈕時藏起來（改從扇面的「讀法」選，bar.js 的 openRead）。
-   這裡是藍圖的樣子（使用者要求三種外觀各重新設計）：製圖標題欄——細線方框，前面一格淺底小標「讀法」，選項之間細線分格；
-   選中那格淡藍底、字換深藍、底下 3px 主色粗線（同藍圖的 3px 粗線語彙，不只靠顏色）。地圖接在地圖段落，一般在 look-standard.css。
-   高度 --read-h：觸控螢幕 44px（檔尾） ── */
+/* ── 讀法切換（report.js 的 readSwitch）── 定案：換讀法、標題有無箭頭都不推動它（margin-left:auto），選中不改字重。
+   有功能鈕時藏起，改從扇面選（bar.js 的 openRead）。藍圖＝製圖標題欄，選中加 3px 主色底線（不只靠顏色）；--read-h 觸控值在檔尾 */
 .read-head{display:flex;flex-wrap:wrap;align-items:center;column-gap:var(--space-4)}
 .read-head>:first-child{min-width:0}
 .read-sw{--read-h:36px;flex:none;display:inline-flex;align-items:stretch;margin:var(--space-3) 0 var(--space-2) auto;border:1px solid var(--color-neutral-300);background:var(--color-bg)}
@@ -59,60 +46,35 @@
 @media(max-width:40em){.read-head{column-gap:var(--space-3)}html.has-fab .read-sw{display:none}}
 @media(forced-colors:active){.read-opt[aria-pressed=true]{outline:2px solid Highlight;outline-offset:-4px}}
 
-/* ── 外觀：地圖的設計代幣（淺色、深色；--c1…--c10 是分區色，--contour-img 是報頭的等高線裝飾） ── */
+/* ── 地圖代幣（淺、深色）：--c1…--c10 分區色，--contour-img 報頭等高線 ── */
 :root[data-look=atlas]{--font-heading:"Avenir Next","Segoe UI","Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-body:"Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-num:"Avenir Next","Segoe UI",sans-serif;--color-bg:#f6f7f4;--color-text:#1f2a2e;--color-divider:#d3dad8;--color-accent:#1d5f8a;--color-neutral-100:#eef1ee;--color-neutral-200:#e4e9e6;--color-neutral-300:#c4ceca;--color-neutral-600:#5d6d72;--color-neutral-700:#48565b;--color-neutral-800:#2f3b40;--color-accent-100:#e2eef5;--color-accent-200:#c3dceb;--color-accent-300:#8fbad6;--color-accent-600:#1d5f8a;--color-accent-700:#174e72;--color-accent-800:#113a55;--color-accent-900:#0b2638;--color-hot:#b3261e;--color-good:#2e7d32;--tab-bg:transparent;--tab-fg:#1f2a2e;--tab-span:#5d6d72;--tag-neutral-fg:#48565b;--c1:#c0392b;--c2:#ae5510;--c3:#387c32;--c4:#0e7b7a;--c5:#89690e;--c6:#7b4fa3;--c7:#2f6db5;--c8:#b23f7a;--c9:#7a5a43;--c10:#53687a;--contour-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 360' fill='none' stroke='%23cbd5d1' stroke-width='1.2'%3E%3Cpath d='M300 60c70-10 150 20 170 80s-30 130-110 140-170-20-190-80 60-130 130-140zM305 86c55-8 118 16 134 63s-24 102-87 110-134-16-150-63 48-102 103-110zM310 111c40-6 86 12 98 46s-17 75-64 81-98-12-110-46 35-75 76-81zM316 135c25-4 54 7 61 29s-11 47-40 51-61-7-69-29 22-47 48-51zM322 158c12-2 26 3 30 14s-5 23-20 25-30-3-34-14 11-23 24-25zM20 300c40-40 120-60 180-40s100 60 160 70 120-10 150-34M10 332c50-45 140-70 205-48s110 66 175 76 120-14 150-40M60 250c30-24 80-34 120-22s70 40 110 44'/%3E%3C/svg%3E")}
 @media(prefers-color-scheme:dark){:root[data-look=atlas]:not([data-theme=light]){--font-heading:"Avenir Next","Segoe UI","Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-body:"Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-num:"Avenir Next","Segoe UI",sans-serif;--color-bg:#151a1c;--color-text:#e2e8e9;--color-divider:#2c383c;--color-accent:#7fb6dd;--color-neutral-100:#1b2224;--color-neutral-200:#222a2d;--color-neutral-300:#36423f;--color-neutral-600:#93a4a9;--color-neutral-700:#aebcc0;--color-neutral-800:#cdd6d8;--color-accent-100:#16303f;--color-accent-200:#1d3e52;--color-accent-300:#2c5a76;--color-accent-600:#7fb6dd;--color-accent-700:#9cc8e6;--color-accent-800:#bfdcf0;--color-accent-900:#dceefa;--color-hot:#f2877c;--color-good:#7cc683;--tab-bg:transparent;--tab-fg:#e2e8e9;--tab-span:#93a4a9;--tag-neutral-fg:#aebcc0;--c1:#ef7f72;--c2:#efa25e;--c3:#82c27a;--c4:#4fc4c1;--c5:#d8b54f;--c6:#b896e3;--c7:#7eaaee;--c8:#e982b6;--c9:#c79f80;--c10:#9db1c2;--contour-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 360' fill='none' stroke='%2326332f' stroke-width='1.2'%3E%3Cpath d='M300 60c70-10 150 20 170 80s-30 130-110 140-170-20-190-80 60-130 130-140zM305 86c55-8 118 16 134 63s-24 102-87 110-134-16-150-63 48-102 103-110zM310 111c40-6 86 12 98 46s-17 75-64 81-98-12-110-46 35-75 76-81zM316 135c25-4 54 7 61 29s-11 47-40 51-61-7-69-29 22-47 48-51zM322 158c12-2 26 3 30 14s-5 23-20 25-30-3-34-14 11-23 24-25zM20 300c40-40 120-60 180-40s100 60 160 70 120-10 150-34M10 332c50-45 140-70 205-48s110 66 175 76 120-14 150-40M60 250c30-24 80-34 120-22s70 40 110 44'/%3E%3C/svg%3E")}}
 :root[data-look=atlas][data-theme=dark]{--font-heading:"Avenir Next","Segoe UI","Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-body:"Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-num:"Avenir Next","Segoe UI",sans-serif;--color-bg:#151a1c;--color-text:#e2e8e9;--color-divider:#2c383c;--color-accent:#7fb6dd;--color-neutral-100:#1b2224;--color-neutral-200:#222a2d;--color-neutral-300:#36423f;--color-neutral-600:#93a4a9;--color-neutral-700:#aebcc0;--color-neutral-800:#cdd6d8;--color-accent-100:#16303f;--color-accent-200:#1d3e52;--color-accent-300:#2c5a76;--color-accent-600:#7fb6dd;--color-accent-700:#9cc8e6;--color-accent-800:#bfdcf0;--color-accent-900:#dceefa;--color-hot:#f2877c;--color-good:#7cc683;--tab-bg:transparent;--tab-fg:#e2e8e9;--tab-span:#93a4a9;--tag-neutral-fg:#aebcc0;--c1:#ef7f72;--c2:#efa25e;--c3:#82c27a;--c4:#4fc4c1;--c5:#d8b54f;--c6:#b896e3;--c7:#7eaaee;--c8:#e982b6;--c9:#c79f80;--c10:#9db1c2;--contour-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 360' fill='none' stroke='%2326332f' stroke-width='1.2'%3E%3Cpath d='M300 60c70-10 150 20 170 80s-30 130-110 140-170-20-190-80 60-130 130-140zM305 86c55-8 118 16 134 63s-24 102-87 110-134-16-150-63 48-102 103-110zM310 111c40-6 86 12 98 46s-17 75-64 81-98-12-110-46 35-75 76-81zM316 135c25-4 54 7 61 29s-11 47-40 51-61-7-69-29 22-47 48-51zM322 158c12-2 26 3 30 14s-5 23-20 25-30-3-34-14 11-23 24-25zM20 300c40-40 120-60 180-40s100 60 160 70 120-10 150-34M10 332c50-45 140-70 205-48s110 66 175 76 120-14 150-40M60 250c30-24 80-34 120-22s70 40 110 44'/%3E%3C/svg%3E")}
 
-/* ── 版面面板（報頭上方那一列右端的按鈕，面板往下展開、靠右對齊）；--sec-c 是條目所屬分區的顏色，藍圖一律用主色 ──
-   面板就放在按鈕正下方的一般 DOM 裡、用 absolute 定位：按鈕永遠在內容欄右緣，靠右展開不會超出畫面，不需要 anchor positioning */
+/* ── 下拉面板（日期、版面、章節；bar.js 的 dropdown）── 放在按鈕下方的一般 DOM、absolute 貼同側展開，不需要 anchor positioning。
+   --sec-c＝條目分區色（藍圖一律主色，地圖依 data-k）；--vw-on-*＝選中色；一般外觀覆寫兩者 */
 :root{--sec-c:var(--color-accent-600);--vw-on-bg:var(--color-accent-600);--vw-on-fg:var(--color-bg)}
-/* 頁首那一列的兩個下拉（左上角日期 .pd、右上角版面 .vw）共用 .dd-*：
-   按鈕是「圖示＋字」，不加框，滑過、展開時才有淡淡的底色；展開時字與圖示換主色。中間的「頭版」「週報」連結（.ed-link）長得一樣，
-   在週報頁上「週報」是目前位置：主文字色＋底下 2px 主色線（同系列標籤的目前頁，不只靠顏色） */
+/* 工具列按鈕；.ed-link[aria-current]＝目前在日報或週報那邊：2px 主色底線（不只靠顏色） */
 .dd{position:relative;flex:none;display:flex}
 .vw{margin-left:auto}
 .dd-toggle,.ed-link{display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 var(--space-3);background:transparent;color:var(--color-neutral-700);border:0;border-radius:0;font:500 15px/1 var(--font-heading);letter-spacing:.02em;white-space:nowrap;cursor:pointer}
 .dd-toggle:hover,.ed-link:hover{background:var(--color-accent-100);color:var(--color-text)}
 .dd-toggle[aria-expanded=true]{background:var(--color-accent-100);color:var(--color-accent-700)}
 .ed-link[aria-current]{color:var(--color-text);box-shadow:inset 0 -2px var(--color-accent-600)}
-/* 按鈕的圖示與字對齊內容欄的左右緣（滑過的底色往外多出一點，不往內縮） */
+/* 負邊距：圖示與字對齊欄緣，滑過底色往外凸 */
 .pd .dd-toggle,.editions>.ed-link:first-child{margin-left:calc(-1 * var(--space-3))}
 .vw .dd-toggle{margin-right:calc(-1 * var(--space-3))}
-/* 手機：日期、本日焦點、本週回顧、版面放在同一列，不換行也不橫向捲動。日期改短寫（11/20 週五、第 47 週），
-   「本日焦點」「本週回顧」照樣是圖示＋字（使用者要求：圖示同右下角扇面的那兩格，看得出是同一組功能；扇面的圖示就是從這裡讀的），
-   「版面」只露圖示（字留給報讀器唸），按鈕之間的間距收掉（按鈕自己的內距就是間隔）。
-   內距（--ed-pad）隨螢幕寬度在 4px 到 --space-3 之間伸縮；再窄依序：日期拿掉月曆圖示（356px 以下）、字與圖示小一號（340px 以下） */
-.pd-short{display:none}
-@media(max-width:40em){
-.editions{gap:0;--ed-pad:clamp(4px,(100vw - 336px) / 6,var(--space-3))}
-.editions :is(.dd-toggle,.ed-link){padding:0 var(--ed-pad)}
-.editions .pd .dd-toggle,.editions>.ed-link:first-child{margin-left:calc(-1 * var(--ed-pad))}
-.editions .vw .dd-toggle{margin-right:calc(-1 * var(--ed-pad))}
-.editions .ed-link{gap:4px}
-.editions .vw .dd-txt{position:absolute;clip-path:inset(50%);overflow:hidden;width:1px;height:1px;margin:-1px;white-space:nowrap}
-.pd-long{display:none}
-.pd-short{display:inline}
-}
-@media(max-width:22.25em){.editions .pd .dd-ico{display:none}}
-@media(max-width:21.25em){
-.editions :is(.dd-toggle,.ed-link){font-size:14px}
-.editions .ed-link .dd-ico svg{width:16px;height:16px}
-}
 .dd-ico,.dd-ico svg,.dd-caret,.dd-caret svg,.dd-close svg{display:block;flex:none}
 .dd-close svg{width:20px;height:20px}
 .dd-caret{margin-left:-2px;color:var(--color-neutral-600)}
 .dd-toggle[aria-expanded=true] .dd-caret{color:inherit;rotate:180deg}
-/* 面板：像一張規格表，標題列＋ ×，下面一列一列用細線分開；頂端 2px 粗線呼應報頭的粗線。
-   陰影只淡淡一層，讓面板浮在內容上而不是貼在上面。日期面板從左緣展開、版面從右緣展開 */
+/* 面板：頂端 2px 粗線呼應報頭 */
 .dd-panel{position:absolute;top:calc(100% + 8px);right:0;z-index:30;width:min(360px,calc(100vw - 32px));container-type:inline-size;padding:0 var(--space-4) var(--space-2);background:var(--color-bg);color:var(--color-text);border:1px solid var(--color-divider);border-top:2px solid var(--color-text);box-shadow:0 20px 40px -28px rgb(0 0 0 / .6)}
 .dd-head{display:flex;align-items:center;justify-content:space-between;gap:var(--space-3);min-height:46px;margin-right:calc(-1 * var(--space-2))}
 .dd-title{font:600 15px/1.3 var(--font-heading);letter-spacing:.02em}
 .dd-close{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;padding:0;background:transparent;color:var(--color-neutral-600);border:0;border-radius:0;cursor:pointer}
 .dd-close:hover{background:var(--color-accent-100);color:var(--color-text)}
-/* 日期按鈕的面板：左欄這天有的新聞（系列＋則數，換系列），右欄有新聞的日期（依月份分組，週報、月報依年份），
-   面板夠寬時兩欄並排、各自捲動，窄時上下疊、整塊一起捲；分組標題黏在頂端。
-   清單不加格線與底色，只用留白分組；滑過底色淡藍；目前這一類、這一期用主色字＋左側 2px 主色線（不只靠顏色） */
+/* 日期面板：.pd-types＝這期各系列、.pd-dates＝期別；目前項加左側 2px 線（不只靠顏色） */
 .pd-panel{left:0;right:auto;width:min(520px,calc(100vw - 32px))}
 .pd-body{display:flex;gap:var(--space-6);max-height:min(65vh,30rem);border-top:1px solid var(--color-divider)}
 .pd-col{flex:1 1 0;min-width:0;overflow-y:auto;overscroll-behavior:contain;padding-bottom:var(--space-2)}
@@ -130,29 +92,27 @@
 .pd-item[aria-current=page]{color:var(--color-accent-700);font-weight:600;box-shadow:inset 2px 0 var(--color-accent-600)}
 .pd-item[aria-current=page] .pd-wd{color:inherit}
 .pd-item:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
-/* 大標題的章節清單：從標題左緣往下展開，同日期面板的清單（留白、滑過淡藍），右邊是則數；
-   地圖外觀在章節名稱前加分區色塊。章節再多也不超出畫面：清單自己捲動 */
+/* 章節清單（則數沿用 .pd-n） */
 .chap-panel{left:0;right:auto;width:min(340px,calc(100vw - 32px))}
 .chap-list{max-height:min(60vh,26rem);overflow-y:auto;overscroll-behavior:contain;margin:0;padding:var(--space-2) 0;list-style:none;border-top:1px solid var(--color-divider)}
 .chap-item{display:flex;align-items:center;justify-content:space-between;gap:var(--space-3);min-height:40px;padding:6px var(--space-3);color:var(--color-text);font:500 16px/1.35 var(--font-heading);letter-spacing:.02em}
 .chap-item:hover{background:var(--color-accent-100)}
 .chap-item:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
 [data-look=atlas] .chap-sec::before{content:"";display:inline-block;width:10px;height:10px;margin-right:8px;background:var(--sec-c)}
-/* 版面面板：每組一列，左邊項目名稱、右邊分段選項 */
+/* 版面面板 */
 .vw-group{display:grid;grid-template-columns:3.5em minmax(0,1fr);align-items:center;gap:var(--space-3);padding:var(--space-3) 0;border-top:1px solid var(--color-divider)}
 .vw-label{font:500 13px/1.4 var(--font-body);color:var(--color-neutral-600)}
-/* 分段選項：同系列標籤列的細線格（底色當格線、1px 間隔），選中那格用主色填滿 */
+/* 分段選項：底色＋gap:1px 當格線 */
 .vw-seg{display:flex;gap:1px;background:var(--color-divider);border:1px solid var(--color-divider)}
 .vw-seg button{flex:1 1 0;min-height:34px;padding:0 var(--space-2);background:var(--color-bg);color:var(--color-text);border:0;border-radius:0;font:500 14px/1.2 var(--font-heading);white-space:nowrap;cursor:pointer}
 .vw-seg button:hover{background:var(--color-accent-100)}
 .vw-seg button[aria-pressed=true]{background:var(--vw-on-bg);color:var(--vw-on-fg)}
-/* 很窄的手機（面板內寬不到 290px）：項目名稱放到選項上面 */
 @container(width < 290px){.vw-group{grid-template-columns:minmax(0,1fr);gap:var(--space-2)}}
 .dd-toggle:focus-visible,.ed-link:focus-visible,.dd-close:focus-visible,.more-sum:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
 .vw-seg button:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
-/* 強制色彩模式（Windows 高對比）會拿掉背景色，選中狀態改用外框表示；平常不影響 */
+/* 強制色彩拿掉背景：選中改外框、目前位置改底線 */
 @media(forced-colors:active){.vw-seg button[aria-pressed=true]{outline:2px solid;outline-offset:-4px}.pd-item[aria-current=page],.ed-link[aria-current]{text-decoration:underline 2px;text-underline-offset:5px}.chap-toggle[aria-expanded=true] .chap-caret{outline:1px solid}}
-/* 換讀法、外觀時的淡入淡出（report.js 用 view transition）；使用者要求減少動態時不播（大標題箭頭的轉向也不播） */
+/* 減少動態：取消 view transition（report.js、front.js 用）與箭頭轉向 */
 @media(prefers-reduced-motion:reduce){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}.chap-caret,.chap-caret svg{transition:none}}
 
 /* ── 外觀：地圖 ── */
@@ -162,14 +122,11 @@
 [data-look=atlas] [data-k="7"]{--sec-c:var(--c7)}[data-look=atlas] [data-k="8"]{--sec-c:var(--c8)}
 [data-look=atlas] [data-k="9"]{--sec-c:var(--c9)}[data-look=atlas] [data-k="10"]{--sec-c:var(--c10)}
 [data-look=atlas] .masthead{display:flex;flex-direction:column;border-top:0;border-bottom:1px solid var(--color-divider);padding:var(--space-8) 0 var(--space-4);background-image:var(--contour-img);background-repeat:no-repeat;background-size:560px auto;background-position:right -80px top -40px}
-/* 新聞頁大標題：使用者要求整體縮小 15%（藍圖 56→47.6px、窄版 40→34px，蓋過 site.css；地圖 46→39.1px、窄版 34→28.9px）。
-   只改新聞頁：site.css 的 .mast-title 首頁、404 也在用 */
+/* 定案：新聞頁大標題縮 85%（藍圖 56→47.6、窄 40→34px，蓋過 site.css；地圖 46→39.1、窄 34→28.9px）；site.css 那條首頁、404 也用，不動 */
 .mast-title{font-size:47.6px}
 @media(max-width:40em){.mast-title{font-size:34px}}
 [data-look=atlas] .mast-title{font:700 39.1px/1.1 var(--font-heading);margin:0}
-/* 地圖的報頭本來上下排；有讀法時改回標題左、讀法右（同頭版的過濾標籤），換行時上下留間距。
-   讀法是地圖的圖層切換：淺灰圓角軌道，小標「讀法」在軌道裡，選項是圓角塊，選中那塊填地圖主色、字用底色、淡淡浮起
-   （主色對軌道 5:1 以上，不只靠顏色還有浮起的陰影）；滑過時淡淡提亮 */
+/* 地圖報頭預設直排，.read-head 改橫排。讀法選中塊：主色對軌道 ≥ 5:1，另有陰影（不只靠顏色） */
 [data-look=atlas] .read-head{flex-direction:row;row-gap:var(--space-3)}
 [data-look=atlas] .read-sw{--read-h:32px;gap:2px;margin:0 0 0 auto;padding:3px;border:0;border-radius:var(--r-md);background:var(--color-neutral-200)}
 [data-look=atlas] .read-lab{padding:0 8px 0 9px;background:none;border:0;color:var(--color-neutral-700);font:600 12px/1 var(--font-body);letter-spacing:.1em}
@@ -179,7 +136,7 @@
 [data-look=atlas] .read-opt[aria-pressed=true]{background:var(--color-accent-600);color:var(--color-bg);box-shadow:0 1px 2px rgb(0 0 0 / .16),0 2px 6px -2px rgb(0 0 0 / .22)}
 [data-look=atlas] .read-opt[aria-pressed=true] .read-ico{color:inherit}
 @media(hover:hover){[data-look=atlas] .read-opt[aria-pressed=false]:hover{background:color-mix(in srgb,var(--color-bg) 72%,transparent);color:var(--color-text)}}
-/* 地圖的報頭沒有頂端粗線（等高線裝飾＋底下細線），工具列也不畫粗線 */
+/* 地圖不畫報頭粗線（用等高線＋底細線） */
 [data-look=atlas] .editions{border-top:0;padding-top:0}
 [data-look=atlas] .sec-tab{align-items:center;gap:10px;background:none;padding:0 0 8px;border-bottom:3px solid var(--sec-c)}
 [data-look=atlas] .sec-tab::before{content:"";width:14px;height:14px;flex:none;background:var(--sec-c)}
@@ -195,8 +152,8 @@
 [data-look=atlas] .row-title{font:700 20px/1.45 var(--font-heading)}
 [data-look=atlas] .row-sum{font:400 16.5px/1.7 var(--font-body)}
 [data-look=atlas] .row-dive{border-left:0;padding:var(--space-3) var(--space-4);background:var(--color-neutral-200);color:var(--color-neutral-800);font:400 16px/1.7 var(--font-body)}
-/* 藍圖的「AI 解讀」標籤：亮藍實心方塊、反白粗字（使用者要求：換一個比鋼藍搶眼、仍屬藍圖色系的藍，凸顯標籤文字）。
-   淺色 #1765c9 底＋白字（對比 5.6:1），深色 #5aa2ff 底＋深藍字（7.0:1）；方角同藍圖。地圖、一般外觀各有自己的標籤樣式 */
+/* 藍圖「AI 解讀」標籤：亮藍實心、反白粗字，比鋼藍主色搶眼。定案：淺 #1765c9＋白字 5.6:1、深 #5aa2ff＋深藍字 7.0:1。
+   :not() 排除地圖、一般（藍圖可能沒有 data-look） */
 :root{--ai-bg:#1765c9;--ai-fg:#fff}
 @media(prefers-color-scheme:dark){:root:not([data-theme=light]){--ai-bg:#5aa2ff;--ai-fg:#0b1622}}
 :root[data-theme=dark]{--ai-bg:#5aa2ff;--ai-fg:#0b1622}
@@ -207,8 +164,7 @@
 [data-look=atlas] .tag{font:600 12px/1.5 var(--font-body);letter-spacing:.02em}
 [data-look=atlas] .tag-neutral{background:var(--color-neutral-200)}
 [data-look=atlas] .foot{border-top:1px solid var(--color-divider);font-family:var(--font-body)}
-/* 地圖外觀一律圓角（使用者要求：按鈕、選單、標籤等各種 UI 不要同藍圖的銳角）：小元件 --r-sm、面板與色塊框 --r-md、
-   色塊記號 2px。條目左緣的色線不加（直線才像地圖的圖例條）；淡底的條目只有右側兩角圓。頭版的標籤在 front.css，扇面的圓角在 bar.js 的 FAB_SHAPE */
+/* 地圖圓角：小元件 --r-sm、面板與解讀框 --r-md、色塊記號 2px；front.css 也讀 --r-*；扇面圓角在 bar.js 的 FAB_SHAPE */
 :root[data-look=atlas]{--r-sm:6px;--r-md:10px}
 [data-look=atlas] :is(.dd-toggle,.ed-link,.chap-toggle,.dd-close,.vw-seg button,.pd-item,.chap-item,.fq-item,.fq-clear,.tag,.hot-badge,.more-sum,.fab-btn,.to-top,.fab-tip,.skip-link){border-radius:var(--r-sm)}
 [data-look=atlas] :is(.row-dive,.vw-seg){border-radius:var(--r-md)}
@@ -222,38 +178,32 @@
 [data-look=atlas] .masthead{padding-top:var(--space-6);background-size:360px auto;background-position:right -110px top -30px}
 [data-look=atlas] .mast-title{font-size:28.9px}
 [data-look=atlas] .row{grid-template-columns:48px 1fr;padding-left:var(--space-3)}
-/* 時刻 16px 約 46px 寬，44px 的左欄放不下會被拆成「22:0／0」兩行 */
+/* 時刻 16px 約 46px 寬，左欄 48px 沒餘裕：nowrap 免得拆成「22:0／0」 */
 [data-look=atlas] .rt-hm{white-space:nowrap}
 }
 
-/* ── 閱讀舒適度（所有版面）：摘要與解讀由 report.js 在句末分段。
-   內文排版（使用者要求易讀）：行高 1.7（行與行之間空 0.7 字），段距 .75em，段落之間明顯大於行距，一眼分得出段落；
-   不用兩端對齊：窄欄中英混排時，瀏覽器會把整行中文字距拉開（「塞 內 加 爾」），比右緣參差更難讀；
-   行首的「（等全形括號只佔半格（text-spacing-trim，不支援的瀏覽器照舊）；句尾標點可懸在行尾（hanging-punctuation，Safari）；
-   摘要、重點、表格、AI 解讀、文末連結之間比標題與來源標籤之間多空一點，區塊分得開；
-   另參獨立一行、字小一號，不再接在摘要尾巴斷行。
-   中文內文不用 text-wrap:pretty：iOS（WebKit，iPhone 上的 Chrome 也是）會整段平衡右緣，
-   每行提早兩三個字換行、右側留一條空白（使用者回報）；Blink 只調最後幾行，差別不大 ── */
+/* ── 閱讀舒適度 ── report.js、front.js 在句末分段成 <p>。區塊間距大於標題與標籤間；另參獨立一行、小一號。
+   text-spacing-trim 不支援照舊；hanging-punctuation 只 Safari */
 .row-sum p,.row-dive p{margin:0}
 .row-sum p+p,.row-dive p+p{margin-top:.75em}
 :is(.row-sum,.row-dive,.row-bullets,.sec-note,.teaser,.fp-pre){text-spacing-trim:trim-start;hanging-punctuation:allow-end}
 :is(.row-main,.more-body)>:is(.row-bullets,.tbl,.row-dive,.row-srcs){margin-top:var(--space-2)}
 .row-also{margin:0;font:400 14px/1.8 var(--font-body);color:var(--color-neutral-600)}
-/* 單則條目最後的文末連結（多家報導、另參、其餘連結）：正文（摘要、重點、解讀）連貫讀完再看來源（使用者要求） */
+/* .row-srcs＝文末連結（另參、其餘 N 個連結） */
 .row-srcs{display:flex;flex-direction:column;gap:2px}
 
-/* ── 本期來源：從報頭移到文末、頁尾之前（使用者要求：不是首要資訊）。藍圖用中性標籤，地圖改成頓號串接的一行字 ── */
+/* ── 本期來源（文末）── */
 .srcs{margin-top:var(--space-8)}
 .srcs-title{margin:0 0 var(--space-2);font:600 12px/1.5 var(--font-heading);letter-spacing:.08em;color:var(--color-neutral-600)}
 .srcs-list{display:flex;flex-wrap:wrap;gap:var(--space-2);margin:0;padding:0;list-style:none}
 .srcs+.foot{margin-top:var(--space-4)}
 [data-look=atlas] .srcs-title{font-family:var(--font-body);letter-spacing:.02em}
-/* 地圖是一段文字：清單改成一般行內排版，換行照字斷、排滿欄寬（彈性盒會整個來源名稱一起換行，行尾空一截） */
+/* 地圖改行內排：照字斷行、排滿欄寬（flex 會整個名稱換行，行尾空一截） */
 [data-look=atlas] .srcs-list{display:block;font:400 13px/1.7 var(--font-body);color:var(--color-neutral-600)}
 [data-look=atlas] .srcs-list .tag{display:inline;background:none;padding:0;font:inherit;color:inherit;letter-spacing:0}
 [data-look=atlas] .srcs-list .tag:not(:last-child)::after{content:"、"}
 
-/* ── 時間軸：摘要預覽四行、其餘收在「看 AI 解讀」後面（只有時間軸會產生 .more、.teaser） ── */
+/* ── 時間軸摘要（.more、.teaser 只有時間軸產生）：預覽四行；.teaser-all＝只有摘要時整段列出 ── */
 .more>summary{list-style:none}
 .more>summary::-webkit-details-marker{display:none}
 .more-sum{display:block;cursor:pointer}
@@ -266,8 +216,7 @@
 .more[open]>.more-sum{margin-bottom:var(--space-2)}
 .more-body{display:flex;flex-direction:column;gap:var(--space-2)}
 
-/* ── 標題讀法的條目只列標題（使用者要求：兩行摘要短到讀不出東西），點標題展開；右側小箭頭提示可展開。
-   展開後第一行是來源、標籤與「看原文」連結，接著摘要、重點、解讀，文末連結在最後（.more-body）。 ── */
+/* ── 標題讀法條目 .peek（<details>；頭版 front.js 也用）── */
 .peek>summary{display:flex;align-items:flex-start;gap:var(--space-3);list-style:none;cursor:pointer}
 .peek>summary::-webkit-details-marker{display:none}
 .peek>summary>.row-title{flex:1;min-width:0}
@@ -277,12 +226,10 @@
 .peek>summary:hover .row-title{color:var(--color-accent-700)}
 .peek>summary:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
 .peek-link{font:600 12px/1.5 var(--font-body);color:var(--color-accent-700)}
-/* 熱門新聞（來源標 Hot、PTT 爆文、頭條／直播／利空）：標題前的紅色實心徽章 */
+/* 熱門徽章（report.js、front.js 加） */
 .hot-badge{display:inline-block;margin-right:8px;padding:0 6px;vertical-align:2px;background:var(--color-hot);color:var(--color-bg);font:700 11px/1.7 var(--font-body);letter-spacing:.06em}
 
-/* ── 標題讀法：條目左欄只放時間、標題縮小（原本黏在頂端的分區列拿掉了：章節跳轉在日期按鈕的「目錄」裡，不重複擺） ──
-   清單不加外框，每則只用細線分隔、上下多留白（使用者反映原本的粗分隔線與框很壓迫）；
-   左欄時刻在上（大）、日期在下（小）；標題改用內文字體、不壓縮 */
+/* ── 標題讀法（頭版 front.js 也設 data-read=scan，.row-title 等規則頭版也吃）── */
 [data-read=scan] .sec{margin-top:var(--space-8)}
 [data-read=scan] .sec-body{border:0;padding:0}
 [data-read=scan] .row{grid-template-columns:52px 1fr;column-gap:var(--space-4);row-gap:0;padding:15px 0;margin:0;border-top:1px solid var(--color-divider)}
@@ -294,8 +241,7 @@
 [data-read=scan] .row-title{font:600 16.5px/1.6 var(--font-body)}
 [data-read=scan] .row-main{gap:0}
 
-/* ── 時間軸：全部條目依時間由新到舊排成一條、按日期分組；左欄時間＋一條直線，條目前標分區名稱。
-   report.js 直接照時間順序產生 DOM（日期標題是 h2.tl-day），不用樣稿的 display:contents＋order。 ── */
+/* ── 時間軸：report.js 照時間順序產生 DOM（日期標題 h2.tl-day），不用 display:contents＋order 重排；.row-sec＝分區名稱 ── */
 .tl{margin-top:var(--space-6)}
 .tl-day{margin:0;padding:var(--space-6) 0 var(--space-2);border-bottom:2px solid var(--color-text);font:700 16px/1.4 var(--font-heading);letter-spacing:.04em}
 [data-read=timeline] .row{position:relative;grid-template-columns:64px 1fr;column-gap:22px;row-gap:0;border-top:0;padding:var(--space-3) 0 var(--space-4);margin:0}
@@ -318,11 +264,8 @@
 [data-read=timeline] .rt-hm{font-size:15px}
 }
 
-/* ── 文字欄不另外限寬：整頁內容欄最寬 880px（.wrap），一行最多約 45 個中文字，已經不會太長；
-   原本時間軸與地圖的文字欄再限 42em，右邊空出約 120px（使用者回報標題、內文沒寫滿欄寬）。 ── */
-
 /* ── 讀法×外觀的組合 ── */
-/* 樣稿的標題讀法把地圖條目的左內距歸零，時間會貼著分區色條；這裡補回內距 */
+/* 標題讀法把 .row 左內距歸零，地圖的時間會貼著色條 → 補回 */
 [data-look=atlas][data-read=scan] .row{padding-left:var(--space-3)}
 [data-look=atlas][data-read=timeline] .row{border-left:0;padding-left:0}
 [data-look=atlas][data-read=timeline] .row::after{border-left:4px solid var(--sec-c);left:74px}
@@ -332,14 +275,9 @@
 [data-look=atlas][data-read=timeline] .row::after{left:58px}
 }
 
-/* ── 手機右下角的功能鈕（bar.js 第 7 段；使用者在四種樣板中選定「C 扇面」，功能鈕與扇面都只有圖示，頂端工具列保留）──
-   只在窄版出現。功能鈕和回到頂端是一對（使用者要求大小相同）：都是 44px 方塊、同一套外框，回到頂端疊在正上方（間隔 8px）；
-   圖示是一把從右下角張開的扇子，展開時變 ×、按鈕換成選中色（同分段選項選中那格）。後面一層由角落往外漸淡的霧面。
-   扇面的內圈前往（本日焦點、本週回顧）、外圈打開面板（日期、章節或頭版的過濾、版面）；名稱（.fab-tip）只在手指按住滑過、
-   鍵盤聚焦時浮在圖示上方。目前位置（同工具列的本日焦點／本週回顧）那格換一個底色（使用者要求），圖示下照舊一條主色線。這裡是藍圖的樣子：方角、細線、頂端 2px 墨色線（同面板），扇面一整片、細線分格、外緣墨色線；
-   地圖接在後面（[data-look=atlas]），一般在 look-standard.css。
-   --fab-ready：bar.js 確認這段樣式已載入才裝功能鈕（部署後的快取空窗） */
-:root{--fab-ready:1;--fab-size:44px;--fab-x:max(16px,env(safe-area-inset-right,0px));--fab-y:max(16px,env(safe-area-inset-bottom,0px))}
+/* ── 手機功能鈕與底部面板（bar.js 第 7 段）── 定案：只有圖示，.fab-lab 只給報讀器，.fab-tip 只在按住滑過、鍵盤聚焦時浮出。
+   格子以 clip-path 裁成扇形，outline 會被裁掉 → 聚焦、按住用 bar.js 的 .is-focus／.is-hot 標示。 */
+:root{--fab-size:44px;--fab-x:max(16px,env(safe-area-inset-right,0px));--fab-y:max(16px,env(safe-area-inset-bottom,0px))}
 .fab-layer{display:none}
 @media(max-width:40em){.fab-layer:not([hidden]){display:block;position:fixed;inset:0;z-index:40;pointer-events:none}}
 .fab-layer>*{pointer-events:auto}
@@ -372,30 +310,23 @@
 .fab-lines .fab-rim{stroke:var(--color-text);stroke-width:2}
 .fab-lines .is-hot,.fab-lines .is-focus{stroke:var(--color-accent-600);stroke-width:2}
 .fab-tip{position:absolute;z-index:1;translate:-50% calc(-100% - 16px);padding:3px 8px;background:var(--color-text);color:var(--color-bg);font:500 13px/1.35 var(--font-body);white-space:nowrap;pointer-events:none}
-/* 回到頂端（site.js）和功能鈕同大小、同外框，疊在正上方；扇面或底部面板打開時先藏起來。
-   窄版內容底部多留空間，捲到底時兩顆按鈕不蓋住頁尾 */
-/* 手機有功能鈕時收起頂端工具列（使用者要求：關掉上方凍結的那一列，每個功能都從扇面進）：日期、本日焦點、本週回顧、版面的按鈕
-   全部藏起來、不凍結（bar.js 量到不凍結就把 --bar-h 記成 0，黏頂的時段標題與錨點跳轉貼齊畫面頂端）。
-   各下拉面板照樣留在工具列的 DOM 裡：扇面打開的就是這些面板（改成貼齊底部的 .is-sheet），所以不能整列 display:none。
-   藍圖留下頂端 3px 粗線當報頭；地圖、一般本來就沒有。快取空窗沒有功能鈕時（沒有 .has-fab）工具列照舊 */
+/* 有功能鈕時收起工具列：不能整列 display:none（扇面開的就是裡面的面板）；藍圖留 3px 粗線當報頭 */
 @media(max-width:40em){
 html.has-fab .editions{position:static;min-height:0;padding-top:0;gap:0;box-shadow:none;border-image:none;background:none}
 html.has-fab .editions :is(.dd-toggle,.ed-link){display:none}
 }
+/* 定案：回到頂端（site.js）與功能鈕同 44px、同外框，疊正上方間隔 8px；扇面、底部面板開時藏起。.wrap 底部 112px＝兩顆按鈕＋間距，不蓋頁尾 */
 @media(max-width:40em){
 .has-fab .to-top{right:var(--fab-x);bottom:calc(var(--fab-y) + var(--fab-size) + 8px);width:var(--fab-size);height:var(--fab-size);color:var(--color-text);border-top:2px solid var(--color-text)}
 .has-fab .to-top svg{width:20px;height:20px}
 :is(.fab-open,.fab-sheet) .to-top{visibility:hidden;opacity:0}
 html.has-fab .wrap{padding-bottom:calc(var(--space-6) + 112px)}
 }
-/* 從功能鈕打開的面板：同一個面板改成貼齊底部、整個畫面寬，頂端一條小把手；最高 85%，裡面照原本的清單捲動 */
+/* 底部面板 .is-sheet＝功能鈕開的同一個面板 */
 .dd .dd-panel.is-sheet{position:fixed;top:auto;right:0;bottom:0;left:0;z-index:45;width:auto;max-height:85vh;max-height:85dvh;overflow-y:auto;overscroll-behavior:contain;padding:0 max(var(--space-4),env(safe-area-inset-right,0px)) calc(var(--space-2) + env(safe-area-inset-bottom,0px)) max(var(--space-4),env(safe-area-inset-left,0px));border:0;border-top:2px solid var(--color-text);box-shadow:0 -24px 44px -30px rgb(0 0 0 / .6)}
 .dd .dd-panel.is-sheet::before{content:"";display:block;width:36px;height:4px;margin:8px auto 0;background:var(--color-neutral-300)}
-/* 底部面板打開時（使用者回報：頂端那一槓看起來能往下拉，拉了卻變成整頁下拉重新整理）：
-   - 整頁不能捲、不會下拉重新整理（html.fab-sheet；面板自己的清單照常捲，overscroll-behavior:contain 不外溢）
-   - 那一槓是真的把手：按住面板頂端往下拖就收起（bar.js 的 sheetDrag），把手加寬、加粗一點
-   - 背景一層暗色＋模糊（.dd-shade，使用者要求：讓人專心看面板），點一下收起；從背景開始的拖曳不會捲動頁面
-   - × 加大（使用者要求）：44px、實心淺底，圖示 22px */
+/* 底部面板開時：html.fab-sheet 鎖整頁捲動與下拉重新整理（免得拖把手變重新整理）；把手可拖收起（bar.js 的 sheetDrag）。
+   .dd-shade 的 touch-action:none：從背景拖也不捲頁面。定案：× 44px 實心淺底、圖示 22px */
 html.fab-sheet,html.fab-sheet body{overflow:hidden;overscroll-behavior:none}
 .dd .dd-panel.is-sheet::before{width:44px;height:5px;margin-top:9px}
 :root{--shade:rgb(12 16 22 / .34)}
@@ -405,7 +336,7 @@ html.fab-sheet,html.fab-sheet body{overflow:hidden;overscroll-behavior:none}
 .dd-shade[hidden]{display:none}
 .is-sheet .dd-close{width:44px;height:44px;background:var(--color-neutral-200);color:var(--color-text)}
 .is-sheet .dd-close svg{width:22px;height:22px;stroke-width:1.8}
-/* 頭版的過濾面板（bar.js 代按頁面上的領域標籤）：一列一個領域，色塊同標籤的領域色，選了填滿並打勾（不只靠顏色） */
+/* 頭版過濾面板（bar.js 的 openFilter，代按頁面上的系列標籤）：一列一系列；色塊＝領域色 --g-c（bar.js 從標籤抄），選了填滿打勾（不只靠顏色） */
 .fq-panel .dd-head{gap:var(--space-2)}
 .fq-panel .dd-title{margin-right:auto}
 .fq-clear{min-height:44px;padding:0 var(--space-2);background:transparent;color:var(--color-accent-700);border:0;border-radius:0;font:500 15px/1 var(--font-body);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
@@ -418,15 +349,14 @@ html.fab-sheet,html.fab-sheet body{overflow:hidden;overscroll-behavior:none}
 .fq-item[aria-pressed=true] .fq-mk{background:var(--g-c,var(--color-accent-600))}
 .fq-item[aria-pressed=true] .fq-mk svg{display:block}
 .fq-item:focus-visible,.fq-clear:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
-/* 讀法面板（bar.js 的 openRead，代按大標題右邊的讀法）：一列一個讀法，前面是同一個圖示，選中那列淡藍底、字換深藍、右邊打勾 */
+/* 讀法面板（bar.js 的 openRead，代按讀法按鈕）：列沿用 .fq-item，選中打勾 */
 .rds-ico,.rds-ico svg{display:block;flex:none;width:20px;height:20px}
 .rds-ico{color:var(--color-neutral-600)}
 .rds-mk{display:none;color:var(--color-accent-600)}
 .rds-mk svg{display:block;width:18px;height:18px;stroke-width:2.2}
 .rds-item[aria-pressed=true]{background:var(--color-accent-100);color:var(--color-accent-800);box-shadow:inset 3px 0 var(--color-accent-600)}
 .rds-item[aria-pressed=true] :is(.rds-ico,.rds-mk){display:block;color:var(--color-accent-600)}
-/* 地圖外觀：同地圖的標籤與解讀框——實心淺底方塊、沒有外框與粗線；扇面切成一塊塊色塊（格間留縫，像地圖上的區塊），
-   選中與按住用地圖的主色；底部面板也拿掉頂端粗線，過濾的色塊是實心的領域色。回到頂端在桌機也換成同樣的實心方塊 */
+/* 地圖：扇面格間留縫（bar.js 的 FAB_SHAPE），不畫格線；回到頂端桌機也套 */
 [data-look=atlas] :is(.fab-btn,.to-top){background:var(--color-neutral-200);color:var(--color-neutral-800);border:0;box-shadow:0 8px 20px -12px rgb(0 0 0 / .45)}
 @media(hover:hover){[data-look=atlas] :is(.fab-btn,.to-top):hover{background:var(--color-accent-100);color:var(--color-text)}}
 [data-look=atlas] .fab-layer.is-open .fab-btn{background:var(--color-accent-600);color:var(--color-bg)}
@@ -447,12 +377,9 @@ html.fab-sheet,html.fab-sheet body{overflow:hidden;overscroll-behavior:none}
 [data-look=atlas] .rds-item[aria-pressed=true] :is(.rds-ico,.rds-mk){color:inherit}
 @media(prefers-reduced-motion:reduce){.fab-pie,.fab-layer.is-open .fab-pie{transform:none;transition:opacity .12s,visibility 0s linear .12s}.fab-btn svg,.fab-scrim{transition:none}}
 @media(forced-colors:active){.fab-btn{border:1px solid ButtonText}.fab-it.is-hot,.fab-it.is-focus{outline:2px solid Highlight;outline-offset:-4px}.fq-item[aria-pressed=true] .fq-mk{background:Highlight}}
-/* ── 分類標籤（facets.js；使用者要求：預設收合、淡化、不刻意引人注意；三種試作中選定 A 小字清單）：
-   開關 .fct-tg 不另建一行（使用者要求）：接在條目最後那一列的尾巴——報告頁是另參那一行（只有「其餘 N 個連結」時和它排同一列，
-   .fct-with），頭版是來源標籤與「看原文」那一列（.fp-acts）；都沒有才自己一行（.fct-bar）。
-   開關是一行 12px 次要色小字「分類」＋小箭頭，不加框不加底；清單 .fct-panel 放在那一列下方，一個面向一行「面向　值、值」，字小一號、次要色。
-   顏色用 --color-neutral-600／700（淺深色、三種外觀都 ≥ 4.5:1），不用 opacity 淡化（會掉到對比度不足）。
-   觸控螢幕上可點範圍由透明 ::before 上下補到 44px，外觀不放大；補出來的範圍蓋到上一行時，另參的連結疊在上面、照樣點得到 ── */
+/* ── 分類標籤（facets.js）── 定案：預設收合、淡化。開關 .fct-tg 接在最後一列尾：另參行 .row-also、與「其餘 N 個連結」包成 .fct-with（report.js）、
+   頭版 .fp-acts（front.js），都沒有才自成 .fct-bar。淡化靠 --color-neutral-600／700（皆 ≥ 4.5:1），不用 opacity（對比不足）。
+   觸控：透明 ::before 補到 44px、外觀不變；蓋到上一行時另參連結 z-index:1 疊上去照樣可點 */
 .fct-tg{position:relative;display:inline-flex;align-items:center;gap:3px;margin:0;padding:0;border:0;background:none;cursor:pointer;font:400 12px/1.5 var(--font-body);letter-spacing:.04em;color:var(--color-neutral-600);white-space:nowrap;vertical-align:baseline;-webkit-tap-highlight-color:transparent}
 .fct-tg::before{content:"";position:absolute;inset:-6px -8px}
 .fct-tg::after{content:"";width:.38em;height:.38em;margin-left:2px;border:solid currentColor;border-width:0 1.2px 1.2px 0;transform:translateY(-.12em) rotate(45deg);transition:transform .15s}
@@ -477,6 +404,5 @@ html.fab-sheet,html.fab-sheet body{overflow:hidden;overscroll-behavior:none}
 [data-look=atlas] .fct-tg:focus-visible{border-radius:var(--r-sm)}
 @media print{.fab-layer{display:none!important}}
 
-/* ── 觸控螢幕上的按鈕、標籤與期別選單至少 44px 高（指南：at least 44×44 on touch screens）；滑鼠、觸控板不變。
-   放在檔尾，才蓋得過前面標題讀法分區鈕等同權重的高度 ── */
+/* ── 觸控高度 44px ── 放檔尾才蓋得過同權重的高度；html[data-look] 權重高過各外觀（含後載入的 look-standard.css）的 --read-h */
 @media(pointer:coarse){.ed-link,.dd-toggle,.vw-seg button,.dd-close,.pd-item,.chap-item{min-height:44px}.dd-close{min-width:44px}html[data-look] .read-sw{--read-h:44px}}

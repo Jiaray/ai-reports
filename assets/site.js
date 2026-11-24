@@ -1,6 +1,4 @@
-/* AI Reports 共用：配色切換、期別格式、JSON 讀取、建立元素。
-   記住的配色由各頁 <head> 裡的一小段 inline 腳本在第一次繪製前先套好（防閃），本檔用 defer 載入、不擋畫面；
-   頁面腳本（home.js、report.js）也是 defer、排在本檔後面，執行時 window.AIR 已經在了。 */
+/* 全站共用（window.AIR）：配色、期別短寫、getJSON、h()、首頁配色三鈕；回到頂端自動裝上。 */
 (function () {
   'use strict';
   var KEY = 'air-theme';
@@ -15,18 +13,17 @@
       return 'auto';
     }
   }
-  // data-theme 給 CSS 的色票用；<meta name="color-scheme"> 讓瀏覽器在樣式載入前就用對的底色（指南的做法），兩者一起改
+  // <meta color-scheme> 跟 data-theme 一起改：樣式載入前底色才對
   function applyTheme(t) {
     if (t === 'auto') root.removeAttribute('data-theme');
     else root.setAttribute('data-theme', t);
     var meta = document.querySelector('meta[name="color-scheme"]');
     if (meta) meta.content = t === 'auto' ? 'light dark' : t;
   }
-  // 配色變了（本頁切換、別的分頁改了、系統深淺變了）：通知頁面上的切換鈕更新選中狀態與「自動」的說明
+  // air-theme：themeSwitch 與 report.js／front.js 的版面面板據此更新
   function changed() {
     document.dispatchEvent(new CustomEvent('air-theme'));
   }
-  // 套用並記在 localStorage；回到「自動」時刪掉儲存值（跟著系統），無痕模式只在本頁生效
   function setTheme(t) {
     applyTheme(t);
     try {
@@ -36,7 +33,7 @@
     changed();
   }
   applyTheme(readTheme());
-  // 「自動」註明目前實際生效的深淺（指南：System (Currently light)），系統深淺改變時跟著更新
+  // 「自動（深色）」的標示隨系統深淺更新
   var systemDark = window.matchMedia ? window.matchMedia('(prefers-color-scheme: dark)') : null;
   function themeLabel(t) {
     if (t === 'light') return '淺色';
@@ -44,7 +41,7 @@
     return '自動（' + (systemDark && systemDark.matches ? '深色' : '淺色') + '）';
   }
   if (systemDark && systemDark.addEventListener) systemDark.addEventListener('change', changed);
-  // 別的分頁改了配色：這一頁跟著換（e.key 為 null 表示整個儲存區被清掉）
+  // 別分頁改配色 → 跟著換（e.key 為 null＝儲存區被清空）
   window.addEventListener('storage', function (e) {
     if (e.key === KEY || e.key === null) {
       applyTheme(readTheme());
@@ -66,8 +63,7 @@
       return r.json();
     });
   }
-  // h('a', {href, class, html, ...}, [子節點或字串])。html 只給 publish.py 淨化過的片段（*_html 欄位），
-  // 其他資料一律以子節點字串放入，當純文字處理。
+  // h(tag, {class, html, 其他屬性}, [子節點或字串])：html 只收淨化過的 *_html 片段，其他資料放 kids 當純文字
   function h(tag, attrs, kids) {
     var el = document.createElement(tag);
     if (attrs) {
@@ -85,7 +81,7 @@
     });
     return el;
   }
-  // 三鈕配色切換（自動／淺色／深色），點哪個套哪個（首頁報頭用；新聞頁的配色在右下角「版面」面板）
+  // 首頁報頭的配色三鈕（新聞頁的配色在「版面」面板）
   function themeSwitch() {
     var g = h('div', { class: 'theme-switch', role: 'group', 'aria-label': '配色' });
     var btns = THEMES.map(function (m) {
@@ -106,8 +102,8 @@
     return g;
   }
 
-  // 回到頂端（每一頁右下角）：頁首放一個一個畫面高的隱形哨兵，被捲出畫面（捲過約一屏）才顯示按鈕。
-  // CSS 的 scroll-state 容器查詢 Safari 還不支援，iPhone 是主要讀者，所以一律用 IntersectionObserver（指南的備援做法）
+  // 回到頂端：頁首一屏高的隱形哨兵捲出畫面才顯示（.is-on）。
+  // 不用 CSS scroll-state 容器查詢：Safari 不支援（iPhone 是主要讀者）
   var UP_ICON = '<svg width="18" height="18" viewBox="0 0 18 18" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="square" aria-hidden="true"><path d="M3 2.5h12M9 15.5V6M4.5 10.5 9 6l4.5 4.5"/></svg>';
   function backToTop() {
     if (!('IntersectionObserver' in window) || !document.body) return;
@@ -119,12 +115,12 @@
       btn.classList.toggle('is-on', !entries[entries.length - 1].isIntersecting);
     }).observe(sentinel);
     var reduce = window.matchMedia ? window.matchMedia('(prefers-reduced-motion: reduce)') : null;
-    // 鍵盤操作時按鈕一回到頂端就隱藏，焦點移到頁首第一個可操作元素（略過連結），不要掉回 <body>
+    // 鍵盤：按鈕隨即隱藏，焦點交給頁首第一個可操作元素（略過連結），不掉回 <body>
     function focusStart() {
       var first = document.querySelector('.skip-link, a[href], button:not(.to-top)');
       if (first) first.focus({ preventScroll: true });
     }
-    // 只處理鍵盤焦點：滑鼠點擊在 Chrome 也會讓按鈕取得焦點，那時移交焦點會讓略過連結跳出來
+    // 只限鍵盤：Chrome 滑鼠點擊也給按鈕焦點，此時移交會讓略過連結跳出來
     var viaKeyboard = false;
     btn.addEventListener('focus', function () {
       try { viaKeyboard = btn.matches(':focus-visible'); } catch (e) { viaKeyboard = false; }
@@ -133,7 +129,7 @@
       window.scrollTo({ top: 0, behavior: reduce && reduce.matches ? 'auto' : 'smooth' });
       if (viaKeyboard) focusStart();
     });
-    // 焦點停在按鈕上時改用 Home／Page Up 捲回頂端：按鈕隱藏、焦點被拿走，同樣接到頁首（指南：focusout 時移交焦點）
+    // 焦點在按鈕上改按 Home／Page Up：按鈕隱藏、焦點被拿走 → 同樣交到頁首
     btn.addEventListener('focusout', function (e) {
       if (viaKeyboard && !e.relatedTarget && !btn.classList.contains('is-on')) focusStart();
       viaKeyboard = false;

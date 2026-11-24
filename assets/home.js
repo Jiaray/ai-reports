@@ -1,4 +1,4 @@
-/* 首頁：讀 catalog.json，每個類別一個藍圖分區，列出該類別最近 8 份（讀各類別的 index.json）。 */
+/* 首頁：catalog.json 每個類別一個藍圖分區，列該類別 index.json 最近 8 份。 */
 (() => {
   'use strict';
   const A = window.AIR;
