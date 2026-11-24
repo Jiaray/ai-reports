@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-24T09:07:28+08:00",
+ "updated_at": "2026-11-24T09:07:40+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "tech_ai",
+   "series_title": "AI 日報",
+   "cadence": "daily",
+   "period": "2026-11-24",
+   "date": "2026-11-24",
+   "title": "AI 日報",
+   "lede": "黃仁勳獲 Nvidia 董事會一致決議復任執行長，川普公開背書；開源 AI 入侵框架 ARTEX 遭大規模濫用，FBI 示警、Wiz 公開真實案例；OpenAI 推出 GPT-6.2 Sol、Anthropic 發表 Claude Ship 與外掛，模型端則有智譜 GLM-5.4 與 DeepMind 用智能體改良量子演算法。",
+   "count": 15,
+   "data": "tech_ai/2026/2026-11-24.json",
+   "generated_at": "2026-11-24T09:07:40+08:00"
+  },
   {
    "series": "health",
    "series_title": "健康日報",
