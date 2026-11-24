@@ -45,11 +45,11 @@
     }
     return loading;
   }
-  // alias 追到最後的名稱（最多 10 層防循環）；退役（retire）回 null
+  // alias 追到最後的名稱（最多 10 層防循環）；最後的名稱退役（retire）才回 null，原名退役後又改名的照新名稱（同 facets.py canonical_story）
   function canonical(name) {
     let n = name;
     for (let i = 0; i < 10 && rules.alias.has(n); i++) n = rules.alias.get(n);
-    return rules.retire.has(n) || rules.retire.has(name) ? null : n;
+    return rules.retire.has(n) ? null : n;
   }
   // 子議題寫成「上層 › 子議題」（parent）；上層已出現在別條路徑就不單獨列
   function stories(list) {
