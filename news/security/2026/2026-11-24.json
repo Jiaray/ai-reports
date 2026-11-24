@@ -1,0 +1,1283 @@
+{
+ "schema": 1,
+ "series": "security",
+ "series_title": "資安日報",
+ "group": "科技",
+ "cadence": "daily",
+ "period": "2026-11-24",
+ "date": "2026-11-24",
+ "title": "資安日報",
+ "brief": "DAILY NEWS BRIEFING",
+ "issue": "NO. 2026-328",
+ "generated_at": "2026-11-24T09:08:28+08:00",
+ "lede": "Azure APIM Classic 漏洞遭利用竊取雲端機密，微軟要求全面輪替；PHP、Apache HTTP/2、OpenJDK 與 Cisco Expressway 重大漏洞進入利用或高風險階段；BVShop、Shopline 訂單資料外洩，假訂單詐騙已上門。",
+ "src_tags": [
+  "ICSDA 資安日報",
+  "iThome 資安",
+  "BleepingComputer",
+  "The Hacker News",
+  "Hacker News"
+ ],
+ "intro": [
+  {
+   "kind": "p",
+   "html": "Azure APIM Classic 漏洞遭利用竊取雲端機密，微軟要求全面輪替；PHP、Apache HTTP/2、OpenJDK 與 Cisco Expressway 重大漏洞進入利用或高風險階段；BVShop、Shopline 訂單資料外洩，假訂單詐騙已上門。"
+  }
+ ],
+ "sections": [
+  {
+   "name": "立即處理",
+   "count": 9,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "01",
+     "key": "e94cb1437a",
+     "title": "微軟 Entra Connect Health API 漏洞遭利用，企業管理員聯絡資訊與租用戶組態外洩",
+     "title_html": "微軟 Entra Connect Health API 漏洞遭利用，企業管理員聯絡資訊與租用戶組態外洩",
+     "url": "https://www.ithome.com.tw/news/180716",
+     "src": "iThome 資安",
+     "left": "11/24 08:00",
+     "ts": "2026-11-24T08:00:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "已遭利用",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "微軟身分識別基礎架構監控服務 Entra Connect Health 的 API 漏洞遭攻擊者利用，未經授權讀取部分企業租用戶的資料。依系統管理員在 Reddit 公開的微軟通知，漏洞於 2026 年 7 月 23 日引入，微軟 11 月 9 日發現、19 日完成修補。外洩資料包括技術聯絡人與管理員電子郵件、租用戶識別碼、網域名稱、國家地區、Entra 授權等級與目錄同步狀態，另有一張已過期、不再使用的代理程式註冊憑證；微軟稱密碼、雜湊、驗證權杖與有效金鑰都未外洩，也未發現監控組態遭修改。已有十多名管理員與部分 MSP 回報收到通知。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：Microsoft Entra Connect Health 部分企業租用戶；CVE 原文未提供；已遭利用（未授權讀取）。",
+      "<strong>處置</strong>：微軟已在服務端修補，無須安裝更新；建議高權限帳號改用抗釣魚 MFA，檢查 Connect Health 組態與 Entra 稽核、登入日誌，可用微軟在 GitHub 提供的唯讀 PowerShell 指令碼檢視可能被讀取的組態。"
+     ],
+     "table": null,
+     "dive_html": "外洩的不是密碼，而是「誰是管理員、用什麼授權、網域是哪個」，這正是精準釣魚的名單。收到通知的企業應預期管理員信箱會收到偽冒微軟的通知信，提前提醒 IT 人員並把高權限帳號換成抗釣魚 MFA。漏洞存在近四個月才被發現，也顯示雲端身分服務的 API 面需要更頻繁的外部稽核。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安"
+      ],
+      "event": [
+       "資安事件"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "微軟"
+      ],
+      "affects": [
+       "企業"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "後續追蹤"
+      ],
+      "keyword": [
+       "Microsoft Entra Connect Health",
+       "租用戶資料",
+       "網路釣魚"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "02",
+     "key": "e101d52cda",
+     "front": 1,
+     "title": "微軟 Azure API Management Classic 漏洞遭利用，挪威 Equinor 等能源業者機密恐外洩",
+     "title_html": "微軟 Azure API Management Classic 漏洞遭利用，挪威 Equinor 等能源業者機密恐外洩",
+     "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
+     "src": "ICSDA 資安日報",
+     "left": "11/24 06:19",
+     "ts": "2026-11-24T06:19:06+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "已遭利用",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "微軟透過 Azure Service Health 通知客戶，Azure API Management（APIM）Classic 層級的漏洞讓未授權者能在未依建議安全設定的實例上執行部分管理操作，進而存取服務中儲存的機密。可能外洩的包括命名值（Named Values）內的機密、身分提供者與 OpenID Connect 的用戶端密鑰、訂閱金鑰，以及呼叫管理 API 的權杖。時間軸上，Equinor 於 11 月 17 日通報遭攻擊，微軟 18 日發現問題、19 日封堵存取路徑並輪替微軟掌控的金鑰；挪威國家安全局 20 日表示多個挪威組織受波及，境內外跨產業皆有。微軟強調修補不會讓修補前可能已外洩的客戶憑證失效，v2 層級不受影響。Equinor 稱未發現資料遭竊或竄改，Skagerak Energi 稱營運未受影響。",
+     "also": [
+      {
+       "text": "BleepingComputer",
+       "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：Azure APIM Classic 層級中未依微軟安全指引設定的實例（v2 不受影響）；CVE 原文未提供；ICSDA 標為高危；已遭利用，挪威能源業等多個組織受影響，整體規模不明。",
+      "<strong>處置</strong>：微軟已於 11 月 19 日在服務端封堵；客戶須自行輪替 APIM 內所有機密、用戶端密鑰、訂閱金鑰與管理 API 權杖，並調查下游服務的存取紀錄。"
+     ],
+     "table": null,
+     "dive_html": "這是「服務端修好了、客戶的帳還沒清」的典型：微軟擋住入口，但攻擊者在修補前拿走的憑證仍然有效，而 APIM 往往串著後端資料庫、身分提供者與第三方 API，外溢範圍取決於每把金鑰的權限。用 Azure 架 API 閘道的團隊，第一步是確認是否仍在 Classic 層級，第二步是不論有無異常跡象都先輪替，再回查下游服務自 11 月中旬起的登入紀錄。攻擊者比微軟早一天動手，也提醒雲端代管服務的安全設定建議不能當選讀。",
+     "facets": {
+      "region": [
+       "歐洲",
+       "全球"
+      ],
+      "country": [
+       "NO",
+       "US"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安",
+       "能源"
+      ],
+      "event": [
+       "資安事件",
+       "漏洞揭露"
+      ],
+      "story": [
+       "Azure APIM 機密外洩"
+      ],
+      "sector": [
+       "軟體與雲端",
+       "能源"
+      ],
+      "org": [
+       "微軟",
+       "Equinor",
+       "Skagerak Energi",
+       "挪威國家安全局"
+      ],
+      "affects": [
+       "企業",
+       "開發者"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "Azure API Management",
+       "APIM Classic",
+       "金鑰輪替"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "03",
+     "key": "6912bc76b9",
+     "front": 2,
+     "title": "PHP 重大漏洞 phpAfterShell 可遠端執行程式碼，源於 PHP2Shell 修補不完整",
+     "title_html": "PHP 重大漏洞 phpAfterShell 可遠端執行程式碼，源於 PHP2Shell 修補不完整",
+     "url": "https://www.ithome.com.tw/news/180722",
+     "src": "ICSDA 資安日報",
+     "left": "11/24 06:19",
+     "ts": "2026-11-24T06:19:06+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "僅揭露",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "資安公司 DepthFirst 公布 PHP 漏洞 phpAfterShell（CVE-2026-126714），CVSS v4.0 評分 9.2。問題屬於檢查時間與使用時間（TOCTOU）競爭條件：PHP 處理檔案上傳進度時會更新連線階段（Session）檔案，若工作程序在寫入中途被終止，檔案可能殘留新舊混合的資料，再串接反序列化與 PHP 原生類別的記憶體毀損，形成遠端程式碼執行。攻擊入口是未經身分驗證的請求。DepthFirst 是在檢視先前 PHP2Shell 的修補時發現，該修補擋住了特定物件被啟用，卻沒處理底層的連線階段檔案寫入問題。漏洞影響 PHP 8.2 以上版本，PHP 基金會上週的安全更新共修補 18 個漏洞，本案是其中之一；原文未提及已遭利用。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：PHP 8.2 以上版本；CVE-2026-126714；CVSS v4.0 9.2（重大）；ICSDA 標為高危、需立即處理；原文未提及已遭利用。",
+      "<strong>處置</strong>：套用 PHP 基金會上週發布的安全更新；更新前可先限制未驗證的檔案上傳端點，並監控工作程序異常終止。"
+     ],
+     "table": null,
+     "dive_html": "免驗證入口加上 9.2 分，又是「補丁的補丁」，代表研究者已經把攻擊路徑公開講清楚，跟進利用的門檻會快速下降。用 PHP 寫後台、營運工具或活動頁的團隊，最容易漏掉的是託管主機與舊專案上的 PHP 版本，應先盤點 8.2 以上的實例再排更新。這也是一個提醒：修補只擋住已知利用路徑、沒修根因的情況並不少見，追蹤重大漏洞時要連後續修補一起看。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安",
+       "開源"
+      ],
+      "event": [
+       "漏洞揭露",
+       "版本更新"
+      ],
+      "story": [
+       "phpAfterShell 漏洞"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "PHP 基金會",
+       "DepthFirst"
+      ],
+      "affects": [
+       "開發者",
+       "企業"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "CVE-2026-126714",
+       "phpAfterShell",
+       "PHP2Shell",
+       "PHP 8.2"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "04",
+     "key": "bd49688d10",
+     "front": 4,
+     "title": "電商開店平臺 BVShop 訂單資料遭自動化存取外洩，顧客已收到假訂單詐騙信",
+     "title_html": "電商開店平臺 BVShop 訂單資料遭自動化存取外洩，顧客已收到假訂單詐騙信",
+     "url": "https://www.ithome.com.tw/news/180724",
+     "src": "ICSDA 資安日報",
+     "left": "11/24 06:19",
+     "ts": "2026-11-24T06:19:06+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "電商開店平臺 BVShop 於 11 月 15 日偵測到異常自動化存取，部分商家訂單資訊遭未經授權存取，可能包含消費者姓名、電話、電子郵件、地址、訂購商品與交易金額，不含登入密碼與信用卡等支付資訊。11 月 16 日已有商家反映顧客收到冒用訂單資料的詐騙信；業者於 17 日凌晨完成已發現漏洞的修補並通報主管機關，另更新系統金鑰與存取憑證、暫停非必要服務介面，對第三方串接改採 IP 白名單。業者稱並非所有商家都受影響，受影響商家、訂單筆數仍在確認；水宅研居、香菇姐姐、禾樂食品、甲鄉坊等品牌已發布防詐公告。原文未公布漏洞類型。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：BVShop 部分商家的訂單資料（姓名、電話、信箱、地址、商品、金額）；ICSDA 標為高危、需立即處理；受影響筆數未公布，已出現詐騙利用。",
+      "<strong>處置</strong>：業者已修補並更換金鑰、憑證；使用 BVShop 的商家應向平臺確認受影響範圍並發布防詐公告，檢查 API 金鑰與後台帳號權限。"
+     ],
+     "table": null,
+     "dive_html": "從偵測到詐騙信寄出只隔一天，顯示資料一到手就被變現；訂單資料雖不含卡號，但商品與金額都對得上，詐騙劇本可信度極高。業者事後換金鑰、限縮串接介面並加 IP 白名單，可推測問題出在對外 API 的存取控制，但原文未證實。加上同週的 Shopline 事件，台灣 SaaS 電商平台已成集中目標；有串接這類平台的團隊，應檢查自家 API 金鑰是否需要輪替，並把「平台出事時的通知時效」寫進供應商評估。",
+     "facets": {
+      "region": [
+       "台灣"
+      ],
+      "country": [
+       "TW"
+      ],
+      "taiwan": [
+       "直接"
+      ],
+      "topic": [
+       "資安",
+       "社會"
+      ],
+      "event": [
+       "資安事件"
+      ],
+      "story": [
+       "台灣電商平台個資外洩"
+      ],
+      "sector": [
+       "零售與消費",
+       "網路平台"
+      ],
+      "org": [
+       "BVShop"
+      ],
+      "affects": [
+       "消費者",
+       "企業"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "BVShop",
+       "個資外洩",
+       "假訂單詐騙"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "05",
+     "key": "cb673b121b",
+     "title": "Node.js 熱門套件 binary-parser 重大漏洞可注入 JavaScript，修補不完整的延續",
+     "title_html": "Node.js 熱門套件 binary-parser 重大漏洞可注入 JavaScript，修補不完整的延續",
+     "url": "https://thehackernews.com/2026/11/critical-binary-parser-flaw-enables.html",
+     "src": "The Hacker News",
+     "left": "11/23 21:22",
+     "ts": "2026-11-23T21:22:20+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "僅揭露",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "熱門 Node.js 函式庫 binary-parser 揭露重大程式碼注入漏洞 CVE-2026-134814（CVSS 9.2／8.1），影響 2.3.1 以前版本。依 NVD 說明，能控制解析器定義的攻擊者，可透過未經 Context.generateOption() 驗證的字串選項（length、lengthInBytes、key、tag、offset 與 namely() 別名）注入 JavaScript，在解析器編譯時於 Node.js 行程內執行任意程式碼。維護者 Keichi Takahashi 於 11 月 11 日發布公告，表示用可信的解析器定義解析不可信的二進位資料不受影響，新版只接受識別字路徑、拒絕運算式。這個漏洞也被視為 1 月修補的 CVE-2026-1245（CVSS 6.5）修補不完整的延續。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：binary-parser 2.3.1 以前版本；CVE-2026-134814；CVSS 9.2／8.1；原文未提及已遭利用；只有解析器定義可被外部控制時才受影響。",
+      "<strong>處置</strong>：升級至 2.3.1 以上；長度等選項改用函式，不再傳入運算式字串。"
+     ],
+     "table": null,
+     "dive_html": "觸發條件是「解析器定義來自不可信來源」，多數只在程式內寫死定義的專案風險有限，但有讓使用者或外部設定動態組出解析規則的工具（例如封包、存檔格式解析器）就要優先處理。這類間接相依的套件常藏在依賴樹深處，建議用 npm audit 或 SCA 工具找出實際引用的版本，而不是只看 package.json 的直接相依。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安",
+       "開源"
+      ],
+      "event": [
+       "漏洞揭露",
+       "版本更新"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "Upwind Security"
+      ],
+      "person": [
+       "Keichi Takahashi"
+      ],
+      "affects": [
+       "開發者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "CVE-2026-134814",
+       "binary-parser",
+       "Node.js",
+       "npm"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "06",
+     "key": "f79bf5e299",
+     "front": 5,
+     "title": "OpenJDK 重大漏洞 Java4Shell 已出現嘗試利用，攻擊者鎖定 Jenkins",
+     "title_html": "OpenJDK 重大漏洞 Java4Shell 已出現嘗試利用，攻擊者鎖定 Jenkins",
+     "url": "https://www.ithome.com.tw/news/180709",
+     "src": "iThome 資安",
+     "left": "11/23 12:00",
+     "ts": "2026-11-23T12:00:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "已有 PoC",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "Oracle 與 OpenJDK 於 11 月 17 日修補被稱為 Java4Shell 的重大漏洞 CVE-2026-114938，發現者 Calif.io 已確認可在多款 Java 應用程式利用。GreyNoise 在漏洞公開當天就偵測到攻擊活動，截至 23 日有 7 個來源 IP、共 261 次請求，尚未出現成功入侵；Previdian 自 18 日起在蜜罐觀察到以 Jenkins 為主要目標的嘗試，回應多為 401 與 302，目前沒有記憶體洩露或遠端程式碼執行。Cloudforce One 察覺有人把 AI 工具 ARTEX 與 Java4Shell 一起用於攻擊，認為攻擊者正準備把漏洞整合進攻擊流程；watchTowr 指出全球掃描請求的 User-Agent 帶有 java4shell-recon 字樣。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：OpenJDK（受影響版本原文未提供）；CVE-2026-114938；CVSS 原文未提供；目前為嘗試利用、尚無成功入侵案例。",
+      "<strong>處置</strong>：套用 Oracle 與 OpenJDK 11 月 17 日的修補；優先處理對外的 Jenkins，並在 WAF 或日誌中留意帶 java4shell-recon 的請求。"
+     ],
+     "table": null,
+     "dive_html": "漏洞在 JDK 層，影響面遠大於單一框架，所有 Java 服務與工具都要重新部署新版執行環境才算修好，容器映像裡的舊 JDK 最容易被遺漏。攻擊者先挑 Jenkins，代表 CI 伺服器被視為高價值入口：拿下它就能碰到原始碼、簽章金鑰與部署憑證。目前只見掃描與試探，是修補的窗口期；若接下來出現成功入侵案例，攻擊量通常會急遽放大。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安",
+       "開源"
+      ],
+      "event": [
+       "漏洞揭露",
+       "資安事件"
+      ],
+      "story": [
+       "Java4Shell 漏洞"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "Oracle",
+       "OpenJDK",
+       "Calif.io",
+       "GreyNoise",
+       "watchTowr"
+      ],
+      "affects": [
+       "開發者",
+       "企業"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "後續追蹤"
+      ],
+      "keyword": [
+       "CVE-2026-114938",
+       "Java4Shell",
+       "Jenkins",
+       "ARTEX"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "07",
+     "key": "9d9d65df53",
+     "title": "Apache HTTP Server HTTP/2 模組重大漏洞遭積極利用，公開 PoC 已流傳",
+     "title_html": "Apache HTTP Server HTTP/2 模組重大漏洞遭積極利用，公開 PoC 已流傳",
+     "url": "https://www.ithome.com.tw/news/180711",
+     "src": "iThome 資安",
+     "left": "11/23 12:00",
+     "ts": "2026-11-23T12:00:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "已遭利用",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "新加坡網路安全局（CSA）11 月 17 日警告，Apache HTTP Server 的 HTTP/2 模組漏洞 CVE-2026-119618 據報已遭積極利用，且已有公開的概念驗證程式，CVSS 8.1。漏洞源自 mod_http2 處理 HTTP/2 請求時的執行緒同步缺陷，競爭條件可造成堆積記憶體破壞並執行任意程式碼，啟用 mod_http2 的 2.4.55 至 2.4.70 版都受影響。Apache 已於 11 月 11 日發布 2.4.71 版修補。CSA 未說明受害對象與攻擊規模。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：Apache HTTP Server 2.4.55–2.4.70（啟用 mod_http2）；CVE-2026-119618；CVSS 8.1；據報已遭利用、已有公開 PoC。",
+      "<strong>處置</strong>：升級至 2.4.71；暫時無法升級時可評估停用 mod_http2。"
+     ],
+     "table": null,
+     "dive_html": "Apache 是許多官網、活動頁與反向代理的底層，HTTP/2 又常是預設開啟，受影響面廣。已有公開 PoC 且據報遭利用，代表大規模掃描會接著來；對外服務若仍停在 2.4.71 以前的版本，應排在本週更新清單前段。容器化部署要確認基底映像的 Apache 版本是否跟著更新。",
+     "facets": {
+      "region": [
+       "東南亞",
+       "全球"
+      ],
+      "country": [
+       "SG"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安",
+       "開源"
+      ],
+      "event": [
+       "漏洞揭露"
+      ],
+      "story": [
+       "Apache HTTP/2 漏洞"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "新加坡網路安全局",
+       "Apache 軟體基金會"
+      ],
+      "affects": [
+       "企業",
+       "開發者"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "後續追蹤"
+      ],
+      "keyword": [
+       "CVE-2026-119618",
+       "mod_http2",
+       "Apache HTTP Server"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "08",
+     "key": "bc57a22f00",
+     "title": "Apache Tomcat 重大漏洞可讓未驗證攻擊者冒充節點加入叢集",
+     "title_html": "Apache Tomcat 重大漏洞可讓未驗證攻擊者冒充節點加入叢集",
+     "url": "https://www.ithome.com.tw/news/180707",
+     "src": "iThome 資安",
+     "left": "11/23 12:00",
+     "ts": "2026-11-23T12:00:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "僅揭露",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "Apache Tomcat 於 11 月 19 日揭露重大漏洞 CVE-2026-133325：叢集通訊使用 TLS 1.3 搭配預先共享金鑰（TLS-PSK）時，金鑰交換過程未驗證對端身分，能連上叢集通訊服務的未驗證遠端攻擊者可冒充受信任節點加入叢集、存取叢集通訊與資料。受影響版本為 11.0.28 至 11.0.29、10.1.62 及 9.0.124。Apache 列為重大等級，NVD 評 9.8 分；Red Hat 評 8.1 分，指出其標準部署預設停用叢集，須採非預設設定搭配 TLS 1.3 與 TLS-PSK 才會觸發。修補已提交至 GitHub，預計納入 11.0.30、10.1.63、9.0.125。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：Apache Tomcat 11.0.28–11.0.29、10.1.62、9.0.124（叢集通訊使用 TLS 1.3＋TLS-PSK）；CVE-2026-133325；CVSS 9.8（NVD）／8.1（Red Hat）；原文未提及已遭利用。",
+      "<strong>處置</strong>：修補版尚未發布前，叢集通訊改用 TLS 1.2，並限制叢集通訊埠只允許授權節點連線；正式版推出後升級。"
+     ],
+     "table": null,
+     "dive_html": "兩個評分相差甚大，關鍵在觸發條件相當特定：要開叢集、還要選 TLS 1.3 搭 PSK。大多數單機或用外部 Session 儲存的部署不受影響，先確認設定再決定急迫度即可。真正該檢查的是叢集通訊埠有沒有暴露在不該暴露的網段，這點不論有沒有這個漏洞都是基本功。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安",
+       "開源"
+      ],
+      "event": [
+       "漏洞揭露"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "Apache 軟體基金會",
+       "Red Hat"
+      ],
+      "affects": [
+       "開發者",
+       "企業"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "CVE-2026-133325",
+       "Apache Tomcat",
+       "TLS-PSK",
+       "TLS 1.3"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "09",
+     "key": "f2ac532afd",
+     "front": 3,
+     "title": "Cisco Expressway 重大漏洞遭實際利用，攻擊者取得 root 並嘗試橫向移動",
+     "title_html": "Cisco Expressway 重大漏洞遭實際利用，攻擊者取得 root 並嘗試橫向移動",
+     "url": "https://www.ithome.com.tw/news/180705",
+     "src": "iThome 資安",
+     "left": "11/23 11:00",
+     "ts": "2026-11-23T11:00:00+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "已遭利用",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "美國 CISA 將思科視訊通訊閘道 Expressway 的重大漏洞 CVE-2026-76466 列入已知遭利用漏洞名單（KEV），要求聯邦民間機關三天內完成修補，並呼籲民間單位優先處理。依 BleepingComputer，漏洞源於寫死的憑證與未完整驗證用戶端憑證，影響叢集組態下的 Expressway-C 與 Expressway-E，攻擊者可在未驗證下以 root 執行系統命令，CVSS 9.8，思科已於 10 月下旬修補；思科 PSIRT 則表示未察覺實際利用。資安公司 F6 指出，公開 PoC 出現不久，攻擊者就入侵一家企業對外的 X15.5.3 版 Expressway，再經叢集進入內網兩個節點，之後以自寫 Python 指令碼掃描 SMB、SQL Server、WinRM 並搜尋 GitLab 儲存庫的憑證；指令碼帶有 AI 助理風格的註解，F6 認為攻擊者可能借助 AI 開發工具。",
+     "also": [
+      {
+       "text": "BleepingComputer",
+       "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：Cisco Expressway-C／Expressway-E（叢集組態，F6 案例為 X15.5.3 版）；CVE-2026-76466；CVSS 9.8；CISA 認定已遭利用，思科稱未察覺。",
+      "<strong>處置</strong>：套用思科 10 月下旬發布的修補；對外的 Expressway 限制叢集通訊，並檢查內網是否有異常 SMB、WinRM 與 GitLab 存取。"
+     ],
+     "table": null,
+     "dive_html": "廠商與 CISA 對「是否遭利用」說法不一，但 F6 提供了具體入侵鏈，應以已遭利用看待。值得注意的是攻擊者拿下邊界設備後直奔 GitLab 與內網憑證，對開發團隊而言，原始碼庫裡的金鑰與 CI 憑證就是下一個目標。修補已出一個月仍有人中招，顯示邊界設備的更新週期常落後；有對外視訊閘道的單位應優先處理，並檢查程式碼庫是否殘留明文憑證。",
+     "facets": {
+      "region": [
+       "北美",
+       "全球"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安"
+      ],
+      "event": [
+       "資安事件",
+       "漏洞揭露"
+      ],
+      "story": [
+       "Cisco Expressway 漏洞攻擊"
+      ],
+      "sector": [
+       "電信",
+       "軟體與雲端"
+      ],
+      "org": [
+       "思科",
+       "CISA",
+       "F6"
+      ],
+      "affects": [
+       "企業",
+       "政府與監管"
+      ],
+      "importance": [
+       "高"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "後續追蹤"
+      ],
+      "keyword": [
+       "CVE-2026-76466",
+       "Cisco Expressway",
+       "KEV",
+       "GitLab"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "事件與趨勢",
+   "count": 8,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "10",
+     "key": "adc0fa1468",
+     "title": "CrowdStrike 以 439 億美元全股票併購 Zscaler，創資安業最大併購案",
+     "title_html": "CrowdStrike 以 439 億美元全股票併購 Zscaler，創資安業最大併購案",
+     "url": "https://www.darkreading.com/endpoint-security/crowdstrike-ai-security-push-zscaler-deal",
+     "src": "ICSDA 資安日報",
+     "left": "11/24 06:19",
+     "ts": "2026-11-24T06:19:06+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "CrowdStrike 與 Zscaler 宣布簽約，CrowdStrike 將以全股票交易、總價 439 億美元併購 Zscaler，每股作價 260.41 美元、溢價約 34%，Zscaler 股東每股換 1.135 股 CrowdStrike 股票；雙方董事會已無異議通過，預計 2027 年 8 月至 2028 年 1 月完成，仍待股東與主管機關核准。金額超越 Google 併購 Wiz 的 320 億美元、思科併購 Splunk 的 280 億美元。完成後 CrowdStrike Falcon 將整合端點安全與 Zscaler 的零信任 SASE；雙方估計近 8,000 家 Zscaler 客戶尚未採用 CrowdStrike，合併後年度經常性營收可從 100 億美元起跳。ICSDA 將其標為低危、知識補充，並指出併購目標之一是加強對 AI 代理的管控。",
+     "also": [
+      {
+       "text": "iThome 資安",
+       "url": "https://www.ithome.com.tw/news/180740"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：CrowdStrike 與 Zscaler 雙方客戶；ICSDA 標為低危、知識補充。",
+      "<strong>處置</strong>：無須立即處置；兩家產品的使用者可留意後續授權與產品整合時程。"
+     ],
+     "table": null,
+     "dive_html": "SiliconANGLE 認為此案印證了「安全平臺化」路線，端點與網路安全由同一家供應商包辦的趨勢更明確。對採購方來說，好處是整合與單一合約，代價是更深的供應商綁定與議價空間縮小；交易最快 2027 年中才完成，短期內產品不會有實質變化，不必急著調整架構。",
+     "facets": {
+      "region": [
+       "北美"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "資安",
+       "產業與企業"
+      ],
+      "event": [
+       "併購投資"
+      ],
+      "story": [
+       "CrowdStrike 併購 Zscaler"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "CrowdStrike",
+       "Zscaler",
+       "Palo Alto Networks"
+      ],
+      "affects": [
+       "企業",
+       "投資人"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "零信任",
+       "SASE",
+       "Falcon",
+       "AI 代理"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "11",
+     "key": "5e9db5537b",
+     "title": "研究人員揭開十年勒索軟體行為者別名身分，新框架協助追溯攻擊者",
+     "title_html": "研究人員揭開十年勒索軟體行為者別名身分，新框架協助追溯攻擊者",
+     "url": "https://www.darkreading.com/cybersecurity-operations/alias-researcher-unmasked-ransomware-actors",
+     "src": "ICSDA 資安日報",
+     "left": "11/24 06:19",
+     "ts": "2026-11-24T06:19:06+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "依 Dark Reading 摘要，勒索軟體活動並未放緩，一套新的分析框架讓資安團隊能把攻擊者追溯到來源；標題指出一位研究人員揭開長達十年的勒索軟體行為者別名背後的身分。ICSDA 標為中危、知識補充，並說明原文僅有簡短摘要，框架的技術細節、涉及團體與具體案例都無法確認。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：勒索軟體受害組織整體；ICSDA 標為中危、知識補充；原文未提供具體受害者或數字。",
+      "<strong>處置</strong>：原文未提供。"
+     ],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "資安"
+      ],
+      "event": [
+       "研究發表"
+      ],
+      "affects": [
+       "企業"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "中性"
+      ],
+      "stage": [
+       "回顧分析"
+      ],
+      "keyword": [
+       "勒索軟體",
+       "歸因"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "12",
+     "key": "1ab128c432",
+     "title": "疑似中國關聯組織 Webworm 改造 SoftEther VPN，偽裝成網路監控軟體隱蔽存取",
+     "title_html": "疑似中國關聯組織 Webworm 改造 SoftEther VPN，偽裝成網路監控軟體隱蔽存取",
+     "url": "https://thehackernews.com/2026/11/webworm-suspected-of-modifying.html",
+     "src": "ICSDA 資安日報",
+     "left": "11/24 06:19",
+     "ts": "2026-11-24T06:19:06+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "疑似與中國有關的威脅組織 Webworm，被懷疑使用客製化的開源 SoftEther VPN Bridge，移除容易被辨識的偵測特徵，並偽裝成網路監控軟體，在已遭入侵的網路中建立隱蔽的遠端存取通道；修改版內建多種躲避資安工具的手法。摘要未說明初始入侵方式、受害者名單或受影響產業。ICSDA 標為中危、知識補充，建議盤點內部 VPN 與遠端存取程式並比對資產清單（ICSDA 觀點）。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：已遭 Webworm 入侵的組織（名單原文未提供）；ICSDA 標為中危、知識補充。",
+      "<strong>處置</strong>：原文未提供官方處置；ICSDA 建議盤點未經授權的 SoftEther 元件與偽裝成監控軟體的程式，監控不明程序對外建立的隧道連線。"
+     ],
+     "table": null,
+     "dive_html": "合法開源工具改裝後拿掉特徵，靠特徵比對的防毒與 EDR 很難抓到，偵測重點得轉向「這台主機為什麼在跑 VPN 橋接、為什麼對外開隧道」。台灣常是中國關聯組織的鎖定對象，維運人員自架的 VPN 與遠端工具若沒有列入資產清單，事後很難分辨哪個是攻擊者留下的。",
+     "facets": {
+      "region": [
+       "中國大陸",
+       "全球"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安",
+       "國防與安全"
+      ],
+      "event": [
+       "資安事件",
+       "研究發表"
+      ],
+      "org": [
+       "Webworm"
+      ],
+      "affects": [
+       "企業",
+       "政府與監管"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "SoftEther VPN",
+       "Webworm",
+       "APT"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "13",
+     "key": "80259c192f",
+     "title": "Shopline 部分商店出貨資訊遭未授權存取，Funte、Simon 列入受影響名單",
+     "title_html": "Shopline 部分商店出貨資訊遭未授權存取，Funte、Simon 列入受影響名單",
+     "url": "https://www.ithome.com.tw/news/180721",
+     "src": "ICSDA 資安日報",
+     "left": "11/24 06:19",
+     "ts": "2026-11-24T06:19:06+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "電商平台 Shopline 於 11 月 17 日公告部分商店出貨資訊疑似遭未經授權存取，已阻斷異常存取途徑、強化監控與存取管控並通報主管機關，稱 11 月 18 日起未再監測到未授權存取。升降桌品牌 Funte 表示官網與直營門市訂單可能受影響，涉及姓名、手機、電子郵件、收件地址、訂單編號、商品、金額、付款方式與會員帳號，信用卡卡號、金融帳號與登入密碼未受影響，經銷商、momo 與蝦皮通路訂單不在範圍內；服飾品牌 Simon 也列入受影響名單，範圍待確認。Shopline 未公布受影響商店數量、資料筆數與攻擊途徑。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：Shopline 部分商店的訂單出貨資料；ICSDA 標為中危、建議排程處理；規模未公布。",
+      "<strong>處置</strong>：Shopline 稱已阻斷存取途徑；商家應向平台索取影響範圍並通知顧客，消費者對提及訂單、要求操作 ATM 的來電一律改從官方管道查證。"
+     ],
+     "table": null,
+     "dive_html": "與 BVShop 同週發生，兩家都是台灣中小品牌常用的 SaaS 開店平台，外洩欄位又剛好是假冒客服詐騙最需要的組合，接下來幾週相關詐騙可能增加。Shopline 尚未說明成因與規模，受害名單可能還會增加；品牌方要準備好對顧客的防詐溝通，而不是等平台公告。",
+     "facets": {
+      "region": [
+       "台灣"
+      ],
+      "country": [
+       "TW"
+      ],
+      "taiwan": [
+       "直接"
+      ],
+      "topic": [
+       "資安",
+       "社會"
+      ],
+      "event": [
+       "資安事件"
+      ],
+      "story": [
+       "台灣電商平台個資外洩"
+      ],
+      "sector": [
+       "零售與消費",
+       "網路平台"
+      ],
+      "org": [
+       "Shopline",
+       "Funte",
+       "Simon"
+      ],
+      "affects": [
+       "消費者",
+       "企業"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "持續發展"
+      ],
+      "keyword": [
+       "Shopline",
+       "個資外洩",
+       "假冒客服詐騙"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "14",
+     "key": "f1ad342921",
+     "title": "中國關聯駭客以 Cairn 滲透工具搭配零時差漏洞攻擊東亞大學，AI 代理 11 分鐘取得 root",
+     "title_html": "中國關聯駭客以 Cairn 滲透工具搭配零時差漏洞攻擊東亞大學，AI 代理 11 分鐘取得 root",
+     "url": "https://www.darkreading.com/cyberattacks-data-breaches/ai-agents-flaw-discovery-root-access-11-minutes",
+     "src": "ICSDA 資安日報",
+     "left": "11/24 06:19",
+     "ts": "2026-11-24T06:19:06+08:00",
+     "heat": "",
+     "tags": [
+      {
+       "text": "已遭利用",
+       "cls": "tag-outline"
+      }
+     ],
+     "summary_html": "依 Dark Reading 摘要，一個與中國有關聯的攻擊者使用名為 Cairn 的滲透測試工具，對東亞地區的大學發動攻擊，並利用某款醫療影像應用程式的零時差漏洞；標題指出 AI 代理約 11 分鐘就從發現漏洞走到取得 root 權限。ICSDA 標為高危、建議排程處理，並說明未取得原文全文，產品名稱、CVE、受害校數與損害都未揭露。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：東亞地區大學、某款醫療影像應用程式（名稱與版本原文未提供）；CVE 原文未提供；ICSDA 標為高危；零時差漏洞已遭利用。",
+      "<strong>處置</strong>：原文未提供官方修補；ICSDA 建議限制醫療影像系統對外暴露、做網路分段並監控異常提權（ICSDA 觀點）。"
+     ],
+     "table": null,
+     "dive_html": "11 分鐘從找到漏洞到 root，若屬實，代表以人工週期排定的修補與告警應變已經追不上自動化攻擊，對外暴露面本身就是風險。東亞大學被鎖定，台灣的學研單位與附屬醫院也在相同射程內；資訊不完整，具體產品出來前能做的是先縮小對外暴露與網段隔離。",
+     "facets": {
+      "region": [
+       "東北亞",
+       "中國大陸"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安",
+       "AI",
+       "教育"
+      ],
+      "event": [
+       "資安事件"
+      ],
+      "sector": [
+       "教育",
+       "醫療照護"
+      ],
+      "affects": [
+       "企業"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "突發"
+      ],
+      "keyword": [
+       "Cairn",
+       "零時差漏洞",
+       "醫療影像",
+       "AI 代理"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "15",
+     "key": "af5cef0db0",
+     "title": "殭屍網路冒用 AI 代理人名稱探測機密，Cequence 半年攔截近 3.8 萬次",
+     "title_html": "殭屍網路冒用 AI 代理人名稱探測機密，Cequence 半年攔截近 3.8 萬次",
+     "url": "https://www.infosecurity-magazine.com/news/secrethunting-trafficai-agent/",
+     "src": "ICSDA 資安日報",
+     "left": "11/24 06:19",
+     "ts": "2026-11-24T06:19:06+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "資安業者 Cequence 發布代理型 AI 安全指數，指出惡意機器人愈來愈常自稱 AI 代理人，探測網站的設定檔、金鑰與管理後台。5 月 16 日至 11 月 15 日共攔截 37,917 次此類探測，每日量從 5 月不到 30 次增至 10 月中旬約 1,450 次高峰；自稱 Perplexity 代理人的訪問中 63% 屬機密探測，但 Cequence 強調名稱是自報的，不代表 Perplexity 是幕後者。同期知名 AI 代理人的行動型訪問（登入、訂位、購買、付款）占比從 1.4% 升至 13%，早期假期促銷期間 3% 的代理人訪問以購買作結，平時為 0.2%。Cequence 建議依行為而非自報名稱管理代理人流量。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：提供登入、購買、付款功能的網站；ICSDA 標為中危、建議排程處理；原文未提及實際外洩案例。",
+      "<strong>處置</strong>：依行為限速或封鎖頻繁存取設定檔、金鑰檔與管理後台路徑的來源；敏感路徑不對外公開，後台限制來源 IP 並啟用 MFA。"
+     ],
+     "table": null,
+     "dive_html": "很多網站為了不誤擋 AI 代理而對特定 User-Agent 放寬限制，這正好被機器人利用；這和過去假冒搜尋引擎爬蟲是同一招。對有網頁前台或 API 的團隊，最直接的檢查是部署產物裡有沒有 .env、設定檔或備份檔可被讀取，以及 WAF 規則是否依名稱白名單放行。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安",
+       "AI"
+      ],
+      "event": [
+       "調查報告"
+      ],
+      "org": [
+       "Cequence",
+       "Perplexity"
+      ],
+      "affects": [
+       "企業",
+       "開發者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "回顧分析"
+      ],
+      "keyword": [
+       "AI 代理",
+       "User-Agent",
+       "機器人流量",
+       "機密探測"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "16",
+     "key": "ca0d1bdeb3",
+     "title": "The Hacker News 週報：被盜金鑰、可信訊息與例行更新成為攻擊入口",
+     "title_html": "The Hacker News 週報：被盜金鑰、可信訊息與例行更新成為攻擊入口",
+     "url": "https://thehackernews.com/2026/11/weekly-recap-vmware-0-day-java4shell.html",
+     "src": "ICSDA 資安日報",
+     "left": "11/24 06:19",
+     "ts": "2026-11-24T06:19:06+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "The Hacker News 本期資安週報的主軸是：攻擊者不一定要破門而入，被盜的金鑰、受信任的訊息與例行更新這類看似平常的環節，就是攻擊得手的原因，一次入侵也可能成為攻擊下一個目標的跳板。ICSDA 標為中危、知識補充，並說明未取得週報全文，標題涉及的各項漏洞細節與受影響版本都無法確認。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：原文未提供具體產品與版本；ICSDA 標為中危、知識補充。",
+      "<strong>處置</strong>：原文未提供；ICSDA 建議定期輪替金鑰、對可信訊息與更新驗證來源（ICSDA 觀點）。"
+     ],
+     "table": null,
+     "dive_html": "",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "資安"
+      ],
+      "event": [
+       "聲明評論"
+      ],
+      "affects": [
+       "企業",
+       "開發者"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "回顧分析"
+      ],
+      "keyword": [
+       "供應鏈攻擊",
+       "金鑰外洩",
+       "Java4Shell"
+      ]
+     }
+    },
+    {
+     "type": "item",
+     "no": "17",
+     "key": "f5aeb3ffd8",
+     "title": "Rackspace 託管 Kubernetes 平臺 Spot 遭入侵，客戶叢集 Secrets 可能外洩",
+     "title_html": "Rackspace 託管 Kubernetes 平臺 Spot 遭入侵，客戶叢集 Secrets 可能外洩",
+     "url": "https://www.ithome.com.tw/news/180726",
+     "src": "iThome 資安",
+     "left": "11/24 06:00",
+     "ts": "2026-11-24T06:00:00+08:00",
+     "heat": "",
+     "tags": [],
+     "summary_html": "Rackspace 託管式 Kubernetes 平臺 Spot 的憑證外洩，攻擊者於 11 月 17 日 8 時 20 分至 18 日 6 時約 21 小時 40 分內，在部分客戶組織冒用合法使用者身分，建立未經授權的 Pod、讀取 Kubernetes Secrets，並列出叢集節點與儲存磁區。共同開發 Spot 的 Platform9 共同創辦人 Sirish Raghuram 表示，起因是一套可觀測性系統遭入侵、使用者憑證被竊。平臺隨後暫停存取並清理環境，管理主控臺長時間無法使用，客戶也無法輪替憑證，直到台灣時間 11 月 22 日凌晨恢復。Rackspace 已撤銷受影響權杖、移除未授權 Pod 並輪替金鑰。",
+     "also": [],
+     "also_more": [],
+     "bullets_html": [
+      "<strong>影響範圍</strong>：Rackspace Spot 部分客戶叢集內的 Secrets、Spot API 權杖與重新整理權杖；受影響客戶數原文未提供。",
+      "<strong>處置</strong>：重新簽發 Spot API 權杖、更換自動化工具的更新權杖、下載新的 kubeconfig，並輪替叢集 Secrets 內的所有憑證；回查 11 月 17 日起資料庫、映像登錄庫、Git、雲端儲存與第三方服務的日誌。"
+     ],
+     "table": null,
+     "dive_html": "入口是可觀測性系統而非 Kubernetes 本身，再度說明監控、日誌這類「旁路系統」常握有高權限憑證卻少被當成核心資產防護。更麻煩的是平臺為了清理而停機，客戶在最需要輪替憑證的時候反而無法操作；把叢集 Secrets 改由外部密鑰管理服務保管、並準備不依賴平臺主控臺的輪替流程，可以降低這類事件的連鎖影響。",
+     "facets": {
+      "region": [
+       "北美",
+       "全球"
+      ],
+      "country": [
+       "US"
+      ],
+      "taiwan": [
+       "間接"
+      ],
+      "topic": [
+       "資安"
+      ],
+      "event": [
+       "資安事件"
+      ],
+      "sector": [
+       "軟體與雲端"
+      ],
+      "org": [
+       "Rackspace",
+       "Platform9"
+      ],
+      "person": [
+       "Sirish Raghuram"
+      ],
+      "affects": [
+       "企業",
+       "開發者"
+      ],
+      "importance": [
+       "中"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "後續追蹤"
+      ],
+      "keyword": [
+       "Rackspace Spot",
+       "Kubernetes Secrets",
+       "憑證外洩"
+      ]
+     }
+    }
+   ]
+  },
+  {
+   "name": "社群討論",
+   "count": 1,
+   "blocks": [
+    {
+     "type": "item",
+     "no": "18",
+     "key": "96b9f4625d",
+     "title": "Gentoo 開發者談資安地獄：AI 濫報漏洞淹沒開源維護者",
+     "title_html": "Gentoo 開發者談資安地獄：AI 濫報漏洞淹沒開源維護者",
+     "url": "https://blogs.gentoo.org/mgorny/2026/10/27/the-next-circle-of-security-hell/",
+     "src": "Hacker News",
+     "left": "11/23 19:34",
+     "ts": "2026-11-23T19:34:16+08:00",
+     "heat": "HN 236",
+     "tags": [],
+     "summary_html": "Gentoo 開發者 mgorny 在部落格延續幾年前的「打包者的資安惡夢」一文，認為情況不但沒有改善，反而在惡化：漏洞回報數量前所未見，人人帶著聊天機器人成了資安研究者，幾乎所有漏洞獎勵計畫都因垃圾回報而停辦，但回報沒有停。他指出 REDoS 等效能類問題算不算漏洞取決於使用情境，但只要已經發了 CVE、分數又高，掃描工具就會持續告警，使用者也會來抱怨或分叉專案；他自己就多次為了避免誤報，替不影響 Gentoo 的漏洞做非必要的安全更新。依賴樹上任何一支失去維護，下游就得多扛重量。文章在 Hacker News 獲得 236 分。",
+     "also": [
+      {
+       "text": "Discussion",
+       "url": "https://news.ycombinator.com/item?id=50610334"
+      }
+     ],
+     "also_more": [],
+     "bullets_html": [],
+     "table": null,
+     "dive_html": "對下游開發團隊的含意是：SCA 掃描器報出的高分 CVE 不等於真實風險，盲目追著分數升版反而可能引入回歸；應建立依實際攻擊面判斷的流程。另一面是上游維護者正被消耗，關鍵相依套件若因此停更，才是更長期的供應鏈風險。",
+     "facets": {
+      "region": [
+       "全球"
+      ],
+      "taiwan": [
+       "無"
+      ],
+      "topic": [
+       "開源",
+       "資安",
+       "AI"
+      ],
+      "event": [
+       "聲明評論"
+      ],
+      "org": [
+       "Gentoo"
+      ],
+      "affects": [
+       "開發者"
+      ],
+      "importance": [
+       "低"
+      ],
+      "tone": [
+       "負面"
+      ],
+      "stage": [
+       "評論觀點"
+      ],
+      "keyword": [
+       "CVE",
+       "漏洞回報",
+       "軟體供應鏈",
+       "開源維護"
+      ]
+     }
+    }
+   ]
+  }
+ ],
+ "foot_left": "本報告由 news-aggregator 自動彙整",
+ "stats": {
+  "items": 18,
+  "sections": 3
+ }
+}

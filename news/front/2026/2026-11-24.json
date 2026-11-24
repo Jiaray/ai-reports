@@ -1,7 +1,7 @@
 {
  "schema": 1,
  "date": "2026-11-24",
- "built_at": "2026-11-24T09:07:56+08:00",
+ "built_at": "2026-11-24T09:08:28+08:00",
  "reports": [
   {
    "series": "tech_ai",
@@ -18,6 +18,14 @@
    "period": "2026-11-24",
    "count": 14,
    "generated_at": "2026-11-24T09:07:56+08:00"
+  },
+  {
+   "series": "security",
+   "series_title": "資安日報",
+   "group": "科技",
+   "period": "2026-11-24",
+   "count": 18,
+   "generated_at": "2026-11-24T09:08:28+08:00"
   },
   {
    "series": "health",
@@ -185,6 +193,84 @@
      "series": "tech",
      "period": "2026-11-24",
      "no": "12",
+     "rank": 1
+    }
+   ]
+  },
+  {
+   "key": "e101d52cda",
+   "rank": 1,
+   "title": "微軟 Azure API Management Classic 漏洞遭利用，挪威 Equinor 等能源業者機密恐外洩",
+   "summary_html": "微軟透過 Azure Service Health 通知客戶，Azure API Management（APIM）Classic 層級的漏洞讓未授權者能在未依建議安全設定的實例上執行部分管理操作，進而存取服務中儲存的機密。可能外洩的包括命名值（Named Values）內的機密、身分提供者與 OpenID Connect 的用戶端密鑰、訂閱金鑰，以及呼叫管理 API 的權杖。時間軸上，Equinor 於 11 月 17 日通報遭攻擊，微軟 18 日發現問題、19 日封堵存取路徑並輪替微軟掌控的金鑰；挪威國家安全局 20 日表示多個挪威組織受波及，境內外跨產業皆有。微軟強調修補不會讓修補前可能已外洩的客戶憑證失效，v2 層級不受影響。Equinor 稱未發現資料遭竊或竄改，Skagerak Energi 稱營運未受影響。",
+   "dive_html": "這是「服務端修好了、客戶的帳還沒清」的典型：微軟擋住入口，但攻擊者在修補前拿走的憑證仍然有效，而 APIM 往往串著後端資料庫、身分提供者與第三方 API，外溢範圍取決於每把金鑰的權限。用 Azure 架 API 閘道的團隊，第一步是確認是否仍在 Classic 層級，第二步是不論有無異常跡象都先輪替，再回查下游服務自 11 月中旬起的登入紀錄。攻擊者比微軟早一天動手，也提醒雲端代管服務的安全設定建議不能當選讀。",
+   "url": "https://www.securityweek.com/azure-flaw-exploited-to-target-secrets-at-norwegian-energy-firms/",
+   "src": "ICSDA 資安日報",
+   "ts": "2026-11-24T06:19:06+08:00",
+   "left": "11/24 06:19",
+   "heat": "",
+   "tags": [
+    {
+     "text": "已遭利用",
+     "cls": "tag-outline"
+    }
+   ],
+   "facets": {
+    "region": [
+     "歐洲",
+     "全球"
+    ],
+    "country": [
+     "NO",
+     "US"
+    ],
+    "taiwan": [
+     "間接"
+    ],
+    "topic": [
+     "資安",
+     "能源"
+    ],
+    "event": [
+     "資安事件",
+     "漏洞揭露"
+    ],
+    "story": [
+     "Azure APIM 機密外洩"
+    ],
+    "sector": [
+     "軟體與雲端",
+     "能源"
+    ],
+    "org": [
+     "微軟",
+     "Equinor",
+     "Skagerak Energi",
+     "挪威國家安全局"
+    ],
+    "affects": [
+     "企業",
+     "開發者"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "負面"
+    ],
+    "stage": [
+     "突發"
+    ],
+    "keyword": [
+     "Azure API Management",
+     "APIM Classic",
+     "金鑰輪替"
+    ]
+   },
+   "from": [
+    {
+     "series": "security",
+     "period": "2026-11-24",
+     "no": "02",
      "rank": 1
     }
    ]
@@ -415,6 +501,77 @@
    ]
   },
   {
+   "key": "6912bc76b9",
+   "rank": 2,
+   "title": "PHP 重大漏洞 phpAfterShell 可遠端執行程式碼，源於 PHP2Shell 修補不完整",
+   "summary_html": "資安公司 DepthFirst 公布 PHP 漏洞 phpAfterShell（CVE-2026-126714），CVSS v4.0 評分 9.2。問題屬於檢查時間與使用時間（TOCTOU）競爭條件：PHP 處理檔案上傳進度時會更新連線階段（Session）檔案，若工作程序在寫入中途被終止，檔案可能殘留新舊混合的資料，再串接反序列化與 PHP 原生類別的記憶體毀損，形成遠端程式碼執行。攻擊入口是未經身分驗證的請求。DepthFirst 是在檢視先前 PHP2Shell 的修補時發現，該修補擋住了特定物件被啟用，卻沒處理底層的連線階段檔案寫入問題。漏洞影響 PHP 8.2 以上版本，PHP 基金會上週的安全更新共修補 18 個漏洞，本案是其中之一；原文未提及已遭利用。",
+   "dive_html": "免驗證入口加上 9.2 分，又是「補丁的補丁」，代表研究者已經把攻擊路徑公開講清楚，跟進利用的門檻會快速下降。用 PHP 寫後台、營運工具或活動頁的團隊，最容易漏掉的是託管主機與舊專案上的 PHP 版本，應先盤點 8.2 以上的實例再排更新。這也是一個提醒：修補只擋住已知利用路徑、沒修根因的情況並不少見，追蹤重大漏洞時要連後續修補一起看。",
+   "url": "https://www.ithome.com.tw/news/180722",
+   "src": "ICSDA 資安日報",
+   "ts": "2026-11-24T06:19:06+08:00",
+   "left": "11/24 06:19",
+   "heat": "",
+   "tags": [
+    {
+     "text": "僅揭露",
+     "cls": "tag-outline"
+    }
+   ],
+   "facets": {
+    "region": [
+     "全球"
+    ],
+    "taiwan": [
+     "間接"
+    ],
+    "topic": [
+     "資安",
+     "開源"
+    ],
+    "event": [
+     "漏洞揭露",
+     "版本更新"
+    ],
+    "story": [
+     "phpAfterShell 漏洞"
+    ],
+    "sector": [
+     "軟體與雲端"
+    ],
+    "org": [
+     "PHP 基金會",
+     "DepthFirst"
+    ],
+    "affects": [
+     "開發者",
+     "企業"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "負面"
+    ],
+    "stage": [
+     "突發"
+    ],
+    "keyword": [
+     "CVE-2026-126714",
+     "phpAfterShell",
+     "PHP2Shell",
+     "PHP 8.2"
+    ]
+   },
+   "from": [
+    {
+     "series": "security",
+     "period": "2026-11-24",
+     "no": "03",
+     "rank": 2
+    }
+   ]
+  },
+  {
    "key": "c6e7b7a7b6",
    "rank": 2,
    "title": "劍橋研究：急性骨髓性白血病最早在確診前 50 年就開始萌芽",
@@ -606,6 +763,82 @@
    "from": [
     {
      "series": "tech",
+     "period": "2026-11-24",
+     "no": "09",
+     "rank": 3
+    }
+   ]
+  },
+  {
+   "key": "f2ac532afd",
+   "rank": 3,
+   "title": "Cisco Expressway 重大漏洞遭實際利用，攻擊者取得 root 並嘗試橫向移動",
+   "summary_html": "美國 CISA 將思科視訊通訊閘道 Expressway 的重大漏洞 CVE-2026-76466 列入已知遭利用漏洞名單（KEV），要求聯邦民間機關三天內完成修補，並呼籲民間單位優先處理。依 BleepingComputer，漏洞源於寫死的憑證與未完整驗證用戶端憑證，影響叢集組態下的 Expressway-C 與 Expressway-E，攻擊者可在未驗證下以 root 執行系統命令，CVSS 9.8，思科已於 10 月下旬修補；思科 PSIRT 則表示未察覺實際利用。資安公司 F6 指出，公開 PoC 出現不久，攻擊者就入侵一家企業對外的 X15.5.3 版 Expressway，再經叢集進入內網兩個節點，之後以自寫 Python 指令碼掃描 SMB、SQL Server、WinRM 並搜尋 GitLab 儲存庫的憑證；指令碼帶有 AI 助理風格的註解，F6 認為攻擊者可能借助 AI 開發工具。",
+   "dive_html": "廠商與 CISA 對「是否遭利用」說法不一，但 F6 提供了具體入侵鏈，應以已遭利用看待。值得注意的是攻擊者拿下邊界設備後直奔 GitLab 與內網憑證，對開發團隊而言，原始碼庫裡的金鑰與 CI 憑證就是下一個目標。修補已出一個月仍有人中招，顯示邊界設備的更新週期常落後；有對外視訊閘道的單位應優先處理，並檢查程式碼庫是否殘留明文憑證。",
+   "url": "https://www.ithome.com.tw/news/180705",
+   "src": "iThome 資安",
+   "ts": "2026-11-23T11:00:00+08:00",
+   "left": "11/23 11:00",
+   "heat": "",
+   "tags": [
+    {
+     "text": "已遭利用",
+     "cls": "tag-outline"
+    }
+   ],
+   "facets": {
+    "region": [
+     "北美",
+     "全球"
+    ],
+    "country": [
+     "US"
+    ],
+    "taiwan": [
+     "間接"
+    ],
+    "topic": [
+     "資安"
+    ],
+    "event": [
+     "資安事件",
+     "漏洞揭露"
+    ],
+    "story": [
+     "Cisco Expressway 漏洞攻擊"
+    ],
+    "sector": [
+     "電信",
+     "軟體與雲端"
+    ],
+    "org": [
+     "思科",
+     "CISA",
+     "F6"
+    ],
+    "affects": [
+     "企業",
+     "政府與監管"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "負面"
+    ],
+    "stage": [
+     "後續追蹤"
+    ],
+    "keyword": [
+     "CVE-2026-76466",
+     "Cisco Expressway",
+     "KEV",
+     "GitLab"
+    ]
+   },
+   "from": [
+    {
+     "series": "security",
      "period": "2026-11-24",
      "no": "09",
      "rank": 3
@@ -819,6 +1052,73 @@
    ]
   },
   {
+   "key": "bd49688d10",
+   "rank": 4,
+   "title": "電商開店平臺 BVShop 訂單資料遭自動化存取外洩，顧客已收到假訂單詐騙信",
+   "summary_html": "電商開店平臺 BVShop 於 11 月 15 日偵測到異常自動化存取，部分商家訂單資訊遭未經授權存取，可能包含消費者姓名、電話、電子郵件、地址、訂購商品與交易金額，不含登入密碼與信用卡等支付資訊。11 月 16 日已有商家反映顧客收到冒用訂單資料的詐騙信；業者於 17 日凌晨完成已發現漏洞的修補並通報主管機關，另更新系統金鑰與存取憑證、暫停非必要服務介面，對第三方串接改採 IP 白名單。業者稱並非所有商家都受影響，受影響商家、訂單筆數仍在確認；水宅研居、香菇姐姐、禾樂食品、甲鄉坊等品牌已發布防詐公告。原文未公布漏洞類型。",
+   "dive_html": "從偵測到詐騙信寄出只隔一天，顯示資料一到手就被變現；訂單資料雖不含卡號，但商品與金額都對得上，詐騙劇本可信度極高。業者事後換金鑰、限縮串接介面並加 IP 白名單，可推測問題出在對外 API 的存取控制，但原文未證實。加上同週的 Shopline 事件，台灣 SaaS 電商平台已成集中目標；有串接這類平台的團隊，應檢查自家 API 金鑰是否需要輪替，並把「平台出事時的通知時效」寫進供應商評估。",
+   "url": "https://www.ithome.com.tw/news/180724",
+   "src": "ICSDA 資安日報",
+   "ts": "2026-11-24T06:19:06+08:00",
+   "left": "11/24 06:19",
+   "heat": "",
+   "tags": [],
+   "facets": {
+    "region": [
+     "台灣"
+    ],
+    "country": [
+     "TW"
+    ],
+    "taiwan": [
+     "直接"
+    ],
+    "topic": [
+     "資安",
+     "社會"
+    ],
+    "event": [
+     "資安事件"
+    ],
+    "story": [
+     "台灣電商平台個資外洩"
+    ],
+    "sector": [
+     "零售與消費",
+     "網路平台"
+    ],
+    "org": [
+     "BVShop"
+    ],
+    "affects": [
+     "消費者",
+     "企業"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "負面"
+    ],
+    "stage": [
+     "持續發展"
+    ],
+    "keyword": [
+     "BVShop",
+     "個資外洩",
+     "假訂單詐騙"
+    ]
+   },
+   "from": [
+    {
+     "series": "security",
+     "period": "2026-11-24",
+     "no": "04",
+     "rank": 4
+    }
+   ]
+  },
+  {
    "key": "0fc71e2434",
    "rank": 4,
    "title": "FDA 核准首款肢帶型肌肉失養症藥物 BridgeBio 的 Welgemda，年費近百萬美元",
@@ -961,6 +1261,80 @@
      "series": "tech",
      "period": "2026-11-24",
      "no": "14",
+     "rank": 5
+    }
+   ]
+  },
+  {
+   "key": "f79bf5e299",
+   "rank": 5,
+   "title": "OpenJDK 重大漏洞 Java4Shell 已出現嘗試利用，攻擊者鎖定 Jenkins",
+   "summary_html": "Oracle 與 OpenJDK 於 11 月 17 日修補被稱為 Java4Shell 的重大漏洞 CVE-2026-114938，發現者 Calif.io 已確認可在多款 Java 應用程式利用。GreyNoise 在漏洞公開當天就偵測到攻擊活動，截至 23 日有 7 個來源 IP、共 261 次請求，尚未出現成功入侵；Previdian 自 18 日起在蜜罐觀察到以 Jenkins 為主要目標的嘗試，回應多為 401 與 302，目前沒有記憶體洩露或遠端程式碼執行。Cloudforce One 察覺有人把 AI 工具 ARTEX 與 Java4Shell 一起用於攻擊，認為攻擊者正準備把漏洞整合進攻擊流程；watchTowr 指出全球掃描請求的 User-Agent 帶有 java4shell-recon 字樣。",
+   "dive_html": "漏洞在 JDK 層，影響面遠大於單一框架，所有 Java 服務與工具都要重新部署新版執行環境才算修好，容器映像裡的舊 JDK 最容易被遺漏。攻擊者先挑 Jenkins，代表 CI 伺服器被視為高價值入口：拿下它就能碰到原始碼、簽章金鑰與部署憑證。目前只見掃描與試探，是修補的窗口期；若接下來出現成功入侵案例，攻擊量通常會急遽放大。",
+   "url": "https://www.ithome.com.tw/news/180709",
+   "src": "iThome 資安",
+   "ts": "2026-11-23T12:00:00+08:00",
+   "left": "11/23 12:00",
+   "heat": "",
+   "tags": [
+    {
+     "text": "已有 PoC",
+     "cls": "tag-outline"
+    }
+   ],
+   "facets": {
+    "region": [
+     "全球"
+    ],
+    "taiwan": [
+     "間接"
+    ],
+    "topic": [
+     "資安",
+     "開源"
+    ],
+    "event": [
+     "漏洞揭露",
+     "資安事件"
+    ],
+    "story": [
+     "Java4Shell 漏洞"
+    ],
+    "sector": [
+     "軟體與雲端"
+    ],
+    "org": [
+     "Oracle",
+     "OpenJDK",
+     "Calif.io",
+     "GreyNoise",
+     "watchTowr"
+    ],
+    "affects": [
+     "開發者",
+     "企業"
+    ],
+    "importance": [
+     "高"
+    ],
+    "tone": [
+     "負面"
+    ],
+    "stage": [
+     "後續追蹤"
+    ],
+    "keyword": [
+     "CVE-2026-114938",
+     "Java4Shell",
+     "Jenkins",
+     "ARTEX"
+    ]
+   },
+   "from": [
+    {
+     "series": "security",
+     "period": "2026-11-24",
+     "no": "06",
      "rank": 5
     }
    ]
