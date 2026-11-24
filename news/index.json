@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-24T09:08:37+08:00",
+ "updated_at": "2026-11-24T09:12:07+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "gambling",
+   "series_title": "博奕產業新聞",
+   "cadence": "daily",
+   "period": "2026-11-24",
+   "date": "2026-11-24",
+   "title": "博奕產業新聞",
+   "lede": "近 48 小時：南韓一年掃蕩非法網賭逮捕 6,310 人、凍結 1,548 億韓元；Lottomatica 股東 99.99% 通過與 CIRSA 合併；保加利亞國會一讀通過幾乎全面禁止博彩廣告；澳門經財司長稱賭收趨穩、博企裁員須有合理理由。",
+   "count": 38,
+   "data": "gambling/2026/2026-11-24.json",
+   "generated_at": "2026-11-24T09:12:07+08:00"
+  },
   {
    "series": "finance",
    "series_title": "財經日報",
