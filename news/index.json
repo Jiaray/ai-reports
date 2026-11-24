@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-24T09:08:28+08:00",
+ "updated_at": "2026-11-24T09:08:37+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "finance",
+   "series_title": "財經日報",
+   "cadence": "daily",
+   "period": "2026-11-24",
+   "date": "2026-11-24",
+   "title": "財經日報",
+   "lede": "黃仁勳復職輝達，輝達單日漲31.48%、費半漲14.03%，台指期夜盤一度漲停；證交所下調融資維持率至120%並促上市櫃實施庫藏股；美國將Megaspeed列入實體清單，國際油價跌至近三個月低點。",
+   "count": 21,
+   "data": "finance/2026/2026-11-24.json",
+   "generated_at": "2026-11-24T09:08:37+08:00"
+  },
   {
    "series": "security",
    "series_title": "資安日報",
