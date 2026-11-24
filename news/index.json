@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "updated_at": "2026-11-23T17:19:41+08:00",
+ "updated_at": "2026-11-24T09:07:28+08:00",
  "series": [
   {
    "id": "general",
@@ -130,6 +130,18 @@
   }
  ],
  "items": [
+  {
+   "series": "health",
+   "series_title": "健康日報",
+   "cadence": "daily",
+   "period": "2026-11-24",
+   "date": "2026-11-24",
+   "title": "健康日報",
+   "lede": "美國失去維持 25 年的麻疹消除地位；劍橋研究指急性骨髓性白血病最早可在確診前 50 年萌芽；Medicare 第三輪藥價談判估省 92 億美元、FDA 核准首款肢帶型肌肉失養症藥物；國衛院跨國基因研究揭露思覺失調症東亞族群變異。",
+   "count": 15,
+   "data": "health/2026/2026-11-24.json",
+   "generated_at": "2026-11-24T09:07:28+08:00"
+  },
   {
    "series": "international",
    "series_title": "國際新聞日報",
