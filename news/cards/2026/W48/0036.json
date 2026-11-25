@@ -1,0 +1,122 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0036",
+ "title": "美國將新加坡 Megaspeed 等 7 個實體列入貿易黑名單，馬來西亞資料中心熱潮受衝擊",
+ "line": "美方堵住中國企業向東南亞資料中心租用先進算力的漏洞，馬國要求業者斷開服務",
+ "born_at": "2026-11-25T16:11:46+08:00",
+ "first_reported_at": "2026-11-25T05:00:00+08:00",
+ "updated_at": "2026-11-25T16:11:46+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞",
+   "北美",
+   "中國大陸"
+  ],
+  "country": [
+   "MY",
+   "SG",
+   "TH",
+   "US",
+   "CN"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "國際關係",
+   "AI",
+   "總體經濟"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "story": [
+   "黃仁勳 Nvidia 風波",
+   "美國 AI 晶片出口管制"
+  ],
+  "sector": [
+   "半導體",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Megaspeed",
+   "Nvidia",
+   "馬來西亞投資貿易與工業部",
+   "馬來西亞投資發展局"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "貿易黑名單",
+   "出口管制",
+   "資料中心",
+   "AI 晶片",
+   "MSFusion",
+   "Speedmatrix"
+  ]
+ },
+ "summary_html": "Straits Times 報導，美國 11 月 24 日把總部在新加坡的 Megaspeed International 與 6 家位於馬來西亞、新加坡、泰國的關係企業列入貿易黑名單，理由是有把先進運算硬體轉給未授權使用者的「重大風險」，馬來西亞的三家是 MSFusion、PT Megaspeed International、Speedmatrix；Nikkei Asia 也報導美國將把 Megaspeed 列入黑名單。美國與新加坡當局正調查 Megaspeed 涉嫌把 Nvidia AI 晶片轉運中國。中國企業自 2022 年起無法直接進口先進晶片，據報轉向東南亞資料中心租用算力，華府正以出口與遠端存取的新限制堵住這個漏洞。<br>馬來西亞投資貿易與工業部（MITI）已要求投資發展局（MIDA）通知資料中心業者，不得為這 7 個實體提供託管、出租空間或服務。馬國 2026 年前 9 個月的資料中心與雲端投資達 1,235 億令吉，占核准投資的 35.2%；業界人士說衝擊不會一致，因為當地也承載社群與電商的雲端應用。Financial Times 報導，標榜能讓中國客戶取得晶片的亞洲資料中心專案正面臨美國更嚴格的審查。",
+ "dive_html": "這次黑名單把管制對象從晶片買家延伸到「出租算力」的中間商，東南亞以中國 AI 需求為主的資料中心首當其衝；馬來西亞政府第一時間配合通知業者斷開服務，顯示當地寧可犧牲部分中資需求，也不願冒失去美國晶片供應的風險。資料中心投資占馬國核准投資逾三成，若中資專案退場，數位經濟目標可能需要下修。台灣伺服器與 AI 晶片供應鏈出貨東南亞時，客戶審查與出口許可流程可能隨之變嚴。接下來要看泰國、新加坡政府的配合動作，以及美方是否再擴大名單；原文沒有交代被列名企業的回應。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Nikkei Asia",
+   "title": "US to place Megaspeed on trade blacklist amid Nvidia scandal",
+   "url": "https://asia.nikkei.com/business/tech/semiconductors/us-to-place-megaspeed-on-trade-blacklist-amid-nvidia-scandal",
+   "time": null,
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Financial Times",
+   "title": "Will the Nvidia fallout kill off Asia’s data centre boom?",
+   "url": "https://www.ft.com/content/e5df32d1-1801-4d81-b2f5-b83e93377c1c?syn-25a6b1a6=1",
+   "time": "2026-11-25T10:04:15+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "‘Sudden chill amid a boom’: Malaysia grapples with US curbs on chips",
+   "url": "https://www.straitstimes.com/asia/se-asia/sudden-chill-amid-a-boom-how-us-chip-curbs-may-cloud-malaysias-data-centre-ambitions",
+   "time": "2026-11-25T05:00:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 7,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

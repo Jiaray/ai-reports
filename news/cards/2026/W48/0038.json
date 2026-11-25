@@ -1,0 +1,128 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0038",
+ "title": "美國最快 11 月 25 日公布新關稅，中國、歐盟、日本等至少 14 個經濟體受影響",
+ "line": "新關稅依 301 條款調查結果課徵，稅率依各國先前與川普達成的協議而不同",
+ "born_at": "2026-11-25T16:11:46+08:00",
+ "first_reported_at": "2026-11-25T00:30:35+08:00",
+ "updated_at": "2026-11-25T16:11:46+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "中國大陸",
+   "歐洲"
+  ],
+  "country": [
+   "US",
+   "CN",
+   "JP",
+   "KR",
+   "IN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "總體經濟",
+   "國際關係"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "story": [
+   "川普關稅"
+  ],
+  "org": [
+   "美國貿易代表署",
+   "美國最高法院",
+   "歐盟"
+  ],
+  "person": [
+   "川普",
+   "習近平",
+   "葛里爾"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "301 條款",
+   "解放日關稅",
+   "關鍵礦產",
+   "鎵",
+   "鍺",
+   "銻"
+  ]
+ },
+ "summary_html": "BBC 獲悉，美國最快週三（11 月 25 日）宣布對多個主要貿易夥伴課徵新關稅，中國、歐盟、日本等至少 14 個經濟體受影響；Financial Times 報導南韓也在其中，DW 則說涵蓋印度在內共 16 個經濟體。新關稅源自白宮的「301 條款」調查，這項調查是在美國最高法院裁定川普的「解放日」關稅違法後，於 3 月啟動。各國適用的稅率將依先前與川普達成的協議而不同。<br>BBC 指出，這項宣布可能升高美中緊張。雙方日前在深圳峰會會面，歧見仍未完全化解，臨時協議將在 1 月 10 日到期；美方指控中國沒有完全履行 2025 年 10 月的承諾，特別是農產品採購、稀土與其他關鍵礦產。中國則在 11 月 24 日（週二）把鎵、鍺、銻等關鍵礦產出口禁令的暫緩期延長到 1 月 27 日，否則禁令週五就會生效。報導也提到，川普政府的關稅政策被批評推高美國消費者物價、傷害全球經濟。",
+ "dive_html": "改用 301 條款，是川普在「解放日」關稅被最高法院判違法後，換一條法律途徑重建關稅；301 條款以調查認定貿易夥伴的不公平做法為前提，法律基礎可能比原先的緊急權力更穩，較不易再被法院整批推翻。稅率依各國先前協議分級，等於把過去的談判成果變成差別待遇的籌碼。美中臨時協議 1 月 10 日到期、中國關鍵礦產禁令暫緩到 1 月 27 日，新關稅可能讓這兩個期限前的談判更緊繃。報導點名的經濟體沒有台灣；接下來要看正式公告的國家名單與各國稅率。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "受影響經濟體至少 14 個（BBC），DW 報導為印度等 16 個；301 條款調查於 3 月啟動；「解放日」關稅於 2025 年 4 月宣布；美中臨時協議 1 月 10 日到期；中國鎵、鍺、銻出口禁令暫緩延長至 1 月 27 日"
+  }
+ ],
+ "sources": [
+  {
+   "name": "BBC Top News",
+   "title": "US preparing to unveil plan for new tariffs on global trading partners",
+   "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o",
+   "time": "2026-11-25T08:38:01+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "India news: US prepares new tariffs after trade probe",
+   "url": "https://www.dw.com/en/india-news-us-prepares-new-tariffs-after-trade-probe/live-80042306?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-25T12:44:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Financial Times",
+   "title": "Trump readies raft of new tariffs on major economies",
+   "url": "https://www.ft.com/content/335b593d-1478-4550-ab0a-71fec6280eb0?syn-25a6b1a6=1",
+   "time": "2026-11-25T00:30:35+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 1,
+  "media_weight": 7,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

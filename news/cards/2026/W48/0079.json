@@ -1,0 +1,88 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0079",
+ "title": "Ariane 6 送 36 顆 Amazon Leo 衛星升空，Amazon 提前 SpaceX Falcon 9 發射補 Vulcan 停飛缺口",
+ "line": "Vulcan 11 月 15 日失誤損失 40 顆衛星後，Amazon Leo 星系增至 432 顆",
+ "born_at": "2026-11-25T16:11:46+08:00",
+ "first_reported_at": "2026-11-25T02:30:36+08:00",
+ "updated_at": "2026-11-25T16:11:46+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "歐洲"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科技",
+   "企業經營"
+  ],
+  "event": [
+   "其他"
+  ],
+  "sector": [
+   "電信"
+  ],
+  "org": [
+   "Amazon",
+   "SpaceX",
+   "United Launch Alliance",
+   "Arianespace",
+   "Blue Origin"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Amazon Leo",
+   "Ariane 6",
+   "Falcon 9",
+   "Vulcan",
+   "Starlink",
+   "低軌衛星"
+  ]
+ },
+ "summary_html": "歐洲的 Ariane 6 火箭 11 月 24 日把 36 顆 Amazon Leo 寬頻衛星送入軌道，星系增至 432 顆。Amazon 的主要發射商 United Launch Alliance（ULA）的 Vulcan 火箭 11 月 15 日發射 Amazon 衛星時失誤，損失 40 顆，將停飛數個月。一名 Amazon 主管告訴 Ars Technica，公司正把向 SpaceX 購買的 Falcon 9 發射提前，下一次從 2027 年提前到 12 月，之後還有數次密集發射。Amazon 約從 2021 年起向西方各家中、重型火箭預訂共 108 次發射，要把 3,232 顆衛星送上低地球軌道，截至 11 月 24 日完成 17 次、一次失敗。最初的合約幾乎都押在開發中的 Vulcan、Ariane 6 與 Blue Origin 的 New Glenn，三者都延誤，New Glenn 自 5 月發射台爆炸後停飛。Amazon 2023 年起向 SpaceX 訂發射，之後又加訂 10 次 Falcon 9。SpaceX 旗下的 Starlink 已超過 11,000 顆衛星，是 Amazon Leo 想追趕的對手。",
+ "dive_html": "Amazon 原本把大部分發射押在三款仍在開發的新火箭，結果 Vulcan、New Glenn 先後停飛，撐住進度的反而是 Falcon 9 與 Ariane 6，顯示新火箭的可靠度是星系部署最大的變數。向競爭對手 SpaceX 買發射，等於讓 Starlink 的母公司掌握 Amazon 一部分的部署節奏。108 次發射只完成 17 次，432 顆距離 3,232 顆的目標仍遠，Vulcan 停飛多久、New Glenn 何時復飛，將決定 Amazon Leo 追趕 Starlink 的速度。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Ars Technica",
+   "title": "Amazon discovers Falcon 9 and Ariane 6 can deliver when nobody else can",
+   "url": "https://arstechnica.com/space/2026/11/amazon-surges-launches-with-rival-spacex-after-ula-fails-to-deliver/",
+   "time": "2026-11-25T02:30:36+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "51 comments",
+   "family": "Ars Technica",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

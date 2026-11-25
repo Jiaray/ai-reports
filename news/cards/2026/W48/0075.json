@@ -1,0 +1,80 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0075",
+ "title": "NASA 火星四項任務兩項暫停科學作業：毅力號無線電故障、奧德賽號反應輪再壞一個",
+ "line": "兩者都已超出設計壽命；毅力號團隊希望 11 月底前恢復科學作業",
+ "born_at": "2026-11-25T16:11:46+08:00",
+ "first_reported_at": "2026-11-25T06:50:11+08:00",
+ "updated_at": "2026-11-25T16:11:46+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科學"
+  ],
+  "event": [
+   "意外事故"
+  ],
+  "org": [
+   "NASA",
+   "噴射推進實驗室"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "毅力號",
+   "奧德賽號",
+   "Perseverance",
+   "Odyssey",
+   "反應輪",
+   "UHF 無線電"
+  ]
+ },
+ "summary_html": "NASA 在火星運作的四項任務中，毅力號（Perseverance）探測車與奧德賽號（Odyssey）軌道器近幾週各自出現技術問題、暫停科學作業，兩者都已超過設計壽命。毅力號有兩具互為備援、經軌道器中繼的 UHF 無線電，另有速率較低、直接對地球通訊的 X 波段系統。10 月 30 日開機時一具 UHF 無線電沒有回應，探測車切換到備用並進入安全模式，噴射推進實驗室（JPL）後來發現備用無線電的功率只有預期的一半左右。NASA 已停用兩具 UHF 無線電，改以 X 波段傳訊，資料速率「明顯較低」，並「希望探測車能在 11 月底前恢復科學作業」。毅力號 10 月才超越機會號的 45.16 公里紀錄，成為在其他行星上行駛最遠的載具。2001 年抵達、史上壽命最長的火星任務奧德賽號情況更嚴峻：11 月初又一個反應輪停轉，加上 2013 年壞掉的一個，只剩兩個正常，但至少要三個才能維持姿態，NASA 說它只能完全靠聯氨推進器維持指向。",
+ "dive_html": "兩項故障性質不同。毅力號的問題在通訊系統，若備用 UHF 無線電能恢復，就有機會照團隊預期在 11 月底前復工；奧德賽號則是反應輪這類硬體耗損，改靠聯氨推進器維持指向會消耗有限的燃料，任務剩餘壽命可能因此縮短。奧德賽號長期兼任火星地面任務的資料中繼站之一，若它提早退役，毅力號這類地面任務可用的中繼管道也會減少。兩項任務都已超出設計壽命，NASA 火星艦隊整體老化，後續任務如何銜接是更大的課題。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Ars Technica",
+   "title": "Half of NASA's aging Mars fleet knocked offline by technical issues",
+   "url": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/",
+   "time": "2026-11-25T06:50:11+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "1 comments",
+   "family": "Ars Technica",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

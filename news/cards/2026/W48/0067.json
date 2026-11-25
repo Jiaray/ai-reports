@@ -1,0 +1,83 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0067",
+ "title": "歐洲太空總署 Hera 探測器抵達遭 NASA DART 撞擊的小行星，四年後勘查撞擊結果",
+ "line": "2022 年撞擊讓 Dimorphos 繞行週期縮短約 33 分鐘，Hera 將用一年量測其質量與撞擊痕跡",
+ "born_at": "2026-11-25T16:11:46+08:00",
+ "first_reported_at": "2026-11-25T14:00:36+08:00",
+ "updated_at": "2026-11-25T16:11:46+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科學"
+  ],
+  "event": [
+   "其他"
+  ],
+  "org": [
+   "歐洲太空總署",
+   "NASA"
+  ],
+  "person": [
+   "Patrick Michel"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Hera",
+   "DART",
+   "Dimorphos",
+   "Didymos",
+   "行星防禦"
+  ]
+ },
+ "summary_html": "歐洲太空總署（ESA）的 Hera 探測器抵達小行星 Dimorphos，勘查 NASA 的 DART 太空船 2022 年刻意撞擊的結果，首批影像預定 11 月 25 日稍晚公布。這是人類首次行星防禦測試，目標小行星本身對地球沒有威脅。寬約 150 公尺的 Dimorphos 繞行寬約 730 公尺的 Didymos；DART 以時速 22,000 公里撞上後解體，留下長約 10,000 公里、哈伯太空望遠鏡也拍得到的碎屑尾跡，Dimorphos 的繞行週期從 11 小時 55 分縮短約 33 分鐘，證明能改變小行星軌道。Hera 任務首席研究員 Patrick Michel 說，DART 已經炸毀，無從得知小行星最後的狀態：可能留下坑洞，也可能整顆被重塑。Hera 將花一年研究 Dimorphos 並觀察 Didymos，搭載的兩顆鞋盒大小的小衛星會近距離研究撞擊點、之後降落。關鍵任務是量測 Dimorphos 的質量，算出撞擊推力的實際效果，作為未來應對撞地天體的依據。",
+ "dive_html": "DART 只證明軌道「改變了」，沒有 Dimorphos 的質量，就算不出撞擊實際傳遞了多少動量，也無法把這次結果推估到其他小行星；Hera 要補的正是這個缺口。若撞擊整顆重塑了 Dimorphos 而不只是留下坑洞，代表小行星對撞擊的反應取決於本身結構，未來的防禦任務得先摸清目標性質，才能估算需要多大的撞擊。NASA 負責撞、ESA 負責驗的分工，讓這次測試從單次實驗變成完整的資料鏈。首批影像與一年後的質量量測是接下來的觀察點。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC Top News",
+   "title": "Four years after huge asteroid crash, a spacecraft has now returned to assess the damage",
+   "url": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo",
+   "time": "2026-11-25T14:00:36+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

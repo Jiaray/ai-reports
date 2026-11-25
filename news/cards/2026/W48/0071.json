@@ -1,0 +1,105 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0071",
+ "title": "已故教宗方濟各日記出版：自述三度見到魔鬼、曾陷靈性危機",
+ "line": "160 頁選輯涵蓋 1992 年至他過世前幾個月，也提到讓已婚男子擔任神父的計畫",
+ "born_at": "2026-11-25T16:11:46+08:00",
+ "first_reported_at": "2026-11-24T19:10:57+08:00",
+ "updated_at": "2026-11-25T16:11:46+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "VA"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "文化藝術"
+  ],
+  "event": [
+   "其他"
+  ],
+  "org": [
+   "天主教會"
+  ],
+  "person": [
+   "方濟各",
+   "Victor Manuel Fernandez"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "教宗日記",
+   "魔鬼",
+   "靈性危機",
+   "已婚神父"
+  ]
+ },
+ "summary_html": "已故教宗方濟各的私人日記選輯 11 月 24 日由梵蒂岡公開發行，由他的阿根廷同鄉、親近合作者費南德斯樞機（Victor Manuel Fernandez）整理並加註。DW 指出，這是 1963 年過世的若望二十三世以來，首部在教宗身後出版的教宗日記。160 頁摘錄從 1992 年到他過世前幾個月，依主題編排，著重內在靈性經驗而非梵蒂岡政治。日記顯示方濟各在位期間曾陷入靈性危機，2022 年 12 月寫道，一切「和治理問題、做決定的壓力，以及枯竭與荒涼混在一起」，也寫到不想成為「把別人當傀儡使喚」的人，但沒說指的是誰。書中列出他自認三度見到魔鬼，其中一次是 2021 年 1 月與梵蒂岡官員開會時，他相信還聽見對方說話；BBC 報導另一次發生在彌撒期間的「唱詩班樓座」。2018 年他寫道看見了地獄的入口。費南德斯評註說，方濟各最終認定那是折磨他最深的考驗。Euronews 報導，書中也記載他對已婚男子擔任神父的抉擇，標題稱之為允許已婚男子當神父的計畫。",
+ "dive_html": "選輯由方濟各的親信編選並加註，呈現的是支持者角度下的靈性掙扎，160 頁之外還有哪些內容、為何這樣挑選，外界無從檢驗。書中把 2021 年與梵蒂岡官員開會和魔鬼出現連在一起，又提到他面對保守派阻力，雖然沒有點名，仍可能被解讀成影射教廷內部的反對者，在教會內引發爭議。若書中確實記載允許已婚男子當神父的計畫，將重新點燃天主教會關於神父獨身制的討論。後續看梵蒂岡官方如何詮釋這些內容。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC World",
+   "title": "Pope Francis' diary reveals claims he saw the devil three times",
+   "url": "https://www.bbc.co.uk/news/articles/cm78270l4z7no",
+   "time": "2026-11-24T19:10:57+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "Pope Francis diaries recount spiritual crisis, him seeing the 'Devil'",
+   "url": "https://www.dw.com/en/pope-francis-diaries-recount-spiritual-crisis-him-seeing-the-devil/a-80033224?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-24T23:21:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Pope Francis' private notes reveal visions of the devil and a plan to allow married men to be priests",
+   "url": "https://www.euronews.com/2026/11/24/pope-francis-private-notes-reveal-visions-of-the-devil-and-a-plan-to-allow-married-men-to-",
+   "time": "2026-11-25T01:06:57+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 1,
+  "media_weight": 6,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0051",
+ "title": "BBC Verify：中國相關網路以 AI 深偽影片抹黑賴清德、沈伯洋等民進黨人士",
+ "line": "一年內產出逾 500 支假影片、累計觀看數千萬次，過半觀看集中在近四個月",
+ "born_at": "2026-11-25T16:11:46+08:00",
+ "first_reported_at": "2026-11-25T07:05:11+08:00",
+ "updated_at": "2026-11-25T16:11:46+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "台灣",
+   "中國大陸"
+  ],
+  "country": [
+   "TW",
+   "CN"
+  ],
+  "taiwan": [
+   "直接"
+  ],
+  "topic": [
+   "兩岸",
+   "選舉",
+   "AI"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "story": [
+   "2026 九合一選舉"
+  ],
+  "org": [
+   "BBC",
+   "民進黨",
+   "總統府"
+  ],
+  "person": [
+   "賴清德",
+   "沈伯洋",
+   "蔡英文",
+   "王宏恩"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "深偽",
+   "認知作戰",
+   "假訊息",
+   "noxparable",
+   "地方選舉"
+  ]
+ },
+ "summary_html": "BBC Verify 調查發現，一個與中國有關的網路過去一年產出超過 500 支針對民進黨的 AI 假影片，專家認為是企圖影響台灣地方選舉的長期行動一環。影片聲稱總統賴清德持有美國綠卡、兩岸開戰就會棄台，總統府說完全不實；深偽影片也呈現角逐台北市長的沈伯洋（Puma Shen）吸毒，沈伯洋否認；前總統蔡英文同樣是目標。許多影片出自「noxparable」帳號或帶同名浮水印，2025 年 5 月以來在多個社群平台累計觀看數千萬次，過半是近四個月累積；不少散播帳號把所在地標為中國大陸與香港，部分影片帶有 AI 生成標示。報導指出，台北市長向來是問鼎總統的跳板，公開批評北京的沈伯洋因此成為明顯目標。內華達大學拉斯維加斯分校認知作戰學者王宏恩說，操作者想讓民眾不信任民進黨政治人物。",
+ "dive_html": "調查把單一帳號 noxparable、帳號標示的所在地與觀看量曲線串在一起，指向有組織、跨平台的操作，而非零星網友創作；過半觀看集中在選前升溫的近四個月，也符合「影響選舉」的推論。缺口在於報導沒有交代「與中國有關」的認定依據是否超出帳號自填的所在地，也沒說各平台是否已下架。AI 讓深偽影片的量產成本極低，選前若再出現針對特定候選人的新影片，查核與平台處理的速度會是關鍵。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC Top News",
+   "title": "China-linked network using AI fakes to smear Taiwan election candidates, BBC Verify finds",
+   "url": "https://www.bbc.co.uk/news/articles/cv702rw7dzx5o",
+   "time": "2026-11-25T07:05:11+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

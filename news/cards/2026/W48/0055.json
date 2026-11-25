@@ -1,0 +1,109 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0055",
+ "title": "法國前總統薩科吉與妻子布魯尼涉干預證人，將於 2027 年受審",
+ "line": "案件源自利比亞金援競選案關鍵證人翻供，官方認定翻供「不真誠」後另案偵辦",
+ "born_at": "2026-11-25T16:11:46+08:00",
+ "first_reported_at": "2026-11-25T00:33:12+08:00",
+ "updated_at": "2026-11-25T16:11:46+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "FR",
+   "LY"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "犯罪與司法",
+   "政治"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "person": [
+   "薩科吉",
+   "卡拉・布魯尼",
+   "塔基丁",
+   "格達費"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "干預證人",
+   "利比亞金援案",
+   "Save Sarko",
+   "競選資金"
+  ]
+ },
+ "summary_html": "法國前總統薩科吉（Nicolas Sarkozy）與妻子、前超模兼歌手卡拉・布魯尼（Carla Bruni-Sarkozy）將於 2027 年在巴黎受審（Euronews 說是 2027 年底），罪名是「意圖詐欺的犯罪共謀」及受益於干預證人，兩人否認不法。BBC 報導，案件源自薩科吉被判共謀以已故利比亞獨裁者格達費的資金助選一案：商人塔基丁（Ziad Takieddine）曾說握有書面證據，證明薩科吉 2007 年競選獲的黎波里「大量」資助，他當上總統後款項仍持續，共 5,000 萬歐元。塔基丁 2020 年受訪時撤回指控，官方認定翻供「不真誠」，另對法國媒體所稱的「拯救薩科」（Save Sarko）行動展開調查；塔基丁已於 2025 年過世。薩科吉 2025 年 9 月在主案被判刑五年，成為第一位入獄的法國前總統，實際服刑 20 天，BBC 說上訴判決預計 11 月 30 日出爐。他另在 2021 年因企圖賄賂法官、2024 年因 2012 年連任競選非法籌資被判刑。",
+ "dive_html": "新案把司法壓力從薩科吉本人延伸到布魯尼，檢方若能證明翻供是有組織的收買，可能反過來強化利比亞金援主案的可信度。時間點也敏感：主案上訴判決 11 月 30 日出爐，新案 2027 年才開庭，薩科吉未來一年要同時應付兩條司法戰線。關鍵證人塔基丁已經過世，新案無法再向本人求證，檢方得靠其他證據證明翻供背後有對價，這會是審理的重點。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC World",
+   "title": "French ex-President Sarkozy and wife Carla Bruni to face trial",
+   "url": "https://www.bbc.co.uk/news/articles/c65y17pwv1z7o",
+   "time": "2026-11-25T00:49:07+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "France's ex-president Nicolas Sarkozy, wife Carla Bruni to stand trial for alleged witness tampering",
+   "url": "https://www.france24.com/en/france/20261124-france-ex-president-nicolas-sarkozy-wife-carla-stand-trial-over-alleged-witness-tampering",
+   "time": "2026-11-25T00:33:12+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Nicolas Sarkozy to face 2027 Paris trial over alleged paid retraction by witness",
+   "url": "https://www.euronews.com/2026/11/25/nicolas-sarkozy-to-face-2027-paris-trial-over-alleged-paid-retraction-by-witness",
+   "time": "2026-11-25T13:50:32+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 1,
+  "media_weight": 6,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

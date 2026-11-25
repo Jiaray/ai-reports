@@ -1,0 +1,145 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0044",
+ "title": "哥倫比亞比亞維森西奧汽車炸彈至少 23 人受傷，總統歸咎前 FARC 異議分子",
+ "line": "爆炸發生在和平協議十週年前夕，總統德拉埃斯普列亞誓言動用國家全力追捕",
+ "born_at": "2026-11-25T16:11:46+08:00",
+ "first_reported_at": "2026-11-24T00:00:00+08:00",
+ "updated_at": "2026-11-25T16:11:46+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中南美"
+  ],
+  "country": [
+   "CO"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "戰爭與衝突",
+   "政治"
+  ],
+  "event": [
+   "軍事行動",
+   "聲明評論"
+  ],
+  "org": [
+   "FARC-EMC",
+   "聯合國"
+  ],
+  "person": [
+   "德拉埃斯普列亞",
+   "安東尼奧・梅迪納",
+   "古特瑞斯"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "汽車炸彈",
+   "比亞維森西奧",
+   "FARC",
+   "和平協議"
+  ]
+ },
+ "summary_html": "哥倫比亞中部城市比亞維森西奧 11 月 23 日晚間約 9 時 30 分，梅塔省政府總部前發生汽車炸彈爆炸，周邊建築與車輛嚴重受損，市中心部分停電。傷者人數各家不同：DW 引地方當局說至少 23 人，Euronews 先後報導至少 25 人、至少 24 人，Al Jazeera 說數十人；總統德拉埃斯普列亞（Abelardo de la Espriella）說「目前」沒有死亡。France 24 引總統說法稱省長辦公室被炸毀，EFE 則報導政府大樓結構可能受損、有倒塌之虞。<br>爆炸無人宣稱犯案，發生在哥倫比亞與 FARC 游擊隊和平協議十週年前夕，總統爆炸前不久才批評這份協議是「假和平」。他 11 月 24 日視察現場，指控 FARC 異議組織 FARC-EMC 指揮官梅迪納（Antonio Medina）主使，並警告「毒品恐怖分子」要為每一滴血負責。他 8 月上任後發動美國支持的軍事攻勢打擊武裝團體與毒販；AFP 取得的國防部文件顯示，2026 年 1 到 11 月當局記錄 358 起無人機攻擊。聯合國秘書長古特瑞斯讚揚和平協議十年來的進展，但強調必須全面落實。",
+ "dive_html": "爆炸選在和平協議十週年前夕、對準省政府，象徵意味濃厚；總統把矛頭指向 FARC-EMC 並以「毒品恐怖分子」定性，延續他上任以來的強硬路線，也和他稱協議為「假和平」的立場一致，與聯合國呼籲全面落實協議形成對比。一年 358 起無人機攻擊，加上 Euronews 報導庫庫塔另一起攻擊後數百名居民持蠟燭遊行，顯示暴力回升不是單一事件；若政府以更大規模的軍事行動回應，和平進程僅存的談判空間可能再縮小。原文沒有交代調查證據，歸咎對象目前只是總統的說法。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "France 24",
+   "title": "Car bomb destroys buildings in central Colombian city",
+   "url": "https://www.france24.com/en/car-bomb-destroys-buildings-in-central-colombian-city",
+   "time": "2026-11-25T03:27:10+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "Colombia: Car bomb attack injures at least 23",
+   "url": "https://www.dw.com/en/colombia-car-bomb-attack-injures-at-least-23/a-80033956?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-24T22:20:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "At least 24 injured after car bomb detonates in central Colombia",
+   "url": "https://www.euronews.com/2026/11/24/at-least-24-injured-after-car-bomb-detonates-in-central-colombia",
+   "time": "2026-11-25T02:04:08+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Colombia: At least 25 injured in bombing as armed violence resurges",
+   "url": "https://www.euronews.com/video/2026/11/24/colombia-at-least-25-injured-in-bombing-as-armed-violence-resurges",
+   "time": "2026-11-24T23:54:58+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Colombian president blames ex-FARC rebels for car bomb blast",
+   "url": "https://www.aljazeera.com/news/2026/11/24/colombian-president-blames-ex-farc-rebels-for-car-bomb-blast",
+   "time": "2026-11-25T05:45:42+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "UN News",
+   "title": "Colombia: Guterres urges renewed commitment to landmark peace deal",
+   "url": "https://news.un.org/en/story/2026/11/1168864",
+   "time": "2026-11-24T00:00:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "聯合國",
+   "kind": "official",
+   "region": "全球",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 2,
+  "media_weight": 8,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

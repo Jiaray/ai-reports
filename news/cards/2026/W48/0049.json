@@ -1,0 +1,94 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0049",
+ "title": "伊朗對未戴頭巾演唱的歌手艾哈邁迪執行鞭刑 74 下，聯合國人權高專譴責",
+ "line": "她與 4 名男性團隊成員因 2024 年上傳 YouTube 的演唱會各被鞭 74 下",
+ "born_at": "2026-11-25T16:11:46+08:00",
+ "first_reported_at": "2026-11-25T04:53:57+08:00",
+ "updated_at": "2026-11-25T16:11:46+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東"
+  ],
+  "country": [
+   "IR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "人權",
+   "文化藝術"
+  ],
+  "event": [
+   "犯罪執法",
+   "聲明評論"
+  ],
+  "org": [
+   "聯合國人權事務高級專員辦事處"
+  ],
+  "person": [
+   "帕拉斯圖・艾哈邁迪",
+   "涂爾克"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "鞭刑",
+   "頭巾",
+   "女性演唱禁令"
+  ]
+ },
+ "summary_html": "伊朗當局 11 月 23 日對 29 歲歌手帕拉斯圖・艾哈邁迪（Parastoo Ahmadi）及 4 名男性製作團隊成員各執行 74 下鞭刑，消息來自當地媒體引述她的律師尼利（Mostafa Nili）。他們在 2026 年 6 月被判刑，起因是 2024 年 12 月上傳網路的一場演唱會，影片在 YouTube 有數百萬次觀看（Al Jazeera 說是在 YouTube 直播）；艾哈邁迪演出時穿細肩帶長禮服、未戴頭巾，而伊朗禁止女性公開演唱，也要求女性穿著保守並戴頭巾。聯合國人權事務高級專員涂爾克（Volker Türk）在 X 上說，這場鞭刑「令人憎惡」，鞭刑屬於酷刑或其他殘忍、不人道或有辱人格的處罰，國際法在任何情況下都絕對禁止，伊朗應停止執行其他鞭刑判決並從法律中廢除。France 24 指出，2022 年 9 月艾米尼（Mahsa Amini）涉嫌違反服裝規定被捕、死於羈押並引發抗議後，越來越多伊朗女性不戴頭巾出現在公眾場合。",
+ "dive_html": "宣判 5 個月後真的執行 74 下鞭刑，對象又是擁有數百萬觀眾的知名歌手，顯示伊朗當局即使面對女性不戴頭巾日益普遍，仍以高調懲罰維持服裝規定與女性公開演唱禁令，對其他藝人有明確的嚇阻意味。連幕後的男性樂手也一併受罰，代表執法對象從演出者本人擴及整個製作團隊。原文沒有交代伊朗官方對執行鞭刑的說法。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Iran whips singer Parastoo Ahmadi 74 times over YouTube concert",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/iran-whips-singer-parastoo-ahmadi-74-times-over-youtube-concert",
+   "time": "2026-11-25T09:21:02+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "UN slams Iran after it flogs singer for performing without veil",
+   "url": "https://www.france24.com/en/asia-pacific/20261124-un-condemns-iran-flogging-singer-parastoo-ahmadi",
+   "time": "2026-11-25T04:53:57+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

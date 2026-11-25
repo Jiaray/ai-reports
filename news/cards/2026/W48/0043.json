@@ -1,0 +1,138 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0043",
+ "title": "曾遭錯誤遣返的阿布雷戈・賈西亞自願離美前往西班牙，結束與川普政府的遣返之爭",
+ "line": "他與聯邦當局談妥自行離境，避免被強制遣送到非洲國家",
+ "born_at": "2026-11-25T16:11:46+08:00",
+ "first_reported_at": "2026-11-25T07:08:00+08:00",
+ "updated_at": "2026-11-25T16:11:46+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "歐洲",
+   "中南美"
+  ],
+  "country": [
+   "US",
+   "SV",
+   "ES"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "移民與難民",
+   "犯罪與司法",
+   "政治"
+  ],
+  "event": [
+   "會談協議"
+  ],
+  "org": [
+   "美國國土安全部",
+   "美國最高法院",
+   "移民及海關執法局"
+  ],
+  "person": [
+   "阿布雷戈・賈西亞",
+   "范霍倫",
+   "川普"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "遣返",
+   "CECOT",
+   "自願離境",
+   "正當程序"
+  ]
+ },
+ "summary_html": "阿布雷戈・賈西亞（Kilmar Ábrego García）的律師 11 月 24 日證實他已自願離開美國，國土安全部（DHS）也證實他前往西班牙。這名 31 歲的薩爾瓦多人青少年時非法入境美國，在馬里蘭州生活多年，妻兒都是美國人；2019 年移民法官裁定他因遭幫派威脅不得遣返薩爾瓦多，但沒有給他居留身分。<br>2025 年 3 月他在巴爾的摩被捕，川普政府違反法院保護令把他遣返薩爾瓦多、關進反恐巨型監獄 CECOT，官員事後稱是「行政錯誤」；最高法院裁決後，政府在 2025 年 6 月把他帶回美國，但先取得田納西州人口走私罪的起訴，聯邦法官在 2026 年 5 月駁回此案。此後 DHS 一再提議把他遣送到多個非洲國家。《華盛頓郵報》報導，他與聯邦當局談妥自願離境以免被強制遣返，WSJ 說這為一年半的法律纏訟畫下句點。曾赴薩爾瓦多探視他的民主黨參議員范霍倫（Chris Van Hollen）說，他如今以「自由人」身分前往自己選擇的國家，這是「正當程序與憲法的勝利」。",
+ "dive_html": "這個結局讓雙方都沒在法庭上分出最終勝負：川普政府不必再為錯誤遣返的責任纏訟，阿布雷戈・賈西亞則以自選國家換取不再面對遣送非洲第三國的威脅。此案曾是檢驗政府是否遵守法院命令的指標，最高法院介入、人口走私起訴被駁回，都顯示司法對行政權仍有制衡作用；但「談妥自行離境」也可能成為政府處理爭議遣返案的範本。原文沒有交代西班牙給他什麼居留身分，以及協議的其他條件。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC World",
+   "title": "Kilmar Ábrego García leaves US for Spain, ending Trump deportation battle",
+   "url": "https://www.bbc.co.uk/news/articles/c6808pyy5dl9o",
+   "time": "2026-11-25T14:36:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "Kilmar Ábrego García, man at center of Trump deportation battle, leaves US",
+   "url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+   "time": "2026-11-25T07:50:31+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Kilmar Abrego Garcia self-deports to Spain after lengthy US legal battle",
+   "url": "https://www.aljazeera.com/news/2026/11/25/kilmar-abrego-garcia-self-deports-to-spain-after-lengthy-us-legal-battle",
+   "time": "2026-11-25T10:40:59+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "WSJ",
+   "title": "Kilmar Abrego Garcia Is Leaving the U.S. for Spain After Arranging Own Exit",
+   "url": "https://www.wsj.com/us-news/law/kilmar-abrego-garcia-is-leaving-the-u-s-to-a-country-of-his-choosing-117cad88?mod=rss_usnews",
+   "time": "2026-11-25T07:32:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Salvadoran migrant Kilmar Abrego Garcia leaves US for Spain",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxObmstVGdVdGg5bDFyaTJ3MTRxdU1Pb1BhQVRrejJkNFgwMXdQNnRvWDg1VXZkMU0xWjd3dGlqcjRYQUF1TkRlSVFPQTRGMnlwM0hnbThjRE5ic2FtcVdnQmxuemJHQ1BjbDY1M2hsZWs3dHNmSWEzci1PSEkxRFd1M3V1eTRuYi1VWkRwLW4yUGdWMlpMd2I5bmFEd1pJWTI3VGxSZG5Ib3FnS01kbHRRSkhZeXdIMmV1ZDlRWGFOUl9Idm1wLVMw?oc=5",
+   "time": "2026-11-25T07:08:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 5,
+  "regions": 3,
+  "media_weight": 12,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

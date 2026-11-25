@@ -1,0 +1,394 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0032",
+ "title": "黃仁勳辭職 11 天後重掌輝達，川普稱是他說服董事會",
+ "line": "輝達董事會翻案讓黃仁勳回任執行長，股價單日漲約三分之一，德國、中國與台股反應兩極",
+ "born_at": "2026-11-25T16:11:46+08:00",
+ "first_reported_at": "2026-11-24T16:00:11+08:00",
+ "updated_at": "2026-11-25T16:11:46+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "中國大陸",
+   "台灣"
+  ],
+  "country": [
+   "US",
+   "CN",
+   "TW",
+   "DE"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "企業經營",
+   "政治",
+   "國際關係"
+  ],
+  "event": [
+   "人事異動",
+   "爭議風波"
+  ],
+  "story": [
+   "黃仁勳 Nvidia 風波"
+  ],
+  "sector": [
+   "半導體"
+  ],
+  "org": [
+   "Nvidia",
+   "白宮",
+   "Megaspeed",
+   "環球時報"
+  ],
+  "person": [
+   "黃仁勳",
+   "川普",
+   "范斯",
+   "瓦德富爾",
+   "Alice Huang"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "執行長復職",
+   "晶片走私",
+   "國家安全",
+   "出口管制"
+  ]
+ },
+ "summary_html": "輝達共同創辦人黃仁勳 11 月 12 日因婚外情風波下台，對象之一 Alice Huang 被指涉嫌為中國間諜，她主持的新加坡公司 Megaspeed 遭美方調查涉嫌把輝達晶片轉運中國。美國時間 11 月 23 日（週一），原本表明無意讓他復職的董事會讓他回任執行長。川普說是他「說服」董事會，並稱沒有理由認為黃仁勳回任構成國安風險；Guardian 報導川普與副總統范斯曾對董事會施壓。輝達股價當天漲約三分之一，Guardian 稱市值回升逾 9,000 億美元，BBC 則寫 1 兆美元。<br>支持者以人才為由：川普說失去黃仁勳的頭腦才是更大威脅，Musk、Altman 等矽谷人士公開慶祝。批評者包括德國外長瓦德富爾，他對川普干預企業經營感到「震驚」；紐約市長曼達尼則認為這場風波顯示股市過度依賴 AI。中國官媒《環球時報》稱間諜報導「惡意」，警告未來恐有「政治獵巫」。BBC 中文形容台股一片漲停氣氛，Straits Times 則指台灣科技業得留意輝達供應鏈可能遭調查的風險。黃仁勳是自行辭職或遭董事會撤換，各家說法不一。",
+ "dive_html": "這次復職把輝達的公司治理和白宮綁在一起：董事會先說不讓黃仁勳回任、再因總統介入翻案，而川普本人持有輝達股票，董事會獨立性與利益衝突可能成為國會與投資人追問的重點。國安面的缺口在於，川普所說「沒有國安問題」的評估依據沒有公開，報導也沒有交代 Megaspeed 晶片轉運調查的進度。對台灣，黃仁勳回任短期穩住了台股與供應鏈信心，但若美方調查延伸到輝達供應鏈，台灣代工與伺服器廠可能面對出貨流向的審查壓力。接下來要看董事會是否公布國安評估細節，以及美國國會與調查機關的動作。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "辭職到復職相隔 11 天（11 月 12 日辭職、美國時間 11 月 23 日復職）；復職當天股價漲約三分之一（Guardian）；市值回升逾 9,000 億美元（Guardian），BBC 報導為 1 兆美元；風波期間市值一度蒸發約 1 兆美元（BBC 中文）；Megaspeed 購入 48 億美元輝達 AI 晶片後轉運中國（Guardian）；川普的輝達持股在黃仁勳復職後獲利最多 1,500 萬美元（Guardian）"
+  }
+ ],
+ "sources": [
+  {
+   "name": "BBC Top News",
+   "title": "Anthony Zurcher: With Huang rescue, Trump riskily ties his political fortunes to Nvidia",
+   "url": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo",
+   "time": "2026-11-25T09:03:05+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC 中文",
+   "title": "黃仁勳回歸輝達 特朗普稱曾出手斡旋",
+   "url": "https://www.bbc.com/zhongwen/articles/cj5y1xdgv0x7o/trad",
+   "time": "2026-11-24T17:56:39+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC Business",
+   "title": "Trump faces backlash after saying he 'convinced' Nvidia to reinstate CEO Jensen Huang",
+   "url": "https://www.bbc.co.uk/news/articles/cq5y1k8ez407o",
+   "time": "2026-11-24T18:53:37+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian Technology",
+   "title": "‘The mistake has been corrected’: end of Jensen Huang’s brief walk in the wilderness",
+   "url": "https://www.theguardian.com/technology/2026/nov/24/mistake-corrected-jensen-huang-resinstated-nvidia-analysis",
+   "time": "2026-11-25T00:27:41+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Financial Times",
+   "title": "‘Tech bros strike back’ as Trump rescues Nvidia’s Huang",
+   "url": "https://www.ft.com/content/a1374617-d3a2-415a-8490-72b164eefc0e?syn-25a6b1a6=1",
+   "time": "2026-11-25T13:00:32+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "DW News",
+   "title": "Germany's Wadephul 'shocked' by Trump's Nvidia intervention",
+   "url": "https://www.dw.com/en/germany-s-wadephul-shocked-by-trump-s-nvidia-intervention/a-80033954?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-24T21:37:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Tech executives' investment in Trump 'clearly paying off' as Huang reinstated at Nvidia",
+   "url": "https://www.france24.com/en/tv-shows/a-propos/20261124-tech-executives-investment-in-trump-clearly-paying-off-as-huang-reinstated-at-nvidia",
+   "time": "2026-11-25T06:03:43+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Tech executives' investment in Trump 'clearly paying off' as Huang reinstated at Nvidia",
+   "url": "https://www.france24.com/en/tech-executives-investment-in-trump-clearly-paying-off-as-huang-reinstated-at-nvidia",
+   "time": "2026-11-25T05:57:38+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "'Quid pro quo’: Nvidia too big to fail or ‘too close to personal interest of people around Trump’?",
+   "url": "https://www.france24.com/en/quid-pro-quo-nvidia-too-big-to-fail-or-too-close-to-personal-interest-of-people-around-trump",
+   "time": "2026-11-25T05:43:07+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "The Nvidia case is just the latest episode of Trump disregarding intelligence",
+   "url": "https://www.theguardian.com/technology/2026/nov/24/nvidia-trump-huang-intelligence",
+   "time": "2026-11-24T22:00:48+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian Technology",
+   "title": "Trump, Nvidia and power: could we be nearing the end of tech’s Gilded Age?",
+   "url": "https://www.theguardian.com/technology/2026/nov/24/trump-nvidia-gilded-age",
+   "time": "2026-11-24T16:00:11+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "WSJ",
+   "title": "Opinion | Is Nvidia Trump’s Waterloo?",
+   "url": "https://www.wsj.com/opinion/is-nvidia-trumps-waterloo-22a0d3c2?mod=rss_usnews",
+   "time": "2026-11-25T06:23:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "CNBC",
+   "title": "Six key questions raised by Jensen Huang's return to Nvidia",
+   "url": "https://www.cnbc.com/2026/11/24/nvidia-jensen-huang-politics-market.html",
+   "time": "2026-11-24T21:31:29+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "The Diplomat",
+   "title": "Why Nvidia Couldn’t Quit Jensen Huang",
+   "url": "https://thediplomat.com/2026/11/why-nvidia-couldnt-quit-jensen-huang/",
+   "time": "2026-11-25T05:11:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "The Diplomat",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "Nikkei Asia",
+   "title": "Jensen Huang's return to Nvidia tests America's AI strategy",
+   "url": "https://asia.nikkei.com/opinion/jensen-huang-s-return-to-nvidia-tests-america-s-ai-strategy",
+   "time": null,
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+   "url": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
+   "time": "2026-11-25T09:13:56+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "BBC 中文",
+   "title": "黃仁勳重掌Nvidia：習近平從特朗普身上看到了什麼？",
+   "url": "https://www.bbc.com/zhongwen/articles/cjr4gwxzgyydo/trad",
+   "time": "2026-11-25T00:15:54+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian Technology",
+   "title": "Chinese media hail Huang’s Nvidia return with warning over ‘witch-hunts’",
+   "url": "https://www.theguardian.com/technology/2026/nov/24/china-media-jensen-huang-nvidia-ceo",
+   "time": "2026-11-24T22:45:03+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC 中文",
+   "title": "「不能沒有你」：黃仁勳回歸，台灣股市的狂歡與半導體「 黑天鵝」風險",
+   "url": "https://www.bbc.com/zhongwen/articles/crp3eqg9l8eeo/trad",
+   "time": "2026-11-24T22:35:36+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Dawn",
+   "title": "Jensen Huang is back, but it won’t be business as usual for Taiwan’s tech industry",
+   "url": "https://www.dawn.com/news/2046978/jensen-huang-is-back-but-it-wont-be-business-as-usual-for-taiwans-tech-industry",
+   "time": "2026-11-25T14:57:09+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Jensen Huang is back, but it won’t be business as usual for Taiwan’s tech industry",
+   "url": "https://www.straitstimes.com/asia/east-asia/jensen-huang-is-back-but-it-wont-be-business-as-usual-for-taiwans-tech-industry",
+   "time": "2026-11-24T21:40:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Nikkei Asia",
+   "title": "Asia's Nvidia suppliers give cautious welcome to Huang return",
+   "url": "https://asia.nikkei.com/spotlight/supply-chain/asia-s-nvidia-suppliers-give-cautious-welcome-to-huang-return",
+   "time": null,
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian Technology",
+   "title": "Jimmy Kimmel on Jensen Huang’s return to Nvidia: ‘What a profoundly stupid time to be alive’",
+   "url": "https://www.theguardian.com/culture/2026/nov/24/jimmy-kimmel-jensen-huang-nvidia-trump",
+   "time": "2026-11-24T23:51:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian Technology",
+   "title": "Mamdani questions AI economy as Jensen Huang returns to Nvidia – video",
+   "url": "https://www.theguardian.com/technology/video/2026/nov/24/mamdani-questions-ai-economy-as-jensen-huang-returns-to-nvidia-video",
+   "time": "2026-11-25T00:30:07+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Jensen Huang's Nvidia comeback sends AI videos into overdrive",
+   "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261124-jensen-huang-s-nvidia-comeback-sends-ai-videos-into-overdrive",
+   "time": "2026-11-25T05:28:36+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 11,
+  "regions": 5,
+  "media_weight": 22,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

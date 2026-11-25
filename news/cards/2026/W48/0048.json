@@ -1,0 +1,116 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0048",
+ "title": "胡塞武裝 6 天內二度攻擊利雅德 PIF 大樓釀 11 傷，揚言攻擊吉達等紅海港口",
+ "line": "胡塞警告若沙烏地攻擊荷台達港，吉達與沙國紅海沿岸港口都將成為目標",
+ "born_at": "2026-11-25T16:11:46+08:00",
+ "first_reported_at": "2026-11-25T02:47:53+08:00",
+ "updated_at": "2026-11-25T16:11:46+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東"
+  ],
+  "country": [
+   "SA",
+   "YE",
+   "BH",
+   "IR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "戰爭與衝突",
+   "國際關係"
+  ],
+  "event": [
+   "軍事行動",
+   "聲明評論"
+  ],
+  "story": [
+   "葉門內戰"
+  ],
+  "org": [
+   "胡塞武裝",
+   "公共投資基金",
+   "沙烏地聯軍"
+  ],
+  "person": [
+   "薩雷亞",
+   "馬利基"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "PIF",
+   "利雅德",
+   "吉達",
+   "荷台達",
+   "紅海"
+  ]
+ },
+ "summary_html": "葉門胡塞武裝 11 月 24 日攻擊沙烏地首都利雅德阿卜杜拉國王金融區的公共投資基金（PIF）大樓，造成 11 人受傷，包括 2 名沙烏地人、2 名印度人、3 名尼泊爾人與 4 名埃及人。沙國民防局沒有點名大樓，但公布的照片顯示 PIF 大樓受損，Al Jazeera 的目擊報導也這麼指出。Dawn 形容這是利雅德最高的摩天大樓，11 月 19 日也曾遭攻擊，那次無人傷亡。沙國主導的聯軍發言人馬利基（Turki al-Maliki）稱這是「懦弱的恐怖攻擊」。<br>胡塞軍事發言人薩雷亞（Yahya Saree）11 月 25 日在 X 上警告，若利雅德攻擊葉門紅海港口荷台達，吉達港與沙國紅海沿岸所有港口都將成為「我軍的目標」；聯軍 11 月 20 日曾要求平民撤離荷台達港。CNBC 指出胡塞對沙國的攻擊持續升級，11 月 22 日鎖定一座煉油廠，10 月 25 日曾攻擊哈立德國王國際機場；巴林則說 11 月 21 至 22 日週末遭伊朗攻擊，一處民用工業設施起火、2 人受傷。",
+ "dive_html": "胡塞把目標從機場、煉油廠延伸到沙國主權基金的總部大樓，第二次攻擊就造成傷亡，顯示利雅德的防空難以完全攔下反覆來襲。對吉達與紅海港口的威脅，和聯軍要求撤離、空襲荷台達形成相互升級的循環，若成真將直接衝擊沙國經紅海的進出口。CNBC 把這些攻擊放在伊朗與親伊朗勢力擴大攻擊波灣國家的脈絡下，巴林同時遭襲，顯示衝突已不只是葉門內戰的延伸。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Dawn",
+   "title": "11 injured as Riyadh skyscraper hit second time in less than a week",
+   "url": "https://www.dawn.com/news/2046804/11-injured-as-riyadh-skyscraper-hit-second-time-in-less-than-a-week",
+   "time": "2026-11-25T02:47:53+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "CNBC",
+   "title": "Houthi attack on Saudi Arabian sovereign wealth fund PIF's tower injures 11",
+   "url": "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html",
+   "time": "2026-11-25T10:36:43+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Yemen's Houthis threaten to target Jeddah and other Saudi Red Sea ports",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxPbmE5cEFGWGFLVzVEUlVvWlE5NzJaT2p0MTUxclgxejJ2ZHJPbTQ5d1BLNzh6R2tFb251aWQ4dHBUTDRtaTlETkVick9uV1hKVkdZSjNPbFk5M2NBd1oxQXptdzAtLS1zVzlidDBDVXBmWFAyVnRzMGRmZHNGZVk4T3Y1aV9ycGZFcWxGejZ0T29BbG9EUks5QjZ0bzFVRG05YlVQemt4UDdDSEY5cUZrYzNsSU9VMGVX?oc=5",
+   "time": "2026-11-25T10:42:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 6,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

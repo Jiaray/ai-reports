@@ -1,0 +1,72 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0076",
+ "title": "OpenAI GitHub 上的預印本主張矩陣乘法複雜度為 Θ(n^2.25)",
+ "line": "論文檔名稱矩陣乘法指數是四分之九，在 Hacker News 獲得 492 分",
+ "born_at": "2026-11-25T16:11:46+08:00",
+ "first_reported_at": "2026-11-25T09:19:26+08:00",
+ "updated_at": "2026-11-25T16:11:46+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "OpenAI"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "矩陣乘法",
+   "矩陣乘法指數",
+   "Θ(n^2.25)",
+   "預印本"
+  ]
+ },
+ "summary_html": "一份標示日期為 2026 年 11 月 24 日的預印本論文 PDF 放在 GitHub 上 OpenAI 的 math 儲存庫，標題主張矩陣乘法的複雜度是 Θ(n^2.25)，檔名寫的是「矩陣乘法指數是四分之九」（The matrix multiplication exponent is nine fourths）。這篇論文在 Hacker News 獲得 492 分。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "Matrix Multiplication is Θ(n^2.25) [pdf]",
+   "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+   "time": "2026-11-25T09:19:26+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "492 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50637220",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 492,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

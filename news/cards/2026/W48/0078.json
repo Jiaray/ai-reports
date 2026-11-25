@@ -1,0 +1,83 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0078",
+ "title": "TrendForce：中系雲端業者下修 2027 年記憶體訂單，NAND Flash 轉入跌價循環",
+ "line": "2027 年 NAND Flash 產值下修至約 4,193 億美元，DRAM 下修至 1.15 兆美元、漲幅逐季收斂",
+ "born_at": "2026-11-25T16:11:46+08:00",
+ "first_reported_at": "2026-11-25T14:45:00+08:00",
+ "updated_at": "2026-11-25T16:11:46+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中國大陸",
+   "北美"
+  ],
+  "country": [
+   "CN",
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "科技"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "半導體"
+  ],
+  "org": [
+   "TrendForce"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "NAND Flash",
+   "DRAM",
+   "企業級 SSD",
+   "雲端服務供應商",
+   "合約價"
+  ]
+ },
+ "summary_html": "市調機構 TrendForce 最新研究指出，中國大陸的雲端服務供應商（CSP）下修 2027 年記憶體訂單，NAND Flash 在供給續增下將進入價格下行循環，2027 年產值下修至約 4,193 億美元、年增 29%；DRAM 雖仍供不應求，但漲幅逐季收斂，產值下修至 1.15 兆美元、年增 69%。NAND 方面，中系 CSP 因 GPU 供給短缺，自 2026 年第四季中旬起減少 2027 年企業級 SSD 採購，減幅超過北美 CSP 的訂單成長；PC、手機的低價庫存耗盡，2027 年又面臨整機漲價壓力，品牌為控制物料成本將全面下修 NAND 搭載容量。供給端則有特定供應商擴產與其他原廠製程轉進，供過於求格局更加確立，合約價轉跌。DRAM 方面，部分中系 CSP 自第四季初調降長約（LTA）以外的伺服器 DRAM 需求，但已由北美 CSP 即時補上，全年位元需求仍明顯成長；TrendForce 預期 2027 年 DRAM 供給持續吃緊，但合約價漲幅逐季縮減，下半年甚至持平。",
+ "dive_html": "雖然是「下修」，NAND Flash 年增 29%、DRAM 年增 69% 仍是高成長，關鍵在週期轉折：NAND 先轉跌，DRAM 漲幅逐季收斂。中系 CSP 因 GPU 取得受限而縮減 SSD 採購，顯示算力瓶頸會傳導到記憶體需求；北美 CSP 補得了 DRAM 的缺口，卻抵銷不了 NAND 的減單。對台灣的記憶體模組與 SSD 控制晶片業者來說，2027 年 NAND 價格轉跌可能壓縮獲利。報導沒有列出下修前的原預估值，無法判斷下修幅度。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "科技新報",
+   "title": "中系 CSP 需求下修壓抑價格展望，2027 年記憶體產值增幅放緩",
+   "url": "https://technews.tw/2026/11/25/chinese-csp-demand-cut-dampens-price-outlook-memory-value-growth-slows-2027/",
+   "time": "2026-11-25T14:45:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "科技新報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

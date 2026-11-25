@@ -1,7 +1,408 @@
 {
  "schema": 1,
- "built_at": "2026-11-25T16:10:38+08:00",
+ "built_at": "2026-11-25T16:11:46+08:00",
  "stories": [
+  {
+   "name": "2026 九合一選舉",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0051"
+   ],
+   "series": [
+    "general",
+    "international",
+    "tech_ai",
+    "tech",
+    "taiwan_general"
+   ],
+   "latest": {
+    "id": "2026-W48-0051",
+    "title": "BBC Verify：中國相關網路以 AI 深偽影片抹黑賴清德、沈伯洋等民進黨人士",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "2026 西班牙大選",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0066"
+   ],
+   "series": [
+    "general",
+    "international"
+   ],
+   "latest": {
+    "id": "2026-W48-0066",
+    "title": "西班牙 11 月 29 日提前大選，俄羅斯「Matryoshka」假訊息行動冒用媒體介入",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "中共反腐整肅",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0042"
+   ],
+   "series": [
+    "general",
+    "international"
+   ],
+   "latest": {
+    "id": "2026-W48-0042",
+    "title": "上海市委書記、政治局委員陳吉寧被查，2025 年以來第 4 位落馬的政治局委員",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "以哈戰爭",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0068"
+   ],
+   "series": [
+    "general",
+    "international",
+    "health"
+   ],
+   "latest": {
+    "id": "2026-W48-0068",
+    "title": "加薩發布腦膜炎疫情警報，10 月新增 272 例、約為常態 8 倍",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "以色列組閣",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0050"
+   ],
+   "series": [
+    "general",
+    "international"
+   ],
+   "latest": {
+    "id": "2026-W48-0050",
+    "title": "以色列前參謀總長艾森柯特談成首份組閣協議，與李柏曼的以色列我們的家園黨結盟",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "俄烏戰爭",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0039",
+    "2026-W48-0040"
+   ],
+   "series": [
+    "general",
+    "international",
+    "tech",
+    "security"
+   ],
+   "latest": {
+    "id": "2026-W48-0040",
+    "title": "烏克蘭在利比亞班加西港攻擊俄艦，2 名利比亞士兵傷重不治，義大利表達關切",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 2
+  },
+  {
+   "name": "俄羅斯混合戰",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0070"
+   ],
+   "series": [
+    "general",
+    "international"
+   ],
+   "latest": {
+    "id": "2026-W48-0070",
+    "title": "英國國防部與軍情五處罕見公開警告：供應烏克蘭軍備的企業恐成俄羅斯破壞目標",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "剛果伊波拉疫情",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0062"
+   ],
+   "series": [
+    "general",
+    "international",
+    "health"
+   ],
+   "latest": {
+    "id": "2026-W48-0062",
+    "title": "剛果伊波拉疫情 5 月以來逾 5,800 人死亡，聯合國兒童基金會指暴力侵害婦女女孩加劇",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "剛果東部衝突",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0061"
+   ],
+   "series": [
+    "general",
+    "international"
+   ],
+   "latest": {
+    "id": "2026-W48-0061",
+    "title": "剛果民主共和國一架軍機失聯，叛軍 FRN 宣稱擊落並俘虜南非、烏干達籍人員",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "印度蟑螂運動",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0060"
+   ],
+   "series": [
+    "general",
+    "international"
+   ],
+   "latest": {
+    "id": "2026-W48-0060",
+    "title": "印度「蟑螂運動」領袖 Saurav Das 遭阻止登機，無法赴英國牛津、劍橋等大學演講",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "台積電美國設廠",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0077"
+   ],
+   "series": [
+    "general",
+    "tech",
+    "finance",
+    "taiwan_general"
+   ],
+   "latest": {
+    "id": "2026-W48-0077",
+    "title": "台積電亞利桑那廠 12 月 4 日辦擴建典禮，226 億美元 2 奈米廠考慮落腳德州",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "孟加拉成衣工人加薪抗爭",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0054"
+   ],
+   "series": [
+    "general",
+    "international"
+   ],
+   "latest": {
+    "id": "2026-W48-0054",
+    "title": "孟加拉成衣業最低工資調升 36% 至每月 1.75 萬塔卡，低於工人訴求、抗議未歇",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "宏福苑大火",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0059"
+   ],
+   "series": [
+    "general",
+    "international"
+   ],
+   "latest": {
+    "id": "2026-W48-0059",
+    "title": "香港宏福苑大火一週年：168 人罹難，遺屬追問究責、悼念受壓、周年報導被抽起",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "川普關稅",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0038"
+   ],
+   "series": [
+    "general",
+    "international"
+   ],
+   "latest": {
+    "id": "2026-W48-0038",
+    "title": "美國最快 11 月 25 日公布新關稅，中國、歐盟、日本等至少 14 個經濟體受影響",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "美國 AI 晶片出口管制",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0036"
+   ],
+   "series": [
+    "general",
+    "international",
+    "tech_ai",
+    "tech",
+    "finance"
+   ],
+   "latest": {
+    "id": "2026-W48-0036",
+    "title": "美國將新加坡 Megaspeed 等 7 個實體列入貿易黑名單，馬來西亞資料中心熱潮受衝擊",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "華為美國刑事案",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0037"
+   ],
+   "series": [
+    "general",
+    "international"
+   ],
+   "latest": {
+    "id": "2026-W48-0037",
+    "title": "華為在美被判竊取商業機密、銀行詐欺等 10 項罪名成立，敲詐勒索罪無罪",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "葉門內戰",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0047",
+    "2026-W48-0048"
+   ],
+   "series": [
+    "general",
+    "international"
+   ],
+   "latest": {
+    "id": "2026-W48-0048",
+    "title": "胡塞武裝 6 天內二度攻擊利雅德 PIF 大樓釀 11 傷，揚言攻擊吉達等紅海港口",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 2
+  },
+  {
+   "name": "非洲國家盃冠軍爭議",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0046"
+   ],
+   "series": [
+    "general",
+    "international"
+   ],
+   "latest": {
+    "id": "2026-W48-0046",
+    "title": "國際體育仲裁法庭判塞內加爾為 2025 非洲國家盃冠軍，摩洛哥揚言挑戰判決",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "黃仁勳 Nvidia 風波",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:11:46+08:00",
+   "last": "2026-11-25T16:11:46+08:00",
+   "cards": [
+    "2026-W48-0032",
+    "2026-W48-0033",
+    "2026-W48-0034",
+    "2026-W48-0035",
+    "2026-W48-0036"
+   ],
+   "series": [
+    "general",
+    "international",
+    "tech_ai",
+    "tech",
+    "finance"
+   ],
+   "latest": {
+    "id": "2026-W48-0036",
+    "title": "美國將新加坡 Megaspeed 等 7 個實體列入貿易黑名單，馬來西亞資料中心熱潮受衝擊",
+    "event_at": "2026-11-25T16:11:46+08:00"
+   },
+   "count": 5
+  },
   {
    "name": "Anthropic 上市",
    "parent": null,

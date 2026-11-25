@@ -1,0 +1,117 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0057",
+ "title": "聯合國報告：2025 年約 4.7 萬名婦女女孩遭伴侶或家人殺害，平均每小時五人",
+ "line": "占女性凶殺受害者約六成，非洲 2.21 萬人最多，人數與往年大致持平",
+ "born_at": "2026-11-25T16:11:46+08:00",
+ "first_reported_at": "2026-11-24T00:00:00+08:00",
+ "updated_at": "2026-11-25T16:11:46+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "社會",
+   "犯罪與司法"
+  ],
+  "event": [
+   "數據發布"
+  ],
+  "org": [
+   "聯合國",
+   "聯合國婦女署",
+   "聯合國毒品和犯罪問題辦公室"
+  ],
+  "person": [
+   "Monica Juma",
+   "阿米娜・穆罕默德"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "殺害女性",
+   "femicide",
+   "親密伴侶暴力",
+   "國際消除對婦女暴力日"
+  ]
+ },
+ "summary_html": "聯合國 11 月 24 日、國際消除對婦女暴力日（11 月 25 日）前夕發布報告，2025 年約 4.7 萬名婦女與女孩遭親密伴侶或家人殺害，相當於每小時五人、每天 129 人，約占女性故意殺人受害者的六成；數據來自 122 個國家與地區。非洲 2.21 萬人最多，其次是亞洲 1.51 萬、美洲 7,400、歐洲 2,100、大洋洲 300。報告指出，全球凶殺率雖在下降，殺害女性（femicide）的比率降得較慢，美洲與歐洲尤其明顯，顯示女性尋求司法救濟的障礙。聯合國婦女署（UN Women）與聯合國毒品和犯罪問題辦公室（UNODC）估計，近年這類受害人數在 4.5 萬到 5.1 萬之間起伏，Dawn 引述報告說 2025 年與往年大致持平。UN Women 另一份報告指出，全球近三分之一女性曾遭身體或性暴力，只有 7% 報警。UNODC 主任 Monica Juma 說，制度保障失靈讓殺害妻女「變得可以容忍」；聯合國副祕書長阿米娜・穆罕默德（Amina Mohammed）同日也呼籲讓加害者付出代價。",
+ "dive_html": "這組數字的重點是「停滯」：整體凶殺率下降時，伴侶與家人下手的殺害幾乎沒有減少，代表一般治安改善碰不到家內暴力，缺口在通報、保護與受害者支援的前端，7% 的報警率就是最直接的指標。報告只涵蓋 122 個國家與地區，報導也沒有提供每十萬人的比率；非洲人數最多與人口規模有關，不能直接解讀為最危險的地區。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "UN News",
+   "title": "Five women killed every hour by partners or family members",
+   "url": "https://news.un.org/en/story/2026/11/1168863",
+   "time": "2026-11-24T00:00:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "聯合國",
+   "kind": "official",
+   "region": "全球",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "Five women killed every hour by family members or partners — UN report",
+   "url": "https://www.dw.com/en/five-women-killed-every-hour-by-family-members-or-partners-un-report/a-80030010?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-24T19:03:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Dawn",
+   "title": "Five women killed each hour by relatives in 2025: UN",
+   "url": "https://www.dawn.com/news/2046855/five-women-killed-each-hour-by-relatives-in-2025-un",
+   "time": "2026-11-25T09:41:20+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "UN News",
+   "title": "‘Far too much failure’: UN deputy chief’s final call to end violence against women",
+   "url": "https://news.un.org/en/story/2026/11/1168868",
+   "time": "2026-11-24T00:00:00+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "聯合國",
+   "kind": "official",
+   "region": "全球",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

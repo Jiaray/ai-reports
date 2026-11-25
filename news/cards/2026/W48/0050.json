@@ -1,0 +1,126 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0050",
+ "title": "以色列前參謀總長艾森柯特談成首份組閣協議，與李柏曼的以色列我們的家園黨結盟",
+ "line": "艾森柯特須在 12 月 6 日前組閣，阿拉伯政黨聯合名單表態願協助讓納坦雅胡下台",
+ "born_at": "2026-11-25T16:11:46+08:00",
+ "first_reported_at": "2026-11-25T00:29:15+08:00",
+ "updated_at": "2026-11-25T16:11:46+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東"
+  ],
+  "country": [
+   "IL"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "政治"
+  ],
+  "event": [
+   "會談協議"
+  ],
+  "story": [
+   "以色列組閣"
+  ],
+  "org": [
+   "Yashar 黨",
+   "以色列我們的家園黨",
+   "聯合黨",
+   "聯合名單",
+   "民主黨"
+  ],
+  "person": [
+   "艾森柯特",
+   "李柏曼",
+   "納坦雅胡",
+   "赫佐格"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "組閣",
+   "聯合政府",
+   "團結政府",
+   "以色列國會"
+  ]
+ },
+ "summary_html": "以色列前參謀總長艾森柯特（Gadi Eisenkot）的 Yashar 黨 11 月 24 日宣布，與李柏曼（Avigdor Lieberman）領導的右派反對黨「以色列我們的家園黨」達成聯合執政協議，是 10 月 27 日大選後第一份這類協議。大選沒有政黨拿下 61 席過半，總統赫佐格（Isaac Herzog）授權艾森柯特組閣，期限到 12 月 6 日、可再延 14 天；失敗則由看守總理納坦雅胡（Benjamin Netanyahu）接手，再不成就明年重選。Yashar 黨 21 席、李柏曼的黨 7 席；李柏曼向來反對靠阿拉伯政黨組閣，也反對與納坦雅胡組團結政府，Al Jazeera 形容這次結盟出乎預料。納坦雅胡的聯合黨（Likud）與盟友合計 53 席，艾森柯特陣營 48 席，阿拉伯政黨握有 19 席；以阿拉伯人為主的「聯合名單」（Joint List）領袖對 France 24 說，已準備好「協助讓納坦雅胡下台」。艾森柯特陣營同時也和聯合黨談團結政府，左派民主黨（8 席）因此暫停與他談判。",
+ "dive_html": "艾森柯特陣營 48 席離 61 席過半仍有距離，能補位的只有阿拉伯政黨的 19 席或納坦雅胡的聯合黨，但兩條路都可能讓陣營內有人出走：靠阿拉伯政黨，剛簽約的李柏曼向來反對；與聯合黨組團結政府，民主黨已用暫停談判表態。報導沒有交代民主黨 8 席是否算在 48 席之內，若不算，差距更大。12 月 6 日期限（可延 14 天）前湊不出過半，組閣權就回到納坦雅胡手上，他的看守政府也會延續。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Israel’s Eisenkot secures first coalition partner in bid to form government",
+   "url": "https://www.aljazeera.com/news/2026/11/25/israels-eisenkot-secures-first-coalition-partner-in-bid-to-form-government",
+   "time": "2026-11-25T09:30:44+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "Dawn",
+   "title": "Eisenkot clinches first coalition agreement in bid to form Israel's government",
+   "url": "https://www.dawn.com/news/2046976/eisenkot-clinches-first-coalition-agreement-in-bid-to-form-israels-government",
+   "time": "2026-11-25T14:54:15+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Israel's Eisenkot clinches first coalition agreement in bid to form government",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNbVR5QS1fSDJ5YWoyNmRLQ0t2Vm1lZTdWdDlXaU5MakhodlR5QmJyRlhKLTc0dmZuZ2pTYVNwYllvQTIxblMwcm1FZHhPRUl5RWJfRFoxRWNjREZLWjh1MGFlSUUxeDlHdVpIeWlxQmY4dFlDZE55SHFtZkVXazhXWFZiVVZXbkZSX2xySnE1MWtOLWk5ZldQSU10eUtuUjJwM2VEOEc3TExPVDBRekZZc1FsSmhfYWFMYjNZRlVPWGdVWFE?oc=5",
+   "time": "2026-11-25T06:39:43+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "France 24",
+   "title": "'We are ready to facilitate removal of Netanyahu': Head of Israel's Arab-majority Joint List",
+   "url": "https://www.france24.com/en/tv-shows/t%C3%AAte-%C3%A0-t%C3%AAte/20261124-we-are-ready-to-facilitate-the-removal-of-netanyahu-from-power-head-of-israel-s-joint-list",
+   "time": "2026-11-25T00:29:15+08:00",
+   "added_at": "2026-11-25T16:11:46+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 3,
+  "media_weight": 8,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}
