@@ -1,6 +1,6 @@
 /* 新聞卡系列頁（series.js）樣式。規則對象只限 .sp／.sp-*（可加 :root[data-theme]、[data-look] 前綴），不對 :root、html 本身設值。
    條目是 rows.js 的列表列（rows.css；一般外觀在 look-standard.css）；報頭、工具列、頁尾 .foot 在 site.css／report.css；領域色 --g-c 由 report.css 依 data-group 給。
-   分段：報頭、日段（黏頂標題）、資安要修補的漏洞、鄉民平台區、沒有卡、外觀：地圖、外觀：一般、觸控與強制色彩 */
+   分段：報頭、日段（黏頂標題）、資安要修補的漏洞、鄉民平台區與財經台灣／國際區、沒有卡、外觀：地圖、外觀：一般、觸控與強制色彩 */
 
 /* ── 報頭：大標題下一行「近 7 天・N 張」 ── */
 .sp-sub{margin:0 0 var(--space-3);font:500 15px/1.5 var(--font-heading);letter-spacing:.02em;color:var(--color-neutral-600)}
@@ -21,11 +21,19 @@
 .sp-patch .sp-list{padding:var(--space-1) var(--space-3);border:1px solid var(--color-divider);border-top:0}
 @media(max-width:40em){.sp-patch .sp-dh{padding-inline:10px}.sp-patch .sp-list{padding-inline:10px}}
 
-/* ── 鄉民：每天再分 PTT、HN、V2EX；區名旁寫張數（和日段標題右邊的張數分得出） ── */
+/* ── 段內分區（鄉民：PTT、HN、V2EX；財經：台灣、國際）；區名旁寫張數（和日段標題右邊的張數分得出） ── */
 .sp-zone{margin-top:var(--space-3)}
 .sp-zh{display:flex;align-items:center;gap:var(--space-2);margin:0;font:700 13.5px/1.4 var(--font-heading);letter-spacing:.06em;color:var(--color-text)}
 .sp-zh::before{content:"";flex:none;width:8px;height:8px;background:var(--color-neutral-600)}
 .sp-zh .sp-n{font-size:12.5px}
+/* 財經國際區其餘收進 <details>「再看 N 張」：摘要列同新聞卡頁「顯示其餘 N 家」（主色字＋箭頭），字與條目標題對齊（列表列左緣 3px 線＋12px） */
+.sp-more>summary{display:flex;align-items:center;gap:8px;width:fit-content;min-height:36px;padding:0 var(--space-2) 0 15px;color:var(--color-accent-700);font:600 14px/1.4 var(--font-body);cursor:pointer;list-style:none}
+.sp-more>summary::-webkit-details-marker{display:none}
+.sp-more>summary::after{content:"";width:6px;height:6px;margin-top:-3px;border-right:1.5px solid;border-bottom:1.5px solid;transform:rotate(45deg)}
+.sp-more[open]>summary::after{margin-top:3px;transform:rotate(-135deg)}
+.sp-more>summary:hover{color:var(--color-accent-800)}
+.sp-more>summary:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
+.sp-more[open] .sp-more-c,.sp-more:not([open]) .sp-more-o{display:none}
 
 /* ── 沒有卡：一行說明，下接系列面板裡其他系列的連結（文字前一條領域色短線，同系列面板） ── */
 .sp-empty{margin:var(--space-6) 0 var(--space-4);font:400 16px/1.8 var(--font-body);color:var(--color-neutral-800)}
@@ -46,6 +54,7 @@
 [data-look=atlas] .sp-patch .sp-dh{border:1px solid var(--color-divider);border-radius:var(--r-md) var(--r-md) 0 0;background:var(--color-neutral-200)}
 [data-look=atlas] .sp-patch .sp-list{border-radius:0 0 var(--r-md) var(--r-md)}
 [data-look=atlas] .sp-zh::before{border-radius:2px}
+[data-look=atlas] .sp-more>summary{border-radius:var(--r-sm)}
 
 /* ── 外觀：一般（系統字、不用領域色；段標題同頭版欄名的粗底線） ── */
 [data-look=standard] .sp-sub{font:400 var(--fs-meta)/1.5 var(--font-sans);letter-spacing:0;color:var(--text-3)}
@@ -56,6 +65,7 @@
 [data-look=standard] .sp-patch .sp-list{padding:0;border:0}
 [data-look=standard] .sp-zh{font:700 13px/1.4 var(--font-sans);letter-spacing:.04em;color:var(--text-2)}
 [data-look=standard] .sp-zh::before{width:6px;height:6px;border-radius:50%;background:var(--text-3)}
+[data-look=standard] .sp-more>summary{padding-left:0;color:var(--link);font-family:var(--font-sans)}
 [data-look=standard] .sp-empty{font-family:var(--font-sans);color:var(--text)}
 [data-look=standard] .sp-go-box{border-top:var(--hair) solid var(--border)}
 [data-look=standard] .sp-go-h{font:400 13px/1.4 var(--font-sans);letter-spacing:0;color:var(--text-3)}
@@ -65,5 +75,5 @@
 [data-look=standard] .sp-foot{font-family:var(--font-sans)}
 
 /* ── 觸控 44px；強制色彩：色塊被換掉 → 改用文字色 ── */
-@media(pointer:coarse){.sp-go{min-height:44px}}
+@media(pointer:coarse){.sp-go,.sp-more>summary{min-height:44px}}
 @media(forced-colors:active){.sp-go::before,.sp-zh::before{background:CanvasText}.sp-patch .sp-dh{border:1px solid}}

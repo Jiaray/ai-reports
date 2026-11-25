@@ -128,7 +128,7 @@
     el.replaceChildren(tpl.content);
     return el;
   }
-  // 句末分段（同 report.js）：只在標籤、<a>／<strong>、引號括號之外斷；每段至少 min 字，結尾不到 min/2 併回前段
+  // 句末分段：只在標籤、<a>／<strong>、引號括號之外斷；每段至少 min 字，結尾不到 min/2 併回前段
   const OPEN = '「『（(〔【';
   const CLOSE = '」』）)〕】';
   const ENDS = '。！？';
@@ -219,14 +219,14 @@
   // ── 一列 ──
   // c：輕量條目（契約 §9）。o：
   //   meta(id) → { short, group }：系列短名與領域（頁面從 index.json 給）
-  //   page：這頁本身的系列代號（字串或陣列）：上方小字、最後一列都不列（本日焦點＝general）。綜合一律不列（併入本日焦點）
+  //   page：這頁本身的系列代號（字串或陣列）：上方小字、最後一列都不列（本日焦點不給，全部都列）
   //   time：上方小字的時間節點（用 time() 做）；series:false＝上方小字不列系列（議題頁）
   //   extra：上方小字接在家數後的字串（鄉民頁的平台熱度「85 推」）；flag：標題前的紅底標示（資安頁「遭利用」）
   //   lead：收合時露一句話（line）預覽：系列頁每段第一張、本日焦點第一順位
   //   known：頁面上已寫的字（議題頁的議題路徑「上層 › 子議題」），展開後的分類不重列
   //   tag：外層元素（預設 article；放進 <ol> 時給 li）；id
   // 回傳外層元素（data-id＝編號、data-fq＝系列代號空白分隔，給頁面過濾）；編號不對或沒有標題回 null
-  const seriesIds = (c) => [...new Set(list(c.series).filter((s) => typeof s === 'string' && s && s !== 'general'))];
+  const seriesIds = (c) => [...new Set(list(c.series).filter((s) => typeof s === 'string' && s))];
   const metaOf = (o) => o.meta || ((id) => ({ short: id, group: '' }));
   // 上方小字：這頁以外的系列・時間・家數・頁面加的字・網路討論（row、link 共用）
   function topLine(c, o, others, tag) {
@@ -254,7 +254,7 @@
   }
   const outer = (c, o, all, cls, kids) => h(o.tag || 'article', {
     class: cls, id: o.id || null, 'data-id': c.id,
-    'data-group': all.length ? metaOf(o)(all[0]).group || null : '綜合', 'data-fq': all.join(' '),
+    'data-group': (all.length && metaOf(o)(all[0]).group) || null, 'data-fq': all.join(' '), // 沒有系列＝沒有領域色（色線用分隔線色）
   }, kids);
 
   function row(c, o = {}) {

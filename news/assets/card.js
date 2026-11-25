@@ -23,7 +23,7 @@
   const str = (v) => (typeof v === 'string' ? v : '');
   const list = (v) => (Array.isArray(v) ? v : []);
 
-  // ── 外觀：同報告頁（air-news-look）；沒有 A.look 就不列「一般」 ──
+  // ── 外觀：新聞各頁共用（air-news-look）；沒有 A.look 就不列「一般」 ──
   const KEY_LOOK = 'air-news-look';
   const LOOKS = [['blueprint', '藍圖'], ['atlas', '地圖'], ...(A.look ? [['standard', '一般']] : [])];
   let look = LOOKS[0][0];
@@ -126,13 +126,11 @@
     return out;
   }
 
-  // ── 報頭工具列（bar.js；樣式摘要 5.1）：本日焦點｜本週回顧　右邊一組：系列 ▾｜議題｜版面；新聞卡不屬於哪一邊，都不標 aria-current ──
-  let hasWeekly = false;
+  // ── 報頭工具列（bar.js；樣式摘要 5.1）：本日焦點　右邊一組：系列 ▾｜議題｜版面；新聞卡頁不標 aria-current ──
   let vwBox = null;
   let srBox; // 「系列」下拉：index 到了建一次（undefined＝還沒建；舊版 bar.js 沒有 seriesMenu 就不放）
   const toolbar = () => B.toolbar([
     B.navLink('本日焦點', 'front', './', null),
-    hasWeekly ? B.navLink('本週回顧', 'weekly', './?w', null) : null,
     srBox,
     B.storyLink ? B.storyLink(null) : null, // 舊版 bar.js 沒有就不放
     vwBox,
@@ -273,7 +271,7 @@
     if (card.online_only === true) flag('cd-online', [h('span', { class: 'cd-flag-ico', html: B.ICON.warn }), '網路討論，未經媒體證實']);
     return out;
   }
-  // 系列（領域色、連到系列頁；綜合不列）・事件時間
+  // 系列（領域色、連到系列頁）・事件時間
   function metaLine(series, ev) {
     const kids = series.flatMap((s, i) => [
       i ? h('span', { class: 'cd-sep' }, ['、']) : null,
@@ -389,7 +387,7 @@
   function cardPage(card, ctx) {
     const ev = eventAt(card, ctx.entry);
     const info = new Map(list(ctx.meta && ctx.meta.series).filter((s) => s && typeof s.id === 'string').map((s) => [s.id, s]));
-    const series = [...new Set(list(ctx.entry && ctx.entry.series).filter((s) => typeof s === 'string' && s && s !== 'general'))]
+    const series = [...new Set(list(ctx.entry && ctx.entry.series).filter((s) => typeof s === 'string' && s))]
       .map((id) => {
         const s = info.get(id) || {};
         return { id, short: str(s.short) || str(s.title) || id, group: str(s.group) };
@@ -475,8 +473,6 @@
     const id = hashId();
     const path = cardPath(id);
     const meta = await indexDoc;
-    const series = new Map(list(meta && meta.series).map((s) => [s && s.id, s && s.cadence]));
-    hasWeekly = list(meta && meta.items).some((e) => e && (e.cadence || series.get(e.series) || 'daily') !== 'daily');
     if (srBox === undefined) srBox = B.seriesMenu ? B.seriesMenu(meta, null) : null;
     if (!path) {
       if (my === ticket) show(missing(''), '找不到這張新聞卡', moved);

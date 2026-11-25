@@ -1,19 +1,21 @@
-/* 新聞頁補充樣式，報告頁、頭版、新聞卡頁、施工中頁都載入（報頭、面板、功能鈕共用）；藍圖本體在 site.css，一般外觀在 look-standard.css。
-   分段：領域色、報頭、讀法切換、地圖代幣、下拉面板、外觀：地圖、閱讀舒適度、本期來源、時間軸摘要、標題讀法、時間軸、讀法×外觀、功能鈕、分類標籤、施工中頁、觸控高度。
-   非預設版面規則順序：外觀 → 讀法 → 讀法×外觀（同權重後者蓋前者） */
-/* ── 領域色（系列的 group）：對底色 ≥ 4.5:1。頭版條目與過濾標籤（front.css）、列表列（rows.css）、系列面板讀 --g-c；
-   data-group 由各頁 JS 寫；bar.js 過濾面板抄 .fp-chip 算出的 --g-c ── */
-:root{--g-gen:#53687a;--g-intl:#2f6db5;--g-fin:#a04f0f;--g-tech:#0c7372;--g-oss:#7b4fa3;--g-game:#b23f7a;--g-tw:#337431;--g-other:#7a5a43}
-@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--g-gen:#9db1c2;--g-intl:#7eaaee;--g-fin:#efa25e;--g-tech:#4fc4c1;--g-oss:#b896e3;--g-game:#e982b6;--g-tw:#82c27a;--g-other:#c79f80}}
-:root[data-theme=dark]{--g-gen:#9db1c2;--g-intl:#7eaaee;--g-fin:#efa25e;--g-tech:#4fc4c1;--g-oss:#b896e3;--g-game:#e982b6;--g-tw:#82c27a;--g-other:#c79f80}
-[data-group="綜合"]{--g-c:var(--g-gen)}
-[data-group="國際"]{--g-c:var(--g-intl)}
+/* 新聞頁共用樣式，本日焦點、系列頁、新聞卡頁、議題頁、暫時頁都載入（報頭、面板、功能鈕共用）；藍圖本體在 site.css，一般外觀在 look-standard.css。
+   分段：領域色、報頭、地圖代幣、下拉面板、外觀：地圖、內文（摘要、AI 解讀）、列表列的展開箭頭與標題、功能鈕、分類標籤、施工中頁、觸控高度。
+   非預設外觀的規則寫在對應段裡（同權重後者蓋前者） */
+/* ── 領域色（系列的 group，9 個領域；新聞統一改版設計 §6）：對底色 ≥ 4.5:1。過濾標籤（front.css）、列表列（rows.css）、系列面板、
+   新聞卡頁的系列讀 --g-c；data-group 由各頁 JS 寫（沒有領域＝不給，退回各處的中性色）；bar.js 過濾面板抄 .fp-chip 算出的 --g-c。
+   沿用改版前的 8 色、新增生活娛樂一色：台灣←台灣、政治←國際、社會←綜合、財經←財經、科技←科技、科學健康←開源、遊戲產業←遊戲、閱讀←其他 ── */
+:root{--g-tw:#337431;--g-pol:#2f6db5;--g-soc:#53687a;--g-fin:#a04f0f;--g-tech:#0c7372;--g-sci:#7b4fa3;--g-life:#806207;--g-game:#b23f7a;--g-read:#7a5a43}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--g-tw:#82c27a;--g-pol:#7eaaee;--g-soc:#9db1c2;--g-fin:#efa25e;--g-tech:#4fc4c1;--g-sci:#b896e3;--g-life:#d8b54f;--g-game:#e982b6;--g-read:#c79f80}}
+:root[data-theme=dark]{--g-tw:#82c27a;--g-pol:#7eaaee;--g-soc:#9db1c2;--g-fin:#efa25e;--g-tech:#4fc4c1;--g-sci:#b896e3;--g-life:#d8b54f;--g-game:#e982b6;--g-read:#c79f80}
+[data-group="台灣"]{--g-c:var(--g-tw)}
+[data-group="政治"]{--g-c:var(--g-pol)}
+[data-group="社會"]{--g-c:var(--g-soc)}
 [data-group="財經"]{--g-c:var(--g-fin)}
 [data-group="科技"]{--g-c:var(--g-tech)}
-[data-group="開源"]{--g-c:var(--g-oss)}
-[data-group="遊戲"]{--g-c:var(--g-game)}
-[data-group="台灣"]{--g-c:var(--g-tw)}
-[data-group="其他"]{--g-c:var(--g-other)}
+[data-group="科學健康"]{--g-c:var(--g-sci)}
+[data-group="生活娛樂"]{--g-c:var(--g-life)}
+[data-group="遊戲產業"]{--g-c:var(--g-game)}
+[data-group="閱讀"]{--g-c:var(--g-read)}
 
 /* ── 報頭 ── 3px 粗線在工具列上方；.editions+.masthead 只動新聞頁，首頁、404 的 .masthead 不變。放不下就換行（不做橫向捲動） */
 .editions{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-2);border-top:3px solid var(--color-text);padding-top:var(--space-2)}
@@ -22,7 +24,7 @@
 .editions{position:sticky;top:0;z-index:20;background:var(--color-bg)}
 .editions.is-stuck{box-shadow:0 1px 0 var(--color-divider)}
 :root{scroll-padding-top:calc(var(--bar-h, 0px) + 8px)}
-/* 非當期提示（bar.js 的 staleBanner）：不凍結（不疊兩條黏頂的列）。負上邊距抵掉 .wrap 上內距；border-image 鋪滿視窗寬
+/* 黃色提示條 .stale（本日焦點時間窗內沒有卡時的「最近一批」，front.js）：不凍結（不疊兩條黏頂的列）。負上邊距抵掉 .wrap 上內距；border-image 鋪滿視窗寬
    （100vw 會多出捲軸寬、橫向捲動）。字色對合成底色淺 7.5:1、深 8.8:1；另有警告圖示，不只靠顏色 */
 :root{--stale-tint:rgb(242 183 5 / .22);--stale-fg:#5a4300}
 @media(prefers-color-scheme:dark){:root:not([data-theme=light]){--stale-tint:rgb(242 183 5 / .16);--stale-fg:#f3d36b}}
@@ -32,43 +34,16 @@
 @media(max-width:40em){.stale{margin-top:calc(-1 * var(--space-6))}}
 /* 強制色彩可能拿掉 border-image 底色 → 改底線 */
 @media(forced-colors:active){.stale{border-image:none;border-bottom:1px solid}}
-/* 章節下拉（bar.js 的 titleChapters）：<h1> 裡的按鈕只到文字＋箭頭寬，點右側空白不開；.chap-tail＝最後一字＋箭頭，不換行 */
-.chap{width:fit-content;max-width:100%}
-.chap-toggle{display:inline-block;max-width:100%;margin:0;padding:0;background:transparent;color:inherit;border:0;border-radius:0;font:inherit;letter-spacing:inherit;text-align:start;cursor:pointer}
-.chap-tail{white-space:nowrap}
-.chap-caret{display:inline-flex;align-items:center;justify-content:center;width:.66em;height:.66em;margin-left:.14em;vertical-align:.04em;color:var(--color-neutral-600);transition:background-color .15s,color .15s}
-.chap-caret svg{display:block;width:100%;height:100%;transition:rotate .15s}
-.chap-toggle:hover .chap-caret{background:var(--color-accent-100);color:var(--color-text)}
-.chap-toggle[aria-expanded=true] .chap-caret{background:var(--color-accent-100);color:var(--color-accent-700)}
-.chap-toggle[aria-expanded=true] .chap-caret svg{rotate:180deg}
-.chap-toggle:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:4px}
-/* ── 讀法切換（report.js 的 readSwitch）── 定案：換讀法、標題有無箭頭都不推動它（margin-left:auto），選中不改字重。
-   有功能鈕時藏起，改從扇面選（bar.js 的 openRead）。藍圖＝製圖標題欄，選中加 3px 主色底線（不只靠顏色）；--read-h 觸控值在檔尾 */
-.read-head{display:flex;flex-wrap:wrap;align-items:center;column-gap:var(--space-4)}
-.read-head>:first-child{min-width:0}
-.read-sw{--read-h:36px;flex:none;display:inline-flex;align-items:stretch;margin:var(--space-3) 0 var(--space-2) auto;border:1px solid var(--color-neutral-300);background:var(--color-bg)}
-.read-lab{display:flex;align-items:center;padding:0 10px 0 12px;background:var(--color-neutral-100);border-right:1px solid var(--color-neutral-300);color:var(--color-neutral-600);font:600 12px/1 var(--font-body);letter-spacing:.16em;white-space:nowrap;user-select:none}
-.read-opt{position:relative;display:inline-flex;align-items:center;gap:7px;min-height:var(--read-h);margin:0;padding:0 14px;background:transparent;color:var(--color-neutral-700);border:0;border-radius:0;font:500 14px/1 var(--font-heading);letter-spacing:.04em;white-space:nowrap;cursor:pointer}
-.read-opt+.read-opt{border-left:1px solid var(--color-neutral-300)}
-.read-ico,.read-ico svg{display:block;flex:none;width:16px;height:16px}
-.read-ico{color:var(--color-neutral-600)}
-.read-opt[aria-pressed=true]{background:var(--color-accent-100);color:var(--color-accent-800);box-shadow:inset 0 -3px var(--color-accent-600)}
-.read-opt[aria-pressed=true] .read-ico{color:var(--color-accent-600)}
-@media(hover:hover){.read-opt[aria-pressed=false]:hover{background:var(--color-neutral-100);color:var(--color-text)}.read-opt[aria-pressed=false]:hover .read-ico{color:inherit}}
-@media(prefers-reduced-motion:no-preference){.read-opt,.read-ico{transition:background-color .15s,color .15s,box-shadow .15s}}
-.read-opt:focus-visible{z-index:1;outline:2px solid var(--color-accent-600);outline-offset:2px}
-@media(max-width:40em){.read-head{column-gap:var(--space-3)}html.has-fab .read-sw{display:none}}
-@media(forced-colors:active){.read-opt[aria-pressed=true]{outline:2px solid Highlight;outline-offset:-4px}}
 
-/* ── 地圖代幣（淺、深色）：--c1…--c10 分區色，--contour-img 報頭等高線 ── */
-:root[data-look=atlas]{--font-heading:"Avenir Next","Segoe UI","Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-body:"Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-num:"Avenir Next","Segoe UI",sans-serif;--color-bg:#f6f7f4;--color-text:#1f2a2e;--color-divider:#d3dad8;--color-accent:#1d5f8a;--color-neutral-100:#eef1ee;--color-neutral-200:#e4e9e6;--color-neutral-300:#c4ceca;--color-neutral-600:#5d6d72;--color-neutral-700:#48565b;--color-neutral-800:#2f3b40;--color-accent-100:#e2eef5;--color-accent-200:#c3dceb;--color-accent-300:#8fbad6;--color-accent-600:#1d5f8a;--color-accent-700:#174e72;--color-accent-800:#113a55;--color-accent-900:#0b2638;--color-hot:#b3261e;--color-good:#2e7d32;--tab-bg:transparent;--tab-fg:#1f2a2e;--tab-span:#5d6d72;--tag-neutral-fg:#48565b;--c1:#c0392b;--c2:#ae5510;--c3:#387c32;--c4:#0e7b7a;--c5:#89690e;--c6:#7b4fa3;--c7:#2f6db5;--c8:#b23f7a;--c9:#7a5a43;--c10:#53687a;--contour-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 360' fill='none' stroke='%23cbd5d1' stroke-width='1.2'%3E%3Cpath d='M300 60c70-10 150 20 170 80s-30 130-110 140-170-20-190-80 60-130 130-140zM305 86c55-8 118 16 134 63s-24 102-87 110-134-16-150-63 48-102 103-110zM310 111c40-6 86 12 98 46s-17 75-64 81-98-12-110-46 35-75 76-81zM316 135c25-4 54 7 61 29s-11 47-40 51-61-7-69-29 22-47 48-51zM322 158c12-2 26 3 30 14s-5 23-20 25-30-3-34-14 11-23 24-25zM20 300c40-40 120-60 180-40s100 60 160 70 120-10 150-34M10 332c50-45 140-70 205-48s110 66 175 76 120-14 150-40M60 250c30-24 80-34 120-22s70 40 110 44'/%3E%3C/svg%3E")}
-@media(prefers-color-scheme:dark){:root[data-look=atlas]:not([data-theme=light]){--font-heading:"Avenir Next","Segoe UI","Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-body:"Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-num:"Avenir Next","Segoe UI",sans-serif;--color-bg:#151a1c;--color-text:#e2e8e9;--color-divider:#2c383c;--color-accent:#7fb6dd;--color-neutral-100:#1b2224;--color-neutral-200:#222a2d;--color-neutral-300:#36423f;--color-neutral-600:#93a4a9;--color-neutral-700:#aebcc0;--color-neutral-800:#cdd6d8;--color-accent-100:#16303f;--color-accent-200:#1d3e52;--color-accent-300:#2c5a76;--color-accent-600:#7fb6dd;--color-accent-700:#9cc8e6;--color-accent-800:#bfdcf0;--color-accent-900:#dceefa;--color-hot:#f2877c;--color-good:#7cc683;--tab-bg:transparent;--tab-fg:#e2e8e9;--tab-span:#93a4a9;--tag-neutral-fg:#aebcc0;--c1:#ef7f72;--c2:#efa25e;--c3:#82c27a;--c4:#4fc4c1;--c5:#d8b54f;--c6:#b896e3;--c7:#7eaaee;--c8:#e982b6;--c9:#c79f80;--c10:#9db1c2;--contour-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 360' fill='none' stroke='%2326332f' stroke-width='1.2'%3E%3Cpath d='M300 60c70-10 150 20 170 80s-30 130-110 140-170-20-190-80 60-130 130-140zM305 86c55-8 118 16 134 63s-24 102-87 110-134-16-150-63 48-102 103-110zM310 111c40-6 86 12 98 46s-17 75-64 81-98-12-110-46 35-75 76-81zM316 135c25-4 54 7 61 29s-11 47-40 51-61-7-69-29 22-47 48-51zM322 158c12-2 26 3 30 14s-5 23-20 25-30-3-34-14 11-23 24-25zM20 300c40-40 120-60 180-40s100 60 160 70 120-10 150-34M10 332c50-45 140-70 205-48s110 66 175 76 120-14 150-40M60 250c30-24 80-34 120-22s70 40 110 44'/%3E%3C/svg%3E")}}
-:root[data-look=atlas][data-theme=dark]{--font-heading:"Avenir Next","Segoe UI","Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-body:"Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-num:"Avenir Next","Segoe UI",sans-serif;--color-bg:#151a1c;--color-text:#e2e8e9;--color-divider:#2c383c;--color-accent:#7fb6dd;--color-neutral-100:#1b2224;--color-neutral-200:#222a2d;--color-neutral-300:#36423f;--color-neutral-600:#93a4a9;--color-neutral-700:#aebcc0;--color-neutral-800:#cdd6d8;--color-accent-100:#16303f;--color-accent-200:#1d3e52;--color-accent-300:#2c5a76;--color-accent-600:#7fb6dd;--color-accent-700:#9cc8e6;--color-accent-800:#bfdcf0;--color-accent-900:#dceefa;--color-hot:#f2877c;--color-good:#7cc683;--tab-bg:transparent;--tab-fg:#e2e8e9;--tab-span:#93a4a9;--tag-neutral-fg:#aebcc0;--c1:#ef7f72;--c2:#efa25e;--c3:#82c27a;--c4:#4fc4c1;--c5:#d8b54f;--c6:#b896e3;--c7:#7eaaee;--c8:#e982b6;--c9:#c79f80;--c10:#9db1c2;--contour-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 360' fill='none' stroke='%2326332f' stroke-width='1.2'%3E%3Cpath d='M300 60c70-10 150 20 170 80s-30 130-110 140-170-20-190-80 60-130 130-140zM305 86c55-8 118 16 134 63s-24 102-87 110-134-16-150-63 48-102 103-110zM310 111c40-6 86 12 98 46s-17 75-64 81-98-12-110-46 35-75 76-81zM316 135c25-4 54 7 61 29s-11 47-40 51-61-7-69-29 22-47 48-51zM322 158c12-2 26 3 30 14s-5 23-20 25-30-3-34-14 11-23 24-25zM20 300c40-40 120-60 180-40s100 60 160 70 120-10 150-34M10 332c50-45 140-70 205-48s110 66 175 76 120-14 150-40M60 250c30-24 80-34 120-22s70 40 110 44'/%3E%3C/svg%3E")}
+/* ── 地圖代幣（淺、深色）：--contour-img 報頭等高線 ── */
+:root[data-look=atlas]{--font-heading:"Avenir Next","Segoe UI","Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-body:"Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-num:"Avenir Next","Segoe UI",sans-serif;--color-bg:#f6f7f4;--color-text:#1f2a2e;--color-divider:#d3dad8;--color-accent:#1d5f8a;--color-neutral-100:#eef1ee;--color-neutral-200:#e4e9e6;--color-neutral-300:#c4ceca;--color-neutral-600:#5d6d72;--color-neutral-700:#48565b;--color-neutral-800:#2f3b40;--color-accent-100:#e2eef5;--color-accent-200:#c3dceb;--color-accent-300:#8fbad6;--color-accent-600:#1d5f8a;--color-accent-700:#174e72;--color-accent-800:#113a55;--color-accent-900:#0b2638;--color-hot:#b3261e;--color-good:#2e7d32;--tab-bg:transparent;--tab-fg:#1f2a2e;--tab-span:#5d6d72;--tag-neutral-fg:#48565b;--contour-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 360' fill='none' stroke='%23cbd5d1' stroke-width='1.2'%3E%3Cpath d='M300 60c70-10 150 20 170 80s-30 130-110 140-170-20-190-80 60-130 130-140zM305 86c55-8 118 16 134 63s-24 102-87 110-134-16-150-63 48-102 103-110zM310 111c40-6 86 12 98 46s-17 75-64 81-98-12-110-46 35-75 76-81zM316 135c25-4 54 7 61 29s-11 47-40 51-61-7-69-29 22-47 48-51zM322 158c12-2 26 3 30 14s-5 23-20 25-30-3-34-14 11-23 24-25zM20 300c40-40 120-60 180-40s100 60 160 70 120-10 150-34M10 332c50-45 140-70 205-48s110 66 175 76 120-14 150-40M60 250c30-24 80-34 120-22s70 40 110 44'/%3E%3C/svg%3E")}
+@media(prefers-color-scheme:dark){:root[data-look=atlas]:not([data-theme=light]){--font-heading:"Avenir Next","Segoe UI","Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-body:"Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-num:"Avenir Next","Segoe UI",sans-serif;--color-bg:#151a1c;--color-text:#e2e8e9;--color-divider:#2c383c;--color-accent:#7fb6dd;--color-neutral-100:#1b2224;--color-neutral-200:#222a2d;--color-neutral-300:#36423f;--color-neutral-600:#93a4a9;--color-neutral-700:#aebcc0;--color-neutral-800:#cdd6d8;--color-accent-100:#16303f;--color-accent-200:#1d3e52;--color-accent-300:#2c5a76;--color-accent-600:#7fb6dd;--color-accent-700:#9cc8e6;--color-accent-800:#bfdcf0;--color-accent-900:#dceefa;--color-hot:#f2877c;--color-good:#7cc683;--tab-bg:transparent;--tab-fg:#e2e8e9;--tab-span:#93a4a9;--tag-neutral-fg:#aebcc0;--contour-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 360' fill='none' stroke='%2326332f' stroke-width='1.2'%3E%3Cpath d='M300 60c70-10 150 20 170 80s-30 130-110 140-170-20-190-80 60-130 130-140zM305 86c55-8 118 16 134 63s-24 102-87 110-134-16-150-63 48-102 103-110zM310 111c40-6 86 12 98 46s-17 75-64 81-98-12-110-46 35-75 76-81zM316 135c25-4 54 7 61 29s-11 47-40 51-61-7-69-29 22-47 48-51zM322 158c12-2 26 3 30 14s-5 23-20 25-30-3-34-14 11-23 24-25zM20 300c40-40 120-60 180-40s100 60 160 70 120-10 150-34M10 332c50-45 140-70 205-48s110 66 175 76 120-14 150-40M60 250c30-24 80-34 120-22s70 40 110 44'/%3E%3C/svg%3E")}}
+:root[data-look=atlas][data-theme=dark]{--font-heading:"Avenir Next","Segoe UI","Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-body:"Noto Sans TC",-apple-system,"PingFang TC","Noto Sans TC","Microsoft JhengHei",system-ui,sans-serif;--font-num:"Avenir Next","Segoe UI",sans-serif;--color-bg:#151a1c;--color-text:#e2e8e9;--color-divider:#2c383c;--color-accent:#7fb6dd;--color-neutral-100:#1b2224;--color-neutral-200:#222a2d;--color-neutral-300:#36423f;--color-neutral-600:#93a4a9;--color-neutral-700:#aebcc0;--color-neutral-800:#cdd6d8;--color-accent-100:#16303f;--color-accent-200:#1d3e52;--color-accent-300:#2c5a76;--color-accent-600:#7fb6dd;--color-accent-700:#9cc8e6;--color-accent-800:#bfdcf0;--color-accent-900:#dceefa;--color-hot:#f2877c;--color-good:#7cc683;--tab-bg:transparent;--tab-fg:#e2e8e9;--tab-span:#93a4a9;--tag-neutral-fg:#aebcc0;--contour-img:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 520 360' fill='none' stroke='%2326332f' stroke-width='1.2'%3E%3Cpath d='M300 60c70-10 150 20 170 80s-30 130-110 140-170-20-190-80 60-130 130-140zM305 86c55-8 118 16 134 63s-24 102-87 110-134-16-150-63 48-102 103-110zM310 111c40-6 86 12 98 46s-17 75-64 81-98-12-110-46 35-75 76-81zM316 135c25-4 54 7 61 29s-11 47-40 51-61-7-69-29 22-47 48-51zM322 158c12-2 26 3 30 14s-5 23-20 25-30-3-34-14 11-23 24-25zM20 300c40-40 120-60 180-40s100 60 160 70 120-10 150-34M10 332c50-45 140-70 205-48s110 66 175 76 120-14 150-40M60 250c30-24 80-34 120-22s70 40 110 44'/%3E%3C/svg%3E")}
 
-/* ── 下拉面板（日期、版面、章節；bar.js 的 dropdown）── 放在按鈕下方的一般 DOM、absolute 貼同側展開，不需要 anchor positioning。
-   --sec-c＝條目分區色（藍圖一律主色，地圖依 data-k）；--vw-on-*＝選中色；一般外觀覆寫兩者 */
+/* ── 下拉面板（系列、版面；bar.js 的 dropdown）── 放在按鈕下方的一般 DOM、absolute 貼按鈕右緣展開，不需要 anchor positioning。
+   --sec-c＝AI 解讀標籤的色塊（地圖）；--vw-on-*＝選中色；一般外觀覆寫兩者 */
 :root{--sec-c:var(--color-accent-600);--vw-on-bg:var(--color-accent-600);--vw-on-fg:var(--color-bg)}
-/* 工具列按鈕；.ed-link[aria-current]＝目前在日報或週報那邊：2px 主色底線（不只靠顏色） */
+/* 工具列按鈕；.ed-link[aria-current]＝目前位置（本日焦點、議題目錄與議題頁）：2px 主色底線（不只靠顏色） */
 .dd{position:relative;flex:none;display:flex}
 /* 右邊一組「系列 ▾｜議題｜版面」：組裡第一個推到最右（系列還沒建、舊 bar.js 沒有議題時照樣成立） */
 .editions>:is(.sr,.ed-story,.vw){margin-left:auto}
@@ -78,7 +53,7 @@
 .dd-toggle[aria-expanded=true]{background:var(--color-accent-100);color:var(--color-accent-700)}
 .ed-link[aria-current]{color:var(--color-text);box-shadow:inset 0 -2px var(--color-accent-600)}
 /* 負邊距：圖示與字對齊欄緣，滑過底色往外凸 */
-.pd .dd-toggle,.editions>.ed-link:first-child{margin-left:calc(-1 * var(--space-3))}
+.editions>.ed-link:first-child{margin-left:calc(-1 * var(--space-3))}
 .vw .dd-toggle{margin-right:calc(-1 * var(--space-3))}
 .dd-ico,.dd-ico svg,.dd-caret,.dd-caret svg,.dd-close svg{display:block;flex:none}
 .dd-close svg{width:20px;height:20px}
@@ -90,51 +65,26 @@
 .dd-title{font:600 15px/1.3 var(--font-heading);letter-spacing:.02em}
 .dd-close{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;padding:0;background:transparent;color:var(--color-neutral-600);border:0;border-radius:0;cursor:pointer}
 .dd-close:hover{background:var(--color-accent-100);color:var(--color-text)}
-/* 日期面板：.pd-types＝這期各系列、.pd-dates＝期別；目前項加左側 2px 線（不只靠顏色） */
-.pd-panel{left:0;right:auto;width:min(520px,calc(100vw - 32px))}
-.pd-body{display:flex;gap:var(--space-6);max-height:min(65vh,30rem);border-top:1px solid var(--color-divider)}
-.pd-col{flex:1 1 0;min-width:0;overflow-y:auto;overscroll-behavior:contain;padding-bottom:var(--space-2)}
-.pd-dates{flex:0 0 10rem}
-@container(width < 440px){
-.pd-body{flex-direction:column;gap:0;overflow-y:auto;overscroll-behavior:contain}
-.pd-col,.pd-dates{flex:none;overflow:visible}
-.pd-types+.pd-dates{margin-top:var(--space-2);border-top:1px solid var(--color-divider)}
-}
+/* 面板裡的清單（系列面板、過濾面板沿用）：.pd-group 欄名、.pd-item 一列；目前項加左側 2px 線（不只靠顏色） */
 .pd-group{position:sticky;top:0;z-index:1;margin:0;padding:var(--space-3) 0 var(--space-1);background:var(--color-bg);font:500 13px/1.4 var(--font-body);color:var(--color-neutral-600)}
 .pd-items{margin:0 0 var(--space-2);padding:0;list-style:none}
 .pd-item{display:flex;align-items:baseline;justify-content:space-between;gap:var(--space-3);padding:7px var(--space-2);color:var(--color-text);font:500 15px/1.35 var(--font-heading);letter-spacing:.02em}
 .pd-item:hover{background:var(--color-accent-100)}
-.pd-n,.pd-wd{flex:none;font:500 13px/1.35 var(--font-heading);color:var(--color-neutral-600)}
+.pd-n{flex:none;font:500 13px/1.35 var(--font-heading);color:var(--color-neutral-600)}
 .pd-item[aria-current=page]{color:var(--color-accent-700);font-weight:600;box-shadow:inset 2px 0 var(--color-accent-600)}
-.pd-item[aria-current=page] .pd-wd{color:inherit}
 .pd-item:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
-/* 系列面板（bar.js 的 seriesMenu）：兩欄（新聞卡｜照舊的報告），窄時上下排；沿用 .pd-group、.pd-item（目前系列同樣左側 2px 線）。
-   每列文字前一條 3px 領域色短線（不是目前位置那條）；左欄放得下再分兩欄。按鈕在工具列右邊一組→同版面貼按鈕右緣展開 */
-.sr-panel{width:min(540px,calc(100vw - 32px))}
+/* 系列面板（bar.js 的 seriesMenu）：「新聞卡（近 7 天）」一欄，清單分兩欄；沿用 .pd-group、.pd-item（目前系列同樣左側 2px 線）。
+   每列文字前一條 3px 領域色短線（不是目前位置那條）；系列照 index.json 順序，同領域的挨在一起。按鈕在工具列右邊一組→同版面貼按鈕右緣展開 */
+.sr-panel{width:min(400px,calc(100vw - 32px))}
 .sr-body{display:flex;gap:var(--space-6);max-height:min(70vh,32rem);overflow-y:auto;overscroll-behavior:contain;border-top:1px solid var(--color-divider);padding-bottom:var(--space-2)}
 .sr-col{flex:1 1 0;min-width:0}
-.sr-cards{flex-grow:1.25}
 /* 先直後橫（同領域的挨在一起，Tab 順序同閱讀順序）；--sr-rows＝列數，bar.js 依系列數寫 */
 .sr-cards .sr-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(var(--sr-rows,6),auto);grid-auto-flow:column;column-gap:var(--space-2)}
-@container(width < 440px){
-.sr-body{flex-direction:column;gap:0}
-.sr-cards+.sr-reports{margin-top:var(--space-2);border-top:1px solid var(--color-divider)}
-}
 .sr-list{margin-bottom:0}
 /* 底部面板整片捲動，不再套一層捲軸 */
 .is-sheet .sr-body{max-height:none;overflow:visible}
-.sr-it,.sr-name{justify-content:flex-start;align-items:center;gap:8px}
-.sr-it::before,.sr-name::before{content:"";flex:none;width:3px;height:1.05em;background:var(--g-c,var(--color-neutral-300))}
-.sr-multi{display:flex;align-items:center;flex-wrap:wrap}
-.sr-name{display:flex;padding:7px var(--space-1) 7px var(--space-2);font:500 15px/1.35 var(--font-heading);letter-spacing:.02em}
-.sr-sub{justify-content:center;align-items:center;min-width:36px;padding-inline:var(--space-2)}
-/* 章節清單（則數沿用 .pd-n） */
-.chap-panel{left:0;right:auto;width:min(340px,calc(100vw - 32px))}
-.chap-list{max-height:min(60vh,26rem);overflow-y:auto;overscroll-behavior:contain;margin:0;padding:var(--space-2) 0;list-style:none;border-top:1px solid var(--color-divider)}
-.chap-item{display:flex;align-items:center;justify-content:space-between;gap:var(--space-3);min-height:40px;padding:6px var(--space-3);color:var(--color-text);font:500 16px/1.35 var(--font-heading);letter-spacing:.02em}
-.chap-item:hover{background:var(--color-accent-100)}
-.chap-item:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
-[data-look=atlas] .chap-sec::before{content:"";display:inline-block;width:10px;height:10px;margin-right:8px;background:var(--sec-c)}
+.sr-it{justify-content:flex-start;align-items:center;gap:8px}
+.sr-it::before{content:"";flex:none;width:3px;height:1.05em;background:var(--g-c,var(--color-neutral-300))}
 /* 版面面板 */
 .vw-group{display:grid;grid-template-columns:3.5em minmax(0,1fr);align-items:center;gap:var(--space-3);padding:var(--space-3) 0;border-top:1px solid var(--color-divider)}
 .vw-label{font:500 13px/1.4 var(--font-body);color:var(--color-neutral-600)}
@@ -144,47 +94,21 @@
 .vw-seg button:hover{background:var(--color-accent-100)}
 .vw-seg button[aria-pressed=true]{background:var(--vw-on-bg);color:var(--vw-on-fg)}
 @container(width < 290px){.vw-group{grid-template-columns:minmax(0,1fr);gap:var(--space-2)}}
-.dd-toggle:focus-visible,.ed-link:focus-visible,.dd-close:focus-visible,.more-sum:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
+.dd-toggle:focus-visible,.ed-link:focus-visible,.dd-close:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
 .vw-seg button:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
 /* 強制色彩拿掉背景：選中改外框、目前位置改底線 */
-@media(forced-colors:active){.vw-seg button[aria-pressed=true]{outline:2px solid;outline-offset:-4px}.pd-item[aria-current=page],.ed-link[aria-current]{text-decoration:underline 2px;text-underline-offset:5px}.chap-toggle[aria-expanded=true] .chap-caret{outline:1px solid}}
-/* 減少動態：取消 view transition（report.js、front.js 用）與箭頭轉向 */
-@media(prefers-reduced-motion:reduce){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}.chap-caret,.chap-caret svg{transition:none}}
+@media(forced-colors:active){.vw-seg button[aria-pressed=true]{outline:2px solid;outline-offset:-4px}.pd-item[aria-current=page],.ed-link[aria-current]{text-decoration:underline 2px;text-underline-offset:5px}}
+/* 減少動態：取消 view transition（各頁換外觀時用） */
+@media(prefers-reduced-motion:reduce){::view-transition-group(*),::view-transition-old(*),::view-transition-new(*){animation:none!important}}
 
 /* ── 外觀：地圖 ── */
-[data-look=atlas] [data-k="1"]{--sec-c:var(--c1)}[data-look=atlas] [data-k="2"]{--sec-c:var(--c2)}
-[data-look=atlas] [data-k="3"]{--sec-c:var(--c3)}[data-look=atlas] [data-k="4"]{--sec-c:var(--c4)}
-[data-look=atlas] [data-k="5"]{--sec-c:var(--c5)}[data-look=atlas] [data-k="6"]{--sec-c:var(--c6)}
-[data-look=atlas] [data-k="7"]{--sec-c:var(--c7)}[data-look=atlas] [data-k="8"]{--sec-c:var(--c8)}
-[data-look=atlas] [data-k="9"]{--sec-c:var(--c9)}[data-look=atlas] [data-k="10"]{--sec-c:var(--c10)}
 [data-look=atlas] .masthead{display:flex;flex-direction:column;border-top:0;border-bottom:1px solid var(--color-divider);padding:var(--space-8) 0 var(--space-4);background-image:var(--contour-img);background-repeat:no-repeat;background-size:560px auto;background-position:right -80px top -40px}
 /* 定案：新聞頁大標題縮 85%（藍圖 56→47.6、窄 40→34px，蓋過 site.css；地圖 46→39.1、窄 34→28.9px）；site.css 那條首頁、404 也用，不動 */
 .mast-title{font-size:47.6px}
 @media(max-width:40em){.mast-title{font-size:34px}}
 [data-look=atlas] .mast-title{font:700 39.1px/1.1 var(--font-heading);margin:0}
-/* 地圖報頭預設直排，.read-head 改橫排。讀法選中塊：主色對軌道 ≥ 5:1，另有陰影（不只靠顏色） */
-[data-look=atlas] .read-head{flex-direction:row;row-gap:var(--space-3)}
-[data-look=atlas] .read-sw{--read-h:32px;gap:2px;margin:0 0 0 auto;padding:3px;border:0;border-radius:var(--r-md);background:var(--color-neutral-200)}
-[data-look=atlas] .read-lab{padding:0 8px 0 9px;background:none;border:0;color:var(--color-neutral-700);font:600 12px/1 var(--font-body);letter-spacing:.1em}
-[data-look=atlas] .read-opt{gap:6px;padding:0 12px;border-radius:var(--r-sm);color:var(--color-neutral-800);font:600 13.5px/1 var(--font-body);letter-spacing:.02em}
-[data-look=atlas] .read-opt+.read-opt{border-left:0}
-[data-look=atlas] .read-ico{color:var(--color-neutral-700)}
-[data-look=atlas] .read-opt[aria-pressed=true]{background:var(--color-accent-600);color:var(--color-bg);box-shadow:0 1px 2px rgb(0 0 0 / .16),0 2px 6px -2px rgb(0 0 0 / .22)}
-[data-look=atlas] .read-opt[aria-pressed=true] .read-ico{color:inherit}
-@media(hover:hover){[data-look=atlas] .read-opt[aria-pressed=false]:hover{background:color-mix(in srgb,var(--color-bg) 72%,transparent);color:var(--color-text)}}
 /* 地圖不畫報頭粗線（用等高線＋底細線） */
 [data-look=atlas] .editions{border-top:0;padding-top:0}
-[data-look=atlas] .sec-tab{align-items:center;gap:10px;background:none;padding:0 0 8px;border-bottom:3px solid var(--sec-c)}
-[data-look=atlas] .sec-tab::before{content:"";width:14px;height:14px;flex:none;background:var(--sec-c)}
-[data-look=atlas] .sec-no{display:none}
-[data-look=atlas] .sec-name{font:700 21px/1.3 var(--font-heading)}
-[data-look=atlas] .sec-count{font:500 13px/1 var(--font-num);letter-spacing:0;color:var(--color-neutral-600)}
-[data-look=atlas] .sec-body{border:0;padding:var(--space-2) 0 0;background:none}
-[data-look=atlas] .row{border-top:0;border-left:4px solid var(--sec-c);padding:var(--space-3) 0 var(--space-3) var(--space-4);margin:var(--space-4) 0;grid-template-columns:52px 1fr}
-[data-look=atlas] .row-no{display:none}
-[data-look=atlas] .row-time{font:600 14px/1.35 var(--font-num);color:var(--color-neutral-700)}
-[data-look=atlas] .rt-d{display:block;font-size:12px;color:var(--color-neutral-600)}
-[data-look=atlas] .rt-hm{display:block;font-size:16px;color:var(--color-text)}
 [data-look=atlas] .row-title{font:700 20px/1.45 var(--font-heading)}
 [data-look=atlas] .row-sum{font:400 16.5px/1.7 var(--font-body)}
 [data-look=atlas] .row-dive{border-left:0;padding:var(--space-3) var(--space-4);background:var(--color-neutral-200);color:var(--color-neutral-800);font:400 16px/1.7 var(--font-body)}
@@ -197,62 +121,32 @@
 @media(forced-colors:active){.dive-label{border:1px solid}}
 [data-look=atlas] .dive-label{color:var(--color-text);font:700 13px/1 var(--font-body);letter-spacing:.06em}
 [data-look=atlas] .dive-label::before{content:"";display:inline-block;width:8px;height:8px;margin-right:6px;background:var(--sec-c);vertical-align:1px}
-[data-look=atlas] .tag{font:600 12px/1.5 var(--font-body);letter-spacing:.02em}
-[data-look=atlas] .tag-neutral{background:var(--color-neutral-200)}
 [data-look=atlas] .foot{border-top:1px solid var(--color-divider);font-family:var(--font-body)}
 /* 地圖圓角：小元件 --r-sm、面板與解讀框 --r-md、色塊記號 2px；front.css 也讀 --r-*；扇面圓角在 bar.js 的 FAB_SHAPE */
 :root[data-look=atlas]{--r-sm:6px;--r-md:10px}
-[data-look=atlas] :is(.dd-toggle,.ed-link,.chap-toggle,.dd-close,.vw-seg button,.pd-item,.chap-item,.fq-item,.fq-clear,.tag,.hot-badge,.more-sum,.fab-btn,.to-top,.fab-tip,.skip-link){border-radius:var(--r-sm)}
+[data-look=atlas] :is(.dd-toggle,.ed-link,.dd-close,.vw-seg button,.pd-item,.fq-item,.fq-clear,.fab-btn,.to-top,.fab-tip,.skip-link){border-radius:var(--r-sm)}
 [data-look=atlas] :is(.row-dive,.vw-seg){border-radius:var(--r-md)}
 [data-look=atlas] .vw-seg{overflow:hidden}
 [data-look=atlas] .dd-panel{border:1px solid var(--color-divider);border-radius:var(--r-md);box-shadow:0 18px 40px -20px rgb(0 0 0 / .45)}
 [data-look=atlas] .dd .dd-panel.is-sheet{border-radius:16px 16px 0 0}
 [data-look=atlas] .dd .dd-panel.is-sheet::before{border-radius:2px}
-[data-look=atlas] :is(.chap-sec::before,.sec-tab::before,.dive-label::before,.fq-mk){border-radius:2px}
+[data-look=atlas] .dive-label::before,[data-look=atlas] .fq-mk{border-radius:2px}
 [data-look=atlas] .ed-link[aria-current]{box-shadow:none;background:var(--color-neutral-200);color:var(--color-text)}
 @media(max-width:40em){
 [data-look=atlas] .masthead{padding-top:var(--space-6);background-size:360px auto;background-position:right -110px top -30px}
 [data-look=atlas] .mast-title{font-size:28.9px}
-[data-look=atlas] .row{grid-template-columns:48px 1fr;padding-left:var(--space-3)}
-/* 時刻 16px 約 46px 寬，左欄 48px 沒餘裕：nowrap 免得拆成「22:0／0」 */
-[data-look=atlas] .rt-hm{white-space:nowrap}
 }
 
-/* ── 閱讀舒適度 ── report.js、front.js 在句末分段成 <p>。區塊間距大於標題與標籤間；另參獨立一行、小一號。
+/* ── 內文（列表列展開、新聞卡頁）── rows.js 在句末分段成 <p>；區塊間距大於段距。
    text-spacing-trim 不支援照舊；hanging-punctuation 只 Safari */
 .row-sum p,.row-dive p{margin:0}
 .row-sum p+p,.row-dive p+p{margin-top:.75em}
-:is(.row-sum,.row-dive,.row-bullets,.sec-note,.teaser,.fp-pre){text-spacing-trim:trim-start;hanging-punctuation:allow-end}
-:is(.row-main,.more-body)>:is(.row-bullets,.tbl,.row-dive,.row-srcs){margin-top:var(--space-2)}
-.row-also{margin:0;font:400 14px/1.8 var(--font-body);color:var(--color-neutral-600)}
-/* .row-srcs＝文末連結（另參、其餘 N 個連結） */
-.row-srcs{display:flex;flex-direction:column;gap:2px}
-
-/* ── 本期來源（文末）── */
-.srcs{margin-top:var(--space-8)}
-.srcs-title{margin:0 0 var(--space-2);font:600 12px/1.5 var(--font-heading);letter-spacing:.08em;color:var(--color-neutral-600)}
-.srcs-list{display:flex;flex-wrap:wrap;gap:var(--space-2);margin:0;padding:0;list-style:none}
-.srcs+.foot{margin-top:var(--space-4)}
-[data-look=atlas] .srcs-title{font-family:var(--font-body);letter-spacing:.02em}
-/* 地圖改行內排：照字斷行、排滿欄寬（flex 會整個名稱換行，行尾空一截） */
-[data-look=atlas] .srcs-list{display:block;font:400 13px/1.7 var(--font-body);color:var(--color-neutral-600)}
-[data-look=atlas] .srcs-list .tag{display:inline;background:none;padding:0;font:inherit;color:inherit;letter-spacing:0}
-[data-look=atlas] .srcs-list .tag:not(:last-child)::after{content:"、"}
-
-/* ── 時間軸摘要（.more、.teaser 只有時間軸產生）：預覽四行；.teaser-all＝只有摘要時整段列出 ── */
-.more>summary{list-style:none}
-.more>summary::-webkit-details-marker{display:none}
-.more-sum{display:block;cursor:pointer}
-.teaser{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:4;line-clamp:4;overflow:hidden;font:400 15px/1.65 var(--font-body);color:var(--color-neutral-700)}
-.teaser-all{display:block;margin:0}
-.more-hint{display:block;margin-top:2px;font:500 13px/1.7 var(--font-body);color:var(--color-accent-700)}
-.mh-c{display:none}
-.more[open]>.more-sum .teaser,.more[open]>.more-sum .mh-o{display:none}
-.more[open]>.more-sum .mh-c{display:inline}
-.more[open]>.more-sum{margin-bottom:var(--space-2)}
+:is(.row-sum,.row-dive){text-spacing-trim:trim-start;hanging-punctuation:allow-end}
+/* 列表列展開區（rows.js 的 .more-body）：直排、區塊間距 */
+.more-body>.row-dive{margin-top:var(--space-2)}
 .more-body{display:flex;flex-direction:column;gap:var(--space-2)}
 
-/* ── 標題讀法條目 .peek（<details>；頭版 front.js 也用）── */
+/* ── 列表列的收合＋展開箭頭 .peek（<details>；rows.js）與標題字級：各頁設 data-read=scan（沿用改版前標題讀法的名稱）── */
 .peek>summary{display:flex;align-items:flex-start;gap:var(--space-3);list-style:none;cursor:pointer}
 .peek>summary::-webkit-details-marker{display:none}
 .peek>summary>.row-title{flex:1;min-width:0}
@@ -261,57 +155,10 @@
 .peek[open]>summary{margin-bottom:var(--space-2)}
 .peek>summary:hover .row-title{color:var(--color-accent-700)}
 .peek>summary:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
-.peek-link{font:600 12px/1.5 var(--font-body);color:var(--color-accent-700)}
-/* 熱門徽章（report.js、front.js 加） */
-.hot-badge{display:inline-block;margin-right:8px;padding:0 6px;vertical-align:2px;background:var(--color-hot);color:var(--color-bg);font:700 11px/1.7 var(--font-body);letter-spacing:.06em}
 
-/* ── 標題讀法（頭版 front.js 也設 data-read=scan，.row-title 等規則頭版也吃）── */
-[data-read=scan] .sec{margin-top:var(--space-8)}
-[data-read=scan] .sec-body{border:0;padding:0}
-[data-read=scan] .row{grid-template-columns:52px 1fr;column-gap:var(--space-4);row-gap:0;padding:15px 0;margin:0;border-top:1px solid var(--color-divider)}
-[data-read=scan] .sec-body>.row:first-child{border-top:0}
-[data-read=scan] .row-no{display:none}
-[data-read=scan] .row-time{display:flex;flex-direction:column;gap:1px;padding-top:3px;font:500 11.5px/1.3 var(--font-body);letter-spacing:.02em;color:var(--color-neutral-600)}
-[data-read=scan] .rt-hm{order:-1;display:block;font:600 15px/1.3 var(--font-num,var(--font-body));color:var(--color-text)}
-[data-read=scan] .rt-d,[data-read=scan] .rt-txt{display:block;font-size:11.5px}
 [data-read=scan] .row-title{font:600 16.5px/1.6 var(--font-body)}
-[data-read=scan] .row-main{gap:0}
 
-/* ── 時間軸：report.js 照時間順序產生 DOM（日期標題 h2.tl-day），不用 display:contents＋order 重排；.row-sec＝分區名稱 ── */
-.tl{margin-top:var(--space-6)}
-.tl-day{margin:0;padding:var(--space-6) 0 var(--space-2);border-bottom:2px solid var(--color-text);font:700 16px/1.4 var(--font-heading);letter-spacing:.04em}
-[data-read=timeline] .row{position:relative;grid-template-columns:64px 1fr;column-gap:22px;row-gap:0;border-top:0;padding:var(--space-3) 0 var(--space-4);margin:0}
-[data-read=timeline] .row::after{content:"";position:absolute;top:0;bottom:0;left:75px;border-left:1px solid var(--color-divider)}
-[data-read=timeline] .row-left{position:relative;flex-direction:column;align-items:flex-end}
-[data-read=timeline] .row-left::after{content:"";position:absolute;z-index:1;top:8px;right:-15px;width:9px;height:9px;background:var(--sec-c)}
-[data-read=timeline] .row-no{display:none}
-[data-read=timeline] .rt-d,[data-read=timeline] .rt-txt{display:inline;font:600 13px/1.5 var(--font-body);color:var(--color-neutral-600)}
-[data-look=atlas] .rt-txt{display:block;font:600 12px/1.35 var(--font-body);color:var(--color-neutral-600);letter-spacing:0}
-[data-read=timeline] .row-time{text-align:right}
-[data-read=timeline] .rt-hm{display:inline;font:700 17px/1.5 var(--font-num,var(--font-heading));color:var(--color-text)}
-[data-read=timeline] .row-main{gap:var(--space-1)}
-.row-sec{display:block;font:600 12.5px/1.5 var(--font-body);letter-spacing:.04em;color:var(--sec-c)}
-[data-read=timeline] .row-title{font-size:17.5px;line-height:1.45}
-@media(max-width:40em){
-[data-read=scan] .row{grid-template-columns:46px 1fr;column-gap:var(--space-3);padding:14px 0}
-[data-read=timeline] .row{grid-template-columns:50px 1fr;column-gap:18px}
-[data-read=timeline] .row::after{left:59px}
-[data-read=timeline] .row-left::after{right:-13px}
-[data-read=timeline] .rt-hm{font-size:15px}
-}
-
-/* ── 讀法×外觀的組合 ── */
-/* 標題讀法把 .row 左內距歸零，地圖的時間會貼著色條 → 補回 */
-[data-look=atlas][data-read=scan] .row{padding-left:var(--space-3)}
-[data-look=atlas][data-read=timeline] .row{border-left:0;padding-left:0}
-[data-look=atlas][data-read=timeline] .row::after{border-left:4px solid var(--sec-c);left:74px}
-[data-look=atlas][data-read=timeline] .row-left::after{display:none}
-[data-look=atlas][data-read=timeline] .rt-hm{display:block}
-@media(max-width:40em){
-[data-look=atlas][data-read=timeline] .row::after{left:58px}
-}
-
-/* ── 手機功能鈕與底部面板（bar.js 第 7 段）── 定案：只有圖示，.fab-lab 只給報讀器，.fab-tip 只在按住滑過、鍵盤聚焦時浮出。
+/* ── 手機功能鈕與底部面板（bar.js 第 5 段）── 定案：只有圖示，.fab-lab 只給報讀器，.fab-tip 只在按住滑過、鍵盤聚焦時浮出。
    格子以 clip-path 裁成扇形，outline 會被裁掉 → 聚焦、按住用 bar.js 的 .is-focus／.is-hot 標示。 */
 :root{--fab-size:44px;--fab-x:max(16px,env(safe-area-inset-right,0px));--fab-y:max(16px,env(safe-area-inset-bottom,0px))}
 .fab-layer{display:none}
@@ -372,7 +219,7 @@ html.fab-sheet,html.fab-sheet body{overflow:hidden;overscroll-behavior:none}
 .dd-shade[hidden]{display:none}
 .is-sheet .dd-close{width:44px;height:44px;background:var(--color-neutral-200);color:var(--color-text)}
 .is-sheet .dd-close svg{width:22px;height:22px;stroke-width:1.8}
-/* 頭版過濾面板（bar.js 的 openFilter，代按頁面上的系列標籤）：一列一系列；色塊＝領域色 --g-c（bar.js 從標籤抄），選了填滿打勾（不只靠顏色） */
+/* 過濾面板（bar.js 的 openFilter，代按本日焦點、議題目錄上的系列標籤）：一列一系列；色塊＝領域色 --g-c（bar.js 從標籤抄），選了填滿打勾（不只靠顏色） */
 .fq-panel .dd-head{gap:var(--space-2)}
 .fq-panel .dd-title{margin-right:auto}
 .fq-clear{min-height:44px;padding:0 var(--space-2);background:transparent;color:var(--color-accent-700);border:0;border-radius:0;font:500 15px/1 var(--font-body);text-decoration:underline;text-underline-offset:3px;cursor:pointer}
@@ -385,13 +232,6 @@ html.fab-sheet,html.fab-sheet body{overflow:hidden;overscroll-behavior:none}
 .fq-item[aria-pressed=true] .fq-mk{background:var(--g-c,var(--color-accent-600))}
 .fq-item[aria-pressed=true] .fq-mk svg{display:block}
 .fq-item:focus-visible,.fq-clear:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
-/* 讀法面板（bar.js 的 openRead，代按讀法按鈕）：列沿用 .fq-item，選中打勾 */
-.rds-ico,.rds-ico svg{display:block;flex:none;width:20px;height:20px}
-.rds-ico{color:var(--color-neutral-600)}
-.rds-mk{display:none;color:var(--color-accent-600)}
-.rds-mk svg{display:block;width:18px;height:18px;stroke-width:2.2}
-.rds-item[aria-pressed=true]{background:var(--color-accent-100);color:var(--color-accent-800);box-shadow:inset 3px 0 var(--color-accent-600)}
-.rds-item[aria-pressed=true] :is(.rds-ico,.rds-mk){display:block;color:var(--color-accent-600)}
 /* 地圖：扇面格間留縫（bar.js 的 FAB_SHAPE），不畫格線；回到頂端桌機也套 */
 [data-look=atlas] :is(.fab-btn,.to-top){background:var(--color-neutral-200);color:var(--color-neutral-800);border:0;box-shadow:0 8px 20px -12px rgb(0 0 0 / .45)}
 @media(hover:hover){[data-look=atlas] :is(.fab-btn,.to-top):hover{background:var(--color-accent-100);color:var(--color-text)}}
@@ -408,22 +248,17 @@ html.fab-sheet,html.fab-sheet body{overflow:hidden;overscroll-behavior:none}
 [data-look=atlas] .fq-item{font:600 15px/1.35 var(--font-body);letter-spacing:0}
 [data-look=atlas] .fq-mk{width:16px;height:16px;border:0;background:var(--g-c,var(--color-accent-600))}
 [data-look=atlas] .fq-item[aria-pressed=true]{background:var(--color-neutral-200)}
-[data-look=atlas] .rds-item{border-radius:var(--r-sm)}
-[data-look=atlas] .rds-item[aria-pressed=true]{background:var(--color-accent-600);color:var(--color-bg);box-shadow:none}
-[data-look=atlas] .rds-item[aria-pressed=true] :is(.rds-ico,.rds-mk){color:inherit}
 @media(prefers-reduced-motion:reduce){.fab-pie,.fab-layer.is-open .fab-pie{transform:none;transition:opacity .12s,visibility 0s linear .12s}.fab-btn svg,.fab-scrim{transition:none}}
 @media(forced-colors:active){.fab-btn{border:1px solid ButtonText}.fab-it.is-hot,.fab-it.is-focus{outline:2px solid Highlight;outline-offset:-4px}.fq-item[aria-pressed=true] .fq-mk{background:Highlight}}
-/* ── 分類標籤（facets.js）── 定案：預設收合、淡化。開關 .fct-tg 接在最後一列尾：另參行 .row-also、與「其餘 N 個連結」包成 .fct-with（report.js）、
-   頭版 .fp-acts（front.js），都沒有才自成 .fct-bar。淡化靠 --color-neutral-600／700（皆 ≥ 4.5:1），不用 opacity（對比不足）。
-   觸控：透明 ::before 補到 44px、外觀不變；蓋到上一行時另參連結 z-index:1 疊上去照樣可點 */
+/* ── 分類標籤（facets.js）── 定案：預設收合、淡化。開關 .fct-tg 接在最後一列尾：列表列 .rw-acts（rows.js），
+   新聞卡頁沒有可併入的列時自成 .fct-bar（card.js）。淡化靠 --color-neutral-600／700（皆 ≥ 4.5:1），不用 opacity（對比不足）。
+   觸控：透明 ::before 補到 44px、外觀不變 */
 .fct-tg{position:relative;display:inline-flex;align-items:center;gap:3px;margin:0;padding:0;border:0;background:none;cursor:pointer;font:400 12px/1.5 var(--font-body);letter-spacing:.04em;color:var(--color-neutral-600);white-space:nowrap;vertical-align:baseline;-webkit-tap-highlight-color:transparent}
 .fct-tg::before{content:"";position:absolute;inset:-6px -8px}
 .fct-tg::after{content:"";width:.38em;height:.38em;margin-left:2px;border:solid currentColor;border-width:0 1.2px 1.2px 0;transform:translateY(-.12em) rotate(45deg);transition:transform .15s}
 .fct-tg[aria-expanded=true]::after{transform:translateY(.08em) rotate(-135deg)}
 .fct-tg:hover{color:var(--color-neutral-800)}
 .fct-tg:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
-.row-also .fct-tg{margin-left:1em}
-.fct-with{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:1em}
 .fct-bar{margin-top:var(--space-2)}
 .fct-panel{margin-top:var(--space-1)}
 .fct-list{margin:0;font:400 12.5px/1.6 var(--font-body)}
@@ -437,15 +272,14 @@ html.fab-sheet,html.fab-sheet body{overflow:hidden;overscroll-behavior:none}
 .fct-a:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
 @media(pointer:coarse){
   .fct-tg::before{inset:-13px -10px}
-  .row-also a{position:relative;z-index:1}
-  :is(.fp-acts,.rw-acts) .fct-tg{min-height:44px}
+  .rw-acts .fct-tg{min-height:44px}
   .fct-a{display:inline-flex;align-items:center;min-height:44px}
 }
 @media(prefers-reduced-motion:reduce){.fct-tg::after{transition:none}}
 [data-look=atlas] .fct-tg:focus-visible{border-radius:var(--r-sm)}
 @media print{.fab-layer{display:none!important}}
 
-/* ── 施工中頁（report.js 的新聞卡系列頁退路；wip.js 只剩部署空窗的舊 HTML 用）：先求看得懂、回得去 ── */
+/* ── 施工中頁、找不到這個系列（report.js：series.js 沒載到時的系列頁退路、不認得的 ?t=）：先求看得懂、回得去 ── */
 .wip-kicker{margin:var(--space-3) 0 0;font:600 13px/1.4 var(--font-heading);letter-spacing:.06em;color:var(--color-neutral-600)}
 .wip-kicker+.mast-title{margin-top:var(--space-1)}
 .wip-head .mast-title:focus{outline:0}
@@ -460,5 +294,5 @@ html.fab-sheet,html.fab-sheet body{overflow:hidden;overscroll-behavior:none}
 [data-look=atlas] .wip-tag{border-radius:var(--r-sm)}
 @media(pointer:coarse){.wip-back a{display:inline-flex;align-items:center;min-height:44px}}
 
-/* ── 觸控高度 44px ── 放檔尾才蓋得過同權重的高度；html[data-look] 權重高過各外觀（含後載入的 look-standard.css）的 --read-h */
-@media(pointer:coarse){.ed-link,.dd-toggle,.vw-seg button,.dd-close,.pd-item,.chap-item{min-height:44px}.dd-close,.sr-sub{min-width:44px}html[data-look] .read-sw{--read-h:44px}}
+/* ── 觸控高度 44px ── 放檔尾才蓋得過同權重的高度 */
+@media(pointer:coarse){.ed-link,.dd-toggle,.vw-seg button,.dd-close,.pd-item{min-height:44px}.dd-close{min-width:44px}}

@@ -25,7 +25,7 @@
   const list = (v) => (Array.isArray(v) ? v : []);
   const valid = (iso) => typeof iso === 'string' && !Number.isNaN(Date.parse(iso));
 
-  // ── 外觀：同報告頁（air-news-look）；沒有 A.look 就不列「一般」。列表列借用標題讀法的樣式（同頭版）──
+  // ── 外觀：新聞各頁共用（air-news-look）；沒有 A.look 就不列「一般」。列表列借用標題讀法的樣式（同頭版）──
   const KEY_LOOK = 'air-news-look';
   const LOOKS = [['blueprint', '藍圖'], ['atlas', '地圖'], ...(A.look ? [['standard', '一般']] : [])];
   let look = LOOKS[0][0];
@@ -103,14 +103,12 @@
   }
   const dayDiff = (a, b) => Math.round((Date.parse(`${b}T00:00:00Z`) - Date.parse(`${a}T00:00:00Z`)) / 86400000);
 
-  // ── 報頭工具列（bar.js；樣式摘要 5.1）：本日焦點｜本週回顧　右邊一組：系列 ▾｜議題｜版面。議題目錄 aria-current=page、議題頁 true（同一邊）；
+  // ── 報頭工具列（bar.js；樣式摘要 5.1）：本日焦點　右邊一組：系列 ▾｜議題｜版面。「議題」在議題目錄 aria-current=page、議題頁 true；
   // 舊版 bar.js 沒有 storyLink／seriesMenu 就不放 ──
-  let hasWeekly = false;
   let srBox; // undefined＝還沒建
   let vwBox = null;
   const toolbar = (current) => B.toolbar([
     B.navLink('本日焦點', 'front', './', null),
-    hasWeekly ? B.navLink('本週回顧', 'weekly', './?w', null) : null,
     srBox,
     B.storyLink ? B.storyLink(current) : null,
     vwBox,
@@ -446,10 +444,10 @@
       ]);
     }).filter(Boolean);
 
-    // 篩選標籤：目錄裡出現的系列（綜合不列），照 index.json 的系列順序，後接議題數
+    // 篩選標籤：目錄裡出現的系列，照 index.json 的系列順序，後接議題數
     const count = new Map();
     listed.forEach((s) => new Set(list(s.series)).forEach((x) => {
-      if (typeof x === 'string' && x && x !== 'general') count.set(x, (count.get(x) || 0) + 1);
+      if (typeof x === 'string' && x) count.set(x, (count.get(x) || 0) + 1);
     }));
     const types = [...count].map(([t, n]) => ({ t, n })).sort((a, b) => seriesRank(a.t) - seriesRank(b.t) || (a.t < b.t ? -1 : 1));
     return {
@@ -491,8 +489,6 @@
   async function load(moved) {
     const my = ++ticket;
     index = await indexDoc;
-    const series = new Map(list(index && index.series).map((s) => [s && s.id, s && s.cadence]));
-    hasWeekly = list(index && index.items).some((e) => e && (e.cadence || series.get(e.series) || 'daily') !== 'daily');
     if (srBox === undefined) srBox = B.seriesMenu ? B.seriesMenu(index, null) : null;
     const key = hashText();
     const current = key ? 'true' : 'page';

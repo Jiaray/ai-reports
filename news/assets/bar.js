@@ -1,46 +1,33 @@
-/* 新聞頁報頭共用元件（report.js、series.js、front.js、card.js、story.js、adhoc.js；舊 wip.js），掛 AIR.bar（介面見檔尾），依賴 AIR.h、#app。
+/* 新聞頁報頭共用元件（report.js、series.js、front.js、card.js、story.js、adhoc.js），掛 AIR.bar（介面見檔尾），依賴 AIR.h、#app。
    1. 圖示（aria-hidden；按鈕名稱靠文字或 aria-label）
    2. 下拉 dropdown()（功能鈕開時為底部面板）
-   3. 期別寫法
-   4. 元件 datePicker、titleChapters、seriesMenu（面板內容 seriesGroups）、toolbar、navLink、storyLink、roving。
-      工具列組成（樣式摘要 5.1）：新聞卡相關的頁「本日焦點｜本週回顧」，右邊一組「系列 ▾｜議題｜版面」；週報報告頁與本週回顧日期按鈕排最前面
-   5. 工具列凍結：--bar-h、.is-stuck
-   6. 非當期提示 staleBanner
-   7. 手機右下角功能鈕（扇面） */
+   3. 元件 seriesMenu（系列設定 cardSeries）、toolbar、navLink、storyLink、roving。
+      工具列組成（樣式摘要 5.1）：左邊「本日焦點」，右邊一組「系列 ▾｜議題｜版面」
+   4. 工具列凍結：--bar-h、.is-stuck
+   5. 手機右下角功能鈕（扇面） */
 (() => {
   'use strict';
   const A = window.AIR;
   const h = A.h;
-  const WEEK = '日一二三四五六';
 
   // ── 1. 圖示 ──
   const svg = (size, d, extra = '') => `<svg viewBox="0 0 20 20"${size ? ` width="${size}" height="${size}"` : ''} fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="${d}"/>${extra}</svg>`;
   const ICON = {
     sliders: svg(18, 'M2.5 6H11M15 6h2.5M2.5 14H5M9 14h8.5', '<rect x="11" y="4" width="4" height="4"/><rect x="5" y="12" width="4" height="4"/>'), // 版面；方形旋鈕配藍圖方角
-    calendar: svg(18, 'M3 4.5h14V17H3zM3 8.5h14M7 2.5v4M13 2.5v4'),
     caret: svg(14, 'M6 8l4 4 4-4'),
     close: svg(16, 'M5 5l10 10M15 5 5 15'),
-    caretLg: svg(0, 'M5 7.5l5 5 5-5'), // 大標題箭頭：不給寬高，隨 CSS 外框
     front: svg(18, 'M3 3.5h14v13H3zM6 7.5h8M6 10.5h8M6 13.5h5'), // 本日焦點：一張報紙（同網站圖示）
-    weekly: svg(18, 'M6 2.5h11v11H6zM3 5.5v12h12M9 6h5M9 9h5M9 12h3'), // 本週回顧：兩張疊報紙；front、weekly 也給 front.js「出自」用
     // 系列：一排書（兩本直立、一本斜靠），取叢書系列的意思；書脊橫線讓長方形看得出是書
     series: svg(18, 'M2.5 3.5H6v13H2.5zM2.5 6.5H6M2.5 13.5H6M7.5 5h3v11.5h-3zM7.5 8h3M14.9 16.5 11.2 5.1l2.85-.93 3.71 11.41z'),
     story: svg(18, 'M8.4 2.5 6.6 17.5M13.4 2.5l-1.8 15M3.5 7.2h14M2.5 12.8h14'), // 議題：#（議題名就是網址的 #），須和其他圖示分得出
     warn: '<svg viewBox="0 0 20 20" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true" focusable="false"><path d="M10 2.8 18 17H2z" stroke-linejoin="round"/><path d="M10 8v4.2M10 14.2v.1" stroke-linecap="round" stroke-width="1.9"/></svg>',
     fan: svg(20, 'M17 17H3.5A13.5 13.5 0 0 1 17 3.5zM17 17 5.3 10.25M17 17 10.25 5.3'), // 功能鈕：從右下角張開的扇子
-    // 章節：›＋三條線，須和 readScan 分得出（扇面相鄰）
-    chapters: svg(18, 'M8.5 5h8.5M8.5 10h8.5M8.5 15h8.5M3 7l3 3-3 3').replace('<path ', '<path stroke-linecap="round" stroke-linejoin="round" '),
     filter: svg(18, 'M2.5 3.5h15l-6 7v6l-3-1.5v-4.5z'),
     check: svg(12, 'M4 10.5l3.5 3.5L16 5.5'),
-    // 讀法（report.js 選項、扇面共用）：readFull＝四行字、readScan＝方點清單、readTimeline＝時鐘＋逆時針箭頭（須和 readScan 分得出）
-    readFull: svg(16, 'M3.5 4.5h13M3.5 8h13M3.5 11.5h13M3.5 15h8'),
-    readScan: svg(16, 'M7.5 5h9M7.5 10h9M7.5 15h9', '<rect x="3" y="4" width="2" height="2"/><rect x="3" y="9" width="2" height="2"/><rect x="3" y="14" width="2" height="2"/>'),
-    readTimeline: svg(16, 'M2.5 10a7.5 7.5 0 1 0 7.5-7.5 8.1 8.1 0 0 0-5.6 2.3L2.5 6.7M2.5 2.5v4.2h4.2M10 5.8V10l3.3 1.7')
-      .replace('<path ', '<path stroke-linecap="round" stroke-linejoin="round" '),
   };
 
   // ── 2. 下拉面板 ──
-  // 用 WAAPI 不用 @starting-style：換讀法時面板隨報頭搬家，後者每搬一次重播淡入
+  // 用 WAAPI 不用 @starting-style：頁面重畫時面板隨工具列搬家，後者每搬一次重播淡入
   function openMotion(el, sheet) {
     if (!el.animate) return;
     const still = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -122,7 +109,7 @@
     panel.addEventListener('touchcancel', end);
   }
 
-  // 面板貼按鈕一側展開（日期、章節貼左緣；系列、版面貼右緣），超出視窗 → 移回來，左右各留 16px；底部面板不移。
+  // 面板貼按鈕右緣展開（系列、版面），超出視窗 → 移回來，左右各留 16px；底部面板不移。
   // 貼左緣的超出右邊改 margin-left、貼右緣的超出左邊（窄桌機，系列面板比按鈕左邊的空間寬）改 margin-right，另一邊的 margin 對定位沒作用。
   // 用負 margin 不用 translate：translate 前的位置仍算進可捲動範圍，會多出橫向捲動
   function fitIn(panel, sheet) {
@@ -147,7 +134,7 @@
   document.addEventListener('keydown', (e) => {
     if (e.key !== 'Escape') return;
     live.forEach((d) => { if (!d.panel.hidden) d.shut(); });
-    shutFan(); // 第 7 段
+    shutFan(); // 第 5 段
   });
   // 面板 → { open }，給功能鈕從底部打開
   const ctrls = new WeakMap();
@@ -205,158 +192,33 @@
     return box;
   }
 
-  // ── 3. 期別寫法 ──
-  const ymd = (p) => /^(\d{4})-(\d{2})-(\d{2})$/.exec(p || '');
-  const wdOf = (m) => WEEK[new Date(Date.UTC(+m[1], m[2] - 1, +m[3])).getUTCDay()];
-  // front.js 每週頭版 document.title 也用
-  function periodLabel(period, cadence) {
-    let m;
-    if (cadence === 'weekly' && (m = /^(\d{4})-W(\d{2})$/.exec(period))) return `${m[1]} 年第 ${+m[2]} 週`;
-    if (cadence === 'monthly' && (m = /^(\d{4})-(\d{2})$/.exec(period))) return `${m[1]} 年 ${+m[2]} 月`;
-    return (m = ymd(period)) ? `${period}（週${wdOf(m)}）` : period;
-  }
-  function periodGroup(period, cadence) {
-    const y = period.slice(0, 4);
-    if (cadence === 'weekly' || cadence === 'monthly') return `${y} 年`;
-    const m = ymd(period);
-    return m ? `${y} 年 ${+m[2]} 月` : y;
-  }
-  function periodRow(period, cadence) {
-    let m;
-    if (cadence === 'weekly' && (m = /^\d{4}-W(\d{2})$/.exec(period))) return [`第 ${+m[1]} 週`];
-    if (cadence === 'monthly' && (m = /^\d{4}-(\d{2})$/.exec(period))) return [`${+m[1]} 月`];
-    if (!(m = ymd(period))) return [period];
-    return [h('span', null, [`${+m[2]}/${+m[3]}`]), h('span', { class: 'pd-wd' }, [`週${wdOf(m)}`])];
-  }
-
-  // ── 4. 元件 ──
-  // 工具列須是 #app 的直接子節點（第 5、7 段靠 :scope > .editions 找）
+  // ── 3. 元件 ──
+  // 工具列須是 #app 的直接子節點（第 4、5 段靠 :scope > .editions 找）
   const toolbar = (kids) => h('nav', { class: 'editions', 'aria-label': '報頭工具列' }, kids.filter(Boolean));
-  // current＝aria-current：page＝這頁本身，true＝同一邊（日報／週報）的其他頁
+  // current＝aria-current：page＝這頁本身，true＝這頁屬於它（議題頁之於議題目錄）
   const navLink = (text, icon, href, current) => h('a', { class: 'ed-link', href, 'aria-current': current || null }, [
     h('span', { class: 'dd-ico', html: ICON[icon] }), h('span', null, [text]),
   ]);
 
-  // 用連結不用 <select>：換頁不是選值。here（左欄）：[{ text, count, href, current }]；periods（右欄）：[{ period, href, current }]（新到舊）
-  const UNIT = { daily: ['日期', '這天的新聞'], weekly: ['週期', '這週的新聞'], monthly: ['月份', '這個月的新聞'] };
-  function datePicker({ period, cadence, here, periods }) {
-    const [unit, hereName] = UNIT[cadence] || UNIT.daily;
-    const typeCol = here.length ? h('div', { class: 'pd-col pd-types' }, [
-      h('p', { class: 'pd-group', id: 'pd-types-label' }, [hereName]),
-      h('ul', { class: 'pd-items', 'aria-labelledby': 'pd-types-label' }, here.map((x) => h('li', null, [
-        h('a', { class: 'pd-item', href: x.href, 'aria-current': x.current ? 'page' : null }, [
-          h('span', null, [x.text]), x.count ? h('span', { class: 'pd-n' }, [String(x.count)]) : null,
-        ]),
-      ]))),
-    ]) : null;
-    const groups = [];
-    periods.forEach((p) => {
-      const name = periodGroup(p.period, cadence);
-      let last = groups[groups.length - 1];
-      if (!last || last.name !== name) groups.push(last = { name, items: [] });
-      last.items.push(p);
-    });
-    const dateCol = h('div', { class: 'pd-col pd-dates' }, groups.flatMap((g, gi) => [
-      h('p', { class: 'pd-group', id: `pd-g${gi}` }, [g.name]),
-      h('ul', { class: 'pd-items', 'aria-labelledby': `pd-g${gi}` }, g.items.map((p) => h('li', null, [
-        h('a', { class: 'pd-item', href: p.href, 'aria-current': p.current ? 'page' : null }, periodRow(p.period, cadence)),
-      ]))),
-    ]));
-    return dropdown({
-      cls: 'pd', id: 'pd-panel', title: unit, closeLabel: `關閉${unit}`,
-      toggleKids: [
-        h('span', { class: 'dd-ico', html: ICON.calendar }),
-        h('span', { class: 'visually-hidden' }, [`${unit}：`]), h('span', null, [periodLabel(period, cadence)]),
-        h('span', { class: 'dd-caret', html: ICON.caret }),
-      ],
-      body: [h('div', { class: 'pd-body' }, [typeCol, dateCol])],
-      // 頭版的 here 沒有 current→落在第一個系列
-      pick: (panel) => ['.pd-types .pd-item[aria-current=page]', '.pd-types .pd-item', '.pd-item[aria-current=page]']
-        .map((s) => panel.querySelector(s)).find(Boolean),
-    });
-  }
-
-  // 章節下拉（只有報告頁）：按鈕包在 <h1> 裡保留標題地標；最後一字＋箭頭包 .chap-tail 不換行（兩行時箭頭接在字後）
-  // items：[{ name, count, href, k }]（k：地圖外觀分區色號）
-  function titleChapters({ title, items, panelTitle }) {
-    if (!items.length) return h('h1', { class: 'mast-title' }, [title]);
-    return dropdown({
-      cls: 'chap', id: 'chap-panel', title: panelTitle, closeLabel: `關閉${panelTitle}`, toggleCls: 'chap-toggle',
-      toggleKids: [
-        h('span', { class: 'chap-name' }, [
-          title.slice(0, -1),
-          h('span', { class: 'chap-tail' }, [title.slice(-1), h('span', { class: 'chap-caret', html: ICON.caretLg })]),
-        ]),
-        h('span', { class: 'visually-hidden' }, [`，${panelTitle}`]),
-      ],
-      wrap: (toggle) => h('h1', { class: 'mast-title' }, [toggle]),
-      body: [h('ul', { class: 'chap-list', 'aria-labelledby': 'chap-panel-title' }, items.map((x) => h('li', null, [
-        h('a', { class: 'chap-item', href: x.href, 'data-k': x.k || null }, [
-          h('span', { class: 'chap-sec' }, [x.name]), h('span', { class: 'pd-n' }, [String(x.count)]),
-        ]),
-      ])))],
-      pick: (panel) => panel.querySelector('.chap-item'),
-    });
-  }
-
-  // 新聞卡日報系列：index.json series 裡 cadence daily 的，GitHub 趨勢（仍是報告）與臨時系列（publish.py 給領域「其他」）除外
-  const REPORT_DAILY = ['github'];
+  // 系列設定：index.json 的 series 全部（{ id, title, short, group }；陣列順序＝views.SERIES＝全站系列順序，同領域的挨在一起）
   const cardSeries = (index) => (index && Array.isArray(index.series) ? index.series : [])
-    .filter((s) => s && typeof s.id === 'string' && s.cadence === 'daily' && !REPORT_DAILY.includes(s.id) && s.group !== '其他');
-  // 「系列 ▾」面板兩欄（樣式摘要 5.1）：左「新聞卡（近 7 天）」＝新聞卡日報系列頁，右「照舊的報告」＝週報、月報、GitHub 趨勢。
-  // 綜合併入本日焦點、臨時系列（領域「其他」）只用網址開，都不列。連結 ./?t=（新聞卡頁等其他頁面也連得到）；current＝目前的系列代號
-  // （目前位置同日期面板 aria-current=page）。左欄順序照樣式摘要（博奕挨著遊戲），不在表上的照 index.json 順序接在後面；
-  // 右欄同名開頭的併成一列（GitHub 日／週／月）。一顆下拉不逐一放按鈕：十多個系列擺不進工具列與扇面
-  const PANEL_ORDER = ['international', 'tech_ai', 'tech', 'security', 'finance', 'health', 'gambling', 'gamedev', 'taiwan_general', 'taiwan_disaster', 'social'];
-  const CADENCE_WORD = new Map([['daily', '日'], ['weekly', '週'], ['monthly', '月']]);
-  // 面板兩欄的內容 → { cards: [系列設定], reports: [{ name, list: [系列設定] }] }（系列頁沒有卡時也照這份列其他系列）
-  function seriesGroups(index) {
-    const all = index && Array.isArray(index.series) ? index.series.filter((s) => s && typeof s.id === 'string') : [];
-    const rank = (id) => (PANEL_ORDER.includes(id) ? PANEL_ORDER.indexOf(id) : PANEL_ORDER.length);
-    const cards = cardSeries(index).filter((s) => s.id !== 'general')
-      .map((s, i) => ({ s, i })).sort((a, b) => rank(a.s.id) - rank(b.s.id) || a.i - b.i).map((x) => x.s);
-    const cardIds = new Set(cardSeries(index).map((s) => s.id));
-    const reports = [];
-    all.filter((s) => !cardIds.has(s.id) && s.id !== 'general' && s.group !== '其他' && CADENCE_WORD.has(s.cadence)).forEach((s) => {
-      const name = String(s.short || s.title || s.id).split(/\s+/)[0];
-      const same = reports.find((r) => r.name === name);
-      if (same) same.list.push(s);
-      else reports.push({ name, list: [s] });
-    });
-    const order = [...CADENCE_WORD.keys()];
-    reports.forEach((r) => r.list.sort((a, b) => order.indexOf(a.cadence) - order.indexOf(b.cadence)));
-    return { cards, reports };
-  }
+    .filter((s) => s && typeof s.id === 'string' && s.id);
+  // 「系列 ▾」面板（樣式摘要 5.1）：「新聞卡（近 7 天）」列全部系列頁，照 index.json 的順序（同領域的挨在一起），文字前一條領域色短線。
+  // 連結 ./?t=（新聞卡頁等其他頁面也連得到）；current＝目前的系列代號（目前位置 aria-current=page）。
+  // 一顆下拉不逐一放按鈕：二十多個系列擺不進工具列與扇面
   function seriesMenu(index, current) {
-    const { cards, reports } = seriesGroups(index);
-    if (!cards.length && !reports.length) return null;
-    const href = (s) => `./?t=${encodeURIComponent(s.id)}`;
-    const here = (s) => (s.id === current ? 'page' : null);
-    const item = (s) => h('a', { class: 'pd-item sr-it', href: href(s), 'data-group': s.group || null, 'aria-current': here(s) }, [
-      h('span', null, [s.short || s.title || s.id]),
-    ]);
-    // 同名多份（GitHub）：名稱不是連結，後面接「日」「週」「月」；報讀器唸「GitHub 日報」
-    const multi = (r) => {
-      const subs = r.list;
-      return h('div', { class: 'sr-multi', 'data-group': subs[0].group || null }, [
-        h('span', { class: 'sr-name', 'aria-hidden': 'true' }, [r.name]),
-        ...subs.map((s) => h('a', { class: 'pd-item sr-sub', href: href(s), 'aria-current': here(s) }, [
-          h('span', { class: 'visually-hidden' }, [`${r.name} `]), CADENCE_WORD.get(s.cadence), h('span', { class: 'visually-hidden' }, ['報']),
-        ])),
-      ]);
-    };
-    const col = (cls, id, name, items) => {
-      if (!items.length) return null;
-      const ul = h('ul', { class: 'pd-items sr-list', 'aria-labelledby': id }, items.map((x) => h('li', null, [x])));
-      ul.style.setProperty('--sr-rows', String(Math.ceil(items.length / 2))); // 左欄兩欄時的列數（report.css）
-      return h('div', { class: `sr-col ${cls}` }, [h('p', { class: 'pd-group', id }, [name]), ul]);
-    };
+    const cards = cardSeries(index);
+    if (!cards.length) return null;
+    const item = (s) => h('a', {
+      class: 'pd-item sr-it', href: `./?t=${encodeURIComponent(s.id)}`, 'data-group': s.group || null, 'aria-current': s.id === current ? 'page' : null,
+    }, [h('span', null, [s.short || s.title || s.id])]);
+    const ul = h('ul', { class: 'pd-items sr-list', 'aria-labelledby': 'sr-g-cards' }, cards.map((s) => h('li', null, [item(s)])));
+    ul.style.setProperty('--sr-rows', String(Math.ceil(cards.length / 2))); // 兩欄時的列數（report.css）
     return dropdown({
       cls: 'sr', id: 'sr-panel', title: '系列', closeLabel: '關閉系列',
       toggleKids: [h('span', { class: 'dd-ico', html: ICON.series }), h('span', null, ['系列']), h('span', { class: 'dd-caret', html: ICON.caret })],
       body: [h('div', { class: 'sr-body' }, [
-        col('sr-cards', 'sr-g-cards', '新聞卡（近 7 天）', cards.map(item)),
-        col('sr-reports', 'sr-g-reports', '照舊的報告', reports.map((r) => (r.list.length > 1 ? multi(r) : item(r.list[0])))),
+        h('div', { class: 'sr-col sr-cards' }, [h('p', { class: 'pd-group', id: 'sr-g-cards' }, ['新聞卡（近 7 天）']), ul]),
       ])],
       pick: (panel) => panel.querySelector('.pd-item[aria-current=page]') || panel.querySelector('.pd-item'),
     });
@@ -397,8 +259,8 @@
     return sync;
   }
 
-  // ── 5. 工具列凍結 ──
-  // --bar-h 給 report.css、front.css、look-standard.css 讀，.is-stuck 給 report.css。工具列重畫是新元素→監看 #app 重找重量；
+  // ── 4. 工具列凍結 ──
+  // --bar-h 給 report.css、front.css、series.css、look-standard.css 讀，.is-stuck 給 report.css。工具列重畫是新元素→監看 #app 重找重量；
   // pinned（是否 sticky）在 measure 記下，捲動時免讀樣式
   const root = document.documentElement;
   const app = document.getElementById('app');
@@ -435,62 +297,8 @@
     ticking = true;
     requestAnimationFrame(() => { ticking = false; stuck(); });
   }, { passive: true });
-  // report.js 換讀法捲回同一則時用
-  const barHeight = () => (bar && bar.isConnected && pinned ? bar.getBoundingClientRect().height : 0);
 
-  // ── 6. 非當期提示 ──
-  // 台北今天用 IANA 時區，不支援才固定 +8（台灣無日光節約）；不用 Temporal：Safari 沒有，不值得載 polyfill
-  const TZ = 'Asia/Taipei';
-  const pad2 = (n) => String(n).padStart(2, '0');
-  function taipeiToday() {
-    try {
-      const p = {};
-      new Intl.DateTimeFormat('en-US', { timeZone: TZ, year: 'numeric', month: 'numeric', day: 'numeric' })
-        .formatToParts(new Date()).forEach((x) => { p[x.type] = +x.value; });
-      if (p.year && p.month && p.day) return [p.year, p.month, p.day];
-    } catch (e) { /* 退回固定偏移 */ }
-    const t = new Date(Date.now() + 8 * 3600 * 1000);
-    return [t.getUTCFullYear(), t.getUTCMonth() + 1, t.getUTCDate()];
-  }
-  // ISO 週：星期四所在的年；Date.UTC 只當日曆算術
-  function isoWeek(y, m, d) {
-    const t = new Date(Date.UTC(y, m - 1, d));
-    t.setUTCDate(t.getUTCDate() + 4 - (t.getUTCDay() || 7));
-    const wy = t.getUTCFullYear();
-    return `${wy}-W${pad2(Math.ceil(((t - Date.UTC(wy, 0, 1)) / 86400000 + 1) / 7))}`;
-  }
-  // 依期別寫法判斷，不看 cadence；認不出不提示
-  const KINDS = [
-    [/^\d{4}-\d{2}-\d{2}$/, '非當日資訊', (y, m, d) => `${y}-${pad2(m)}-${pad2(d)}`],
-    [/^\d{4}-W\d{2}$/, '非當週資訊', isoWeek],
-    [/^\d{4}-\d{2}$/, '非當月資訊', (y, m) => `${y}-${pad2(m)}`],
-  ];
-  function staleText(period) {
-    const kind = KINDS.find(([re]) => re.test(period || ''));
-    return kind && kind[2](...taipeiToday()) !== period ? kind[1] : '';
-  }
-  // 提示條須放在 #app 第一個（restale 靠它）；note 接在後面（頭版：最新一期但今天還沒出刊）
-  // 和整頁一起畫（不事後插入推版面），故不加 live region：讀頁面第一個就讀到
-  let staleOf = null; // { period, note }：分頁開著過午夜，回到前景時重算
-  function staleBanner(period, note) {
-    staleOf = { period, note };
-    const text = staleText(period);
-    return text ? h('p', { class: 'stale' }, [
-      h('span', { class: 'stale-ico', html: ICON.warn }), h('span', null, [note ? `${text}・${note}` : text]),
-    ]) : null;
-  }
-  function restale() {
-    if (!staleOf || !app) return;
-    const old = app.querySelector(':scope > .stale');
-    const next = staleBanner(staleOf.period, staleOf.note);
-    if (old && next) old.replaceWith(next);
-    else if (old) old.remove();
-    else if (next) app.prepend(next);
-  }
-  document.addEventListener('visibilitychange', () => { if (document.visibilityState === 'visible') restale(); });
-  window.addEventListener('pageshow', (e) => { if (e.persisted) restale(); });
-
-  // ── 7. 手機右下角功能鈕 ──
+  // ── 5. 手機右下角功能鈕 ──
   // 定案：功能鈕、扇面只有圖示，名稱（報讀器照唸）按住滑過或鍵盤聚焦時浮出；點開再點一格，或按住滑到那格放開
   // 項目讀自 #app 的工具列。每格＝clip-path 裁的按鈕（點擊範圍一起裁），格線另畫在上層 SVG
   // root 的 has-fab、fab-open、fab-sheet 給 report.css
@@ -529,7 +337,7 @@
     if (c) c.open(true, sheetHow());
   };
 
-  // → { panels 外圈, links 內圈 } 或 null。版面面板 id：report.js vw-panel、front.js fp-panel
+  // → { panels 外圈, links 內圈 } 或 null。版面面板 id：report.js 等 vw-panel、front.js fp-panel
   function fabItems() {
     const bar = app && app.querySelector(':scope > .editions');
     if (!bar) return null;
@@ -538,16 +346,8 @@
       const p = document.getElementById(id);
       if (p && app.contains(p) && ctrls.has(p)) panels.push({ key: id, label, icon, run: openPanel(id) });
     };
-    const pdTitle = document.getElementById('pd-panel-title');
-    panel('pd-panel', pdTitle ? pdTitle.textContent : '日期', 'calendar');
     panel('sr-panel', '系列', 'series');
     if (app.querySelector('.fp-fq .fp-chip')) panels.push({ key: 'fq', label: '過濾', icon: 'filter', run: openFilter });
-    else panel('chap-panel', '章節', 'chapters');
-    // 讀法格：圖示抄選中的 .read-ico，名稱帶讀法→換讀法時重建
-    const curRead = app.querySelector('.read-sw .read-opt[aria-pressed=true]');
-    if (curRead) {
-      panels.push({ key: 'rd', label: `讀法：${curRead.querySelector('.read-name').textContent}`, html: curRead.querySelector('.read-ico').innerHTML, run: openRead });
-    }
     panel('vw-panel', '版面', 'sliders');
     panel('fp-panel', '版面', 'sliders');
     const links = [...bar.querySelectorAll(':scope > a.ed-link')].map((a) => {
@@ -557,8 +357,8 @@
     return { panels, links };
   }
 
-  // 0°＝正左、90°＝正上。定案：外圈由下往上日期、章節或過濾、讀法、版面（系列排在日期後、沒有日期就在最下）；
-  // 內圈由上往下本日焦點、本週回顧、議題
+  // 0°＝正左、90°＝正上。定案：外圈由下往上系列、過濾（本日焦點、議題目錄才有）、版面；
+  // 內圈由上往下本日焦點、議題
   function buildPie(items) {
     const S = FAB_R[2] + 2;
     const P = (r, a) => {
@@ -778,7 +578,7 @@
       if (first) first.focus();
     }
   }
-  // 只從功能鈕開的底部面板（過濾、讀法；頁面上沒有對應下拉）→ { box, panel, list, open(yes, how), shut }
+  // 只從功能鈕開的底部面板（過濾；頁面上沒有對應下拉）→ { box, panel, list, open(yes, how), shut }
   function sheetBox({ id, cls, title, closeLabel, extra = [] }) {
     const close = h('button', { type: 'button', class: 'dd-close', 'aria-label': closeLabel, html: ICON.close });
     const list = h('ul', { class: 'fq-list', 'aria-labelledby': `${id}-title` });
@@ -851,33 +651,8 @@
     fq.open(true, sheetHow());
   }
 
-  // 報告頁讀法面板（手機藏 .read-sw）：照抄 report.js 的 .read-opt（data-v、aria-pressed、.read-ico、.read-name），按了代按那顆
-  let rd = null;
-  const realReads = () => [...document.querySelectorAll('#app .read-sw .read-opt')];
-  function openRead() {
-    const opts = realReads();
-    if (!opts.length) return;
-    if (!rd) {
-      rd = sheetBox({ id: 'rd-panel', cls: 'rds', title: '讀法', closeLabel: '關閉讀法' });
-      rd.list.addEventListener('click', (e) => {
-        const b = e.target.closest('.fq-item');
-        const real = b && realReads().find((x) => x.dataset.v === b.dataset.v);
-        if (!real) return;
-        rd.shut();
-        if (real.getAttribute('aria-pressed') !== 'true') proxyClick(real);
-      });
-    }
-    rd.list.replaceChildren(...opts.map((o) => {
-      return h('li', null, [h('button', { type: 'button', class: 'fq-item rds-item', 'data-v': o.dataset.v, 'aria-pressed': o.getAttribute('aria-pressed') }, [
-        h('span', { class: 'rds-ico', html: o.querySelector('.read-ico').innerHTML }),
-        h('span', { class: 'fq-name' }, [o.querySelector('.read-name').textContent]),
-        h('span', { class: 'rds-mk', html: ICON.check }),
-      ])]);
-    }));
-    rd.open(true, sheetHow());
-  }
   syncFab();
   new MutationObserver(() => syncFab()).observe(root, { attributes: true, attributeFilter: ['data-look'] }); // 換外觀：扇面換形狀
 
-  A.bar = { ICON, dropdown, periodLabel, toolbar, navLink, storyLink, datePicker, titleChapters, cardSeries, seriesGroups, seriesMenu, roving, barHeight, staleBanner };
+  A.bar = { ICON, dropdown, toolbar, navLink, storyLink, cardSeries, seriesMenu, roving };
 })();

@@ -1,6 +1,6 @@
 /* 本日焦點的今天日期與農民曆，掛 AIR.almanac（front.js 選用；只有 news/index.html 載入，排在 front.js 前）。
    - 國曆日期、星期自己算，一定有；農曆月日、干支生肖年、農曆節日、宜忌、沖煞、行政日曆的農曆假日與清明由 lunar.js 算（節氣不顯示）。
-   - lunar.js＝6tail/lunar-javascript v1.7.8（MIT，原檔未改，授權在檔頭的 npm 套件裡）：約 430KB，報告頁用不到，
+   - lunar.js＝6tail/lunar-javascript v1.7.8（MIT，原檔未改，授權在檔頭的 npm 套件裡）：約 430KB，其他頁用不到，
      第一次 load() 才另外載入（同 almanac.js 的 ?v=）；載不到只畫國曆日期那一格，下次 load() 再試。
      它是 UMD：沒有模組系統時在 window 掛 Solar、Lunar 等十幾個名稱，只在這支用。
    - lunar.js 只輸出簡體：TW 表逐詞換成台灣農民曆用字（上梁→上樑、启钻→啟攢、龙头节→龍抬頭…），表上沒有的原樣顯示。

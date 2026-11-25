@@ -1,4 +1,5 @@
-/* 首頁：catalog.json 每個類別一個藍圖分區，列該類別 index.json 最近 8 份；類別有 focus 時最上面加本日焦點一列。 */
+/* 首頁：catalog.json 每個類別一個藍圖分區。類別有 focus（新聞：news/cards/focus.json）時只放本日焦點一列（進本日焦點的連結＋近 24 小時前 3 張），
+   不讀 index.json；沒有 focus 的類別列 index.json 的 items 最近 8 份。 */
 (() => {
   'use strict';
   const A = window.AIR;
@@ -34,7 +35,7 @@
   };
 
   A.getJSON('catalog.json').then((cat) => Promise.all((cat.categories || []).map((c) => Promise.all([
-    A.getJSON(c.index).then((idx) => idx.items || [], () => []),
+    c.focus ? [] : A.getJSON(c.index).then((idx) => idx.items || [], () => []),
     c.focus ? A.getJSON(c.focus).then((f) => f.cards || [], () => []) : null,
   ]).then(([items, focus]) => [c, items, focus])))).then((cats) => {
     box.replaceChildren(...cats.map(([c, items, focus], i) => h('section', { class: 'sec', id: `sec-${pad(i + 1)}` }, [

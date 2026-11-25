@@ -50,7 +50,7 @@
 .cd-field dd{display:inline;margin:0}
 .cd-field a{color:var(--color-accent-700)}
 
-/* ── 框（議題、來源）：標題列同報告頁分區標籤的底色 ── */
+/* ── 框（議題、來源）：標題列底色用 --tab-bg／--tab-fg（report.css 定義；系列頁漏洞區、議題目錄區標題同色） ── */
 .cd-box{border:1px solid var(--color-divider)}
 .cd-box:focus{outline:0}
 .cd-box:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:3px}

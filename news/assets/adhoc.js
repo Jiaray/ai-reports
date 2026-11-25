@@ -20,7 +20,7 @@
   const list = (v) => (Array.isArray(v) ? v : []);
   const valid = (iso) => typeof iso === 'string' && !Number.isNaN(Date.parse(iso));
 
-  // ── 外觀：同報告頁（air-news-look）；沒有 A.look 就不列「一般」 ──
+  // ── 外觀：新聞各頁共用（air-news-look）；沒有 A.look 就不列「一般」 ──
   const KEY_LOOK = 'air-news-look';
   const LOOKS = [['blueprint', '藍圖'], ['atlas', '地圖'], ...(A.look ? [['standard', '一般']] : [])];
   let look = LOOKS[0][0];
@@ -49,13 +49,11 @@
     return `${k.slice(0, 4) === R.today().slice(0, 4) ? '' : `${k.slice(0, 4)}/`}${+k.slice(5, 7)}/${+k.slice(8, 10)}`;
   }
 
-  // ── 報頭工具列（bar.js；樣式摘要 5.1）：本日焦點｜本週回顧　右邊一組：系列 ▾｜議題｜版面；暫時頁不屬於哪一邊，都不標 aria-current ──
-  let hasWeekly = false;
+  // ── 報頭工具列（bar.js；樣式摘要 5.1）：本日焦點　右邊一組：系列 ▾｜議題｜版面；暫時頁不標 aria-current ──
   let srBox; // undefined＝還沒建
   let vwBox = null;
   const toolbar = () => B.toolbar([
     B.navLink('本日焦點', 'front', './', null),
-    hasWeekly ? B.navLink('本週回顧', 'weekly', './?w', null) : null,
     srBox,
     B.storyLink ? B.storyLink(null) : null,
     vwBox,
@@ -201,8 +199,6 @@
   async function load(moved) {
     const my = ++ticket;
     index = await indexDoc;
-    const series = new Map(list(index && index.series).map((s) => [s && s.id, s && s.cadence]));
-    hasWeekly = list(index && index.items).some((e) => e && (e.cadence || series.get(e.series) || 'daily') !== 'daily');
     if (srBox === undefined) srBox = B.seriesMenu ? B.seriesMenu(index, null) : null;
     const slug = hashText();
     if (!R) { // 部署空窗：新 HTML 配到缺檔或舊的 rows.js（沒有 link()）

@@ -1,230 +1,138 @@
 {
- "schema": 1,
- "updated_at": "2026-11-25T14:54:34+08:00",
+ "schema": 2,
+ "generated_at": "2026-11-25T22:37:07+08:00",
  "series": [
   {
-   "id": "general",
-   "title": "綜合日報",
-   "cadence": "daily",
-   "group": "綜合",
-   "short": "綜合"
-  },
-  {
-   "id": "international",
-   "title": "國際新聞日報",
-   "cadence": "daily",
-   "group": "國際",
-   "short": "國際"
-  },
-  {
-   "id": "tech_ai",
-   "title": "AI 日報",
-   "cadence": "daily",
-   "group": "科技",
-   "short": "AI"
-  },
-  {
-   "id": "tech",
-   "title": "科技日報",
-   "cadence": "daily",
-   "group": "科技",
-   "short": "科技"
-  },
-  {
-   "id": "security",
-   "title": "資安日報",
-   "cadence": "daily",
-   "group": "科技",
-   "short": "資安"
-  },
-  {
-   "id": "gambling",
-   "title": "博奕產業新聞",
-   "cadence": "daily",
-   "group": "遊戲",
-   "short": "博奕"
-  },
-  {
-   "id": "finance",
-   "title": "財經日報",
-   "cadence": "daily",
-   "group": "財經",
-   "short": "財經"
-  },
-  {
-   "id": "health",
-   "title": "健康日報",
-   "cadence": "daily",
-   "group": "綜合",
-   "short": "健康"
-  },
-  {
-   "id": "github_weekly",
-   "title": "GitHub 趨勢週報",
-   "cadence": "weekly",
-   "group": "開源",
-   "short": "GitHub 週報"
-  },
-  {
-   "id": "github",
-   "title": "GitHub 趨勢",
-   "cadence": "daily",
-   "group": "開源",
-   "short": "GitHub"
-  },
-  {
-   "id": "github_monthly",
-   "title": "GitHub 趨勢月報",
-   "cadence": "monthly",
-   "group": "開源",
-   "short": "GitHub 月報"
-  },
-  {
-   "id": "ai_weekly",
-   "title": "AI 週報",
-   "cadence": "weekly",
-   "group": "科技",
-   "short": "AI 週報"
-  },
-  {
-   "id": "reading_list",
-   "title": "閱讀清單",
-   "cadence": "weekly",
-   "group": "綜合",
-   "short": "閱讀"
-  },
-  {
-   "id": "cocos_h5_weekly",
-   "title": "Cocos／H5 遊戲開發週報",
-   "cadence": "weekly",
-   "group": "遊戲",
-   "short": "Cocos 週報"
-  },
-  {
-   "id": "gamedev",
-   "title": "遊戲產業新聞",
-   "cadence": "daily",
-   "group": "遊戲",
-   "short": "遊戲"
-  },
-  {
    "id": "taiwan_general",
-   "title": "台灣綜合新聞",
-   "cadence": "daily",
-   "group": "台灣",
-   "short": "台灣"
-  },
-  {
-   "id": "taiwan_disaster",
-   "title": "台灣防災示警",
-   "cadence": "daily",
-   "group": "台灣",
-   "short": "防災"
+   "title": "台灣綜合",
+   "short": "台灣",
+   "group": "台灣"
   },
   {
    "id": "social",
-   "title": "鄉民早報",
-   "cadence": "daily",
-   "group": "台灣",
-   "short": "鄉民"
-  }
- ],
- "items": [
-  {
-   "series": "reading_list",
-   "series_title": "閱讀清單",
-   "cadence": "weekly",
-   "period": "2026-W48",
-   "date": "2026-11-23",
-   "title": "深度閱讀清單",
-   "lede": "黎曼猜想同日出現 Claude 主導的 Lean 證明與人類 12 年手寫證明，「可驗證卻讀不懂」成焦點；形式化驗證被視為對抗 AI 劣質產出的新武器；內格爾獲百萬美元博古睿哲學獎；EAX 暫存器名稱的五十年由來。",
-   "count": 5,
-   "data": "weekly/reading_list/2026/2026-W48.json",
-   "generated_at": "2026-11-23T17:19:15+08:00"
+   "title": "鄉民",
+   "short": "鄉民",
+   "group": "台灣"
   },
   {
-   "series": "ai_weekly",
-   "series_title": "AI 週報",
-   "cadence": "weekly",
-   "period": "2026-W48",
-   "date": "2026-11-23",
-   "title": "AI 週報",
-   "lede": "Anthropic 上市首日收漲 17%、輝達財報再超預期卻深陷黃仁勳醜聞後的治理與出口管制壓力；成果計價的毛利算法浮上檯面；論文聚焦長上下文記憶、擴散語言模型與世界模型的物理一致性。",
-   "count": 11,
-   "data": "weekly/ai_weekly/2026/2026-W48.json",
-   "generated_at": "2026-11-23T17:17:28+08:00"
+   "id": "cross_strait",
+   "title": "兩岸",
+   "short": "兩岸",
+   "group": "台灣"
   },
   {
-   "series": "cocos_h5_weekly",
-   "series_title": "Cocos／H5 遊戲開發週報",
-   "cadence": "weekly",
-   "period": "2026-W48",
-   "date": "2026-11-23",
-   "title": "Cocos／H5 遊戲開發週報",
-   "lede": "近 7 日：新版構建面板與 Dashboard 升級彈窗引發大量抱怨；小遊戲 Graphics 遮罩吃記憶體、構建後展開運算子失效等坑有了社群解法；PixiJS 推出 3D、Unity 宣布收購 Synty 與獨立開發補助。",
-   "count": 20,
-   "data": "weekly/cocos_h5_weekly/2026/2026-W48.json",
-   "generated_at": "2026-11-23T17:14:56+08:00"
+   "id": "politics",
+   "title": "政治",
+   "short": "政治",
+   "group": "政治"
   },
   {
-   "series": "github_weekly",
-   "series_title": "GitHub 趨勢週報",
-   "cadence": "weekly",
-   "period": "2026-W48",
-   "date": "2026-11-23",
-   "title": "GitHub 趨勢週報",
-   "lede": "本週榜單幾乎被「給 coding agent 用的工具」包辦；Univer 以 Office SDK 定位拿下週冠；Google、Meta、阿里巴巴三家大廠把內部工具開源上榜。",
-   "count": 10,
-   "data": "weekly/github_weekly/2026/2026-W48.json",
-   "generated_at": "2026-11-23T17:14:30+08:00"
+   "id": "society",
+   "title": "社會",
+   "short": "社會",
+   "group": "社會"
   },
   {
-   "series": "cocos_h5_weekly",
-   "series_title": "Cocos／H5 遊戲開發週報",
-   "cadence": "weekly",
-   "period": "2026-W47",
-   "date": "2026-11-22",
-   "title": "Cocos／H5 遊戲開發週報",
-   "lede": "近 7 日：Cocos Dashboard 升級改版構建面板，3.8.x 專案也被換新、論壇要求保留舊入口；微信小遊戲網路類型選「單機」可先上線再等備案；兩款 Cocos MCP 外掛上架，社群爭論 MCP 與 CLI；PixiJS 推出 3D，Three.js 逐步補齊 AAA 光照管線。",
-   "count": 20,
-   "data": "weekly/cocos_h5_weekly/2026/2026-W47.json",
-   "generated_at": "2026-11-22T11:19:45+08:00"
+   "id": "finance",
+   "title": "財經",
+   "short": "財經",
+   "group": "財經"
   },
   {
-   "series": "ai_weekly",
-   "series_title": "AI 週報",
-   "cadence": "weekly",
-   "period": "2026-W47",
-   "date": "2026-11-22",
-   "title": "AI 週報",
-   "lede": "Anthropic 上市首日收漲 17%，AI to ROI 視為情緒指標而非定論；黃仁勳辭職後 NVIDIA 市值蒸發 1.4 兆美元，仍被看作最難撼動的對手；論文榜聚焦閉環行動與世界模型，推理與執行一合成就崩。",
-   "count": 15,
-   "data": "weekly/ai_weekly/2026/2026-W47.json",
-   "generated_at": "2026-11-22T11:18:40+08:00"
+   "id": "ai",
+   "title": "AI",
+   "short": "AI",
+   "group": "科技"
   },
   {
-   "series": "reading_list",
-   "series_title": "閱讀清單",
-   "cadence": "weekly",
-   "period": "2026-W47",
-   "date": "2026-11-21",
-   "title": "閱讀清單",
-   "lede": "Anthropic 以 813 億美元完成史上最大 IPO，創辦人承諾依安全程度決定訓練與部署節奏；卡內基美隆大學把資工課程免費放上 YouTube，HN 本週最熱；80000 Hours 兩集談美中 AI 協議與新國會的立法空間。",
-   "count": 29,
-   "data": "weekly/reading_list/2026/2026-W47.json",
-   "generated_at": "2026-11-21T09:23:44+08:00"
+   "id": "tech",
+   "title": "科技",
+   "short": "科技",
+   "group": "科技"
   },
   {
-   "series": "github_weekly",
-   "series_title": "GitHub 趨勢週報",
-   "cadence": "weekly",
-   "period": "2026-W47",
-   "date": "2026-11-20",
-   "title": "GitHub 趨勢週報",
-   "lede": "本週主軸是「替程式代理人補裝備」：瀏覽器三大廠合推網頁最佳實務技能包；Meta、阿里巴巴把內部多年的設計系統與 AI 審碼工具開源；影片剪輯、跨平台研究也被包成代理人技能。",
-   "count": 10,
-   "data": "weekly/github_weekly/2026/2026-W47.json",
-   "generated_at": "2026-11-20T16:52:07+08:00"
+   "id": "security",
+   "title": "資安",
+   "short": "資安",
+   "group": "科技"
+  },
+  {
+   "id": "github",
+   "title": "GitHub",
+   "short": "GitHub",
+   "group": "科技"
+  },
+  {
+   "id": "papers",
+   "title": "論文",
+   "short": "論文",
+   "group": "科技"
+  },
+  {
+   "id": "science",
+   "title": "科學",
+   "short": "科學",
+   "group": "科學健康"
+  },
+  {
+   "id": "health",
+   "title": "健康",
+   "short": "健康",
+   "group": "科學健康"
+  },
+  {
+   "id": "environment",
+   "title": "環境",
+   "short": "環境",
+   "group": "科學健康"
+  },
+  {
+   "id": "life",
+   "title": "生活",
+   "short": "生活",
+   "group": "生活娛樂"
+  },
+  {
+   "id": "culture",
+   "title": "文化",
+   "short": "文化",
+   "group": "生活娛樂"
+  },
+  {
+   "id": "entertainment",
+   "title": "娛樂",
+   "short": "娛樂",
+   "group": "生活娛樂"
+  },
+  {
+   "id": "sports",
+   "title": "體育",
+   "short": "體育",
+   "group": "生活娛樂"
+  },
+  {
+   "id": "game_industry",
+   "title": "遊戲產業",
+   "short": "遊戲",
+   "group": "遊戲產業"
+  },
+  {
+   "id": "web_gamedev",
+   "title": "網頁遊戲開發",
+   "short": "網頁遊戲",
+   "group": "遊戲產業"
+  },
+  {
+   "id": "gambling",
+   "title": "博奕產業",
+   "short": "博奕",
+   "group": "遊戲產業"
+  },
+  {
+   "id": "reading",
+   "title": "深度閱讀",
+   "short": "閱讀",
+   "group": "閱讀"
   }
  ]
 }
