@@ -1,8 +1,9 @@
-/* 新聞頁報頭共用元件（report.js、front.js），掛 AIR.bar（介面見檔尾），依賴 AIR.h、#app。
+/* 新聞頁報頭共用元件（report.js、series.js、front.js、card.js、story.js、adhoc.js；舊 wip.js），掛 AIR.bar（介面見檔尾），依賴 AIR.h、#app。
    1. 圖示（aria-hidden；按鈕名稱靠文字或 aria-label）
    2. 下拉 dropdown()（功能鈕開時為底部面板）
    3. 期別寫法
-   4. 元件 datePicker、titleChapters、toolbar、navLink、roving
+   4. 元件 datePicker、titleChapters、seriesMenu（面板內容 seriesGroups）、toolbar、navLink、storyLink、roving。
+      工具列組成（樣式摘要 5.1）：新聞卡相關的頁「系列 ▾｜本日焦點｜本週回顧｜議題｜版面」；週報報告頁與本週回顧日期按鈕排最前面
    5. 工具列凍結：--bar-h、.is-stuck
    6. 非當期提示 staleBanner
    7. 手機右下角功能鈕（扇面） */
@@ -22,6 +23,8 @@
     caretLg: svg(0, 'M5 7.5l5 5 5-5'), // 大標題箭頭：不給寬高，隨 CSS 外框
     front: svg(18, 'M3 3.5h14v13H3zM6 7.5h8M6 10.5h8M6 13.5h5'), // 本日焦點：一張報紙（同網站圖示）
     weekly: svg(18, 'M6 2.5h11v11H6zM3 5.5v12h12M9 6h5M9 9h5M9 12h3'), // 本週回顧：兩張疊報紙；front、weekly 也給 front.js「出自」用
+    series: svg(18, 'M3 3h6v6H3zM11 3h6v6h-6zM3 11h6v6H3zM11 11h6v6h-6z'), // 系列：四格
+    story: svg(18, 'M8.4 2.5 6.6 17.5M13.4 2.5l-1.8 15M3.5 7.2h14M2.5 12.8h14'), // 議題：#（議題名就是網址的 #），須和其他圖示分得出
     warn: '<svg viewBox="0 0 20 20" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true" focusable="false"><path d="M10 2.8 18 17H2z" stroke-linejoin="round"/><path d="M10 8v4.2M10 14.2v.1" stroke-linecap="round" stroke-width="1.9"/></svg>',
     fan: svg(20, 'M17 17H3.5A13.5 13.5 0 0 1 17 3.5zM17 17 5.3 10.25M17 17 10.25 5.3'), // 功能鈕：從右下角張開的扇子
     // 章節：›＋三條線，須和 readScan 分得出（扇面相鄰）
@@ -118,6 +121,16 @@
     panel.addEventListener('touchcancel', end);
   }
 
+  // 面板貼按鈕左緣展開、超出視窗右緣（工具列換行、系列按鈕排在日期後）→ 往左移回來，左右各留 16px；底部面板不移。
+  // 用負 margin 不用 translate：translate 前的位置仍算進可捲動範圍，會多出橫向捲動
+  function fitIn(panel, sheet) {
+    panel.style.marginLeft = '';
+    if (sheet) return;
+    const r = panel.getBoundingClientRect();
+    const over = r.right - (document.documentElement.clientWidth - 16);
+    if (over > 0) panel.style.marginLeft = `${-Math.max(0, Math.min(over, r.left - 16))}px`;
+  }
+
   // 所有下拉共用一組 document 監聽（頭版重畫不越掛越多）；proxying：proxyClick 代按時不算點外面
   const live = new Set();
   let proxying = false;
@@ -168,6 +181,7 @@
         f(false);
       }
       if (sheet) after = how.after || null;
+      fitIn(panel, sheet);
       openMotion(panel, sheet);
       ((pick && pick(panel)) || close).focus({ preventScroll: sheet });
     }
@@ -278,6 +292,71 @@
       pick: (panel) => panel.querySelector('.chap-item'),
     });
   }
+
+  // 新聞卡日報系列：index.json series 裡 cadence daily 的，GitHub 趨勢（仍是報告）與臨時系列（publish.py 給領域「其他」）除外
+  const REPORT_DAILY = ['github'];
+  const cardSeries = (index) => (index && Array.isArray(index.series) ? index.series : [])
+    .filter((s) => s && typeof s.id === 'string' && s.cadence === 'daily' && !REPORT_DAILY.includes(s.id) && s.group !== '其他');
+  // 「系列 ▾」面板兩欄（樣式摘要 5.1）：左「新聞卡（近 7 天）」＝新聞卡日報系列頁，右「照舊的報告」＝週報、月報、GitHub 趨勢。
+  // 綜合併入本日焦點、臨時系列（領域「其他」）只用網址開，都不列。連結 ./?t=（新聞卡頁等其他頁面也連得到）；current＝目前的系列代號
+  // （目前位置同日期面板 aria-current=page）。左欄順序照樣式摘要（博奕挨著遊戲），不在表上的照 index.json 順序接在後面；
+  // 右欄同名開頭的併成一列（GitHub 日／週／月）。一顆下拉不逐一放按鈕：十多個系列擺不進工具列與扇面
+  const PANEL_ORDER = ['international', 'tech_ai', 'tech', 'security', 'finance', 'health', 'gambling', 'gamedev', 'taiwan_general', 'taiwan_disaster', 'social'];
+  const CADENCE_WORD = new Map([['daily', '日'], ['weekly', '週'], ['monthly', '月']]);
+  // 面板兩欄的內容 → { cards: [系列設定], reports: [{ name, list: [系列設定] }] }（系列頁沒有卡時也照這份列其他系列）
+  function seriesGroups(index) {
+    const all = index && Array.isArray(index.series) ? index.series.filter((s) => s && typeof s.id === 'string') : [];
+    const rank = (id) => (PANEL_ORDER.includes(id) ? PANEL_ORDER.indexOf(id) : PANEL_ORDER.length);
+    const cards = cardSeries(index).filter((s) => s.id !== 'general')
+      .map((s, i) => ({ s, i })).sort((a, b) => rank(a.s.id) - rank(b.s.id) || a.i - b.i).map((x) => x.s);
+    const cardIds = new Set(cardSeries(index).map((s) => s.id));
+    const reports = [];
+    all.filter((s) => !cardIds.has(s.id) && s.id !== 'general' && s.group !== '其他' && CADENCE_WORD.has(s.cadence)).forEach((s) => {
+      const name = String(s.short || s.title || s.id).split(/\s+/)[0];
+      const same = reports.find((r) => r.name === name);
+      if (same) same.list.push(s);
+      else reports.push({ name, list: [s] });
+    });
+    const order = [...CADENCE_WORD.keys()];
+    reports.forEach((r) => r.list.sort((a, b) => order.indexOf(a.cadence) - order.indexOf(b.cadence)));
+    return { cards, reports };
+  }
+  function seriesMenu(index, current) {
+    const { cards, reports } = seriesGroups(index);
+    if (!cards.length && !reports.length) return null;
+    const href = (s) => `./?t=${encodeURIComponent(s.id)}`;
+    const here = (s) => (s.id === current ? 'page' : null);
+    const item = (s) => h('a', { class: 'pd-item sr-it', href: href(s), 'data-group': s.group || null, 'aria-current': here(s) }, [
+      h('span', null, [s.short || s.title || s.id]),
+    ]);
+    // 同名多份（GitHub）：名稱不是連結，後面接「日」「週」「月」；報讀器唸「GitHub 日報」
+    const multi = (r) => {
+      const subs = r.list;
+      return h('div', { class: 'sr-multi', 'data-group': subs[0].group || null }, [
+        h('span', { class: 'sr-name', 'aria-hidden': 'true' }, [r.name]),
+        ...subs.map((s) => h('a', { class: 'pd-item sr-sub', href: href(s), 'aria-current': here(s) }, [
+          h('span', { class: 'visually-hidden' }, [`${r.name} `]), CADENCE_WORD.get(s.cadence), h('span', { class: 'visually-hidden' }, ['報']),
+        ])),
+      ]);
+    };
+    const col = (cls, id, name, items) => {
+      if (!items.length) return null;
+      const ul = h('ul', { class: 'pd-items sr-list', 'aria-labelledby': id }, items.map((x) => h('li', null, [x])));
+      ul.style.setProperty('--sr-rows', String(Math.ceil(items.length / 2))); // 左欄兩欄時的列數（report.css）
+      return h('div', { class: `sr-col ${cls}` }, [h('p', { class: 'pd-group', id }, [name]), ul]);
+    };
+    return dropdown({
+      cls: 'sr', id: 'sr-panel', title: '系列', closeLabel: '關閉系列',
+      toggleKids: [h('span', { class: 'dd-ico', html: ICON.series }), h('span', null, ['系列']), h('span', { class: 'dd-caret', html: ICON.caret })],
+      body: [h('div', { class: 'sr-body' }, [
+        col('sr-cards', 'sr-g-cards', '新聞卡（近 7 天）', cards.map(item)),
+        col('sr-reports', 'sr-g-reports', '照舊的報告', reports.map((r) => (r.list.length > 1 ? multi(r) : item(r.list[0])))),
+      ])],
+      pick: (panel) => panel.querySelector('.pd-item[aria-current=page]') || panel.querySelector('.pd-item'),
+    });
+  }
+  // 「議題」→ 議題目錄（story.html）；current 同 navLink
+  const storyLink = (current) => navLink('議題', 'story', 'story.html', current);
 
   // 不支援 focusgroup 時補 roving tabindex（只攔方向鍵、Home／End）；回傳 sync：藏按鈕（頭版「清除」）後呼叫補回停點
   function roving(bar) {
@@ -451,6 +530,7 @@
     };
     const pdTitle = document.getElementById('pd-panel-title');
     panel('pd-panel', pdTitle ? pdTitle.textContent : '日期', 'calendar');
+    panel('sr-panel', '系列', 'series');
     if (app.querySelector('.fp-fq .fp-chip')) panels.push({ key: 'fq', label: '過濾', icon: 'filter', run: openFilter });
     else panel('chap-panel', '章節', 'chapters');
     // 讀法格：圖示抄選中的 .read-ico，名稱帶讀法→換讀法時重建
@@ -467,7 +547,8 @@
     return { panels, links };
   }
 
-  // 0°＝正左、90°＝正上。定案：外圈由下往上日期、章節或過濾、讀法、版面；內圈本日焦點在上、本週回顧在下
+  // 0°＝正左、90°＝正上。定案：外圈由下往上日期、章節或過濾、讀法、版面（系列照工具列排在日期後、沒有日期就在最下）；
+  // 內圈由上往下本日焦點、本週回顧、議題
   function buildPie(items) {
     const S = FAB_R[2] + 2;
     const P = (r, a) => {
@@ -661,7 +742,7 @@
     fab.anchor.prepend(buildPie(items));
   }
 
-  // 頭版過濾面板：照抄 front.js 的 .fp-fq .fp-chip（代號 data-type、名稱 .fp-chip-t、則數 .fp-chip-n、aria-pressed）、.fp-fq-clear，
+  // 頭版過濾面板（議題目錄 story.js 用同一套標記）：照抄 front.js 的 .fp-fq .fp-chip（代號 data-type、名稱 .fp-chip-t、則數 .fp-chip-n、aria-pressed）、.fp-fq-clear，
   // 按了代按頁面那顆
   let fq = null;
   const realChips = () => [...document.querySelectorAll('#app .fp-fq .fp-chip')];
@@ -788,5 +869,5 @@
   syncFab();
   new MutationObserver(() => syncFab()).observe(root, { attributes: true, attributeFilter: ['data-look'] }); // 換外觀：扇面換形狀
 
-  A.bar = { ICON, dropdown, periodLabel, toolbar, navLink, datePicker, titleChapters, roving, barHeight, staleBanner };
+  A.bar = { ICON, dropdown, periodLabel, toolbar, navLink, storyLink, datePicker, titleChapters, cardSeries, seriesGroups, seriesMenu, roving, barHeight, staleBanner };
 })();

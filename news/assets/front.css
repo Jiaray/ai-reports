@@ -1,18 +1,6 @@
-/* 頭版（front.js）樣式。條目沿用報告頁標題讀法的 .peek／.row-*／.hot-badge（front.js 設 <html data-read="scan">）；
-   報頭、面板（.stale、.editions、.dd-*、.vw-*）與 scroll-padding 在 report.css／site.css（兩頁共用）。 */
-
-/* 領域色：對底色 ≥ 4.5:1；掛在 #app.fp（front.js 加）。data-group 由 front.js 寫；bar.js 過濾面板讀 .fp-chip 算出的 --g-c */
-.fp{--g-gen:#53687a;--g-intl:#2f6db5;--g-fin:#a04f0f;--g-tech:#0c7372;--g-oss:#7b4fa3;--g-game:#b23f7a;--g-tw:#337431;--g-other:#7a5a43}
-@media(prefers-color-scheme:dark){:root:not([data-theme=light]) .fp{--g-gen:#9db1c2;--g-intl:#7eaaee;--g-fin:#efa25e;--g-tech:#4fc4c1;--g-oss:#b896e3;--g-game:#e982b6;--g-tw:#82c27a;--g-other:#c79f80}}
-:root[data-theme=dark] .fp{--g-gen:#9db1c2;--g-intl:#7eaaee;--g-fin:#efa25e;--g-tech:#4fc4c1;--g-oss:#b896e3;--g-game:#e982b6;--g-tw:#82c27a;--g-other:#c79f80}
-.fp [data-group="綜合"]{--g-c:var(--g-gen)}
-.fp [data-group="國際"]{--g-c:var(--g-intl)}
-.fp [data-group="財經"]{--g-c:var(--g-fin)}
-.fp [data-group="科技"]{--g-c:var(--g-tech)}
-.fp [data-group="開源"]{--g-c:var(--g-oss)}
-.fp [data-group="遊戲"]{--g-c:var(--g-game)}
-.fp [data-group="台灣"]{--g-c:var(--g-tw)}
-.fp [data-group="其他"]{--g-c:var(--g-other)}
+/* 頭版（front.js：本日焦點、每週頭版）樣式。每週頭版條目沿用報告頁標題讀法的 .peek／.row-*／.hot-badge（front.js 設 <html data-read="scan">）；
+   本日焦點的條目是 rows.js 的列表列（rows.css）。報頭、面板（.stale、.editions、.dd-*、.vw-*）、領域色 --g-c 與 scroll-padding
+   在 report.css／site.css（各頁共用）。 */
 
 /* ── 大標題（無下拉）＋右側過濾標籤（系列，可多選）：放不下在標題右側換行，上下邊距同 .mast-title；
    按下填領域色、色塊換勾（不只靠顏色）。狀態只看 aria-pressed，不另加 class。定案：高度貼合字級（上下內距 3px） ── */
@@ -63,10 +51,9 @@
 /* 強制色彩：底色被換掉 → 按下的標籤加外框 */
 @media(forced-colors:active){.fp-chip[aria-pressed=true]{outline:2px solid Highlight;outline-offset:-4px}}
 
-/* ── 時間軸：每時段一個 .fp-sec，時段標題只在自己那段黏頂（--bar-h 由 bar.js 寫）；.fp-hr-day＝跨日時段的日期 ── */
+/* ── 時間軸（每週頭版）：每天一個 .fp-sec，日期標題只在自己那段黏頂（--bar-h 由 bar.js 寫） ── */
 .fp-tl{margin-top:var(--space-2)}
 .fp-hr{position:sticky;top:var(--bar-h,0px);z-index:2;display:flex;align-items:baseline;gap:var(--space-2);margin:var(--space-4) 0 var(--space-1);padding:7px 0 6px;background:var(--color-bg);border-bottom:1px solid var(--color-divider);font:600 15px/1.2 var(--font-heading);letter-spacing:.04em;color:var(--color-neutral-700)}
-.fp-hr-day{font:500 12.5px/1 var(--font-body);letter-spacing:0;color:var(--color-neutral-600)}
 
 /* ── 條目：summary＝系列・時刻、標題、（要聞）兩行預覽，展開箭頭來自 report.css 的 .peek；.is-lead＝每輪第一順位（要聞） ── */
 .fp-it{margin:var(--space-2) 0;padding:6px 0 6px 12px;border-left:3px solid var(--g-c,var(--color-divider))}
@@ -83,8 +70,6 @@
 .fp-it.is-lead .row-title{font-size:18px;line-height:1.5}
 .fp-pre{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden;margin-top:3px;font:400 15px/1.6 var(--font-body);color:var(--color-neutral-800)}
 .fp-it .peek[open] .fp-pre{display:none}
-/* 定案：「新」緊接標題，手機、桌機都不靠右 */
-.fp-new{display:inline-block;margin-left:8px;padding:0 6px;vertical-align:2px;background:var(--color-accent-600);color:var(--color-bg);font:700 11px/1.7 var(--font-body);letter-spacing:.06em;white-space:nowrap}
 /* 展開後：摘要、AI 解讀，再一行 .fp-acts（來源、標籤、看原文、出自｜分類） */
 .fp-acts{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-1) var(--space-4);margin-top:var(--space-1)}
 .fp-act{display:inline-flex;align-items:center;min-height:32px;font:600 14px/1.3 var(--font-body);color:var(--color-accent-700)}
@@ -98,6 +83,24 @@
 .fp-sep{align-self:center;width:0;height:1.1em;border-left:1px solid var(--color-neutral-300)}
 @media(forced-colors:active){.fp-it{border-left-color:CanvasText}.fp-it.is-lead{outline:1px solid CanvasText}}
 
+/* ── 本日焦點：一條清單（不按整點分段），條目是 rows.js 的列表列 ── */
+.fp-focus{margin-top:var(--space-4)}
+.fp-list{margin:0;padding:0;list-style:none}
+/* 部署空窗 rows.js 還沒到時的退路（front.js focusRow）：沿用 .fp-it；系列・多久前・更新｜標題（連新聞卡頁）｜一句話 */
+.fp-card>.fp-mt{margin:0}
+.fp-mt>.fp-tm:first-child::before{content:none}
+.fp-upd{padding:0 5px;border:1px solid var(--color-accent-600);color:var(--color-accent-700);font:700 11px/1.6 var(--font-body);letter-spacing:.06em;white-space:nowrap}
+/* 網路討論：同非當期提示的黃底＋警告圖示（不只靠顏色） */
+.fp-online{display:inline-flex;align-items:center;gap:4px;padding:0 6px;background:var(--stale-tint);color:var(--stale-fg);font:600 12px/1.6 var(--font-body)}
+.fp-online-ico,.fp-online-ico svg{display:block;flex:none;width:13px;height:13px}
+.fp-cd-title{margin:2px 0 0}
+.fp-cd-title a:hover{color:var(--color-accent-700)}
+.fp-cd-title a:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
+.fp-line{margin:3px 0 0;font:400 15px/1.6 var(--font-body);color:var(--color-neutral-800)}
+.fp-it.is-lead .fp-line{font-size:16px}
+[data-look=atlas] :is(.fp-upd,.fp-online){border-radius:var(--r-sm,6px)}
+@media(forced-colors:active){.fp-online{border:1px solid}}
+
 /* ── 還沒有頭版 ── */
 .fp-empty{margin:var(--space-6) 0 0}
 .fp-empty-note{margin:0 0 var(--space-3);font:400 16px/1.8 var(--font-body);color:var(--color-neutral-800)}
@@ -108,8 +111,8 @@
 .fp-empty-list a:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
 .fp-empty-when{font:500 13px/1.5 var(--font-body);color:var(--color-neutral-600)}
 
-/* 觸控：放檔尾才蓋得過前面同權重的 min-height */
-@media(pointer:coarse){.fp-act{min-height:44px}}
+/* 觸控：放檔尾才蓋得過前面同權重的 min-height；本日焦點整張可點（標題連結的 ::after 撐滿條目） */
+@media(pointer:coarse){.fp-act{min-height:44px}.fp-card{position:relative}.fp-cd-title a::after{content:"";position:absolute;inset:0}}
 /* 定案：過濾標籤列距 6px，是觸控 44px 的唯一例外；透明 ::after 上下各補 3px（列距一半）→ 約 27–28px
    （WCAG 2.5.8 最低 24px），兩列可點範圍剛好接上、不重疊 */
 @media(pointer:coarse){

@@ -46,10 +46,10 @@
 [data-look=standard] :is(.dd-toggle,.ed-link):hover{background:transparent;color:var(--accent)}
 [data-look=standard] .dd-toggle[aria-expanded=true]{background:transparent;color:var(--text)}
 [data-look=standard] .ed-link[aria-current]{color:var(--text);font-weight:500;box-shadow:inset 0 -2px var(--accent)}
-[data-look=standard] .pd .dd-toggle,[data-look=standard] .editions>.ed-link:first-child{margin-left:-10px}
+[data-look=standard] .pd .dd-toggle,[data-look=standard] .editions>.sr:first-child .dd-toggle,[data-look=standard] .editions>.ed-link:first-child{margin-left:-10px}
 [data-look=standard] .vw .dd-toggle{margin-right:-10px}
 [data-look=standard] .dd-caret{color:var(--text-3)}
-[data-look=standard] :is(.dd-toggle,.ed-link,.dd-close,.chap-toggle,.fp-act,.fp-chip,.fp-fq-clear,.peek>summary,.more-sum,a):focus-visible{outline:2px solid var(--focus);outline-offset:2px}
+[data-look=standard] :is(.dd-toggle,.ed-link,.dd-close,.chap-toggle,.fp-act,.rw-act,.fp-chip,.fp-fq-clear,.peek>summary,.more-sum,a):focus-visible{outline:2px solid var(--focus);outline-offset:2px}
 
 /* ── 下拉面板 ── */
 [data-look=standard] .dd-panel{background:var(--surface);border:var(--hair) solid var(--border);border-radius:var(--radius);box-shadow:0 12px 32px -12px rgb(0 0 0 / .25)}
@@ -57,6 +57,9 @@
 [data-look=standard] .dd-title{font:700 15px/1.3 var(--font-sans);color:var(--text-head)}
 [data-look=standard] :is(.pd-item,.chap-item){font:400 15px/1.4 var(--font-sans);letter-spacing:0;border-radius:var(--radius-sm)}
 [data-look=standard] .pd-item[aria-current=page]{color:var(--text);font-weight:500;box-shadow:inset 2px 0 var(--accent)}
+/* 系列面板：不用領域色，拿掉文字前的色線 */
+[data-look=standard] :is(.sr-it,.sr-name)::before{display:none}
+[data-look=standard] .sr-name{font:400 15px/1.4 var(--font-sans);letter-spacing:0;color:var(--text-2)}
 [data-look=standard] :is(.pd-item,.chap-item,.vw-seg button):focus-visible{outline:2px solid var(--focus);outline-offset:-2px}
 [data-look=standard] .vw-seg{gap:0;background:var(--border);border:var(--hair) solid var(--border);border-radius:var(--radius-sm);overflow:hidden}
 [data-look=standard] .vw-seg button{background:var(--surface);font:400 14px/1.2 var(--font-sans)}
@@ -68,7 +71,6 @@
 
 /* ── 共用小元件 ── */
 [data-look=standard] .hot-badge{margin-right:8px;padding:2px 6px;vertical-align:2px;border-radius:var(--radius-sm);background:var(--badge-bg);color:var(--badge-text);font:500 12px/1.3 var(--font-sans);letter-spacing:.04em}
-[data-look=standard] .fp-new{margin-left:8px;padding:1px 5px;vertical-align:2px;border:1px solid var(--accent);border-radius:var(--radius-sm);background:none;color:var(--accent);font:500 12px/1.3 var(--font-sans);letter-spacing:.04em}
 [data-look=standard] .tags{gap:4px 12px}
 [data-look=standard] .tag{padding:0;background:none;border:0;font:500 var(--fs-tag)/1.5 var(--font-sans);letter-spacing:.04em;color:var(--accent)}
 [data-look=standard] .tag-neutral,[data-look=standard] .tag-outline{color:var(--text-3);font-weight:400;font-size:var(--fs-meta);letter-spacing:0}
@@ -159,16 +161,16 @@
 /* ── 頭版（look-standard.js 排成 .std-home）：主欄＋右側即時新聞 ── */
 [data-look=standard] .fp-head{padding:28px 0 4px;column-gap:24px}
 [data-look=standard] .fp-head .mast-title{font-size:clamp(22px,1vw + 18px,28px)}
-/* 過濾標籤：高度與可點範圍照 front.css，只換顏色、圓角、左右內距 */
-[data-look=standard] .fp .fp-chip{padding:3px 10px;border:var(--hair) solid var(--border);border-radius:999px;background:var(--surface);color:var(--text-2);font:400 14px/1 var(--font-sans);letter-spacing:0}
-@media(max-width:40em){[data-look=standard] .fp .fp-chip{padding:3px 8px;font-size:13px}}
-[data-look=standard] .fp .fp-chip-mk{display:none}
-[data-look=standard] .fp .fp-chip[aria-pressed=true]{background:var(--text);border-color:var(--text);color:var(--surface)}
-[data-look=standard] .fp .fp-chip[aria-pressed=true] .fp-chip-mk{display:grid}
-[data-look=standard] .fp .fp-chip-n{color:var(--text-3)}
-[data-look=standard] .fp .fp-chip[aria-pressed=true] .fp-chip-n{color:inherit}
-@media(hover:hover){[data-look=standard] .fp .fp-chip[aria-pressed=false]:hover{background:var(--surface);color:var(--accent)}}
-[data-look=standard] .fp .fp-fq-clear{color:var(--link)}
+/* 過濾標籤（頭版；議題目錄 .st 用同一套）：高度與可點範圍照 front.css，只換顏色、圓角、左右內距 */
+[data-look=standard] :is(.fp,.st) .fp-chip{padding:3px 10px;border:var(--hair) solid var(--border);border-radius:999px;background:var(--surface);color:var(--text-2);font:400 14px/1 var(--font-sans);letter-spacing:0}
+@media(max-width:40em){[data-look=standard] :is(.fp,.st) .fp-chip{padding:3px 8px;font-size:13px}}
+[data-look=standard] :is(.fp,.st) .fp-chip-mk{display:none}
+[data-look=standard] :is(.fp,.st) .fp-chip[aria-pressed=true]{background:var(--text);border-color:var(--text);color:var(--surface)}
+[data-look=standard] :is(.fp,.st) .fp-chip[aria-pressed=true] .fp-chip-mk{display:grid}
+[data-look=standard] :is(.fp,.st) .fp-chip-n{color:var(--text-3)}
+[data-look=standard] :is(.fp,.st) .fp-chip[aria-pressed=true] .fp-chip-n{color:inherit}
+@media(hover:hover){[data-look=standard] :is(.fp,.st) .fp-chip[aria-pressed=false]:hover{background:var(--surface);color:var(--accent)}}
+[data-look=standard] :is(.fp,.st) .fp-fq-clear{color:var(--link)}
 [data-look=standard] .fp-tl.std-home{display:grid;grid-template-columns:minmax(0,1fr) 320px;grid-template-rows:auto auto 1fr;column-gap:40px;margin-top:20px;align-items:start}
 [data-look=standard] .std-home>.std-lead,[data-look=standard] .std-home>.std-cards{grid-column:1}
 [data-look=standard] .std-home>.std-latest{grid-column:2;grid-row:1 / -1;position:sticky;top:calc(var(--bar-h,64px) + 16px);max-height:calc(100dvh - var(--bar-h,64px) - 32px);overflow-y:auto;overscroll-behavior:contain;scrollbar-width:thin}
@@ -216,6 +218,56 @@
 /* 定案：頭版展開的 AI 解讀與摘要同字級 */
 [data-look=standard] .fp-it .row-dive{font-size:var(--fs-lead)}
 [data-look=standard] .std-latest .fp-it .row-dive{font-size:15px}
+/* 本日焦點（新聞卡清單，不經 arrangeFront）：細線分隔；第一張用頭條字級 */
+[data-look=standard] .fp-focus{margin-top:20px}
+[data-look=standard] .fp-focus .fp-it{padding:16px 0;border-top:var(--hair) solid var(--border)}
+[data-look=standard] .fp-focus .fp-it:first-child{padding-top:4px;border-top:0}
+[data-look=standard] .fp-focus .is-lead .row-title{font-size:var(--fs-hero);line-height:1.3}
+[data-look=standard] .fp-focus .fp-mt>:not(.fp-ty,:first-child){margin-left:8px}
+[data-look=standard] .fp-cd-title a{color:var(--text-head)}
+[data-look=standard] .fp-cd-title a:hover{color:var(--accent)}
+[data-look=standard] .fp-line{margin-top:4px;font:var(--fw-body) 15px/1.65 var(--font-sans);letter-spacing:var(--ls-body);color:var(--text-2)}
+[data-look=standard] .fp-it.is-lead .fp-line{font-size:var(--fs-lead)}
+[data-look=standard] .fp-upd{border-color:var(--accent);border-radius:var(--radius-sm);color:var(--accent);font:500 12px/1.3 var(--font-sans);padding:1px 5px}
+[data-look=standard] .fp-online{border-radius:var(--radius-sm);font:500 12px/1.6 var(--font-sans)}
+/* 列表列（rows.js）：不用領域色線，細線分隔；第一張（is-lead）用頭條字級。本日焦點不經 arrangeFront（只有第一張是要聞），單欄清單 */
+[data-look=standard] .rw{margin:0;padding:16px 0;border-left:0;border-top:var(--hair) solid var(--border);background:none}
+[data-look=standard] .rw:first-child{padding-top:4px;border-top:0}
+[data-look=standard] .rw.is-lead{padding-inline:0;background:none}
+[data-look=standard] .rw-mt{font:500 var(--fs-tag)/1.5 var(--font-sans);gap:0 8px}
+[data-look=standard] .rw-ty+.rw-ty{margin-left:-8px}
+[data-look=standard] .rw-ty{color:var(--accent);letter-spacing:.04em}
+[data-look=standard] .rw-ty+.rw-ty::before{color:var(--text-3)}
+[data-look=standard] :is(.rw-tm,.rw-n){color:var(--text-3);font-weight:400;font-size:var(--fs-meta)}
+[data-look=standard] .rw-mt>:is(.rw-tm,.rw-n):not(:first-child)::before{content:none}
+[data-look=standard] .rw .rw-title{font:var(--fw-head) var(--fs-card)/1.4 var(--font-sans);color:var(--text-head)}
+[data-look=standard] .rw.is-lead .rw-title{font-size:var(--fs-hero);line-height:1.3}
+[data-look=standard] .rw .peek>summary:hover .rw-title{color:var(--accent)}
+[data-look=standard] .rw-up{font:var(--fw-body) 14px/1.6 var(--font-sans);color:var(--text-2)}
+[data-look=standard] .rw-up-k{border-color:var(--text-3);border-radius:var(--radius-sm);color:var(--text-2);font:500 12px/1.3 var(--font-sans);padding:1px 5px}
+[data-look=standard] .rw-up.is-fix .rw-up-k{border-color:var(--accent);color:var(--accent)}
+[data-look=standard] .rw-pre{font:var(--fw-body) 15px/1.65 var(--font-sans);letter-spacing:var(--ls-body);color:var(--text-2)}
+[data-look=standard] .rw.is-lead .rw-pre{-webkit-line-clamp:3;line-clamp:3;margin-top:4px;font-size:var(--fs-lead);line-height:1.7}
+[data-look=standard] .rw .row-sum{font:var(--fw-body) var(--fs-lead)/1.65 var(--font-sans)}
+[data-look=standard] .rw .row-dive{font-size:var(--fs-lead)}
+[data-look=standard] .rw-fields{font:var(--fw-body) var(--fs-lead)/1.65 var(--font-sans);letter-spacing:var(--ls-body);color:var(--text)}
+[data-look=standard] .rw-field a{color:var(--link);text-decoration:underline;text-underline-offset:3px}
+[data-look=standard] :is(.rw-wait,.rw-err){font-family:var(--font-sans)}
+[data-look=standard] .rw-err{border-left-color:var(--accent)}
+[data-look=standard] .rw-acts{gap:4px 16px}
+[data-look=standard] .rw-act{color:var(--link);font:500 14px/1.3 var(--font-sans)}
+[data-look=standard] .rw-act:hover{color:var(--accent)}
+[data-look=standard] .rw-sr{color:var(--text-3);font:400 13px/1.3 var(--font-sans)}
+[data-look=standard] .rw-sep{border-left-color:var(--border)}
+[data-look=standard] .rw-online{border-radius:var(--radius-sm);font:500 12px/1.6 var(--font-sans)}
+/* 系列頁每天一張露預覽：不用頭條字級（一頁有好幾段），預覽兩行 */
+[data-look=standard] .sp .rw.is-lead .rw-title{font-size:var(--fs-card);line-height:1.4}
+[data-look=standard] .sp .rw.is-lead .rw-pre{-webkit-line-clamp:2;line-clamp:2;margin-top:3px;font-size:15px;line-height:1.65}
+[data-look=standard] .rw-flag{border-radius:var(--radius-sm);background:var(--badge-bg);color:var(--badge-text);font:600 12px/1.5 var(--font-sans);letter-spacing:.04em;padding:1px 6px;vertical-align:3px}
+/* 不展開的一列（暫時頁）：標題連結 hover 換品牌色；一句話同預覽字級 */
+[data-look=standard] .rw .rw-go:hover{color:var(--accent)}
+[data-look=standard] .rw-go-ar{color:var(--text-3)}
+[data-look=standard] .rw-line{font:var(--fw-body) 15px/1.65 var(--font-sans);letter-spacing:var(--ls-body);color:var(--text-2)}
 /* < 64em：即時新聞移到主欄下方 */
 @media(max-width:63.99em){
 [data-look=standard] .fp-tl.std-home{grid-template-columns:minmax(0,1fr);grid-template-rows:none}
@@ -261,11 +313,18 @@
 [data-look=standard] .fq-clear{color:var(--link);font:400 15px/1 var(--font-sans)}
 [data-look=standard] :is(.fq-item,.fq-clear):focus-visible{outline:2px solid var(--focus);outline-offset:-2px}
 /* 數字等寬：font 簡寫會把 font-variant-numeric 重設回 normal → 放檔尾、選擇器加重 */
-:root[data-look=standard] :is(time,.row-time,.rt-hm,.rt-d,.rt-txt,.fp-tm,.pd-n,.pd-wd,.pd-item,.tl-day){font-variant-numeric:tabular-nums}
+:root[data-look=standard] :is(time,.row-time,.rt-hm,.rt-d,.rt-txt,.fp-tm,.rw-tm,.pd-n,.pd-wd,.pd-item,.tl-day){font-variant-numeric:tabular-nums}
 /* 減少動態：關掉 site.css body 的配色轉場 */
 @media(prefers-reduced-motion:reduce){:root[data-look=standard] body{transition:none}}
 /* 強制色彩：底色被換掉 → Header、卡片改用框線 */
 @media(forced-colors:active){[data-look=standard] .editions{border-bottom:1px solid}[data-look=standard] .std-grid>.fp-it{border:1px solid}}
+
+/* 施工中頁（report.css 的 .wip-*） */
+[data-look=standard] .wip-kicker{font:400 13px/1.5 var(--font-sans);letter-spacing:0;color:var(--text-3)}
+[data-look=standard] .wip-tag{border-color:var(--text-3);border-radius:var(--radius-sm);color:var(--text-2);font:500 13px/1.6 var(--font-sans);letter-spacing:.04em}
+[data-look=standard] .wip-text{font:var(--fw-body) var(--fs-body)/1.7 var(--font-sans);letter-spacing:var(--ls-body);color:var(--text)}
+[data-look=standard] .wip-back{font:500 15px/1.6 var(--font-sans)}
+[data-look=standard] .wip-back a{color:var(--link)}
 
 /* 分類標籤（facets.js） */
 [data-look=standard] .fct-tg,[data-look=standard] .fct-row dt{color:var(--text-3)}
@@ -273,3 +332,4 @@
 [data-look=standard] .fct-tg:hover{color:var(--text-2)}
 [data-look=standard] .fct-list{font-family:var(--font-sans)}
 [data-look=standard] .fct-row dd{color:var(--text-2)}
+[data-look=standard] .fct-a:hover{color:var(--accent)}

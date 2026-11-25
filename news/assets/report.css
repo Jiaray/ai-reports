@@ -1,8 +1,22 @@
-/* 新聞頁補充樣式，報告頁、頭版都載入（報頭、面板、功能鈕兩頁共用）；藍圖本體在 site.css，一般外觀在 look-standard.css。
-   分段：報頭、讀法切換、地圖代幣、下拉面板、外觀：地圖、閱讀舒適度、本期來源、時間軸摘要、標題讀法、時間軸、讀法×外觀、功能鈕、分類標籤、觸控高度。
+/* 新聞頁補充樣式，報告頁、頭版、新聞卡頁、施工中頁都載入（報頭、面板、功能鈕共用）；藍圖本體在 site.css，一般外觀在 look-standard.css。
+   分段：領域色、報頭、讀法切換、地圖代幣、下拉面板、外觀：地圖、閱讀舒適度、本期來源、時間軸摘要、標題讀法、時間軸、讀法×外觀、功能鈕、分類標籤、施工中頁、觸控高度。
    非預設版面規則順序：外觀 → 讀法 → 讀法×外觀（同權重後者蓋前者） */
-/* ── 報頭 ── 3px 粗線在工具列上方；.editions+.masthead 只動新聞頁，首頁、404 的 .masthead 不變 */
-.editions{display:flex;align-items:center;gap:var(--space-2);border-top:3px solid var(--color-text);padding-top:var(--space-2)}
+/* ── 領域色（系列的 group）：對底色 ≥ 4.5:1。頭版條目與過濾標籤（front.css）、列表列（rows.css）、系列面板讀 --g-c；
+   data-group 由各頁 JS 寫；bar.js 過濾面板抄 .fp-chip 算出的 --g-c ── */
+:root{--g-gen:#53687a;--g-intl:#2f6db5;--g-fin:#a04f0f;--g-tech:#0c7372;--g-oss:#7b4fa3;--g-game:#b23f7a;--g-tw:#337431;--g-other:#7a5a43}
+@media(prefers-color-scheme:dark){:root:not([data-theme=light]){--g-gen:#9db1c2;--g-intl:#7eaaee;--g-fin:#efa25e;--g-tech:#4fc4c1;--g-oss:#b896e3;--g-game:#e982b6;--g-tw:#82c27a;--g-other:#c79f80}}
+:root[data-theme=dark]{--g-gen:#9db1c2;--g-intl:#7eaaee;--g-fin:#efa25e;--g-tech:#4fc4c1;--g-oss:#b896e3;--g-game:#e982b6;--g-tw:#82c27a;--g-other:#c79f80}
+[data-group="綜合"]{--g-c:var(--g-gen)}
+[data-group="國際"]{--g-c:var(--g-intl)}
+[data-group="財經"]{--g-c:var(--g-fin)}
+[data-group="科技"]{--g-c:var(--g-tech)}
+[data-group="開源"]{--g-c:var(--g-oss)}
+[data-group="遊戲"]{--g-c:var(--g-game)}
+[data-group="台灣"]{--g-c:var(--g-tw)}
+[data-group="其他"]{--g-c:var(--g-other)}
+
+/* ── 報頭 ── 3px 粗線在工具列上方；.editions+.masthead 只動新聞頁，首頁、404 的 .masthead 不變。放不下就換行（不做橫向捲動） */
+.editions{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-2);border-top:3px solid var(--color-text);padding-top:var(--space-2)}
 .editions+.masthead{border-top:0;padding-top:0}
 /* 工具列凍結：.is-stuck、--bar-h 由 bar.js 寫入 */
 .editions{position:sticky;top:0;z-index:20;background:var(--color-bg)}
@@ -62,7 +76,7 @@
 .dd-toggle[aria-expanded=true]{background:var(--color-accent-100);color:var(--color-accent-700)}
 .ed-link[aria-current]{color:var(--color-text);box-shadow:inset 0 -2px var(--color-accent-600)}
 /* 負邊距：圖示與字對齊欄緣，滑過底色往外凸 */
-.pd .dd-toggle,.editions>.ed-link:first-child{margin-left:calc(-1 * var(--space-3))}
+.pd .dd-toggle,.editions>.sr:first-child .dd-toggle,.editions>.ed-link:first-child{margin-left:calc(-1 * var(--space-3))}
 .vw .dd-toggle{margin-right:calc(-1 * var(--space-3))}
 .dd-ico,.dd-ico svg,.dd-caret,.dd-caret svg,.dd-close svg{display:block;flex:none}
 .dd-close svg{width:20px;height:20px}
@@ -92,6 +106,26 @@
 .pd-item[aria-current=page]{color:var(--color-accent-700);font-weight:600;box-shadow:inset 2px 0 var(--color-accent-600)}
 .pd-item[aria-current=page] .pd-wd{color:inherit}
 .pd-item:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
+/* 系列面板（bar.js 的 seriesMenu）：兩欄（新聞卡｜照舊的報告），窄時上下排；沿用 .pd-group、.pd-item（目前系列同樣左側 2px 線）。
+   每列文字前一條 3px 領域色短線（不是目前位置那條）；左欄放得下再分兩欄 */
+.sr-panel{left:0;right:auto;width:min(540px,calc(100vw - 32px))}
+.sr-body{display:flex;gap:var(--space-6);max-height:min(70vh,32rem);overflow-y:auto;overscroll-behavior:contain;border-top:1px solid var(--color-divider);padding-bottom:var(--space-2)}
+.sr-col{flex:1 1 0;min-width:0}
+.sr-cards{flex-grow:1.25}
+/* 先直後橫（同領域的挨在一起，Tab 順序同閱讀順序）；--sr-rows＝列數，bar.js 依系列數寫 */
+.sr-cards .sr-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));grid-template-rows:repeat(var(--sr-rows,6),auto);grid-auto-flow:column;column-gap:var(--space-2)}
+@container(width < 440px){
+.sr-body{flex-direction:column;gap:0}
+.sr-cards+.sr-reports{margin-top:var(--space-2);border-top:1px solid var(--color-divider)}
+}
+.sr-list{margin-bottom:0}
+/* 底部面板整片捲動，不再套一層捲軸 */
+.is-sheet .sr-body{max-height:none;overflow:visible}
+.sr-it,.sr-name{justify-content:flex-start;align-items:center;gap:8px}
+.sr-it::before,.sr-name::before{content:"";flex:none;width:3px;height:1.05em;background:var(--g-c,var(--color-neutral-300))}
+.sr-multi{display:flex;align-items:center;flex-wrap:wrap}
+.sr-name{display:flex;padding:7px var(--space-1) 7px var(--space-2);font:500 15px/1.35 var(--font-heading);letter-spacing:.02em}
+.sr-sub{justify-content:center;align-items:center;min-width:36px;padding-inline:var(--space-2)}
 /* 章節清單（則數沿用 .pd-n） */
 .chap-panel{left:0;right:auto;width:min(340px,calc(100vw - 32px))}
 .chap-list{max-height:min(60vh,26rem);overflow-y:auto;overscroll-behavior:contain;margin:0;padding:var(--space-2) 0;list-style:none;border-top:1px solid var(--color-divider)}
@@ -395,14 +429,34 @@ html.fab-sheet,html.fab-sheet body{overflow:hidden;overscroll-behavior:none}
 .fct-row dt{flex:0 0 4.2em;color:var(--color-neutral-600)}
 .fct-row dd{margin:0;min-width:0;color:var(--color-neutral-700)}
 .fct-v+.fct-v::before{content:"、"}
+/* 議題連到議題頁（新聞卡頁、列表列；facets.js 的 links）：維持淡化的字色，靠底線認得出是連結 */
+.fct-a{color:inherit;text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:2px}
+.fct-a:hover{color:var(--color-accent-700)}
+.fct-a:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
 @media(pointer:coarse){
   .fct-tg::before{inset:-13px -10px}
   .row-also a{position:relative;z-index:1}
-  .fp-acts .fct-tg{min-height:44px}
+  :is(.fp-acts,.rw-acts) .fct-tg{min-height:44px}
+  .fct-a{display:inline-flex;align-items:center;min-height:44px}
 }
 @media(prefers-reduced-motion:reduce){.fct-tg::after{transition:none}}
 [data-look=atlas] .fct-tg:focus-visible{border-radius:var(--r-sm)}
 @media print{.fab-layer{display:none!important}}
 
+/* ── 施工中頁（report.js 的新聞卡系列頁退路；wip.js 只剩部署空窗的舊 HTML 用）：先求看得懂、回得去 ── */
+.wip-kicker{margin:var(--space-3) 0 0;font:600 13px/1.4 var(--font-heading);letter-spacing:.06em;color:var(--color-neutral-600)}
+.wip-kicker+.mast-title{margin-top:var(--space-1)}
+.wip-head .mast-title:focus{outline:0}
+.wip-head .mast-title:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:4px}
+.wip{margin-top:var(--space-6)}
+.wip-tag{display:inline-block;margin:0;padding:2px 10px;border:1px dashed var(--color-neutral-600);color:var(--color-neutral-700);font:600 13px/1.6 var(--font-body);letter-spacing:.1em}
+.wip-text{margin:var(--space-3) 0 0;font:400 16px/1.8 var(--font-body);color:var(--color-neutral-800)}
+.wip-back{margin:var(--space-2) 0 0;font:600 15px/1.6 var(--font-body)}
+.wip-back a:hover{color:var(--color-accent-800);text-decoration:underline;text-underline-offset:3px}
+.wip-back a:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
+[data-look=atlas] .wip-kicker{font-family:var(--font-num);letter-spacing:.04em}
+[data-look=atlas] .wip-tag{border-radius:var(--r-sm)}
+@media(pointer:coarse){.wip-back a{display:inline-flex;align-items:center;min-height:44px}}
+
 /* ── 觸控高度 44px ── 放檔尾才蓋得過同權重的高度；html[data-look] 權重高過各外觀（含後載入的 look-standard.css）的 --read-h */
-@media(pointer:coarse){.ed-link,.dd-toggle,.vw-seg button,.dd-close,.pd-item,.chap-item{min-height:44px}.dd-close{min-width:44px}html[data-look] .read-sw{--read-h:44px}}
+@media(pointer:coarse){.ed-link,.dd-toggle,.vw-seg button,.dd-close,.pd-item,.chap-item{min-height:44px}.dd-close,.sr-sub{min-width:44px}html[data-look] .read-sw{--read-h:44px}}

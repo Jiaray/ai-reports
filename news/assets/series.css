@@ -1,0 +1,69 @@
+/* 新聞卡系列頁（series.js）樣式。規則對象只限 .sp／.sp-*（可加 :root[data-theme]、[data-look] 前綴），不對 :root、html 本身設值。
+   條目是 rows.js 的列表列（rows.css；一般外觀在 look-standard.css）；報頭、工具列、頁尾 .foot 在 site.css／report.css；領域色 --g-c 由 report.css 依 data-group 給。
+   分段：報頭、日段（黏頂標題）、資安要修補的漏洞、鄉民平台區、沒有卡、外觀：地圖、外觀：一般、觸控與強制色彩 */
+
+/* ── 報頭：大標題下一行「近 7 天・N 張」 ── */
+.sp-sub{margin:0 0 var(--space-3);font:500 15px/1.5 var(--font-heading);letter-spacing:.02em;color:var(--color-neutral-600)}
+
+/* ── 日段：標題黏在工具列下方（--bar-h 由 bar.js 寫；手機工具列不凍結時是 0），只在自己那段黏住；右邊張數 ── */
+.sp{margin-top:var(--space-2)}
+.sp-sec{margin-top:var(--space-6)}
+.sp-sec:first-child{margin-top:var(--space-4)}
+.sp-dh{position:sticky;top:var(--bar-h,0px);z-index:2;display:flex;justify-content:space-between;align-items:baseline;gap:var(--space-3);margin:0 0 var(--space-1);padding:7px 0 6px;background:var(--color-bg);border-bottom:1px solid var(--color-divider);font:600 15px/1.3 var(--font-heading);letter-spacing:.04em;color:var(--color-neutral-700)}
+.sp-n{flex:none;font:500 13px/1.3 var(--font-heading);letter-spacing:.02em;color:var(--color-neutral-600)}
+/* 段標題只有 &d= 會把焦點移過來（tabindex=-1，不在 Tab 順序裡）：不畫焦點框，免得開頁就框住 */
+.sp-dh:focus{outline:0}
+.sp-list{margin:0;padding:0;list-style:none}
+
+/* ── 資安：要修補的漏洞（頂端一區；標題列同新聞卡頁框的標題底色） ── */
+.sp-patch .sp-dh{margin:0;padding:7px var(--space-3);border-bottom:0;background:var(--tab-bg);color:var(--tab-fg);font:700 14.5px/1.45 var(--font-body);letter-spacing:.02em}
+.sp-patch .sp-n{color:inherit;font-family:var(--font-body)}
+.sp-patch .sp-list{padding:var(--space-1) var(--space-3);border:1px solid var(--color-divider);border-top:0}
+@media(max-width:40em){.sp-patch .sp-dh{padding-inline:10px}.sp-patch .sp-list{padding-inline:10px}}
+
+/* ── 鄉民：每天再分 PTT、HN、V2EX；區名旁寫張數（和日段標題右邊的張數分得出） ── */
+.sp-zone{margin-top:var(--space-3)}
+.sp-zh{display:flex;align-items:center;gap:var(--space-2);margin:0;font:700 13.5px/1.4 var(--font-heading);letter-spacing:.06em;color:var(--color-text)}
+.sp-zh::before{content:"";flex:none;width:8px;height:8px;background:var(--color-neutral-600)}
+.sp-zh .sp-n{font-size:12.5px}
+
+/* ── 沒有卡：一行說明，下接系列面板裡其他系列的連結（文字前一條領域色短線，同系列面板） ── */
+.sp-empty{margin:var(--space-6) 0 var(--space-4);font:400 16px/1.8 var(--font-body);color:var(--color-neutral-800)}
+.sp-go-box{display:grid;grid-template-columns:repeat(auto-fit,minmax(15em,1fr));gap:var(--space-4) var(--space-6);padding-top:var(--space-3);border-top:1px solid var(--color-divider)}
+.sp-go-h{margin:0 0 var(--space-1);font:600 13px/1.4 var(--font-heading);letter-spacing:.06em;color:var(--color-neutral-600)}
+.sp-go-list{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));column-gap:var(--space-3);margin:0;padding:0;list-style:none}
+.sp-go{display:flex;align-items:center;gap:8px;min-height:36px;font:600 15px/1.4 var(--font-body);color:var(--color-accent-700)}
+.sp-go::before{content:"";flex:none;width:3px;height:1em;background:var(--g-c,var(--color-neutral-300))}
+.sp-go:hover{color:var(--color-accent-800);text-decoration:underline;text-underline-offset:3px}
+.sp-go:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
+
+/* ── 頁尾：收錄條件是中文句子，用內文字型 ── */
+.sp-foot{font:400 12.5px/1.6 var(--font-body)}
+
+/* ── 外觀：地圖（框圓角；地圖的 --tab-bg 是透明，黏頂時要有底色） ── */
+[data-look=atlas] .sp-dh{font-family:var(--font-body);letter-spacing:.02em}
+[data-look=atlas] .sp-n{font-family:var(--font-num)}
+[data-look=atlas] .sp-patch .sp-dh{border:1px solid var(--color-divider);border-radius:var(--r-md) var(--r-md) 0 0;background:var(--color-neutral-200)}
+[data-look=atlas] .sp-patch .sp-list{border-radius:0 0 var(--r-md) var(--r-md)}
+[data-look=atlas] .sp-zh::before{border-radius:2px}
+
+/* ── 外觀：一般（系統字、不用領域色；段標題同頭版欄名的粗底線） ── */
+[data-look=standard] .sp-sub{font:400 var(--fs-meta)/1.5 var(--font-sans);letter-spacing:0;color:var(--text-3)}
+[data-look=standard] .sp-dh{padding:10px 0 8px;border-bottom:2px solid var(--text);font:700 15px/1.4 var(--font-sans);letter-spacing:0;color:var(--text-head)}
+[data-look=standard] .sp-n{font:400 13px/1.4 var(--font-sans);letter-spacing:0;color:var(--text-3)}
+[data-look=standard] .sp-patch .sp-dh{padding-inline:0;border-bottom-color:var(--accent);background:var(--bg);color:var(--text-head)}
+[data-look=standard] .sp-patch .sp-n{color:var(--text-3)}
+[data-look=standard] .sp-patch .sp-list{padding:0;border:0}
+[data-look=standard] .sp-zh{font:700 13px/1.4 var(--font-sans);letter-spacing:.04em;color:var(--text-2)}
+[data-look=standard] .sp-zh::before{width:6px;height:6px;border-radius:50%;background:var(--text-3)}
+[data-look=standard] .sp-empty{font-family:var(--font-sans);color:var(--text)}
+[data-look=standard] .sp-go-box{border-top:var(--hair) solid var(--border)}
+[data-look=standard] .sp-go-h{font:400 13px/1.4 var(--font-sans);letter-spacing:0;color:var(--text-3)}
+[data-look=standard] .sp-go{color:var(--link);font:500 15px/1.4 var(--font-sans)}
+[data-look=standard] .sp-go::before{content:none}
+[data-look=standard] .sp-go:hover{color:var(--accent)}
+[data-look=standard] .sp-foot{font-family:var(--font-sans)}
+
+/* ── 觸控 44px；強制色彩：色塊被換掉 → 改用文字色 ── */
+@media(pointer:coarse){.sp-go{min-height:44px}}
+@media(forced-colors:active){.sp-go::before,.sp-zh::before{background:CanvasText}.sp-patch .sp-dh{border:1px solid}}

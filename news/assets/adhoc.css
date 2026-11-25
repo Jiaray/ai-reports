@@ -1,0 +1,27 @@
+/* 暫時頁（adhoc.js）樣式。規則對象只限 .ah／.ah-*（可加 :root[data-theme]、[data-look] 前綴），不對 :root、html 本身設值。
+   日段（黏頂標題、張數）沿用 series.css 的 .sp-sec／.sp-dh／.sp-n／.sp-list；條目是 rows.js 的不展開列（rows.css .rw.is-link）。 */
+
+/* ── 報頭：大標題下一行「臨時查詢・M/D HH:MM 查詢・N 張」，再一行灰底說明 ── */
+.ah-title:focus{outline:0}
+.ah-title:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:4px}
+.ah-sub{margin:0 0 var(--space-2);font:500 15px/1.5 var(--font-heading);letter-spacing:.02em;color:var(--color-neutral-600)}
+.ah-note{margin:0 0 var(--space-3);padding:7px var(--space-3);background:var(--color-neutral-200);font:400 13.5px/1.6 var(--font-body);color:var(--color-neutral-800)}
+.ah{margin-top:var(--space-2)}
+
+/* ── 沒有卡、找不到 ── */
+.ah-empty,.ah-miss{margin:var(--space-6) 0 0;font:400 16px/1.8 var(--font-body);color:var(--color-neutral-800)}
+.ah-back{margin-left:var(--space-2);font-weight:600;color:var(--color-accent-700)}
+.ah-back:hover{color:var(--color-accent-800);text-decoration:underline;text-underline-offset:3px}
+.ah-back:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
+
+/* ── 外觀：地圖、一般 ── */
+[data-look=atlas] .ah-sub{margin-top:var(--space-2);font-family:var(--font-body)}
+[data-look=atlas] .ah-note{border-radius:var(--r-sm)}
+[data-look=standard] .ah-sub{font:400 var(--fs-meta)/1.5 var(--font-sans);letter-spacing:0;color:var(--text-3)}
+[data-look=standard] .ah-note{border-radius:var(--radius-sm);background:var(--hover-bg);font:400 13.5px/1.6 var(--font-sans);color:var(--text-2)}
+[data-look=standard] :is(.ah-empty,.ah-miss){font-family:var(--font-sans);color:var(--text)}
+[data-look=standard] .ah-back{color:var(--link)}
+
+/* ── 觸控 44px；強制色彩：灰底被換掉 → 加框 ── */
+@media(pointer:coarse){.ah-back{display:inline-flex;align-items:center;min-height:44px}}
+@media(forced-colors:active){.ah-note{border:1px solid}}

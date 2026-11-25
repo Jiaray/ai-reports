@@ -1,5 +1,7 @@
 /* 報告頁（news/?t=&d=）：讀 index.json＋<系列>/index.json（全部期別），載入一期報告渲染。
-   依賴 A.bar（bar.js）；A.facets（facets.js）、A.look（look-standard.js）選用，載入失敗就少分類標籤、「一般」外觀。 */
+   新聞卡日報系列（bar.js cardSeries）的 ?t= 交給系列頁 series.js（A.series.render；工具列、「版面」用這裡的），舊的日報報告不再畫；
+   series.js 沒載到（部署空窗）時顯示「施工中」。週報、月報、GitHub 趨勢、臨時系列照舊。
+   依賴 A.bar（bar.js）；A.facets（facets.js）、A.look（look-standard.js）、A.series（series.js）選用，載入失敗就少分類標籤、「一般」外觀。 */
 (() => {
   'use strict';
   const A = window.AIR;
@@ -10,13 +12,22 @@
   const WEEK = '日一二三四五六';
   const TAIPEI_MS = 8 * 3600 * 1000;
   const query = new URLSearchParams(location.search);
-  if (!query.get('t')) return; // 頭版（不帶 t）由 front.js 負責
+  const t = query.get('t') || '';
+  // 部署空窗：舊 front.js 遇到任何 t 都不畫。DOMContentLoaded 時 defer 腳本都跑完了，#app 沒有新 front.js 加的 fp → 轉本日焦點
+  if (t === 'general') {
+    document.addEventListener('DOMContentLoaded', () => {
+      if (app && !app.classList.contains('fp')) location.replace('./');
+    });
+  }
+  if (!t || t === 'general') return; // 頭版（不帶 t）與綜合（併入本日焦點）由 front.js 負責
   let index = { series: [], items: [] };
   let all = [];
   let shown = null;
   let stories = null;
   let seriesNames = []; // 這期的系列名稱：分類標籤不重列
   let vwBox = null; // 版面按鈕＋面板：建一次，重繪工具列時放回最右邊
+  let srBox = null; // 「系列」下拉：index 到了建一次（舊版 bar.js 沒有 seriesMenu 就不放）
+  let cardIds = new Set(); // 新聞卡日報系列的代號
 
   // ── 讀法、外觀：各取第一個為預設 ──
   // 沒有 A.look（look-standard.js 載入失敗）→ 不列「一般」，記住的 standard 退回藍圖
@@ -69,14 +80,18 @@
     return `${m} 月 ${d} 日（${WEEK[new Date(Date.UTC(y, m - 1, d)).getUTCDay()]}）`;
   }
 
-  // 工具列（bar.js）。aria-current=true：同一邊（日報｜週報、月報）而非該頁本身
+  // 工具列（bar.js；樣式摘要 5.1）：日期（只有報告頁）｜系列 ▾｜本日焦點｜本週回顧｜議題｜版面。aria-current=true：同一邊（日報｜週報、月報）
+  // 而非該頁本身；cardPage＝新聞卡系列頁，算日報那邊。舊版 bar.js 沒有 storyLink 就不放議題
   const cadenceOf = (e) => (e && e.cadence) || 'daily';
-  function editions(cur) {
-    if (!cur && !all.length && !vwBox) return null;
+  function editions(cur, cardPage) {
+    if (!cur && !all.length && !vwBox && !cardPage) return null;
+    const daily = cardPage || (cur && cadenceOf(cur) === 'daily');
     return B.toolbar([
       cur ? periodPicker(cur) : null,
-      all.length ? B.navLink('本日焦點', 'front', './', cur && cadenceOf(cur) === 'daily' ? 'true' : null) : null,
+      srBox,
+      all.length || cardPage ? B.navLink('本日焦點', 'front', './', daily ? 'true' : null) : null,
       weeklyLink(cur),
+      B.storyLink ? B.storyLink(null) : null,
       vwBox,
     ]);
   }
@@ -107,7 +122,7 @@
   }
 
   // 日期按鈕（bar.js datePicker）：左欄＝同一期有報告的系列（換系列、期別不變）；右欄＝同週期任一系列有報告的期別
-  // （本系列那期有就留，否則換到那期排第一的系列）。同一頁只建一次
+  // （本系列那期有就留，否則換到那期排第一的系列）。新聞卡系列的舊日報不列。同一頁只建一次
   let pdBox = null;
   let pdKey = '';
   function periodPicker(cur) {
@@ -115,7 +130,7 @@
     pdKey = keyOf(cur);
     const byRank = (a, b) => rankOf(a.series) - rankOf(b.series);
     const byPeriod = new Map(); // 期別 → 報告；同系列只留最新（all 已新到舊）
-    all.filter((e) => cadenceOf(e) === cadenceOf(cur)).forEach((e) => {
+    all.filter((e) => cadenceOf(e) === cadenceOf(cur) && !cardIds.has(e.series)).forEach((e) => {
       const list = byPeriod.get(e.period) || [];
       if (!list.some((x) => x.series === e.series)) list.push(e);
       byPeriod.set(e.period, list);
@@ -542,10 +557,23 @@
     }
   }
 
+  // 新聞卡系列頁的退路：series.js 沒載到（部署空窗、舊 HTML）時放「施工中」與回本日焦點。帶 d 的舊日報網址也到這裡
+  function building(info) {
+    const title = info.title || t;
+    app.replaceChildren(
+      editions(null, true),
+      h('header', { class: 'masthead wip-head' }, [h('p', { class: 'wip-kicker' }, ['系列']), h('h1', { class: 'mast-title' }, [title])]),
+      h('main', { id: 'main', class: 'wip' }, [
+        h('p', { class: 'wip-tag' }, ['施工中']),
+        h('p', { class: 'wip-text' }, ['系列頁正在改版，之後會在這裡列出這個系列的新聞卡。']),
+        h('p', { class: 'wip-back' }, [h('a', { href: './' }, ['回本日焦點'])]),
+      ]),
+    );
+    document.title = `${title}｜AI Reports`;
+  }
+
   async function main() {
-    const t = query.get('t') || '';
     const d = query.get('d') || '';
-    const listing = seriesList(t); // 與 index.json 並行抓
     stories = A.facets ? A.facets.load() : null;
     try {
       index = await A.getJSON('index.json');
@@ -554,8 +582,20 @@
       return;
     }
     merge(index.items || []);
-    // 系列清單的項目缺 series、series_title、cadence：由 index.json 系列設定補，再沒有用清單頂層的
-    const doc = await listing;
+    cardIds = new Set((B.cardSeries ? B.cardSeries(index) : []).map((s) => s.id));
+    srBox = B.seriesMenu ? B.seriesMenu(index, t) : null;
+    if (cardIds.has(t)) {
+      // 新聞卡系列頁（series.js）：只用標題列，讀法固定 scan、不存（換外觀時 applyView 也不會改回）
+      if (A.series) {
+        view.read = 'scan';
+        applyView();
+        A.series.render({ app, index, t, d, toolbar: () => editions(null, true) });
+      } else building((index.series || []).find((s) => s.id === t) || {});
+      return;
+    }
+    // 確定不是新聞卡系列才抓系列清單（新聞卡系列切換後沒有這個檔，免得每次 404）。
+    // 清單的項目缺 series、series_title、cadence：由 index.json 系列設定補，再沒有用清單頂層的
+    const doc = await seriesList(t);
     if (doc) {
       const info = (index.series || []).find((s) => s.id === t) || {};
       const extra = {

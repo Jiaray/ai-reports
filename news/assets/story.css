@@ -1,0 +1,138 @@
+/* 議題頁與議題目錄（story.js）樣式。規則對象只限 .st／.st-*（可加 :root[data-theme]、[data-look] 前綴），不對 :root、html 本身設值。
+   時間軸的條目是 rows.js 的列表列（rows.css；加 .st-row 換成方點）；篩選標籤 .fp-fq／.fp-chip 在 front.css（一般外觀在 look-standard.css）；
+   報頭、工具列、頁尾 .foot 在 site.css／report.css。
+   分段：報頭、時間軸、議題目錄、找不到、外觀：地圖、外觀：一般、觸控與強制色彩 */
+
+/* ── 報頭：上層「X ›」、大標題、狀態・張數、子議題、跳到最新 ── */
+.st-title:focus{outline:0}
+.st-title:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:4px}
+.st-crumb{margin:var(--space-3) 0 0;font:500 14px/1.5 var(--font-body);color:var(--color-neutral-600)}
+.st-crumb+.st-title{margin-top:var(--space-1)}
+.st-crumb a,.st-kid-a,.st-back a{color:var(--color-accent-700)}
+:is(.st-crumb a,.st-kid-a,.st-back a,.st-nm):hover{color:var(--color-accent-800);text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
+:is(.st-crumb a,.st-kid-a,.st-back a,.st-nm,.st-jump):focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
+.st-sub{display:flex;flex-wrap:wrap;align-items:center;gap:4px 10px;margin:0 0 var(--space-3);font:500 15px/1.5 var(--font-heading);letter-spacing:.02em;color:var(--color-neutral-600)}
+/* 狀態：進行中填主色，沉寂、歸檔灰框（另有字，不只靠顏色） */
+.st-tag{padding:0 7px;border:1px solid var(--color-neutral-600);color:var(--color-neutral-700);font:700 12.5px/1.7 var(--font-body);letter-spacing:.06em}
+.st-tag.is-active{border-color:var(--color-accent-600);background:var(--color-accent-600);color:var(--color-bg)}
+.st-kids{display:flex;flex-wrap:wrap;align-items:baseline;gap:4px 12px;margin:0 0 var(--space-3);font:400 14.5px/1.6 var(--font-body)}
+.st-kids-lab{font-weight:600;color:var(--color-neutral-600)}
+.st-kids-list{display:flex;flex-wrap:wrap;gap:4px 16px;margin:0;padding:0;list-style:none}
+.st-kid-a{font-weight:600}
+.st-kid-n{font-weight:400;color:var(--color-neutral-600)}
+/* 跳到最新：按鈕（網址的 # 是議題名，不用錨點）；樣式同新聞卡頁的跳轉標籤 */
+.st-jump{display:inline-flex;align-self:flex-start;align-items:center;min-height:28px;margin:0 0 var(--space-3);padding:0 9px;border:1px solid var(--color-accent-600);background:transparent;color:var(--color-accent-700);font:500 13px/1.4 var(--font-body);cursor:pointer}
+.st-jump:hover{background:var(--color-accent-100);color:var(--color-text)}
+
+/* ── 時間軸：左側一條直線、每張卡一個方點，最新一張實心；條目不用領域色線（議題頁跟系列無關） ── */
+.st-main{margin-top:var(--space-4)}
+.st-tl{position:relative;margin:0;padding:0;list-style:none}
+.st-tl::before{content:"";position:absolute;left:5px;top:14px;bottom:14px;border-left:1px solid var(--color-neutral-300)}
+.st-row{position:relative;margin:0;padding:8px 0 8px 26px;border-left:0}
+.st-row::before{content:"";position:absolute;left:0;top:13px;box-sizing:border-box;width:11px;height:11px;background:var(--color-bg);border:2px solid var(--color-accent-600)}
+.st-row.is-latest::before{background:var(--color-accent-600)}
+.st-row+.st-row{border-top:1px solid var(--color-divider)}
+/* 子議題名（上層議題頁）：虛線框，接在時間後 */
+.st-kid{padding:0 6px;border:1px dashed var(--color-neutral-600);color:var(--color-neutral-700);font:500 12px/1.5 var(--font-body)}
+/* 間隔標記：相隔 7 天以上 */
+.st-gap{position:relative;padding:4px 0 6px 26px;font:400 13px/1.5 var(--font-body);color:var(--color-neutral-600)}
+.st-gap::before{content:"";position:absolute;left:0;top:0;bottom:0;width:11px;background:var(--color-bg)}
+.st-gap::after{content:"";position:absolute;left:5px;top:2px;bottom:2px;border-left:1px dashed var(--color-neutral-600)}
+
+/* ── 議題目錄：報頭下篩選標籤；三區（標題列同新聞卡頁框的標題底色；沉寂、歸檔灰底），各區依最新一張卡新到舊 ── */
+.st-fq{margin:var(--space-1) 0 var(--space-3)}
+.st-zone{margin-top:var(--space-6)}
+.st-zone:first-child{margin-top:var(--space-2)}
+.st-zone[hidden],.st-month[hidden],.st-st[hidden]{display:none}
+.st-zh{display:flex;flex-wrap:wrap;justify-content:space-between;align-items:baseline;gap:2px var(--space-3);margin:0;padding:7px var(--space-3);background:var(--tab-bg);color:var(--tab-fg);font:700 14.5px/1.45 var(--font-body);letter-spacing:.02em}
+.st-zone:not(.is-active) .st-zh{background:var(--color-neutral-200);color:var(--color-text)}
+.st-n{font:500 13px/1.45 var(--font-body);letter-spacing:0}
+.st-list{margin:0;padding:0;list-style:none}
+.st-st{border-bottom:1px solid var(--color-divider)}
+.st-st .st-st{border-bottom:0;border-top:1px solid var(--color-divider)}
+.st-hit{position:relative;padding:8px var(--space-2) 8px var(--space-3)}
+.st-nm{margin-right:8px;color:var(--color-text);font:600 16px/1.55 var(--font-body)}
+.st-meta{font:500 13px/1.55 var(--font-heading);letter-spacing:.02em;color:var(--color-neutral-600);white-space:nowrap}
+.st-last{display:block;margin-top:1px;font:400 14px/1.55 var(--font-body);color:var(--color-neutral-700)}
+.is-compact .st-nm,.st-month .st-nm,.st-st.is-kid .st-nm{font-weight:500;font-size:15px}
+/* 子議題：縮排一層，前面「›」 */
+.st-st.is-kid>.st-hit{padding-left:calc(var(--space-3) + 20px)}
+.st-st.is-kid>.st-hit::before{content:"›";position:absolute;left:calc(var(--space-3) + 6px);top:8px;font:400 15px/1.55 var(--font-body);color:var(--color-neutral-600)}
+.st-st.is-kid .st-st.is-kid>.st-hit{padding-left:calc(var(--space-3) + 40px)}
+.st-st.is-kid .st-st.is-kid>.st-hit::before{left:calc(var(--space-3) + 26px)}
+/* 歸檔：依月份收合 */
+.st-month{border-bottom:1px solid var(--color-divider)}
+.st-month-s{display:flex;align-items:center;gap:var(--space-2);min-height:40px;padding:0 var(--space-3);font:600 15px/1.4 var(--font-body);color:var(--color-neutral-800);cursor:pointer;list-style:none}
+.st-month-s::-webkit-details-marker{display:none}
+.st-month-s::before{content:"";flex:none;width:6px;height:6px;margin-right:2px;border-right:1.5px solid;border-bottom:1.5px solid;transform:rotate(-45deg)}
+.st-month[open]>.st-month-s::before{transform:rotate(45deg)}
+.st-month-s .st-n{color:var(--color-neutral-600)}
+.st-month-s:hover{color:var(--color-accent-700)}
+.st-month-s:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
+.st-month>.st-list{border-top:1px solid var(--color-divider)}
+.st-month>.st-list>.st-st:last-child{border-bottom:0}
+.st-empty{margin:var(--space-6) 0 var(--space-4);font:400 16px/1.8 var(--font-body);color:var(--color-neutral-800)}
+.st-foot{font:400 12.5px/1.6 var(--font-body)}
+@media(max-width:40em){.st-zh,.st-hit,.st-month-s{padding-inline:10px}.st-st.is-kid>.st-hit{padding-left:30px}.st-st.is-kid>.st-hit::before{left:16px}}
+
+/* ── 找不到 ── */
+.st-miss{margin:var(--space-6) 0 0;font:400 16px/1.8 var(--font-body);color:var(--color-neutral-800)}
+.st-back{display:flex;flex-wrap:wrap;gap:var(--space-1) var(--space-4);margin:var(--space-2) 0 0;font:600 15px/1.6 var(--font-body)}
+
+/* ── 外觀：地圖（圓角；方點改圓點，時間軸直線維持直線） ── */
+[data-look=atlas] .st-sub{margin-top:var(--space-2);font-family:var(--font-body)}
+[data-look=atlas] :is(.st-tag,.st-kid,.st-jump){border-radius:var(--r-sm)}
+[data-look=atlas] .st-row::before{border-radius:50%}
+[data-look=atlas] .st-zh{border-radius:var(--r-md) var(--r-md) 0 0;font-size:15px}
+[data-look=atlas] .st-zone:not(.is-active) .st-zh{border:1px solid var(--color-divider);border-bottom:0}
+[data-look=atlas] :is(.st-meta,.st-n){font-family:var(--font-num)}
+[data-look=atlas] .st-fq{margin-top:var(--space-3)}
+
+/* ── 外觀：一般（系統字、不用領域色；區標題同頭版欄名的粗底線） ── */
+[data-look=standard] .st-crumb{font:400 14px/1.5 var(--font-sans);color:var(--text-3)}
+[data-look=standard] :is(.st-crumb a,.st-kid-a,.st-back a){color:var(--link)}
+[data-look=standard] .st-sub{font:400 var(--fs-meta)/1.5 var(--font-sans);letter-spacing:0;color:var(--text-3)}
+[data-look=standard] .st-tag{border-color:var(--text-3);border-radius:var(--radius-sm);color:var(--text-2);font:500 12px/1.6 var(--font-sans);letter-spacing:.04em}
+[data-look=standard] .st-tag.is-active{border-color:var(--text);background:var(--text);color:var(--surface)}
+[data-look=standard] .st-kids{font-family:var(--font-sans)}
+[data-look=standard] .st-kids-lab{font-weight:500;color:var(--text-3)}
+[data-look=standard] .st-jump{border:var(--hair) solid var(--border);border-radius:999px;background:var(--surface);color:var(--text-head);font-family:var(--font-sans)}
+[data-look=standard] .st-jump:hover{background:var(--hover-bg)}
+[data-look=standard] .st-tl::before{border-left-color:var(--border)}
+[data-look=standard] .st-row,[data-look=standard] .st-row:first-child{padding:14px 0 14px 26px}
+[data-look=standard] .st-row::before{top:19px;width:9px;height:9px;left:1px;border:1.5px solid var(--text-3);border-radius:50%;background:var(--bg)}
+[data-look=standard] .st-row.is-latest::before{border-color:var(--text);background:var(--text)}
+[data-look=standard] .st-kid{border-color:var(--text-3);border-radius:var(--radius-sm);color:var(--text-2);font:400 12px/1.5 var(--font-sans)}
+[data-look=standard] .st-gap{font-family:var(--font-sans);color:var(--text-3)}
+[data-look=standard] .st-gap::before{background:var(--bg)}
+[data-look=standard] .st-gap::after{border-left-color:var(--text-3)}
+[data-look=standard] .st-zh{padding:10px 0 8px;border-bottom:2px solid var(--text);background:none;color:var(--text-head);font:700 15px/1.4 var(--font-sans);letter-spacing:0}
+[data-look=standard] .st-zone:not(.is-active) .st-zh{background:none;color:var(--text-head)}
+[data-look=standard] .st-n{font:400 13px/1.4 var(--font-sans);color:var(--text-3)}
+[data-look=standard] .st-zh .st-n{color:var(--text-3)}
+[data-look=standard] :is(.st-st,.st-month){border-bottom:var(--hair) solid var(--border)}
+[data-look=standard] .st-st .st-st{border-top:var(--hair) solid var(--border)}
+[data-look=standard] .st-hit{padding-inline:0}
+[data-look=standard] .st-st.is-kid>.st-hit{padding-left:20px}
+[data-look=standard] .st-st.is-kid>.st-hit::before{left:6px;color:var(--text-3)}
+[data-look=standard] .st-nm{color:var(--text-head);font:var(--fw-head) 16px/1.5 var(--font-sans)}
+[data-look=standard] .st-nm:hover{color:var(--accent);text-decoration:none}
+[data-look=standard] :is(.is-compact .st-nm,.st-month .st-nm,.st-st.is-kid .st-nm){font-weight:500;font-size:15px}
+[data-look=standard] .st-meta{font:400 var(--fs-meta)/1.5 var(--font-sans);letter-spacing:0;color:var(--text-3)}
+[data-look=standard] .st-last{font:var(--fw-body) 14px/1.6 var(--font-sans);color:var(--text-2)}
+[data-look=standard] .st-month-s{padding-inline:0;font:500 15px/1.4 var(--font-sans);color:var(--text)}
+[data-look=standard] .st-month-s:hover{color:var(--accent)}
+[data-look=standard] .st-month>.st-list{border-top:var(--hair) solid var(--border)}
+[data-look=standard] :is(.st-miss,.st-empty,.st-back,.st-foot){font-family:var(--font-sans)}
+[data-look=standard] .st-back a{color:var(--link)}
+
+/* ── 觸控 44px：議題列整列可點（名稱連結撐滿那一列）；強制色彩：色塊被換掉 → 改用框線或文字色 ── */
+@media(pointer:coarse){
+  .st-hit{display:flex;flex-wrap:wrap;align-items:baseline;align-content:center;min-height:44px;box-sizing:border-box}
+  .st-last{flex-basis:100%}
+  .st-nm::after{content:"";position:absolute;inset:0}
+  :is(.st-crumb a,.st-kid-a,.st-back a,.st-jump){display:inline-flex;align-items:center;min-height:44px}
+  .st-month-s{min-height:44px}
+}
+@media(forced-colors:active){.st-row::before{border-color:CanvasText}.st-row.is-latest::before{background:CanvasText}.st-tl::before{border-color:CanvasText}.st-zh{border:1px solid}.st-tag.is-active{border-color:CanvasText}}
+@media(prefers-reduced-motion:reduce){.st-month-s::before{transition:none}}
