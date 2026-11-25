@@ -101,49 +101,52 @@
 [data-look=atlas] :is(.fp-upd,.fp-online){border-radius:var(--r-sm,6px)}
 @media(forced-colors:active){.fp-online{border:1px solid}}
 
-/* ── 本日焦點：今天日期與農民曆（almanac.js 的 .fp-alm）── 藍圖＝製圖標題欄：細框分三格——左國曆＋農曆、中宜忌（底下一行沖煞、
-   節氣）、右當月行政日曆；窄版左國曆、右日曆，宜忌移到下面一整列。宜＝實心綠底、忌＝紅框（字本身不同，不只靠顏色）。
-   宜忌一詞一個 span 不拆行。日曆：放假紅字＋加粗（不只靠顏色），今天畫圈（使用者指定圓圈，藍圖也用圓）。
-   .is-plain＝lunar.js 沒載到，只剩國曆那一格 */
-.fp-alm{display:grid;grid-template-columns:auto minmax(0,1fr) auto;grid-template-areas:"day body mon";margin-top:var(--space-3);border:1px solid var(--color-divider);font:400 14px/1.6 var(--font-body);color:var(--color-neutral-800)}
+/* ── 本日焦點：今天日期與農民曆（almanac.js 的 .fp-alm）── 定案：不搶新聞——小字、無底色、細框，高度約等於小日曆（約 100px）。
+   三格：左國曆＋農曆＋沖煞（節氣不顯示），中宜忌，右當月行政日曆，左右兩格照內容寬、宜忌補滿；留白壓到最少；精簡後三格在 40em 以上都放得下，
+   只有窄版改成左國曆、右日曆，宜忌移到下面一整列。宜＝綠框、忌＝紅框（字本身不同，不只靠顏色）。宜忌一詞一個 span 不拆行。
+   日曆：放假紅字＋加粗（不只靠顏色），今天畫圈（使用者指定圓圈，藍圖也用圓）。.is-plain＝lunar.js 沒載到，只剩國曆那一格 */
+.fp-alm{display:grid;grid-template-columns:auto minmax(0,1fr) auto;grid-template-areas:"day body mon";margin-top:var(--space-2);border:1px solid var(--color-divider);font:400 13px/1.55 var(--font-body);color:var(--color-neutral-700)}
 .fp-alm p{margin:0}
 .fp-alm.is-plain{grid-template-columns:minmax(0,1fr);grid-template-areas:"day"}
-.fp-alm-day{grid-area:day;display:flex;flex-direction:column;justify-content:center;gap:2px;padding:var(--space-3) var(--space-4);background:var(--color-neutral-100);border-right:1px solid var(--color-divider)}
+.fp-alm-day{grid-area:day;display:flex;flex-direction:column;justify-content:center;gap:1px;padding:var(--space-1) var(--space-3);border-right:1px solid var(--color-divider)}
 .fp-alm.is-plain .fp-alm-day{border-right:0}
-.fp-alm-date{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 8px}
-.fp-alm-md{font:600 20px/1.35 var(--font-heading);letter-spacing:.02em;color:var(--color-text);white-space:nowrap}
-.fp-alm-wd{font:500 14px/1.35 var(--font-heading);color:var(--color-neutral-700);white-space:nowrap}
-.fp-alm-lu{display:flex;flex-wrap:wrap;align-items:center;gap:2px 8px;color:var(--color-neutral-700)}
-.fp-alm-fest{padding:0 6px;border:1px solid var(--color-accent-600);color:var(--color-accent-700);font-weight:600;line-height:1.5}
-.fp-alm-body{grid-area:body;min-width:0;padding:var(--space-2) var(--space-4)}
+.fp-alm-date{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 6px}
+.fp-alm-md{font:600 24px/1.25 var(--font-heading);letter-spacing:.02em;color:var(--color-neutral-800);white-space:nowrap}
+.fp-alm-wd{font:500 15px/1.25 var(--font-heading);white-space:nowrap}
+.fp-alm-lu{display:flex;flex-wrap:wrap;align-items:center;gap:0 8px;font-size:12.5px}
+.fp-alm-fest{padding:0 5px;border:1px solid var(--color-accent-600);color:var(--color-accent-700);font-weight:600;line-height:1.5}
+.fp-alm-body{grid-area:body;align-self:center;min-width:0;padding:var(--space-1) var(--space-3)}
 .fp-alm-yj{margin:0}
-.fp-alm-row{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:8px;align-items:start;padding:2px 0}
-.fp-alm-k{display:grid;place-items:center;width:19px;height:19px;margin-top:1px;box-sizing:border-box;font:700 12px/1 var(--font-body)}
-.fp-alm-row.is-yi .fp-alm-k{background:var(--color-good);color:var(--color-bg)}
-.fp-alm-row.is-ji .fp-alm-k{border:1px solid var(--color-hot);color:var(--color-hot)}
-.fp-alm-v{margin:0;font-size:13px;line-height:1.6;color:var(--color-text)}
+.fp-alm-row{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:6px;align-items:start;padding:1px 0}
+.fp-alm-k{display:grid;place-items:center;width:15px;height:15px;margin-top:2px;box-sizing:border-box;border:1px solid;font:600 10px/1 var(--font-body)}
+.fp-alm-row.is-yi .fp-alm-k{color:var(--color-good)}
+.fp-alm-row.is-ji .fp-alm-k{color:var(--color-hot)}
+.fp-alm-v{margin:0;font-size:12px;line-height:1.55;color:var(--color-neutral-800)}
 .fp-alm-v>span{white-space:nowrap;margin-right:.3em}
-.fp-alm-more{display:flex;flex-wrap:wrap;gap:0 var(--space-4);margin-top:4px;padding-top:5px;border-top:1px dashed var(--color-divider);font-size:12.5px;color:var(--color-neutral-700)}
-.fp-alm-lab{margin-right:6px;font-weight:600;color:var(--color-neutral-600)}
+.fp-alm-more{font-size:11.5px;line-height:1.5}
+.fp-alm-lab{margin-right:5px;color:var(--color-neutral-600)}
 /* 當月行政日曆 */
-.fp-alm-mon{grid-area:mon;display:flex;align-items:center;justify-content:center;padding:var(--space-2) var(--space-3);border-left:1px solid var(--color-divider)}
-.fp-alm-cal{border-collapse:collapse;font:500 11.5px/1 var(--font-heading);font-variant-numeric:tabular-nums;color:var(--color-neutral-800)}
-.fp-alm-cal th{width:21px;padding:0 0 3px;font:500 10.5px/1.2 var(--font-body);color:var(--color-neutral-600);text-align:center}
-.fp-alm-cal td{height:19px;padding:0;text-align:center}
-.fp-alm-n{display:inline-grid;place-items:center;width:19px;height:19px;box-sizing:border-box}
+.fp-alm-mon{grid-area:mon;display:flex;align-items:center;justify-content:center;padding:var(--space-1) var(--space-2);border-left:1px solid var(--color-divider)}
+.fp-alm-cal{border-collapse:collapse;font:500 11px/1 var(--font-heading);font-variant-numeric:tabular-nums;color:var(--color-neutral-700)}
+.fp-alm-cal th{width:20px;padding:0 0 2px;font:500 10px/1.2 var(--font-body);color:var(--color-neutral-600);text-align:center}
+.fp-alm-cal td{height:15px;padding:0;text-align:center}
+/* 圈要對準數字：格子置中（不用 inline 方塊，免得坐在基線上往下掉），數字只留大寫字高（text-box）再置中——
+   字型上下留白不對稱，照行高置中會偏；不支援 text-box 的瀏覽器照行高置中 */
+.fp-alm-n{display:flex;align-items:center;justify-content:center;width:15px;height:15px;margin:0 auto;box-sizing:border-box}
+.fp-alm-d{display:block;text-box:trim-both cap alphabetic}
 .fp-alm-cal .is-off{color:var(--color-hot);font-weight:700}
-.fp-alm-cal .is-today .fp-alm-n{border:1.5px solid currentColor;border-radius:50%}
+.fp-alm-cal .is-today .fp-alm-n{border:1px solid currentColor;border-radius:50%}
 [data-look=atlas] .fp-alm{border-radius:var(--r-md,10px);overflow:hidden}
 [data-look=atlas] :is(.fp-alm-k,.fp-alm-fest){border-radius:var(--r-sm,6px)}
 [data-look=atlas] :is(.fp-alm-md,.fp-alm-cal){font-family:var(--font-num)}
+/* 窄版：中格放不下宜忌 → 國曆、日曆一列，宜忌整列放下面 */
 @media(max-width:40em){
 .fp-alm{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"day mon" "body body"}
-.fp-alm-day{padding:var(--space-2) var(--space-3)}
-.fp-alm-md{font-size:17px}
-.fp-alm-mon{padding:var(--space-2);border-left:0}
-.fp-alm-body{padding:var(--space-2) var(--space-3);border-top:1px solid var(--color-divider)}
+.fp-alm-mon{border-left:0}
+.fp-alm-body{border-top:1px solid var(--color-divider)}
+.fp-alm-day,.fp-alm-body{padding:var(--space-1) var(--space-2)}
+.fp-alm-mon{padding:var(--space-1)}
 }
-@media(forced-colors:active){.fp-alm-row.is-yi .fp-alm-k{border:1px solid}}
 
 /* ── 還沒有頭版 ── */
 .fp-empty{margin:var(--space-6) 0 0}

@@ -161,18 +161,14 @@
 /* ── 頭版（look-standard.js 排成 .std-home）：主欄＋右側即時新聞 ── */
 [data-look=standard] .fp-head{padding:28px 0 4px;column-gap:24px}
 [data-look=standard] .fp-head .mast-title{font-size:clamp(22px,1vw + 18px,28px)}
-/* 今天日期與農民曆（front.css 的 .fp-alm）：卡片底、細線、系統字；宜忌的綠、紅照藍圖 */
-[data-look=standard] .fp-alm{margin-top:16px;background:var(--surface);border:var(--hair) solid var(--border);border-radius:var(--radius);overflow:hidden;font:var(--fw-body) 14px/1.6 var(--font-sans);letter-spacing:0;color:var(--text-2)}
+/* 今天日期與農民曆（front.css 的 .fp-alm）：細線、系統字、無底色（不搶新聞）；宜忌的綠、紅與日曆紅字照藍圖 */
+[data-look=standard] .fp-alm{margin-top:12px;border:var(--hair) solid var(--border);border-radius:var(--radius);overflow:hidden;font:var(--fw-body) 13px/1.55 var(--font-sans);letter-spacing:0;color:var(--text-2)}
 [data-look=standard] .fp-alm :is(.fp-alm-md,.fp-alm-wd,.fp-alm-k,.fp-alm-cal,.fp-alm-cal th){font-family:var(--font-sans);letter-spacing:0}
-[data-look=standard] .fp-alm-day{background:transparent;border-right:var(--hair) solid var(--border)}
+[data-look=standard] .fp-alm-day{border-right:var(--hair) solid var(--border)}
 [data-look=standard] .fp-alm-mon{border-left:var(--hair) solid var(--border)}
-[data-look=standard] .fp-alm-cal{color:var(--text)}
-[data-look=standard] .fp-alm-cal th:not(.is-off){color:var(--text-3)}
-[data-look=standard] .fp-alm-md{font-weight:700;font-size:18px;color:var(--text)}
-[data-look=standard] :is(.fp-alm-wd,.fp-alm-lu,.fp-alm-more){color:var(--text-2)}
-[data-look=standard] .fp-alm-v{color:var(--text)}
-[data-look=standard] .fp-alm-more{border-top:var(--hair) solid var(--border)}
-[data-look=standard] .fp-alm-lab{color:var(--text-3)}
+[data-look=standard] .fp-alm-md{font-weight:600;color:var(--text)}
+[data-look=standard] :is(.fp-alm-cal,.fp-alm-v){color:var(--text)}
+[data-look=standard] .fp-alm-cal th:not(.is-off),[data-look=standard] .fp-alm-lab{color:var(--text-3)}
 [data-look=standard] :is(.fp-alm-k,.fp-alm-fest){border-radius:var(--radius-sm)}
 [data-look=standard] .fp-alm-fest{border-color:var(--accent);color:var(--accent)}
 @media(max-width:40em){[data-look=standard] .fp-alm-mon{border-left:0}[data-look=standard] .fp-alm-body{border-top:var(--hair) solid var(--border)}}

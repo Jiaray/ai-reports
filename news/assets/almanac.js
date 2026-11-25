@@ -1,5 +1,5 @@
 /* 本日焦點的今天日期與農民曆，掛 AIR.almanac（front.js 選用；只有 news/index.html 載入，排在 front.js 前）。
-   - 國曆日期、星期自己算，一定有；農曆月日、干支生肖年、農曆節日、宜忌、沖煞、節氣、行政日曆的農曆假日由 lunar.js 算。
+   - 國曆日期、星期自己算，一定有；農曆月日、干支生肖年、農曆節日、宜忌、沖煞、行政日曆的農曆假日與清明由 lunar.js 算（節氣不顯示）。
    - lunar.js＝6tail/lunar-javascript v1.7.8（MIT，原檔未改，授權在檔頭的 npm 套件裡）：約 430KB，報告頁用不到，
      第一次 load() 才另外載入（同 almanac.js 的 ?v=）；載不到只畫國曆日期那一格，下次 load() 再試。
      它是 UMD：沒有模組系統時在 window 掛 Solar、Lunar 等十幾個名稱，只在這支用。
@@ -73,8 +73,6 @@
     try {
       const lu = window.Solar.fromYmd(y, m, d).getLunar();
       const mo = lu.getMonth(); // 閏月是負數
-      const next = lu.getNextJieQi(true); // true：照日期比，今天是節氣時給下一個
-      const ns = next.getSolar();
       out.lu = {
         date: `農曆${mo < 0 ? '閏' : ''}${MONTH[Math.abs(mo) - 1]}月${lu.getDayInChinese()}`,
         year: `${lu.getYearInGanZhi()}${tw(lu.getYearShengXiao())}年`,
@@ -82,8 +80,6 @@
         yi: lu.getDayYi().map(tw),
         ji: lu.getDayJi().map(tw),
         chong: `沖${tw(lu.getDayChongShengXiao())}（${lu.getDayChongGan()}${lu.getDayChong()}）煞${tw(lu.getDaySha())}`,
-        jieqi: tw(lu.getJieQi()), // 今天是節氣才有
-        next: `${tw(next.getName())} ${ns.getMonth()}/${ns.getDay()}（${WEEK[ns.getWeek()]}）`,
       };
     } catch (e) {
       console.error('農民曆計算失敗', e);
@@ -166,7 +162,7 @@
       const { off, name } = dayOff(`${y}-${pad(m)}-${pad(d)}`);
       const cls = [off ? 'is-off' : '', d === today ? 'is-today' : ''].filter(Boolean).join(' ');
       cells.push(h('td', { class: cls || null, title: name || null, 'aria-current': d === today ? 'date' : null }, [
-        h('span', { class: 'fp-alm-n' }, [String(d)]),
+        h('span', { class: 'fp-alm-n' }, [h('span', { class: 'fp-alm-d' }, [String(d)])]),
         name ? h('span', { class: 'visually-hidden' }, [`，${name}`]) : null,
       ]));
     }
@@ -194,17 +190,14 @@
         h('span', null, [L.date]), h('span', null, [L.year]),
         ...L.fest.map((f) => h('span', { class: 'fp-alm-fest' }, [f])),
       ]) : null,
+      // 沖煞放日期格（補滿日曆撐出的高度，宜忌格只留宜忌）；節氣不顯示（使用者定案）
+      L ? h('p', { class: 'fp-alm-more' }, [h('span', { class: 'fp-alm-lab' }, ['沖煞']), L.chong]) : null,
     ])];
     if (L) {
       kids.push(h('div', { class: 'fp-alm-body' }, [
         h('dl', { class: 'fp-alm-yj' }, [
           h('div', { class: 'fp-alm-row is-yi' }, [h('dt', { class: 'fp-alm-k' }, ['宜']), h('dd', { class: 'fp-alm-v' }, words(L.yi))]),
           h('div', { class: 'fp-alm-row is-ji' }, [h('dt', { class: 'fp-alm-k' }, ['忌']), h('dd', { class: 'fp-alm-v' }, words(L.ji))]),
-        ]),
-        h('p', { class: 'fp-alm-more' }, [
-          h('span', null, [h('span', { class: 'fp-alm-lab' }, ['沖煞']), L.chong]),
-          L.jieqi ? h('span', null, [h('span', { class: 'fp-alm-lab' }, ['節氣']), `今天${L.jieqi}`])
-            : h('span', null, [h('span', { class: 'fp-alm-lab' }, ['下個節氣']), L.next]),
         ]),
       ]));
       try {
