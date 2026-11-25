@@ -1,5 +1,631 @@
 {
  "schema": 1,
- "updated_at": null,
- "units": {}
+ "updated_at": "2026-11-26T02:11:21+08:00",
+ "units": {
+  "pool_bbc_top": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_bbc_world": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_bbc_chinese": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_guardian_world": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_aljazeera": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_france24": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_bbc_business": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_bbc_technology": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_guardian_technology": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_bbc_science": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_bbc_health": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_guardian_environment": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_bbc_arts": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_un_news": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_dw_news": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_euronews": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_wsj": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_dawn": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_rappler": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_premium_times": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "pool_rfi_africa": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "pool_mexico_news_daily": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "pool_cnbc": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_ft": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_who": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "pool_hrw": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "pool_nikkei_asia": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_scmp_china": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_the_diplomat": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_japan_times": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_straits_times_asia": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_reuters": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pool_gdacs": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "pool_usgs": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "cna_politics": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "cna_social": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "cna_intworld": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pts": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "cna_health": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "mygopen": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "tfc": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "ptt_news": {
+   "last_collected_at": "2026-11-26T01:26:05+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "ncdr_alerts": {
+   "last_collected_at": "2026-11-26T01:26:06+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "cna_disaster": {
+   "last_collected_at": "2026-11-26T01:26:06+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pts_disaster": {
+   "last_collected_at": "2026-11-26T01:26:06+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "ptt_hot": {
+   "last_collected_at": "2026-11-26T01:26:06+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "v2ex": {
+   "last_collected_at": "2026-11-26T01:26:07+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "cna_mainland": {
+   "last_collected_at": "2026-11-26T01:26:07+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "guardian_china": {
+   "last_collected_at": "2026-11-26T01:26:07+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "guardian_us_politics": {
+   "last_collected_at": "2026-11-26T01:26:07+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "guardian_society": {
+   "last_collected_at": "2026-11-26T01:26:07+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "twse_news": {
+   "last_collected_at": "2026-11-26T01:26:07+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "udn_money_focus": {
+   "last_collected_at": "2026-11-26T01:26:07+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "udn_money_industry": {
+   "last_collected_at": "2026-11-26T01:26:07+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "cnyes_headline": {
+   "last_collected_at": "2026-11-26T01:26:07+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "cnyes_tw_stock": {
+   "last_collected_at": "2026-11-26T01:26:07+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "cna_finance": {
+   "last_collected_at": "2026-11-26T01:26:07+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "aihot": {
+   "last_collected_at": "2026-11-26T01:26:07+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "tldr_ai": {
+   "last_collected_at": "2026-11-26T01:26:07+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "import_ai": {
+   "last_collected_at": "2026-11-26T01:26:07+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "latentspace_ainews": {
+   "last_collected_at": "2026-11-26T01:26:08+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "hn_ai": {
+   "last_collected_at": "2026-11-26T01:26:08+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "nl_bensbites": {
+   "last_collected_at": "2026-11-26T01:26:08+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "nl_interconnects": {
+   "last_collected_at": "2026-11-26T01:26:08+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "nl_oneusefulthing": {
+   "last_collected_at": "2026-11-26T01:26:08+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "nl_chinai": {
+   "last_collected_at": "2026-11-26T01:26:09+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "nl_memia": {
+   "last_collected_at": "2026-11-26T01:26:09+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "nl_ai2roi": {
+   "last_collected_at": "2026-11-26T01:26:09+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "nl_kdnuggets": {
+   "last_collected_at": "2026-11-26T01:26:09+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "huggingface": {
+   "last_collected_at": "2026-11-26T01:26:09+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "hn_front": {
+   "last_collected_at": "2026-11-26T01:26:09+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "arstechnica": {
+   "last_collected_at": "2026-11-26T01:26:09+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "theverge": {
+   "last_collected_at": "2026-11-26T01:26:09+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "technews_tw": {
+   "last_collected_at": "2026-11-26T01:26:09+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "icsda": {
+   "last_collected_at": "2026-11-26T01:26:09+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "bleepingcomputer": {
+   "last_collected_at": null,
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "thehackernews": {
+   "last_collected_at": "2026-11-26T01:26:09+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "krebs": {
+   "last_collected_at": "2026-11-26T01:26:09+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "ithome_security": {
+   "last_collected_at": "2026-11-26T01:26:09+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "hn_security": {
+   "last_collected_at": "2026-11-26T01:26:09+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "lobsters_security": {
+   "last_collected_at": "2026-11-26T01:26:10+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "github_trending": {
+   "last_collected_at": "2026-11-26T01:26:10+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pansci": {
+   "last_collected_at": "2026-11-26T01:26:10+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "sciencenews": {
+   "last_collected_at": "2026-11-26T01:26:10+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "statnews": {
+   "last_collected_at": "2026-11-26T01:26:11+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "medicalxpress": {
+   "last_collected_at": "2026-11-26T01:26:11+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "sciencedaily_health": {
+   "last_collected_at": "2026-11-26T01:26:11+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "guardian_health": {
+   "last_collected_at": "2026-11-26T01:26:11+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "npr_health": {
+   "last_collected_at": "2026-11-26T01:26:11+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "mongabay": {
+   "last_collected_at": "2026-11-26T01:26:11+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "guardian_lifeandstyle": {
+   "last_collected_at": "2026-11-26T01:26:11+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "cna_culture": {
+   "last_collected_at": "2026-11-26T01:26:11+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "guardian_culture": {
+   "last_collected_at": "2026-11-26T01:26:11+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "cna_stars": {
+   "last_collected_at": "2026-11-26T01:26:12+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "deadline": {
+   "last_collected_at": "2026-11-26T01:26:12+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "cna_sport": {
+   "last_collected_at": "2026-11-26T01:26:12+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "bbc_sport": {
+   "last_collected_at": "2026-11-26T01:26:12+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "gamesindustry": {
+   "last_collected_at": "2026-11-26T01:26:12+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pocketgamerbiz": {
+   "last_collected_at": "2026-11-26T01:26:12+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "mobilegamer": {
+   "last_collected_at": "2026-11-26T01:26:12+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "gamesbeat": {
+   "last_collected_at": "2026-11-26T01:26:12+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "80lv": {
+   "last_collected_at": "2026-11-26T01:26:12+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "cocos_forum": {
+   "last_collected_at": "2026-11-26T01:26:13+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "pixijs": {
+   "last_collected_at": "2026-11-26T01:26:13+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "babylonjs": {
+   "last_collected_at": "2026-11-26T01:26:13+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "threejs": {
+   "last_collected_at": "2026-11-26T01:26:13+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "phaser": {
+   "last_collected_at": "2026-11-26T01:26:13+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "godot_blog": {
+   "last_collected_at": "2026-11-26T01:26:13+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "gamefromscratch": {
+   "last_collected_at": "2026-11-26T01:26:13+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "gamedeveloper": {
+   "last_collected_at": "2026-11-26T01:26:13+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "hn_engines": {
+   "last_collected_at": "2026-11-26T01:26:13+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "yogonet": {
+   "last_collected_at": "2026-11-26T01:26:13+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "igb": {
+   "last_collected_at": "2026-11-26T01:26:14+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "ggrasia": {
+   "last_collected_at": "2026-11-26T01:26:14+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "agbrief": {
+   "last_collected_at": "2026-11-26T01:26:14+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "intergame": {
+   "last_collected_at": "2026-11-26T01:26:15+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "casinoorg": {
+   "last_collected_at": "2026-11-26T01:26:15+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "gnews_macau_zh": {
+   "last_collected_at": "2026-11-26T01:26:15+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "paul_graham": {
+   "last_collected_at": "2026-11-26T01:26:15+08:00",
+   "rounds_without_pick": 0,
+   "bench_fetched_at": null
+  },
+  "farnam_street": {
+   "last_collected_at": "2026-11-26T01:26:15+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "scott_young": {
+   "last_collected_at": "2026-11-26T01:26:15+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "lex_fridman": {
+   "last_collected_at": "2026-11-26T01:26:16+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "80000_hours": {
+   "last_collected_at": "2026-11-26T01:26:16+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "latentspace_podcast": {
+   "last_collected_at": "2026-11-26T01:26:16+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  },
+  "hn_reading": {
+   "last_collected_at": "2026-11-26T01:26:16+08:00",
+   "rounds_without_pick": 1,
+   "bench_fetched_at": null
+  }
+ }
 }
