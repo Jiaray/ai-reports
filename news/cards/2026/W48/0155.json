@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0155",
+ "title": "Cocos Dashboard 自動下載引擎佔用 40GB 硬碟、反覆彈升級提示，開發者不敢升級",
+ "line": "回覆指 PinK 一個版本就佔 8GB；有人建議改用英文版官網的 Dashboard",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-19T10:10:45+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": true,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "網頁遊戲",
+   "開發與開源"
+  ],
+  "event": [
+   "爭議風波"
+  ],
+  "sector": [
+   "遊戲"
+  ],
+  "org": [
+   "Cocos"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Cocos Dashboard",
+   "PinK",
+   "自動下載",
+   "磁碟空間"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Cocos 中文社區一則帖子（505 瀏覽、2 則回覆）中，開發者抱怨 Cocos Dashboard 在背景自行下載引擎，佔用了 40GB 硬碟空間，下載完成後還一直跳出要求升級的彈窗；他表示手上專案太多、升級影響太大，不敢升級。回覆中有人建議改到英文版 Cocos 網站下載 Dashboard，認為那邊可能還沒有這個升級機制；另一位開發者表示 PinK 一個版本就佔用 8GB，以後會更多。官方未回應。",
+ "dive_html": "對同時維護多個專案、各自鎖定不同引擎版本的團隊，工具鏈自動下載與強推升級會帶來空間與誤升級風險，與 3.8.8 熱更新出問題的帖子可互相印證。建議團隊統一管理引擎版本、關閉自動更新，並定期清理不用的引擎版本。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Cocos 中文社區",
+   "title": "cocosDashBoard偷偷下载引擎占了我40G硬盘",
+   "url": "https://forum.cocos.org/t/topic/178194",
+   "time": "2026-11-19T10:10:45+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "505 瀏覽 / 2 回覆",
+   "family": "Cocos 中文社區",
+   "kind": "community",
+   "region": "中國大陸",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

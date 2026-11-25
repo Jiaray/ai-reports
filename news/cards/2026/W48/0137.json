@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0137",
+ "title": "世衛秘書長：古巴平均壽命從 2020 年 78.8 歲降至 2025 年 74.4 歲，為 1950 年以來首降",
+ "line": "古巴陷嚴重經濟危機，數據還在美國燃料封鎖之前",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T03:07:26+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中南美"
+  ],
+  "country": [
+   "CU",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療",
+   "總體經濟"
+  ],
+  "event": [
+   "數據發布"
+  ],
+  "org": [
+   "世界衛生組織"
+  ],
+  "person": [
+   "譚德塞"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "古巴",
+   "平均壽命",
+   "經濟危機"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Guardian，世界衛生組織秘書長譚德塞於美國時間 11 月 24 日訪問哈瓦那時表示，古巴平均壽命已從 2020 年的 78.8 歲降至 2025 年的 74.4 歲，是 1950 年以來首次下降，古巴正深陷嚴重經濟危機。報導指出，這些數據早於美國的燃料封鎖。",
+ "dive_html": "五年內少了四歲多的平均壽命，降幅之大反映醫療體系與生活條件全面惡化；數據還不含燃料封鎖後的衝擊，實際情況可能更糟。這對古巴長期引以為傲的公衛成就是重大打擊，也可能加劇移民外流。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Guardian Health",
+   "title": "Life expectancy in Cuba falls for first time since 1950 amid economic crisis",
+   "url": "https://www.theguardian.com/world/2026/nov/24/cuba-life-expectancy-decline",
+   "time": "2026-11-25T03:07:26+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0151",
+ "title": "Cocos 論壇提醒：cc.Graphics 每個實例固定配置 65,535 頂點、約 2.25MB，大量遮罩會吃掉上百 MB 記憶體",
+ "line": "用預設 Graphics 做 Mask 的列表或圓形遮罩，100 個就佔 200MB 以上且不釋放；有人改用白色圖片遮罩",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-19T10:57:14+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": true,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "網頁遊戲",
+   "開發與開源"
+  ],
+  "event": [
+   "其他"
+  ],
+  "sector": [
+   "遊戲"
+  ],
+  "org": [
+   "Cocos"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "Cocos Creator",
+   "cc.Graphics",
+   "Mask",
+   "記憶體",
+   "小遊戲"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Cocos 中文社區一則帖子（1,151 瀏覽、5 則回覆）中，發文者 it4040 指出 Cocos 的 cc.Graphics.prototype.activeSubModel 預設寫死配置 65,535 個頂點，每個 Graphics 獨佔約 2.25MB 的緩衝區；專案用了 Mask（列表、圓形遮罩很常見）並採預設的 Graphics 時，100 個就會吃掉 200MB 以上記憶體，而且不會釋放，對小遊戲是大坑。回覆中有人建議圓形遮罩改用 SpriteRenderer 或 shader，發文者表示他們遮的是複雜容器而非單張圖；另一位開發者說當年也踩過，後來把預設遮罩全改成白色圖片、完全不用預設 Graphics。也有人問是否所有版本都如此，帖中沒有明確答案，原文也沒寫出受影響的 Creator 版本，官方未回應。",
+ "dive_html": "小遊戲平台的記憶體上限遠低於原生 App，這類「每個實例預先配置大緩衝」的設計很容易在列表類 UI 中被放大成崩潰。使用 Mask 的團隊可先用效能工具確認 Graphics 實例數，改以圖片模板遮罩（Sprite stencil）替代；在官方說明受影響版本前，各版本都應自行實測。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Cocos 中文社區",
+   "title": "小游戏Graphics 极其占内存，这是一个大坑！",
+   "url": "https://forum.cocos.org/t/topic/178196",
+   "time": "2026-11-19T10:57:14+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "1151 瀏覽 / 5 回覆",
+   "family": "Cocos 中文社區",
+   "kind": "community",
+   "region": "中國大陸",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

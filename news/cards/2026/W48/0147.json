@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0147",
+ "title": "Yes2Games 在 YouTube Playables 累積逾 2,500 萬次遊玩，靠單一 SDK 發行多平台網頁遊戲",
+ "line": "旗下含 Halfbrick 的水果忍者、Jetpack Joyride，遊玩時數逾 220 萬小時",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T19:36:00+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "網頁遊戲"
+  ],
+  "event": [
+   "財報營運"
+  ],
+  "sector": [
+   "遊戲",
+   "網路平台"
+  ],
+  "org": [
+   "Yes2Games",
+   "YouTube",
+   "Halfbrick",
+   "Poki",
+   "CrazyGames"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "YouTube Playables",
+   "HTML5 遊戲",
+   "Yes2SDK",
+   "網頁遊戲發行"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 PocketGamer.biz，Yes2Games 透過 YouTube Playables 發行的遊戲組合累積超過 2,510 萬次遊玩、220 萬小時遊玩時數，包括澳洲開發商 Halfbrick 的《水果忍者》《Jetpack Joyride》《Dan the Man》等作品。公司使用自家 Yes2SDK，讓開發者一次整合就能把遊戲發行到多個合作平台，支援廣告、內購、遊戲存檔與數據分析。Yes2Games 與手遊和 HTML5 開發者合作，把遊戲發行到網頁並變現，提供移植、品質測試與管理平台合作協議等服務；發行夥伴還包括 Poki、CrazyGames、Yandex Games 與 GameDistribution。公司表示，打造 Yes2SDK 是為了讓獨立與第三方工作室不必自建網頁團隊或管理每個移植，也能觸及這些受眾。",
+ "dive_html": "YouTube Playables 正在成為 H5 遊戲的新分發入口，知名手遊 IP 願意移植到網頁，說明這個管道已有一定規模；一次整合多平台的 SDK 降低了發行門檻。Cocos 或 PixiJS 團隊若有輕量作品，可評估透過這類聚合商上架 Playables，但要注意各平台對包體大小與載入時間的限制。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "PocketGamer.biz",
+   "title": "Yes2Games surpasses 25 million plays across its YouTube Playables portfolio",
+   "url": "https://www.pocketgamer.biz/yes2games-surpasses-25-million-plays-across-its-youtube-playables-portfolio/",
+   "time": "2026-11-25T19:36:00+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "PocketGamer.biz",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

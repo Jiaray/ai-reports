@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "next_id": 3,
+ "next_id": 6,
  "items": [
   {
    "id": "E1",
@@ -26,6 +26,45 @@
    "note": "各來源標題差很多，可能併進了不同的事（最高相似度 0.09）",
    "proposed": {},
    "found_at": "2026-11-26T01:54:26+08:00",
+   "resolved_at": null
+  },
+  {
+   "id": "E3",
+   "kind": "merged",
+   "cards": [
+    "2026-W48-0113"
+   ],
+   "found_by": "program",
+   "status": "suspected",
+   "note": "各來源標題差很多，可能併進了不同的事（最高相似度 0.04）",
+   "proposed": {},
+   "found_at": "2026-11-26T02:02:15+08:00",
+   "resolved_at": null
+  },
+  {
+   "id": "E4",
+   "kind": "merged",
+   "cards": [
+    "2026-W48-0115"
+   ],
+   "found_by": "program",
+   "status": "suspected",
+   "note": "各來源標題差很多，可能併進了不同的事（最高相似度 0.12）",
+   "proposed": {},
+   "found_at": "2026-11-26T02:02:15+08:00",
+   "resolved_at": null
+  },
+  {
+   "id": "E5",
+   "kind": "merged",
+   "cards": [
+    "2026-W48-0127"
+   ],
+   "found_by": "program",
+   "status": "suspected",
+   "note": "各來源標題差很多，可能併進了不同的事（最高相似度 0.00）",
+   "proposed": {},
+   "found_at": "2026-11-26T02:02:15+08:00",
    "resolved_at": null
   }
  ]

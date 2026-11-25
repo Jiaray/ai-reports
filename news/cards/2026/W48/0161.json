@@ -1,0 +1,102 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0161",
+ "title": "福岡縣知事：大任町 IR 構想經濟效益未經第三方驗證，縣府無法立即著手實施方針",
+ "line": "大任町欲趕 2027 年 5 月至 11 月的申請窗口，縣府未關門但時程更難趕上",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T13:59:57+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞"
+  ],
+  "country": [
+   "JP"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "政策法規",
+   "聲明評論"
+  ],
+  "sector": [
+   "博奕",
+   "觀光"
+  ],
+  "org": [
+   "福岡縣政府",
+   "大任町"
+  ],
+  "person": [
+   "服部誠太郎",
+   "永原讓二"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "日本 IR",
+   "福岡",
+   "大任町",
+   "綜合度假村"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 GGRAsia 與 Asia Gaming Brief 引述九州朝日放送，福岡縣知事服部誠太郎於 11 月 24 日例行記者會表示，縣府目前無法「立即」著手制定綜合度假村（IR）實施方針，主要顧慮是大任町提交的經濟效益預估沒有第三方專家驗證，且該町尚未與民間開發商直接接觸。依日本 IR 法，市町村不能單獨向國家申請，須由縣府採納並經縣議會同意才能提出區域整備計畫。大任町長永原讓二於 10 月底正式請求縣府盡快準備，以趕上 2027 年 5 月 6 日至 11 月 5 日的申請期；知事表示縣府仍會持續研議是否推動 IR，但這番表態讓大任町更難達成自己設定的時程。",
+ "dive_html": "日本 IR 目前僅大阪推進中，第二波申請窗口被視為其他地方的機會，但地方政府對經濟效益與民間投資意願越來越謹慎。縣府以「未經驗證」為由暫緩，實際上把舉證責任丟回町方，若明年上半年找不到開發商，大任町恐趕不上這一輪。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GGRAsia",
+   "title": "Japan’s Fukuoka not able to start ‘immediately’ on an IR implemention policy: governor",
+   "url": "https://www.ggrasia.com/japans-fukuoka-not-able-to-start-immediately-on-an-ir-implemention-policy-governor",
+   "time": "2026-11-25T13:59:57+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "GGRAsia",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 3
+  },
+  {
+   "name": "Asia Gaming Brief",
+   "title": "Fukuoka says it cannot start work on Oto IR plan immediately, citing unverified economic forecasts",
+   "url": "https://agbrief.com/news/japan/25/11/2026/fukuoka-says-it-cannot-start-work-on-oto-ir-plan-immediately-citing-unverified-economic-forecasts/",
+   "time": "2026-11-25T16:02:43+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "Asia Gaming Brief",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

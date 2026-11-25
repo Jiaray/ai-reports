@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0150",
+ "title": "Cocos 論壇分享：以 GLSL 動態組裝 227 種場景轉場特效，社群已移植到 3.x",
+ "line": "2.x 原版擴充 cc.director.loadScene，3.x 改寫版需開 WebGL2；部分用戶因從 GLSL 官網拉取而需翻牆",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-19T11:56:39+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": true,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "網頁遊戲",
+   "開發與開源"
+  ],
+  "event": [
+   "其他"
+  ],
+  "sector": [
+   "遊戲"
+  ],
+  "org": [
+   "Cocos"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Cocos Creator",
+   "場景轉場",
+   "gl-transitions",
+   "EffectAsset"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Cocos 中文社區一則技術分享帖（1,159 瀏覽、17 則回覆）中，發文者 972579559 分享在 Cocos Creator 2.x 實作的 227 種場景轉場特效：轉場核心程式碼從 GLSL 官網（gl-transitions）拉取，執行時動態組裝成 cc.EffectAsset，因此專案裡看不到 .effect 與 .mtl 檔。用法是擴充 cc.director.loadScene，第三個參數傳入特效名稱與速度，省略名稱則隨機轉場、不傳參數則維持引擎原生行為；另提供 TransitionHelper.skipToShow 用於彈窗開關與節點切換，程式碼放在 Gitee。回覆中，ph1112 回報在 2.4.15 沒有反應，後來確認是需翻牆才能從 GLSL 官網拉取，發文者建議改為自己備份到 CDN 較穩妥；1772527378 表示 2.x 正常並已用 AI 復刻到 3.x；wanggaowan 改寫出 3.x 可用、只適配場景間跳轉的版本，目前只在瀏覽器測過，並提醒瀏覽器使用特效一定要開啟 WebGL2。多人希望提供 GIF 或線上預覽。",
+ "dive_html": "直接套用社群現成的 GLSL 轉場庫，是低成本提升轉場品質的好方法，但執行期從外部網站拉取 shader 在正式產品是風險（網路被擋或來源失效就會壞），上線前應打包或放自家 CDN。3.x 版本仰賴 WebGL2 且只在瀏覽器驗證，小遊戲與原生平台要自行測試相容性。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Cocos 中文社區",
+   "title": "什么?cc.director.loadScene居然有227个转场特效",
+   "url": "https://forum.cocos.org/t/topic/178200",
+   "time": "2026-11-19T11:56:39+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "1159 瀏覽 / 17 回覆",
+   "family": "Cocos 中文社區",
+   "kind": "community",
+   "region": "中國大陸",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

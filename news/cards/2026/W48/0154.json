@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0154",
+ "title": "Cocos Profiler 0.0.3 上架：Creator 3.x 性能診斷外掛，支援微信、抖音小遊戲真機即時連線",
+ "line": "可錄製 CPU 時間軸、查資源引用、抓單幀 Draw Call 與 Shader，並以 Trace 回放偶發問題",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-23T16:21:00+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": true,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "網頁遊戲",
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "遊戲"
+  ],
+  "org": [
+   "Cocos",
+   "Cocos Store"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Cocos Profiler",
+   "性能診斷",
+   "微信小遊戲",
+   "Draw Call",
+   "WebGPU"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Cocos 中文社區一則外掛分享帖（653 瀏覽、13 則回覆）中，開發者 llsansun 介紹自製的 Creator 性能診斷外掛「Cocos Profiler」，已上架 Cocos Store（搜尋「cocos性能全面剖析」），涵蓋 3.0 到 3.8 多個小版本。功能包括：錄製卡頓操作後在 CPU 時間軸查看熱點函式、呼叫次數與呼叫鏈；在記憶體頁查看 JS 堆、紋理與緩衝變化，以及資源的引用計數與持有者；按需抓取下一幀，檢視單一 Draw Call 的幾何、渲染狀態與 Shader；錄製 Trace 保存畫面、互動與場景狀態，對比特定 API（如 Material.setProperty）呼叫前後；在即時預覽中直接選取節點改屬性。Web 支援編輯器內與瀏覽器預覽，0.0.2 起支援 WebGPU 診斷；小遊戲支援微信、抖音診斷構建，也適配支付寶、淘寶。微信真機調試須勾選調試模式、Source Maps 選內聯、不勾 MD5，並使用輸出的 -profiler 副本，手機與電腦在同一區網掃碼連線。帖中有人回報瀏覽器預覽問題，作者在 0.0.3 修正；2.x 版本開發中，作者也回覆支援原生。",
+ "dive_html": "Cocos 官方缺少能在小遊戲真機上做完整剖析的工具，這個外掛直接補上「微信裡卡頓、電腦上重現不了」的痛點，資源引用追查對處理上一則提到的 Graphics 記憶體問題也很實用。仍是 0.0.x 早期版本，正式專案導入前宜先在副本專案試用；2.x 團隊需等後續版本。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Cocos 中文社區",
+   "title": "【插件分享】Cocos Profiler 0.0.3 已上架｜Creator 3.x 性能诊断，支持微信、抖音小游戏",
+   "url": "https://forum.cocos.org/t/topic/178237",
+   "time": "2026-11-23T16:21:00+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "653 瀏覽 / 13 回覆",
+   "family": "Cocos 中文社區",
+   "kind": "community",
+   "region": "中國大陸",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

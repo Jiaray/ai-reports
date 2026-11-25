@@ -1,0 +1,83 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0164",
+ "title": "澳門把終極德州撲克列入獲准經營的賭桌遊戲",
+ "line": "經濟財政司司長Ng Wai Han簽署批示，六家承批公司可自行決定是否上桌",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T11:12:00+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "港澳"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "澳門博彩監察協調局",
+   "澳門經濟財政司"
+  ],
+  "person": [
+   "Ng Wai Han"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "澳門",
+   "終極德州撲克",
+   "賭桌遊戲"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Asia Gaming Brief 引述 Focus Gaming News，澳門政府公報於 11 月 23 日刊登經濟財政司司長Ng Wai Han的批示，依娛樂場幸運博彩法律框架並經博彩監察協調局（博監局）提供意見，批准「終極德州撲克」（Ultimate Texas Hold&#x27;em）成為澳門賭場可經營的賭桌遊戲；Ng Wai Han 6 月轉任經濟財政司前曾領導博監局。批示沒有指定首個場地或開賣日期，六家承批公司可自行決定是否引進。與牌室撲克不同，這個遊戲由莊家坐莊，玩家與荷官的牌比大小；依核准規則，一桌含荷官 6 至 8 個位置、使用一副 52 張牌，可人工或以自動洗牌發牌機洗牌，每手須先下前注與盲注，可另加三條與累進彩金兩種副注，共三輪下注、每輪可加注或棄牌。",
+ "dive_html": "澳門賭桌以百家樂為主，新增撲克類莊家遊戲是承批公司分散客群、吸引非傳統賭客的嘗試，累進彩金副注也為設備商帶來新機。實際上桌比例取決於各家對桌檯坪效的評估，短期影響有限。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Asia Gaming Brief",
+   "title": "Macau adds Ultimate Texas Hold’em to list of authorised casino table games",
+   "url": "https://agbrief.com/news/macau/25/11/2026/macau-adds-ultimate-texas-holdem-to-list-of-authorised-casino-table-games/",
+   "time": "2026-11-25T11:12:00+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "Asia Gaming Brief",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

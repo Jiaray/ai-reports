@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0156",
+ "title": "開發者分享兩個 Cocos Creator 補丁：修 Spine 純數字動畫名報錯、修構建後 [...map.keys()] 失效",
+ "line": "第二個問題對應 cocos-engine#18820，3.8.0 修過、3.8.5 起回退，補丁改 Babel 假設讓展開運算正確編譯",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-23T16:21:02+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": true,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "網頁遊戲",
+   "開發與開源"
+  ],
+  "event": [
+   "版本更新"
+  ],
+  "sector": [
+   "遊戲"
+  ],
+  "org": [
+   "Cocos"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "Cocos Creator",
+   "Spine",
+   "Babel",
+   "展開運算子",
+   "cocos-engine#18820"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Cocos 中文社區一則工具分享帖（371 瀏覽、2 則回覆）中，開發者分享兩個自用的 Creator 補丁腳本（Gitee：TsubasaYeung/cocos_patch）。補丁一處理 Spine 動畫名為純數字（如「0」「1」）時，編輯器 Inspector 下拉枚舉報「0 already defined in Enum」錯誤，只改編輯器顯示名（顯示為 [0]），組件仍保存與播放真實動畫名，已驗證 2.4.10、2.4.15、3.4.x、3.6.2、3.8.0 至 3.8.8。補丁二對應 cocos-engine#18820：web-mobile 等構建產物中，對 Map/Set 迭代器的展開運算被誤編譯為 [].concat(map.keys())，陣列裡只有一個迭代器物件，編輯器預覽正常、構建後才報錯；3.8.0 官方修過、3.8.5 起回退。原因是構建時 BabelTransformer 以 loose=true 編譯，讓 plugin-transform-spread 假設所有可迭代物都是陣列；補丁在 loose 分支寫入 assumptions.iterableIsArray = false，已驗證 3.6.2、3.8.5 至 3.8.8。腳本會自動掃描本機 Creator、支援 dry-run 預覽與自動備份還原，修改的是安裝目錄（補丁二含 app.asar），需重啟編輯器、升級後須重打。回覆中有人表示剛好遇到 Spine 問題，改名重新匯出解決。",
+ "dive_html": "「預覽正常、構建後才壞」是最難查的一類問題，[...map.keys()] 這個回退會讓用到 Map/Set 展開的程式在 web-mobile 與小遊戲上出錯，3.8.5 以後的專案值得全域搜尋一次。修改編輯器安裝目錄的補丁有維護成本，團隊若不想動安裝檔，可改寫成 Array.from(map.keys()) 規避。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Cocos 中文社區",
+   "title": "【工具分享】两个 Creator 补丁：Spine 纯数字动画名报错 & 构建后 [...map.keys()] 失效",
+   "url": "https://forum.cocos.org/t/topic/178238",
+   "time": "2026-11-23T16:21:02+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "371 瀏覽 / 2 回覆",
+   "family": "Cocos 中文社區",
+   "kind": "community",
+   "region": "中國大陸",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

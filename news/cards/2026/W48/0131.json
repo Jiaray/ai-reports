@@ -1,0 +1,80 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0131",
+ "title": "JAMA 試驗：救護車上提早給敗血症病人抗生素，未比急診標準照護降低死亡率",
+ "line": "挑戰「越早用抗生素越好」的直覺，研究型態為臨床試驗",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-26T00:20:01+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "醫療照護"
+  ],
+  "org": [
+   "JAMA"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "敗血症",
+   "抗生素",
+   "院前急救",
+   "臨床試驗"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Medical Xpress，一項發表於《JAMA》的臨床試驗發現，對疑似敗血症病人在救護車上提早給予抗生素，與在急診室接受標準敗血症照護相比，並沒有降低死亡率；而一般認為早期抗生素治療是降低敗血症死亡率的關鍵。原文沒有交代樣本數、進行國家與研究細節。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Medical Xpress",
+   "title": "Trial finds no benefit from prehospital antibiotics for sepsis",
+   "url": "https://medicalxpress.com/news/2026-11-trial-benefit-prehospital-antibiotics-sepsis.html",
+   "time": "2026-11-26T00:20:01+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "Medical Xpress",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

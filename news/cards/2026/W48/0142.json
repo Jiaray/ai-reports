@@ -1,0 +1,89 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0142",
+ "title": "英國創意產業計畫逾 4,500 萬英鎊補助出爐，8 家遊戲工作室入選 Next Wave 試點",
+ "line": "UKRI 5 億英鎊投資的一部分，每案補助 11 萬至 50 萬英鎊、企業須自籌至少三成",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T22:55:50+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "遊戲",
+   "企業經營"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "遊戲",
+   "媒體與娛樂"
+  ],
+  "org": [
+   "英國研究與創新署",
+   "Innovate UK",
+   "Huey Games"
+  ],
+  "person": [
+   "Rob Hewson"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "英國遊戲補助",
+   "Creative Industries Sector Plan",
+   "Next Wave"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 GamesIndustry.biz，英國研究與創新署（UKRI）在創意產業部門計畫中投入 5 億英鎊，其中一筆逾 4,500 萬英鎊的資金由遊戲與其他創意產業共享。Innovate UK 的 Next Wave 試點以 1,000 萬英鎊支持 40 家中小型「創意科技」企業，入選的 8 家遊戲工作室為 Huey Games、Ten24 Media、AUXA、Digital Tactics、Giggle Byte Studios、Locat Technology、Lurtis 與 Parable Studios，每案補助專案成本 11 萬至 50 萬英鎊，企業須自籌至少 30%。Huey Games 執行長 Rob Hewson 表示 AI 即將重塑遊戲製作方式，這筆資金讓公司能在曼徹斯特以全英國團隊為全球工作室開發 AI 輔助工具。資金另包括第二波五個創意產業聚落 3,400 萬英鎊、Great North Creative Corridor 220 萬英鎊，以及延長創意產業政策與證據中心 500 萬英鎊。",
+ "dive_html": "金額對遊戲業本身不大，真正的訊號是補助明顯偏向「AI 輔助製作工具」，英國政府把遊戲當作創意科技實驗場。對台灣遊戲團隊而言，可參考的是政府補助與企業配比的設計，以及 AI 工具化的產業方向。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GamesIndustry.biz",
+   "title": "Gaming sector to benefit from funding package of over £45m as part of Creative Industries Sector Plan",
+   "url": "https://www.gamesindustry.biz/gaming-sector-to-benefit-from-funding-package-of-over-45m-as-part-of-creative-industries-sector-plan",
+   "time": "2026-11-25T22:55:50+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "GamesIndustry.biz",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

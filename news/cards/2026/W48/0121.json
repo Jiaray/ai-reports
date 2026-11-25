@@ -1,0 +1,149 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0121",
+ "title": "索羅門群島與澳洲簽署安全協議，澳洲成為其「首要安全夥伴」，被視為削弱中國在太平洋影響力",
+ "line": "前友邦 2022 年曾與中國簽安全協議；澳媒稱中索協議 2027 年到期後不續約，索國未證實",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T09:51:02+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "大洋洲",
+   "中國大陸"
+  ],
+  "country": [
+   "SB",
+   "AU",
+   "CN"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "國際關係",
+   "國防與軍事"
+  ],
+  "event": [
+   "會談協議"
+  ],
+  "org": [
+   "索羅門群島政府",
+   "澳洲政府"
+  ],
+  "person": [
+   "Matthew Wale",
+   "艾班尼斯"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "索羅門群島",
+   "安全協議",
+   "南太平洋",
+   "中國影響力"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據公視與 Guardian，台灣前友邦索羅門群島總理 Matthew Wale 與澳洲總理艾班尼斯 11 月 25 日在坎培拉簽署雙邊安全協議，將澳洲列為索國的「首要安全夥伴」，未來在警政與邊境事務提供更多協助，並限制與中國的關係。索國沒有軍隊、警力有限，過去動亂時須向外求援；前任政府 2019 年與台灣斷交，2022 年與中國簽安全協議並允許中國派警力駐當地，引發外界擔憂中國設置軍事據點。今年上台的 Wale 改變路線，宣稱索國不再是「區域中不確定與疑慮的來源」。澳媒報導中索協議 2027 年到期後不續約，Wale 表示與中方的協議有保密條款無法評論，已在與中方討論。中國表示各國與太平洋國家發展關係應開放包容、不針對第三方。Al Jazeera、DW、Nikkei、Japan Times 等也有報導。",
+ "dive_html": "這是中國在南太平洋最具指標性的安全布局遭逆轉，澳洲在區域影響力競賽中扳回一城。對台灣而言，索國雖未改變邦交，但遠離北京的趨勢可能為與太平洋島國的實質往來創造空間；中索協議是否到期終止是後續觀察點。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "公視新聞網",
+   "title": "索羅門轉與澳洲簽安協 澳洲成首要安全夥伴",
+   "url": "https://news.pts.org.tw/article/837400",
+   "time": "2026-11-25T21:21:07+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "公視",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian China",
+   "title": "Australia’s security pact with Solomon Islands a blow to China’s influence in the Pacific",
+   "url": "https://www.theguardian.com/world/2026/nov/25/australia-solomon-islands-treaty-blow-to-china-pacific-influence",
+   "time": "2026-11-25T09:51:02+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Solomon Islands signs security deal with Australia",
+   "url": "https://www.aljazeera.com/news/2026/11/25/solomon-islands-signs-security-deal-with-australia",
+   "time": "2026-11-25T21:02:45+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "Australia, Solomon Islands sign sweeping pact seen as countering China",
+   "url": "https://www.dw.com/en/australia-solomon-islands-sign-sweeping-pact-seen-as-countering-china/a-80043646?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-25T18:51:00+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Nikkei Asia",
+   "title": "Solomon Islands chooses Australia as 'primary security partner'",
+   "url": "https://asia.nikkei.com/politics/international-relations/solomon-islands-chooses-australia-as-primary-security-partner",
+   "time": null,
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Japan Times",
+   "title": "Australia edges China out of Pacific foothold in Solomon Islands",
+   "url": "https://www.japantimes.co.jp/news/2026/11/25/asia-pacific/politics/australia-solomon-islands-pact-china/",
+   "time": "2026-11-25T12:29:00+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 6,
+  "regions": 4,
+  "media_weight": 12,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

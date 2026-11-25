@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0140",
+ "title": "查核：網傳「洋流飄帶塞滿街邊垃圾桶」照片有 AI 生成痕跡，訊息部分錯誤",
+ "line": "MyGoPen 偵測到 OpenAI 工具浮水印，背景招牌也與實際不符；另一張傳單照片未檢出 AI 痕跡",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T21:59:21+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "台灣"
+  ],
+  "country": [
+   "TW"
+  ],
+  "taiwan": [
+   "直接"
+  ],
+  "topic": [
+   "社會",
+   "選舉"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "org": [
+   "MyGoPen"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "事實查核",
+   "AI 生成圖片",
+   "選舉假訊息"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "MyGoPen 於 11 月 25 日查核社群流傳的「洋流是垃圾」貼文，貼文附兩張圖，聲稱垃圾桶裡都是候選人的洋流飄帶與傳單。查核發現，第一張街邊垃圾桶塞滿飄帶的圖片以 Google Lens 反搜找不到相同照片，Hive Moderation 判為高度疑似 AI 生成，SynthID Detector 也偵測到浮水印，顯示曾使用 OpenAI 工具製作或編輯；圖中部分飄帶文字難以辨識，背景同時出現「西屯區」告示與台中銀行招牌，比對官方據點後找不到符合外觀的西屯區分行。第二張照片拍的是競選傳單，可在 11 月 19 日的 Threads 貼文找到同款，未檢出 AI 痕跡，但 MyGoPen 提醒未檢出不單獨證明真偽，也不能證明垃圾桶場景屬實。MyGoPen 標題標為「誤導」，結論寫明網傳訊息把不同場景的兩張圖並列，「部分錯誤」。",
+ "dive_html": "",
+ "fields": [
+  {
+   "name": "原始結論",
+   "html": "誤導（內文結論為部分錯誤）"
+  }
+ ],
+ "sources": [
+  {
+   "name": "MyGoPen",
+   "title": "【誤導】網傳洋流飄帶塞滿街邊垃圾桶的照片？AI生成影像！留意社群流傳不實照片",
+   "url": "https://www.mygopen.com/2026/11/dm.html",
+   "time": "2026-11-25T21:59:21+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "MyGoPen",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,105 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0136",
+ "title": "英國第四次全國性態度調查：45 歲以下每月性行為降至 2 次，三分之一 25 歲以下青年從未有性行為",
+ "line": "刊於 Lancet，1990 年時為每月 4 次；少喝酒與數位成癮可能是原因之一",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T07:30:00+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療",
+   "社會"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "The Lancet"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Natsal",
+   "性行為調查",
+   "英國",
+   "年輕世代"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Guardian 報導，刊於《Lancet》的調查顯示英國成人的性行為顯著減少：45 歲以下成人平均每月性行為 2 次，低於 1990 年的 4 次，25 歲以下有三分之一從未有過性行為。報導指出，年輕人飲酒減少與數位成癮可能有助解釋這個下降，許多四、五十歲的女性則因兼顧工作、家庭與社交而疲憊。BBC 也報導，三分之一英國年輕人從未有性行為，但許多人有傳送性訊息與觀看色情內容的經驗；Medical Xpress 同樣指出英國年輕人性行為減少、傳送性訊息卻很普遍。原文沒有交代調查樣本數。",
+ "dive_html": "這項長期追蹤的國家級調查顯示「性衰退」是跨世代趨勢，與日、美等國的觀察一致，背後牽涉社交型態數位化與生活壓力。對公衛而言，性行為減少不等於風險降低，數位性行為帶來的隱私與同意問題反而成為新的教育重點。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Guardian Health",
+   "title": "‘Not about notches on bedpost’: people in Great Britain having less sex – especially young adults",
+   "url": "https://www.theguardian.com/lifeandstyle/2026/nov/24/people-having-less-sex-young-people-survey-great-britain",
+   "time": "2026-11-25T07:30:00+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Medical Xpress",
+   "title": "No sex, please, we're British, but sexting popular",
+   "url": "https://medicalxpress.com/news/2026-11-sex-british-sexting-popular.html",
+   "time": "2026-11-26T00:10:01+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "Medical Xpress",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "BBC Health",
+   "title": "Third of young Brits have never had sex, but many are sexting and watching porn",
+   "url": "https://www.bbc.co.uk/news/articles/cw0737zzn50mo",
+   "time": "2026-11-25T07:38:39+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 1,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

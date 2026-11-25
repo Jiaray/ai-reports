@@ -1,0 +1,89 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0139",
+ "title": "查核：「天下雜誌統計台灣將有 10 萬工程師出走」為錯誤訊息，改編自 2025 年舊謠言",
+ "line": "MyGoPen 指《天下雜誌》已澄清從未撰寫類似文章或發布相關統計",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T22:26:29+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "台灣"
+  ],
+  "country": [
+   "TW"
+  ],
+  "taiwan": [
+   "直接"
+  ],
+  "topic": [
+   "社會"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "sector": [
+   "半導體"
+  ],
+  "org": [
+   "MyGoPen",
+   "天下雜誌",
+   "台積電"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "事實查核",
+   "假訊息",
+   "工程師外移"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "MyGoPen 於 11 月 25 日查核網傳訊息，該訊息聲稱根據《天下雜誌》統計，因台積電赴美、日、德設廠，將有超過 2,300 家半導體上下游企業外移、約 10 萬名工程師出走，含家屬約 20 萬人，台灣經濟將自 2026 年起快速衰退。MyGoPen 查證，傳言改編自 2025 年 7 月流傳的謠言，當時與「李鴻源談碳稅」放在一起，近期以變形版本再度流傳；《天下雜誌》已於 2026 年 1 月 17 日發文澄清，表示從未撰寫類似文章，也沒有發布相關統計。MyGoPen 的結論為「錯誤」：網傳內容為虛構。",
+ "dive_html": "",
+ "fields": [
+  {
+   "name": "原始結論",
+   "html": "錯誤"
+  }
+ ],
+ "sources": [
+  {
+   "name": "MyGoPen",
+   "title": "【錯誤】天下雜誌報導台灣將有10萬工程師出走？虛構內容！2025年舊謠言改編",
+   "url": "https://www.mygopen.com/2026/11/engineer.html",
+   "time": "2026-11-25T22:26:29+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "MyGoPen",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

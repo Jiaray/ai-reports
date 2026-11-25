@@ -1,0 +1,237 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0120",
+ "title": "中共政治局委員、上海市委書記陳吉寧被查，成 20 大後第 4 位落馬的政治局委員",
+ "line": "曾被視為接班梯隊、會晤過馬英九與鄭麗文；外媒指「清華系」官員網絡接連失勢",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T09:31:46+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "政治",
+   "兩岸"
+  ],
+  "event": [
+   "犯罪執法",
+   "人事異動"
+  ],
+  "story": [
+   "陳吉寧被查"
+  ],
+  "org": [
+   "中國共產黨中央紀律檢查委員會",
+   "國務院台灣事務辦公室"
+  ],
+  "person": [
+   "陳吉寧",
+   "習近平",
+   "陳希",
+   "馬英九",
+   "鄭麗文"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "陳吉寧",
+   "反貪",
+   "中共21大",
+   "清華系"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "央視報導，中共中央政治局委員、上海市委書記陳吉寧涉嫌嚴重違紀違法，正接受中央紀委國家監委審查調查。據公視，1964 年出生的陳吉寧曾任清華大學校長、環保部長、北京市長，2022 年 20 大升任政治局委員並接掌被視為晉升常委跳板的上海市委書記；他曾在 2023 年會晤前總統馬英九，今年 4 月也會晤國民黨主席鄭麗文。20 大選出的 24 名政治局委員中，何衛東、張又俠、馬興瑞已先後出局，陳吉寧是第 4 位，Reuters 稱這是 2025 年以來第 4 起。適逢 2027 年中共 21 大，學者研判習近平沒有安排接班人的打算。中央社引述 BBC 中文分析，以習近平清華同窗、前中組部長陳希為核心的「清華系」官員，近兩年多人落馬。國台辦表示將繼續支持雙城論壇舉辦；據 AINews 整理，陳吉寧也被視為中國 AI 治理的重要人物。",
+ "dive_html": "上海市委書記通常是進入常委的跳板，陳吉寧落馬打亂 21 大前的人事布局，也顯示習近平的整肅已擴及原以為安全的技術官僚。對台灣，上海是雙城論壇與兩岸交流窗口，國台辦雖稱論壇照辦，實際交流的對口與節奏可能受影響。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "公視新聞網",
+   "title": "上海書記陳吉寧落馬 政治局第4人遭整肅",
+   "url": "https://news.pts.org.tw/article/837405",
+   "time": "2026-11-25T21:15:40+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "公視",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "公視新聞網",
+   "title": "曾被看好是習近平接班人 陳吉寧涉違紀遭查「意外落馬」",
+   "url": "https://news.pts.org.tw/article/837391",
+   "time": "2026-11-25T20:27:56+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "公視",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "陳吉寧被查　外媒：中國「清華系」官員網絡接連失勢",
+   "url": "https://www.cna.com.tw/news/acn/202611250329.aspx",
+   "time": "2026-11-25T21:46:01+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "陳吉寧被查後  中共中央政研室主任撰文強調全面從嚴治黨",
+   "url": "https://www.cna.com.tw/news/acn/202611250097.aspx",
+   "time": "2026-11-25T12:03:29+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "陳吉寧落馬引發震撼  國台辦：繼續支持雙城論壇舉辦",
+   "url": "https://www.cna.com.tw/news/acn/202611250067.aspx",
+   "time": "2026-11-25T11:22:25+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "陳吉寧落馬　上海市長朱忠明視察基層反貪腐",
+   "url": "https://www.cna.com.tw/news/acn/202611250047.aspx",
+   "time": "2026-11-25T10:41:42+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "The Guardian China",
+   "title": "China investigates politburo star in Xi Jinping’s latest purge",
+   "url": "https://www.theguardian.com/world/2026/nov/25/china-investigates-politburo-chen-jining-xi-jinping-purge",
+   "time": "2026-11-25T09:31:46+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Latent Space AINews",
+   "title": "Industry and Policy: China AI governance shock",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/#item-28",
+   "time": "2026-11-25T12:29:07+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "BBC 中文",
+   "title": "上海市委書記陳吉寧被查 中共高層明日之星意外隕落",
+   "url": "https://www.bbc.com/zhongwen/articles/c83vgd1l5erlo/trad",
+   "time": "2026-11-25T19:14:10+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Nikkei Asia",
+   "title": "China places Shanghai party chief Chen Jining under investigation",
+   "url": "https://asia.nikkei.com/politics/china-places-shanghai-party-chief-chen-jining-under-investigation",
+   "time": null,
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Xi’s graft probe of Shanghai rising star Chen Jining upends traditional path to power in China",
+   "url": "https://www.straitstimes.com/asia/east-asia/xis-graft-probe-of-shanghai-rising-star-upends-traditional-path-to-power-in-china",
+   "time": "2026-11-25T20:46:40+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "China's Politburo shrinks as graft crackdown spreads",
+   "url": "https://www.straitstimes.com/asia/chinas-politburo-shrinks-as-graft-crackdown-spreads",
+   "time": "2026-11-25T15:06:36+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Xi's graft probe of Shanghai rising star upends traditional path to power in China",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPZFRBRjBBclN4REFaZHc4ZTlnbHJ2ZENzczBjZ1BCTVFOTkJXUlpHTTZoZHpEdVhFc0drVUNfYXUwTFhTbVA4ZC1FM0Vsdl85c2dJcGFaZGdxNDc1YUgxaTNUVlRmSTNNNk8xTHMtQWRyOEFZY3g1YlBJS1BDUUJaajZYSFpTaXVERVVrcU95TS1oMU5KTkZBVmx0V19QTldPS3ZyMHJHSmVYcWNhQnZObmJZWUpoNWRuRDBCeg?oc=5",
+   "time": "2026-11-25T20:52:35+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 7,
+  "regions": 4,
+  "media_weight": 16,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

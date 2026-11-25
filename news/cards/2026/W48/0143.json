@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0143",
+ "title": "分析師：AI 推升記憶體價格，主機至少要到 2028 年才可能降價",
+ "line": "S&P Kagan 預估 DRAM 新產能 2028 年才大量開出，資料中心需求若續增仍會吃掉增量",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T21:09:40+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "遊戲",
+   "科技"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "遊戲",
+   "半導體",
+   "硬體與消費電子"
+  ],
+  "org": [
+   "S&P Global Market Intelligence"
+  ],
+  "person": [
+   "Neil Barbour"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "主機價格",
+   "DRAM",
+   "記憶體缺貨",
+   "AI 資料中心"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 GamesIndustry.biz，S&amp;P Global Market Intelligence Kagan 的分析認為，主機廠商至少要到 2028 年才可能調降主機價格，原因是遊戲硬體關鍵零件 DRAM 因 AI 產業需求而價格飆升，而計畫中的產能擴充要到 2028 年才會上線。該公司預估 DRAM 新增產能今年底達 18.4 萬片 12 吋約當晶圓、2027 年底 43.4 萬片，2028 年近乎翻倍至 81.9 萬片，屆時供給才可能追上需求、價格隨之下滑，但並不確定。分析師 Neil Barbour 表示 2028 年只是「以親民價格推出新主機看起來審慎的最早時點」，前提是需求持平且新廠如期上線；記憶體廠擴產主要是為了賺資料中心的錢，若資料中心需求再成長，增加的供給很快就會被吃掉，反之若建置因監管或需求不如預期而停滯，情況才可能改善。",
+ "dive_html": "記憶體成本把主機與 PC 的硬體價格鎖在高檔，等於拉長本世代主機的生命週期，也讓下一代主機的推出時機更難抓；對遊戲業者是「玩家換機慢、裝置規格停滯」的長期假設。台灣記憶體與硬體供應鏈受惠於高價，但消費性電子需求可能因此受壓抑。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GamesIndustry.biz",
+   "title": "Analyst: Don't expect hardware price cuts until at least 2028",
+   "url": "https://www.gamesindustry.biz/analyst-dont-expect-hardware-price-cuts-until-at-least-2028",
+   "time": "2026-11-25T21:09:40+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "GamesIndustry.biz",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0144",
+ "title": "Unreal Engine 6 不再支援 Blueprints 與 Actor Gameplay Framework，改以 Verse 與 Scene Graph 為核心",
+ "line": "Epic 推翻 6 月「新舊並存」承諾，稱 AI 將讓 UE5 專案轉換到 UE6 接近自動化",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T20:43:40+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "遊戲",
+   "開發與開源",
+   "AI"
+  ],
+  "event": [
+   "版本更新"
+  ],
+  "sector": [
+   "遊戲",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Epic Games"
+  ],
+  "person": [
+   "Marcus Wassmer"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "Unreal Engine 6",
+   "Blueprints",
+   "Verse",
+   "Scene Graph"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 GamesIndustry.biz，Epic Games 開發執行副總裁 Marcus Wassmer 在部落格宣布，Unreal Engine 6 將停止支援 Blueprints 與 Actor Gameplay Framework，改用 Verse 語言與 Epic 新的 Scene Graph 框架。他承認這推翻了 Epic 6 月的說法——當時表示 Blueprints 與 Actors 會在 UE6 搶先體驗版與 6.0 中並存，讓 UE 專案可在 Scene Graph 成熟期間逐步升級。Wassmer 表示，隨著 AI 能力進步，Epic 預期 AI 能大幅協助把 UE5 專案轉換到 UE6，甚至完全自動化，讓 UE6 能如期或提前推出，並達成新資料模型、以 Verse 為先的架構、模組化與「AI 可操作性」等設計目標；他稱 AI 處理任何任務的成本每年下降 13 倍，而轉換遊戲的複雜度大致不變，到 UE 6.0 推出時轉換成本應屬溫和。他舉例，兩週前 Epic 試著用 AI 把《要塞英雄》大逃殺的所有 Blueprints 轉成 Verse，原本預期要花數年，現在已有約 300 萬行 Verse 程式碼的可運作原型。",
+ "dive_html": "Blueprints 是 Unreal 視覺化腳本的核心，許多中小團隊與企劃完全依賴它，取消等於要求整個生態系轉向文字語言 Verse，衝擊遠大於一般版本升級。Epic 押注「AI 轉換」來降低遷移成本，但大量轉出的程式碼可讀性與維護性未知；使用 UE5 的團隊在規劃新專案時，應評估是否提早採用 Verse，或留在 UE5 更久。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GamesIndustry.biz",
+   "title": "Unreal Engine 6 won't include Blueprints or Actor Gameplay Framework",
+   "url": "https://www.gamesindustry.biz/unreal-engine-6-wont-include-blueprints-or-actor-gameplay-framework",
+   "time": "2026-11-25T20:43:40+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "GamesIndustry.biz",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

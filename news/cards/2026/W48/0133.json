@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0133",
+ "title": "研究：近三分之一有認知障礙的長者服用可能傷腦的助眠與抗焦慮藥",
+ "line": "水牛城大學研究指這類藥物可能惡化記憶、增加住院與早逝風險",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T19:13:47+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "健康與醫療"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "醫療照護",
+   "醫藥與生技"
+  ],
+  "org": [
+   "紐約州立大學水牛城分校"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "失智症",
+   "鎮靜安眠藥",
+   "長者用藥",
+   "潛在不當用藥"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 ScienceDaily 引述水牛城大學的研究，近三分之一患有失智症或其他認知障礙的長者，服用可能有害的藥物，包括常見的助眠與抗焦慮藥，這些藥物可能惡化腦功能與記憶，並增加住院與早逝的風險。研究人員指出，過去十年雖有進展，但藥物相關傷害仍是健康老化的重大且可預防的威脅。原文擷取部分沒有交代研究型態與樣本數。",
+ "dive_html": "台灣也是高齡社會，長者多重用藥普遍，這類研究提醒家屬與醫師定期檢視長輩用藥清單，尤其是安眠與鎮靜類藥物；但不應自行停藥，需由醫師評估調整。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "ScienceDaily Health",
+   "title": "Common sleep and anxiety drugs could be harming aging brains",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261124055854.htm",
+   "time": "2026-11-25T19:13:47+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "ScienceDaily",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

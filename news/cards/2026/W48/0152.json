@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0152",
+ "title": "Cocos Creator 3.8.8 編輯器熱更新後出現 bug：3.8.99 Spine 動作無法辨識、面板卡載入、super-html 外掛異常",
+ "line": "發文者在 Mac 點了週末推送的升級後 100% 重現，官方人員請其提供可重現檔案",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-24T11:54:52+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": true,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "網頁遊戲",
+   "開發與開源"
+  ],
+  "event": [
+   "版本更新"
+  ],
+  "sector": [
+   "遊戲"
+  ],
+  "org": [
+   "Cocos"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "Cocos Creator 3.8.8",
+   "熱更新",
+   "Spine",
+   "super-html"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Cocos 中文社區一則求助帖（950 瀏覽、5 則回覆）中，使用 Creator 3.8.8 的開發者表示，在 Mac 上點了週六晚上推送的編輯器熱更新後出現多項問題：匯入 3.8.99 版本的 Spine 資源後，編輯器辨識不了其中的動作，重現機率 100%、無報錯；部分層級面板一直轉圈載入不出來；Windows 上則有商城打包外掛（如 super-html）異常，升級後的構建匯出成 resources 包，導致 super-html 識別不到。發文者說升級前一切正常。回覆中有人附截圖指出可能是某項設定，發文者回應升級前同樣設定都正常；官方帳號 Iris 請他提供可重現的 Spine 檔案與外掛問題描述，可私訊。帖中尚無解法。",
+ "dive_html": "編輯器「熱更新」直接改變已在使用中的版本行為，對有交付壓力的團隊風險很高，正在趕專案的 3.8.8 使用者宜暫緩點擊升級推送，或先在副本環境測試。依賴第三方構建外掛（如 super-html）的流程最容易因構建輸出格式變動而壞掉，更新前應確認外掛相容。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Cocos 中文社區",
+   "title": "Cocos.3.8.8 热更后好多 bug!!! 着急,老板要鲨人了",
+   "url": "https://forum.cocos.org/t/topic/178243",
+   "time": "2026-11-24T11:54:52+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "950 瀏覽 / 5 回覆",
+   "family": "Cocos 中文社區",
+   "kind": "community",
+   "region": "中國大陸",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

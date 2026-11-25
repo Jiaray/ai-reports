@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0166",
+ "title": "澳洲 The Star 支付 Austrac 反洗錢罰款首期 6,500 萬澳元，觸發債權人審查事件",
+ "line": "總額 2.6 億澳元的民事罰款分四期、19 個月付清；WhiteHawk 同意延長協商期至 2027 年 6 月",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T15:55:00+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "大洋洲"
+  ],
+  "country": [
+   "AU"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決",
+   "財報營運"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "The Star Entertainment Group",
+   "Austrac",
+   "WhiteHawk Capital Partners"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "The Star",
+   "Austrac",
+   "反洗錢",
+   "罰款"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 InterGame，The Star Entertainment Group 證實已支付 Austrac 罰款的第一期 6,500 萬澳元，其中子公司 The Star Pty 付 4,875 萬、The Star Entertainment Qld 付 1,625 萬。澳洲聯邦法院於 10 月因其違反反洗錢與打擊資恐法，判處 2.6 億澳元民事罰款，源於 Austrac 自 2022 年 11 月提起的民事訴訟；罰款分四期、在 19 個月內付清。因金額龐大，觸發了公司與 WhiteHawk Capital Partners 信貸協議中的「審查事件」，WhiteHawk 已同意把相關協商期延長至 2027 年 6 月 15 日。",
+ "dive_html": "罰款已不只是一次性成本，而是牽動債務契約的財務風險，The Star 的生存仍仰賴債權人寬限。這也是澳洲監管機關對賭場反洗錢缺失從重處罰的延續，亞太其他賭場營運商的合規成本將持續上升。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "InterGame",
+   "title": "The Star begins penalty payments",
+   "url": "https://www.intergameonline.com/land-based-gaming/news/the-star-begins-penalty-payments",
+   "time": "2026-11-25T15:55:00+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "InterGame",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

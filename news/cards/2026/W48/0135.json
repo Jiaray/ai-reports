@@ -1,0 +1,82 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0135",
+ "title": "洛克斐勒大學研究：腸道常見抗體可能是預防大腸癌的天然防線，缺乏者小鼠腫瘤多一倍",
+ "line": "恢復這種抗體後風險隨之消除；屬動物實驗，尚未在人體證實",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T09:09:43+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "醫藥與生技"
+  ],
+  "org": [
+   "洛克斐勒大學"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "大腸癌",
+   "腸道抗體",
+   "小鼠實驗"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 ScienceDaily 引述洛克斐勒大學，研究人員發現腸道中一種常見的抗體可能是對抗大腸癌的強大天然防線：缺乏這種抗體的小鼠長出的腫瘤是正常小鼠的兩倍以上，恢復這種抗體後，增加的風險隨之消失，研究團隊認為這為在癌症發生前預防開啟新方向。這是小鼠實驗，尚未在人體證實；原文擷取部分沒有交代抗體名稱與樣本數。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "ScienceDaily Health",
+   "title": "Scientists discover a hidden gut defense that could prevent colon cancer",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261123005348.htm",
+   "time": "2026-11-25T09:09:43+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "ScienceDaily",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0159",
+ "title": "Cocos Creator 2.4.13 專案適配 iOS 27 SDK：須完成 UIScene 生命週期遷移，開發者分享修改檔",
+ "line": "新 SDK 編譯會報「UIScene life cycle is required」，保留 UIApplicationMain、新增 SceneDelegate 即可解決",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T16:07:55+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": true,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "網頁遊戲",
+   "開發與開源"
+  ],
+  "event": [
+   "其他"
+  ],
+  "sector": [
+   "遊戲"
+  ],
+  "org": [
+   "Cocos",
+   "Apple"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "Cocos Creator 2.4.13",
+   "iOS 27",
+   "UIScene",
+   "SceneDelegate",
+   "Xcode"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Cocos 中文社區一則問題解決帖（162 瀏覽、3 則回覆）中，開發者分享以新版 Xcode 與 iOS 27 SDK 編譯 Cocos Creator 2.4.13 老專案時，啟動出現「Application failed to launch: UIScene life cycle is required for apps built with this SDK」，原因是專案只實作 UIApplicationDelegate、沒有 UISceneDelegate。他的做法是保留原本入口 UIApplicationMain(argc, argv, nil, @&quot;AppController&quot;)，新增 SceneDelegate.h／.mm，把建立 UIWindow、RootViewController、初始化 Cocos AppDelegate 與啟動遊戲移到 scene:willConnectToSession:options:，前後台暫停恢復改由 Scene 生命週期處理；AppController 只保留應用層級 SDK 初始化與終止清理；Info.plist 加入 UIApplicationSceneManifest、採單 Scene 並關閉多視窗；並把 SceneDelegate.mm 加進 Xcode 編譯。他提醒 Creator 2.4.13 重新構建 iOS 工程可能覆蓋這些修改，應另存修改紀錄；暫停與恢復邏輯勿在兩處重複執行；並在真機測試首次啟動、切背景、回前台、鎖屏與退出。修改前後檔案與 patch 已打包附在帖中，作者稱程式碼由 AI 產生、已驗證通過。",
+ "dive_html": "這對仍在維護 2.x 老專案的團隊是硬性門檻：Apple 新 SDK 不再接受沒有 Scene 生命週期的 App，不改就無法上架新版本。官方 2.x 已停止更新，社群的這份遷移步驟與 patch 很有參考價值；重點是把修改納入構建後腳本，避免每次構建被覆蓋。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Cocos 中文社區",
+   "title": "Cocos Creator 2.4.13 适配 iOS 27：UIScene 生命周期迁移",
+   "url": "https://forum.cocos.org/t/topic/178253",
+   "time": "2026-11-25T16:07:55+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "162 瀏覽 / 3 回覆",
+   "family": "Cocos 中文社區",
+   "kind": "community",
+   "region": "中國大陸",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

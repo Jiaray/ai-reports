@@ -1,0 +1,173 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0112",
+ "title": "沈伯洋取消仁愛路選前之夜並拆除舞台，賴清德稱「睿智且勇敢」",
+ "line": "因活動封路造成交通不便引發議論，競辦先致歉，再宣布不辦市民之夜、改研議其他形式",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T23:17:28+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "台灣"
+  ],
+  "country": [
+   "TW"
+  ],
+  "taiwan": [
+   "直接"
+  ],
+  "topic": [
+   "選舉"
+  ],
+  "event": [
+   "爭議風波"
+  ],
+  "story": [
+   "2026九合一選舉"
+  ],
+  "org": [
+   "民主進步黨",
+   "台北市政府"
+  ],
+  "person": [
+   "沈伯洋",
+   "賴清德",
+   "蔡英文"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "九合一選舉",
+   "台北市長",
+   "選前之夜",
+   "交通管制"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據中央社，民進黨台北市長候選人沈伯洋原定 11 月 27 日晚間在仁愛路四段近國父紀念館舉辦「市民之夜」（即選前之夜），警方 23 日公布交管措施，自 25 日上午起管制仁愛路部分車道與逸仙路，引發外界議論。競選辦公室 25 日晚間先就交管造成通勤民眾與住戶不便致歉；沈伯洋晚間 10 時 41 分發布影片表示，因凱達格蘭大道、市府路、北平東路都被借走、市府廣場不能借才選在仁愛路，與市府多次開會仍無法讓交通順暢，經與團隊開會決定立即拆除舞台、不辦選前之夜，後續以其他形式另議。總統賴清德在臉書稱這是「最睿智且最勇敢的決定」，呼籲支持者保持冷靜；前總統蔡英文表示隔晚會參加沈伯洋的直播陪伴支持者。PTT 八卦板也有多篇相關討論。",
+ "dive_html": "選前之夜是動員與聲量的關鍵場合，選前兩天主動取消，顯示陣營評估交通民怨的傷害大於造勢效益；藍綠兩方對場地借用的說法，可能成為最後幾天的攻防點。實際影響要看取消後改用的直播等形式能否維持支持者的投票熱度。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "沈伯洋取消選前市民之夜　賴總統：睿智勇敢決定",
+   "url": "https://www.cna.com.tw/news/aipl/202611250341.aspx",
+   "time": "2026-11-25T23:19:30+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "沈伯洋取消仁愛路選前之夜　舞台晚間拆除、活動重新規劃",
+   "url": "https://www.cna.com.tw/news/aipl/202611250340.aspx",
+   "time": "2026-11-25T23:17:28+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "PTT Gossiping",
+   "title": "[新聞] 沈伯洋取消選前之夜 蔡康永秒發文：以為",
+   "url": "https://www.ptt.cc/bbs/Gossiping/M.1795625166.A.A72.html",
+   "time": null,
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "55",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "PTT Gossiping",
+   "title": "Re: [新聞] 說溜嘴了？沈伯洋稱選前之夜怕返鄉投票",
+   "url": "https://www.ptt.cc/bbs/Gossiping/M.1795626261.A.5A3.html",
+   "time": null,
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "22",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "PTT Gossiping",
+   "title": "Re: [爆卦] 沈伯洋：取消市民之夜",
+   "url": "https://www.ptt.cc/bbs/Gossiping/M.1795626547.A.0FB.html",
+   "time": null,
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "18",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "PTT Gossiping",
+   "title": "Re: [爆卦] 沈伯洋：取消市民之夜",
+   "url": "https://www.ptt.cc/bbs/Gossiping/M.1795627113.A.4F6.html",
+   "time": null,
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "7",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "PTT Gossiping",
+   "title": "Re: [新聞] 沈伯洋取消選前之夜 蔡康永秒發文：以為",
+   "url": "https://www.ptt.cc/bbs/Gossiping/M.1795627058.A.CD2.html",
+   "time": null,
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "5",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "PTT Gossiping",
+   "title": "Re: [爆卦] 沈伯洋：取消市民之夜",
+   "url": "https://www.ptt.cc/bbs/Gossiping/M.1795627397.A.827.html",
+   "time": null,
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "3",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 55,
+   "v2ex": 0
+  }
+ }
+}

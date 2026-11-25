@@ -1,0 +1,89 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0149",
+ "title": "英國開發者可申請 Google Play 2.6 億英鎊集體訴訟和解金，期限至 2027 年 3 月 24 日",
+ "line": "訴訟主張 Google Play 抽成 30% 過高、違反競爭法；2018 年 8 月至 2026 年 7 月付過佣金者可申請",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T02:04:00+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "遊戲",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "sector": [
+   "遊戲",
+   "網路平台"
+  ],
+  "org": [
+   "Google",
+   "Google Play"
+  ],
+  "person": [
+   "Barry Rodger"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Google Play 抽成",
+   "集體訴訟",
+   "和解金",
+   "平台分潤"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 PocketGamer.biz，英國手遊開發商與發行商現在可申請分配 Google 2.6 億英鎊（約 3.41 億美元）集體訴訟和解金。案件主張 Google Play 對交易收取 30% 佣金過高、違反競爭法，Google 未經審判即和解，審判庭於 9 月 16 日核准。符合資格者須是英國的應用程式開發者，在 2018 年 8 月 22 日至 2026 年 7 月 31 日間透過 Google Play 銷售 App、內購或訂閱並支付佣金；英國企業與個人可在 2027 年 3 月 24 日前申請，符合資格的公司最少可獲 200 英鎊，依所付佣金計算。遊戲公司以外，健身、教育軟體、新聞出版等 App 業者也可申請。促成和解的 Barry Rodger 教授提醒，收到關於 Google 和解的電子郵件不是垃圾信。",
+ "dive_html": "金額攤到每家開發者可能不多，但這是平台抽成被司法認定可挑戰的又一案例，與各地對 App Store、Google Play 分潤的反壟斷壓力一致。非英國開發者無法申請，但可留意所在地是否有類似訴訟；收到「和解金」通知信時也要提防假冒的釣魚信。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "PocketGamer.biz",
+   "title": "UK Developers can now claim part of £260m Google settlement",
+   "url": "https://www.pocketgamer.biz/uk-developers-can-now-claim-part-of-260m-google-settlement/",
+   "time": "2026-11-25T02:04:00+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "PocketGamer.biz",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

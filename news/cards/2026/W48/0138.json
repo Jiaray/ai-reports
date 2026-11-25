@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0138",
+ "title": "馬拉威外匯短缺導致醫院缺藥，貧困病人被迫自費買基本醫療用品",
+ "line": "USAID 被川普政府關閉後，當地診所資金也受影響",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T19:00:45+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "非洲"
+  ],
+  "country": [
+   "MW",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療"
+  ],
+  "event": [
+   "公衛事件"
+  ],
+  "sector": [
+   "醫療照護"
+  ],
+  "org": [
+   "美國國際開發署"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "馬拉威",
+   "缺藥",
+   "外匯短缺",
+   "USAID"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Guardian 報導，馬拉威因外匯短缺使醫療供應陷入癱瘓，醫院藥品短缺，貧困的農村家庭被迫自行張羅基本醫療用品，有病人形容「唯一免費的只有床」。報導以 Salima 區醫院為例，一名住院兩天的病人仍在等醫院藥局無法提供的止痛藥；當地一處衛生所的哺乳宣導壁畫上印有 USAID 標誌，該機構過去資助馬拉威的診所，直到川普政府關閉它。",
+ "dive_html": "外匯短缺讓仰賴進口藥品的國家醫療體系最先崩潰，加上國際援助大幅縮減，最貧困的人首當其衝。這是 USAID 關閉後的具體衝擊樣本之一，也說明援外資金退場對全球衛生的連鎖影響。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Guardian Health",
+   "title": "‘The only free thing is a bed’: hospital patients forced to pay as Malawi runs out of medicines",
+   "url": "https://www.theguardian.com/global-development/2026/nov/25/malawi-healthcare-hospitals-drug-shortage-medicines",
+   "time": "2026-11-25T19:00:45+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

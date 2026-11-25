@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0160",
+ "title": "菲律賓 DigiPlus 將提告追回巴西牌照費等投資，仍維持海外擴張計畫",
+ "line": "巴西禁止線上博奕與運動投注後，業者禁制令遭最高法院擱置，DigiPlus 稱牌照費占在巴西投入的大宗",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T14:25:45+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞",
+   "中南美"
+  ],
+  "country": [
+   "PH",
+   "BR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "企業經營"
+  ],
+  "event": [
+   "訴訟判決",
+   "財報營運"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "DigiPlus Interactive",
+   "巴西聯邦最高法院",
+   "菲律賓證交所"
+  ],
+  "person": [
+   "Celeste Jovenir"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "DigiPlus",
+   "巴西博奕禁令",
+   "牌照費"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 GGRAsia，菲律賓上市線上博奕業者 DigiPlus Interactive 投資人關係副總裁 Celeste Jovenir 於 11 月 25 日在菲律賓證交所的 PSE STAR 投資人說明會表示，巴西決定禁止線上博奕與運動投注後，公司將持續提告追回在巴西的投資，特別是進入當地市場所付的牌照費，牌照費占 DigiPlus 在巴西投入資本的大宗。她指出，巴西聯邦最高法院實質上擱置了業者挑戰禁令所申請的禁制令，國會也延長了禁止線上投注的臨時措施。DigiPlus 自 2025 年 1 月起取得在巴西經營運動投注與線上遊戲的授權，去年 9 月上線，之後暫停營運。儘管遭遇監管挫折，公司仍將繼續國際擴張，但海外業務不會占集團資本支出的重要部分。",
+ "dive_html": "巴西從開放到全面禁止只隔一年多，讓已繳牌照費的外國業者血本無歸，是監管風險急轉的教科書案例；提告求償能否成功仍看巴西國會 3 月的表決。DigiPlus 降低海外資本支出比重，也反映亞洲業者對新興市場政策穩定度的戒心。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GGRAsia",
+   "title": "DigiPlus seeks recovery of Brazil investment via legal action, maintains overseas expansion plans",
+   "url": "https://www.ggrasia.com/digiplus-seeks-recovery-of-brazil-investment-via-legal-action-maintains-overseas-expansion-plans",
+   "time": "2026-11-25T14:25:45+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "GGRAsia",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0162",
+ "title": "標普把新濠國際展望調為負向，指新濠博亞恢復配息可能延至 2027 年下半年後",
+ "line": "澳門賭收第三季轉為年減 4%，消費疲弱與資本管制壓抑營收，庫藏股可能暫停以優先還債",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T09:57:32+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "港澳"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "企業經營"
+  ],
+  "event": [
+   "財報營運"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "新濠博亞娛樂",
+   "新濠國際發展",
+   "S&P Global Ratings"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "新濠",
+   "澳門賭收",
+   "信評展望",
+   "配息"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 GGRAsia，S&amp;P Global Ratings 於 11 月 24 日把新濠博亞娛樂香港上市母公司新濠國際發展的評等展望由「穩定」調為「負向」，旗下澳門營運子公司新濠博亞（澳門）與新濠影匯也同步調降展望。標普分析師指出，若博彩需求持續疲弱，新濠博亞恢復配息可能延至 2027 年下半年或更晚，庫藏股計畫也可能暫停以優先償債；疲弱的消費情緒與更嚴的資本管制正壓抑集團博彩收入。標普指出澳門博彩毛收入（GGR）上半年年增 7%，第三季轉為年減 4%。新濠博亞最近一次配息是 2020 年 3 月；截至 9 月 30 日，總債務為 69.8 億美元。集團在澳門、馬尼拉等地經營賭場。",
+ "dive_html": "信評機構把展望轉負，意味債務負擔仍重的新濠在澳門復甦放緩時最脆弱，配息恢復一再延後也會壓抑股價。澳門 GGR 由正轉負，反映中國資本管制與消費疲弱的雙重壓力，六家承批公司中財務槓桿較高者首當其衝。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GGRAsia",
+   "title": "Melco Resorts dividend comeback maybe pushed past 2027 as focuses on paying debt: S&P Global",
+   "url": "https://www.ggrasia.com/melco-resorts-dividend-comeback-maybe-pushed-past-2027-as-focuses-on-paying-debt-sp-global",
+   "time": "2026-11-25T09:57:32+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "GGRAsia",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0169",
+ "title": "澳門力報：里昂下調澳門賭收預測，明年料 2,383 億澳門元",
+ "line": "券商里昂調低澳門博彩毛收入預估",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T14:29:23+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "港澳"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "里昂證券"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "澳門賭收",
+   "里昂",
+   "GGR 預測"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據澳門力報（exmoo.com）標題，券商里昂下調澳門博彩收入預測，預估明年澳門賭收為 2,383 億澳門元。報導沒有更多細節可供引用。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Google News 澳門博彩",
+   "title": "里昂下調澳門賭收預測 明年料2,383億澳門元",
+   "url": "https://news.google.com/rss/articles/CBMiU0FVX3lxTE11QjVob0EzeXk4SWpKNlBHVXNuWWZqVmd3OUxzaXBBMVdYLWpBeFY2T05UdUpOSm1jVkY5QW5HaEI1TFY4TTlLYWZaa2FBQ1FOZUlv?oc=5",
+   "time": "2026-11-25T14:29:23+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "澳門媒體（Google News）",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

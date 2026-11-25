@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0170",
+ "title": "日本新潟簡易法院法官Akifumi Morimoto因線上賭場賭博遭彈劾法院罷免",
+ "line": "彈劾法院認定其行為「損害公眾對司法的信任」",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T22:40:00+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞"
+  ],
+  "country": [
+   "JP"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "犯罪與司法"
+  ],
+  "event": [
+   "人事異動",
+   "犯罪執法"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "日本彈劾法院",
+   "新潟簡易法院"
+  ],
+  "person": [
+   "Akifumi Morimoto"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "線上賭場",
+   "日本",
+   "法官罷免"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Japan Times 報導，日本彈劾法院因線上賭場賭博罷免新潟簡易法院 52 歲法官Akifumi Morimoto，認定他「損害了公眾對司法的信任」。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Japan Times",
+   "title": "Japanese judge dismissed over online casino gambling",
+   "url": "https://www.japantimes.co.jp/news/2026/11/25/japan/judge-casino-gambling/",
+   "time": "2026-11-25T22:40:00+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

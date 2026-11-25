@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0134",
+ "title": "史丹佛研究以 AI 分析數千名兒童腦部影像，發現 ADHD 與焦慮背後的三種腦部類型",
+ "line": "這些生物模式不完全對應傳統診斷，且可能在確診前就出現，有望更早偵測與個人化治療",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T12:11:59+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療",
+   "AI"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "醫療照護"
+  ],
+  "org": [
+   "史丹佛大學醫學院"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "ADHD",
+   "焦慮症",
+   "腦部影像",
+   "兒童心理健康"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 ScienceDaily 引述史丹佛醫學院，一項由史丹佛主導的研究以 AI 分析數千名兒童的腦部掃描，找出三種潛藏在兒童注意力不足過動症（ADHD）與焦慮背後的不同腦部類型，這些類型並不完全符合傳統的診斷分類。研究指出這些隱藏的生物模式可能在確診前就已出現，未來可能有助於更早偵測與更有效的個人化治療。原文擷取部分沒有交代研究型態細節與確切樣本數。",
+ "dive_html": "以腦影像為基礎的分類，可能讓兒童心理健康從「症狀清單」走向生物標記，但目前仍屬研究階段，臨床可用的診斷工具還需在不同族群驗證。家長不必因此急著帶孩子做腦部掃描。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "ScienceDaily Health",
+   "title": "Stanford scientists discover 3 hidden brain types behind ADHD and anxiety",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261124055713.htm",
+   "time": "2026-11-25T12:11:59+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "ScienceDaily",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

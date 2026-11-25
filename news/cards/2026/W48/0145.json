@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0145",
+ "title": "前 Respawn、Infinity Ward 老將創立的 Gravity Well 募資失敗，工作室進入休眠",
+ "line": "以 UE5 開發未公布原創 IP 的遠距工作室，上月已裁員，創辦人仍看好該作",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T17:15:50+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "遊戲",
+   "企業經營"
+  ],
+  "event": [
+   "裁員重組"
+  ],
+  "sector": [
+   "遊戲"
+  ],
+  "org": [
+   "Gravity Well"
+  ],
+  "person": [
+   "Drew McCoy",
+   "Jon Shiring",
+   "Mon Saetern"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Gravity Well",
+   "遊戲工作室關閉",
+   "募資"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 GamesIndustry.biz，由 Respawn 與 Infinity Ward 老將創立的 Gravity Well 因募資失敗進入休眠。工作室今年稍早失去資金，上月裁員，當時表示「前途未卜」、較小的團隊將繼續「為生存奮戰」；它正以 Unreal Engine 5 開發一款未公布的原創 IP 遊戲。執行長 Drew McCoy、技術長 Jon Shiring 與營運長 Mon Saetern 在聯合聲明中表示，不確定下一步，但仍相信正在打造的 IP 與遊戲，並向徵才主管強力推薦團隊成員。Gravity Well 由 McCoy 與 Shiring 於 2020 年疫情期間以「遠距原生」模式創立，當時強調維持小型 AAA 團隊、讓員工有主人翁意識，並重視保有工作室與 IP 的控制權。",
+ "dive_html": "資深團隊、原創 IP 加上重視控制權的募資策略，在資金緊縮的市場中反而成為劣勢——願意給錢又不要控制權的投資人越來越少。這是近兩年 AAA 新創工作室常見的結局，也說明原創 IP 從立項到出資的門檻持續升高。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GamesIndustry.biz",
+   "title": "Gravity Well enters hibernation after failing to secure funding",
+   "url": "https://www.gamesindustry.biz/gravity-well-enters-hibernation-after-failing-to-secure-funding",
+   "time": "2026-11-25T17:15:50+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "GamesIndustry.biz",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

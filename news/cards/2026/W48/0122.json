@@ -1,0 +1,179 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0122",
+ "title": "華為在美刑事案 12 項罪名中 10 項成立，含竊取商業機密與違反伊朗制裁，組織犯罪共謀無罪",
+ "line": "布魯克林聯邦陪審團裁決，預計 2027 年 9 月宣判；華為將上訴",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T04:36:38+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "中國大陸"
+  ],
+  "country": [
+   "US",
+   "CN",
+   "IR"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "犯罪與司法",
+   "科技"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "sector": [
+   "電信",
+   "半導體"
+  ],
+  "org": [
+   "華為",
+   "美國司法部",
+   "T-Mobile",
+   "Cisco"
+  ],
+  "person": [
+   "Todd Blanche"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "華為",
+   "商業機密",
+   "伊朗制裁",
+   "銀行詐欺"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Guardian 與公視，紐約布魯克林聯邦陪審團於美國時間 11 月 24 日裁定，中國電信設備商華為及旗下 3 家子公司在 12 項刑事指控中有 10 項成立，包括銀行詐欺、電信詐欺、洗錢、共謀竊取商業機密與共謀詐欺美國、違反對伊朗制裁；最核心的組織犯罪（敲詐勒索）共謀與妨礙司法共謀則判無罪。檢方指控華為 20 年來隱瞞與伊朗等受制裁國家往來，並多次竊取思科、摩托羅拉、T-Mobile 等對手技術，手段包括潛入展場拆解偷拍設備電路。判決對象是公司而非個人，法院預計 2027 年 9 月宣判，可能包括罰金、沒收與賠償。美國司法部長 Todd Blanche 表示「沒有人或公司凌駕法律之上」；華為律師稱結果喜憂參半，組織犯罪無罪顯示公司並非以非法企業運作，將上訴。案件歷經近 8 年，起源於 2018 年孟晚舟在加拿大遭拘留。",
+ "dive_html": "有罪判決為美方持續限制華為提供了司法依據，但組織犯罪無罪讓華為得以主張「個別員工行為」，罰金規模可能低於外界預期。在美中剛達成川習會共識之際定罪，北京如何回應、是否牽動貿易談判，是後續觀察點。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "公視新聞網",
+   "title": "華為在美10罪名陪審團裁定成立 法院預計明年9月宣判",
+   "url": "https://news.pts.org.tw/article/837399",
+   "time": "2026-11-25T21:26:48+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "公視",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian China",
+   "title": "China’s Huawei convicted of stealing US trade secrets",
+   "url": "https://www.theguardian.com/technology/2026/nov/24/huawei-china-convicted-deceiving-banks-stealing-us-trade-secrets",
+   "time": "2026-11-25T05:11:44+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Hacker News",
+   "title": "U.S. jury convicts Huawei of fraud, Iran sanctions violations",
+   "url": "https://www.upi.com/Top_News/US/2026/11/25/jury-convicts-Huawei/3151795587204/",
+   "time": "2026-11-25T22:12:29+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "135 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50642496",
+   "family": "upi.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Ars Technica",
+   "title": "Guilty: Huawei faces steep penalties for stealing T-Mobile, Cisco trade secrets",
+   "url": "https://arstechnica.com/tech-policy/2026/11/jury-convicts-huawei-of-stealing-us-trade-secrets-evading-iran-sanctions/",
+   "time": "2026-11-26T00:33:45+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "11 comments",
+   "family": "Ars Technica",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "BBC World",
+   "title": "Huawei found guilty of stealing US trade secrets but acquitted of racketeering",
+   "url": "https://www.bbc.co.uk/news/articles/cmy49ngydqzpo",
+   "time": "2026-11-25T18:52:09+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "US court convicts Huawei of theft: A history of Chinese firm’s global woes",
+   "url": "https://www.aljazeera.com/news/2026/11/25/us-court-convicts-huawei-of-theft-a-history-of-chinese-firms-global-woes",
+   "time": "2026-11-25T21:37:51+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "U.S. jury convicts Huawei in a criminal trial over fraud and trade secrets",
+   "url": "https://www.cnbc.com/2026/11/25/huawei-fraud-trade-trial.html",
+   "time": "2026-11-25T10:43:33+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "SCMP China",
+   "title": "Huawei guilty on 10 of 12 counts after months-long battle in US courtroom",
+   "url": "https://www.scmp.com/news/us/article/3375673/huawei-guilty-10-12-counts-after-2-month-battle-us-courtroom",
+   "time": "2026-11-25T04:36:38+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "SCMP",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 7,
+  "regions": 5,
+  "media_weight": 14,
+  "community": {
+   "hn": 135,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

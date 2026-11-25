@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0157",
+ "title": "Cocos Creator 3.8.8 只能產出 x86 的 iOS 模擬器版本，無法給 arm64 模擬器測試",
+ "line": "回覆建議用 arm64-to-sim 工具處理，或指 Cocos 4 已支援 arm64 模擬器",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-23T17:49:19+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": true,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "網頁遊戲",
+   "開發與開源"
+  ],
+  "event": [
+   "其他"
+  ],
+  "sector": [
+   "遊戲"
+  ],
+  "org": [
+   "Cocos",
+   "Apple"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Cocos Creator 3.8.8",
+   "iOS 模擬器",
+   "arm64",
+   "Apple Silicon"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Cocos 中文社區一則求助帖（352 瀏覽、2 則回覆）中，開發者表示甲方要求提供 arm64 的 iOS 模擬器版本測試，但 Creator 3.8.8 只能產出 x86 的模擬器版本，arm64 只能發布到真機；他借助 AI（glm5.3-flash）排查，AI 提出要修改二進位函式庫檔案，被他制止。回覆中，一位開發者表示目前用 arm64-to-sim 工具處理；另一位表示 Cocos 4 支援 arm64 模擬器，可直接用 PinK 加 Cocos 4 開啟工程，或讓 AI 把相關改動移植到 3.8.8 環境，不需修改二進位。官方未回應。",
+ "dive_html": "Apple Silicon 的 Mac 已是主流，模擬器只有 x86 版本代表要靠 Rosetta 或無法執行，對需要給客戶在模擬器驗收的外包團隊是實際障礙。短期可用 arm64-to-sim 改寫函式庫的架構標記，長期則是 3.x 專案升級到 4.x 的又一個理由。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Cocos 中文社區",
+   "title": "cocos creator 3.8.8不支持编译到IOS arm64的模拟器版本，这要怎么解决？",
+   "url": "https://forum.cocos.org/t/topic/178239",
+   "time": "2026-11-23T17:49:19+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "352 瀏覽 / 2 回覆",
+   "family": "Cocos 中文社區",
+   "kind": "community",
+   "region": "中國大陸",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

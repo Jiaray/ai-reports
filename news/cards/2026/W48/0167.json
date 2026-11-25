@@ -1,0 +1,99 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0167",
+ "title": "馬來西亞通訊委員會控告 Google 兩案，指 YouTube 未處理非法博奕等有害內容，各求償 3 億令吉",
+ "line": "MCMC 稱已處理逾 5 萬則源自 Google 系統性失職的有害內容",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T15:55:14+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞"
+  ],
+  "country": [
+   "MY"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "科技"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "sector": [
+   "網路平台",
+   "博奕"
+  ],
+  "org": [
+   "馬來西亞通訊及多媒體委員會",
+   "Google",
+   "YouTube"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "馬來西亞",
+   "Google",
+   "YouTube",
+   "非法博奕內容"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Casino.org News，馬來西亞通訊及多媒體委員會（MCMC）於 11 月 25 日對 Google 提起兩起訴訟，指控其未採取足夠措施保護馬來西亞用戶免受包括線上博奕在內的非法內容影響，每案求償 3 億令吉（約 7,280 萬美元），包括一般、加重與懲罰性賠償。MCMC 聲明表示，求償是為彌補因 Google「系統性失職」而處理逾 5 萬則有害網路內容所耗費的大量資源與人力，並確保社群平台安全。MCMC 指控 Google 讓線上博奕內容可在馬來西亞透過 YouTube 存取。馬來西亞只有雲頂高原的一間賭場，開放外國人與非穆斯林國民，線上博奕不合法。Straits Times 也報導此事，稱監管機關以數據說明平台上有害內容的規模與處理延誤，標題以新幣計求償 1.88 億。",
+ "dive_html": "政府直接向平台求償「執法成本」是較少見的做法，若成功將給其他禁止線上博奕的國家一個施壓範本，平台對博奕推廣內容的審查可能更嚴。對以 YouTube 投放博奕或遊戲廣告的業者，東南亞市場的內容合規風險升高。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Casino.org News",
+   "title": "Malaysia Sues Google Over Illegal Gambling Content, Seeks $146M",
+   "url": "https://www.casino.org/news/malaysia-sues-google-over-illegal-gambling-content/",
+   "time": "2026-11-26T00:31:11+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "0 comments",
+   "family": "Casino.org",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Malaysia’s communications regulator seeks $188m in damages from Google over harmful YouTube content",
+   "url": "https://www.straitstimes.com/asia/se-asia/malaysias-communications-regulator-seeks-188m-in-damages-from-google-over-harmful-youtube-content",
+   "time": "2026-11-25T15:55:14+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

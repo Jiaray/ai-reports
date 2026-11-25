@@ -1,0 +1,96 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0165",
+ "title": "歐洲賭場協會報告：非法業者拿走歐盟線上博奕七成市場，三年 GGR 達 2,248 億歐元",
+ "line": "各國三年少收 563 億歐元稅收；合法業者市占由 2023 年 33% 降到 2025 年 28%",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T16:28:00+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "歐洲賭場協會",
+   "Gaming Compliance International"
+  ],
+  "person": [
+   "Erwin Van Lambaart"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "非法博奕",
+   "歐盟線上博奕",
+   "GGR",
+   "稅收流失"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Casino.org News 與 InterGame，歐洲賭場協會（ECA）委託 Gaming Compliance International（GCI）完成的報告估計，2023 至 2025 年非法線上博奕業者在歐盟 27 國拿走約 70% 的線上市場，博奕毛收入（GGR）達 2,248 億歐元，是合法業者 959 億歐元的兩倍以上，三年整體市場估計 3,208 億歐元，各國政府因此少收約 563 億歐元的潛在博奕稅。三年間市場年 GGR 成長 497 億歐元，其中 390 億歐元、約 78% 的成長被非法業者拿走；到 2025 年，非法業者每年取得 916 億歐元，相當於每天逾 2.5 億歐元，市占約 72%，合法業者市占則由 2023 年的 33% 降至 2025 年的 28%。ECA 主席 Erwin Van Lambaart 稱這可能是「歐洲史上最大的搶案」，呼籲對破壞各國監管制度的業者與網絡採取行動。",
+ "dive_html": "報告由陸上賭場業者的協會委託，有其立場，估算方法也難以獨立驗證，但與奧地利、愛爾蘭同期推動開放執照的理由一致：高稅與嚴格限制把玩家推向黑市。這組數字很可能被各國業者用來遊說降稅或加強封鎖，監管路線之爭會更激烈。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "InterGame",
+   "title": "Illegal operators took 70% of EU27 online GGR: report",
+   "url": "https://www.intergameonline.com/igaming/news/illegal-operators-took-70-of-eu27-online-ggr-report",
+   "time": "2026-11-25T16:28:00+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "InterGame",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "Casino.org News",
+   "title": "Study: Illegal Gambling Accounts for 70% of European Online Market",
+   "url": "https://www.casino.org/news/illegal-gambling-accounts-for-70-of-european-online-market/",
+   "time": "2026-11-25T23:10:38+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "0 comments",
+   "family": "Casino.org",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

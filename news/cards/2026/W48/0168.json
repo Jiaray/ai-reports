@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0168",
+ "title": "美國司法部向國會表示正追查境外網站對少棒等青少年賽事的非法投注",
+ "line": "回應議員 Kevin Kiley 對少棒世界大賽遭大量下注的質詢，承諾持續調查起訴",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T23:16:40+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "犯罪與司法"
+  ],
+  "event": [
+   "犯罪執法"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "美國司法部",
+   "美國眾議院",
+   "少棒聯盟"
+  ],
+  "person": [
+   "Kevin Kiley",
+   "Ronald Lampard",
+   "Todd Blanche"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "非法運動投注",
+   "少棒世界大賽",
+   "境外博彩網站"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Casino.org News 引述 USA TODAY，美國司法部回覆國會，表示正積極調查境外網站對包括少棒聯盟在內的青少年體育賽事的投注。加州無黨籍眾議員 Kevin Kiley 在 9 月致函司法部長 Todd Blanche，要求聯邦調查境外博彩網站，起因是報導指少棒世界大賽遭大量下注，他認為這是「對兒童的系統性剝削」。司法部副助理部長 Ronald Lampard 在回函中表示，司法部嚴肅看待非法博彩業務及其造成的傷害，正努力處理，並「知道」這些非法線上博彩業者的存在，將持續調查與起訴非法賭博案件。原文沒有提到具體的起訴或查扣行動。",
+ "dive_html": "回函只是原則性表態，沒有具體行動；但青少年賽事被下注涉及操縱比賽與兒童保護，議題容易引發跨黨派立法。合法運動博彩業者早已不開放這類賽事，境外網站才是問題核心，執法難度在跨境管轄。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Casino.org News",
+   "title": "DOJ Tells Congress It’s Tracking Illegal Betting on Youth Sports",
+   "url": "https://www.casino.org/news/doj-tells-congress-its-tracking-illegal-betting-on-youth-sports/",
+   "time": "2026-11-25T23:16:40+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "0 comments",
+   "family": "Casino.org",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

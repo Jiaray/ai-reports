@@ -1,0 +1,96 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0146",
+ "title": "GTA 6 發售帶動系列手遊下載量翻 4 倍，發售週貢獻 G2A 上近四分之三銷售額",
+ "line": "11 月 16 至 22 日 GTA 手遊下載 230 萬次；Netflix 預告曾讓每週銷售步調增為三倍",
+ "born_at": "2026-11-26T02:02:15+08:00",
+ "first_reported_at": "2026-11-25T02:29:25+08:00",
+ "updated_at": "2026-11-26T02:02:15+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "遊戲"
+  ],
+  "event": [
+   "財報營運",
+   "數據發布"
+  ],
+  "sector": [
+   "遊戲"
+  ],
+  "org": [
+   "Rockstar Games",
+   "AppMagic",
+   "G2A",
+   "Netflix"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "GTA 6",
+   "手遊下載",
+   "遊戲行銷",
+   "G2A"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 PocketGamer.biz 取得的 AppMagic 估計，《俠盜獵車手 6》（GTA 6）在主機上推出後，GTA 系列手遊下載量增為 4 倍：發售週（11 月 16 至 22 日）由前一週的 59 萬次增至 230 萬次，其中《GTA: Vice City – Definitive》逾 110 萬次，是系列手遊史上第四好的一週；前三名都在 2023 年 12 月三部曲上架 Netflix 時，當週曾達 800 萬次。同期 Twitch 手機 App 安裝量倍增至 130 萬；Steam 上 GTA 5 Enhanced 等三款舊作日活躍用戶合計由 77 萬增至 130 萬。另據 GamesBeat 報導 G2A 的平台數據分析，6 月預購公告讓站內搜尋暴增至 4 月日均的 242 倍，8 月在 Netflix 播出的「Extended Look」預告後，七日平均銷售增為三倍；11 月 19 日發售當週占 GTA 6 總銷售額的 74%、週增 386%，購買遍及 164 國，PSN 禮物卡銷售額同週增 80%。",
+ "dive_html": "超級大作會把整個系列（含舊作與手遊）一起拉抬，是 IP 長尾價值的具體數據；Netflix 播預告帶動三倍銷售，也顯示串流平台已成遊戲行銷主戰場。對中小遊戲團隊，GTA 發售週等大作檔期最好避開，但同題材或相關衍生內容可能搭到流量。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "PocketGamer.biz",
+   "title": "GTA 6 launch results in 4x downloads boost for series' mobile games",
+   "url": "https://www.pocketgamer.biz/gta-6-launch-results-in-4x-downloads-boost-for-series-mobile-games/",
+   "time": "2026-11-25T23:30:00+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "PocketGamer.biz",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "GamesBeat",
+   "title": "GTA VI Netflix trailer tripled the weekly sales pace, while launch week drove nearly three-quarters of campaign GMV",
+   "url": "https://gamesbeat.com/gta-vi-netflix-trailer-tripled-the-weekly-sales-pace-while-launch-week-drove-nearly-three-quarters-of-campaign-gmv/",
+   "time": "2026-11-25T02:29:25+08:00",
+   "added_at": "2026-11-26T02:02:15+08:00",
+   "heat_raw": "",
+   "family": "GamesBeat",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}
