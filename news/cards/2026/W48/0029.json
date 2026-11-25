@@ -1,0 +1,122 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0029",
+ "title": "新勒索集團 Inception 大規模語音釣魚竊取 SSO 帳密，Okta 研判是 ShinyHunters 相關群體改名",
+ "line": "ShinyHunters 同時在新的暗網站宣稱回歸，用 2020 年起的舊 PGP 金鑰簽名自證",
+ "born_at": "2026-11-25T16:10:38+08:00",
+ "first_reported_at": "2026-11-24T21:28:21+08:00",
+ "updated_at": "2026-11-25T16:10:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安",
+   "犯罪與司法"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "story": [
+   "ShinyHunters 勒索集團"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "遊戲"
+  ],
+  "org": [
+   "Okta",
+   "ReversingLabs",
+   "Inception",
+   "ShinyHunters",
+   "Palo Alto Networks",
+   "美國聯邦調查局"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "Inception",
+   "ShinyHunters",
+   "O-UNC-053",
+   "語音釣魚",
+   "SSO",
+   "通行密鑰"
+  ]
+ },
+ "summary_html": "新的資料勒索集團 Inception 11 月中旬上線勒索網站，列出 AMD、PepsiCo 等 7 家受害者，都未公開證實。ReversingLabs 追蹤到它自 10 月下旬開始活動，確認 21 個 SSO 釣魚網域，仿冒對象包括 Activision Blizzard、Riot Games、Nintendo、Anthropic 等數十家企業，但網域存在不代表這些公司遭入侵。手法是電話社交工程：以「法務」為主題仿冒 Okta 等登入頁，在通話中誘騙員工輸入帳密、提供一次性密碼或核准推播，再進入 SaaS 應用竊取資料勒索。<br>Okta 研判 Inception 就是它自 3 月追蹤、受害資料原本發在 ShinyHunters 外洩網站的 O-UNC-053：執法單位逮捕 ShinyHunters 嫌犯、網站下線後，它的基礎設施與手法不變，「很可能已更換品牌」；Inception 否認與任何集團有關。ShinyHunters 也在 11 月 23 日開設新 Tor 網站宣稱回歸，用 2020 年起的舊 PGP 金鑰簽署訊息；BleepingComputer 確認簽章屬實，但金鑰曾在多人間流傳，無法證明是原班人馬。",
+ "dive_html": "遊戲業直接在射程內：仿冒名單有 Activision Blizzard、Riot Games、Twitch、Nintendo，Okta 也把遊戲列為目標產業。台灣遊戲公司若用 Okta 等 SSO 串接雲端服務，一次性密碼與推播驗證擋不住電話誘騙，管理員與能存取玩家資料的帳號應優先改用通行密鑰。逮捕與關站後同一套基礎設施換名繼續運作，顯示打掉品牌不等於瓦解行動；PGP 簽章只證明有人握有舊金鑰，Okta 的研判、Inception 的否認與 ShinyHunters 的回歸宣稱都還無法互相證實。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Inception 宣稱 7 家受害（AMD、PepsiCo、Cigna Healthcare、AutoZone、Lucid Motors 等），都未證實；仿冒網域涉及數十家品牌，含 Activision Blizzard、Riot Games、Twitch、Nintendo 等遊戲公司；Okta 列出的目標產業含科技、醫療、生技、金融、保險、娛樂、遊戲、零售、運輸、旅宿與法律。"
+  },
+  {
+   "name": "處置",
+   "html": "Okta 指出這套釣魚工具無法繞過通行密鑰（passkey）與 Okta FastPass 等抗釣魚驗證，改用這類驗證可擋下；員工接到電話要求在網頁輸入帳密、念出一次性密碼或核准推播時不照做；監控含公司名稱、以 legal- 開頭、-legal 結尾或 .legal 結尾的仿冒網域（Palo Alto Networks Unit 42 自 10 月起已觀察到逾 70 個）。"
+  }
+ ],
+ "sources": [
+  {
+   "name": "BleepingComputer",
+   "title": "New Inception extortion gang launches large-scale vishing campaign",
+   "url": "https://www.bleepingcomputer.com/news/security/new-inception-extortion-gang-launches-large-scale-vishing-campaign/",
+   "time": "2026-11-25T04:21:20+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "BleepingComputer",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "The Hacker News",
+   "title": "Okta Links ShinyHunters-Associated Vishing Group to New INCEPTION Data Leak Site",
+   "url": "https://thehackernews.com/2026/11/okta-links-shinyhunters-associated.html",
+   "time": "2026-11-24T21:28:21+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "BleepingComputer",
+   "title": "ShinyHunters claims to return after FBI arrests, uses old PGP keys as proof",
+   "url": "https://www.bleepingcomputer.com/news/security/shinyhunters-resurfaces-after-fbi-arrests-uses-old-pgp-keys-as-proof/",
+   "time": "2026-11-25T00:30:19+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "BleepingComputer",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

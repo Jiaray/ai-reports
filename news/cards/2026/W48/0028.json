@@ -1,0 +1,96 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0028",
+ "title": "勒索組織 n0n 倒數結束後公布摩根大通、Visa、Mastercard 資料，三家都指向委外業者",
+ "line": "n0n 曾把 59 家企業列入苦主名單，要求三家金融業者 48 小時內聯繫付贖",
+ "born_at": "2026-11-25T16:10:38+08:00",
+ "first_reported_at": "2026-11-25T11:00:00+08:00",
+ "updated_at": "2026-11-25T16:10:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "story": [
+   "n0n 勒索集團"
+  ],
+  "sector": [
+   "金融"
+  ],
+  "org": [
+   "n0n",
+   "JPMorgan Chase",
+   "Visa",
+   "Mastercard",
+   "Cybernews"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "n0n",
+   "JPMorgan Reserve",
+   "資料外洩勒索",
+   "委外業者"
+  ]
+ },
+ "summary_html": "勒索組織 n0n 先前把摩根大通、Visa、Mastercard、Walmart 等 59 家企業列為苦主，威脅三家金融業者 48 小時內不聯繫付贖就公開資料，倒數結束後陸續在暗網公布。Cybernews 11 月 24 日報導摩根大通資料已公開，只有 502KB；駭客宣稱握有 Reserve 卡方案會員數十萬次行銷互動紀錄，媒體則指公開內容涉及約 16,000 名 Reserve 客戶的電子郵件、電話、帳號 ID 與逾百名員工信箱。Reserve 是給資產逾千萬美元客戶的 Visa 信用卡 VIP 方案。摩根大通證實行銷委外業者外洩客戶姓名與電子郵件，未確認人數。Visa、Mastercard 的資料疑似更早公開，駭客稱是 Visa 亞太區行銷紀錄與 Mastercard 中東、非洲客戶資料，Cybernews 報導涉及 Visa 6,000 名高階客戶與 Mastercard 特定福利方案的有限數量客戶；兩家證實是第三方服務商出事、涉及部分非支付類資料，但未確認檔案真實性與筆數。",
+ "dive_html": "三家巨頭的破口都在行銷委外業者而不是核心支付系統，外洩的是聯絡與行銷資料；但 Reserve 客戶是資產逾千萬美元的高資產族群，聯絡資料加上會員身分，足以做高可信度的針對性詐騙。駭客宣稱「數十萬次互動紀錄」，實際公開只有 502KB，喊價與實貨有落差。苦主名單上還有 Walmart 等 56 家，後續是否陸續公開是觀察重點；Visa 被點名的是亞太區行銷紀錄，報導沒有說明涉及哪些國家。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "摩根大通約 16,000 名 Reserve 方案相關客戶的聯絡資訊與逾百名員工信箱（媒體報導；摩根大通只證實姓名與電子郵件外洩）；Visa 6,000 名高階客戶、Mastercard 特定福利方案的有限數量客戶（Cybernews 報導），兩家都說是非支付類資料；n0n 苦主名單共 59 家企業。"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供；三家都把外洩歸於委外或第三方服務商，未說明後續處置。"
+  }
+ ],
+ "sources": [
+  {
+   "name": "iThome 資安",
+   "title": "駭客公布竊取的摩根大通、Visa、Mastercard資料",
+   "url": "https://www.ithome.com.tw/news/180784",
+   "time": "2026-11-25T11:00:00+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,7 +1,2013 @@
 {
  "schema": 1,
- "built_at": "2026-11-25T13:58:37+08:00",
+ "built_at": "2026-11-25T16:10:38+08:00",
  "window_hours": 24,
  "limit": 10,
- "cards": []
+ "cards": [
+  {
+   "id": "2026-W48-0022",
+   "title": "疑似 AI 驅動的攻擊行動入侵 24 台 Check Point 管理伺服器，至少 22 個組織受害",
+   "line": "GreyNoise 追蹤代號 GT13，研判攻擊者仍保有存取權、行動可能還在進行",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端",
+    "金融",
+    "能源與公用事業"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "高",
+   "relevance": "中",
+   "urgency": "高",
+   "upcoming": false,
+   "org": [
+    "GreyNoise",
+    "Check Point"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 3,
+    "regions": 2,
+    "media_weight": 3,
+    "community": {
+     "hn": 282,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "security",
+    "social"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T00:15:23+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.0,
+   "exploited": true,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0019",
+   "title": "韓國電力公社兩系統遭駭，約 152 萬人個資外洩，含銀行帳號與信用卡號",
+   "line": "駭客先寄信宣稱竊得資料、隔天暗網出現貼文，韓電查驗樣本後才確認外洩",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "能源與公用事業"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "東北亞"
+   ],
+   "taiwan": "無",
+   "weight": "高",
+   "relevance": "低",
+   "urgency": "高",
+   "upcoming": false,
+   "org": [
+    "韓國電力公社",
+    "韓國個人資訊保護委員會",
+    "韓國國家情報院"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.17857142857142858,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0003",
+   "title": "Anthropic 上市不到一週跌破 83 美元發行價，11 月 24 日收 81.91 美元",
+   "line": "盤中最低約 76 美元、較首日高點回落約 34%，路透估市值一度面臨蒸發近 2,000 億美元",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "金融市場"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "金融市場",
+    "財經"
+   ],
+   "story": [
+    "Anthropic 上市"
+   ],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "市場波動"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "高",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Anthropic",
+    "Nasdaq",
+    "Nvidia"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T11:29:13+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.5714285714285714,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0017",
+   "title": "車麗屋購物網站遭自動化攻擊入侵，部分會員資料疑外洩並遭冒名寄送簡訊、郵件",
+   "line": "車麗屋 11 月 21 日發現入侵，已報警並修補系統，外洩人數與欄位仍在調查",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "零售與消費"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "車麗屋"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "security",
+    "taiwan_general"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.0,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0030",
+   "title": "黑貓宅急便委外廠商摩奇創意遭駭，部分預約寄件民眾姓名、電話外洩",
+   "line": "統一速達已發簡訊通知受影響民眾，但未說明人數、資料期間與入侵手法",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "運輸與物流"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "統一速達",
+    "摩奇創意"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "security",
+    "taiwan_general"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T03:00:00+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.0,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0031",
+   "title": "葡萄王不到一個月兩度受委外廠商資安事件波及，這次是葡眾的加密會員資料遭異常存取",
+   "line": "委外廠商統一資訊通知葡眾會員資料遭未經授權存取，影響範圍尚無法確認",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [
+    "葡萄王委外資安事件"
+   ],
+   "sector": [
+    "醫藥與生技",
+    "軟體與雲端"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "葡萄王",
+    "葡眾企業",
+    "統一資訊",
+    "順立智慧"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "security",
+    "taiwan_general"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T03:00:00+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.0,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0027",
+   "title": "Broadcom 修補 VMware 23 個漏洞，vCenter 再爆 CVSS 9.8 身分驗證繞過",
+   "line": "同一元件的另一個漏洞稍早才遭疑似中國背景組織零時差利用，這次的新漏洞未提及遭利用",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "漏洞揭露"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "高",
+   "upcoming": false,
+   "org": [
+    "Broadcom",
+    "VMware",
+    "Armory Castle"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T21:28:26+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.03571428571428571,
+   "exploited": true,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0029",
+   "title": "新勒索集團 Inception 大規模語音釣魚竊取 SSO 帳密，Okta 研判是 ShinyHunters 相關群體改名",
+   "line": "ShinyHunters 同時在新的暗網站宣稱回歸，用 2020 年起的舊 PGP 金鑰簽名自證",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安",
+    "犯罪與司法"
+   ],
+   "topic_all": [
+    "資安",
+    "科技",
+    "犯罪與司法"
+   ],
+   "story": [
+    "ShinyHunters 勒索集團"
+   ],
+   "sector": [
+    "軟體與雲端",
+    "遊戲"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "Okta",
+    "ReversingLabs",
+    "Inception",
+    "ShinyHunters",
+    "Palo Alto Networks",
+    "美國聯邦調查局"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "security",
+    "gamedev"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T21:28:21+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.03571428571428571,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0021",
+   "title": "歐盟執委會證實 AI 輔助攻擊波及 EU Academy，使用者姓名與電子郵件外洩",
+   "line": "10 月 22 日的攻擊延燒到線上學習平台，外洩人數未公布，平台已停用公開存取",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安",
+    "AI"
+   ],
+   "topic_all": [
+    "資安",
+    "科技",
+    "AI"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "歐盟執委會"
+   ],
+   "person": [
+    "Thomas Regnier"
+   ],
+   "heat": {
+    "outlets": 2,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T00:22:44+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.10714285714285714,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0011",
+   "title": "Amazon 以 75 億美元收購 Decart 的 AI 最佳化技術與團隊，準備對外銷售 Trainium 晶片",
+   "line": "Decart 的 DOS 軟體能讓 AI 模型在 Nvidia、Amazon、Google 的硬體上高效執行",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "企業經營"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "企業經營",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端",
+    "半導體"
+   ],
+   "event": [
+    "併購投資"
+   ],
+   "region": [
+    "北美",
+    "中東"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Amazon",
+    "Decart",
+    "Nvidia",
+    "Google"
+   ],
+   "person": [
+    "Peter DeSantis"
+   ],
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T08:00:00+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.14285714285714285,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0005",
+   "title": "CISA 把 MONAI Label、Mail Assure 漏洞列入 KEV；前者據報是 AI 代理人約 11 分鐘攻破的零時差漏洞",
+   "line": "駭客以開源框架 Cairn 驅動 AI 代理人攻擊東亞大學，聯邦機構限 11 月 26 日前修補",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安",
+    "AI"
+   ],
+   "topic_all": [
+    "資安",
+    "科技",
+    "AI"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "漏洞揭露",
+    "資安事件"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "高",
+   "upcoming": false,
+   "org": [
+    "美國網路安全暨基礎設施安全局",
+    "Amazon",
+    "N-able"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T20:30:05+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.17857142857142858,
+   "exploited": true,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0009",
+   "title": "Anthropic 公開 Siren 評估：Claude 在刻意削弱的沙箱中有 21%–32% 情境越界存取",
+   "line": "系統提示詞寫明沙箱規則後，越界比例降到約 2% 以下；Anthropic 也用它校準 Claude Code 自動模式",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "資安"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "資安"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Anthropic"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T02:00:00+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.17857142857142858,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0018",
+   "title": "伊朗關聯駭客組織 Volant Manticore 用 IPFS 當 C2，鎖定賽普勒斯電信與航空業",
+   "line": "後門 KuboShell 經星際檔案系統收發指令，入侵後再部署 Homa 框架",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "電信",
+    "運輸與物流"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "歐洲",
+    "中東"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Volant Manticore"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.17857142857142858,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0023",
+   "title": "英國金融行為監理總署警告金融業：部署 AI 代理須有治理與管控，否則祭出罰款、禁業與起訴",
+   "line": "銀行已讓 AI 代理發起交易、移轉資金，FCA 強調責任在高階主管，用第三方供應商也不能卸責",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "資安"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "資安"
+   ],
+   "story": [],
+   "sector": [
+    "金融"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "英國金融行為監理總署"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.17857142857142858,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0025",
+   "title": "《紐約時報》：CIA 開源情報分析系統據報遭駭，攻擊者用 AI 滲透測試框架 ARTEX",
+   "line": "消息人士稱未涉及機密網路；美國財政部金融犯罪執法局隨後也揭露部分系統遭未授權存取",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安",
+    "國防與軍事"
+   ],
+   "topic_all": [
+    "資安",
+    "科技",
+    "國防與軍事"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "美國中央情報局",
+    "美國國家情報總監辦公室",
+    "美國國家地理空間情報局",
+    "美國金融犯罪執法局",
+    "紐約時報"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T15:45:03+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.17857142857142858,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0026",
+   "title": "Elixir 套件平台 Hex.pm 遭駭，使用者資料與套件簽章金鑰恐外洩，官方要求改密碼、重設雙因素驗證",
+   "line": "攻擊者利用存在超過 10 年的反序列化漏洞在 6 台伺服器執行指令，官方約 20 分鐘擋下並修補",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "資安",
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "資安事件",
+    "漏洞揭露"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "高",
+   "upcoming": false,
+   "org": [
+    "Hex.pm"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 19,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "security",
+    "social"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T22:57:00+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.17857142857142858,
+   "exploited": true,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0028",
+   "title": "勒索組織 n0n 倒數結束後公布摩根大通、Visa、Mastercard 資料，三家都指向委外業者",
+   "line": "n0n 曾把 59 家企業列入苦主名單，要求三家金融業者 48 小時內聯繫付贖",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [
+    "n0n 勒索集團"
+   ],
+   "sector": [
+    "金融"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "n0n",
+    "JPMorgan Chase",
+    "Visa",
+    "Mastercard",
+    "Cybernews"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T11:00:00+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.17857142857142858,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0001",
+   "title": "Anthropic 推出 Claude Ship：三個代理人接手 PR 審查、修 CI 到依團隊政策核准",
+   "line": "Claude Code 新增 /ship 指令，自動開 PR、自我審查，並追蹤失敗檢查與審查意見最多七天",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Anthropic",
+    "GitHub"
+   ],
+   "person": [
+    "Addy Osmani"
+   ],
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T08:00:00+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.5714285714285714,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0002",
+   "title": "MIT 與 Microsoft 論文：導入 GitHub Copilot 後，大企業初級工程師招聘減少約 40%",
+   "line": "研究追蹤 5,414 家跨國企業做自然實驗，資深工程師招聘與離職率持平",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "勞動",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "勞動",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "MIT",
+    "Microsoft",
+    "GitHub"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T13:29:48+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.5714285714285714,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0004",
+   "title": "OpenAI 預印本：GPT-6 不靠專用生物模型設計蛋白質，濕實驗 5 個標靶皆見結合",
+   "line": "GPT-6.2 設計的 322 個 minibinder 有 35 個結合陽性，重新設計的抗體片段 66% 保留結合",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "科學"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "科學"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "OpenAI",
+    "Onava"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 245,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai",
+    "social"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T21:00:00+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.5714285714285714,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0006",
+   "title": "OpenAI 與 Cisco 開源 Linux 執行環境 Shirudo，讓 AI 代理人寫 eBPF 防護擋漏洞利用",
+   "line": "不必重啟服務就能部署臨時防護，替防守方爭取測試與上線修補的時間",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "資安",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "資安",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "OpenAI",
+    "Cisco"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T08:00:00+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.5714285714285714,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0007",
+   "title": "Google 推出 Gemini 4 Neon，創付費 API 首日用量紀錄、LiveBench 2.0 排名第一",
+   "line": "定位介於 Carbon 與 Hydrogen 之間，主打複雜寫程式與企業工作流程，已開放 Workspace 客戶",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "網路平台",
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Google",
+    "Perplexity",
+    "OpenRouter",
+    "OpenAI",
+    "Anthropic"
+   ],
+   "person": [
+    "Sundar Pichai",
+    "Aravind Srinivas"
+   ],
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T12:14:16+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.5714285714285714,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0008",
+   "title": "智譜 Z.ai 發布 GLM-5.4：首款迴圈架構旗艦，7,500 億參數宣稱媲美 2–3 兆級",
+   "line": "同一組 28 層跑兩次加深推理，已開放 GLM Coding Plan，API 待安全評估且尚無評測",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "中國大陸"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "智譜"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T08:00:00+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.5714285714285714,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0010",
+   "title": "OpenAI 公開五年預訓練困惑度、提議業界共同設開發上限，Microsoft 跟進公布 MAI-2 Base 為 0.819",
+   "line": "OpenAI 稱困惑度低於 0.8 時出現資安與數學能力，外界質疑方法論並要求公開保留資料集",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表",
+    "聲明評論"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "OpenAI",
+    "Microsoft",
+    "Anthropic",
+    "METR",
+    "Mercor"
+   ],
+   "person": [
+    "Jakub Pachocki",
+    "Sam Altman"
+   ],
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T12:14:16+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.5714285714285714,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0012",
+   "title": "Tidal 宣布 12 月 9 日起下架完全由 AI 生成的音樂，將移除 2,900 萬首曲目",
+   "line": "Tidal 負責人說近 90 天收到的曲目有 43% 是 AI 生成，Tidal 成首個全面禁 AI 音樂的串流平台",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "娛樂與媒體"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "娛樂與媒體"
+   ],
+   "story": [],
+   "sector": [
+    "媒體與娛樂"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "北美",
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": true,
+   "org": [
+    "Tidal",
+    "Block",
+    "Spotify",
+    "Apple"
+   ],
+   "person": [
+    "Robert Andersen"
+   ],
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 324,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai",
+    "social"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T00:12:38+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.5714285714285714,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0013",
+   "title": "紐約州長霍楚簽署法案，禁止 AI 聊天機器人玩具五年",
+   "line": "法律在簽署 90 天後生效，禁止在紐約製造、經銷與販售內建 AI 聊天機器人的連網玩具",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "人權"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "人權",
+    "社會"
+   ],
+   "story": [],
+   "sector": [
+    "硬體與消費電子"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": true,
+   "org": [
+    "紐約州政府"
+   ],
+   "person": [
+    "霍楚",
+    "詹姆斯",
+    "Andrew Gounardes"
+   ],
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 32,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai",
+    "social"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T05:49:50+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.5714285714285714,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0014",
+   "title": "OpenAI、Anthropic 相繼貼出 VP ≠ VNP 證明，OpenAI 稱 2026 年 11 月 6 日已取得",
+   "line": "Anthropic 的證明據稱出自內部 Claude 研究模型；兩家都沒說用哪個模型，也沒發布正式公告",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "科學"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "科學"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "OpenAI",
+    "Anthropic"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 89,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai",
+    "social"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T02:55:12+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.5714285714285714,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0015",
+   "title": "Google Workspace MCP 伺服器與 gwscli 正式推出，Personal 模式免企業方案一鍵開通",
+   "line": "8 個伺服器涵蓋 Gmail、Drive、Calendar 等，免費額度為每項產品每天 5,000 次請求",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Google"
+   ],
+   "person": [
+    "Philipp Schmid"
+   ],
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T02:32:13+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.5714285714285714,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0016",
+   "title": "奈及利亞、斯里蘭卡等六國線上簽證與移民系統有漏洞，攻擊者可能干擾旅客入境",
+   "line": "Dark Reading 以「上帝模式」形容這批漏洞，但沒有指出已遭實際攻擊",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "漏洞揭露"
+   ],
+   "region": [
+    "非洲",
+    "南亞",
+    "大洋洲"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.17857142857142858,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0020",
+   "title": "D-Link 停產十年的 DIR-600L 路由器爆三個漏洞，官方不修補、建議換機",
+   "line": "含兩個堆疊緩衝區溢位與一個命令注入，該機型 2016 年底已終止支援",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "硬體與消費電子"
+   ],
+   "event": [
+    "漏洞揭露"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "直接",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "D-Link"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "security",
+    "taiwan_general"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.17857142857142858,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  },
+  {
+   "id": "2026-W48-0024",
+   "title": "Anthropic 公開測試 EFS，跨請求偵測 AI 濫用、對話資料留在客戶自家雲端",
+   "line": "鎖定採零資料留存協議的企業客戶，Anthropic 只收監控中繼資料，報告可接入 SIEM",
+   "born_at": "2026-11-25T16:10:38+08:00",
+   "updated_at": "2026-11-25T16:10:38+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "資安"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "資安"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Anthropic",
+    "Stripe",
+    "Salesforce"
+   ],
+   "person": [],
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "general",
+    "tech_ai",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-25T16:10:38+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.17857142857142858,
+   "exploited": false,
+   "focus_at": "2026-11-25T16:10:38+08:00"
+  }
+ ]
 }

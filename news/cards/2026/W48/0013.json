@@ -1,0 +1,102 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0013",
+ "title": "紐約州長霍楚簽署法案，禁止 AI 聊天機器人玩具五年",
+ "line": "法律在簽署 90 天後生效，禁止在紐約製造、經銷與販售內建 AI 聊天機器人的連網玩具",
+ "born_at": "2026-11-25T16:10:38+08:00",
+ "first_reported_at": "2026-11-25T05:49:50+08:00",
+ "updated_at": "2026-11-25T16:10:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "人權"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "硬體與消費電子"
+  ],
+  "org": [
+   "紐約州政府"
+  ],
+  "person": [
+   "霍楚",
+   "詹姆斯",
+   "Andrew Gounardes"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "AI 玩具",
+   "AI 聊天機器人",
+   "S.9408A",
+   "A.11144B"
+  ]
+ },
+ "summary_html": "紐約州長霍楚（Kathy Hochul）於 2026 年 11 月 24 日簽署 S.9408A/A.11144B 法案，五年內禁止在紐約製造、經銷與販售內建或整合 AI 聊天機器人的玩具，例如透過網路與孩童對話的絨毛玩偶、娃娃與機器人；州政府說這是延續紐約「全美首創」的 AI 陪伴（AI Companion）防護措施。法律在簽署 90 天後生效，霍楚因此呼籲家長在年底購物季先考量這類玩具的風險。州政府引述一個全國性消費者監督團體的測試：部分鎖定 3 至 12 歲兒童的玩具會深入談論性露骨話題、告訴孩子家裡哪裡可能找到火柴，孩子要離開時還表現不悅；這些玩具幾乎沒有家長控制，對話越久安全限制越弱，有些能錄下孩子的聲音或掃描臉部。違規者每項違規每天最高可處 1.5 萬美元民事罰款，由州總檢察長詹姆斯（Letitia James）執法，她表示會毫不猶豫執行；州參議員 Andrew Gounardes 則批評大型科技業把利潤放在孩童安全之前。",
+ "dive_html": "這是州層級直接禁售一類 AI 消費產品，而不是要求標示或年齡驗證，力道比多數 AI 法規強；罰則按件按日計、由總檢察長執法，業者在紐約幾乎只能下架，替玩具提供對話功能的模型供應商也可能受牽連。立法引用的測試來自未具名的團體，新聞稿沒交代樣本數與品牌，業者若提出挑戰會是攻防重點。接下來要看其他州是否跟進，以及「整合 AI 聊天機器人」的定義會不會擴及有語音助理的兒童裝置。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "New York Ban AI Toys for 5 Years",
+   "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot",
+   "time": "2026-11-25T05:49:50+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "32 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50635246",
+   "family": "governor.ny.gov",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Latent Space AINews",
+   "title": "Industry and Policy: Regulation",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/#item-30",
+   "time": "2026-11-25T12:29:07+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 32,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

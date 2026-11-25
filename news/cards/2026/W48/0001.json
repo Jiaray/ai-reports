@@ -1,0 +1,111 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0001",
+ "title": "Anthropic 推出 Claude Ship：三個代理人接手 PR 審查、修 CI 到依團隊政策核准",
+ "line": "Claude Code 新增 /ship 指令，自動開 PR、自我審查，並追蹤失敗檢查與審查意見最多七天",
+ "born_at": "2026-11-25T16:10:38+08:00",
+ "first_reported_at": "2026-11-24T08:00:00+08:00",
+ "updated_at": "2026-11-25T16:10:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Anthropic",
+   "GitHub"
+  ],
+  "person": [
+   "Addy Osmani"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Claude Ship",
+   "Claude Code",
+   "/ship",
+   "Code Review",
+   "PR Steward",
+   "Claude Approvals"
+  ]
+ },
+ "summary_html": "Anthropic 的 Claude Code 團隊推出 Claude Ship，用三個代理人接手 GitHub 拉取請求（PR）開出後的工作：<strong>Code Review</strong> 對照程式碼庫審查 PR，把問題驗證、分類後貼上 PR，已正式可用；<strong>PR Steward</strong>（測試版）在 CI 失敗、合併衝突或收到審查意見時修正，但不核准也不合併；<strong>Claude Approvals</strong>（測試版）依團隊寫進儲存庫的核准政策檔，自行核准例行變更或要求人工簽核，被比作更聰明的 CODEOWNERS。個人在最新版 Claude Code 輸入 /ship 即可試用：它會比照 git add -A 提交變更、推送並開 PR、跑 /code-review 修掉有效問題，再追蹤 PR 最多七天。團隊成員 Addy Osmani 在使用指南中提醒先跑 git status；/ship 不提交檔名像金鑰的檔案與 CLAUDE.md、.claude/ 等規則檔。據 AINews 整理，能否合併仍由分支規則與權限決定。",
+ "dive_html": "Claude Ship 把 PR 雜務交給代理人、核准權交給儲存庫裡的政策檔，顯示 AI 程式工具的競爭焦點正從產生程式碼延伸到合併流程。對團隊主管，關鍵在 Claude Approvals：讓 AI 核准例行變更，等於把部分審查責任移出人手，政策檔怎麼寫、哪些路徑必須人工簽核會成為新的治理工作。/ship 預設提交所有變更，容易把不該進版控的檔案推上去；ultra 等級在雲端執行、可能另計費。原文沒有交代誤核或誤修的比例。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AIHOT",
+   "title": "Claude Code 团队发布实用指南讲解 Claude Ship 的 PR 审查与守护用法",
+   "url": "https://aihot.news/items/uyodjb16jngloilypsm1d3q0d",
+   "time": "2026-11-25T15:30:08+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "TLDR AI",
+   "title": "Claude Ship",
+   "url": "https://code.claude.com/docs/en/claude-ship",
+   "time": "2026-11-24T08:00:00+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "code.claude.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Latent Space AINews",
+   "title": "Frontier Model and Product Launches: Gemini 4 Neon, GPT-6.2 Sol, Claude Ship: Claude Ship (beta)",
+   "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/#item-8",
+   "time": "2026-11-24T12:14:16+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

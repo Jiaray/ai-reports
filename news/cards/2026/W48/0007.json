@@ -1,0 +1,102 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0007",
+ "title": "Google 推出 Gemini 4 Neon，創付費 API 首日用量紀錄、LiveBench 2.0 排名第一",
+ "line": "定位介於 Carbon 與 Hydrogen 之間，主打複雜寫程式與企業工作流程，已開放 Workspace 客戶",
+ "born_at": "2026-11-25T16:10:38+08:00",
+ "first_reported_at": "2026-11-24T12:14:16+08:00",
+ "updated_at": "2026-11-25T16:10:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "網路平台",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Google",
+   "Perplexity",
+   "OpenRouter",
+   "OpenAI",
+   "Anthropic"
+  ],
+  "person": [
+   "Sundar Pichai",
+   "Aravind Srinivas"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Gemini 4 Neon",
+   "Antigravity",
+   "LiveBench 2.0",
+   "Gemini 4 Hydrogen",
+   "Gemini 4 Carbon"
+  ]
+ },
+ "summary_html": "據 AINews 整理，Google 推出 <strong>Gemini 4 Neon</strong>，鎖定複雜寫程式與企業工作流程，定位介於處理長程任務的 Carbon 與主打速度的 Hydrogen 之間。Sundar Pichai 表示，Neon 創下 Google 付費 API 首日用量紀錄。Neon 在 LiveBench 2.0 以 87.4 分排第一，高於 Claude Fable 5.2 與 GPT-6.2 Astra 的 84.9 分，每項任務成本約為 Fable 的四分之一；Arena 文字榜則排在自家 Carbon、Argon 之後。OpenRouter 上 Google 模型的花費自 6 月以來首度超過 OpenAI；Perplexity 上 Neon 的日用量 3 天內翻倍，Aravind Srinivas 稱是用戶從 Opus 5.5 與 Sol 6.2 自然轉移。Neon 已開放 Workspace 客戶，Gemini 訂閱則只能經 Antigravity 使用。另有使用者反映 Neon 被批評時過度附和（未證實）。",
+ "dive_html": "Neon 最有份量的是採用數據：付費 API 首日紀錄、OpenRouter 花費超車 OpenAI、Perplexity 用量三天翻倍，顯示 Google 正以價格效能比搶回開發者流量，已綁定 Claude 或 GPT 的團隊會面臨更多比價與多模型路由的壓力。但多數數字出自 Google 與合作夥伴自述，各排行榜結果也不一致，原文沒有交代 Neon 的 API 單價。訂閱限定 Antigravity 會擋掉部分第三方工具；附和傾向若屬實，會削弱它在程式碼審查這類需要反駁的場景。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Latent Space AINews",
+   "title": "Gemini 4 Neon Rollout and Frontier Model Moves: Gemini 4 Neon adoption",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/#item-7",
+   "time": "2026-11-25T12:29:07+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Latent Space AINews",
+   "title": "Frontier Model and Product Launches: Gemini 4 Neon, GPT-6.2 Sol, Claude Ship: Gemini 4 Neon",
+   "url": "https://latent.space/p/ainews-jensen-is-back-and-openai-shows-its-pretraining-curve-joined-by-microsoft/#item-6",
+   "time": "2026-11-24T12:14:16+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

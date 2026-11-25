@@ -1,5 +1,88 @@
 {
  "schema": 1,
- "built_at": "2026-11-25T13:58:37+08:00",
- "stories": []
+ "built_at": "2026-11-25T16:10:38+08:00",
+ "stories": [
+  {
+   "name": "Anthropic 上市",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:10:38+08:00",
+   "last": "2026-11-25T16:10:38+08:00",
+   "cards": [
+    "2026-W48-0003"
+   ],
+   "series": [
+    "general",
+    "tech_ai"
+   ],
+   "latest": {
+    "id": "2026-W48-0003",
+    "title": "Anthropic 上市不到一週跌破 83 美元發行價，11 月 24 日收 81.91 美元",
+    "event_at": "2026-11-25T16:10:38+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "ShinyHunters 勒索集團",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:10:38+08:00",
+   "last": "2026-11-25T16:10:38+08:00",
+   "cards": [
+    "2026-W48-0029"
+   ],
+   "series": [
+    "general",
+    "security",
+    "gamedev"
+   ],
+   "latest": {
+    "id": "2026-W48-0029",
+    "title": "新勒索集團 Inception 大規模語音釣魚竊取 SSO 帳密，Okta 研判是 ShinyHunters 相關群體改名",
+    "event_at": "2026-11-25T16:10:38+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "n0n 勒索集團",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:10:38+08:00",
+   "last": "2026-11-25T16:10:38+08:00",
+   "cards": [
+    "2026-W48-0028"
+   ],
+   "series": [
+    "general",
+    "security"
+   ],
+   "latest": {
+    "id": "2026-W48-0028",
+    "title": "勒索組織 n0n 倒數結束後公布摩根大通、Visa、Mastercard 資料，三家都指向委外業者",
+    "event_at": "2026-11-25T16:10:38+08:00"
+   },
+   "count": 1
+  },
+  {
+   "name": "葡萄王委外資安事件",
+   "parent": null,
+   "status": "active",
+   "first": "2026-11-25T16:10:38+08:00",
+   "last": "2026-11-25T16:10:38+08:00",
+   "cards": [
+    "2026-W48-0031"
+   ],
+   "series": [
+    "general",
+    "security",
+    "taiwan_general"
+   ],
+   "latest": {
+    "id": "2026-W48-0031",
+    "title": "葡萄王不到一個月兩度受委外廠商資安事件波及，這次是葡眾的加密會員資料遭異常存取",
+    "event_at": "2026-11-25T16:10:38+08:00"
+   },
+   "count": 1
+  }
+ ]
 }

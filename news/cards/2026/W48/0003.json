@@ -1,0 +1,86 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0003",
+ "title": "Anthropic 上市不到一週跌破 83 美元發行價，11 月 24 日收 81.91 美元",
+ "line": "盤中最低約 76 美元、較首日高點回落約 34%，路透估市值一度面臨蒸發近 2,000 億美元",
+ "born_at": "2026-11-25T16:10:38+08:00",
+ "first_reported_at": "2026-11-25T11:29:13+08:00",
+ "updated_at": "2026-11-25T16:10:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "金融市場"
+  ],
+  "event": [
+   "市場波動"
+  ],
+  "story": [
+   "Anthropic 上市"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Anthropic",
+   "Nasdaq",
+   "Nvidia"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Anthropic IPO",
+   "ANT",
+   "破發",
+   "AI 估值"
+  ]
+ },
+ "summary_html": "彭博 11 月 24 日報導，11 月 19 日以代號 ANT 登陸那斯達克、被稱為「人類史上最大 IPO」的 Anthropic，首度跌破每股 83 美元發行價，美東時間 11 月 24 日收 <strong>81.91 美元</strong>，單日跌 6.54%。它上市首日以 111.50 美元開盤，盤中一度突破 115 美元，完全稀釋估值一度超過 2 兆美元；之後盤中最低跌到約 <strong>76 美元</strong>，較首日高點回落約 34%，路透估算市值一度面臨蒸發近 2,000 億美元的壓力。報導指出，市場對 AI 企業獲利能力、算力資本支出與高估值的疑慮升溫，引發科技股廣泛賣壓，Nvidia 在 11 月 24 日前一週寫下 2008 年以來最大單週跌幅；黃仁勳恢復 Nvidia 執行長後 AI 股一度反彈，Anthropic 仍沒跟漲，彭博認為投資人正更嚴格檢視 AI 公司的基本面與現金流。",
+ "dive_html": "首日高點換算的 2 兆美元估值，幾個交易日內就回到發行價以下，顯示 AI 公司的上市溢價正被整體估值修正吞掉，首日追高的買盤多數已套牢。Anthropic 是這輪 AI 估值最直接的公開市場參照，若股價持續低於發行價，後續 AI 公司的上市定價可能被迫保守。報導把原因歸給整體 AI 估值疑慮，但沒有交代 Anthropic 本身的營收、虧損或承銷商護盤情況；接下來要看它上市後第一份財報與禁售期解除的時點。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AIHOT",
+   "title": "Anthropic 上市不到一周跌破 83 美元发行价",
+   "url": "https://aihot.news/items/yhlpti07v4y216qat3ml1qmca",
+   "time": "2026-11-25T11:29:13+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

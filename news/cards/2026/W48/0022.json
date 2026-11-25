@@ -1,0 +1,128 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0022",
+ "title": "疑似 AI 驅動的攻擊行動入侵 24 台 Check Point 管理伺服器，至少 22 個組織受害",
+ "line": "GreyNoise 追蹤代號 GT13，研判攻擊者仍保有存取權、行動可能還在進行",
+ "born_at": "2026-11-25T16:10:38+08:00",
+ "first_reported_at": "2026-11-25T00:15:23+08:00",
+ "updated_at": "2026-11-25T16:10:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "金融",
+   "能源與公用事業"
+  ],
+  "org": [
+   "GreyNoise",
+   "Check Point"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "GT13",
+   "CVE-2026-16232",
+   "CVE-2026-61500",
+   "Check Point",
+   "SmartConsole",
+   "AI 代理"
+  ]
+ },
+ "summary_html": "威脅情報公司 GreyNoise 揭露代號 GT13 的入侵行動：10 月 17 日至 11 月 2 日間確認至少 22 個組織、共 24 台 Check Point Security Management 伺服器遭控制，受害者橫跨 17 國的金融、能源、政府、製造等產業，攻擊來自 99 個 ExpressVPN 出口或已遭入侵的 Check Point 設備 IP。攻擊者 10 月初利用 Rejetto HFS 漏洞 CVE-2026-61500 拿下一台伺服器當跳板，存放從 24 台管理伺服器竊得的資料，但 GreyNoise 無法確定這些 Check Point 伺服器何時、如何失守。入侵後攻擊者利用 SmartConsole 身分驗證繞過漏洞 CVE-2026-16232（Check Point 7 月已示警遭零時差利用，現已修補）下達上百個管理任務，竊取防火牆資料庫、帳密與內部憑證機構檔案，並卸載安全政策、讓防火牆防護失效，也嘗試用 Citrix、Ivanti、vCenter、Exchange 等舊漏洞橫向移動。GreyNoise 依行為研判攻擊者使用 AI 代理式工具，未歸因任何已知組織。",
+ "dive_html": "管理伺服器握有整套防火牆政策與內部憑證機構，憑證檔已被偷、政策遭卸載，受害組織得把防火牆設定與內部 PKI 視為失信、重新簽發，只補 CVE-2026-16232 不夠。初始入口不明，代表沒有單一修補能保證安全，用 Check Point 的團隊應主動清查管理伺服器的異常任務與 SSH 金鑰。攻擊者大量嘗試 2020～2021 年的舊漏洞，邊界設備沒補的舊洞仍是主要突破口。「AI 驅動」目前只是依行為研判；GreyNoise 的觀測在 11 月 2 日結束，但因攻擊者保有持續存取，研判行動仍在進行。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Check Point Security Management 伺服器 24 台、至少 22 個組織、17 國，初始入侵途徑不明。已遭利用：CVE-2026-16232（Check Point SmartConsole 身分驗證繞過）、CVE-2026-61500（Rejetto HFS）。嘗試利用：CVE-2023-4966、CVE-2025-5777（Citrix NetScaler）、CVE-2024-21893（Ivanti）、CVE-2021-21972、CVE-2023-34048（VMware vCenter）、CVE-2021-26855、CVE-2021-34473（Microsoft Exchange）、CVE-2020-1472、CVE-2026-41089（Netlogon）、CVE-2026-98432（Linux IPv4）。嚴重度：ICSDA 標「高危」，CVSS 原文未提供。"
+  },
+  {
+   "name": "處置",
+   "html": "Check Point 修補版本原文未提供（CVE-2026-16232 已修補）。ICSDA 建議：限縮 Check Point 管理伺服器與 SmartConsole 的暴露面，只允許管理網段或 VPN 存取；清查 SSH 授權金鑰、移除不明公鑰，汰換可能外洩的私鑰與管理員憑證；逐一確認上列 CVE 是否已修補；監控異常 SSH、資料外傳與批次指令，以及 Nmap、Chisel、Impacket 等工具痕跡。"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ICSDA 資安日報",
+   "title": "AI代理人狂掃Check Point管理伺服器",
+   "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+   "time": "2026-11-25T06:18:45+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "SecurityWeek",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "The Hacker News",
+   "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+   "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+   "time": "2026-11-25T14:50:19+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "BleepingComputer",
+   "title": "Hackers compromise Check Point Servers in 22 organizations",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-compromise-check-point-servers-in-22-organizations/",
+   "time": "2026-11-25T00:15:23+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "BleepingComputer",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "Hacker News",
+   "title": "Active intrusion campaign against Check Point security management servers",
+   "url": "https://www.greynoise.io/blog/check-point-security-management-servers-intrusion-campaign",
+   "time": "2026-11-25T00:32:17+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "282 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50630594",
+   "family": "greynoise.io",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 2,
+  "media_weight": 3,
+  "community": {
+   "hn": 282,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

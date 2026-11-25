@@ -1,0 +1,101 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0027",
+ "title": "Broadcom 修補 VMware 23 個漏洞，vCenter 再爆 CVSS 9.8 身分驗證繞過",
+ "line": "同一元件的另一個漏洞稍早才遭疑似中國背景組織零時差利用，這次的新漏洞未提及遭利用",
+ "born_at": "2026-11-25T16:10:38+08:00",
+ "first_reported_at": "2026-11-24T21:28:26+08:00",
+ "updated_at": "2026-11-25T16:10:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "漏洞揭露"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Broadcom",
+   "VMware",
+   "Armory Castle"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "CVE-2026-123903",
+   "CVE-2026-123890",
+   "vCenter",
+   "vmdir",
+   "CVE-2026-123904"
+  ]
+ },
+ "summary_html": "Broadcom 11 月 24 日發布公告，修補 VMware ESX、vCenter、Workstation、Fusion 與 Avi Load Balancer 共 23 個漏洞。最嚴重的是 vCenter 身分驗證繞過漏洞 CVE-2026-123903（CVSS 3.1 評分 9.8），位於 VMware Directory Service（vmdir），能經網路連到 vCenter 的攻擊者可繞過驗證、未經授權存取系統，由奇安信、depthfirst 與微步在線的研究人員各自通報。vCenter 另有 4 個 7.5 分漏洞：CVE-2026-123904 是處理特定封存檔時的任意寫檔，能存取備份儲存庫的攻擊者可用 root 權限寫檔、進而執行程式；另外 3 個是 vmdir 的服務阻斷漏洞。這是數日內第二個 vmdir 重大身分驗證繞過：前一個 CVE-2026-123890（9.8）已遭疑似中國背景的間諜組織 Armory Castle 零時差利用；Broadcom 表示這次是獨立問題、與前者無關，也沒有提到新漏洞遭利用。",
+ "dive_html": "自建機房跑 vSphere 的台灣遊戲與軟體團隊應排進最近的維護窗口：只要能連到 vCenter 就可能利用、不需帳密，而同一個 vmdir 元件稍早才遭零時差攻擊，代表已有攻擊者在研究這塊，修補公開後被比對出利用方式的可能性不低。修補前先確認 vCenter 管理介面只對管理網段開放。vCenter 7.0 沒有公開的修補版本，沒有延伸支援合約的環境只能靠網路隔離撐，應加速升級。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "CVE-2026-123903（vCenter vmdir 身分驗證繞過，CVSS 9.8，重大）、CVE-2026-123904（vCenter 任意寫檔，7.5）、CVE-2026-123905～123907（vmdir 服務阻斷，7.5）；涉及 VMware Cloud Foundation／vSphere Foundation 9.x 與 5.x、vCenter 8.0／7.0、Telco Cloud Platform／Infrastructure；ESX、Workstation、Fusion、Avi Load Balancer 其餘漏洞的細節原文未提供。利用狀態：這批新漏洞未說明（Broadcom 未提及遭利用）；前一個 CVE-2026-123890 已遭利用。"
+  },
+  {
+   "name": "處置",
+   "html": "VCF／VVF 9.1.x.x 升級到 9.1.2；9.0.x.x 升級到 9.0.2.0300；vCenter 8.0 升級到 8.0 U3m；VCF 5.x 升級到 5.2.5；Telco Cloud Platform／Infrastructure 升級到 vCenter 8.0 U3m；vCenter 7.0 有延伸支援合約者洽 Broadcom 支援。"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "title": "VMware vCenter Hit by Another Critical 9.8-Rated Auth Bypass Flaw After Zero-Day Exploitation",
+   "url": "https://thehackernews.com/2026/11/vmware-vcenter-hit-by-another-critical.html",
+   "time": "2026-11-24T21:28:26+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "iThome 資安",
+   "title": "Broadcom修補VMware產品23個漏洞，含影響vCenter的身分驗證繞過重大漏洞",
+   "url": "https://www.ithome.com.tw/news/180786",
+   "time": "2026-11-25T11:00:00+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

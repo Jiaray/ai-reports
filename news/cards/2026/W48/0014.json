@@ -1,0 +1,96 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0014",
+ "title": "OpenAI、Anthropic 相繼貼出 VP ≠ VNP 證明，OpenAI 稱 2026 年 11 月 6 日已取得",
+ "line": "Anthropic 的證明據稱出自內部 Claude 研究模型；兩家都沒說用哪個模型，也沒發布正式公告",
+ "born_at": "2026-11-25T16:10:38+08:00",
+ "first_reported_at": "2026-11-25T02:55:12+08:00",
+ "updated_at": "2026-11-25T16:10:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "OpenAI",
+   "Anthropic"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "VP ≠ VNP",
+   "代數複雜度",
+   "積和式",
+   "Lean",
+   "Claude"
+  ]
+ },
+ "summary_html": "據 AINews 整理，Anthropic 的 GitHub repo 據稱收錄一份由內部 Claude 研究模型完成的 VP ≠ VNP 證明（未經證實）。VP 對 VNP 是 Valiant 在 1979 年提出、P 對 NP 的代數版本，AINews 引述的說法稱，這代表積和式（permanent）等多項式在每個域上都沒有小型電路。OpenAI 隨後貼出自己的證明，說是「2026 年 11 月 6 日取得」；兩家都沒點名模型，也沒發布正式公告。<br>OpenAI 在 openai/math repo 的預印本〈VP and VNP are different〉標為 11 月 23 日版：定理 1.1 對一個明確的 VNP 多項式族，給出每個域上 exp(Ω((log n)^{5/4})) 的邊界算術電路規模下界，推論 1.2 把下界延伸到每個域上的有向哈密頓迴路多項式，以及特徵不為 2 的域上的積和式；repo 也附上精確 VP–VNP 分離的 Lean 證明，並說 11 月 24 日的後續預印本已涵蓋本文結果。AINews 引述指出，這不代表 P ≠ NP；評論者 Andrew Curran 轉述的密碼學突破傳聞未經證實，AINews 註明應視為個人意見。",
+ "dive_html": "若證明經得起檢驗，這是 AI 系統在 1979 年以來的代數複雜度核心問題上交出的成果，份量遠超過解題基準的分數。OpenAI 附上 Lean 形式化證明，是目前可信度最高的部分，但仍要專家確認 Lean 裡的陳述是否完整對應標準定義；Anthropic 那份只有轉述，沒有官方說明。兩家都不具名模型、不發公告，卻強調取得日期，顯示先後歸屬已成競爭焦點，而「11 月 6 日取得」是 OpenAI 自述、外界無從查證。接下來要看學界審查與 Anthropic 是否正式回應。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Latent Space AINews",
+   "title": "Frontier Models as Research Engines: VP ≠ VNP, Protein Design and 948 Kernel Bugs: VP ≠ VNP, posted by two labs",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/#item-1",
+   "time": "2026-11-25T12:29:07+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Hacker News",
+   "title": "OpenAI reveals they solved VP ≠ VNP before Anthropic",
+   "url": "https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026",
+   "time": "2026-11-25T02:55:12+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "89 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50632756",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 89,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

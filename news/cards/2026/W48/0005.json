@@ -1,0 +1,107 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0005",
+ "title": "CISA 把 MONAI Label、Mail Assure 漏洞列入 KEV；前者據報是 AI 代理人約 11 分鐘攻破的零時差漏洞",
+ "line": "駭客以開源框架 Cairn 驅動 AI 代理人攻擊東亞大學，聯邦機構限 11 月 26 日前修補",
+ "born_at": "2026-11-25T16:10:38+08:00",
+ "first_reported_at": "2026-11-24T20:30:05+08:00",
+ "updated_at": "2026-11-25T16:10:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "AI"
+  ],
+  "event": [
+   "漏洞揭露",
+   "資安事件"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "美國網路安全暨基礎設施安全局",
+   "Amazon",
+   "N-able"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "CVE-2026-133968",
+   "CVE-2026-134624",
+   "MONAI Label",
+   "Mail Assure",
+   "Cairn",
+   "KEV"
+  ]
+ },
+ "summary_html": "美國網路安全暨基礎設施安全局（CISA）11 月 23 日把 CVE-2026-133968 與 CVE-2026-134624 列入已知遭利用漏洞（KEV）清單，聯邦機構須在 11 月 26 日前修補。前者影響開源醫療影像 AI 軟體 MONAI Label；後者影響 N-able 的郵件防護服務 Mail Assure，遭利用情況出現在 N-able 代管環境遭入侵的事故。<br>iThome 指出，CVE-2026-133968 與 Amazon 威脅情報團隊公布的事故有關。據 Ars Technica 報導，攻擊者用開源 AI 滲透測試框架 Cairn 執行 AI 代理人，只給一份 IP 清單和「取得 shell」的目標；代理人在一所東亞大學伺服器上的開源醫學影像 AI 應用找到路徑遍歷零時差漏洞，約 11 分鐘就從梳理 API 推進到能任意寫檔，後續再取得 root 權限，Amazon 研判攻擊者也用它攻陷第二所大學的伺服器。同一批代理人對 Redis 與 Log4Shell 嘗試逾 16 小時、對 GPU 伺服器暴力登入逾 6 小時，都沒有得手。",
+ "dive_html": "MONAI Label 在台灣遊戲與軟體團隊少見，但破口型態很常見：研究或內部自架的 AI 工具（標註、訓練服務）帶著上傳 API 直接暴露在網路上，往往不在資產清冊、也沒人追修補。AI 代理人對常見服務都撲空，得手的是少人審視的冷門開源應用；防守應先盤點對外開放的自架工具，補上身分驗證或收進 VPN。（ICSDA 觀點）AI 代理不用休息，修補窗口會被壓縮。Ars Technica 沒有點名應用，MONAI Label 與 Amazon 事故的對應來自 iThome；iThome 直指攻擊者是中國駭客，Ars Technica 則只提到提示詞用簡體中文、模型設為中國標準時區。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "MONAI Label：CVE-2026-133968，iThome 原文未提供漏洞類型（依 iThome 的對應，即 Ars Technica 所述上傳端點的路徑遍歷、可任意寫檔），受影響版本原文未提供；利用狀態：已遭利用（CISA 列入 KEV；Amazon 觀察到 AI 代理人在大學伺服器上利用）。N-able Mail Assure：CVE-2026-134624，漏洞類型與受影響版本原文未提供；利用狀態：已遭利用（N-able 代管環境遭入侵）。嚴重度：ICSDA 標「高危」，CVSS 原文未提供。"
+  },
+  {
+   "name": "處置",
+   "html": "修補版本原文未提供；依 CISA 與廠商公告盡速修補，聯邦機構期限為 11 月 26 日。ICSDA 建議：盤點是否使用 MONAI Label 或 Mail Assure（含研究單位自架的測試環境），無法立即更新時先限制存取來源、隔離主機，並回查日誌中的異常登入、異常程序與非預期的郵件規則變更。"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ICSDA 資安日報",
+   "title": "CISA點名兩漏洞：AI代理人也來打工",
+   "url": "https://www.ithome.com.tw/news/180757",
+   "time": "2026-11-25T06:18:45+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "AIHOT",
+   "title": "Amazon 报告黑客用开源框架 Cairn 驱动 AI 智能体在约 11 分钟内自主发现并利用 0-day",
+   "url": "https://aihot.news/items/ygbhvp086wl672gfxuhfgl23x",
+   "time": "2026-11-24T20:30:05+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

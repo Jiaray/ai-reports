@@ -1,0 +1,103 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0026",
+ "title": "Elixir 套件平台 Hex.pm 遭駭，使用者資料與套件簽章金鑰恐外洩，官方要求改密碼、重設雙因素驗證",
+ "line": "攻擊者利用存在超過 10 年的反序列化漏洞在 6 台伺服器執行指令，官方約 20 分鐘擋下並修補",
+ "born_at": "2026-11-25T16:10:38+08:00",
+ "first_reported_at": "2026-11-24T22:57:00+08:00",
+ "updated_at": "2026-11-25T16:10:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "開發與開源"
+  ],
+  "event": [
+   "資安事件",
+   "漏洞揭露"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Hex.pm"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "Hex.pm",
+   "Elixir",
+   "Erlang",
+   "CVE-2026-129514",
+   "套件供應鏈",
+   "Gleam"
+  ]
+ },
+ "summary_html": "Erlang 與 Elixir 的套件平台 Hex.pm 遭入侵：攻擊者在 UTC 11 月 23 日 18:16 至 18:29（台灣時間 11 月 24 日凌晨）送出 69 個惡意請求，在 6 台網頁伺服器上執行作業系統指令；官方約 20 分鐘內封鎖流量並換上修補版本。漏洞 CVE-2026-129514 的 CVSS 4.0 評分 10 分，2016 年 2 月起就存在於請求資料解析機制：伺服器在驗證身分前就把外部資料反序列化，且沒有充分檢查型態。<br>調查沒有發現套件遭竄改、資料庫遭修改或攻擊者持續潛伏，但資料庫不記錄讀取，無法排除電子郵件、密碼雜湊、API 金鑰雜湊、雙因素驗證金鑰、工作階段與稽核紀錄遭讀取，私有套件與文件也可能遭存取，官方會直接聯繫受影響組織。Hex.pm 已更換儲存、CDN、郵件、資料庫憑證與工作階段、存取權杖的簽署金鑰，所有人因此被登出，並在建置支援金鑰輪替的新套件簽章機制。調查期間也發現 Ash、Flop、db_connection 的漏洞，均已修補。",
+ "dive_html": "用 Elixir、Erlang、Gleam 的團隊要直接處理：套件簽章金鑰可能外洩，在新簽章機制上線前，鏡像站或快取可能送出遭竄改卻驗得過的套件，這是官方要求只用 repo.hex.pm 的原因，CI 與內部套件快取也該確認來源。官方只說 API 金鑰雜湊可能外洩，CI 裡的 Hex API 金鑰保守起見可一併重發。這是「驗證前就處理外部資料」的典型問題，在程式碼裡躲了超過 10 年；官方約 20 分鐘止血並公開分鐘級時間軸，處理相當透明。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Hex.pm 網站伺服器；CVE-2026-129514，CVSS 4.0 評分 10；利用狀態：已遭利用。可能遭讀取的資料：使用者電子郵件、密碼雜湊、API 金鑰雜湊、雙因素驗證金鑰、工作階段、稽核紀錄、私有套件與私有文件；未發現套件遭竄改。Ash、Flop、db_connection 另有漏洞，受影響版本原文未提供。"
+  },
+  {
+   "name": "處置",
+   "html": "伺服器端已修補。使用者應到 hex.pm 變更密碼，並在帳號安全設定重新設定驗證器 App（會取得新的雙因素驗證金鑰與復原碼）；支援新簽章機制的 Hex 用戶端發布後執行 mix local.hex --force 更新，使用 rebar3 或 Gleam 的一併更新；新版推出前只從 repo.hex.pm 下載套件、不信任第三方鏡像站；可疑的 Hex 來信轉寄 security@hex.pm。Ash、Flop、db_connection 升級到已修補版本（版本號原文未提供）。"
+  }
+ ],
+ "sources": [
+  {
+   "name": "iThome 資安",
+   "title": "程式語言Elixir套件平臺Hex.pm遭駭，使用者資料與簽章金鑰恐外洩",
+   "url": "https://www.ithome.com.tw/news/180791",
+   "time": "2026-11-25T02:00:00+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Hacker News",
+   "title": "Security Incident on Hex.pm",
+   "url": "https://hex.pm/blog/security-incident-on-hexpm",
+   "time": "2026-11-24T22:57:00+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "19 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50629149",
+   "family": "hex.pm",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 19,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

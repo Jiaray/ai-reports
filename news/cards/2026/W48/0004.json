@@ -1,0 +1,108 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0004",
+ "title": "OpenAI 預印本：GPT-6 不靠專用生物模型設計蛋白質，濕實驗 5 個標靶皆見結合",
+ "line": "GPT-6.2 設計的 322 個 minibinder 有 35 個結合陽性，重新設計的抗體片段 66% 保留結合",
+ "born_at": "2026-11-25T16:10:38+08:00",
+ "first_reported_at": "2026-11-24T21:00:00+08:00",
+ "updated_at": "2026-11-25T16:10:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "OpenAI",
+   "Onava"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "GPT-6",
+   "GPT-6.2",
+   "蛋白質設計",
+   "minibinder",
+   "抗體"
+  ]
+ },
+ "summary_html": "OpenAI 11 月 24 日發表預印本〈GPT-6 as a Universal Foundation Model for Protein Biology: Beyond Specialized Models〉，稱 GPT-6 系列模型只靠推理與通用寫程式工具，就能設計新的蛋白質結構與序列，不需呼叫專用生物模型。OpenAI 說，一個內部研究模型在多項設計任務上追平或勝過專用模型，研究人員也能用提示詞指定蛋白質的結合位置與形狀。與 Onava 合作的濕實驗中，GPT-6.2 設計的蛋白質在 <strong>5 個標靶</strong>都出現結合跡象：322 個 minibinder 有 35 個（10.9%）結合陽性，重新設計的抗體片段 66% 保留結合；專用模型則協助提供序列、挑選要測試的設計。據 AINews 整理，107 個重新定序的蛋白質有 14 個結合；X 使用者 lewtun 也提醒，先前一項 DNA 任務中，GPT-6.1 Sol 每項任務成本約是專用模型的 2,000 倍。",
+ "dive_html": "這篇的主張是通用模型能取代協調一整套專用生物模型的工作，意義在降低門檻：研究人員用自然語言改條件，不必改軟體或重新訓練。但證據還撐不起「取代」：minibinder 結合陽性率約一成，濕實驗也用專用模型挑選要測試的設計，實際上是混合流程；若先前 DNA 任務約 2,000 倍的成本差距也適用於蛋白質設計，短期較可能用在構想與探索，而非大量篩選。預印本尚未經同儕審查，接下來要看第三方能否重現，以及結合強度與功能驗證的數據。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AIHOT",
+   "title": "OpenAI 发布预印本：GPT-6 模型展现内在蛋白质设计能力",
+   "url": "https://aihot.news/items/yg04c9d5qnwzitqstg19c6ow2",
+   "time": "2026-11-24T21:00:00+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Latent Space AINews",
+   "title": "Frontier Models as Research Engines: VP ≠ VNP, Protein Design and 948 Kernel Bugs: GPT-6 protein design, wet-lab validated",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/#item-3",
+   "time": "2026-11-25T12:29:07+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Hacker News",
+   "title": "GPT-6 models demonstrate intrinsic protein-design capabilities",
+   "url": "https://openai.com/index/gpt-6-models-demonstrate-intrinsic-protein-design-capabilities/",
+   "time": "2026-11-25T05:02:22+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "245 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50634658",
+   "family": "openai.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 245,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

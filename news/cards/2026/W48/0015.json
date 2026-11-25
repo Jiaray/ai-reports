@@ -1,0 +1,85 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0015",
+ "title": "Google Workspace MCP 伺服器與 gwscli 正式推出，Personal 模式免企業方案一鍵開通",
+ "line": "8 個伺服器涵蓋 Gmail、Drive、Calendar 等，免費額度為每項產品每天 5,000 次請求",
+ "born_at": "2026-11-25T16:10:38+08:00",
+ "first_reported_at": "2026-11-25T02:32:13+08:00",
+ "updated_at": "2026-11-25T16:10:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Google"
+  ],
+  "person": [
+   "Philipp Schmid"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "MCP",
+   "Google Workspace",
+   "gwscli",
+   "Gmail",
+   "HITL"
+  ]
+ },
+ "summary_html": "Google DeepMind 的 Philipp Schmid 在 X 宣布，Google Workspace MCP 伺服器與 gwscli 正式推出（GA）。新的 Personal 模式可一鍵設定，不需要 Enterprise 方案，也不用綁定付款卡。這次共推出 8 個伺服器，涵蓋 Gmail、Drive、Docs、Sheets、Slides、Calendar、Chat 與 Tasks；免費額度為每項產品每天 5,000 次請求，寄信與分享等動作內建人工確認（HITL）。Schmid 坦言使用者仍得經過 Google Cloud，「並不理想」，但比舊的 OAuth 同意畫面與應用程式審查流程好得多，歡迎大家試用並回饋。",
+ "dive_html": "對想把信箱、行事曆與文件接進 AI 代理工作流的開發者，Personal 模式拿掉了企業方案與付款卡兩道門檻，個人帳號就能直接試；每項產品每天 5,000 次的免費額度足夠個人與小團隊自動化，大量批次處理則要另估成本。寄信與分享預設要人工確認，等於把最容易出事的對外動作先擋一道，可降低提示注入誘使代理亂寄信或亂分享檔案的風險。不過仍需建立 Google Cloud 專案，設定門檻沒有完全消失；原文也沒交代超出免費額度的價格，以及企業帳號的權限控管與稽核方式，團隊正式導入前要先確認。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AIHOT",
+   "title": "Google Workspace MCP servers 与 gwscli 正式发布，Personal 模式一键开通",
+   "url": "https://aihot.news/items/nm8mi41auemid3iivue4tel3d",
+   "time": "2026-11-25T02:32:13+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

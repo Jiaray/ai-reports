@@ -1,0 +1,84 @@
+{
+ "schema": 1,
+ "id": "2026-W48-0002",
+ "title": "MIT 與 Microsoft 論文：導入 GitHub Copilot 後，大企業初級工程師招聘減少約 40%",
+ "line": "研究追蹤 5,414 家跨國企業做自然實驗，資深工程師招聘與離職率持平",
+ "born_at": "2026-11-25T16:10:38+08:00",
+ "first_reported_at": "2026-11-25T13:29:48+08:00",
+ "updated_at": "2026-11-25T16:10:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "勞動",
+   "開發與開源"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "MIT",
+   "Microsoft",
+   "GitHub"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "GitHub Copilot",
+   "AI-Assisted Programming and Labor Demand",
+   "初級工程師",
+   "自然實驗"
+  ]
+ },
+ "summary_html": "MIT 與 Microsoft 的研究人員發表論文〈AI-Assisted Programming and Labor Demand〉，估計導入 GitHub Copilot 對軟體人力需求的影響。研究指出，早期導入 AI 的公司原本招聘方式就不同，簡單比較看不出效果。研究追蹤 <strong>5,414 家跨國公司</strong>（涵蓋美國 38% 的程式設計師），利用 Copilot 推出前就排定的 GitHub 合約審查時點：審查較早的公司較早導入，形成自然實驗。一年後，這些公司每季技術職招聘下降 <strong>29%</strong>，離職率沒有上升；<strong>初級軟體工程師招聘下降約 40%</strong>，有經驗的工程師招聘持平。初級技術職新人進入寫程式為主職位的比例，從導入前的 72% 降到 52%。以上數字出自 X 使用者 Rohan Paul 對論文的整理。",
+ "dive_html": "這份研究的價值在識別策略：用預先排定的合約審查時點切出導入早晚，比單純比較採用者與非採用者更接近因果證據，結果也指向 AI 程式工具壓縮的是入門職缺，而不是既有員工。對企業與新鮮人來說，初級職位從寫程式轉向非寫程式工作，代表新人培訓與晉升管道可能要重新設計。缺口有三：樣本是大型跨國企業，未必適用中小企業或新創；GitHub 屬於 Microsoft，研究方與受測產品有利害關係；29%、40% 是導入一年後的數字，更長期的效果原文沒有交代。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AIHOT",
+   "title": "MIT 与 Microsoft 论文：GitHub Copilot 使初级软件工程师招聘下降约 40%",
+   "url": "https://aihot.news/items/hyofqy3ukzks1eyr4bu317bez",
+   "time": "2026-11-25T13:29:48+08:00",
+   "added_at": "2026-11-25T16:10:38+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}
