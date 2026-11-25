@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0194",
+ "title": "調查：Cargill 公開支持歐盟毀林法規，私下卻遊說削弱並延後實施",
+ "line": "環保組織 Earthsight 揭露其多次與執委會官員會面；法規 12 月 30 日對大中型業者生效",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T21:00:53+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "環境與氣候",
+   "企業經營"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "sector": [
+   "農業與食品"
+  ],
+  "org": [
+   "Cargill",
+   "Earthsight",
+   "歐盟執委會"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "歐盟毀林法規",
+   "EUDR",
+   "遊說",
+   "供應鏈"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Mongabay，歐盟毀林法規（EUDR）預定 12 月 30 日對大型與中型業者生效，要求企業證明特定商品並非來自 2020 年後遭毀林的土地。全球最大農產企業之一的 Cargill 表示已準備好遵循，但環保非營利組織 Earthsight 的新調查指出，該公司同時在幕後努力削弱法規並延後實施：過去數年多次與歐盟執委會官員及其幕僚會面，以法規的「監管複雜性」與「實務挑戰」可能導致糧食短缺為由表達疑慮。",
+ "dive_html": "大企業「公開支持、私下遊說」的雙面策略被揭露，將增加 EUDR 延後或鬆綁的政治成本。對出口到歐盟的業者，法規即將生效、合規文件準備不能再觀望；台灣直接受影響的品項有限，但咖啡、可可、木材等原料進口商仍須留意供應鏈證明。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Mongabay",
+   "title": "Cargill publicly backs EU deforestation law while lobbying to weaken it, probe finds",
+   "url": "https://news.mongabay.com/2026/11/cargill-publicly-backs-eu-deforestation-law-while-lobbying-to-weaken-it-probe-finds/",
+   "time": "2026-11-25T21:00:53+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "0 comments",
+   "family": "Mongabay",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0180",
+ "title": "美國失去麻疹根除地位後再傳接連死亡，今年累計死亡 14 例、病例近 6,000 例",
+ "line": "病例數為 1991 年以來最高，47 個州與轄區有病例，43 起群聚占 96%",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T04:00:18+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "健康與醫療"
+  ],
+  "event": [
+   "公衛事件"
+  ],
+  "story": [
+   "美國麻疹疫情"
+  ],
+  "sector": [
+   "醫療照護"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "麻疹",
+   "根除地位",
+   "疫苗",
+   "美國疫情"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Ars Technica，國際衛生當局上週正式宣布美國失去麻疹根除地位，代表病毒在美國再度成為地方性流行；報導形容這項正式認定就像「國家已經泡在水裡，才拿到潰堤的技術報告」。美國今年麻疹病例已近 6,000 例，為 1991 年以來最高，47 個州與轄區通報病例，今年 43 起群聚占全部病例的 96%，有 4 個州病例數超過 500 例；近期接連發生死亡病例，全美今年累計 14 人死亡。Memia 電子報也以「美國在 26 年後失去麻疹根除地位」報導。",
+ "dive_html": "失去根除地位是疫苗覆蓋率長期下滑的結果，對國際旅行也有影響：赴美旅客與返台民眾可能把病毒帶入。台灣疫苗接種率高，但仍有境外移入引發群聚的風險，前往美國前宜確認自己的 MMR 疫苗接種紀錄。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Ars Technica",
+   "title": "Back-to-back measles deaths is our new reality; US tally now at 14",
+   "url": "https://arstechnica.com/health/2026/11/measles-death-toll-rises-to-14-as-national-case-tally-nears-6000/",
+   "time": "2026-11-25T04:00:18+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "79 comments",
+   "family": "Ars Technica",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Memia",
+   "title": "US Loses Measles-Elimination Status After 26 Years",
+   "url": "https://www.dw.com/en/us-loses-measles-elimination-status-after-26-years-wsj-reports/a-79946974",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

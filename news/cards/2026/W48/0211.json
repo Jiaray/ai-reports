@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0211",
+ "title": "BBC 查核：川普投資帳戶今年至少 44 度交易 Nvidia 股票，持股價值最高 5,800 萬美元",
+ "line": "1 至 9 月買進 520 萬至 1,700 萬美元、賣出 440 萬至 1,200 萬美元，正值他介入黃仁勳復職",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-26T00:42:11+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "政治",
+   "企業經營"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "sector": [
+   "半導體",
+   "金融"
+  ],
+  "org": [
+   "Nvidia",
+   "美國政府倫理辦公室"
+  ],
+  "person": [
+   "川普",
+   "黃仁勳"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "川普",
+   "Nvidia",
+   "利益衝突",
+   "財產申報"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 BBC Verify 檢視美國總統川普的財產申報，川普的投資組合今年至少 44 次買賣晶片商 Nvidia 股票。他最新公開的交易申報顯示，今年 1 月至 9 月間投資組合買進 520 萬至 1,700 萬美元的 Nvidia 股票，賣出 440 萬至 1,200 萬美元；截至 2025 年底，持有的 Nvidia 股票價值介於 1,250 萬至 5,800 萬美元。向政府倫理辦公室提交的申報只列出交易金額的上下限區間，因此無法得知更精確的數字。",
+ "dive_html": "在川普親自施壓促成黃仁勳復職、Nvidia 股價因此劇烈波動之際，其帳戶頻繁交易該股，利益衝突疑慮勢必成為國會調查焦點。申報只有區間、且交易可能由代管人操作，是否涉及不當得利仍需更多資訊，但政治殺傷力已經出現。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC Top News",
+   "title": "Trump's accounts traded Nvidia shares 44 times this year, records show",
+   "url": "https://www.bbc.co.uk/news/articles/cq772vk664yvo",
+   "time": "2026-11-26T00:42:11+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

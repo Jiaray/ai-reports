@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0177",
+ "title": "Show HN：1998 至 2000 年代的 3dfx、Nvidia、ATI 經典技術展示在瀏覽器中重現",
+ "line": "包括 Voodoo2 的多重貼圖、GeForce 256 的彈簧泡泡與閃電等，可直接在網頁互動",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T12:31:48+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "開發與開源",
+   "網頁遊戲"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "遊戲",
+   "半導體"
+  ],
+  "org": [
+   "Nvidia",
+   "3dfx",
+   "ATI"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "WebGL",
+   "GPU 技術展示",
+   "復古圖形",
+   "瀏覽器"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "一則 Show HN 專案把早年顯示卡廠商的經典技術展示移植到瀏覽器中重新執行，每個展示都可直接在網頁上操作並附 GitHub 原始碼。例如 1998 年 3dfx Voodoo2 的「Borg」以五個繪製通道把九張貼圖貼在方塊上、「Donut」以兩個通道做出浮雕凹凸與反射的甜甜圈；1999 年 Nvidia GeForce 256 的「Bubble」是會反射周遭、可戳動的彈簧泡泡；2000 年的「Lightning」讓使用者按住鋼板引發閃電、照亮凹凸並噴出火花，「Grove」以少數參數生成被螢火蟲照亮的樹林；GeForce2 的「Principles of Shading」則分六步從點到凹凸貼圖與反射重新著色一個標誌。這則在 Hacker News 獲 274 分。",
+ "dive_html": "這類移植展示了現代瀏覽器圖形 API 已能輕鬆重現當年需要專用硬體的特效，也是學習多通道算圖、凹凸貼圖等經典技法的好教材。網頁遊戲開發者可直接參考原始碼，理解這些效果在 WebGL 中的實作方式。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "Show HN: Old Nvidia and ATI tech demos, running again in the browser",
+   "url": "https://gpu-demo-gallery.pages.dev/",
+   "time": "2026-11-25T12:31:48+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "274 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50638503",
+   "family": "gpu-demo-gallery.pages.dev",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 274,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

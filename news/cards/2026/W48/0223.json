@@ -1,0 +1,114 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0223",
+ "title": "北韓驅逐瑞士駐平壤代表、下令關閉剛重開的辦事處，起因是瑞士制裁灌輸烏克蘭兒童的營隊",
+ "line": "瑞士 10 月才派外長訪平壤討論關係正常化；瑞方對北韓決定表示遺憾",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T13:35:00+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞",
+   "歐洲"
+  ],
+  "country": [
+   "KP",
+   "CH",
+   "UA",
+   "RU"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "國際關係"
+  ],
+  "event": [
+   "會談協議",
+   "聲明評論"
+  ],
+  "org": [
+   "北韓外務省",
+   "瑞士政府"
+  ],
+  "person": [
+   "Ignazio Cassis",
+   "崔善姬"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "北韓",
+   "瑞士",
+   "外交",
+   "烏克蘭兒童"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 DW 與 Al Jazeera 引述北韓官媒，北韓宣布瑞士駐平壤最高外交代表為不受歡迎人物，限 48 小時內離境，並要求關閉瑞士在平壤的外交辦事處；該辦事處在長期關閉後重開不到一個月。爭議起因於瑞士把一個被指控對來自俄占領區的烏克蘭兒童進行思想灌輸的營隊列入制裁名單。瑞士外長 Cassis 10 月底才訪問平壤，與北韓外相崔善姬會談外交關係正常化。瑞士政府表示對北韓關閉辦事處的決定感到遺憾。Japan Times 也報導了這起驅逐事件。",
+ "dive_html": "瑞士是少數與北韓維持管道的西方中立國，關係剛破冰就因烏克蘭議題翻臉，顯示北韓與俄國的同盟已延伸到外交立場的全面綁定。這也意味西方對北韓的溝通管道再縮小一條。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Switzerland forced to close office in North Korea over sanctions feud",
+   "url": "https://www.aljazeera.com/news/2026/11/25/switzerland-regrets-closure-of-north-korea-office-over-sanctions-feud",
+   "time": "2026-11-26T00:58:49+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "North Korea expels Swiss envoy over sanctions on camp accused of indoctrinating Ukrainian children",
+   "url": "https://www.dw.com/en/north-korea-expels-swiss-envoy-over-sanctions-on-camp-accused-of-indoctrinating-ukrainian-children/a-80043648?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-25T19:12:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Japan Times",
+   "title": "North Korea expels head of Swiss diplomatic office, state media reports",
+   "url": "https://www.japantimes.co.jp/news/2026/11/25/asia-pacific/north-korea-swiss-diplomatic-office/",
+   "time": "2026-11-25T13:35:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 6,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

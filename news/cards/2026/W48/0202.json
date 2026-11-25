@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0202",
+ "title": "BBC 記者投票通過罷工，抗議新聞部門裁員逾百個職位",
+ "line": "新聞部門須省下至少 5,100 萬英鎊，79.38% 的 NUJ 會員支持罷工、投票率 75%",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T23:52:14+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "娛樂與媒體",
+   "勞動"
+  ],
+  "event": [
+   "示威抗議",
+   "裁員重組"
+  ],
+  "sector": [
+   "媒體與娛樂"
+  ],
+  "org": [
+   "BBC",
+   "英國全國記者工會"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "BBC 罷工",
+   "媒體裁員",
+   "NUJ"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Deadline，英國全國記者工會（NUJ）自上月起對 BBC 會員進行投票，抗議 BBC 為在新聞部門節省逾 5,100 萬英鎊（約 6,700 萬美元）而規劃的裁員，超過 100 個職位面臨風險，BBC News 仍需再找出至少 2,000 萬英鎊才能達到最低節省目標。投票結果顯示，英格蘭、威爾斯與蘇格蘭的 BBC 會員中，79.38% 支持罷工、91.32% 支持罷工以外的勞資爭議行動，投票率 75.03%。",
+ "dive_html": "公共媒體在收入壓力下削減新聞部門，與罷工帶來的節目中斷形成兩難；同時 BBC 也在推動 Top Gear 復活等娛樂投資，內部資源配置的爭議可能更激烈。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Deadline",
+   "title": "BBC Journalists Vote To Take Strike Action Over Job Cuts",
+   "url": "https://deadline.com/2026/11/bbc-journalists-vote-yes-industrial-action-result-1237233186/",
+   "time": "2026-11-25T23:52:14+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "3 comments",
+   "family": "Deadline",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

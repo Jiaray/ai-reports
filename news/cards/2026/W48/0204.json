@@ -1,0 +1,99 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0204",
+ "title": "日職打擊三冠王佐藤輝明傳與小熊達成 6 年 1.2 億美元合約",
+ "line": "27 歲阪神虎強打透過入札挑戰大聯盟，今年打擊率 .306、39 轟、106 分打點",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T02:32:01+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞",
+   "北美"
+  ],
+  "country": [
+   "JP",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "體育"
+  ],
+  "event": [
+   "活動賽事"
+  ],
+  "org": [
+   "阪神虎",
+   "芝加哥小熊",
+   "美國職棒大聯盟"
+  ],
+  "person": [
+   "佐藤輝明"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "佐藤輝明",
+   "MLB",
+   "入札",
+   "芝加哥小熊"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據中央社引述路透與美媒，日本職棒阪神虎強打佐藤輝明透過入札制度挑戰美國職棒大聯盟，已與芝加哥小熊達成 6 年 1 億 2,000 萬美元的合約。27 歲的佐藤輝明 2025 年獲中央聯盟最有價值球員，2026 年以打擊率 3 成 06、39 支全壘打、106 分打點奪下央聯打擊三冠王；效力阪神 6 季累計打擊率 2 成 71、163 轟、518 分打點，並代表日本參加 2026 年世界棒球經典賽。Japan Times 也報導佐藤與另一名日職球星平良海馬同意與大聯盟簽下大約。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "日職重砲佐藤輝明傳加盟MLB小熊　合約6年1.2億美元",
+   "url": "https://www.cna.com.tw/news/aspt/202611250005.aspx",
+   "time": "2026-11-25T02:32:01+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Japan Times",
+   "title": "NPB stars Sato and Taira agree to major MLB deals",
+   "url": "https://www.japantimes.co.jp/sports/2026/11/25/baseball/mlb/sato-taira-mlb-deals/",
+   "time": "2026-11-25T10:41:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,79 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0206",
+ "title": "紐西蘭籃網球聯賽崩盤，距世界盃 9 個月多名國手陷無球可打困境",
+ "line": "留在國內聯賽的 5 名銀蕨隊球員面臨世界盃前沒有比賽的狀況",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T15:17:16+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "大洋洲"
+  ],
+  "country": [
+   "NZ"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "體育"
+  ],
+  "event": [
+   "裁員重組"
+  ],
+  "person": [
+   "Parris Mason"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "籃網球",
+   "紐西蘭",
+   "職業聯賽"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 BBC Sport，紐西蘭國內籃網球聯賽崩盤，距離世界盃只剩 9 個月，紐西蘭國家隊「銀蕨隊」中有 5 名留在國內聯賽的球員陷入困境。23 歲、已職業打球 6 年的後衛 Parris Mason 表示，她「很可能在世界盃前都沒有籃網球可打」；不少銀蕨隊隊友在澳洲與英格蘭職業聯賽效力，但她選擇留在國內。擷取的報導沒有交代聯賽崩盤的原因。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC Sport",
+   "title": "Players in limbo after NZ netball league collapses",
+   "url": "https://www.bbc.co.uk/sport/netball/articles/cq0k6gjgrzn4o",
+   "time": "2026-11-25T15:17:16+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

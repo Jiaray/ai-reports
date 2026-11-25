@@ -1,0 +1,119 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0179",
+ "title": "微軟 Exchange Online 與 Outlook 近 24 小時大當機後宣布內部「Code Red」，每天召開工程會議",
+ "line": "內部備忘錄稱是 Exchange Online 史上客戶影響最大的事故，緊急修補曾花 5 至 6 天才推送全球",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T06:36:28+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "科技"
+  ],
+  "event": [
+   "意外事故"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Microsoft"
+  ],
+  "person": [
+   "Jason Henderson"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "Microsoft 365",
+   "Exchange Online",
+   "Outlook",
+   "雲端當機"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 The Verge 與 Ars Technica 引述路透看到的內部備忘錄，微軟因本月 Exchange Online 與 Outlook 大當機，在內部宣布罕見的「Code Red」，全面翻修工程應變做法，並每天與負責 Microsoft 365 服務的工程團隊開會。11 月 12 日起的這次事故讓全球用戶近 24 小時無法使用 Exchange Online、Teams 與 Outlook，影響數百萬客戶的電子郵件。Microsoft 365 Core 總裁 Jason Henderson 在備忘錄中形容，這是 Exchange Online 史上對客戶影響最大的事故；他在另一份備忘錄指出，近期一起事件的緊急正式環境修補花了 5 到 6 天才推送到全球。80 Level 也報導了微軟宣布 Code Red。另據 Memia 電子報，美國近期一週內多起科技當機被歸咎於修補 AI 找出的漏洞所致。",
+ "dive_html": "雲端服務的修補與發布速度一旦跟不上漏洞被發現的速度，就會在「修得快」與「改出問題」之間兩難，這正是 Code Red 要處理的核心。企業不能假設 SaaS 不會整天停擺，關鍵通訊應有替代管道與事故時的溝通預案。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Verge",
+   "title": "Microsoft declares ‘Code Red’ after huge Outlook outage",
+   "url": "https://www.theverge.com/news/1042025/microsoft-code-red-outlook-outage",
+   "time": "2026-11-25T22:10:55+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "The Verge",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Ars Technica",
+   "title": "Microsoft's historic cloud outage exposed an engineering “fog of war”",
+   "url": "https://arstechnica.com/gadgets/2026/11/microsofts-historic-cloud-outage-exposed-an-engineering-fog-of-war/",
+   "time": "2026-11-25T06:36:28+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "87 comments",
+   "family": "Ars Technica",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Memia",
+   "title": "Patch panic: AI-found bugs blamed for a week of US tech meltdowns",
+   "url": "https://www.ft.com/content/96c565f1-f229-40b6-91e8-7a849ec4b208?syn-25a6b1a6=1",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "80 Level",
+   "title": "Microsoft Declares \"Code Red\" After 24-Hour-Long Outage",
+   "url": "https://80.lv/articles/microsoft-declares-code-red-after-24-hour-long-outage/",
+   "time": "2026-11-25T19:48:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "80 Level",
+   "kind": "media",
+   "region": null,
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 2,
+  "media_weight": 8,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,118 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0218",
+ "title": "BBC、DW 查核：中國關聯網絡以 AI 影片攻擊台灣選舉候選人，一年產出逾 500 部假影片",
+ "line": "深偽影片指沈伯洋吸毒、賴清德持美國綠卡；另有「美國棄台」說法隨選前流傳",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T07:05:11+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "台灣",
+   "中國大陸"
+  ],
+  "country": [
+   "TW",
+   "CN"
+  ],
+  "taiwan": [
+   "直接"
+  ],
+  "topic": [
+   "選舉",
+   "兩岸"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "story": [
+   "2026九合一選舉"
+  ],
+  "org": [
+   "BBC",
+   "德國之聲",
+   "民主進步黨",
+   "總統府"
+  ],
+  "person": [
+   "賴清德",
+   "沈伯洋",
+   "蔡英文"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "深偽影片",
+   "認知作戰",
+   "AI 假訊息",
+   "九合一選舉"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 BBC 中文與 BBC 事實查核（BBC Verify），一個與中國有關的網絡在過去一年針對執政的民進黨大量產出超過 500 部 AI 假影片，專家認為是長期試圖影響選舉結果的一環。影片試圖抹黑總統賴清德，聲稱他持有美國綠卡、台海開戰時會棄台而逃，總統府表示完全是假訊息；深偽影片也看似顯示民進黨台北市長候選人沈伯洋吸毒，他本人駁斥；其他影片把政治人物換成童裝或電影角色加以嘲諷，前總統蔡英文也是目標。專家指出台北市長傳統上是通往總統之路的跳板，使公開批評北京的沈伯洋成為顯著目標。DW 事實查核也指出，選前一個月針對沈伯洋的 AI 生成內容激增，同時出現把美國描繪成「棄台」的假訊息。BBC World 另以「中國是否在 AI 假影片浪潮背後」為題報導。",
+ "dive_html": "國際媒體在投票前三天集中報導，顯示這波 AI 認知作戰的規模已引起外界關注；深偽門檻降低後，假影片數量與擬真度都在提高。選民在最後幾天看到聳動影片時，宜先查證來源，而查核機構與平台的下架速度也是關鍵。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC World",
+   "title": "Is China behind a wave of AI fake videos targeting Taiwan?",
+   "url": "https://www.bbc.co.uk/news/articles/cv702rw7dzx5o",
+   "time": "2026-11-25T07:05:11+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC 中文",
+   "title": "BBC事實查核：與中國有關帳號用AI生成影攻擊台灣選舉候選人",
+   "url": "https://www.bbc.com/zhongwen/articles/c6rmgvkp322xo/trad",
+   "time": "2026-11-25T19:53:06+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "Fact check: Deepfakes and 'US abandons Taiwan' claims spread ahead of vote",
+   "url": "https://www.dw.com/en/fact-check-deepfakes-and-us-abandons-taiwan-claims-spread-ahead-of-vote/a-80004834?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-25T18:35:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0182",
+ "title": "Mozilla、Shopify 等聯名致函歐盟，指蘋果開放 iPhone 第三方瀏覽器引擎兩年半仍形同虛設",
+ "line": "代表 4.5 萬至 5.5 萬家歐盟企業，要求落實《數位市場法》而非另立新法",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T16:52:54+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科技",
+   "開發與開源"
+  ],
+  "event": [
+   "政策法規",
+   "聲明評論"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "網路平台"
+  ],
+  "org": [
+   "Mozilla",
+   "Apple",
+   "Shopify",
+   "歐盟執委會",
+   "Open Web Advocacy"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "數位市場法",
+   "WebKit",
+   "瀏覽器引擎",
+   "iOS"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據科技新報，蘋果因應歐盟《數位市場法》（DMA），自 2024 年 3 月 iOS 17.4 起允許歐盟地區瀏覽器使用 WebKit 以外的引擎，但兩年半來 iPhone 上的 Chrome、Firefox 仍使用與 Safari 相同的 WebKit。由開放網路倡議組織（OWA）發起、11 月 23 日發布的聯合公開信，連署方包括 Mozilla、Shopify、Vivaldi、Brave、Vercel、Y Combinator、歐洲出版商委員會與歐洲遊戲開發者聯盟（EGDF）等，合計代表約 4.5 萬至 5.5 萬家在歐盟設立的企業與組織，要求歐盟執委會消除第三方引擎在 iOS 上的障礙。連署方強調不是要求新法，而是落實現有 DMA。以 Mozilla 為例，無法透過既有 Firefox App 更新直接把用戶轉到 Gecko 引擎版本，必須另推一款 App，等於要同時維護兩個版本，增加營運成本。",
+ "dive_html": "對網頁遊戲與 PWA 開發者，iOS 被 WebKit 綁住意味著功能與效能都受 Safari 進度限制，歐洲遊戲開發者聯盟也加入連署正說明這點。若歐盟真的施壓成功，iOS 網頁能力可能出現明顯改善，但目前只限歐盟地區，其他市場短期內仍不會改變。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "科技新報",
+   "title": "iPhone 瀏覽器引擎開放形同虛設？Mozilla 籲歐盟介入蘋果限制",
+   "url": "https://technews.tw/2026/11/25/webkit-dma/",
+   "time": "2026-11-25T16:52:54+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "科技新報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

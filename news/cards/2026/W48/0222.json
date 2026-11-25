@@ -1,0 +1,109 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0222",
+ "title": "印度「蟑螂運動」領袖 Saurav Das 遭阻登機赴英、被禁用護照，向法院請求出境",
+ "line": "他受英國學生邀請演講，印度外交部表示已告知他不得使用護照",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T19:15:35+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "南亞"
+  ],
+  "country": [
+   "IN",
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "政治",
+   "人權"
+  ],
+  "event": [
+   "爭議風波"
+  ],
+  "org": [
+   "印度外交部",
+   "德里高等法院"
+  ],
+  "person": [
+   "Saurav Das"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "蟑螂運動",
+   "印度",
+   "出境限制"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Guardian，印度青年主導的「蟑螂運動」（Cockroach movement）領袖 Saurav Das 在德里機場被移民官員攔下，無法搭機前往英國，他受當地學生邀請演講，已向德里高等法院請求允許出境。Dawn 與 Straits Times 報導，印度外交部表示已告知 Das 不得使用其護照。擷取的報導沒有交代這個運動的訴求與政府限制的理由。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Guardian World",
+   "title": "Indian Cockroach movement leader asks court for permission to fly to UK",
+   "url": "https://www.theguardian.com/world/2026/nov/25/indian-cockroach-movement-leader-asks-court-for-permission-to-fly-to-uk",
+   "time": "2026-11-25T19:15:35+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Dawn",
+   "title": "India says 'cockroach' movement leader Das told not to use passport",
+   "url": "https://www.dawn.com/news/2047015/india-says-cockroach-movement-leader-das-told-not-to-use-passport",
+   "time": "2026-11-25T23:10:39+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "India says ‘cockroach’ movement leader Das was told not to use passport",
+   "url": "https://www.straitstimes.com/asia/south-asia/india-says-cockroach-movement-leader-das-was-told-not-to-use-passport",
+   "time": "2026-11-25T22:36:40+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

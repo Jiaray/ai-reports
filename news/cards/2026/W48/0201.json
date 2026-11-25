@@ -1,0 +1,101 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0201",
+ "title": "名廚 Gordon Ramsay 接掌 BBC 復活版《Top Gear》主持，2027 年開拍",
+ "line": "前主持人 Flintoff 撞車事故四年後節目回歸，The Stig 也將歸隊",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-26T01:00:09+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "娛樂與媒體"
+  ],
+  "event": [
+   "人事異動"
+  ],
+  "sector": [
+   "媒體與娛樂"
+  ],
+  "org": [
+   "BBC"
+  ],
+  "person": [
+   "Gordon Ramsay",
+   "Andrew Flintoff"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "Top Gear",
+   "Gordon Ramsay",
+   "BBC"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Deadline 與 BBC，名廚 Gordon Ramsay 獲公布為 BBC 汽車節目《Top Gear》的下一任主持人，節目在前主持人 Andrew Flintoff 拍攝撞車事故四年後復活。Ramsay 將領銜主持並主導節目方向，搭配即將公布的共同主持群，經典賽車手角色 The Stig 也將回歸。節目將於 2027 年在英國與世界各地拍攝，薩里郡 Dunsfold 機場的 Top Gear 測試賽道將再度作為節目基地。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Deadline",
+   "title": "Gordon Ramsay To Host Revived ‘Top Gear’ For BBC",
+   "url": "https://deadline.com/2026/11/top-gear-gordon-ramsay-host-bbc-2027-andrew-flintoff-1237233336/",
+   "time": "2026-11-26T01:00:09+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "0 comments",
+   "family": "Deadline",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "BBC Top News",
+   "title": "Gordon Ramsay to host Top Gear as show revived after Flintoff crash",
+   "url": "https://www.bbc.co.uk/news/articles/cjr4gw100d52o",
+   "time": "2026-11-26T01:16:19+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

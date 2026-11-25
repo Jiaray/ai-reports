@@ -1,0 +1,78 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0198",
+ "title": "研究：鳳尾綠咬鵑自 1990 年以來失去逾 36 萬公頃棲地，北方亞種損失超過一半",
+ "line": "農業開墾切割雲霧林、氣候變遷讓森林變乾，研究建議重新評估其保育等級",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-26T00:00:59+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中南美",
+   "北美"
+  ],
+  "country": [
+   "MX"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "環境與氣候"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "鳳尾綠咬鵑",
+   "雲霧林",
+   "棲地流失",
+   "保育"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Mongabay，一項研究顯示，分布於墨西哥與中美洲的代表性鳥類鳳尾綠咬鵑（resplendent quetzal）自 1990 年以來已失去超過 36 萬公頃棲地。研究指出兩個亞種受影響程度不同，北方亞種失去超過一半的棲地，遠多於南方亞種。農業持續切割這種鳥賴以生存、生物多樣性極高但面積很小的雲霧林，氣候變遷也帶來更乾燥的條件、使森林水氣減少。研究呼籲重新評估鳳尾綠咬鵑的保育狀態。擷取的原文沒有交代研究團隊與期刊。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Mongabay",
+   "title": "A ‘stunning,’ colorful bird losing ground to deforestation and climate change: Study",
+   "url": "https://news.mongabay.com/2026/11/a-stunning-colorful-bird-losing-ground-to-deforestation-and-climate-change-study/",
+   "time": "2026-11-26T00:00:59+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "0 comments",
+   "family": "Mongabay",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

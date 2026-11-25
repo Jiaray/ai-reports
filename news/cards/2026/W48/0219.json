@@ -1,0 +1,134 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0219",
+ "title": "西班牙最高法院適用特赦法撤銷普伊格蒙特刑案，流亡近十年的加泰獨派領袖宣布 12 月 12 日返國",
+ "line": "裁決落在週日提前大選前夕；他自 2017 年獨立公投失敗後流亡比利時",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T19:57:00+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "ES",
+   "BE"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "政治",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "org": [
+   "西班牙最高法院"
+  ],
+  "person": [
+   "Carles Puigdemont",
+   "桑傑士"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "普伊格蒙特",
+   "加泰隆尼亞",
+   "特赦法",
+   "西班牙大選"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 France 24，西班牙最高法院對前加泰隆尼亞自治區主席普伊格蒙特（Carles Puigdemont）適用具爭議的特赦法，終結他因 2017 年獨立公投失敗而面臨的刑事訴訟，裁決正值週日提前舉行的國會大選前夕。普伊格蒙特隨後宣布，將結束在比利時近十年的自我流亡，於大選後的 12 月 12 日返回西班牙。DW、Al Jazeera 與中央社也報導他擬返國；中央社另報導，西班牙總理桑傑士在大選前回應親信貪污風暴。",
+ "dive_html": "特赦法原是桑傑士為換取加泰政黨支持而推動，最高法院在選前落槌、普伊格蒙特選後返國，讓加泰議題重回選戰核心，可能同時激化右翼選民與鞏固獨派票源。他返國後的政治角色，將影響新國會的組閣算盤。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "France 24",
+   "title": "Top Spanish court closes case against Catalan separatist leader",
+   "url": "https://www.france24.com/en/video/20261125-top-spanish-court-closes-case-against-catalan-separatist-leader",
+   "time": "2026-11-26T00:25:28+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Catalan separatist Puigdemont to return to Spain on December 12",
+   "url": "https://www.aljazeera.com/news/2026/11/25/catalan-separatist-puigdemont-to-return-to-spain-on-december",
+   "time": "2026-11-25T20:25:46+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Exiled Catalan separatist Puigdemont to return to Spain after election",
+   "url": "https://www.france24.com/en/video/20261125-exiled-catalan-separatist-puigdemont-to-return-to-spain-after-election",
+   "time": "2026-11-25T22:49:23+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "Spain: Catalan separatist Puigdemont sets date for return",
+   "url": "https://www.dw.com/en/spain-catalan-separatist-puigdemont-sets-date-for-return/a-80045846?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-25T19:57:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "加泰隆尼亞獨派領袖擬12/12返西班牙　結束近10年流亡",
+   "url": "https://www.cna.com.tw/news/aopl/202611250320.aspx",
+   "time": "2026-11-25T21:11:37+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 3,
+  "media_weight": 9,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

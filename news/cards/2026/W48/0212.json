@@ -1,0 +1,101 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0212",
+ "title": "BBC 揭英國秘密協議把斯里蘭卡籍難民送往史瓦帝尼，當事人數月後自殺身亡",
+ "line": "他有性侵前科與嚴重精神疾病史，與史瓦帝尼毫無淵源，協議未向國會與當地社區揭露",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T14:00:45+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "非洲",
+   "南亞"
+  ],
+  "country": [
+   "GB",
+   "SZ",
+   "LK"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "移民與難民",
+   "人權"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "org": [
+   "英國政府",
+   "史瓦帝尼政府"
+  ],
+  "person": [
+   "Kishanth Peramalya"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "第三國遣送",
+   "難民",
+   "英國移民政策",
+   "史瓦帝尼"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 BBC 與 Guardian，英國在一項未向國會與當地社區揭露的協議下，強制把一名斯里蘭卡籍難民安置到與他毫無淵源的非洲國家史瓦帝尼。這名男子 Kishanth Peramalya 有性侵前科，也有嚴重精神疾病與自殺未遂病史，抵達史瓦帝尼數月後自殺身亡。Guardian 指出，他 2021 年搭乘的船隻遇險後被帶到英屬印度洋領地，因性侵定罪而被拒絕入境英國，最後被送往非洲。BBC 取得兩國政府協議草案的副本，內容包括英方給予的承諾。",
+ "dive_html": "這是英國「第三國安置」做法的具體案例，揭露了未經國會監督、對高風險個案缺乏照護的問題，勢必引發對工黨政府移民政策透明度的追究。與美國同期的遣返爭議相似，各國把難民移往無關第三國的趨勢正面臨人權與法律的雙重挑戰。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC Top News",
+   "title": "UK sent sex offender refugee to African country in undisclosed deal",
+   "url": "https://www.bbc.co.uk/news/articles/c6z7407zrgwvo",
+   "time": "2026-11-25T14:00:45+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "Sri Lankan asylum seeker killed himself after being sent by UK to Eswatini",
+   "url": "https://www.theguardian.com/uk-news/2026/nov/25/sri-lanka-asylum-seeker-convicted-sexual-assault-uk-kills-himself-eswatini",
+   "time": "2026-11-25T19:28:05+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

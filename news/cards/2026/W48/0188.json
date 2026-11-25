@@ -1,0 +1,80 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0188",
+ "title": "toeverything/AFFiNE：結合文件、白板與表格的開源本地優先知識庫，定位 Notion 與 Miro 替代品",
+ "line": "主打隱私優先、本地優先與可自訂，以 TypeScript 開發",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "AFFiNE"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "AFFiNE",
+   "知識庫",
+   "本地優先",
+   "Notion 替代"
+  ],
+  "form": [
+   "開源專案"
+  ]
+ },
+ "summary_html": "AFFiNE 是開源的全方位工作區，定位為注重隱私、本地優先、可直接使用的 Notion 與 Miro 替代品，把文件、畫布與表格「超融合」在一起，可用於維基、知識管理、簡報與數位資產。專案提供官網、Discord、線上展示、部落格與文件，以 TypeScript 開發；README 也邀請使用者加星以即時收到版本發布通知。擷取的 README 沒有交代最新版本的新功能。單日新增 578 顆星。",
+ "dive_html": "本地優先加開源，對不想把內部文件放在 SaaS 上的團隊是可行選項，文件與白板整合在同一處也符合遊戲企劃與設計的工作型態。它是成熟專案而非新發布，評估重點在協作同步、權限管理與自架維運成本。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GitHub Trending",
+   "title": "toeverything/AFFiNE - There can be more than Notion and Miro. AFFiNE(pronounced [ə‘fain]) is a next-gen knowledge base that brings planning, sorting and creating all together. Privacy first, open-source, customizable and ready to use.",
+   "url": "https://github.com/toeverything/AFFiNE",
+   "time": null,
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "+578 stars today",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,97 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0225",
+ "title": "摩爾多瓦因無人機入侵發起全國備戰宣導，展示攜帶 52 公斤炸藥墜毀的無人機殘骸",
+ "line": "「Moldova Ready」宣導要民眾為緊急狀況做準備，並發布應急物資指南",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T22:50:50+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "MD",
+   "UA",
+   "RU"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "國防與軍事"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "story": [
+   "俄烏戰爭"
+  ],
+  "org": [
+   "摩爾多瓦政府"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "摩爾多瓦",
+   "無人機",
+   "全民防衛",
+   "俄烏戰爭"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 France 24，摩爾多瓦在首都基希涅夫發起名為「Moldova Ready」的全國備戰宣導，呼籲民眾為緊急狀況做準備，因為鄰國烏克蘭的戰事為其邊境帶來新的風險。宣導活動展示了上個月墜毀在該國、攜帶 52 公斤炸藥的無人機殘骸。France 24 另報導，摩爾多瓦發布緊急物資準備指南，為烏克蘭戰事可能擴大做準備。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "France 24",
+   "title": "Moldova launches national preparedness campaign after drone incursions",
+   "url": "https://www.france24.com/en/moldova-launches-national-preparedness-campaign-after-drone-incursions",
+   "time": "2026-11-26T00:34:45+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Moldova issues emergency kit guide, prepares citizens for possible expansion of Ukraine war",
+   "url": "https://www.france24.com/en/video/20261125-moldova-issues-emergency-kit-guide-prepares-citizens-for-possible-expansion-of-ukraine-war",
+   "time": "2026-11-25T22:50:50+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,78 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0185",
+ "title": "cathrynlavery/diagram-design：讓程式代理畫出品牌風格圖表的技能，支援 52 種圖表類型",
+ "line": "輸出單一 HTML＋SVG 檔，不用陰影、不用 Mermaid，可匯入網站配色與字型",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "開發與開源",
+   "AI"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "diagram-design",
+   "Agent Skills",
+   "SVG",
+   "架構圖"
+  ],
+  "form": [
+   "開源專案"
+  ]
+ },
+ "summary_html": "diagram-design 是一個程式代理技能，能把圖表畫成單一自含的 HTML＋SVG 檔案並套用使用者的品牌風格，支援 52 種圖表類型，強調「不用陰影、不要 Mermaid 式的粗糙輸出」。使用者以白話向代理下指令即可，例如畫出前端、後端、資料庫與 Redis 快取的架構圖，以影響力與工作量的四象限呈現專案，或畫出遇 401 時刷新權杖的序列圖；也可以要求代理「把 diagram-design 導入某網站」，抓取該網站的配色與字型，讓之後的圖表都一致。代理會先選定圖表類型、說明計畫，再寫出一個雙擊就能開啟的 .html 檔。可透過 npx skills add 安裝，支援 Cursor、Claude Code、Codex、Qoder、GitHub Copilot、Gemini 等讀取 Agent Skills 的工具。單日新增 1,133 顆星。",
+ "dive_html": "技術文件與簡報最耗時的往往是圖，把「品牌一致的圖表」變成代理可呼叫的技能，正好打中工程團隊的痛點；單一 HTML 輸出也方便直接嵌入文件或網頁。它的價值取決於版型品質，複雜架構圖仍可能需要人工微調。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GitHub Trending",
+   "title": "cathrynlavery/diagram-design - Editorial diagram design for Claude Code, Codex, GitHub Copilot, Cursor, Factory Droid, Qoder, and Pi. 52 diagram types. Self-contained HTML + SVG. No shadows. No Mermaid slop.",
+   "url": "https://github.com/cathrynlavery/diagram-design",
+   "time": null,
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "+1,133 stars today",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

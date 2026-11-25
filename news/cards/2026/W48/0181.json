@@ -1,0 +1,94 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0181",
+ "title": "串流平台 Tidal 宣布禁止純 AI 生成音樂，將刪除逾 2,700 萬首",
+ "line": "過去 90 天新上傳內容有 43% 完全由 AI 生成，原本的標示與不分潤政策不足以遏止",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T01:34:34+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "娛樂與媒體",
+   "AI"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "媒體與娛樂",
+   "網路平台"
+  ],
+  "org": [
+   "Tidal"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Tidal",
+   "AI 音樂",
+   "串流平台",
+   "內容政策"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Guardian 與 Ars Technica，音樂串流平台 Tidal 宣布將在未來幾週全面禁止完全由 AI 生成的音樂，並移除平台上這類歌曲，目前已達 2,700 萬首。多數串流平台選擇標示 AI 內容，Tidal 原本也是如此：2026 年 7 月推出首版 AI 政策，標示並停止對純 AI 歌曲分潤，但仍擋不住「AI 垃圾內容」湧入，過去 90 天新上傳內容有 43% 完全由 AI 生成。Tidal 表示禁止的原因是 AI 音樂對人類藝術家造成傷害。據 AINews 整理，Tidal 將於 12 月 9 日移除純 AI 生成歌曲。",
+ "dive_html": "近半新上傳內容是 AI 生成，顯示串流平台正被低成本內容灌爆，稀釋人類創作者的曝光與分潤；Tidal 選擇全面禁止而非標示，是業界最強硬的做法。如何界定「100% AI 生成」、誤判如何申訴，會是執行上的難題，其他平台是否跟進值得觀察。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Ars Technica",
+   "title": "Tidal announces ban on AI-generated music; 27 million tracks will be deleted",
+   "url": "https://arstechnica.com/ai/2026/11/tidal-will-ban-fully-ai-generated-music-on-december-9/",
+   "time": "2026-11-25T01:34:34+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "89 comments",
+   "family": "Ars Technica",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian Culture",
+   "title": "Tidal bans 100% AI-generated music with plans to delete more than 27m tracks",
+   "url": "https://www.theguardian.com/music/2026/nov/25/tidal-streaming-service-bans-ai-generated-music",
+   "time": "2026-11-25T10:12:22+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

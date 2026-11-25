@@ -1,0 +1,105 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0226",
+ "title": "聯合國：2025 年全球約 4.7 萬名婦女與女孩遭伴侶或家人殺害，平均每小時 5 人",
+ "line": "聯合國於國際消除對婦女暴力日前夕公布數據",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-24T00:00:00+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "人權",
+   "犯罪與司法"
+  ],
+  "event": [
+   "數據發布"
+  ],
+  "org": [
+   "聯合國"
+  ],
+  "person": [
+   "Amina Mohammed"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "殺害女性",
+   "家庭暴力",
+   "聯合國",
+   "性別暴力"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 UN News，聯合國於美國時間 11 月 24 日公布的新數據顯示，2025 年約有 4.7 萬名婦女與女孩遭親密伴侶或家庭成員殺害，相當於每小時 5 人。Dawn 也報導了這組數據。UN News 另報導，即將卸任的聯合國副秘書長 Amina Mohammed 呼籲終結對婦女的暴力，形容「失敗太多」。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "UN News",
+   "title": "Five women killed every hour by partners or family members",
+   "url": "https://news.un.org/en/story/2026/11/1168863",
+   "time": "2026-11-24T00:00:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "聯合國",
+   "kind": "official",
+   "region": "全球",
+   "rank": 2
+  },
+  {
+   "name": "UN News",
+   "title": "‘Far too much failure’: UN deputy chief’s final call to end violence against women",
+   "url": "https://news.un.org/en/story/2026/11/1168868",
+   "time": "2026-11-24T00:00:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "聯合國",
+   "kind": "official",
+   "region": "全球",
+   "rank": 2
+  },
+  {
+   "name": "Dawn",
+   "title": "Five women killed each hour by relatives in 2025: UN",
+   "url": "https://www.dawn.com/news/2046855/five-women-killed-each-hour-by-relatives-in-2025-un",
+   "time": "2026-11-25T09:41:20+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

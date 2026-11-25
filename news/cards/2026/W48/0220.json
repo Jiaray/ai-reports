@@ -1,0 +1,125 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0220",
+ "title": "澳洲國會通過《數位注意義務法》，科技巨頭若未主動降低平台危害恐面臨數十億元罰款",
+ "line": "效法歐盟數位法規；美國批評這項社群媒體法損害言論自由",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T11:17:00+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "大洋洲",
+   "北美"
+  ],
+  "country": [
+   "AU",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科技",
+   "政治"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "網路平台",
+   "軟體與雲端"
+  ],
+  "org": [
+   "澳洲國會"
+  ],
+  "person": [
+   "Sarah Hanson-Young"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "數位注意義務法",
+   "網路安全",
+   "平台監管"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Euronews 引述 AP，澳洲國會於 11 月 25 日通過《數位注意義務法》（Digital Duty of Care Act），要求大型科技公司在危害發生前就主動降低風險，違者可能面臨數十億元罰款，被視為效法歐盟里程碑式數位法規的最新全球監管行動。Straits Times 報導，這項法律強制網路平台下架有害內容，對主要是美國的科技公司又是一記打擊；Japan Times 則報導美國批評澳洲這項社群媒體法損害言論自由。Guardian 的國會直播紀錄顯示，綠黨參議員 Hanson-Young 在法案通過前與自由黨參議員交鋒，指對方「在保護川普」。",
+ "dive_html": "繼兒少社群禁令後，澳洲再以「注意義務」把舉證責任轉給平台，與歐盟 DSA 路線接軌；美方公開批評，顯示平台監管已成為美澳之間的外交摩擦點。對在澳洲營運的平台與遊戲社群服務，內容審核與風險評估的合規成本將上升。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Euronews",
+   "title": "Australia follows EU with new online safety law, putting Big Tech at risk of multibillion-dollar fines",
+   "url": "https://www.euronews.com/2026/11/25/australia-follows-eu-with-new-online-safety-law-putting-big-tech-at-risk-of-multibillion-d",
+   "time": "2026-11-25T23:00:17+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "‘You’re protecting Trump’: Hanson-Young clashes with Liberal senator before digital duty of care legislation passes – as it happened",
+   "url": "https://www.theguardian.com/australia-news/live/2026/nov/25/treasurer-jim-chalmers-myefo-inflation-figures-coalition-one-nation-ntwnfb",
+   "time": "2026-11-25T15:34:44+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Japan Times",
+   "title": "U.S. criticizes Australia social media law as harming free speech",
+   "url": "https://www.japantimes.co.jp/news/2026/11/25/world/us-australia-social-media-speech/",
+   "time": "2026-11-25T11:17:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Australia passes law forcing internet platforms to take down harmful content",
+   "url": "https://www.straitstimes.com/asia/australianz/australia-passes-law-forcing-internet-platforms-to-take-down-harmful-content",
+   "time": "2026-11-25T15:40:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 3,
+  "media_weight": 8,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

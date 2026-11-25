@@ -1,0 +1,79 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0186",
+ "title": "XiaoYouChR/Ghost-Downloader-3：主打弱網環境也快的開源下載器",
+ "line": "以 Python 撰寫，README 強調智慧分段下載，號稱「唯一需要的下載器」",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Ghost-Downloader",
+   "下載器",
+   "多執行緒下載"
+  ],
+  "form": [
+   "開源專案"
+  ]
+ },
+ "summary_html": "Ghost-Downloader-3 是以 Python 撰寫的開源下載工具，自稱「你唯一需要的下載器」、「下載器的集大成者」。README 的功能說明強調「在關鍵處夠快」：每個下載器在好的網路下都快，真正的考驗是差的連線，因此採用智慧分段（chunking）等做法。專案提供文件、示範影片、錯誤回報與功能請求管道，有簡體中文與英文說明。擷取的 README 內容沒有交代完整功能清單與支援的協定。單日新增 950 顆星。",
+ "dive_html": "下載器是老題目，這類專案能上榜多半靠弱網優化與介面體驗；README 開頭夾帶代理服務的贊助廣告，使用前應留意專案的資料與網路行為是否透明。對一般開發者的技術參考價值有限，適合需要大量檔案下載的個人用戶。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GitHub Trending",
+   "title": "XiaoYouChR/Ghost-Downloader-3 - The only downloader you need. 下载器的集大成者。",
+   "url": "https://github.com/XiaoYouChR/Ghost-Downloader-3",
+   "time": null,
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "+950 stars today",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

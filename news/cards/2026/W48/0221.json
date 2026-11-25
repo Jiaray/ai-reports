@@ -1,0 +1,139 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0221",
+ "title": "葉門胡塞叛軍逼近亞丁 60 公里，宣稱襲擊沙烏地最大煉油廠與利雅德金融區",
+ "line": "政府軍在亞丁外圍築防線；沙國主權基金 PIF 大樓遇襲 11 人受傷",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T00:00:00+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東"
+  ],
+  "country": [
+   "YE",
+   "SA",
+   "IR"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "戰爭與衝突"
+  ],
+  "event": [
+   "軍事行動"
+  ],
+  "sector": [
+   "能源與公用事業"
+  ],
+  "org": [
+   "胡塞組織",
+   "沙烏地公共投資基金",
+   "聯合國"
+  ],
+  "person": [
+   "Yahya Saree",
+   "Tom Fletcher"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "胡塞",
+   "亞丁",
+   "Ras Tanura",
+   "葉門內戰"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 France 24，伊朗支持的葉門胡塞叛軍已推進到距國際承認政府所在地亞丁約 60 公里處，對抗胡塞的部隊在城外建立防線，一名軍方官員表示。據 DW，胡塞軍事發言人 Yahya Saree 宣稱對沙烏地阿拉伯發動新一波報復攻擊，造成沙國最大煉油廠與主要原油出口港 Ras Tanura 起火，利雅德金融區一週內二度遇襲。CNBC 報導，胡塞攻擊沙國主權財富基金 PIF 的大樓造成 11 人受傷，是第二次攻擊。Guardian 報導亞丁居民因胡塞逼近而計畫出逃；聯合國人道救援主管 Tom Fletcher 呼籲讓救援進入受戰火波及的社區。",
+ "dive_html": "胡塞同時逼近亞丁與攻擊沙國能源與金融核心，顯示葉門戰事正與更大的伊朗衝突連動；Ras Tanura 受損直接牽動國際油價，台灣作為能源進口國間接受影響。亞丁若失守，葉門政府將失去最後據點，人道危機將急遽惡化。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "France 24",
+   "title": "Houthi rebels close in on Aden, Yemeni forces dig in behind fortified line",
+   "url": "https://www.france24.com/en/video/20261125-houthi-rebels-close-in-on-aden-yemeni-forces-dig-in-behind-fortified-line",
+   "time": "2026-11-25T22:52:06+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "Houthis claim attacks on Saudi refinery, financial district",
+   "url": "https://www.dw.com/en/houthis-claim-attacks-on-saudi-refinery-financial-district/a-80043632?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-25T18:35:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "‘They don’t believe in freedom’: Yemenis plan their escape as Houthis advance on Aden",
+   "url": "https://www.theguardian.com/world/2026/nov/25/yemen-houthis-advance-aden",
+   "time": "2026-11-25T13:00:06+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "UN News",
+   "title": "Yemen war: Emergency aid chief calls for access to war-hit communities",
+   "url": "https://news.un.org/en/story/2026/11/1168872",
+   "time": "2026-11-25T00:00:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "聯合國",
+   "kind": "official",
+   "region": "全球",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "Houthi attack on Saudi Arabian sovereign wealth fund PIF's tower injures 11",
+   "url": "https://www.cnbc.com/2026/11/25/us-iran-war-trump-hormuz-houthi-saudi-pif-tower.html",
+   "time": "2026-11-25T10:36:43+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 2,
+  "media_weight": 8,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0187",
+ "title": "mjmirza/app-store-compliance：整理 124 種 App Store 與 Google Play 退件原因與修正的開源手冊",
+ "line": "附送審前檢查、隱私清單與 Data safety 檢查，追蹤 114 個法規期限，並提供給 AI 程式代理的技能",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "開發與開源",
+   "遊戲"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "遊戲"
+  ],
+  "org": [
+   "Apple",
+   "Google"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "App Store 審核",
+   "Google Play",
+   "送審",
+   "隱私清單",
+   "COPPA"
+  ],
+  "form": [
+   "開源專案"
+  ]
+ },
+ "summary_html": "app-store-compliance 是一份開源手冊與送審前檢查工具，目標是在審查員之前抓出 iOS 與 Android App 的退件原因。專案整理了 124 種有記錄的退件模式與修正方式，提供隱私清單（privacy manifest）與 Google Play Data safety 檢查，追蹤 114 個法規期限（包括歐盟 AI 法、數位服務法 DSA、美國兒童線上隱私保護法 COPPA 與年齡相關法律），也附給 AI 程式代理使用的技能。README 強調它會清楚說明掃描能證明什麼、哪些仍需人工判斷，並不保證通過審核；新手可依身分選擇起點，例如即將送審者兩分鐘內跑兩個指令。手冊也可在網站上閱讀。單日新增 853 顆星。",
+ "dive_html": "對手遊團隊，退件常意味著錯過檔期，把散落在論壇的審核經驗整理成可檢查清單很實用，法規期限追蹤也幫助提前準備年齡驗證等新規。它是社群整理、非官方規則，平台政策變動時可能落後，最終仍以 Apple、Google 官方指南為準。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GitHub Trending",
+   "title": "mjmirza/app-store-compliance - Avoid common App Store and Google Play rejections. Open playbook and pre-submission guard with 124 documented rejection patterns and fixes, privacy manifest and Data safety checks, 114 tracked deadlines (EU AI Act, DSA, COPPA, age laws), and a skill for AI coding agents.",
+   "url": "https://github.com/mjmirza/app-store-compliance",
+   "time": null,
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "+853 stars today",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

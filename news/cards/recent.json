@@ -1,7 +1,3590 @@
 {
  "schema": 2,
- "built_at": "2026-11-26T02:02:15+08:00",
+ "built_at": "2026-11-26T02:08:48+08:00",
  "cards": [
+  {
+   "id": "2026-W48-0228",
+   "title": "Guardian 調查：資料中心推升錫價，巴西亞馬遜爆發「比淘金更具破壞性」的非法錫礦熱",
+   "line": "犯罪集團利用原住民土地與監管漏洞開採錫石，供應資料中心、AI 與電動車需求",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "環境與氣候",
+    "犯罪與司法"
+   ],
+   "topic_all": [
+    "環境與氣候",
+    "犯罪與司法"
+   ],
+   "story": [],
+   "sector": [
+    "原物料與化工",
+    "軟體與雲端"
+   ],
+   "event": [
+    "調查揭露"
+   ],
+   "region": [
+    "中南美"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "巴西聯邦警察"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society",
+    "environment"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T21:00:27+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.28217821782178215,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0227",
+   "title": "全球首度連續 6 天比工業化前高 2°C，週一日均地表溫度創 2.24°C 新高",
+   "line": "Guardian 取得的數據顯示高溫仍在延續；單日紀錄太短，尚不代表長期突破 2°C",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "環境與氣候"
+   ],
+   "topic_all": [
+    "環境與氣候"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "數據發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "高",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "environment"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T22:52:30+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.28217821782178215,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0226",
+   "title": "聯合國：2025 年全球約 4.7 萬名婦女與女孩遭伴侶或家人殺害，平均每小時 5 人",
+   "line": "聯合國於國際消除對婦女暴力日前夕公布數據",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "人權",
+    "犯罪與司法"
+   ],
+   "topic_all": [
+    "人權",
+    "社會",
+    "犯罪與司法"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "數據發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "聯合國"
+   ],
+   "person": [
+    "Amina Mohammed"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T00:00:00+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.38613861386138615,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0225",
+   "title": "摩爾多瓦因無人機入侵發起全國備戰宣導，展示攜帶 52 公斤炸藥墜毀的無人機殘骸",
+   "line": "「Moldova Ready」宣導要民眾為緊急狀況做準備，並發布應急物資指南",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "國防與軍事"
+   ],
+   "topic_all": [
+    "國防與軍事"
+   ],
+   "story": [
+    "俄烏戰爭"
+   ],
+   "sector": [],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "摩爾多瓦政府"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T22:50:50+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.28217821782178215,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0224",
+   "title": "以色列國會不顧納坦雅胡反對，推進 10 月 7 日襲擊事件的國家調查委員會法案",
+   "line": "法案旨在調查政府在 2023 年哈瑪斯襲擊中的失職並追究安全崩潰責任",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "政治"
+   ],
+   "topic_all": [
+    "政治"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "中東"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "以色列國會"
+   ],
+   "person": [
+    "納坦雅胡"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T22:53:49+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.28217821782178215,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0223",
+   "title": "北韓驅逐瑞士駐平壤代表、下令關閉剛重開的辦事處，起因是瑞士制裁灌輸烏克蘭兒童的營隊",
+   "line": "瑞士 10 月才派外長訪平壤討論關係正常化；瑞方對北韓決定表示遺憾",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "國際關係"
+   ],
+   "topic_all": [
+    "國際關係"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "會談協議",
+    "聲明評論"
+   ],
+   "region": [
+    "東北亞",
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "北韓外務省",
+    "瑞士政府"
+   ],
+   "person": [
+    "Ignazio Cassis",
+    "崔善姬"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 3,
+    "regions": 3,
+    "media_weight": 6,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T13:35:00+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.054455445544554455,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0222",
+   "title": "印度「蟑螂運動」領袖 Saurav Das 遭阻登機赴英、被禁用護照，向法院請求出境",
+   "line": "他受英國學生邀請演講，印度外交部表示已告知他不得使用護照",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "政治",
+    "人權"
+   ],
+   "topic_all": [
+    "政治",
+    "人權",
+    "社會"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "爭議風波"
+   ],
+   "region": [
+    "南亞"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "印度外交部",
+    "德里高等法院"
+   ],
+   "person": [
+    "Saurav Das"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 3,
+    "regions": 3,
+    "media_weight": 5,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics",
+    "society"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T19:15:35+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.06435643564356436,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0221",
+   "title": "葉門胡塞叛軍逼近亞丁 60 公里，宣稱襲擊沙烏地最大煉油廠與利雅德金融區",
+   "line": "政府軍在亞丁外圍築防線；沙國主權基金 PIF 大樓遇襲 11 人受傷",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "戰爭與衝突"
+   ],
+   "topic_all": [
+    "戰爭與衝突"
+   ],
+   "story": [],
+   "sector": [
+    "能源與公用事業"
+   ],
+   "event": [
+    "軍事行動"
+   ],
+   "region": [
+    "中東"
+   ],
+   "taiwan": "間接",
+   "weight": "高",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "胡塞組織",
+    "沙烏地公共投資基金",
+    "聯合國"
+   ],
+   "person": [
+    "Yahya Saree",
+    "Tom Fletcher"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 4,
+    "regions": 2,
+    "media_weight": 8,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T00:00:00+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.07920792079207921,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0220",
+   "title": "澳洲國會通過《數位注意義務法》，科技巨頭若未主動降低平台危害恐面臨數十億元罰款",
+   "line": "效法歐盟數位法規；美國批評這項社群媒體法損害言論自由",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "科技",
+    "政治"
+   ],
+   "topic_all": [
+    "科技",
+    "政治"
+   ],
+   "story": [],
+   "sector": [
+    "網路平台",
+    "軟體與雲端"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "大洋洲",
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "澳洲國會"
+   ],
+   "person": [
+    "Sarah Hanson-Young"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 4,
+    "regions": 3,
+    "media_weight": 8,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics",
+    "tech"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T11:17:00+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.04950495049504951,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0219",
+   "title": "西班牙最高法院適用特赦法撤銷普伊格蒙特刑案，流亡近十年的加泰獨派領袖宣布 12 月 12 日返國",
+   "line": "裁決落在週日提前大選前夕；他自 2017 年獨立公投失敗後流亡比利時",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "政治",
+    "犯罪與司法"
+   ],
+   "topic_all": [
+    "政治",
+    "犯罪與司法"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "訴訟判決"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "西班牙最高法院"
+   ],
+   "person": [
+    "Carles Puigdemont",
+    "桑傑士"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 4,
+    "regions": 3,
+    "media_weight": 9,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics",
+    "society"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T19:57:00+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.04455445544554455,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0218",
+   "title": "BBC、DW 查核：中國關聯網絡以 AI 影片攻擊台灣選舉候選人，一年產出逾 500 部假影片",
+   "line": "深偽影片指沈伯洋吸毒、賴清德持美國綠卡；另有「美國棄台」說法隨選前流傳",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "選舉",
+    "兩岸"
+   ],
+   "topic_all": [
+    "選舉",
+    "政治",
+    "兩岸"
+   ],
+   "story": [
+    "2026九合一選舉"
+   ],
+   "sector": [],
+   "event": [
+    "調查揭露"
+   ],
+   "region": [
+    "台灣",
+    "中國大陸"
+   ],
+   "taiwan": "直接",
+   "weight": "高",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "BBC",
+    "德國之聲",
+    "民主進步黨",
+    "總統府"
+   ],
+   "person": [
+    "賴清德",
+    "沈伯洋",
+    "蔡英文"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 1,
+    "media_weight": 4,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "cross_strait",
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T07:05:11+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.22277227722772278,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0217",
+   "title": "南非總統拉瑪佛沙勝訴，法院撤銷可能導致其遭彈劾的「農場門」調查報告",
+   "line": "2022 年獨立小組曾認定他可能就農場遭竊、藏在沙發裡的 58 萬美元涉嚴重不當行為",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "政治",
+    "犯罪與司法"
+   ],
+   "topic_all": [
+    "政治",
+    "犯罪與司法"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "訴訟判決"
+   ],
+   "region": [
+    "非洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "南非西開普高等法院"
+   ],
+   "person": [
+    "拉瑪佛沙"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 4,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics",
+    "society"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T23:35:33+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.13366336633663367,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0216",
+   "title": "哥倫比亞卡塔赫納超市人質事件落幕，警方攻堅救出全部人質、擊斃一名歹徒",
+   "line": "觀光城市 Éxito 超市約 25 至 30 人遭挾持近一整天，無人質受傷",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "犯罪與司法"
+   ],
+   "topic_all": [
+    "犯罪與司法"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "犯罪執法"
+   ],
+   "region": [
+    "中南美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "哥倫比亞國家警察"
+   ],
+   "person": [
+    "Abelardo de la Espriella"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 4,
+    "regions": 2,
+    "media_weight": 8,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T11:57:11+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.07920792079207921,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0215",
+   "title": "烏克蘭稱擊中俄國薩瓦斯列伊卡空軍基地 5 架戰機；俄無人機攻擊烏國 6 州致 7 死",
+   "line": "受損的是 3 架 MiG-31 與 2 架 Su-34；烏軍另以無人機襲擊薩馬拉、羅斯托夫煉油廠",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "戰爭與衝突"
+   ],
+   "topic_all": [
+    "戰爭與衝突"
+   ],
+   "story": [
+    "俄烏戰爭"
+   ],
+   "sector": [
+    "能源與公用事業",
+    "航太與國防"
+   ],
+   "event": [
+    "軍事行動"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "烏克蘭總參謀部",
+    "Naftogaz",
+    "DTEK"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 4,
+    "regions": 2,
+    "media_weight": 9,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T17:18:37+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.07425742574257425,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0214",
+   "title": "以色列空襲加薩市，擊斃哈瑪斯北加薩內部安全首長與其妻女",
+   "line": "47 歲的 Mohammed Abu al-Ouf 與妻子、兩名十幾歲女兒在 Shati 難民營住處遇難",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "戰爭與衝突"
+   ],
+   "topic_all": [
+    "戰爭與衝突"
+   ],
+   "story": [
+    "以哈戰爭"
+   ],
+   "sector": [],
+   "event": [
+    "軍事行動"
+   ],
+   "region": [
+    "中東"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "以色列國防軍",
+    "哈瑪斯"
+   ],
+   "person": [
+    "Mohammed Abu al-Ouf"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 3,
+    "regions": 2,
+    "media_weight": 7,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T22:06:13+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.09900990099009901,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0213",
+   "title": "BBC 分析外洩俄國官方資料：烏克蘭戰爭至少 49 萬名俄軍死亡，獨立媒體估最高達 70 萬",
+   "line": "克里姆林宮拒絕評論；BBC 俄文版檢視逾 1,100 萬筆死亡紀錄",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "戰爭與衝突"
+   ],
+   "topic_all": [
+    "戰爭與衝突"
+   ],
+   "story": [
+    "俄烏戰爭"
+   ],
+   "sector": [
+    "航太與國防"
+   ],
+   "event": [
+    "調查揭露"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "高",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "BBC",
+    "俄羅斯聯邦統計局",
+    "克里姆林宮"
+   ],
+   "person": [
+    "普丁",
+    "佩斯科夫"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 3,
+    "regions": 1,
+    "media_weight": 6,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T11:00:03+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2079207920792079,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0212",
+   "title": "BBC 揭英國秘密協議把斯里蘭卡籍難民送往史瓦帝尼，當事人數月後自殺身亡",
+   "line": "他有性侵前科與嚴重精神疾病史，與史瓦帝尼毫無淵源，協議未向國會與當地社區揭露",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "移民與難民",
+    "人權"
+   ],
+   "topic_all": [
+    "移民與難民",
+    "社會",
+    "人權"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "調查揭露"
+   ],
+   "region": [
+    "歐洲",
+    "非洲",
+    "南亞"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "英國政府",
+    "史瓦帝尼政府"
+   ],
+   "person": [
+    "Kishanth Peramalya"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 1,
+    "media_weight": 4,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T14:00:45+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.22277227722772278,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0211",
+   "title": "BBC 查核：川普投資帳戶今年至少 44 度交易 Nvidia 股票，持股價值最高 5,800 萬美元",
+   "line": "1 至 9 月買進 520 萬至 1,700 萬美元、賣出 440 萬至 1,200 萬美元，正值他介入黃仁勳復職",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "政治",
+    "企業經營"
+   ],
+   "topic_all": [
+    "政治",
+    "企業經營",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "半導體",
+    "金融"
+   ],
+   "event": [
+    "調查揭露"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Nvidia",
+    "美國政府倫理辦公室"
+   ],
+   "person": [
+    "川普",
+    "黃仁勳"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics",
+    "finance",
+    "tech"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-26T00:42:11+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.28217821782178215,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0210",
+   "title": "英國能源價格上限 1 月起調升 26%，伊朗戰爭推高天然氣價格，一般家庭年帳單增約 443 英鎊",
+   "line": "約 2,000 萬戶浮動費率家庭受影響，冬季每月可能多付近 60 英鎊",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "能源",
+    "總體經濟"
+   ],
+   "topic_all": [
+    "能源",
+    "總體經濟",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "能源與公用事業"
+   ],
+   "event": [
+    "政策法規",
+    "市場波動"
+   ],
+   "region": [
+    "歐洲",
+    "中東"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": true,
+   "org": [
+    "英國天然氣暨電力市場管制局"
+   ],
+   "person": [
+    "Andy Burnham"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 5,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "finance",
+    "environment"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T17:54:32+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.10891089108910891,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0209",
+   "title": "Paul Graham〈How Universities Should Prepare Founders〉：大學該培養會動手做東西的人，而非教管理",
+   "line": "YC 合夥人看重的是擅長打造東西且有持續動手習慣的人",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": true,
+   "late": true,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "教育",
+    "企業經營"
+   ],
+   "topic_all": [
+    "教育",
+    "企業經營",
+    "財經"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "聲明評論"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Y Combinator"
+   ],
+   "person": [
+    "Paul Graham"
+   ],
+   "form": "長文",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society",
+    "finance",
+    "reading"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-08-01T08:00:00+08:00",
+   "event_at": "2026-08-01T08:00:00+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.6831683168316832,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0208",
+   "title": "Paul Graham〈Making Startups Powerful〉：問「什麼能讓公司更有力量」比「怎麼多賺錢」更能帶來數量級的價值",
+   "line": "例如從零件供應商轉為掌握客戶關係的一方，或讓金流經過自己",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": true,
+   "late": true,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "科技",
+    "企業經營"
+   ],
+   "topic_all": [
+    "科技",
+    "企業經營",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "聲明評論"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Y Combinator"
+   ],
+   "person": [
+    "Paul Graham"
+   ],
+   "form": "長文",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "finance",
+    "tech",
+    "reading"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-09-01T08:00:00+08:00",
+   "event_at": "2026-09-01T08:00:00+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.6831683168316832,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0207",
+   "title": "Unity 東京大會展示 Unity 6.7 與 Unity 7 的 URP 繪圖改進，並釋出範例專案 Atrio",
+   "line": "新增 Surface Cache 全域光照、行動端也支援的螢幕空間反射與 GTAO 環境光遮蔽",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "開發與開源",
+    "遊戲"
+   ],
+   "topic_all": [
+    "開發與開源",
+    "科技",
+    "遊戲"
+   ],
+   "story": [],
+   "sector": [
+    "遊戲",
+    "軟體與雲端"
+   ],
+   "event": [
+    "版本更新"
+   ],
+   "region": [
+    "東北亞",
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Unity"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "tech",
+    "game_industry",
+    "web_gamedev"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T02:24:15+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.38613861386138615,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0206",
+   "title": "紐西蘭籃網球聯賽崩盤，距世界盃 9 個月多名國手陷無球可打困境",
+   "line": "留在國內聯賽的 5 名銀蕨隊球員面臨世界盃前沒有比賽的狀況",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "體育"
+   ],
+   "topic_all": [
+    "體育"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "裁員重組"
+   ],
+   "region": [
+    "大洋洲"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [
+    "Parris Mason"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "sports"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T15:17:16+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.28217821782178215,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0205",
+   "title": "前英格蘭國腳 Sterling 危險駕駛與持有笑氣判緩刑，免於立即入獄",
+   "line": "曾 4 度贏得英超冠軍、在切爾西週薪 32.5 萬英鎊，從國家隊象徵到被判刑",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "體育",
+    "犯罪與司法"
+   ],
+   "topic_all": [
+    "體育",
+    "犯罪與司法"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "訴訟判決"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [
+    "Raheem Sterling"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 3,
+    "regions": 1,
+    "media_weight": 7,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society",
+    "sports"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T20:42:57+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.20297029702970298,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0204",
+   "title": "日職打擊三冠王佐藤輝明傳與小熊達成 6 年 1.2 億美元合約",
+   "line": "27 歲阪神虎強打透過入札挑戰大聯盟，今年打擊率 .306、39 轟、106 分打點",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "體育"
+   ],
+   "topic_all": [
+    "體育"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "活動賽事"
+   ],
+   "region": [
+    "東北亞",
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "阪神虎",
+    "芝加哥小熊",
+    "美國職棒大聯盟"
+   ],
+   "person": [
+    "佐藤輝明"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 5,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "sports"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T02:32:01+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.10891089108910891,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0203",
+   "title": "世界青少年桌球錦標賽 U15 混雙，台灣陳凱程、陳芷妍與吳沅鍇、廖頤暄雙雙奪銅",
+   "line": "陳凱程、陳芷妍四強決勝局化解 3 個賽末點仍以 9:11 不敵中國組合",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "體育"
+   ],
+   "topic_all": [
+    "體育"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "活動賽事"
+   ],
+   "region": [
+    "台灣",
+    "歐洲"
+   ],
+   "taiwan": "直接",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [
+    "陳凱程",
+    "陳芷妍",
+    "吳沅鍇",
+    "廖頤暄"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 3,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "sports"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T14:00:11+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2722772277227723,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0202",
+   "title": "BBC 記者投票通過罷工，抗議新聞部門裁員逾百個職位",
+   "line": "新聞部門須省下至少 5,100 萬英鎊，79.38% 的 NUJ 會員支持罷工、投票率 75%",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "娛樂與媒體",
+    "勞動"
+   ],
+   "topic_all": [
+    "娛樂與媒體",
+    "勞動"
+   ],
+   "story": [],
+   "sector": [
+    "媒體與娛樂"
+   ],
+   "event": [
+    "示威抗議",
+    "裁員重組"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "BBC",
+    "英國全國記者工會"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society",
+    "entertainment"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T23:52:14+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.38613861386138615,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0201",
+   "title": "名廚 Gordon Ramsay 接掌 BBC 復活版《Top Gear》主持，2027 年開拍",
+   "line": "前主持人 Flintoff 撞車事故四年後節目回歸，The Stig 也將歸隊",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "娛樂與媒體"
+   ],
+   "topic_all": [
+    "娛樂與媒體"
+   ],
+   "story": [],
+   "sector": [
+    "媒體與娛樂"
+   ],
+   "event": [
+    "人事異動"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": true,
+   "org": [
+    "BBC"
+   ],
+   "person": [
+    "Gordon Ramsay",
+    "Andrew Flintoff"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 3,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "entertainment"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-26T01:00:09+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.1485148514851485,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0200",
+   "title": "威爾斯印度裔藝術家 Alia Syed 獲英國 Jarman 實驗電影獎，獎金 1 萬英鎊",
+   "line": "評審讚其作品探討記憶、遷徙與隱藏歷史的「深度與成熟」",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "文化藝術"
+   ],
+   "topic_all": [
+    "文化藝術"
+   ],
+   "story": [],
+   "sector": [
+    "媒體與娛樂"
+   ],
+   "event": [
+    "活動賽事"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Film London"
+   ],
+   "person": [
+    "Alia Syed"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "culture"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T03:30:54+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.28217821782178215,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0199",
+   "title": "國家文藝獎得主、世紀當代舞團創辦人姚淑芬辭世，享壽 62 歲，文化部頒贈總統褒揚令",
+   "line": "2018 年獲國家文藝獎舞蹈類，長年推動藝術走出劇場、融入街區與捷運",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "文化藝術"
+   ],
+   "topic_all": [
+    "文化藝術"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "人事異動"
+   ],
+   "region": [
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "文化部",
+    "世紀當代舞團",
+    "台北捷運公司"
+   ],
+   "person": [
+    "姚淑芬",
+    "李靜慧"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 3,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "culture"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T15:10:10+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.23076923076923078,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0198",
+   "title": "研究：鳳尾綠咬鵑自 1990 年以來失去逾 36 萬公頃棲地，北方亞種損失超過一半",
+   "line": "農業開墾切割雲霧林、氣候變遷讓森林變乾，研究建議重新評估其保育等級",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "環境與氣候"
+   ],
+   "topic_all": [
+    "環境與氣候"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "中南美",
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "environment"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-26T00:00:59+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.38613861386138615,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0197",
+   "title": "加拿大原住民反對 Suncor 把油砂礦場處理後廢水排入飲用水源",
+   "line": "廢水將排入流向 Athabasca 湖的河川，Fort Chipewyan 社區居民憂心處理效果不明",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "環境與氣候",
+    "社會"
+   ],
+   "topic_all": [
+    "環境與氣候",
+    "社會"
+   ],
+   "story": [],
+   "sector": [
+    "能源與公用事業"
+   ],
+   "event": [
+    "爭議風波"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Suncor"
+   ],
+   "person": [
+    "Leana Hosea"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society",
+    "environment"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T03:53:25+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.38613861386138615,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0196",
+   "title": "印尼最大鎳業園區 IMIP 頻傳致命事故，工會拒簽未納入職安委員會的勞資協約",
+   "line": "2023 年冶煉爐爆炸 21 死，政府資料 2017 至 2023 年園區 39 人因工死亡，全國鎳加工場 6 年 107 死",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "勞動",
+    "環境與氣候"
+   ],
+   "topic_all": [
+    "勞動",
+    "環境與氣候"
+   ],
+   "story": [],
+   "sector": [
+    "原物料與化工",
+    "汽車"
+   ],
+   "event": [
+    "爭議風波"
+   ],
+   "region": [
+    "東南亞"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "印尼莫羅瓦利工業園區",
+    "印尼勞動部"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society",
+    "environment"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T12:49:46+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.38613861386138615,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0195",
+   "title": "巴西亞馬遜北部嚴重乾旱，羅賴馬州 95% 面積受災，主要河流見底、社區對外交通中斷",
+   "line": "2015 年以來第三次聖嬰引發的乾旱，國家水務局宣布嚴重缺水狀態至明年 4 月 30 日",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "環境與氣候",
+    "災害與事故"
+   ],
+   "topic_all": [
+    "環境與氣候",
+    "災害與事故"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "天災"
+   ],
+   "region": [
+    "中南美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "巴西國家水務局"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society",
+    "environment"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T17:49:01+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.38613861386138615,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0194",
+   "title": "調查：Cargill 公開支持歐盟毀林法規，私下卻遊說削弱並延後實施",
+   "line": "環保組織 Earthsight 揭露其多次與執委會官員會面；法規 12 月 30 日對大中型業者生效",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "環境與氣候",
+    "企業經營"
+   ],
+   "topic_all": [
+    "環境與氣候",
+    "企業經營",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "農業與食品"
+   ],
+   "event": [
+    "調查揭露"
+   ],
+   "region": [
+    "歐洲",
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Cargill",
+    "Earthsight",
+    "歐盟執委會"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "finance",
+    "environment"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T21:00:53+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.38613861386138615,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0193",
+   "title": "琥珀化石顯示：近一億年前的長腳蚱蜢可能像水黽一樣在水面行走",
+   "line": "腿與腳上的特殊毛髮與葉狀構造保存完好，屬於新發現的昆蟲科",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "科學"
+   ],
+   "topic_all": [
+    "科學"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "science"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:01:00+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.38613861386138615,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0192",
+   "title": "研究：澳洲無腳壁虎的演化模式與蛇相似",
+   "line": "鱗腳蜥科在飲食偏好與身體多樣性的模式，比其他無腳蜥蜴更接近蛇",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "科學"
+   ],
+   "topic_all": [
+    "科學"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "大洋洲"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "science"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T23:00:00+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.38613861386138615,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0191",
+   "title": "近距離超新星 SN 2026ahvu 引發全球天文學家搶觀測，有望揭開恆星爆炸之謎",
+   "line": "起初只是每天數十個超新星之一，科學家很快發現它非常特別",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "科學"
+   ],
+   "topic_all": [
+    "科學"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "約翰霍普金斯大學"
+   ],
+   "person": [
+    "Sumit Sarbadhicary"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "science"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-26T01:00:00+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.38613861386138615,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0190",
+   "title": "nginx/nginx：全球最熱門網頁伺服器 NGINX 的官方開源程式庫",
+   "line": "兼具高效能負載平衡、反向代理、API 閘道與內容快取，以簡化的 BSD 類授權釋出",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "開發與開源"
+   ],
+   "topic_all": [
+    "開發與開源",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "其他"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "F5"
+   ],
+   "person": [],
+   "form": "開源專案",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "tech",
+    "github"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": null,
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.6831683168316832,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0189",
+   "title": "cursor/plugins：Cursor 官方公開外掛規格與官方外掛集",
+   "line": "每個外掛是獨立資料夾、附 plugin.json 清單，涵蓋開發工具、框架與 SaaS 產品",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "開發與開源",
+    "AI"
+   ],
+   "topic_all": [
+    "開發與開源",
+    "科技",
+    "AI"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Cursor"
+   ],
+   "person": [
+    "Eric Zakariasson"
+   ],
+   "form": "開源專案",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "tech",
+    "github"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": null,
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.6831683168316832,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0188",
+   "title": "toeverything/AFFiNE：結合文件、白板與表格的開源本地優先知識庫，定位 Notion 與 Miro 替代品",
+   "line": "主打隱私優先、本地優先與可自訂，以 TypeScript 開發",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "開發與開源"
+   ],
+   "topic_all": [
+    "開發與開源",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "AFFiNE"
+   ],
+   "person": [],
+   "form": "開源專案",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "tech",
+    "github"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": null,
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.6831683168316832,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0187",
+   "title": "mjmirza/app-store-compliance：整理 124 種 App Store 與 Google Play 退件原因與修正的開源手冊",
+   "line": "附送審前檢查、隱私清單與 Data safety 檢查，追蹤 114 個法規期限，並提供給 AI 程式代理的技能",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "開發與開源",
+    "遊戲"
+   ],
+   "topic_all": [
+    "開發與開源",
+    "科技",
+    "遊戲"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端",
+    "遊戲"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Apple",
+    "Google"
+   ],
+   "person": [],
+   "form": "開源專案",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "tech",
+    "github",
+    "game_industry",
+    "web_gamedev"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": null,
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.6831683168316832,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0186",
+   "title": "XiaoYouChR/Ghost-Downloader-3：主打弱網環境也快的開源下載器",
+   "line": "以 Python 撰寫，README 強調智慧分段下載，號稱「唯一需要的下載器」",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "開發與開源"
+   ],
+   "topic_all": [
+    "開發與開源",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "中國大陸"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "開源專案",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "tech",
+    "github"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": null,
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.6831683168316832,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0185",
+   "title": "cathrynlavery/diagram-design：讓程式代理畫出品牌風格圖表的技能，支援 52 種圖表類型",
+   "line": "輸出單一 HTML＋SVG 檔，不用陰影、不用 Mermaid，可匯入網站配色與字型",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "開發與開源",
+    "AI"
+   ],
+   "topic_all": [
+    "開發與開源",
+    "科技",
+    "AI"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "開源專案",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "tech",
+    "github"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": null,
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.6831683168316832,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0184",
+   "title": "TrendForce：中系雲端業者下修訂單，2027 年記憶體產值增幅放緩，NAND Flash 轉入價格下行",
+   "line": "NAND 產值下修至約 4,193 億美元、年增 29%；DRAM 仍吃緊但漲幅收斂，產值 1.15 兆美元、年增 69%",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "科技",
+    "企業經營"
+   ],
+   "topic_all": [
+    "科技",
+    "企業經營",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "半導體"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "全球",
+    "中國大陸",
+    "北美"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "TrendForce"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "finance",
+    "tech"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T14:45:00+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.38613861386138615,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0183",
+   "title": "歐盟擬設 500 億歐元「主權科技股權基金」，長期押注 AI 與量子以降低對美中依賴",
+   "line": "以歐盟資金當種子，目標每 1 歐元吸引最多 6 歐元民間資金；同日提出量子戰略",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "科技",
+    "AI"
+   ],
+   "topic_all": [
+    "科技",
+    "AI"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端",
+    "金融"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "歐盟執委會",
+    "歐洲投資銀行"
+   ],
+   "person": [
+    "Henna Virkkunen"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 3,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "tech"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T16:40:35+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.1485148514851485,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0182",
+   "title": "Mozilla、Shopify 等聯名致函歐盟，指蘋果開放 iPhone 第三方瀏覽器引擎兩年半仍形同虛設",
+   "line": "代表 4.5 萬至 5.5 萬家歐盟企業，要求落實《數位市場法》而非另立新法",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "科技",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端",
+    "網路平台"
+   ],
+   "event": [
+    "政策法規",
+    "聲明評論"
+   ],
+   "region": [
+    "歐洲",
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Mozilla",
+    "Apple",
+    "Shopify",
+    "歐盟執委會",
+    "Open Web Advocacy"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "tech"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T16:52:54+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.38613861386138615,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0181",
+   "title": "串流平台 Tidal 宣布禁止純 AI 生成音樂，將刪除逾 2,700 萬首",
+   "line": "過去 90 天新上傳內容有 43% 完全由 AI 生成，原本的標示與不分潤政策不足以遏止",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "娛樂與媒體",
+    "AI"
+   ],
+   "topic_all": [
+    "娛樂與媒體",
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "媒體與娛樂",
+    "網路平台"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Tidal"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 4,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "tech",
+    "entertainment"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T01:34:34+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.13366336633663367,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0180",
+   "title": "美國失去麻疹根除地位後再傳接連死亡，今年累計死亡 14 例、病例近 6,000 例",
+   "line": "病例數為 1991 年以來最高，47 個州與轄區有病例，43 起群聚占 96%",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "健康與醫療"
+   ],
+   "topic_all": [
+    "健康與醫療"
+   ],
+   "story": [
+    "美國麻疹疫情"
+   ],
+   "sector": [
+    "醫療照護"
+   ],
+   "event": [
+    "公衛事件"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "間接",
+   "weight": "高",
+   "relevance": "中",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 4,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "health"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T04:00:18+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.13366336633663367,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0179",
+   "title": "微軟 Exchange Online 與 Outlook 近 24 小時大當機後宣布內部「Code Red」，每天召開工程會議",
+   "line": "內部備忘錄稱是 Exchange Online 史上客戶影響最大的事故，緊急修補曾花 5 至 6 天才推送全球",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "科技"
+   ],
+   "topic_all": [
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "意外事故"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "高",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "Microsoft"
+   ],
+   "person": [
+    "Jason Henderson"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 4,
+    "regions": 2,
+    "media_weight": 8,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "tech"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:36:28+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.07920792079207921,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0178",
+   "title": "NASA 火星任務半數暫停科學作業：毅力號與奧德賽號分別出現技術問題",
+   "line": "兩者都已超過原設計壽命，NASA 在火星運作的四個任務中有兩個受影響",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "科學"
+   ],
+   "topic_all": [
+    "科學"
+   ],
+   "story": [],
+   "sector": [
+    "航太與國防"
+   ],
+   "event": [
+    "意外事故"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "美國國家航空暨太空總署"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "science"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:50:11+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.28217821782178215,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0177",
+   "title": "Show HN：1998 至 2000 年代的 3dfx、Nvidia、ATI 經典技術展示在瀏覽器中重現",
+   "line": "包括 Voodoo2 的多重貼圖、GeForce 256 的彈簧泡泡與閃電等，可直接在網頁互動",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "開發與開源",
+    "網頁遊戲"
+   ],
+   "topic_all": [
+    "開發與開源",
+    "科技",
+    "網頁遊戲",
+    "遊戲"
+   ],
+   "story": [],
+   "sector": [
+    "遊戲",
+    "半導體"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Nvidia",
+    "3dfx",
+    "ATI"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 274,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "social",
+    "tech",
+    "game_industry",
+    "web_gamedev"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T12:31:48+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.6831683168316832,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0176",
+   "title": "開發者實測繞過 iOS Safari 60 FPS 上限，讓網頁應用做出原生般的流暢互動",
+   "line": "受 React Aria 與 React 創造者的實驗啟發，探討用 DOM 與 CSS 達到原生質感",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "開發與開源",
+    "網頁遊戲"
+   ],
+   "topic_all": [
+    "開發與開源",
+    "科技",
+    "網頁遊戲",
+    "遊戲"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "其他"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Apple"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 370,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "social",
+    "tech",
+    "game_industry",
+    "web_gamedev"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T11:04:37+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.6831683168316832,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0175",
+   "title": "離岸風電業者改與企業簽綠電購售合約，經濟部：建置無涉稅金、三方得利",
+   "line": "企業願以高於台電躉購價買綠電，2030 年產業綠電需求估 475 億度、2035 年逾 740 億度",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "能源",
+    "環境與氣候"
+   ],
+   "topic_all": [
+    "能源",
+    "環境與氣候"
+   ],
+   "story": [],
+   "sector": [
+    "能源與公用事業",
+    "半導體"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "經濟部能源署",
+    "台灣電力公司"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 3,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "environment"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T20:39:19+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.23076923076923078,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0174",
+   "title": "福衛八號第 2 顆衛星完成運送前審查，12 月 28 日起運赴美、明年 2 月搭獵鷹九號升空",
+   "line": "首顆「齊柏林衛星」影像優於預期並已取得日本訂單；8 顆星系預計 2031 年布建完成",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "科學",
+    "科技"
+   ],
+   "topic_all": [
+    "科學",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "航太與國防"
+   ],
+   "event": [
+    "活動賽事"
+   ],
+   "region": [
+    "台灣",
+    "北美"
+   ],
+   "taiwan": "直接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": true,
+   "org": [
+    "國家太空中心",
+    "SpaceX",
+    "日本遙測技術中心"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 1,
+    "media_weight": 5,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "tech",
+    "science"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T20:48:24+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.21782178217821782,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0173",
+   "title": "遭川普政府錯誤遣返的薩爾瓦多人 Ábrego García 自願離美，落腳西班牙",
+   "line": "他曾因「行政錯誤」被遣送薩爾瓦多，成為川普大規模驅逐行動的象徵人物",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "移民與難民"
+   ],
+   "topic_all": [
+    "移民與難民",
+    "社會"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "政策法規",
+    "爭議風波"
+   ],
+   "region": [
+    "北美",
+    "歐洲",
+    "中南美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [
+    "Kilmar Ábrego García",
+    "川普"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 4,
+    "regions": 3,
+    "media_weight": 10,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T07:50:31+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.039603960396039604,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0172",
+   "title": "查核：「確保選務人員沒在選票上寫字以免變廢票」是美國期中選舉謠言，與台灣九合一選舉無關",
+   "line": "台灣事實查核中心指台灣選票不會記載文字或符號，選務人員由公教、警察與政黨監察員組成",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "選舉"
+   ],
+   "topic_all": [
+    "選舉",
+    "政治"
+   ],
+   "story": [
+    "2026九合一選舉"
+   ],
+   "sector": [],
+   "event": [
+    "調查揭露"
+   ],
+   "region": [
+    "台灣",
+    "北美"
+   ],
+   "taiwan": "直接",
+   "weight": "低",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "台灣事實查核中心",
+    "中央選舉委員會"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T16:25:54+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.38613861386138615,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0171",
+   "title": "查核：網傳「APEC 美中俄元首仿雅爾達會議並排坐」照片為 AI 生成，非真實場景",
+   "line": "MyGoPen 比對國際通訊社畫面，三人並無並排合坐的影像，影像工具檢出 AI 生成特徵",
+   "born_at": "2026-11-26T02:08:48+08:00",
+   "updated_at": "2026-11-26T02:08:48+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "國際關係"
+   ],
+   "topic_all": [
+    "國際關係"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "調查揭露"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "MyGoPen",
+    "亞太經濟合作"
+   ],
+   "person": [
+    "川普",
+    "習近平",
+    "普丁"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T13:04:25+08:00",
+   "event_at": "2026-11-26T02:08:48+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.38613861386138615,
+   "exploited": false
+  },
   {
    "id": "2026-W48-0170",
    "title": "日本新潟簡易法院法官Akifumi Morimoto因線上賭場賭博遭彈劾法院罷免",
@@ -64,7 +3647,7 @@
    "first_reported_at": "2026-11-25T22:40:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2328767123287671,
+   "heat_rank": 0.28217821782178215,
    "exploited": false
   },
   {
@@ -122,7 +3705,7 @@
    "first_reported_at": "2026-11-25T14:29:23+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -189,7 +3772,7 @@
    "first_reported_at": "2026-11-25T23:16:40+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -253,7 +3836,7 @@
    "first_reported_at": "2026-11-25T15:55:14+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.10273972602739725,
+   "heat_rank": 0.1485148514851485,
    "exploited": false
   },
   {
@@ -317,7 +3900,7 @@
    "first_reported_at": "2026-11-25T15:55:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -378,7 +3961,7 @@
    "first_reported_at": "2026-11-25T16:28:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.1232876712328767,
+   "heat_rank": 0.17326732673267325,
    "exploited": false
   },
   {
@@ -439,7 +4022,7 @@
    "first_reported_at": "2026-11-25T11:12:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -503,7 +4086,7 @@
    "first_reported_at": "2026-11-25T05:46:45+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -567,7 +4150,7 @@
    "first_reported_at": "2026-11-25T09:57:32+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -631,7 +4214,7 @@
    "first_reported_at": "2026-11-25T13:59:57+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.19863013698630136,
+   "heat_rank": 0.2524752475247525,
    "exploited": false
   },
   {
@@ -699,7 +4282,7 @@
    "first_reported_at": "2026-11-25T14:25:45+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -764,7 +4347,7 @@
    "first_reported_at": "2026-11-25T16:07:55+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -828,7 +4411,7 @@
    "first_reported_at": "2026-11-25T13:12:38+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -893,7 +4476,7 @@
    "first_reported_at": "2026-11-23T17:49:19+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -957,7 +4540,7 @@
    "first_reported_at": "2026-11-23T16:21:02+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -1021,7 +4604,7 @@
    "first_reported_at": "2026-11-19T10:10:45+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -1086,7 +4669,7 @@
    "first_reported_at": "2026-11-23T16:21:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -1148,7 +4731,7 @@
    "first_reported_at": "2026-11-20T12:52:38+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -1212,7 +4795,7 @@
    "first_reported_at": "2026-11-24T11:54:52+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -1276,7 +4859,7 @@
    "first_reported_at": "2026-11-19T10:57:14+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -1340,7 +4923,7 @@
    "first_reported_at": "2026-11-19T11:56:39+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -1405,7 +4988,7 @@
    "first_reported_at": "2026-11-25T02:04:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -1469,7 +5052,7 @@
    "first_reported_at": "2026-11-25T18:53:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -1534,7 +5117,7 @@
    "first_reported_at": "2026-11-25T19:36:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -1596,7 +5179,7 @@
    "first_reported_at": "2026-11-25T02:29:25+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.1232876712328767,
+   "heat_rank": 0.17326732673267325,
    "exploited": false
   },
   {
@@ -1662,7 +5245,7 @@
    "first_reported_at": "2026-11-25T17:15:50+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -1731,7 +5314,7 @@
    "first_reported_at": "2026-11-25T20:43:40+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -1796,7 +5379,7 @@
    "first_reported_at": "2026-11-25T21:09:40+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -1863,7 +5446,7 @@
    "first_reported_at": "2026-11-25T22:55:50+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -1922,7 +5505,7 @@
    "first_reported_at": "2026-11-25T13:26:37+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6666666666666666,
+   "heat_rank": 0.6923076923076923,
    "exploited": false
   },
   {
@@ -1983,7 +5566,7 @@
    "first_reported_at": "2026-11-25T21:59:21+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6666666666666666,
+   "heat_rank": 0.6923076923076923,
    "exploited": false
   },
   {
@@ -2044,7 +5627,7 @@
    "first_reported_at": "2026-11-25T22:26:29+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6666666666666666,
+   "heat_rank": 0.6923076923076923,
    "exploited": false
   },
   {
@@ -2102,7 +5685,7 @@
    "first_reported_at": "2026-11-25T19:00:45+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2328767123287671,
+   "heat_rank": 0.28217821782178215,
    "exploited": false
   },
   {
@@ -2164,7 +5747,7 @@
    "first_reported_at": "2026-11-25T03:07:26+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2328767123287671,
+   "heat_rank": 0.28217821782178215,
    "exploited": false
   },
   {
@@ -2223,7 +5806,7 @@
    "first_reported_at": "2026-11-25T07:30:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.1643835616438356,
+   "heat_rank": 0.21287128712871287,
    "exploited": false
   },
   {
@@ -2281,7 +5864,7 @@
    "first_reported_at": "2026-11-25T09:09:43+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -2344,7 +5927,7 @@
    "first_reported_at": "2026-11-25T12:11:59+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -2403,7 +5986,7 @@
    "first_reported_at": "2026-11-25T19:13:47+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -2462,7 +6045,7 @@
    "first_reported_at": "2026-11-25T20:00:04+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -2520,7 +6103,7 @@
    "first_reported_at": "2026-11-26T00:20:01+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -2587,7 +6170,7 @@
    "first_reported_at": "2026-11-25T01:35:17+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.0410958904109589,
+   "heat_rank": 0.0297029702970297,
    "exploited": false
   },
   {
@@ -2644,7 +6227,7 @@
    "first_reported_at": "2026-11-25T17:01:01+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.25,
+   "heat_rank": 0.23076923076923078,
    "exploited": false
   },
   {
@@ -2706,7 +6289,7 @@
    "first_reported_at": "2026-11-25T17:21:29+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.25,
+   "heat_rank": 0.23076923076923078,
    "exploited": false
   },
   {
@@ -2766,7 +6349,7 @@
    "first_reported_at": "2026-11-25T17:34:42+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.25,
+   "heat_rank": 0.23076923076923078,
    "exploited": false
   },
   {
@@ -2827,7 +6410,7 @@
    "first_reported_at": "2026-11-25T16:47:52+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.25,
+   "heat_rank": 0.23076923076923078,
    "exploited": false
   },
   {
@@ -2893,7 +6476,7 @@
    "first_reported_at": "2026-11-24T00:00:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.0821917808219178,
+   "heat_rank": 0.10891089108910891,
    "exploited": false
   },
   {
@@ -2959,7 +6542,7 @@
    "first_reported_at": "2026-11-25T20:27:16+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2328767123287671,
+   "heat_rank": 0.28217821782178215,
    "exploited": false
   },
   {
@@ -3025,7 +6608,7 @@
    "first_reported_at": "2026-11-25T08:26:33+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.0136986301369863,
+   "heat_rank": 0.009900990099009901,
    "exploited": false
   },
   {
@@ -3094,7 +6677,7 @@
    "first_reported_at": "2026-11-25T04:36:38+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.02054794520547945,
+   "heat_rank": 0.01485148514851485,
    "exploited": false
   },
   {
@@ -3157,7 +6740,7 @@
    "first_reported_at": "2026-11-25T09:51:02+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.03424657534246575,
+   "heat_rank": 0.024752475247524754,
    "exploited": false
   },
   {
@@ -3226,7 +6809,7 @@
    "first_reported_at": "2026-11-25T09:31:46+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.0273972602739726,
+   "heat_rank": 0.019801980198019802,
    "exploited": false
   },
   {
@@ -3289,7 +6872,7 @@
    "first_reported_at": "2026-11-25T17:17:26+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.041666666666666664,
+   "heat_rank": 0.038461538461538464,
    "exploited": false
   },
   {
@@ -3353,7 +6936,7 @@
    "first_reported_at": "2026-11-25T16:53:54+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.25,
+   "heat_rank": 0.23076923076923078,
    "exploited": false
   },
   {
@@ -3421,7 +7004,7 @@
    "first_reported_at": "2026-11-25T18:35:20+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.25,
+   "heat_rank": 0.23076923076923078,
    "exploited": false
   },
   {
@@ -3483,7 +7066,7 @@
    "first_reported_at": "2026-11-25T19:36:46+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.25,
+   "heat_rank": 0.23076923076923078,
    "exploited": false
   },
   {
@@ -3553,7 +7136,7 @@
    "first_reported_at": "2026-11-25T19:59:55+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.25,
+   "heat_rank": 0.23076923076923078,
    "exploited": false
   },
   {
@@ -3618,7 +7201,7 @@
    "first_reported_at": "2026-11-25T20:50:28+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.25,
+   "heat_rank": 0.23076923076923078,
    "exploited": false
   },
   {
@@ -3683,7 +7266,7 @@
    "first_reported_at": "2026-11-25T20:35:09+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.041666666666666664,
+   "heat_rank": 0.038461538461538464,
    "exploited": false
   },
   {
@@ -3749,7 +7332,7 @@
    "first_reported_at": "2026-11-25T23:17:28+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.25,
+   "heat_rank": 0.23076923076923078,
    "exploited": false
   },
   {
@@ -3808,7 +7391,7 @@
    "first_reported_at": "2026-11-25T10:53:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2328767123287671,
+   "heat_rank": 0.28217821782178215,
    "exploited": false
   },
   {
@@ -3868,7 +7451,7 @@
    "first_reported_at": "2026-11-25T14:08:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2328767123287671,
+   "heat_rank": 0.28217821782178215,
    "exploited": false
   },
   {
@@ -3935,7 +7518,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.07534246575342465,
+   "heat_rank": 0.09900990099009901,
    "exploited": false
   },
   {
@@ -4000,7 +7583,7 @@
    "first_reported_at": "2026-11-25T06:07:45+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2328767123287671,
+   "heat_rank": 0.28217821782178215,
    "exploited": false
   },
   {
@@ -4070,7 +7653,7 @@
    "first_reported_at": "2026-11-25T23:18:49+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.0821917808219178,
+   "heat_rank": 0.10891089108910891,
    "exploited": false
   },
   {
@@ -4132,7 +7715,7 @@
    "first_reported_at": "2026-11-26T00:24:30+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17123287671232876,
+   "heat_rank": 0.22277227722772278,
    "exploited": false
   },
   {
@@ -4194,7 +7777,7 @@
    "first_reported_at": "2026-06-01T08:00:00+08:00",
    "event_at": "2026-06-01T08:00:00+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -4258,7 +7841,7 @@
    "first_reported_at": "2026-11-25T15:30:57+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -4323,7 +7906,7 @@
    "first_reported_at": "2026-11-25T15:32:08+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.19863013698630136,
+   "heat_rank": 0.2524752475247525,
    "exploited": false
   },
   {
@@ -4382,7 +7965,7 @@
    "first_reported_at": "2026-11-25T18:19:17+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -4445,7 +8028,7 @@
    "first_reported_at": "2026-11-25T19:29:17+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -4503,7 +8086,7 @@
    "first_reported_at": "2026-11-25T16:16:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.19863013698630136,
+   "heat_rank": 0.2524752475247525,
    "exploited": false
   },
   {
@@ -4562,7 +8145,7 @@
    "first_reported_at": "2026-11-25T19:51:53+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -4624,7 +8207,7 @@
    "first_reported_at": "2026-11-25T23:23:22+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -4689,7 +8272,7 @@
    "first_reported_at": "2026-11-25T21:29:28+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -4751,7 +8334,7 @@
    "first_reported_at": "2026-11-25T17:44:43+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.1232876712328767,
+   "heat_rank": 0.17326732673267325,
    "exploited": false
   },
   {
@@ -4812,7 +8395,7 @@
    "first_reported_at": "2026-11-25T22:04:37+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -4873,7 +8456,7 @@
    "first_reported_at": "2026-11-26T01:18:26+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -4934,7 +8517,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -4998,7 +8581,7 @@
    "first_reported_at": "2026-11-25T10:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6666666666666666,
+   "heat_rank": 0.6923076923076923,
    "exploited": false
   },
   {
@@ -5058,7 +8641,7 @@
    "first_reported_at": "2026-11-25T10:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -5121,7 +8704,7 @@
    "first_reported_at": "2026-11-25T11:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -5181,7 +8764,7 @@
    "first_reported_at": "2026-11-25T12:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -5241,7 +8824,7 @@
    "first_reported_at": "2026-11-25T12:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -5302,7 +8885,7 @@
    "first_reported_at": "2026-11-25T02:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": true
   },
   {
@@ -5364,7 +8947,7 @@
    "first_reported_at": "2026-11-25T02:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": true
   },
   {
@@ -5426,7 +9009,7 @@
    "first_reported_at": "2026-11-25T03:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6666666666666666,
+   "heat_rank": 0.6923076923076923,
    "exploited": false
   },
   {
@@ -5490,7 +9073,7 @@
    "first_reported_at": "2026-11-25T03:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6666666666666666,
+   "heat_rank": 0.6923076923076923,
    "exploited": false
   },
   {
@@ -5550,7 +9133,7 @@
    "first_reported_at": "2026-11-25T04:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -5613,7 +9196,7 @@
    "first_reported_at": "2026-11-25T14:21:12+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": true
   },
   {
@@ -5677,7 +9260,7 @@
    "first_reported_at": "2026-11-25T02:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.1232876712328767,
+   "heat_rank": 0.17326732673267325,
    "exploited": true
   },
   {
@@ -5738,7 +9321,7 @@
    "first_reported_at": "2026-11-25T04:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.1232876712328767,
+   "heat_rank": 0.17326732673267325,
    "exploited": true
   },
   {
@@ -5799,7 +9382,7 @@
    "first_reported_at": "2026-11-25T20:48:54+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": true
   },
   {
@@ -5863,7 +9446,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -5925,7 +9508,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -5990,7 +9573,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.1232876712328767,
+   "heat_rank": 0.17326732673267325,
    "exploited": true
   },
   {
@@ -6059,7 +9642,7 @@
    "first_reported_at": "2026-11-25T15:10:45+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -6126,7 +9709,7 @@
    "first_reported_at": "2026-11-25T02:03:58+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17123287671232876,
+   "heat_rank": 0.22277227722772278,
    "exploited": false
   },
   {
@@ -6198,7 +9781,7 @@
    "first_reported_at": "2026-11-25T14:50:46+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.19863013698630136,
+   "heat_rank": 0.2524752475247525,
    "exploited": false
   },
   {
@@ -6260,7 +9843,7 @@
    "first_reported_at": "2026-11-25T22:48:21+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.04794520547945205,
+   "heat_rank": 0.034653465346534656,
    "exploited": false
   },
   {
@@ -6322,7 +9905,7 @@
    "first_reported_at": "2026-11-25T18:25:31+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -6452,7 +10035,7 @@
    "first_reported_at": "2026-11-25T21:23:45+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.041666666666666664,
+   "heat_rank": 0.038461538461538464,
    "exploited": false
   },
   {
@@ -6517,7 +10100,7 @@
    "first_reported_at": "2026-11-26T00:35:43+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2328767123287671,
+   "heat_rank": 0.28217821782178215,
    "exploited": false
   },
   {
@@ -6584,7 +10167,7 @@
    "first_reported_at": "2026-11-25T19:16:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.1917808219178082,
+   "heat_rank": 0.24752475247524752,
    "exploited": false
   },
   {
@@ -6646,7 +10229,7 @@
    "first_reported_at": "2026-11-25T19:08:48+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6666666666666666,
+   "heat_rank": 0.6923076923076923,
    "exploited": false
   },
   {
@@ -6710,7 +10293,7 @@
    "first_reported_at": "2026-11-25T17:24:39+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.20833333333333334,
+   "heat_rank": 0.19230769230769232,
    "exploited": false
   },
   {
@@ -6787,7 +10370,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.00684931506849315,
+   "heat_rank": 0.0049504950495049506,
    "exploited": false
   },
   {
@@ -6860,7 +10443,7 @@
    "first_reported_at": "2026-11-25T11:32:33+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.0821917808219178,
+   "heat_rank": 0.10891089108910891,
    "exploited": false
   },
   {
@@ -6930,7 +10513,7 @@
    "first_reported_at": "2026-11-25T20:02:58+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.22602739726027396,
+   "heat_rank": 0.2722772277227723,
    "exploited": false
   },
   {
@@ -6990,7 +10573,7 @@
    "first_reported_at": "2026-11-25T21:47:43+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.06164383561643835,
+   "heat_rank": 0.06930693069306931,
    "exploited": false
   },
   {
@@ -7127,7 +10710,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -7189,7 +10772,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -7251,7 +10834,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -7312,7 +10895,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -7374,7 +10957,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -7436,7 +11019,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -7496,7 +11079,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -7556,7 +11139,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -7618,7 +11201,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -7686,7 +11269,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -7746,7 +11329,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -7807,7 +11390,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -7875,7 +11458,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.10273972602739725,
+   "heat_rank": 0.1485148514851485,
    "exploited": true
   },
   {
@@ -7936,7 +11519,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -7996,7 +11579,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6666666666666666,
+   "heat_rank": 0.6923076923076923,
    "exploited": false
   },
   {
@@ -8057,7 +11640,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -8118,7 +11701,7 @@
    "first_reported_at": "2026-11-25T09:45:35+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.0547945205479452,
+   "heat_rank": 0.054455445544554455,
    "exploited": false
   },
   {
@@ -8180,7 +11763,7 @@
    "first_reported_at": "2026-11-25T12:27:55+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -8246,7 +11829,7 @@
    "first_reported_at": "2026-11-25T21:33:07+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -8304,7 +11887,7 @@
    "first_reported_at": "2026-11-25T08:54:49+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -8368,7 +11951,7 @@
    "first_reported_at": "2026-11-25T10:34:21+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -8427,7 +12010,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -8485,7 +12068,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -8543,7 +12126,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -8602,7 +12185,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -8660,7 +12243,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -8718,7 +12301,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -8776,7 +12359,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -8841,7 +12424,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -8909,7 +12492,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -8970,7 +12553,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -9032,7 +12615,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -9096,7 +12679,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2328767123287671,
+   "heat_rank": 0.28217821782178215,
    "exploited": false
   },
   {
@@ -9165,7 +12748,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2328767123287671,
+   "heat_rank": 0.28217821782178215,
    "exploited": false
   },
   {
@@ -9228,7 +12811,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3219178082191781,
+   "heat_rank": 0.38613861386138615,
    "exploited": false
   },
   {
@@ -9295,7 +12878,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2328767123287671,
+   "heat_rank": 0.28217821782178215,
    "exploited": false
   },
   {
@@ -9358,7 +12941,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -9426,7 +13009,7 @@
    "first_reported_at": "2026-11-25T05:49:50+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2328767123287671,
+   "heat_rank": 0.28217821782178215,
    "exploited": false
   },
   {
@@ -9489,7 +13072,7 @@
    "first_reported_at": "2026-11-25T01:46:41+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -9552,7 +13135,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -9621,7 +13204,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2328767123287671,
+   "heat_rank": 0.28217821782178215,
    "exploited": false
   },
   {
@@ -9688,7 +13271,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -9751,7 +13334,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -9815,7 +13398,7 @@
    "first_reported_at": "2026-11-25T12:29:07+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -9880,7 +13463,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -9942,7 +13525,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -10001,7 +13584,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -10064,7 +13647,7 @@
    "first_reported_at": "2026-11-25T02:32:13+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -10126,7 +13709,7 @@
    "first_reported_at": "2026-11-25T05:32:51+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -10185,7 +13768,7 @@
    "first_reported_at": "2026-11-25T07:56:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -10255,7 +13838,7 @@
    "first_reported_at": "2026-11-25T04:34:53+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17123287671232876,
+   "heat_rank": 0.22277227722772278,
    "exploited": false
   },
   {
@@ -10321,7 +13904,7 @@
    "first_reported_at": "2026-11-25T02:55:12+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -10387,7 +13970,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -10454,7 +14037,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.0684931506849315,
+   "heat_rank": 0.09405940594059406,
    "exploited": false
   },
   {
@@ -10514,7 +14097,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -10578,7 +14161,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -10639,7 +14222,7 @@
    "first_reported_at": "2026-11-25T22:05:57+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6301369863013698,
+   "heat_rank": 0.6831683168316832,
    "exploited": false
   },
   {
@@ -10711,7 +14294,7 @@
    "first_reported_at": "2026-11-25T16:23:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.10273972602739725,
+   "heat_rank": 0.1485148514851485,
    "exploited": false
   },
   {
@@ -10772,7 +14355,7 @@
    "first_reported_at": "2026-11-25T22:16:12+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.041666666666666664,
+   "heat_rank": 0.038461538461538464,
    "exploited": false
   }
  ]

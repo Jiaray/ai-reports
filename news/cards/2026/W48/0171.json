@@ -1,0 +1,93 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0171",
+ "title": "查核：網傳「APEC 美中俄元首仿雅爾達會議並排坐」照片為 AI 生成，非真實場景",
+ "line": "MyGoPen 比對國際通訊社畫面，三人並無並排合坐的影像，影像工具檢出 AI 生成特徵",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T13:04:25+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "country": [
+   "US",
+   "CN",
+   "RU"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "國際關係"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "org": [
+   "MyGoPen",
+   "亞太經濟合作"
+  ],
+  "person": [
+   "川普",
+   "習近平",
+   "普丁"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "事實查核",
+   "AI 生成圖片",
+   "雅爾達會議",
+   "APEC"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "MyGoPen 於 11 月 25 日查核社群流傳的圖片，貼文以 1945 年邱吉爾、小羅斯福、史達林在雅爾達會議並坐的照片，搭配一張習近平、川普與普丁並排而坐的照片，聲稱是 APEC 峰會期間美俄中三國會議。MyGoPen 以 Google Lens 確認上圖為美聯社圖庫中的雅爾達會議照片；搜尋美聯社、路透社影音庫後發現，三人在 APEC 期間只有一起走向背板、在背板前合照與圓桌會議的畫面，並沒有並排合坐的影像；將標示「2026」的圖片交由多款影像工具檢測，也顯示具 AI 生成與編輯特徵。MyGoPen 的結論為「錯誤」：網傳圖片並非真實照片。",
+ "dive_html": "",
+ "fields": [
+  {
+   "name": "原始結論",
+   "html": "錯誤"
+  }
+ ],
+ "sources": [
+  {
+   "name": "MyGoPen",
+   "title": "【錯誤】網傳APEC美中俄元首仿雅爾達會議並排坐？AI生成畫面！非真實場景",
+   "url": "https://www.mygopen.com/2026/11/ai-apec.html",
+   "time": "2026-11-25T13:04:25+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "MyGoPen",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

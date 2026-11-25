@@ -1,0 +1,74 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0193",
+ "title": "琥珀化石顯示：近一億年前的長腳蚱蜢可能像水黽一樣在水面行走",
+ "line": "腿與腳上的特殊毛髮與葉狀構造保存完好，屬於新發現的昆蟲科",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T08:01:00+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "琥珀",
+   "化石",
+   "蚱蜢",
+   "白堊紀"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Science News，近 1 億年前、與恐龍同時代的一群腿細長的蚱蜢，可能像現代的水黽一樣在水面上快速移動。線索來自保存在琥珀中的化石昆蟲的腿與腳：特殊的毛髮與葉片狀的腿部裝飾保存得極為完整，這些昆蟲屬於一個新發現的昆蟲科。擷取的原文沒有交代研究團隊、期刊與化石出土地點。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Science News",
+   "title": "Extinct, long-legged grasshoppers walked on water alongside dinosaurs",
+   "url": "https://www.sciencenews.org/article/extinct-grasshoppers-walked-on-water",
+   "time": "2026-11-25T08:01:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Science News",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

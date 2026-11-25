@@ -1,0 +1,77 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0192",
+ "title": "研究：澳洲無腳壁虎的演化模式與蛇相似",
+ "line": "鱗腳蜥科在飲食偏好與身體多樣性的模式，比其他無腳蜥蜴更接近蛇",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T23:00:00+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "大洋洲"
+  ],
+  "country": [
+   "AU"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "鱗腳蜥",
+   "無腳壁虎",
+   "演化",
+   "蛇"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Science News，澳洲的無腳壁虎（鱗腳蜥科，pygopods）外觀很像蛇，研究發現它們的演化方式也像蛇。蛇在分類上是高度特化的無腳蜥蜴，另有數十個蜥蜴譜系也各自獨立失去四肢；但鱗腳蜥不同於其他無腳蜥蜴，牠們在飲食上的挑剔程度與身體多樣性的模式，更接近蛇。擷取的原文沒有交代研究團隊、期刊與研究方法。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Science News",
+   "title": "Australia’s legless geckos evolved like snakes did",
+   "url": "https://www.sciencenews.org/article/legless-geckos-evolved-like-snakes",
+   "time": "2026-11-25T23:00:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Science News",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

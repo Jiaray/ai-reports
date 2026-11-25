@@ -1,0 +1,80 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0190",
+ "title": "nginx/nginx：全球最熱門網頁伺服器 NGINX 的官方開源程式庫",
+ "line": "兼具高效能負載平衡、反向代理、API 閘道與內容快取，以簡化的 BSD 類授權釋出",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "開發與開源"
+  ],
+  "event": [
+   "其他"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "F5"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "NGINX",
+   "網頁伺服器",
+   "反向代理",
+   "負載平衡"
+  ],
+  "form": [
+   "開源專案"
+  ]
+ },
+ "summary_html": "這是 NGINX 的官方開源程式庫。README 介紹 NGINX 是全球最受歡迎的網頁伺服器，同時是高效能負載平衡器、反向代理、API 閘道與內容快取，以簡化的兩條款 BSD 類授權免費開源；企業版、商業支援與訓練由 F5 提供。README 的目標是給新手一份基本、結構化的入門介紹，安裝、建置、設定、除錯等詳細資訊則請參考完整官方文件，其中也有新手指南與操作教學。程式以 C 撰寫。單日新增 174 顆星。",
+ "dive_html": "NGINX 是成熟的基礎設施專案而非新發布，上榜多半與官方程式庫的動態或社群關注有關，原文沒有說明原因。對遊戲與網頁服務團隊，NGINX 幾乎是標配，重點仍是持續追蹤安全更新與設定強化。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GitHub Trending",
+   "title": "nginx/nginx - The official NGINX Open Source repository.",
+   "url": "https://github.com/nginx/nginx",
+   "time": null,
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "+174 stars today",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

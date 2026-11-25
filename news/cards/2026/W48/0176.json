@@ -1,0 +1,82 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0176",
+ "title": "開發者實測繞過 iOS Safari 60 FPS 上限，讓網頁應用做出原生般的流暢互動",
+ "line": "受 React Aria 與 React 創造者的實驗啟發，探討用 DOM 與 CSS 達到原生質感",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T11:04:37+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "開發與開源",
+   "網頁遊戲"
+  ],
+  "event": [
+   "其他"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Apple"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "iOS Safari",
+   "60 FPS",
+   "網頁效能",
+   "行動網頁"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "開發者 Rida F&#x27;kih 於 11 月 20 日發表文章，探討如何繞過 iOS Safari 的 60 FPS 限制，打造感覺像原生 App 的網頁應用。他提到 React Aria 的 Devon Govett 10 月發表的〈Scrolling is All You Need〉，利用瀏覽器原生的捲動物理與流暢互動做出可滑動面板；React 創造者 Jordan Walke 近日也在 X 發布影片，展示以 DOM 與 CSS 做出的擬原生行動互動，這重新勾起他一直想做卻難以說服自己投入的嘗試。這篇在 Hacker News 獲 370 分。擷取的原文沒有交代繞過限制的具體技術細節。",
+ "dive_html": "對 H5 遊戲與行動網頁團隊，iOS Safari 的幀率上限一直是做不出「原生手感」的主因之一，任何可行的繞法都值得追蹤；但這類技巧常仰賴瀏覽器實作細節，可能隨 iOS 更新失效，正式產品採用前要評估耗電與相容性風險。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "Bypassing iOS Safari's 60 FPS Limit to Build Web Applications That Feel Native",
+   "url": "https://rida.dev/blog/bypassing-ios-safari-60-fps-limit",
+   "time": "2026-11-25T11:04:37+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "370 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50637890",
+   "family": "rida.dev",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 370,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

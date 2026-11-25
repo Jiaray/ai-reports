@@ -1,0 +1,79 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0191",
+ "title": "近距離超新星 SN 2026ahvu 引發全球天文學家搶觀測，有望揭開恆星爆炸之謎",
+ "line": "起初只是每天數十個超新星之一，科學家很快發現它非常特別",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-26T01:00:00+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "約翰霍普金斯大學"
+  ],
+  "person": [
+   "Sumit Sarbadhicary"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "超新星",
+   "SN 2026ahvu",
+   "天文觀測"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Science News，天文學家剛發現超新星 SN 2026ahvu 時，它只是每天偵測到的數十個超新星之一，但科學家很快意識到它非常特別，此後一直加緊研究。約翰霍普金斯大學天體物理學家 Sumit Sarbadhicary 表示：「我想全世界幾乎每個人都在想辦法啟動望遠鏡觀測它。」報導標題指出，這顆在宇宙尺度上距離很近的超新星，可能揭露恆星爆炸的秘密。擷取的原文沒有交代它的距離與類型細節。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Science News",
+   "title": "A cosmically close supernova may spill the stellar explosion’s secrets",
+   "url": "https://www.sciencenews.org/article/close-supernova-secrets-white-dwarf",
+   "time": "2026-11-26T01:00:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Science News",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

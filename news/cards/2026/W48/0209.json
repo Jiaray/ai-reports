@@ -1,0 +1,80 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0209",
+ "title": "Paul Graham〈How Universities Should Prepare Founders〉：大學該培養會動手做東西的人，而非教管理",
+ "line": "YC 合夥人看重的是擅長打造東西且有持續動手習慣的人",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-08-01T08:00:00+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": true,
+ "late": true,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "教育",
+   "企業經營"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "org": [
+   "Y Combinator"
+  ],
+  "person": [
+   "Paul Graham"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Paul Graham",
+   "創業教育",
+   "大學"
+  ],
+  "form": [
+   "長文"
+  ]
+ },
+ "summary_html": "Paul Graham 在這篇 2026 年 8 月的文章探討大學該如何培養未來的新創創辦人。他認為 Y Combinator 最有資格回答，因為 YC 是在學生畢業後接手他們，「就像研究所」，且 YC 花了 20 年琢磨有潛力的創辦人該是什麼樣子。他指出 YC 合夥人看的東西出奇簡單：擅長打造東西、而且有持續動手做的習慣的人。新創真正難的是產品：知道要做什麼、而且做得出來，而這種知識來自研讀資訊工程、機械工程或分子生物學，而非管理或財務。這是作者的看法。",
+ "dive_html": "這篇對「創業教育」的主流做法（商業計畫、管理課程）提出直接挑戰，主張技術能力與動手習慣才是根本，與台灣大學近年廣設創業學程的方向形成對照。論點出自單一投資機構的經驗，樣本偏向科技新創，對其他產業的適用性有限。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Paul Graham",
+   "title": "How Universities Should Prepare Founders",
+   "url": "https://paulgraham.com/prepare.html",
+   "time": "2026-08-01T08:00:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Paul Graham",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

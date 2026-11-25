@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0207",
+ "title": "Unity 東京大會展示 Unity 6.7 與 Unity 7 的 URP 繪圖改進，並釋出範例專案 Atrio",
+ "line": "新增 Surface Cache 全域光照、行動端也支援的螢幕空間反射與 GTAO 環境光遮蔽",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T02:24:15+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞",
+   "全球"
+  ],
+  "country": [
+   "JP"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "開發與開源",
+   "遊戲"
+  ],
+  "event": [
+   "版本更新"
+  ],
+  "sector": [
+   "遊戲",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Unity"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Unity",
+   "URP",
+   "全域光照",
+   "螢幕空間反射"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 GameFromScratch，Unity 在 Unite Tokyo 展示了即將在 Unity 6.7 與 Unity 7 推出的通用渲染管線（URP）改進，並釋出新的 URP 範例專案 Atrio。重點包括：Surface Cache GI，提供動態間接漫射光照，在執行效能與畫質間取得平衡，並可在最廣泛的硬體上穩定運作；螢幕空間反射（SSR），以極少設定即可產生即時光澤反射，也支援行動裝置；Ground Truth Ambient Occlusion（GTAO），提供更符合物理的接觸陰影。擷取的原文沒有交代各功能的確切釋出版本與效能數據。",
+ "dive_html": "URP 一直被認為在光照品質上落後 HDRP，這波把動態全域光照與 SSR 帶到 URP、且支援行動端，對以 Unity 製作手遊與跨平台遊戲的團隊是實質升級。實際能否在中低階手機上維持效能，要等版本釋出後實測。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GameFromScratch",
+   "title": "Unity URP Graphics Improvements",
+   "url": "https://gamefromscratch.com/unity-urp-graphics-improvements/",
+   "time": "2026-11-25T02:24:15+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "GameFromScratch",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

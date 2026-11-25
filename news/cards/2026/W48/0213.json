@@ -1,0 +1,128 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0213",
+ "title": "BBC 分析外洩俄國官方資料：烏克蘭戰爭至少 49 萬名俄軍死亡，獨立媒體估最高達 70 萬",
+ "line": "克里姆林宮拒絕評論；BBC 俄文版檢視逾 1,100 萬筆死亡紀錄",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T11:00:03+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "RU",
+   "UA"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "戰爭與衝突"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "story": [
+   "俄烏戰爭"
+  ],
+  "sector": [
+   "航太與國防"
+  ],
+  "org": [
+   "BBC",
+   "俄羅斯聯邦統計局",
+   "克里姆林宮"
+  ],
+  "person": [
+   "普丁",
+   "佩斯科夫"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "俄烏戰爭",
+   "俄軍傷亡",
+   "外洩資料"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 BBC 俄文版分析外洩的俄羅斯聯邦統計局（Rosstat）資料，自 2022 年全面入侵烏克蘭以來，至少有 490,334 名俄羅斯軍人死亡。BBC 俄文版取得超過 1,100 萬筆死亡紀錄，資料顯示全面入侵如何根本改變俄國的死亡模式，以及這場普丁原以為只會打幾天、如今已近五年的戰爭付出的人命代價。France 24 報導，俄國獨立媒體分析外洩的政府資料後更新估計，俄軍死亡人數可能高達 70 萬人；克里姆林宮發言人佩斯科夫拒絕評論。Guardian 也就俄軍秘密死亡人數製作專題。",
+ "dive_html": "俄國從未公布陣亡數字，以官方統計外洩資料推估，可信度高於過去依靠訃聞與社群的計算方式。近 50 萬至 70 萬人死亡的規模，說明戰爭對俄國人口結構的長期衝擊，也可能影響停火談判中各方對戰爭成本的評估。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC World",
+   "title": "Russia's own figures show it has lost nearly 500,000 people in Ukraine war",
+   "url": "https://www.bbc.co.uk/news/articles/cmx27g533zwyo",
+   "time": "2026-11-25T20:21:49+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Russian casualties in Ukraine war: New reports suggest death toll as high as 700,000",
+   "url": "https://www.france24.com/en/video/20261125-russian-casualties-in-ukraine-war-new-reports-suggest-death-toll-as-high-as-700-000",
+   "time": "2026-11-26T00:17:02+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Kremlin declines comment on reports 700,000 Russian soldiers killed in Ukraine war",
+   "url": "https://www.france24.com/en/europe/20261125-kremlin-declines-comment-reports-700-000-russian-soldiers-killed-ukraine-war",
+   "time": "2026-11-25T23:14:07+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "The Russian army’s secret death toll – podcast",
+   "url": "https://www.theguardian.com/news/audio/2026/nov/25/the-russian-armys-secret-death-toll-podcast",
+   "time": "2026-11-25T11:00:03+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 1,
+  "media_weight": 6,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

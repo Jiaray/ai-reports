@@ -1,0 +1,83 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0178",
+ "title": "NASA 火星任務半數暫停科學作業：毅力號與奧德賽號分別出現技術問題",
+ "line": "兩者都已超過原設計壽命，NASA 在火星運作的四個任務中有兩個受影響",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T06:50:11+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科學"
+  ],
+  "event": [
+   "意外事故"
+  ],
+  "sector": [
+   "航太與國防"
+  ],
+  "org": [
+   "美國國家航空暨太空總署"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "毅力號",
+   "奧德賽號",
+   "火星探測",
+   "NASA"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Ars Technica，NASA 在火星運作的四個任務中，有兩個在近幾週因各自不同的技術問題暫停科學作業：毅力號（Perseverance）火星車與奧德賽號（Odyssey）軌道器，兩者都已超過原設計壽命。毅力號在火星表面探索進入第六年，已採集岩石與土壤樣本以待未來送回地球，目前正在研究一座曾有古老液態水湖泊的隕石坑邊緣；奧德賽號 2001 年進入火星軌道，是運作最久的火星任務。報導形容這些中斷「希望只是暫時的」。原文擷取部分沒有交代故障的具體原因。",
+ "dive_html": "火星任務普遍「超齡服役」，故障頻率上升是可預期的；奧德賽號也擔任火星車的通訊中繼，若長期失能會影響地表任務的資料傳輸。這也凸顯新一代火星軌道器與樣本送回計畫的延宕，正讓 NASA 的火星能力出現斷層。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Ars Technica",
+   "title": "Half of NASA's aging Mars fleet knocked offline by technical issues",
+   "url": "https://arstechnica.com/space/2026/11/half-of-nasas-aging-mars-fleet-knocked-offline-by-technical-issues/",
+   "time": "2026-11-25T06:50:11+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "41 comments",
+   "family": "Ars Technica",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

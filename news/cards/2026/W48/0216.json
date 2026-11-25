@@ -1,0 +1,142 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0216",
+ "title": "哥倫比亞卡塔赫納超市人質事件落幕，警方攻堅救出全部人質、擊斃一名歹徒",
+ "line": "觀光城市 Éxito 超市約 25 至 30 人遭挾持近一整天，無人質受傷",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T11:57:11+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中南美"
+  ],
+  "country": [
+   "CO"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "犯罪與司法"
+  ],
+  "event": [
+   "犯罪執法"
+  ],
+  "org": [
+   "哥倫比亞國家警察"
+  ],
+  "person": [
+   "Abelardo de la Espriella"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "哥倫比亞",
+   "人質挾持",
+   "卡塔赫納"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Guardian 與 France 24，哥倫比亞警方攻入熱門觀光城市卡塔赫納一家 Éxito 超市，結束持續約一整天的人質挾持事件，所有人質獲救，一名挾持者在行動中被擊斃，人質無人受傷。Guardian 報導最初有 30 人被挾持，France 24 則稱約 25 人。總統 Abelardo de la Espriella 曾親赴現場坐鎮，並在事後宣布人質全數獲救。BBC、Al Jazeera 也報導了這起事件。擷取的報導沒有交代歹徒的動機與身分。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC World",
+   "title": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
+   "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo",
+   "time": "2026-11-26T00:20:14+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "All hostages rescued after Colombian security forces storm supermarket, says president",
+   "url": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
+   "time": "2026-11-25T21:56:55+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "Colombia’s president arrives at scene of supermarket hostage siege in tourist city",
+   "url": "https://www.theguardian.com/world/2026/nov/24/cartagena-colombia-hostages-supermarket",
+   "time": "2026-11-25T11:57:11+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Colombian forces rescue all hostages after supermarket siege",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/colombian-forces-rescue-all-hostages-after-supermarket-siege",
+   "time": "2026-11-26T00:44:22+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Colombia: Security forces rescue hostages in supermarket siege",
+   "url": "https://www.france24.com/en/video/20261125-colombia-security-forces-rescue-hostages-in-supermarket-siege",
+   "time": "2026-11-26T00:08:44+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Colombian authorities rescue all hostages held at Cartagena supermarket",
+   "url": "https://www.france24.com/en/video/20261125-colombian-authorities-rescue-all-hostages-held-at-cartagena-supermarket",
+   "time": "2026-11-25T21:56:39+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 2,
+  "media_weight": 8,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

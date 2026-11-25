@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0228",
+ "title": "Guardian 調查：資料中心推升錫價，巴西亞馬遜爆發「比淘金更具破壞性」的非法錫礦熱",
+ "line": "犯罪集團利用原住民土地與監管漏洞開採錫石，供應資料中心、AI 與電動車需求",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T21:00:27+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中南美"
+  ],
+  "country": [
+   "BR"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "環境與氣候",
+   "犯罪與司法"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "sector": [
+   "原物料與化工",
+   "軟體與雲端"
+  ],
+  "org": [
+   "巴西聯邦警察"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "錫石",
+   "非法採礦",
+   "亞馬遜",
+   "資料中心供應鏈"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Guardian 調查，隨著錫礦需求推升價格，犯罪集團正利用原住民土地與薄弱的監管，在巴西開採蘊藏豐富的錫石（cassiterite），這種含錫礦石被用於資料中心、AI 產業與電動車。報導以去年 9 月巴西聯邦警察搜查一個非法錫石出口網絡的文件為開頭，形容這波亞馬遜的非法採礦熱潮「比淘金更具破壞性」。擷取的報導沒有交代具體開採規模與相關企業。",
+ "dive_html": "AI 擴建的環境足跡不只在電力與水，也延伸到上游礦物；錫是電子焊料的關鍵原料，非法礦源可能混入全球供應鏈。半導體與電子業者在衝突礦產盡職調查中，可能需要把錫的來源追溯擴及亞馬遜地區。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Guardian Environment",
+   "title": "How datacentres are driving an illegal mining rush in the Amazon ‘more devastating than gold’",
+   "url": "https://www.theguardian.com/global-development/2026/nov/25/tin-cassiterite-brazil-amazon-illegal-mining-datacentres-evs",
+   "time": "2026-11-25T21:00:27+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

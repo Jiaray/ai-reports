@@ -1,0 +1,116 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0205",
+ "title": "前英格蘭國腳 Sterling 危險駕駛與持有笑氣判緩刑，免於立即入獄",
+ "line": "曾 4 度贏得英超冠軍、在切爾西週薪 32.5 萬英鎊，從國家隊象徵到被判刑",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T20:42:57+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "體育",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "person": [
+   "Raheem Sterling"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Raheem Sterling",
+   "危險駕駛",
+   "緩刑"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 BBC Sport 與 Reuters，前英格蘭國腳 Raheem Sterling 因危險駕駛與持有笑氣（一氧化二氮）被判緩刑，免於立即入獄。BBC 回顧，他在溫布利球場附近長大，曾為英格蘭在溫布利先發出戰歐洲國家盃決賽，4 度贏得英超冠軍，英超 396 場出賽打進 123 球、65 次助攻；2022 年以 5,000 萬英鎊轉會切爾西，巔峰時期週薪 32.5 萬英鎊。Guardian 也以他的起落探討足球界的問題。擷取的報導沒有交代緩刑的刑期細節。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC Sport",
+   "title": "Sterling - from England icon to suspended jail sentence",
+   "url": "https://www.bbc.co.uk/sport/football/articles/cxzd9ydqzylno",
+   "time": "2026-11-25T20:42:57+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC Top News",
+   "title": "Raheem Sterling given suspended jail sentence for dangerous driving and nitrous oxide possession",
+   "url": "https://www.bbc.co.uk/news/articles/cv8e04ll9dd3o",
+   "time": "2026-11-25T21:57:12+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "Does the rise and fall of Raheem Sterling show football is broken? – The Latest",
+   "url": "https://www.theguardian.com/news/audio/2026/nov/25/does-the-rise-and-fall-of-raheem-sterling-show-football-is-broken-the-latest",
+   "time": "2026-11-26T01:13:12+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Ex-England soccer player Sterling spared immediate jail sentence for dangerous driving",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxNYTNVUUNiT0VOZDFaLW9yZEFRU2NwdjZvV0pKWDZrVVNBUm9ZS28wd09xQjhCMlBsajZlUVR3MG9tdE9la2pSV2Ftd2h4emt4NzI5T3NZZFFiSHV1bU9HUUFMR3Ntb3l1RW8yUkIyWlJJSEw4Z2VvTWR4d1pIaDZ4QndaWVVmQmxhTTVEcTB2U2tvcGhSSm9tZ3Fjd19FNlFwYkx1WkdrSEtfQWR6ZGJaTUZOQkMzUDJrT1kw?oc=5",
+   "time": "2026-11-25T23:42:09+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 1,
+  "media_weight": 7,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

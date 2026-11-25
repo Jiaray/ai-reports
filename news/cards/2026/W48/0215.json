@@ -1,0 +1,126 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0215",
+ "title": "烏克蘭稱擊中俄國薩瓦斯列伊卡空軍基地 5 架戰機；俄無人機攻擊烏國 6 州致 7 死",
+ "line": "受損的是 3 架 MiG-31 與 2 架 Su-34；烏軍另以無人機襲擊薩馬拉、羅斯托夫煉油廠",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T17:18:37+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "UA",
+   "RU"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "戰爭與衝突"
+  ],
+  "event": [
+   "軍事行動"
+  ],
+  "story": [
+   "俄烏戰爭"
+  ],
+  "sector": [
+   "能源與公用事業",
+   "航太與國防"
+  ],
+  "org": [
+   "烏克蘭總參謀部",
+   "Naftogaz",
+   "DTEK"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "俄烏戰爭",
+   "薩瓦斯列伊卡空軍基地",
+   "煉油廠攻擊",
+   "能源設施"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 BBC，烏克蘭總參謀部表示攻擊了位於莫斯科以東 300 公里、下諾夫哥羅德州的俄國薩瓦斯列伊卡（Savasleyka）空軍基地，擊中 5 架軍機：3 架 MiG-31 與 2 架 Su-34，受損程度仍在評估，「可能還有更好的消息」，但未說明使用何種武器；該基地部署俄國用來對烏克蘭發射極音速飛彈與滑翔炸彈的軍機，俄方未回應。據 Euronews，俄國同日以大量無人機攻擊烏克蘭能源與民用目標，造成 6 個州共 7 人死亡，擊中 Naftogaz 的天然氣生產設施、DTEK 火力發電廠與多地電網；烏克蘭無人機則襲擊俄國薩馬拉與羅斯托夫州的煉油廠及下諾夫哥羅德州空軍基地。CNBC 報導，烏克蘭外長要普丁「別再抱怨」煉油廠遭襲，俄方則揚言報復；Reuters 也報導烏方稱重創俄國主要空軍基地。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC World",
+   "title": "Five Russian military jets hit in airfield strike, says Ukraine",
+   "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo",
+   "time": "2026-11-25T22:46:41+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Russian strikes kill seven in Ukraine as Kyiv hits three refineries",
+   "url": "https://www.euronews.com/2026/11/25/russian-strikes-kill-seven-in-ukraine-as-kyiv-hits-three-refineries",
+   "time": "2026-11-25T22:06:14+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "Ukraine tells Putin to ‘stop complaining’ over oil refinery attacks as Russia promises retaliation",
+   "url": "https://www.cnbc.com/2026/11/25/ukraine-putin-russia-oil-refinery-attacks.html",
+   "time": "2026-11-25T17:18:37+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Ukraine says it struck a major Russian air base, damaging five planes",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNZm1PXzlrNXY0LXdObV93VWg5QnMzNk1rby1CSHNiMHYtcVpvYUpteDBGWi1GQS1tNjU4VTV6MmVBTXpxY3I2NTdfbzVvVTdBWS1LeVBMeGpCMkdUTDVpWE1nNzRld3NBbUtYRlRoTlhPLWp4ZjdsMmRCRUdycERtcVRDNGk5UjNxR3RRUTN3V2QyU1VDT29acWEtc096cjVkS0xtN0V2dURHTmUyM0ZIbnRvcndIRUZrRnBBWmlDNDRRSng1OHdFWg?oc=5",
+   "time": "2026-11-25T22:43:20+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 2,
+  "media_weight": 9,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

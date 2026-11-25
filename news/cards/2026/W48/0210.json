@@ -1,0 +1,189 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0210",
+ "title": "英國能源價格上限 1 月起調升 26%，伊朗戰爭推高天然氣價格，一般家庭年帳單增約 443 英鎊",
+ "line": "約 2,000 萬戶浮動費率家庭受影響，冬季每月可能多付近 60 英鎊",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T17:54:32+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "中東"
+  ],
+  "country": [
+   "GB",
+   "IR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "能源",
+   "總體經濟"
+  ],
+  "event": [
+   "政策法規",
+   "市場波動"
+  ],
+  "sector": [
+   "能源與公用事業"
+  ],
+  "org": [
+   "英國天然氣暨電力市場管制局"
+  ],
+  "person": [
+   "Andy Burnham"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "Ofgem",
+   "能源價格上限",
+   "天然氣價格",
+   "伊朗戰爭"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據中央社引述法新社與 BBC，英國天然氣暨電力市場管制局（Ofgem）宣布，2027 年 1 月起將能源價格上限調高 26%，主因伊朗戰爭推升天然氣批發價格。一般家庭全年能源帳單將增加約 443 英鎊（約新台幣 1 萬 9,100 元），升至約 2,166 英鎊；BBC 指出，典型家庭在明年第一季每月約多付 37 英鎊，冬季用量大時可能接近每月多 60 英鎊。漲價影響約 2,000 萬戶採標準、浮動費率合約的家庭，另有 1,000 萬戶固定費率家庭在合約期內不受影響。首相柏南的政府在 10 月預算中宣布向 2,000 萬戶發放一次性 100 英鎊補助並取消天然氣帳單固定費用，也延長家庭電價的臨時減稅，但數以百萬計家庭的能源支出仍將增加。BBC 另以多篇報導說明漲價原因與民眾的節省方式。",
+ "dive_html": "能源價格再次成為英國生活成本危機的核心，26% 的漲幅讓政府補助相形見絀，與同期 Poundland 破產、通膨壓力相互疊加。這也顯示中東戰事對全球能源價格的傳導仍在持續，進口能源依賴高的國家都將面臨類似壓力。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC Top News",
+   "title": "Energy bills to rise by 26% from January after gas prices surge",
+   "url": "https://www.bbc.co.uk/news/articles/cm20qnq33e90o",
+   "time": "2026-11-25T21:42:08+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC Top News",
+   "title": "What will the price cap changes mean for my bills?",
+   "url": "https://www.bbc.co.uk/news/articles/cdd29v8mp9jo",
+   "time": "2026-11-25T17:54:32+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC Top News",
+   "title": "Why the Iran war is being blamed for raising UK energy bills",
+   "url": "https://www.bbc.co.uk/news/articles/cv1j6wk020p8o",
+   "time": "2026-11-25T22:58:51+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC Business",
+   "title": "Energy bills will soar - here's how you can ease the pain",
+   "url": "https://www.bbc.co.uk/news/articles/crm4rygl4m3o",
+   "time": "2026-11-25T18:42:20+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "中東戰爭推升天然氣批發價　英國家庭能源帳單將漲26%",
+   "url": "https://www.cna.com.tw/news/aopl/202611250294.aspx",
+   "time": "2026-11-25T19:10:40+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "BBC Top News",
+   "title": "'I only use the washing machine on a Sunday' - how we're keeping our energy bills down",
+   "url": "https://www.bbc.co.uk/news/articles/c820qnznkrn4o",
+   "time": "2026-11-25T20:12:11+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC Top News",
+   "title": "Why are bills going up?",
+   "url": "https://www.bbc.co.uk/news/videos/cm3wg47gnjnno",
+   "time": "2026-11-25T21:24:29+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC Business",
+   "title": "Scots react to news of rising energy prices",
+   "url": "https://www.bbc.co.uk/news/videos/cmqlq07d71yko",
+   "time": "2026-11-26T00:56:47+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC Business",
+   "title": "Energy price increase 'could put me in hospital'",
+   "url": "https://www.bbc.co.uk/news/articles/cm5y1g42x2wzo",
+   "time": "2026-11-26T00:06:25+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

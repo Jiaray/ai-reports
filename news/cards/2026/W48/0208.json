@@ -1,0 +1,83 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0208",
+ "title": "Paul Graham〈Making Startups Powerful〉：問「什麼能讓公司更有力量」比「怎麼多賺錢」更能帶來數量級的價值",
+ "line": "例如從零件供應商轉為掌握客戶關係的一方，或讓金流經過自己",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-09-01T08:00:00+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": true,
+ "late": true,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科技",
+   "企業經營"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Y Combinator"
+  ],
+  "person": [
+   "Paul Graham"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Paul Graham",
+   "新創策略",
+   "Y Combinator"
+  ],
+  "form": [
+   "長文"
+  ]
+ },
+ "summary_html": "Y Combinator 共同創辦人 Paul Graham 在這篇 2026 年 9 月的文章中分享，他在輔導新創時最有用的一個思考法則是問：「什麼能讓這家公司更有力量？」他認為問「怎麼多賺錢」也是好問題，但往往只帶來漸進式改善；思考如何讓公司更有力量，有時能讓公司價值提高好幾個數量級。這個問題依公司類型有不同變化，例如：能否把公司從單純的零件供應商，轉變成掌握客戶關係的一方？或者相關的問題：能否讓金流經過這家公司？他認為讓錢流經自己總是好事。這是作者的看法。",
+ "dive_html": "「權力」框架點出商業模式中位置的價值：掌握客戶關係與金流的一方能分到最多利潤，這也解釋了平台與聚合商的優勢。對遊戲與軟體公司，可用來檢視自己是在價值鏈中的元件還是入口；但文章只擷取到開頭，完整論證與限制仍需讀全文。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Paul Graham",
+   "title": "Making Startups Powerful",
+   "url": "https://paulgraham.com/powerful.html",
+   "time": "2026-09-01T08:00:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Paul Graham",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

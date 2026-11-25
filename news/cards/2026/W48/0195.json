@@ -1,0 +1,81 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0195",
+ "title": "巴西亞馬遜北部嚴重乾旱，羅賴馬州 95% 面積受災，主要河流見底、社區對外交通中斷",
+ "line": "2015 年以來第三次聖嬰引發的乾旱，國家水務局宣布嚴重缺水狀態至明年 4 月 30 日",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T17:49:01+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中南美"
+  ],
+  "country": [
+   "BR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "環境與氣候",
+   "災害與事故"
+  ],
+  "event": [
+   "天災"
+  ],
+  "org": [
+   "巴西國家水務局"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "亞馬遜乾旱",
+   "聖嬰現象",
+   "羅賴馬州",
+   "Branco 河"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Mongabay，2015 年以來第三次由聖嬰現象引發的乾旱，讓巴西最北端的亞馬遜州份羅賴馬（Roraima）河川水位降到臨界低點。巴西國家水務局（ANA）資料顯示，10 月全州 95% 面積處於嚴重乾旱，9 月時為 47%。州內主要河流、長 775 公里的 Branco 河大幅縮減，露出大片沙洲，當地媒體報導民眾已能在首府博阿維斯塔的 Macuxis 橋下步行；上游支流 Tacutu 與 Maú 河也比往年更早、更快下降。水務局 11 月 10 日宣布嚴重缺水狀態，持續至明年 4 月 30 日。標題指乾旱切斷了社區的對外聯繫。",
+ "dive_html": "亞馬遜地區仰賴河運，河川見底意味著糧食、醫療與燃料運輸中斷，對原住民與偏遠社區衝擊最大；十年內三次重旱，也加深外界對雨林逐漸乾化的憂慮。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Mongabay",
+   "title": "Severe drought dries up rivers, cuts off communities in Brazil’s Amazon",
+   "url": "https://news.mongabay.com/short-article/2026/11/severe-drought-dries-up-rivers-cuts-off-communities-in-brazils-amazon/",
+   "time": "2026-11-25T17:49:01+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "0 comments",
+   "family": "Mongabay",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

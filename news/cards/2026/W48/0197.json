@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0197",
+ "title": "加拿大原住民反對 Suncor 把油砂礦場處理後廢水排入飲用水源",
+ "line": "廢水將排入流向 Athabasca 湖的河川，Fort Chipewyan 社區居民憂心處理效果不明",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T03:53:25+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "CA"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "環境與氣候",
+   "社會"
+  ],
+  "event": [
+   "爭議風波"
+  ],
+  "sector": [
+   "能源與公用事業"
+  ],
+  "org": [
+   "Suncor"
+  ],
+  "person": [
+   "Leana Hosea"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "油砂",
+   "廢水排放",
+   "原住民權益",
+   "Athabasca 河"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Mongabay，加拿大第二大石油公司 Suncor 計畫把亞伯達省油砂採礦產生的處理後廢水，排入 Fort Chipewyan 社區的飲用水源。調查記者 Leana Hosea 走訪當地後在 Mongabay 節目中表示，這件事無關挺油或反油，而是居民不想要不知道處理得多好的有毒廢水；廢水將排入 Athabasca 河並流入社區取水的 Athabasca 湖，這種做法前所未有，處理困難、效果也不確定。原住民社區表態「我們不要它」。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Mongabay",
+   "title": "‘We don’t want it’: First Nations reject plan to release mining waste into water source",
+   "url": "https://news.mongabay.com/podcast/2026/11/we-dont-want-it-first-nations-reject-plan-to-release-mining-waste-into-water-source/",
+   "time": "2026-11-25T03:53:25+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "0 comments",
+   "family": "Mongabay",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

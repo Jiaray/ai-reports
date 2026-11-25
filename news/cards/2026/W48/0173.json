@@ -1,0 +1,133 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0173",
+ "title": "遭川普政府錯誤遣返的薩爾瓦多人 Ábrego García 自願離美，落腳西班牙",
+ "line": "他曾因「行政錯誤」被遣送薩爾瓦多，成為川普大規模驅逐行動的象徵人物",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T07:50:31+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "歐洲",
+   "中南美"
+  ],
+  "country": [
+   "US",
+   "ES",
+   "SV"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "移民與難民"
+  ],
+  "event": [
+   "政策法規",
+   "爭議風波"
+  ],
+  "person": [
+   "Kilmar Ábrego García",
+   "川普"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Ábrego García",
+   "遣返",
+   "川普移民政策"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Guardian，因被錯誤遣返而成為川普大規模驅逐行動象徵的薩爾瓦多人 Kilmar Ábrego García，於 11 月 25 日抵達西班牙馬德里，他是自行選擇離開美國，報導形容他「開心地離開」。他先前曾因美國官方所稱的「行政錯誤」被遣送回薩爾瓦多。WSJ 報導他是在安排好自己的離境後抵達西班牙，為一段法律纏訟畫下句點；Al Jazeera、Reuters 也報導他依離境協議抵達西班牙。",
+ "dive_html": "案件以當事人「自願離境」收場，讓川普政府免於在法院就錯誤遣返進一步受挫，也讓移民權益團體失去一個關鍵的訴訟樣本。這種以第三國安置化解爭議的模式，未來可能被用在其他具爭議的遣返案。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Guardian US politics",
+   "title": "Kilmar Ábrego García, target of Trump’s immigration crackdown, lands in Spain after ‘leaving happy’",
+   "url": "https://www.theguardian.com/us-news/2026/nov/25/kilmar-abrego-garcia-spain",
+   "time": "2026-11-26T00:16:25+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "Kilmar Ábrego García, man at center of Trump deportation battle, leaves US",
+   "url": "https://www.theguardian.com/us-news/2026/nov/24/kilmar-abrego-garcia-leaves-us",
+   "time": "2026-11-25T07:50:31+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Kilmar Abrego Garcia, wrongfully deported from US, arrives in Spain",
+   "url": "https://www.aljazeera.com/news/2026/11/25/kilmar-abrego-garcia-wrongfully-deported-from-us-arrives-in-spain",
+   "time": "2026-11-25T23:34:59+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "WSJ",
+   "title": "Kilmar Abrego Garcia Is in Spain After Arranging Own Exit From U.S.",
+   "url": "https://www.wsj.com/us-news/law/kilmar-abrego-garcia-is-leaving-the-u-s-to-a-country-of-his-choosing-117cad88?mod=rss_usnews",
+   "time": "2026-11-26T01:18:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Salvadoran migrant Kilmar Abrego Garcia lands in Spain after US departure deal",
+   "url": "https://news.google.com/rss/articles/CBMixAFBVV95cUxNWW0yaWlzUi0wM216d2FrV0R0b0xEbTd6TTJPcnE0MVVOREpjWFY3TnFmbEUzeGkxQUpxQ2xhcVNUeHdSV0tCRnZ1aGRPbHVwSGZfZkthQUJLcFZ3MjlvWFVXUlAzSGFzaDloX3dqZ1h3YXVQZ2lFb2Z0ZDR0SnRUM2VyME9Ta2piYlUwWjRKdEJ3cWFsVmc1NTNxNGF1cXd1eGlXSVVZQ2FWYlRmZWZQTE80bXc0bzZJbzBTSVdRQWtFOFct?oc=5",
+   "time": "2026-11-25T23:46:06+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 3,
+  "media_weight": 10,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

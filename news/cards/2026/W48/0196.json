@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0196",
+ "title": "印尼最大鎳業園區 IMIP 頻傳致命事故，工會拒簽未納入職安委員會的勞資協約",
+ "line": "2023 年冶煉爐爆炸 21 死，政府資料 2017 至 2023 年園區 39 人因工死亡，全國鎳加工場 6 年 107 死",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T12:49:46+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞"
+  ],
+  "country": [
+   "ID"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "勞動",
+   "環境與氣候"
+  ],
+  "event": [
+   "爭議風波"
+  ],
+  "sector": [
+   "原物料與化工",
+   "汽車"
+  ],
+  "org": [
+   "印尼莫羅瓦利工業園區",
+   "印尼勞動部"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "鎳礦",
+   "IMIP",
+   "職業安全",
+   "電動車供應鏈"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Mongabay，全球最大鎳冶煉園區印尼莫羅瓦利工業園區（IMIP）的工會，正抵制新的團體協約，原因是雇主拒絕讓工會參與職業安全衛生委員會。爭議起因於一連串致命事故，包括 2023 年一起冶煉爐爆炸造成 21 名工人死亡；政府資料記錄 2017 至 2023 年園區內有 39 人因工死亡，但實際人數可能更高，部分事故未通報或未被認定為職災；一名勞動部檢查員指出，截至 2025 年的 6 年間，全國鎳加工場址共有 107 人死亡。原文提到有 10 個工會支持新協約，擷取部分沒有交代反對方的完整立場。",
+ "dive_html": "印尼鎳是電動車電池的關鍵原料，職災與勞權爭議已成為品牌商供應鏈盡職調查的風險點，歐盟電池法規等要求也會放大這類問題。台灣電池與材料相關業者若有印尼鎳料來源，應留意這類勞動與 ESG 爭議。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Mongabay",
+   "title": "Deadly accidents loom over labor dispute at Indonesia’s largest nickel hub",
+   "url": "https://news.mongabay.com/2026/11/deadly-accidents-loom-over-labor-dispute-at-indonesias-largest-nickel-hub/",
+   "time": "2026-11-25T12:49:46+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "0 comments",
+   "family": "Mongabay",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

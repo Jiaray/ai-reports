@@ -1,0 +1,74 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0227",
+ "title": "全球首度連續 6 天比工業化前高 2°C，週一日均地表溫度創 2.24°C 新高",
+ "line": "Guardian 取得的數據顯示高溫仍在延續；單日紀錄太短，尚不代表長期突破 2°C",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T22:52:30+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "環境與氣候"
+  ],
+  "event": [
+   "數據發布"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "全球暖化",
+   "2°C",
+   "氣溫紀錄",
+   "巴黎協定"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Guardian，全球首度出現連續 6 天氣溫比工業化前水準高 2°C 的情況，週一（美國時間 11 月 23 日）的全球日均地表溫度創下比基準高 2.24°C 的紀錄，這波創紀錄的高溫仍在延續，預測還會持續。報導指出，這段高溫期太短，不足以代表地球已長期越過 2°C 門檻。擷取的報導沒有交代數據來源機構。",
+ "dive_html": "2°C 是巴黎協定的上限目標，即使只是短期日均值，連續多日突破仍是氣候系統加速變化的警訊；與同期 COP31 談判破局對照，減排行動與實際暖化速度的落差更加明顯。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Guardian Environment",
+   "title": "World has six consecutive days 2C above preindustrial levels for first time",
+   "url": "https://www.theguardian.com/environment/2026/nov/25/world-six-consecutive-days-2c-above-preindustrial-levels-first-time",
+   "time": "2026-11-25T22:52:30+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0189",
+ "title": "cursor/plugins：Cursor 官方公開外掛規格與官方外掛集",
+ "line": "每個外掛是獨立資料夾、附 plugin.json 清單，涵蓋開發工具、框架與 SaaS 產品",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "開發與開源",
+   "AI"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Cursor"
+  ],
+  "person": [
+   "Eric Zakariasson"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Cursor",
+   "外掛規格",
+   "AI 程式編輯器"
+  ],
+  "form": [
+   "開源專案"
+  ]
+ },
+ "summary_html": "cursor/plugins 是 Cursor 官方的外掛規格與官方外掛程式庫，提供熱門開發工具、框架與 SaaS 產品的外掛。每個外掛是程式庫根目錄下的獨立資料夾，附有自己的 .cursor-plugin/plugin.json 清單。README 列出的外掛例如：Teaching（技能地圖、練習計畫與學習回顧）、Continual Learning（只用高訊號要點，依對話紀錄逐步更新 AGENTS.md 記憶），以及 Cursor Team Kit（CI、程式審查、出貨、本機自動化與驗證等內部團隊工作流），後兩者作者為 Eric Zakariasson。程式以 TypeScript 為主。單日新增 408 顆星。",
+ "dive_html": "AI 編輯器之間的競爭正從模型轉向生態系，公開外掛規格與官方範例是吸引第三方開發者的關鍵一步；「依對話紀錄更新 AGENTS.md」這類外掛也反映代理記憶管理正在標準化。團隊若同時使用多種代理工具，可留意各家外掛規格是否趨於相容。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GitHub Trending",
+   "title": "cursor/plugins - Cursor plugin specification and official plugins",
+   "url": "https://github.com/cursor/plugins",
+   "time": null,
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "+408 stars today",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0217",
+ "title": "南非總統拉瑪佛沙勝訴，法院撤銷可能導致其遭彈劾的「農場門」調查報告",
+ "line": "2022 年獨立小組曾認定他可能就農場遭竊、藏在沙發裡的 58 萬美元涉嚴重不當行為",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T23:35:33+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "非洲"
+  ],
+  "country": [
+   "ZA"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "政治",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "org": [
+   "南非西開普高等法院"
+  ],
+  "person": [
+   "拉瑪佛沙"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "拉瑪佛沙",
+   "農場門",
+   "彈劾"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 BBC 與 Al Jazeera，南非總統拉瑪佛沙（Cyril Ramaphosa）在法律戰中勝訴，西開普高等法院撤銷一份獨立小組報告；該報告認定他可能需為私人農場遭竊大筆現金一事負責，曾為國會彈劾鋪路。2022 年獨立小組指出，拉瑪佛沙可能就 2020 年發生在林波波省 Phala Phala 狩獵農場的竊案涉及嚴重不當行為，當時竊賊據稱偷走藏在沙發裡的 58 萬美元（44.3 萬英鎊），這起竊案演變成被稱為「農場門」的政治醜聞，他也因處理方式遭要求下台。Al Jazeera 形容裁決讓總統獲得政治喘息空間。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC World",
+   "title": "South Africa's Ramaphosa wins court battle over impeachment threat",
+   "url": "https://www.bbc.co.uk/news/articles/cq4gn6gj3z37o",
+   "time": "2026-11-25T23:42:50+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "South Africa court repeals ‘farmgate’ impeachment threat against Ramaphosa",
+   "url": "https://www.aljazeera.com/news/2026/11/25/south-africa-court-repeals-farmgate-impeachment-threat-against-ramaphosa",
+   "time": "2026-11-25T23:35:33+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

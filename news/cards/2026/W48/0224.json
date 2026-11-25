@@ -1,0 +1,82 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0224",
+ "title": "以色列國會不顧納坦雅胡反對，推進 10 月 7 日襲擊事件的國家調查委員會法案",
+ "line": "法案旨在調查政府在 2023 年哈瑪斯襲擊中的失職並追究安全崩潰責任",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T22:53:49+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東"
+  ],
+  "country": [
+   "IL"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "政治"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "org": [
+   "以色列國會"
+  ],
+  "person": [
+   "納坦雅胡"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "以色列國會",
+   "10 月 7 日",
+   "國家調查委員會"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Al Jazeera，以色列國會投票推進一項設立國家調查委員會、調查 10 月 7 日襲擊事件的法案，總理納坦雅胡反對。這項立法旨在調查政府在那次襲擊前後的失職，並為安全防線崩潰追究責任。擷取的報導沒有交代表決票數與後續審議程序。",
+ "dive_html": "納坦雅胡長期抗拒獨立的國家調查委員會，國會在其反對下推進，反映執政聯盟的掌控力出現鬆動；一旦委員會成立，調查結論可能直接衝擊他的政治前途。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Knesset advances October 7 probe despite Netanyahu’s objections",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/knesset-advances-october-7-probe-despite-netanyahus-objections",
+   "time": "2026-11-25T22:53:49+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,98 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0183",
+ "title": "歐盟擬設 500 億歐元「主權科技股權基金」，長期押注 AI 與量子以降低對美中依賴",
+ "line": "以歐盟資金當種子，目標每 1 歐元吸引最多 6 歐元民間資金；同日提出量子戰略",
+ "born_at": "2026-11-26T02:08:48+08:00",
+ "first_reported_at": "2026-11-25T16:40:35+08:00",
+ "updated_at": "2026-11-26T02:08:48+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科技",
+   "AI"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "金融"
+  ],
+  "org": [
+   "歐盟執委會",
+   "歐洲投資銀行"
+  ],
+  "person": [
+   "Henna Virkkunen"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "主權科技股權基金",
+   "歐盟",
+   "量子運算",
+   "科技自主"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據科技新報引述金融時報，歐盟擬投入最高 500 億歐元成立「主權科技股權基金」（Sovereign Tech Equity Fund），對歐洲 AI 與量子運算企業進行比現有機制規模更大、風險更高、期間更長的投資，降低對美國與中國科技的依賴。一名官員表示，這是針對高風險領域的長期穩定投資，「與歐盟平時做法恰好相反」。執委會打算以歐盟資金作為種子資金，目標每投入 1 歐元吸引最多 6 歐元民間資金；歐盟科技事務主管維爾庫南已與歐洲投資銀行討論，並表示基金應以吸引 500 億歐元為目標，具體融資方式仍在商議。據 DW，執委會同日提出量子戰略；SCMP 報導歐盟的量子主權計畫將排除中國企業、但歡迎美國公司。",
+ "dive_html": "歐洲新創長期苦於後期募資不足、被迫被美國收購或遷址，這檔基金瞄準的正是這個缺口。但「歐盟出種子、民間跟 6 倍」的槓桿假設很樂觀，能否真的吸引到資金，以及投資決策是否被政治考量綁架，是成敗關鍵。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "科技新報",
+   "title": "歐盟擬設立 500 億歐元科技基金，設法縮小與美中差距",
+   "url": "https://finance.technews.tw/2026/11/25/eu-plans-e50-billion-technology-fund/",
+   "time": "2026-11-25T16:40:35+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "科技新報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "DW News",
+   "title": "EU plans €50 billion sovereign tech equity fund to boost quantum technology",
+   "url": "https://www.dw.com/en/eu-plans-€50-billion-sovereign-tech-equity-fund-to-boost-quantum-technology/a-80047569?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-25T21:44:00+08:00",
+   "added_at": "2026-11-26T02:08:48+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}
