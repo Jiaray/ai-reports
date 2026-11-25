@@ -1,10 +1,12 @@
 /* 本日焦點的今天日期與農民曆，掛 AIR.almanac（front.js 選用；只有 news/index.html 載入，排在 front.js 前）。
-   - 國曆日期、星期自己算，一定有；農曆月日、干支生肖年、農曆節日、宜忌、沖煞、節氣由 lunar.js 算。
+   - 國曆日期、星期自己算，一定有；農曆月日、干支生肖年、農曆節日、宜忌、沖煞、節氣、行政日曆的農曆假日由 lunar.js 算。
    - lunar.js＝6tail/lunar-javascript v1.7.8（MIT，原檔未改，授權在檔頭的 npm 套件裡）：約 430KB，報告頁用不到，
      第一次 load() 才另外載入（同 almanac.js 的 ?v=）；載不到只畫國曆日期那一格，下次 load() 再試。
      它是 UMD：沒有模組系統時在 window 掛 Solar、Lunar 等十幾個名稱，只在這支用。
    - lunar.js 只輸出簡體：TW 表逐詞換成台灣農民曆用字（上梁→上樑、启钻→啟攢、龙头节→龍抬頭…），表上沒有的原樣顯示。
-   - render(iso)：iso＝台北日期 YYYY-MM-DD → <section class="fp-alm">（樣式在 front.css；data-day 給 front.js 判斷過午夜）。 */
+   - 右邊一格當月的台灣行政日曆（放假紅字、今天畫圈），放假日照人事行政總處辦公日曆表的規則算（見 holidays）。
+   - render(iso)：iso＝台北日期 YYYY-MM-DD → <section class="fp-alm">（樣式在 front.css；data-day 給 front.js 判斷過午夜）；
+     dayOff(iso) 給核對用。 */
 (() => {
   'use strict';
   const A = window.AIR;
@@ -89,6 +91,95 @@
     return out;
   }
 
+  // ── 台灣行政日曆：人事行政總處「政府行政機關辦公日曆表」的放假日（2026 年起的規則）──
+  // 依 2025 年修正的紀念日及節日實施條例：週六日放假；開國紀念日、和平紀念日、兒童節、民族掃墓節（清明）、勞動節、端午、
+  // 教師節、中秋、國慶、光復節、行憲紀念日逢週六 → 前一個上班日補假、逢週日 → 次一個上班日補假；春節（除夕前一日到初三）
+  // 逢週六日 → 都在春節後的上班日補假；兒童節與清明同一天 → 兒童節提前一天（逢週四延後一天）。
+  // 照官方日曆表核對過：115（2026）年放假 120 天、116（2027）年 121 天，兩年都沒有補班。
+  // 人事總處另外公告調整（彈性放假、補行上班、跨年補假以外的特例）時寫進 ADJUST：'YYYY-MM-DD': '名稱'＝放假、null＝上班
+  const ADJUST = {};
+  const offCache = new Map();
+  // 年 → Map(YYYY-MM-DD → 名稱)：有名稱的放假日（含落在週六日的節日、補假）；隔年元旦逢週六的 12/31 補假也算進今年
+  function holidays(Y) {
+    if (offCache.has(Y)) return offCache.get(Y);
+    const S = window.Solar;
+    const LU = window.Lunar;
+    const sol = (y, m, d) => S.fromYmd(y, m, d);
+    const isoOf = (s) => s.toYmd();
+    const named = new Map();
+    const put = (s, name) => {
+      const k = isoOf(s);
+      named.set(k, named.has(k) ? `${named.get(k)}、${name}` : name);
+    };
+    const weekend = (s) => s.getWeek() === 0 || s.getWeek() === 6;
+    const work = (s) => !weekend(s) && !named.has(isoOf(s));
+    const nextWork = (from, step) => {
+      let s = from.next(step);
+      while (!work(s)) s = s.next(step);
+      return s;
+    };
+    const qm = sol(Y, 4, 15).getLunar().getJieQiTable()['清明']; // 清明（4/4 或 4/5）
+    const sameDay = qm.getMonth() === 4 && qm.getDay() === 4;
+    const kids = sameDay ? (qm.getWeek() === 4 ? sol(Y, 4, 5) : sol(Y, 4, 3)) : sol(Y, 4, 4);
+    const lunar = (m, d) => LU.fromYmd(Y, m, d).getSolar();
+    const general = [
+      [sol(Y, 1, 1), '開國紀念日'], [sol(Y, 2, 28), '和平紀念日'], [kids, '兒童節'], [qm, '民族掃墓節'], [sol(Y, 5, 1), '勞動節'],
+      [lunar(5, 5), '端午節'], [sol(Y, 9, 28), '教師節'], [lunar(8, 15), '中秋節'], [sol(Y, 10, 10), '國慶日'],
+      [sol(Y, 10, 25), '光復節'], [sol(Y, 12, 25), '行憲紀念日'],
+    ];
+    const ny = lunar(1, 1);
+    const spring = [[ny.next(-2), '小年夜'], [ny.next(-1), '除夕'], [ny, '春節'], [ny.next(1), '春節'], [ny.next(2), '春節']];
+    [...spring, ...general].forEach(([s, name]) => put(s, name));
+    // 補假：春節的先放（依序補在春節後），其他照日期先後；後放的讓開已放的
+    let end = spring[spring.length - 1][0];
+    spring.filter(([s]) => weekend(s)).forEach(([, name]) => {
+      end = nextWork(end, 1);
+      put(end, `${name}補假`);
+    });
+    const shift = (s, name) => {
+      if (s.getWeek() === 6) put(nextWork(s, -1), `${name}補假`);
+      else if (s.getWeek() === 0) put(nextWork(s, 1), `${name}補假`);
+    };
+    general.slice().sort((a, b) => a[0].toYmd().localeCompare(b[0].toYmd())).forEach(([s, name]) => shift(s, name));
+    const nextNewYear = sol(Y + 1, 1, 1);
+    if (nextNewYear.getWeek() === 6) shift(nextNewYear, '開國紀念日');
+    offCache.set(Y, named);
+    return named;
+  }
+  // → { off: 是否放假, name: 名稱或 '' }
+  function dayOff(iso) {
+    if (Object.prototype.hasOwnProperty.call(ADJUST, iso)) return { off: ADJUST[iso] !== null, name: ADJUST[iso] || '補行上班' };
+    const name = holidays(+iso.slice(0, 4)).get(iso) || '';
+    const wd = new Date(`${iso}T00:00:00Z`).getUTCDay();
+    return { off: Boolean(name) || wd === 0 || wd === 6, name };
+  }
+
+  // 當月小日曆：紅字（加粗）＝放假，今天畫圈（aria-current=date）；節日名稱放 title 與報讀文字
+  const pad = (n) => String(n).padStart(2, '0');
+  function calendar(iso) {
+    const [y, m, today] = iso.split('-').map(Number);
+    const first = new Date(Date.UTC(y, m - 1, 1)).getUTCDay();
+    const days = new Date(Date.UTC(y, m, 0)).getUTCDate();
+    const cells = [];
+    for (let i = 0; i < first; i++) cells.push(h('td'));
+    for (let d = 1; d <= days; d++) {
+      const { off, name } = dayOff(`${y}-${pad(m)}-${pad(d)}`);
+      const cls = [off ? 'is-off' : '', d === today ? 'is-today' : ''].filter(Boolean).join(' ');
+      cells.push(h('td', { class: cls || null, title: name || null, 'aria-current': d === today ? 'date' : null }, [
+        h('span', { class: 'fp-alm-n' }, [String(d)]),
+        name ? h('span', { class: 'visually-hidden' }, [`，${name}`]) : null,
+      ]));
+    }
+    while (cells.length % 7) cells.push(h('td'));
+    const rows = [];
+    for (let i = 0; i < cells.length; i += 7) rows.push(h('tr', null, cells.slice(i, i + 7)));
+    return h('table', { class: 'fp-alm-cal' }, [
+      h('caption', { class: 'visually-hidden' }, [`${y} 年 ${m} 月行政日曆，紅字是放假日`]),
+      h('thead', null, [h('tr', null, [...WEEK].map((w, i) => h('th', { scope: 'col', class: i === 0 || i === 6 ? 'is-off' : null }, [w])))]),
+      h('tbody', null, rows),
+    ]);
+  }
+
   // 宜忌各詞不拆行：一詞一個 span（nowrap），詞間留一般空白讓報讀器分得開
   const words = (list) => (list.length ? list.flatMap((t, i) => [i ? ' ' : null, h('span', null, [t])]) : ['—']);
 
@@ -116,9 +207,14 @@
             : h('span', null, [h('span', { class: 'fp-alm-lab' }, ['下個節氣']), L.next]),
         ]),
       ]));
+      try {
+        kids.push(h('div', { class: 'fp-alm-mon' }, [calendar(x.iso)]));
+      } catch (e) {
+        console.error('行政日曆計算失敗', e);
+      }
     }
     return h('section', { class: `fp-alm${L ? '' : ' is-plain'}`, 'aria-label': '今天的日期與農民曆', 'data-day': x.iso, 'data-lunar': L ? '' : null }, kids);
   }
 
-  A.almanac = { load, render };
+  A.almanac = { load, render, dayOff };
 })();

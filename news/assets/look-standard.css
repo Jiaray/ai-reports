@@ -163,8 +163,11 @@
 [data-look=standard] .fp-head .mast-title{font-size:clamp(22px,1vw + 18px,28px)}
 /* 今天日期與農民曆（front.css 的 .fp-alm）：卡片底、細線、系統字；宜忌的綠、紅照藍圖 */
 [data-look=standard] .fp-alm{margin-top:16px;background:var(--surface);border:var(--hair) solid var(--border);border-radius:var(--radius);overflow:hidden;font:var(--fw-body) 14px/1.6 var(--font-sans);letter-spacing:0;color:var(--text-2)}
-[data-look=standard] .fp-alm :is(.fp-alm-md,.fp-alm-wd,.fp-alm-k){font-family:var(--font-sans);letter-spacing:0}
+[data-look=standard] .fp-alm :is(.fp-alm-md,.fp-alm-wd,.fp-alm-k,.fp-alm-cal,.fp-alm-cal th){font-family:var(--font-sans);letter-spacing:0}
 [data-look=standard] .fp-alm-day{background:transparent;border-right:var(--hair) solid var(--border)}
+[data-look=standard] .fp-alm-mon{border-left:var(--hair) solid var(--border)}
+[data-look=standard] .fp-alm-cal{color:var(--text)}
+[data-look=standard] .fp-alm-cal th:not(.is-off){color:var(--text-3)}
 [data-look=standard] .fp-alm-md{font-weight:700;font-size:18px;color:var(--text)}
 [data-look=standard] :is(.fp-alm-wd,.fp-alm-lu,.fp-alm-more){color:var(--text-2)}
 [data-look=standard] .fp-alm-v{color:var(--text)}
@@ -172,7 +175,7 @@
 [data-look=standard] .fp-alm-lab{color:var(--text-3)}
 [data-look=standard] :is(.fp-alm-k,.fp-alm-fest){border-radius:var(--radius-sm)}
 [data-look=standard] .fp-alm-fest{border-color:var(--accent);color:var(--accent)}
-@media(max-width:40em){[data-look=standard] .fp-alm-day{border-right:0;border-bottom:var(--hair) solid var(--border)}}
+@media(max-width:40em){[data-look=standard] .fp-alm-mon{border-left:0}[data-look=standard] .fp-alm-body{border-top:var(--hair) solid var(--border)}}
 /* 過濾標籤（頭版；議題目錄 .st 用同一套）：高度與可點範圍照 front.css，只換顏色、圓角、左右內距 */
 [data-look=standard] :is(.fp,.st) .fp-chip{padding:3px 10px;border:var(--hair) solid var(--border);border-radius:999px;background:var(--surface);color:var(--text-2);font:400 14px/1 var(--font-sans);letter-spacing:0}
 @media(max-width:40em){[data-look=standard] :is(.fp,.st) .fp-chip{padding:3px 8px;font-size:13px}}
