@@ -5,7 +5,7 @@ GitHub Pages 靜態站 <https://jiaray.github.io/ai-reports/>，只放 AI 產生
 ## 上傳邊界（commit／push 前逐條確認；內容、檔名、路徑、commit 訊息都算）
 
 可上傳：
-- news-aggregator 產生的 `news/` 檔：`<系列>/<年>/<期別>.json`、`<系列>/index.json`、`index.json`、`front/index.json`、`front/<ISO 年>/<YYYY-Www>.json`、`stories.json`。`news/archive/` 已廢除、每日頭版 `front/<年>/<YYYY-MM-DD>.json` 已停用，兩者只許刪除。
+- news-aggregator 產生的 `news/` 檔：`weekly/<系列>/<年>/<期別>.json`、`weekly/<系列>/index.json`、`index.json`、`weekly/front/index.json`、`weekly/front/<ISO 年>/<YYYY-Www>.json`、`stories.json`。`news/archive/` 已廢除、每日頭版 `weekly/front/<年>/<YYYY-MM-DD>.json` 已停用，兩者只許刪除。
 - 新聞卡（news-aggregator 的 cards.py、card_errors.py 產生）：`news/cards/<Y>/W<ww>/<NNNN>.json`（新聞卡）、`news/cards/<Y>/W<ww>/index.json`（週索引）、`news/cards/recent.json`、`news/cards/focus.json`、`news/cards/story-index.json`、`news/cards/errors.json`、`news/aliases.json`、`news/adhoc/<slug>.json`（暫時頁資料）。壞檔備份（`*.broken-*`）與暫存檔（`.*.tmp`）不上傳。
 - 網站：`index.html`、`404.html`、`catalog.json`、`assets/`、`news/index.html`、`news/card.html`、`news/story.html`、`news/adhoc.html`、`news/manifest.webmanifest`、`news/assets/`（含新聞卡頁的 `card.js`、`card.css`，列表列的 `rows.js`、`rows.css`，系列頁的 `series.js`、`series.css`，議題頁與議題目錄的 `story.js`、`story.css`，暫時頁的 `adhoc.js`、`adhoc.css`，舊版施工中頁的 `wip.js`），及新類別的同類檔。
 - `README.md`、`CLAUDE.md`、`.gitignore`、`.nojekyll`。
@@ -54,11 +54,12 @@ GitHub Pages 靜態站 <https://jiaray.github.io/ai-reports/>，只放 AI 產生
 ## 資料（`news/`）
 
 - `index.json`（publish.py）：`series` 系列設定（`group` 領域、`short` 短名、`cadence`；陣列順序＝全站系列順序）＋最近 200 份（含 `lede`）。新聞卡日報系列＝`series` 裡 `cadence` daily 的，GitHub 趨勢（`github`，仍是報告）與臨時系列（領域「其他」）除外（bar.js `cardSeries`）；它們的系列代號、名稱、順序照留給網站用。
-- `<系列>/index.json`（publish.py）：該系列全部期別，新到舊，無導言。
-- `<系列>/<年>/<期別>.json`（publish.py）：報告（週報、月報、GitHub 趨勢、臨時系列），`schema` 1，欄位對應 md2html2.py 的 render。條目選用欄位：`ts` 台北時間 ISO（時間軸排序）、`key` 固定編號、`front` 頭版順位、`facets` 分類標籤（定義在 news-aggregator `facets.py`；舊週報另有已拿掉的影響、重要度、調性、進展，只顯示）。
-- `front/index.json`（front.py）：`weeks` 最近 26 個每週頭版的週與則數（`dates` 是已停用的每日頭版，網站不讀）。
-- `front/<ISO 年>/<YYYY-Www>.json`（front.py）：每週頭版＝當週週報＋當週發布的月報的 `front` 條目，依 `key` 合併，同事件不同網址也併（互引主連結且標題相近，`merge_events`）；`facets` 取聯集、`dive_html` 取主來源（沒有取其他來源）、`from` 記來源報告（系列、期別、編號）。
-- 每日頭版（`front/<年>/<YYYY-MM-DD>.json`）已停用：日報改成新聞卡，本日焦點改讀 `cards/focus.json`；舊檔切換時刪除。
+- `weekly/`：走報告流程的系列（週報、月報、GitHub 趨勢、臨時系列，不分週期）與每週頭版 `front/` 都放這裡；頁面網址只帶 `t`、`d`，不含這段路徑。
+- `weekly/<系列>/index.json`（publish.py）：該系列全部期別，新到舊，無導言。清單與 `index.json` 的 `data` 是相對 `news/` 的路徑，報告頁照它讀。
+- `weekly/<系列>/<年>/<期別>.json`（publish.py）：報告（週報、月報、GitHub 趨勢、臨時系列），`schema` 1，欄位對應 md2html2.py 的 render。條目選用欄位：`ts` 台北時間 ISO（時間軸排序）、`key` 固定編號、`front` 頭版順位、`facets` 分類標籤（定義在 news-aggregator `facets.py`；舊週報另有已拿掉的影響、重要度、調性、進展，只顯示）。
+- `weekly/front/index.json`（front.py）：`weeks` 最近 26 個每週頭版的週與則數（`dates` 是已停用的每日頭版，網站不讀）。
+- `weekly/front/<ISO 年>/<YYYY-Www>.json`（front.py）：每週頭版＝當週週報＋當週發布的月報的 `front` 條目，依 `key` 合併，同事件不同網址也併（互引主連結且標題相近，`merge_events`）；`facets` 取聯集、`dive_html` 取主來源（沒有取其他來源）、`from` 記來源報告（系列、期別、編號）。
+- 每日頭版（`weekly/front/<年>/<YYYY-MM-DD>.json`）已停用：日報改成新聞卡，本日焦點改讀 `cards/focus.json`；舊檔切換時刪除。
 - 新聞卡（契約與格式在 news-aggregator 的新聞卡契約 §2、§3、§9；任何修正只改標記，不搬檔、不刪卡，已傳出的網址永遠打得開）：
   - `cards/<Y>/W<ww>/<NNNN>.json`（cards.py publish 寫內容；`online_only`、`heat`、來源分類由 card_index 補）：一張新聞卡，`schema` 1。編號 `<ISO 年>-W<兩位週>-<四位流水號>`（例 `2026-W48-0153`），週＝新增時間的台北 ISO 週。`dup_of` 有值＝跟那張是同一件事；`log` 是補充（`supplement`）、更正（`correction`）紀錄，原文不改。
   - `cards/<Y>/W<ww>/index.json`（card_index）：週索引，該週新增的全部卡（含封存、標重複）的輕量條目，依編號。
@@ -146,7 +147,7 @@ GitHub Pages 靜態站 <https://jiaray.github.io/ai-reports/>，只放 AI 產生
 
 ## 新增類別
 
-1. 類別代號：小寫英數與 `-`，定了不改；`assets`、`archive`、`index`、`front`、`cards`、`adhoc` 是保留字（新聞系列代號同樣不能用）。
+1. 類別代號：小寫英數與 `-`，定了不改；`assets`、`archive`、`index`、`front`、`cards`、`adhoc`、`weekly` 是保留字（新聞系列代號同樣不能用）。
 2. 建 `<代號>/index.html`、`<代號>/index.json`（欄位同 `news/index.json`；`items` 每筆要有 `series`、`series_title`、`period`、`cadence`、`title`、`count`、`lede`；首頁連到 `<代號>/?t=<series>&d=<period>`）；每個系列一份 `<代號>/<series>/index.json` 全期別清單。
 3. `catalog.json` 的 `categories` 加一筆，首頁就會列出。
 4. 產出工具只寫自己的目錄，遵守上傳邊界。

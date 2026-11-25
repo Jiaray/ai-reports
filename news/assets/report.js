@@ -1,4 +1,4 @@
-/* 報告頁（news/?t=&d=）：讀 index.json＋<系列>/index.json（全部期別），載入一期報告渲染。
+/* 報告頁（news/?t=&d=）：讀 index.json＋weekly/<系列>/index.json（全部期別），載入一期報告渲染。
    新聞卡日報系列（bar.js cardSeries）的 ?t= 交給系列頁 series.js（A.series.render；工具列、「版面」用這裡的），舊的日報報告不再畫；
    series.js 沒載到（部署空窗）時顯示「施工中」。週報、月報、GitHub 趨勢、臨時系列照舊。
    依賴 A.bar（bar.js）；A.facets（facets.js）、A.look（look-standard.js）、A.series（series.js）選用，載入失敗就少分類標籤、「一般」外觀。 */
@@ -546,11 +546,11 @@
     h('p', { class: 'load-error', role: 'alert' }, [text, more || null]),
   );
 
-  // <系列>/index.json；代號不合法、沒有檔（舊系列還沒有清單）或格式不對 → null，只用 index.json、不報錯
+  // weekly/<系列>/index.json；代號不合法、沒有檔（舊系列還沒有清單）或格式不對 → null，只用 index.json、不報錯
   async function seriesList(t) {
     if (!/^[a-z0-9_-]+$/.test(t)) return null;
     try {
-      const doc = await A.getJSON(`${t}/index.json`);
+      const doc = await A.getJSON(`weekly/${t}/index.json`);
       return doc && Array.isArray(doc.items) ? doc : null;
     } catch (e) {
       return null;

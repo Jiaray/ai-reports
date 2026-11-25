@@ -2,7 +2,7 @@
    - 本日焦點（news/、舊網址 ?f=、?t=general）：讀 cards/focus.json，取看的當下往回 window_hours（24）小時內的前 limit（10）張新聞卡；
      一張都沒有時列整份的前 limit 張並標最後更新（設計 §6.8、契約 §9）。不按日期翻頁、不按整點分段：一條清單照 focus.json 的順序
      （樣式摘要 5.5）；條目是 A.rows 的列表列（頁內展開）；過濾標籤依系列。每日頭版已停用，舊檔不再讀。
-   - 每週頭版（?w、?w=YYYY-Www）：讀 index.json、front/index.json 與該週頭版檔，畫成時間軸。
+   - 每週頭版（?w、?w=YYYY-Www）：讀 index.json、weekly/front/index.json 與該週頭版檔，畫成時間軸。
    兩種都不標「新」（依每台裝置的瀏覽紀錄算，碰到用詞規則）；舊的 air-front-seen 開頁時刪掉。
    依賴 A.bar（bar.js 報頭元件）；A.facets、A.look、A.rows 選用（載入失敗就少該功能；沒有 A.rows 時本日焦點退回標題連結清單）；
    每週頭版條目沿用 report.css 標題讀法（data-read=scan）的 .peek／.row-*。 */
@@ -426,7 +426,7 @@
     restoreChip(chipFocus);
   }
 
-  // 還沒有任何每週頭版（front/index.json 不存在或沒有週）：列各週報、月報最新一期
+  // 還沒有任何每週頭版（weekly/front/index.json 不存在或沒有週）：列各週報、月報最新一期
   function noFront() {
     const items = (index && index.items) || [];
     const latest = [];
@@ -464,13 +464,13 @@
   }
 
   // 週的年＝ISO 年＝期別前四碼
-  const frontPath = (w) => `front/${w.slice(0, 4)}/${w}.json`;
+  const frontPath = (w) => `weekly/front/${w.slice(0, 4)}/${w}.json`;
   const validWeeks = (doc) => (doc && Array.isArray(doc.weeks) ? doc.weeks : [])
     .map((x) => x && x.week).filter((w) => typeof w === 'string' && WEEK_RE.test(w));
 
   async function weekMain() {
     // index、週清單、議題對照表並行抓；頭版檔要等週清單
-    const [idx, list] = await Promise.allSettled([A.getJSON('index.json'), A.getJSON('front/index.json'), A.facets ? A.facets.load() : null]);
+    const [idx, list] = await Promise.allSettled([A.getJSON('index.json'), A.getJSON('weekly/front/index.json'), A.facets ? A.facets.load() : null]);
     index = idx.status === 'fulfilled' && idx.value && typeof idx.value === 'object' ? idx.value : null;
     srBox = B.seriesMenu ? B.seriesMenu(index, null) : null;
     dates = list.status === 'fulfilled' ? validWeeks(list.value) : [];
@@ -504,7 +504,7 @@
   async function refreshWeek() {
     let prev = null;
     try {
-      const doc = await A.getJSON('front/index.json').catch(() => null);
+      const doc = await A.getJSON('weekly/front/index.json').catch(() => null);
       if (!doc) return;
       const next = validWeeks(doc);
       if (!next.length) return;
