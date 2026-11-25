@@ -1,0 +1,78 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0038",
+ "title": "論文：一面鏡子就讓機器人策略失準，成功率最多掉 62.5 個百分點",
+ "line": "RoboDojo-Mirror 測五種策略，鏡面反射造成「幻影目標」與空間誤判，非碰撞所致",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:00:00+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "機械與工業製造",
+   "軟體與雲端"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "RoboDojo-Mirror",
+   "具身智慧",
+   "VLA",
+   "機器人操作"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "論文受動物認知的鏡像自我辨識測驗啟發，檢驗機器人操作策略在有反射影像的場景中能否可靠操作實物。作者在 RoboDojo 上建立 RoboDojo-Mirror 基準，保留任務目標、成功標準與策略檢查點，比較無鏡、單鏡、雙鏡與鏡面桌面四種條件。測試的五種策略涵蓋視覺語言動作模型（VLA）、世界動作模型與代理型策略，每種鏡面條件都讓總成功率下降：三種條件平均下降 10.8 到 56.7 個百分點，鏡面桌面最多降 62.5 點。為排除鏡子只是障礙物，作者以幾何相同的非反射面板對照，50% 至 88% 的鏡子特有失敗並沒有機器人與面板接觸的紀錄；軌跡與接觸分析顯示反覆出現對反射物體的「幻影目標」與對真實物體的空間誤判。π0.5 與 FastWAM 的實體機器人實驗也在鏡面條件下成功率較低。這篇在 HF 論文榜獲 27 票。<a href=\"https://github.com/iPPLab/robodojo-mirror\" target=\"_blank\" rel=\"noopener\">GitHub</a>",
+ "dive_html": "鏡子、玻璃、拋光金屬在工廠與家庭很常見，這篇用簡單設計揭露各類機器人策略的共同盲點，比追加訓練資料更有診斷價值。對要把機器人帶進真實場域的團隊，評測時應加入反射環境；論文也提示視覺模型的「看見」與「理解空間」仍有落差。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "Embodied AI Fails the Mirror Test: How a Simple Mirror Breaks Robot Policies",
+   "url": "https://huggingface.co/papers/2611.33010",
+   "time": "2026-11-25T08:00:00+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "+27",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

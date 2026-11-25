@@ -1,0 +1,78 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0040",
+ "title": "PenGPT：600 萬參數的小模型學會模仿陌生人筆跡，另一個 5,400 萬參數版本依文字畫草圖",
+ "line": "作者用約 50 萬個手寫字與 48 萬張草圖訓練，強調八成功夫在資料",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:54:49+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "PenGPT",
+   "手寫生成",
+   "草圖生成",
+   "BPE"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "部落格作者 Greydanus 發表 PenGPT，一組會「拿筆」的小型 Transformer：600 萬參數的版本能寫印刷體與草寫體，只看某位沒見過的書寫者一到三個字就能接著用他的筆跡寫下去；5,400 萬參數的版本則依文字提示畫草圖。做法是把筆尖座標對齊格點，讓一個字變成八個方向加落筆、提筆的移動序列，再用位元組對編碼（BPE）把常見的移動組合併成 token（例如「world」從 156 步縮成 47 個 token），其餘就是一般的解碼器；手寫時告訴模型文字，畫圖時給 SigLIP 2 向量。手寫資料由掃描轉換而來：視覺語言模型找出清楚的頁面並轉寫，切成單字後用 InkSight 還原筆畫，共 1,255 位書寫者、495,590 個字；草圖取自十個公開資料集共 477,670 張，其中 Quick, Draw! 只留最好的 0.5%。作者形容這個專案「八成是資料、一成五是速度、半成是架構」，論文、程式碼與權重已公開，資料集不釋出；他也坦言文章正文由 Claude 撰寫。這則在 Hacker News 獲 361 分。",
+ "dive_html": "這是「苦澀教訓」在小領域的示範：把筆跡離散化成 token 後，普通 Transformer 加上大量資料就夠用，架構創新反而最不重要。用視覺模型從掃描檔自動造出筆畫資料的流程，對其他缺乏原始資料的模態（如手繪 UI、簽名）也有借鏡價值。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
+   "url": "https://greydanus.github.io/2026/11/12/pengpt/",
+   "time": "2026-11-25T08:54:49+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "361 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50637056",
+   "family": "greydanus.github.io",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 361,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

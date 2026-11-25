@@ -1,0 +1,80 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0055",
+ "title": "zhouxiaoka/autoclip：開源本機 AI 影片剪輯，把長影片與直播自動切成短影音",
+ "line": "v1.6 新增 OBS、Twitch 等六種直播回放來源與遊戲精彩片段偵測，MIT 授權免訂閱",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中國大陸",
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "版本更新"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "媒體與娛樂"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "AutoClip",
+   "短影音",
+   "AI 剪輯",
+   "OBS"
+  ],
+  "form": [
+   "開源專案"
+  ]
+ },
+ "summary_html": "AutoClip 是開源、以本機為主的 AI 影片剪輯桌面工具，丟入連結、本機影片或直播回放，它會找出精彩片段、追蹤說話者、燒錄字幕、產生封面與標題，匯出適合 TikTok、Shorts、Reels、YouTube、抖音、小紅書與 B 站的短片。剪輯與算圖都在使用者電腦上執行，可自備 API 金鑰，或搭配 Ollama、LM Studio 與 Whisper、SenseVoice 完全離線。v1.6 新增直播回放分頁，支援 OBS Studio、Twitch、YouTube、Kick、Discord 與本機錄影；可連 OBS WebSocket，直播結束後無損剪切並自動排入佇列；精彩片段偵測擴及 8 秒以上的遊戲單一操作；介面與文件支援 13 種語言（含繁體中文）。採 MIT 授權、無訂閱費。單日新增 868 顆星。",
+ "dive_html": "短影音二次剪輯是創作者的高頻需求，本機加開源模型的組合讓成本趨近於零，也避開把原始素材上傳雲端。對遊戲公司的社群與行銷團隊，直播回放自動切精華可直接用在實況與宣傳素材；自動挑選的片段品質與版權歸屬仍需人工把關。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GitHub Trending",
+   "title": "zhouxiaoka/autoclip - AutoClip｜一个链接，一键出片。开源 AI 视频剪辑桌面工具，将播客、访谈、课程等长视频自动剪成短视频，生成字幕、封面和发布文案，适配抖音、小红书、TikTok、Reels 与 YouTube Shorts。Open-source AI video clipping & content repurposing.",
+   "url": "https://github.com/zhouxiaoka/autoclip",
+   "time": null,
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "+868 stars today",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

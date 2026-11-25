@@ -1,0 +1,78 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0052",
+ "title": "HKUDS/CLI-Anything：把任何軟體包成 AI 代理可用的命令列工具",
+ "line": "社群打造的 CLI-Hub 已收錄 Calibre、Rekordbox、Unreal 編輯器等工具的代理介面",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "CLI-Anything",
+   "CLI-Hub",
+   "AI 代理",
+   "命令列"
+  ],
+  "form": [
+   "開源專案"
+  ]
+ },
+ "summary_html": "CLI-Anything 主張「今天的軟體服務人類，明天的使用者是代理」，目標是讓所有軟體都能被 AI 代理操作：為各種軟體產生命令列介面（CLI harness），讓 Pi、OpenClaw、Cursor、Claude Code 等代理直接呼叫。社群登錄中心 CLI-Hub 可用 pip 安裝後瀏覽、安裝與管理社群做的 CLI，新增項目透過 PR 提交。更新紀錄顯示已合併 Rekordbox、Calibre、3MF、MiniMax 等 CLI，並加入 Unreal 編輯器的 MCP 工作台 UEAtelier；近期也針對路徑穿越與符號連結逃逸等問題做了安全強化。示範影片展示代理用產生的 CLI 製作 CAD、3D 場景、圖表、遊戲與字幕等成品。程式以 Python 撰寫。單日新增 1,094 顆星。",
+ "dive_html": "相較讓代理「看螢幕點按鈕」，把軟體包成 CLI 更穩定、便宜也好測試，這是代理操作既有軟體的務實路線。社群化登錄中心讓覆蓋面擴張快，但每個 CLI 品質不一，且常需要寫入權限（如資料庫），導入前應逐一審查；遊戲團隊可留意 Unreal、3D 工具的代理化進度。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GitHub Trending",
+   "title": "HKUDS/CLI-Anything - \"CLI-Anything: Making ALL Software Agent-Native\" -- CLI-Hub:https://clianything.cc/",
+   "url": "https://github.com/HKUDS/CLI-Anything",
+   "time": null,
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "+1,094 stars today",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

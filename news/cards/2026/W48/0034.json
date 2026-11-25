@@ -1,0 +1,77 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0034",
+ "title": "論文 LoomFormer：Loom 注意力讓 Transformer 每個 token 動態重接電路，相當 3 倍以上算力的效果",
+ "line": "只多 2% 運算，LoomPythia-2.8B 在零樣本追平、少樣本勝過 Pythia-12B",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:00:00+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Loom attention",
+   "LoomFormer",
+   "Transformer 架構",
+   "殘差流"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "論文提出 Loom 注意力，讓 Transformer 在每個 token 動態「重接」內部電路：每個注意力頭除了在 token 之間做水平注意力，還對前面各頭的輸出做垂直注意力來取得查詢、鍵與值。垂直注意力以正規化、帶門控的線性注意力實作，作用在每個 token 的矩陣記憶上，存放壓縮後的頭輸出，成為第二條殘差流；由此得到雙流架構 LoomFormer，由向量流與矩陣流分管控制與內容。在不同模型規模與訓練量的語言建模與下游任務中，LoomFormer 追平用 3 倍以上算力訓練的 Transformer，以及用約 1.7 至 2.8 倍算力訓練的 HC/mHC、MUDDFormer、AttnRes 等殘差流改良基準。例如同樣訓練 3,000 億 token、只多 2% 浮點運算，LoomPythia-2.8B 對 Pythia-2.8B 的平均下游增益約是 mHC-Pythia-2.8B 的 1.6 倍，零樣本追平、五樣本勝過 Pythia-12B。這篇在 HF 論文榜獲 83 票。<a href=\"https://github.com/Caiyun-AI/LoomFormer\" target=\"_blank\" rel=\"noopener\">GitHub</a>",
+ "dive_html": "以 2% 額外運算換到相當 3 倍算力的效果，若能在更大規模上成立，是很划算的架構改良；殘差流改造是近期熱門方向，這篇的比較對象正是同類最新方法。限制在於實驗規模止於數十億參數，前沿規模下效益是否延續、推論時矩陣記憶的開銷如何，都還需驗證。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "Rewirable Circuits in Transformers with Loom Attention",
+   "url": "https://huggingface.co/papers/2611.30634",
+   "time": "2026-11-25T08:00:00+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "+83",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

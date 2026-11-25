@@ -1,0 +1,82 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0014",
+ "title": "PrismML 推出 Ternary Bonsai 2.5 27B：5.9GB 三值模型，SWE-bench Verified 75.6",
+ "line": "以 Qwen3.8 27B 為基礎的端側代理模型，體積不變、程式代理能力大幅提升",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:00:00+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "PrismML"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Ternary Bonsai",
+   "三值量化",
+   "端側模型",
+   "SWE-bench"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "PrismML 於 11 月 24 日推出 Ternary Bonsai 2.5 27B，是 Ternary Bonsai 2 27B 的升級版，以 Qwen3.8 27B 為基礎，維持 5.9 GB 的模型大小，強化程式代理、多輪工具呼叫與多步驟任務，並改善前一版過度思考與重複迴圈的問題。官方評測：SWE-bench Verified 由前一版 60.8 提升到 75.6（全精度基礎模型 80.6），AppWorld 由 51.2 到 90.5（基礎模型 93.2），Terminal-Bench 2.1 由 52.8 到 60.1。速度方面，單張 NVIDIA H100 加 MTP 每秒生成 291 個 token，消費級 RTX 4090 每秒 204 個 token。官方稱它是同等記憶體占用下代理任務最強的模型，這則在 Hacker News 獲 512 分。",
+ "dive_html": "三值量化把 27B 模型壓到 6GB 以內，代理評測又逼近全精度，讓本機跑程式代理處理私有程式庫變得可行，對不能把原始碼送上雲的團隊有吸引力。數字皆為廠商自測，「同級最強」要等社群複測。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "Introducing Ternary Bonsai 2.5 27B: Powering Agentic Coding and Private Knowledge Work",
+   "url": "https://prismml.com/news/bonsai-2-5-27b",
+   "time": "2026-11-25T08:00:00+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "512 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50633922",
+   "family": "prismml.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 512,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

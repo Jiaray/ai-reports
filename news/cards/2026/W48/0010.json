@@ -1,0 +1,82 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0010",
+ "title": "Sand.ai 發布 480B 影片模型 MAGI-2，實測稱接近 Seedance 2.3、價格約十分之一",
+ "line": "1080P 每秒約 0.5 元人民幣，作者實測認為品質到 Seedance 2.3 水準",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T07:56:00+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Sand.ai"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "MAGI-2",
+   "影片生成",
+   "Seedance"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據微信公眾號「數字生命卡茲克」的實測文，Sand.ai 於台北時間 11 月 25 日凌晨發布 480B 參數的全模態影片模型 MAGI-2。作者實測後認為品質約達 Seedance 2.3 的水準；價格方面，1080P 每秒約 0.5 元人民幣，約為 Seedance 2.5 的十分之一。AIHOT 另註記各方對上線管道與定價說法不一。原文沒有交代模型的訓練方式、授權條件與正式評測數據。",
+ "dive_html": "品質評價來自單一作者的主觀實測，加上定價說法不一，可信度有限。若價格屬實，影片生成成本壓到主流的十分之一，對短影音與廣告素材製作是實質的成本變化；要看是否有第三方評測與正式定價頁。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AIHOT",
+   "title": "Sand.ai 发布 480B 视频模型 MAGI-2，作者实测称质量接近 Seedance 2.3 水准且价格仅为其 1/10",
+   "url": "https://aihot.news/items/u71y2i8e6zhwauu7gpuyxrp4z",
+   "time": "2026-11-25T07:56:00+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

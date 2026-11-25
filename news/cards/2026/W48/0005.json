@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0005",
+ "title": "Claude Artifacts 可安裝成 Mac、Windows 桌面 App，Beta 開放所有方案",
+ "line": "安裝後有獨立圖示與視窗、可用連接器與通知，權限分三級",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:00:00+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Anthropic"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Claude Artifacts",
+   "Install as app",
+   "MCP"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Anthropic 宣布 Claude 的 artifacts 可以「安裝成 App」，以 Beta 在 Mac 與 Windows 版 Claude 推出，所有方案都能用。安裝後有自己的圖示與視窗，可分享給他人，底層 artifact 修改時自動更新，也能使用 Claude 與使用者的連接器；App 對 Claude 的請求計入方案用量。權限分三級：預設只能做瀏覽器能做的事；App 權限可要求置頂視窗、全域快捷鍵、通知等；完全存取可執行程式、讀改刪檔案。權限只涵蓋目前版本，每次更新（含自己的修改）都會重新詢問；完全存取只能給自己做的 App，Team 與 Enterprise 可給組織成員做的 App；Anthropic 不會事先審查 App。據 AINews 整理，同期 MCP 滿兩年，長時間執行的 Tasks 正式開放、Skills over MCP 推出，Claude 的連接器超過 1 萬個。",
+ "dive_html": "這把 artifacts 從「分享的成品」變成可常駐的小工具，讓不寫程式的人也能用對話做出桌面 App。風險集中在完全存取：Anthropic 不審查 App，而 App 中來自其他網站的部分可在不重新詢問下改變，企業管理員宜先決定是否關閉完全存取。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "Claude Artifacts Become Mac and Windows Apps",
+   "url": "https://claude.com/resources/articles/install-as-app",
+   "time": "2026-11-25T08:00:00+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "23 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50634369",
+   "family": "claude.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Latent Space AINews",
+   "title": "Agent Platforms, Safety and Systems: Claude and MCP:",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/#item-22",
+   "time": "2026-11-25T12:29:07+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 23,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

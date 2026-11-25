@@ -1,0 +1,114 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0022",
+ "title": "紐約州禁止 AI 聊天玩具五年，違者每天最高罰 1.5 萬美元",
+ "line": "州長 Hochul 簽署法案，禁止製造、經銷與販售內建網路 AI 聊天功能的玩具，90 天後生效",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T05:49:50+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "AI",
+   "社會"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "零售與消費",
+   "軟體與雲端"
+  ],
+  "org": [
+   "紐約州政府",
+   "紐約州檢察長辦公室"
+  ],
+  "person": [
+   "Kathy Hochul",
+   "Letitia James"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "AI 聊天玩具",
+   "兒童保護",
+   "S.9408A"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "紐約州長 Kathy Hochul 於 11 月 24 日簽署 S.9408A/A.11144B 法案，對內建或整合 AI 聊天機器人的玩具（例如透過網路和孩子對話的絨毛娃娃、人偶與機器人）實施五年禁令，禁止在紐約州製造、經銷與販售，法律在簽署 90 天後生效。州政府引述全國性消費者監督團體對 3 到 12 歲兒童玩具的測試，部分玩具會深入談論性話題、告訴孩子家裡哪裡可能找到火柴，孩子要離開時還表現不悅，且幾乎沒有家長控制、對話越長安全限制越弱，有些還能錄音或掃描臉部。違者每項違規每天最高罰 1.5 萬美元，由州檢察長 Letitia James 執行。Guardian 也報導了這項禁令，AINews 將它與 Tidal 移除純 AI 生成歌曲並列為本週監管動態。",
+ "dive_html": "這是美國州層級第一個直接禁止整類 AI 消費產品的立法，而且用暫停五年而非訂標準的方式處理，顯示監管者對兒童場景的容忍度極低。玩具與硬體廠若有 AI 對話功能、打算進入美國市場，要準備面對其他州跟進；台灣代工的智慧玩具出貨也可能受影響。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Latent Space AINews",
+   "title": "Industry and Policy: Regulation",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/#item-30",
+   "time": "2026-11-25T12:29:07+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Hacker News",
+   "title": "New York Ban AI Toys for 5 Years",
+   "url": "https://www.governor.ny.gov/news/consumers-begin-their-holiday-shopping-season-governor-hochul-signs-five-year-ban-ai-chatbot",
+   "time": "2026-11-25T05:49:50+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "33 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50635246",
+   "family": "governor.ny.gov",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "The Guardian Technology",
+   "title": "New York bans AI toys, including those using internet to talk to children",
+   "url": "https://www.theguardian.com/us-news/2026/nov/25/new-york-bans-ai-toys",
+   "time": "2026-11-25T23:29:21+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 33,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0012",
+ "title": "Google Workspace MCP 伺服器與 gwscli 正式推出，個人帳號一鍵開通",
+ "line": "8 個伺服器涵蓋 Gmail、Drive、Docs 等，免費額度每個產品每天 5,000 次請求",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T02:32:13+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Google"
+  ],
+  "person": [
+   "Philipp Schmid"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "MCP",
+   "Google Workspace",
+   "gwscli"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Google DeepMind 開發者體驗團隊的 Philipp Schmid 於台北時間 11 月 25 日宣布，Google Workspace MCP 伺服器與命令列工具 gwscli 正式推出（GA），新增一鍵開通的 Personal 模式，不需要 Enterprise 方案或綁定信用卡。共 8 個伺服器，涵蓋 Gmail、Drive、Docs、Sheets、Slides、Calendar、Chat、Tasks；免費額度為每個產品每天 5,000 次請求，寄信與分享動作內建人工確認（HITL）。他表示仍需透過 Google Cloud 設定，不算理想，但比過去的 OAuth 同意畫面與應用審查流程好得多。",
+ "dive_html": "對想讓 AI 代理操作信件與文件的團隊，官方 MCP 伺服器省去自建 OAuth 與送審的成本，寄送、分享內建人工確認也降低誤寄風險；導入前仍要評估資料外流範圍與 Google Cloud 專案的權限設定。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AIHOT",
+   "title": "Google Workspace MCP servers 与 gwscli 正式发布，Personal 模式一键开通",
+   "url": "https://aihot.news/items/nm8mi41auemid3iivue4tel3d",
+   "time": "2026-11-25T02:32:13+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

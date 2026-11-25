@@ -1,0 +1,95 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0013",
+ "title": "Cognition 推出 SWE-2.1，Devin 付費方案免費開放兩週",
+ "line": "以 Kimi K3 為基礎純強化學習訓練，據稱在 FrontierCode 2.0 接近前沿模型",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:00:00+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Cognition"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "SWE-2.1",
+   "Devin",
+   "Kimi K3",
+   "強化學習"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 AINews 整理 Cognition 官方帳號的說法，Cognition 推出程式模型 SWE-2.1，以 Kimi K3 為基礎、純強化學習訓練，在最大推理設定下於 FrontierCode 2.0 評測據稱接近前沿模型；Devin 付費方案用戶可免費使用兩週。TLDR AI 也報導了這次升級。原文沒有提供具體分數與定價。",
+ "dive_html": "以開源模型 Kimi K3 為底、自行強化學習，是程式代理公司降低成本、減少依賴前沿 API 的路線；「接近前沿」沒有具體數字，要等第三方評測。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "TLDR AI",
+   "title": "Cognition's SWE-2.1",
+   "url": "https://cognition.com/blog/swe-2-1",
+   "time": "2026-11-25T08:00:00+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "cognition.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Latent Space AINews",
+   "title": "Gemini 4 Neon Rollout and Frontier Model Moves: Cognition SWE-2.1",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/#item-9",
+   "time": "2026-11-25T12:29:07+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

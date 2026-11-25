@@ -1,0 +1,107 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0002",
+ "title": "美國 AI 晶片新管制衝擊東南亞資料中心融資，66 億美元貸款放緩",
+ "line": "星馬印泰與巴西企業買先進 AI 晶片須許可，銀行對服務中國客戶的亞洲資料中心貸款轉趨保守",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T16:23:00+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞",
+   "北美",
+   "中國大陸"
+  ],
+  "country": [
+   "US",
+   "MY",
+   "SG",
+   "CN"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "AI",
+   "金融市場"
+  ],
+  "event": [
+   "政策法規",
+   "市場波動"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "金融"
+  ],
+  "org": [
+   "貝恩資本",
+   "Bridge Data Centres",
+   "花旗",
+   "渣打",
+   "大華銀行",
+   "字節跳動"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "AI 晶片出口管制",
+   "資料中心融資",
+   "重大風險移轉"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "鉅亨網編譯彭博報導，美國上週宣布新限制：新加坡、馬來西亞、印尼、泰國與巴西企業向美國廠商購買先進 AI 晶片須取得許可；向中國企業出租大量運算資源的資料中心也須另取許可，有 90 天申請期。融資隨即降溫：貝恩資本旗下 Bridge Data Centres 規模 66 億美元的貸款（馬來西亞設施客戶含字節跳動）有貸方放慢、加做盡職調查；Digital Halo 的 3.72 億美元貸款有一家銀行退出；新加坡 Aolani 的 4.8 億美元貸款遭重新評估；至少一檔私人信貸基金不參與 GMI Cloud 的 3 億美元貸款。花旗、渣打與新加坡主要銀行已全面檢視資料中心客戶，大華銀行約 10 億美元的重大風險移轉交易進度放慢，DayOne 暫緩赴美上市。彭博資料顯示，亞太資料中心貸款自 2023 年幾乎為零增至逾 490 億美元。另據 Straits Times，馬來西亞表示正確保遵守規定，並與美方就管制對話。",
+ "dive_html": "管制從晶片出口延伸到「算力出租」與融資端，等於堵住中國企業透過東南亞遠端使用美國 GPU 的路徑，而銀行收手比法規本身更快見效。東南亞資料中心擴建若因此放緩，台灣伺服器與散熱供應鏈的出貨能見度可能受影響；接下來要看 90 天許可申請的核准情況，以及馬來西亞等國自己加碼的管制內容。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Anue 鉅亨網",
+   "title": "66億美元貸款卡關！美AI晶片管制升級 亞洲資料中心融資踩煞車",
+   "url": "https://news.cnyes.com/news/id/6671836",
+   "time": "2026-11-26T00:17:08+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Malaysia talks with US on AI chip curbs, tightens controls",
+   "url": "https://www.straitstimes.com/asia/se-asia/malaysia-talks-with-us-on-ai-chip-curbs-tightens-controls",
+   "time": "2026-11-25T16:23:00+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

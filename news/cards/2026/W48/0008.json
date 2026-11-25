@@ -1,0 +1,125 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0008",
+ "title": "Anthropic、OpenAI 先後公開 VP≠VNP 證明，OpenAI 稱 11 月 6 日就已得出",
+ "line": "Valiant 1979 年提出的代數版 P 對 NP 問題，據稱由兩家實驗室的模型解出，雙方都未正式宣布",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T02:55:12+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Anthropic",
+   "OpenAI"
+  ],
+  "person": [
+   "Andrew Curran"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "VP≠VNP",
+   "Valiant",
+   "Lean",
+   "計算複雜度"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 AINews 整理，Anthropic 的一個 GitHub 程式庫據報含有內部 Claude 研究模型對 VP≠VNP 的證明；這是 Valiant 1979 年提出的代數版 P 對 NP 問題，意味著積和式（permanent）等多項式在任何體上都沒有小電路。OpenAI 隨後在自家 GitHub 公開證明，稱是「2026 年 11 月 6 日得出」。兩家都沒有指名模型，也沒有正式公告。OpenAI 的預印本頁面說明，11 月 24 日的系列預印本已涵蓋這份結果，另附 Lean 形式化證明，並給出一個顯式 VNP 族在任何體上的邊界算術電路大小下界。AINews 提醒，這個結果不代表 P≠NP，後者仍需一般布林電路下界；評論者 Andrew Curran 認為兩家手上都有未發布的成果，並轉述加密突破的未證實傳聞，AINews 標示這是個人意見。Memia 電子報也以「Claude 宣稱證明 47 年的 Valiant 猜想」報導，Hacker News 相關討論 96 分。",
+ "dive_html": "兩家實驗室以 GitHub 程式庫互別苗頭而非正式發表，顯示頂尖模型的數學成果已成為競爭宣傳的一環。附 Lean 證明降低了驗證門檻，但外界仍不知道用了哪個模型、過程多少人工介入；至於加密遭破解的傳聞，目前沒有任何具名來源支持。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Latent Space AINews",
+   "title": "Frontier Models as Research Engines: VP ≠ VNP, Protein Design and 948 Kernel Bugs: VP ≠ VNP, posted by two labs",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/#item-1",
+   "time": "2026-11-25T12:29:07+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "TLDR AI",
+   "title": "What VP ≠ VNP Means",
+   "url": "https://www.friedgil.com/vpvnp",
+   "time": "2026-11-25T08:00:00+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "friedgil.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Hacker News",
+   "title": "OpenAI reveals they solved VP ≠ VNP before Anthropic",
+   "url": "https://github.com/openai/math/tree/main/preprints/VP-and-VNP-are-different-November-23-2026",
+   "time": "2026-11-25T02:55:12+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "96 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50632756",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Memia",
+   "title": "VP ≠ VNPClaude claims proof of Valiant’s 47-year-old math conjecture",
+   "url": "https://interestingengineering.com/ai-robotics/claude-proves-vp-not-vnp-valiant-conjecture",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "interestingengineering.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 96,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

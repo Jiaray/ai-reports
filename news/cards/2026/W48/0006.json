@@ -1,0 +1,147 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0006",
+ "title": "Anthropic 上市不到一週跌破 83 美元發行價，Reuters 報導一度跌至 74 美元",
+ "line": "11 月 19 日掛牌的 Anthropic 在 11 月 24 日首度收在發行價之下，AI 股賣壓延續",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:12:34+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "金融市場"
+  ],
+  "event": [
+   "市場波動",
+   "募資上市"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Anthropic",
+   "Nvidia",
+   "OpenAI",
+   "那斯達克"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Anthropic IPO",
+   "破發",
+   "ANT"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "IT之家引述彭博報導，Anthropic 於 11 月 19 日以代號 ANT 在那斯達克掛牌，IPO 發行價每股 83 美元，首日以 111.50 美元開盤，盤中一度突破 115 美元，完全稀釋估值一度超過 2 兆美元。美國東部時間 11 月 24 日收在 81.91 美元、單日跌 6.54%，首度跌破發行價，盤中最低約 76 美元，較首日高點回落約 34%；路透測算其市值一度面臨蒸發近 2,000 億美元的壓力。Reuters 11 月 25 日報導 AI 股賣壓加深、Anthropic 跌至 74 美元。彭博認為投資人更嚴格檢視 AI 公司的基本面與現金流，輝達在黃仁勳復職後帶動的反彈，Anthropic 沒有跟上。CNBC 指出 IPO 讓約 5,100 名員工成為帳面百萬富翁，並認為股價低於發行價對其他 AI 股形成壓力；FT 評論以「Anflopic」形容，認為不利 OpenAI 的上市前景。",
+ "dive_html": "號稱史上最大的 IPO 一週內破發，顯示市場對 AI 公司的估值容忍度明顯下降，而且賣壓與輝達董事會風波、新關稅消息疊加。這對 OpenAI 等後續 AI 公司的上市時程是直接壓力；接下來要看 Anthropic 上市後首份財報，能否說明營收成長追得上算力支出。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AIHOT",
+   "title": "Anthropic 上市不到一周跌破 83 美元发行价",
+   "url": "https://aihot.news/items/yhlpti07v4y216qat3ml1qmca",
+   "time": "2026-11-25T11:29:13+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Memia",
+   "title": "Anthropic’s record IPO meets a jittery AI market",
+   "url": "https://www.reuters.com/commentary/reuters-open-interest/anthropic-debuts-skeptics-dogged-believers-mike-dolan-2026-11-17",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "CNBC",
+   "title": "There are 5,100 newly minted Anthropic millionaires—here’s all the stuff they don’t tell you about when you suddenly get rich",
+   "url": "https://www.cnbc.com/2026/11/25/anthropic-ipo-employee-millionaires-sudden-wealth.html",
+   "time": "2026-11-26T00:32:55+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "Anthropic's stock has been a clunker post-IPO. Why that matters for the AI trade",
+   "url": "https://www.cnbc.com/investingclub/2026/11/25/anthropics-stock-has-been-a-clunker-post-ipo-why-that-matters-for-the-ai-trade.html",
+   "time": "2026-11-26T00:05:25+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Financial Times",
+   "title": "‘Anflopic’ bodes badly for OpenAI’s IPO prospects",
+   "url": "https://www.ft.com/content/1c62dcfe-826f-4638-a9ee-c3b3009bc45d",
+   "time": "2026-11-25T14:00:02+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "AI stock rout deepens, with Anthropic hitting $74",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxNMmNMM0doWElDVk9BdjNGZnJHakNCUFg1blQzSlk0eW9zeVduV3ZKcEtJd0hpUkxDMVhnRE9rY1lLUzF1eENZaFh0SUNKbmRjanN3YWtZakZud2RYUnlSRkk5b1RZT2VfbFJPXzhZVEVyYnFnRHBwYVlGdFQzaEt2Z2VjaGVXWUE0Qmd5bjZYandmR2M2QXBSY2tKem80OGNlSzh3?oc=5",
+   "time": "2026-11-26T00:52:57+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 2,
+  "media_weight": 8,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

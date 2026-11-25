@@ -1,0 +1,82 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0016",
+ "title": "OpenAI：GPT-6 Cyber 一次執行協助驗證 948 個可取得 root 的 Linux 核心漏洞",
+ "line": "模型同時產出修補程式交給核心維護者審查",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T12:29:07+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "AI",
+   "資安"
+  ],
+  "event": [
+   "漏洞揭露",
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "OpenAI",
+   "Linux 核心社群"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "GPT-6 Cyber",
+   "Linux 核心",
+   "本機權限提升"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 AINews 整理 OpenAI 官方帳號的說法，GPT-6 Cyber 在一次執行中協助驗證了 948 個 Linux 核心漏洞，這些漏洞可讓攻擊者取得本機 root 權限，模型並產生修補程式交給核心維護者審查。原文沒有交代這些漏洞影響的核心版本、修補進度，以及是否已有修補釋出。",
+ "dive_html": "一次找出近千個可提權的核心漏洞，意味著修補潮可能集中湧向各發行版，伺服器與容器主機的核心更新頻率得跟著提高；同一批能力落到攻擊者手中也一樣有效。在官方公布受影響版本前，維運團隊至少應確認核心自動更新與重開機流程是否跑得動。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Latent Space AINews",
+   "title": "Frontier Models as Research Engines: VP ≠ VNP, Protein Design and 948 Kernel Bugs: GPT-6 Cyber and the Linux kernel",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/#item-4",
+   "time": "2026-11-25T12:29:07+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

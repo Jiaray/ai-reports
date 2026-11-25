@@ -1,0 +1,78 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0053",
+ "title": "mvanhorn/last30days-skill：讓 AI 代理彙整 Reddit、X、YouTube 近 30 天討論的研究技能",
+ "line": "依按讚數、互動與 Polymarket 賭注加權，再由代理綜整成一份簡報",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "last30days",
+   "Agent Skills",
+   "社群搜尋",
+   "Polymarket"
+  ],
+  "form": [
+   "開源專案"
+  ]
+ },
+ "summary_html": "/last30days 是一個 AI 代理技能，同時搜尋 Reddit、X、YouTube、Hacker News、Polymarket、GitHub 與網頁等來源近 30 天的內容，依按讚、留言、影片逐字稿互動與真金白銀的預測市場賠率評分，再由代理評審綜整成一份有出處的簡報。作者的主張是「Google 彙整編輯，/last30days 搜尋人」：各平台是各自的圍牆花園，代理用使用者自己的金鑰與瀏覽器工作階段把它們串起來。Reddit、HN、Polymarket、GitHub 免設定即可用，設定精靈可再開通 X、YouTube、TikTok、arXiv 等。可透過 Claude Code 外掛市集，或以 Agent Skills 標準安裝到 Codex、Cursor、Gemini CLI 等 50 多個平台。作者說他原本用來追 AI 新知，後來也在業務會議前查對方公司的近況。單日新增 950 顆星。",
+ "dive_html": "它把「社群熱度」當作新聞價值的訊號，填補搜尋引擎抓不到社群討論的缺口，對追技術趨勢很實用。但以按讚與賭注加權容易放大炒作與群體偏誤，結論仍需回到原始來源查證；使用自己的瀏覽器工作階段也帶來帳號風險，應留意各平台的使用條款。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GitHub Trending",
+   "title": "mvanhorn/last30days-skill - AI agent skill that researches any topic across Reddit, X, YouTube, HN, Polymarket, and the web - then synthesizes a grounded summary",
+   "url": "https://github.com/mvanhorn/last30days-skill",
+   "time": null,
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "+950 stars today",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

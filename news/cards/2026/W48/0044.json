@@ -1,0 +1,97 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0044",
+ "title": "六國線上簽證與移民系統被揭有「上帝模式」漏洞，攻擊者可能干擾旅客入境",
+ "line": "奈及利亞、衣索比亞、尚比亞、斯里蘭卡、斐濟與迦納的系統受影響，尚無實際攻擊報告",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T06:18:45+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "非洲",
+   "南亞",
+   "大洋洲"
+  ],
+  "country": [
+   "NG",
+   "ET",
+   "ZM",
+   "LK",
+   "FJ"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "漏洞揭露"
+  ],
+  "sector": [
+   "觀光"
+  ],
+  "org": [
+   "Dark Reading"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "電子簽證",
+   "移民系統",
+   "權限控管"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 ICSDA 整理 Dark Reading 的報導，奈及利亞、衣索比亞、尚比亞、斯里蘭卡、斐濟與迦納六國的線上簽證與移民系統存在多個漏洞，攻擊者原本有機會藉此干擾旅客入境流程，報導以「上帝模式」形容這些缺陷。原文用的是「could have」的語氣，沒有指出已有實際攻擊或邊境遭到癱瘓，也沒有說明漏洞類型、攻擊鏈、利用條件、CVE 編號或官方修補情況，受害規模亦未提供。ICSDA 將其評為高危、屬知識補充。",
+ "dive_html": "對台灣讀者直接影響不大，但前往這些國家出差或旅遊的人，遇到系統異常時保有紙本與申請證明會比較安心。這類政府對外系統常由多方廠商趕工整合，後台權限設計是最常見的弱點；技術細節公開前，風險難以評估。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "六國線上簽證與移民系統；漏洞類型、CVE 原文未提供；嚴重度高危（ICSDA）；利用狀態：未說明"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供；旅客出發前宜向官方確認簽證狀態並保存申請紀錄"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ICSDA 資安日報",
+   "title": "六國簽證系統漏洞恐擾亂入境",
+   "url": "https://www.darkreading.com/vulnerabilities-threats/god-mode-flaws-wreak-border-control-havoc",
+   "time": "2026-11-25T06:18:45+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "Dark Reading",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0029",
+ "title": "微軟推出 Microsoft 365 個人代理 Autopilot，有獨立身分、記憶與雲端電腦",
+ "line": "預覽版開放 Frontier 計畫客戶，可代用戶在 Teams、Outlook 回信排程，草稿須本人核准才送出",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:12:34+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Microsoft"
+  ],
+  "person": [
+   "Omar Shahine"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Microsoft Autopilot",
+   "Microsoft 365 Copilot",
+   "AI 代理",
+   "Microsoft IQ"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 TestingCatalog 報導，微軟開始推出 Autopilot，這是 Microsoft 365 中替個別使用者在 Teams 與 Outlook 工作的個人 AI 隊友，在 Ignite 發表，目前以預覽版開放給 Frontier 計畫中符合資格的客戶，須有 Copilot 授權、用量計費與相應的管理和資安功能。使用者替 Autopilot 取名並設定角色與目標，每個實例有自己的身分、持續記憶、工作區與遠端電腦，在雲端執行，筆電闔上仍能工作；它建立在 Microsoft IQ 上，不需手動設定即可取用郵件、會議、檔案與聊天。微軟舉例它可封鎖行事曆的交通時間、刪除部分會議場次而保留週期系列、為未回覆的 Teams 對話準備 40 份依優先順序排列的回覆草稿，草稿在使用者決定前不會送出。長期目標是全權處理出差的機票、飯店、報名、會議、追蹤與報帳。組織可透過 Microsoft Agent 365 加上治理控管。",
+ "dive_html": "給代理獨立身分與雲端電腦，代表它在企業系統裡是一個可被稽核的「帳號」，而非借用使用者權限的外掛，這是企業導入代理時最在意的治理問題。不過預覽門檻高（Copilot 授權加用量計費），短期只有大企業用得到；要看正式版定價與權限邊界設定的細緻程度。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Memia",
+   "title": "Microsoft Autopilot brings personal AI agents to Microsoft 365",
+   "url": "https://www.testingcatalog.com/microsoft-launches-autopilot-a-personal-agent-for-copilot",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "testingcatalog.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

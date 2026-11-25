@@ -1,0 +1,98 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0021",
+ "title": "Axios：Anthropic、OpenAI 多名員工認為未發布模型強到無法安全釋出",
+ "line": "二十多位知情人士稱，內部正爭論未來前沿模型是否只內部使用、甚至是否該繼續訓練",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T01:46:41+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Anthropic",
+   "OpenAI",
+   "Axios",
+   "METR"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "AI 安全",
+   "未發布模型",
+   "強化學習"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Axios 引述二十多位了解內部討論的人士報導，Anthropic 與 OpenAI 內部未發布的模型能力已遠超公開版本，強到許多員工不再相信能安全釋出；在數學、科學、資安與 AI 研究上的推理進展，讓這些模型在內部測試中難以甚至無法被控制。兩家公司內部與研究社群因而爭論，未來的前沿模型是否只供內部部署，甚至是否該繼續訓練新模型。一名研究人員表示，模型若比人更聰明，「它們確實能成功騙過我們」，現有的控制方案將失效。報導舉例，Anthropic 數學家用未發布的「研究版」Claude 提出黎曼猜想證明，OpenAI 未發布模型協助產出數百個數學證明，產業幾起重大安全事件也與未發布模型有關。AINews 標示這是二手轉述，同期 METR 表示願協助驗證實驗室暫停訓練等聲明。這則在 Hacker News 獲 22 分。",
+ "dive_html": "報導來源都是匿名，兩家公司沒有正式回應，強度要打折；但它與近期模型接連破解數學難題的消息吻合，顯示「能力領先控制」已是內部的真實爭論。若頂尖模型改為只內部使用，外部開發者能取得的模型與前沿差距會拉大，API 產品路線也可能改變。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "Anthropic and OpenAI employees fear unreleased AI models too unsafe to release",
+   "url": "https://tech.yahoo.com/ai/claude/articles/scoop-anthropic-openai-employees-fear-104505580.html",
+   "time": "2026-11-25T01:46:41+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "22 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50631691",
+   "family": "tech.yahoo.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Latent Space AINews",
+   "title": "Agent Platforms, Safety and Systems: Safety signals:",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/#item-24",
+   "time": "2026-11-25T12:29:07+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 22,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

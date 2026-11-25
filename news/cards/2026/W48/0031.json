@@ -1,0 +1,82 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0031",
+ "title": "螞蟻國際支付基礎模型 Antom 3-in-1 Transformer：上線四個月損失率降 37.88%",
+ "line": "結合序列、表格與圖三種表示的約 7B 參數模型，用於支付風險偵測",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:00:00+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "金融市場"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "金融",
+   "軟體與雲端"
+  ],
+  "org": [
+   "螞蟻國際"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Antom",
+   "支付風控",
+   "基礎模型",
+   "詐欺偵測"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "論文介紹 Antom 3-in-1 Transformer，這是整合序列、表格與圖（graph）三種表示的支付基礎模型，用於支付風險偵測。模型約有 70 億參數，每個任務路徑啟用約 17 億，主要以螞蟻國際內部支付資料預訓練，學習可重複使用的行為與關係表示。跨業務遷移實驗中，預訓練讓目標業務指標比同架構從頭訓練提升 34.5%；只用 25% 的訓練標籤，預訓練模型在不同商戶領域的平均精確度（AP）與 Recall@0.5% 就勝過用全部標籤從頭訓練的基準。在螞蟻國際十億級支付平台為期四個月的線上實驗中，模型的整體損失率比 XGB-Online 降低 37.88%。這篇在 HF 論文榜獲 97 票。",
+ "dive_html": "風控長期由梯度提升樹主導，這篇以真實線上損失率而非離線指標證明基礎模型的優勢，說服力較高；少標籤也能贏的結果，對新業務冷啟動特別有用。限制是預訓練資料是螞蟻內部私有數據，外界難以重現，其他支付業者要複製得先有同等規模的資料。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "Antom 3-in-1 Transformer: A Payment Foundation Model",
+   "url": "https://huggingface.co/papers/2611.25403",
+   "time": "2026-11-25T08:00:00+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "+97",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

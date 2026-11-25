@@ -1,0 +1,81 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0054",
+ "title": "obra/superpowers：給程式代理的可組合技能框架與軟體開發方法論",
+ "line": "先釐清需求與設計、再拆實作計畫，以子代理加紅綠 TDD 執行，支援十多種程式代理",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Prime Radiant"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Superpowers",
+   "Agent Skills",
+   "TDD",
+   "子代理開發"
+  ],
+  "form": [
+   "開源專案"
+  ]
+ },
+ "summary_html": "Superpowers 是一套給程式代理的完整開發方法論，建立在可組合的技能與一段確保代理使用它們的初始指示上。流程是：代理一看出你要開發東西，不會直接寫程式，而是先問清楚真正的目標，把規格切成短段讓你閱讀確認；設計通過後，寫出清楚到「熱心但沒品味、沒判斷力、不懂專案又討厭測試的新人」也能照做的實作計畫，強調紅綠測試驅動開發、YAGNI 與 DRY；你說開始後，以子代理驅動開發逐項執行並檢查審查，代理常能照計畫自主工作數小時。技能自動觸發，不需特別操作。支援 Claude Code（已上官方外掛市集）、Antigravity、Codex、Cursor、Devin CLI、Gemini CLI、GitHub Copilot CLI 等十多種工具，企業用戶可洽 Prime Radiant 取得商業支援。單日新增 902 顆星。",
+ "dive_html": "它的價值在於把資深工程師的工作紀律（先規格、再計畫、測試先行、審查）變成代理預設行為，解決代理「一上來就寫程式」的通病。跨十多種代理工具的支援讓團隊換工具時方法不變；代價是流程較重，小改動也會被拉進完整流程，團隊需要調整觸發條件。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GitHub Trending",
+   "title": "obra/superpowers - An agentic skills framework & software development methodology that works.",
+   "url": "https://github.com/obra/superpowers",
+   "time": null,
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "+902 stars today",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

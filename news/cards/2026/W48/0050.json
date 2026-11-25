@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0050",
+ "title": "elementalsouls/Claude-BugHunter：給 Claude Code 的漏洞獵捕與紅隊技能包",
+ "line": "84 個技能、15 個斜線指令，整理自 681 份公開揭露報告，涵蓋 24 類核心漏洞",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "資安",
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "HackerOne",
+   "Anthropic"
+  ],
+  "person": [
+   "Sachin Sharma"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Claude Code",
+   "技能包",
+   "漏洞獵捕",
+   "紅隊",
+   "Burp MCP"
+  ],
+  "form": [
+   "開源專案"
+  ]
+ },
+ "summary_html": "Claude-BugHunter 是 Sachin Sharma 為 Claude Code 技能系統打造的漏洞獵捕與外部紅隊技能包，共 84 個技能、15 個斜線指令，整理自 681 份公開揭露報告的模式（其中 433 份逐一附出處），涵蓋 24 類核心漏洞，另有企業身分與基礎設施攻擊矩陣、委案資料夾範本與 Burp MCP 整合。README 把它分成四層：方法論與紅隊紀律、取材自 HackerOne 報告的 58 個網頁應用獵捕技能、M365/Entra、Okta、vCenter、SSL-VPN 等企業平台的 CVE 串連，以及分級驗證、報告與證據保全（含個資遮蔽）。技能依使用者描述的測試主題自動載入，可用外掛或複製安裝；HackerOne API 帳密為選填，只用於讀取自己的私人計畫與報告。作者稱它在授權的紅隊與漏洞獎勵案件，以及 DVWA、OWASP Juice Shop 等練習平台上實戰過。單日新增 1,644 顆星。",
+ "dive_html": "它把資安研究員的經驗與公開報告整理成可觸發的技能，讓 Claude Code 在授權測試中更像資深獵人，也反映技能包正成為 AI 代理的「專業知識插件」主流形式。對防守方，可借鏡其 24 類漏洞清單做自家程式審查；風險在於同樣的知識降低了攻擊門檻，使用前必須確認授權範圍，技能包本身也宜先審閱再安裝。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GitHub Trending",
+   "title": "elementalsouls/Claude-BugHunter - A Claude Code skill bundle for bug hunting and external red-team work - 84 skills, 15 slash commands, 681 disclosed-report patterns curated across 24 core vulnerability classes, plus enterprise identity + infrastructure attack matrices.",
+   "url": "https://github.com/elementalsouls/Claude-BugHunter",
+   "time": null,
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "+1,644 stars today",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

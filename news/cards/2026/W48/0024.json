@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0024",
+ "title": "川普揚言對在海外蓋 AI 資料中心的美國企業課「巨額稅」",
+ "line": "川習普會後記者會首度拋出構想，細節未說明；美國各州同時加緊限制資料中心興建",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:12:34+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "全球"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "AI",
+   "總體經濟"
+  ],
+  "event": [
+   "聲明評論",
+   "政策法規"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "白宮"
+  ],
+  "person": [
+   "川普"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "AI 資料中心",
+   "海外投資",
+   "課稅"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "The Verge 報導，美國總統川普於美國時間 11 月 20 日、與中國國家主席習近平及俄羅斯總統普丁峰會後的記者會上表示，將對在美國以外興建資料中心的公司課徵「巨額稅」：「我們不會允許我們的公司在國外蓋資料中心」，並稱過去晶片等產業外移「對國家非常有破壞性」，若放任，「中國會把它們全拿走」。川普沒有說明細節，還說「我還沒跟我的人講過，但現在告訴他們」。報導指出，同時間美國多個州與城市正對新資料中心申請實施暫停令與限制，企業可能被迫轉往海外，而這項威脅意在降低外移誘因；民主黨將在數月內取得國會多數，計畫恐難落實。",
+ "dive_html": "這只是記者會上的即興構想，沒有法源與細節，實際落地機率不高；但它和同期對東南亞 AI 晶片與算力出租的管制方向一致——把 AI 算力留在美國境內。對在東南亞、日本規劃 AI 資料中心的美國雲端業者，政策風險又多一層，連帶影響當地伺服器需求。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Memia",
+   "title": "Trump Threatens ‘Tremendous Tax’ on Offshore AI Data Centres",
+   "url": "https://www.theverge.com/policy/1038892/trump-foreign-data-centers-tax",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "The Verge",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

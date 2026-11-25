@@ -1,0 +1,113 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0047",
+ "title": "CISA 將 MONAI Label、Mail Assure 漏洞列入已遭利用清單；駭客 AI 代理自主找到並利用 MONAI Label 零日",
+ "line": "Amazon 揭露 AI 代理只憑一句「取得 shell」就攻下東亞大學伺服器；聯邦機構須在 11 月 26 日前修補",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T06:18:45+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "東北亞"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "AI"
+  ],
+  "event": [
+   "漏洞揭露",
+   "資安事件"
+  ],
+  "sector": [
+   "醫療照護",
+   "軟體與雲端"
+  ],
+  "org": [
+   "CISA",
+   "Amazon",
+   "Palo Alto Networks",
+   "N-able"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "CVE-2026-133968",
+   "CVE-2026-134624",
+   "MONAI Label",
+   "Mail Assure",
+   "Cairn",
+   "KEV"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 ICSDA 整理 iThome 報導，美國 CISA 於 11 月 23 日將 CVE-2026-133968 與 CVE-2026-134624 列入已知遭利用漏洞（KEV）清單，前者影響開源醫療影像 AI 軟體 MONAI Label，後者影響 N-able 的郵件防護系統 Mail Assure（出現在 N-able 代管環境遭入侵事故中），聯邦機構須於 11 月 26 日前修補；兩個漏洞的類型、受影響版本原文未提供。MONAI Label 的漏洞來自 Amazon 揭露的事件：據 Ars Technica 報導，以簡體中文下指令、時區設為中國標準時間的駭客，只給 AI 代理一串 IP 與「取得 shell」的目標，代理就在東亞一所大學的伺服器上發現 MONAI Label 零日並利用，取得系統完全控制。這些代理跑在開源 AI 滲透測試框架 Cairn 上，Cairn 本為防守方打造、可搭配 Claude Code、Codex 等後端；Palo Alto Networks 另觀察到一波 Cairn 行動對半導體、國防與公民社會領域至少 19 個組織進行 25 次自主行動，至少 10 個被成功入侵。Amazon 表示，代理式攻擊行動已經在發生。",
+ "dive_html": "這是「AI 代理從找洞到利用全自動完成」的實際案例，攻擊時間被壓到人類防守流程跟不上的程度；被攻擊的半導體與國防領域，正是台灣產業的重點。研究單位自行架設的開源 AI 工具（如 MONAI Label）常不在資產清冊裡、沒人負責更新，最容易成為入口；組織應把 KEV 清單納入弱點管理，優先處理已遭利用的項目。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "MONAI Label（CVE-2026-133968）、N-able Mail Assure（CVE-2026-134624）；版本與 CVSS 原文未提供；高危；利用狀態：已遭利用"
+  },
+  {
+   "name": "處置",
+   "html": "依廠商與 CISA 公告盡速修補，無法立即更新時限制存取來源並隔離主機；檢查日誌與郵件規則有無異常"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ICSDA 資安日報",
+   "title": "CISA點名兩漏洞：AI代理人也來打工",
+   "url": "https://www.ithome.com.tw/news/180757",
+   "time": "2026-11-25T06:18:45+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "TLDR AI",
+   "title": "Amazon says hackers' AI agents found and exploited 0-day with little human input",
+   "url": "https://arstechnica.com/security/2026/11/amazon-says-hackers-ai-agents-found-and-exploited-0-day-with-little-human-input/",
+   "time": "2026-11-25T08:00:00+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "Ars Technica",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

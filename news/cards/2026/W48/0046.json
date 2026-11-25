@@ -1,0 +1,96 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0046",
+ "title": "伊朗關聯組織 Volant Manticore 以 IPFS 當指揮通道，鎖定賽普勒斯電信與航空業",
+ "line": "後門 KuboShell 透過星際檔案系統通訊，入侵後部署 Homa 框架，傳統封鎖網域手段難奏效",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T06:18:45+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "中東"
+  ],
+  "country": [
+   "CY",
+   "IR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "電信",
+   "運輸與物流"
+  ],
+  "org": [
+   "Volant Manticore"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Volant Manticore",
+   "KuboShell",
+   "IPFS",
+   "C2",
+   "Homa"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 ICSDA 整理 The Hacker News 報導，一個先前未被記錄、與伊朗結盟的網路間諜組織 Volant Manticore，被發現針對賽普勒斯的電信業者、航空公司與關鍵基礎設施發動攻擊。其核心工具是後門 KuboShell，利用星際檔案系統（IPFS）進行命令與控制（C2）通訊，入侵後再部署名為 Homa 的後滲透框架。原文沒有說明初始入侵途徑、利用的漏洞或 CVE，也沒有提供受害數量、具體受害者與資料遭竊範圍。ICSDA 評為中危、屬知識補充。",
+ "dive_html": "IPFS 以內容雜湊定址、不綁單一主機，讓防守方慣用的「封鎖惡意網域與 IP」失效，偵測重點得轉向異常的 P2P 流量（ICSDA 觀點）。手法一旦公開很快會被其他組織仿效，台灣電信、航空與關鍵基礎設施業者可趁早盤點哪些主機根本不該連 IPFS。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "賽普勒斯電信、航空與關鍵基礎設施；受害規模原文未提供（中危）"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供官方指引；一般做法是限制伺服器對 IPFS 閘道與 P2P 服務的出站連線，並強化端點偵測"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ICSDA 資安日報",
+   "title": "伊朗駭客用IPFS當C2，後門藏進星際檔案",
+   "url": "https://thehackernews.com/2026/11/iran-aligned-volant-manticore-uses-ipfs.html",
+   "time": "2026-11-25T06:18:45+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

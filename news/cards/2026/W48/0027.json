@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0027",
+ "title": "加州以「迫切危害公共安全」禁止 Waymo 上高速公路，Waymo 暫停全美高速路段營運",
+ "line": "起因是多輛無人計程車闖入施工區；Waymo 在 15 個城市的一般道路服務照常",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:12:34+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "交通"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "汽車",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Waymo",
+   "加州車輛管理局"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Waymo",
+   "無人計程車",
+   "自動駕駛",
+   "高速公路"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "BBC 於 11 月 18 日報導，加州車輛管理局（DMV）以「對公共安全的迫切危害」為由，自 11 月 11 日起禁止 Waymo 無人計程車行駛州內高速公路，理由是其車輛反覆闖入有工人、車輛與機具的施工區；本月在舊金山以南的 101 號公路上，就有數輛 Waymo 駛入施工區，事件未造成傷亡或碰撞。另有社群影片顯示一輛 Waymo 試圖超越刻意放慢車流的警車。禁令將持續到 Waymo 證明已採取有效改正措施。Waymo 隨後宣布暫停其他營運市場的高速公路服務以評估表現，並表示正與州政府合作恢復。Waymo 目前在美國 15 個城市營運，只在舊金山、洛杉磯、邁阿密等少數地點提供高速公路行程，一般市區道路服務不受影響。",
+ "dive_html": "監管單位以施工區這類「長尾情境」處理不佳為由喊停，說明自動駕駛的瓶頸已從平均安全數據轉向罕見情境的可靠度；Waymo 主動擴大到全美暫停，是為避免其他州跟進設限。高速公路是機場接送等高價行程的關鍵，恢復時程會影響其營收擴張。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Memia",
+   "title": "Waymo halts US freeway operations after California safety ban",
+   "url": "https://www.bbc.co.uk/news/articles/cmy86pp336qlo",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

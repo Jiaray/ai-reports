@@ -1,0 +1,81 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0056",
+ "title": "jingyaogong/minimind：約 3 元人民幣、2 小時從零訓練 6,400 萬參數的小語言模型",
+ "line": "以 PyTorch 原生實作預訓練、SFT、LoRA、DPO、PPO/GRPO 到代理強化學習的完整流程",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "教育"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "MiniMind",
+   "小語言模型",
+   "LLM 訓練教學",
+   "MoE"
+  ],
+  "form": [
+   "開源專案"
+  ]
+ },
+ "summary_html": "MiniMind 是從零訓練超小語言模型的開源專案，主線最小版本約為 GPT-3 的 1/2700，強調用一般個人 GPU 就能快速訓練與重現。README 說明「2 小時」是在單張 NVIDIA 3090 上跑完一輪 SFT 的實測時間，「3 元」是對應時段的 GPU 租用成本。專案開源完整訓練鏈路，涵蓋 MoE、資料清洗、預訓練、監督微調、LoRA、DPO、PPO／GRPO／CISPO、工具使用、代理強化學習、自適應思考與蒸餾，核心演算法都以 PyTorch 原生從零實作、不依賴高階封裝；目前主線 minimind-3（約 6,400 萬參數）與 minimind-3-moe（198M 總參數、啟用 64M）對齊 Qwen3 生態，並相容 transformers、llama.cpp、vLLM、Ollama 等工具，另有視覺、多模態、擴散語言模型與線性注意力等延伸版本。以 Apache 2.0 授權。單日新增 828 顆星。",
+ "dive_html": "它的定位是教學而非實用模型：6,400 萬參數能做的事很有限，但完整走一遍從資料到強化學習的每一行程式，對想真正理解大模型訓練的工程師很有價值，也比只用高階框架微調更能建立直覺。團隊內部做 LLM 入門訓練可直接拿來當教材。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GitHub Trending",
+   "title": "jingyaogong/minimind - 🧠 两小时从 0 训出你的 64M 大模型。Train your own 64M LLM from scratch in 2 hours.",
+   "url": "https://github.com/jingyaogong/minimind",
+   "time": null,
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "+828 stars today",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

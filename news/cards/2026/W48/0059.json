@@ -1,0 +1,82 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0059",
+ "title": "openvinotoolkit/openvino：Intel 開源 AI 推論最佳化與部署工具組",
+ "line": "支援 PyTorch、TensorFlow、ONNX 等模型，在 x86／ARM CPU、Intel GPU 與 NPU 上推論",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "其他"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "半導體"
+  ],
+  "org": [
+   "Intel"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "OpenVINO",
+   "AI 推論",
+   "NPU",
+   "模型最佳化"
+  ],
+  "form": [
+   "開源專案"
+  ]
+ },
+ "summary_html": "OpenVINO 是用來最佳化與部署深度學習模型的開源工具組，涵蓋電腦視覺、語音辨識、生成式 AI 與大小語言模型等任務。它可直接使用以 PyTorch、TensorFlow、ONNX、Keras、PaddlePaddle、JAX/Flax 訓練的模型，透過 Optimum Intel 整合 Hugging Face Hub 上的 transformers 與 diffusers 模型，轉換後不需原始框架即可部署。推論支援 x86 與 ARM 的 CPU、Intel 內建與獨立 GPU，以及 Intel NPU，從邊緣到雲端都能部署；以 pip install openvino 即可安裝，README 附有 PyTorch、TensorFlow 模型轉換與推論範例，以及 LLM 聊天機器人、YOLOv11、Whisper 等教學筆記本。程式以 C++ 為主。單日新增 188 顆星。",
+ "dive_html": "在 Nvidia 主導的推論市場，OpenVINO 是 Intel 讓自家 CPU、GPU 與 NPU 也能高效跑模型的關鍵軟體層，對要在一般筆電或邊緣設備部署 AI 的應用（不一定有獨立顯卡）特別實用。它是成熟專案而非新發布，上榜反映 AI PC 與本機推論需求升溫；限制是最佳化效益集中在 Intel 硬體。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GitHub Trending",
+   "title": "openvinotoolkit/openvino - OpenVINO™ is an open source toolkit for optimizing and deploying AI inference",
+   "url": "https://github.com/openvinotoolkit/openvino",
+   "time": null,
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "+188 stars today",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

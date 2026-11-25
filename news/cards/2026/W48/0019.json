@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0019",
+ "title": "Amazon 以 75 億美元買下 Decart 最佳化技術與團隊，為外售 Trainium 晶片鋪路",
+ "line": "Decart Optimization Stack 讓 AI 模型在 Nvidia、Amazon、Google 硬體上更有效率執行",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-24T08:00:00+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "中東"
+  ],
+  "country": [
+   "US",
+   "IL"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "AI",
+   "企業經營"
+  ],
+  "event": [
+   "併購投資"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "半導體"
+  ],
+  "org": [
+   "Amazon",
+   "Decart",
+   "Nvidia"
+  ],
+  "person": [
+   "Peter DeSantis"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Decart Optimization Stack",
+   "Trainium",
+   "AI 推論最佳化"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "TechCrunch 引述彭博報導，Amazon 以 75 億美元收購以色列新創 Decart 的大部分資產，包括 Decart Optimization Stack（DOS）的技術，以及創辦團隊與 AI 研究、工程團隊。Decart 以互動式即時世界模型（最新為 Oasis 3）與 AI 影片生成工具聞名，DOS 則是讓 AI 模型在 Nvidia、Amazon 與 Google 硬體上高效執行的軟體。Amazon 基礎 AI 模型、自研晶片與量子運算資深副總裁 Peter DeSantis 表示，更有效率的運算代表更好的訓練、強化學習、更快的推論與更低成本。Amazon 目前只在自家資料中心使用 Trainium 晶片，正準備對外銷售、與 Nvidia 競爭，TechCrunch 認為 Decart 的技術可讓客戶更容易把工作負載搬到 Amazon 晶片上。",
+ "dive_html": "自研 AI 晶片最大的障礙是軟體生態，Amazon 用 75 億美元買「讓模型在不同硬體上跑得好」的能力，是直接針對 Nvidia CUDA 優勢的布局。若 Trainium 外售成功，雲端 AI 晶片供應來源會更分散，對承接 ASIC 代工與封測的台灣供應鏈屬間接利多；要看 Trainium 對外銷售的時程與首批客戶。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "TLDR AI",
+   "title": "Amazon snaps up Decart's AI optimization tech for $7.5B as it prepares to sell Trainium chips",
+   "url": "https://techcrunch.com/2026/11/23/amazon-snaps-up-decarts-ai-optimization-tech-for-7-5b-as-it-prepares-to-sell-trainium-chips/",
+   "time": "2026-11-24T08:00:00+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "TechCrunch",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

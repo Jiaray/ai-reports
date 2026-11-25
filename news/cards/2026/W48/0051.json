@@ -1,0 +1,81 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0051",
+ "title": "firecrawl/firecrawl：把網站轉成乾淨 Markdown 給 AI 代理用的知識基礎設施",
+ "line": "新增免資料庫的單一執行檔 Firecrawl Local，可直接掛成 MCP 伺服器",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Firecrawl"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Firecrawl",
+   "網頁擷取",
+   "MCP",
+   "Markdown"
+  ],
+  "form": [
+   "開源專案"
+  ]
+ },
+ "summary_html": "Firecrawl 定位為「讓代理更聰明的知識基礎設施」，提供三種用法：Firecrawl Local 是以 Rust 打造的單一執行檔，不需資料庫、佇列或容器，就能在本機擷取、爬取與列出網站網址，把網頁轉成乾淨的 Markdown，PDF 與 Office 文件也在本機解析，需要 JavaScript 的頁面用本機已安裝的 Chrome 渲染；init 指令會找出 Claude Code、Cursor、Gemini CLI、Codex 等工具並把它加成 MCP 伺服器（先備份設定檔）；serve 指令在本機 3002 埠提供與官方 v2 相容的 API。Firecrawl Cloud 是託管服務，另有搜尋與涵蓋 550 多個資料來源的 Alexandria；也可自架完整伺服器。程式碼以 TypeScript 為主。單日新增 1,131 顆星。",
+ "dive_html": "把「網頁轉 Markdown」做成免基礎設施的本機工具，降低了代理取用網頁內容的門檻，也讓敏感網頁不必送到第三方。對做內部知識庫或 RAG 的團隊，Local 版可先取代自寫爬蟲；結構化 JSON、搜尋等進階功能仍要上雲，商業模式是開源本機版引流到雲端。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GitHub Trending",
+   "title": "firecrawl/firecrawl - Knowledge infrastructure to make your agents smarter. Search, scrape and access 550+ data providers through one API.",
+   "url": "https://github.com/firecrawl/firecrawl",
+   "time": null,
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "+1,131 stars today",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

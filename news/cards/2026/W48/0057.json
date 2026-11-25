@@ -1,0 +1,81 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0057",
+ "title": "google-labs-code/stitch-skills：搭配 Google Stitch MCP 伺服器的設計代理技能庫",
+ "line": "依 Agent Skills 開放標準，可裝進 Codex、Claude Code、Cursor、Gemini CLI 等程式代理",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Google"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Google Stitch",
+   "Agent Skills",
+   "MCP",
+   "UI 設計"
+  ],
+  "form": [
+   "開源專案"
+  ]
+ },
+ "summary_html": "stitch-skills 是 Google Labs 為 Google Stitch 提供的代理技能與外掛集合，遵循 Agent Skills 開放標準，可用於 Codex、Antigravity、Gemini CLI、Claude Code、Cursor 與 OpenCode（需手動安裝）。外掛分三組：stitch-design（設計）、stitch-build（建置與元件）、stitch-utilities（工具輔助），可透過 Codex 外掛市集、或以 npx plugins 安裝到 Claude Code 專案與 Cursor 工作區。OpenCode 因不支援同一套市集格式，需手動複製技能資料夾、把技能名稱改為小寫連字號格式，並在設定檔加入 Stitch MCP 的遠端端點。README 也提醒技能指示裡的工具名稱在不同代理間可能不同。單日新增 352 顆星。",
+ "dive_html": "大廠以 Agent Skills 開放標準發布技能，代表這個格式正在成為跨代理工具的共通介面，開發者寫一次技能就能在多家工具使用。對前端與 UI 團隊，這讓「代理呼叫設計工具產生畫面」更容易接進既有流程；README 也透露各家代理工具名稱不一致，跨平台仍需調整。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GitHub Trending",
+   "title": "google-labs-code/stitch-skills - A library of Agent Skills designed to work with the Stitch MCP server. Each skill follows the Agent Skills open standard, for compatibility with coding agents such as Antigravity, Gemini CLI, Claude Code, Cursor.",
+   "url": "https://github.com/google-labs-code/stitch-skills",
+   "time": null,
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "+352 stars today",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,77 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0032",
+ "title": "論文 RLVB：用可驗證信念強化學習，治 AI 代理「證據不足就作答」",
+ "line": "依模擬器算出的後驗獎勵何時該繼續探索、何時該作答，九種設定平均提升 17.1%",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:00:00+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "RLVB",
+   "強化學習",
+   "AI 代理",
+   "Pro Worlds"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "論文指出，處理長任務的 AI 代理常在證據不足時就提早作答（作者稱為「偷懶」），甚至在自述信念仍列出好幾個可能答案時就下結論；只看最終答案的結果獎勵無法教會代理何時該作答，因為猜對與有證據的答案得分相同。作者提出可驗證信念強化學習（RLVB）：訓練時模擬器能算出每一步答案的精確後驗，後驗仍容許多個答案時獎勵代理繼續行動，證據足夠時獎勵作答；不需評審、評論者或獎勵模型，也不讀代理寫的信念。作者另提出視覺解謎基準 Pro Worlds。在三個視覺語言模型、三個基準（兩個訓練時沒見過）上，RLVB 九種設定全部改善基礎模型，平均 17.1%；只用結果獎勵的 GRPO、PPO 平均反而低於基礎模型；RLVB 也比用 LLM 評審過程獎勵的 PPO 高 9.3%，GPU 時數少 1.6 倍。這篇在 HF 論文榜獲 86 票。",
+ "dive_html": "關鍵創新是把「何時停止蒐證」變成可驗證的獎勵，而不依賴另一個模型當評審，成本與可靠度都更好。限制在於需要能算出精確後驗的模擬環境，現實世界的開放任務多半沒有這個條件；但對遊戲、解謎、程式測試這類可模擬的場景，訓練代理時值得參考。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "Lazy Agents Answer Against Their Own Beliefs: Reinforcement Learning with Verifiable Beliefs Teaches Them to Act on What They Believe",
+   "url": "https://huggingface.co/papers/2611.32884",
+   "time": "2026-11-25T08:00:00+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "+86",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

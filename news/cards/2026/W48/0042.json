@@ -1,0 +1,95 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0042",
+ "title": "研究人員以每個 3 美元成本接管美國財政部子網域：懸空 DNS 指向 AWS 彈性 IP",
+ "line": "Intruder 反覆申請與釋放 AWS Elastic IP，比對漏刪的 DNS 紀錄，已透過漏洞獎勵回報修正",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T12:27:55+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "漏洞揭露"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Intruder",
+   "美國財政部",
+   "AWS"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "子網域接管",
+   "懸空 DNS",
+   "Elastic IP",
+   "AWS"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "資安公司 Intruder 發表研究，指出 AWS 的彈性 IP（Elastic IP，任何人都能申請的公網位址）配合常見的 DNS 錯誤——服務下線後 DNS 紀錄沒刪、仍指向已釋出的 IP——攻擊者就能搶到那個 IP，進而竊取憑證等。研究人員從公開漏洞獎勵計畫的範圍列舉子網域，記錄指向公網的 A 紀錄，再用程式在各區域反覆申請、釋放 Elastic IP 並比對清單；新帳號每區域可持有 5 個，透過 Service Quotas 可自動提高到 25 個。他們在美國財政部的網域找到真實可接管的案例，已透過漏洞獎勵計畫回報並修正，每個有效接管的成本只要約 3 美元。研究只涵蓋不到 1% 的 IP 空間，撰文時攻擊仍可行，AWS 雖有防濫用控管，但仍有缺口。這則在 Hacker News 獲 191 分。",
+ "dive_html": "這不是新手法，但研究證明在 2026 年仍便宜又可行，連聯邦機構都中招。遊戲與軟體公司常為活動頁、測試環境開大量子網域，活動結束 IP 釋放了、DNS 卻沒清，正是高風險點；被接管的子網域可拿來釣魚或竊取限定網域的 Cookie。建議把 DNS 稽核排進每次服務下線的檢查清單。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "所有 DNS 仍指向已釋出 AWS Elastic IP 的網域（非單一產品漏洞，無 CVE）；利用狀態：已有 PoC"
+  },
+  {
+   "name": "處置",
+   "html": "盤點 DNS 紀錄，刪除指向已不使用之雲端 IP 的懸空紀錄；服務下線流程應先刪 DNS 再釋放 IP"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "Taking over US Treasury subdomains for $3 each",
+   "url": "https://www.intruder.io/research/taking-over-us-treasury-subdomains-for-3-each",
+   "time": "2026-11-25T12:27:55+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "191 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50638478",
+   "family": "intruder.io",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 191,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

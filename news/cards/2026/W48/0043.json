@@ -1,0 +1,117 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0043",
+ "title": "美國財政部金融犯罪執法局 FinCEN 遭入侵，部分系統下線、延長申報期限",
+ "line": "未經授權存取「有限的部分系統」，可疑交易報告等申報截止日延至 12 月 30 日",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T09:45:35+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "金融"
+  ],
+  "org": [
+   "美國財政部",
+   "金融犯罪執法局",
+   "中央情報局"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "FinCEN",
+   "銀行保密法",
+   "可疑交易報告"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美國財政部金融犯罪執法局（FinCEN）於美國時間 11 月 24 日公布發生資安事件，造成「對其有限部分系統的未經授權存取」，已預防性地讓部分系統下線，但未說明是哪些系統、事件範圍與來源。FinCEN 負責收集銀行等金融機構依《銀行保密法》（BSA）提交的可疑交易報告並分析以打擊洗錢與恐怖融資；BSA 電子申報網站仍運作，部分服務可能暫時無法使用。依同日發布的救濟令 FIN-2026-R002，原定 11 月 18 日至 12 月 29 日到期的部分申報可延至 12 月 30 日，其餘 BSA 義務照舊，緊急可疑活動仍可透過不受影響的熱線通報。The Hacker News 指出，申報業者自 11 月 18 日起就回報批次提交失敗，FinCEN 未說明入侵是否與此有關。The Verge 提到，數小時前《紐約時報》報導中情局等情報機構的開源情報系統遭入侵，兩者是否相關不明；FT 也有報導。",
+ "dive_html": "FinCEN 存放的是全美金融機構的可疑交易報告，這類情資一旦外洩，等於洩漏執法調查方向，風險遠高於一般個資；救濟令刻意只寫「服務中斷」不提資安事件，也顯示官方對細節極為保留。加上同期情報機構系統遭入侵、多起系統當機，美國聯邦系統的防護正受到密集考驗。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "FinCEN 部分系統遭未經授權存取，受影響系統與資料原文未提供（非漏洞類）"
+  },
+  {
+   "name": "處置",
+   "html": "部分系統下線、延長申報期限至 12 月 30 日；金融機構照常履行其他申報義務"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Verge",
+   "title": "US financial crimes bureau discloses ‘cybersecurity incident’",
+   "url": "https://www.theverge.com/policy/1041957/fincen-treasury-cybersecurity-incident",
+   "time": "2026-11-25T09:45:35+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "The Verge",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "The Hacker News",
+   "title": "U.S. Treasury's Financial Crimes Agency Takes Some Systems Offline After Cyber Intrusion",
+   "url": "https://thehackernews.com/2026/11/us-treasurys-fincen-takes-some-systems.html",
+   "time": "2026-11-25T20:30:08+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "Financial Times",
+   "title": "US Treasury financial crime watchdog hit by suspected cyber attack",
+   "url": "https://www.ft.com/content/43aa7321-2a95-463c-8cb9-77fcc7e39291?syn-25a6b1a6=1",
+   "time": "2026-11-26T00:43:56+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 6,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

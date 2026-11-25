@@ -1,0 +1,96 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0020",
+ "title": "Google Gemini 4 Neon 創付費 API 首日用量紀錄，Perplexity 用量三天翻倍",
+ "line": "Neon 開放給 Workspace 客戶，第三方估算其 xhigh 設定約與 Opus Max 相當、成本較低",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:12:34+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Google",
+   "Perplexity"
+  ],
+  "person": [
+   "Sundar Pichai",
+   "Arav Srinivas"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Gemini 4 Neon",
+   "Antigravity",
+   "Artificial Analysis"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 AINews 整理，Google 執行長 Sundar Pichai 表示 Gemini 4 Neon 創下 Google 付費 API 的首日用量紀錄，Antigravity 每日 token 量自六週前 Argon 推出以來增加 82%。Neon 已透過 Gemini 應用程式開放給 Google Workspace 客戶。第三方用量方面，Perplexity 的 Neon 用量已超過 1,200 億 token，三天內日用量翻倍，週一達 360 億；Perplexity 的 Arav Srinivas 認為 Neon 的智慧在「Opus 與 Fable 之間」，回應風格最好。有估算指 Neon xhigh 約與 Opus Max 相當，每個 Artificial Analysis 任務成本 6.44 美元對 10.04 美元，AINews 標示這是個人估算。另有多名使用者反映 Neon 被批評時過度奉承、過度修正。Memia 以「以中階價格提供接近前沿的智慧」形容 Neon。",
+ "dive_html": "首日用量紀錄與 Perplexity 快速導入，顯示 Google 在前沿模型競爭中重新站穩，價格比 Anthropic 頂規低約三分之一是主要賣點。不過效能比較多來自個人估算與合作夥伴說法，奉承問題若屬實，對需要模型提出反對意見的程式審查等用途是扣分項。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Latent Space AINews",
+   "title": "Gemini 4 Neon Rollout and Frontier Model Moves: Gemini 4 Neon adoption",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/#item-7",
+   "time": "2026-11-25T12:29:07+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Memia",
+   "title": "Google’s Gemini 4 Neon Delivers Near-Frontier Intelligence at Midtier Prices",
+   "url": "https://www.testingcatalog.com/google-launches-gemini-4-neon-on-gemini-antigravity-and-apis",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "testingcatalog.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

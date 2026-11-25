@@ -1,0 +1,77 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0033",
+ "title": "論文 NightWatch：0.8B 小模型持續盯螢幕，讓電腦操作代理不再看舊畫面行動",
+ "line": "隨插即用、不改代理模型，在 OSWorld 減少 53% 浪費時間，動態網頁成功率由 39.5% 升到 44.2%",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:00:00+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "NightWatch",
+   "電腦操作代理",
+   "OSWorld",
+   "視覺語言模型"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "論文指出，以視覺語言模型打造的電腦操作代理（CUA）透過離散截圖感知環境，加上推論延遲，常在動作執行前畫面就已改變，形成「感知與動作的落差」。作者提出 NightWatch，一個隨插即用的框架，不改變代理的模型、提示或動作空間，搭配輕量的 System-1 模型 NightWatch-0.8B 串流監看介面狀態，讓代理以當下狀態而非過時截圖做決策，減少過時動作與空等。在 OSWorld-Verified 與 DynaCU-Bench 上，NightWatch 讓 OSWorld 的非推理耗時減少 33%、浪費時間減少 53%，任務成功率持平；搭配大型代理時，DynaCU-Bench 成功率由 39.5% 升至 44.2%，效率也優於 AOI、PUSV 等被動監看基準與大 30 倍以上的 System-1 決策模型。這篇在 HF 論文榜獲 83 票。",
+ "dive_html": "這篇點出電腦操作代理一個常被忽略的瓶頸：問題不只是看懂畫面，而是「什麼時候看」。用小模型持續監看、大模型負責推理的分工，對要自動操作網頁或遊戲介面的測試工具有直接參考價值；限制是只在截圖輸入下驗證，真實應用中的通知彈窗、動畫等干擾還需更多測試。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "Don't Sleep, Keep Watch: Proactive Perception for Computer-Use Agents",
+   "url": "https://huggingface.co/papers/2611.28947",
+   "time": "2026-11-25T08:00:00+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "+83",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

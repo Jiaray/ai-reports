@@ -1,0 +1,99 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0041",
+ "title": "Google 公開 Cogentic 產出的整數分解、離散對數等論文，傳實驗室已破解多項式時間分解",
+ "line": "Google Research 程式庫列出 Cogentic 11 月以來的十篇理論論文；「破解」說法僅見社群傳聞",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T21:33:07+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "AI",
+   "資安",
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Google"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Cogentic",
+   "整數分解",
+   "離散對數",
+   "密碼學"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Google Research 在 GitHub 的 cogentic_research_papers 目錄公開由 Cogentic 產出的研究論文，以 Apache 2.0 授權釋出，並註明「不是 Google 官方產品」。11 月 25 日新增的論文包括：時間複雜度 L_N[1/3, O(1)] 的無條件整數分解、固定特徵有限體上的次準多項式時間離散對數、雙矩陣賽局 1/5 近似奈許均衡的精確多項式時間演算法、無條件確定性次指數整數分解與二次非剩餘構造、突破對數秩猜想的平方根障礙，以及線性密度簡單圖的無條件邊重建；另有 11 月 23 日、18 日與 10 月 30 日的四篇賽局與學習理論論文。這則在 Hacker News 獲 266 分。同一天另一則 175 分的 HN 討論轉貼 Reddit 傳聞，稱 OpenAI 或 Anthropic 可能已找到多項式時間的整數分解方法，該貼文沒有其他來源佐證。",
+ "dive_html": "從目錄標題看，Google 公開的是次指數等級的分解與離散對數結果，與傳聞中的「多項式時間」是兩回事，不足以直接威脅 RSA；但 AI 系統批量產出這類理論成果的速度，讓密碼學界必須更認真看待後量子遷移的時程。在有正式審查前，對傳聞宜保持距離，維運面照既有後量子密碼規劃推進即可。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "Google Releases Cogentic Papers on Integer Factorization, Discrete Logs and More",
+   "url": "https://github.com/google-research/google-research/tree/master/cogentic_research_papers",
+   "time": "2026-11-25T21:33:07+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "266 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50642086",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Hacker News",
+   "title": "Rumors swirling that labs might have cracked Factoring in P",
+   "url": "https://www.reddit.com/r/singularity/comments/1y59ef1/rumor_that_openai_or_anthropic_found_a_way_to/",
+   "time": "2026-11-25T23:08:44+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "175 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50643065",
+   "family": "reddit.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 266,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

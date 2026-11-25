@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0026",
+ "title": "奧勒岡、維吉尼亞州控告 SpaceX：Grok 生成性化深偽與兒少性剝削影像",
+ "line": "兩州檢察長指控 xAI 刻意採用薄弱防護吸引用戶，違反消費者保護法",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:12:34+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "網路平台"
+  ],
+  "org": [
+   "SpaceX",
+   "xAI",
+   "X Corp.",
+   "奧勒岡州檢察長辦公室",
+   "維吉尼亞州檢察長辦公室"
+  ],
+  "person": [
+   "Elon Musk"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Grok",
+   "深偽",
+   "兒少性剝削影像",
+   "消費者保護"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "WIRED 報導，奧勒岡與維吉尼亞州檢察長分別在州法院控告 SpaceX 及其子公司 X Corp.，指控它們就生成式 AI 工具的安全性，以及防堵兒少性剝削影像（CSAM）與未經同意私密影像的決心欺騙用戶，違反消費者保護法。SpaceX 今年 2 月收購 xAI，連帶取得 Grok。兩州指控 Grok 開發方無視產業安全標準、刻意採用薄弱防護，以吸引更多人使用；例如新模型上線前第三方評估不足，安全提示要求「假設善意」，並寫明「teenage」「girl」不必然代表未成年；向美國失蹤與受剝削兒童中心通報的數萬件案例缺少關鍵資訊，約九成無法處理。訴狀也指 Musk 以 Grok 的「辣味模式」作為差異化賣點。巴爾的摩市與田納西州青少年先前也已提告。",
+ "dive_html": "州檢察長改用消費者保護法切入，而非直接追究生成內容，迴避了平台責任豁免的爭議，若成功將成為其他州對 AI 公司求償的範本。安全提示內容被寫進訴狀，也提醒 AI 產品團隊：系統提示與安全政策可能成為法庭證據。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Memia",
+   "title": "Oregon and Virginia Sue SpaceX Over Grok’s Sexualised Deepfakes",
+   "url": "https://www.wired.com/story/states-sue-spacex-over-grok-deepfakes",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "Wired",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

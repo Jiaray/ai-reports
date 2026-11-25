@@ -1,0 +1,116 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0009",
+ "title": "Anthropic 數學家 Alpöge 與 Claude 宣稱證明黎曼猜想，只釋出約 1,700 萬行 Lean 程式碼",
+ "line": "證明已有社群獨立編譯，但「還沒有人看懂」；Alpöge 澄清「25 萬頁」是玩笑",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T04:34:53+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "科學"
+  ],
+  "event": [
+   "研究發表",
+   "爭議風波"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Anthropic",
+   "Lean FRO",
+   "MIT",
+   "克雷數學研究所"
+  ],
+  "person": [
+   "Levent Alpöge",
+   "Andrew Sutherland",
+   "Daniel Litt"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "黎曼猜想",
+   "Lean",
+   "千禧年大獎難題"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 The Verge（經 Memia 摘要），在 Anthropic 任職的數學家 Levent Alpöge 於 11 月 20 日、Anthropic 掛牌隔天宣布，他與 Claude 合作證明了黎曼猜想及其廣義形式；這是 167 年的質數分布猜想、千禧年大獎難題之一。他只釋出約 1,700 萬行 Lean 程式碼而非可讀論文。一天內 Lean FRO 與 Mathlib 社群表示對證明有充分信心，MIT 的 Andrew Sutherland 也獨立編譯成功；數學家 Daniel Litt 說證明很可能正確，但「還沒有人理解它」。Alpöge 承認在 IPO 隔天發布會招來質疑，克雷研究所的兩年審查規則仍適用。據 AINews，他說流傳的「25 萬頁以上」是玩笑，只釋出程式碼是因為寫不出可讀的說明；知乎一篇分析認為他的關鍵方法源自 OpenAI 一份排除 Landau–Siegel 零點的短證明，AINews 標示這是推論。Ars Technica 指出，過程是先讓 AI 處理 Alpöge 想法的簡化版，再擴展到完整猜想。",
+ "dive_html": "Lean 讓「是否正確」可以機器驗證，但數學界在意的是「為什麼成立」能否被人理解並延伸，這正是本案的爭議核心。發布時間緊貼 IPO、作者又是 Anthropic 員工，外界對宣傳意圖的疑慮難免；接下來要看可讀說明何時出爐，以及克雷研究所的審查進度。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Memia",
+   "title": "Riemann solved? Anthropic mathematician and Claude claim proof of the Riemann…",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1010051/anthropic-riemann-hypothesis-millennium-prize-problem",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "The Verge",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Latent Space AINews",
+   "title": "Frontier Models as Research Engines: VP ≠ VNP, Protein Design and 948 Kernel Bugs: Riemann proof clarifications",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/#item-2",
+   "time": "2026-11-25T12:29:07+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Ars Technica",
+   "title": "What's going on with the Riemann hypothesis?",
+   "url": "https://arstechnica.com/ai/2026/11/whats-going-on-with-the-riemann-hypothesis/",
+   "time": "2026-11-25T04:34:53+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "184 comments",
+   "family": "Ars Technica",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

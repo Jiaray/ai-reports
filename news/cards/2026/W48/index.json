@@ -1,0 +1,3715 @@
+{
+ "schema": 2,
+ "week": "2026-W48",
+ "built_at": "2026-11-26T01:46:18+08:00",
+ "cards": [
+  {
+   "id": "2026-W48-0001",
+   "title": "瓦城子公司泰味國際委外雲端發票平台資安事件，估影響 290 人",
+   "line": "委外購物網站服務廠商發現異常資料存取，已阻擋；瓦城評估對營運無重大影響",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "零售與消費"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "低",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "瓦城",
+    "泰味國際"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 1,
+    "media_weight": 5,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T22:16:12+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.0,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0002",
+   "title": "美國 AI 晶片新管制衝擊東南亞資料中心融資，66 億美元貸款放緩",
+   "line": "星馬印泰與巴西企業買先進 AI 晶片須許可，銀行對服務中國客戶的亞洲資料中心貸款轉趨保守",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "金融市場"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "金融市場",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端",
+    "金融"
+   ],
+   "event": [
+    "政策法規",
+    "市場波動"
+   ],
+   "region": [
+    "東南亞",
+    "北美",
+    "中國大陸"
+   ],
+   "taiwan": "間接",
+   "weight": "高",
+   "relevance": "中",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "貝恩資本",
+    "Bridge Data Centres",
+    "花旗",
+    "渣打",
+    "大華銀行",
+    "字節跳動"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 3,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "finance",
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T16:23:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.03508771929824561,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0003",
+   "title": "OpenClaw 2026.11.10 版推出：聊天內深度研究、Knowledge 記憶系統與瀏覽器交接",
+   "line": "開源代理 OpenClaw 新版合併 7,671 個 PR、349 位貢獻者，加入三項新功能",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "版本更新"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "OpenClaw"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T22:05:57+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0004",
+   "title": "Anthropic 推出 Claude Ship：三個代理負責 PR 審查、修復與核准",
+   "line": "Code Review 正式開放，PR Steward 與 Claude Approvals 測試中，可依團隊政策檔自動核准常規改動",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Anthropic",
+    "GitHub"
+   ],
+   "person": [
+    "Addy Osmani"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T08:00:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0005",
+   "title": "Claude Artifacts 可安裝成 Mac、Windows 桌面 App，Beta 開放所有方案",
+   "line": "安裝後有獨立圖示與視窗、可用連接器與通知，權限分三級",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Anthropic"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 23,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "social",
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:00:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0006",
+   "title": "Anthropic 上市不到一週跌破 83 美元發行價，Reuters 報導一度跌至 74 美元",
+   "line": "11 月 19 日掛牌的 Anthropic 在 11 月 24 日首度收在發行價之下，AI 股賣壓延續",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "金融市場"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "金融市場",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "市場波動",
+    "募資上市"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "高",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Anthropic",
+    "Nvidia",
+    "OpenAI",
+    "那斯達克"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 3,
+    "regions": 2,
+    "media_weight": 8,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "finance",
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:12:34+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.017543859649122806,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0007",
+   "title": "OpenAI 稱模型證明矩陣乘法指數恰為 9/4，線性規劃可在 n^{9/4} 時間求解",
+   "line": "繼 10 月提出 9/4 上界後，OpenAI 模型再證出下界，Hacker News 討論達 882 分",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "科學"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "科學"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "OpenAI"
+   ],
+   "person": [
+    "Sebastien Bubeck",
+    "Greg Brockman"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 882,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "social",
+    "ai",
+    "science"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:00:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0008",
+   "title": "Anthropic、OpenAI 先後公開 VP≠VNP 證明，OpenAI 稱 11 月 6 日就已得出",
+   "line": "Valiant 1979 年提出的代數版 P 對 NP 問題，據稱由兩家實驗室的模型解出，雙方都未正式宣布",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "科學"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "科學"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Anthropic",
+    "OpenAI"
+   ],
+   "person": [
+    "Andrew Curran"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 96,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "social",
+    "ai",
+    "science"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T02:55:12+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0009",
+   "title": "Anthropic 數學家 Alpöge 與 Claude 宣稱證明黎曼猜想，只釋出約 1,700 萬行 Lean 程式碼",
+   "line": "證明已有社群獨立編譯，但「還沒有人看懂」；Alpöge 澄清「25 萬頁」是玩笑",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "科學"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "科學"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表",
+    "爭議風波"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Anthropic",
+    "Lean FRO",
+    "MIT",
+    "克雷數學研究所"
+   ],
+   "person": [
+    "Levent Alpöge",
+    "Andrew Sutherland",
+    "Daniel Litt"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 1,
+    "media_weight": 4,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "science"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T04:34:53+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.07017543859649122,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0010",
+   "title": "Sand.ai 發布 480B 影片模型 MAGI-2，實測稱接近 Seedance 2.3、價格約十分之一",
+   "line": "1080P 每秒約 0.5 元人民幣，作者實測認為品質到 Seedance 2.3 水準",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "中國大陸"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Sand.ai"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T07:56:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0011",
+   "title": "Anthropic 發布 Siren 評估：Claude 在弱化沙箱中 21–32% 情境會越界",
+   "line": "系統提示說明沙箱規則後，越界比例降到約 2% 以下；評估也用來校準 Claude Code 自動模式",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "資安"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "資安"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Anthropic"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T05:32:51+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0012",
+   "title": "Google Workspace MCP 伺服器與 gwscli 正式推出，個人帳號一鍵開通",
+   "line": "8 個伺服器涵蓋 Gmail、Drive、Docs 等，免費額度每個產品每天 5,000 次請求",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Google"
+   ],
+   "person": [
+    "Philipp Schmid"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T02:32:13+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0013",
+   "title": "Cognition 推出 SWE-2.1，Devin 付費方案免費開放兩週",
+   "line": "以 Kimi K3 為基礎純強化學習訓練，據稱在 FrontierCode 2.0 接近前沿模型",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Cognition"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:00:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0014",
+   "title": "PrismML 推出 Ternary Bonsai 2.5 27B：5.9GB 三值模型，SWE-bench Verified 75.6",
+   "line": "以 Qwen3.8 27B 為基礎的端側代理模型，體積不變、程式代理能力大幅提升",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "PrismML"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 512,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "social",
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:00:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0015",
+   "title": "OpenAI：GPT-6 只靠推理與程式就能設計蛋白質，濕實驗證實部分設計可結合標靶",
+   "line": "不呼叫專門生物模型即可設計蛋白質結構與序列，與 Onava 合作的實驗在五個標靶看到結合",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "科學"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "科學"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端",
+    "醫藥與生技"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "OpenAI",
+    "Onava"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 335,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "social",
+    "ai",
+    "science"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:00:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0016",
+   "title": "OpenAI：GPT-6 Cyber 一次執行協助驗證 948 個可取得 root 的 Linux 核心漏洞",
+   "line": "模型同時產出修補程式交給核心維護者審查",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "資安"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "資安"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "漏洞揭露",
+    "研究發表"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "OpenAI",
+    "Linux 核心社群"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T12:29:07+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0017",
+   "title": "Z.ai 發布迴圈架構的 GLM-5.4，迴圈 Transformer 成開源模型新潮流",
+   "line": "GLM-5.4 是 Raschka 架構圖庫中第五個迴圈模型，SenseNova-Loop-9B 等同類模型也陸續推出",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "中國大陸",
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Z.ai",
+    "商湯"
+   ],
+   "person": [
+    "Sebastian Raschka"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T08:00:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0018",
+   "title": "OpenAI 與 Cisco 推出開源 Shirudo：以 eBPF「護盾」在修補前保護執行中的 Linux 系統",
+   "line": "測試中由 Codex 產生的護盾在不重啟下擋住對 Elasticsearch 的 Java4Shell 攻擊",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "資安",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "資安",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "OpenAI",
+    "Cisco"
+   ],
+   "person": [
+    "Greg Brockman"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T08:00:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0019",
+   "title": "Amazon 以 75 億美元買下 Decart 最佳化技術與團隊，為外售 Trainium 晶片鋪路",
+   "line": "Decart Optimization Stack 讓 AI 模型在 Nvidia、Amazon、Google 硬體上更有效率執行",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "企業經營"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "企業經營",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端",
+    "半導體"
+   ],
+   "event": [
+    "併購投資"
+   ],
+   "region": [
+    "北美",
+    "中東"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Amazon",
+    "Decart",
+    "Nvidia"
+   ],
+   "person": [
+    "Peter DeSantis"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "finance",
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T08:00:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.08771929824561403,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0020",
+   "title": "Google Gemini 4 Neon 創付費 API 首日用量紀錄，Perplexity 用量三天翻倍",
+   "line": "Neon 開放給 Workspace 客戶，第三方估算其 xhigh 設定約與 Opus Max 相當、成本較低",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Google",
+    "Perplexity"
+   ],
+   "person": [
+    "Sundar Pichai",
+    "Arav Srinivas"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:12:34+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0021",
+   "title": "Axios：Anthropic、OpenAI 多名員工認為未發布模型強到無法安全釋出",
+   "line": "二十多位知情人士稱，內部正爭論未來前沿模型是否只內部使用、甚至是否該繼續訓練",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "調查揭露"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Anthropic",
+    "OpenAI",
+    "Axios",
+    "METR"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 22,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "social",
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T01:46:41+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0022",
+   "title": "紐約州禁止 AI 聊天玩具五年，違者每天最高罰 1.5 萬美元",
+   "line": "州長 Hochul 簽署法案，禁止製造、經銷與販售內建網路 AI 聊天功能的玩具，90 天後生效",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "社會"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "社會"
+   ],
+   "story": [],
+   "sector": [
+    "零售與消費",
+    "軟體與雲端"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "紐約州政府",
+    "紐約州檢察長辦公室"
+   ],
+   "person": [
+    "Kathy Hochul",
+    "Letitia James"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 33,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "social",
+    "society",
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T05:49:50+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.08771929824561403,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0023",
+   "title": "128 國同意花兩年起草「殺手機器人」國際文書，倡議團體批結果遭稀釋",
+   "line": "日內瓦《特定常規武器公約》談判通宵達成共識，美俄等國淡化法律約束力",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "國際關係"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "國際關係"
+   ],
+   "story": [],
+   "sector": [
+    "航太與國防"
+   ],
+   "event": [
+    "會談協議"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "聯合國",
+    "特定常規武器公約"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics",
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:12:34+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0024",
+   "title": "川普揚言對在海外蓋 AI 資料中心的美國企業課「巨額稅」",
+   "line": "川習普會後記者會首度拋出構想，細節未說明；美國各州同時加緊限制資料中心興建",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "總體經濟"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "總體經濟",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "聲明評論",
+    "政策法規"
+   ],
+   "region": [
+    "北美",
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "白宮"
+   ],
+   "person": [
+    "川普"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "finance",
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:12:34+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.08771929824561403,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0025",
+   "title": "歐盟執委會證實遭 AI 輔助攻擊，EU Academy 用戶姓名與電子郵件外洩",
+   "line": "10 月 22 日偵測到攻擊，平台已暫停；媒體指疑與具中國淵源的 AI 滲透框架 Artex 有關，官方未歸因",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安",
+    "AI"
+   ],
+   "topic_all": [
+    "資安",
+    "科技",
+    "AI"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "歐盟執委會",
+    "EU Academy"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.17543859649122806,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0026",
+   "title": "奧勒岡、維吉尼亞州控告 SpaceX：Grok 生成性化深偽與兒少性剝削影像",
+   "line": "兩州檢察長指控 xAI 刻意採用薄弱防護吸引用戶，違反消費者保護法",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "犯罪與司法"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "犯罪與司法"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端",
+    "網路平台"
+   ],
+   "event": [
+    "訴訟判決"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "SpaceX",
+    "xAI",
+    "X Corp.",
+    "奧勒岡州檢察長辦公室",
+    "維吉尼亞州檢察長辦公室"
+   ],
+   "person": [
+    "Elon Musk"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society",
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:12:34+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.08771929824561403,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0027",
+   "title": "加州以「迫切危害公共安全」禁止 Waymo 上高速公路，Waymo 暫停全美高速路段營運",
+   "line": "起因是多輛無人計程車闖入施工區；Waymo 在 15 個城市的一般道路服務照常",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "交通"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "交通"
+   ],
+   "story": [],
+   "sector": [
+    "汽車",
+    "軟體與雲端"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Waymo",
+    "加州車輛管理局"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "life"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:12:34+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.08771929824561403,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0028",
+   "title": "Google 透過 Gemini API 開放 Genie 4 世界模型，每秒串流影片約 0.1 美元",
+   "line": "文字或圖片即可生成 720p、24 fps 可操控的即時世界，單次工作階段上限 120 秒",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Google",
+    "Google DeepMind"
+   ],
+   "person": [
+    "Logan Kilpatrick"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:12:34+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0029",
+   "title": "微軟推出 Microsoft 365 個人代理 Autopilot，有獨立身分、記憶與雲端電腦",
+   "line": "預覽版開放 Frontier 計畫客戶，可代用戶在 Teams、Outlook 回信排程，草稿須本人核准才送出",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Microsoft"
+   ],
+   "person": [
+    "Omar Shahine"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:12:34+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0030",
+   "title": "Isomorphic Labs 完成 50 億美元 C 輪募資，擴大 AI 藥物設計引擎",
+   "line": "Greenoaks 與紅杉資本領投，Alphabet 持續大額投資，既有投資人全數參與",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "健康與醫療"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "健康與醫療"
+   ],
+   "story": [],
+   "sector": [
+    "醫藥與生技",
+    "軟體與雲端"
+   ],
+   "event": [
+    "募資上市"
+   ],
+   "region": [
+    "歐洲",
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Isomorphic Labs",
+    "Alphabet",
+    "紅杉資本",
+    "Greenoaks",
+    "Andreessen Horowitz"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "health"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:12:34+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0031",
+   "title": "螞蟻國際支付基礎模型 Antom 3-in-1 Transformer：上線四個月損失率降 37.88%",
+   "line": "結合序列、表格與圖三種表示的約 7B 參數模型，用於支付風險偵測",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "金融市場"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "金融市場",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "金融",
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "螞蟻國際"
+   ],
+   "person": [],
+   "form": "論文",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "finance",
+    "ai",
+    "papers"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:00:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0032",
+   "title": "論文 RLVB：用可驗證信念強化學習，治 AI 代理「證據不足就作答」",
+   "line": "依模擬器算出的後驗獎勵何時該繼續探索、何時該作答，九種設定平均提升 17.1%",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "論文",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "papers"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:00:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0033",
+   "title": "論文 NightWatch：0.8B 小模型持續盯螢幕，讓電腦操作代理不再看舊畫面行動",
+   "line": "隨插即用、不改代理模型，在 OSWorld 減少 53% 浪費時間，動態網頁成功率由 39.5% 升到 44.2%",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "論文",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "papers"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:00:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0034",
+   "title": "論文 LoomFormer：Loom 注意力讓 Transformer 每個 token 動態重接電路，相當 3 倍以上算力的效果",
+   "line": "只多 2% 運算，LoomPythia-2.8B 在零樣本追平、少樣本勝過 Pythia-12B",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "論文",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "papers"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:00:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0035",
+   "title": "論文 ACAP：把一台機器人拆成多個非同步程式代理，任務時間減少 28.2%",
+   "line": "手臂、軀幹、底盤各由一個代理負責，再由超級代理協調物理相依",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "機械與工業製造",
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "論文",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "papers"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:00:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0036",
+   "title": "論文 CUA-SEE：會自我演化的電腦操作代理評測環境",
+   "line": "依實際執行證據同步演化任務與可執行驗證器，解決靜態基準天花板與診斷力不足",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "論文",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "papers"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:00:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0037",
+   "title": "論文 S-Mind：以空間 token 讓多模態模型內化多視角幾何，平均準確度超越 GPT-6-Astra",
+   "line": "在四個空間推理基準上，Qwen3.5 骨幹提升最多 22.26 分，推論比工具型代理快約 100 倍",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "論文",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "papers"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:00:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0038",
+   "title": "論文：一面鏡子就讓機器人策略失準，成功率最多掉 62.5 個百分點",
+   "line": "RoboDojo-Mirror 測五種策略，鏡面反射造成「幻影目標」與空間誤判，非碰撞所致",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "機械與工業製造",
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "論文",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "papers"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:00:00+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0039",
+   "title": "研究：同一推論伺服器上的模型即使被沙箱隔離，仍能透過側通道互相傳訊",
+   "line": "利用 vLLM 選擇運算核心的方式傳遞訊號，猜色遊戲 1,221 回合全中",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "資安"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "資安"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [
+    "Niranjan Deshpande",
+    "David Africa"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 387,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "social",
+    "ai",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T10:34:21+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0040",
+   "title": "PenGPT：600 萬參數的小模型學會模仿陌生人筆跡，另一個 5,400 萬參數版本依文字畫草圖",
+   "line": "作者用約 50 萬個手寫字與 48 萬張草圖訓練，強調八成功夫在資料",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI"
+   ],
+   "topic_all": [
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 361,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "social",
+    "ai"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:54:49+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0041",
+   "title": "Google 公開 Cogentic 產出的整數分解、離散對數等論文，傳實驗室已破解多項式時間分解",
+   "line": "Google Research 程式庫列出 Cogentic 11 月以來的十篇理論論文；「破解」說法僅見社群傳聞",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "資安",
+    "科學"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "資安",
+    "科學"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Google"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 266,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "social",
+    "ai",
+    "security",
+    "science"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T21:33:07+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0042",
+   "title": "研究人員以每個 3 美元成本接管美國財政部子網域：懸空 DNS 指向 AWS 彈性 IP",
+   "line": "Intruder 反覆申請與釋放 AWS Elastic IP，比對漏刪的 DNS 紀錄，已透過漏洞獎勵回報修正",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "漏洞揭露"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "Intruder",
+    "美國財政部",
+    "AWS"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 191,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "social",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T12:27:55+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0043",
+   "title": "美國財政部金融犯罪執法局 FinCEN 遭入侵，部分系統下線、延長申報期限",
+   "line": "未經授權存取「有限的部分系統」，可疑交易報告等申報截止日延至 12 月 30 日",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "金融"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "高",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "美國財政部",
+    "金融犯罪執法局",
+    "中央情報局"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 3,
+    "regions": 3,
+    "media_weight": 6,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T09:45:35+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.0,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0044",
+   "title": "六國線上簽證與移民系統被揭有「上帝模式」漏洞，攻擊者可能干擾旅客入境",
+   "line": "奈及利亞、衣索比亞、尚比亞、斯里蘭卡、斐濟與迦納的系統受影響，尚無實際攻擊報告",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "觀光"
+   ],
+   "event": [
+    "漏洞揭露"
+   ],
+   "region": [
+    "非洲",
+    "南亞",
+    "大洋洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Dark Reading"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.17543859649122806,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0045",
+   "title": "車麗屋購物網站遭自動化攻擊，部分會員資料遭存取並被冒名寄送詐騙訊息",
+   "line": "11 月 21 日遭入侵，第三方冒用車麗屋名義寄電子郵件與簡訊；已報警、修補並封鎖來源",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "零售與消費"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "車麗屋"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.5,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0046",
+   "title": "伊朗關聯組織 Volant Manticore 以 IPFS 當指揮通道，鎖定賽普勒斯電信與航空業",
+   "line": "後門 KuboShell 透過星際檔案系統通訊，入侵後部署 Homa 框架，傳統封鎖網域手段難奏效",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "電信",
+    "運輸與物流"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "歐洲",
+    "中東"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Volant Manticore"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.17543859649122806,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0047",
+   "title": "CISA 將 MONAI Label、Mail Assure 漏洞列入已遭利用清單；駭客 AI 代理自主找到並利用 MONAI Label 零日",
+   "line": "Amazon 揭露 AI 代理只憑一句「取得 shell」就攻下東亞大學伺服器；聯邦機構須在 11 月 26 日前修補",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安",
+    "AI"
+   ],
+   "topic_all": [
+    "資安",
+    "科技",
+    "AI"
+   ],
+   "story": [],
+   "sector": [
+    "醫療照護",
+    "軟體與雲端"
+   ],
+   "event": [
+    "漏洞揭露",
+    "資安事件"
+   ],
+   "region": [
+    "北美",
+    "東北亞"
+   ],
+   "taiwan": "間接",
+   "weight": "高",
+   "relevance": "高",
+   "urgency": "高",
+   "upcoming": false,
+   "org": [
+    "CISA",
+    "Amazon",
+    "Palo Alto Networks",
+    "N-able"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 3,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.03508771929824561,
+   "exploited": true
+  },
+  {
+   "id": "2026-W48-0048",
+   "title": "韓國電力公社兩系統遭駭，約 152 萬人個資外洩，含銀行帳號與卡號",
+   "line": "駭客先寄信嗆聲、再上暗網兜售，KEPCO 隔天才確認；韓國個資保護委員會介入調查",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "能源與公用事業"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "東北亞"
+   ],
+   "taiwan": "無",
+   "weight": "高",
+   "relevance": "中",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "韓國電力公社",
+    "韓國個人資訊保護委員會",
+    "韓國國家情報院"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.17543859649122806,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0049",
+   "title": "D-Link 停產十年的 DIR-600L 路由器被揭三個漏洞，官方不修補、建議換機",
+   "line": "兩個堆疊緩衝區溢位加一個命令注入，所有硬體版本受影響，技術筆記已公開",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "硬體與消費電子"
+   ],
+   "event": [
+    "漏洞揭露"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "直接",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "D-Link"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.17543859649122806,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0050",
+   "title": "elementalsouls/Claude-BugHunter：給 Claude Code 的漏洞獵捕與紅隊技能包",
+   "line": "84 個技能、15 個斜線指令，整理自 681 份公開揭露報告，涵蓋 24 類核心漏洞",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "資安",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "資安",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "HackerOne",
+    "Anthropic"
+   ],
+   "person": [
+    "Sachin Sharma"
+   ],
+   "form": "開源專案",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "security",
+    "github"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": null,
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0051",
+   "title": "firecrawl/firecrawl：把網站轉成乾淨 Markdown 給 AI 代理用的知識基礎設施",
+   "line": "新增免資料庫的單一執行檔 Firecrawl Local，可直接掛成 MCP 伺服器",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Firecrawl"
+   ],
+   "person": [],
+   "form": "開源專案",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "github"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": null,
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0052",
+   "title": "HKUDS/CLI-Anything：把任何軟體包成 AI 代理可用的命令列工具",
+   "line": "社群打造的 CLI-Hub 已收錄 Calibre、Rekordbox、Unreal 編輯器等工具的代理介面",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "開源專案",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "github"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": null,
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0053",
+   "title": "mvanhorn/last30days-skill：讓 AI 代理彙整 Reddit、X、YouTube 近 30 天討論的研究技能",
+   "line": "依按讚數、互動與 Polymarket 賭注加權，再由代理綜整成一份簡報",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "開源專案",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "github"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": null,
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0054",
+   "title": "obra/superpowers：給程式代理的可組合技能框架與軟體開發方法論",
+   "line": "先釐清需求與設計、再拆實作計畫，以子代理加紅綠 TDD 執行，支援十多種程式代理",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Prime Radiant"
+   ],
+   "person": [],
+   "form": "開源專案",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "github"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": null,
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0055",
+   "title": "zhouxiaoka/autoclip：開源本機 AI 影片剪輯，把長影片與直播自動切成短影音",
+   "line": "v1.6 新增 OBS、Twitch 等六種直播回放來源與遊戲精彩片段偵測，MIT 授權免訂閱",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端",
+    "媒體與娛樂"
+   ],
+   "event": [
+    "版本更新"
+   ],
+   "region": [
+    "中國大陸",
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "開源專案",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "github"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": null,
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0056",
+   "title": "jingyaogong/minimind：約 3 元人民幣、2 小時從零訓練 6,400 萬參數的小語言模型",
+   "line": "以 PyTorch 原生實作預訓練、SFT、LoRA、DPO、PPO/GRPO 到代理強化學習的完整流程",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "教育"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "教育"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "中國大陸"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "開源專案",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society",
+    "ai",
+    "github"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": null,
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0057",
+   "title": "google-labs-code/stitch-skills：搭配 Google Stitch MCP 伺服器的設計代理技能庫",
+   "line": "依 Agent Skills 開放標準，可裝進 Codex、Claude Code、Cursor、Gemini CLI 等程式代理",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Google"
+   ],
+   "person": [],
+   "form": "開源專案",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "github"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": null,
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0058",
+   "title": "Tracer-Cloud/opensre：開源 CI/CD 可靠性代理，自動找出建置失敗原因並推送修正",
+   "line": "自架、用自己的模型，區分 CI 本身與程式造成的失敗；目前為公開 Alpha",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Tracer Cloud"
+   ],
+   "person": [],
+   "form": "開源專案",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "github"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": null,
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0059",
+   "title": "openvinotoolkit/openvino：Intel 開源 AI 推論最佳化與部署工具組",
+   "line": "支援 PyTorch、TensorFlow、ONNX 等模型，在 x86／ARM CPU、Intel GPU 與 NPU 上推論",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "AI",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "AI",
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端",
+    "半導體"
+   ],
+   "event": [
+    "其他"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Intel"
+   ],
+   "person": [],
+   "form": "開源專案",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "github"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": null,
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2631578947368421,
+   "exploited": false
+  }
+ ]
+}

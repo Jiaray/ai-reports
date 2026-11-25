@@ -1,0 +1,81 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0003",
+ "title": "OpenClaw 2026.11.10 版推出：聊天內深度研究、Knowledge 記憶系統與瀏覽器交接",
+ "line": "開源代理 OpenClaw 新版合併 7,671 個 PR、349 位貢獻者，加入三項新功能",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T22:05:57+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "版本更新"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "OpenClaw"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "OpenClaw",
+   "Deep Research",
+   "Knowledge",
+   "Browser handoff"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "OpenClaw 官方帳號於台北時間 11 月 25 日在 X 宣布 2026.11.10 版發布，新增三項功能：在聊天中直接進行的 Deep Research（深度研究）、全新的記憶系統 Knowledge，以及 Browser handoff（瀏覽器交接）。官方表示這一版包含 7,671 個 PR、349 位貢獻者參與，完整說明公布在官方文件的版本說明頁。原文只列出功能名稱，沒有交代各功能的運作方式與升級注意事項。",
+ "dive_html": "記憶系統與瀏覽器交接都是代理從單次對話走向長期任務的關鍵能力；單一版本合併七千多個 PR，迭代速度很快，已在用的團隊升級前宜先讀完整版本說明確認相容性。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AIHOT",
+   "title": "OpenClaw 2026.11.10 发布，新增 Deep Research、Knowledge 记忆系统与 Browser handoff",
+   "url": "https://aihot.news/items/vz3bvc1o7zuki3x2zw8lnnv78",
+   "time": "2026-11-25T22:05:57+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

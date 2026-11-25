@@ -1,0 +1,89 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0018",
+ "title": "OpenAI 與 Cisco 推出開源 Shirudo：以 eBPF「護盾」在修補前保護執行中的 Linux 系統",
+ "line": "測試中由 Codex 產生的護盾在不重啟下擋住對 Elasticsearch 的 Java4Shell 攻擊",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-24T08:00:00+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "資安",
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "OpenAI",
+   "Cisco"
+  ],
+  "person": [
+   "Greg Brockman"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Shirudo",
+   "eBPF",
+   "Java4Shell",
+   "虛擬修補"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "OpenAI 與 Cisco 於 11 月 23 日推出開源執行環境 Shirudo（日文「盾」），協助團隊在修補程式上線前保護執行中的 Linux 系統。它以 eBPF 在作業系統特定位置執行小程式，觀察可疑活動並套用針對性的防護「護盾」：可封鎖有漏洞的程式路徑而不必重啟服務，部署前可先觀察護盾對應用程式的影響；代理可協助調查漏洞、產生護盾並驗證效果，但部署由資安團隊決定；護盾經加密簽章與驗證後才載入。在受控測試中，Codex 產生的護盾在不重啟的情況下擋下對執行中 Elasticsearch 服務的 Java4Shell 攻擊。OpenAI 總裁 Greg Brockman 表示，找到漏洞不代表隔天就能修補所有系統，開源讓各團隊不必從零開始。",
+ "dive_html": "這是把「虛擬修補」做成開源、可由 AI 代理產生的工具，正好對應 AI 大量找出漏洞後修補追不上的落差。對無法隨時重啟的線上服務（含遊戲伺服器）是有用的緩衝手段，但 eBPF 護盾誤擋正常請求的風險要靠充分觀察期把關；目前仍是邀請社群共同開發的階段，生產環境導入宜再觀望。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "TLDR AI",
+   "title": "OpenAI and Cisco introduce Shirudo",
+   "url": "https://openai.com/index/introducing-shirudo/",
+   "time": "2026-11-24T08:00:00+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "openai.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

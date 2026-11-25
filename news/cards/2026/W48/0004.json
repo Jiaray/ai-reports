@@ -1,0 +1,113 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0004",
+ "title": "Anthropic 推出 Claude Ship：三個代理負責 PR 審查、修復與核准",
+ "line": "Code Review 正式開放，PR Steward 與 Claude Approvals 測試中，可依團隊政策檔自動核准常規改動",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-24T08:00:00+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Anthropic",
+   "GitHub"
+  ],
+  "person": [
+   "Addy Osmani"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Claude Ship",
+   "Claude Code",
+   "Code Review",
+   "PR Steward",
+   "Claude Approvals"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Anthropic 推出 Claude Ship，由三個代理處理拉取請求（PR）開出後的工作：Code Review 從多個角度對照程式庫審查 PR，以對抗方式驗證發現後發布到 PR，已正式開放；PR Steward（測試版）在 CI 失敗、合併衝突或收到審查意見時介入，讓 PR 保持通過，但不負責核准或合併，每次推送都留言說明改了什麼、如何撤銷；Claude Approvals（測試版）依團隊寫成程式庫檔案的核准政策，允許時自行核准常規改動，必要時要求人工簽核。Claude Code 團隊的 Addy Osmani 撰文說明用法：推送前可用 /code-review 審查自己的分支，effort 從 low 到 max，ultra 在雲端執行、可能另外計費；/ship 會提交待處理改動（等同 git add -A）、建立 PR、審查並關注最多七天。/ship 不會提交檔名像金鑰的檔案或 CLAUDE.md 等規則檔，在公開程式庫也不代為提交。TechCrunch、The Verge 也報導了這項發布。",
+ "dive_html": "把 PR 開出後的瑣事交給代理，主要價值是減少脈絡切換；但 /ship 預設等同 git add -A，容易把不該提交的檔案帶進去，原文也提醒先看 git status。Claude Approvals 讓模型在政策允許下核准合併，等於把 CODEOWNERS 的判斷交給代理，團隊導入前要先定好哪些路徑絕不能自動核准。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "TLDR AI",
+   "title": "Claude Ship",
+   "url": "https://code.claude.com/docs/en/claude-ship",
+   "time": "2026-11-24T08:00:00+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "code.claude.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "AIHOT",
+   "title": "Claude Code 团队发布实用指南讲解 Claude Ship 的 PR 审查与守护用法",
+   "url": "https://aihot.news/items/uyodjb16jngloilypsm1d3q0d",
+   "time": "2026-11-25T15:30:08+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Memia",
+   "title": "Anthropic launches Claude Ship to review, fix and approve PRs",
+   "url": "https://www.testingcatalog.com/anthropic-launches-claude-ship-to-review-and-approve-prs",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "testingcatalog.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

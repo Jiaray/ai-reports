@@ -1,0 +1,81 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0058",
+ "title": "Tracer-Cloud/opensre：開源 CI/CD 可靠性代理，自動找出建置失敗原因並推送修正",
+ "line": "自架、用自己的模型，區分 CI 本身與程式造成的失敗；目前為公開 Alpha",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Tracer Cloud"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "OpenSRE",
+   "CI/CD",
+   "AI 代理",
+   "SRE"
+  ],
+  "form": [
+   "開源專案"
+  ]
+ },
+ "summary_html": "OpenSRE 是開源的 CI/CD 可靠性代理，以命令列執行：讀取失敗的 CI 紀錄、追查原因並推送修正供人審查，可自架並使用自己的模型。README 指出，CI 只告訴你失敗了、不說原因，團隊在時程壓力下常直接重跑，不穩定的檢查越積越多、主幹長期紅燈。OpenSRE 主打四點：建置一失敗就開始調查、區分 CI 造成與程式造成的失敗、統計失敗率與因不穩定 CI 損失的工時、讓每位工程師都有資深等級的分析。除 CI/CD 外，也能串接 EKS、Kubernetes、Grafana、Datadog、Slack、GitHub 等，調查正式環境事故。專案以 Python 撰寫，目前為公開 Alpha，核心流程可試用但尚未穩定，API 與整合可能變動。單日新增 343 顆星。",
+ "dive_html": "隨著 AI 寫的程式變多，修建置的人力反而成為瓶頸，這類代理正好接手最繁瑣的紅燈調查；能自架與自選模型，對不願把建置紀錄送上第三方的團隊是賣點。Alpha 階段不宜讓它直接推到主幹，先用在「產出診斷與修正建議」較安全。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GitHub Trending",
+   "title": "Tracer-Cloud/opensre - The open-source agent for CI/CD reliability.",
+   "url": "https://github.com/Tracer-Cloud/opensre",
+   "time": null,
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "+343 stars today",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

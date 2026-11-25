@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0030",
+ "title": "Isomorphic Labs 完成 50 億美元 C 輪募資，擴大 AI 藥物設計引擎",
+ "line": "Greenoaks 與紅杉資本領投，Alphabet 持續大額投資，既有投資人全數參與",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:12:34+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "北美"
+  ],
+  "country": [
+   "GB",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "健康與醫療"
+  ],
+  "event": [
+   "募資上市"
+  ],
+  "sector": [
+   "醫藥與生技",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Isomorphic Labs",
+   "Alphabet",
+   "紅杉資本",
+   "Greenoaks",
+   "Andreessen Horowitz"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "AI 藥物開發",
+   "IsoDDE",
+   "C 輪募資"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Isomorphic Labs 於 11 月 17 日宣布完成 50 億美元 C 輪募資，由 Greenoaks 與紅杉資本共同領投，Andreessen Horowitz（a16z）等新投資人加入，Alphabet 持續大額投資；Thrive Capital、MGX、GV、CapitalG、淡馬錫與英國主權 AI 基金等既有投資人全數參與。公司專注以 AI 設計與開發新藥，資金將用於擴大自有的藥物設計引擎 IsoDDE，以及以 AI 設計的候選療法管線。官方公告沒有揭露估值與具體的臨床進度。",
+ "dive_html": "50 億美元是 AI 製藥領域罕見的單輪規模，顯示資本押注「AI 設計藥物」能跨過臨床驗證這一關；但公告沒有任何候選藥物進入臨床的資訊，真正的檢驗仍是第一個 AI 設計藥物的人體試驗結果。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Memia",
+   "title": "Isomorphic Labs raises $5 billion for AI drug discovery",
+   "url": "https://www.isomorphiclabs.com/articles/isomorphic-labs-announces-series-c-investment-round",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "isomorphiclabs.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

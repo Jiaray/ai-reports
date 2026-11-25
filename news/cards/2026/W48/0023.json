@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0023",
+ "title": "128 國同意花兩年起草「殺手機器人」國際文書，倡議團體批結果遭稀釋",
+ "line": "日內瓦《特定常規武器公約》談判通宵達成共識，美俄等國淡化法律約束力",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:12:34+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "country": [
+   "US",
+   "RU"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "國際關係"
+  ],
+  "event": [
+   "會談協議"
+  ],
+  "sector": [
+   "航太與國防"
+  ],
+  "org": [
+   "聯合國",
+   "特定常規武器公約"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "致命自主武器",
+   "LAWS",
+   "殺手機器人"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Memia 摘要 TechXplore 的報導，《聯合國特定常規武器公約》128 個締約國在日內瓦談判五天、直到凌晨近 4 時 45 分，同意在未來兩年起草一份關於致命自主武器系統（LAWS，不需人類介入即可選擇並攻擊目標的機器）的國際文書。倡議團體批評結果「被稀釋」：超過 95 國支持具法律約束力的條約，但美國、俄羅斯等少數擁有相關技術的國家淡化了授權，最終文件的法律地位仍不明確。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Memia",
+   "title": "LAWS and Disorder: Countries launch two-year path toward ‘killer robots’ pact",
+   "url": "https://techxplore.com/news/2026-11-killer-robots-clock.html",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "techxplore.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

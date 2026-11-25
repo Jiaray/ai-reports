@@ -1,0 +1,100 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0007",
+ "title": "OpenAI 稱模型證明矩陣乘法指數恰為 9/4，線性規劃可在 n^{9/4} 時間求解",
+ "line": "繼 10 月提出 9/4 上界後，OpenAI 模型再證出下界，Hacker News 討論達 882 分",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T08:00:00+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "OpenAI"
+  ],
+  "person": [
+   "Sebastien Bubeck",
+   "Greg Brockman"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "矩陣乘法指數",
+   "9/4",
+   "線性規劃"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "OpenAI 研究員 Sebastien Bubeck 在 X 表示，OpenAI 在 10 月 6 日的發布中給出矩陣乘法指數的新上界 9/4，此後模型持續研究下界——此前下界完全沒有已知結果——並宣布 9/4 是緊的，也就是指數恰為 9/4。Bubeck 說這是他「從沒想過這輩子能見到的結果」，並指出依 Yin Tat Lee 等人的既有結果，這也代表線性規劃可在 n^{9/4} 時間內求解；Greg Brockman 轉發了這則消息。OpenAI 在 GitHub 公開的預印本《The matrix multiplication exponent is nine fourths》摘要寫明，方陣乘法的指數在每個體上都是 9/4，更小的指數會讓張量網路壓縮到違反「檢驗多個獨立清單中元素是否互異」的下界。這則在 Hacker News 獲得 882 分。",
+ "dive_html": "上下界同時到位，代表一個數十年的核心問題被模型完整收尾，指標意義比單純改進上界更大。但目前說法來自 OpenAI 自家研究員與預印本，還沒有外部數學家的審查回應；預印本標示需約 6 小時閱讀，接下來要看理論計算機科學社群的檢驗結果。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AIHOT",
+   "title": "矩阵乘法指数被证明精确为 9/4",
+   "url": "https://aihot.news/items/pdtslys0302mclldlo6l1dlr9",
+   "time": "2026-11-25T10:35:38+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Hacker News",
+   "title": "The matrix multiplication exponent is nine fourths (6 hour read)",
+   "url": "https://github.com/openai/math/blob/main/preprints/The-matrix-multiplication-exponent-is-nine-fourths-November-24-2026/paper.pdf",
+   "time": "2026-11-25T08:00:00+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "882 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50637220",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 882,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

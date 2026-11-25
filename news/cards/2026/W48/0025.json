@@ -1,0 +1,103 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0025",
+ "title": "歐盟執委會證實遭 AI 輔助攻擊，EU Academy 用戶姓名與電子郵件外洩",
+ "line": "10 月 22 日偵測到攻擊，平台已暫停；媒體指疑與具中國淵源的 AI 滲透框架 Artex 有關，官方未歸因",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-25T06:18:45+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安",
+   "AI"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "歐盟執委會",
+   "EU Academy"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "AI 輔助攻擊",
+   "Artex",
+   "EU Academy",
+   "個資外洩"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 ICSDA 整理 SecurityWeek 的報導，歐盟執委會證實，10 月 22 日偵測到的 AI 輔助網路攻擊已造成個資外洩：線上學習平台 EU Academy 的使用者姓名與電子郵件遭取得，平台已暫停存取並通報歐洲資料保護監督機關，外洩規模仍在調查。執委會證實攻擊使用了 AI，但未公開工具名稱；Euronews 報導疑似中國關聯，部分依據是攻擊者廣泛使用、具中國淵源的 AI 滲透測試框架 Artex，官方表示要等調查結束才歸因。執委會上週曾說沒有證據顯示員工個資受影響；它沒有逐一通知用戶，只在網站發布一般性訊息。被問到事件是否結束時發言人拒絕評論，Euronews 則稱尚未完全控制。Politico、The Record 也有報導。原文沒有提供漏洞、CVE 或入侵途徑。",
+ "dive_html": "姓名加電子郵件看似不敏感，但收件人對「歐盟課程通知」毫無戒心，正好拿來做精準釣魚（ICSDA 觀點也這麼認為）。更值得注意的是 AI 滲透框架已被用來攻擊政府機關，且官方與媒體對事件是否已控制說法不一；對台灣的政府與教育平台，外部會員資料同樣是攻擊目標，盤點與最小化保存欄位是最實際的防線。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "EU Academy 使用者的姓名與電子郵件，人數原文未提供（ICSDA 評為中危）"
+  },
+  {
+   "name": "處置",
+   "html": "平台已暫停存取並通報監督機關；使用者應提防冒用歐盟或課程名義的釣魚信，並啟用多因素驗證"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ICSDA 資安日報",
+   "title": "歐盟executive遭AI駭，學習平台個資外洩",
+   "url": "https://www.securityweek.com/european-commission-uncovers-data-breach-in-cyberattack-investigation/",
+   "time": "2026-11-25T06:18:45+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "SecurityWeek",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "Memia",
+   "title": "AI-powered hacking tool ARTEX breaches the European Commission",
+   "url": "https://www.politico.eu/newsletter/brussels-playbook/cyberattack-hits-the-commission",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "politico.eu",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

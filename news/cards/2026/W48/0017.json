@@ -1,0 +1,112 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0017",
+ "title": "Z.ai 發布迴圈架構的 GLM-5.4，迴圈 Transformer 成開源模型新潮流",
+ "line": "GLM-5.4 是 Raschka 架構圖庫中第五個迴圈模型，SenseNova-Loop-9B 等同類模型也陸續推出",
+ "born_at": "2026-11-26T01:46:18+08:00",
+ "first_reported_at": "2026-11-24T08:00:00+08:00",
+ "updated_at": "2026-11-26T01:46:18+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中國大陸",
+   "全球"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Z.ai",
+   "商湯"
+  ],
+  "person": [
+   "Sebastian Raschka"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "GLM-5.4",
+   "迴圈 Transformer",
+   "SenseNova-Loop-9B",
+   "Inkling 2 Mini"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Z.ai 推出 GLM-5.4，Memia 以「用迴圈走向更深的推理」形容，TLDR AI 也列為當期重點。據 AINews 整理，GLM-5.4 是 Sebastian Raschka 架構圖庫中第五個迴圈（looped）模型，也就是讓部分層重複運算以加深推理。同一波還有 SenseNova-Loop-9B：32 層中的中間 24 層跑兩次，在 GAIA 評測以 69.90 勝過 Qwen3.8-27B 的 66.99，4-bit 約 4.9 GB、以 Apache 2.0 授權釋出；Inkling 2 Mini 的回報成績包括 DeepSWE 48.2%（32B 以下第一）與 SWE-bench Verified 79.2%，Unsloth 微調它可快 3 倍、少用 50% 顯示記憶體。原文沒有交代 GLM-5.4 本身的參數量與評測分數。",
+ "dive_html": "迴圈架構用重複計算換取推理深度、不增加參數，對想在有限顯示記憶體上跑較強模型的團隊有吸引力，9B 模型勝過 27B 就是例證。代價是推論延遲增加，各家數字多為自報，要等統一評測比較。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "TLDR AI",
+   "title": "GLM-5.4",
+   "url": "https://z.ai/blog/glm-5.4",
+   "time": "2026-11-24T08:00:00+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "z.ai",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Latent Space AINews",
+   "title": "Gemini 4 Neon Rollout and Frontier Model Moves: Looped transformers trend",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/#item-10",
+   "time": "2026-11-25T12:29:07+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Memia",
+   "title": "Z.ai’s GLM-5.4 Loops Its Way to Deeper Reasoning",
+   "url": "https://simonwillison.net/2026/Nov/23/glm-54",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T01:46:18+08:00",
+   "heat_raw": "",
+   "family": "simonwillison.net",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}
