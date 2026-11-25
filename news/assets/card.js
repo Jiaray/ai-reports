@@ -14,7 +14,7 @@
   const WEEK = '日一二三四五六';
   const TAIPEI_MS = 8 * 3600 * 1000;
   const DAY_MS = 86400000;
-  const LIFE_DAYS = 7; // 契約 CARD_LIFE_DAYS：新生滿 7 天封存
+  const LIFE_DAYS = 7; // 契約 CARD_LIFE_DAYS：新增滿 7 天封存
   const SRC_FIRST = 5; // 來源先列幾家，其餘收合
   const TL_SIDE = 2; // 議題區塊只列這張前後各幾張
   const ID_RE = /^(\d{4})-W(\d{2})-(\d{4})$/;
@@ -207,7 +207,7 @@
     });
     return out;
   }
-  // 同議題的卡依事件時間排、只取這張前後各 TL_SIDE 張。story-index 依新生時間排（事件時間只有 late 卡不同），
+  // 同議題的卡依事件時間排、只取這張前後各 TL_SIDE 張。story-index 依新增時間排（事件時間只有 late 卡不同），
   // 只讀這張前後幾張所在的週索引：議題再長也只抓兩三份。讀不到的卡不列
   async function timeline(card, story, ev) {
     const ids = list(story.cards).filter((id) => cardPath(id));
@@ -247,7 +247,7 @@
   }
 
   // ── 報頭各列 ──
-  // 封存日：新生滿 7 天那天；寫入時就封存的（最早報導已超過 7 天的 late 卡、最新的來源也超過 7 天）用新生那天
+  // 封存日：新增滿 7 天那天；寫入時就封存的（最早報導已超過 7 天的 late 卡、最新的來源也超過 7 天）用新增那天
   function archivedOn(card) {
     const born = Date.parse(str(card.born_at));
     if (Number.isNaN(born)) return null;

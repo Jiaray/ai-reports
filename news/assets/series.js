@@ -1,7 +1,7 @@
 /* 新聞卡系列頁（news/?t=<新聞卡日報系列>；樣式摘要第 7 節），掛 AIR.series（介面見檔尾）。
    report.js 讀完 index.json、確定是新聞卡系列後呼叫 render(ctx)；工具列、「版面」沿用 report.js 的。這支沒載到時 report.js 顯示施工中。
    讀 cards/recent.json，列近 7 天（台北日曆日：今天往回 6 天）這個系列的新聞卡，依天分段、新到舊；條目是 rows.js 的列表列。
-   - 放哪天：事件時間（event_at）那天；補充過的移到最後補充（supplemented_at）那天，上方小字的時間改寫「新生 M/D」；更正、掛來源不移。
+   - 放哪天：事件時間（event_at）那天；補充過的移到最後補充（supplemented_at）那天，上方小字的時間改寫「新增 M/D」；更正、掛來源不移。
    - 同一天內：事件分量 → heat_rank → 時間新到舊（rows.js byImportance；時間用放那天的時刻）；每段第一張露一句話。
    - 資安：頂端「要修補的漏洞」（事件類型含漏洞揭露），依急迫性 → 同上；exploited 標「遭利用」；列過的不再進日段。
    - 鄉民：每天再分 PTT、HN、V2EX 三區，各依該平台熱度排、只列 > 0；同一張卡在幾個平台有熱度就列幾次（〈不重複〉的例外）。
@@ -88,7 +88,7 @@
   // ── 一列（rows.js）；左緣色線用這頁的領域色（樣式摘要示意頁）；data-k＝區｜編號（重畫後還原展開，鄉民頁同卡多列）──
   function rowOf(x, o = {}) {
     const time = x.moved
-      ? R.time(x.ev, `新生 ${md(x.ev)}`, R.mdw(x.ev))
+      ? R.time(x.ev, `新增 ${md(x.ev)}`, R.mdw(x.ev))
       : R.time(x.ev, o.full ? `${md(x.ev)} ${R.hm(x.ev)}` : R.hm(x.ev), R.mdw(x.ev));
     const el = R.row(x.c, { meta, page: ctx.t, time, lead: o.lead, tag: 'li', flag: o.flag, extra: o.extra });
     if (!el) return null;

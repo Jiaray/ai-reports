@@ -9,9 +9,10 @@
   {
    "id": "news",
    "title": "新聞簡報",
-   "description": "每天從公開新聞來源彙整的繁體中文簡報。",
+   "description": "每天從公開新聞來源彙整的繁體中文新聞卡與每週報告。",
    "path": "news/",
-   "index": "news/index.json"
+   "index": "news/index.json",
+   "focus": "news/cards/focus.json"
   }
  ]
 }
