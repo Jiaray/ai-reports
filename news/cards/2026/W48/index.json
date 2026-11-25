@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "week": "2026-W48",
- "built_at": "2026-11-26T02:08:48+08:00",
+ "built_at": "2026-11-26T02:10:05+08:00",
  "cards": [
   {
    "id": "2026-W48-0001",
@@ -133,7 +133,7 @@
    "first_reported_at": "2026-11-25T16:23:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.1485148514851485,
+   "heat_rank": 0.1574074074074074,
    "exploited": false
   },
   {
@@ -194,7 +194,7 @@
    "first_reported_at": "2026-11-25T22:05:57+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -258,7 +258,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -318,7 +318,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -385,7 +385,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.09405940594059406,
+   "heat_rank": 0.10185185185185185,
    "exploited": false
   },
   {
@@ -451,7 +451,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -517,7 +517,7 @@
    "first_reported_at": "2026-11-25T02:55:12+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -587,7 +587,7 @@
    "first_reported_at": "2026-11-25T04:34:53+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.22277227722772278,
+   "heat_rank": 0.23148148148148148,
    "exploited": false
   },
   {
@@ -646,7 +646,7 @@
    "first_reported_at": "2026-11-25T07:56:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -708,7 +708,7 @@
    "first_reported_at": "2026-11-25T05:32:51+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -771,7 +771,7 @@
    "first_reported_at": "2026-11-25T02:32:13+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -830,7 +830,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -892,7 +892,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -957,7 +957,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -1021,7 +1021,7 @@
    "first_reported_at": "2026-11-25T12:29:07+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -1084,7 +1084,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -1151,7 +1151,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -1220,7 +1220,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -1283,7 +1283,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -1346,7 +1346,7 @@
    "first_reported_at": "2026-11-25T01:46:41+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -1414,7 +1414,7 @@
    "first_reported_at": "2026-11-25T05:49:50+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -1477,7 +1477,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -1544,7 +1544,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -1607,7 +1607,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -1676,7 +1676,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -1740,7 +1740,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -1802,7 +1802,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -1863,7 +1863,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -1931,7 +1931,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -1996,7 +1996,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -2054,7 +2054,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -2112,7 +2112,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -2170,7 +2170,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -2229,7 +2229,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -2287,7 +2287,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -2345,7 +2345,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -2404,7 +2404,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -2468,7 +2468,7 @@
    "first_reported_at": "2026-11-25T10:34:21+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -2526,7 +2526,7 @@
    "first_reported_at": "2026-11-25T08:54:49+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -2592,7 +2592,7 @@
    "first_reported_at": "2026-11-25T21:33:07+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -2654,7 +2654,7 @@
    "first_reported_at": "2026-11-25T12:27:55+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -2715,7 +2715,7 @@
    "first_reported_at": "2026-11-25T09:45:35+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.054455445544554455,
+   "heat_rank": 0.06018518518518518,
    "exploited": false
   },
   {
@@ -2776,7 +2776,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -2897,7 +2897,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -2965,7 +2965,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.1485148514851485,
+   "heat_rank": 0.1574074074074074,
    "exploited": true
   },
   {
@@ -3026,7 +3026,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -3086,7 +3086,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -3154,7 +3154,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -3216,7 +3216,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -3276,7 +3276,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -3336,7 +3336,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -3398,7 +3398,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -3460,7 +3460,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -3521,7 +3521,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -3583,7 +3583,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -3645,7 +3645,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -3708,7 +3708,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -3842,7 +3842,7 @@
    "first_reported_at": "2026-11-25T21:47:43+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.06930693069306931,
+   "heat_rank": 0.0787037037037037,
    "exploited": false
   },
   {
@@ -3912,7 +3912,7 @@
    "first_reported_at": "2026-11-25T20:02:58+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2722772277227723,
+   "heat_rank": 0.2777777777777778,
    "exploited": false
   },
   {
@@ -3985,7 +3985,7 @@
    "first_reported_at": "2026-11-25T11:32:33+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.10891089108910891,
+   "heat_rank": 0.11574074074074074,
    "exploited": false
   },
   {
@@ -4062,7 +4062,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.0049504950495049506,
+   "heat_rank": 0.004629629629629629,
    "exploited": false
   },
   {
@@ -4255,7 +4255,7 @@
    "first_reported_at": "2026-11-25T19:16:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.24752475247524752,
+   "heat_rank": 0.25462962962962965,
    "exploited": false
   },
   {
@@ -4320,7 +4320,7 @@
    "first_reported_at": "2026-11-26T00:35:43+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -4512,7 +4512,7 @@
    "first_reported_at": "2026-11-25T18:25:31+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -4574,7 +4574,7 @@
    "first_reported_at": "2026-11-25T22:48:21+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.034653465346534656,
+   "heat_rank": 0.037037037037037035,
    "exploited": false
   },
   {
@@ -4646,7 +4646,7 @@
    "first_reported_at": "2026-11-25T14:50:46+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2524752475247525,
+   "heat_rank": 0.25925925925925924,
    "exploited": false
   },
   {
@@ -4713,7 +4713,7 @@
    "first_reported_at": "2026-11-25T02:03:58+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.22277227722772278,
+   "heat_rank": 0.23148148148148148,
    "exploited": false
   },
   {
@@ -4782,7 +4782,7 @@
    "first_reported_at": "2026-11-25T15:10:45+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -4847,7 +4847,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17326732673267325,
+   "heat_rank": 0.18055555555555555,
    "exploited": true
   },
   {
@@ -4909,7 +4909,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -4973,7 +4973,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -5034,7 +5034,7 @@
    "first_reported_at": "2026-11-25T20:48:54+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": true
   },
   {
@@ -5095,7 +5095,7 @@
    "first_reported_at": "2026-11-25T04:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17326732673267325,
+   "heat_rank": 0.18055555555555555,
    "exploited": true
   },
   {
@@ -5159,7 +5159,7 @@
    "first_reported_at": "2026-11-25T02:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17326732673267325,
+   "heat_rank": 0.18055555555555555,
    "exploited": true
   },
   {
@@ -5222,7 +5222,7 @@
    "first_reported_at": "2026-11-25T14:21:12+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": true
   },
   {
@@ -5282,7 +5282,7 @@
    "first_reported_at": "2026-11-25T04:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -5470,7 +5470,7 @@
    "first_reported_at": "2026-11-25T02:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": true
   },
   {
@@ -5531,7 +5531,7 @@
    "first_reported_at": "2026-11-25T02:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": true
   },
   {
@@ -5591,7 +5591,7 @@
    "first_reported_at": "2026-11-25T12:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -5651,7 +5651,7 @@
    "first_reported_at": "2026-11-25T12:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -5714,7 +5714,7 @@
    "first_reported_at": "2026-11-25T11:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -5774,7 +5774,7 @@
    "first_reported_at": "2026-11-25T10:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -5899,7 +5899,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -5960,7 +5960,7 @@
    "first_reported_at": "2026-11-26T01:18:26+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -6021,7 +6021,7 @@
    "first_reported_at": "2026-11-25T22:04:37+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -6083,7 +6083,7 @@
    "first_reported_at": "2026-11-25T17:44:43+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17326732673267325,
+   "heat_rank": 0.18055555555555555,
    "exploited": false
   },
   {
@@ -6148,7 +6148,7 @@
    "first_reported_at": "2026-11-25T21:29:28+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -6210,7 +6210,7 @@
    "first_reported_at": "2026-11-25T23:23:22+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -6269,7 +6269,7 @@
    "first_reported_at": "2026-11-25T19:51:53+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -6327,7 +6327,7 @@
    "first_reported_at": "2026-11-25T16:16:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2524752475247525,
+   "heat_rank": 0.25925925925925924,
    "exploited": false
   },
   {
@@ -6390,7 +6390,7 @@
    "first_reported_at": "2026-11-25T19:29:17+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -6449,7 +6449,7 @@
    "first_reported_at": "2026-11-25T18:19:17+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -6514,7 +6514,7 @@
    "first_reported_at": "2026-11-25T15:32:08+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2524752475247525,
+   "heat_rank": 0.25925925925925924,
    "exploited": false
   },
   {
@@ -6578,7 +6578,7 @@
    "first_reported_at": "2026-11-25T15:30:57+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -6640,7 +6640,7 @@
    "first_reported_at": "2026-06-01T08:00:00+08:00",
    "event_at": "2026-06-01T08:00:00+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -6702,7 +6702,7 @@
    "first_reported_at": "2026-11-26T00:24:30+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.22277227722772278,
+   "heat_rank": 0.23148148148148148,
    "exploited": false
   },
   {
@@ -6772,7 +6772,7 @@
    "first_reported_at": "2026-11-25T23:18:49+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.10891089108910891,
+   "heat_rank": 0.11574074074074074,
    "exploited": false
   },
   {
@@ -6837,7 +6837,7 @@
    "first_reported_at": "2026-11-25T06:07:45+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -6904,7 +6904,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.09900990099009901,
+   "heat_rank": 0.10648148148148148,
    "exploited": false
   },
   {
@@ -6964,7 +6964,7 @@
    "first_reported_at": "2026-11-25T14:08:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -7023,7 +7023,7 @@
    "first_reported_at": "2026-11-25T10:53:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -7615,7 +7615,7 @@
    "first_reported_at": "2026-11-25T09:31:46+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.019801980198019802,
+   "heat_rank": 0.018518518518518517,
    "exploited": false
   },
   {
@@ -7678,7 +7678,7 @@
    "first_reported_at": "2026-11-25T09:51:02+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.024752475247524754,
+   "heat_rank": 0.023148148148148147,
    "exploited": false
   },
   {
@@ -7747,7 +7747,7 @@
    "first_reported_at": "2026-11-25T04:36:38+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.01485148514851485,
+   "heat_rank": 0.013888888888888888,
    "exploited": false
   },
   {
@@ -7813,7 +7813,7 @@
    "first_reported_at": "2026-11-25T08:26:33+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.009900990099009901,
+   "heat_rank": 0.009259259259259259,
    "exploited": false
   },
   {
@@ -7879,7 +7879,7 @@
    "first_reported_at": "2026-11-25T20:27:16+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -7945,7 +7945,7 @@
    "first_reported_at": "2026-11-24T00:00:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.10891089108910891,
+   "heat_rank": 0.11574074074074074,
    "exploited": false
   },
   {
@@ -8252,7 +8252,7 @@
    "first_reported_at": "2026-11-25T01:35:17+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.0297029702970297,
+   "heat_rank": 0.032407407407407406,
    "exploited": false
   },
   {
@@ -8310,7 +8310,7 @@
    "first_reported_at": "2026-11-26T00:20:01+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -8369,7 +8369,7 @@
    "first_reported_at": "2026-11-25T20:00:04+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -8428,7 +8428,7 @@
    "first_reported_at": "2026-11-25T19:13:47+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -8491,7 +8491,7 @@
    "first_reported_at": "2026-11-25T12:11:59+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -8549,7 +8549,7 @@
    "first_reported_at": "2026-11-25T09:09:43+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -8608,7 +8608,7 @@
    "first_reported_at": "2026-11-25T07:30:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.21287128712871287,
+   "heat_rank": 0.2222222222222222,
    "exploited": false
   },
   {
@@ -8670,7 +8670,7 @@
    "first_reported_at": "2026-11-25T03:07:26+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -8728,7 +8728,7 @@
    "first_reported_at": "2026-11-25T19:00:45+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -8976,7 +8976,7 @@
    "first_reported_at": "2026-11-25T22:55:50+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -9041,7 +9041,7 @@
    "first_reported_at": "2026-11-25T21:09:40+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -9110,7 +9110,7 @@
    "first_reported_at": "2026-11-25T20:43:40+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -9176,7 +9176,7 @@
    "first_reported_at": "2026-11-25T17:15:50+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -9238,7 +9238,7 @@
    "first_reported_at": "2026-11-25T02:29:25+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17326732673267325,
+   "heat_rank": 0.18055555555555555,
    "exploited": false
   },
   {
@@ -9303,7 +9303,7 @@
    "first_reported_at": "2026-11-25T19:36:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -9367,7 +9367,7 @@
    "first_reported_at": "2026-11-25T18:53:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -9432,7 +9432,7 @@
    "first_reported_at": "2026-11-25T02:04:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -9496,7 +9496,7 @@
    "first_reported_at": "2026-11-19T11:56:39+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -9560,7 +9560,7 @@
    "first_reported_at": "2026-11-19T10:57:14+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -9624,7 +9624,7 @@
    "first_reported_at": "2026-11-24T11:54:52+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -9686,7 +9686,7 @@
    "first_reported_at": "2026-11-20T12:52:38+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -9751,7 +9751,7 @@
    "first_reported_at": "2026-11-23T16:21:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -9815,7 +9815,7 @@
    "first_reported_at": "2026-11-19T10:10:45+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -9879,7 +9879,7 @@
    "first_reported_at": "2026-11-23T16:21:02+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -9944,7 +9944,7 @@
    "first_reported_at": "2026-11-23T17:49:19+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -10008,7 +10008,7 @@
    "first_reported_at": "2026-11-25T13:12:38+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -10073,7 +10073,7 @@
    "first_reported_at": "2026-11-25T16:07:55+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -10141,7 +10141,7 @@
    "first_reported_at": "2026-11-25T14:25:45+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -10205,7 +10205,7 @@
    "first_reported_at": "2026-11-25T13:59:57+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2524752475247525,
+   "heat_rank": 0.25925925925925924,
    "exploited": false
   },
   {
@@ -10269,7 +10269,7 @@
    "first_reported_at": "2026-11-25T09:57:32+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -10333,7 +10333,7 @@
    "first_reported_at": "2026-11-25T05:46:45+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -10394,7 +10394,7 @@
    "first_reported_at": "2026-11-25T11:12:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -10455,7 +10455,7 @@
    "first_reported_at": "2026-11-25T16:28:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17326732673267325,
+   "heat_rank": 0.18055555555555555,
    "exploited": false
   },
   {
@@ -10519,7 +10519,7 @@
    "first_reported_at": "2026-11-25T15:55:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -10583,7 +10583,7 @@
    "first_reported_at": "2026-11-25T15:55:14+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.1485148514851485,
+   "heat_rank": 0.1574074074074074,
    "exploited": false
   },
   {
@@ -10650,7 +10650,7 @@
    "first_reported_at": "2026-11-25T23:16:40+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -10708,7 +10708,7 @@
    "first_reported_at": "2026-11-25T14:29:23+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -10773,7 +10773,7 @@
    "first_reported_at": "2026-11-25T22:40:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -10834,7 +10834,7 @@
    "first_reported_at": "2026-11-25T13:04:25+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -10896,7 +10896,7 @@
    "first_reported_at": "2026-11-25T16:25:54+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -10957,7 +10957,7 @@
    "first_reported_at": "2026-11-25T07:50:31+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.039603960396039604,
+   "heat_rank": 0.041666666666666664,
    "exploited": false
   },
   {
@@ -11022,7 +11022,7 @@
    "first_reported_at": "2026-11-25T20:48:24+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.21782178217821782,
+   "heat_rank": 0.22685185185185186,
    "exploited": false
   },
   {
@@ -11150,7 +11150,7 @@
    "first_reported_at": "2026-11-25T11:04:37+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -11218,7 +11218,7 @@
    "first_reported_at": "2026-11-25T12:31:48+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -11276,7 +11276,7 @@
    "first_reported_at": "2026-11-25T06:50:11+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -11336,7 +11336,7 @@
    "first_reported_at": "2026-11-25T06:36:28+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.07920792079207921,
+   "heat_rank": 0.08796296296296297,
    "exploited": false
   },
   {
@@ -11394,7 +11394,7 @@
    "first_reported_at": "2026-11-25T04:00:18+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.13366336633663367,
+   "heat_rank": 0.1388888888888889,
    "exploited": false
   },
   {
@@ -11458,7 +11458,7 @@
    "first_reported_at": "2026-11-25T01:34:34+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.13366336633663367,
+   "heat_rank": 0.1388888888888889,
    "exploited": false
   },
   {
@@ -11525,7 +11525,7 @@
    "first_reported_at": "2026-11-25T16:52:54+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -11590,7 +11590,7 @@
    "first_reported_at": "2026-11-25T16:40:35+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.1485148514851485,
+   "heat_rank": 0.1574074074074074,
    "exploited": false
   },
   {
@@ -11654,7 +11654,7 @@
    "first_reported_at": "2026-11-25T14:45:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -11715,7 +11715,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -11773,7 +11773,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -11839,7 +11839,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -11899,7 +11899,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -11964,7 +11964,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -12024,7 +12024,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -12082,7 +12082,7 @@
    "first_reported_at": "2026-11-26T01:00:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -12136,7 +12136,7 @@
    "first_reported_at": "2026-11-25T23:00:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -12190,7 +12190,7 @@
    "first_reported_at": "2026-11-25T08:01:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -12255,7 +12255,7 @@
    "first_reported_at": "2026-11-25T21:00:53+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -12314,7 +12314,7 @@
    "first_reported_at": "2026-11-25T17:49:01+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -12377,7 +12377,7 @@
    "first_reported_at": "2026-11-25T12:49:46+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -12440,7 +12440,7 @@
    "first_reported_at": "2026-11-25T03:53:25+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -12495,7 +12495,7 @@
    "first_reported_at": "2026-11-26T00:00:59+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -12617,7 +12617,7 @@
    "first_reported_at": "2026-11-25T03:30:54+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -12678,7 +12678,7 @@
    "first_reported_at": "2026-11-26T01:00:09+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.1485148514851485,
+   "heat_rank": 0.1574074074074074,
    "exploited": false
   },
   {
@@ -12741,7 +12741,7 @@
    "first_reported_at": "2026-11-25T23:52:14+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -12802,7 +12802,7 @@
    "first_reported_at": "2026-11-25T14:00:11+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2722772277227723,
+   "heat_rank": 0.2777777777777778,
    "exploited": false
   },
   {
@@ -12863,7 +12863,7 @@
    "first_reported_at": "2026-11-25T02:32:01+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.10891089108910891,
+   "heat_rank": 0.11574074074074074,
    "exploited": false
   },
   {
@@ -12922,7 +12922,7 @@
    "first_reported_at": "2026-11-25T20:42:57+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.20297029702970298,
+   "heat_rank": 0.21296296296296297,
    "exploited": false
   },
   {
@@ -12978,7 +12978,7 @@
    "first_reported_at": "2026-11-25T15:17:16+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -13043,7 +13043,7 @@
    "first_reported_at": "2026-11-25T02:24:15+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -13108,7 +13108,7 @@
    "first_reported_at": "2026-09-01T08:00:00+08:00",
    "event_at": "2026-09-01T08:00:00+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -13171,7 +13171,7 @@
    "first_reported_at": "2026-08-01T08:00:00+08:00",
    "event_at": "2026-08-01T08:00:00+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.6831683168316832,
+   "heat_rank": 0.6990740740740741,
    "exploited": false
   },
   {
@@ -13237,7 +13237,7 @@
    "first_reported_at": "2026-11-25T17:54:32+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.10891089108910891,
+   "heat_rank": 0.11574074074074074,
    "exploited": false
   },
   {
@@ -13305,7 +13305,7 @@
    "first_reported_at": "2026-11-26T00:42:11+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -13369,7 +13369,7 @@
    "first_reported_at": "2026-11-25T14:00:45+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.22277227722772278,
+   "heat_rank": 0.23148148148148148,
    "exploited": false
   },
   {
@@ -13434,7 +13434,7 @@
    "first_reported_at": "2026-11-25T11:00:03+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2079207920792079,
+   "heat_rank": 0.2175925925925926,
    "exploited": false
   },
   {
@@ -13495,7 +13495,7 @@
    "first_reported_at": "2026-11-25T22:06:13+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.09900990099009901,
+   "heat_rank": 0.10648148148148148,
    "exploited": false
   },
   {
@@ -13558,7 +13558,7 @@
    "first_reported_at": "2026-11-25T17:18:37+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.07425742574257425,
+   "heat_rank": 0.08333333333333333,
    "exploited": false
   },
   {
@@ -13616,7 +13616,7 @@
    "first_reported_at": "2026-11-25T11:57:11+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.07920792079207921,
+   "heat_rank": 0.08796296296296297,
    "exploited": false
   },
   {
@@ -13677,7 +13677,7 @@
    "first_reported_at": "2026-11-25T23:35:33+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.13366336633663367,
+   "heat_rank": 0.1388888888888889,
    "exploited": false
   },
   {
@@ -13748,7 +13748,7 @@
    "first_reported_at": "2026-11-25T07:05:11+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.22277227722772278,
+   "heat_rank": 0.23148148148148148,
    "exploited": false
   },
   {
@@ -13810,7 +13810,7 @@
    "first_reported_at": "2026-11-25T19:57:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.04455445544554455,
+   "heat_rank": 0.046296296296296294,
    "exploited": false
   },
   {
@@ -13875,7 +13875,7 @@
    "first_reported_at": "2026-11-25T11:17:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.04950495049504951,
+   "heat_rank": 0.05092592592592592,
    "exploited": false
   },
   {
@@ -13938,7 +13938,7 @@
    "first_reported_at": "2026-11-25T00:00:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.07920792079207921,
+   "heat_rank": 0.08796296296296297,
    "exploited": false
   },
   {
@@ -14001,7 +14001,7 @@
    "first_reported_at": "2026-11-25T19:15:35+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.06435643564356436,
+   "heat_rank": 0.07407407407407407,
    "exploited": false
   },
   {
@@ -14063,7 +14063,7 @@
    "first_reported_at": "2026-11-25T13:35:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.054455445544554455,
+   "heat_rank": 0.06018518518518518,
    "exploited": false
   },
   {
@@ -14121,7 +14121,7 @@
    "first_reported_at": "2026-11-25T22:53:49+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -14179,7 +14179,7 @@
    "first_reported_at": "2026-11-25T22:50:50+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -14240,7 +14240,7 @@
    "first_reported_at": "2026-11-24T00:00:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38613861386138615,
+   "heat_rank": 0.41203703703703703,
    "exploited": false
   },
   {
@@ -14294,7 +14294,7 @@
    "first_reported_at": "2026-11-25T22:52:30+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
    "exploited": false
   },
   {
@@ -14356,7 +14356,865 @@
    "first_reported_at": "2026-11-25T21:00:27+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.28217821782178215,
+   "heat_rank": 0.2916666666666667,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0229",
+   "title": "聯合國愛滋規劃署報告：國際 HIV 經費削減，數十年抗愛滋成果恐倒退",
+   "line": "報告同時指出反人權與反性別平等的聲浪升高，威脅防治進展",
+   "born_at": "2026-11-26T02:10:05+08:00",
+   "updated_at": "2026-11-26T02:10:05+08:00",
+   "version": 1,
+   "archived": false,
+   "late": true,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "健康與醫療"
+   ],
+   "topic_all": [
+    "健康與醫療"
+   ],
+   "story": [],
+   "sector": [
+    "醫療照護"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "聯合國愛滋病規劃署"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "health"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T00:00:00+08:00",
+   "event_at": "2026-11-24T00:00:00+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.6990740740740741,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0230",
+   "title": "俄國無人機屢次侵犯領空，波蘭擬在烏克蘭邊境設禁飛區並呼籲北約盟國提高警覺",
+   "line": "禁飛區將涵蓋邊境沿線數十公里的波蘭領土，目標年底前設立",
+   "born_at": "2026-11-26T02:10:05+08:00",
+   "updated_at": "2026-11-26T02:10:05+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "國防與軍事",
+    "戰爭與衝突"
+   ],
+   "topic_all": [
+    "國防與軍事",
+    "戰爭與衝突"
+   ],
+   "story": [
+    "俄烏戰爭"
+   ],
+   "sector": [
+    "航太與國防"
+   ],
+   "event": [
+    "政策法規",
+    "軍事行動"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "波蘭政府",
+    "北大西洋公約組織"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T22:59:00+08:00",
+   "event_at": "2026-11-26T02:10:05+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2916666666666667,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0231",
+   "title": "歐洲議會最終通過歐盟藥品法規全面改革，盼防止缺藥並促進創新",
+   "line": "歷經兩年多談判，更新已逾 20 年的藥品法規，理事會今年稍早已核准",
+   "born_at": "2026-11-26T02:10:05+08:00",
+   "updated_at": "2026-11-26T02:10:05+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "健康與醫療"
+   ],
+   "topic_all": [
+    "健康與醫療"
+   ],
+   "story": [],
+   "sector": [
+    "醫藥與生技"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "歐洲議會",
+    "歐盟理事會"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "health"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-26T00:44:09+08:00",
+   "event_at": "2026-11-26T02:10:05+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2916666666666667,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0232",
+   "title": "被控在 OpenAI 辦公室安裝竊聽裝置的沙烏地籍前工程師，獲准以 100 萬美元交保",
+   "line": "檢方指其錄下包括與客戶、政府官員會議在內的機密對話；10 月 9 日被捕",
+   "born_at": "2026-11-26T02:10:05+08:00",
+   "updated_at": "2026-11-26T02:10:05+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "犯罪與司法",
+    "AI"
+   ],
+   "topic_all": [
+    "犯罪與司法",
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "犯罪執法",
+    "訴訟判決"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "OpenAI",
+    "美國聯邦法院"
+   ],
+   "person": [
+    "Abdulrahman Alfozan"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 4,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society",
+    "ai",
+    "tech"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T07:00:00+08:00",
+   "event_at": "2026-11-26T02:10:05+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.1388888888888889,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0233",
+   "title": "孟加拉成衣工人經數週抗議爭取到最低工資調漲 36%",
+   "line": "孟加拉是僅次於中國的全球第二大成衣出口國，抗議曾造成數億美元商業損失",
+   "born_at": "2026-11-26T02:10:05+08:00",
+   "updated_at": "2026-11-26T02:10:05+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "勞動"
+   ],
+   "topic_all": [
+    "勞動"
+   ],
+   "story": [],
+   "sector": [
+    "零售與消費"
+   ],
+   "event": [
+    "政策法規",
+    "示威抗議"
+   ],
+   "region": [
+    "南亞"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T14:25:10+08:00",
+   "event_at": "2026-11-26T02:10:05+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.41203703703703703,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0234",
+   "title": "以色列 Eisenkot 領導的 Yashar 黨與右翼在野黨達成首份組閣協議",
+   "line": "前參謀總長 Eisenkot 與 Lieberman 會面，尋求在上月大選後組成政府",
+   "born_at": "2026-11-26T02:10:05+08:00",
+   "updated_at": "2026-11-26T02:10:05+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "政治"
+   ],
+   "topic_all": [
+    "政治"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "會談協議"
+   ],
+   "region": [
+    "中東"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Yashar",
+    "以色列我們的家園黨"
+   ],
+   "person": [
+    "Gadi Eisenkot",
+    "Avigdor Lieberman"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T14:54:15+08:00",
+   "event_at": "2026-11-26T02:10:05+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.41203703703703703,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0235",
+   "title": "德國總理梅爾茨警告俄國正在歐洲與太空大規模升高衝突，「俄國要的不只是烏克蘭」",
+   "line": "德國曾警告俄國準備發射核武衛星；梅爾茨試圖說服日益懷疑的民眾繼續支持烏克蘭",
+   "born_at": "2026-11-26T02:10:05+08:00",
+   "updated_at": "2026-11-26T02:10:05+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "國防與軍事",
+    "國際關係"
+   ],
+   "topic_all": [
+    "國防與軍事",
+    "國際關係"
+   ],
+   "story": [],
+   "sector": [
+    "航太與國防"
+   ],
+   "event": [
+    "聲明評論"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "德國政府"
+   ],
+   "person": [
+    "梅爾茨"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 4,
+    "regions": 1,
+    "media_weight": 10,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:12:34+08:00",
+   "event_at": "2026-11-26T02:10:05+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.20833333333333334,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0236",
+   "title": "Nikkei：三星、SK 海力士採用長江存儲的晶片堆疊技術，中國記憶體廠專利實力追上前輩",
+   "line": "交互授權顯示成立 10 年的長江存儲已能與老牌大廠並駕齊驅，全球專利申請逾 1.2 萬件",
+   "born_at": "2026-11-26T02:10:05+08:00",
+   "updated_at": "2026-11-26T02:10:05+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "科技",
+    "企業經營"
+   ],
+   "topic_all": [
+    "科技",
+    "企業經營",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "半導體"
+   ],
+   "event": [
+    "併購投資"
+   ],
+   "region": [
+    "中國大陸",
+    "東北亞"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "長江存儲",
+    "Samsung",
+    "SK 海力士"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "finance",
+    "tech"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": null,
+   "event_at": "2026-11-26T02:10:05+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2916666666666667,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0237",
+   "title": "泰緬河川驗出砷等重金屬，兩國同意設 6 個監測站，泰國請中國協助制止緬甸礦場汙染",
+   "line": "Kok、Sai、Ruak 與湄公河受影響；緬甸撣邦部分礦場由中企經營、礦產多運往中國",
+   "born_at": "2026-11-26T02:10:05+08:00",
+   "updated_at": "2026-11-26T02:10:05+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "環境與氣候",
+    "國際關係"
+   ],
+   "topic_all": [
+    "環境與氣候",
+    "國際關係"
+   ],
+   "story": [],
+   "sector": [
+    "原物料與化工"
+   ],
+   "event": [
+    "會談協議",
+    "公衛事件"
+   ],
+   "region": [
+    "東南亞",
+    "中國大陸"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "泰國政府",
+    "緬甸政府",
+    "中國政府"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 4,
+    "regions": 4,
+    "media_weight": 9,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics",
+    "environment"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:12:34+08:00",
+   "event_at": "2026-11-26T02:10:05+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.027777777777777776,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0238",
+   "title": "沖繩首里城正殿完成歷史修復，11 月 23 日正式重新開放",
+   "line": "那霸當地居民表示很高興看到它恢復，期待參觀內部",
+   "born_at": "2026-11-26T02:10:05+08:00",
+   "updated_at": "2026-11-26T02:10:05+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "文化藝術"
+   ],
+   "topic_all": [
+    "文化藝術"
+   ],
+   "story": [],
+   "sector": [
+    "觀光"
+   ],
+   "event": [
+    "活動賽事"
+   ],
+   "region": [
+    "東北亞"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "culture"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T14:00:00+08:00",
+   "event_at": "2026-11-26T02:10:05+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2916666666666667,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0239",
+   "title": "孟加拉前總理哈希納擬 12 月 16 日結束流亡返國，印度稱與孟國引渡請求是兩回事",
+   "line": "她 2024 年因學生示威鎮壓下台出逃印度，去年遭缺席審判判處死刑",
+   "born_at": "2026-11-26T02:10:05+08:00",
+   "updated_at": "2026-11-26T02:10:05+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "政治",
+    "國際關係"
+   ],
+   "topic_all": [
+    "政治",
+    "國際關係"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "聲明評論"
+   ],
+   "region": [
+    "南亞"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": true,
+   "org": [
+    "印度外交部",
+    "孟加拉政府"
+   ],
+   "person": [
+    "哈希納",
+    "Randhir Jaiswal"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 3,
+    "regions": 3,
+    "media_weight": 7,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T11:44:00+08:00",
+   "event_at": "2026-11-26T02:10:05+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.05555555555555555,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0240",
+   "title": "印尼西爪哇礦坑淹水，搜救單位尋獲 8 具遺體、仍有 18 名礦工受困",
+   "line": "礦工自 11 月 23 日因大雨灌入 100 公尺深的礦井受困",
+   "born_at": "2026-11-26T02:10:05+08:00",
+   "updated_at": "2026-11-26T02:10:05+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "災害與事故"
+   ],
+   "topic_all": [
+    "災害與事故"
+   ],
+   "story": [],
+   "sector": [
+    "原物料與化工"
+   ],
+   "event": [
+    "意外事故"
+   ],
+   "region": [
+    "東南亞"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "印尼國家搜救局"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T13:53:00+08:00",
+   "event_at": "2026-11-26T02:10:05+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2916666666666667,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0241",
+   "title": "Reuters：伊朗稱船隻在荷莫茲海峽觸雷，警告船舶須協調通行",
+   "line": "只有標題可引用，詳細內容未見",
+   "born_at": "2026-11-26T02:10:05+08:00",
+   "updated_at": "2026-11-26T02:10:05+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "戰爭與衝突"
+   ],
+   "topic_all": [
+    "戰爭與衝突"
+   ],
+   "story": [],
+   "sector": [
+    "運輸與物流",
+    "能源與公用事業"
+   ],
+   "event": [
+    "軍事行動"
+   ],
+   "region": [
+    "中東"
+   ],
+   "taiwan": "間接",
+   "weight": "高",
+   "relevance": "中",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 3,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T18:11:44+08:00",
+   "event_at": "2026-11-26T02:10:05+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.2777777777777778,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0242",
+   "title": "COP31 氣候談判在土耳其破局，約 90 國因協議未提化石燃料反對，未通過總決議",
+   "line": "各國未能就化石燃料、資金、科學與碳移除達成共識；教宗良十四世稱「令人憂心」",
+   "born_at": "2026-11-26T02:10:05+08:00",
+   "updated_at": "2026-11-26T02:10:05+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "環境與氣候",
+    "國際關係"
+   ],
+   "topic_all": [
+    "環境與氣候",
+    "國際關係"
+   ],
+   "story": [
+    "COP31"
+   ],
+   "sector": [
+    "能源與公用事業"
+   ],
+   "event": [
+    "會談協議"
+   ],
+   "region": [
+    "全球",
+    "歐洲"
+   ],
+   "taiwan": "間接",
+   "weight": "高",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "聯合國氣候變化綱要公約",
+    "教廷"
+   ],
+   "person": [
+    "良十四世",
+    "Chris Bowen"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 3,
+    "regions": 3,
+    "media_weight": 6,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics",
+    "environment"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:12:34+08:00",
+   "event_at": "2026-11-26T02:10:05+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.06018518518518518,
    "exploited": false
   }
  ]

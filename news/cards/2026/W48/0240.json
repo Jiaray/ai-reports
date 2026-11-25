@@ -1,0 +1,82 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0240",
+ "title": "印尼西爪哇礦坑淹水，搜救單位尋獲 8 具遺體、仍有 18 名礦工受困",
+ "line": "礦工自 11 月 23 日因大雨灌入 100 公尺深的礦井受困",
+ "born_at": "2026-11-26T02:10:05+08:00",
+ "first_reported_at": "2026-11-25T13:53:00+08:00",
+ "updated_at": "2026-11-26T02:10:05+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞"
+  ],
+  "country": [
+   "ID"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "災害與事故"
+  ],
+  "event": [
+   "意外事故"
+  ],
+  "sector": [
+   "原物料與化工"
+  ],
+  "org": [
+   "印尼國家搜救局"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "印尼",
+   "礦坑淹水",
+   "礦災"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Straits Times，印尼搜救單位於 11 月 25 日表示，已從西爪哇省茂物一處淹水的礦坑尋獲 8 具遺體，並持續搜尋另外 18 名據信受困地下的礦工；其中 3 具身分未明的遺體是在 30 至 40 公尺深處尋獲。礦工自 11 月 23 日起受困在一座 100 公尺深的礦井中，當時大雨灌入礦井。擷取的報導沒有交代礦場的類型與是否合法經營。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Straits Times Asia",
+   "title": "Eight dead, 18 trapped after Indonesia mine floods: Rescue agency",
+   "url": "https://www.straitstimes.com/asia/se-asia/indonesian-rescuers-search-for-possibly-dozens-trapped-in-mine",
+   "time": "2026-11-25T13:53:00+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

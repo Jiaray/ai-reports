@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "built_at": "2026-11-26T02:08:48+08:00",
+ "built_at": "2026-11-26T02:10:05+08:00",
  "urls": {
   "https://money.udn.com/money/story/5612/9902210": "2026-W48-0001",
   "https://www.cna.com.tw/news/afe/202611250334.aspx": "2026-W48-0001",
@@ -482,6 +482,34 @@
   "https://news.un.org/en/story/2026/11/1168868": "2026-W48-0226",
   "https://www.dawn.com/news/2046855/five-women-killed-each-hour-by-relatives-in-2025-un": "2026-W48-0226",
   "https://www.theguardian.com/environment/2026/nov/25/world-six-consecutive-days-2c-above-preindustrial-levels-first-time": "2026-W48-0227",
-  "https://www.theguardian.com/global-development/2026/nov/25/tin-cassiterite-brazil-amazon-illegal-mining-datacentres-evs": "2026-W48-0228"
+  "https://www.theguardian.com/global-development/2026/nov/25/tin-cassiterite-brazil-amazon-illegal-mining-datacentres-evs": "2026-W48-0228",
+  "https://news.un.org/en/story/2026/11/1168869": "2026-W48-0229",
+  "https://www.dw.com/en/ukraine-poland-to-set-up-no-fly-zone-near-ukraine-border/live-80047122?maca=en-rss-en-all-1573-xml-mrss": "2026-W48-0230",
+  "https://www.euronews.com/2026/11/25/european-parliament-approves-new-eu-medicines-rules-what-happens-next": "2026-W48-0231",
+  "https://www.wsj.com/tech/saudi-engineer-accused-of-bugging-openai-to-be-released-on-1-million-bond-954f048e?mod=rss_usnews": "2026-W48-0232",
+  "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html": "2026-W48-0232",
+  "https://www.dawn.com/news/2046973/bangladesh-garment-workers-win-36pc-wage-rise": "2026-W48-0233",
+  "https://www.dawn.com/news/2046976/eisenkot-clinches-first-coalition-agreement-in-bid-to-form-israels-government": "2026-W48-0234",
+  "https://www.ft.com/content/afdac003-51b0-43da-8c7c-b5675f9b7c1b?syn-25a6b1a6=1": "2026-W48-0235",
+  "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWUI5R19MZFluOFUyQWRCLTJnRVpNYnZfemhIT0g5bEZqblpJYXNxSVBFNk4xSjFYWGFIcldBUEZvM0xrWDlya3hrVzNRbWQxdFpXOEdXR2g0bmRDZ1FOS2t5TnlKNkE2WGhOVXp5MU9YZkRHM1hQSUhRT0hzMEx5MlU4a1dMS2lEMDZ2MVdrQ3dBeE5wZGhwTmFoLUJ2QjV0ZzEzMXJ3eVpsaGVKM2ZmYlJrNi02MWl3Q1I0UFN4VQ?oc=5": "2026-W48-0235",
+  "https://www.theguardian.com/world/live/2026/nov/25/ukraine-russia-energy-strikes-mark-rutte-donald-trump-friedrich-merz-germany-latest-news-updates": "2026-W48-0235",
+  "https://www.euronews.com/2026/11/25/europe-tonight-trump-unveils-new-tariffs-amid-russian-nuclear-space-threat": "2026-W48-0235",
+  "https://www.ft.com/content/dd00f616-1fef-4a26-a5f9-2b1bf83cc489?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96&syn-25a6b1a6=1": "2026-W48-0235",
+  "https://asia.nikkei.com/business/tech/semiconductors/china-s-ymtc-boosted-by-samsung-and-sk-hynix-adopting-its-memory-technology": "2026-W48-0236",
+  "https://www.japantimes.co.jp/news/2026/11/25/asia-pacific/politics/thailand-china-myanmar-mines-rivers": "2026-W48-0237",
+  "https://www.straitstimes.com/asia/se-asia/thailand-myanmar-agree-to-monitor-border-rivers-amid-pollution-fears": "2026-W48-0237",
+  "https://www.scmp.com/news/china/diplomacy/article/3375773/china-promises-help-thailand-and-myanmar-fight-mekong-basin-pollution": "2026-W48-0237",
+  "https://www.reuters.com/sustainability/climate-energy/thailand-plans-block-exports-chemicals-used-myanmar-rare-earth-mining-2026-11-22": "2026-W48-0237",
+  "https://www.japantimes.co.jp/life/2026/11/25/travel/shuri-castle-reopening-okinawa-travel-fire": "2026-W48-0238",
+  "https://www.cna.com.tw/news/aopl/202611250332.aspx": "2026-W48-0239",
+  "https://www.japantimes.co.jp/news/2026/11/25/asia-pacific/politics/sheikh-hasina-return-bangladesh": "2026-W48-0239",
+  "https://www.straitstimes.com/asia/india-says-hasinas-plan-to-return-to-bangladesh-is-separate-from-extradition-request": "2026-W48-0239",
+  "https://www.straitstimes.com/asia/se-asia/indonesian-rescuers-search-for-possibly-dozens-trapped-in-mine": "2026-W48-0240",
+  "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSmFmdlRJUnlMaVRFNERwb2YxLVVObG9leTlORFRtOTAyd2pvMTNuOGM5d0diMzNUb1NHaDVWOGlTeWg3bmcwU21BdHRHZlB6a0VDeXlNcUtYMDBiZUpyVFRyMkhIQjlpemZIeGVQNEdXb2hCOHZwYW5VZUt4V3MySnpZWUViYTA5MEp2eDlBbGNoVjB5dk5CcHdZR3NyUjZIVlV3d0s2Z3BUMTQ?oc=5": "2026-W48-0241",
+  "https://www.cna.com.tw/news/aopl/202611250319.aspx": "2026-W48-0242",
+  "https://www.rappler.com/world/global-affairs/pope-leo-xiv-calls-cop31-failure-troubling": "2026-W48-0242",
+  "https://www.rappler.com/environment/the-green-report-what-went-down-2026-un-climate-talks": "2026-W48-0242",
+  "https://www.theguardian.com/culture/2026/nov/25/chris-bowen-cop31-deal-failure-photograph": "2026-W48-0242",
+  "https://theconversation.com/what-it-was-like-to-watch-crucial-cop-climate-talks-fall-apart-at-the-last-minute-297270": "2026-W48-0242"
  }
 }

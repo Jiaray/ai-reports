@@ -1,0 +1,126 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0237",
+ "title": "泰緬河川驗出砷等重金屬，兩國同意設 6 個監測站，泰國請中國協助制止緬甸礦場汙染",
+ "line": "Kok、Sai、Ruak 與湄公河受影響；緬甸撣邦部分礦場由中企經營、礦產多運往中國",
+ "born_at": "2026-11-26T02:10:05+08:00",
+ "first_reported_at": "2026-11-25T08:12:34+08:00",
+ "updated_at": "2026-11-26T02:10:05+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞",
+   "中國大陸"
+  ],
+  "country": [
+   "TH",
+   "MM",
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "環境與氣候",
+   "國際關係"
+  ],
+  "event": [
+   "會談協議",
+   "公衛事件"
+  ],
+  "sector": [
+   "原物料與化工"
+  ],
+  "org": [
+   "泰國政府",
+   "緬甸政府",
+   "中國政府"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "湄公河",
+   "重金屬汙染",
+   "砷",
+   "緬甸礦場"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Straits Times，泰國與緬甸同意設立 6 個水質監測站，檢查邊境河川的重金屬汙染；檢測在 Kok、Sai、Ruak 與湄公河的水與沉積物樣本中驗出砷等重金屬，引發當地用水安全疑慮。據 Japan Times，泰國請求中國協助制止緬甸的礦場汙染，因為緬甸撣邦部分礦場由中國企業經營，且大部分礦產輸往中國。SCMP 報導中國承諾協助泰國與緬甸對抗湄公河流域汙染；Memia 電子報也提到泰國將因緬甸採礦汙染阻擋化學品出口。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Japan Times",
+   "title": "Thailand asks China to help halt Myanmar mines over toxic rivers",
+   "url": "https://www.japantimes.co.jp/news/2026/11/25/asia-pacific/politics/thailand-china-myanmar-mines-rivers/",
+   "time": "2026-11-25T11:24:00+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Thailand, Myanmar agree to monitor border rivers amid pollution fears",
+   "url": "https://www.straitstimes.com/asia/se-asia/thailand-myanmar-agree-to-monitor-border-rivers-amid-pollution-fears",
+   "time": "2026-11-25T19:17:00+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "SCMP China",
+   "title": "China promises to help Thailand and Myanmar fight Mekong basin pollution",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3375773/china-promises-help-thailand-and-myanmar-fight-mekong-basin-pollution",
+   "time": "2026-11-25T18:51:16+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "SCMP",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 2
+  },
+  {
+   "name": "Memia",
+   "title": "Thailand to block chemical exports over Myanmar mining pollution",
+   "url": "https://www.reuters.com/sustainability/climate-energy/thailand-plans-block-exports-chemicals-used-myanmar-rare-earth-mining-2026-11-22",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 4,
+  "media_weight": 9,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

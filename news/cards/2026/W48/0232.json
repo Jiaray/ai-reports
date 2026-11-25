@@ -1,0 +1,102 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0232",
+ "title": "被控在 OpenAI 辦公室安裝竊聽裝置的沙烏地籍前工程師，獲准以 100 萬美元交保",
+ "line": "檢方指其錄下包括與客戶、政府官員會議在內的機密對話；10 月 9 日被捕",
+ "born_at": "2026-11-26T02:10:05+08:00",
+ "first_reported_at": "2026-11-25T07:00:00+08:00",
+ "updated_at": "2026-11-26T02:10:05+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US",
+   "SA"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "犯罪與司法",
+   "AI"
+  ],
+  "event": [
+   "犯罪執法",
+   "訴訟判決"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "OpenAI",
+   "美國聯邦法院"
+  ],
+  "person": [
+   "Abdulrahman Alfozan"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "OpenAI",
+   "內部威脅",
+   "竊聽",
+   "商業間諜"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 The Hacker News 與 WSJ，舊金山聯邦法院法官於美國時間 11 月 24 日裁定，被控在 OpenAI 舊金山辦公室藏匿秘密錄音裝置的前員工、35 歲沙烏地籍的 Abdulrahman Alfozan，可以 100 萬美元保證金獲釋。他於 2026 年 10 月 9 日被捕，被控竊聽這家 AI 公司的辦公室以錄下敏感對話；WSJ 指出，檢方指控他錄下的機密對話包括 OpenAI 與客戶及政府官員的會議。CNBC 也報導了交保裁定。",
+ "dive_html": "前沿 AI 公司掌握的模型權重與政府合作內容，使其成為國家級情報與商業間諜的高價值目標，這起案件凸顯「內部人員」是最難防的威脅。對所有研發敏感技術的公司，實體空間的安全管理與員工存取權限同樣重要。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "WSJ",
+   "title": "Saudi Engineer Accused of Bugging OpenAI to Be Released on $1 Million Bond",
+   "url": "https://www.wsj.com/tech/saudi-engineer-accused-of-bugging-openai-to-be-released-on-1-million-bond-954f048e?mod=rss_usnews",
+   "time": "2026-11-25T07:00:00+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "The Hacker News",
+   "title": "Ex-OpenAI Employee Accused of Bugging Company Offices Granted $1 Million Bail",
+   "url": "https://thehackernews.com/2026/11/ex-openai-employee-accused-of-bugging.html",
+   "time": "2026-11-25T18:43:07+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

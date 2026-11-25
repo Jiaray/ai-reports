@@ -1,0 +1,80 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0233",
+ "title": "孟加拉成衣工人經數週抗議爭取到最低工資調漲 36%",
+ "line": "孟加拉是僅次於中國的全球第二大成衣出口國，抗議曾造成數億美元商業損失",
+ "born_at": "2026-11-26T02:10:05+08:00",
+ "first_reported_at": "2026-11-25T14:25:10+08:00",
+ "updated_at": "2026-11-26T02:10:05+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "南亞"
+  ],
+  "country": [
+   "BD"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "勞動"
+  ],
+  "event": [
+   "政策法規",
+   "示威抗議"
+  ],
+  "sector": [
+   "零售與消費"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "孟加拉",
+   "成衣業",
+   "最低工資"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Dawn，官員表示孟加拉成衣工人於 11 月 25 日爭取到最低工資調漲 36%，此前數週的抗議有時演變為暴力衝突，造成數億美元的商業損失。孟加拉是僅次於中國的全球第二大成衣出口國。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Dawn",
+   "title": "Bangladesh garment workers win 36pc wage rise",
+   "url": "https://www.dawn.com/news/2046973/bangladesh-garment-workers-win-36pc-wage-rise",
+   "time": "2026-11-25T14:25:10+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

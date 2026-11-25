@@ -1,0 +1,80 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0229",
+ "title": "聯合國愛滋規劃署報告：國際 HIV 經費削減，數十年抗愛滋成果恐倒退",
+ "line": "報告同時指出反人權與反性別平等的聲浪升高，威脅防治進展",
+ "born_at": "2026-11-26T02:10:05+08:00",
+ "first_reported_at": "2026-11-24T00:00:00+08:00",
+ "updated_at": "2026-11-26T02:10:05+08:00",
+ "version": 1,
+ "archived": false,
+ "late": true,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "醫療照護"
+  ],
+  "org": [
+   "聯合國愛滋病規劃署"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "愛滋病",
+   "HIV",
+   "國際援助",
+   "公共衛生"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 UN News，致力於終結愛滋疫情的聯合國機構於美國時間 11 月 24 日發布新報告警告，對抗愛滋病數十年來的進展——史上最偉大的公共衛生成就之一——可能因國際 HIV 經費遭削減，以及反對人權與性別平等的運動聲勢增強而倒退。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "UN News",
+   "title": "Decades of gains against AIDS could unravel as HIV funding dries up",
+   "url": "https://news.un.org/en/story/2026/11/1168869",
+   "time": "2026-11-24T00:00:00+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "聯合國",
+   "kind": "official",
+   "region": "全球",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

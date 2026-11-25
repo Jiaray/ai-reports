@@ -1,0 +1,80 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0241",
+ "title": "Reuters：伊朗稱船隻在荷莫茲海峽觸雷，警告船舶須協調通行",
+ "line": "只有標題可引用，詳細內容未見",
+ "born_at": "2026-11-26T02:10:05+08:00",
+ "first_reported_at": "2026-11-25T18:11:44+08:00",
+ "updated_at": "2026-11-26T02:10:05+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東"
+  ],
+  "country": [
+   "IR"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "戰爭與衝突"
+  ],
+  "event": [
+   "軍事行動"
+  ],
+  "sector": [
+   "運輸與物流",
+   "能源與公用事業"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "荷莫茲海峽",
+   "水雷",
+   "航運安全"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Reuters 標題，伊朗表示有船隻在荷莫茲海峽觸碰水雷，並警告船舶通行須進行協調。報導細節未見。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Iran says ships hit mines in Hormuz, warns vessels to coordinate passage",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxOSmFmdlRJUnlMaVRFNERwb2YxLVVObG9leTlORFRtOTAyd2pvMTNuOGM5d0diMzNUb1NHaDVWOGlTeWg3bmcwU21BdHRHZlB6a0VDeXlNcUtYMDBiZUpyVFRyMkhIQjlpemZIeGVQNEdXb2hCOHZwYW5VZUt4V3MySnpZWUViYTA5MEp2eDlBbGNoVjB5dk5CcHdZR3NyUjZIVlV3d0s2Z3BUMTQ?oc=5",
+   "time": "2026-11-25T18:11:44+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

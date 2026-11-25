@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0234",
+ "title": "以色列 Eisenkot 領導的 Yashar 黨與右翼在野黨達成首份組閣協議",
+ "line": "前參謀總長 Eisenkot 與 Lieberman 會面，尋求在上月大選後組成政府",
+ "born_at": "2026-11-26T02:10:05+08:00",
+ "first_reported_at": "2026-11-25T14:54:15+08:00",
+ "updated_at": "2026-11-26T02:10:05+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東"
+  ],
+  "country": [
+   "IL"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "政治"
+  ],
+  "event": [
+   "會談協議"
+  ],
+  "org": [
+   "Yashar",
+   "以色列我們的家園黨"
+  ],
+  "person": [
+   "Gadi Eisenkot",
+   "Avigdor Lieberman"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "以色列組閣",
+   "Eisenkot",
+   "以色列大選"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Dawn，由前以色列軍方參謀總長 Gadi Eisenkot 領導的 Yashar 黨於美國時間 11 月 24 日表示，已同意與一個右翼在野黨簽署組閣協議，尋求在上月大選後組成政府；Yashar 黨說 Eisenkot 已與以色列我們的家園黨（Yisrael Beiteinu）黨魁 Avigdor Lieberman 會面。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Dawn",
+   "title": "Eisenkot clinches first coalition agreement in bid to form Israel's government",
+   "url": "https://www.dawn.com/news/2046976/eisenkot-clinches-first-coalition-agreement-in-bid-to-form-israels-government",
+   "time": "2026-11-25T14:54:15+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

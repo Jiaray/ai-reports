@@ -1,0 +1,141 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0242",
+ "title": "COP31 氣候談判在土耳其破局，約 90 國因協議未提化石燃料反對，未通過總決議",
+ "line": "各國未能就化石燃料、資金、科學與碳移除達成共識；教宗良十四世稱「令人憂心」",
+ "born_at": "2026-11-26T02:10:05+08:00",
+ "first_reported_at": "2026-11-25T08:12:34+08:00",
+ "updated_at": "2026-11-26T02:10:05+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球",
+   "歐洲"
+  ],
+  "country": [
+   "TR"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "環境與氣候",
+   "國際關係"
+  ],
+  "event": [
+   "會談協議"
+  ],
+  "story": [
+   "COP31"
+  ],
+  "sector": [
+   "能源與公用事業"
+  ],
+  "org": [
+   "聯合國氣候變化綱要公約",
+   "教廷"
+  ],
+  "person": [
+   "良十四世",
+   "Chris Bowen"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "COP31",
+   "氣候談判",
+   "化石燃料",
+   "安塔利亞協定"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據中央社引述法新社，在土耳其舉行的聯合國氣候變化綱要公約第 31 次締約方會議（COP31）於 11 月 22 日落幕，各國未能就化石燃料、資金、科學及碳移除技術達成共識。據 Rappler，談判破局、未能通過總決議（cover decision），約 90 個國家反對《安塔利亞協定》（Antalya Pact），主因是協定未提及化石燃料，許多國家與氣候倡議者表達失望與挫折。教宗良十四世 11 月 25 日表示，在極端環境事件日益頻繁之際，國際社會卻未做出明確承諾「令人憂心」，並強調全球暖化也是社會正義問題，窮人首當其衝。Guardian 報導，擔任談判主席的澳洲氣候部長 Chris Bowen 在 COP31 上皺眉的照片引發關注。Memia 電子報也以「COP31 因協議草案略去化石燃料而崩潰」報導。",
+ "dive_html": "連最低限度的總決議都沒通過，是近年 COP 最失敗的結果之一，與同期全球氣溫連續六天高出工業化前 2°C 形成強烈對比。化石燃料條文成為破局點，顯示產油國與氣候脆弱國家的分歧已難以在共識制下彌合，未來氣候行動可能更依賴區域性或雙邊協議。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "COP31氣候談判破局　教宗：令人憂心",
+   "url": "https://www.cna.com.tw/news/aopl/202611250319.aspx",
+   "time": "2026-11-25T20:57:34+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Rappler",
+   "title": "Pope Leo calls COP31 failure ‘troubling,’ urges action on climate change",
+   "url": "https://www.rappler.com/world/global-affairs/pope-leo-xiv-calls-cop31-failure-troubling/",
+   "time": "2026-11-25T18:41:34+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "0 comments",
+   "family": "Rappler",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 3
+  },
+  {
+   "name": "Rappler",
+   "title": "The Green Report: Worst COP ever? What went down at 2026 UN climate talks",
+   "url": "https://www.rappler.com/environment/the-green-report-what-went-down-2026-un-climate-talks/",
+   "time": "2026-11-25T17:00:00+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "3 comments",
+   "family": "Rappler",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 3
+  },
+  {
+   "name": "The Guardian Environment",
+   "title": "Why are people captivated by this photo of Australia’s climate change minister scowling at Cop31?",
+   "url": "https://www.theguardian.com/culture/2026/nov/25/chris-bowen-cop31-deal-failure-photograph",
+   "time": "2026-11-25T08:40:13+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Memia",
+   "title": "COP31 collapses after draft agreement omits fossil fuels",
+   "url": "https://theconversation.com/what-it-was-like-to-watch-crucial-cop-climate-talks-fall-apart-at-the-last-minute-297270",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "theconversation.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 6,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

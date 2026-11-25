@@ -1,0 +1,79 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0238",
+ "title": "沖繩首里城正殿完成歷史修復，11 月 23 日正式重新開放",
+ "line": "那霸當地居民表示很高興看到它恢復，期待參觀內部",
+ "born_at": "2026-11-26T02:10:05+08:00",
+ "first_reported_at": "2026-11-25T14:00:00+08:00",
+ "updated_at": "2026-11-26T02:10:05+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞"
+  ],
+  "country": [
+   "JP"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "文化藝術"
+  ],
+  "event": [
+   "活動賽事"
+  ],
+  "sector": [
+   "觀光"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "首里城",
+   "文化資產",
+   "沖繩"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Japan Times，沖繩首里城正殿完成歷史修復後重新開放，11 月 23 日舉行正式開放儀式。一位出席的那霸居民表示，很高興看到它恢復，也非常期待進去參觀。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Japan Times",
+   "title": "Shuri Castle’s main hall reopens after historical restoration",
+   "url": "https://www.japantimes.co.jp/life/2026/11/25/travel/shuri-castle-reopening-okinawa-travel-fire/",
+   "time": "2026-11-25T14:00:00+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

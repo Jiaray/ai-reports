@@ -1,0 +1,114 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0239",
+ "title": "孟加拉前總理哈希納擬 12 月 16 日結束流亡返國，印度稱與孟國引渡請求是兩回事",
+ "line": "她 2024 年因學生示威鎮壓下台出逃印度，去年遭缺席審判判處死刑",
+ "born_at": "2026-11-26T02:10:05+08:00",
+ "first_reported_at": "2026-11-25T11:44:00+08:00",
+ "updated_at": "2026-11-26T02:10:05+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "南亞"
+  ],
+  "country": [
+   "BD",
+   "IN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "政治",
+   "國際關係"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "org": [
+   "印度外交部",
+   "孟加拉政府"
+  ],
+  "person": [
+   "哈希納",
+   "Randhir Jaiswal"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "哈希納",
+   "孟加拉",
+   "引渡",
+   "流亡"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據中央社引述路透，孟加拉流亡前總理哈希納（Sheikh Hasina）宣布計劃於 12 月 16 日返回孟加拉，結束在印度兩年多的流亡，本月已申請新護照與身分證件；但孟加拉政府一再重申她只能透過引渡回國。2024 年 8 月，孟加拉爆發反對哈希納統治、造成多人死亡的學生示威，她隨後逃離達卡；孟加拉法院去年在她缺席下裁定她下令鎮壓示威，判處死刑。印度外交部發言人賈斯瓦表示，印度正依既定程序審查孟加拉的引渡請求，「一名公民持旅行證件自願返國，與引渡請求是兩回事」，未進一步說明。Japan Times 與 Straits Times 也報導此事。",
+ "dive_html": "身負死刑判決的前總理宣布返國，若成行，孟加拉政府將面臨逮捕執刑或政治妥協的兩難，國內可能再起動盪。印度以「自願返國」切割引渡問題，顯示新德里不願在兩國關係中背負處置她的責任。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "孟加拉流亡前總理擬12月返國　印度：與引渡是兩回事",
+   "url": "https://www.cna.com.tw/news/aopl/202611250332.aspx",
+   "time": "2026-11-25T21:57:07+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Japan Times",
+   "title": "Why is Sheikh Hasina’s plan to return to Bangladesh contentious?",
+   "url": "https://www.japantimes.co.jp/news/2026/11/25/asia-pacific/politics/sheikh-hasina-return-bangladesh/",
+   "time": "2026-11-25T11:44:00+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "India says Hasina's plan to return to Bangladesh is separate from extradition request",
+   "url": "https://www.straitstimes.com/asia/india-says-hasinas-plan-to-return-to-bangladesh-is-separate-from-extradition-request",
+   "time": "2026-11-25T21:16:38+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 7,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0236",
+ "title": "Nikkei：三星、SK 海力士採用長江存儲的晶片堆疊技術，中國記憶體廠專利實力追上前輩",
+ "line": "交互授權顯示成立 10 年的長江存儲已能與老牌大廠並駕齊驅，全球專利申請逾 1.2 萬件",
+ "born_at": "2026-11-26T02:10:05+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T02:10:05+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中國大陸",
+   "東北亞"
+  ],
+  "country": [
+   "CN",
+   "KR"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "科技",
+   "企業經營"
+  ],
+  "event": [
+   "併購投資"
+  ],
+  "sector": [
+   "半導體"
+  ],
+  "org": [
+   "長江存儲",
+   "Samsung",
+   "SK 海力士"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "長江存儲",
+   "3D NAND",
+   "晶片堆疊",
+   "交互授權"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Nikkei Asia，全球最大的記憶體晶片製造商南韓三星電子與 SK 海力士，正在採用中國長江存儲（YMTC）的晶片堆疊技術。報導指出，這些交互授權協議顯示成立僅 10 年的長江存儲，已能與規模更大、歷史更久的對手並駕齊驅；長江存儲一直在為記憶體事業建立強大的智慧財產組合，表示已在全球申請超過 1.2 萬件專利。擷取的報導沒有交代授權的具體技術範圍與金額。",
+ "dive_html": "韓國龍頭反向採用中國記憶體廠的技術，是中國半導體在先進製程受制於出口管制下，仍在特定技術上取得領先的指標；這也可能讓美國的管制在記憶體領域面臨新的難題。台灣記憶體與封測業者需關注晶片堆疊技術路線的變化與專利格局。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Nikkei Asia",
+   "title": "China's YMTC boosted by Samsung and SK Hynix adopting its memory technology",
+   "url": "https://asia.nikkei.com/business/tech/semiconductors/china-s-ymtc-boosted-by-samsung-and-sk-hynix-adopting-its-memory-technology",
+   "time": null,
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

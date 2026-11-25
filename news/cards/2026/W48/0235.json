@@ -1,0 +1,137 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0235",
+ "title": "德國總理梅爾茨警告俄國正在歐洲與太空大規模升高衝突，「俄國要的不只是烏克蘭」",
+ "line": "德國曾警告俄國準備發射核武衛星；梅爾茨試圖說服日益懷疑的民眾繼續支持烏克蘭",
+ "born_at": "2026-11-26T02:10:05+08:00",
+ "first_reported_at": "2026-11-25T08:12:34+08:00",
+ "updated_at": "2026-11-26T02:10:05+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "DE",
+   "RU",
+   "UA"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "國防與軍事",
+   "國際關係"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "sector": [
+   "航太與國防"
+  ],
+  "org": [
+   "德國政府"
+  ],
+  "person": [
+   "梅爾茨"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "梅爾茨",
+   "俄羅斯",
+   "核武衛星",
+   "太空安全"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 FT，德國總理梅爾茨警告俄國正在歐洲與太空升高衝突，他正試圖說服日益抱持懷疑態度的德國民眾繼續支持烏克蘭。Guardian 的直播紀錄指出，梅爾茨在一場涵蓋廣泛的演說中表示，莫斯科「正在大規模升級」，「俄國要的不只是烏克蘭」；Reuters 報導他以此為對基輔的援助辯護。Euronews 的晚間新聞提到俄國的核武太空威脅；Memia 電子報也引述德國警告，俄國準備發射搭載核武的衛星。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Financial Times",
+   "title": "Russia is escalating conflict in Europe and space, warns Merz",
+   "url": "https://www.ft.com/content/afdac003-51b0-43da-8c7c-b5675f9b7c1b?syn-25a6b1a6=1",
+   "time": "2026-11-25T19:56:23+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "'Russia wants more than Ukraine,' says Germany's Merz as he defends aid for Kyiv",
+   "url": "https://news.google.com/rss/articles/CBMivwFBVV95cUxQWUI5R19MZFluOFUyQWRCLTJnRVpNYnZfemhIT0g5bEZqblpJYXNxSVBFNk4xSjFYWGFIcldBUEZvM0xrWDlya3hrVzNRbWQxdFpXOEdXR2g0bmRDZ1FOS2t5TnlKNkE2WGhOVXp5MU9YZkRHM1hQSUhRT0hzMEx5MlU4a1dMS2lEMDZ2MVdrQ3dBeE5wZGhwTmFoLUJ2QjV0ZzEzMXJ3eVpsaGVKM2ZmYlJrNi02MWl3Q1I0UFN4VQ?oc=5",
+   "time": "2026-11-25T23:57:34+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "The Guardian World",
+   "title": "‘Russia wants more than Ukraine,’ Germany’s Merz warns – as it happened",
+   "url": "https://www.theguardian.com/world/live/2026/nov/25/ukraine-russia-energy-strikes-mark-rutte-donald-trump-friedrich-merz-germany-latest-news-updates",
+   "time": "2026-11-26T00:20:53+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Europe Tonight: Trump unveils new tariffs amid Russian nuclear space threat",
+   "url": "https://www.euronews.com/2026/11/25/europe-tonight-trump-unveils-new-tariffs-amid-russian-nuclear-space-threat",
+   "time": "2026-11-26T01:00:28+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Memia",
+   "title": "Russia poised to launch nuclear-armed satellite, Germany warns",
+   "url": "https://www.ft.com/content/dd00f616-1fef-4a26-a5f9-2b1bf83cc489?segmentId=776b81d7-dd92-c731-e669-99cdd37d3a96&syn-25a6b1a6=1",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 1,
+  "media_weight": 10,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

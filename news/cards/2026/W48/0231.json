@@ -1,0 +1,80 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0231",
+ "title": "歐洲議會最終通過歐盟藥品法規全面改革，盼防止缺藥並促進創新",
+ "line": "歷經兩年多談判，更新已逾 20 年的藥品法規，理事會今年稍早已核准",
+ "born_at": "2026-11-26T02:10:05+08:00",
+ "first_reported_at": "2026-11-26T00:44:09+08:00",
+ "updated_at": "2026-11-26T02:10:05+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "醫藥與生技"
+  ],
+  "org": [
+   "歐洲議會",
+   "歐盟理事會"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "歐盟藥品法規",
+   "缺藥",
+   "醫藥產業"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Euronews，歐洲議會在歷經兩年多的談判後，最終通過歐盟藥品法規的全面改革。這套新規定今年稍早已獲歐盟理事會核准，更新了已有 20 多年歷史的法規，目標是防止藥品短缺、改善民眾取得治療的管道，並促進整個歐盟的創新。擷取的報導沒有交代具體條文內容與施行時程。",
+ "dive_html": "歐盟藥品法規改革牽動資料保護期與市場獨占期等關鍵規則，將影響原廠與學名藥廠的布局；防缺藥條款則可能要求業者加強供應鏈通報。台灣藥廠若有歐洲市場布局，需留意後續施行細則。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Euronews",
+   "title": "European Parliament approves new EU medicines rules. What happens next?",
+   "url": "https://www.euronews.com/2026/11/25/european-parliament-approves-new-eu-medicines-rules-what-happens-next",
+   "time": "2026-11-26T00:44:09+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

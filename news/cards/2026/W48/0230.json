@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0230",
+ "title": "俄國無人機屢次侵犯領空，波蘭擬在烏克蘭邊境設禁飛區並呼籲北約盟國提高警覺",
+ "line": "禁飛區將涵蓋邊境沿線數十公里的波蘭領土，目標年底前設立",
+ "born_at": "2026-11-26T02:10:05+08:00",
+ "first_reported_at": "2026-11-25T22:59:00+08:00",
+ "updated_at": "2026-11-26T02:10:05+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "PL",
+   "UA",
+   "RU"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "國防與軍事",
+   "戰爭與衝突"
+  ],
+  "event": [
+   "政策法規",
+   "軍事行動"
+  ],
+  "story": [
+   "俄烏戰爭"
+  ],
+  "sector": [
+   "航太與國防"
+  ],
+  "org": [
+   "波蘭政府",
+   "北大西洋公約組織"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "波蘭",
+   "禁飛區",
+   "無人機",
+   "北約"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 DW，波蘭在俄國一再侵犯領空後，呼籲北約盟國在各自邊境保持警覺，並希望在年底前於與烏克蘭的邊境附近設立禁飛區，範圍涵蓋邊境沿線數十公里的波蘭領土。DW 的同篇彙整也提到，俄國攻擊讓烏克蘭天然氣設施與一座火力發電廠停擺，烏克蘭則稱攻擊了薩馬拉地區的俄國石油設施；盟國對基輔在利比亞攻擊俄國船隻意見不一，法國外長為烏克蘭攻擊俄國影子船隊的行動辯護。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "DW News",
+   "title": "Ukraine: Poland to set up no-fly zone near Ukraine border",
+   "url": "https://www.dw.com/en/ukraine-poland-to-set-up-no-fly-zone-near-ukraine-border/live-80047122?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-25T22:59:00+08:00",
+   "added_at": "2026-11-26T02:10:05+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}
