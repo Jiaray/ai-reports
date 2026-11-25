@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0095",
+ "title": "葡萄牙國會撤回 Livre 黨對線上博奕淨贏利課徵所得稅的提案，不納入 2027 年預算",
+ "line": "11 月 19 日初審通過後數日內翻盤，提案 23 日撤回",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T22:04:37+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "PT"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "葡萄牙國會",
+   "Livre",
+   "社會民主黨",
+   "社會黨"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "葡萄牙",
+   "線上博奕",
+   "贏利課稅",
+   "2027 年預算"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Yogonet，葡萄牙國民議會否決左翼 Livre 黨把線上博奕淨贏利視為個人所得課稅的提案，推翻了審議 2027 年國家預算期間的初步通過，這項措施將不列入 2027 年預算。國會紀錄顯示，提案在預算委員會未能獲得 Livre 以外的支持，已於 11 月 23 日撤回。議員原在 11 月 19 日表決支持：當時自由倡議黨反對、Chega 棄權，其他黨團支持；20 日執政的社會民主黨（PSD）與在野社會黨也表態支持，但數日內情勢逆轉。",
+ "dive_html": "對博彩業者是避開一項會降低玩家淨收益、打擊合法市場吸引力的稅；數日內翻盤也顯示業界遊說與預算協商的影響力。歐洲多國正以加稅填補財政，類似提案未來仍可能在其他國家出現。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Yogonet International",
+   "title": "Portugal's parliament reverses vote on Livre plan to tax net online gambling winnings",
+   "url": "https://www.yogonet.com/international/news/2026/11/25/127467-portugal-39s-parliament-reverses-vote-on-livre-plan-to-tax-net-online-gambling-winnings",
+   "time": "2026-11-25T22:04:37+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Yogonet",
+   "kind": "media",
+   "region": "中南美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

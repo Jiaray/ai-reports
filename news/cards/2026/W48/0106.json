@@ -1,0 +1,116 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0106",
+ "title": "英國折扣零售 Poundland 進入破產管理，600 家店、逾 1.1 萬個職位岌岌可危",
+ "line": "美國老闆 Gordon Brothers 一年前以 1 英鎊收購，被指拒絕兩項最後收購提案；AlixPartners 接手",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-26T00:24:30+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "GB",
+   "IE",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "企業經營"
+  ],
+  "event": [
+   "裁員重組"
+  ],
+  "sector": [
+   "零售與消費"
+  ],
+  "org": [
+   "Poundland",
+   "Gordon Brothers",
+   "AlixPartners",
+   "Pepco"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Poundland",
+   "破產管理",
+   "英國零售"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 BBC 與 Guardian，英國折扣零售連鎖 Poundland 於 11 月 25 日正式進入破產管理（administration），在耶誕節前數週讓 1.1 萬至 1.2 萬個職位面臨風險。顧問公司 AlixPartners 獲任命為管理人，表示出售程序未找到讓整體業務存續的方案，將評估整體或部分出售業務與資產，期間全部門市與物流中心照常營業；連鎖可能被拆分、部分門市售予同業。Poundland 在英國與愛爾蘭有 600 家店，美國老闆 Gordon Brothers 去年以象徵性的 1 英鎊向歐洲零售集團 Pepco 買下；Guardian 指其拒絕至少兩項最後一刻的收購提案，外界批評這家專門收購重整困境企業的投資公司想靠分拆門市與存貨獲利，Gordon Brothers 否認，稱已用盡方法出售整體公司，但 Poundland 仍易受通膨與銷售下滑衝擊。",
+ "dive_html": "以 1 英鎊收購、一年後破產，凸顯英國零售業在通膨與能源成本上升下的脆弱，也讓「困境基金收購後拆賣」的模式再受檢視。同期英國能源帳單將漲 26%，低價零售的客群壓力更大，後續可能還有其他連鎖倒閉。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "600 家門市；1.1 萬（BBC）至 1.2 萬（Guardian）個職位；去年收購價 1 英鎊"
+  }
+ ],
+ "sources": [
+  {
+   "name": "BBC Top News",
+   "title": "Poundland collapses putting 11,000 jobs at risk",
+   "url": "https://www.bbc.co.uk/news/articles/cm3vgdn037z4o",
+   "time": "2026-11-26T01:21:34+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC Top News",
+   "title": "Why has Poundland collapsed and what happens next?",
+   "url": "https://www.bbc.co.uk/news/videos/ckregn0gq2ydo",
+   "time": "2026-11-26T00:24:30+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "Poundland collapses into administration, putting 12,000 jobs at risk",
+   "url": "https://www.theguardian.com/business/2026/nov/25/poundland-administration-jobs-at-risk-gordon-brothers",
+   "time": "2026-11-26T00:41:08+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

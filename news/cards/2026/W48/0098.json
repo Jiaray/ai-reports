@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0098",
+ "title": "巴西博奕禁令臨時措施屆滿首個 60 天，國會仍未成立審查委員會",
+ "line": "魯拉以家庭債務與公共衛生為由簽署禁令，期限已延至 2027 年 3 月 4 日前須表決",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T23:23:22+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中南美"
+  ],
+  "country": [
+   "BR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "巴西國會",
+   "巴西總統府"
+  ],
+  "person": [
+   "魯拉",
+   "Davi Alcolumbre"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "巴西",
+   "博奕禁令",
+   "臨時措施 1.394"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 iGaming Business，下令在巴西禁止博奕平台的第 1.394 號臨時措施（Provisional Measure）已屆滿首個 60 天；總統魯拉簽署時以家庭債務與公共衛生為由。依憲法，臨時措施只能在「重要且緊急」時發布，具立即法律效力，但須經參眾兩院審查才能轉為正式法律。然而國會負責審查的聯合委員會至今仍未成立，也未任命主席與報告人。國會議長、參議員 Davi Alcolumbre 兩週前已把措施效期再延 60 天，措施須在 2027 年 3 月 4 日前表決。",
+ "dive_html": "國會遲遲不動，等於讓禁令在法律上懸而未決，業者陷入「已被禁、但法律可能失效」的灰色狀態；同期巴西央行撤銷非法博奕背後金融科技的執照，政府執法與國會立法步調明顯不一。對已在巴西取得執照的國際業者，3 月的表決結果攸關數年投資是否歸零。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "iGaming Business",
+   "title": "Brazil Congress fails to advance betting ban as 60-day deadline expires",
+   "url": "https://igamingbusiness.com/legal-compliance/brazil-congress-fails-to-advance-betting-ban/",
+   "time": "2026-11-25T23:23:22+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "iGaming Business",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

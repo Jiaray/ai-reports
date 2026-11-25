@@ -1,0 +1,112 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0076",
+ "title": "疑以 AI 代理發動的攻擊行動 GT13 入侵 24 台 Check Point 管理伺服器，至少 22 個組織受害",
+ "line": "GreyNoise 追蹤到 99 個 IP 掃描、利用與控制，橫跨能源、金融、政府等產業，攻擊者可能仍保有存取",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T06:18:45+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "country": [
+   "US",
+   "GB",
+   "KR",
+   "AU",
+   "DE"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "AI"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "能源與公用事業",
+   "金融",
+   "機械與工業製造"
+  ],
+  "org": [
+   "GreyNoise",
+   "Check Point"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "GT13",
+   "Check Point Security Management",
+   "CVE-2026-61500",
+   "AI 代理攻擊"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 ICSDA 與 The Hacker News 引述威脅情資公司 GreyNoise，代號 GT13 的未知攻擊者疑使用 AI 代理式工具，自動掃描、武器化漏洞並與受害資產互動，再搭配人工操作，鎖定 Check Point Security Management 伺服器。GreyNoise 在 10 月 17 日至 11 月 2 日確認攻擊活動，攻擊者使用 99 個 IP，全是 ExpressVPN 出口或已淪陷的 Check Point 設備，紀錄包括 1,400 多個連線、800 多個命令列痕跡與 1,200 多個檔案操作；至少 22 個組織受害，涵蓋金融、能源、政府、運輸、礦業、工程與製造，分布於英、美、德、澳、南韓、香港、中國等地。其中一例是 10 月初以 Rejetto HFS 的重大漏洞 CVE-2026-61500 自動化入侵 HFS 伺服器取得 SSH；攻擊者以一台受害伺服器當跳板，存放自 24 台淪陷 Check Point 管理伺服器外傳的資料，並使用 Nmap、Chisel、Impacket 等工具橫向移動。過程中嘗試利用的漏洞還包括 CVE-2023-4966、CVE-2025-5777、CVE-2020-1472、CVE-2021-26855 等。攻擊者如何取得 Check Point 資產的存取權仍未釐清，行動尚未歸因。",
+ "dive_html": "管理伺服器是資安設備的總指揮，被拿下等於整條防線換了主人；攻擊者用自動化流程像逛自助餐一樣挑舊洞，顯示「漏補一個就中」的成本被 AI 壓到極低（ICSDA 觀點）。台灣企業大量使用 Check Point、Citrix、vCenter 這類邊界與管理設備，應立即確認管理介面沒有直接暴露在網際網路，並檢查是否有不明的 SSH 公鑰。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Check Point Security Management 伺服器（24 台淪陷、22 個組織）；串用 HFS（CVE-2026-61500）、Citrix、Ivanti、Exchange、vCenter、NetLogon 等舊漏洞；高危；利用狀態：已遭利用"
+  },
+  {
+   "name": "處置",
+   "html": "限制管理伺服器僅能從管理網段或 VPN 存取；清查 SSH 授權金鑰與管理員憑證；逐一確認上列 CVE 已修補"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ICSDA 資安日報",
+   "title": "AI代理人狂掃Check Point管理伺服器",
+   "url": "https://www.securityweek.com/check-point-security-management-servers-hacked-in-ai-assisted-campaign/",
+   "time": "2026-11-25T06:18:45+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "SecurityWeek",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "The Hacker News",
+   "title": "Hackers Compromise 24 Check Point Management Servers in Suspected AI-Driven Attack Campaign",
+   "url": "https://thehackernews.com/2026/11/hackers-compromise-24-check-point.html",
+   "time": "2026-11-25T14:50:19+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

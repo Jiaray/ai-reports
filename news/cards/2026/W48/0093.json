@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0093",
+ "title": "BADBOX 3.0 殭屍網路捲土重來，高峰時每天製造 400 億次假廣告競價請求",
+ "line": "利用預載惡意程式的廉價 Android 電視盒，規模是前紀錄保持者 VASTFLUX 的 3 倍以上",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T08:00:00+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "硬體與消費電子",
+   "媒體與娛樂"
+  ],
+  "org": [
+   "HUMAN Security",
+   "Google"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "BADBOX 3.0",
+   "廣告詐欺",
+   "Android 電視盒",
+   "常駐代理網路"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 iThome，資安業者 HUMAN Security 揭露 BADBOX 3.0 殭屍網路，攻擊者利用遭植入惡意程式的廉價 Android 電視盒大規模從事廣告詐欺，高峰時每天產生約 400 億次廣告競價請求，創公開紀錄，占該公司觀測到的連網電視（CTV）流量逾 4%，是前紀錄 VASTFLUX 的 3 倍以上。這些裝置多半未通過 Google Play Protect 認證，惡意程式會在使用者不知情下播放影片廣告，或冒用合法 CTV 應用程式身分送出競價請求；受感染裝置也可能被加入常駐代理網路，讓他人透過受害者的家用網路傳送流量，使假流量看起來像一般家庭連線。BADBOX 2023 年曝光，2024 年底德國政府曾阻斷其通訊，2025 年 3 月 BADBOX 2.0 遭部分阻斷時已有逾 100 萬台裝置感染；3.0 改透過公開程式碼儲存庫與多個備援管道散布。HUMAN 已採取阻斷行動，但不代表裝置已全部清除。Google 建議選用通過 Play Protect 認證、採用 Android TV OS 的裝置。",
+ "dive_html": "對廣告主與手遊買量團隊，這意味著 CTV 與部分程序化廣告流量中有相當比例是假的，投放成效數據需要第三方驗證。家用電視盒被當成代理節點，也讓使用者可能在不知情下替犯罪流量背書；台灣市面上的低價「機上盒」同樣是風險來源。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "未通過 Play Protect 認證的廉價 Android 電視盒；受害者包括廣告主與被當作代理節點的家用網路（非漏洞類）"
+  },
+  {
+   "name": "處置",
+   "html": "選購通過 Play Protect 認證的裝置；企業網路應找出並隔離來路不明的電視盒"
+  }
+ ],
+ "sources": [
+  {
+   "name": "iThome 資安",
+   "title": "BADBOX 3.0殭屍網路捲土重來，假廣告流量高峰時每天產生400億次競價請求",
+   "url": "https://www.ithome.com.tw/news/180729",
+   "time": "2026-11-25T08:00:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

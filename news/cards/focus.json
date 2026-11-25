@@ -1,9 +1,225 @@
 {
  "schema": 2,
- "built_at": "2026-11-26T01:46:18+08:00",
+ "built_at": "2026-11-26T01:54:26+08:00",
  "window_hours": 24,
  "limit": 10,
  "cards": [
+  {
+   "id": "2026-W48-0060",
+   "title": "美國 301 調查出爐，擬對 14 個經濟體加徵關稅：台灣最高 15%、中國 20%，半導體擬豁免",
+   "line": "USTR 以製造業結構性產能過剩為由提議新關稅，台灣稅率不疊加 MFN，2027 年 1 月 25 日舉行聽證",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "總體經濟",
+    "國際關係"
+   ],
+   "topic_all": [
+    "總體經濟",
+    "財經",
+    "國際關係"
+   ],
+   "story": [
+    "美國301關稅調查"
+   ],
+   "sector": [
+    "半導體",
+    "汽車",
+    "醫藥與生技"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "北美",
+    "台灣",
+    "全球"
+   ],
+   "taiwan": "直接",
+   "weight": "高",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": true,
+   "org": [
+    "美國貿易代表署",
+    "歐盟"
+   ],
+   "person": [
+    "川普",
+    "葛里爾"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 12,
+    "regions": 7,
+    "media_weight": 25,
+    "community": {
+     "hn": 0,
+     "ptt": 42,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "social",
+    "politics",
+    "finance"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T17:02:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.0,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0064",
+   "title": "黃仁勳在川普介入下復職輝達執行長，股價反彈一天即回落，國會與司法調查未停",
+   "line": "黃仁勳向員工道歉承認違反行為準則；美情報官員稱目前無證據顯示婚外情對象受中國指使",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "企業經營",
+    "國際關係"
+   ],
+   "topic_all": [
+    "企業經營",
+    "財經",
+    "國際關係"
+   ],
+   "story": [
+    "黃仁勳復職輝達"
+   ],
+   "sector": [
+    "半導體"
+   ],
+   "event": [
+    "人事異動",
+    "爭議風波"
+   ],
+   "region": [
+    "北美",
+    "中國大陸",
+    "台灣"
+   ],
+   "taiwan": "間接",
+   "weight": "高",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "Nvidia",
+    "白宮",
+    "美國司法部",
+    "Megaspeed",
+    "美國眾議院"
+   ],
+   "person": [
+    "黃仁勳",
+    "川普",
+    "黃樂"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 14,
+    "regions": 6,
+    "media_weight": 28,
+    "community": {
+     "hn": 0,
+     "ptt": 9,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "social",
+    "politics",
+    "finance",
+    "tech"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-24T08:00:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.009900990099009901,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0072",
+   "title": "AI 股賣壓加劇，那斯達克 100 盤中跌 4.7% 觸及熊市門檻，逾 8.5 兆美元市值蒸發",
+   "line": "輝達復職行情消退、新關稅與通膨數據疊加，費城半導體指數盤中重挫逾 7%",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "金融市場"
+   ],
+   "topic_all": [
+    "金融市場",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "半導體",
+    "軟體與雲端"
+   ],
+   "event": [
+    "市場波動"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "間接",
+   "weight": "高",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "那斯達克",
+    "Nvidia",
+    "Anthropic"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 6,
+    "regions": 3,
+    "media_weight": 14,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "finance"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T22:48:21+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.019801980198019802,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
   {
    "id": "2026-W48-0043",
    "title": "美國財政部金融犯罪執法局 FinCEN 遭入侵，部分系統下線、延長申報期限",
@@ -62,9 +278,70 @@
    "first_reported_at": "2026-11-25T09:45:35+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.0,
+   "heat_rank": 0.0297029702970297,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
+  },
+  {
+   "id": "2026-W48-0061",
+   "title": "美國第 3 季 GDP 上修至年增 4.3%，10 月 PCE 物價年增 3.8% 追平 3 年高點，12 月升息預期升溫",
+   "line": "投資與消費強勁，核心資本財訂單也優於預期；通膨居高不下讓聯準會可能年內二度升息",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "總體經濟"
+   ],
+   "topic_all": [
+    "總體經濟",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "金融"
+   ],
+   "event": [
+    "數據發布"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "間接",
+   "weight": "高",
+   "relevance": "中",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "美國商務部",
+    "聯準會"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 5,
+    "regions": 2,
+    "media_weight": 12,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "finance"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T21:47:43+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.039603960396039604,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
   },
   {
    "id": "2026-W48-0006",
@@ -130,9 +407,77 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.017543859649122806,
+   "heat_rank": 0.04950495049504951,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
+  },
+  {
+   "id": "2026-W48-0109",
+   "title": "伊朗革命衛隊網軍 Shahid Kaveh 被指駭入法國數百家超市冷凍系統，毀損數百萬歐元食品",
+   "line": "法國情報單位在數位軌跡中發現波斯文等線索；專家認為代表伊朗對歐洲基礎設施的網攻升級",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安",
+    "國際關係"
+   ],
+   "topic_all": [
+    "資安",
+    "科技",
+    "國際關係"
+   ],
+   "story": [],
+   "sector": [
+    "零售與消費"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "歐洲",
+    "中東"
+   ],
+   "taiwan": "無",
+   "weight": "高",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "伊斯蘭革命衛隊",
+    "Shahid Kaveh",
+    "CyberAv3ngers"
+   ],
+   "person": [
+    "Ellie Geranmayeh"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 3,
+    "regions": 2,
+    "media_weight": 7,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:12:34+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.0594059405940594,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
   },
   {
    "id": "2026-W48-0002",
@@ -203,7 +548,7 @@
    "first_reported_at": "2026-11-25T16:23:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.03508771929824561,
+   "heat_rank": 0.0891089108910891,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -272,9 +617,200 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.03508771929824561,
+   "heat_rank": 0.0891089108910891,
    "exploited": true,
    "focus_at": "2026-11-26T01:46:18+08:00"
+  },
+  {
+   "id": "2026-W48-0076",
+   "title": "疑以 AI 代理發動的攻擊行動 GT13 入侵 24 台 Check Point 管理伺服器，至少 22 個組織受害",
+   "line": "GreyNoise 追蹤到 99 個 IP 掃描、利用與控制，橫跨能源、金融、政府等產業，攻擊者可能仍保有存取",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安",
+    "AI"
+   ],
+   "topic_all": [
+    "資安",
+    "科技",
+    "AI"
+   ],
+   "story": [],
+   "sector": [
+    "能源與公用事業",
+    "金融",
+    "機械與工業製造"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "高",
+   "relevance": "高",
+   "urgency": "高",
+   "upcoming": false,
+   "org": [
+    "GreyNoise",
+    "Check Point"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.10891089108910891,
+   "exploited": true,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0080",
+   "title": "Drupal 核心「Fail2Install」重大漏洞遭積極利用，CISA 列入 KEV、限 11 月 27 日前修補",
+   "line": "耗盡伺服器資源可騙 Drupal 以為網站未安裝，經 install.php 重裝並執行任意 PHP",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "漏洞揭露"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "高",
+   "relevance": "高",
+   "urgency": "高",
+   "upcoming": false,
+   "org": [
+    "CISA",
+    "Drupal",
+    "Searchlight Cyber"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T04:00:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.10891089108910891,
+   "exploited": true,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0086",
+   "title": "Broadcom 修補 VMware 23 個漏洞，含 vCenter 身分驗證繞過重大漏洞 CVE-2026-123903",
+   "line": "數日內第二個 vmdir 認證繞過漏洞，前一個已遭疑似中國背景組織利用",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "漏洞揭露",
+    "版本更新"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "高",
+   "relevance": "高",
+   "urgency": "高",
+   "upcoming": false,
+   "org": [
+    "Broadcom",
+    "VMware",
+    "Armory Castle"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T02:00:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": true,
+   "focus_at": "2026-11-26T01:54:26+08:00"
   },
   {
    "id": "2026-W48-0048",
@@ -334,9 +870,545 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17543859649122806,
+   "heat_rank": 0.31683168316831684,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
+  },
+  {
+   "id": "2026-W48-0065",
+   "title": "台股重挫 1,926 點收 38,195 點、外資賣超 1,236 億元，新台幣跌破 33 元創 20 個月新低",
+   "line": "川普新關稅與 AI 疑慮衝擊，上演股匯雙殺；外匯成交 63.62 億美元創史上第三大量",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "金融市場"
+   ],
+   "topic_all": [
+    "金融市場",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "金融",
+    "半導體"
+   ],
+   "event": [
+    "市場波動"
+   ],
+   "region": [
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "高",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "證交所",
+    "中央銀行",
+    "台積電",
+    "鴻海"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 1,
+    "media_weight": 3,
+    "community": {
+     "hn": 0,
+     "ptt": 44,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "social",
+    "finance"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T17:24:39+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.3333333333333333,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0070",
+   "title": "力晶投控臨時股東會改選，公司派提名 7 席全數當選；再告市場派林緯程偽造委託書",
+   "line": "主席裁示不計違規委託書表決權，市場派收購 20% 股權、爭取董事席次落空",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "企業經營"
+   ],
+   "topic_all": [
+    "企業經營",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "半導體"
+   ],
+   "event": [
+    "人事異動",
+    "訴訟判決"
+   ],
+   "region": [
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "力晶創新投控",
+    "力積電"
+   ],
+   "person": [
+    "林緯程",
+    "謝明霖"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 3,
+    "regions": 1,
+    "media_weight": 6,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "finance",
+    "tech"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T16:15:17+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.0,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0063",
+   "title": "川習三會後中美經貿落實：農業工作組首次開會，廈門航空購 50 架波音 737",
+   "line": "廈航訂單約 74 億美元，是波音近 10 年在中國最大筆；川普稱中國將再增購 250 架",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "總體經濟",
+    "國際關係"
+   ],
+   "topic_all": [
+    "總體經濟",
+    "財經",
+    "國際關係"
+   ],
+   "story": [
+    "中美貿易談判"
+   ],
+   "sector": [
+    "航太與國防",
+    "農業與食品"
+   ],
+   "event": [
+    "會談協議",
+    "併購投資"
+   ],
+   "region": [
+    "中國大陸",
+    "北美"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "中國商務部",
+    "波音",
+    "廈門航空",
+    "中國南方航空"
+   ],
+   "person": [
+    "川普",
+    "習近平"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 5,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics",
+    "finance"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T11:32:33+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.06930693069306931,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0107",
+   "title": "美國億萬富翁 Boehly 領軍投資團收購盧克石油俄國境外資產，美國開發金融公司參與",
+   "line": "涵蓋保加利亞、羅馬尼亞、非洲與中東的煉油廠及多國加油站，日產約 35 萬桶",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "企業經營",
+    "國際關係"
+   ],
+   "topic_all": [
+    "企業經營",
+    "財經",
+    "國際關係"
+   ],
+   "story": [],
+   "sector": [
+    "能源與公用事業"
+   ],
+   "event": [
+    "併購投資"
+   ],
+   "region": [
+    "歐洲",
+    "北美",
+    "中東"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Lukoil",
+    "Eldridge",
+    "美國國際開發金融公司",
+    "Catena Investments",
+    "美國外國資產控制辦公室"
+   ],
+   "person": [
+    "Todd Boehly"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 5,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics",
+    "finance"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T23:18:49+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.06930693069306931,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0081",
+   "title": "Elixir 套件平台 Hex.pm 遭利用 CVSS 10 漏洞入侵六台伺服器，全體帳號被登出",
+   "line": "2016 年就存在的反序列化漏洞被用來執行系統命令；未發現套件遭竄改，但帳號資料外洩無法排除",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安",
+    "開發與開源"
+   ],
+   "topic_all": [
+    "資安",
+    "科技",
+    "開發與開源"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "資安事件",
+    "漏洞揭露"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "高",
+   "upcoming": false,
+   "org": [
+    "Hex.pm"
+   ],
+   "person": [
+    "Peter Ullrich"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T02:00:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.10891089108910891,
+   "exploited": true,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0096",
+   "title": "奧地利國會財委會通過博奕法改革，2027 年起開放多家線上博奕執照、強化玩家保護",
+   "line": "結束線上市場單一合法業者局面，新執照 2027 年 1 月 1 日起發放、10 月 1 日上線，12 月院會表決",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "博奕"
+   ],
+   "topic_all": [
+    "博奕"
+   ],
+   "story": [],
+   "sector": [
+    "博奕"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": true,
+   "org": [
+    "奧地利國民議會",
+    "奧地利財政部"
+   ],
+   "person": [
+    "Markus Marterbauer",
+    "Jan Krainer"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "gambling"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T17:44:43+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.10891089108910891,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0074",
+   "title": "預測市場 Kalshi 在猶他州訴訟敗退後暫停當地交易，州政府隨即撤回對創辦人的刑事起訴",
+   "line": "聯邦法院未同意阻止猶他州依賭博法執法，Kalshi 稱影響逾 17.7 萬名用戶、將續打官司",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "博奕",
+    "犯罪與司法"
+   ],
+   "topic_all": [
+    "博奕",
+    "犯罪與司法"
+   ],
+   "story": [],
+   "sector": [
+    "博奕",
+    "金融"
+   ],
+   "event": [
+    "訴訟判決",
+    "政策法規"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Kalshi",
+    "猶他州檢察長辦公室",
+    "商品期貨交易委員會"
+   ],
+   "person": [
+    "Derek Brown"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 1,
+    "media_weight": 4,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society",
+    "gambling"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T02:03:58+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.1485148514851485,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0106",
+   "title": "英國折扣零售 Poundland 進入破產管理，600 家店、逾 1.1 萬個職位岌岌可危",
+   "line": "美國老闆 Gordon Brothers 一年前以 1 英鎊收購，被指拒絕兩項最後收購提案；AlixPartners 接手",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "企業經營"
+   ],
+   "topic_all": [
+    "企業經營",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "零售與消費"
+   ],
+   "event": [
+    "裁員重組"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Poundland",
+    "Gordon Brothers",
+    "AlixPartners",
+    "Pepco"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 1,
+    "media_weight": 4,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "finance"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-26T00:24:30+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.1485148514851485,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
   },
   {
    "id": "2026-W48-0009",
@@ -405,9 +1477,533 @@
    "first_reported_at": "2026-11-25T04:34:53+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.07017543859649122,
+   "heat_rank": 0.1485148514851485,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
+  },
+  {
+   "id": "2026-W48-0067",
+   "title": "台泥法說：歐洲水泥事業擬英國上市、烏克蘭第二大水泥廠收購明年首季交割",
+   "line": "前三季稅後淨利 51 億元轉虧為盈；張安平批進口低價高碳水泥侵蝕三成國內市場、政府無動作",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "企業經營"
+   ],
+   "topic_all": [
+    "企業經營",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "原物料與化工",
+    "營建與房地產"
+   ],
+   "event": [
+    "財報營運",
+    "併購投資"
+   ],
+   "region": [
+    "台灣",
+    "歐洲"
+   ],
+   "taiwan": "直接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "台泥",
+    "IFCEM"
+   ],
+   "person": [
+    "張安平",
+    "程耀輝"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 1,
+    "media_weight": 3,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "finance"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T19:16:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.1782178217821782,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0073",
+   "title": "台積電亞利桑那 12 月 4 日辦擴建典禮，白宮官員稱川普將親自主持；2 奈米廠考慮落腳德州",
+   "line": "台積電已向德州申請房產稅減免，評估投資 226 億美元在布拉左斯郡建廠",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "企業經營",
+    "國際關係"
+   ],
+   "topic_all": [
+    "企業經營",
+    "財經",
+    "國際關係"
+   ],
+   "story": [],
+   "sector": [
+    "半導體"
+   ],
+   "event": [
+    "併購投資",
+    "活動賽事"
+   ],
+   "region": [
+    "北美",
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": true,
+   "org": [
+    "台積電",
+    "白宮",
+    "Nvidia"
+   ],
+   "person": [
+    "川普",
+    "魏哲家",
+    "黃仁勳"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "politics",
+    "finance",
+    "tech"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T14:50:46+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.18811881188118812,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0100",
+   "title": "澳洲 ACMA 警告線上投注業者，2027 年起禁止為開戶、儲值、下注支付員工佣金與獎金",
+   "line": "禁令涵蓋獎金、轉介費、分潤與非金錢福利，ACMA 已發布初步指引",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "博奕"
+   ],
+   "topic_all": [
+    "博奕"
+   ],
+   "story": [],
+   "sector": [
+    "博奕"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "大洋洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": true,
+   "org": [
+    "澳洲通訊及媒體管理局"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "gambling"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T16:16:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.18811881188118812,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0062",
+   "title": "BMW、西門子能源、萊茵金屬等 45 家德企擬共組關鍵原物料貿易公司，降低對中國依賴",
+   "line": "德國政府表態支持，預計 2027 年年中成立，目標三年內讓一半需求取得供貨保障",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "企業經營",
+    "國際關係"
+   ],
+   "topic_all": [
+    "企業經營",
+    "財經",
+    "國際關係"
+   ],
+   "story": [],
+   "sector": [
+    "汽車",
+    "原物料與化工",
+    "航太與國防"
+   ],
+   "event": [
+    "併購投資"
+   ],
+   "region": [
+    "歐洲",
+    "中國大陸"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "BMW",
+    "西門子能源",
+    "萊茵金屬",
+    "德國外交部"
+   ],
+   "person": [
+    "瓦德福"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 3,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics",
+    "finance"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T20:02:58+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.21782178217821782,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0068",
+   "title": "華城：美國 AI 電力基建需求爆發，台中新廠未完工產能已訂光、訂單看到 2030 年",
+   "line": "執行長許逸晟稱產能全開仍供不應求，部分統包商暫緩訂單，但八成電力公司客戶需求不減",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "企業經營"
+   ],
+   "topic_all": [
+    "企業經營",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "能源與公用事業",
+    "機械與工業製造"
+   ],
+   "event": [
+    "財報營運"
+   ],
+   "region": [
+    "台灣",
+    "北美"
+   ],
+   "taiwan": "直接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "華城",
+    "華城電能"
+   ],
+   "person": [
+    "許逸晟"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "finance"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-26T00:35:43+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.22772277227722773,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0108",
+   "title": "Dell 第三季營收 549.4 億美元年增逾一倍、優於預期，授權 250 億美元庫藏股",
+   "line": "AI 伺服器需求帶動，每股盈餘 9.45 美元遠高於預期的 6.59 美元，下季財測也優於市場",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "企業經營",
+    "AI"
+   ],
+   "topic_all": [
+    "企業經營",
+    "財經",
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "硬體與消費電子",
+    "軟體與雲端"
+   ],
+   "event": [
+    "財報營運"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Dell"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "finance",
+    "ai",
+    "tech"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:07:45+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.22772277227722773,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0110",
+   "title": "日本京王集團 9 月遭駭，逾 1,100 萬筆個資恐外洩",
+   "line": "涵蓋這家民營鐵路業者及旅館等子公司的顧客、客戶與員工",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "運輸與物流",
+    "觀光"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "東北亞"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "京王"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T14:08:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.22772277227722773,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0111",
+   "title": "樂天證券外洩事件擴大，約 168 萬個客戶帳戶的資產餘額資料也外洩",
+   "line": "公司坦承資產餘額資料一併流出",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "金融"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "東北亞"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "樂天證券"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T10:53:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.22772277227722773,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
   },
   {
    "id": "2026-W48-0019",
@@ -475,7 +2071,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.08771929824561403,
+   "heat_rank": 0.22772277227722773,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -544,7 +2140,7 @@
    "first_reported_at": "2026-11-25T05:49:50+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.08771929824561403,
+   "heat_rank": 0.22772277227722773,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -612,7 +2208,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.08771929824561403,
+   "heat_rank": 0.22772277227722773,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -682,7 +2278,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.08771929824561403,
+   "heat_rank": 0.22772277227722773,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -747,9 +2343,896 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.08771929824561403,
+   "heat_rank": 0.22772277227722773,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
+  },
+  {
+   "id": "2026-W48-0075",
+   "title": "AI 舉債疑慮升溫，甲骨文、CoreWeave 等 5 年期 CDS 利差創新高，CoreWeave 隱含違約機率達 68%",
+   "line": "軟銀 CDS 飆至 501 基點，Meta、亞馬遜、Alphabet、微軟一籃子 CDS 也創紀錄",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "金融市場",
+    "AI"
+   ],
+   "topic_all": [
+    "金融市場",
+    "財經",
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端",
+    "金融"
+   ],
+   "event": [
+    "市場波動"
+   ],
+   "region": [
+    "北美",
+    "東北亞"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "CoreWeave",
+    "Oracle",
+    "SoftBank",
+    "S&P Global Market Intelligence"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "finance",
+    "ai",
+    "tech"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T15:10:45+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0077",
+   "title": "英國金融行為監理局警告：部署 AI 代理須有治理與管控，否則將面臨罰款與起訴",
+   "line": "銀行已讓 AI 代理發起交易與移轉資金，FCA 強調責任仍在高階主管與機構，委外也一樣",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安",
+    "AI"
+   ],
+   "topic_all": [
+    "資安",
+    "科技",
+    "AI"
+   ],
+   "story": [],
+   "sector": [
+    "金融"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "英國金融行為監理局"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0078",
+   "title": "Anthropic 推出 Enterprise Frontier Safeguards 公開測試，跨多筆請求偵測 AI 濫用",
+   "line": "對話資料留在客戶自家雲端，Anthropic 只收監控中繼資料；提示注入攻擊成功率大幅下降但未歸零",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安",
+    "AI"
+   ],
+   "topic_all": [
+    "資安",
+    "科技",
+    "AI"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Anthropic",
+    "Stripe",
+    "Salesforce"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "ai",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0079",
+   "title": "GeoServer 兩個漏洞遭積極利用，研究人員警告可串成免驗證遠端執行",
+   "line": "任意檔案讀取 CVE-2026-120705 與授權錯誤 CVE-2026-129243 於 11 月 24 日公告修補，已有人探測",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "漏洞揭露"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "高",
+   "upcoming": false,
+   "org": [
+    "GeoServer",
+    "watchTowr",
+    "Eye Security"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T20:48:54+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": true,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0082",
+   "title": "WordPress 下架 WP Connect 六個遭植入後門的外掛，影響逾 3,600 個網站",
+   "line": "開發者帳號疑遭入侵，11 月 22 日的惡意版本會連回 C2 執行任意 PHP；CVE-2026-135202 尚未修補",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "高",
+   "upcoming": false,
+   "org": [
+    "WordPress",
+    "WP Connect",
+    "Wordfence"
+   ],
+   "person": [
+    "Chloe Chamberland"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T14:21:12+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": true,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0083",
+   "title": "Mozilla 發布 Firefox 161 修補 110 個漏洞，Thunderbird 161 修補可偽冒 OpenPGP 簽章寄件者的重大漏洞",
+   "line": "Firefox 有 59 個高風險漏洞；Thunderbird 的 CVE-2026-136226 讓簽章郵件顯示錯誤寄件者",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "版本更新",
+    "漏洞揭露"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "Mozilla"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T04:00:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0087",
+   "title": "Radware Cloud WAF 內部管理 API 未驗證即暴露於網路，部分客戶 AWS、Azure 存取憑證恐外洩",
+   "line": "11 月 19 日遭未經授權存取、約 10 小時後才察覺；Radware 建議客戶輪替日誌匯出用的憑證",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "高",
+   "upcoming": false,
+   "org": [
+    "Radware",
+    "BleepingComputer",
+    "AWS"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T02:00:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": true,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0088",
+   "title": "SolarWinds 修補 Serv-U 五個 CVSS 9.1 重大漏洞，影響 2026.3 及更早版本",
+   "line": "路徑遍歷導致權限提升與存取預定目錄外的檔案，已在 2026.4 版修補",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "漏洞揭露",
+    "版本更新"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "SolarWinds"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T12:00:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0090",
+   "title": "勒索組織 n0n 公布摩根大通、Visa、Mastercard 資料，三家證實是第三方服務商外洩",
+   "line": "摩根大通約 1.6 萬名頂級 Reserve 卡客戶聯絡資料流出；n0n 名單列 59 家企業",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "金融"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "n0n",
+    "摩根大通",
+    "Visa",
+    "Mastercard",
+    "Cybernews"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T11:00:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0093",
+   "title": "BADBOX 3.0 殭屍網路捲土重來，高峰時每天製造 400 億次假廣告競價請求",
+   "line": "利用預載惡意程式的廉價 Android 電視盒，規模是前紀錄保持者 VASTFLUX 的 3 倍以上",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "硬體與消費電子",
+    "媒體與娛樂"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "HUMAN Security",
+    "Google"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T08:00:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0097",
+   "title": "聯邦法官下令 Kalshi 封鎖新墨西哥州四個原住民部落土地上的運動合約",
+   "line": "法官駁回聯邦衍生品法規可凌駕部落博彩法的主張，給 14 天以地理圍欄等方式遵循",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "博奕",
+    "犯罪與司法"
+   ],
+   "topic_all": [
+    "博奕",
+    "犯罪與司法"
+   ],
+   "story": [],
+   "sector": [
+    "博奕",
+    "金融"
+   ],
+   "event": [
+    "訴訟判決"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Kalshi",
+    "美國聯邦地方法院"
+   ],
+   "person": [
+    "Margaret Strickland"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society",
+    "gambling"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T21:29:28+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0098",
+   "title": "巴西博奕禁令臨時措施屆滿首個 60 天，國會仍未成立審查委員會",
+   "line": "魯拉以家庭債務與公共衛生為由簽署禁令，期限已延至 2027 年 3 月 4 日前須表決",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "博奕"
+   ],
+   "topic_all": [
+    "博奕"
+   ],
+   "story": [],
+   "sector": [
+    "博奕"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "中南美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "巴西國會",
+    "巴西總統府"
+   ],
+   "person": [
+    "魯拉",
+    "Davi Alcolumbre"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "gambling"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T23:23:22+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0099",
+   "title": "南非貿工部建議合法化線上博奕，草擬政策並將公開徵詢意見",
+   "line": "目前僅線上運動投注合法、線上賭場遭禁；部門已與各省與國家博奕委員會協商",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "博奕"
+   ],
+   "topic_all": [
+    "博奕"
+   ],
+   "story": [],
+   "sector": [
+    "博奕"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "非洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": true,
+   "org": [
+    "南非貿易工業與競爭部",
+    "南非國家博奕委員會"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "gambling"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T19:51:53+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0101",
+   "title": "巴西央行撤銷 A55 金融科技執照，涉替非法博奕業者轉移約 10 億雷亞爾",
+   "line": "業者以 Pix 收款 QR code 為非法博奕網站代收資金，再轉往與博奕無關的公司",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "博奕",
+    "犯罪與司法"
+   ],
+   "topic_all": [
+    "博奕",
+    "犯罪與司法"
+   ],
+   "story": [],
+   "sector": [
+    "博奕",
+    "金融"
+   ],
+   "event": [
+    "犯罪執法"
+   ],
+   "region": [
+    "中南美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "巴西中央銀行",
+    "A55 Sociedade de Crédito Direto"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society",
+    "gambling"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T19:29:17+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
   },
   {
    "id": "2026-W48-0025",
@@ -811,7 +3294,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17543859649122806,
+   "heat_rank": 0.31683168316831684,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -873,7 +3356,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17543859649122806,
+   "heat_rank": 0.31683168316831684,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -935,9 +3418,388 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17543859649122806,
+   "heat_rank": 0.31683168316831684,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
+  },
+  {
+   "id": "2026-W48-0066",
+   "title": "惠譽：台股劇震難撼銀行與大型壽險，禁空令與融資維持率下調使券商面臨雙重風險",
+   "line": "金管會平盤下禁空、證交所 11 月 24 日起把最低融資維持率由 130% 降至 120%",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "金融市場"
+   ],
+   "topic_all": [
+    "金融市場",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "金融"
+   ],
+   "event": [
+    "研究發表",
+    "政策法規"
+   ],
+   "region": [
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "惠譽",
+    "金管會",
+    "證交所"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "finance"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T19:08:48+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.4444444444444444,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0084",
+   "title": "葡萄王一個月內二度受委外廠商資安事件波及，子公司葡眾加密會員資料遭異常存取",
+   "line": "委外服務商統一資訊通知異常存取，影響範圍尚無法確認；11 月初才因 Cyberbiz 事件發布重訊",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "醫藥與生技",
+    "零售與消費"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "葡萄王",
+    "葡眾",
+    "統一資訊",
+    "順立智慧"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T03:00:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.4444444444444444,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0085",
+   "title": "黑貓宅急便委外系統商摩奇創意遭駭，部分預約寄件民眾姓名、電話外洩",
+   "line": "統一速達簡訊通知受影響客戶；受影響人數、期間與入侵手法都未說明",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "運輸與物流"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "統一速達",
+    "黑貓宅急便",
+    "摩奇創意"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T03:00:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.4444444444444444,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0092",
+   "title": "資安署：AI 加速攻擊下，企業遭駭應在調查階段就及早通知上下游",
+   "line": "副署長鄭瑋建議依四項指標排定漏洞修補期限，防禦思維從「避免被打」轉向「迅速復原」",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "政策法規",
+    "聲明評論"
+   ],
+   "region": [
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "數位發展部資通安全署",
+    "數位發展部"
+   ],
+   "person": [
+    "鄭瑋"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T10:00:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.4444444444444444,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0045",
+   "title": "車麗屋購物網站遭自動化攻擊，部分會員資料遭存取並被冒名寄送詐騙訊息",
+   "line": "11 月 21 日遭入侵，第三方冒用車麗屋名義寄電子郵件與簡訊；已報警、修補並封鎖來源",
+   "born_at": "2026-11-26T01:46:18+08:00",
+   "updated_at": "2026-11-26T01:46:18+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "零售與消費"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "車麗屋"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T06:18:45+08:00",
+   "event_at": "2026-11-26T01:46:18+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.4444444444444444,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:46:18+08:00"
+  },
+  {
+   "id": "2026-W48-0094",
+   "title": "1Password 員工 GitHub 帳號遭盜，攻擊者推送惡意程式碼下載部分客戶姓名與電子郵件",
+   "line": "密碼庫內容未遭存取；攻擊者也複製私有原始碼並進入 CI/CD，所有可能外洩的憑證已輪替",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "1Password",
+    "GitHub"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 15,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "social",
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-26T01:18:26+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.5742574257425742,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
   },
   {
    "id": "2026-W48-0004",
@@ -1000,7 +3862,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -1061,7 +3923,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -1128,7 +3990,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -1195,7 +4057,7 @@
    "first_reported_at": "2026-11-25T02:55:12+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -1258,7 +4120,7 @@
    "first_reported_at": "2026-11-25T05:32:51+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -1324,7 +4186,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -1389,7 +4251,7 @@
    "first_reported_at": "2026-11-25T12:29:07+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -1457,7 +4319,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -1521,7 +4383,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -1585,7 +4447,7 @@
    "first_reported_at": "2026-11-25T01:46:41+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -1649,7 +4511,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -1712,7 +4574,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -1774,7 +4636,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -1843,7 +4705,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -1908,7 +4770,7 @@
    "first_reported_at": "2026-11-25T10:34:21+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -1975,7 +4837,7 @@
    "first_reported_at": "2026-11-25T21:33:07+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -2038,52 +4900,56 @@
    "first_reported_at": "2026-11-25T12:27:55+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
   {
-   "id": "2026-W48-0045",
-   "title": "車麗屋購物網站遭自動化攻擊，部分會員資料遭存取並被冒名寄送詐騙訊息",
-   "line": "11 月 21 日遭入侵，第三方冒用車麗屋名義寄電子郵件與簡訊；已報警、修補並封鎖來源",
-   "born_at": "2026-11-26T01:46:18+08:00",
-   "updated_at": "2026-11-26T01:46:18+08:00",
+   "id": "2026-W48-0069",
+   "title": "全聯以 81 億元買下華固大直商辦「華固時代置地」，改寫大直商辦成交總價紀錄",
+   "line": "華固分得約 66.33 億元、預估處分利潤率 17% 至 18%，明年 3 月認列",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
    "version": 1,
    "archived": false,
    "late": false,
    "online_only": false,
    "dup_of": null,
    "topic": [
-    "資安"
+    "企業經營"
    ],
    "topic_all": [
-    "資安",
-    "科技"
+    "企業經營",
+    "財經"
    ],
    "story": [],
    "sector": [
+    "營建與房地產",
     "零售與消費"
    ],
    "event": [
-    "資安事件"
+    "併購投資"
    ],
    "region": [
     "台灣"
    ],
    "taiwan": "直接",
-   "weight": "中",
-   "relevance": "高",
-   "urgency": "中",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
    "upcoming": false,
    "org": [
-    "車麗屋"
+    "全聯",
+    "華固",
+    "高力國際",
+    "第一太平戴維斯"
    ],
    "person": [],
    "form": "新聞",
    "heat": {
-    "outlets": 1,
+    "outlets": 2,
     "regions": 1,
-    "media_weight": 1,
+    "media_weight": 5,
     "community": {
      "hn": 0,
      "ptt": 0,
@@ -2092,16 +4958,16 @@
    },
    "series": [
     "taiwan_general",
-    "security"
+    "finance"
    ],
    "last_update": null,
    "corrected_at": null,
-   "first_reported_at": "2026-11-25T06:18:45+08:00",
-   "event_at": "2026-11-26T01:46:18+08:00",
+   "first_reported_at": "2026-11-25T21:23:45+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5,
+   "heat_rank": 0.1111111111111111,
    "exploited": false,
-   "focus_at": "2026-11-26T01:46:18+08:00"
+   "focus_at": "2026-11-26T01:54:26+08:00"
   },
   {
    "id": "2026-W48-0001",
@@ -2161,9 +5027,447 @@
    "first_reported_at": "2026-11-25T22:16:12+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.0,
+   "heat_rank": 0.1111111111111111,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
+  },
+  {
+   "id": "2026-W48-0103",
+   "title": "Meridian Holdings 擬收購中非三國三家博奕業者多數股權，取得逾 350 家實體據點",
+   "line": "三家業者已用 Meridianbet 技術，原股東保留少數股權；以現金支應、金額低於總資產 5%",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "博奕",
+    "企業經營"
+   ],
+   "topic_all": [
+    "博奕",
+    "企業經營",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "博奕"
+   ],
+   "event": [
+    "併購投資"
+   ],
+   "region": [
+    "非洲"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Meridian Holdings",
+    "Meridianbet"
+   ],
+   "person": [
+    "William Scott"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "finance",
+    "gambling"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T15:32:08+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.18811881188118812,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0071",
+   "title": "鴻海印度子公司遭宿舍供應商聲請破產追討約 1,530 萬美元，鴻海稱雙方對履約有歧見",
+   "line": "外電指約六家供應商款項延遲；鴻海表示服務未符合契約與品質要求，已進入司法程序",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "企業經營"
+   ],
+   "topic_all": [
+    "企業經營",
+    "財經"
+   ],
+   "story": [],
+   "sector": [
+    "硬體與消費電子"
+   ],
+   "event": [
+    "訴訟判決"
+   ],
+   "region": [
+    "南亞",
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "鴻海"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "finance",
+    "tech"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T18:25:31+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0089",
+   "title": "Google 修補 Nest Hub 53 個漏洞，藍牙 UAF 漏洞可讓近距離攻擊者免互動執行程式碼",
+   "line": "CVE-2026-95417 達 CVSS 9.8，韌體 F32.0.2 透過無線更新推送給 Nest Hub 第 2 代與 Nest Hub Max",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "硬體與消費電子"
+   ],
+   "event": [
+    "漏洞揭露",
+    "版本更新"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "Google"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T12:00:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0091",
+   "title": "日本麥當勞 App 資料庫遭未授權存取，客戶 ID、購買紀錄與裝置位置恐外洩",
+   "line": "官方稱不含姓名、電子郵件與信用卡；外洩時間、筆數與入侵路徑都未說明",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "資安"
+   ],
+   "topic_all": [
+    "資安",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "零售與消費"
+   ],
+   "event": [
+    "資安事件"
+   ],
+   "region": [
+    "東北亞"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "日本麥當勞",
+    "摩斯漢堡"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "security"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T10:00:00+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0095",
+   "title": "葡萄牙國會撤回 Livre 黨對線上博奕淨贏利課徵所得稅的提案，不納入 2027 年預算",
+   "line": "11 月 19 日初審通過後數日內翻盤，提案 23 日撤回",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "博奕"
+   ],
+   "topic_all": [
+    "博奕"
+   ],
+   "story": [],
+   "sector": [
+    "博奕"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "葡萄牙國會",
+    "Livre",
+    "社會民主黨",
+    "社會黨"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "gambling"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T22:04:37+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0102",
+   "title": "愛爾蘭向歐盟通報可授權遊戲清單草案，新博奕執照制度須待清單定案才能核發",
+   "line": "歐盟 TRIS 暫停期至 2027 年 2 月 22 日；公眾諮詢 123 份回應普遍支持但擔心彈性不足",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "博奕"
+   ],
+   "topic_all": [
+    "博奕"
+   ],
+   "story": [],
+   "sector": [
+    "博奕"
+   ],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "愛爾蘭博奕監管局",
+    "歐盟執委會"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "gambling"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T18:19:17+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
+  },
+  {
+   "id": "2026-W48-0104",
+   "title": "捷克起訴 15 人經營無照加密貨幣賭場 BETFIN，涉 230 萬筆投注、不法所得約 2.67 億克朗",
+   "line": "當局稱這是捷克首宗以區塊鏈、智能合約與自有代幣經營「去中心化」線上賭場的案件",
+   "born_at": "2026-11-26T01:54:26+08:00",
+   "updated_at": "2026-11-26T01:54:26+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "博奕",
+    "犯罪與司法"
+   ],
+   "topic_all": [
+    "博奕",
+    "犯罪與司法"
+   ],
+   "story": [],
+   "sector": [
+    "博奕",
+    "加密資產"
+   ],
+   "event": [
+    "犯罪執法"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "捷克海關",
+    "捷克國家打擊組織犯罪中心",
+    "BETFIN"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society",
+    "gambling"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-25T15:30:57+08:00",
+   "event_at": "2026-11-26T01:54:26+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.31683168316831684,
+   "exploited": false,
+   "focus_at": "2026-11-26T01:54:26+08:00"
   },
   {
    "id": "2026-W48-0049",
@@ -2222,7 +5526,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17543859649122806,
+   "heat_rank": 0.31683168316831684,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -2284,7 +5588,7 @@
    "first_reported_at": "2026-11-25T22:05:57+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -2344,7 +5648,7 @@
    "first_reported_at": "2026-11-25T07:56:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -2408,7 +5712,7 @@
    "first_reported_at": "2026-11-25T02:32:13+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -2468,7 +5772,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -2531,7 +5835,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -2595,7 +5899,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -2661,7 +5965,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -2720,7 +6024,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -2779,7 +6083,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -2838,7 +6142,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -2898,7 +6202,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -2957,7 +6261,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -3016,7 +6320,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -3076,7 +6380,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -3135,7 +6439,7 @@
    "first_reported_at": "2026-11-25T08:54:49+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -3204,7 +6508,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -3267,7 +6571,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -3328,7 +6632,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -3389,7 +6693,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -3452,7 +6756,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -3515,7 +6819,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -3577,7 +6881,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -3640,7 +6944,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -3703,7 +7007,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   },
@@ -3767,7 +7071,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2631578947368421,
+   "heat_rank": 0.5742574257425742,
    "exploited": false,
    "focus_at": "2026-11-26T01:46:18+08:00"
   }

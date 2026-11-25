@@ -1,0 +1,348 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0060",
+ "title": "美國 301 調查出爐，擬對 14 個經濟體加徵關稅：台灣最高 15%、中國 20%，半導體擬豁免",
+ "line": "USTR 以製造業結構性產能過剩為由提議新關稅，台灣稅率不疊加 MFN，2027 年 1 月 25 日舉行聽證",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T17:02:00+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "台灣",
+   "全球"
+  ],
+  "country": [
+   "US",
+   "TW",
+   "CN",
+   "JP",
+   "KR"
+  ],
+  "taiwan": [
+   "直接"
+  ],
+  "topic": [
+   "總體經濟",
+   "國際關係"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "story": [
+   "美國301關稅調查"
+  ],
+  "sector": [
+   "半導體",
+   "汽車",
+   "醫藥與生技"
+  ],
+  "org": [
+   "美國貿易代表署",
+   "歐盟"
+  ],
+  "person": [
+   "川普",
+   "葛里爾"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "301 條款",
+   "結構性產能過剩",
+   "關稅",
+   "對等貿易協定"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據中央社華盛頓專電，美國貿易代表署（USTR）3 月啟動 301 條款調查，檢視貿易夥伴製造業的結構性產能過剩，美國時間 11 月 25 日公布報告，提議對中國、歐盟、新加坡、瑞士、印尼、馬來西亞、柬埔寨、泰國、韓國、越南、台灣、孟加拉、日本與印度加徵關稅，挪威、墨西哥尚未定案。據金融時報與法新社，中國、越南最高 20%（中國為芬太尼相關 10% 加對等 10%），柬埔寨、印尼、馬來西亞、泰國、孟加拉 18%，印度 17%，台灣、韓國、日本、歐盟 15%，新加坡 10%。台灣部分為最高 15%、不疊加最惠國（MFN）與現行 301 關稅，擬豁免現適用 232 條款的鋁、鋼、銅製品、汽車與零組件、木製品、專利藥品及半導體產品；USTR 指台灣以產業計畫、立法激勵與融資機制扶植高科技製造、未處理全球產能過剩等做法損害美國商業。USTR 將於 2027 年 1 月 25 日舉行聽證。熟悉台美經貿人士表示，最終稅率預期仍回到雙方議定的 15% 不疊加。美國貿易代表葛里爾受訪表示，新稅率大致維持既有協議水準，部分可能再加碼幾個百分點。另據 Reuters，美方同時提議對巴西進口加稅，含飛機 10%，並稱若達成協議將把印度稅率上限訂在 17%。",
+ "dive_html": "對台灣而言，15% 與既有協議稅率一致、半導體擬豁免，實質衝擊比市場第一時間反應小；但 USTR 點名的「產業計畫、立法激勵、國家主導研發」幾乎就是台灣產業政策本身，等於替後續談判預留施壓空間。這波關稅是「解放日」關稅遭裁定違法後的法源重建，聽證前稅率與豁免清單仍可能變動；接下來要看半導體豁免能否在最終版本保留，以及 1 月聽證的產業意見。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "台灣最高 15%（不疊加 MFN）；中國、越南 20%；東南亞與孟加拉 18%；印度 17%；新加坡 10%；14 個經濟體；聽證會 2027 年 1 月 25 日"
+  }
+ ],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "美301調查出爐　擬對台稅率最高15%、特定商品可豁免",
+   "url": "https://www.cna.com.tw/news/aipl/202611260002.aspx",
+   "time": "2026-11-26T00:13:42+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "美擬對14經濟體加徵關稅　中國20%最高、台韓日歐盟15%",
+   "url": "https://www.cna.com.tw/news/aopl/202611250342.aspx",
+   "time": "2026-11-25T23:21:32+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "美301調查出爐擬對14經濟體加關稅　台灣協議稅率至少15%",
+   "url": "https://www.cna.com.tw/news/aopl/202611250324.aspx",
+   "time": "2026-11-25T21:36:48+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "The Guardian China",
+   "title": "Trump proposing new tariffs on 14 partners including China and EU",
+   "url": "https://www.theguardian.com/us-news/2026/nov/25/trump-new-china-tariffs-europe",
+   "time": "2026-11-25T22:59:44+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "PTT Stock",
+   "title": "[新聞] 301關稅又來了？台經院：估稅率不超過15%",
+   "url": "https://www.ptt.cc/bbs/Stock/M.1795620181.A.0CB.html",
+   "time": null,
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "42",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "PTT Stock",
+   "title": "Re: [情報] 台灣被列入301條款的國家(不公平對美貿易",
+   "url": "https://www.ptt.cc/bbs/Stock/M.1795620076.A.AB5.html",
+   "time": null,
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "34",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "BBC 中文",
+   "title": "美國準備公布對全球貿易夥伴加征新關稅的計劃",
+   "url": "https://www.bbc.com/zhongwen/articles/cm9d7g967l5lo/trad",
+   "time": "2026-11-25T20:18:58+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "US unveils proposed tariffs on major partners, including EU and China",
+   "url": "https://www.france24.com/en/video/20261125-us-unveils-proposed-tariffs-on-major-partners-including-eu-and-china",
+   "time": "2026-11-26T00:21:55+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Dawn",
+   "title": "US unveils proposed tariffs on major partners, including EU, China and India",
+   "url": "https://www.dawn.com/news/2047008/us-unveils-proposed-tariffs-on-major-partners-including-eu-china-and-india",
+   "time": "2026-11-25T21:40:45+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Trump announces new trade tariffs: Which countries are affected?",
+   "url": "https://www.aljazeera.com/news/2026/11/25/trump-announces-new-trade-tariffs-which-countries-will-they-target",
+   "time": "2026-11-25T22:54:44+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Trump announces new tariffs on EU, China despite US midterms defeat",
+   "url": "https://www.france24.com/en/americas/20261125-trump-announces-new-tariffs-eu-china-despite-us-midterms-defeat",
+   "time": "2026-11-25T22:38:47+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC Business",
+   "title": "US announces new tariffs on host of countries including China",
+   "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o",
+   "time": "2026-11-26T00:21:34+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "US plans new tariffs on EU, China and 12 others",
+   "url": "https://www.dw.com/en/us-plans-new-tariffs-on-eu-china-and-12-others/a-80050872?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-25T22:54:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "US proposes new tariffs on 14 major trading partners, the EU included",
+   "url": "https://www.euronews.com/2026/11/25/us-proposes-new-tariffs-on-14-major-trading-partners-the-eu-included",
+   "time": "2026-11-25T22:42:07+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "U.S. proposes new tariffs on 14 trading partners, including China and the EU",
+   "url": "https://www.cnbc.com/2026/11/25/us-tariffs-trump-section-301.html",
+   "time": "2026-11-26T00:02:52+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "SCMP China",
+   "title": "US proposes new tariffs on China a week after Trump-Xi summit",
+   "url": "https://www.scmp.com/news/china/diplomacy/article/3375801/us-proposes-new-20-tariffs-china-week-after-trump-xi-summit",
+   "time": "2026-11-25T22:03:18+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "SCMP",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 2
+  },
+  {
+   "name": "SCMP China",
+   "title": "US-China trade war stuck in limbo as Trump nears new tariffs",
+   "url": "https://www.scmp.com/plus/economy/china-economy/article/3375755/us-china-trade-war-stuck-limbo-trump-nears-new-tariffs",
+   "time": "2026-11-25T17:33:59+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "SCMP",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "China warns US against imposing new tariffs",
+   "url": "https://www.straitstimes.com/asia/east-asia/china-warns-us-against-imposing-new-tariffs",
+   "time": "2026-11-25T17:02:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Trump unveils new tariffs to fight excess factory capacity, undeterred by midterms defeat",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOcjZ1MUw5RG5fdk0tUjNTRFNIRzl5amR0VklFSzdTOUlUS2hxNWk5aV9xcm5VWmQtZGRkdXVKMWZ3Um5qZHluSFp4MGNIdHNETlZPck1RcmJmUC1oZHFtWFdYT29PbkdjUU1IbjQyWE9GRFJZdXFwTVFRMEtDcl81bXpDS3RHSHNka3VSbGlHNmNFV09uMTE1aExBRVkxUldZUmpwX3hYdGduS1BJcW1QRlY4ZjdyYkZyWTI0dVBB?oc=5",
+   "time": "2026-11-26T00:51:41+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "US to cap India tariff at 17% if trade deal is reached, USTR says",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQRmdGMDdiZVhMaEZiM2hLVlNhdXQzZkM1b2F5NXFYaWZzbC1mX25kLU56ZThrNjFmZ2JVMW9fbjJhbUMwMXdzN3JLYXAyNE02a0FqclFyblhxZmxfbWRLVlQ5OFdoQkdmNEF1ZTlZUzRVVkkxQm14eDY0R1ZtUXJpRWhaNDE5c1hOM3pUYUhiRmJ1NnlTaGVrQk9uNGwwU2w5UmliTkRpZGQ?oc=5",
+   "time": "2026-11-25T22:29:44+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "US proposes surprise new tariffs on Brazil imports, including 10% duty on aircraft",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxNTGZ4TFg5REgyY0VnandHQjZIMFN1cnNBOEJVQTBDaU1IWDFLVUxmdHFTXzRLVnVKc3pHd3lTYk9lRHZBOWV1Skd5V0VzVU05ZDRjZXdZekl5cWFneWI2b3ptS09taEhjNzZIcGhuWVdydDk5cnpkcElkMUdTZkJjTjROT09sOG5adVUxNVpNeGp5UmxaaHl2bzh6TklXMlp2eVQyVW9idi1QV25LcnpIeFBjMEF4RzNNbkNIU3JOUlN6WWVqSjRtTlFZMA?oc=5",
+   "time": "2026-11-26T01:10:37+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 12,
+  "regions": 7,
+  "media_weight": 25,
+  "community": {
+   "hn": 0,
+   "ptt": 42,
+   "v2ex": 0
+  }
+ }
+}

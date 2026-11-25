@@ -1,0 +1,32 @@
+{
+ "schema": 1,
+ "next_id": 3,
+ "items": [
+  {
+   "id": "E1",
+   "kind": "merged",
+   "cards": [
+    "2026-W48-0068"
+   ],
+   "found_by": "program",
+   "status": "suspected",
+   "note": "各來源標題差很多，可能併進了不同的事（最高相似度 0.06）",
+   "proposed": {},
+   "found_at": "2026-11-26T01:54:26+08:00",
+   "resolved_at": null
+  },
+  {
+   "id": "E2",
+   "kind": "merged",
+   "cards": [
+    "2026-W48-0073"
+   ],
+   "found_by": "program",
+   "status": "suspected",
+   "note": "各來源標題差很多，可能併進了不同的事（最高相似度 0.09）",
+   "proposed": {},
+   "found_at": "2026-11-26T01:54:26+08:00",
+   "resolved_at": null
+  }
+ ]
+}

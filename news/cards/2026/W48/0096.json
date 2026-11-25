@@ -1,0 +1,103 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0096",
+ "title": "奧地利國會財委會通過博奕法改革，2027 年起開放多家線上博奕執照、強化玩家保護",
+ "line": "結束線上市場單一合法業者局面，新執照 2027 年 1 月 1 日起發放、10 月 1 日上線，12 月院會表決",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T17:44:43+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "AT"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "奧地利國民議會",
+   "奧地利財政部"
+  ],
+  "person": [
+   "Markus Marterbauer",
+   "Jan Krainer"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "奧地利",
+   "博奕法",
+   "線上博奕執照",
+   "玩家保護"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 iGaming Business 與 Yogonet，奧地利國民議會財政委員會於 11 月 24 日通過政府提出的博奕法與電信法修正案，由執政的人民黨（ÖVP）、社民黨（SPÖ）與新黨（NEOS）支持，將把線上博奕市場開放給多家持照業者，並加入新的玩家保護規定，12 月送院會表決。依草案，新的奧地利線上博奕執照自 2027 年 1 月 1 日起核發，持照業務 2027 年 10 月 1 日開始；無照業者須在 2026 年底前停止營運才能申請，申請者也須繳清欠稅並履行玩家保護訴訟的確定判決。社民黨財經發言人 Jan Krainer 稱這是數十年來最大的改革，指目前唯一的合法業者大概只占市場 40%，其餘都是灰色與黑市。財政部長 Marterbauer 表示改革將把玩家保護提升到「新層次」；自由黨（FPÖ）的 Maximilian Linder 則批評讓過去無照的業者申請等於獎勵違規。",
+ "dive_html": "奧地利是歐盟少數維持線上博奕獨占的市場，開放後將吸引歐洲主要業者搶照，也是遊戲內容供應商的新市場。要求無照業者先退出才能申請，是把灰色市場「洗白」的常見設計，執行力道與合規門檻將決定能否真的壓低黑市比例。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Yogonet International",
+   "title": "Austria's Finance Committee clears Gambling Act reform ahead of December vote",
+   "url": "https://www.yogonet.com/international/news/2026/11/25/127462-austria-39s-finance-committee-clears-gambling-act-reform-ahead-of-december-vote",
+   "time": "2026-11-25T21:30:22+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Yogonet",
+   "kind": "media",
+   "region": "中南美",
+   "rank": 3
+  },
+  {
+   "name": "iGaming Business",
+   "title": "Austrian government approves landmark reform to open online gambling market",
+   "url": "https://igamingbusiness.com/legal-compliance/austrian-government-reform-open-online-gambling-market/",
+   "time": "2026-11-25T17:44:43+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "iGaming Business",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

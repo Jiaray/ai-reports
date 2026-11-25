@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0078",
+ "title": "Anthropic 推出 Enterprise Frontier Safeguards 公開測試，跨多筆請求偵測 AI 濫用",
+ "line": "對話資料留在客戶自家雲端，Anthropic 只收監控中繼資料；提示注入攻擊成功率大幅下降但未歸零",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T06:18:45+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安",
+   "AI"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Anthropic",
+   "Stripe",
+   "Salesforce"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Enterprise Frontier Safeguards",
+   "提示注入",
+   "零資料留存",
+   "程式碼代理安全"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 ICSDA 整理 SecurityWeek 報導，Anthropic 宣布 Enterprise Frontier Safeguards（EFS）公開測試版，在既有逐筆請求分類器之外加入跨多筆請求的行為監控，找出單看無害、串起來卻可疑的濫用模式，例如把惡意目標拆成多個無害請求，或 AI 代理超出營運者意圖、利用漏洞取得真實系統存取。服務對象是簽零資料留存協議的企業：對話資料存在客戶自有雲端、使用客戶自己的金鑰與存取政策，Anthropic 只收到監控中繼資料，報告可接入 SIEM；可透過 Claude Platform、AWS 或 Google Cloud 啟用，Microsoft Foundry 整合開發中。已有超過 100 家客戶參與開發，Stripe 與 Salesforce 曾在私有測試中評估。Anthropic 同時發布企業程式碼代理安全指南，列出權限濫用、憑證外露、高風險相依套件、提示注入與資料外洩等風險：提示注入偵測讓攻擊成功率在 Fable 5.2 由 90% 降至 28%、在 Opus 5.5 由 55% 降至 11%；Claude Code 自動模式在測試中擋下 89% 的危險指令。",
+ "dive_html": "跨請求分析補的是「拆解攻擊」這個逐筆分類器的盲點，而資料留在客戶端的設計回應了企業最在意的隱私顧慮。數字也提醒：提示注入成功率仍有一到三成，不能把防護全押在分類器上（ICSDA 觀點）。使用程式碼代理的團隊可直接拿這份指南對照自家的權限與憑證管理。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "以零資料留存協議使用 Claude 的企業（非漏洞類，低危）"
+  },
+  {
+   "name": "處置",
+   "html": "評估啟用 EFS 並把報告接入 SIEM；高風險動作仍應人工核准，搭配沙箱與網路限制"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ICSDA 資安日報",
+   "title": "Anthropic推EFS揪出AI濫用",
+   "url": "https://www.securityweek.com/anthropic-expands-enterprise-safeguards-for-detecting-ai-misuse/",
+   "time": "2026-11-25T06:18:45+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "SecurityWeek",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

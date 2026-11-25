@@ -1,0 +1,125 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0109",
+ "title": "伊朗革命衛隊網軍 Shahid Kaveh 被指駭入法國數百家超市冷凍系統，毀損數百萬歐元食品",
+ "line": "法國情報單位在數位軌跡中發現波斯文等線索；專家認為代表伊朗對歐洲基礎設施的網攻升級",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T08:12:34+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "中東"
+  ],
+  "country": [
+   "FR",
+   "IR",
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安",
+   "國際關係"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "零售與消費"
+  ],
+  "org": [
+   "伊斯蘭革命衛隊",
+   "Shahid Kaveh",
+   "CyberAv3ngers"
+  ],
+  "person": [
+   "Ellie Geranmayeh"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Shahid Kaveh",
+   "CyberAv3ngers",
+   "冷凍系統",
+   "工控資安"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Ars Technica 報導，10 月某晚，駭客把法國數百家超市冷凍系統的溫度調高，毀損數百萬歐元的食品；商用冷凍設備過去也曾遭攻擊，但從未在歐洲核心出現這種規模。法國情報單位在數位軌跡中發現波斯文等線索，指向伊斯蘭革命衛隊網路電子司令部轄下的菁英駭客單位 Shahid Kaveh。該單位常以 CyberAv3ngers 名義活動，2023 與 2024 年曾駭入美國多州水務、製造與運輸系統中的以色列製工控設備，每次都留下「所有以色列製設備都是合法目標」的訊息。FT 報導同樣指出這個革命衛隊單位就是歐洲冷凍設備攻擊的幕後黑手。專家表示伊朗國家級駭客過去很少這樣攻擊歐洲，歐洲外交關係協會的 Ellie Geranmayeh 認為伊朗已明確傳達，被排除在世界之外，全球經濟就會受到干擾。另據 BBC（經 Memia 摘要），英國也進行了一項秘密行動，保護數千台超市冷凍設備免遭駭客入侵。",
+ "dive_html": "攻擊目標從水務等關鍵基礎設施擴到零售冷鏈，顯示地緣衝突下「能造成實體損失、又不致引發軍事升級」的設備都成了籌碼。連網冷凍與空調系統常由外包維修商遠端管理、密碼長年不換，台灣的連鎖通路與倉儲業者也該盤點這類設備的對外暴露面。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "法國數百家超市的商用冷凍系統；入侵途徑與設備型號原文未提供（非漏洞類）"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供；連網冷凍與工控設備應避免直接暴露於網際網路並更換預設帳密"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Financial Times",
+   "title": "The secretive Iranian cyber unit behind Europe’s freezer hacks",
+   "url": "https://www.ft.com/content/5f3a85ad-e621-4189-bada-989f41702ed9?syn-25a6b1a6=1",
+   "time": "2026-11-25T13:00:12+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Ars Technica",
+   "title": "A familiar Iranian hacking group has found a new way to cause chaos",
+   "url": "https://arstechnica.com/security/2026/11/a-familiar-iranian-hacking-group-has-found-a-new-way-to-cause-chaos/",
+   "time": "2026-11-25T22:29:43+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "35 comments",
+   "family": "Ars Technica",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Memia",
+   "title": "Secret operation secures UK supermarket fridges from hackers",
+   "url": "https://www.bbc.co.uk/news/articles/c6eq49zyx7p4o",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 2,
+  "media_weight": 7,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

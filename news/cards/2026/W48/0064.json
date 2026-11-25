@@ -1,0 +1,442 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0064",
+ "title": "黃仁勳在川普介入下復職輝達執行長，股價反彈一天即回落，國會與司法調查未停",
+ "line": "黃仁勳向員工道歉承認違反行為準則；美情報官員稱目前無證據顯示婚外情對象受中國指使",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-24T08:00:00+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "中國大陸",
+   "台灣"
+  ],
+  "country": [
+   "US",
+   "CN",
+   "TW"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "企業經營",
+   "國際關係"
+  ],
+  "event": [
+   "人事異動",
+   "爭議風波"
+  ],
+  "story": [
+   "黃仁勳復職輝達"
+  ],
+  "sector": [
+   "半導體"
+  ],
+  "org": [
+   "Nvidia",
+   "白宮",
+   "美國司法部",
+   "Megaspeed",
+   "美國眾議院"
+  ],
+  "person": [
+   "黃仁勳",
+   "川普",
+   "黃樂"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "輝達執行長",
+   "晶片走私",
+   "出口管制",
+   "Megaspeed"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "輝達董事會一致通過，於美國時間 11 月 23 日恢復黃仁勳總裁、執行長與董事職務，公告稱經美國政府確認他不構成國安風險，並將成立國安與出口管制委員會；黃仁勳 12 天前因被揭與被指為中國間諜的黃樂等人有婚外情而辭職。據 GamesBeat 與 Guardian，他復職隔天在全員大會道歉，承認違反行為準則，但否認川普在復職中扮演關鍵角色；CNBC 報導他向員工表示輝達不需要接班計畫。鉅亨網引述華爾街日報，美國情報官員 24 日向國會幕僚簡報，目前沒有證據顯示黃樂受中國情報機構指使，但她曾與中國國安部聯繫，其丈夫被指是國安部情報資產；黃樂曾任輝達合作夥伴 Megaspeed 高層，美國司法部正調查 Megaspeed 與美超微涉嫌晶片轉運，TechCrunch 指加州檢察長、SEC 與國會仍在追查。黃仁勳預定 12 月 1 至 2 日接受眾議院三個委員會閉門問詢，12 月 3 日出席參院銀行委員會公開聽證。市場方面，輝達股價復職當天大漲逾 30%，隔日回落；中國 A 股 25 日失守 3,500 點。中央社引述紐約時報，北京對他回歸喜憂參半，預期加快國產替代；BBC、CNBC 等分析川普介入帶來政治風險，美國司法部長也迴避相關提問。",
+ "dive_html": "由總統施壓讓上市公司執行長復職，使輝達的經營與白宮政治綁在一起，後續國會聽證與晶片轉運調查都可能反過來衝擊公司與股價；市場「回歸行情只撐一天」反映的正是這層不確定。對台灣供應鏈，輝達若被要求更嚴格管控對中銷售與第三國算力出租，訂單結構會改變；12 月初的國會問詢是下一個關鍵時點。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "輝達股價復職首日漲逾 30%；BBC 報導其後回跌 7%；鉅亨網報價 25 日跌 7.18%；中國 A 股失守 3,500 點"
+  }
+ ],
+ "sources": [
+  {
+   "name": "TLDR AI",
+   "title": "NVIDIA Board Reinstates Jensen Huang as President, CEO, and Board Director",
+   "url": "https://nvidianews.nvidia.com/news/nvidia-board-reinstates-jensen-huang-as-president-ceo-and-board-director",
+   "time": "2026-11-24T08:00:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "nvidianews.nvidia.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "TLDR AI",
+   "title": "Jensen Huang Reinstated As Nvidia CEO at Behest of President Trump",
+   "url": "https://thezvi.substack.com/p/jensen-huang-reinstated-as-nvidia",
+   "time": "2026-11-25T08:00:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "thezvi.substack.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Latent Space AINews",
+   "title": "Industry and Policy: Jensen Huang reinstated at Nvidia",
+   "url": "https://latent.space/p/ainews-gemini-4-neon-marks-gdm-s-full-return-as-a-frontier-lab/#item-27",
+   "time": "2026-11-25T12:29:07+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "黃仁勳滿血回歸　北京喜憂參半",
+   "url": "https://www.cna.com.tw/news/acn/202611250229.aspx",
+   "time": "2026-11-25T17:12:18+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "黃仁勳回歸效應僅一天　中國A股失守3500點",
+   "url": "https://www.cna.com.tw/news/acn/202611250212.aspx",
+   "time": "2026-11-25T16:44:41+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "PTT Stock",
+   "title": "[新聞] 路透：黃仁勳重掌輝達對AI信用市場減壓",
+   "url": "https://www.ptt.cc/bbs/Stock/M.1795623975.A.F8F.html",
+   "time": null,
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "9",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "AIHOT",
+   "title": "黄仁勋回归后 Nvidia 仍面临 Megaspeed 芯片转运调查",
+   "url": "https://aihot.news/items/kzwj96fvnn3whzvnhqdvsh830",
+   "time": "2026-11-25T21:00:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "AIHOT",
+   "title": "Ed Zitron 分析 NVIDIA 董事会恢复黄仁勋 CEO 职位背后的行业流动性风险",
+   "url": "https://aihot.news/items/lb66i6g7eq01l6hx0rr8f7k9r",
+   "time": "2026-11-25T02:08:05+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Anue 鉅亨網",
+   "title": "黃仁勳婚外情新進展！美情報官員告知國會：目前無證據顯示中國策畫",
+   "url": "https://news.cnyes.com/news/id/6671841",
+   "time": "2026-11-26T00:53:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Memia",
+   "title": "Nvidia reinstates Jensen Huang as CEO after board reversal",
+   "url": "https://www.wired.com/story/jensen-huang-is-back-as-nvidia-ceo",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Wired",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Memia",
+   "title": "NVIDIA reinstates Jensen Huang as CEO amid spy scandal",
+   "url": "https://interestingengineering.com/culture",
+   "time": "2026-11-25T08:12:34+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "interestingengineering.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "GamesBeat",
+   "title": "Jensen Huang apologizes in all-hands meeting after returning as Nvidia CEO",
+   "url": "https://gamesbeat.com/jensen-huang-apologizes-in-all-hands-meeting-after-returning-as-nvidia-ceo/",
+   "time": "2026-11-25T10:04:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "GamesBeat",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "BBC Top News",
+   "title": "Zoe Kleinman: Nobody is irreplaceable - unless you're Jensen Huang",
+   "url": "https://www.bbc.co.uk/news/articles/c3rrgqj2zx5yo",
+   "time": "2026-11-25T18:03:12+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC World",
+   "title": "Trump's rescue of Nvidia's Huang brings political risks",
+   "url": "https://www.bbc.co.uk/news/articles/ckj05m2zdyryo",
+   "time": "2026-11-25T09:03:05+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "‘Second home’: Why Israel is celebrating Jensen Huang’s return to Nvidia",
+   "url": "https://www.aljazeera.com/features/2026/11/25/second-home-why-israel-is-celebrating-jensen-huangs-return-to-nvidia",
+   "time": "2026-11-25T21:04:17+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Huang's return fails to dispel doubts as Nvidia shares drop",
+   "url": "https://www.france24.com/en/video/20261125-huang-s-return-fails-to-dispel-doubts-as-nvidia-shares-drop",
+   "time": "2026-11-26T00:24:17+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC Business",
+   "title": "US attorney general dodges questions about Nvidia investigation",
+   "url": "https://www.bbc.co.uk/news/articles/crpdw1qx7jgxo",
+   "time": "2026-11-25T11:44:07+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian Technology",
+   "title": "Nvidia CEO Jensen Huang apologizes to staff: ‘I made some terrible mistakes’",
+   "url": "https://www.theguardian.com/technology/2026/nov/24/jensen-huang-nvidia-apologizes-staff",
+   "time": "2026-11-25T04:32:02+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian Technology",
+   "title": "Tech sell-off resumes as euphoria from Jensen Huang’s Nvidia return subsides",
+   "url": "https://www.theguardian.com/business/2026/nov/24/nvidia-stock-falls-jensen-huang",
+   "time": "2026-11-25T06:05:21+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "Trump’s meddling in Huang scandal reignites voter angst over tech’s outsized political power",
+   "url": "https://www.cnbc.com/2026/11/25/huang-reinstatement-reignites-voter-angst-over-techs-outsized-power.html",
+   "time": "2026-11-25T21:20:34+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "Trump wanted Jensen Huang back. Now, the president is all alone in Washington",
+   "url": "https://www.cnbc.com/2026/11/24/trump-jensen-huang-nvidia.html",
+   "time": "2026-11-25T05:13:39+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "Jensen Huang's Nvidia return shows the U.S.-China AI race is about more than chips",
+   "url": "https://www.cnbc.com/2026/11/25/jensen-huang-nvidia-ai-talent-race.html",
+   "time": "2026-11-25T22:29:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "Jensen Huang tells staff that Nvidia doesn't need a succession plan",
+   "url": "https://www.cnbc.com/2026/11/24/jensen-huang-nvidia-employee-meeting.html",
+   "time": "2026-11-25T22:29:50+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Financial Times",
+   "title": "‘Tech bros strike back’ as Trump rescues Nvidia’s Huang",
+   "url": "https://www.ft.com/content/a1374617-d3a2-415a-8490-72b164eefc0e?syn-25a6b1a6=1",
+   "time": "2026-11-25T13:00:32+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Nikkei Asia",
+   "title": "Jensen Huang's return to Nvidia tests America's AI strategy",
+   "url": "https://asia.nikkei.com/opinion/jensen-huang-s-return-to-nvidia-tests-america-s-ai-strategy",
+   "time": null,
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "The Diplomat",
+   "title": "Why Nvidia Couldn’t Quit Jensen Huang",
+   "url": "https://thediplomat.com/2026/11/why-nvidia-couldnt-quit-jensen-huang/",
+   "time": "2026-11-25T05:11:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "The Diplomat",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Jensen Huang is back, but China’s AI chip crunch is far from over",
+   "url": "https://www.straitstimes.com/asia/east-asia/jensen-huang-is-back-but-chinas-ai-chip-crunch-is-far-from-over",
+   "time": "2026-11-25T21:40:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Jensen Huang's return to Nvidia fuels Washington fight over China's chip access",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxNV3BLV01MMXl1a2FaazhNYWFseVlPZ2g0ZnBwdnI5aFdkV1pHR19QdzZQWDk4YlJMOFZtZk9PbVlwbmU1WXpXWjFHaHVfX3c0SVd5WHFRM0s3eW9EcUE1S1RTYUFxLXBvQmthZFFNYkFNRy1EeHNyM2gyT0prRzNPWEVPaGVGMFo2c1E1eTljc212bU5qY3EtdnlDN01WSTdnRjZOYkZKdW1lcmttSlcwazFrSFlidExMay1iTHlXaW1TQVBIUVE?oc=5",
+   "time": "2026-11-25T19:25:28+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Alice Huang-linked firms listed US$270 million in AI servers in China, records show",
+   "url": "https://www.straitstimes.com/asia/east-asia/alice-huang-linked-firms-listed-us270-million-in-ai-servers-in-china-records-show",
+   "time": "2026-11-25T16:10:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 14,
+  "regions": 6,
+  "media_weight": 28,
+  "community": {
+   "hn": 0,
+   "ptt": 9,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,83 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0105",
+ "title": "Paul Graham〈How to Earn a Billion Dollars〉：成為億萬富翁最常見的路是創業，而且不必靠作弊",
+ "line": "在牛津辯論社演講改寫，反駁「不做壞事不可能賺到十億美元」的說法",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-06-01T08:00:00+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": true,
+ "late": true,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "企業經營"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "sector": [
+   "金融"
+  ],
+  "org": [
+   "Y Combinator"
+  ],
+  "person": [
+   "Paul Graham"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Paul Graham",
+   "Y Combinator",
+   "新創",
+   "億萬富翁"
+  ],
+  "form": [
+   "長文"
+  ]
+ },
+ "summary_html": "Y Combinator 共同創辦人 Paul Graham 這篇 2026 年 6 月的文章，改寫自他在牛津辯論社（Oxford Union）的演講。他表示自己 21 年前與 Jessica 創辦 Y Combinator，至今資助約 6,500 家公司，其中約 30 位創辦人已成為億萬富翁，還有更多在路上，因此等於花了 21 年訓練人成為億萬富翁；他認為創立成功的新創是成為億萬富翁最常見的途徑。文章起因是一位美國政治人物說「不可能賺到十億美元」，他解讀對方的意思是不作弊就不可能這麼有錢，並以溜冰教練聽到「三周半跳不可能做到」比喻自己的驚訝：這很難，但做得到。他希望更多政治人物理解人們究竟如何成為億萬富翁。",
+ "dive_html": "值得讀的是 Graham 以 YC 二十多年的一手樣本回應財富正當性的公共辯論，論點的核心是「財富來自創造價值」。但他的樣本天然偏向成功的科技新創，文章對壟斷、監管套利或稅制等財富來源較少著墨；這是作者的看法，讀者可對照其他觀點。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Paul Graham",
+   "title": "How to Earn a Billion Dollars",
+   "url": "https://paulgraham.com/earn.html",
+   "time": "2026-06-01T08:00:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Paul Graham",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

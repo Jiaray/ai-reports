@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0101",
+ "title": "巴西央行撤銷 A55 金融科技執照，涉替非法博奕業者轉移約 10 億雷亞爾",
+ "line": "業者以 Pix 收款 QR code 為非法博奕網站代收資金，再轉往與博奕無關的公司",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T19:29:17+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中南美"
+  ],
+  "country": [
+   "BR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "犯罪與司法"
+  ],
+  "event": [
+   "犯罪執法"
+  ],
+  "sector": [
+   "博奕",
+   "金融"
+  ],
+  "org": [
+   "巴西中央銀行",
+   "A55 Sociedade de Crédito Direto"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "巴西",
+   "非法博奕",
+   "Pix",
+   "金流"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 iGaming Business，巴西中央銀行於美國時間 11 月 23 日宣布撤銷直接信貸公司 A55 Sociedade de Crédito Direto 的營業執照，官方公報說明原因是違反國家貨幣委員會規定、從事執照範圍外的業務。A55 在 11 月初成為聯邦區民事警察「Azzardo 行動」的目標，涉嫌為非法博奕業者轉移 10 億雷亞爾（約 1.692 億美元）；該行動動員五個州的警力打擊非法博奕網絡，暫停 100 家涉及地下博奕公司的登記，凍結 64 名個人與 120 家法人的帳戶與資產，總計 34.8 億雷亞爾。調查發現，多數被查網站會產生 QR code 讓玩家以即時支付系統 Pix 付款給 A55，業者收款後再把錢轉到與博奕無關的企業。",
+ "dive_html": "打擊非法博奕從封網站轉向切斷金流，鎖定的是支付中介這個關鍵節點，比追著網址跑更有效。這對合法業者有利，但也提醒支付與金融科技業者，替博奕代收款的合規審查會成為監管重點。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "iGaming Business",
+   "title": "Brazil Central Bank cancels licence of fintech company behind illegal betting",
+   "url": "https://igamingbusiness.com/offshore-gaming/brazil-central-bank-cancels-licence-fintech-company-illegal-betting/",
+   "time": "2026-11-25T19:29:17+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "iGaming Business",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

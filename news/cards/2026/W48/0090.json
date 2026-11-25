@@ -1,0 +1,96 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0090",
+ "title": "勒索組織 n0n 公布摩根大通、Visa、Mastercard 資料，三家證實是第三方服務商外洩",
+ "line": "摩根大通約 1.6 萬名頂級 Reserve 卡客戶聯絡資料流出；n0n 名單列 59 家企業",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T11:00:00+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "金融"
+  ],
+  "org": [
+   "n0n",
+   "摩根大通",
+   "Visa",
+   "Mastercard",
+   "Cybernews"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "n0n",
+   "勒索",
+   "第三方外洩",
+   "JPMorgan Reserve"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 iThome，勒索組織 n0n 上週在資料公布網站列出 59 家知名企業苦主，包括摩根大通、Visa、Mastercard、Walmart，威脅三家金融業者若 48 小時內不聯繫付贖就公開資料；倒數結束後陸續在暗網公開。Cybernews 於 11 月 24 日報導摩根大通資料已公開，僅 502KB，不確定是否為全部；媒體報導涉及約 16,000 名 JPMorgan Reserve 方案客戶的電子郵件、電話、帳號 ID 等聯絡資訊與逾百名員工信箱，Reserve 是給資產逾千萬美元客戶的 Visa VIP 信用卡方案。摩根大通證實提供行銷服務的委外業者外洩客戶姓名與電子郵件，但未確認人數與其他欄位。n0n 另疑似公開 Visa 約 6,000 名高階客戶與 Mastercard 特定福利方案「有限數量」參與者的資料；Visa、Mastercard 證實是第三方服務商資安事件、涉及部分非支付類客戶資料，但都未確認檔案真實性與筆數。",
+ "dive_html": "外洩的是頂級財富客戶的聯絡方式，對攻擊者而言是最值錢的釣魚名單，後續可能出現針對高資產族群的精準詐騙。三家都歸因於行銷委外商，再次顯示品牌最弱的一環在行銷與 CRM 供應鏈；台灣金融業的行銷委外同樣需要納入資安稽核。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "摩根大通約 1.6 萬名 Reserve 客戶聯絡資料、Visa 約 6,000 名高階客戶、Mastercard 部分福利方案客戶；非支付資料（依業者說法）"
+  },
+  {
+   "name": "處置",
+   "html": "受影響客戶提防冒名的精準釣魚；業者處置原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "iThome 資安",
+   "title": "駭客公布竊取的摩根大通、Visa、Mastercard資料",
+   "url": "https://www.ithome.com.tw/news/180784",
+   "time": "2026-11-25T11:00:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

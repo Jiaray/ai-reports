@@ -1,0 +1,108 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0081",
+ "title": "Elixir 套件平台 Hex.pm 遭利用 CVSS 10 漏洞入侵六台伺服器，全體帳號被登出",
+ "line": "2016 年就存在的反序列化漏洞被用來執行系統命令；未發現套件遭竄改，但帳號資料外洩無法排除",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T02:00:00+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "開發與開源"
+  ],
+  "event": [
+   "資安事件",
+   "漏洞揭露"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Hex.pm"
+  ],
+  "person": [
+   "Peter Ullrich"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "Hex.pm",
+   "Elixir",
+   "Erlang",
+   "CVE-2026-129514",
+   "反序列化",
+   "供應鏈"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Erlang 與 Elixir 開發者下載相依套件的平台 Hex.pm 於 11 月 24 日遭入侵，攻擊者利用 CVE-2026-129514（CVSS 4.0 評分 10）在 6 台正式伺服器上執行作業系統命令。iThome 指出，這個漏洞自 2016 年 2 月就存在於請求資料解析機制：伺服器在驗證身分前就把外部資料反序列化，未充分檢查型態，攻擊者傳入偽造的 Elixir 結構體，觸發錯誤記錄機制呼叫既有函式而執行命令。維護團隊在第一個惡意請求後約 15 分鐘內完成所有伺服器修補，共記錄 69 筆惡意請求，未發現套件或資料庫遭竄改、也無持續存取跡象；但資料庫不記錄讀取操作，無法排除電子郵件、密碼雜湊、API 金鑰雜湊與雙因素驗證金鑰遭竊，私有套件與文件也可能被存取。團隊已更換簽章金鑰並強制登出所有使用者；API 金鑰是 128 位元隨機值並以 HMAC-SHA256 儲存，官方認為不必更換。調查期間也發現 Ash、Flop 與 db_connection 等函式庫的漏洞，均已修補。",
+ "dive_html": "套件平台是整個生態系的信任根，這次靠 15 分鐘內修補與「未發現竄改」暫時止血，但讀取無紀錄讓外洩範圍成為懸念，後續可能出現針對 Elixir 開發者的釣魚。教訓是：驗證前就做反序列化的設計，十年後依然致命；使用 Elixir 的團隊應趁機檢查 CI 是否鎖定套件雜湊。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Hex.pm 套件平台（CVE-2026-129514，CVSS 10）；帳號電子郵件、密碼雜湊、2FA 金鑰可能外洩；利用狀態：已遭利用"
+  },
+  {
+   "name": "處置",
+   "html": "有 hex.pm 帳號者變更密碼、重設 2FA 並以 mix hex.user auth 重新登入；新版 Hex 用戶端推出前只從 repo.hex.pm 下載套件；只抓公開套件、沒有帳號者無須動作"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "title": "Hackers Exploited CVSS 10.0 Hex.pm RCE Flaw to Compromise 6 Package Registry Servers",
+   "url": "https://thehackernews.com/2026/11/hackers-exploited-cvss-100-hexpm-rce.html",
+   "time": "2026-11-25T17:06:59+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "iThome 資安",
+   "title": "程式語言Elixir套件平臺Hex.pm遭駭，使用者資料與簽章金鑰恐外洩",
+   "url": "https://www.ithome.com.tw/news/180791",
+   "time": "2026-11-25T02:00:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

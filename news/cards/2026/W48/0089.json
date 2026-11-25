@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0089",
+ "title": "Google 修補 Nest Hub 53 個漏洞，藍牙 UAF 漏洞可讓近距離攻擊者免互動執行程式碼",
+ "line": "CVE-2026-95417 達 CVSS 9.8，韌體 F32.0.2 透過無線更新推送給 Nest Hub 第 2 代與 Nest Hub Max",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T12:00:00+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "漏洞揭露",
+   "版本更新"
+  ],
+  "sector": [
+   "硬體與消費電子"
+  ],
+  "org": [
+   "Google"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "Nest Hub",
+   "CVE-2026-95417",
+   "藍牙",
+   "韌體更新"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 iThome，Google 於 11 月 23 日發布 Nest 資安公告，修補 Nest Hub 第 2 代與 Nest Hub Max 共 53 個漏洞：27 個 High、26 個 Moderate；受影響元件以藍牙最多（39 個），其次是 Cast（14 個）；類型以服務阻斷 23 個最多，遠端程式碼執行 16 個、權限提升 12 個。最受矚目的是藍牙元件的釋放後使用（UAF）漏洞 CVE-2026-95417，CVSS 9.8，藍牙近距離範圍內的攻擊者不需額外權限或使用者互動即可執行任意程式碼。Google 已透過韌體 F32.0.2 修補，兩款裝置自 11 月起陸續以無線更新（OTA）取得。原文沒有提到已遭利用。",
+ "dive_html": "免互動的藍牙 RCE 只需攻擊者在附近，辦公室會議室與公共空間的智慧螢幕都在射程內；OTA 會自動推送，但企業環境中的裝置常被關閉自動更新，資產管理者應逐台確認版本。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Nest Hub 第 2 代、Nest Hub Max（F32.0.2 之前韌體）；53 個漏洞，含 CVE-2026-95417（CVSS 9.8）；利用狀態：未說明"
+  },
+  {
+   "name": "處置",
+   "html": "確認裝置韌體已更新至 F32.0.2"
+  }
+ ],
+ "sources": [
+  {
+   "name": "iThome 資安",
+   "title": "Google修補Nest Hub裝置53個漏洞，包括可能導致遠端執行程式碼的藍牙重大漏洞",
+   "url": "https://www.ithome.com.tw/news/180789",
+   "time": "2026-11-25T12:00:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

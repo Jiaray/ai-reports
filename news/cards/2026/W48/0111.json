@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0111",
+ "title": "樂天證券外洩事件擴大，約 168 萬個客戶帳戶的資產餘額資料也外洩",
+ "line": "公司坦承資產餘額資料一併流出",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T10:53:00+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞"
+  ],
+  "country": [
+   "JP"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "金融"
+  ],
+  "org": [
+   "樂天證券"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "樂天證券",
+   "個資外洩",
+   "資產資料"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Japan Times 報導，樂天證券表示，在近期的資料外洩事件中，約 168 萬個客戶帳戶的資產餘額資料也遭外洩。",
+ "dive_html": "",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "約 168 萬個客戶帳戶的資產餘額資料"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Japan Times",
+   "title": "Data on clients’ assets also leaked in recent Rakuten Securities breach",
+   "url": "https://www.japantimes.co.jp/news/2026/11/25/japan/crime-legal/rakuten-securities-data-breach/",
+   "time": "2026-11-25T10:53:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

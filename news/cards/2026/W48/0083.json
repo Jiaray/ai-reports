@@ -1,0 +1,102 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0083",
+ "title": "Mozilla 發布 Firefox 161 修補 110 個漏洞，Thunderbird 161 修補可偽冒 OpenPGP 簽章寄件者的重大漏洞",
+ "line": "Firefox 有 59 個高風險漏洞；Thunderbird 的 CVE-2026-136226 讓簽章郵件顯示錯誤寄件者",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T04:00:00+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "版本更新",
+   "漏洞揭露"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Mozilla"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "Firefox 161",
+   "Thunderbird 161",
+   "CVE-2026-136226",
+   "OpenPGP"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 iThome，Mozilla 於 11 月 24 日發布 Firefox 161，新增個別網站 VPN 規則、一鍵清除上網資料，並首度支援 Android 車載系統，同時修補 110 個漏洞：59 個高風險、30 個中風險、21 個低風險，類型以釋放後使用（48 個）最多，沙箱逃逸（20 個）與邊界條件錯誤（17 個）居次；延伸支援版 ESR 153.8、ESR 115.46 也同步更新。同日發布的 Thunderbird 161 修補 115 個漏洞，含 1 個重大、62 個高風險；重大漏洞 CVE-2026-136226（未公布 CVSS）出在郵件標頭處理：攻擊者在真正的 From 標頭前加入小寫名稱的 From 標頭，就可能讓 Thunderbird 顯示的寄件者與實際驗證 OpenPGP 簽章的身分不一致，只要持有受害者已接受金鑰的憑證，就能寄出看似由任意他人簽署的郵件。Thunderbird 153 也已同步修補。原文沒有提到這些漏洞已遭利用。",
+ "dive_html": "Firefox 的數量是例行規模，真正值得注意的是 Thunderbird 這個簽章寄件者錯置：OpenPGP 本來就是用來確認寄件者身分，漏洞直接削弱它的核心功能，對以簽章郵件傳遞指令或憑證的團隊風險最高。更新前，收到簽章郵件時應同時核對簽章資訊中的實際身分。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Firefox 161 之前版本（110 個漏洞）、Thunderbird 161 與 153 更新前版本（115 個，含 CVE-2026-136226）；利用狀態：未說明"
+  },
+  {
+   "name": "處置",
+   "html": "更新至 Firefox 161 或 ESR 153.8／115.46、Thunderbird 161 或 153 最新版"
+  }
+ ],
+ "sources": [
+  {
+   "name": "iThome 資安",
+   "title": "Mozilla發布Firefox 161，修補110個漏洞",
+   "url": "https://www.ithome.com.tw/news/180798",
+   "time": "2026-11-25T04:00:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "iThome 資安",
+   "title": "Mozilla修補收信軟體Thunderbird重大漏洞",
+   "url": "https://www.ithome.com.tw/news/180799",
+   "time": "2026-11-25T05:00:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

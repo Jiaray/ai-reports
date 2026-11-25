@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0087",
+ "title": "Radware Cloud WAF 內部管理 API 未驗證即暴露於網路，部分客戶 AWS、Azure 存取憑證恐外洩",
+ "line": "11 月 19 日遭未經授權存取、約 10 小時後才察覺；Radware 建議客戶輪替日誌匯出用的憑證",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T02:00:00+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Radware",
+   "BleepingComputer",
+   "AWS"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "Radware Cloud WAF",
+   "API 暴露",
+   "S3 存取金鑰",
+   "SAS 權杖"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 iThome 引述 BleepingComputer 報導，網路安全業者 Radware 原本只供內部使用的雲端網頁應用防火牆（Cloud WAF）管理 API 暴露在公開網路、不需驗證即可存取，11 月 19 日遭未經授權存取。BleepingComputer 取得的根本原因分析報告顯示，Radware 在首次未授權存取約 10 小時後察覺異常，隨即封鎖來源 IP 與該 API 的存取管道，並撤換所有內部帳號憑證。可能外洩的包括客戶聯絡資料，以及部分客戶把日誌匯出到自管儲存時使用的憑證：Amazon S3 存取金鑰、Azure Blob 存取金鑰或 SAS 權杖、SFTP 憑證；已有客戶收到 AWS 警示，顯示不明 IP 嘗試存取接收日誌的 S3 儲存貯體。報告稱 WAF 的流量檢查與防護未中斷，數位憑證、終端使用者資料與 DDoS 防護服務未受波及，也沒有證據顯示客戶政策遭修改。截至報導刊出，Radware 尚未發布公開聲明。",
+ "dive_html": "資安廠商自己的管理 API 裸奔，諷刺之外，真正的風險在「客戶交給廠商的雲端憑證」——一個廠商出事，客戶的 S3 就跟著曝險，已出現的 AWS 警示說明有人在試。使用任何 SaaS 匯出日誌的團隊，都該給這類憑證最小權限（只能寫入、不能讀取或列舉）並定期輪替。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "使用 Radware Cloud WAF／Bot 防護並設定日誌匯出的客戶；可能外洩 S3 金鑰、Azure Blob 金鑰或 SAS 權杖、SFTP 憑證；利用狀態：已遭利用（API 遭未授權存取）"
+  },
+  {
+   "name": "處置",
+   "html": "立即輪替 Cloud WAF 日誌匯出用的存取憑證，檢查雲端儲存帳號存取日誌至少回溯到 11 月 19 日"
+  }
+ ],
+ "sources": [
+  {
+   "name": "iThome 資安",
+   "title": "Radware Cloud WAF內部管理API暴露於公開網路，部分客戶的雲端存取憑證恐已外洩",
+   "url": "https://www.ithome.com.tw/news/180780",
+   "time": "2026-11-25T02:00:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

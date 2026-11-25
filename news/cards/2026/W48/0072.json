@@ -1,0 +1,211 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0072",
+ "title": "AI 股賣壓加劇，那斯達克 100 盤中跌 4.7% 觸及熊市門檻，逾 8.5 兆美元市值蒸發",
+ "line": "輝達復職行情消退、新關稅與通膨數據疊加，費城半導體指數盤中重挫逾 7%",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T22:48:21+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "金融市場"
+  ],
+  "event": [
+   "市場波動"
+  ],
+  "sector": [
+   "半導體",
+   "軟體與雲端"
+  ],
+  "org": [
+   "那斯達克",
+   "Nvidia",
+   "Anthropic"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "那斯達克 100",
+   "熊市",
+   "AI 股",
+   "費城半導體指數"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據鉅亨網引述彭博，美國時間 11 月 25 日 AI 投資情緒急遽惡化，那斯達克 100 指數盤中重挫 4.7%，較 10 月初歷史高點回落 20%、觸及熊市門檻，若收盤維持將是 2025 年 4 月關稅拋售潮以來首次熊市，今年漲幅全數回吐、轉為下跌 0.6%，這波跌勢已造成逾 8.5 兆美元市值蒸發；Anthropic IPO 市場反應不一也加劇悲觀情緒。中央社引述路透，開盤時道瓊跌 1.10% 報 49,469.86 點、標普 500 跌 1.95% 報 7,060.33 點、那斯達克綜合指數跌 3.31% 報 22,948.48 點。鉅亨網盤中速報顯示，費城半導體指數一度跌逾 7%，恩智浦、高通、CrowdStrike、Zscaler、星座能源等盤中跌逾 5%。CNBC 指輝達領跌、黃仁勳回歸行情消退；BBC、FT、Reuters 也報導那斯達克盤中跌約 4%，Reuters 將賣壓歸因於 AI 拋售與川普新關稅。",
+ "dive_html": "熊市門檻是心理關卡，觸及後被動與量化資金的減碼可能放大跌勢；這波修正同時夾雜 AI 獲利疑慮、升息預期與關稅三重壓力，比單一事件更難快速修復。費半重挫直接牽動台積電 ADR 與台股電子權值，接下來要看收盤是否確認熊市，以及 12 月聯準會決策。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "那斯達克 100 盤中 -4.7%、距高點 -20%；市值蒸發逾 8.5 兆美元；開盤道瓊 -1.10%、標普 500 -1.95%、那指 -3.31%；費城半導體盤中 -7% 以上"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Anue 鉅亨網",
+   "title": "逾8.5兆美元市值蒸發！那斯達克100指數盤中已觸及熊市門檻",
+   "url": "https://news.cnyes.com/news/id/6671833",
+   "time": "2026-11-25T23:20:26+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "AI股賣壓加劇　美股開盤盡墨、那指挫逾3%",
+   "url": "https://www.cna.com.tw/news/afe/202611250337.aspx",
+   "time": "2026-11-25T22:48:21+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Anue 鉅亨網",
+   "title": "盤中速報 - 恩智浦半導體(NXPI-US)大跌5.03%，報227.36美元",
+   "url": "https://news.cnyes.com/news/id/6671835",
+   "time": "2026-11-26T00:01:07+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Anue 鉅亨網",
+   "title": "盤中速報 - 星座能源(CEG-US)大跌5.03%，報232.51美元",
+   "url": "https://news.cnyes.com/news/id/6671834",
+   "time": "2026-11-25T23:34:02+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Anue 鉅亨網",
+   "title": "盤中速報 - Zscaler公司(ZS-US)大跌5.05%，報219.93美元",
+   "url": "https://news.cnyes.com/news/id/6671832",
+   "time": "2026-11-25T23:05:03+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Anue 鉅亨網",
+   "title": "盤中速報 - Crowdstrike控股(CRWD-US)大跌5.07%，報200.17美元",
+   "url": "https://news.cnyes.com/news/id/6671831",
+   "time": "2026-11-25T23:04:58+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Anue 鉅亨網",
+   "title": "盤中速報 - 高通(QCOM-US)大跌5.12%，報156.51美元",
+   "url": "https://news.cnyes.com/news/id/6671830",
+   "time": "2026-11-25T23:04:11+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "BBC Top News",
+   "title": "US stocks fall further as fears over AI intensify",
+   "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo",
+   "time": "2026-11-26T00:07:26+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "Nvidia leads tech sell-off as Huang comeback rally fizzles and AI concerns return",
+   "url": "https://www.cnbc.com/2026/11/25/nvidia-ai-stock-tech-selloff.html",
+   "time": "2026-11-26T01:10:17+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Financial Times",
+   "title": "US stocks sell-off deepens as AI trade cracks",
+   "url": "https://www.ft.com/content/705eb84c-801d-4a96-b908-e366511e886a?syn-25a6b1a6=1",
+   "time": "2026-11-26T00:23:34+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Nasdaq sinks about 4% as AI rout, fresh Trump tariffs spook Wall St",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxNdUdBTGhVT2V5cDcydUZMX2NTdTkxVDBJSHdCMUgwNXBibGhQc28zdktpLXA2dGVUYzRzV3hpMld1U29KempSNUswd2dNYVdITlFxV2NycEkwbnlpZkdPSDNicVRKM3NCU2l0M0hoWU13UTZkbTAtX2JFempxaUtFbjdTZGMxT2lXM2g3dkR4cy1UYnVfZ09kOWpTNGxtUEZZOTRPaXhENlZ6OGt2ZF94d0RCVjdOSldfc0E?oc=5",
+   "time": "2026-11-26T00:57:59+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 6,
+  "regions": 3,
+  "media_weight": 14,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

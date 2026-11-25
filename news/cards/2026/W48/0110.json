@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0110",
+ "title": "日本京王集團 9 月遭駭，逾 1,100 萬筆個資恐外洩",
+ "line": "涵蓋這家民營鐵路業者及旅館等子公司的顧客、客戶與員工",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T14:08:00+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞"
+  ],
+  "country": [
+   "JP"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "運輸與物流",
+   "觀光"
+  ],
+  "org": [
+   "京王"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "京王",
+   "個資外洩"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Japan Times 報導，日本民營鐵路業者京王 9 月遭駭的事件，可能外洩超過 1,100 萬人的個人資料，對象包括這家業者與其旗下旅館等子公司的顧客、客戶與員工。",
+ "dive_html": "",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "逾 1,100 萬人個資；外洩欄位原文未提供"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Japan Times",
+   "title": "Personal information of over 11 million possibly leaked in September Keio hack",
+   "url": "https://www.japantimes.co.jp/news/2026/11/25/japan/keio-personal-data-leakage/",
+   "time": "2026-11-25T14:08:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

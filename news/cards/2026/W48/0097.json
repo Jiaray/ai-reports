@@ -1,0 +1,89 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0097",
+ "title": "聯邦法官下令 Kalshi 封鎖新墨西哥州四個原住民部落土地上的運動合約",
+ "line": "法官駁回聯邦衍生品法規可凌駕部落博彩法的主張，給 14 天以地理圍欄等方式遵循",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T21:29:28+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "sector": [
+   "博奕",
+   "金融"
+  ],
+  "org": [
+   "Kalshi",
+   "美國聯邦地方法院"
+  ],
+  "person": [
+   "Margaret Strickland"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Kalshi",
+   "預測市場",
+   "部落博彩",
+   "禁制令"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Yogonet，美國聯邦地方法院法官 Margaret Strickland 於 11 月 23 日核發初步禁制令，命預測市場業者 Kalshi 停止對實際位於新墨西哥州 Mescalero Apache 部落、Isleta、Pojoaque 與 Sandia 四個普韋布洛土地上的用戶提供運動賽事合約，駁回 Kalshi 主張聯邦衍生品監管可使其免受部落博彩法約束的論點。Kalshi 有 14 天時間限制這些土地上的存取，可透過地理圍欄或其他機制遵循。這是臨時禁制令，不要求 Kalshi 撤銷既有的賽事合約。",
+ "dive_html": "部落博彩權益受聯邦法律保障，法院在這個脈絡下否定 Kalshi 的聯邦優先論，比州層級的敗訴更具指標性，其他部落可能援引提告。加上同週猶他州的退場，預測市場用「金融商品」包裝運動投注的路線正面臨系統性的司法反撲。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Yogonet International",
+   "title": "Federal judge orders Kalshi to block sports contracts on four New Mexico tribes' lands",
+   "url": "https://www.yogonet.com/international/news/2026/11/25/127466-federal-judge-orders-kalshi-to-block-sports-contracts-on-four-new-mexico-tribes-39-lands",
+   "time": "2026-11-25T21:29:28+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Yogonet",
+   "kind": "media",
+   "region": "中南美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

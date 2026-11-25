@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0104",
+ "title": "捷克起訴 15 人經營無照加密貨幣賭場 BETFIN，涉 230 萬筆投注、不法所得約 2.67 億克朗",
+ "line": "當局稱這是捷克首宗以區塊鏈、智能合約與自有代幣經營「去中心化」線上賭場的案件",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T15:30:57+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "CZ"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "犯罪與司法"
+  ],
+  "event": [
+   "犯罪執法"
+  ],
+  "sector": [
+   "博奕",
+   "加密資產"
+  ],
+  "org": [
+   "捷克海關",
+   "捷克國家打擊組織犯罪中心",
+   "BETFIN"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "BETFIN",
+   "加密貨幣賭場",
+   "非法博奕",
+   "Polygon"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 iGaming Business，捷克當局起訴 15 人，指控他們經營未經財政部許可、向捷克用戶提供博奕的加密貨幣線上賭場 BETFIN，罪名包括參與組織犯罪集團與經營未經授權的博奕；三名主嫌被羈押，若定罪最重可判 13 年 6 個月。調查指出，平台以「去中心化」品牌包裝，實際由中心化團隊控制；約 28,500 名玩家下注逾 230 萬筆，估計不法所得 2.67 億捷克克朗。10 月的行動由海關與國家打擊組織犯罪中心歷經一年多調查後執行，拘捕 20 人、搜索逾 40 處，扣押約 1 億克朗（約 470 萬美元）資產。調查人員分析其在 Polygon 網路上的智能合約，以及公開簡報、社群媒體與 Telegram、Discord 上的通訊；海關稱這是捷克首宗以區塊鏈、智能合約與自有代幣經營去中心化線上賭場的疑似非法博奕案。",
+ "dive_html": "檢方能從鏈上合約與社群通訊證明「去中心化只是包裝」，打破加密賭場常用的「沒有營運者可追究」說法，對其他國家執法具參考價值。加密資產與博奕結合的灰色業務，正從監管空白走向刑事追訴。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "iGaming Business",
+   "title": "Czech authorities charge 15 over alleged unlicensed BETFIN crypto casino",
+   "url": "https://igamingbusiness.com/crypto-gambling/czech-authorities-charge-15-over-alleged-unlicensed-betfin-crypto-casino/",
+   "time": "2026-11-25T15:30:57+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "iGaming Business",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

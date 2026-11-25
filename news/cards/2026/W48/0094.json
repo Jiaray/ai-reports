@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0094",
+ "title": "1Password 員工 GitHub 帳號遭盜，攻擊者推送惡意程式碼下載部分客戶姓名與電子郵件",
+ "line": "密碼庫內容未遭存取；攻擊者也複製私有原始碼並進入 CI/CD，所有可能外洩的憑證已輪替",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-26T01:18:26+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "1Password",
+   "GitHub"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "1Password",
+   "GitHub 帳號",
+   "CI/CD",
+   "供應鏈"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "1Password 於 11 月 25 日公告，11 月 19 日開始調查攻擊者取得一名員工公司 GitHub 帳號的跡象。攻擊者用該帳號存取原始碼，並把惡意程式碼推送到後端服務，下載與客戶相關的管理資料。受影響的是部分使用者的帳號紀錄，包括姓名與電子郵件、帳號與使用者識別碼、帳號建立與最後登入時間、公鑰（本來就是公開的）、安全遠端密碼協定參數（無法用來登入帳號）、邀請與帳號復原等電子郵件連結中的權杖，以及其他非機密的內部中繼資料。1Password 強調攻擊者從未存取、也無法取得客戶的密碼庫內容。攻擊者另複製了私有程式庫的原始碼並進入 CI/CD 系統；公司表示原始碼不含使用者機密，CI/CD 內有基礎設施相關的密鑰，已觸發輪替所有可能外洩的憑證，服務、可用性與產品安全未受影響。處於 SCIM Bridge 佈建邀請或帳號復原流程中的少數用戶已另行通知。這則在 Hacker News 獲 15 分。",
+ "dive_html": "密碼庫的端對端加密設計守住了最後一道防線，但攻擊者能從一個員工 GitHub 帳號一路推送程式碼到後端並碰到 CI/CD，說明開發流程本身才是突破口。這與近期多起套件平台、外掛帳號遭盜的事件同一模式；使用 GitHub 的團隊應要求推送到正式分支需經審查與簽章，並限制 CI 密鑰的範圍。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "部分 1Password 用戶的姓名、電子郵件、帳號識別碼與邀請／復原權杖；密碼庫內容未受影響（依公司說法）"
+  },
+  {
+   "name": "處置",
+   "html": "1Password 已輪替憑證並通知受影響的佈建／復原用戶；用戶應提防冒用 1Password 名義的釣魚信"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "1Password Security Incident",
+   "url": "https://1password.com/blog/update-on-nov-2026-security-incident",
+   "time": "2026-11-26T01:18:26+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "15 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50644817",
+   "family": "1password.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 15,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

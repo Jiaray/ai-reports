@@ -1,0 +1,105 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0080",
+ "title": "Drupal 核心「Fail2Install」重大漏洞遭積極利用，CISA 列入 KEV、限 11 月 27 日前修補",
+ "line": "耗盡伺服器資源可騙 Drupal 以為網站未安裝，經 install.php 重裝並執行任意 PHP",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T04:00:00+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "漏洞揭露"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "CISA",
+   "Drupal",
+   "Searchlight Cyber"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "Drupal",
+   "Fail2Install",
+   "CVE-2026-132165",
+   "CVE-2026-131914",
+   "CVE-2026-132224",
+   "KEV"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美國 CISA 於 11 月 24 日將 Drupal 核心的 CVE-2026-132165（又稱 Fail2Install，CVSS 9.8）列入已知遭利用漏洞清單，要求聯邦機構在 11 月 27 日前修補。CISA 說明，未驗證的攻擊者在特定條件下可透過 Drupal 安裝程式 install.php 嘗試重新安裝網站，進而接管既有網站或執行任意程式碼。Searchlight Cyber 的分析指出，攻擊者可濫用一般的伺服器資源限制，讓資料庫連線與既有安裝檢查都失敗，使 Drupal 誤判網站尚未安裝，再贏得競態條件通過第二次檢查，建立攻擊者控制的管理員帳號並執行任意 PHP。iThome 指出，Drupal 自評嚴重程度 20 分（滿分 25，Highly Critical），開發團隊 11 月 18 日發布修補後隔天就有攻擊回報。同批列入 KEV 的還有 ASP.NET 防護程式庫 Idunno AntiCsrf 的 CVE-2026-131914，以及 Optimizely Web Experimentation 的 CVE-2026-132224。",
+ "dive_html": "修補隔天就被利用，代表漏洞細節與修補差異已被快速逆向，未更新的 Drupal 網站基本上要假設已遭掃描。手法是讓系統「在失敗時不安全」，提醒開發者：錯誤處理的預設分支往往就是攻擊入口。台灣有不少政府與學校網站採用 Drupal，應優先確認版本。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Drupal 核心（11 月 18 日修補前版本，CVE-2026-132165，CVSS 9.8）；另有 Idunno AntiCsrf（CVE-2026-131914）、Optimizely Web Experimentation（CVE-2026-132224）；利用狀態：已遭利用"
+  },
+  {
+   "name": "處置",
+   "html": "套用 Drupal 11 月 18 日的修補版本；暫時封鎖對 install.php 的外部存取；另兩項依廠商公告更新"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "title": "Drupal Fail2Install Exploit Details Emerge as Critical RCE Flaw Faces Active Exploitation",
+   "url": "https://thehackernews.com/2026/11/drupal-fail2install-exploit-details.html",
+   "time": "2026-11-25T19:23:26+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "iThome 資安",
+   "title": "CISA警告Drupal等3種應用系統的漏洞遭積極利用",
+   "url": "https://www.ithome.com.tw/news/180796",
+   "time": "2026-11-25T04:00:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,94 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0082",
+ "title": "WordPress 下架 WP Connect 六個遭植入後門的外掛，影響逾 3,600 個網站",
+ "line": "開發者帳號疑遭入侵，11 月 22 日的惡意版本會連回 C2 執行任意 PHP；CVE-2026-135202 尚未修補",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T14:21:12+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "WordPress",
+   "WP Connect",
+   "Wordfence"
+  ],
+  "person": [
+   "Chloe Chamberland"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "WordPress 外掛",
+   "供應鏈攻擊",
+   "CVE-2026-135202",
+   "後門"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "The Hacker News 報導，WordPress 下架 WP Connect 開發的六個外掛，原因是開發者帳號疑遭入侵，11 月 22 日發布的版本被植入後門，可在安裝的網站上執行任意程式碼；WordPress 外掛團隊表示在正式發布前就主動偵測並阻擋，外掛頁面顯示已永久關閉。受影響外掛與惡意版本為 Air WP Sync（2.9.1–2.9.4）、WP Sync for Notion（1.7.4）、Add-on Brevo for Gravity Forms（2.6.3）、Add-On for Contact Form 7 to Airtable（2.5.4）、Add-On for Contact Form 7 to Notion（1.6.4）、Orders Sync to Airtable for WooCommerce（1.0.2）。據 Wordfence，這些外掛合計安裝在逾 3,600 個網站。這起供應鏈入侵編號 CVE-2026-135202（CVSS 9.8），仍未修補。研究人員 Chloe Chamberland 指出，後門模組在每次請求時執行，回傳網站資訊給寫死的 C2 伺服器，並以 eval() 執行伺服器回傳的 PHP，還能執行 shell 指令、竊取密碼雜湊與植入 webshell。",
+ "dive_html": "WordPress 說在「正式發布前」就攔下，但 Wordfence 統計已有數千個網站安裝，代表部分網站仍可能拿到惡意版本，不能掉以輕心。這是開發者帳號被盜型的供應鏈攻擊，外掛生態系的單點信任問題再次浮現；網站管理者應關閉外掛自動更新到正式環境、改為先在測試站驗證。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "WP Connect 六個外掛的上列惡意版本，逾 3,600 個網站；CVE-2026-135202（CVSS 9.8）；利用狀態：已遭利用（植入後門）"
+  },
+  {
+   "name": "處置",
+   "html": "立即移除上列外掛並檢查網站是否有 webshell 或可疑管理員帳號；官方修補原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "title": "WordPress Blocks Six Backdoored WP Connect Plugins Before Malicious Releases Go Live",
+   "url": "https://thehackernews.com/2026/11/wordpress-blocks-six-backdoored-wp.html",
+   "time": "2026-11-25T14:21:12+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

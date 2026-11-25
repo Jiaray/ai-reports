@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0079",
+ "title": "GeoServer 兩個漏洞遭積極利用，研究人員警告可串成免驗證遠端執行",
+ "line": "任意檔案讀取 CVE-2026-120705 與授權錯誤 CVE-2026-129243 於 11 月 24 日公告修補，已有人探測",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T20:48:54+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "漏洞揭露"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "GeoServer",
+   "watchTowr",
+   "Eye Security"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "GeoServer",
+   "CVE-2026-120705",
+   "CVE-2026-129243",
+   "CVE-2026-129245",
+   "RCE"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "The Hacker News 引述 watchTowr，攻擊者正積極利用 GeoServer 兩個新修補的漏洞：CVE-2026-120705（CVSS 8.6）是任意檔案讀取，可透過單一免驗證的 WFS 請求讀取 GeoServer 程序可讀的本機文字檔，或讓伺服器抓取攻擊者指定的網址；CVE-2026-129243（CVSS 8.8）是授權錯誤，未驗證的攻擊者可呼叫原本受服務安全規則保護的 OWS 操作。兩者的公告於 11 月 24 日發布，修補版本為 GeoServer 3.0.2、2.28.6 與 2.27.7（gt-metadata 為 35.2、34.6、33.7）。watchTowr 觀察到攻擊者以錯誤型探測建立並呼叫預存查詢，確認伺服器是否有漏洞。發現 CVE-2026-120705 的 Eye Security 指出，它可與同產品另兩個漏洞串成免驗證遠端程式碼執行：CVE-2026-129245（CVSS 9.2）是「記住我」功能使用寫死的簽章金鑰「geoserver」，可偽造管理員驗證；CVE-2026-120704（CVSS 7.2）讓持有管理員工作階段者執行任意程式碼。",
+ "dive_html": "寫死的簽章金鑰加上免驗證檔案讀取，等於把串接 RCE 的拼圖都放在同一個產品裡，探測已經開始，未修補的對外 GeoServer 很快會被批量入侵。GeoServer 常見於政府與地圖服務，台灣有部署的單位應優先處理。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "GeoServer 3.0.2、2.28.6、2.27.7 之前的版本；CVE-2026-120705（8.6）、CVE-2026-129243（8.8）、可串接 CVE-2026-129245（9.2）、CVE-2026-120704（7.2）；利用狀態：已遭利用"
+  },
+  {
+   "name": "處置",
+   "html": "升級至 GeoServer 3.0.2、2.28.6 或 2.27.7（gs-main 同版本修補寫死金鑰問題）；無法立即升級時限制 WFS/OWS 對外存取"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "title": "Hackers Exploit Two GeoServer Flaws as Researchers Warn of Unauthenticated RCE Chains",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-two-geoserver-flaws-as.html",
+   "time": "2026-11-25T20:48:54+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

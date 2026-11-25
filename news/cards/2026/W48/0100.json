@@ -1,0 +1,98 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0100",
+ "title": "澳洲 ACMA 警告線上投注業者，2027 年起禁止為開戶、儲值、下注支付員工佣金與獎金",
+ "line": "禁令涵蓋獎金、轉介費、分潤與非金錢福利，ACMA 已發布初步指引",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T16:16:00+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "大洋洲"
+  ],
+  "country": [
+   "AU"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "澳洲通訊及媒體管理局"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "澳洲",
+   "ACMA",
+   "投注佣金禁令",
+   "互動式博奕法"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 iGaming Business 與 InterGame，澳洲通訊及媒體管理局（ACMA）於 11 月 25 日發布初步指引，警告持照線上投注業者在 2027 年 1 月 1 日禁令生效前檢視員工與第三方的獎勵安排。這項依《2001 年互動式博奕法》修正的禁令，禁止業者對參與管理或留住客戶、招攬、轉介客戶與重新啟用帳戶的員工、代理人或第三方給予佣金，涵蓋的客戶活動包括開設或重新啟用帳戶、儲值、下注，以及移除博奕減害措施。法律對「佣金」的定義不限名目，包括獎勵、獎金、轉介費、營收或利潤分成、績效獎金、變動薪酬等金錢或非金錢利益；例如招攬一定數量客戶的一次性獎金、綁轉介目標的加薪，甚至與這些活動掛鉤的額外假期、旅遊或招待，都可能違法。ACMA 區分這些安排與一般員工福利，例如全體員工活動。",
+ "dive_html": "直接切斷「業績導向的拉客誘因」，針對的是 VIP 經理鼓勵高風險玩家加碼的業界慣例，比廣告限制更深入營運核心。業者須在一年內重新設計業務與聯盟行銷的薪酬結構，對依賴聯盟分潤的推廣模式衝擊最大；其他市場的監管機關可能仿效。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "iGaming Business",
+   "title": "Australia warns gambling firms over staff bonuses and incentives ahead of 2027 ban",
+   "url": "https://igamingbusiness.com/legal-compliance/australia-warns-gambling-firms-over-staff-bonuses-incentives-2027/",
+   "time": "2026-11-25T19:48:46+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "iGaming Business",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "InterGame",
+   "title": "ACMA publishes guidance on wagering provider commissions",
+   "url": "https://www.intergameonline.com/igaming/news/acma-publishes-guidance-on-wagering-provider-commissions",
+   "time": "2026-11-25T16:16:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "InterGame",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

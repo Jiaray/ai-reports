@@ -1,0 +1,114 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0107",
+ "title": "美國億萬富翁 Boehly 領軍投資團收購盧克石油俄國境外資產，美國開發金融公司參與",
+ "line": "涵蓋保加利亞、羅馬尼亞、非洲與中東的煉油廠及多國加油站，日產約 35 萬桶",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T23:18:49+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "北美",
+   "中東"
+  ],
+  "country": [
+   "US",
+   "RU",
+   "AE",
+   "BG",
+   "RO"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "企業經營",
+   "國際關係"
+  ],
+  "event": [
+   "併購投資"
+  ],
+  "sector": [
+   "能源與公用事業"
+  ],
+  "org": [
+   "Lukoil",
+   "Eldridge",
+   "美國國際開發金融公司",
+   "Catena Investments",
+   "美國外國資產控制辦公室"
+  ],
+  "person": [
+   "Todd Boehly"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "盧克石油",
+   "制裁",
+   "煉油資產",
+   "併購"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 CNBC 引述知情人士，美國億萬富翁 Todd Boehly 旗下資產管理公司 Eldridge 領軍的投資人已達成協議，收購俄羅斯盧克石油（Lukoil）在俄國境外的資產；美國國際開發金融公司（DFC）與阿聯的 Catena Investments 也是交易方。交易將把盧克石油在保加利亞、羅馬尼亞、非洲與中東的煉油廠與其他生產資產，以及美國、歐洲與亞洲的零售加油站移轉給這個美國主導的團體，約有每日 35 萬桶產量。美國外國資產控制辦公室（OFAC）預期會核准，但仍需最終批准。協議讓歐洲可透過美國主導的團體、而非俄羅斯，購買原本由盧克石油生產的柴油等燃料。Reuters 以獨家報導稱這是一項美方支持的換股交易。",
+ "dive_html": "由美國政府開發金融機構參與接手俄企海外資產，是把制裁壓力轉成美方商業利益的做法，也讓歐洲在不違反制裁下保住燃料供應。交易仍待 OFAC 最終核准，俄方是否會報復或主張資產權益是後續變數。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "日產約 35 萬桶；涵蓋保加利亞、羅馬尼亞、非洲與中東煉油與生產資產"
+  }
+ ],
+ "sources": [
+  {
+   "name": "CNBC",
+   "title": "Investors led by U.S. billionaire Todd Boehly to buy Lukoil's oil and gas assets outside Russia, sources say",
+   "url": "https://www.cnbc.com/2026/11/25/investors-led-by-todd-boehly-to-buy-lukoil-oil-and-gas-assets-outside-russia.html",
+   "time": "2026-11-26T00:00:45+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "EXCLUSIVE: Boehly signs US-backed share swap deal to buy Lukoil global assets",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQM05VWXNudnhTWW1BY2VFUHpZRzdNSjU4TG1Ob3NYZTRKM0tNUWNGQmxyNEp6NW0yTEJWaTZabF9UNW9CUUZTclBhaGpnQmZ6WVRZTVhqS3dpOTBsZEtaOGZnMzFPQlR5MDRpZThJNmU0cXc5Q0trMDNhdWtxVjV4V1lMYzYyR1RHU0lBNDdWZDlzOWxBN1J1Wm0xWlJkNEVMaVNXUXdQcTRuUHlvczlnMTd1VGRWQQ?oc=5",
+   "time": "2026-11-25T23:18:49+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

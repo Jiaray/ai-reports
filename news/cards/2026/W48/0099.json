@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0099",
+ "title": "南非貿工部建議合法化線上博奕，草擬政策並將公開徵詢意見",
+ "line": "目前僅線上運動投注合法、線上賭場遭禁；部門已與各省與國家博奕委員會協商",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T19:51:53+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "非洲"
+  ],
+  "country": [
+   "ZA"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "南非貿易工業與競爭部",
+   "南非國家博奕委員會"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "南非",
+   "線上博奕",
+   "線上賭場合法化"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 iGaming Business，南非貿易、工業與競爭部（DTIC）建議將線上博奕合法化，為這項目前被禁止的活動納入受監管市場開啟政策與立法程序。部門已草擬線上博奕政策，並與各省及國家博奕委員會協商，與其他利害關係人的討論仍在進行；政策預計在本財政年度公開徵詢意見，並將進行社會經濟影響評估以形塑最終規則，目前尚未提出最終監管條文。南非 2004 年《國家博奕法》原本預期兩年內完成互動式博奕立法，2008 年修法也曾納入相關條款，但互動式博奕至今仍被禁止；線上運動投注則已合法，並透過持照業者廣泛提供。",
+ "dive_html": "南非是非洲最成熟的受監管博彩市場，若開放線上賭場，將是全球線上博奕少數仍具規模的新市場之一，老虎機與真人遊戲供應商會積極布局。但從 2004 年拖到現在仍停在政策草案，立法時程恐怕以年計。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "iGaming Business",
+   "title": "South Africa considers legalising online gambling as DTIC advances policy",
+   "url": "https://igamingbusiness.com/legal-compliance/south-africa-online-gambling-dtic/",
+   "time": "2026-11-25T19:51:53+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "iGaming Business",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

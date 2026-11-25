@@ -1,0 +1,96 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0103",
+ "title": "Meridian Holdings 擬收購中非三國三家博奕業者多數股權，取得逾 350 家實體據點",
+ "line": "三家業者已用 Meridianbet 技術，原股東保留少數股權；以現金支應、金額低於總資產 5%",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T15:32:08+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "非洲"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "企業經營"
+  ],
+  "event": [
+   "併購投資"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "Meridian Holdings",
+   "Meridianbet"
+  ],
+  "person": [
+   "William Scott"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Meridian",
+   "非洲博彩市場",
+   "併購"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 iGaming Business 與 InterGame，美國上市的 Meridian Holdings 於美國時間 11 月 24 日宣布，已簽署不具約束力的意向書，擬收購中非三個國家三家持照博彩業者的多數股權，業者名稱未公開。三家業者已依 B2B 協議使用 Meridianbet 的博彩技術，合計經營逾 350 家實體據點，並有服務數千名玩家的線上業務；其中最大的兩家都已營運至少十年。原股東將保留少數股權並續任合作夥伴。意向書給予 Meridian 盡職調查期間的獨家權，擬議現金對價合計低於公司 2026 年 9 月 30 日總資產的 5%，將以自有現金支應；各交易仍須完成盡職調查、取得監管核准與簽訂正式協議，公司提醒可能無法如期或根本無法完成。總裁兼財務長 William Scott 表示，讓原股東保留少數股權可使誘因一致。",
+ "dive_html": "先以 B2B 技術打入、再收購客戶多數股權，是博彩技術商向營運商延伸的典型路徑，風險較直接進場低。非洲實體投注據點仍是主力通路，但各國監管與政治風險高，意向書不具約束力，完成與否仍有變數。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "iGaming Business",
+   "title": "Meridian Holdings looks to expand African footprint with three proposed operator acquisitions",
+   "url": "https://igamingbusiness.com/strategy/meridian-holdings-proposed-african-operator-acquisitions/",
+   "time": "2026-11-25T15:32:08+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "iGaming Business",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "InterGame",
+   "title": "Meridian advances Central African operator acquisitions",
+   "url": "https://www.intergameonline.com/igaming/news/meridian-advances-central-african-operator-acquisitions",
+   "time": "2026-11-25T15:36:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "InterGame",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

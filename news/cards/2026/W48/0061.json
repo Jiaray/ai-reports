@@ -1,0 +1,149 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0061",
+ "title": "美國第 3 季 GDP 上修至年增 4.3%，10 月 PCE 物價年增 3.8% 追平 3 年高點，12 月升息預期升溫",
+ "line": "投資與消費強勁，核心資本財訂單也優於預期；通膨居高不下讓聯準會可能年內二度升息",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T21:47:43+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "總體經濟"
+  ],
+  "event": [
+   "數據發布"
+  ],
+  "sector": [
+   "金融"
+  ],
+  "org": [
+   "美國商務部",
+   "聯準會"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "GDP",
+   "PCE 物價指數",
+   "核心資本財訂單",
+   "升息"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據中央社引述法新社，美國商務部經濟分析局（BEA）美國時間 11 月 25 日公布，第 3 季 GDP 折合年率成長 4.3%，較前次估值上修 0.9 個百分點（FT 指初值為 3.4%），主要反映投資加速與政府支出轉增，部分被出口下滑抵銷。同日公布 10 月個人消費支出（PCE）物價指數年增 3.8%，追平 5 月的 3 年高點，月增 0.3%，能源與非耐久財通膨同步升溫；聯準會 9 月已宣布 3 年來首次升息，10 月維持利率不變，Guardian 指這是 12 月會議前最後一筆通膨數據，官員普遍預期將年內二度升息。鉅亨網引述路透，10 月核心資本財訂單月增 1.2%，高於預期的 0.7%，9 月上修至 0.8%，年增 11.2%，企業設備投資在 AI 帶動下維持動能。Reuters 另報導當週初領失業救濟金人數降幅大於預期。中央社報導也提到，美國經濟面臨川普關稅政策與對伊朗戰爭推升能源價格等逆風。",
+ "dive_html": "成長強、通膨高的組合讓聯準會 12 月升息的理由更充分，美元走強、資金回流美國的壓力也直接反映在同日新台幣跌破 33 元。資本財訂單顯示 AI 設備投資仍熱，與股市對 AI 的恐慌形成對比；若 12 月升息落地，借錢擴建 AI 基礎設施的成本上升，是後續要觀察的轉折點。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "Q3 GDP 年率 4.3%（上修 0.9 個百分點）；10 月 PCE 年增 3.8%、月增 0.3%；10 月核心資本財訂單月增 1.2%（預期 0.7%）、年增 11.2%"
+  }
+ ],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "美國第3季GDP大幅上修　10月PCE續揚強化升息預期",
+   "url": "https://www.cna.com.tw/news/aopl/202611250343.aspx",
+   "time": "2026-11-25T23:51:35+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "The Guardian US politics",
+   "title": "US inflation hits highest since May after prices climb 3.8% over the last year",
+   "url": "https://www.theguardian.com/business/2026/nov/25/consumer-prices-september-october-energy-inflation",
+   "time": "2026-11-25T23:46:15+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Anue 鉅亨網",
+   "title": "AI投資撐起設備需求！美10月核心資本財訂單超預期 後勁面臨考驗",
+   "url": "https://news.cnyes.com/news/id/6671809",
+   "time": "2026-11-26T01:00:12+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Financial Times",
+   "title": "Upgrade to US GDP figures keeps December rate rise in play for Fed",
+   "url": "https://www.ft.com/content/a1aaf5be-176c-4c4c-99d6-00875f6933f3?syn-25a6b1a6=1",
+   "time": "2026-11-26T00:07:13+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "US third-quarter GDP growth revised sharply higher",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxONjZ1Y2k2ZHFiNlFJRV9fUWVWNXk5R0puemhyQTF6X2xiV0NTblNua3dFVTlQWE1keGQ0TDVMdHNSUHZlYURmbUE3cVZpRDlLdDRiSXNRTTYzZEpXcjViSGd2SV83emptZFRrUWtTczl4b3ItMVdBOEpNOHFSOVFWN096T083eV9KaWVCbXgwczlLLVl1VHNRNGZ0clRZS3NFXzRwQnVR?oc=5",
+   "time": "2026-11-25T22:28:47+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "US weekly jobless claims fall more than expected",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNZHpnUUFPVXFGUWhvOXVLRGk1aVJac0tCQ0hpZHNvT05Uc1c5Mks3eGVEVXRvSE9EaWZpYmhqcWxmR0VLaVlFa1NOQzMxRWdxVVRfYzVMc0NlZFlabXZoVDhfRlRaMTBZaFlIa1BROW5jUHRvb3pYOTF0cE9iX19qejVrdlMtdnp1RERadmI2WTRReHdMOG9Gag?oc=5",
+   "time": "2026-11-25T21:47:43+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 5,
+  "regions": 2,
+  "media_weight": 12,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

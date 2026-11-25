@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0108",
+ "title": "Dell 第三季營收 549.4 億美元年增逾一倍、優於預期，授權 250 億美元庫藏股",
+ "line": "AI 伺服器需求帶動，每股盈餘 9.45 美元遠高於預期的 6.59 美元，下季財測也優於市場",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T06:07:45+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "企業經營",
+   "AI"
+  ],
+  "event": [
+   "財報營運"
+  ],
+  "sector": [
+   "硬體與消費電子",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Dell"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Dell",
+   "AI 伺服器",
+   "財報",
+   "庫藏股"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 CNBC，Dell 於美國時間 11 月 24 日公布第三季財報，調整後每股盈餘 9.45 美元、營收 549.4 億美元，均優於 LSEG 市場預期的 6.59 美元與 493.2 億美元；整體營收在 AI 伺服器需求帶動下年增逾一倍。公司預估本季每股盈餘 8.40 美元、營收約 563 億美元，高於分析師預期的 7.50 美元與 536.1 億美元，並授權 250 億美元庫藏股，股價盤後上漲。Dell 在開場說明中表示，其競爭優勢在於讓客戶在到貨數小時內就能讓設備運作；最大事業群是製造 AI 伺服器的基礎設施解決方案部門（ISG）。",
+ "dive_html": "在市場擔憂 AI 泡沫之際，Dell 交出營收翻倍與上修財測，說明企業端 AI 伺服器需求仍實在，與華城等供應鏈一線說法一致。AI 伺服器供應鏈與台灣代工廠關係密切，財測強勁對相關供應鏈是正面訊號；但同日美股仍大跌，顯示市場更在意的是融資與估值而非當季訂單。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "Q3 營收 549.4 億美元（預期 493.2 億）、EPS 9.45 美元（預期 6.59）；Q4 財測營收約 563 億美元、EPS 8.40 美元；庫藏股 250 億美元"
+  }
+ ],
+ "sources": [
+  {
+   "name": "CNBC",
+   "title": "Dell earnings beat on AI strength, company authorizes $25 billion buyback",
+   "url": "https://www.cnbc.com/2026/11/24/dell-earnings-report-q3-2027.html",
+   "time": "2026-11-25T06:07:45+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

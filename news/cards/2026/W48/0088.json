@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0088",
+ "title": "SolarWinds 修補 Serv-U 五個 CVSS 9.1 重大漏洞，影響 2026.3 及更早版本",
+ "line": "路徑遍歷導致權限提升與存取預定目錄外的檔案，已在 2026.4 版修補",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T12:00:00+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "漏洞揭露",
+   "版本更新"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "SolarWinds"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "Serv-U",
+   "CVE-2026-123167",
+   "CVE-2026-82315",
+   "路徑遍歷"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 iThome，SolarWinds 於 11 月 24 日發布資安公告，修補檔案傳輸軟體 Serv-U 的重大權限提升漏洞 CVE-2026-123167（CVSS 3.1 評分 9.1）。漏洞源自路徑遍歷缺陷，已取得網域管理員權限的攻擊者，可能藉此存取原本需要更高權限才能讀取或操作的檔案，Windows 安裝環境的風險較低。同一波公告另修補 8 個漏洞，其中 CVE-2026-82315、CVE-2026-82320、CVE-2026-82321、CVE-2026-82322 同為 9.1 分的重大漏洞，可能讓攻擊者存取預定目錄以外的受保護檔案並提升權限。這些漏洞影響 Serv-U 2026.3 及更早版本，已在 2026.4 版修補。原文沒有提到已遭利用。",
+ "dive_html": "利用前提是已有網域管理員權限，直接風險不如免驗證漏洞；但 Serv-U 過去曾多次成為勒索組織的入侵跳板，檔案傳輸伺服器又常對外開放，仍應排入近期更新。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Serv-U 2026.3 及更早版本；CVE-2026-123167、CVE-2026-82315、CVE-2026-82320、CVE-2026-82321、CVE-2026-82322（CVSS 9.1）；利用狀態：未說明"
+  },
+  {
+   "name": "處置",
+   "html": "更新至 Serv-U 2026.4"
+  }
+ ],
+ "sources": [
+  {
+   "name": "iThome 資安",
+   "title": "SolarWinds修補Serv-U重大權限提升漏洞",
+   "url": "https://www.ithome.com.tw/news/180790",
+   "time": "2026-11-25T12:00:00+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

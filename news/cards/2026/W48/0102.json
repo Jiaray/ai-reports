@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0102",
+ "title": "愛爾蘭向歐盟通報可授權遊戲清單草案，新博奕執照制度須待清單定案才能核發",
+ "line": "歐盟 TRIS 暫停期至 2027 年 2 月 22 日；公眾諮詢 123 份回應普遍支持但擔心彈性不足",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T18:19:17+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "IE"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "愛爾蘭博奕監管局",
+   "歐盟執委會"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "愛爾蘭",
+   "GRAI",
+   "博奕牌照",
+   "遊戲清單"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 iGaming Business，愛爾蘭已透過歐盟技術法規資訊系統（TRIS）於 11 月 19 日向歐盟執委會通報《2024 年博奕監管法（指定遊戲）2026 年規則》草案，列出愛爾蘭博奕監管局（GRAI）可授權的遊戲類別，暫停期預定至 2027 年 2 月 22 日，除非延長。依法第 86 條，GRAI 在規則確定可授權遊戲之前，無法依新制度核發博弈執照；個別執照仍須載明各業者可提供哪些指定遊戲。草案涵蓋對消費者的博奕，意在納入愛爾蘭與其他歐盟國家既有的遊戲。GRAI 表示以市場研究與公眾諮詢擬定，諮詢收到業者、供應商、顧問、團體與民眾共 123 份回應，普遍支持訂出明確清單，但質疑是否有足夠彈性跟上產品變化。",
+ "dive_html": "新監管機關要先定「准做哪些遊戲」才能發照，代表愛爾蘭新制最快也要到 2027 年才真正上路，業者在過渡期仍沿用舊制。清單式管理對遊戲供應商最直接：新玩法若不在清單內就無法上市，彈性問題是後續修訂的焦點。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "iGaming Business",
+   "title": "Ireland draft sets out games eligible for new licensing regime",
+   "url": "https://igamingbusiness.com/legal-compliance/ireland-draft-sets-out-games-eligible-for-new-licensing-regime/",
+   "time": "2026-11-25T18:19:17+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "iGaming Business",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

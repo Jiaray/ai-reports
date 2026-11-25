@@ -1,0 +1,103 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0074",
+ "title": "預測市場 Kalshi 在猶他州訴訟敗退後暫停當地交易，州政府隨即撤回對創辦人的刑事起訴",
+ "line": "聯邦法院未同意阻止猶他州依賭博法執法，Kalshi 稱影響逾 17.7 萬名用戶、將續打官司",
+ "born_at": "2026-11-26T01:54:26+08:00",
+ "first_reported_at": "2026-11-25T02:03:58+08:00",
+ "updated_at": "2026-11-26T01:54:26+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決",
+   "政策法規"
+  ],
+  "sector": [
+   "博奕",
+   "金融"
+  ],
+  "org": [
+   "Kalshi",
+   "猶他州檢察長辦公室",
+   "商品期貨交易委員會"
+  ],
+  "person": [
+   "Derek Brown"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Kalshi",
+   "預測市場",
+   "猶他州",
+   "CFTC 管轄權"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Ars Technica，預測市場平台 Kalshi 發言人 Jacki McGavick 於美國時間 11 月 23 日表示，公司做出暫停猶他州業務的「艱難決定」，原因是 Kalshi 未能在法院阻止猶他州依賭博法持續執法，也沒能說服聯邦上訴法院在上訴期間暫停相關案件；商品期貨交易委員會（CFTC）主張自己對預測市場有專屬管轄權而提出的緊急動議，聯邦地院目前也未准許。McGavick 稱這對逾 17.7 萬名使用 Kalshi 的猶他州民是不幸的結果，公司將繼續在法庭爭取、待法律立場獲證實後回歸。猶他州檢察長 Derek Brown 先前對 Kalshi 同時提出民事與刑事告訴，捍衛州內實施 130 年的賭博禁令，指 Kalshi 經營的是違憲的「線上賭場」。CNBC 報導，在 Kalshi 暫停州內業務後，猶他州撤回對其共同創辦人的刑事起訴，兩人原定 12 月出庭。",
+ "dive_html": "這是預測市場「CFTC 管轄、不受州賭博法約束」論點的重大挫敗：州政府以刑事起訴施壓，迫使業者退出後才撤告，等於示範了各州對付預測市場的有效手段。同週 Kalshi 也在新墨西哥部落土地輸掉禁制令，聯邦與州（及部落）的管轄權之爭可能一路打到最高法院，運動博彩業者與預測市場的界線將由司法重劃。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Ars Technica",
+   "title": "Kalshi makes “difficult decision” to halt Utah trading after losing court fights",
+   "url": "https://arstechnica.com/tech-policy/2026/11/kalshi-makes-difficult-decision-to-halt-utah-trading-after-losing-court-fights/",
+   "time": "2026-11-25T02:03:58+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "74 comments",
+   "family": "Ars Technica",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "Utah drops criminal charges against Kalshi founders after company suspended operations in state",
+   "url": "https://www.cnbc.com/2026/11/24/utah-drops-charges-against-kalshi-after-it-halted-operations-in-state.html",
+   "time": "2026-11-25T04:45:57+08:00",
+   "added_at": "2026-11-26T01:54:26+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}
