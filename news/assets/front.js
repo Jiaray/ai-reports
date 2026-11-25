@@ -4,7 +4,8 @@
      （樣式摘要 5.5）；條目是 A.rows 的列表列（頁內展開）；過濾標籤依系列。每日頭版已停用，舊檔不再讀。
    - 每週頭版（?w、?w=YYYY-Www）：讀 index.json、weekly/front/index.json 與該週頭版檔，畫成時間軸。
    兩種都不標「新」（依每台裝置的瀏覽紀錄算，碰到用詞規則）；舊的 air-front-seen 開頁時刪掉。
-   依賴 A.bar（bar.js 報頭元件）；A.facets、A.look、A.rows 選用（載入失敗就少該功能；沒有 A.rows 時本日焦點退回標題連結清單）；
+   本日焦點報頭下有今天的日期與農民曆（A.almanac，almanac.js；lunar.js 開頁就另載，最多等 3 秒，晚到的到了再補上那一塊）。
+   依賴 A.bar（bar.js 報頭元件）；A.facets、A.look、A.rows、A.almanac 選用（載入失敗就少該功能；沒有 A.rows 時本日焦點退回標題連結清單）；
    每週頭版條目沿用 report.css 標題讀法（data-read=scan）的 .peek／.row-*。 */
 (() => {
   'use strict';
@@ -49,6 +50,8 @@
   let fpBox = null; // 「版面」下拉（layoutPanel 建一次，每次重畫搬進新工具列）
   let srBox = null; // 「系列 ▾」下拉（index 到了建一次；舊版 bar.js 沒有 seriesMenu 就不放）
   const R = A.rows || null; // 列表列（rows.js）；部署空窗缺檔＝null
+  const AL = !weekMode && A.almanac ? A.almanac : null; // 今天日期與農民曆（almanac.js）；只有本日焦點用
+  const almReady = AL ? AL.load() : null; // lunar.js 開頁就開始載
 
   // ── 日期與時間（台北）──
   const taipei = (ms) => new Date(ms + TAIPEI_MS).toISOString(); // 台北時間的 ISO（Z 只是佔位）
@@ -235,9 +238,9 @@
     const any = ((index && index.items) || []).some((e) => e && e.series && e.period && cadenceOf(e) !== 'daily');
     return any || weekMode ? B.navLink('本週回顧', 'weekly', '?w', current) : null;
   }
-  // 工具列（樣式摘要 5.1）：日期（只有每週頭版）｜系列 ▾｜本日焦點｜本週回顧｜議題｜版面。舊版 bar.js 沒有 storyLink 就不放議題
+  // 工具列（樣式摘要 5.1）：日期（只有每週頭版）｜本日焦點｜本週回顧　右邊一組：系列 ▾｜議題｜版面。舊版 bar.js 沒有 storyLink 就不放議題
   const toolbar = (date, frontCur, weekCur) => B.toolbar([
-    date, srBox, frontLink(frontCur), weeklyLink(weekCur), B.storyLink ? B.storyLink(null) : null, fpBox,
+    date, frontLink(frontCur), weeklyLink(weekCur), srBox, B.storyLink ? B.storyLink(null) : null, fpBox,
   ]);
 
   // 日期面板：左欄＝這週出刊的報告（當週週報＋當週發布的月報），右欄＝有每週頭版的週。
@@ -625,6 +628,7 @@
       note,
       toolbar(null, 'page', null),
       h('header', { class: 'masthead fp-head' }, [h('h1', { class: 'mast-title' }, [TITLE]), ...filterBar(types)]),
+      AL ? AL.render(today()) : null,
       main,
       // 退回最近一批時不寫「過去 N 小時內」（黃條已說明這段時間沒有新卡）
       h('footer', { class: 'foot' }, [h('span', { class: 'foot-left' }, [
@@ -650,10 +654,20 @@
       return;
     }
     app.querySelectorAll('#main time[data-ago]').forEach((el) => { el.textContent = ago(Date.parse(el.getAttribute('datetime')), now); });
+    syncAlmanac();
+  }
+  // 農民曆那一塊：過了午夜、或 lunar.js 晚到（畫的時候只有國曆）→ 就地換掉，不整頁重畫
+  function syncAlmanac() {
+    const el = AL ? app.querySelector(':scope > .fp-alm') : null;
+    if (!el) return;
+    const next = AL.render(today());
+    if (el.dataset.day !== next.dataset.day || el.hasAttribute('data-lunar') !== next.hasAttribute('data-lunar')) el.replaceWith(next);
   }
 
   async function focusMain() {
-    const [idx, doc] = await Promise.allSettled([A.getJSON('index.json'), A.getJSON(FOCUS_PATH)]);
+    // 農民曆跟清單一起等，最多 3 秒（不讓它拖住新聞）；晚到的由下面的 then 補上
+    const almWait = almReady ? Promise.race([almReady, new Promise((r) => { setTimeout(r, 3000); })]) : null;
+    const [idx, doc] = await Promise.allSettled([A.getJSON('index.json'), A.getJSON(FOCUS_PATH), almWait]);
     index = idx.status === 'fulfilled' && idx.value && typeof idx.value === 'object' ? idx.value : null;
     srBox = B.seriesMenu ? B.seriesMenu(index, null) : null;
     if (doc.status === 'fulfilled') focus = doc.value && typeof doc.value === 'object' ? doc.value : {};
@@ -663,6 +677,7 @@
       return;
     }
     renderFocus();
+    if (almReady) almReady.then(() => syncAlmanac());
     setInterval(() => { if (document.visibilityState === 'visible') tickFocus(); }, 60000);
   }
   // 回前景重抓：清單、built_at 都沒變只更新多久前（不收起展開中的列）；沒抓到也照現在時間重切

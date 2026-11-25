@@ -49,14 +49,14 @@
     return `${k.slice(0, 4) === R.today().slice(0, 4) ? '' : `${k.slice(0, 4)}/`}${+k.slice(5, 7)}/${+k.slice(8, 10)}`;
   }
 
-  // ── 報頭工具列（bar.js；樣式摘要 5.1）：系列 ▾｜本日焦點｜本週回顧｜議題｜版面；暫時頁不屬於哪一邊，都不標 aria-current ──
+  // ── 報頭工具列（bar.js；樣式摘要 5.1）：本日焦點｜本週回顧　右邊一組：系列 ▾｜議題｜版面；暫時頁不屬於哪一邊，都不標 aria-current ──
   let hasWeekly = false;
   let srBox; // undefined＝還沒建
   let vwBox = null;
   const toolbar = () => B.toolbar([
-    srBox,
     B.navLink('本日焦點', 'front', './', null),
     hasWeekly ? B.navLink('本週回顧', 'weekly', './?w', null) : null,
+    srBox,
     B.storyLink ? B.storyLink(null) : null,
     vwBox,
   ]);

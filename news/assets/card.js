@@ -126,14 +126,14 @@
     return out;
   }
 
-  // ── 報頭工具列（bar.js；樣式摘要 5.1）：系列 ▾｜本日焦點｜本週回顧｜議題｜版面；新聞卡不屬於哪一邊，都不標 aria-current ──
+  // ── 報頭工具列（bar.js；樣式摘要 5.1）：本日焦點｜本週回顧　右邊一組：系列 ▾｜議題｜版面；新聞卡不屬於哪一邊，都不標 aria-current ──
   let hasWeekly = false;
   let vwBox = null;
   let srBox; // 「系列」下拉：index 到了建一次（undefined＝還沒建；舊版 bar.js 沒有 seriesMenu 就不放）
   const toolbar = () => B.toolbar([
-    srBox,
     B.navLink('本日焦點', 'front', './', null),
     hasWeekly ? B.navLink('本週回顧', 'weekly', './?w', null) : null,
+    srBox,
     B.storyLink ? B.storyLink(null) : null, // 舊版 bar.js 沒有就不放
     vwBox,
   ]);

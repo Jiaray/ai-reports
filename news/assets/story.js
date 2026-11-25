@@ -103,15 +103,15 @@
   }
   const dayDiff = (a, b) => Math.round((Date.parse(`${b}T00:00:00Z`) - Date.parse(`${a}T00:00:00Z`)) / 86400000);
 
-  // ── 報頭工具列（bar.js；樣式摘要 5.1）：系列 ▾｜本日焦點｜本週回顧｜議題｜版面。議題目錄 aria-current=page、議題頁 true（同一邊）；
+  // ── 報頭工具列（bar.js；樣式摘要 5.1）：本日焦點｜本週回顧　右邊一組：系列 ▾｜議題｜版面。議題目錄 aria-current=page、議題頁 true（同一邊）；
   // 舊版 bar.js 沒有 storyLink／seriesMenu 就不放 ──
   let hasWeekly = false;
   let srBox; // undefined＝還沒建
   let vwBox = null;
   const toolbar = (current) => B.toolbar([
-    srBox,
     B.navLink('本日焦點', 'front', './', null),
     hasWeekly ? B.navLink('本週回顧', 'weekly', './?w', null) : null,
+    srBox,
     B.storyLink ? B.storyLink(current) : null,
     vwBox,
   ]);

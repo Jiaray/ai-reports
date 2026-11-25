@@ -80,7 +80,7 @@
     return `${m} 月 ${d} 日（${WEEK[new Date(Date.UTC(y, m - 1, d)).getUTCDay()]}）`;
   }
 
-  // 工具列（bar.js；樣式摘要 5.1）：日期（只有報告頁）｜系列 ▾｜本日焦點｜本週回顧｜議題｜版面。aria-current=true：同一邊（日報｜週報、月報）
+  // 工具列（bar.js；樣式摘要 5.1）：日期（只有報告頁）｜本日焦點｜本週回顧　右邊一組：系列 ▾｜議題｜版面。aria-current=true：同一邊（日報｜週報、月報）
   // 而非該頁本身；cardPage＝新聞卡系列頁，算日報那邊。舊版 bar.js 沒有 storyLink 就不放議題
   const cadenceOf = (e) => (e && e.cadence) || 'daily';
   function editions(cur, cardPage) {
@@ -88,9 +88,9 @@
     const daily = cardPage || (cur && cadenceOf(cur) === 'daily');
     return B.toolbar([
       cur ? periodPicker(cur) : null,
-      srBox,
       all.length || cardPage ? B.navLink('本日焦點', 'front', './', daily ? 'true' : null) : null,
       weeklyLink(cur),
+      srBox,
       B.storyLink ? B.storyLink(null) : null,
       vwBox,
     ]);

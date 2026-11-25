@@ -3,7 +3,7 @@
    2. 下拉 dropdown()（功能鈕開時為底部面板）
    3. 期別寫法
    4. 元件 datePicker、titleChapters、seriesMenu（面板內容 seriesGroups）、toolbar、navLink、storyLink、roving。
-      工具列組成（樣式摘要 5.1）：新聞卡相關的頁「系列 ▾｜本日焦點｜本週回顧｜議題｜版面」；週報報告頁與本週回顧日期按鈕排最前面
+      工具列組成（樣式摘要 5.1）：新聞卡相關的頁「本日焦點｜本週回顧」，右邊一組「系列 ▾｜議題｜版面」；週報報告頁與本週回顧日期按鈕排最前面
    5. 工具列凍結：--bar-h、.is-stuck
    6. 非當期提示 staleBanner
    7. 手機右下角功能鈕（扇面） */
@@ -23,7 +23,8 @@
     caretLg: svg(0, 'M5 7.5l5 5 5-5'), // 大標題箭頭：不給寬高，隨 CSS 外框
     front: svg(18, 'M3 3.5h14v13H3zM6 7.5h8M6 10.5h8M6 13.5h5'), // 本日焦點：一張報紙（同網站圖示）
     weekly: svg(18, 'M6 2.5h11v11H6zM3 5.5v12h12M9 6h5M9 9h5M9 12h3'), // 本週回顧：兩張疊報紙；front、weekly 也給 front.js「出自」用
-    series: svg(18, 'M3 3h6v6H3zM11 3h6v6h-6zM3 11h6v6H3zM11 11h6v6h-6z'), // 系列：四格
+    // 系列：一排書（兩本直立、一本斜靠），取叢書系列的意思；書脊橫線讓長方形看得出是書
+    series: svg(18, 'M2.5 3.5H6v13H2.5zM2.5 6.5H6M2.5 13.5H6M7.5 5h3v11.5h-3zM7.5 8h3M14.9 16.5 11.2 5.1l2.85-.93 3.71 11.41z'),
     story: svg(18, 'M8.4 2.5 6.6 17.5M13.4 2.5l-1.8 15M3.5 7.2h14M2.5 12.8h14'), // 議題：#（議題名就是網址的 #），須和其他圖示分得出
     warn: '<svg viewBox="0 0 20 20" width="15" height="15" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true" focusable="false"><path d="M10 2.8 18 17H2z" stroke-linejoin="round"/><path d="M10 8v4.2M10 14.2v.1" stroke-linecap="round" stroke-width="1.9"/></svg>',
     fan: svg(20, 'M17 17H3.5A13.5 13.5 0 0 1 17 3.5zM17 17 5.3 10.25M17 17 10.25 5.3'), // 功能鈕：從右下角張開的扇子
@@ -121,14 +122,19 @@
     panel.addEventListener('touchcancel', end);
   }
 
-  // 面板貼按鈕左緣展開、超出視窗右緣（工具列換行、系列按鈕排在日期後）→ 往左移回來，左右各留 16px；底部面板不移。
+  // 面板貼按鈕一側展開（日期、章節貼左緣；系列、版面貼右緣），超出視窗 → 移回來，左右各留 16px；底部面板不移。
+  // 貼左緣的超出右邊改 margin-left、貼右緣的超出左邊（窄桌機，系列面板比按鈕左邊的空間寬）改 margin-right，另一邊的 margin 對定位沒作用。
   // 用負 margin 不用 translate：translate 前的位置仍算進可捲動範圍，會多出橫向捲動
   function fitIn(panel, sheet) {
     panel.style.marginLeft = '';
+    panel.style.marginRight = '';
     if (sheet) return;
     const r = panel.getBoundingClientRect();
-    const over = r.right - (document.documentElement.clientWidth - 16);
+    const edge = document.documentElement.clientWidth - 16;
+    const over = r.right - edge;
+    const under = 16 - r.left;
     if (over > 0) panel.style.marginLeft = `${-Math.max(0, Math.min(over, r.left - 16))}px`;
+    else if (under > 0) panel.style.marginRight = `${-Math.max(0, Math.min(under, edge - r.right))}px`;
   }
 
   // 所有下拉共用一組 document 監聽（頭版重畫不越掛越多）；proxying：proxyClick 代按時不算點外面
@@ -355,8 +361,12 @@
       pick: (panel) => panel.querySelector('.pd-item[aria-current=page]') || panel.querySelector('.pd-item'),
     });
   }
-  // 「議題」→ 議題目錄（story.html）；current 同 navLink
-  const storyLink = (current) => navLink('議題', 'story', 'story.html', current);
+  // 「議題」→ 議題目錄（story.html）；current 同 navLink。ed-story：工具列右邊一組靠它找位置（report.css）
+  const storyLink = (current) => {
+    const a = navLink('議題', 'story', 'story.html', current);
+    a.classList.add('ed-story');
+    return a;
+  };
 
   // 不支援 focusgroup 時補 roving tabindex（只攔方向鍵、Home／End）；回傳 sync：藏按鈕（頭版「清除」）後呼叫補回停點
   function roving(bar) {
@@ -547,7 +557,7 @@
     return { panels, links };
   }
 
-  // 0°＝正左、90°＝正上。定案：外圈由下往上日期、章節或過濾、讀法、版面（系列照工具列排在日期後、沒有日期就在最下）；
+  // 0°＝正左、90°＝正上。定案：外圈由下往上日期、章節或過濾、讀法、版面（系列排在日期後、沒有日期就在最下）；
   // 內圈由上往下本日焦點、本週回顧、議題
   function buildPie(items) {
     const S = FAB_R[2] + 2;

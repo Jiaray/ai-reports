@@ -101,6 +101,41 @@
 [data-look=atlas] :is(.fp-upd,.fp-online){border-radius:var(--r-sm,6px)}
 @media(forced-colors:active){.fp-online{border:1px solid}}
 
+/* ── 本日焦點：今天日期與農民曆（almanac.js 的 .fp-alm）── 藍圖＝製圖標題欄：細框，左格國曆＋農曆、右格宜忌，底下一行沖煞、節氣；
+   窄版上下排。宜＝實心綠底、忌＝紅框（字本身不同，不只靠顏色）。宜忌一詞一個 span 不拆行。
+   .is-plain＝lunar.js 沒載到，只剩國曆那一格 */
+.fp-alm{display:grid;grid-template-columns:auto minmax(0,1fr);margin-top:var(--space-3);border:1px solid var(--color-divider);font:400 14px/1.6 var(--font-body);color:var(--color-neutral-800)}
+.fp-alm p{margin:0}
+.fp-alm.is-plain{grid-template-columns:minmax(0,1fr)}
+.fp-alm-day{display:flex;flex-direction:column;justify-content:center;gap:2px;padding:var(--space-3) var(--space-4);background:var(--color-neutral-100);border-right:1px solid var(--color-divider)}
+.fp-alm.is-plain .fp-alm-day{border-right:0}
+.fp-alm-date{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 8px}
+.fp-alm-md{font:600 20px/1.35 var(--font-heading);letter-spacing:.02em;color:var(--color-text);white-space:nowrap}
+.fp-alm-wd{font:500 14px/1.35 var(--font-heading);color:var(--color-neutral-700);white-space:nowrap}
+.fp-alm-lu{display:flex;flex-wrap:wrap;align-items:center;gap:2px 8px;color:var(--color-neutral-700)}
+.fp-alm-fest{padding:0 6px;border:1px solid var(--color-accent-600);color:var(--color-accent-700);font-weight:600;line-height:1.5}
+.fp-alm-body{min-width:0;padding:var(--space-2) var(--space-4)}
+.fp-alm-yj{margin:0}
+.fp-alm-row{display:grid;grid-template-columns:auto minmax(0,1fr);column-gap:10px;align-items:start;padding:3px 0}
+.fp-alm-k{display:grid;place-items:center;width:22px;height:22px;box-sizing:border-box;font:700 13px/1 var(--font-body)}
+.fp-alm-row.is-yi .fp-alm-k{background:var(--color-good);color:var(--color-bg)}
+.fp-alm-row.is-ji .fp-alm-k{border:1px solid var(--color-hot);color:var(--color-hot)}
+.fp-alm-v{margin:0;color:var(--color-text)}
+.fp-alm-v>span{white-space:nowrap;margin-right:.3em}
+.fp-alm-more{display:flex;flex-wrap:wrap;gap:0 var(--space-4);margin-top:4px;padding-top:5px;border-top:1px dashed var(--color-divider);font-size:13px;color:var(--color-neutral-700)}
+.fp-alm-lab{margin-right:6px;font-weight:600;color:var(--color-neutral-600)}
+[data-look=atlas] .fp-alm{border-radius:var(--r-md,10px);overflow:hidden}
+[data-look=atlas] :is(.fp-alm-k,.fp-alm-fest){border-radius:var(--r-sm,6px)}
+[data-look=atlas] .fp-alm-md{font-family:var(--font-num)}
+@media(max-width:40em){
+.fp-alm{grid-template-columns:minmax(0,1fr)}
+.fp-alm-day{flex-direction:row;flex-wrap:wrap;justify-content:flex-start;align-items:baseline;gap:0 12px;padding:var(--space-2) var(--space-3);border-right:0;border-bottom:1px solid var(--color-divider)}
+.fp-alm.is-plain .fp-alm-day{border-bottom:0}
+.fp-alm-md{font-size:17px}
+.fp-alm-body{padding:var(--space-2) var(--space-3)}
+}
+@media(forced-colors:active){.fp-alm-row.is-yi .fp-alm-k{border:1px solid}}
+
 /* ── 還沒有頭版 ── */
 .fp-empty{margin:var(--space-6) 0 0}
 .fp-empty-note{margin:0 0 var(--space-3);font:400 16px/1.8 var(--font-body);color:var(--color-neutral-800)}

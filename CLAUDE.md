@@ -7,7 +7,7 @@ GitHub Pages 靜態站 <https://jiaray.github.io/ai-reports/>，只放 AI 產生
 可上傳：
 - news-aggregator 產生的 `news/` 檔：`weekly/<系列>/<年>/<期別>.json`、`weekly/<系列>/index.json`、`index.json`、`weekly/front/index.json`、`weekly/front/<ISO 年>/<YYYY-Www>.json`、`stories.json`。`news/archive/` 已廢除、每日頭版 `weekly/front/<年>/<YYYY-MM-DD>.json` 已停用，兩者只許刪除。
 - 新聞卡（news-aggregator 的 cards.py、card_errors.py 產生）：`news/cards/<Y>/W<ww>/<NNNN>.json`（新聞卡）、`news/cards/<Y>/W<ww>/index.json`（週索引）、`news/cards/recent.json`、`news/cards/focus.json`、`news/cards/story-index.json`、`news/cards/errors.json`、`news/aliases.json`、`news/adhoc/<slug>.json`（暫時頁資料）。壞檔備份（`*.broken-*`）與暫存檔（`.*.tmp`）不上傳。
-- 網站：`index.html`、`404.html`、`catalog.json`、`assets/`、`news/index.html`、`news/card.html`、`news/story.html`、`news/adhoc.html`、`news/manifest.webmanifest`、`news/assets/`（含新聞卡頁的 `card.js`、`card.css`，列表列的 `rows.js`、`rows.css`，系列頁的 `series.js`、`series.css`，議題頁與議題目錄的 `story.js`、`story.css`，暫時頁的 `adhoc.js`、`adhoc.css`，舊版施工中頁的 `wip.js`），及新類別的同類檔。
+- 網站：`index.html`、`404.html`、`catalog.json`、`assets/`、`news/index.html`、`news/card.html`、`news/story.html`、`news/adhoc.html`、`news/manifest.webmanifest`、`news/assets/`（含新聞卡頁的 `card.js`、`card.css`，列表列的 `rows.js`、`rows.css`，系列頁的 `series.js`、`series.css`，議題頁與議題目錄的 `story.js`、`story.css`，暫時頁的 `adhoc.js`、`adhoc.css`，本日焦點農民曆的 `almanac.js` 與第三方 `lunar.js`，舊版施工中頁的 `wip.js`），及新類別的同類檔。
 - `README.md`、`CLAUDE.md`、`.gitignore`、`.nojekyll`。
 
 禁止：
@@ -45,7 +45,9 @@ GitHub Pages 靜態站 <https://jiaray.github.io/ai-reports/>，只放 AI 產生
 | `news/assets/report.js`、`report.css` | 報告頁、讀法、「版面」；`?t=` 的分派（新聞卡日報系列交給 series.js，沒載到時顯示施工中）；領域色、報頭、面板、功能鈕、分類標籤、施工中頁的樣式也在 report.css |
 | `news/assets/series.js`、`series.css` | `AIR.series` 新聞卡系列頁（`?t=<新聞卡日報系列>`）：report.js 讀完 `index.json` 後呼叫，工具列與「版面」用 report.js 的；讀 `cards/recent.json`，近 7 天依天分段 |
 | `news/assets/rows.js`、`rows.css` | `AIR.rows` 新聞卡列表列（本日焦點、系列頁、議題頁）：頁內展開、展開時才抓卡檔；暫時頁用不展開的 `link()`；列表頁的分天與排序（`eventAt`、`dayOf`、`dayLabel`、`byImportance` 等，議題頁、暫時頁也用這一套）；`*_html` 的瀏覽器端淨化與分段（`rich`、`prose`、`dive`，新聞卡頁也用這一份） |
-| `news/assets/front.js`、`front.css` | 頭版：本日焦點、每週頭版（過濾標籤的標記與樣式議題目錄也用） |
+| `news/assets/front.js`、`front.css` | 頭版：本日焦點、每週頭版（過濾標籤的標記與樣式議題目錄也用）；本日焦點的日期與農民曆樣式 `.fp-alm` 也在 front.css |
+| `news/assets/almanac.js` | `AIR.almanac` 本日焦點的今天日期與農民曆：國曆自己算；農曆、干支生肖、節日、宜忌、沖煞、節氣用 lunar.js 算，簡體逐詞轉台灣用字（`TW` 表） |
+| `news/assets/lunar.js` | 第三方 6tail/lunar-javascript v1.7.8（MIT）：npm 原檔，只在檔頭加授權文字，不改內容；約 430KB，只有本日焦點由 almanac.js 另外載入（同 `?v=`），報告頁不載；升版時整檔換掉、照樣加授權檔頭 |
 | `news/assets/facets.js` | `AIR.facets` 條目分類標籤（報告頁、頭版、新聞卡頁共用；新聞卡頁與列表列帶 `links`，議題逐段連到議題頁） |
 | `news/assets/look-standard.css`、`.js` | 外觀「一般」：樣式；`AIR.look` 頭版排法、theme-color |
 | `news/manifest.webmanifest` | 主畫面名稱「AI 頭版」 |
@@ -103,7 +105,7 @@ GitHub Pages 靜態站 <https://jiaray.github.io/ai-reports/>，只放 AI 產生
 - 報頭不顯示導言；`intro`／`lede` 只給 Telegram 訊息與首頁列表。
 
 載入、快取、版本：
-- 載入順序（全部 `defer`）：site.js → bar.js → look-standard.js → facets.js → rows.js → series.js（只有 `news/index.html`）→ report.js／front.js（新聞卡頁 card.js；議題頁 story.js；暫時頁 adhoc.js，不載 facets.js），執行時 `window.AIR` 已在；series.js 要排在 report.js 前（report.js 看 `A.series` 在不在決定交給它或顯示施工中）；新頁面腳本同樣 `defer` 排在 site.js 後。CSS：site.css → report.css → front.css（本日焦點；議題頁借它的篩選標籤）→ rows.css（沒有 front.css 的頁排在 report.css 後）→ look-standard.css → 頁面自己的 series.css、card.css、story.css、adhoc.css（檔內自帶一般外觀的規則；暫時頁先載 series.css 再載 adhoc.css）。
+- 載入順序（全部 `defer`）：site.js → bar.js → look-standard.js → facets.js → rows.js → series.js（只有 `news/index.html`）→ report.js → almanac.js（只有 `news/index.html`，排在 front.js 前）→ front.js（新聞卡頁 card.js；議題頁 story.js；暫時頁 adhoc.js，不載 facets.js），執行時 `window.AIR` 已在；series.js 要排在 report.js 前（report.js 看 `A.series` 在不在決定交給它或顯示施工中）；新頁面腳本同樣 `defer` 排在 site.js 後。CSS：site.css → report.css → front.css（本日焦點；議題頁借它的篩選標籤）→ rows.css（沒有 front.css 的頁排在 report.css 後）→ look-standard.css → 頁面自己的 series.css、card.css、story.css、adhoc.css（檔內自帶一般外觀的規則；暫時頁先載 series.css 再載 adhoc.css）。
 - 每個 HTML 的 `<head>` 有 inline 防閃腳本：首次繪製前套 `air-theme`（`data-theme`＋`<meta name=color-scheme>`），新聞頁另套 `air-news-look`（`data-look`）。
 - 部署後約 10 分鐘的快取空窗會混到新舊檔：新共用檔、bar.js 新函式、新 CSS 標記都要容錯——缺了就少那個功能，頁面照常、不停在「載入中…」。這類容錯只為撐過那次部署的空窗，之後清理時可刪（目前有：`B.seriesMenu`、`B.cardSeries`、`B.storyLink`（舊 bar.js 沒有就不放「議題」）、`B.seriesGroups`（舊 bar.js 沒有時，系列頁沒有卡的那頁只列新聞卡系列）、`A.facets.storyPaths` 的存在檢查；舊 HTML 沒載 series.js、或配到缺檔或舊的 rows.js（沒有 `A.rows.byImportance`，series.js 不掛 `A.series`）時，report.js 的新聞卡系列頁退回「施工中」；新 HTML 配到缺檔或舊的 rows.js（`A.rows` 不在）時 front.js 的本日焦點退回前一版的標題連結清單（`focusRow`、front.css 的 `.fp-card`），頁面照常、不停在「載入中…」；新聞卡頁配到缺檔或舊的 rows.js（沒有 `A.rows.rich`／`prose`／`dive`）時 card.js 把 `*_html` 退回純文字（惰性 `<template>` 解析、去掉 script 等元素後只取 `textContent`，依 `<br>` 分段；沒有連結、粗體與分句），其餘照常；report.js 遇到 `?t=general` 時，DOMContentLoaded 檢查 `#app` 有沒有新 front.js 加的 `fp`，沒有（舊 front.js 遇到任何 `t` 都不畫）就 `location.replace('./')` 轉本日焦點；議題頁、議題目錄配到缺檔的 rows.js（`A.rows` 不在）、暫時頁配到缺檔或舊的 rows.js（沒有 `A.rows.link`）時，story.js、adhoc.js 只放一行「這一頁剛更新…過幾分鐘重新整理」與回本日焦點；舊版施工中頁 wip.js 留給快取的舊 `story.html`、`adhoc.html`，新 HTML 不載）。常設的只有選用模組檢查：用 `A.facets`、`A.look` 前先檢查（facets.js、look-standard.js 載入失敗時少該功能）。
 - `?v=`：`index.html`、`404.html`、`news/index.html`、`news/card.html`、`news/story.html`、`news/adhoc.html` 引用 `assets/`、`news/assets/` 的每個 CSS、JS 都帶 `?v=<台北日期＋兩位序號>`（例 `2026112101`）。改了任何 CSS、JS → 六個 HTML 的 `?v=` 全部換成同一個新值、一起 commit。HTML 本身仍快取 10 分鐘。
@@ -130,10 +132,10 @@ GitHub Pages 靜態站 <https://jiaray.github.io/ai-reports/>，只放 AI 產生
 
 ## 頁面要點（細節在各檔註解）
 
-- 報頭（bar.js，新聞各頁共用）：凍結的工具列＋大標題。新聞卡相關的頁（本日焦點、新聞卡頁、系列頁、議題頁、議題目錄、暫時頁）「系列 ▾｜本日焦點｜本週回顧｜議題｜版面」；週報報告頁與本週回顧要換期別，日期按鈕排最前面（只列週或該報告的期別），其餘同上。本日焦點不翻日期。「議題」連議題目錄（`story.html`；在議題頁、議題目錄標目前位置）。工具列放不下就換行。bar.js 量工具列高度寫進 `--bar-h`（`scroll-padding-top`、黏頂標題讓開它；不凍結時記 0）。本日焦點／本週回顧兩顆同字數，同時標示目前在日報或週報那一邊（新聞卡系列頁算日報）；沒有任何週報、月報時不顯示本週回顧。
-- 系列 ▾（bar.js `seriesMenu`）：一顆下拉、面板兩欄：左「新聞卡（近 7 天）」列各新聞卡日報系列頁（`./?t=<系列>`，短名取 `index.json` 的 `series[].short`，順序照樣式定案：國際、AI、科技、資安、財經、健康、博奕、遊戲、台灣、防災、鄉民；文字前一條領域色短線），右「照舊的報告」列週報、月報、GitHub 趨勢（同名開頭的併一列：GitHub 日／週／月）。綜合（併入本日焦點）、臨時系列不列。目前的系列 `aria-current=page`（同日期面板的目前位置）；系列十多個，逐一放按鈕擺不進工具列與扇面。手機扇面「系列」「議題」各一格。
+- 報頭（bar.js，新聞各頁共用）：凍結的工具列＋大標題。新聞卡相關的頁（本日焦點、新聞卡頁、系列頁、議題頁、議題目錄、暫時頁）左邊「本日焦點｜本週回顧」、右邊一組「系列 ▾｜議題｜版面」（組裡第一個 `margin-left:auto`，report.css；「議題」帶 `.ed-story`）；週報報告頁與本週回顧要換期別，日期按鈕排最前面（只列週或該報告的期別），其餘同上。本日焦點不翻日期。「議題」連議題目錄（`story.html`；在議題頁、議題目錄標目前位置）。工具列放不下就換行。bar.js 量工具列高度寫進 `--bar-h`（`scroll-padding-top`、黏頂標題讓開它；不凍結時記 0）。本日焦點／本週回顧兩顆同字數，同時標示目前在日報或週報那一邊（新聞卡系列頁算日報）；沒有任何週報、月報時不顯示本週回顧。
+- 系列 ▾（bar.js `seriesMenu`）：一顆下拉、面板兩欄：左「新聞卡（近 7 天）」列各新聞卡日報系列頁（`./?t=<系列>`，短名取 `index.json` 的 `series[].short`，順序照樣式定案：國際、AI、科技、資安、財經、健康、博奕、遊戲、台灣、防災、鄉民；文字前一條領域色短線），右「照舊的報告」列週報、月報、GitHub 趨勢（同名開頭的併一列：GitHub 日／週／月）。綜合（併入本日焦點）、臨時系列不列。目前的系列 `aria-current=page`（同日期面板的目前位置）；系列十多個，逐一放按鈕擺不進工具列與扇面。圖示是一排書（兩本直立、一本斜靠）。面板同「版面」貼按鈕右緣展開，窄桌機超出左緣時 `fitIn` 往右移回來。手機扇面「系列」「議題」各一格。
 - 非當期提示（bar.js `staleBanner`）：期別不是台北時間的今天／本週／本月時，工具列上方一條黃色橫幅。
-- 本日焦點（front.js）：讀 `cards/focus.json`，不翻日期、不按整點分段，一條最多 10 張的清單照 `focus.json` 的順序；條目是 rows.js 的列表列（見下；展開後最後一列是「開新聞卡｜系列…｜分類」，舊頭版的「出自」改成「系列」），上方小字的時間寫多久前（滑過看完整時間），第一張露一句話；過濾標籤＝本頁新聞卡的系列短名。時間窗內沒有卡時同一條黃色橫幅標最後更新。開著每分鐘更新多久前，回前景重抓（有變才重畫，展開中的列保持展開）。不標「新」。
+- 本日焦點（front.js）：讀 `cards/focus.json`，不翻日期、不按整點分段，一條最多 10 張的清單照 `focus.json` 的順序；條目是 rows.js 的列表列（見下；展開後最後一列是「開新聞卡｜系列…｜分類」，舊頭版的「出自」改成「系列」），上方小字的時間寫多久前（滑過看完整時間），第一張露一句話；過濾標籤＝本頁新聞卡的系列短名。報頭下一塊今天的日期與農民曆（almanac.js；樣式摘要另見 front.css 註解）：左格國曆「M 月 D 日 星期X」＋農曆月日、干支生肖年、農曆節日，右格宜、忌，底下一行沖煞與下個節氣（今天是節氣寫「今天○○」）；lunar.js 最多等 3 秒，晚到的到了再補，載不到只剩國曆那一格；開著過午夜就地換成新的一天。時間窗內沒有卡時同一條黃色橫幅標最後更新。開著每分鐘更新多久前，回前景重抓（有變才重畫，展開中的列保持展開）。不標「新」。
 - 新聞卡列表列（rows.js，本日焦點、系列頁、議題頁）：左緣領域色線、上方小字（這頁以外的系列・時間・家數，頁面可再接一項，如鄉民頁的平台熱度）、標題（頁面可在前面加紅底標示，如資安頁的「遭利用」）、右邊箭頭；標題不是連結，點開在頁內展開。最後一段 log 是補充的，標題下一行「更新 HH:MM」＋更新句；更正用紅色「更正 HH:MM」。展開時才抓那張卡的檔（`cards/<Y>/W<ww>/<NNNN>.json`），列摘要、AI 解讀、領域欄位，最後一列「開新聞卡｜系列 X、Y（連系列頁，不列本頁的系列）｜分類 ▾」（分類不重列頁面已寫的議題；議題連到議題頁）；抓不到只在那一列顯示一行錯誤，收起再點開重抓。不展開的 `link()`（暫時頁）：同樣的上方小字與更新句，標題連新聞卡頁（觸控時整列可點），下接一句話（不截斷）。
 - 每週頭版（front.js）：依日期分組；過濾標籤＝本頁條目的系列短名；條目展開後「出自」連到報告裡的那一則（`#item-NN`）。不標「新」。
 - 報告頁（report.js）：讀法決定 DOM（換讀法重繪），外觀、配色只改 `<html>` 屬性；時間軸依 `ts` 跨分區排序，沒有 `ts` 的照原順序接在最後。

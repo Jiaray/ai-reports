@@ -70,13 +70,15 @@
 :root{--sec-c:var(--color-accent-600);--vw-on-bg:var(--color-accent-600);--vw-on-fg:var(--color-bg)}
 /* 工具列按鈕；.ed-link[aria-current]＝目前在日報或週報那邊：2px 主色底線（不只靠顏色） */
 .dd{position:relative;flex:none;display:flex}
-.vw{margin-left:auto}
+/* 右邊一組「系列 ▾｜議題｜版面」：組裡第一個推到最右（系列還沒建、舊 bar.js 沒有議題時照樣成立） */
+.editions>:is(.sr,.ed-story,.vw){margin-left:auto}
+.editions>:is(.sr,.ed-story)~:is(.ed-story,.vw){margin-left:0}
 .dd-toggle,.ed-link{display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 var(--space-3);background:transparent;color:var(--color-neutral-700);border:0;border-radius:0;font:500 15px/1 var(--font-heading);letter-spacing:.02em;white-space:nowrap;cursor:pointer}
 .dd-toggle:hover,.ed-link:hover{background:var(--color-accent-100);color:var(--color-text)}
 .dd-toggle[aria-expanded=true]{background:var(--color-accent-100);color:var(--color-accent-700)}
 .ed-link[aria-current]{color:var(--color-text);box-shadow:inset 0 -2px var(--color-accent-600)}
 /* 負邊距：圖示與字對齊欄緣，滑過底色往外凸 */
-.pd .dd-toggle,.editions>.sr:first-child .dd-toggle,.editions>.ed-link:first-child{margin-left:calc(-1 * var(--space-3))}
+.pd .dd-toggle,.editions>.ed-link:first-child{margin-left:calc(-1 * var(--space-3))}
 .vw .dd-toggle{margin-right:calc(-1 * var(--space-3))}
 .dd-ico,.dd-ico svg,.dd-caret,.dd-caret svg,.dd-close svg{display:block;flex:none}
 .dd-close svg{width:20px;height:20px}
@@ -107,8 +109,8 @@
 .pd-item[aria-current=page] .pd-wd{color:inherit}
 .pd-item:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
 /* 系列面板（bar.js 的 seriesMenu）：兩欄（新聞卡｜照舊的報告），窄時上下排；沿用 .pd-group、.pd-item（目前系列同樣左側 2px 線）。
-   每列文字前一條 3px 領域色短線（不是目前位置那條）；左欄放得下再分兩欄 */
-.sr-panel{left:0;right:auto;width:min(540px,calc(100vw - 32px))}
+   每列文字前一條 3px 領域色短線（不是目前位置那條）；左欄放得下再分兩欄。按鈕在工具列右邊一組→同版面貼按鈕右緣展開 */
+.sr-panel{width:min(540px,calc(100vw - 32px))}
 .sr-body{display:flex;gap:var(--space-6);max-height:min(70vh,32rem);overflow-y:auto;overscroll-behavior:contain;border-top:1px solid var(--color-divider);padding-bottom:var(--space-2)}
 .sr-col{flex:1 1 0;min-width:0}
 .sr-cards{flex-grow:1.25}
