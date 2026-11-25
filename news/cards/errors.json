@@ -9,11 +9,11 @@
     "2026-W48-0005"
    ],
    "found_by": "program",
-   "status": "suspected",
+   "status": "rejected",
    "note": "各來源標題差很多，可能併進了不同的事（最高相似度 0.03）",
    "proposed": {},
    "found_at": "2026-11-25T16:10:38+08:00",
-   "resolved_at": null
+   "resolved_at": "2026-11-25T16:18:45+08:00"
   },
   {
    "id": "E2",
@@ -22,11 +22,11 @@
     "2026-W48-0013"
    ],
    "found_by": "program",
-   "status": "suspected",
+   "status": "rejected",
    "note": "各來源標題差很多，可能併進了不同的事（最高相似度 0.04）",
    "proposed": {},
    "found_at": "2026-11-25T16:10:38+08:00",
-   "resolved_at": null
+   "resolved_at": "2026-11-25T16:18:45+08:00"
   }
  ]
 }
