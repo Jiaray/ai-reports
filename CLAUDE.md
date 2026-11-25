@@ -20,7 +20,7 @@ GitHub Pages 靜態站 <https://jiaray.github.io/ai-reports/>，只放 AI 產生
 
 ## Git
 
-本專案允許模型執行 `git add`（限指名路徑，不得用 `-A`、`.` 或萬用字元）、`git commit`、`git push`；force push、rebase 或 amend 已推送的 commit、刪分支等改寫既有歷史的動作，以及更改 repo 設定，都不在範圍內。此宣告要與使用者全域 CLAUDE.md 的專案豁免清單同時成立才生效。
+本專案允許模型執行 `git add`（限指名路徑，不得用 `-A`、`.` 或萬用字元）、`git commit`、`git push`，以及 `git checkout HEAD -- <指名路徑>`（只用來還原誤刪、被發布腳本擋下的新聞卡檔、錯誤紀錄、別名表；不提交、不改寫歷史）；force push、rebase 或 amend 已推送的 commit、刪分支等改寫既有歷史的動作，以及更改 repo 設定，都不在範圍內。此宣告要與使用者全域 CLAUDE.md 的專案豁免清單同時成立才生效。
 
 - 分支：只用 `main`（改、commit、push `origin main`）。雲端 session 指派的 `claude/…` 分支不用：開工前 `git checkout main && git pull --ff-only`，工作分支不推。
 - 報告類只用腳本發布：週報、月報、GitHub 趨勢、臨時系列 `publish.py --push`；新聞卡 `cards.py publish --push`（修正 `cards.py correct｜dup｜split｜retag --push`、錯誤紀錄與別名表 `card_errors.py … --push`）；每週頭版補建 `front.py build --push`；議題對照表 `story_review.py … --push`。腳本只 add／commit 自己產生、且在可上傳清單內的路徑，不帶入其他已 stage 的檔。
