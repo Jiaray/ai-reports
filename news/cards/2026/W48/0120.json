@@ -233,13 +233,37 @@
    "kind": "media",
    "region": "東北亞",
    "rank": 2
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "陳吉寧落馬  沈有忠：中共21大人事布局未明料仍有震動",
+   "url": "https://www.cna.com.tw/news/acn/202611260179.aspx",
+   "time": "2026-11-26T15:50:19+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "SCMP China",
+   "title": "How China’s leadership will weigh its choices for picking Shanghai’s next party chief",
+   "url": "https://www.scmp.com/news/china/politics/article/3375898/how-chinas-leadership-will-weigh-its-choices-picking-shanghais-next-party-chief",
+   "time": "2026-11-26T16:27:02+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "SCMP",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 7,
-  "regions": 4,
-  "media_weight": 16,
+  "outlets": 8,
+  "regions": 5,
+  "media_weight": 18,
   "community": {
    "hn": 0,
    "ptt": 0,

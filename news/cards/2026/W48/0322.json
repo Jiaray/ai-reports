@@ -1,0 +1,83 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0322",
+ "title": "逾 10 篇「AI 看指紋判斷血型」論文遭質疑，資料集根本沒有血型資訊，愛思唯爾與 IEEE 調查中",
+ "line": "澳洲研究者追查發現資料來自不含血型欄位的 SOCOFing 指紋資料集，Kaggle 已下架 7 份資料",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T17:00:57+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "科學"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "org": [
+   "愛思唯爾",
+   "IEEE",
+   "Kaggle"
+  ],
+  "person": [
+   "Lars Kooijman",
+   "Stephanie Summersby"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "學術造假",
+   "SOCOFing",
+   "撤稿"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "自 2023 年起陸續發表、主張 AI 只憑指紋影像就能推測血型的研究，部分宣稱準確率超過九成，如今愛思唯爾（Elsevier）與 IEEE 正調查其中超過 10 篇論文。澳洲機械工程研究員 Lars Kooijman 與心理學研究者 Stephanie Summersby 追查發現，這些論文的資料似乎都可追溯到同一批約 6,000 張、來自 600 名受試者的指紋影像，且與 SOCOFing 生物辨識資料集高度吻合，但這兩份資料都沒有血型欄位。兩人懷疑血型標籤是事後以分群等方式人為產生，模型學到的只是人工分類結果；他們已向期刊與會議呼籲撤稿，指這些論文建立在「虛假前提」與「偽造資料」上。出版機構尚未公布調查結論，Kaggle 已移除其中 7 個資料集。",
+ "dive_html": "案例暴露 AI 應用論文的審查漏洞：審稿人很少回頭查資料集原始欄位，只看準確率就放行。超過 10 篇論文沿用同一份不存在標籤的資料，顯示錯誤會在引用鏈中自我複製；接下來要看兩家出版社是否大規模撤稿，以及會不會要求作者公開資料來源。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "科技新報",
+   "title": "AI 看指紋就能判斷血型？逾 10 篇論文遭質疑，資料集根本沒有血型資訊",
+   "url": "https://technews.tw/2026/11/26/over-a-dozen-studies-said-ai-can-read-your-blood-type-from-a-fingerprint/",
+   "time": "2026-11-26T17:00:57+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "科技新報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

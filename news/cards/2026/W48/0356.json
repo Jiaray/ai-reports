@@ -1,0 +1,74 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0356",
+ "title": "論文 DyLoMo-DiT：迴圈加混合專家的擴散 Transformer，以 1.05B 啟用參數在 GenEval 勝過 FLUX.1",
+ "line": "重複使用中間層加深網路而不增參數，同參數與算力下 FID 比 DiT 降 11–24%",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T08:00:00+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "DyLoMo-DiT",
+   "擴散 Transformer",
+   "迴圈 Transformer",
+   "MoE"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "擴散 Transformer（DiT）靠增加參數與運算擴大容量；混合專家（MoE）變體能在每個 token 運算量大致不變下擴大參數，但仍需大量參數儲存。作者提出 Dynamic Looped MoE DiT（DyLoMo-DiT），以重複使用取代增加參數：權重共享的迴圈反覆套用中間層，稀疏專家則在 token 之間分配參數容量。這讓網路變深卻不增加參數，省下的參數預算可以拿去放更多專家或更多不同的層；它也動態分配運算，在不同雜訊程度用不同的迴圈次數。實驗顯示，在 ImageNet 256×256 上，同樣的參數與運算預算下，FID 比 DiT 降低 11–24%、比 DiT-MoE 降低 36–56%；把更多迴圈分給低雜訊步驟還有額外進步。放大後的文字生成圖片版本 GenEval 得分 0.714，高於 FLUX.1 的 0.673，啟用參數卻不到其十分之一（1.05B 對 12B）。",
+ "dive_html": "迴圈 Transformer 近期在語言模型（如 GLM-5.4、MoLT）成為潮流，這篇把同一招搬到圖片生成，並結合「依雜訊程度分配迴圈次數」，顯示擴散模型也能用算力換參數。對要在有限顯存上部署生成模型的團隊有參考價值；但 GenEval 只是其中一項指標，畫質與推論時間的完整比較要看全文。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "DyLoMo-DiT: Dynamic Looped Mixture-of-Experts Diffusion Transformers",
+   "url": "https://huggingface.co/papers/2611.30844",
+   "time": "2026-11-26T08:00:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "+24",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

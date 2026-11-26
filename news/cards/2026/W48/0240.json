@@ -114,6 +114,42 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 1
+  },
+  {
+   "name": "NYT Asia Pacific",
+   "title": "13 Dead and 13 Thought Trapped in Indonesian Mine After Heavy Rain",
+   "url": "https://www.nytimes.com/2026/11/25/world/asia/indonesia-miners-trapped.html",
+   "time": "2026-11-26T14:30:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "New York Times",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "BBC Top News",
+   "title": "Thirteen dead as mine disaster highlights illegal hunt for gold",
+   "url": "https://www.bbc.co.uk/news/articles/cmde1zr0nlyro",
+   "time": "2026-11-26T15:31:24+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Rescuers recover bodies after flood at illegal Indonesia gold mine",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/rescuers-recover-bodies-after-flood-at-illegal-indonesia-gold-mine",
+   "time": "2026-11-26T16:23:51+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
   }
  ],
  "log": [
@@ -128,9 +164,9 @@
   }
  ],
  "heat": {
-  "outlets": 4,
-  "regions": 3,
-  "media_weight": 9,
+  "outlets": 6,
+  "regions": 4,
+  "media_weight": 14,
   "community": {
    "hn": 0,
    "ptt": 0,

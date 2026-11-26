@@ -4,7 +4,7 @@
  "title": "EA Sports FC 27 以存檔錄音加生成式 AI 重現已故球評 John Motson 的聲音，11 月 26 日上線",
  "line": "系列首次使用已故球評，EA 稱遺孀與兒子同意並已付費，反 AI 語音複製團體質疑本人未同意",
  "born_at": "2026-11-26T16:09:33+08:00",
- "first_reported_at": "2026-11-26T04:48:20+08:00",
+ "first_reported_at": "2026-11-25T23:54:33+08:00",
  "updated_at": "2026-11-26T16:09:33+08:00",
  "version": 1,
  "archived": false,
@@ -74,6 +74,18 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 3
+  },
+  {
+   "name": "Solidot",
+   "title": "EA Sports FC 利用 AI 数字重现已故解说员 John Motson 的声音",
+   "url": "https://www.solidot.org/story?sid=85993",
+   "time": "2026-11-25T23:54:33+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Solidot",
+   "kind": "aggregator",
+   "region": "中國大陸",
+   "rank": 9
   }
  ],
  "log": [],

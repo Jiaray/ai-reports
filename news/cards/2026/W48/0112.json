@@ -241,6 +241,138 @@
    "kind": "media",
    "region": "台灣",
    "rank": 2
+  },
+  {
+   "name": "PTT Gossiping",
+   "title": "[新聞] 新工處公布路權申請資料！　 4次凱道選前",
+   "url": "https://www.ptt.cc/bbs/Gossiping/M.1795681575.A.8DC.html",
+   "time": null,
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "92",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "PTT HatePolitics",
+   "title": "[新聞] 新工處公布路權申請資料！　 4次凱道選前",
+   "url": "https://www.ptt.cc/bbs/HatePolitics/M.1795682833.A.FEB.html",
+   "time": null,
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "47",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "PTT HatePolitics",
+   "title": "[新聞] 國民黨借走北平東路權？蔣萬安下午仍跳針",
+   "url": "https://www.ptt.cc/bbs/HatePolitics/M.1795682088.A.B01.html",
+   "time": null,
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "36",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "PTT Gossiping",
+   "title": "[新聞] 沈伯洋現身拆台現場！吳思瑤淚崩爆哭",
+   "url": "https://www.ptt.cc/bbs/Gossiping/M.1795683662.A.EB3.html",
+   "time": null,
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "32",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "PTT Gossiping",
+   "title": "[新聞] 蔡英文晚間8時陪沈伯洋直播　預告準備小",
+   "url": "https://www.ptt.cc/bbs/Gossiping/M.1795683049.A.B26.html",
+   "time": null,
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "20",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "PTT Gossiping",
+   "title": "[新聞] 沈伯洋取消選前之夜 基層員警班表不能改.",
+   "url": "https://www.ptt.cc/bbs/Gossiping/M.1795683379.A.33F.html",
+   "time": null,
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "2",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "PTT HatePolitics",
+   "title": "Re: [新聞] 新工處公布路權申請資料！　 4次凱道選前",
+   "url": "https://www.ptt.cc/bbs/HatePolitics/M.1795683647.A.480.html",
+   "time": null,
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "12",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "PTT HatePolitics",
+   "title": "Re: [新聞] 國民黨借走北平東路權？蔣萬安下午仍跳針",
+   "url": "https://www.ptt.cc/bbs/HatePolitics/M.1795682453.A.B0D.html",
+   "time": null,
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "6",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "PTT HatePolitics",
+   "title": "Re: [討論] 震撼彈！4次凱道選前之夜皆「1秒內」完成",
+   "url": "https://www.ptt.cc/bbs/HatePolitics/M.1795683111.A.4CE.html",
+   "time": null,
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "6",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "PTT HatePolitics",
+   "title": "[討論] 所以為什麼北平東路會被借走？",
+   "url": "https://www.ptt.cc/bbs/HatePolitics/M.1795683927.A.B66.html",
+   "time": null,
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "6",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "PTT HatePolitics",
+   "title": "[轉錄] 一秒變駭客：從選前路權秒殺，看程式搶",
+   "url": "https://www.ptt.cc/bbs/HatePolitics/M.1795683781.A.965.html",
+   "time": null,
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "4",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
   }
  ],
  "log": [],
@@ -250,7 +382,7 @@
   "media_weight": 5,
   "community": {
    "hn": 0,
-   "ptt": 55,
+   "ptt": 92,
    "v2ex": 0
   }
  }

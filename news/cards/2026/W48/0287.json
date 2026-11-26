@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "id": "2026-W48-0287",
- "title": "挪威低成本長程航空 Norse Atlantic 稱財務「危急」、突然停飛，股價單日重挫 53%",
+ "title": "挪威低成本長程航空 Norse Atlantic 暫停所有航班，稱若無短期融資將聲請破產",
  "line": "巴基斯坦國際航空的英國濕租航班被迫取消，改用自家波音 777 執飛",
  "born_at": "2026-11-26T16:09:33+08:00",
  "first_reported_at": "2026-11-26T03:32:39+08:00",
- "updated_at": "2026-11-26T16:09:33+08:00",
- "version": 1,
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -102,7 +102,17 @@
    "rank": 1
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-26T17:27:06+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "Norse Atlantic 11 月 26 日暫停所有航班，董事會表示仍在研究取得短期融資的方案，「若無法緊急取得短期融資，董事會打算聲請破產」，並說無法保證找到可行方案。CNBC 指出，這家挪威業者自伊朗戰爭爆發後受航空燃油價格飆升衝擊；截至奧斯陸時間 26 日上午 9 點，Norse 仍在販售週五及之後的機票。",
+   "update": "Norse Atlantic 26 日暫停所有航班，表示若無法緊急取得短期融資將聲請破產",
+   "refocus": true,
+   "old_title": "挪威低成本長程航空 Norse Atlantic 稱財務「危急」、突然停飛，股價單日重挫 53%"
+  }
+ ],
  "heat": {
   "outlets": 3,
   "regions": 3,

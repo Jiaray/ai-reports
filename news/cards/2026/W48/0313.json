@@ -1,0 +1,111 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0313",
+ "title": "奇華頓、芬美意與 IFF 交換敏感商業資訊，遭歐盟罰 4.719 億歐元、英國再罰逾 8,500 萬英鎊",
+ "line": "2019 至 2023 年交換價格、成本等資訊，涉及與聯合利華的往來，三家承認並配合調查獲減罰",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T01:07:00+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "CH",
+   "US",
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "企業經營",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "sector": [
+   "原物料與化工",
+   "零售與消費"
+  ],
+  "org": [
+   "歐盟執委會",
+   "英國競爭及市場管理局",
+   "Givaudan",
+   "DSM-Firmenich",
+   "IFF",
+   "Unilever"
+  ],
+  "person": [
+   "Teresa Ribera",
+   "Christian Stammkoetter"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "香料卡特爾",
+   "反壟斷罰款"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "歐盟執委會 11 月 25 日以組成「國際香料卡特爾」為由，對全球三大香料業者合計罰款 4.719 億歐元：瑞士奇華頓（Givaudan）約 2.524 億歐元、芬美意（Firmenich，今屬 DSM-Firmenich）1.377 億歐元、美國國際香料香精公司（IFF）8,190 萬歐元。英國競爭及市場管理局（CMA）另罰奇華頓近 4,000 萬英鎊、IFF 2,460 萬英鎊、芬美意 2,060 萬英鎊；華爾街日報合計歐英罰款約 6.3 億美元。主管機關指三家 2019 年 3 月至 2023 年 3 月交換商業敏感資訊並協調部分定價決策，特別是與聯合利華（Unilever）的往來。三家已承認並配合調查，歐盟罰款因此減輕。歐盟競爭事務副主席里貝拉說，這可能讓歐洲消費者為化妝品、清潔用品付更多錢。奇華頓執行長 Christian Stammkoetter 說內部調查找出兩名交換資訊的人，香水業務主管 Maurizio Volpi 將卸任；DSM-Firmenich 則稱事實早於 2023 年合併，參與限於交換單一客戶資訊，「不包括價格壟斷協議」。",
+ "dive_html": "香料是日用品的上游原料，消費者看不見卻全部買單，這類「資訊交換型」卡特爾比直接議價更難察覺。歐英同步重罰並與瑞士、美國主管機關合作，顯示跨國聯合執法已成常態；美國司法部是否另行追究，是三家接下來的最大變數。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "歐盟罰款合計 4.719 億歐元（奇華頓約 2.524 億、芬美意 1.377 億、IFF 8,190 萬）；英國罰款奇華頓近 4,000 萬英鎊、IFF 2,460 萬英鎊、芬美意 2,060 萬英鎊；違法期間 2019 年 3 月至 2023 年 3 月"
+  }
+ ],
+ "sources": [
+  {
+   "name": "WSJ World News",
+   "title": "Fragrance Giants Handed $630 Million in EU, U.K. Antitrust Fines",
+   "url": "https://www.wsj.com/business/eu-fines-fragrance-giants-firmenich-givaudan-iff-517-million-over-pricing-f61209c0?mod=rss_worldnews",
+   "time": "2026-11-26T01:07:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "RFI 中文",
+   "title": "国际香料香精公司及Firmenich被处以4.719亿欧元罚款",
+   "url": "https://www.rfi.fr/cn/%E6%AC%A7%E6%B4%B2/20261125-%E5%9B%BD%E9%99%85%E9%A6%99%E6%96%99%E9%A6%99%E7%B2%BE%E5%85%AC%E5%8F%B8%E5%8F%8Afirmenich%E8%A2%AB%E5%A4%84%E4%BB%A54-719%E4%BA%BF%E6%AC%A7%E5%85%83%E7%BD%9A%E6%AC%BE",
+   "time": "2026-11-26T05:00:31+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

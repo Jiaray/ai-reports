@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0336",
+ "title": "騰訊混元開源草稿模型 DFly2，不改權重讓 Hy4 flash 生成速度最高提升 4.2 倍",
+ "line": "草稿層直接共用目標模型稀疏注意力的 KV 快取與索引，不需額外 KV 記憶體",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T16:26:38+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "騰訊"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "DFly2",
+   "推測解碼",
+   "Hy4 flash",
+   "KV cache"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "騰訊混元團隊 11 月 26 日開源新一代草稿模型 DFly2。官方表示它不取代 Hy4 flash，而是掛在旁邊的加速元件，在模型權重與輸出不變的前提下，讓生成速度成倍提升；它專為 DSA 類稀疏注意力大模型與長上下文設計，適配 Hy4 flash 的權重與完整訓練程式碼同步開源。據官方，在 19 個公開評測集上，DFly2 的接受長度與加速比整體優於 DFlash 與 DSpark，長文與代理任務的平均加速比分別比 DSpark 高約 12% 與 30%，單項最高提速 4.2 倍；在代理與真實任務（WorkBuddy）上接受長度比 DSpark 多 10.4%。設計重點是每個草稿層直接共用目標模型對應稀疏注意力層的 KV 快取，以及索引器選出的至多 2,048 個位置，因此計算開銷與上下文長度無關、不需額外 KV 記憶體，也適合 prefill 與 decode 分離部署。<a href=\"https://github.com/Tencent/AngelSpec\" target=\"_blank\" rel=\"noopener\">GitHub</a>",
+ "dive_html": "推測解碼的草稿模型通常要自己維護 KV 快取，長上下文時記憶體壓力大；DFly2 直接借用目標模型的稀疏注意力結構，是把加速綁定在特定架構上的取捨。數據都是騰訊自己公布，比較對象也是同類方案，需要第三方在其他稀疏注意力模型上重現；對自架長上下文推論的團隊，值得評估的是零額外 KV 記憶體這點。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "IT 之家",
+   "title": "让 Hy4 flash 吐字提速 4.2 倍，腾讯混元开源新一代草稿模型 DFly2",
+   "url": "https://www.ithome.com/1/032/929.htm",
+   "time": "2026-11-26T16:26:38+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "IT 之家",
+   "kind": "media",
+   "region": "中國大陸",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0360",
+ "title": "（長文）The Atlantic：今年聖誕禮物開始由 AI 代理挑選、下單，愛用者幾乎都是科技業人士",
+ "line": "從 Grok 自建「聖誕老婆婆」到 Meta Muse、OpenAI ChatGPT Wallet，AI 代理購物進入節慶季",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T02:17:00+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "生活與休閒"
+  ],
+  "event": [
+   "其他"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "零售與消費"
+  ],
+  "org": [
+   "Meta",
+   "OpenAI",
+   "Instinct",
+   "xAI"
+  ],
+  "person": [
+   "Mark Zuckerberg",
+   "Ben Schwerin"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "AI 代理",
+   "節慶購物",
+   "Muse",
+   "ChatGPT Wallet"
+  ],
+  "form": [
+   "長文"
+  ]
+ },
+ "summary_html": "The Atlantic 這篇報導觀察到，今年起有些美國人收到的節慶禮物，將完全由 AI 代理挑選並購買。文中舉例：在 AI 新創做行銷的 Cynthia Bell McGillis，讓 Grok 每天掃描她的電子郵件信箱，記錄到貨商品與收禮人、從電子報找折扣、累計花費；灣區 AI 產品總監 Rohit Bakshi 透過 iMessage 代理 Instinct 替外甥買禮物；另一名科技業工作者請女友的 Meta Muse 代理依她的 Instagram 收藏找飯店。作者指出近幾個月科技公司接連推出 AI 個人助理：Instinct 8 月爆紅、Meta 9 月推出 Muse，Mark Zuckerberg 稱前六週逾 1,000 萬人試用；OpenAI 本月推出 ChatGPT Wallet 讓代理也能付款。作者特別註明，採訪時找得到的每個熱衷用代理購物的人都和科技業有關。Instinct 商務長 Ben Schwerin 說，用戶開始把整份禮物清單交給代理完成購買。",
+ "dive_html": "這篇的價值在於把「代理購物」從產品發表拉回真實使用者，並點出採用者幾乎都是科技業內人：一般消費者願不願意交出信用卡與信箱權限，仍是最大問號。搭配 Amazon 封鎖 Muse 的爭議來看，代理能不能進入主流購物，取決於平台是否放行，而不只是技術成熟度。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Atlantic",
+   "title": "Here Comes Santa Claude",
+   "url": "https://www.theatlantic.com/technology/2026/11/ai-agents-holiday-shopping-muse/689587/",
+   "time": "2026-11-26T02:17:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "The Atlantic",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

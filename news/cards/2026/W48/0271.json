@@ -92,6 +92,18 @@
    "kind": "media",
    "region": "南亞",
    "rank": 3
+  },
+  {
+   "name": "CISA",
+   "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+   "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+   "time": null,
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "CISA",
+   "kind": "official",
+   "region": "北美",
+   "rank": 9
   }
  ],
  "log": [],

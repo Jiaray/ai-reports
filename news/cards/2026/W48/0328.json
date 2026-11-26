@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0328",
+ "title": "Fortune：Amazon 與 Meta 洽談解除對 AI 代理 Muse 的封鎖，讓它直接在 Amazon 購物",
+ "line": "兩家已談過多輪，卡在搜尋結果呈現與廣告怎麼處理，任何協議須雙方執行長核准",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-25T22:10:18+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "企業經營"
+  ],
+  "event": [
+   "會談協議"
+  ],
+  "sector": [
+   "網路平台",
+   "零售與消費"
+  ],
+  "org": [
+   "Amazon",
+   "Meta",
+   "Fortune"
+  ],
+  "person": [
+   "Andy Jassy"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Muse",
+   "AI 購物代理"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Fortune 引述知情人士，Amazon 與 Meta 已就讓 Meta 的 AI 代理 Muse 直接連上 Amazon 商店談過多輪，可能結束兩個月來的封鎖；兩個月前，Muse 用戶發現無法在 Amazon 下單，結帳時只收到錯誤訊息。目前仍在談的兩大議題是搜尋結果如何呈現、廣告如何處理。Amazon 最擔心第三方購物代理衝擊它的廣告業務，執行長 Andy Jassy 10 月曾說很少顧客透過外部代理購物；高層也擔心這類代理削弱 Amazon 與消費者的直接關係，且若 Muse 下錯單，善後的是 Amazon 與賣家。報導說任何協議都需要兩家公司執行長核准；Meta 與 Amazon 尚未回應 TechCrunch。",
+ "dive_html": "這場談判是 AI 購物代理與電商平台利益衝突的第一個大型案例：平台怕的不是交易量，而是廣告版位與顧客關係被代理吃掉。若雙方達成「代理看得到廣告」的安排，可能成為其他平台與 OpenAI、Google 代理談判的範本；目前都是匿名消息，兩家未證實。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "title": "Amazon and Meta reportedly in talks to lift blockade on AI agent Muse",
+   "url": "https://techcrunch.com/2026/11/25/amazon-and-meta-reportedly-in-talks-to-lift-blockade-on-ai-agent-muse/",
+   "time": "2026-11-25T22:10:18+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "TechCrunch",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

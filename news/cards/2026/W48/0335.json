@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0335",
+ "title": "駭客把惡意「安裝助手」上架真正的微軟應用商店散布 Vinci 遠端木馬，微軟稱未違反條款拒絕下架",
+ "line": "eSentire 發現攻擊者以假截圖工具下載站引導安裝商店裡的 App，再建排程任務投放木馬",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T16:34:22+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "微軟",
+   "eSentire",
+   "Neowin"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "Microsoft Store",
+   "Vinci RAT",
+   "Setup Assistant",
+   "惡意程式"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Neowin 報導，資安公司 eSentire 發現一波惡意程式投放活動：攻擊者誘騙用戶下載自以為是微軟截圖工具的程式，從假下載站拿到的安裝包，實際會引導安裝一款名為「安裝助手」（Setup Assistant）的 App，而它上架在真正的微軟應用商店。這款 App 本身不是危害最高的部分，它像後門一樣在 Windows 建立排程任務，再投放以 PowerShell 為基礎的 Vinci 遠端存取木馬，讓攻擊者遠端執行指令、執行程式並蒐集硬體資訊。eSentire 向微軟通報後，得到的回覆是該 App 沒有違反平台條款，微軟一開始拒絕下架，還附上判定合規的標準，而這款 App 剛好符合。據 ITPro 報導，它目前仍在商店上架。IT之家指出，商店頁面與描述粗製濫造，像是用大型語言模型一鍵生成的。",
+ "dive_html": "這案打破了「從官方商店下載就安全」的假設，微軟自己的資安指引正是這樣建議用戶。攻擊者把真正的惡意行為放在安裝後的排程任務，商店審核只看 App 本身，就會放行；企業可考慮以 AppLocker 或 Intune 限制商店 App 白名單，並監控 PowerShell 建立排程任務的行為。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "從仿冒截圖工具下載站被導向安裝微軟應用商店「Setup Assistant」的 Windows 用戶；感染後植入 Vinci 遠端存取木馬；受害人數原文未提供"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "IT 之家",
+   "title": "黑客借微软应用商店分发恶意应用，微软被指以未违反条款为由拒绝下架",
+   "url": "https://www.ithome.com/1/032/932.htm",
+   "time": "2026-11-26T16:34:22+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "IT 之家",
+   "kind": "media",
+   "region": "中國大陸",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

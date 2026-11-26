@@ -1,0 +1,101 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0317",
+ "title": "白宮公布關鍵基礎設施防護措施：提名五角大廈資訊長 Kirsten Davies 掌國家網路總監辦公室，CISA 增員逾 200 人",
+ "line": "川普另指派 Joshua Rudd 上將掌國安局與網戰司令部，並成立由國家情報總監主持的「超級智慧部隊」",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T08:38:59+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安",
+   "國防與軍事"
+  ],
+  "event": [
+   "人事異動",
+   "政策法規"
+  ],
+  "org": [
+   "白宮",
+   "國家網路總監辦公室",
+   "美國國家安全局",
+   "美國網戰司令部",
+   "美國網路安全暨基礎設施安全局",
+   "美國人事管理局"
+  ],
+  "person": [
+   "川普",
+   "Kirsten Davies",
+   "Joshua M. Rudd",
+   "Jay Clayton"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "關鍵基礎設施",
+   "Super Intelligence Force",
+   "US Tech Force"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "白宮 11 月 25 日發布新聞稿，稱在川普指示下，政府正推動全政府協同的行動，現代化聯邦系統、強化防禦並保護美國關鍵基礎設施。川普提名五角大廈資訊長 Kirsten Davies 領導國家網路總監辦公室（ONCD），該辦公室將併入重組後的白宮營運與政策架構；並指派 Joshua M. Rudd 上將領導國家安全局（NSA）與美國網戰司令部。人事管理局的 United States Tech Force 已延攬近 500 名高階工程師，協助現代化並保護政府重要系統；網路安全暨基礎設施安全局（CISA）已為關鍵任務職位增補逾 200 人，未來幾個月還會再增加 400 多人。白宮也表示，川普為贏得「超級智慧」（SI）競賽成立「超級智慧部隊」，由國家情報總監 Jay Clayton 主持，任務包括維持對外國對手的技術優勢、協助保護關鍵基礎設施。（新聞稿）",
+ "dive_html": "新聞稿發布時機正逢 FinCEN 遭入侵、情報機構疑遭駭的報導接連出現，內容偏重人事與增員的成績說明，沒有新的法規或預算數字。CISA 先前經歷大規模裁員，這次「增補 200 人、再加 400 人」能否補回人力缺口，原文沒有給基準數字；「超級智慧部隊」由情報系統主導，顯示美國把前沿 AI 納入國安框架。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "美國聯邦政府網路防護組織：國家網路總監辦公室、國安局、網戰司令部、CISA"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "White House",
+   "title": "President Trump Unleashes Whole-of-Government Effort to Protect America’s Critical Infrastructure",
+   "url": "https://www.whitehouse.gov/releases/2026/11/president-trump-unleashes-whole-of-government-effort-to-protect-americas-critical-infrastructure/",
+   "time": "2026-11-26T08:38:59+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "白宮",
+   "kind": "official",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

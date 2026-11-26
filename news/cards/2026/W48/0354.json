@@ -1,0 +1,77 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0354",
+ "title": "論文 Sage-Med：35B 醫療多模態模型在 31 個公開基準平均 58.26%，勝過 Hulu-Med-235B",
+ "line": "研究發現現有醫療多模態模型普遍不如通用前沿模型，放大模型主要只提升文字能力",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T08:00:00+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "健康與醫療"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "醫療照護"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Sage-Med",
+   "醫療多模態模型",
+   "MoE"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "作者系統評估後發現，現有醫療多模態大型語言模型在多種醫療任務上普遍不如通用前沿模型；放大模型主要提升文字能力而非多模態感知，開啟推理模式也補不上視覺落差。為研究醫療多模態能力如何擴展，他們推出 Sage-Med-Preview：總參數 35B、啟用 3B 的醫療多模態模型，從 3.227 億筆候選資料分階段篩選，訓練流程依序是醫療預訓練、分階段監督微調與自適應強化學習，每個階段都有穩定進步。模型與 77 個競品比較，涵蓋 238 項臨床任務、61 個公開與 13 個多中心私有基準、超過 40 種影像模態；在 31 個公開多模態基準上平均 58.26%，勝過開源醫療模型 Hulu-Med-235B-A22B 的 50.99% 與通用科學模型 Intern-S2-Preview 的 52.24%，並在綜合多模態理解、報告生成與視覺定位等任務接近 GPT-6.2-Sol。作者也承認複雜醫療推理與多步臨床流程仍有很大挑戰。",
+ "dive_html": "「醫療專用模型不如通用模型」這個觀察本身比新模型更有參考價值：它說明醫療影像的瓶頸在視覺感知資料，而不是模型大小。只啟用 3B 參數卻勝過 235B 的開源醫療模型，對需要在院內部署的機構有吸引力；但 58% 的平均分距離臨床可用仍遠，私有基準的細節也要看全文。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "Sage-Med: Scaling Medical Multimodal Intelligence",
+   "url": "https://huggingface.co/papers/2611.34575",
+   "time": "2026-11-26T08:00:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "+43",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

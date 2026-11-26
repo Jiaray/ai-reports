@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0332",
+ "title": "HP 預估 2027 年 PC 市場萎縮「高個位數到低雙位數」，押注高價 AI PC 搶市占",
+ "line": "記憶體短缺壓縮出貨，HP 第四季營收 160 億美元年增 9.3%，全年營收 600 億美元",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T01:00:00+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "企業經營",
+   "科技"
+  ],
+  "event": [
+   "財報營運"
+  ],
+  "sector": [
+   "硬體與消費電子"
+  ],
+  "org": [
+   "HP",
+   "IDC"
+  ],
+  "person": [
+   "Bruce Broussard"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "AI PC",
+   "PC 市場",
+   "記憶體短缺"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "HP 預估 2027 年 PC 市場將因記憶體晶片短缺萎縮「高個位數到低雙位數」百分比，但高層認為仍可藉高階產品與 AI PC 擴大市占。代理執行長 Bruce Broussard 說，HP 將「利用 AI 工作負載移往邊緣端的趨勢」，並認為 AI 的未來是雲端與終端並行的混合架構；他引用 IDC 估計，到 2030 年半數企業 AI 推論工作會在終端或邊緣節點執行。HP 截至 10 月 31 日的第四財季營收 160 億美元，年增 9.3%；2026 財年營收成長 9.5% 至 600 億美元，主要由個人系統事業帶動。The Register 指出，HP 的說法與上一季法說會一致，高毛利的邊緣 AI 機種撐住了獲利。",
+ "dive_html": "這是大型 PC 品牌第一次把 2027 年衰退幅度講到可能兩位數，台灣的 PC 代工、零組件與通路要提早調整備貨。「AI PC」能否撐起單價，取決於企業是否真把推論放到終端；HP 引用的 IDC 預測是產業研究機構的估計，不是實際需求數據。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "2027 年 PC 市場預估萎縮高個位數到低雙位數百分比；第四財季營收 160 億美元、年增 9.3%；2026 財年營收 600 億美元、年增 9.5%；IDC 估 2030 年半數企業 AI 推論在終端或邊緣"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Register",
+   "title": "HP sees premium-priced AI PCs as its meal ticket in a shrinking market",
+   "url": "https://www.theregister.com/personal-tech/2026/11/25/hp-sees-premium-priced-ai-pcs-as-its-meal-ticket-in-a-shrinking-market/5312174",
+   "time": "2026-11-26T01:00:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "The Register",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

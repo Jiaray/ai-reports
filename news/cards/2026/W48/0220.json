@@ -109,13 +109,37 @@
    "kind": "media",
    "region": "東南亞",
    "rank": 2
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Australia passes online safety law, putting Big Tech at risk of multibillion-dollar fines",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxQb0VmbVBBdkFRU29MMjl2RmM1bDgtcFI1ZlpKN2lJV2JocVppeS1zbzJPSWhvVjVSNnExam1KMHhDSTgtdVpSR2RMV0dhOFEyRTJzQnI0eW1lNGxkWDUxZ2V1a2JNX0pkcWFtT1VCVWtKNE5IY3plZHRabVJySThIekJkVmFJNGlRVUFjNS1INHR4WHk4WVM0aEFUbklvMEpyVm1R?oc=5",
+   "time": "2026-11-25T17:27:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "The Record",
+   "title": "Australia passes tough legislation requiring big tech to preempt foreseeable harms",
+   "url": "https://therecord.media/australia-passes-online-safety-legislation-preempt-harms",
+   "time": "2026-11-26T01:07:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "The Record",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 4,
-  "regions": 3,
-  "media_weight": 8,
+  "outlets": 6,
+  "regions": 4,
+  "media_weight": 12,
   "community": {
    "hn": 0,
    "ptt": 0,

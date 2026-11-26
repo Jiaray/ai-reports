@@ -101,13 +101,49 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 1
+  },
+  {
+   "name": "404 Media",
+   "title": "Treasury CIO Is Vibe Coding a ‘Civilization’ Clone During Treasury Department Hack",
+   "url": "https://www.404media.co/sam-corcos-legatum-treasury-cio-is-vibe-coding-a-civilization-clone-during-treasury-department-hack/",
+   "time": "2026-11-25T20:05:53+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "404 Media",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "The Register",
+   "title": "US Treasury financial crimes unit becomes latest fed breach victim",
+   "url": "https://www.theregister.com/security/2026/11/25/us-treasury-financial-crimes-unit-becomes-latest-fed-breach-victim/5312165",
+   "time": "2026-11-26T00:40:16+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "The Register",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "CyberScoop",
+   "title": "FinCEN investigates cybersecurity incident, takes systems offline",
+   "url": "https://cyberscoop.com/fincen-investigates-cybersecurity-incident-systems-offline/",
+   "time": "2026-11-25T21:03:24+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "CyberScoop",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 3,
+  "outlets": 6,
   "regions": 3,
-  "media_weight": 6,
+  "media_weight": 9,
   "community": {
    "hn": 0,
    "ptt": 0,

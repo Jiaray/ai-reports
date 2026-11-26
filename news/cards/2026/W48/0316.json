@@ -1,0 +1,82 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0316",
+ "title": "論文：UCI 心臟病資料集胸痛欄位編碼與文件相反，78% 引用研究的解讀方向錯誤",
+ "line": "廣用 40 年的機器學習基準資料標籤顛倒，零樣本語言模型分類器 AUC 掉 0.12–0.33",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T13:00:00+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "健康與醫療"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "UCI",
+   "OpenML",
+   "Kaggle"
+  ],
+  "person": [
+   "Tejas Tovinkere Pattabhi"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "UCI Heart Disease",
+   "資料集錯誤",
+   "SHAP"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "Tejas Tovinkere Pattabhi 發現，機器學習常用基準 UCI 心臟病資料的胸痛變數，實際存放方式與文件說明相反：四個收案地點中，文件標為「無症狀」（4）的代碼其實是典型心絞痛病人，標為「典型心絞痛」（1）的幾乎沒有典型心絞痛特徵。他以兩種方式驗證：只有照修正後的讀法，才能重現 1986 年 Cleveland 原始研究的胸痛表與迴歸係數；Budapest、瑞士與 Long Beach 檔案中，代碼 4 的病人有 93–96% 具備三項典型特徵。OpenML、PMLB 與兩份高票 Kaggle 副本都沿用錯誤標籤，合計下載約 40 萬次。他抽查 124 篇以 SHAP 分析這份資料的論文，32 篇有寫出方向，其中 25 篇（78%）與正確類別矛盾，124 篇都沒有發現顛倒。傳統模型幾乎不受影響，所以錯誤長期沒被察覺；但讀標籤的零樣本語言模型會被誤導，三個開放權重模型的 AUC 掉 0.12 到 0.33。",
+ "dive_html": "這說明資料集的「欄位語意」錯誤，傳統準確率指標抓不到，卻會直接污染可解釋性研究與 LLM 推論；用公開表格資料測 LLM 的評測，應先核對欄位定義。論文附修正對照表與程式碼，引用這份資料的醫療 AI 研究可能需要重新檢視結論。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "arXiv",
+   "title": "Typical Angina, Reversed: A Long-Standing Documentation Error in the UCI Heart Disease Data",
+   "url": "https://arxiv.org/abs/2611.33248",
+   "time": "2026-11-26T13:00:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "arXiv",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

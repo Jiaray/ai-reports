@@ -1,0 +1,96 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0352",
+ "title": "美國企業領回約 1,660 億美元緊急關稅退款，至少 9 家上市公司把部分退款拿去發獎金",
+ "line": "實際負擔漲價的消費者拿不到錢，TJX 從 4.63 億美元退款中撥 1.67 億美元發獎金",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T16:03:00+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "總體經濟",
+   "企業經營"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "sector": [
+   "零售與消費"
+  ],
+  "org": [
+   "ProPublica",
+   "Fortune",
+   "TJX",
+   "Acushnet",
+   "Stanley Black & Decker"
+  ],
+  "person": [
+   "川普",
+   "Kathleen Claussen"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "關稅退款",
+   "IEEPA",
+   "緊急關稅"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美國企業正領回約 1,660 億美元的關稅退款加利息，而這些成本有不少是消費者分擔的。ProPublica 用 AI 工具分析證券申報與法說會發現，至少 9 家上市公司揭露把部分退款用於高管或員工獎金，包括 T.J. Maxx 母公司 TJX、高爾夫品牌 Titleist 母公司 Acushnet 與工具商 Stanley Black &amp; Decker。TJX 從 4.63 億美元退款中撥 1.67 億美元給非高管員工的獎勵與獎金，約占它上一財年 55 億美元獲利的 3%；Acushnet 4,580 萬美元退款中約 1,200 萬美元用於獎勵薪酬；Stanley Black &amp; Decker 至少拿到 2.98 億美元，未說明多少用於獎金。這些關稅源自川普 2025 年 2 月以毒品為由宣布國家緊急狀態對墨西哥、加拿大與中國加徵，以及約兩個月後以貿易逆差為由對幾乎所有貿易夥伴加徵，兩輪都依據《國際緊急經濟權力法》（IEEPA）。喬治城大學法學教授 Kathleen Claussen 說，這種規模的退款「前所未有」。",
+ "dive_html": "關稅實際由誰負擔、退款該還給誰，是美國政府用關稅施政後少被討論的分配問題：退款流向進口商，漲價卻早已轉嫁給消費者。這筆錢正好碰上新一輪 301 關稅提案，企業與消費者對關稅的反感可能更深；對台灣出口商而言，美國客戶拿回的退款不會回流到供應鏈。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "退款約 1,660 億美元；至少 9 家上市公司用於獎金；TJX 退款 4.63 億美元、撥 1.67 億美元獎金；Acushnet 退款 4,580 萬美元、約 1,200 萬美元獎勵；Stanley Black &amp; Decker 至少 2.98 億美元"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Fortune",
+   "title": "‘Businesses hate chaos’: $166 billion in tariff refunds are flowing to companies, not the customers who paid",
+   "url": "https://fortune.com/2026/11/26/tariff-refunds-corporate-bonuses-consumers-legal-claim/",
+   "time": "2026-11-26T16:03:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Fortune",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

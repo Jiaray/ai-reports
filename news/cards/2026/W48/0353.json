@@ -1,0 +1,77 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0353",
+ "title": "論文 VibeVideoAgent：讓程式代理在製作途中檢查影片草稿，Claude Opus 5.5 整體影音品質從 4.03 升到 4.43",
+ "line": "免訓練框架把多模態感知放在與寫程式分開的短上下文，回傳精簡的檢查結果",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T08:00:00+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "Anthropic",
+   "OpenAI"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "程式驅動影片生成",
+   "VibeVideoBench",
+   "程式代理"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "程式驅動的影片生成，是讓程式代理撰寫並執行繪製程式，能精確控制字體、資料視覺化、同步音訊與多鏡頭場景，並留下可編輯的專案；但程式正常結束也可能出現標籤重疊、鏡頭沒對準主體、旁白不同步等問題，而且不會報錯。把畫面與音訊直接餵回寫程式的對話會撐爆長期上下文，只檢查最終成品又讓早期錯誤變成昂貴的重寫。作者提出免訓練的 VibeVideoAgent：多模態感知在與寫程式者分開的短上下文中執行，回傳精簡、有依據的檢查結果；七個基本操作建立在統一的多時鐘素材表示上，從粗到細探索媒體、以各模態證據驗證需求、對照參考或舊版本；並用分段流程讓代理先在最小預覽上測試最有風險的決定。在 239 題 VibeVideoBench 上，Claude Opus 5.5 的整體影音品質從 4.03 升到 4.43、規範符合率從 98.87% 升到 99.35%，GPT-6 Astra 從 4.03 升到 4.27，Claude Sonnet 5.5 從 3.97 升到 4.10，影音同步進步最多（最高 +0.56）。",
+ "dive_html": "這篇處理的是代理產出「能跑但看起來不對」的問題，把感知與寫程式拆在不同上下文，是控制長任務上下文成本的實用做法，也適用於網頁、遊戲畫面等需要視覺驗收的生成任務。作者另指出程式修改的粒度會左右規範符合與感知品質的取捨，代表框架效果仍受代理修改習慣影響。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "VibeVideoAgent: Closing the Perceptual Loop for Code-Driven Video Generation",
+   "url": "https://huggingface.co/papers/2611.34237",
+   "time": "2026-11-26T08:00:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "+48",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

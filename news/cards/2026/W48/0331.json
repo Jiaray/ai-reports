@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0331",
+ "title": "微軟 11 月更新強化 NTLM 簽章，部分第三方驗證代理、SSO 與應用打包工具登入失敗",
+ "line": "問題出在第三方產品回傳空的 TargetInfo；暫時解法是在受影響用戶端關閉簽章，長期要更新產品或改用 Kerberos",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T01:01:00+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "科技"
+  ],
+  "event": [
+   "版本更新"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "微軟"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "NTLM",
+   "訊息簽章",
+   "Kerberos",
+   "ClientAllowUnsignedNtlm"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "微軟支援公告指出，11 月安全更新調整 NTLM 訊息簽章後，部分第三方應用程式與裝置的驗證會失敗，受影響的包括驗證代理伺服器、單一登入（SSO）產品與應用程式打包工具。微軟說，問題出在這些產品宣稱提供 NTLM 驗證所需資訊，卻回傳不完整或空的資料：裝置在 CHALLENGE_MESSAGE 設定了 NTLMSSP_NEGOTIATE_TARGET_INFO 旗標，TargetInfo 欄位卻是空的或不完整。管理員可用公告中的網路封包與事件紀錄範例找出受影響產品。確認受影響時，暫時解法是在受影響的用戶端把登錄值 ClientAllowUnsignedNtlm 設為 1，讓用戶端不再提出簽章，等於撤回新預設值，而不是修好不相容的產品；建議的長期做法是取得廠商更新，或在支援時改用 Kerberos。這項改動隨 11 月 10 日更新上路，是兩階段計畫的第一階段。",
+ "dive_html": "這是安全強化與相容性的典型衝突：關掉簽章能讓登入恢復，卻也回到容易遭 NTLM 轉送攻擊的狀態，只應當作過渡。企業內部仍依賴 NTLM 的舊 SSO 或代理設備，應趁第二階段上路前盤點並向廠商要更新；改用 Kerberos 是微軟長期淘汰 NTLM 的方向。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "套用 11 月 10 日 Windows 安全更新後，與 NTLM 實作不完整的第三方驗證代理伺服器、SSO 產品、應用程式打包工具；CVE 與嚴重度原文未提供；利用狀態：未說明"
+  },
+  {
+   "name": "處置",
+   "html": "暫時在受影響用戶端將 HKLM\\SYSTEM\\CurrentControlSet\\Control\\Lsa\\MSV1_0 下的 ClientAllowUnsignedNtlm 設為 1；長期取得廠商更新或改用 Kerberos"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Register",
+   "title": "Microsoft's NTLM security changes trip up third-party logins",
+   "url": "https://www.theregister.com/security/2026/11/25/microsofts-ntlm-security-changes-trip-up-third-party-logins/5312085",
+   "time": "2026-11-26T01:01:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "The Register",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

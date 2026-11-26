@@ -1,0 +1,102 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0344",
+ "title": "研究：Docker 映像檔裡外洩的 AWS 金鑰最快 7.86 秒就被機器人使用，OpenAI 與 Claude 誘餌金鑰餘額全被耗光",
+ "line": "石溪大學團隊在 8 個公開容器登錄庫放 300 個誘餌映像，AWS 金鑰收到逾 14 萬次 API 呼叫",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-25T19:22:32+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "開發與開源"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "石溪大學",
+   "Docker Hub",
+   "Amazon ECR",
+   "Red Hat Quay",
+   "AWS",
+   "OpenAI"
+  ],
+  "person": [
+   "Billy Tsouvalas",
+   "Nick Nikiforakis"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "Docker",
+   "密鑰外洩",
+   "AWS 金鑰",
+   "ContainerBots"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "石溪大學的 Billy Tsouvalas 與 Nick Nikiforakis 在四個月內，把 300 份官方 nginx 映像副本發布到 Docker Hub、Amazon ECR、Red Hat Quay 等 8 個公開容器登錄庫，每份都放了誘餌的 AWS、OpenAI 與 Anthropic API 金鑰。映像沒有在任何地方宣傳，AWS 金鑰仍收到來自 5,000 多個 IP 的逾 14 萬次 API 呼叫，OpenAI 與 Claude 金鑰的餘額全被耗光；研究者把背後的掃描程式稱為「ContainerBots」，並寫道「實務上，發布與遭入侵是同一件事」。第一輪 100 份映像全放 Docker Hub：過半 AWS 金鑰在發布 1 分鐘內被使用，93% 在 5 分鐘內、全部在 15 分鐘內，首次呼叫中位數 51 秒，最快 7.86 秒。Docker Hub 的下載計數比實際落後約 5 到 6 分鐘，即使映像擁有者盯著下載數，也來不及在外洩前反應。先前一份分析 30 多萬個映像的研究發現，8.5% 含有某種密鑰。",
+ "dive_html": "7.86 秒代表「發現後再撤銷」已經不可行，金鑰一旦進入公開映像就該視為外洩。開發團隊應在 CI 推送映像前加密鑰掃描、改用短效憑證或建置時注入，並檢查既有公開映像的歷史層；LLM API 金鑰也是目標，被耗光的是真金白銀的額度。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "發布到 Docker Hub 等公開容器登錄庫、內含雲端或 LLM API 金鑰的映像；先前研究估計約 8.5% 映像含密鑰"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Help Net Security",
+   "title": "Bots exploited leaked AWS key from Docker image in under 8 seconds",
+   "url": "https://www.helpnetsecurity.com/2026/11/25/docker-aws-key-exposure-bots/",
+   "time": "2026-11-25T19:22:32+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Help Net Security",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

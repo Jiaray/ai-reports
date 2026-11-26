@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0338",
+ "title": "德國布蘭登堡消費者保護中心控告 OpenAI，指 ChatGPT 訂閱容易取消難",
+ "line": "網頁訂閱無法用手機 App 取消，另質疑 OpenAI 可單方面調整訂閱價格的條款無效",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T15:56:41+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "DE"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "OpenAI",
+   "布蘭登堡消費者保護中心"
+  ],
+  "person": [
+   "Dunja Neukamp"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "ChatGPT",
+   "訂閱取消",
+   "消費者保護"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據德國科技媒體 ComputerBase 報導，德國布蘭登堡邦消費者保護中心已對 OpenAI 提起訴訟，理由是 ChatGPT 訂閱的取消流程過於繁瑣。該中心法律事務顧問 Dunja Neukamp 表示，開通訂閱只要點幾下按鈕，取消卻不簡單：用戶必須回到最初開通的平台管理訂閱，例如用電腦網頁訂閱的人無法用手機 App 取消。該機構認為 OpenAI 沒有讓退訂足夠透明，不符合德國法律要求。它也質疑 OpenAI 用戶合約中「必要時可單方面調整訂閱價格」的條款沒有法律效力，因為 OpenAI 沒有充分說明調價的合理依據，例如沒有明定只在實際營運成本上漲時才能漲價。",
+ "dive_html": "德國自 2022 年起要求線上訂閱提供「解約按鈕」，這類訴訟對訂閱制 AI 服務是低成本、高示範效果的施壓。比取消流程更值得注意的是單方調價條款：AI 公司正因算力成本頻繁調整方案與額度，若法院認定條款無效，OpenAI 在歐盟調價或縮減額度都可能需要更明確的依據。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "IT 之家",
+   "title": "德国一消费者保护中心起诉 OpenAI，称 ChatGPT 订阅容易取消难",
+   "url": "https://www.ithome.com/1/032/888.htm",
+   "time": "2026-11-26T15:56:41+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "IT 之家",
+   "kind": "media",
+   "region": "中國大陸",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

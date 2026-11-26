@@ -4,7 +4,7 @@
  "title": "歐洲太空總署赫拉號近距離拍攝：NASA DART 撞擊在小行星 Dimorphos 留下體育場大小的坑、讓它不規則翻滾",
  "line": "撞擊面被徹底重塑、坑洞幾乎延展整個寬度，周圍有數百顆巨石環繞",
  "born_at": "2026-11-26T16:12:43+08:00",
- "first_reported_at": "2026-11-26T01:30:16+08:00",
+ "first_reported_at": "2026-11-26T01:30:00+08:00",
  "updated_at": "2026-11-26T16:12:43+08:00",
  "version": 1,
  "archived": false,
@@ -127,13 +127,49 @@
    "kind": "media",
    "region": "南亞",
    "rank": 3
+  },
+  {
+   "name": "Scientific American",
+   "title": "In 2022 NASA struck an asteroid. Now we are finally seeing the massive impact up close",
+   "url": "https://www.scientificamerican.com/article/in-2022-nasa-struck-an-asteroid-now-we-are-finally-seeing-the-massive-impact-up-close/",
+   "time": "2026-11-26T02:00:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Scientific American",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "歐洲探測器揭露小行星遭撞後樣貌　巨大撞擊坑覆蓋表面",
+   "url": "https://www.cna.com.tw/news/ait/202611260095.aspx",
+   "time": "2026-11-26T12:18:14+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "The Register",
+   "title": "Hera probe finds DART left a stadium-sized dent in asteroid Dimorphos",
+   "url": "https://www.theregister.com/science/2026/11/25/hera-probe-finds-dart-left-a-stadium-sized-dent-in-asteroid-dimorphos/5312153",
+   "time": "2026-11-26T01:30:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "The Register",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 4,
+  "outlets": 7,
   "regions": 4,
-  "media_weight": 6,
+  "media_weight": 11,
   "community": {
    "hn": 0,
    "ptt": 0,

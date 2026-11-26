@@ -110,13 +110,37 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 2
+  },
+  {
+   "name": "NYT Asia Pacific",
+   "title": "North Korea Kicks Out Swiss Diplomats in Spat Linked to Ukraine War",
+   "url": "https://www.nytimes.com/2026/11/25/world/asia/north-korea-switzerland-diplomats.html",
+   "time": "2026-11-26T01:00:25+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "New York Times",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "RFI 中文",
+   "title": "朝鲜驱逐瑞士外交办事处代表",
+   "url": "https://www.rfi.fr/cn/%E6%AC%A7%E6%B4%B2/20261125-%E6%9C%9D%E9%B2%9C%E9%A9%B1%E9%80%90%E7%91%9E%E5%A3%AB%E5%A4%96%E4%BA%A4%E5%8A%9E%E4%BA%8B%E5%A4%84%E4%BB%A3%E8%A1%A8",
+   "time": "2026-11-26T05:20:14+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 4,
-  "regions": 3,
-  "media_weight": 8,
+  "outlets": 6,
+  "regions": 4,
+  "media_weight": 13,
   "community": {
    "hn": 0,
    "ptt": 0,

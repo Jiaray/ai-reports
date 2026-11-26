@@ -1,0 +1,81 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0315",
+ "title": "論文 AutoformBench：341 題 Lean 4 形式化任務，測 AI 能否自己補齊定義與引理",
+ "line": "前沿模型的瓶頸不在數學領域，而在能否建出缺少的形式化基礎",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T13:00:00+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "person": [
+   "Charles Arnal",
+   "Ahmad Rammal",
+   "Julia Kempe",
+   "Rémi Munos"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Lean 4",
+   "形式化證明",
+   "Mathlib",
+   "AutoformBench"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "Charles Arnal、Ahmad Rammal、Niket Patel、Fabian Gloeckle、Bartosz Piotrowski、Amaury Hayat、Julia Kempe、Rémi Munos、Vivien Cabannes 提出 AutoformBench，收錄 341 題 Lean 4 形式化任務，取自 24 份進階數學文獻。作者指出，真實的形式化不只是證明單一定理，還要建出把結果接到形式化函式庫所需的定義與中間引理；既有評測多半給出孤立的定理敘述，配套理論早已在 Mathlib 裡。這套基準由熟悉 Lean 的數學家形式化並審核每個目標敘述，代理拿到非形式的證明，必須自己翻成 Lean，同時補齊缺少的定義、引理與基礎設施。比較前沿模型後發現難度邊界大致相同：成敗較少取決於數學領域，而是取決於模型建構缺少的形式化基礎的能力。",
+ "dive_html": "這篇正好回應近期 AI 宣稱證明重大猜想、卻只釋出巨量 Lean 程式碼的爭議：能把證明寫進 Lean 不等於能從零建起整套數學基礎。把「補基礎設施」獨立成評測項目，可能成為檢驗 AI 數學能力的新標準；摘要沒有列出各模型分數，實際差距要看全文。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "arXiv",
+   "title": "AutoformBench: A Lean Formalization Benchmark for Advanced Mathematics",
+   "url": "https://arxiv.org/abs/2611.33165",
+   "time": "2026-11-26T13:00:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "arXiv",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

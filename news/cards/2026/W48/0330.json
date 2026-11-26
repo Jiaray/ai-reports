@@ -1,0 +1,96 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0330",
+ "title": "Securin 指數：美國供水系統供應商的漏洞比公開紀錄多近一倍，含 20 個未列入 KEV 的已遭利用漏洞",
+ "line": "調查 236 家供水技術供應商，聯邦供水相關資安公告今年創 2020 年以來新高",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T03:40:17+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "能源與公用事業"
+  ],
+  "org": [
+   "Securin",
+   "美國網路安全暨基礎設施安全局",
+   "美國環保署",
+   "FBI",
+   "WaterISAC"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "工控系統",
+   "供水系統",
+   "KEV",
+   "Water Supply Chain Watch"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "曝險管理公司 Securin 發布新指數「Water Supply Chain Watch」，研究 236 家為美國飲用水、廢水與工業用水系統提供設備的技術供應商。美國聯邦政府已發布 4,014 則工控系統資安公告，並登錄 1,792 個已知遭利用的漏洞；Securin 比對 CISA、環保署、FBI 與 WaterISAC 的紀錄（CISA 公告資料到 11 月 20 日、KEV 清單到 11 月 23 日）後，找到的漏洞幾乎是公開紀錄的兩倍，其中 20 個已遭利用的漏洞甚至不在聯邦的已知遭利用漏洞（KEV）清單上。研究也發現，聯邦的供水相關公告今年達 2020 年以來最高，但研究人員指出，公告數量並不能可靠預測真實攻擊。The Register 的副標指出，入侵者不一定需要利用漏洞就能闖入。",
+ "dive_html": "KEV 清單是許多單位排修補優先序的依據，若有 20 個已遭利用的漏洞不在清單上，只看 KEV 的單位會漏掉真實威脅。這份研究出自資安廠商、也帶有推廣自家指數的成分，方法細節需要看完整報告；對台灣的水務與工控單位，參考價值在於供應鏈曝險盤點，不能只依賴單一官方清單。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "236 家美國供水、廢水與工業用水技術供應商的設備；20 個已遭利用、未列入 KEV 的漏洞（產品與 CVE 原文未提供）"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Register",
+   "title": "The security of US water systems is even leakier than we thought",
+   "url": "https://www.theregister.com/security/2026/11/25/the-security-of-us-water-systems-is-even-leakier-than-we-thought/5312243",
+   "time": "2026-11-26T03:40:17+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "The Register",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

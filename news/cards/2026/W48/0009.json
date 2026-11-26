@@ -4,9 +4,9 @@
  "title": "Anthropic 數學家 Alpöge 與 Claude 宣稱證明黎曼猜想，只釋出約 1,700 萬行 Lean 程式碼",
  "line": "證明已有社群獨立編譯，但「還沒有人看懂」；Alpöge 澄清「25 萬頁」是玩笑",
  "born_at": "2026-11-26T01:46:18+08:00",
- "first_reported_at": "2026-11-25T04:34:53+08:00",
- "updated_at": "2026-11-26T01:46:18+08:00",
- "version": 1,
+ "first_reported_at": "2026-11-25T00:00:00+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -113,13 +113,58 @@
    "kind": "official",
    "region": null,
    "rank": 9
+  },
+  {
+   "name": "Nature",
+   "title": "Dual proofs of legendary Riemann hypothesis stun mathematicians",
+   "url": "https://www.nature.com/articles/d41586-026-03853-y",
+   "time": "2026-11-25T00:00:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Nature",
+   "kind": "official",
+   "region": "歐洲",
+   "rank": 9
+  },
+  {
+   "name": "Scientific American",
+   "title": "Why AI’s proof of the Riemann hypothesis is so bittersweet",
+   "url": "https://www.scientificamerican.com/article/why-ais-proof-of-the-riemann-hypothesis-is-so-bittersweet/",
+   "time": "2026-11-26T00:20:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Scientific American",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "Nature",
+   "title": "What is the Riemann hypothesis? A guide to the famed conjecture that rules prime numbers",
+   "url": "https://www.nature.com/articles/d41586-026-03854-x",
+   "time": "2026-11-25T00:00:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Nature",
+   "kind": "official",
+   "region": "歐洲",
+   "rank": 9
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-26T17:27:06+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "Nature 11 月 25 日以「黎曼猜想雙重證明震驚數學家」為題報導，指這次出現 AI 參與與人類撰寫的證明，專家表示兩份證明都需要仔細查核；Nature 同期另刊出黎曼猜想解說與「AI 衝擊如何動搖下一代數學家」的分析。《科學人》（Scientific American）作者 Peter Hall 撰文，說自己腿上刺著黎曼猜想核心的 ζ 函數，卻因證明出自 AI 協助而難以慶祝。",
+   "update": "Nature 報導黎曼猜想出現 AI 參與與人類撰寫的兩份證明，專家表示都需要仔細查核",
+   "refocus": false
+  }
+ ],
  "heat": {
-  "outlets": 2,
+  "outlets": 3,
   "regions": 1,
-  "media_weight": 4,
+  "media_weight": 5,
   "community": {
    "hn": 425,
    "ptt": 0,

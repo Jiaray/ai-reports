@@ -4,7 +4,7 @@
  "title": "Anthropic 執行長 Amodei 發長文否認主張「把人類自由意志交給 AI」，強調 AI 須受民主程序治理",
  "line": "Amodei 稱把治理權交給 AI 是壞主意，並批評部分 AI 執行長只喊口號",
  "born_at": "2026-11-26T16:09:33+08:00",
- "first_reported_at": "2026-11-26T03:12:53+08:00",
+ "first_reported_at": "2026-11-25T18:01:09+08:00",
  "updated_at": "2026-11-26T16:09:33+08:00",
  "version": 1,
  "archived": false,
@@ -94,13 +94,61 @@
    "kind": "media",
    "region": "南亞",
    "rank": 3
+  },
+  {
+   "name": "Axios",
+   "title": "Anthropic CEO pushes back on Axios reporting on AI and free will",
+   "url": "https://www.axios.com/2026/11/25/anthropic-dario-amodei-ai-free-will-contro-axios",
+   "time": "2026-11-26T03:28:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Axios",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Axios",
+   "title": "Rival AI leaders push back against Anthropic vision of surrendering human agency to AI",
+   "url": "https://www.axios.com/2026/11/25/anthropic-ai-human-control-debate-free-will",
+   "time": "2026-11-25T18:01:09+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Axios",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "36氪",
+   "title": "11月25日，“全民公敌”达里奥发了篇小作文炮轰同行",
+   "url": "https://www.36kr.com/p/4086113452255878",
+   "time": "2026-11-26T16:16:43+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "36氪",
+   "kind": "media",
+   "region": "中國大陸",
+   "rank": 3
+  },
+  {
+   "name": "TechCrunch",
+   "title": "Anthropic’s Dario Amodei calls accusations of surrendering human control to AI ‘absurd’",
+   "url": "https://techcrunch.com/2026/11/25/anthropics-dario-amodei-calls-accusations-of-surrendering-human-control-to-ai-absurd/",
+   "time": "2026-11-26T03:44:24+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "TechCrunch",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 2,
-  "regions": 2,
-  "media_weight": 3,
+  "outlets": 5,
+  "regions": 4,
+  "media_weight": 8,
   "community": {
    "hn": 0,
    "ptt": 0,

@@ -1,0 +1,93 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0327",
+ "title": "Todoist 遭入侵，約 6% 用戶的電子郵件、密碼雜湊與帳號建立日期外洩",
+ "line": "攻擊者以竊得的憑證進入版本控制系統，再經員工工作帳號進入雲端，少數用戶的任務內容被搜尋 API 金鑰",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-25T22:20:28+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Todoist",
+   "Slack"
+  ],
+  "person": [
+   "Amir Salihefendić"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "Todoist",
+   "資料外洩",
+   "API 權杖",
+   "Todoist for Outlook"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "任務管理 App Todoist 11 月 24 日表示，駭客進入它的正式環境系統，竊取用戶資料，包括電子郵件、密碼雜湊與帳號建立日期，約 6% 用戶受影響，原因是憑證遭竊。攻擊者 11 月 22 日至 23 日用竊得的憑證存取版本控制系統與原始碼，再修改員工的存取權限，透過一名員工的工作帳號進入雲端基礎設施；他下載了以舊雜湊方式儲存密碼的早期用戶憑證，但沒有修改原始碼。約 0.001% 的用戶，攻擊者還搜尋了任務、留言與附件檔名，尋找 API 金鑰、存取權杖等其他服務的憑證，並取走 Todoist API 權杖與 Slack 整合權杖；若帳號連了 Todoist for Outlook 且有讀信權限，攻擊者也透過它查找郵件、地址與附件檔名。Todoist 已封鎖攻擊路徑、重設密碼、停用 Outlook 外掛，並重整內部存取架構與雲端遠端執行指令的方式；創辦人兼執行長 Amir Salihefendić 在 X 致歉。",
+ "dive_html": "這起與 1Password 案模式相近：都是先拿到內部開發者帳號、再橫向進入正式環境，顯示原始碼與 CI/CD 帳號已是攻擊者的首選入口。對開發團隊最實際的風險在於有人把 API 金鑰、恢復詞存在任務或留言裡，攻擊者正是專找這些；使用 Todoist 整合 Slack、Outlook 的團隊應立即撤換相關權杖。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "約 6% Todoist 用戶的電子郵件、密碼雜湊與帳號建立日期；約 0.001% 用戶的任務、留言、附件檔名，以及 Todoist API 權杖、Slack 整合權杖遭存取"
+  },
+  {
+   "name": "處置",
+   "html": "Todoist 已重設密碼、停用 Todoist for Outlook；受影響用戶應更新 API 權杖、重新連結整合，撤換存在 Todoist 留言裡的存取金鑰、恢復詞與憑證，其他服務若用相同密碼也要更改"
+  }
+ ],
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "title": "Todoist confirms 6% of customers’ details were stolen in data breach",
+   "url": "https://techcrunch.com/2026/11/25/todoist-confirms-6-of-customers-details-were-stolen-in-data-breach/",
+   "time": "2026-11-25T22:20:28+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "TechCrunch",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

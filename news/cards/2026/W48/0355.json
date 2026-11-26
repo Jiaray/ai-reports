@@ -1,0 +1,74 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0355",
+ "title": "論文 I2VT：不用任何新影片，只靠圖片編輯器就能強化並擴充影片編輯模型",
+ "line": "讓影片編輯器把單張圖片當成一格影片編輯，由圖片編輯器在每個去噪步驟引導",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T08:00:00+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "影片編輯",
+   "I2VT",
+   "OpenVE++",
+   "擴散模型"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "圖片編輯模型已能遵循各種指令，影片編輯模型卻仍落後，部分原因是成對的原始與編輯後影片很難收集。作者提出 Image-to-Video Transfer（I2VT），用圖片編輯器改進既有的預訓練影片編輯器並擴充新任務，不改架構、不需新影片，只用單張圖片做後訓練。關鍵做法是讓影片編輯器「扮演」圖片編輯器：把圖片當成只有一格的影片來編輯，並在每個去噪步驟由圖片編輯器引導它的預測。訓練時影片編輯器只看單張圖片，測試時卻能把提升與擴充的能力套用到整段影片，同時維持時間一致性。作者另提出 OpenVE++，在 OpenVE-Bench 外新增動作、表情、肢體動作與場景重新打光四項影片製作常用任務；在三種影片編輯器上實驗，I2VT 都提升既有能力並擴充到新任務，在 OpenVE-Bench 與 OpenVE++ 都達到最佳表現。",
+ "dive_html": "影片資料昂貴、圖片資料便宜，這篇提供把圖片端進步「搬」到影片端的低成本路徑，對影視後製工具是直接可用的思路。限制在於能力上限仍取決於圖片編輯器，而時間一致性只靠影片編輯器原本的能力維持，動作幅度大的編輯是否仍穩定，摘要沒有交代。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "Improving and Expanding Video Editing Capabilities Without Videos",
+   "url": "https://huggingface.co/papers/2611.34941",
+   "time": "2026-11-26T08:00:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "+29",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0334",
+ "title": "倫敦蓋威克機場接送區付費系統供應商遭駭，用戶姓名、地址、車牌與部分付款紀錄外洩",
+ "line": "外洩的是 ParkPark 營運、Times24 使用的 AutoPay 系統，機場無法說明受影響人數",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-25T19:16:18+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "運輸與物流"
+  ],
+  "org": [
+   "倫敦蓋威克機場",
+   "ParkPark",
+   "Times24"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "AutoPay",
+   "供應鏈外洩",
+   "資料外洩"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "倫敦蓋威克機場通知用戶，接送區付費服務遭入侵，個資與少數付款紀錄外洩。The Register 看到的通知信指出，受影響系統是 ParkPark 營運的 AutoPay，由蓋威克接送區管理商 Times24 UK Limited 使用，讓駕駛事先登記車輛與付款資料、自動扣繳接送費。多數受影響用戶只外洩部分資料，可能包括姓名、住址、城市、郵遞區號、聯絡方式，以及 AutoPay 登入用的電子郵件與 bcrypt 雜湊密碼；也包括 AutoPay 帳號綁定的車輛資料、在 Times24 管理停車場的進出時間與車牌。通知信說付款紀錄也受波及，含金額、卡別與到期日等。蓋威克表示無法提供受影響人數，也無法說明紀錄回溯到多久以前。",
+ "dive_html": "典型的第三方供應商外洩：用戶面對的是機場品牌，實際資料卻放在層層外包的停車業者手中。密碼以 bcrypt 雜湊儲存降低了直接被登入的風險，但姓名、地址加車輛進出時間足以拿來做精準釣魚；曾使用 AutoPay 的人應更換密碼並留意冒名信件。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "ParkPark AutoPay（蓋威克接送區、Times24 管理的停車場）用戶的姓名、住址、聯絡方式、登入電子郵件與 bcrypt 雜湊密碼、車輛與進出紀錄，少數付款紀錄；人數原文未提供"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Register",
+   "title": "Gatwick drop-off customers' personal data exposed in supplier breach",
+   "url": "https://www.theregister.com/security/2026/11/25/gatwick-drop-off-customers-personal-data-exposed-in-supplier-breach/5312060",
+   "time": "2026-11-25T19:16:18+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "The Register",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -175,6 +175,18 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 2
+  },
+  {
+   "name": "Slashdot",
+   "title": "Huawei Is Guilty of Conspiracy To Steal Trade Secrets, a US Jury Finds",
+   "url": "https://yro.slashdot.org/story/26/11/25/0742222/huawei-is-guilty-of-conspiracy-to-steal-trade-secrets-a-us-jury-finds",
+   "time": "2026-11-26T02:00:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "15 comments",
+   "family": "Slashdot",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
   }
  ],
  "log": [],

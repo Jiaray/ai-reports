@@ -4,7 +4,7 @@
  "title": "SpaceX 宣布向每個川普帳戶捐 1 股、馬斯克個人再配捐 1 股，總值近 180 億美元",
  "line": "公司股份下月轉入，馬斯克個人股份待明年 6 月閉鎖期屆滿後轉移",
  "born_at": "2026-11-26T16:09:33+08:00",
- "first_reported_at": "2026-11-26T14:39:34+08:00",
+ "first_reported_at": "2026-11-26T13:39:02+08:00",
  "updated_at": "2026-11-26T16:09:33+08:00",
  "version": 1,
  "archived": false,
@@ -101,16 +101,52 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 1
+  },
+  {
+   "name": "Axios",
+   "title": "Musk makes $18 billion SpaceX stock pledge for every kid in America",
+   "url": "https://www.axios.com/2026/11/26/musk-spacex-shares-trump-accounts",
+   "time": "2026-11-26T13:39:02+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Axios",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "PTT Stock",
+   "title": "[新聞] 馬斯克宣布送全美兒童2股SpaceX股票 估值",
+   "url": "https://www.ptt.cc/bbs/Stock/M.1795682717.A.40E.html",
+   "time": null,
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "42",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "Dawn",
+   "title": "Musk pledges two SpaceX shares for every American child",
+   "url": "https://www.dawn.com/news/2047193/musk-pledges-two-spacex-shares-for-every-american-child",
+   "time": "2026-11-26T16:16:17+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 3,
-  "regions": 2,
-  "media_weight": 7,
+  "outlets": 5,
+  "regions": 3,
+  "media_weight": 10,
   "community": {
    "hn": 0,
-   "ptt": 0,
+   "ptt": 42,
    "v2ex": 0
   }
  }

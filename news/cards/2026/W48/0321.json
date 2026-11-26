@@ -1,0 +1,114 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0321",
+ "title": "TIME 調查：輝達東南亞大客戶 Megaspeed 前母公司有三家中國國營實體入股，專家稱早該亮起「紅旗」",
+ "line": "美國 2024 年就開始調查 Megaspeed，焦點是輝達知不知道晶片最後流向哪裡",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-25T21:00:00+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞",
+   "中國大陸",
+   "北美"
+  ],
+  "country": [
+   "SG",
+   "MY",
+   "CN",
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "企業經營",
+   "AI"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "story": [
+   "AI晶片出口管制"
+  ],
+  "sector": [
+   "半導體"
+  ],
+  "org": [
+   "Nvidia",
+   "Megaspeed",
+   "7Road",
+   "Quantifind",
+   "美國商務部",
+   "美國證券交易委員會"
+  ],
+  "person": [
+   "黃仁勳",
+   "黃樂",
+   "Jason Sharman",
+   "Todd Blanche"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "Megaspeed",
+   "出口管制",
+   "晶片轉運"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "TIME 取得的公司紀錄與公開資料顯示，總部在新加坡、營運在馬來西亞、成為輝達東南亞最大客戶之一的 Megaspeed，脫胎自與中國國營實體有關的企業網絡：它的前母公司 7Road Holdings 有三家中國國營實體入股，雖只是少數股權，已足以在中國法律下成為「國有參股企業」。這些關係企業共用董事、登記地址與命名慣例，資料由 AI 風險情報公司 Quantifind 整理；劍橋大學國際關係教授 Jason Sharman 說，輝達「應該知道自己在跟誰做生意」，追查到最終受益人是法律要求。Megaspeed 於 2023 年改名，隨後成為輝達重要夥伴，其高層黃樂之後與黃仁勳發生婚外情。TechCrunch 指出，美國政府 2024 年已對 Megaspeed 展開調查，並向輝達索取對它數十億美元銷售的資料；司法部長 Todd Blanche 暗示輝達不是調查對象，但加州檢察長與國會仍在追查，美國證券交易委員會據報也在調查。調查的核心問題是輝達是否知道晶片流向，以及婚外情是否讓輝達有理由懷疑 Megaspeed 的保證。",
+ "dive_html": "若 Megaspeed 確為中國國有參股企業的延伸，輝達對它的盡職調查就會成為出口管制執法的關鍵證據，這也解釋了輝達為何緊急暫停對東南亞四國出貨。對台灣伺服器代工廠而言，客戶最終受益人審查的責任只會加重；TIME 的資料出自公開紀錄，輝達當時掌握什麼仍未公開。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "TIME",
+   "title": "The ‘Red Flags’ Behind Nvidia Customer Megaspeed",
+   "url": "https://time.com/article/2026/11/25/nvidia-megaspeed-china-investment/",
+   "time": "2026-11-26T00:42:46+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "TIME",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "TechCrunch",
+   "title": "The questions Jensen Huang and Nvidia will still have to answer about Megaspeed",
+   "url": "https://techcrunch.com/2026/11/25/the-questions-jensen-huang-and-nvidia-will-still-have-to-answer-about-megaspeed/",
+   "time": "2026-11-25T21:00:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "TechCrunch",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

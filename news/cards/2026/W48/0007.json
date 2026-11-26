@@ -108,6 +108,31 @@
    "kind": "aggregator",
    "region": null,
    "rank": 9
+  },
+  {
+   "name": "Simon Willison",
+   "title": "Quoting Scott Aaronson",
+   "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+   "time": "2026-11-26T07:26:32+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Simon Willison",
+   "kind": "official",
+   "region": "北美",
+   "rank": 9
+  },
+  {
+   "name": "Hacker News",
+   "title": "Holy shit holy shit holy shit holy shit: The magnitude of what’s now happening",
+   "url": "https://scottaaronson.blog/?p=10379",
+   "time": "2026-11-26T03:11:27+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "1471 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50646108",
+   "family": "scottaaronson.blog",
+   "kind": "official",
+   "region": null,
+   "rank": 9
   }
  ],
  "log": [],
@@ -116,7 +141,7 @@
   "regions": 1,
   "media_weight": 1,
   "community": {
-   "hn": 882,
+   "hn": 1471,
    "ptt": 0,
    "v2ex": 0
   }

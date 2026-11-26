@@ -4,7 +4,7 @@
  "title": "Reuters：中國 AI 公司 MiniMax 資料遭不明人士存取；Apple 以兒少安全為由下架其聊天 App",
  "line": "兩則 Reuters 報導同日指向 MiniMax 的資安與兒少安全問題",
  "born_at": "2026-11-26T16:09:33+08:00",
- "first_reported_at": "2026-11-26T13:13:00+08:00",
+ "first_reported_at": "2026-11-26T09:30:01+08:00",
  "updated_at": "2026-11-26T16:09:33+08:00",
  "version": 1,
  "archived": false,
@@ -84,6 +84,18 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 1
+  },
+  {
+   "name": "Techmeme",
+   "title": "Apple removes MiniMax's chatbot Talkie from the App Store worldwide over sexual content, after outlets showed it evidence of AI characters sexualizing children (TBIJ)",
+   "url": "https://www.techmeme.com/261125/p44#a261125p44",
+   "time": "2026-11-26T09:30:01+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
   }
  ],
  "log": [],

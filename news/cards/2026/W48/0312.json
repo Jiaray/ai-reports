@@ -1,0 +1,121 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0312",
+ "title": "波蘭金融監理局放行，UniCredit 取得收購德國商業銀行的最後一項監理核准，擬由執行長 Orcel 出任監事會主席",
+ "line": "繼歐盟執委會與聯準會後最後一關過關，治理架構與德國政府持股安排仍待確定",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T15:37:24+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "IT",
+   "DE",
+   "PL"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "企業經營"
+  ],
+  "event": [
+   "併購投資"
+  ],
+  "sector": [
+   "金融"
+  ],
+  "org": [
+   "UniCredit",
+   "德國商業銀行",
+   "波蘭金融監理局",
+   "歐盟執委會",
+   "聯準會",
+   "mBank"
+  ],
+  "person": [
+   "Andrea Orcel"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Commerzbank",
+   "銀行併購",
+   "公開收購"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "波蘭金融監理局（KNF）11 月 26 日核准義大利聯合信貸銀行（UniCredit）收購德國商業銀行（Commerzbank）的交易，完成這筆收購所需的最後一項監理核准；先前歐盟執委會已於 11 月 16 日無條件放行，聯準會也在同期核准。波蘭這關涉及德國商業銀行持股 69.1% 的波蘭子行 mBank 的間接控制權變更，mBank 約有 590 萬名客戶。UniCredit 表示所有監理條件均已滿足，並據彭博與華爾街日報報導，計畫提名執行長 Andrea Orcel 擔任德國商業銀行監事會主席。Euronews 指出，治理架構、德國政府持股與公開收購的後續階段仍待確定，UniCredit 與柏林政府在 11 月中達成的協議是政治上的關鍵一步。",
+ "dive_html": "這是歐洲近年最大的跨國銀行併購之一，監理關卡全數過關後，焦點轉向德國政府持股的去留與整合裁員。由 Orcel 兼任監事會主席，代表 UniCredit 要直接掌控德國商業銀行；若整合順利，可能帶動歐洲銀行業跨境整併潮。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "德國商業銀行持有 mBank 69.1%；mBank 約 590 萬名客戶；歐盟執委會 11 月 16 日核准"
+  }
+ ],
+ "sources": [
+  {
+   "name": "WSJ World News",
+   "title": "UniCredit Seeks Commerzbank Chair Role for CEO Orcel After Takeover Clears Final Hurdle",
+   "url": "https://www.wsj.com/business/unicredit-clears-final-hurdle-in-commerzbank-takeover-83ae477f?mod=rss_worldnews",
+   "time": "2026-11-26T16:42:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Bloomberg Markets",
+   "title": "UniCredit Clears Final Hurdle to Take Over Commerzbank",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-26/unicredit-clears-final-hurdle-to-take-over-commerzbank-video",
+   "time": "2026-11-26T16:50:20+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Bloomberg",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Euronews",
+   "title": "UniCredit secures final Polish approval for Commerzbank takeover bid",
+   "url": "https://www.euronews.com/2026/11/26/unicredit-secures-final-polish-approval-for-commerzbank-takeover-bid",
+   "time": "2026-11-26T15:37:24+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 2,
+  "media_weight": 8,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

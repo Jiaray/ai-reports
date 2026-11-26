@@ -1,0 +1,112 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0326",
+ "title": "美國起訴佛州勒索軟體「資料復原」業者 CEO：謊稱有解密工具，實則暗中付贖金再向受害者加價",
+ "line": "FBI 6 月假扮勒索集團與受害者設局，被告面臨三項電信詐欺罪、最高 60 年徒刑",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T01:30:00+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US",
+   "CO"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安",
+   "犯罪與司法"
+  ],
+  "event": [
+   "犯罪執法"
+  ],
+  "org": [
+   "美國司法部",
+   "FBI",
+   "Ransomwarehelp.com",
+   "404 Media"
+  ],
+  "person": [
+   "Juan Ricardo Palacio Escobar",
+   "Charles Calenda",
+   "A. Tysen Duva",
+   "Brian Krebs"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "勒索軟體",
+   "資料復原",
+   "贖金談判",
+   "電信詐欺"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美國聯邦大陪審團起訴 52 歲哥倫比亞籍男子 Juan Ricardo Palacio Escobar，他是佛州一家勒索軟體資料復原公司的共同創辦人。檢方指控他對外宣稱擁有解密工具，能不談判、不付贖金就幫受害者救回資料，實際上卻暗中付贖金給犯罪集團，再向客戶收取足以獲利的費用。他面臨三項電信詐欺罪，最高可判 60 年徒刑。司法部宣布前，404 Media 與獨立記者 Brian Krebs 已揭露他經營 Ransomwarehelp.com，該網站目前顯示維護中。助理司法部長 A. Tysen Duva 證實，FBI 6 月曾假扮勒索集團與受害者向他求助，他當時表示公司「從不與勒索攻擊者談判或付贖金」，而是靠先進解密技術救回資料。第一助理檢察官 Charles Calenda 說，被告以根本不存在的解決方案欺騙受害者，讓他們「第二次受害」。",
+ "dive_html": "這案凸顯事件應變外包的盲點：受害企業在壓力下找「保證不付贖金」的復原業者，可能反而資助了犯罪集團，也可能觸犯部分國家的制裁規定。台灣企業若遭勒索、委託外部復原，應要求業者說明解密依據並保留談判紀錄；美國近月接連追查這個灰色產業，類似業者可能面臨更多查核。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "委託 Ransomwarehelp.com 處理勒索事件的受害者，人數原文未提供"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "title": "DOJ accuses former cyber executive of defrauding ransomware victims by secretly paying hackers",
+   "url": "https://techcrunch.com/2026/11/25/doj-accuses-former-cyber-executive-of-defrauding-ransomware-victims-by-secretly-paying-hackers/",
+   "time": "2026-11-26T01:36:51+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "TechCrunch",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "The Record",
+   "title": "Florida ransomware recovery CEO indicted for allegedly paying hacker ransoms",
+   "url": "https://therecord.media/ransomware-doj-indictment-recovery",
+   "time": "2026-11-26T01:30:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "The Record",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

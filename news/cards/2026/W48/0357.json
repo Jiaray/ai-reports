@@ -1,0 +1,96 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0357",
+ "title": "資安研究員 Hanno Böck 批 Ubuntu 修補太慢：Linux 核心 TCP 遠端記憶體破壞漏洞 NoisyTCP 公開 9 天仍無修補",
+ "line": "另一個 AMD 虛擬化 KVM 主機逃逸漏洞 CVE-2026-99312 也還沒修，其他發行版早已提供修補",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T04:38:00+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "開發與開源"
+  ],
+  "event": [
+   "漏洞揭露"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Canonical",
+   "Ubuntu"
+  ],
+  "person": [
+   "Hanno Böck"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "CVE-2026-99288",
+   "NoisyTCP",
+   "CVE-2026-99312",
+   "KVM",
+   "Ubuntu"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "資安研究員 Hanno Böck 11 月 25 日在 oss-security 郵件論壇發文，指 Ubuntu 近來對嚴重漏洞的回應令人擔憂。Linux 核心 TCP 協定堆疊的遠端記憶體破壞漏洞 NoisyTCP（CVE-2026-99288）細節於 11 月 16 日公開，9 天後 Ubuntu 仍未發布修補，而其他發行版在細節公開時就已有修補可用。11 月 18 日公開、影響 AMD 虛擬化的 KVM 主機逃逸漏洞（CVE-2026-99312）同樣還沒有修補。他也指出，Ubuntu 先前修補另一個 TCP 遠端記憶體破壞漏洞（CVE-2026-98432）時，花了好幾週才提供修正。這則貼文在 Hacker News 獲 281 分。",
+ "dive_html": "對以 Ubuntu 跑伺服器與 CI 的團隊，這是具體風險：遠端可觸發的核心 TCP 漏洞直接暴露在網路上，KVM 主機逃逸則威脅共用主機的雲端環境。在 Canonical 發布修補前，可評估改用已修補的核心（如 HWE 或上游）、以防火牆限制對外暴露面；Ubuntu 為何變慢、Canonical 有無回應，原文沒有交代。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Ubuntu 的 Linux 核心：TCP 遠端記憶體破壞 NoisyTCP（CVE-2026-99288）、AMD 虛擬化 KVM 主機逃逸（CVE-2026-99312）；嚴重度原文未提供；利用狀態：僅揭露"
+  },
+  {
+   "name": "處置",
+   "html": "Ubuntu 尚未發布修補（原文發文時）；其他發行版已有修補"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "Slow Ubuntu security response times",
+   "url": "https://www.openwall.com/lists/oss-security/2026/11/25/9",
+   "time": "2026-11-26T04:38:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "281 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50647181",
+   "family": "openwall.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 281,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0339",
+ "title": "兩個未設防資料庫曝光逾 35 億筆紀錄：約 20 億筆登入憑證，另有 8.4 億筆中國身分證號",
+ "line": "研究員 Jeremiah Fowler 發現的資料庫以明文存放帳密、瀏覽器 Cookie 與工作階段權杖，部分檔案標示「US」",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-25T20:27:36+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球",
+   "中國大陸"
+  ],
+  "country": [
+   "US",
+   "CN"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "org": [
+   "Malwarebytes"
+  ],
+  "person": [
+   "Jeremiah Fowler"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "資料外洩",
+   "竊密程式",
+   "工作階段權杖"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Malwarebytes 整理，兩個互不相關、未設密碼的資料庫合計曝光逾 35 億筆紀錄，從密碼、瀏覽器 Cookie 到身分證號與學童資料都有。資安研究員 Jeremiah Fowler 發現較大的一個，約 20 億筆登入紀錄分散在 8,471 個資料夾，部分檔案依國家標示（含美國），不清楚有多少美國居民受影響。資料以明文存放，內容包括電子郵件、使用者名稱、密碼與對應登入網址，瀏覽器 Cookie、工作階段權杖等驗證資訊，應用程式憑證、裝置與作業系統資訊，以及似乎含自動填入與加密貨幣錢包資料的紀錄；另有約 40 萬份文件看來出自能建立個別受害者詳細檔案的惡意程式。Fowler 找不到資料庫擁有者，通報主機商後數天才封鎖公開存取，曝光多久、是否有人存取都不清楚。另一個資料庫則含 8.4 億筆中國身分證號與 1,100 萬筆學生紀錄。",
+ "dive_html": "這類竊密程式日誌比單純的帳密清單危險：有效的工作階段權杖可以跳過密碼與多因素驗證，直接接管已登入的帳號。企業應把「可疑裝置上登入過的帳號」視為全部外洩，撤銷工作階段而非只改密碼；資料庫擁有者與存取紀錄都不明，實際被濫用的程度無法估計。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "約 20 億筆登入紀錄（帳密、Cookie、工作階段權杖、裝置資訊，部分標示美國）；另一資料庫含 8.4 億筆中國身分證號、1,100 萬筆學生紀錄；擁有者不明"
+  },
+  {
+   "name": "處置",
+   "html": "懷疑感染惡意程式者，用乾淨的裝置更換受影響密碼，並登出所有工作階段"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Malwarebytes Labs",
+   "title": "Two exposed databases held over 3.5 billion records",
+   "url": "https://www.malwarebytes.com/blog/data-breaches/2026/11/two-exposed-databases-held-over-3-5-billion-records",
+   "time": "2026-11-25T20:27:36+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Malwarebytes",
+   "kind": "official",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,95 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0329",
+ "title": "Flipkart 執行長 Kalyan Krishnamurthy 12 月 4 日卸任，IPO 前景未明",
+ "line": "由產品與技術長 Balaji Thiagarajan 暫代領導，繼任人選幾週內公布",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-25T21:08:19+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "南亞"
+  ],
+  "country": [
+   "IN",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "企業經營"
+  ],
+  "event": [
+   "人事異動"
+  ],
+  "sector": [
+   "網路平台",
+   "零售與消費"
+  ],
+  "org": [
+   "Flipkart",
+   "Walmart",
+   "Tiger Global"
+  ],
+  "person": [
+   "Kalyan Krishnamurthy",
+   "Balaji Thiagarajan"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Flipkart",
+   "IPO",
+   "印度電商"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "印度電商 Flipkart 11 月 25 日表示，執行長 Kalyan Krishnamurthy 將於下週卸任，繼任者在幾週內公布，期間由產品與技術長 Balaji Thiagarajan 與董事會共同領導；Walmart 發言人說他最後上班日是 12 月 4 日。Krishnamurthy 2015 年從早期投資人 Tiger Global 加入，2017 年出任執行長，2018 年 Walmart 以 160 億美元取得控股權後續任，在職逾 11 年。Flipkart 稱在他任內業務成長逾五倍，目前註冊用戶逾 5 億、賣家逾 140 萬，商品逾 1.5 億項，近期跨入快速配送與外送。Thiagarajan 去年 9 月加入，曾創辦企業財務 AI 助理新創 Kasu.ai，並在 Google、微軟與 Uber 任資深工程職。Flipkart 3 月把總部從新加坡遷回印度準備上市，但據報 Walmart 5 月要求延後 IPO。",
+ "dive_html": "領導人在 IPO 不確定時離任，加上由技術背景的主管暫代，顯示 Walmart 可能想先調整 Flipkart 的獲利與 AI 策略再談上市。印度電商正被快速配送重塑，Flipkart 的新執行長人選會反映 Walmart 押注規模還是獲利。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "Walmart 2018 年以 160 億美元取得控股權；註冊用戶逾 5 億、賣家逾 140 萬、商品逾 1.5 億項；業務成長逾五倍"
+  }
+ ],
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "title": "Flipkart CEO Kalyan Krishnamurthy to step down next week amid IPO uncertainty",
+   "url": "https://techcrunch.com/2026/11/25/flipkart-ceo-kalyan-krishnamurthy-to-step-down-next-week-amid-ipo-uncertainty/",
+   "time": "2026-11-25T21:08:19+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "TechCrunch",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0314",
+ "title": "Phylo 研究員實測：Claude 預測冷門細菌蛋白質勝過 AlphaFold 等專用工具",
+ "line": "通用大模型在蛋白質結構預測上挑戰專用工具，引發計算生物學界討論",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-25T23:26:31+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "醫藥與生技"
+  ],
+  "org": [
+   "Phylo",
+   "Anthropic",
+   "OpenAI",
+   "Google",
+   "哈佛醫學院"
+  ],
+  "person": [
+   "Xinming Tu",
+   "Leo Chen"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "蛋白質結構預測",
+   "AlphaFold",
+   "Claude"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "AI 生物科技公司 Phylo 研究員 Xinming Tu 本月初用 OpenAI、Anthropic 與 Google 的大模型，測試它們預測鮮為人知的細菌蛋白質序列的能力。分析程式跑了一整晚，結果顯示 Anthropic 最新版 Claude 不只勝過其他大模型，也超過專為蛋白質序列訓練的工具。他與哈佛醫學院的 Leo Chen 分享的發現在計算生物學界引發熱議。同一週 OpenAI 也宣布最新模型設計出新蛋白質，部分在實驗室合成測試後表現符合預期。部分科學家預測 Claude、ChatGPT 這類通用模型可能在結構預測與設計上超越 AlphaFold；也有研究人員質疑，大模型展現的部分能力可能只是重複訓練資料。",
+ "dive_html": "這是個人實測、不是同儕審查的評測，樣本與方法都還沒公開，「勝過專用工具」的說法需要更多獨立重現。若通用模型真能在冷門序列上勝出，生技公司的工具選擇會從專用模型轉向通用模型加代理流程；但「背訓練資料」的質疑正好點中冷門序列的價值：越少公開資料的蛋白質，越能檢驗模型是否真的在推理。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Solidot",
+   "title": "Claude 和 ChatGPT 在蛋白质结构预测和设计上挑战 AlphaFold",
+   "url": "https://www.solidot.org/story?sid=85992",
+   "time": "2026-11-25T23:26:31+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Solidot",
+   "kind": "aggregator",
+   "region": "中國大陸",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

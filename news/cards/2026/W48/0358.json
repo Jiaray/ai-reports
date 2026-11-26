@@ -1,0 +1,93 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0358",
+ "title": "部署平台 Defang 遭入侵：攻擊者藉權限過大的 GitHub App 推送假 release，偷走正式環境憑證並下載主資料庫",
+ "line": "11 月 12 日入侵、23 日才確認，安裝 Defang GitHub App 的用戶須自行檢查程式庫與雲端帳號",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T05:47:16+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "開發與開源"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Defang",
+   "GitHub"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "Defang",
+   "GitHub App",
+   "CI/CD",
+   "供應鏈攻擊",
+   "release tag"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "部署平台 Defang 公告，11 月 12 日攻擊者進入 Defang Deploy 建置系統、複製營運用的憑證，再用它們下載主資料庫副本；公司 11 月 23 日才確認。Defang 說明，他們另有一個用於本機開發與測試的 GitHub App，裝在自家兩個程式庫上，權限超過需要，包括能修改部署環境。攻擊者以這個 App 的身分推送一個 commit 並標成 release，而正式環境信任 release 標籤，於是攻擊者的程式在 CI 中以正式環境憑證執行並複製走憑證。可見的活動約在 UTC 06:00 至 10:30：06:05 首個複製建置憑證的流程針對開發與測試環境執行，06:26 正式環境憑證遭複製，07:57 至 08:10 資料庫遭複製。憑證直到 11 月 23 日才被替換，公司仍在查 12 日之後是否被使用，部分紀錄不夠詳細無法排除。擁有 Defang Portal 帳號的用戶都在資料庫內；安裝 Defang GitHub App 的用戶，部分憑證也可能被用來存取其 GitHub 程式庫與雲端帳號。",
+ "dive_html": "「CI 信任 release 標籤」加上「權限過大的內部 GitHub App」，是 CI/CD 供應鏈攻擊的教科書組合，同類設定在很多團隊都存在。值得檢查的是：哪些 App 或機器人帳號能建立 tag、部署流程是否只憑 tag 觸發、正式環境憑證是否在 CI 中長期有效。從入侵到換掉憑證拖了 11 天，事後檢討的透明度值得肯定，但空窗期太長。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Defang Portal 所有帳號資料；安裝 Defang GitHub App 用戶的 GitHub 程式庫與雲端帳號可能受波及"
+  },
+  {
+   "name": "處置",
+   "html": "Defang 已替換相關憑證；用戶須照公告「What you should do」自行檢查 GitHub 程式庫與雲端帳號（細項原文未完整提供）"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "Defang Security Incident",
+   "url": "https://defang.io/blog/post/security-incident-november-2026/",
+   "time": "2026-11-26T05:47:16+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "73 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50648035",
+   "family": "defang.io",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 73,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

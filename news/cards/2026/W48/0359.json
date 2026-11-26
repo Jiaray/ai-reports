@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0359",
+ "title": "美國法院駁回 Amazon 挑戰，維持 CPSC 要求召回第三方賣家逾 40 萬件危險商品的命令",
+ "line": "法院採納 CPSC 主張：經 Amazon 物流配送的召回商品，Amazon 須負責",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T08:25:01+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "企業經營",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "sector": [
+   "零售與消費",
+   "網路平台"
+  ],
+  "org": [
+   "Amazon",
+   "美國消費品安全委員會",
+   "The Verge"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Amazon",
+   "FBA",
+   "產品召回",
+   "CPSC"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 The Verge，美國一家法院駁回 Amazon 對美國消費品安全委員會（CPSC）2025 年命令的挑戰。該命令要求 Amazon 召回第三方賣家透過「亞馬遜物流」（Fulfillment by Amazon）售出的逾 40 萬件危險商品；法院採納 CPSC 的主張，認定 Amazon 須為其他公司售出的召回商品負責。",
+ "dive_html": "判決若確定，平台以「只是代為配送」切割產品責任的空間大幅縮小，對使用 FBA 的跨境賣家（含台灣與中國賣家）而言，平台可能把召回成本與合規審查轉嫁到賣家身上。報導摘要沒有說明 Amazon 是否上訴。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "逾 40 萬件危險商品"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Techmeme",
+   "title": "A US court dismisses Amazon's challenge to a 2025 CPSC order requiring it to recall 400K+ hazardous products sold by third parties via Fulfillment by Amazon (Emma Roth/The Verge)",
+   "url": "https://www.techmeme.com/261125/p42#a261125p42",
+   "time": "2026-11-26T08:25:01+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

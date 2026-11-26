@@ -5,8 +5,8 @@
  "line": "8 個伺服器涵蓋 Gmail、Drive、Docs 等，免費額度每個產品每天 5,000 次請求",
  "born_at": "2026-11-26T01:46:18+08:00",
  "first_reported_at": "2026-11-25T02:32:13+08:00",
- "updated_at": "2026-11-26T01:46:18+08:00",
- "version": 1,
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -20,10 +20,12 @@
   ],
   "topic": [
    "AI",
-   "開發與開源"
+   "開發與開源",
+   "資安"
   ],
   "event": [
-   "產品發布"
+   "產品發布",
+   "政策法規"
   ],
   "sector": [
    "軟體與雲端"
@@ -46,7 +48,9 @@
   "keyword": [
    "MCP",
    "Google Workspace",
-   "gwscli"
+   "gwscli",
+   "Workspace AI 工具附約",
+   "OAuth"
   ],
   "form": [
    "新聞"
@@ -67,13 +71,34 @@
    "kind": "aggregator",
    "region": null,
    "rank": 9
+  },
+  {
+   "name": "Help Net Security",
+   "title": "Google mandates MCP or CLI access for Workspace AI agents starting February 2027",
+   "url": "https://www.helpnetsecurity.com/2026/11/26/google-ai-agent-security-requirements/",
+   "time": "2026-11-26T13:30:05+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Help Net Security",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-26T17:27:06+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "Google 同時公布 Workspace 與 Google Cloud 的 AI 代理安全管控。依新的「Workspace AI 工具附約」，AI 代理存取 Workspace 必須透過官方 MCP 伺服器或 CLI，技術強制自 2027 年 2 月 1 日起生效，一般應用程式仍可沿用既有 REST API。外部 AI 代理須使用專屬的 OAuth 用戶端 ID，讓管理員能分辨代理與一般應用；權限採最小範圍並設用量配額，敏感操作須人工核准，請求會比對組織權限、DLP 政策與分類標籤，並篩檢提示注入。Google Workspace 工程副總裁 Chandu Thota 與 Google Cloud 平台總裁 Brad Calder 表示，政策檢查、資料邊界與人工確認「必須放在請求路徑上」。MCP 伺服器之後也將支援 Google Keep。",
+   "update": "Google 要求 AI 代理自 2027 年 2 月 1 日起只能經 MCP 伺服器或 CLI 存取 Workspace",
+   "refocus": false
+  }
+ ],
  "heat": {
-  "outlets": 0,
-  "regions": 0,
-  "media_weight": 0,
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
   "community": {
    "hn": 0,
    "ptt": 0,

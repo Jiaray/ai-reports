@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0341",
+ "title": "FIFA 證實遭駭，駭客取得「有限的個人與業務資料」；HBHC 集團稱竊走逾 12GB、勒索未果後公開",
+ "line": "據稱外洩的包括身分與移民文件、財務與法律文件，駭客自稱入侵 FIFA 的微軟環境",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T04:40:00+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "CH"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安",
+   "體育"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "org": [
+   "國際足總",
+   "Handsome Boy Hacking Club",
+   "西班牙足球甲級聯賽"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "FIFA",
+   "資料外洩",
+   "勒索"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "總部位於蘇黎世的國際足球總會（FIFA）證實，近期遭網路攻擊、內部資料被竊，駭客「未經授權存取有限的個人與業務資料」。發言人表示 FIFA 正與包括執法單位在內的有關當局密切合作，並以最強烈措辭譴責非法取得與公開資料，特別是個資；FIFA 沒有回覆事件性質的追問。上週新出現的犯罪集團 Handsome Boy Hacking Club（HBHC）聲稱竊走 FIFA 超過 12GB 資料、勒索失敗後把資料公開在犯罪論壇，並自稱入侵了 FIFA 的微軟環境；據稱外洩內容包括身分與移民文件、財務紀錄、法律文件與治理資訊。FIFA 約有 700 名員工。週一西班牙足球甲級聯賽（LaLiga）也表示，駭客在一場影響其數位服務與多支西班牙球隊的攻擊中竊取了球迷個資。",
+ "dive_html": "剛辦完世界盃的 FIFA 握有大量球員、官員與合作夥伴的身分與移民文件，這類資料一旦外流，比一般帳密更難補救。歐洲足球組織近期接連遭駭，顯示體育機構資安投資跟不上它們掌握的資料價值；FIFA 未說明受影響人數與入侵方式，自稱的 HBHC 說法也待證實。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "FIFA 的個人與業務資料（據駭客說法逾 12GB，含身分與移民文件、財務、法律、治理資料）；人數原文未提供"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Record",
+   "title": "FIFA says hackers accessed ‘limited set of personal and business information’",
+   "url": "https://therecord.media/fifa-data-breach-limited",
+   "time": "2026-11-26T04:40:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "The Record",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

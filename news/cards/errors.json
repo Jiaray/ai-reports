@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "next_id": 6,
+ "next_id": 7,
  "items": [
   {
    "id": "E1",
@@ -66,6 +66,19 @@
    "proposed": {},
    "found_at": "2026-11-26T02:02:15+08:00",
    "resolved_at": "2026-11-26T09:54:39+08:00"
+  },
+  {
+   "id": "E6",
+   "kind": "info",
+   "cards": [
+    "2026-W48-0287"
+   ],
+   "found_by": "model",
+   "status": "suspected",
+   "note": "CNBC 報導 Norse Atlantic 股價 11 月 25 日收盤下跌 85%，卡上寫收跌 53.3%、盤中一度重挫 86%",
+   "proposed": {},
+   "found_at": "2026-11-26T17:27:06+08:00",
+   "resolved_at": null
   }
  ]
 }

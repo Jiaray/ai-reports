@@ -98,6 +98,18 @@
    "kind": "media",
    "region": "北美",
    "rank": 2
+  },
+  {
+   "name": "Slashdot",
+   "title": "Saudi National Charged In OpenAI Bugging To Be Released On $1 Million Bond",
+   "url": "https://yro.slashdot.org/story/26/11/25/0633231/saudi-national-charged-in-openai-bugging-to-be-released-on-1-million-bond",
+   "time": "2026-11-26T05:00:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "13 comments",
+   "family": "Slashdot",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
   }
  ],
  "log": [],

@@ -1,0 +1,94 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0350",
+ "title": "LVMH 擬把阿爾諾任職年齡上限延到 95 歲，家族控股 Agache 將與 Christian Dior SE 合併",
+ "line": "若通過，現年 77 歲的阿爾諾可掌舵到 2044 年，合併後新公司握 LVMH 66.55% 投票權",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T16:00:07+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "FR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "企業經營"
+  ],
+  "event": [
+   "人事異動"
+  ],
+  "sector": [
+   "零售與消費"
+  ],
+  "org": [
+   "LVMH",
+   "Agache",
+   "Christian Dior SE",
+   "每日電訊報"
+  ],
+  "person": [
+   "Bernard Arnault",
+   "Antoine Arnault"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "LVMH",
+   "接班",
+   "家族企業"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據《每日電訊報》與彭博，提交法國智慧財產局的「合併計畫」文件顯示，LVMH 董事長阿爾諾（Bernard Arnault）在控股公司擔任管理普通合夥人的年齡上限「訂為 95 歲」，若通過，現年 77 歲的他可實質掌控集團到 2044 年。這是集團重組的一環：阿爾諾家族投資控股公司 Agache 將與另一家 LVMH 控股公司 Christian Dior SE 合併，新公司持有 LVMH 略低於 50% 股份，但握有 66.55% 投票權，目的在簡化家族架構、確保跨世代掌控。彭博指出，95 歲上限比他目前擔任 Christian Dior SE 董事長、以及 49 歲兒子 Antoine 擔任執行長的年齡上限都高 10 歲。阿爾諾過去多次延後退休：2022 年把 LVMH 董事長兼執行長年齡上限從 75 歲提高到 80 歲，股東 2025 年 4 月再批准延長到 85 歲。LVMH 旗下有逾 70 個精品品牌。",
+ "dive_html": "把個人任期與家族控股重組綁在一起，顯示阿爾諾優先處理的是控制權而非接班：以不到一半的持股握有三分之二投票權，外部股東對治理幾乎沒有影響力。接班人選仍懸而未決，這對投資人是長期的關鍵人物風險。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "年齡上限 95 歲（可任至 2044 年）；合併後新公司持 LVMH 略低於 50% 股份、66.55% 投票權；旗下逾 70 個品牌"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Anue 鉅亨網",
+   "title": "歐洲首富延後退休！阿爾諾將掌舵LVMH至95歲",
+   "url": "https://news.cnyes.com/news/id/6671878",
+   "time": "2026-11-26T16:00:07+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

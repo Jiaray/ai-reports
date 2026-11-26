@@ -1,0 +1,125 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0340",
+ "title": "微軟：中國 Salt Typhoon、Crystal Typhoon 與北韓駭客已把 AI 攻擊平台 Artex 納入工具，幾分鐘內就能從偵察走到特權存取",
+ "line": "微軟指 Artex 被用來搜尋公開程式庫外洩的密鑰、發動供應鏈攻擊與掃描對外系統",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-25T23:14:33+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球",
+   "中國大陸",
+   "東北亞"
+  ],
+  "country": [
+   "US",
+   "CN",
+   "KP"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "AI"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "微軟",
+   "Salt Typhoon",
+   "Crystal Typhoon",
+   "美國中央情報局",
+   "國家情報總監辦公室"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "Artex",
+   "Salt Typhoon",
+   "AI 自動化攻擊",
+   "密鑰外洩"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "微軟 11 月 25 日發布報告指出，國家支持與以營利為目的的駭客都在使用 Artex：一個能以機器速度自動化入侵多個階段的 AI 平台。中國國家支持的 Crystal Typhoon 與 Salt Typhoon 已把它整合進工具組，用於網路偵察、憑證攻擊與網頁應用程式漏洞利用。微軟說，過去幾週已通報多起濫用 Artex 的攻擊行動，包括搜尋公開程式庫裡外洩的密鑰、促成供應鏈入侵，以及掃描對外系統找可利用的漏洞；Artex 讓攻擊者設定目標後交由 AI 代理執行，「可在幾分鐘內從偵察推進到對目標組織的持久特權存取」。Artex 於 7 月釋出，之後陸續被多個北韓與中國團體採用。報告出爐前數小時，《紐約時報》與 NextGov 報導 Artex 據稱被用於攻擊美國中央情報局、國家地理空間情報局與國家情報總監辦公室。Salt Typhoon 被美國機關認為是 2024 年至少 9 家電信業者遭駭的元凶。",
+ "dive_html": "Artex 把原本需要資深駭客的入侵鏈自動化，國家級團體採用後，攻擊速度從天縮短到分鐘，傳統「看到告警再處理」的節奏來不及。對開發團隊最直接的威脅是公開程式庫與 CI 設定裡的密鑰：Artex 專門搜這些，應立即掃描 GitHub 上的歷史提交並輪替外洩憑證。報告未列出具體 IoC 或受害組織數量，防禦細節要看微軟原文。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "使用 Artex 的中國（Salt Typhoon、Crystal Typhoon）與北韓團體鎖定的組織；據報包括美國中央情報局、國家地理空間情報局、國家情報總監辦公室；受害總數原文未提供"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Record",
+   "title": "Microsoft: China’s Salt Typhoon hackers are using Artex",
+   "url": "https://therecord.media/microsoft-china-salt-typhoon-using-artex-ai-tool",
+   "time": "2026-11-26T05:18:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "The Record",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "404 Media",
+   "title": "Podcast: The AI Tool Hacking the Planet",
+   "url": "https://www.404media.co/podcast-the-ai-tool-hacking-the-planet/",
+   "time": "2026-11-25T23:14:33+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "404 Media",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "Techmeme",
+   "title": "Microsoft says state-backed hacking groups in China and North Korea, including Salt Typhoon, have added AI penetration testing tool ARTEX to their arsenals (Jonathan Greig/The Record)",
+   "url": "https://www.techmeme.com/261126/p3#a261126p3",
+   "time": "2026-11-26T14:00:48+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0349",
+ "title": "「AI 股神」Aschenbrenner 的 Situational Awareness 基金第三季虧 65%，今年至 9 月底仍賺 88.5%",
+ "line": "高槓桿押注 AI 股，7 月曾遭追繳保證金瀕臨崩潰；Anthropic 是未上市持股最大部位",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T12:35:01+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "金融市場",
+   "AI"
+  ],
+  "event": [
+   "財報營運"
+  ],
+  "sector": [
+   "金融"
+  ],
+  "org": [
+   "Situational Awareness",
+   "Anthropic",
+   "Citadel",
+   "華爾街日報"
+  ],
+  "person": [
+   "Leopold Aschenbrenner",
+   "Ken Griffin"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Situational Awareness",
+   "避險基金",
+   "AI 股",
+   "槓桿"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "華爾街日報取得的投資人信函顯示，25 歲前 OpenAI 研究員 Leopold Aschenbrenner 旗下 Situational Awareness 基金第三季扣費後淨值下跌 65%，主因是高槓桿押注 AI 股；但今年至 9 月底扣費後報酬仍達 88.5%。信中第三季績效尚未反映 10 月 AI 股估值的劇烈震盪。Aschenbrenner 寫道，Anthropic 11 月 19 日上市後，基金約 70% 配置在上市股票、30% 在未上市企業，Anthropic 是未上市部位中比重最大的；他說基金仍可能調降 Anthropic 比重，但以 IPO 價格而言仍「高度看好」。他表示近期動盪讓他學到教訓，將採更審慎的風險管理：「波動可以接受，但即使完全看錯，也絕不能承擔足以威脅基金生存的風險。」今年 7 月 AI 恐慌時，銀行對基金發出追繳保證金通知，基金一度瀕臨崩潰，最後把大部分公開股票部位賣給 Ken Griffin 的 Citadel。基金以他 2024 年的同名文章命名。",
+ "dive_html": "這檔基金是 AI 多頭情緒的放大器，單季 −65% 與年初至今 +88.5% 並存，說明槓桿讓報酬與風險一起放大。它在 Anthropic 上市後仍重押、又遇上 Anthropic 跌破發行價，第四季成績可能再受考驗；信函只揭露到 9 月底，10 月後的部位與損益不得而知。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "第三季扣費後 −65%；今年至 9 月底扣費後 +88.5%；上市股票約 70%、未上市約 30%"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Anue 鉅亨網",
+   "title": "「AI股神」Q3虧65%！槓桿押注AI股一度瀕臨崩潰 前三季仍賺88.5%",
+   "url": "https://news.cnyes.com/news/id/6672123",
+   "time": "2026-11-26T17:00:03+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Techmeme",
+   "title": "Letter: Leopold Aschenbrenner told investors Situational Awareness lost 65% after fees in Q3; the fund is up 88.5% after fees for the year through September (Wall Street Journal)",
+   "url": "https://www.techmeme.com/261125/p48#a261125p48",
+   "time": "2026-11-26T12:35:01+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

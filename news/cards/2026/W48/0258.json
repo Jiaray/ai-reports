@@ -79,13 +79,37 @@
    "kind": "aggregator",
    "region": null,
    "rank": 9
+  },
+  {
+   "name": "TechCrunch",
+   "title": "Character.AI’s plan to auction off users’ private chats challenged by state AGs",
+   "url": "https://techcrunch.com/2026/11/25/state-ags-fight-character-ais-plan-to-auction-off-users-private-chats/",
+   "time": "2026-11-26T01:35:58+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "TechCrunch",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Techmeme",
+   "title": "A coalition of 42 AGs opposes Character.AI's plan to auction off data from 21M+ US accounts, 2.1M+ registered to minors, saying the sale lacks user protections (Sarah Perez/TechCrunch)",
+   "url": "https://www.techmeme.com/261125/p41#a261125p41",
+   "time": "2026-11-26T07:50:04+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 0,
-  "regions": 0,
-  "media_weight": 0,
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
   "community": {
    "hn": 0,
    "ptt": 0,

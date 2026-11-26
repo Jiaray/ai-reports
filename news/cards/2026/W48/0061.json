@@ -133,13 +133,49 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 1
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Inflation remains uncomfortably high despite a retreat in gas prices as challenges mount for the Fed",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxOWjFKVU92YjgtRlZKS1BWWTFDYWthODExQ0VMLXJ0OHY5T2tzamlmemN0akZCS0RKaGR4MGRlamtQbzFzUUsxWURPRHVqZWMtd3VnOHFldzdPYnVEcVNNZDBJLTIxMHFlOUE2ZjAza2UxZkFmbG55N04wSS1hR1JUcWNyNXVaaGFkUUFNc0JRekpqZTUzR0JWMzJwdmxKMmVWS3JXeQ?oc=5",
+   "time": "2026-11-26T00:56:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Axios",
+   "title": "The U.S. economy is ripping",
+   "url": "https://www.axios.com/2026/11/25/incomes-layoffs-rates-pce-ai",
+   "time": "2026-11-26T00:55:04+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Axios",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Axios",
+   "title": "U.S. economy grew at rapid 4.3% pace in third quarter",
+   "url": "https://www.axios.com/2026/11/25/economy-gdp-inflation-ai",
+   "time": "2026-11-25T21:57:36+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Axios",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 5,
-  "regions": 2,
-  "media_weight": 12,
+  "outlets": 7,
+  "regions": 3,
+  "media_weight": 17,
   "community": {
    "hn": 0,
    "ptt": 0,

@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0324",
+ "title": "理論物理新評測 TheoPhysEval：GPT-6-Astra 答對 50 題中 49 題，每題成本不到 3 美元",
+ "line": "印度 ICTS 團隊以未公開題目測 AI，基準正式發布前就接近飽和",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T14:50:25+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "南亞"
+  ],
+  "country": [
+   "IN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "國際理論科學中心",
+   "OpenAI",
+   "Anthropic"
+  ],
+  "person": [
+   "Suvrat Raju"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "TheoPhysEval",
+   "GPT-6-Astra",
+   "Claude Opus 5.5"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "印度班加羅爾國際理論科學中心（ICTS）理論物理學教授 Suvrat Raju 與團隊建立 TheoPhysEval 評測，收錄 50 道從未發表、也沒在網路流傳的理論物理題，避免大型語言模型靠訓練資料「背答案」；據稱這些題目通常需要頂尖研究者花一整天。結果 OpenAI GPT-6-Astra 答對 49 題、正確率 98%，Anthropic Claude Opus 5.5 為 92%。團隊表示 Astra 只需單一提示詞即可作答，平均每題成本不到 3 美元，跑完 50 題約 116 美元。計畫源於 Raju 約半年前拿一道自己解出、未發表的題目測試模型；今年 9 月初步檢視時頂尖模型約解出 60%。團隊不打算推出第二版，認為題庫已觸及「人類可明確驗證的計算問題」上限，開放式研究不適合做成評測。",
+ "dive_html": "從 60% 到 98% 只花約兩個月，顯示前沿模型在「有標準答案的推導」上已接近人類頂尖研究者，評測的壽命比建立它還短。團隊主動放棄第二版，等於承認下一階段要比的是開放式研究能力，而那正是現有基準量不到的；50 題的樣本也小，個別題目的對錯會大幅影響名次。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "科技新報",
+   "title": "AI 解理論物理難題正確率 98%，每題成本不到 3 美元",
+   "url": "https://technews.tw/2026/11/26/ai-reshaping-theoretical-physics/",
+   "time": "2026-11-26T14:50:25+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "科技新報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

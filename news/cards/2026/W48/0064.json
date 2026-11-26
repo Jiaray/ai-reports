@@ -5,8 +5,8 @@
  "line": "黃仁勳向員工道歉承認違反行為準則；美情報官員稱目前無證據顯示婚外情對象受中國指使",
  "born_at": "2026-11-26T01:54:26+08:00",
  "first_reported_at": "2026-11-24T08:00:00+08:00",
- "updated_at": "2026-11-26T16:09:33+08:00",
- "version": 2,
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 3,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -44,12 +44,15 @@
    "白宮",
    "美國司法部",
    "Megaspeed",
-   "美國眾議院"
+   "美國眾議院",
+   "標普"
   ],
   "person": [
    "黃仁勳",
    "川普",
-   "黃樂"
+   "黃樂",
+   "盧比奧",
+   "舒默"
   ],
   "weight": [
    "高"
@@ -594,6 +597,186 @@
    "kind": "media",
    "region": "北美",
    "rank": 2
+  },
+  {
+   "name": "NPR News",
+   "title": "Republican wants FBI and CIA answers before questioning Nvidia chief",
+   "url": "https://www.npr.org/2026/11/25/nx-s1-6052417/nvidia-jensen-huang-reaction-republicans-congress-investigation",
+   "time": "2026-11-25T19:50:05+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "NPR",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "TechCrunch",
+   "title": "S&P considers Nvidia credit downgrade over governance and ‘key man’ risks",
+   "url": "https://techcrunch.com/2026/11/25/sp-considers-nvidia-credit-downgrade-over-governance-and-key-man-risks/",
+   "time": "2026-11-26T06:44:32+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "TechCrunch",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Slashdot",
+   "title": "Tuesday Jensen Huang Said Nvidia Doesn't Need a Succession Plan, and that He's in Therapy",
+   "url": "https://hardware.slashdot.org/story/26/11/25/0757217/tuesday-jensen-huang-said-nvidia-doesnt-need-a-succession-plan-and-that-hes-in-therapy",
+   "time": "2026-11-26T04:00:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "74 comments",
+   "family": "Slashdot",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  },
+  {
+   "name": "TechCrunch",
+   "title": "Jensen Huang broke Nvidia’s code of conduct, and his employees may not forget it",
+   "url": "https://techcrunch.com/2026/11/25/jensen-huang-broke-nvidias-code-of-conduct-and-his-employees-may-not-forget-it/",
+   "time": "2026-11-26T03:54:57+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "TechCrunch",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "紐約時報中文網",
+   "title": "美国官员向国会工作人员通报英伟达事件相关情报",
+   "url": "https://cn.nytimes.com/usa/20261126/intelligence-nvidia-affair-congressional-briefing/",
+   "time": "2026-11-26T10:06:44+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "New York Times",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "RFI 中文",
+   "title": "特朗普称黄仁勋不构成风险 美司法部并未对其展开过正式调查",
+   "url": "https://www.rfi.fr/cn/%E6%94%BF%E6%B2%BB/20261125-%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E9%BB%84%E4%BB%81%E5%8B%8B%E4%B8%8D%E6%9E%84%E6%88%90%E9%A3%8E%E9%99%A9-%E7%BE%8E%E5%8F%B8%E6%B3%95%E9%83%A8%E5%B9%B6%E6%9C%AA%E5%AF%B9%E5%85%B6%E5%B1%95%E5%BC%80%E8%BF%87%E6%AD%A3%E5%BC%8F%E8%B0%83%E6%9F%A5",
+   "time": "2026-11-26T02:08:55+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "RFI 中文",
+   "title": "《纽约邮报》：卢比奥个人对黄仁勋反感",
+   "url": "https://www.rfi.fr/cn/%E7%BE%8E%E6%B4%B2/20261125-%E7%BA%BD%E7%BA%A6%E9%82%AE%E6%8A%A5-%E5%8D%A2%E6%AF%94%E5%A5%A5%E4%B8%AA%E4%BA%BA%E5%AF%B9%E9%BB%84%E4%BB%81%E5%8B%8B%E5%8F%8D%E6%84%9F",
+   "time": "2026-11-26T04:53:25+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW 中文",
+   "title": "特朗普称必要时愿赦免黄仁勋",
+   "url": "https://www.dw.com/zh/特朗普称必要时愿赦免黄仁勋/a-80044285?maca=chi-rss-chi-all-1127-rdf",
+   "time": "2026-11-25T18:13:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Techmeme",
+   "title": "Sources: Trump's national security adviser, Secretary Marco Rubio, was not involved in efforts to reinstate Jensen Huang and expressed anger at his return (Jo Ling/CBS News)",
+   "url": "https://www.techmeme.com/261125/p47#a261125p47",
+   "time": "2026-11-26T11:50:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  },
+  {
+   "name": "鈦媒體",
+   "title": "黄仁勋，最后的担保人",
+   "url": "https://www.tmtpost.com/8218629.html",
+   "time": "2026-11-26T14:39:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "0 comments",
+   "family": "鈦媒體",
+   "kind": "media",
+   "region": "中國大陸",
+   "rank": 3
+  },
+  {
+   "name": "36氪",
+   "title": "黄仁勋回来了，“光模块一哥”还没缓过来",
+   "url": "https://www.36kr.com/p/4086270388377481",
+   "time": "2026-11-26T16:26:52+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "36氪",
+   "kind": "media",
+   "region": "中國大陸",
+   "rank": 3
+  },
+  {
+   "name": "RFI 中文",
+   "title": "英伟达\"闹剧\"：习近平的\"稳定\"与特朗普的\"混乱\"之最新一章",
+   "url": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E6%B3%95%E5%9B%BD%E4%B8%96%E7%95%8C%E6%8A%A5/20261125-%E8%8B%B1%E4%BC%9F%E8%BE%BE-%E9%97%B9%E5%89%A7-%E4%B9%A0%E8%BF%91%E5%B9%B3%E7%9A%84-%E7%A8%B3%E5%AE%9A-%E4%B8%8E%E7%89%B9%E6%9C%97%E6%99%AE%E7%9A%84-%E6%B7%B7%E4%B9%B1-%E4%B9%8B%E6%9C%80%E6%96%B0%E4%B8%80%E7%AB%A0",
+   "time": "2026-11-26T05:45:17+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW 中文",
+   "title": "长平观察：黄仁勋复职，特朗普向习近平学到了什么？",
+   "url": "https://www.dw.com/zh/长平观察：黄仁勋复职，特朗普向习近平学到了什么？/a-80051122?maca=chi-rss-chi-all-1127-rdf",
+   "time": "2026-11-25T22:47:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Fortune",
+   "title": "Lori Huang’s Nvidia-funded foundation gained about $2.3 billion in a day on Jensen Huang’s return",
+   "url": "https://fortune.com/2026/11/26/jensen-huang-return-lori-huang-foundation-nvidia-stake/",
+   "time": "2026-11-26T16:07:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Fortune",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "Nikkei Asia",
+   "title": "Huang back at Nvidia as China builds own chip production system",
+   "url": "https://asia.nikkei.com/opinion/huang-back-at-nvidia-as-china-builds-own-chip-production-system",
+   "time": null,
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
   }
  ],
  "log": [
@@ -604,12 +787,20 @@
    "html": "美國副總統范斯 11 月 25 日在俄亥俄州表示，司法部與國安官員告訴他黃仁勳復職前「並未受到任何調查」，川普不需要特赦他。Reuters 引述知情人士，司法部長布蘭希依據對輝達客戶美超微與 Megaspeed 的走私調查，認定沒有證據顯示黃仁勳觸法或是中國代理人，輝達也非調查目標；但 Reuters 另一則獨家指白宮、FBI、CIA 等高層對黃樂是否為中國間諜看法分歧。科技新報引述外媒，輝達前全球業務主管 Jay Puri 與美超微高層的婚姻關係，也讓走私調查受關注。信評方面，標普全球 11 月 25 日以「過度依賴關鍵人物、董事會獨立性不足、缺乏接班計畫」為由，把輝達「AA」評級列入負面信用觀察，90 天內治理缺陷未補恐降至 AA-；穆迪 19 日已把展望由正面降至穩定、維持 Aa1。輝達股價 23 日大漲 31.48% 後連兩日回吐，25 日再跌 3.91%；鉅亨網指其 5 年期 CDS 利差一度擴至 147 個基點歷史新高。參議員 Cory Booker 要求輝達提供與川普政府的溝通紀錄。",
    "update": "標普把輝達 AA 評級列入負面觀察，范斯稱司法部告知黃仁勳未受調查，美官員對黃樂間諜疑雲看法分歧",
    "refocus": true
+  },
+  {
+   "at": "2026-11-26T17:27:06+08:00",
+   "kind": "supplement",
+   "version": 3,
+   "html": "標普表示，黃仁勳遭撤換又復職，凸顯「高層監督薄弱、缺乏接班規劃」與「關鍵人物風險」，預計 90 天內完成審查，可能把輝達評級從 AA 降到 AA-。TechCrunch 指出，輝達 8 月宣布與高盛、Apollo、Blackstone 等 6 家金融機構安排 5,000 億美元 AI 基礎建設融資、原本擔保 25% 貸款，放款方在風波前就要求提高擔保，降評可能讓要求更高。據路透社引述三名知情人士，司法部長布蘭奇是依據對美超微與 Megaspeed 兩家客戶的既有調查，認定沒有證據顯示黃仁勳違法，並在上週末告知川普與范斯，但這項判斷可能隨調查改變；參院民主黨領袖舒默說各委員會將展開調查。川普接受德國之聲引述的訪問時說，必要時「始終可以」赦免黃仁勳，但認為沒有必要，並稱曾考慮入股輝達、「可能還不算太晚」。關於國務卿盧比奧，《紐約郵報》報導他曾警告川普輝達對國家安全構成威脅，CBS 則引述消息人士說他沒有參與讓黃仁勳復職、並對此表達不滿。NPR 報導，一名共和黨議員要求先了解 FBI 與 CIA 掌握什麼、是否警告過黃仁勳，才要詢問他；CNBC 報導黃仁勳向員工表示自己正在接受心理治療。",
+   "update": "標普稱 90 天內審查是否把輝達降為 AA-；川普稱必要時可赦免黃仁勳，國務卿盧比奧被指不滿他復職",
+   "refocus": false
   }
  ],
  "heat": {
-  "outlets": 17,
-  "regions": 6,
-  "media_weight": 32,
+  "outlets": 24,
+  "regions": 7,
+  "media_weight": 44,
   "community": {
    "hn": 0,
    "ptt": 9,

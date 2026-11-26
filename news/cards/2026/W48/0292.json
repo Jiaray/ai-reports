@@ -4,7 +4,7 @@
  "title": "美國職棒大聯盟控告球員工會，搶先請法院確認封館不違反反壟斷法",
  "line": "勞資協議 12 月 1 日到期、談判因球團要求設薪資上限而僵持，球員工會批聯盟想靠法院取得籌碼",
  "born_at": "2026-11-26T16:12:43+08:00",
- "first_reported_at": "2026-11-26T11:03:00+08:00",
+ "first_reported_at": "2026-11-26T07:14:00+08:00",
  "updated_at": "2026-11-26T16:12:43+08:00",
  "version": 1,
  "archived": false,
@@ -85,13 +85,25 @@
    "kind": "media",
    "region": "東北亞",
    "rank": 2
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Major League Baseball sues players' union ahead of lockout, trying to block possible antitrust suit",
+   "url": "https://news.google.com/rss/articles/CBMie0FVX3lxTE9JV0N2c2xoRkFDZ1BfMjZIbElEMEJVX0xIQnVZQ0NzS2hldUNoc09zMUpIOGV6Y3FqMjcxMF9sekotb3djMWZoZDlwTl96akdZT3pCaFM2MHM4VldqdXhHNU1ITzI1OW1ISVFLZG52QTVnQ2tGUjd6THhnYw?oc=5",
+   "time": "2026-11-26T07:14:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 1,
-  "regions": 1,
-  "media_weight": 2,
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 5,
   "community": {
    "hn": 0,
    "ptt": 10,

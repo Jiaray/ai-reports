@@ -1,0 +1,99 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0325",
+ "title": "OpenAI 合併 ChatGPT 的 Chat 與 Work、改用單一用量計，重度用戶可能更早用完額度",
+ "line": "先對少數 Pro 用戶推出，12 月擴大；Instant 模型仍不限量、不計入額度",
+ "born_at": "2026-11-26T17:27:06+08:00",
+ "first_reported_at": "2026-11-26T04:03:27+08:00",
+ "updated_at": "2026-11-26T17:27:06+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "OpenAI",
+   "Anthropic"
+  ],
+  "person": [
+   "Thibault Sottiaux"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "ChatGPT",
+   "使用額度",
+   "Chat",
+   "Work"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "OpenAI 產品負責人 Thibault「Tibo」Sottiaux 在 X 表示，已開始對一小群 Pro 訂閱者推出整合 Chat 與 Work 的 ChatGPT，先前 OpenAI 已以電子郵件通知用戶這項合併。OpenAI 發言人告訴 TechCrunch，新制下 Chat 與 Work 共用單一用量計；使用 Instant 模型的對話仍不限量、不計入共用額度，用完額度後也能繼續用 Instant。發言人說多數用戶不會更常碰到額度重置，但一小部分最重度的用戶可能更早用完。依支援頁面，共用額度預計 12 月更廣泛推出。部分訂閱者在社群與官方論壇擔心，合併後能用的進階推理模型會變少、訂閱費卻不變。Anthropic 今年 9 月也把 Claude 與工作用的 Cowork 整合到同一介面。",
+ "dive_html": "這是繼 GPT-6.2 計費錯誤後，OpenAI 一週內第二次讓重度用戶的實際額度縮水，顯示推理模型的算力成本正逼供應商收緊方案。把額度合併、保留 Instant 不限量，是把成本轉嫁給最重度的付費用戶；12 月全面上線後，團隊若依賴 ChatGPT Work 跑長任務，應重新估算方案與用量。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "title": "OpenAI says heavy ChatGPT users may hit limits sooner as it merges Chat and Work",
+   "url": "https://techcrunch.com/2026/11/25/openai-says-heavy-chatgpt-users-may-hit-limits-sooner-as-it-merges-chat-and-work/",
+   "time": "2026-11-26T04:03:27+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "TechCrunch",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Techmeme",
+   "title": "OpenAI rolls out its merged ChatGPT Chat and Work tabs, with a shared usage meter, to a small group of Pro users, saying heavy users may hit their limits sooner (Jagmeet Singh/TechCrunch)",
+   "url": "https://www.techmeme.com/261125/p46#a261125p46",
+   "time": "2026-11-26T10:55:02+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

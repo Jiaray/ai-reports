@@ -123,6 +123,66 @@
    "kind": "media",
    "region": "北美",
    "rank": 2
+  },
+  {
+   "name": "Solidot",
+   "title": "1Password 源代码以及部分客户数据泄漏",
+   "url": "https://www.solidot.org/story?sid=85995",
+   "time": "2026-11-26T15:15:24+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Solidot",
+   "kind": "aggregator",
+   "region": "中國大陸",
+   "rank": 9
+  },
+  {
+   "name": "TechCrunch",
+   "title": "1Password said hackers broke into its internal systems, but customer passwords are safe",
+   "url": "https://techcrunch.com/2026/11/25/1password-said-hackers-broke-into-its-internal-systems-but-customer-passwords-are-safe/",
+   "time": "2026-11-26T02:49:52+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "TechCrunch",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Slashdot",
+   "title": "1Password Breach Leaked Customer Names and Emails, But Passwords Are Safe",
+   "url": "https://it.slashdot.org/story/26/11/25/1940253/1password-breach-leaked-customer-names-and-emails-but-passwords-are-safe",
+   "time": "2026-11-26T08:00:00+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "13 comments",
+   "family": "Slashdot",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  },
+  {
+   "name": "MacRumors",
+   "title": "1Password Security Breach: What Was Accessed and What Wasn't",
+   "url": "https://www.macrumors.com/2026/11/25/1password-security-breach/",
+   "time": "2026-11-26T05:32:02+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "MacRumors",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "Help Net Security",
+   "title": "1Password breached through hijacked employee GitHub account, customer names and emails stolen",
+   "url": "https://www.helpnetsecurity.com/2026/11/26/1password-breach-github-customer-records/",
+   "time": "2026-11-26T16:42:32+08:00",
+   "added_at": "2026-11-26T17:27:06+08:00",
+   "heat_raw": "",
+   "family": "Help Net Security",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
   }
  ],
  "log": [
@@ -136,9 +196,9 @@
   }
  ],
  "heat": {
-  "outlets": 4,
-  "regions": 3,
-  "media_weight": 5,
+  "outlets": 7,
+  "regions": 4,
+  "media_weight": 9,
   "community": {
    "hn": 15,
    "ptt": 0,
