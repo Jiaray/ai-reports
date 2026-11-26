@@ -3,6 +3,7 @@
    （樣式摘要 5.5）；條目是 A.rows 的列表列（頁內展開）；過濾標籤依系列。不標「新」（依每台裝置的瀏覽紀錄算，碰到用詞規則）；
    舊的 air-front-seen 開頁時刪掉。其他網址參數（舊的每週頭版 ?w）不認，一律顯示本日焦點。
    報頭下有今天的日期與農民曆（A.almanac，almanac.js；lunar.js 開頁就另載，最多等 3 秒，晚到的到了再補上那一塊）。
+   頁尾右邊是來源狀態入口（連 sources.html）：focus.json 的 today＋sources-status.json（畫完清單再抓，不擋新聞），缺哪份就少那段。
    依賴 A.bar（bar.js 報頭元件）；A.facets、A.look、A.rows、A.almanac 選用（載入失敗就少該功能；沒有 A.rows 時退回標題連結清單）。 */
 (() => {
   'use strict';
@@ -201,6 +202,74 @@
   }
   const keyOf = (picked) => `${picked.recent}|${picked.cards.map((c) => c.id).join()}|${(focus && focus.built_at) || ''}`;
 
+  // ── 頁尾：來源狀態入口（使用者定案）：「今天　新增 N｜補充 N｜來源 連得上/全部 ›」，連 sources.html ──
+  // 新增、補充讀 focus.json 的 today（date 不是台北今天＝午夜後還沒發布過，寫 0）；來源讀 sources-status.json 的主線單位
+  // （板凳、待檢、停用不算），有連不上的「來源」那段紅字加 ✕；最後一輪（built_at）超過 STALE_HOURS 小時改寫「✕ N 小時沒更新」。
+  // 缺 today 就不放新增、補充；來源檔抓不到就不放來源；兩個都沒有就不放入口。每分鐘重算（tickFocus），回前景重抓。
+  const STATUS_PATH = 'sources-status.json';
+  const STALE_HOURS = 8;
+  const OFF_SECTIONS = ['板凳', '待檢', '停用'];
+  const XMARK = '<svg viewBox="0 0 20 20" width="11" height="11" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true" focusable="false"><path d="M5.5 5.5l9 9M14.5 5.5l-9 9"/></svg>';
+  let srcDoc; // sources-status.json；undefined＝還沒抓、null＝抓不到或格式不對
+  const count = (v) => (Number.isInteger(v) && v >= 0 ? v : 0);
+  function srcEntry(now) {
+    const t = focus && focus.today && typeof focus.today === 'object' ? focus.today : null;
+    const doc = srcDoc && Array.isArray(srcDoc.units) ? srcDoc : null;
+    if (!t && !doc) return null;
+    const sep = () => h('span', { class: 'fp-src-sep', 'aria-hidden': 'true' }, ['｜']);
+    const kids = t ? [h('span', { class: 'fp-src-day' }, ['今天'])] : [];
+    const said = [];
+    if (t) {
+      const fresh = t.date === today();
+      const born = fresh ? count(t.new) : 0;
+      const supp = fresh ? count(t.supplemented) : 0;
+      kids.push(h('span', null, ['新增 ', h('b', null, [String(born)])]), sep(), h('span', null, ['補充 ', h('b', null, [String(supp)])]));
+      said.push(`今天新增 ${born} 張、補充 ${supp} 張`);
+    }
+    if (doc) {
+      if (t) kids.push(sep());
+      const main = doc.units.filter((u) => u && typeof u === 'object' && !OFF_SECTIONS.includes(u.section));
+      const ok = main.filter((u) => u.ok !== false).length;
+      const built = Date.parse(doc.built_at);
+      const late = !Number.isNaN(built) && now - built > STALE_HOURS * 3600000;
+      const bad = (text) => h('span', { class: 'fp-src-bad' }, ['來源 ', h('span', { class: 'fp-src-x', html: XMARK }), h('b', null, [text])]);
+      if (late) {
+        const hrs = Math.floor((now - built) / 3600000);
+        kids.push(bad(`${hrs} 小時沒更新`));
+        said.push(`來源資料 ${hrs} 小時沒更新，收集可能停了`);
+      } else if (ok < main.length) {
+        kids.push(bad(`${ok}/${main.length}`));
+        said.push(`${main.length} 個來源有 ${main.length - ok} 個連不上`);
+      } else {
+        kids.push(h('span', null, ['來源 ', h('b', null, [`${ok}/${main.length}`])]));
+        said.push(`${main.length} 個來源都連得上`);
+      }
+    }
+    kids.push(h('span', { class: 'fp-src-chev', 'aria-hidden': 'true' }));
+    return h('a', { class: 'fp-src', href: 'sources.html', 'aria-label': `新聞來源狀態：${said.join('，')}` }, kids);
+  }
+  // 就地換頁尾的入口（不整頁重畫）；內容沒變不動，焦點在入口上時換完移回去
+  function syncSrcEntry() {
+    const foot = app.querySelector(':scope > footer.foot');
+    if (!foot) return;
+    const old = foot.querySelector(':scope > .fp-src');
+    const next = srcEntry(Date.now());
+    if (old && next && old.outerHTML === next.outerHTML) return;
+    const had = old && old === document.activeElement;
+    if (old) old.remove();
+    if (next) {
+      foot.append(next);
+      if (had) next.focus({ preventScroll: true });
+    }
+  }
+  // 抓不到時保留上一份（部署空窗、回前景重抓失敗不讓入口消失）；第一次就抓不到＝null
+  async function loadSrc() {
+    const d = await A.getJSON(STATUS_PATH).catch(() => null);
+    if (d && typeof d === 'object' && Array.isArray(d.units)) srcDoc = d;
+    else if (srcDoc === undefined) srcDoc = null;
+    syncSrcEntry();
+  }
+
   // 多久前：不到 1 分鐘「剛剛」，其餘分鐘、小時、天（RelativeTimeFormat 給「3 小時前」；不支援自己拼）
   let rtf = null;
   try { rtf = new Intl.RelativeTimeFormat('zh-Hant-TW', { numeric: 'always' }); } catch (e) { /* 舊瀏覽器 */ }
@@ -284,7 +353,7 @@
       // 退回最近一批時不寫「過去 N 小時內」（黃條已說明這段時間沒有新卡）
       h('footer', { class: 'foot' }, [h('span', { class: 'foot-left' }, [
         note ? `本日焦點依重要程度取前 ${limit()} 張` : `本日焦點列出過去 ${windowHours()} 小時內新增或補充的新聞卡，依重要程度取前 ${limit()} 張`,
-      ])]),
+      ]), srcEntry(now)]),
     ]);
     document.title = `${TITLE}｜AI Reports`;
     const find = (id) => [...app.querySelectorAll('#main [data-id]')].find((el) => el.dataset.id === id);
@@ -306,6 +375,7 @@
     }
     app.querySelectorAll('#main time[data-ago]').forEach((el) => { el.textContent = ago(Date.parse(el.getAttribute('datetime')), now); });
     syncAlmanac();
+    syncSrcEntry();
   }
   // 農民曆那一塊：過了午夜、或 lunar.js 晚到（畫的時候只有國曆）→ 就地換掉，不整頁重畫
   function syncAlmanac() {
@@ -329,11 +399,12 @@
     }
     renderFocus();
     if (almReady) almReady.then(() => syncAlmanac());
+    loadSrc(); // 頁尾來源入口：清單畫好再抓，不擋新聞
     setInterval(() => { if (document.visibilityState === 'visible') tickFocus(); }, 60000);
   }
   // 回前景重抓：清單、built_at 都沒變只更新多久前（不收起展開中的列）；沒抓到也照現在時間重切
   async function refreshFocus() {
-    const doc = await A.getJSON(FOCUS_PATH).catch(() => null);
+    const [doc] = await Promise.all([A.getJSON(FOCUS_PATH).catch(() => null), loadSrc()]);
     if (doc && typeof doc === 'object') focus = doc;
     tickFocus();
   }

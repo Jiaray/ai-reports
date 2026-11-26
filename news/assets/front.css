@@ -123,6 +123,21 @@
 
 /* ── 本日焦點還沒有新聞卡 ── */
 .fp-empty-note{margin:0 0 var(--space-3);font:400 16px/1.8 var(--font-body);color:var(--color-neutral-800)}
+
+/* ── 頁尾右邊：來源狀態入口（front.js srcEntry，連 sources.html；使用者定案：頁尾小字一行，不搶新聞）──
+   「今天　新增 N｜補充 N｜來源 N/N ›」；連不上或太久沒更新時「來源」那段紅字加 ✕（不只靠顏色）。窄版 .foot 換行到下一行 */
+.fp-src{display:inline-flex;align-items:center;flex-wrap:wrap;gap:2px;font:500 13px/1.5 var(--font-heading);letter-spacing:.04em;color:var(--color-neutral-700);text-decoration:none}
+.fp-src b{font-weight:700;color:var(--color-accent-700)}
+.fp-src-day{margin-right:6px;font-weight:600;color:var(--color-text)}
+.fp-src-sep{color:var(--color-neutral-300)}
+.fp-src-bad,.fp-src-bad b{color:var(--color-hot)}
+.fp-src-x,.fp-src-x svg{display:inline-block;vertical-align:-1px}
+.fp-src-x{margin-right:2px}
+.fp-src-chev{display:inline-block;width:6px;height:6px;margin-left:8px;border-top:1.5px solid var(--color-accent-700);border-right:1.5px solid var(--color-accent-700);transform:rotate(45deg)}
+.fp-src:hover{text-decoration:underline;text-underline-offset:3px}
+.fp-src:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:3px}
+@media(pointer:coarse){.fp-src{min-height:44px}}
+@media(forced-colors:active){.fp-src-bad{text-decoration:underline}.fp-src-chev{border-color:LinkText}}
 /* 觸控：放檔尾才蓋得過前面同權重的 min-height；本日焦點整張可點（標題連結的 ::after 撐滿條目） */
 @media(pointer:coarse){.fp-card{position:relative}.fp-cd-title a::after{content:"";position:absolute;inset:0}}
 /* 定案：過濾標籤列距 6px，是觸控 44px 的唯一例外；透明 ::after 上下各補 3px（列距一半）→ 約 27–28px

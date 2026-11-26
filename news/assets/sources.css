@@ -1,0 +1,124 @@
+/* 新聞來源狀態頁（sources.js）樣式。規則對象只限 .sx／.sx-*（可加 :root[data-theme]、[data-look] 前綴），不對 :root、html 本身設值。
+   報頭、工具列、頁尾 .foot 在 site.css／report.css；黃色提示借 report.css 的 .stale（快進板凳的黃也用它的 --stale-fg、--stale-tint）；
+   領域色 --g-c 由 report.css 依 data-group 給。分段：報頭、狀態標記、篩選列、圖例、區標題、表格（緊湊：一個來源一行）、長條、手機、
+   還沒產生、外觀：地圖、外觀：一般、觸控與強制色彩 */
+
+/* ── 報頭：大標題下一行「最後一輪 M/D HH:MM・近 24 小時 N 輪・N 個抓取單位」 ── */
+.sx-sub{margin:0 0 var(--space-3);font:500 15px/1.5 var(--font-heading);letter-spacing:.02em;color:var(--color-neutral-600)}
+.sx{margin-top:var(--space-4)}
+.sx-ico,.sx-ico svg{display:inline-block;flex:none;vertical-align:-2px}
+
+/* ── 狀態標記：圖示＋文字（不只靠顏色） ── */
+.sx-st{display:inline-flex;align-items:center;gap:4px;font:600 12.5px/1.35 var(--font-body);white-space:nowrap}
+.sx-st-ok{color:var(--color-good)}
+.sx-st-err{color:var(--color-hot)}
+.sx-st-near{color:var(--stale-fg)}
+.sx-st-empty,.sx-st-bench,.sx-st-pending,.sx-st-off{color:var(--color-neutral-600)}
+
+/* ── 篩選列：全部｜連不上｜快進板凳｜沒有新稿（選中實心；0 個的停用） ── */
+.sx-filter{display:flex;flex-wrap:wrap;gap:var(--space-2)}
+.sx-fb{display:inline-flex;align-items:center;gap:5px;min-height:32px;padding:4px 10px;border:1px solid var(--color-divider);background:transparent;color:var(--color-neutral-700);font:600 13.5px/1.2 var(--font-body);cursor:pointer}
+.sx-fb-n{font:600 13px/1 var(--font-heading);color:var(--color-neutral-600)}
+.sx-fb-err{color:var(--color-hot)}
+.sx-fb-near{color:var(--stale-fg)}
+.sx-fb[aria-pressed=true]{background:var(--color-text);border-color:var(--color-text);color:var(--color-bg)}
+.sx-fb[aria-pressed=true] .sx-fb-n{color:inherit}
+.sx-fb:disabled{opacity:.45;cursor:default}
+.sx-fb:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
+
+/* ── 圖例：讀取、收錄兩色＋一句說明 ── */
+.sx-legend{display:flex;align-items:center;flex-wrap:wrap;gap:4px var(--space-3);margin:var(--space-3) 0 0;font:400 13px/1.6 var(--font-body);color:var(--color-neutral-600)}
+.sx-lg{display:inline-flex;align-items:center;gap:5px;white-space:nowrap}
+.sx-key{display:inline-block;width:14px;height:8px}
+.sx-key-read{background:var(--color-accent-300)}
+.sx-key-used{background:var(--color-accent-700)}
+
+/* ── 區標題：同系列頁日段的字（領域色短線），右邊「N 個・讀 N・收 N」；下面接表頭粗線，不另畫線 ── */
+.sx-sec{margin-top:var(--space-4)}
+.sx-sh{display:flex;justify-content:space-between;align-items:baseline;gap:var(--space-3);margin:0;padding:4px 0 3px;font:600 15px/1.3 var(--font-heading);letter-spacing:.04em;color:var(--color-text)}
+.sx-sh-t{display:inline-flex;align-items:center;gap:8px}
+.sx-sh-t::before{content:"";flex:none;width:4px;height:1em;background:var(--g-c,var(--color-neutral-600))}
+.sx-sh-n{flex:none;font:500 13px/1.3 var(--font-heading);letter-spacing:.02em;color:var(--color-neutral-600)}
+
+/* ── 表格（緊湊，使用者定案）：一個來源一行約 22px；固定欄寬，放不下的截掉（完整原因在 title） ── */
+.sx-table{width:100%;table-layout:fixed;border-collapse:collapse;font:400 14px/1.35 var(--font-body)}
+.sx-table thead th{padding:2px 6px 3px;border-bottom:1px solid var(--color-text);font:600 11.5px/1.3 var(--font-heading);letter-spacing:.06em;color:var(--color-neutral-600);text-align:left;white-space:nowrap}
+.sx-table td,.sx-table tbody th{padding:5px 6px;border-bottom:1px solid var(--color-divider);vertical-align:middle;text-align:left;font-weight:400;white-space:nowrap;overflow:hidden}
+.sx-table .sx-num{text-align:right;font:600 14px/1.35 var(--font-heading);font-variant-numeric:tabular-nums}
+.sx-table thead .sx-num{text-align:right}
+.sx-table thead .sx-td-bar{width:7.5em}
+.sx-table thead .sx-num{width:3.4em}
+.sx-table thead .sx-td-day{width:4.6em}
+.sx-table thead .sx-td-st{width:19em}
+.sx-nm{display:flex;align-items:baseline;gap:8px;min-width:0}
+.sx-tn{flex:none;max-width:100%;overflow:hidden;text-overflow:ellipsis;font:600 14.5px/1.35 var(--font-body);color:var(--color-text)}
+.sx-note{margin-left:4px;font:400 12px/1.3 var(--font-body);color:var(--color-neutral-600)}
+.sx-url{flex:1 1 0;min-width:0;overflow:hidden;text-overflow:ellipsis;font:400 11px/1.35 ui-monospace,SFMono-Regular,Menlo,monospace;color:var(--color-neutral-600)}
+a.sx-url:hover{color:var(--color-accent-700)}
+a.sx-url:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:1px}
+.sx-td-day{font:500 13px/1.35 var(--font-heading);color:var(--color-neutral-600)}
+.sx-td-st{text-overflow:ellipsis}
+.sx-why{margin-left:6px;font:400 12px/1.35 var(--font-body);color:var(--color-neutral-600)}
+.sx-tr-err{background:rgb(176 43 39 / .07);background:color-mix(in srgb,var(--color-hot) 7%,transparent)}
+.sx-tr-near{background:var(--stale-tint)}
+.sx-tr-empty .sx-num,.sx-tr-bench .sx-num,.sx-tr-pending .sx-num,.sx-tr-off .sx-num{color:var(--color-neutral-600)}
+
+/* ── 長條：長度＝讀取（全部來源最大值為滿格），深色段＝收錄；連不上畫紅斜紋 ── */
+.sx-bar-track{display:block;height:8px;background:var(--color-neutral-200)}
+.sx-bar-read{display:block;height:100%;min-width:2px;background:var(--color-accent-300)}
+.sx-bar-used{display:block;height:100%;background:var(--color-accent-700)}
+.sx-bar-err .sx-bar-track{background:repeating-linear-gradient(-45deg,transparent 0 4px,rgb(176 43 39 / .3) 4px 6px)}
+
+/* ── 頁尾說明、沒有來源的區、還沒產生 ── */
+.sx-none{margin:var(--space-6) 0 0;font:400 14px/1.6 var(--font-body);color:var(--color-neutral-600)}
+.sx-foot .foot-left{font-family:var(--font-body);font-weight:400;line-height:1.7}
+.sx-miss{margin:var(--space-6) 0 0;font:400 16px/1.8 var(--font-body);color:var(--color-neutral-800)}
+.sx-back{margin-left:var(--space-2);font-weight:600;color:var(--color-accent-700)}
+.sx-back:hover{color:var(--color-accent-800);text-decoration:underline;text-underline-offset:3px}
+.sx-back:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
+
+/* ── 手機：每列兩行——名稱＋狀態｜長條、讀、收、M/D；網址、原因不顯示 ── */
+@media(max-width:40em){
+  .sx-table thead{display:none}
+  .sx-table,.sx-table tbody{display:block}
+  .sx-table tr{display:grid;grid-template-columns:6.5em auto auto auto minmax(0,1fr);align-items:center;gap:1px 10px;padding:5px 4px;border-bottom:1px solid var(--color-divider)}
+  .sx-table td,.sx-table tbody th{padding:0;border:0}
+  .sx-table .sx-td-name{grid-column:1 / 5;grid-row:1}
+  .sx-nm .sx-url{display:none}
+  .sx-table .sx-td-st{grid-column:5;grid-row:1;text-align:right}
+  .sx-why{display:none}
+  .sx-table tbody .sx-td-bar{display:block;grid-column:1;grid-row:2}
+  .sx-table .sx-num,.sx-table .sx-td-day{grid-row:2;font-size:12.5px}
+  .sx-table td.sx-num::before{content:attr(data-k) " ";font:500 11.5px/1 var(--font-body);color:var(--color-neutral-600)}
+}
+
+/* ── 外觀：地圖（圓角、內文字型的報頭小字） ── */
+[data-look=atlas] .sx-sub{margin-top:var(--space-2);font-family:var(--font-body)}
+[data-look=atlas] .sx-fb{border-radius:var(--r-sm)}
+[data-look=atlas] :is(.sx-bar-track,.sx-bar-read,.sx-bar-used,.sx-key){border-radius:3px}
+
+/* ── 外觀：一般（系統字、不用領域色、選中用 --text 實心） ── */
+[data-look=standard] .sx-sub{font:400 var(--fs-meta)/1.5 var(--font-sans);letter-spacing:0;color:var(--text-3)}
+[data-look=standard] .sx-sh-t::before{display:none}
+[data-look=standard] .sx-sh{font-family:var(--font-sans);letter-spacing:0}
+[data-look=standard] .sx-fb{border-radius:var(--radius-sm);font-family:var(--font-sans)}
+[data-look=standard] .sx-fb[aria-pressed=true]{background:var(--text);border-color:var(--text);color:var(--surface)}
+[data-look=standard] :is(.sx-table,.sx-tn,.sx-why,.sx-st,.sx-legend,.sx-miss,.sx-none){font-family:var(--font-sans)}
+[data-look=standard] .sx-back{color:var(--link)}
+/* 一般外觀的 accent-300 對到邊框色，讀取段會跟底軌糊在一起：改用連結色調淡 */
+[data-look=standard] :is(.sx-bar-read,.sx-key-read){background:var(--text-3);background:color-mix(in srgb,var(--link) 38%,var(--surface))}
+[data-look=standard] :is(.sx-bar-used,.sx-key-used){background:var(--link)}
+
+/* ── 觸控 44px；強制色彩：底色被換掉 → 列加左框、長條保留自己的顏色 ── */
+@media(pointer:coarse){
+  .sx-fb{min-height:44px}
+  .sx-back{display:inline-flex;align-items:center;min-height:44px}
+}
+@media(forced-colors:active){
+  .sx-fb[aria-pressed=true]{outline:2px solid CanvasText;outline-offset:1px}
+  .sx-tr-err .sx-td-name,.sx-tr-near .sx-td-name{border-left:3px solid CanvasText}
+  .sx-bar-track{forced-color-adjust:none;background:Canvas;outline:1px solid CanvasText}
+  .sx-bar-read{forced-color-adjust:none;background:GrayText}
+  .sx-bar-used{forced-color-adjust:none;background:CanvasText}
+  .sx-key{forced-color-adjust:none;outline:1px solid CanvasText}
+}
