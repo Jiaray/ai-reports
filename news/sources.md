@@ -28,7 +28,7 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | pool_wsj | WSJ | pool | https://feeds.content.dowjones.io/public/rss/RSSUSnews |  | 30 | 否 | international_pool | 新聞 | en | politics,society,cross_strait,finance |  | 2026-11-25 | 2026-11-26 |  |
 | pool_dawn | Dawn | pool | https://www.dawn.com/feeds/home/ |  | 30 | 否 | international_pool | 新聞 | en | politics,society,cross_strait |  | 2026-11-25 | 2026-11-26 |  |
 | pool_rappler | Rappler | pool | https://www.rappler.com/feed/ |  | 30 | 否 | international_pool | 新聞 | en | politics,society,cross_strait |  | 2026-11-25 | 2026-11-26 |  |
-| pool_premium_times | Premium Times | pool | https://www.premiumtimesng.com/feed |  | 30 | 否 | international_pool | 新聞 | en | politics,society,cross_strait |  | 2026-11-25 |  |  |
+| pool_premium_times | Premium Times | pool | https://www.premiumtimesng.com/feed |  | 10 | 否 | international_pool | 新聞 | en | politics,society,cross_strait |  | 2026-11-25 |  | 則數 30→10（2026-11-26 第一次全收 15 則收 0） |
 | pool_rfi_africa | RFI Africa | pool | https://www.rfi.fr/en/africa/rss |  | 30 | 否 | international_pool | 新聞 | en | politics,society,cross_strait |  | 2026-11-25 |  |  |
 | pool_mexico_news_daily | Mexico News Daily | pool | https://mexiconewsdaily.com/feed/ |  | 30 | 否 | international_pool | 新聞 | en | politics,society,cross_strait |  | 2026-11-25 |  |  |
 | pool_hrw | Human Rights Watch | pool | https://www.hrw.org/rss/news |  | 30 | 否 | international_pool | 新聞 | en | society,politics |  | 2026-11-25 |  |  |
@@ -121,7 +121,7 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | pansci | 泛科學 | rss | https://pansci.asia/feed |  | 10 | 是 | science_news | 新聞 | zh-TW | science |  | 2026-11-25 |  |  |
 | sciencenews | Science News | rss | https://www.sciencenews.org/feed |  | 20 | 是 | science_news | 新聞 | en | science |  | 2026-11-25 | 2026-11-26 |  |
 | statnews | STAT News | rss | https://www.statnews.com/feed/ |  | 30 | 是 | health_news | 新聞 | en | health |  | 2026-11-25 | 2026-11-26 |  |
-| medicalxpress | Medical Xpress | rss | https://medicalxpress.com/rss-feed/ |  | 30 | 是 | health_news | 新聞 | en | health |  | 2026-11-25 | 2026-11-26 |  |
+| medicalxpress | Medical Xpress | rss | https://medicalxpress.com/rss-feed/ |  | 10 | 是 | health_news | 新聞 | en | health |  | 2026-11-25 | 2026-11-26 | 則數 30→10（2026-11-26 第一次全收 30 則收 3、正文全抓不到） |
 | sciencedaily_health | ScienceDaily Health | rss | https://www.sciencedaily.com/rss/health_medicine.xml |  | 30 | 是 | health_news | 新聞 | en | health |  | 2026-11-25 | 2026-11-26 |  |
 | guardian_health | The Guardian Health | rss | https://www.theguardian.com/society/health/rss |  | 30 | 是 | health_news | 新聞 | en | health |  | 2026-11-25 | 2026-11-26 |  |
 | npr_health | NPR Health | rss | https://feeds.npr.org/1128/rss.xml |  | 30 | 是 | health_news | 新聞 | en | health |  | 2026-11-25 | 2026-11-26 |  |
@@ -135,13 +135,13 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 
 | 代號 | 名稱 | 抓法 | 網址 | 查詢 | 則數 | 正文 | 區塊 | 形式 | 語言 | 系列 | 釘選 | 加入日期 | 最近收錄 | 備註 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| guardian_lifeandstyle | The Guardian Life and style | rss | https://www.theguardian.com/lifeandstyle/rss |  | 20 | 是 | life_news | 新聞 | en | life |  | 2026-11-25 |  |  |
+| guardian_lifeandstyle | The Guardian Life and style | rss | https://www.theguardian.com/lifeandstyle/rss |  | 8 | 是 | life_news | 新聞 | en | life |  | 2026-11-25 |  | 則數 20→8（2026-11-26 第一次全收 16 則收 0） |
 | cna_culture | 中央社 CNA | rss | https://feeds.feedburner.com/rsscna/culture |  | 15 | 是 | culture_news | 新聞 | zh-TW | culture |  | 2026-11-25 | 2026-11-26 | 中央社文化分類 |
-| guardian_culture | The Guardian Culture | rss | https://www.theguardian.com/culture/rss |  | 20 | 是 | culture_news | 新聞 | en | culture |  | 2026-11-25 | 2026-11-26 |  |
+| guardian_culture | The Guardian Culture | rss | https://www.theguardian.com/culture/rss |  | 10 | 是 | culture_news | 新聞 | en | culture |  | 2026-11-25 | 2026-11-26 | 則數 20→10（2026-11-26 第一次全收 20 則收 2） |
 | cna_stars | 中央社 CNA | rss | https://feeds.feedburner.com/rsscna/stars |  | 15 | 是 | entertainment_news | 新聞 | zh-TW | entertainment |  | 2026-11-25 |  | 中央社影劇分類 |
-| deadline | Deadline | rss | https://deadline.com/feed/ |  | 20 | 是 | entertainment_news | 新聞 | en | entertainment |  | 2026-11-25 | 2026-11-26 |  |
-| cna_sport | 中央社 CNA | rss | https://feeds.feedburner.com/rsscna/sport |  | 15 | 是 | sports_news | 新聞 | zh-TW | sports |  | 2026-11-25 | 2026-11-26 | 中央社運動分類 |
-| bbc_sport | BBC Sport | rss | https://feeds.bbci.co.uk/sport/rss.xml |  | 20 | 是 | sports_news | 新聞 | en | sports |  | 2026-11-25 | 2026-11-26 |  |
+| deadline | Deadline | rss | https://deadline.com/feed/ |  | 10 | 是 | entertainment_news | 新聞 | en | entertainment |  | 2026-11-25 | 2026-11-26 | 則數 20→10（2026-11-26 第一次全收 12 則收 2） |
+| cna_sport | 中央社 CNA | rss | https://feeds.feedburner.com/rsscna/sport |  | 10 | 是 | sports_news | 新聞 | zh-TW | sports |  | 2026-11-25 | 2026-11-26 | 中央社運動分類；則數 15→10（2026-11-26 第一次全收 13 則收 2） |
+| bbc_sport | BBC Sport | rss | https://feeds.bbci.co.uk/sport/rss.xml |  | 10 | 是 | sports_news | 新聞 | en | sports |  | 2026-11-25 | 2026-11-26 | 則數 20→10（2026-11-26 第一次全收 20 則收 2） |
 | pool_bbc_arts | BBC Entertainment & Arts | pool | https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml |  | 30 | 否 | international_pool | 新聞 | en | culture |  | 2026-11-25 | 2026-11-26 |  |
 
 ## 領域：遊戲產業
