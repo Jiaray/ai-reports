@@ -5,8 +5,7 @@
    - 同一天內：事件分量 → heat_rank → 時間新到舊（rows.js byImportance；時間用放那天的時刻）；每張都同樣只列標題（沒有頭條樣式，使用者定案）。
    - 資安：頂端「要修補的漏洞」（事件類型含漏洞揭露），依急迫性 → 同上；exploited 標「遭利用」；列過的不再進日段。
    - 鄉民：每天再分 PTT、HN、V2EX 三區，各依該平台熱度排、只列 > 0；同一張卡在幾個平台有熱度就列幾次（〈不重複〉的例外）。
-   - 財經：每天再分台灣（台灣關聯直接）、國際兩區，各依重要程度排；國際區先列 max(ceil(台灣區張數×2/3), 3) 張，
-     其餘收進「再看 N 張」（<details>，頁內尋找照樣找得到；設計 §6.1）。
+   - 財經：每天再分台灣（台灣關聯直接）、國際兩區，各依重要程度排；兩區都全部直接列出（不收合，使用者定案）。
    - 遊戲產業：同一天內主題含網頁遊戲的排前面。
    - &d=YYYY-MM-DD：7 天內捲到那段（那天沒卡就捲到更早最近的一段），超過停在頁首。
    回前景重抓 recent.json，built_at 或台北日期變了才重畫（展開中的列保持展開）。依賴 A.rows（工具列由 report.js 給）；樣式在 series.css（.sp／.sp-*）。 */
@@ -97,8 +96,6 @@
   };
   const webGame = (c) => (Array.isArray(c.topic_all) ? c.topic_all : list(c.topic)).includes(WEB_GAME);
   const finZone = (c) => (c.taiwan === '直接' ? 'taiwan' : 'intl');
-  // 財經頁國際區先列的張數（設計 §6.1）
-  const intlShown = (twCount) => Math.max(Math.ceil((twCount * 2) / 3), 3);
 
   // ── 一列（rows.js）；左緣色線用這頁的領域色（樣式摘要示意頁）；data-k＝區｜編號（重畫後還原展開，鄉民頁同卡多列）──
   function rowOf(x, o = {}) {
@@ -112,15 +109,11 @@
     return el;
   }
   const rowsList = (rows) => h('ol', { class: 'sp-list', role: 'list' }, rows.filter(Boolean));
-  // 段內一區（鄉民的平台、財經的台灣／國際）：區名＋張數，下接清單；more＝收進「再看 N 張」的列（財經國際區）
-  function zone(k, name, n, rows, more) {
+  // 段內一區（鄉民的平台、財經的台灣／國際）：區名＋張數，下接清單（全部直接列出）
+  function zone(k, name, n, rows) {
     return h('div', { class: 'sp-zone', 'data-zone': k }, [
       h('h3', { class: 'sp-zh' }, [h('span', { class: 'sp-zh-t' }, [name]), h('span', { class: 'sp-n' }, [`${n} 張`])]),
       rowsList(rows),
-      more && more.length ? h('details', { class: 'sp-more' }, [
-        h('summary', null, [h('span', { class: 'sp-more-c' }, [`再看 ${more.length} 張`]), h('span', { class: 'sp-more-o' }, ['收起'])]),
-        rowsList(more),
-      ]) : null,
     ]);
   }
   // 分段：<section>＋黏頂標題（只在自己那段黏住，被下一段推走）；標題可被程式移焦點（&d=）
@@ -166,15 +159,12 @@
         out.push(section(id, 'sp-day', R.dayLabel(day), items.length, zones, day));
         return;
       }
-      // 財經：台灣在上、國際在下，各依重要程度；國際區超過先列的張數，其餘收進「再看 N 張」
+      // 財經：台灣在上、國際在下，各依重要程度，全部直接列出
       if (t === 'finance') {
-        const byZone = new Map(FIN_ZONES.map(([k]) => [k, items.filter((x) => finZone(x.c) === k).sort((a, b) => imp(a.c, b.c))]));
-        const cap = intlShown(byZone.get('taiwan').length);
         const zones = FIN_ZONES.map(([k, name]) => {
-          const zi = byZone.get(k);
+          const zi = items.filter((x) => finZone(x.c) === k).sort((a, b) => imp(a.c, b.c));
           if (!zi.length) return null;
-          const rows = zi.map((x) => rowOf(x, { zone: k }));
-          return k === 'intl' ? zone(k, name, zi.length, rows.slice(0, cap), rows.slice(cap)) : zone(k, name, zi.length, rows);
+          return zone(k, name, zi.length, zi.map((x) => rowOf(x, { zone: k })));
         }).filter(Boolean);
         out.push(section(id, 'sp-day', R.dayLabel(day), items.length, zones, day));
         return;
@@ -208,7 +198,6 @@
     const app = ctx.app;
     const rowOfEl = (el) => (el && el.closest ? el.closest('#main [data-k]') : null);
     const opened = new Set([...app.querySelectorAll('#main [data-k]')].filter((el) => el.querySelector('details[open]')).map((el) => el.dataset.k));
-    const moreOpen = new Set([...app.querySelectorAll('#main .sp-more[open]')].map((el) => el.closest('.sp-sec').id));
     const active = rowOfEl(document.activeElement);
     const activeK = active ? active.dataset.k : null;
     const short = meta(ctx.t).short;
@@ -229,11 +218,6 @@
     document.title = `${short}｜AI Reports`;
     drawnKey = `${R.today()}|${(doc && doc.built_at) || ''}`;
     const find = (k) => [...app.querySelectorAll('#main [data-k]')].find((el) => el.dataset.k === k);
-    moreOpen.forEach((id) => {
-      const d = document.getElementById(id);
-      const more = d && d.querySelector('.sp-more');
-      if (more) more.open = true;
-    });
     opened.forEach((k) => {
       const d = find(k) && find(k).querySelector('details');
       if (d) d.open = true;
