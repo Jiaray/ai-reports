@@ -17,8 +17,8 @@
 [data-group="遊戲產業"]{--g-c:var(--g-game)}
 [data-group="閱讀"]{--g-c:var(--g-read)}
 
-/* ── 報頭 ── 3px 粗線在工具列上方；.editions+.masthead 只動新聞頁，首頁、404 的 .masthead 不變。放不下就換行（不做橫向捲動） */
-.editions{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-2);border-top:3px solid var(--color-text);padding-top:var(--space-2)}
+/* ── 報頭 ── 工具列上方不畫粗線（三種外觀一樣，使用者定案）；.editions+.masthead 只動新聞頁，首頁、404 的 .masthead 不變。放不下就換行（不做橫向捲動） */
+.editions{display:flex;flex-wrap:wrap;align-items:center;gap:var(--space-2)}
 .editions+.masthead{border-top:0;padding-top:0}
 /* 工具列凍結：.is-stuck、--bar-h 由 bar.js 寫入 */
 .editions{position:sticky;top:0;z-index:20;background:var(--color-bg)}
@@ -57,7 +57,7 @@
 .vw .dd-toggle{margin-right:calc(-1 * var(--space-3))}
 .dd-ico,.dd-ico svg,.dd-close svg{display:block;flex:none}
 .dd-close svg{width:20px;height:20px}
-/* 面板：頂端 2px 粗線呼應報頭 */
+/* 面板：頂端 2px 粗線 */
 .dd-panel{position:absolute;top:calc(100% + 8px);right:0;z-index:30;width:min(360px,calc(100vw - 32px));container-type:inline-size;padding:0 var(--space-4) var(--space-2);background:var(--color-bg);color:var(--color-text);border:1px solid var(--color-divider);border-top:2px solid var(--color-text);box-shadow:0 20px 40px -28px rgb(0 0 0 / .6)}
 .dd-head{display:flex;align-items:center;justify-content:space-between;gap:var(--space-3);min-height:46px;margin-right:calc(-1 * var(--space-2))}
 .dd-title{font:600 15px/1.3 var(--font-heading);letter-spacing:.02em}
@@ -105,8 +105,6 @@
 .mast-title{font-size:47.6px}
 @media(max-width:40em){.mast-title{font-size:34px}}
 [data-look=atlas] .mast-title{font:700 39.1px/1.1 var(--font-heading);margin:0}
-/* 地圖不畫報頭粗線（用等高線＋底細線） */
-[data-look=atlas] .editions{border-top:0;padding-top:0}
 [data-look=atlas] .row-title{font:700 20px/1.45 var(--font-heading)}
 [data-look=atlas] .row-sum{font:400 16.5px/1.7 var(--font-body)}
 [data-look=atlas] .row-dive{border-left:0;padding:var(--space-3) var(--space-4);background:var(--color-neutral-200);color:var(--color-neutral-800);font:400 16px/1.7 var(--font-body)}
@@ -191,7 +189,7 @@
 .fab-lines .fab-rim{stroke:var(--color-text);stroke-width:2}
 .fab-lines .is-hot,.fab-lines .is-focus{stroke:var(--color-accent-600);stroke-width:2}
 .fab-tip{position:absolute;z-index:1;translate:-50% calc(-100% - 16px);padding:3px 8px;background:var(--color-text);color:var(--color-bg);font:500 13px/1.35 var(--font-body);white-space:nowrap;pointer-events:none}
-/* 有功能鈕時收起工具列：不能整列 display:none（扇面開的就是裡面的面板）；藍圖留 3px 粗線當報頭 */
+/* 有功能鈕時收起工具列：不能整列 display:none（扇面開的就是裡面的面板） */
 @media(max-width:40em){
 html.has-fab .editions{position:static;min-height:0;padding-top:0;gap:0;box-shadow:none;border-image:none;background:none}
 html.has-fab .editions :is(.dd-toggle,.ed-link){display:none}

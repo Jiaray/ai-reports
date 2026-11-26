@@ -32,9 +32,9 @@
   --hover-bg:#23272D;--fw-body:300;--fw-head:600;--ls-body:.03em;
 }
 
-/* ── 全頁：.wrap 不留上內距，Header 貼齊頂端 ── */
+/* ── 全頁：.wrap 不留上內距，Header 貼齊頂端；寬度與左右內距同其他外觀（site.css 的 880px，使用者定案） ── */
 :root[data-look=standard] body{-webkit-font-smoothing:antialiased;-moz-osx-font-smoothing:grayscale;font-family:var(--font-sans)}
-[data-look=standard] .wrap{max-width:1200px;padding:0 20px 48px}
+[data-look=standard] .wrap{padding-top:0;padding-bottom:48px}
 [data-look=standard] .stale{margin-top:0;margin-bottom:0}
 [data-look=standard] :focus-visible{outline-color:var(--focus)}
 
@@ -67,8 +67,6 @@
 @media(hover:hover){[data-look=standard] .vw-seg button[aria-pressed=false]:hover{background:var(--hover-bg)}}
 [data-look=standard] .vw-label{color:var(--text-3)}
 
-/* ── 本日焦點以外各頁：內容置中 720px，.editions、.stale 除外 ── */
-[data-look=standard] #app:not(.fp)>:not(.editions,.stale){max-width:720px;margin-inline:auto}
 [data-look=standard] .masthead{border:0;padding:32px 0 8px}
 [data-look=standard] .mast-title{margin:0;font:var(--fw-head) var(--fs-title)/1.3 var(--font-sans);letter-spacing:0;color:var(--text-head)}
 /* 定案：條目標題＝卡片標題 ×1.3（data-read=scan 的列表列另設 16px） */
@@ -168,7 +166,7 @@
 [data-look=standard] .rw-line{font:var(--fw-body) 15px/1.65 var(--font-sans);letter-spacing:var(--ls-body);color:var(--text-2)}
 /* 手機 */
 @media(max-width:40em){
-[data-look=standard] .wrap{padding:0 16px 104px}
+[data-look=standard] .wrap{padding-top:0;padding-bottom:104px}
 [data-look=standard] .fp-head{padding-top:20px}
 [data-look=standard] .masthead{padding-top:24px}
 }

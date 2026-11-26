@@ -109,7 +109,8 @@ GitHub Pages 靜態站 <https://jiaray.github.io/ai-reports/>，只放 AI 產生
 - 斷點用 em：窄版 `max-width:40em`、寬版 `64em`。
 - 觸控（`pointer:coarse`）可點元素至少 44px 高；例外：本日焦點與議題目錄的過濾標籤（緊密排列，見 front.css）。
 - 內文行高：摘要、AI 解讀 1.7；一句話預覽 1.6–1.65。段距 .75em（一般外觀 .8em），要明顯大於行距。
-- 文字寫滿欄寬：標題與內文的 `text-wrap` 維持預設（balance 把兩行標題切半；pretty 在 iOS WebKit 整段提早換行）；不用兩端對齊（窄欄中英混排會拉開字距）；文字欄不另設 `max-width`（`.wrap` 最寬 880px）。
+- 文字寫滿欄寬：標題與內文的 `text-wrap` 維持預設（balance 把兩行標題切半；pretty 在 iOS WebKit 整段提早換行）；不用兩端對齊（窄欄中英混排會拉開字距）；文字欄不另設 `max-width`（`.wrap` 最寬 880px，三種外觀一樣、左右內距也一樣；一般外觀不另設頁寬或內容欄寬，使用者定案）。
+- 工具列上方不畫粗線，三種外觀一樣（使用者定案）。
 - `body{overflow-wrap:break-word}`（site.css）讓長英數字串放不下才斷；不改成 `anywhere`（會改變最小寬度，表格欄被擠成一字一行）。
 - 字型：藍圖、地圖用思源黑體（Noto Sans TC，news/index.html 載入）；條目標題用內文字型（窄體英數夾在中文裡會黏成一團），編號、時刻、標籤等短英數用 `--font-heading` 窄體；一般外觀只用系統字；首頁、404 退回蘋方。
 - 改排版後用 iOS 模擬器的 Safari 看一次（桌機 Chrome 看不出 WebKit 的換行差異）。
