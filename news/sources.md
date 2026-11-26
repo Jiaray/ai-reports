@@ -241,7 +241,7 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | 80000_hours | 80000 Hours | rss | https://feeds.transistor.fm/80000-hours-podcast |  | 3 | 是 | podcasts | 播客 | en | reading |  | 2026-11-25 |  |  |
 | latentspace_podcast | Latent Space | latentspace_podcast | https://latent.space/feed |  | 3 | 是 | podcasts | 播客 | en | reading |  | 2026-11-25 |  | 排除 [AINews] |
 | hn_reading | Hacker News | hackernews | https://news.ycombinator.com | essay,book,books,history,science,mathematics,psychology,philosophy | 20 | 是 | hn_deep | 長文 | en | reading |  | 2026-11-25 |  | 近 24 小時關鍵字搜尋 |
-| the_atlantic | The Atlantic | rss | https://www.theatlantic.com/feed/all/ |  | 8 | 否 | essays | 長文 | en | reading |  | 2026-11-26 |  | 文章頁擋抓取（403）；全文在 Atom 的 content，解析器目前只取 summary |
+| the_atlantic | The Atlantic | rss | https://www.theatlantic.com/feed/all/ |  | 8 | 是 | essays | 長文 | en | reading |  | 2026-11-26 |  | 文章頁擋抓取（403），改用 feed 全文（Atom 的 content） |
 | longreads | Longreads | rss | https://longreads.com/feed/ |  | 3 | 是 | essays | 長文 | en | reading |  | 2026-11-26 |  | 編輯精選長篇報導 |
 | ruanyifeng | 阮一峰的網路日誌 | rss | https://www.ruanyifeng.com/blog/atom.xml |  | 3 | 是 | essays | 長文 | zh-CN | reading |  | 2026-11-26 |  | 科技愛好者週刊，每週五 |
 | pragmatic_engineer | The Pragmatic Engineer | rss | https://blog.pragmaticengineer.com/rss/ |  | 3 | 是 | essays | 長文 | en | reading |  | 2026-11-26 |  | 軟體團隊與產業；部分付費 |
