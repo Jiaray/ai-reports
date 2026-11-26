@@ -155,7 +155,7 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | cisa_advisories | CISA | rss | https://www.cisa.gov/cybersecurity-advisories/all.xml |  | 10 | 是 | security_advisories | 新聞 | en | security |  | 2026-11-26 |  | 美國官方漏洞與攻擊公告（含工控） |
 | sans_isc | SANS ISC | rss | https://isc.sans.edu/rssfeed.xml |  | 5 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 |  | 每日威脅觀察；feed 只有標題 |
 | the_record | The Record | rss | https://therecord.media/feed |  | 10 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 |  | 國家級攻擊與資安政策 |
-| schneier | Schneier on Security | rss | https://www.schneier.com/blog/atom.xml |  | 5 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 |  | 個人部落格 |
+| schneier | Schneier on Security | rss | https://www.schneier.com/blog/atom.xml |  | 5 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 |  | 個人部落格；文章頁抽到的是讀者留言，程式不抓頁面、改用 feed 內文（fetch_news.FEED_ONLY_URL） |
 | cisco_talos | Cisco Talos | rss | https://blog.talosintelligence.com/rss/ |  | 5 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 |  | 威脅情資研究 |
 | the_register | The Register | rss | https://www.theregister.com/headlines.atom |  | 15 | 是 | tech_media | 新聞 | en | tech,security |  | 2026-11-26 |  | 企業 IT、雲端與資安；feed 帶全文 |
 | slashdot | Slashdot | rss | https://rss.slashdot.org/Slashdot/slashdotMain |  | 10 | 是 | tech_media | 新聞 | en | tech |  | 2026-11-26 |  | 社群投稿、編輯摘要；每則連到 Slashdot 討論頁 |
