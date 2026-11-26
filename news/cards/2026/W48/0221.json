@@ -5,8 +5,8 @@
  "line": "政府軍在亞丁外圍築防線；沙國主權基金 PIF 大樓遇襲 11 人受傷",
  "born_at": "2026-11-26T02:08:48+08:00",
  "first_reported_at": "2026-11-25T00:00:00+08:00",
- "updated_at": "2026-11-26T02:08:48+08:00",
- "version": 1,
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -123,13 +123,34 @@
    "kind": "media",
    "region": "北美",
    "rank": 2
+  },
+  {
+   "name": "Bloomberg Markets",
+   "title": "Houthis Target Jeddah and Jazan Ports as Attacks on Saudi Arabia Intensify",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-26/horizons-middle-east-africa-11-26-2026-video",
+   "time": "2026-11-26T15:41:56+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Bloomberg",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-26T17:36:58+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "彭博報導，胡塞叛軍把攻擊目標擴大到沙烏地阿拉伯的吉達港與吉贊港，對沙國的攻擊持續升高。",
+   "update": "胡塞叛軍攻擊沙烏地阿拉伯吉達港與吉贊港，對沙國攻擊升高",
+   "refocus": false
+  }
+ ],
  "heat": {
-  "outlets": 4,
+  "outlets": 5,
   "regions": 2,
-  "media_weight": 8,
+  "media_weight": 11,
   "community": {
    "hn": 0,
    "ptt": 0,

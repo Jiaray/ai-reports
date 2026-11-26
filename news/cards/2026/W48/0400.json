@@ -1,0 +1,89 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0400",
+ "title": "Neuralink 稱獲美國 FDA 核准樞紐試驗 LINK Pivotal Study，評估腦機介面用於漸凍症患者的安全與成效",
+ "line": "馬斯克的腦機介面新創邁向申請上市前的關鍵試驗階段",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T09:00:13+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療",
+   "科技"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "醫藥與生技",
+   "醫療照護"
+  ],
+  "org": [
+   "Neuralink",
+   "美國食品藥物管理局"
+  ],
+  "person": [
+   "馬斯克"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Neuralink",
+   "腦機介面",
+   "漸凍症",
+   "樞紐試驗"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據彭博（經 Techmeme 摘要），馬斯克的腦機介面新創 Neuralink 表示，已獲美國食品藥物管理局（FDA）核准，在美國展開名為 LINK Pivotal Study 的樞紐臨床試驗，評估其腦機介面系統用於漸凍症（ALS）患者的安全性與有效性。原文沒有交代試驗的收案人數與時程。",
+ "dive_html": "樞紐試驗通常是醫材申請上市前的最後一關，代表 Neuralink 從「可行性展示」走向「證明療效」。核准來自公司自己的說法，試驗規模與終點指標要看 FDA 登錄資料；對漸凍症患者而言，能否恢復溝通能力才是最關鍵的成效指標。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Techmeme",
+   "title": "Neuralink says it got FDA approval for the LINK Pivotal Study, a US clinical trial to evaluate the safety and effectiveness of its BCI system in ALS patients (Craig Trudell/Bloomberg)",
+   "url": "https://www.techmeme.com/261125/p43#a261125p43",
+   "time": "2026-11-26T09:00:13+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

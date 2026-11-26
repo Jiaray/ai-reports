@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0379",
+ "title": "System76 發布以 Ubuntu 26.04 LTS 為基礎的 Pop!_OS 26.04 LTS，新增遠端桌面與繪圖板支援",
+ "line": "COSMIC 桌面新增原生檢視器與系統監視器、商店全面重新設計，24.04 用戶 12 月收到升級推送",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T16:02:22+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "開發與開源"
+  ],
+  "event": [
+   "版本更新"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "硬體與消費電子"
+  ],
+  "org": [
+   "System76"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Pop!_OS",
+   "COSMIC",
+   "Ubuntu 26.04",
+   "Linux"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "System76 發布以 Ubuntu 26.04 LTS 為基礎的 Pop!_OS 26.04 LTS。據 Solidot 整理，主要變化包括支援繪圖板；可在初始設定或「Settings &gt; System &amp; accounts &gt; System &amp; application」啟用自動更新；新增原生應用程式 COSMIC Viewer 與 COSMIC System Monitor，並完全重新設計 COSMIC Store；另支援遠端桌面、改善無障礙功能等。Pop!_OS 24.04 LTS 用戶將在 12 月收到升級推送。",
+ "dive_html": "Pop!_OS 是以 Rust 自行開發 COSMIC 桌面的少數發行版，這版補上遠端桌面與自動更新，代表 COSMIC 正從「技術展示」走向可日常使用的工作站環境。對以 Linux 開發的工程師，它是 GNOME、KDE 之外的新選項；但新桌面的相容性與穩定性仍需時間驗證。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Solidot",
+   "title": "System76 释出 Pop!_OS 26.04 LTS",
+   "url": "https://www.solidot.org/story?sid=85997",
+   "time": "2026-11-26T16:02:22+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Solidot",
+   "kind": "aggregator",
+   "region": "中國大陸",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

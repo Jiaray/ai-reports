@@ -1,0 +1,97 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0373",
+ "title": "威尼斯雙年展評審團請辭，改由觀眾票選，美國藝術家 Nick Cave 與印度館奪最高獎",
+ "line": "今年最佳國家館與最佳藝術家的「觀眾金獅獎」由公眾決定，但不清楚得獎者是否得票最多",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-25T22:37:00+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "南亞",
+   "北美"
+  ],
+  "country": [
+   "IT",
+   "IN",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "文化藝術"
+  ],
+  "event": [
+   "活動賽事"
+  ],
+  "org": [
+   "威尼斯雙年展"
+  ],
+  "person": [
+   "Nick Cave"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "威尼斯雙年展",
+   "金獅獎"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 AP 與紐約時報報導，威尼斯雙年展在評審團請辭後，改由參觀民眾頒發最高獎項，美國藝術家 Nick Cave 與印度館獲獎。紐約時報指出，今年最佳國家館與最佳藝術家的「觀眾金獅獎」由公眾而非評審團決定，但不清楚得獎者是否真的拿到最多票。報導沒有說明評審團請辭的原因。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Venice Biennale visitors award top prizes to Nick Cave and India after jury quit",
+   "url": "https://news.google.com/rss/articles/CBMimAFBVV95cUxNTW1jYVlGWHJLTk9wUTlpOHUyT1Z2SUc3dFRhM3FqYnVNbm9wMVRWYWI3STVxOE4xQVNDbWtnc3g0QmtHaG54LWVFcEJNTWxBSWU2WjgxenpMV1VKMUJDWWoxVll1V1FNTklMN3FFOTJtX2E3ZVV1ZHB1NV9vaVBJRzNtY0UyM3pFQkVieUozRWJHeDljdHJhSQ?oc=5",
+   "time": "2026-11-25T23:56:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "NYT Asia Pacific",
+   "title": "India and U.S. Artist Nick Cave Win Venice Biennale’s Top Prizes",
+   "url": "https://www.nytimes.com/2026/11/25/arts/design/venice-biennale-visitors-lions-nick-cave-india.html",
+   "time": "2026-11-25T22:37:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "New York Times",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 6,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

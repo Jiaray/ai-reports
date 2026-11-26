@@ -1,0 +1,82 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0398",
+ "title": "開發者用 Lean 4 檢查 Clojure 核心程式碼，找到 17 個未曾回報的錯誤",
+ "line": "錯誤不在持久資料結構的樹本身，而在樹以外的程式碼，以及等號與雜湊等兩種機制交會處",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-25T22:56:52+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "開發與開源"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Clojure"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Lean 4",
+   "形式驗證",
+   "Clojure",
+   "HAMT",
+   "差分測試"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "一名開發者在個人部落格發文，受日本作者以 Lean 4 形式驗證知名 Rust 開源專案、找出大量錯誤的文章啟發，嘗試檢查 Clojure 核心以 Java 寫成的部分。他照 hirosassa/lean-verify 的流程，把單一函式寫成 Lean 定義，與以更寬位元寬度計算的單純規格比較，用 bv_decide 搜尋反例；把 Java 的 long、int 建模為 BitVec 64、BitVec 32，加減乘的溢位、除法向零取整與餘數正負號都能對應。集合類則與 java.util 集合做差分測試，Java 互通則比較有無型別提示的同一呼叫。他在 Clojure 1.12.7（2026 年 11 月 18 日發布）與 JDK 21 上找到 17 個在 Clojure JIRA 與 ask.clojure.org 都查不到的錯誤，包括 vector-of 上的 reduce、HAMT 的雜湊碰撞節點，以及沒有型別提示時呼叫函式介面。HAMT 本身在 300 萬次差分測試中沒有不一致，向量樹在邊界附近也沒有；錯誤集中在樹以外的獨立程式碼，以及等號與雜湊這類兩種機制交會的地方。這篇在 Hacker News 獲 219 分。",
+ "dive_html": "一個用了十幾年、被認為很穩的核心函式庫，還能被形式驗證加差分測試挖出 17 個錯誤，說明 AI 時代形式驗證工具的門檻正在降低，任何團隊都能拿來檢查自己的基礎程式碼。值得借鏡的是方法：把整數運算建模成固定位元寬度去找溢位反例，對遊戲與金融計算都很實用；這些錯誤的嚴重程度與官方回應，原文沒有交代。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "I checked Clojure's core with Lean and found unreported bugs",
+   "url": "https://s.conao3.com/blog/2026/e4f733",
+   "time": "2026-11-25T22:56:52+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "219 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50642939",
+   "family": "s.conao3.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 219,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

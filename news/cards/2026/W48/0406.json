@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0406",
+ "title": "BBC：伊朗今年 1 月抗議後女性抗議者與異議人士遭判死刑人數創數十年新高，21 歲雙胞胎姊妹之一在死囚牢",
+ "line": "聯合國特別報告員說今年有 6 名女性因 1 月抗議被判死刑，伊朗駐英大使館否認刑求",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T14:01:58+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東"
+  ],
+  "country": [
+   "IR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "人權",
+   "犯罪與司法"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "org": [
+   "BBC 波斯語",
+   "國際特赦組織",
+   "聯合國"
+  ],
+  "person": [
+   "Taraneh Rahimi",
+   "Mai Sato",
+   "Raha Bahreini"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "伊朗",
+   "死刑",
+   "抗議",
+   "政治犯"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "BBC 波斯語報導，21 歲的 Taraneh Rahimi 目前在伊朗死囚牢中，表親 Masoud Nourmohammadi 在美國受訪說，她近幾週雙腿遭毆打後無法正常走路，頭部外傷未治療引發的耳朵感染也影響平衡。他說 Taraneh 與雙胞胎姊妹 Romina 是在參加今年 1 月席捲全國的反政府抗議後被捕；母親第一次在獄中見到她們時，兩人臉部腫脹瘀青、頭髮被扯落，只能靠聲音認出；Taraneh 是在審訊者威脅要當她的面強暴姊妹後才簽下自白。聯合國伊朗人權特別報告員 Mai Sato 說，今年有 6 名女性因 1 月抗議被判死刑，男性人數更多；國際特赦組織伊朗研究員 Raha Bahreini 說，女性抗議者與異議人士遭判死刑的人數達數十年來未見的程度，是政治性處決「可怕上升」的一部分。1 月抗議始於經濟不滿，擴大為 1979 年伊斯蘭革命以來最大規模。伊朗駐倫敦大使館稱抗議相關死刑增加的說法「誤導」，斷然否認刑求，也否認有人只因和平抗議被判死刑。",
+ "dive_html": "報導的指控多來自家屬轉述，伊朗官方全盤否認，細節難以獨立查證；但聯合國與國際特赦組織的數字指向同一趨勢。死刑被用來震懾抗議，且擴及女性，顯示伊朗政權在戰爭與經濟壓力下傾向以更強硬的手段維穩，國際社會能施壓的管道有限。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC Top News",
+   "title": "Desperate appeals from women on death row in Iran after protests",
+   "url": "https://www.bbc.co.uk/news/articles/cm8x0ve4yd7wo",
+   "time": "2026-11-26T14:01:58+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

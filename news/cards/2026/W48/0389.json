@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0389",
+ "title": "研究：在海鳥身上裝錄音器，聽出大量關閉 AIS 定位的「隱形」漁船",
+ "line": "牛津大學團隊的研究刊於《科學進展》，作者強調不是為了執法監控，而是評估海鳥誤捕風險",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T03:00:00+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "country": [
+   "GB"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "科學",
+   "環境與氣候"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "牛津大學",
+   "Science Advances"
+  ],
+  "person": [
+   "Jonathan Rutter"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "海鳥",
+   "AIS",
+   "非法捕魚",
+   "誤捕"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 404 Media，牛津大學博士後研究員 Jonathan Rutter 領導的團隊，在海鳥身上裝設錄音器，記錄牠們在全球海洋與漁船的互動，研究 11 月 25 日刊於《科學進展》（Science Advances）。結果揭露大量沒有開啟定位系統的「隱形」船隻。許多船隻依規定必須持續以自動識別系統（AIS）公開廣播位置，類似航班追蹤，但 AIS 可能因正當理由（如躲避海盜）關閉，也可能是為了掩蓋非法捕魚。研究並非要追究個別船隻為何關閉 AIS，但海鳥經常與隱形船隻互動的發現，有助於監測商業漁業，也揭露海鳥被漁具纏住致死、成為「誤捕」的風險。Rutter 說，不論合法與否，隱形船隻的活動「都值得關注」；錄音不是用來執法或監控，但這類研究可能成為改善風險評估的「有力工具」。原文沒有交代樣本的海鳥數量與研究海域。",
+ "dive_html": "把海鳥當成「移動感測器」，能補上衛星與 AIS 看不到的盲區，對監測遠洋漁業是低成本的新方法。台灣遠洋漁業規模大、曾被歐盟祭出黃牌，這類能偵測關閉 AIS 船隻的技術一旦普及，國際對漁船行蹤的透明度要求可能更高。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "404 Media",
+   "title": "The Birds Are Listening: Scientists Used Seabirds to Track Hidden Ships",
+   "url": "https://www.404media.co/the-birds-are-listening-scientists-used-seabirds-to-track-hidden-ships/",
+   "time": "2026-11-26T03:00:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "404 Media",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

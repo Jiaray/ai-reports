@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0402",
+ "title": "（長文）The Atlantic：鄂蘭主張以「友誼」取代「真理狂歡」，或許能替川普式政治找到出路",
+ "line": "作者借 Roger Berkowitz 的新書指出，政治辯論以事實互轟只會讓人更固守立場",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-25T21:30:00+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "政治",
+   "文化藝術"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "org": [
+   "The Atlantic"
+  ],
+  "person": [
+   "漢娜·鄂蘭",
+   "Roger Berkowitz",
+   "Gershom Scholem"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "鄂蘭",
+   "政治極化",
+   "A World We Share"
+  ],
+  "form": [
+   "長文"
+  ]
+ },
+ "summary_html": "The Atlantic 這篇書評從外百老匯劇作《Birthright》開場：一群相識近二十年的美國猶太朋友因加薩問題決裂，在葬禮上拿出手機互相搜尋資料、拋出歷史證據，卻沒有人在聽。作者認為這種「尋找一個能炸翻其他所有真理的事實」的辯論方式已成常態，甚至成了娛樂，例如 Jubilee Media 一人對 20 名政敵的影片、已故 Charlie Kirk 的「證明我錯了」校園巡迴。作者引用德國哲學家漢娜·鄂蘭 1946 年寫給 Gershom Scholem 的信，鄂蘭稱這是「真理的狂歡」，主張不該當「真理狂熱者」，因為這只會讓人更固守立場；她在別處形容這種語境下的真理是「專制的」，改而提出看似天馬行空的「友誼的狂歡」。作者藉 Roger Berkowitz 新書《A World We Share》，介紹鄂蘭以友誼作為理解政治的視角。",
+ "dive_html": "值得讀的是它把「資訊不足」的常見診斷翻過來：問題不在大家不知道事實，而在把事實當武器。鄂蘭的「友誼」框架提供一種不必先統一事實、也能共處的政治想像，對身處兩極化社群媒體的讀者有啟發；但如何落實成制度或日常互動，從可讀到的段落看，文章著墨有限。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Atlantic",
+   "title": "What Could Replace the Trump Style of Politics?",
+   "url": "https://www.theatlantic.com/books/2026/11/hannah-arendt-friendship-model-politics/689579/",
+   "time": "2026-11-25T21:30:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "The Atlantic",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

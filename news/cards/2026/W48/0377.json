@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0377",
+ "title": "ProPublica 揭露學名藥檢驗漏洞一年後，美國 FDA 宣布擴大處方藥品質抽驗",
+ "line": "將從零售藥局與批發商購藥檢驗雜質與品質缺失，但未說明檢驗數量與頻率",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T03:30:00+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "南亞",
+   "中國大陸"
+  ],
+  "country": [
+   "US",
+   "IN",
+   "CN"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "健康與醫療"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "醫藥與生技"
+  ],
+  "org": [
+   "美國食品藥物管理局",
+   "ProPublica",
+   "Valisure"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "學名藥",
+   "藥品檢驗",
+   "FDA"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "ProPublica 報導，美國食品藥物管理局（FDA）上週宣布擴大處方藥檢驗計畫，將更頻繁檢驗雜質與其他危險的品質缺失，並找出表現不佳的藥品進一步研究；FDA 表示會從零售藥局與批發商購買藥品，但沒有說明要檢驗多少種、多久一次。美國約 90% 處方是學名藥，許多產自印度、中國等地，FDA 過去只定期抽驗少量樣本。ProPublica 去年調查發現，FDA 未定期檢驗醫師示警的學名藥，也未檢驗來自有嚴重品質與安全違規工廠的藥品。FDA 發言人沒有回答如何挑選檢驗藥品、除了把結果公布在網站外如何讓廠商負責，只說「所有藥品無論在哪裡製造，都必須符合同樣的 FDA 標準」。藥品安全專家認為擴大檢驗是保護美國藥品供應的關鍵一步，回應了部分供應商為壓低成本犧牲品質、FDA 多年視而不見的疑慮。",
+ "dive_html": "檢驗從「抽樣」走向「主動從市場買藥驗」，是從源頭改為從貨架把關，對低價學名藥供應鏈是實質壓力。但沒有數量、頻率與罰則，成效難以評估；台灣也有大量進口學名藥，美國若公布不合格名單，國內主管機關是否跟進比對，值得留意。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "ProPublica",
+   "title": "FDA to Expand Prescription Drug Testing After ProPublica Revealed Safety Concerns",
+   "url": "https://www.propublica.org/article/fda-prescription-generic-medication-testing",
+   "time": "2026-11-26T03:30:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "ProPublica",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

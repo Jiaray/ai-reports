@@ -1,0 +1,93 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0383",
+ "title": "Nature 專題：HIV 疫苗終於看得到希望，多個團隊在猴子身上誘發廣效中和抗體",
+ "line": "南非患者 CAP256 的超強抗體啟發疫苗設計，但美國經費刪減與 lenacapavir 讓試驗更難做",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-25T00:00:00+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": true,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球",
+   "非洲"
+  ],
+  "country": [
+   "ZA",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療",
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "醫藥與生技"
+  ],
+  "org": [
+   "國際愛滋疫苗倡議組織",
+   "阿姆斯特丹大學醫學中心",
+   "Scripps Research"
+  ],
+  "person": [
+   "Mark Feinberg",
+   "Rogier Sanders",
+   "Dennis Burton"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "HIV 疫苗",
+   "廣效中和抗體",
+   "bnAbs",
+   "lenacapavir"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "Nature 專題報導，2000 年代中期南非夸祖魯－納塔爾省一名女性感染 HIV，她在研究追蹤期間產生的抗體被認為是史上最強之一，文獻稱她為 CAP256；科學家希望模仿這類感染的關鍵要素，訓練其他人的免疫系統產生同樣強的抗體，阻擋多種 HIV 病毒株。今年數個團隊發表的疫苗策略，已在猴子身上誘發「廣效中和抗體」（bnAbs），能在感染開始前完全阻斷多種病毒株；阿姆斯特丹大學醫學中心病毒學家 Rogier Sanders 說「這是前所未有的重要里程碑」。接種類似疫苗成分的人類也能產生這類抗體的前驅物，顯示進一步改良後可能做出有效疫苗；國際愛滋疫苗倡議組織（IAVI）執行長 Mark Feinberg 說「我們已經看得到有效疫苗的方向」，但成功並無保證。報導指出，lenacapavir 等有效預防藥物普及，可能讓疫苗效力難以測試；美國刪減支持 HIV 臨床前與臨床研究的經費，也讓部分計畫岌岌可危。Scripps Research 的 Dennis Burton 說：「我們處在前所未有的好位置，經費卻剛好被切斷。」",
+ "dive_html": "在猴子身上誘發 bnAbs 是 HIV 疫苗研究數十年來最關鍵的突破，但猴子結果尚未在人體證實，人體試驗目前只看到前驅抗體。最大變數已從科學轉向資源：經費中斷與預防藥物讓大型效力試驗更難設計，疫苗上市時程仍很遙遠。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Nature",
+   "title": "A powerful HIV vaccine is finally within reach — thanks to these super antibodies",
+   "url": "https://www.nature.com/articles/d41586-026-03718-4",
+   "time": "2026-11-25T00:00:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Nature",
+   "kind": "official",
+   "region": "歐洲",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

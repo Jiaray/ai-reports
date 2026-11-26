@@ -5,8 +5,8 @@
  "line": "孟加拉是僅次於中國的全球第二大成衣出口國，抗議曾造成數億美元商業損失",
  "born_at": "2026-11-26T02:10:05+08:00",
  "first_reported_at": "2026-11-25T14:25:10+08:00",
- "updated_at": "2026-11-26T02:10:05+08:00",
- "version": 1,
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -64,13 +64,34 @@
    "kind": "media",
    "region": "南亞",
    "rank": 3
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Police use tear gas to disperse fresh Bangladesh garment worker protests",
+   "url": "https://www.straitstimes.com/asia/south-asia/police-use-tear-gas-to-disperse-fresh-bangladesh-garment-worker-protests",
+   "time": "2026-11-26T16:01:49+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-26T17:36:58+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "最低工資調漲 36% 隔天，孟加拉成衣工人 11 月 26 日在達卡與加濟布爾再度抗議、試圖封鎖主要公路，警方以催淚彈與震撼彈驅散，抗議者在加濟布爾放火燒毀一輛警用機車。據 Straits Times，這次調漲由政府任命的六人工資委員會在 11 月 25 日凌晨、經勞資代表近 12 小時協商後通過，報導稱這是四十年來最小的漲幅，工人原本要求加倍。數週來的抗議讓工廠停工、公路受阻、生產中斷，這個產業雇用逾 400 萬人；加濟布爾工業警察主管 Mohammad Amjad Hossain 說「情勢已平靜，但仍保持警戒」。",
+   "update": "孟加拉成衣工人嫌 36% 最低工資漲幅太小，11 月 26 日再上街，警方以催淚彈驅散",
+   "refocus": false
+  }
+ ],
  "heat": {
-  "outlets": 1,
-  "regions": 1,
-  "media_weight": 1,
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 3,
   "community": {
    "hn": 0,
    "ptt": 0,

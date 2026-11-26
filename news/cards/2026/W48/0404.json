@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0404",
+ "title": "（長文）Longreads 推薦 ProPublica 調查：新墨西哥州 Ruidoso 洪水前，賽馬場收到警報，下游露營車營地卻沒有",
+ "line": "位在洪泛區的露營車營地有三人罹難，報導追問災後倖存者揮之不去的疑問",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-25T19:00:00+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "災害與事故",
+   "環境與氣候"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "org": [
+   "ProPublica",
+   "Longreads"
+  ],
+  "person": [
+   "Abe Streep"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Ruidoso 洪水",
+   "災害預警",
+   "野火後洪水"
+  ],
+  "form": [
+   "長文"
+  ]
+ },
+ "summary_html": "Longreads 推薦 ProPublica 記者 Abe Streep 的調查報導：去年一場強大洪水襲擊新墨西哥州小村 Ruidoso，重創熱門的 Ruidoso Downs 賽馬場與 Riverview 露營車營地。在地救援人員向賽馬場周邊發出警告，這座賽馬場被一名記者形容為「山村經濟的主要動力」；但位在村內洪泛區的露營車營地沒有收到任何警告，最終三名露營者罹難。報導描述，褐色洪水漫上道路、河道消失，營地業主 Jason Fulcher 看到樹幹大小的原木沖下，下游有車子漂到橋下卡住；賽馬場高層因已接獲通報而知道洪水要來，Trotter 一家卻毫無準備，下午 3 點左右躲回拖車避雨，洪水沖破牆壁帶走了他們的孩子。Longreads 指出，野火後洪水在美國西部愈來愈常見，這篇報導呈現倖存者在災後揮之不去的疑問。",
+ "dive_html": "這篇的價值在於追問「警報給了誰」：同一場洪水，有經濟分量的賽馬場被通知，住在洪泛區的弱勢露營者卻被遺漏，揭露災害預警中的不平等。野火後山坡失去植被、洪水更急更快，台灣山區在颱風後的土石流預警也面臨類似的通報涵蓋問題。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Longreads",
+   "title": "“The River Can’t Be Trusted”",
+   "url": "https://longreads.com/2026/11/25/ruidoso-flood-new-mexico-2025/",
+   "time": "2026-11-25T19:00:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Longreads",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

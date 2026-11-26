@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0415",
+ "title": "澳洲國會將通過天然氣國內保留法，液化天然氣業者最多須保留五分之一產量供國內使用",
+ "line": "2028 年 1 月生效，西澳州豁免；澳洲自伊朗戰爭後成為全球第二大 LNG 供應國",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T16:49:00+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "大洋洲"
+  ],
+  "country": [
+   "AU"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "能源"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "能源與公用事業"
+  ],
+  "org": [
+   "澳洲參議院",
+   "澳洲工黨"
+  ],
+  "person": [
+   "Tim Ayres",
+   "Susan McDonald"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "LNG",
+   "國內天然氣保留",
+   "澳洲"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Reuters（經 Japan Times 刊載），澳洲即將通過法律，要求液化天然氣（LNG）生產商保留最多五分之一產量供國內使用，以壓低價格並補足預估的供應缺口。澳洲自伊朗戰爭後成為全球第二大 LNG 供應國，出口量遠大於國內消費，多數蘊藏與三分之二出口產業位在北部與西北部。參議院排定表決，保守派在野聯盟雖指政策仍有「缺陷」並提修正案，但承諾不阻擋；聯盟的影子資源部長、國家黨參議員 Susan McDonald 說：「我們會站在國家利益這邊。」制度 2028 年 1 月生效，保留量由能源監管機關決定，設計目標是讓供應達預測需求的 110%，政府稱為「適度供過於求」。產業部長 Tim Ayres 說這將為企業與家庭提供可靠、平價的天然氣。中間偏左的工黨政府同意豁免最大 LNG 出口州西澳州，換取在野聯盟支持。",
+ "dive_html": "台灣 LNG 有相當比例來自澳洲，出口國把最多二成產量留給自己，意味全球可出口供給收緊、長約談判籌碼向賣方傾斜。西澳州豁免降低了衝擊，但東岸出口量可能減少；配合卡達長約 2031 年起到期，台灣的氣源多元化壓力更大。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Japan Times",
+   "title": "Australia set to pass law for LNG exporters to reserve more gas for domestic use",
+   "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/australia-lng-exporters-curb/",
+   "time": "2026-11-26T16:49:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

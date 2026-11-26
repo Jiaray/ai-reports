@@ -1,0 +1,96 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0418",
+ "title": "馬來西亞內政部長：空軍設施遭販毒集團利用，自 2024 年 8 月起運送至少 3 公噸毒品，含 5 名軍官在內 7 名空軍人員被捕",
+ "line": "21 筆交易涉及價值 1.56 億令吉毒品，部長說這可能損害國防機構的誠信",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T14:11:00+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞"
+  ],
+  "country": [
+   "MY"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "犯罪與司法",
+   "國防與軍事"
+  ],
+  "event": [
+   "犯罪執法"
+  ],
+  "org": [
+   "馬來西亞皇家空軍",
+   "馬來西亞內政部"
+  ],
+  "person": [
+   "賽夫丁"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "馬來西亞空軍",
+   "販毒",
+   "沙巴"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "馬來西亞內政部長賽夫丁（Saifuddin Nasution Ismail）11 月 26 日在國會表示，近年馬來西亞皇家空軍的設施被用來非法運送至少 3,000 公斤毒品。當局已查出 2024 年 8 月以來的 21 筆交易，顯示沙巴州的兩個犯罪小組利用包括「航空設施」在內的空軍基礎設施，運送價值 1.56 億令吉（約 4,900 萬新幣）的毒品；他沒有說明用到的是空軍基地還是飛機。他說：「這不只是嚴重的刑事案件，也可能損害安全與國防機構的誠信。」調查自 2026 年 1 月展開，11 月 17 日與 19 日兩次行動共逮捕 6 名平民與 7 名空軍人員，其中 5 人是軍官；當局另查獲近 100 公斤甲基安非他命等毒品。據 Straits Times 摘要，警方在梳邦空軍基地發現毒品後擴大調查，認為這是有組織的犯罪網絡，首腦可能很快落網。",
+ "dive_html": "販毒集團能借用軍方航空設施運毒長達兩年，說明軍中內部監督嚴重失靈，也讓東南亞毒品走私路線多了一條難以追查的管道。案件牽涉軍官，馬來西亞政府能否徹查到指揮鏈上層，是軍方公信力的考驗。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Straits Times Asia",
+   "title": "Malaysian air force facilities used to transport illicit drugs, minister says",
+   "url": "https://www.straitstimes.com/asia/se-asia/malaysian-air-force-facilities-used-to-transport-illicit-drugs-minister-says",
+   "time": "2026-11-26T14:11:38+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Malaysian air force facilities used to transport illicit drugs, minister says",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxQUVN6Wm9jSWVPRlVIQTF5YzVHekN3UmhpbmxORG5iZkpmOHd1V05kdmFWZERJOGJQb0FTRXFVUm5Sb1NiUHJ5MUo4djB5bk5DV2EwQ0EzX2dLeU1DcVhuVGh2WDdNeGdwYnByRFp1b1p3clc2bjBNbFByNWFEMWRaRlBwQURfX3dITGNKM2htMzl2VjBxb1h0c2RXamg0Znk3clRrcGFNbDJLSU95emhsc0dOWDVQVFd6dW9sSlpRLUdKekhrTFdz?oc=5",
+   "time": "2026-11-26T14:11:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

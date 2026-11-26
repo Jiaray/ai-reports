@@ -1,0 +1,99 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0417",
+ "title": "印度最高法院要求食品包裝分別標示高鹽、高糖、高脂警語，批跨國食品業者「雙重標準」",
+ "line": "比政府原本只標單一警語的提案更嚴，業者法規定案後有一年調整期",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T13:59:00+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "南亞"
+  ],
+  "country": [
+   "IN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療",
+   "企業經營"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "sector": [
+   "農業與食品",
+   "零售與消費"
+  ],
+  "org": [
+   "印度最高法院",
+   "Coca-Cola",
+   "Nestle",
+   "PepsiCo"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "食品警示標示",
+   "高鹽高糖高脂",
+   "雙重標準"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Straits Times 與 Reuters，印度最高法院 11 月 26 日收緊政府的食品包裝標示提案：在健康倡議人士提起的訴訟中，法院裁定須分別標示高鹽、高糖與高脂警語，而不是先前提議的單一警語。法院並批評跨國企業在印度抗拒食品警示標示、卻在其他市場自願標示的「雙重標準」，要求在各司法管轄區採用一致標準，並指出有疑慮認為產品成分常因地區而異；「若屬實，這種雙重標準令人深感不安」，法院沒有點名企業，並說印度消費者應獲得不低於其他地方的保護與資訊。Straits Times 的摘要提到，這項裁決是在 Reuters 報導印度原本計畫在 Coca-Cola、Nestle 與 PepsiCo 遊說後採較寬鬆標示制度之後出爐；健康倡議人士稱這是印度營養史上的「里程碑」。企業在標示法定案後將有一年調整期，裁決可能影響它們在印度這個最大市場之一的銷售。",
+ "dive_html": "印度是全球食品大廠的關鍵成長市場，最高法院直接介入政策細節、點出「雙重標準」，等於替消費者團體打破業者遊說的成果。若分項警語上路，業者可能被迫調整配方，這也會成為其他開發中國家制定標示規範的參考；最終規則仍待政府定案。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Straits Times Asia",
+   "title": "Indian court tightens food labelling proposal, asks global food firms to end ‘double standards’",
+   "url": "https://www.straitstimes.com/asia/south-asia/indias-top-court-tightens-food-warning-labels-in-new-setback-for-industry",
+   "time": "2026-11-26T15:55:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "India's top court tightens food warning labels in new setback for industry",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQOXlHUEdKdndCTE54MEMyVERBWFVsZXQ4TXZYTmN4SVB1TF80bTVUbExoMEZlMWxKdkJJZUVlVHQzczQ3MnJlZGZ1RnZWZjZJbVBiT1pyX3pyc24xY3dtSkRIUTlpUENzNkJiREJDWnBaU2RINVFkQzU1ckU2ckFEMVhfazJXaW02Ykdra2pwSnlwcWJxY0NhRHFhekhxdHFBVHJVQUJGRk1RbmxXbzl4ZWF3?oc=5",
+   "time": "2026-11-26T13:59:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

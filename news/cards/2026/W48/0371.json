@@ -1,0 +1,82 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0371",
+ "title": "AP：NBA 宣布 110 億美元歐洲球館開發計畫，新聯盟仍在規劃階段",
+ "line": "NBA 在籌組歐洲新聯盟之際，提出大規模球館投資",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-25T21:48:00+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "體育"
+  ],
+  "event": [
+   "併購投資"
+  ],
+  "sector": [
+   "媒體與娛樂"
+  ],
+  "org": [
+   "NBA"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "NBA 歐洲聯盟",
+   "球館"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 AP 報導標題，NBA 宣布一項 110 億美元的計畫，用於在歐洲開發球館，而 NBA 的歐洲新聯盟仍在規劃階段。報導沒有說明球館地點、資金來源與時程。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AP (Google News fallback)",
+   "title": "With new league in planning stages, NBA announces $11B initiative for arena development in Europe",
+   "url": "https://news.google.com/rss/articles/CBMimwFBVV95cUxNb3VNNHZZejR3c0d1alZ6R2pYbkxrcEdPalladWlLVVNWdldxNnhaeUdQbHVaSUgzd2g1djlwZmNNNmNSZ3gxQUZwTzgyZk1QcW1WLU9NMXlwV0dpU0JLS20wSTBjU3pSVkpGN1ZfMTJVVVRZWndPelZhWThOLVhPUjlDQWJZNWdjVVJaWk16UnZtVXBpeUlRN1puMA?oc=5",
+   "time": "2026-11-25T21:48:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

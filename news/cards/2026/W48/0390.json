@@ -1,0 +1,94 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0390",
+ "title": "華為與國產 EDA 業者推「Tau EDA」，以 3D 混合鍵合封裝提高電晶體密度、繞過美國管制",
+ "line": "被美國列入黑名單後無法使用 Cadence、Synopsys、Siemens 工具，海思與 Phlexing 合作自研",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T02:02:00+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN",
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "科技",
+   "國際關係"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "半導體",
+   "軟體與雲端"
+  ],
+  "org": [
+   "華為",
+   "海思",
+   "Phlexing Technology",
+   "中芯國際",
+   "Cadence",
+   "Synopsys"
+  ],
+  "person": [
+   "Qing He"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "EDA",
+   "Tau Scaling Law",
+   "3D 混合鍵合",
+   "先進封裝"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "華為本週宣傳其國產電子設計自動化（EDA）軟體的進展，以加速採用中國自製的晶片製造。EDA 是規劃、設計與生產晶片不可或缺的軟硬體與服務，目前由 Cadence、Synopsys 與 Siemens 主導，但美國出口管制限制華為等被列入黑名單的中國企業使用它們的工具；美國 2019 年以華為可能被迫在設備植入後門為由將它列入黑名單。無法取得頂尖 EDA 工具的華為晶片部門海思，只能與 Phlexing Technology 合作自行開發。Phlexing 董事長 Qing He 本週介紹支援華為「Tau Scaling Law」設計理念的新工具，說「Tau EDA 是 Tau 晶片的國產 EDA 工具鏈，來自與華為長期的緊密合作」。The Register 說明，Tau 的做法是以先進封裝、特別是 3D 混合鍵合，在相同面積上達到更高的電晶體密度。",
+ "dive_html": "中國在先進製程受限下，把突破口放在封裝與堆疊，EDA 工具也跟著往「多節點組裝」設計，這是繞過微影瓶頸的務實路線。若 Tau EDA 能支撐量產，美國對 EDA 的管制效果將打折；但國產工具在驗證、良率與生態系上與三大廠的差距，宣傳稿沒有交代。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Register",
+   "title": "Huawei and crew tout homegrown EDA tools to overcome China’s fab deficit",
+   "url": "https://www.theregister.com/systems/2026/11/25/huawei-and-crew-tout-homegrown-eda-tools-to-overcome-chinas-fab-deficit/5312205",
+   "time": "2026-11-26T02:02:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "The Register",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0388",
+ "title": "美國保險巨頭 Allstate 網站與 App 自 11 月 23 日起大當機，客戶無法理賠、繳費，感恩節前影響全美",
+ "line": "公司未正式說明原因與恢復時間；本月稍早傳出 Allstate 擬以 AI 提升效率、裁員最多 10%",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-25T23:08:37+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科技",
+   "企業經營"
+  ],
+  "event": [
+   "意外事故"
+  ],
+  "sector": [
+   "金融",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Allstate",
+   "Downdetector"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "系統當機",
+   "Allstate",
+   "老舊系統"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美國保險業者 Allstate 自 11 月 23 日上午起發生技術故障，網站與手機 App 同時受影響，全美客戶無法登入帳戶、查保單、申請理賠或繳費，TechCrunch 已證實。網站訊息只表示服務暫停、正「盡快恢復存取」，公司在 X 上以看似自動的回覆請客戶私訊，至今沒有正式說明原因或何時恢復；各地保險業務員忙著接聽無法使用線上服務的客戶來電。Downdetector 顯示用戶自 23 日上午開始回報。這起當機發生在本月稍早傳出 Allstate 擬以 AI 推動效率、裁員最多 10% 之後（公司未證實該報導）。TechCrunch 指出，這是繼微軟 Outlook 與 Teams、航空公司、Apple Pay 與多家銀行之後的又一起服務中斷；川普政府官員表示這些當機不是網路攻擊，而是近期系統升級所致，許多系統跑在老舊技術上，AI 讓漏洞更容易被發現，修補與更新因此更頻繁。感恩節是美國出遊高峰，車禍理賠需求也會增加。",
+ "dive_html": "一連串大型服務當機的共同點是「老系統被迫加速更新」：AI 讓漏洞發現變快，修補頻率提高，老舊架構承受不了變更速度。Allstate 選在裁員傳聞後出事、又長時間不說明，對保險業最重要的信任是實質傷害；台灣金融業同樣面臨核心系統老化，變更管理與回復演練值得重新檢視。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "TechCrunch",
+   "title": "Allstate suffers multiday tech outage ahead of Thanksgiving",
+   "url": "https://techcrunch.com/2026/11/25/allstate-suffers-multi-day-tech-outage-ahead-of-thanksgiving/",
+   "time": "2026-11-25T23:08:37+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "TechCrunch",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

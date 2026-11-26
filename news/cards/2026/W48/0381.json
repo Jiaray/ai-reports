@@ -1,0 +1,102 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0381",
+ "title": "NASA 核分裂動力太空船 SR-1 Freedom 敲定關鍵設計，目標 2028 年底發射、把載三架直升機的艙送往火星",
+ "line": "將是第一艘飛出地球軌道的核分裂動力太空船，用以驗證核電推進技術",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-25T22:51:37+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科學",
+   "能源"
+  ],
+  "event": [
+   "其他"
+  ],
+  "sector": [
+   "航太與國防"
+  ],
+  "org": [
+   "NASA"
+  ],
+  "person": [
+   "Jared Isaacman"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "SR-1 Freedom",
+   "核電推進",
+   "SkyFall",
+   "火星直升機"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "NASA 在 10 月任務審查後，敲定核分裂動力太空船 Space Reactor-1（SR-1）Freedom 的關鍵設計，目標 2028 年底發射。它將是第一艘飛出地球軌道的核分裂動力太空船，任務是驗證核電推進，並把載有三架新一代直升機的 SkyFall 艙送往火星，直升機將研究火星地質與氣候史、探索新地形、搜尋地下冰層跡象。據 Solidot，SR-1 配備布雷頓閉式循環核分裂反應爐，使用高純度低濃縮鈾，可產生 20 千瓦以上電力。The Register 報導，與 NASA 署長 Jared Isaacman 3 月展示的概念相比，改良屏蔽讓反應爐與艙體之間的支架縮短，以減重、簡化組裝並保護電子設備與 SkyFall，並改用更大的 X 波段天線；散熱板數量、核電模組輸出功率與反應爐運轉時間仍待決定。目前規劃太空船離開地球軌道後才啟動反應爐、逐步提高功率。",
+ "dive_html": "核電推進若能驗證成功，將大幅縮短載人火星任務的航程與補給負擔，這是 NASA 數十年來第一次真正把太空核反應爐送上天。距離發射約兩年，還要完成設計、建造與測試，時程相當緊；反應爐功率等關鍵參數仍未定案，延期風險不低。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Solidot",
+   "title": "NASA 计划 2028 年发射验证核电推进技术的探测器",
+   "url": "https://www.solidot.org/story?sid=85991",
+   "time": "2026-11-25T22:51:37+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Solidot",
+   "kind": "aggregator",
+   "region": "中國大陸",
+   "rank": 9
+  },
+  {
+   "name": "The Register",
+   "title": "NASA's nuclear-powered Mars delivery service takes shape",
+   "url": "https://www.theregister.com/science/2026/11/25/nasas-nuclear-powered-mars-delivery-service-takes-shape/5312147",
+   "time": "2026-11-25T23:30:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "The Register",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

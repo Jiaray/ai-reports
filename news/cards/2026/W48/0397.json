@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0397",
+ "title": "洛杉磯湖人與預測市場 Kalshi 簽約合作，NBA 一個月前才把 Kalshi、Polymarket 列為首選交易所",
+ "line": "Kalshi 繼 10 月簽下費城 76 人後再添湖人，NFL 仍是唯一未與預測市場合作的主要聯盟",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T01:41:54+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "體育"
+  ],
+  "event": [
+   "會談協議"
+  ],
+  "sector": [
+   "博奕",
+   "媒體與娛樂"
+  ],
+  "org": [
+   "洛杉磯湖人",
+   "Kalshi",
+   "Polymarket",
+   "NBA",
+   "NHL",
+   "NFL"
+  ],
+  "person": [
+   "Lon Rosen"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "預測市場",
+   "事件合約",
+   "Kalshi"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "洛杉磯湖人 11 月 24 日宣布與預測市場 Kalshi 合作，成為最新與預測市場結盟的職業球隊，聲明簡短、未透露合作細節；湖人總裁兼商務長 Lon Rosen 說將「探索創新方式與球迷互動」。Fortune 指出，NBA 一個月前才正式擁抱預測市場，把 Kalshi 與 Polymarket 列為首選交易所，Kalshi 隨即在 10 月簽下費城 76 人、這週再添湖人。NBA 與 NFL 原本按兵不動，NBA 的轉向讓外界意外；部分預測市場平台讓 18 歲用戶就能交易事件合約，而運動占交易大宗。NHL 在 2025 年 10 月成為北美第一個與預測市場簽約的主要職業聯盟，與 Kalshi、Polymarket 簽下含聯盟數據、品牌與轉播廣告權的多年合約，上週又有 7 支 NHL 球隊與 Novig 簽行銷合作；MLS、MLB 與 UFC 也已有合作，NFL 是唯一例外。",
+ "dive_html": "職業聯盟與球隊直接替預測市場背書，等於在州政府與 CFTC 爭奪管轄權時選邊站，也讓「事件合約不是運動博奕」的說法更難在各州法院成立。18 歲就能交易、球隊又提供品牌曝光，州監管機關與博奕業者的反彈可能升高；湖人合作的金額與內容都沒有公開。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Fortune",
+   "title": "L.A. Lakers announce deal with Kalshi, signaling sports leagues’ growing embrace of prediction markets",
+   "url": "https://fortune.com/2026/11/25/la-lakers-announce-deal-with-kalshi-signaling-sports-leagues-growing-embrace-of-prediction-markets/",
+   "time": "2026-11-26T01:41:54+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Fortune",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

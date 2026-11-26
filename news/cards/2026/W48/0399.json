@@ -1,0 +1,82 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0399",
+ "title": "華爾街日報：記憶體晶片短缺，全球企業成立採購「作戰室」，部分晶片價格一年漲 10 倍",
+ "line": "缺貨推高電子產品售價，企業爭相搶料",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T15:30:01+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "科技",
+   "企業經營"
+  ],
+  "event": [
+   "市場波動"
+  ],
+  "sector": [
+   "半導體",
+   "硬體與消費電子"
+  ],
+  "org": [
+   "華爾街日報",
+   "Blackmagic Design"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "記憶體短缺",
+   "DRAM",
+   "晶片漲價"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據華爾街日報（經 Techmeme 摘要），全球記憶體晶片短缺，促使各地企業成立採購「作戰室」，部分晶片價格在一年內漲了 10 倍，推高電子產品售價；報導以 Blackmagic Design 為例說明企業搶料的情況。原文沒有交代是哪些記憶體品項漲價最多。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Techmeme",
+   "title": "Memory chip shortages prompt companies worldwide to set up procurement war rooms; some chip prices have risen 10x in a year, driving up electronics prices (Wall Street Journal)",
+   "url": "https://www.techmeme.com/261126/p5#a261126p5",
+   "time": "2026-11-26T15:30:01+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

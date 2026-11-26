@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0391",
+ "title": "CNN：FAA 在實驗室重現上週全美停飛的路由器故障，找到修補方式，但人力精簡引發監督疑問",
+ "line": "阿肯色州偏遠站點的新路由器一項設定被忽略，與老舊路由器互動時灌爆航管系統",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T03:00:00+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "交通",
+   "科技"
+  ],
+  "event": [
+   "意外事故",
+   "調查揭露"
+  ],
+  "sector": [
+   "運輸與物流",
+   "航太與國防"
+  ],
+  "org": [
+   "美國聯邦航空總署",
+   "L3Harris",
+   "CNN"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "FAA",
+   "航管系統",
+   "路由器故障",
+   "停飛"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Slashdot 轉述 CNN 的獨家報導，知情人士說美國聯邦航空總署（FAA）調查人員已在實驗室重現上週造成全美航班停飛的問題，「相信找到元凶」：阿肯色州一處偏遠無線電站的新路由器，有一項被忽略的設定影響它與 FAA 正在淘汰的數十年老舊路由器之間的介接，以大量資料灌爆全國航管系統，造成雷達與無線電通訊中斷。調查人員認為需要軟體更新，修補可防止再次發生；事件後老舊系統的升級已暫停。報導也質疑 FAA 對負責維護網路的民間業者的監督：出事當天 L3Harris 正把系統從舊路由器換到新路由器，過去這類工作通常至少有 6 名 FAA 員工參與，川普政府任內常只由一名 FAA 聯絡人協調，全美只有 4 人擔任這個職務，而且他們只負責協調排程、不負責核准。消息人士說，加速維護工作的做法也取消了一層評估風險的 FAA 審查。",
+ "dive_html": "技術原因是一項設定，但根本問題是變更管理被削弱：少了在地技術人員事前推演最壞情境，一台路由器就能癱瘓全國航管。這與近期多起大型系統當機的模式相同，老舊系統升級加上人力精簡，風險被放大；FAA 的正式調查結論還沒公布，以上是匿名消息。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Slashdot",
+   "title": "FAA Identifies Patches for Last Week's Flight-Grounding Router Issue. But Was Staffing an Issue?",
+   "url": "https://tech.slashdot.org/story/26/11/25/0733222/faa-identifies-patches-for-last-weeks-flight-grounding-router-issue-but-was-staffing-an-issue",
+   "time": "2026-11-26T03:00:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "41 comments",
+   "family": "Slashdot",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0401",
+ "title": "遊戲聚合商 QTech 子公司 StrataTech 獲菲律賓 PAGCOR 認證，可供應遊戲給當地持牌業者",
+ "line": "截至 11 月 19 日菲律賓共 18 家認證遊戲聚合商，QTech 平台整合逾 180 家供應商、1.5 萬款遊戲",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T17:01:59+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞"
+  ],
+  "country": [
+   "PH"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "QTech",
+   "StrataTech",
+   "菲律賓娛樂博奕公司"
+  ],
+  "person": [
+   "Philip Doftvik"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "PAGCOR",
+   "iGaming 聚合商",
+   "B2B"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "線上遊戲軟體與內容聚合商 QTech 11 月 26 日宣布，旗下 StrataTech Corp 取得菲律賓博奕監管機關菲律賓娛樂博奕公司（PAGCOR）的 iGaming 企業對企業（B2B）服務認證，可以遊戲聚合商身分供應內容給菲律賓持牌業者。依 PAGCOR 最新名單，截至 11 月 19 日菲律賓共有 18 家認證遊戲聚合商。QTech 表示，它以單一 API 平台整合 180 多家遊戲供應商的逾 1.5 萬款遊戲與真人賭桌，主要市場涵蓋亞洲、非洲、東歐與拉丁美洲。執行長 Philip Doftvik 說，菲律賓玩家以手機為主、監管架構快速成熟，是令人期待的機會。（新聞稿）",
+ "dive_html": "菲律賓在關閉境外博奕（POGO）後轉向在地持牌的 iGaming，聚合商認證是供應商進場的必要門票，18 家的名單也反映競爭已經擁擠。對做 H5 老虎機或真人遊戲的開發商而言，透過已認證的聚合商上架，是進入菲律賓合規市場最快的路徑；以上是公司新聞稿說法。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GGRAsia",
+   "title": "QTech now Pagcor-approved as iGaming aggregator in Philippines",
+   "url": "https://www.ggrasia.com/qtech-now-pagcor-approved-as-igaming-aggregator-in-philippines",
+   "time": "2026-11-26T17:01:59+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "GGRAsia",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

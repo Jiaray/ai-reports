@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0416",
+ "title": "中國海警船在釣魚台海域逼近日本漁船，日中互控對方入侵領海",
+ "line": "日本海上保安廳說這是 2026 年第五次發生中國船隻接近日本漁船，中方稱已採取「必要管控措施」",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T16:48:00+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞"
+  ],
+  "country": [
+   "JP",
+   "CN",
+   "TW"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "國際關係",
+   "國防與軍事"
+  ],
+  "event": [
+   "爭議風波"
+  ],
+  "org": [
+   "日本海上保安廳",
+   "中國海警局"
+  ],
+  "person": [
+   "高市早苗"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "釣魚台",
+   "尖閣諸島",
+   "中國海警"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Straits Times，日本與中國 11 月 26 日互控對方船隻侵入兩國都主張主權的釣魚台（日本稱尖閣諸島）附近海域；這些無人島位於台灣與沖繩之間，數十年來引發外交緊張。日本海上保安廳表示，兩艘中國海警船約在 26 日上午 7 時 42 分進入該海域、「試圖接近一艘日本漁船」，日方巡邏艦多次要求離開，並稱中國海警的這類行動「違反國際法」；海上保安廳告訴法新社，這是 2026 年第五次有中國船隻在該海域接近日本漁船。中國政府重申對釣魚台的主權，指日本侵犯主權，稱已採取「必要管控措施」並向日方提出「嚴正交涉」。報導指出，這起事件讓已因過去海警對峙，以及首相高市早苗 2025 年涉台言論引發的貿易限制與旅遊警告而緊繃的兩國關係更添緊張。",
+ "dive_html": "中國海警以「執法」名義接近日本漁船，是在爭議海域常態化宣示管轄的灰色地帶手法，一年已五次，頻率在升高。釣魚台位在台灣與沖繩之間，台灣也主張主權，日中對峙升溫會直接影響宜蘭漁民的作業海域與台日漁業協議的運作。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Straits Times Asia",
+   "title": "Japan, China trade accusations over ships near disputed islands",
+   "url": "https://www.straitstimes.com/asia/east-asia/japan-china-trade-accusations-over-ships-near-disputed-islands",
+   "time": "2026-11-26T16:48:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

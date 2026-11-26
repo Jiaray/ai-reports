@@ -5,8 +5,8 @@
  "line": "約 4.5 公噸不穩定爆炸物在 11 月 25 日引爆，居民說只有 5 天預警；RFK Jr. 也就此發表意見",
  "born_at": "2026-11-26T02:02:15+08:00",
  "first_reported_at": "2026-11-25T01:35:17+08:00",
- "updated_at": "2026-11-26T16:09:33+08:00",
- "version": 2,
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 3,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -40,7 +40,10 @@
    "美國環境保護署"
   ],
   "person": [
-   "小羅伯特·甘迺迪"
+   "小羅伯特·甘迺迪",
+   "川普",
+   "Rob Sand",
+   "Mike Kehoe"
   ],
   "weight": [
    "中"
@@ -292,6 +295,102 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 2
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Army calls detonation of bomb chemicals in Iowa a success after earlier fears of a toxic plume",
+   "url": "https://news.google.com/rss/articles/CBMihwFBVV95cUxPZi1lalA4QTR1T3RxVkRDblVuYkY3SDBXV3A3bWhpaWJzN29ZT2xEWTR5b1RDMzZWUWRfdldya2R1ZlZiQ2ptLThvVjMxQmpMWUFKeFVEWnhjOGMzVUcyZDVjb3ZYa1o0RjFiYXVQSUFCczNFelNVYjQ2ZzFiOWxUSmlKdFVXWW8?oc=5",
+   "time": "2026-11-26T13:53:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "The US Army has detonated a 5-ton stockpile of lead azide in Iowa. Here’s what to know",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxQVjR6dzVHRXVCTmdZYmkyOVRtcmt4TUNqVnZmSk9mNzdjUUNHWHJRWms0a3pvUXZhR1pfVGFDTlFPbHhvbmJuZVFRWUhROGRxczB6UTdoam5jS2ZtY3g5TGRWYV8waGR4UFlRUHN4NWlsVGdMREFfY1E4dzliYmFlV2dveFN5bV9UdkRaMXlJMG5xRXI4MkE?oc=5",
+   "time": "2026-11-26T01:41:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Axios",
+   "title": "Army detonates Iowa explosives amid toxic lead fears",
+   "url": "https://www.axios.com/2026/11/25/iowa-army-lead-detonation",
+   "time": "2026-11-26T00:16:41+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Axios",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "WSJ World News",
+   "title": "Army Detonates Tons of Toxic Lead Explosives in Iowa",
+   "url": "https://www.wsj.com/us-news/army-set-to-detonate-tons-of-toxic-lead-explosives-in-iowa-e6815c2a?mod=rss_worldnews",
+   "time": "2026-11-26T01:25:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Scientific American",
+   "title": "The U.S. Army is blowing up five tons of toxic lead azide in Iowa",
+   "url": "https://www.scientificamerican.com/article/the-u-s-army-is-blowing-up-five-tons-of-toxic-lead-azide-in-iowa/",
+   "time": "2026-11-25T22:45:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Scientific American",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "White House",
+   "title": "Trump Administration Leads Whole-of-Government Effort to Safely Neutralize Obama-Era Explosives Threat in Iowa",
+   "url": "https://www.whitehouse.gov/releases/2026/11/trump-administrations-whole-of-government-effort-safely-neutralizes-obama-era-explosives-threat-in-iowa/",
+   "time": "2026-11-26T07:10:56+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "白宮",
+   "kind": "official",
+   "region": "北美",
+   "rank": 9
+  },
+  {
+   "name": "Slashdot",
+   "title": "Those Five Tons of Bomb-Making Chemicals in Iowa Will Be Detonated Wednesday Morning",
+   "url": "https://news.slashdot.org/story/26/11/25/0524224/those-five-tons-of-bomb-making-chemicals-in-iowa-will-be-detonated-wednesday-morning",
+   "time": "2026-11-26T01:00:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "74 comments",
+   "family": "Slashdot",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  },
+  {
+   "name": "Vox",
+   "title": "Why the Army detonated toxic explosives in Iowa",
+   "url": "https://www.vox.com/today-explained-newsletter/511830/iowa-lead-azide-explosives-detonation-plume",
+   "time": "2026-11-26T02:09:23+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Vox",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
   }
  ],
  "log": [
@@ -302,12 +401,20 @@
    "html": "美國陸軍 11 月 25 日在愛荷華州 Middletown 的愛荷華陸軍彈藥廠引爆逾 9,700 磅（約 4.4 公噸）疊氮化鉛，稱是為了防止庫存自發爆炸。軍方確認廠內所有桶裝庫存均已銷毀，沒有二次爆炸或設施損壞；影片顯示數百英尺高的煙柱向南飄散後很快消散。少將 Eric Shirley 在爆炸兩小時後的記者會表示，相信已把對 Middletown 與全愛荷華居民健康安全的風險「降到人力所能做到最接近零」。美國環保署聲明，爆炸一小時後「即時空氣監測器在整個區域偵測到的空氣中鉛為零」；BBC 報導軍方稱這次引爆「非常成功」，目前鉛讀數令人樂觀。",
    "update": "美軍在愛荷華引爆約 4.4 公噸疊氮化鉛後，環保署稱一小時後全區空氣監測未驗出鉛",
    "refocus": false
+  },
+  {
+   "at": "2026-11-26T17:36:58+08:00",
+   "kind": "supplement",
+   "version": 3,
+   "html": "Axios 報導，美國陸軍在多次延期、法院挑戰與總統介入後，於 11 月 25 日引爆 68 桶不穩定的疊氮化鉛。川普 11 月 23 日曾下令暫停，稱須經法院與民主黨籍準州長 Rob Sand 同意，並警告若 Sand 拒絕將要他為「任何死亡或破壞」負責；法院原先發出的行政暫緩令在同日解除，計畫才得以進行。《科學人》指出，兩次受控爆炸在美東時間上午 10 時進行，官員事前預期因減災措施而「零釋出」，紐約時報記者在現場看見煙流升空後往南飄。川普在 Truth Social 說初步回報顯示陸軍的減災成效「遠超預期」，密蘇里州長 Mike Kehoe 也說聯邦夥伴的初步分析顯示爆炸「控制良好」，AP 報導陸軍稱引爆成功；白宮新聞稿則把這批炸藥稱為「歐巴馬時代遺留的威脅」。疏散區是彈藥廠西南方 5 英里的扇形範圍，居民會接到電話通知何時可返家，區外民眾須緊閉門窗、就地避難。Axios 指民選官員批評軍方事前溝通不足。",
+   "update": "美軍 11 月 25 日引爆愛荷華州 68 桶疊氮化鉛，川普與密蘇里州長稱爆炸控制良好，疏散居民待通知返家",
+   "refocus": false
   }
  ],
  "heat": {
-  "outlets": 13,
+  "outlets": 17,
   "regions": 3,
-  "media_weight": 26,
+  "media_weight": 33,
   "community": {
    "hn": 0,
    "ptt": 0,

@@ -1,0 +1,82 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0375",
+ "title": "紐約時報訴訟取得 FBI 文件：CIA 以水刑對待的被拘留者可能比它承認的更多",
+ "line": "文件也顯示 CIA 官員擔心可能遭到起訴",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T01:57:50+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "人權",
+   "國防與軍事"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "org": [
+   "美國中央情報局",
+   "FBI",
+   "紐約時報"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "水刑",
+   "CIA 刑求",
+   "拘留者"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據紐約時報報導，一份 FBI 訪談紀錄顯示，美國中央情報局（CIA）以水刑對待的被拘留者人數，可能比它過去承認的更多。這項揭露出自紐約時報提起訴訟後政府公開的檔案，檔案也顯示 CIA 官員曾擔心可能遭到起訴。報導摘要沒有說明實際人數。",
+ "dive_html": "CIA 過去官方說法是只有少數被拘留者遭水刑，若人數更多，代表國會與調查報告依據的資料本身就不完整。這是新聞機構以資訊公開訴訟追究情報機構的成果；但目前只是「訪談暗示」，不是正式承認，具體證據要看檔案全文。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "NYT Asia Pacific",
+   "title": "C.I.A. Waterboarded More Detainees Than It Admitted, F.B.I. Interview Suggests",
+   "url": "https://www.nytimes.com/2026/11/25/us/politics/cia-waterboarding.html",
+   "time": "2026-11-26T01:57:50+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "New York Times",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

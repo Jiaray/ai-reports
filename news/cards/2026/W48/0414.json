@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0414",
+ "title": "日經亞洲：美國部署 F-15EX 戰機到沖繩，推進戰機與無人機協同作戰",
+ "line": "美軍以新一代 F-15EX 加強沖繩空中戰力，並搭配無人機作戰",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞"
+  ],
+  "country": [
+   "US",
+   "JP"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "國防與軍事"
+  ],
+  "event": [
+   "軍事行動"
+  ],
+  "sector": [
+   "航太與國防"
+  ],
+  "org": [
+   "美國空軍",
+   "日經亞洲"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "F-15EX",
+   "沖繩",
+   "嘉手納",
+   "無人機協同作戰"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據日經亞洲報導標題，美國將 F-15EX 戰機部署到沖繩，作為推進戰機與無人機協同作戰的一環。報導標題沒有說明部署數量、基地與時程。",
+ "dive_html": "沖繩的美軍航空戰力直接關係台海與東海的嚇阻態勢，換裝新一代戰機並結合無人機作戰，顯示美軍在第一島鏈的空中部署正在升級；具體規模要看日經全文。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Nikkei Asia",
+   "title": "US deploys F-15EX jets to Okinawa in fighter-drone warfare push",
+   "url": "https://asia.nikkei.com/politics/defense/us-deploys-f-15ex-jets-to-okinawa-in-fighter-drone-warfare-push",
+   "time": null,
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

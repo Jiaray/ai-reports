@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0410",
+ "title": "Euronews 取得歐盟草案：要在 5 到 7 年內把資料中心容量增加兩倍，但只靠自願協議、不強制綠色承諾",
+ "line": "執委會提出「工具箱」讓各國、業者與能源公司選擇電網接入、再生能源與餘熱利用等措施",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T16:30:54+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "環境與氣候",
+   "科技",
+   "能源"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "能源與公用事業"
+  ],
+  "org": [
+   "歐盟執委會",
+   "國際能源總署",
+   "Euronews"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "資料中心",
+   "電網",
+   "餘熱利用"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Euronews 取得的歐盟執委會草案顯示，歐盟正準備以自願協議加速資料中心擴建，目標在 5 到 7 年內把容量增加兩倍，儘管外界愈來愈擔心用電量與電網壓力。這份名為「資料中心永續整合能源系統三方協議歐盟範本」的文件，希望各國政府、營運商與能源公司就讓新資料中心更容易興建、接上電網的措施達成協議；但執委會沒有提出具約束力的永續要求，而是提供一個可依需要調整的框架，形容為「工具箱，而非必須整套採用的方案」，各國可挑選電網接入、再生能源、儲能、彈性調度與把資料中心餘熱拿來供暖等措施。草案明載「參與地方三方協議屬自願性質」，承諾「不對簽署方產生任何法律義務」。草案估計歐盟 2025 年已裝置的資料中心容量約 12 吉瓦。布魯塞爾同時另訂提升資料中心永續性的規則與標準，外界質疑兩者如何相容。",
+ "dive_html": "歐盟想在 AI 競賽中追上美中，但又不想讓綠色規則拖慢建設，自願協議是兩者之間的妥協，也代表減碳讓位給算力。對台灣伺服器與電源設備供應鏈，歐洲資料中心三倍成長是明確的需求訊號；但電網接入才是真正瓶頸，自願協議能否解決排隊問題仍是疑問。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Euronews",
+   "title": "EU wants more data centres but won't force new green commitments, leaked draft reveals",
+   "url": "https://www.euronews.com/2026/11/26/eu-wants-more-data-centres-but-wont-force-new-green-commitments-leaked-draft-reveals",
+   "time": "2026-11-26T16:30:54+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

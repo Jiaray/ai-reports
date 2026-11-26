@@ -1,0 +1,126 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0370",
+ "title": "四屆 NFL 最有價值球員 Aaron Rodgers 遭鋼人隊下放先發後上節目痛批教練，隔天即被釋出",
+ "line": "將滿 43 歲的 Rodgers 說「那艘船已經開走了」，可能已打完 NFL 生涯最後一場",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-25T19:31:00+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "體育"
+  ],
+  "event": [
+   "人事異動",
+   "爭議風波"
+  ],
+  "sector": [
+   "媒體與娛樂"
+  ],
+  "org": [
+   "匹茲堡鋼人隊",
+   "NFL",
+   "綠灣包裝工隊"
+  ],
+  "person": [
+   "Aaron Rodgers",
+   "Mike McCarthy",
+   "Mason Rudolph"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Aaron Rodgers",
+   "匹茲堡鋼人",
+   "NFL"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美式足球匹茲堡鋼人隊在當地時間 11 月 24 日晚間 11 時 10 分宣布，四度獲 NFL 最有價值球員的四分衛 Aaron Rodgers 改由 Mason Rudolph 頂替先發，週五主場對丹佛野馬隊時 Rodgers 列為不出賽。25 日 Rodgers 上美國體育節目 Pat McAfee Show 長談 34 分鐘，說自己不會歸隊、「那艘船已經開走了」，並批評總教練 Mike McCarthy，包括指他在球隊會議上睡著打呼，還說上週日輸給費城老鷹隊時，McCarthy 在中場以「一、二、三，包裝工」喊口號結束圍圈。兩人曾在 2011 年一起替綠灣包裝工隊拿下超級盃，之後因戰術叫法產生嫌隙；Rodgers 說他曾告訴 McCarthy「要嘛換掉我，要嘛別換叫戰術的人，不然就乾脆釋出我」。McCarthy 回應說對方提出了「明顯超出他職責範圍的最後通牒」，釋出是他的決定；鋼人隊隨後在 25 日下午宣布 Rodgers 不再屬於球隊。Rodgers 下週滿 43 歲，本季 10 場傳出 16 次達陣、6 次被抄截。",
+ "dive_html": "一位傳奇四分衛以公開羞辱總教練的方式結束合作，在 NFL 極少見，也讓他想再找下家的難度大增，BBC 直言他可能已打完最後一場。這齣風波反映高齡明星球員與教練之間的權力拉鋸：球隊選擇站在教練這邊，等於宣告戰績之外，更衣室秩序優先。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Steelers cut Aaron Rodgers after the QB rips coach Mike McCarthy on TV following his benching",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPN1laVWIyOEZSb29hcHFwTm1MS3M1SmdoYnNwQkoybjJjQkNPWVQ2YldyN1Rjai1GYzR5VXo5a1FxeTdicUhNb1RiREpIU0tKSk91T3ZjaWNzUW5Va09qNmFfV2RlaTlNMlZxWlY4Mm93S2hmU3lPZDBsQUZWZEo5b3RjN0NSM2ttR0lFTkcwVVpZUmZ6bEtuNW01X3NEb1Foa2xsc0VLY3h4Y1E?oc=5",
+   "time": "2026-11-26T07:57:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Steelers are benching Aaron Rodgers and Mason Rudolph will start at QB against Broncos",
+   "url": "https://news.google.com/rss/articles/CBMigAFBVV95cUxOTzVseGlXdFQyMk5IQTExaWFlRVQwZjhXRUpVQmVrMU96Z0l3MWh4ZlFhTjlLcmZ6VVZJWUMyczJ5THRSZ3dfR2FHQUJhRlZsU01mNjRWUW9rTkhheVJSWkRWWFJNUGhNd1d1N3pEOWtrNjV5dk9FYWUyY0hDaG16Vg?oc=5",
+   "time": "2026-11-25T19:31:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "NPR News",
+   "title": "Steelers cut Aaron Rodgers after the QB rips coach Mike McCarthy on TV",
+   "url": "https://www.npr.org/2026/11/26/nx-s1-6054760/steelers-cut-aaron-rodgers",
+   "time": "2026-11-26T14:26:03+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "NPR",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "BBC Sport",
+   "title": "Four-time MVP Rodgers released and may have played last NFL game",
+   "url": "https://www.bbc.co.uk/sport/american-football/articles/c64gn8ryp7jno",
+   "time": "2026-11-26T15:51:10+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 2,
+  "media_weight": 7,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0408",
+ "title": "加薩腦膜炎病例激增，過度擁擠與衛生設施損毀讓兒童暴露在風險中",
+ "line": "加薩市 Rantisi 兒童醫院隔離病房擠滿腦膜炎病童，5 歲男童一個月內三度住院",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T14:14:15+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東"
+  ],
+  "country": [
+   "PS"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療",
+   "戰爭與衝突"
+  ],
+  "event": [
+   "公衛事件"
+  ],
+  "story": [
+   "以哈戰爭"
+  ],
+  "org": [
+   "Rantisi 兒童醫院",
+   "Al Jazeera"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "加薩",
+   "腦膜炎",
+   "兒童健康"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Al Jazeera 記者 Maram Humaid 在加薩市報導，腦膜炎正讓加薩拉起警報，過度擁擠與受損的衛生設施讓兒童暴露在風險中。5 歲的 Omar Abu Fayed 不到一個月內第三度住進加薩市 Rantisi 兒童醫院隔離病房：他先是高燒逾攝氏 40 度、劇烈頭痛與腹痛、不吃東西，在家用退燒藥與抗生素治療 5 天未改善，送醫確診腦膜炎，住院 5 天出院；約一週後再度發燒、住院 10 天，第二次出院後幾天症狀又復發，醫師第三度更換治療。24 歲的母親 Zakia Abu Fayed 說「他在家待不滿一週就得送回來」，也擔心另外兩個 3 歲與 1 歲的孩子。她說醫院擠滿腦膜炎病童。原文沒有交代加薩整體的病例數字。",
+ "dive_html": "腦膜炎在擁擠、缺水與衛生崩壞的環境容易爆發，反覆住院也可能反映藥物或治療資源不足。停火後加薩的人道危機從戰火傷亡轉向傳染病，冬雨又威脅上千處收容所，若缺乏整體病例統計與疫苗、藥品補給，疫情規模難以評估。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Gaza meningitis cases surge as collapsing infrastructure fuels health fears",
+   "url": "https://www.aljazeera.com/news/2026/11/26/gaza-meningitis-cases-surge-as-collapsing-infrastructure-fuels-health-fears",
+   "time": "2026-11-26T14:14:15+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

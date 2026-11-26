@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0378",
+ "title": "ProPublica 分析 CDC 死亡證明資料：美國子宮外孕死亡人數 2020 至 2025 年近乎倍增，墮胎禁令州更嚴重",
+ "line": "6 年內近 200 名女性死於子宮外孕，是前 6 年的近兩倍",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-25T18:00:00+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療",
+   "社會"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "org": [
+   "ProPublica",
+   "美國疾病管制與預防中心"
+  ],
+  "person": [
+   "Agnel Philip"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "子宮外孕",
+   "墮胎禁令",
+   "孕產婦死亡"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "ProPublica 記者 Agnel Philip 撰文說明，團隊分析美國疾病管制與預防中心（CDC）依死亡證明彙整的資料，發現 2020 至 2025 年間近 200 名女性在子宮外孕後死亡，幾乎是前 6 年的兩倍，且在實施墮胎禁令的州情況更嚴重；全國比率為每百萬活產 9.8 人。ProPublica 長期追蹤最高法院推翻羅訴韋德案後墮胎禁令的影響，先前也發現德州禁令實施後敗血症比率大增、早期流產急診的輸血次數暴增。文章指出，研究墮胎禁令的影響已遭政治化、聯邦機關在川普政府下被大幅縮編，而 CDC 這份資料是記者與學者常用的公開資源，卻似乎沒有人注意到這個趨勢。這是 ProPublica 的資料分析，不是同儕審查的研究。",
+ "dive_html": "子宮外孕必須及時以藥物或手術終止，若禁令讓醫師遲疑處置，死亡率上升是最直接的後果，這份分析提供了可量化的線索。但死亡人數上升與禁令之間仍是相關而非已證實的因果，還需排除通報方式改變等因素；公開資料長期無人分析，也反映聯邦研究能量被削弱的問題。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "ProPublica",
+   "title": "An Alarming Spike in Ectopic Pregnancy Deaths Was Hiding in Plain Sight in a Federal Dataset",
+   "url": "https://www.propublica.org/article/ectopic-pregnancy-data-analysis",
+   "time": "2026-11-25T18:00:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "ProPublica",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

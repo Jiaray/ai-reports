@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0403",
+ "title": "（長文）前聯邦法官 David Tatel：最高法院 40 多年前已確認抵制受憲法保障，司法部調查媒體集體抵制白宮是錯的",
+ "line": "他以年輕時替 NAACP 打的密西西比 Port Gibson 抵制案說明，反壟斷說法和當年白人商家一樣站不住腳",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-25T20:30:00+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "人權",
+   "犯罪與司法"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "sector": [
+   "媒體與娛樂"
+  ],
+  "org": [
+   "美國司法部",
+   "全國有色人種協進會",
+   "美國最高法院",
+   "CNN",
+   "The Atlantic"
+  ],
+  "person": [
+   "David Tatel"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "新聞自由",
+   "抵制權",
+   "第一修正案",
+   "NAACP v. Claiborne Hardware"
+  ],
+  "form": [
+   "長文"
+  ]
+ },
+ "summary_html": "這篇改寫自前聯邦法官 David Tatel 回憶錄《Vision: A Memoir of Blindness and Justice》的文章指出，9 月白宮禁止 CNN 記者進入後，多家大型新聞機構暫停聯合採訪，司法部如今以它們「自豪地抵制報導白宮活動」、競爭者「集體抵制可能違反《雪曼法》」為由展開調查。Tatel 說這套論點並不新：40 多年前他還是替全國有色人種協進會（NAACP）工作的年輕律師，處理密西西比州 Port Gibson 的案子，當地白人商家同樣主張州法禁止組織抵制以限制貿易。1960 年代 NAACP 在密西西比發起經濟抵制，Port Gibson 鎖定拒絕雇用黑人、不以「先生」稱呼黑人顧客的商家；商家在白人公民委員會支持下，1969 年對 NAACP 與 146 名糾察者提出數百萬美元訴訟，州法院經近 8 個月審理、144 名證人作證後判商家勝訴。1982 年最高法院在 NAACP v. Claiborne Hardware 案確認第一修正案保護人民抵制的權利，他認為依此判決，今天的司法部和當年的商家一樣錯。",
+ "dive_html": "作者以親身參與的判例反駁司法部，論證力道來自歷史類比：當年用「反壟斷」壓制民權抵制，如今用同一套框架對付新聞界。這篇是當事人立場鮮明的評論，司法部調查的實際範圍與法律依據，文章沒有完整交代；但它點出的判例，可能成為媒體抗辯的核心依據。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Atlantic",
+   "title": "The Great American Tradition",
+   "url": "https://www.theatlantic.com/ideas/2026/11/boycotts-mississippi-naacp-press-scotus/689568/",
+   "time": "2026-11-25T20:30:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "The Atlantic",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

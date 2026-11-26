@@ -1,0 +1,106 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0407",
+ "title": "曼谷 Bangchak 油庫爆炸起火，火球與黑煙直衝天際，當局呼籲周邊居民撤離",
+ "line": "曼谷東部邦納區發生爆炸，暫無傷亡報告，官方未說明原因",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T16:27:20+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞"
+  ],
+  "country": [
+   "TH"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "災害與事故"
+  ],
+  "event": [
+   "意外事故"
+  ],
+  "sector": [
+   "能源與公用事業"
+  ],
+  "org": [
+   "Bangchak",
+   "邦納區公所"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "曼谷油庫爆炸",
+   "Bangchak"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Al Jazeera 與法新社，泰國曼谷東部一座油庫 11 月 26 日發生爆炸，社群媒體影片顯示火焰高竄、濃濃黑煙橫掃曼谷天際線，France 24 也報導爆炸送出巨大火球。邦納區公所在臉書聲明：「Bangchak 油庫發生爆炸，為了自身安全，周邊民眾請立即撤離。」這處佔地廣大的油庫由泰國能源集團 Bangchak Corporation 營運。當局沒有立即傳出傷亡報告，邦納區公所也未說明爆炸原因。",
+ "dive_html": "油庫位在人口稠密的首都東部，當局第一時間要求撤離，顯示擔心連鎖爆炸或有毒煙霧擴散。傷亡、起火原因與對曼谷燃油供應的影響都還不明，後續要看泰國當局與 Bangchak 的說明；前往曼谷的旅客可留意當地交通與空氣品質公告。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Explosion occurs at oil facility in Thailand’s Bangkok",
+   "url": "https://www.aljazeera.com/news/2026/11/26/explosion-occurs-at-oil-facility-in-thailands-bangkok",
+   "time": "2026-11-26T16:49:20+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Huge explosion at oil depot in Bangkok sends fireball into sky",
+   "url": "https://www.france24.com/en/asia-pacific/20261126-huge-explosion-at-oil-depot-in-bangkok-sends-fireball-into-sky",
+   "time": "2026-11-26T16:27:20+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Huge blast hits Bangkok oil depot",
+   "url": "https://www.straitstimes.com/asia/se-asia/huge-blast-hits-bangkok-oil-depot",
+   "time": "2026-11-26T16:38:50+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 6,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

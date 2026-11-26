@@ -1,0 +1,111 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0411",
+ "title": "載運 7,000 公噸柴油的貨輪 Med Emre 在西班牙伊維薩島外海沉沒，1 名船員死亡、16 人獲救",
+ "line": "西班牙啟動國家海洋污染計畫第 2 級，巴利亞利群島政府也啟動民防計畫監測漏油風險",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T15:24:28+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "ES"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "災害與事故",
+   "環境與氣候"
+  ],
+  "event": [
+   "意外事故"
+  ],
+  "sector": [
+   "運輸與物流"
+  ],
+  "org": [
+   "巴利亞利群島政府",
+   "西班牙海上救援隊"
+  ],
+  "person": [
+   "Pablo Gárriz"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "伊維薩島",
+   "船難",
+   "柴油外洩"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據巴利亞利群島緊急服務單位，一艘載運約 7,000 公噸柴油的貨輪 11 月 26 日凌晨在西班牙伊維薩島北方約 25 至 30 海浬處沉沒，1 名水手死亡，其餘 16 名船員生還。巴利亞利群島政府緊急事務與內政總局長 Pablo Gárriz 說，伊維薩港務長在凌晨約 1 時 20 分發出警報，船身破裂最終沉沒；西班牙海上救援隊出動海空救援，附近多艘船隻支援。獲救的 17 名船員中，6 人送往伊維薩機場，1 人直接送往 Can Misses 醫院，之後宣告不治。當局目前最擔心的是這艘名為 Med Emre 的船隻所載燃油可能造成的環境後果，Gárriz 說正在監測；西班牙已啟動國家海洋污染計畫第 2 級，巴利亞利群島政府也啟動區域民防計畫（PLATERBAL）。Bloomberg 與 Reuters 也報導了沉船與污染應變。",
+ "dive_html": "7,000 公噸柴油若外洩，對以觀光與海洋生態為命脈的巴利亞利群島是重大威脅；柴油比原油易揮發，但對近岸生物仍有毒性。船身為何破裂、船齡與船籍等資訊報導沒有交代，後續要看漏油監測結果與事故調查。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Bloomberg Markets",
+   "title": "Diesel-Carrying Ship Sinks Off Spanish Island of Ibiza, One Dead",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-26/diesel-carrying-ship-sinks-off-spanish-island-of-ibiza-one-dead",
+   "time": "2026-11-26T15:24:28+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Bloomberg",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Euronews",
+   "title": "Ship transporting 7,000 tonnes of diesel sinks off Ibiza, one crewman dead",
+   "url": "https://www.euronews.com/2026/11/26/ship-transporting-7000-tonnes-of-diesel-sinks-off-ibiza-one-crewman-dead",
+   "time": "2026-11-26T15:30:10+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Crew member dies after diesel tanker sinks off Ibiza; Spain launches pollution plan",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxOcmZUbzlMdjVtVDNjMmxRZHZ2Rk50anZIMDlOZ0swTEZBNi1aakVXV0NBT19oTkkzWTk0cUhXbUJEN0xuczdibXF0Y09WaUxmaWRwU2RvOVY3cXhNNE44XzY4TV9Rc2hISnBiSGI1T3FpdEdIR2JETGYta01tc203a2RJaVNhc1VYTEh5UTAxNGRreEFNTTlHcGJiT09QZURZdW9yQWtwX2Y4ckRhUkRFZE9QVTdlM1N1WlhjUGFyTno4cXBtcjFvLQ?oc=5",
+   "time": "2026-11-26T15:41:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 2,
+  "media_weight": 8,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

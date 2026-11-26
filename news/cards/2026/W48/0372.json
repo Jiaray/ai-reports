@@ -1,0 +1,77 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0372",
+ "title": "AP：近 2,000 名移民一天內抵達西班牙加那利群島，創單日紀錄",
+ "line": "加那利群島單日湧入近 2,000 名移民，人數超越以往任何一天",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T09:45:00+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "非洲"
+  ],
+  "country": [
+   "ES"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "移民與難民"
+  ],
+  "event": [
+   "數據發布"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "加那利群島",
+   "非法移民",
+   "大西洋航線"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 AP 報導標題，近 2,000 名移民在一天之內抵達西班牙加那利群島，打破單日紀錄。報導沒有說明移民的出發地、船隻數量與傷亡情況。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Almost 2,000 migrants arrive on Spain’s Canary Islands in a single day, breaking a record",
+   "url": "https://news.google.com/rss/articles/CBMilAFBVV95cUxPa3Jzb2VHSk9lV2k4UlRIWXRJdHBSUzE5a2JjYjc0dWVIRlpmY0dmVjNCSGk5MktVREE1UnNXaHZEb2c2bUFBeV9Oa0tuR2JwYU1rYzdJYXNSVEt3dEJ3cHhnNzZxaFE2YjRJM1FISE0zQlNzWHhQMHRmaW10cGNxamJabUExME9sSFpqMHJpc19kTm9X?oc=5",
+   "time": "2026-11-26T09:45:00+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

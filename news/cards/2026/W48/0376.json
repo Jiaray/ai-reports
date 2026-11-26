@@ -1,0 +1,83 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0376",
+ "title": "日本首相高市早苗接見國際刑事法院院長、承諾加快資金支持，與川普政府打壓 ICC 立場分歧",
+ "line": "紐約時報形容這是日本罕見與美國唱反調",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T01:41:06+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞"
+  ],
+  "country": [
+   "JP",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "國際關係"
+  ],
+  "event": [
+   "會談協議"
+  ],
+  "org": [
+   "國際刑事法院"
+  ],
+  "person": [
+   "高市早苗"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "國際刑事法院",
+   "ICC",
+   "美日關係"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據紐約時報報導，日本首相高市早苗接見國際刑事法院（ICC）院長，表態支持 ICC，並承諾加快對法院的資金支持，與試圖削弱這個國際機構的川普政府立場不同。報導以「與美國決裂」形容這次表態。報導摘要沒有說明資金規模與具體內容。",
+ "dive_html": "日本是 ICC 最大出資國之一，在美國制裁 ICC 法官、施壓盟友之際公開力挺，顯示高市政府願意在國際法議題上與華府保持距離。這可能讓日本在美日關係中承受壓力，但也強化日本作為「規則型秩序」支持者的形象；具體金額與時程，原文沒有交代。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "NYT Asia Pacific",
+   "title": "Japan’s Leader, in Break With U.S., Defends International Criminal Court",
+   "url": "https://www.nytimes.com/2026/11/24/world/asia/japan-international-criminal-court-takaichi-trump.html",
+   "time": "2026-11-26T01:41:06+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "New York Times",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

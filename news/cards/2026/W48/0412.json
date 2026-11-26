@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0412",
+ "title": "北歐 360 萬名兒童研究：孕期服用 ADHD 藥物不會提高孩子自閉症、ADHD 等神經發展疾病風險",
+ "line": "刊於《英國醫學期刊》的研究涵蓋瑞典、挪威、丹麥，約 7,600 名母親孕期用藥",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T14:00:27+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "SE",
+   "NO",
+   "DK"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "醫藥與生技"
+  ],
+  "org": [
+   "英國醫學期刊"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "ADHD 藥物",
+   "孕期用藥",
+   "神經發展疾病",
+   "Ritalin"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "刊於《英國醫學期刊》（BMJ）的研究，納入 2000 至 2021 年在瑞典、挪威與丹麥出生的逾 360 萬名兒童，其中約 7,600 名兒童的母親孕期服用 ADHD 藥物，近 2,400 名在懷孕第二或第三孕期用藥。研究發現，產前暴露於 ADHD 藥物的兒童，罹患 ADHD、自閉症、智能障礙、癲癇或學習障礙等神經發展疾病的風險沒有增加；個別藥物如安非他命類、methylphenidate（Ritalin）與 atomoxetine（Strattera）也沒有發現風險上升。北歐研究團隊寫道：「對孩子未來神經發展疾病風險的擔憂，不足以成為孕期停用 ADHD 藥物的理由，結果大致令人安心。」Euronews 指出，ADHD 約影響全球 3% 成人，停藥後症狀可能復發，許多孕婦卻因不確定藥物對胎兒的影響而停藥。報導也提到，孕期暴露於 ADHD 藥物的兒童確實較可能有神經發展疾病，但從可讀到的段落看，原文沒有完整交代這項差異如何解釋。",
+ "dive_html": "這是以全國登錄資料做的大型觀察研究，樣本量足以排除大幅的風險上升，但不是隨機試驗，母親本身的 ADHD 遺傳因素是主要干擾。研究提供的是群體層面的安心資訊，個別孕婦是否續用藥物，仍應與醫師討論。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Euronews",
+   "title": "ADHD drugs in pregnancy do not raise risk of child development issues, study finds",
+   "url": "https://www.euronews.com/2026/11/26/adhd-drugs-in-pregnancy-do-not-raise-risk-of-child-development-issues-study-finds",
+   "time": "2026-11-26T14:00:27+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

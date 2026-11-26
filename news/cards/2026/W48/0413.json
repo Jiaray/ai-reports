@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0413",
+ "title": "歐洲最大衛星工廠在比利時落成，Aerospacelab 年產能可達 500 顆，承製歐盟 IRIS² 星系 264 顆衛星",
+ "line": "比利時國王主持啟用，產能將居全球第三，預計 2028 年底投產",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T15:45:05+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "BE",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科技",
+   "國防與軍事"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "航太與國防",
+   "電信"
+  ],
+  "org": [
+   "Aerospacelab",
+   "歐盟",
+   "SpaceX",
+   "Starlink"
+  ],
+  "person": [
+   "Benoit Deper",
+   "菲利普國王"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "IRIS²",
+   "衛星製造",
+   "Starlink"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "比利時私人衛星製造商 Aerospacelab 的大型工廠本週在比利時南部 Marcinelle 落成，由比利時國王菲利普主持啟用。這座 2 萬平方公尺的橢圓形廠房年產能最多 500 顆衛星，據比利時王室，將是全球第三大衛星生產基地；員工預計明年 1 月進駐，據法新社，生產預計 2028 年底開始。Aerospacelab 9 月取得 24 億歐元（約 26 億美元）合約，承製歐盟 IRIS² 計畫規劃的 348 顆衛星中的 264 顆；IRIS² 是歐盟對抗 SpaceX 旗下 Starlink 的方案，Aerospacelab 說它將在 2030 年前成為歐洲「主權、安全、具韌性的連網基礎設施骨幹」。公司自 11 月 30 日起更名為 Ectro。CNBC 指出，衛星連網對日常生活與國家安全愈來愈重要，可提供偏遠地區網路與國防應用。",
+ "dive_html": "歐洲在烏克蘭戰爭中看到 Starlink 對軍事通訊的關鍵性，以及依賴單一美國企業的風險，IRIS² 與這座工廠是「太空主權」的具體投資。但 348 顆對比 Starlink 數千顆的規模，加上 2028 年底才開始生產，歐洲短期內仍難擺脫依賴；工廠產能能否轉成商業競爭力，要看 IRIS² 的部署進度。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "CNBC",
+   "title": "Taking on Starlink: Europe’s largest satellite factory opens in push to rival Musk",
+   "url": "https://www.cnbc.com/2026/11/26/starlink-satellites-aerospacelab-factory-belgium.html",
+   "time": "2026-11-26T15:45:05+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

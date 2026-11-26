@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0405",
+ "title": "（長文）工程師撰文反駁「AI 黎曼猜想證明無法查核」：形式系統的力量正在於不必理解也能確認為真",
+ "line": "作者批評科普作者散播誤解，但也同意區分人能理解的「證明」與機器可驗證的「憑證」",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T06:20:31+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科學",
+   "AI"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "org": [
+   "Lean FRO"
+  ],
+  "person": [
+   "Levent Alpöge",
+   "Angela Collier",
+   "Simon Farnsworth"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "黎曼猜想",
+   "Lean",
+   "形式驗證",
+   "可信運算基礎"
+  ],
+  "form": [
+   "長文"
+  ]
+ },
+ "summary_html": "這篇部落格文章針對 Levent Alpöge 以 Claude 協助產出、顯示黎曼猜想為真的 Lean 憑證引發的質疑，批評有影響力的科普作者散播錯誤觀念，點名天文物理學家兼科普作者 Angela Collier 的貼文以「你根本無法查核」為前提的諷刺。作者說明，數學傳統上把陳述的正確與理解緊緊綁在一起，而 Lean 這類形式系統的目的就是把兩者分開：只要確信形式系統的理論架構是健全的（接受的陳述在公理為真時必為真），而且實作正確（總有一小部分無法機器檢查，稱為可信運算基礎），那麼被實作接受的任何符號串都必然為真，不論有沒有人看懂。他指出 Lean 社群建立了多個不同的檢查器核心，任何符號串要同時利用所有核心的錯誤「極不可能」。不過作者也認為「我們還沒有黎曼猜想的完整證明」這個說法合理，引用前同事 Simon Farnsworth 的區分：人能直接理解的是「證明」，機器能驗證的是「憑證」，理解證明能產生新想法，憑證則不能，理解這份憑證的工作仍在進行。",
+ "dive_html": "這篇把黎曼猜想爭議的核心講得很清楚：問題不是「真不真」，而是「懂不懂」。對工程師讀者，「可信運算基礎」與「多核心交叉檢查」的概念和軟體供應鏈的信任模型相通；作者把批評者的諷刺貼文當成誤解處理，但對方可能質疑的是規格是否正確敘述了猜想，這一點文章沒有深談。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "When science communicators spread misinformation",
+   "url": "https://sunshowers.io/posts/science-communicator-misinformation/",
+   "time": "2026-11-26T06:20:31+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "22 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50648435",
+   "family": "sunshowers.io",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 22,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

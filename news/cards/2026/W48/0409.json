@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0409",
+ "title": "伊拉克法院以加入伊斯蘭國判 8 名法國人無期徒刑、2 人 15 年，另 10 人延後宣判",
+ "line": "他們是去年從敘利亞移交、9 月起在伊拉克受審的 47 名法國公民之一部分",
+ "born_at": "2026-11-26T17:36:58+08:00",
+ "first_reported_at": "2026-11-26T14:28:48+08:00",
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東",
+   "歐洲"
+  ],
+  "country": [
+   "IQ",
+   "FR",
+   "SY"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "犯罪與司法",
+   "戰爭與衝突"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "org": [
+   "伊斯蘭國"
+  ],
+  "person": [
+   "Adrien Guihal"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "伊斯蘭國",
+   "外籍戰士",
+   "伊拉克審判"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據法新社記者，伊拉克一家法院 11 月 26 日以加入伊斯蘭國（IS）為由，判處 8 名法國公民無期徒刑，另 2 名法國被告各判 15 年，原定同日宣判的另外 10 人延期。巴格達正加緊起訴數千名從敘利亞移交的疑似聖戰士，伊拉克監獄本已擠滿 IS 嫌犯，近來又湧入數千人。這 10 人屬於去年從敘利亞移交、9 月起在伊拉克受審的 47 名法國公民；法院先前已判其中 15 人無期徒刑、1 人 15 年。尚待宣判者包括 Adrien Guihal，他被認為是替 2016 年尼斯恐攻發布 IS 認罪聲明的人，那次攻擊者駕卡車衝撞國慶日人群，造成 86 人死亡。伊斯蘭國 2014 年席捲敘利亞與伊拉克，進行屠殺並把婦女與女孩當成性奴，許多支持者從歐洲等地前往加入。",
+ "dive_html": "法國不願讓這些公民回國受審，等於把司法責任交給伊拉克，人權團體長期質疑伊拉克審判的公正性與死刑風險。外籍戰士的審判與收押壓力正從敘利亞轉到伊拉克，數千名移交者的處置將是區域安全的長期負擔。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "France 24",
+   "title": "Iraqi court sentences 8 French nationals to life in prison for IS group membership",
+   "url": "https://www.france24.com/en/middle-east/20261126-iraqi-court-to-sentence-20-french-nationals-for-is-group-membership",
+   "time": "2026-11-26T14:28:48+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -5,8 +5,8 @@
  "line": "深偽影片指沈伯洋吸毒、賴清德持美國綠卡；另有「美國棄台」說法隨選前流傳",
  "born_at": "2026-11-26T02:08:48+08:00",
  "first_reported_at": "2026-11-25T07:05:11+08:00",
- "updated_at": "2026-11-26T02:08:48+08:00",
- "version": 1,
+ "updated_at": "2026-11-26T17:36:58+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -37,12 +37,16 @@
    "BBC",
    "德國之聲",
    "民主進步黨",
-   "總統府"
+   "總統府",
+   "范德堡大學",
+   "台灣民主實驗室"
   ],
   "person": [
    "賴清德",
    "沈伯洋",
-   "蔡英文"
+   "蔡英文",
+   "Brett J. Goldstein",
+   "Brett Benson"
   ],
   "weight": [
    "高"
@@ -102,13 +106,34 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 2
+  },
+  {
+   "name": "紐約時報中文網",
+   "title": "研究称立场亲北京的AI虚假账号试图影响台湾选情",
+   "url": "https://cn.nytimes.com/asia-pacific/20261126/taiwan-elections-misinformation/",
+   "time": "2026-11-26T10:23:01+08:00",
+   "added_at": "2026-11-26T17:36:58+08:00",
+   "heat_raw": "",
+   "family": "New York Times",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-26T17:36:58+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "紐約時報報導，美國范德堡大學研究人員與台灣民主實驗室合作，10 月與 11 月觀察到試圖影響台灣 11 月 28 日地方選舉的「傳統、混合與 AI 驅動的非真實活動」。他們用新開發的工具偵測中英文 AI 生成貼文，發現與北京立場一致的假帳號多半發美食、動物、名人等非政治內容，或以性感挑逗的 AI 圖片吸粉，再穿插支持中國或統一的訊息，部分直接攻擊民進黨貪腐或施政。有帳號假扮成支持執政黨，卻去回覆沒人注意的親中帳號、替它們增加曝光；有些帳號花數月在 Instagram 發 AI 圖片，選前才在 Threads 加入政治內容，且常在上班時間發文，研究人員認為是 AI 與人工協作的「賽博格」帳號。范德堡大學國安研究所主任 Brett J. Goldstein 說，團隊能辨識人類與 AI 操作者在語氣與用詞上的細微差異；教授 Brett Benson 說這波行動展現「驚人的耐心」。報導指出，台灣國安局已就中國介選發出警告，台灣官員本月也向 Meta 標記數千個疑似相關帳號；研究尚未發現針對個人觀點的超精準訊息。",
+   "update": "范德堡大學研究發現親北京 AI 假帳號先以美食、性感圖片吸粉，再在 Threads 穿插政治訊息影響台灣選舉",
+   "refocus": false
+  }
+ ],
  "heat": {
-  "outlets": 2,
-  "regions": 1,
-  "media_weight": 4,
+  "outlets": 3,
+  "regions": 2,
+  "media_weight": 7,
   "community": {
    "hn": 0,
    "ptt": 0,
