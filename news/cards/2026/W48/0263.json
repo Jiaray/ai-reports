@@ -1,0 +1,78 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0263",
+ "title": "論文 Play2Evolve：讓程式代理試玩遊戲、以「好玩程度」當回饋迭代開發，GameCraft-Bench 得 60.05 分",
+ "line": "代理試玩找出功能、美術與玩法問題，再結合影片生成模型做素材",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T08:00:00+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "遊戲"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "遊戲"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Play2Evolve",
+   "GameCraft-Bench",
+   "AI 遊戲開發",
+   "程式代理"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "程式代理能依自然語言描述產出可執行的遊戲，但能跑不等於好玩。作者主張好玩的遊戲要有可靠的核心功能、吸引人的視覺與素材、支援探索與成長的豐富玩法，並提出 Play2Evolve：分初始化、精煉、演化三階段的遞迴開發框架。代理以「好玩程度」為回饋試玩遊戲，診斷功能、視覺與玩法問題，據此修 bug、改素材，並提出新的玩法與美術目標繼續演化；素材部分結合影片生成模型與程式碼，做出靜態與動態素材。Play2Evolve 在 GameCraft-Bench 得 60.05 分，高於只做初始化的 50.81 分與 Play2Code 的 52.46 分；人工整體品質評分 3.67，對照組為 2.38 與 2.43。程式碼將釋出於 <a href=\"https://github.com/showlab/Play2Evolve\" target=\"_blank\" rel=\"noopener\">GitHub</a>。",
+ "dive_html": "對遊戲團隊，重點是「代理試玩→回饋→修改」的閉環：AI 生成小遊戲的瓶頸已從能不能跑移到好不好玩。人評從 2.4 提到 3.7（滿分未說明）是明顯進步，但評測以小型遊戲為主，摘要沒交代遊戲規模與每輪成本，離商業品質仍有距離；網頁小遊戲這類規模小、迭代快的品類最可能先受惠。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "Playfulness as Feedback for Agentic Game Development",
+   "url": "https://huggingface.co/papers/2611.33457",
+   "time": "2026-11-26T08:00:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "+8",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -131,13 +131,37 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 1
+  },
+  {
+   "name": "Anue 鉅亨網",
+   "title": "華爾街罕見出現多空對決 同一家研究機構分析師對Anthropic股價看法分歧",
+   "url": "https://news.cnyes.com/news/id/6671890",
+   "time": "2026-11-26T13:30:03+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "科技新報",
+   "title": "AI 逆風延燒  OpenAI 明年 6 月前 IPO 機率跌至 28%",
+   "url": "https://finance.technews.tw/2026/11/26/openai-ipo-odds-by-june-next-year-fall-to-28/",
+   "time": "2026-11-26T14:00:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "科技新報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 3,
-  "regions": 2,
-  "media_weight": 8,
+  "outlets": 5,
+  "regions": 3,
+  "media_weight": 10,
   "community": {
    "hn": 0,
    "ptt": 0,

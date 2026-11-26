@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0280",
+ "title": "美國 CFTC 通過預測市場事件合約申報新規，取代 2017 年以來的不採取行動函",
+ "line": "新增第 16.03 節規範完全擔保的事件合約，申報義務分階段到 2027 年生效",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T00:18:33+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "金融市場"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "博奕",
+   "金融"
+  ],
+  "org": [
+   "美國商品期貨交易委員會"
+  ],
+  "person": [
+   "Michael Selig"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "預測市場",
+   "事件合約",
+   "CFTC",
+   "no-action letter"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美國商品期貨交易委員會（CFTC）通過最終規則，為特定「完全擔保」的事件合約訂定常設申報要求，取代自 2017 年以來規範這類商品的員工不採取行動函（no-action letters）。這類合約在預測市場交易，以預先存放、足以支付所有可能派彩的資金作擔保。規則修訂 CFTC 規章第 15、16、17 部，適用申報市場、期貨經紀商、結算會員與處理這類合約的外國經紀商；受影響業者改依第 15 至 18 部申報，不再適用第 38、39、43、45 部的部分申報條款，並新增第 16.03 節「Covered」合約規範，申報期限分階段到 2027 年。CFTC 主席 Michael Selig 表示，委員會不再以「當作 OK 繃的不採取行動函」拼湊監管，這是讓事件合約監管框架「面向未來」的重要一步。",
+ "dive_html": "監管從個案豁免轉成正式規則，等於確認完全擔保的事件合約是 CFTC 轄下的常態商品，對 Kalshi、Polymarket 這類平台是正當性的加分；但同時各州正以「非法運動博奕」名義提告（佛州加入告 DraftKings），聯邦與州的管轄衝突反而更尖銳。原文沒有交代申報的具體欄位與違規罰則。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Yogonet International",
+   "title": "CFTC approves new reporting rules for prediction market contracts",
+   "url": "https://www.yogonet.com/international/news/2026/11/25/127474-cftc-approves-new-reporting-rules-for-prediction-market-contracts",
+   "time": "2026-11-26T00:18:33+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Yogonet",
+   "kind": "media",
+   "region": "中南美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

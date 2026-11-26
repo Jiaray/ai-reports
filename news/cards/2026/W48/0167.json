@@ -83,13 +83,25 @@
    "kind": "media",
    "region": "東南亞",
    "rank": 2
+  },
+  {
+   "name": "iGaming Business",
+   "title": "Malaysia seeks damages from Google over YouTube gambling content",
+   "url": "https://igamingbusiness.com/marketing-affiliates/malaysia-rm600m-google-over-youtube-gambling-content/",
+   "time": "2026-11-26T14:36:39+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "iGaming Business",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 2,
-  "regions": 2,
-  "media_weight": 3,
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 4,
   "community": {
    "hn": 0,
    "ptt": 0,

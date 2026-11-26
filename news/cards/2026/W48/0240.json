@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "id": "2026-W48-0240",
- "title": "印尼西爪哇礦坑淹水，搜救單位尋獲 8 具遺體、仍有 18 名礦工受困",
+ "title": "印尼西爪哇非法金礦淹水，13 人死亡、13 人仍受困失蹤",
  "line": "礦工自 11 月 23 日因大雨灌入 100 公尺深的礦井受困",
  "born_at": "2026-11-26T02:10:05+08:00",
  "first_reported_at": "2026-11-25T13:53:00+08:00",
- "updated_at": "2026-11-26T02:10:05+08:00",
- "version": 1,
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -66,13 +66,71 @@
    "kind": "media",
    "region": "東南亞",
    "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "At least 13 dead in Indonesia gold mine flood as rescue efforts intensify",
+   "url": "https://www.aljazeera.com/news/2026/11/26/at-least-13-dead-in-indonesia-gold-mine-flood-as-rescue-efforts-intensify",
+   "time": "2026-11-26T15:38:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Indonesia: rescuers race to find 13 miners trapped in flooded illegal gold mine",
+   "url": "https://www.euronews.com/2026/11/26/indonesia-rescuers-race-to-find-13-miners-trapped-in-flooded-illegal-gold-mine",
+   "time": "2026-11-26T13:14:01+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Indonesian rescuers resume search for 13 trapped in illegal mine; 13 others confirmed dead",
+   "url": "https://www.straitstimes.com/asia/se-asia/indonesian-rescuers-resume-search-for-13-people-trapped-inside-illegal-mine-after-13-confirmed-dead",
+   "time": "2026-11-26T12:30:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Indonesian rescuers resume search for 13 people trapped inside illegal mine after 13 confirmed dead",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOLW1ZVElueVNoRkw0NVNoNUFNV0VsMHpqamI1Q2NjWEE2UHFLd1hMa09hNlhVTHA5d3UzNXhFVzBwMzhJY1I3VC00REw1R3AwckhtSmZLV2NYYXBHZWNLX2REQnFHdWZJS0s0a0Vtek9PeUtfVVNmN1VHNzVLTU1LbzBvcUhPNWVDVTV3UUVwbFZYQ1JIZU5XNFZhVVZhOHdVRjl5NWdfamhlSmp6NnRKV2ZxdHBZaEFyRUZSalNuNzBQbXpUeG5GVEJ2eGtRajhK?oc=5",
+   "time": "2026-11-26T10:37:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-26T16:09:33+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "死亡人數增至至少 13 人、另 13 人失蹤，西爪哇搜救單位負責人 Desiana Kartika Bahari 11 月 26 日證實。Al Jazeera 報導，事發地是茂物縣 Nanggung 一座未經許可的金礦，26 名工人在 23 日大雨灌入 100 公尺深礦井時受困。警方在淹水約 16 小時後才接獲礦工受困通報，附近的國營礦業公司 PT Antam 於 25 日凌晨向雅加達搜救局正式通報後才啟動全面救援；當局表示因礦工非法作業而未即時獲報，當地礦工與居民起初自行抽水，直到情況失控。325 名搜救人員面臨水位高、光線不足、坑道狹窄濕滑等困難。",
+   "update": "印尼西爪哇非法金礦淹水死亡增至 13 人，另 13 人仍失蹤；淹水 16 小時後才有人通報",
+   "refocus": false,
+   "old_title": "印尼西爪哇礦坑淹水，搜救單位尋獲 8 具遺體、仍有 18 名礦工受困"
+  }
+ ],
  "heat": {
-  "outlets": 1,
-  "regions": 1,
-  "media_weight": 2,
+  "outlets": 4,
+  "regions": 3,
+  "media_weight": 9,
   "community": {
    "hn": 0,
    "ptt": 0,

@@ -88,13 +88,25 @@
    "kind": "media",
    "region": "台灣",
    "rank": 1
+  },
+  {
+   "name": "iThome 資安",
+   "title": "泰味國際委外雲端發票平臺遭異常存取，290人受影響",
+   "url": "https://www.ithome.com.tw/news/180806",
+   "time": "2026-11-26T11:00:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 2,
+  "outlets": 3,
   "regions": 1,
-  "media_weight": 5,
+  "media_weight": 6,
   "community": {
    "hn": 0,
    "ptt": 0,

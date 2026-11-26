@@ -1,0 +1,113 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0270",
+ "title": "義大利、瑞士與英國 NCSC 示警 AI 代理自主發動網路攻擊增加，駭客數分鐘內就能找出企業技術債弱點",
+ "line": "示警點名 ARTEX、DeepSeek Harness 紅隊版、PentAGI 等攻擊框架，攻擊對象多是設定錯誤與外洩憑證",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T03:39:31+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "IT",
+   "CH",
+   "GB"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "AI"
+  ],
+  "event": [
+   "聲明評論",
+   "資安事件"
+  ],
+  "org": [
+   "CSIRT Italia",
+   "瑞士聯邦網路安全辦公室",
+   "英國國家網路安全中心",
+   "CrowdStrike"
+  ],
+  "person": [
+   "Eric Loui"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "AI 代理攻擊",
+   "ARTEX AI",
+   "CyberStrikeAI",
+   "DeepSeek Harness",
+   "PentAGI",
+   "技術債"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "瑞士與義大利的資安機關警告，AI 代理驅動的自動化攻擊正鎖定關鍵基礎設施組織，並列出近期入侵事件中出現的四個 AI 滲透測試與紅隊框架：ARTEX AI、CyberStrikeAI、DeepSeek Harness - Red Team 與 PentAGI。CSIRT Italia 表示偵測到大規模惡意行動，多個 AI 代理平行運作、數小時內攻陷大量系統；其中一起 DeepSeek Harness 案例由協調者分派任務給 5 個代理，從情蒐、利用到持續潛伏，把低影響漏洞、設定錯誤與外洩憑證串成攻擊鏈，甚至即時撰寫惡意程式碼繞過端點防護。英國 NCSC 也於 11 月 24 日警告，自 9 月以來 AI 輔助攻擊顯著增加、部分造成服務中斷或入侵；駭客利用的多半不是新漏洞，而是企業多年累積的技術債，如誤把憑證提交到程式碼庫、IaC 組態錯誤、預設帳密、缺乏驗證的 API，NCSC 稱 AI 代理可能數分鐘就找到這些弱點。iThome 引述 CrowdStrike 分析師 Eric Loui 說法，有 AI 代理在約 90 分鐘內自行發現並利用 SQL 注入漏洞。",
+ "dive_html": "三國同時示警說明 AI 代理攻擊已從概念變成日常；關鍵訊號是攻擊目標從「零日」轉向「被遺忘的技術債」，代表過去靠「沒人會發現」的風險已不成立。對台灣遊戲與軟體團隊，最該先做的是掃描 Git 歷史中的金鑰、盤點測試環境與舊 API；這類弱點修補成本低、但被 AI 代理大規模掃到的機率正快速上升。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "對外暴露系統的各類組織，義大利、瑞士示警以關鍵基礎設施為主；英國 NCSC 稱多個產業受波及"
+  },
+  {
+   "name": "處置",
+   "html": "減少對外暴露的系統、優先修補對外系統與已遭利用的漏洞、停用不需要的遠端管理介面、監控異常活動；清查程式碼庫中的憑證、IaC 設定、預設帳密與未驗證的 API"
+  }
+ ],
+ "sources": [
+  {
+   "name": "BleepingComputer",
+   "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+   "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+   "time": "2026-11-26T03:39:31+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "BleepingComputer",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "iThome 資安",
+   "title": "英國NCSC示警AI輔助網路攻擊顯著增加，駭客數分鐘內就可能利用企業既有資安弱點",
+   "url": "https://www.ithome.com.tw/news/180781",
+   "time": "2026-11-26T08:00:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

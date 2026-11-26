@@ -1,0 +1,119 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0269",
+ "title": "Palo Alto 修補 PAN-OS 上遭利用的 Linux 核心提權漏洞 Fragnesia，攻擊者串接 PHP2Shell 取得防火牆 root",
+ "line": "管理介面暴露於網際網路的 PAN-OS 設備是目標，官方公告僅列資訊性、未給 CVSS",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T06:05:09+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "漏洞揭露",
+   "資安事件"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Palo Alto Networks",
+   "Unit 42",
+   "美國網路安全暨基礎設施安全局",
+   "Dream Security"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "CVE-2026-46300",
+   "Fragnesia",
+   "PHP2Shell",
+   "CVE-2026-109618",
+   "CVE-2026-109619",
+   "PAN-OS"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Palo Alto Networks 於 11 月 25 日發布公告 PAN-SA-2026-0015 與 PAN-OS 更新，修補 Linux 核心 XFRM ESP-in-TCP 子系統的本機提權漏洞 Fragnesia（CVE-2026-46300，5 月首度揭露），稱已觀察到它被用來攻擊對外暴露的 PAN-OS 管理介面，但公告評為「資訊性」、未給 CVSS。攻擊鏈分兩段：先利用 10 月揭露的 PHP2Shell（CVE-2026-109618、CVE-2026-109619，未經驗證即可以 PHP 工作程序權限執行程式碼，其中 109618 的 CVSS 4.0 為 9.2）打進管理網頁介面或掛有管理設定檔的資料平面介面，再以 Fragnesia 提權到 root。Palo Alto 表示 Fragnesia 在 PAN-OS 上唯一已知的利用途徑就是先完成 PHP2Shell，GlobalProtect 入口、閘道與無用戶端 VPN 不受影響。CISA 已於 10 月 28 日警告兩者被串接部署 PHP webshell；Dream Security 10 月回報，疑似與中國有關的攻擊者藉此拿下 24 台 Palo Alto 防火牆與 1 台內部防火牆管理伺服器。Unit 42 於 10 月 29 日稱全球約 0.02% 客戶設備把管理介面開放到網際網路並受影響。",
+ "dive_html": "「資訊性」的標示容易讓人延後處理，但整條鏈已在野外被用來拿下防火牆 root，防火牆一旦失守，後方網段的流量與信任關係都要重新檢視。PHP2Shell 修補到位就堵住目前唯一已知入口，所以先查 PHP2Shell 修補與管理介面暴露狀況最有效；曾暴露過的設備只升級不夠，要做入侵檢查。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "管理介面（或掛管理設定檔的資料平面介面）暴露於網際網路的 PAN-OS 10.2、11.1、11.2、12.1、12.2；CVE-2026-46300（官方未給 CVSS）串接 CVE-2026-109618／109619；利用狀態：已遭利用"
+  },
+  {
+   "name": "處置",
+   "html": "升級至已修補的 PAN-OS 版本（10.2、11.1、11.2、12.1、12.2 各分支修補版及之後版本），並先確認已套用 PHP2Shell 修補；管理介面只允許可信內部 IP 存取、移到跳板機之後；曾暴露的設備檢查未知帳號、異常設定變更與可疑登入"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ICSDA 資安日報",
+   "title": "防火牆被提權成root，Fragnesia補上",
+   "url": "https://www.infosecurity-magazine.com/news/palo-alto-fragnesia-php2shell-fix/",
+   "time": "2026-11-26T06:15:37+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Infosecurity Magazine",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "BleepingComputer",
+   "title": "Palo Alto Networks warns of Fragnesia flaw exploited in PAN-OS attacks",
+   "url": "https://www.bleepingcomputer.com/news/security/palo-alto-networks-warns-of-fragnesia-flaw-exploited-in-pan-os-attacks/",
+   "time": "2026-11-26T06:05:09+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "BleepingComputer",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "iThome 資安",
+   "title": "Palo Alto Networks修補防火牆已遭利用的Linux核心漏洞Fragnesia",
+   "url": "https://www.ithome.com.tw/news/180808",
+   "time": "2026-11-26T11:00:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

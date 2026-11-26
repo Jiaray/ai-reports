@@ -1,0 +1,95 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0258",
+ "title": "42 州總檢察長介入 Character.AI 破產程序，反對拍賣 2,100 萬帳戶私密聊天紀錄",
+ "line": "資料含逾 210 萬名未成年人帳戶，唯一已知競標者是 11 月 13 日才成立的匿名公司",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T01:35:58+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "人權"
+  ],
+  "event": [
+   "訴訟判決",
+   "爭議風波"
+  ],
+  "sector": [
+   "網路平台"
+  ],
+  "org": [
+   "Character.AI",
+   "加州司法部",
+   "Disney",
+   "Google"
+  ],
+  "person": [
+   "Rob Bonta",
+   "William Tong"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "Character.AI",
+   "破產拍賣",
+   "個資",
+   "第 11 章破產"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "TechCrunch 報導，由 42 位州總檢察長組成的聯盟介入 AI 聊天機器人公司 Character.AI 的破產程序，要阻止它拍賣用戶資料。各州聲明指出，這批資料含逾 2,100 萬個美國帳戶的聊天紀錄，其中逾 210 萬個屬於未成年人，另含 IP 位址等個資。Character.AI 已於 10 月申請第 11 章破產保護，此前曾承諾不出售用戶個資。目前唯一披露的競標者是 2026 年 11 月 13 日在德拉瓦州註冊的匿名公司 Smirks and Pangs Acquisition LLC，隔天即被選為底價競標者，拍賣定於 12 月 1 日舉行，買家如何處置聊天紀錄不明。總檢察長們指買家不受原隱私政策約束、可轉售資料，且公司向法院揭露的資訊不如向競標者充分；加州總檢察長 Bonta 稱此舉違反聯邦與加州法律，康乃狄克州總檢察長 Tong 批評公司把青少年推入不當對話。加州、科羅拉多、紐約、康乃狄克等州的聊天機器人安全法將於 2027 年 1 月 1 日生效。另一項讓 Disney 以 2,000 萬美元取得 Character.AI 智慧財產的授權案也遭州檢反對，尚未獲法院核准。",
+ "dive_html": "這是 AI 公司倒閉後「對話資料歸誰」的指標案：聊天紀錄的敏感度遠高於一般使用紀錄，若破產法院放行，等於替其他陷入財務困境的 AI 新創開了把用戶對話當資產變現的先例。12 月 1 日拍賣前法院怎麼裁定是關鍵；對在台灣使用海外 AI 服務的企業與個人，也提醒隱私承諾在破產程序中可能失效。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AIHOT",
+   "title": "42 州总检察长介入 Character.AI 破产程序，反对拍卖用户私密聊天记录",
+   "url": "https://aihot.news/items/j0hoj1rlmltoft6okserijp25",
+   "time": "2026-11-26T01:35:58+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

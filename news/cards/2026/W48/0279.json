@@ -1,0 +1,93 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0279",
+ "title": "義大利眾議院預算委員會駁回多數博奕修正案，老虎機 PREU 稅 2027 年 1 月照漲，運動投注加稅案仍在審",
+ "line": "AWP 機台稅率由 24% 升至 25%、VLT 由 8.6% 升至 9.6%，延到 2030 年的提案遭否決",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T00:49:16+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "IT"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "總體經濟"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "義大利眾議院預算委員會",
+   "聯盟黨",
+   "義大利力量黨"
+  ],
+  "person": [
+   "Andrea de Bertoldi"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "PREU",
+   "AWP",
+   "VLT",
+   "2027 年預算",
+   "運動投注稅"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "義大利眾議院預算委員會 11 月 20 日把 2027 年預算 6,558 件修正案中的 1,700 多件判定不予受理，其中約 20 件涉及博奕，多數因缺乏財源配套被駁回。預算案把 AWP 老虎機的 PREU 稅率由 24% 提高到 25%、影像彩券終端機（VLT）由 8.6% 提高到 9.6%，兩項都在 2027 年 1 月生效；聯盟黨議員 Andrea de Bertoldi 提議延到 2030 年遭駁回，他另兩件降低適用 PREU 優惠稅率派彩門檻的修正案也不予受理，這些案子的財源部分仰賴提高線上博奕稅。其他遭駁回的還有義大利力量黨要求 VLT 最低派彩率 82%、義大利活力黨要求 2027 年 3 月前重新招標刮刮樂 Gratta e Vinci。另一件提高運動投注與線上遊戲稅的修正案仍在審議中。",
+ "dive_html": "老虎機加稅確定上路，義大利實體機台營運商的毛利會被壓縮，業者原寄望的延後方案落空；真正的變數是仍在審的運動投注與線上遊戲加稅，若通過將直接衝擊線上業者。在歐洲各國紛紛向博奕業開徵新稅的背景下，義大利的走向是重要指標。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Yogonet International",
+   "title": "Italy rejects most gambling budget amendments as betting tax proposal survives",
+   "url": "https://www.yogonet.com/international/news/2026/11/25/127477-italy-rejects-most-gambling-budget-amendments-as-betting-tax-proposal-survives",
+   "time": "2026-11-26T00:49:16+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Yogonet",
+   "kind": "media",
+   "region": "中南美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

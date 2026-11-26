@@ -1,0 +1,139 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0251",
+ "title": "金融時報：輝達通知戴爾、美超微暫停向馬來西亞、新加坡、泰國、印尼出貨伺服器，因美國要求先進 AI 晶片出口須申請許可",
+ "line": "中國 AI 實驗室透過東南亞雲端業者租用輝達算力繞過禁令，美方臨時規則給雲端業者 90 天證明沒有受限用戶",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T13:00:19+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞",
+   "北美",
+   "中國大陸"
+  ],
+  "country": [
+   "US",
+   "MY",
+   "SG",
+   "TH",
+   "ID"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "企業經營",
+   "AI"
+  ],
+  "event": [
+   "政策法規",
+   "財報營運"
+  ],
+  "story": [
+   "AI晶片出口管制"
+  ],
+  "sector": [
+   "半導體",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Nvidia",
+   "Dell",
+   "Supermicro",
+   "美國商務部"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "出口管制",
+   "AI 晶片",
+   "資料中心",
+   "雲端算力租用"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 AIHOT 轉述金融時報報導，輝達已通知 Dell、美超微等製造夥伴，停止向馬來西亞、新加坡、泰國與印尼出貨伺服器，原因是美國商務部發布臨時規則，要求向這些國家及巴西出口先進 AI 晶片須申請許可。中國 AI 實驗室一直透過當地雲端服務商租用輝達算力，繞過直接出口禁令；雲端業者現在有 90 天證明用戶中沒有受限實體，但據報導沒有人說明該如何申請。這次停運衝擊輝達一條重要收入線：輝達 2025 年經新加坡部門入帳 1,040 億美元、年增 72%。DW 報導，馬來西亞自 2025 年 2 月以來吸引約 5,100 億歐元 AI 基礎設施投資，柔佛州 27 座新資料中心中有 16 座位在當地，中國企業常利用東南亞的離岸算力取得受限晶片。",
+ "dive_html": "這等於把「雲端轉租」這條灰色通道直接切斷，東南亞資料中心的建設與融資可能放緩（先前已有 66 億美元貸款受影響）。對台灣伺服器代工鏈，出貨目的地若集中在東南亞，短期訂單時程可能遞延；但許可制若有明確流程，合規客戶仍可恢復出貨，關鍵在商務部何時給出申請指引。輝達正處治理風波，主動停運也有向華府表態合規的意味。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "輝達 2025 年經新加坡部門入帳 1,040 億美元、年增 72%；雲端業者須在 90 天內證明無受限用戶；馬來西亞 AI 基礎設施投資約 5,100 億歐元"
+  }
+ ],
+ "sources": [
+  {
+   "name": "AIHOT",
+   "title": "FT 报道 Nvidia 暂停向东南亚四国发运服务器",
+   "url": "https://aihot.news/items/rlt60gq96bl1cf5b88o8rbj30",
+   "time": "2026-11-26T15:00:25+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Financial Times",
+   "title": "Nvidia halts chip shipments to south-east Asia",
+   "url": "https://www.ft.com/content/7838a715-07d4-4605-aa60-21f5af2b2370?syn-25a6b1a6=1",
+   "time": "2026-11-26T13:00:19+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Nvidia halts server shipments to four Southeast Asian countries, FT reports",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxOM1ZtZ1FmQ3d0Nk9xZzFmaDNtd3ZURjZ1cm1sWkptUktqcm1aOUc3eWpIYjVpUGoxWGxWd2FjRTZiTzBGRGtaTTA3ZUFsTEJLNk5BV3VfV2VKNHJVbk1mTDJqYkZkdEFPQ09jdzVHRzBHazlKVko5bVp4WDZMSUpUaEpyZk5ZUUUxbm42MjBIRWJCaGZzVXRkNklKN2dfdDRES3RwazQ1UU55Q3Bf?oc=5",
+   "time": "2026-11-26T13:09:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "DW News",
+   "title": "How Chinese companies circumvent chips sanctions in Southeast Asia",
+   "url": "https://www.dw.com/en/how-chinese-companies-circumvent-chips-sanctions-in-southeast-asia/a-80041002?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-26T14:11:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 1,
+  "media_weight": 8,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,169 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0254",
+ "title": "埃及開羅環城公路油罐車翻覆爆炸起火，至少 31 死、21 傷，27 輛汽機車被燒毀",
+ "line": "事故發生在吉薩省人口稠密的 Warraq 區，檢方已展開調查並對兩名罹難者採 DNA 鑑定",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T03:56:45+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東",
+   "非洲"
+  ],
+  "country": [
+   "EG"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "災害與事故"
+  ],
+  "event": [
+   "意外事故"
+  ],
+  "org": [
+   "埃及衛生部",
+   "埃及石油部",
+   "埃及檢察署"
+  ],
+  "person": [
+   "Khaled Abdelghaffar"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "油罐車爆炸",
+   "開羅環城公路",
+   "吉薩"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "埃及當局表示，一輛由私人業者營運、載運石油產品的油罐車 11 月 25 日晚間在開羅環城公路吉薩省 Warraq 路段、10 號隧道上方偏離道路碰撞翻覆後爆炸起火，造成至少 31 人死亡、21 人受傷（France 24 報導傷者 15 人）。衛生部派出 39 輛救護車，把傷者送往 3 家醫院，衛生部長 Khaled Abdelghaffar 要求附近醫院提高警戒並親赴現場督導。CNN 地理定位的影片顯示猛烈火勢吞噬多輛車、接連傳出爆炸聲，濃煙直竄天空。埃及檢方初步估計 27 輛汽車與機車被燒毀，部分遺體嚴重碳化，已下令對兩名身分未確認的罹難者採集 DNA，並派員勘查殘骸與訪談傷者以釐清原因。DW、Euronews 報導當局警告死亡人數可能再上升。Guardian 描述數百人聚集在事故現場附近。",
+ "dive_html": "事故發生在大開羅最重要的環狀幹道、又緊鄰密集住宅區，傷亡集中在周邊車流，顯示危險品運輸路線與時段管制的漏洞。檢方調查焦點會在私人業者的車況與駕駛，原文沒有交代事故時速與是否違規行駛市區路段。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "埃及油罐車撞車爆炸引發大火　至少31死、21傷",
+   "url": "https://www.cna.com.tw/news/aopl/202611260105.aspx",
+   "time": "2026-11-26T12:31:36+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "公視新聞網",
+   "title": "埃及油罐車翻覆爆炸起火 波及27車、釀31死21傷",
+   "url": "https://news.pts.org.tw/article/837466",
+   "time": "2026-11-26T14:48:46+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "公視",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "BBC Top News",
+   "title": "Thirty-one killed in massive fire as fuel tanker crashes on Cairo highway",
+   "url": "https://www.bbc.co.uk/news/articles/cqy7rn30v314o",
+   "time": "2026-11-26T06:18:06+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "At least 31 killed as fuel tanker crash ignites large fire on Cairo highway",
+   "url": "https://www.theguardian.com/world/2026/nov/25/people-killed-fuel-tanker-crash-ignites-large-fire-cairo-highway",
+   "time": "2026-11-26T08:39:10+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "At least 31 killed in Cairo fire after fuel truck overturns on busy highway",
+   "url": "https://www.france24.com/en/africa/20261126-at-least-31-killed-in-cairo-fire-after-fuel-truck-overturns-on-busy-highway",
+   "time": "2026-11-26T09:25:54+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "Egypt: At least 31 dead after fuel truck overturns on highway",
+   "url": "https://www.dw.com/en/egypt-at-least-31-dead-after-fuel-truck-overturns-on-highway/a-80055175?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-26T05:37:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "At least 30 killed in highway fire in Cairo district",
+   "url": "https://www.euronews.com/2026/11/25/at-least-30-killed-in-highway-fire-in-cairo-district",
+   "time": "2026-11-26T03:56:45+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Dawn",
+   "title": "Egypt says 31 dead in Cairo fire after fuel truck overturns",
+   "url": "https://www.dawn.com/news/2047191/egypt-says-31-dead-in-cairo-fire-after-fuel-truck-overturns",
+   "time": "2026-11-26T15:51:10+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 8,
+  "regions": 3,
+  "media_weight": 16,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -110,13 +110,25 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 1
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Ukraine says five jets damaged in attack on Russia’s Savasleyka airbase",
+   "url": "https://www.aljazeera.com/news/2026/11/26/ukraine-attacks-russian-military-base-says-five-planes-struck",
+   "time": "2026-11-26T09:39:46+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 4,
-  "regions": 2,
-  "media_weight": 9,
+  "outlets": 5,
+  "regions": 3,
+  "media_weight": 11,
   "community": {
    "hn": 0,
    "ptt": 0,

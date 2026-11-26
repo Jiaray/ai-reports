@@ -1,0 +1,102 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0283",
+ "title": "美高梅中國宣派每股 0.722 港元特別股息，母公司美高梅國際可分得約 2 億美元",
+ "line": "特別股息約 27.4 億港元、為 8 月中期股息近三倍，預定 12 月 18 日派發",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T04:12:47+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "港澳",
+   "北美"
+  ],
+  "country": [
+   "MO",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "企業經營"
+  ],
+  "event": [
+   "財報營運"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "美高梅中國",
+   "美高梅國際"
+  ],
+  "person": [
+   "Bill Hornbuckle"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "特別股息",
+   "MGM Macau",
+   "MGM Cotai",
+   "MGM Osaka"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "在香港上市、經營美高梅澳門與美獅美高梅的美高梅中國 11 月 24 日公告，宣派每股 0.722 港元特別股息，合計約 27.4 億港元（Casino.org 換算約 3.49 億美元），規模接近 8 月中期股息的三倍，預定 12 月 18 日派發。持股 56% 的美國美高梅國際確認將分得約 15.4 億港元（約 2 億美元）。美高梅國際總裁兼執行長 Bill Hornbuckle 表示，美高梅中國能回饋股東如此大額現金，「反映其傑出表現與營運策略」；這筆錢是今年迄今已收到約 2.6 億美元分派與品牌授權費淨分成之外的增量，讓公司更有彈性把資金投向報酬吸引人的機會。美高梅國際目前承諾的投資包括總額 1.51 兆日圓（約 94.9 億美元）、預定 2030 年底開幕的日本首座賭場綜合度假村 MGM Osaka。美高梅國際 9 月底長期負債約 56.7 億美元，較 2025 年底的 62.3 億美元減少 9.0%。",
+ "dive_html": "美高梅中國大手筆派現，顯示澳門業務現金流穩健；但近期它也把 2027 年品牌授權費上限調降 17%，母公司從澳門抽取現金的管道正從授權費轉向股息。資金回流美國母公司，主要用途之一是大阪 IR 的龐大資本支出，澳門獲利在支撐日本布局。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GGRAsia",
+   "title": "MGM China cash return to shareholders proves its outstanding performance: Hornbuckle",
+   "url": "https://www.ggrasia.com/mgm-china-cash-return-to-shareholders-proves-its-outstanding-performance-hornbuckle",
+   "time": "2026-11-26T09:12:20+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "GGRAsia",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 3
+  },
+  {
+   "name": "Casino.org News",
+   "title": "MGM Hauling In $200M Special Dividend From Macau Unit",
+   "url": "https://www.casino.org/news/mgm-hauling-in-200m-special-dividend-from-macau-unit/",
+   "time": "2026-11-26T04:12:47+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "0 comments",
+   "family": "Casino.org",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,89 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0275",
+ "title": "報導：Ubisoft 新專案提案須說明如何用生成式 AI 加速開發，不用就得詳細解釋理由",
+ "line": "員工稱「被生成式 AI 逼到牆角」，Ubisoft 上週剛成立生成式 AI 子公司 Motherbrain",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T04:19:40+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "FR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "遊戲",
+   "AI"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "sector": [
+   "遊戲"
+  ],
+  "org": [
+   "Ubisoft",
+   "Vertical Slice",
+   "Motherbrain"
+  ],
+  "person": [
+   "Yves Guillemot"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "生成式 AI",
+   "遊戲開發流程",
+   "Teammates",
+   "裁員"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據多名匿名受訪的 Ubisoft 現職員工向 Vertical Slice 透露，團隊提出新專案時被要求說明生成式 AI 如何幫助加快製作；若不打算使用，必須詳細解釋原因，沒寫清楚的提案不會獲准。一名消息人士說領導層雖未直接強制，但已全面押注這項技術，「我們都覺得一直被生成式 AI 逼到牆角」。員工一直要求公司核准小團隊的小型專案、別只靠大型 3A；審查提案的主管據稱以生成式 AI 作為支撐這個方向的手段。另一名消息人士說，公司表示 AI 能讓「小而精實的敏捷團隊」更快做出原型，目標是快速迭代、淘汰再篩出好案子，若不用 AI 就要有理由；Ubisoft 認為生成式 AI 已「無法避免」，且多數玩家不在意、只有少數人大聲反對。報導前一週 Ubisoft 剛成立生成式 AI 子公司 Motherbrain，收納其首款可玩生成式 AI 體驗《Teammates》團隊；執行長 Yves Guillemot 稱該單位將開發玩法的專有技術。Ubisoft 最新財報顯示員工數過去四年減少 5,200 人。",
+ "dive_html": "把「不用 AI 要說明理由」寫進提案審查，等於把舉證責任倒轉，是大型發行商推動 AI 最強硬的做法之一；結合四年減少 5,200 人的背景，員工很難不把它解讀成縮編工具。對其他遊戲公司，值得觀察的是這套「小團隊加 AI 快速原型」能否真的篩出好專案；若成效不佳，反彈會很快反映在人才流失。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GamesIndustry.biz",
+   "title": "Ubisoft staff must justify not using generative AI in pitches, report claims",
+   "url": "https://www.gamesindustry.biz/ubisoft-staff-must-justify-not-using-generative-ai-in-pitches-report-claims",
+   "time": "2026-11-26T04:19:40+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "GamesIndustry.biz",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

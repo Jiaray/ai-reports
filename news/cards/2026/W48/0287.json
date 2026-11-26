@@ -1,0 +1,116 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0287",
+ "title": "挪威低成本長程航空 Norse Atlantic 稱財務「危急」、突然停飛，股價單日重挫 53%",
+ "line": "巴基斯坦國際航空的英國濕租航班被迫取消，改用自家波音 777 執飛",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T03:32:39+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "南亞"
+  ],
+  "country": [
+   "NO",
+   "GB",
+   "PK"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "企業經營"
+  ],
+  "event": [
+   "裁員重組",
+   "市場波動"
+  ],
+  "sector": [
+   "運輸與物流"
+  ],
+  "org": [
+   "Norse Atlantic Airways",
+   "巴基斯坦國際航空"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Norse Atlantic",
+   "濕租",
+   "航空停飛"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "挪威低成本長程航空 Norse Atlantic Airways 警告財務處於「危急狀態」後，11 月 25、26 日部分航班取消。公司表示前景取決於能否取得短期流動資金，並正洽談可能的策略性收購。Norse 股價 25 日收跌 53.3%，盤中一度重挫 86%。依 10 月初才簽的濕租協議（由一家航空提供飛機與機組給另一家），Norse 原定 25 日執飛巴基斯坦國際航空（PIA）倫敦—伊斯蘭馬巴德 PK786 與曼徹斯特—拉合爾 PK710，因「突如其來的營運暫停」取消；PIA 表示自 26 日起改以自家波音 777 執飛英國航線，Dawn 報導旅客受困焦慮。Norse 自家倫敦蓋威克—奧蘭多 Z0 783 也顯示取消。CNBC 指截至奧斯陸時間 26 日凌晨 1 點半，Norse 仍在售票，但尚未正式說明營運狀態。",
+ "dive_html": "公司停飛卻仍在賣票，對已購票旅客是最大風險，英美感恩節旅遊高峰更放大衝擊。低成本長程模式長期受油價與機隊成本擠壓，若找不到買家，可能步上其他低成本長程航空的後塵；原文沒有交代負債規模與融資對象。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "股價 25 日收跌 53.3%、盤中最多跌 86%；PK786、PK710、Z0 783 取消"
+  }
+ ],
+ "sources": [
+  {
+   "name": "CNBC",
+   "title": "Norse Atlantic flights suspended after warning finances 'critical'",
+   "url": "https://www.cnbc.com/2026/11/26/norse-airline-finance-business.html",
+   "time": "2026-11-26T09:52:20+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Dawn",
+   "title": "PIA passengers in UK left distressed as 2 flights cancelled due to abrupt Norse Atlantic suspension",
+   "url": "https://www.dawn.com/news/2047053/pia-passengers-in-uk-left-distressed-as-2-flights-cancelled-due-to-abrupt-norse-atlantic-suspension",
+   "time": "2026-11-26T05:58:07+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Pakistan's PIA to shift UK flights to own fleet after Norse Atlantic suspension",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxOTkFGakJWZVBjNkpWNGJSajBSZFVudDhWdVhpYU4xWjROeWRjZ05JMHpDa0oxekJDeUUxQTVIVHc3cUZYQktSbmV1bVFZT2VsR0tJVW1NWk9maVVmU0RrY1J0U050cU14S2s5MEZLS28xM3lIVDEzcThxbmlGWXBvOGxaZkNEbEZJdGN5aFRxSndmU0RhSGVyN0tsaS1SWkl1WFJ2ajZZcWJnMEJSS2NZd3A0QUp4MFdPRk1jWlg2SWdhaEFqdlpLZlRTT1JLcVla?oc=5",
+   "time": "2026-11-26T03:32:39+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 6,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

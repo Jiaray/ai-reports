@@ -1,0 +1,81 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0265",
+ "title": "數發部推政府 AI 風險分級與內控檢核，環境部等部會開始建立 AI 治理流程",
+ "line": "數發部也研議 AI Agent 的身分、授權與責任歸屬等新治理議題",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T06:15:37+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "台灣"
+  ],
+  "country": [
+   "TW"
+  ],
+  "taiwan": [
+   "直接"
+  ],
+  "topic": [
+   "AI",
+   "資安"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "org": [
+   "數位發展部",
+   "環境部"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "AI 治理藍圖",
+   "AI 風險分級",
+   "AI Agent"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 iThome 報導（ICSDA 資安日報整理），數位發展部 8 月提出政府 AI 治理藍圖，強調導入 AI 不能只追求應用，也必須建立風險管理制度。目前 AI 風險分類、分級內控與檢核機制已逐步落地，環境部等部會開始依循這套架構建立 AI 治理流程。隨著 AI Agent 快速發展，數發部也進一步研議身分、授權與責任歸屬等新治理議題。ICSDA 列為中危、建議排程處理，提醒機關導入 AI 前先做風險分級，落實最小權限、資料去識別、操作日誌留存與人工覆核，並為 AI Agent 建立獨立身分與授權管理。",
+ "dive_html": "分級架構讓各部會依應用情境決定管控強度，避免各自摸索；真正難的是 AI Agent：能自主呼叫工具、存取系統的代理一旦遭提示注入或權限濫用，影響範圍遠大於傳統系統。原文沒有交代分級標準細節與時程，責任在機關、廠商與使用者間怎麼劃分，將決定對承接政府案的廠商有多少實質要求。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "ICSDA 資安日報",
+   "title": "數發部建立AI風險分級，助各部會治理",
+   "url": "https://www.ithome.com.tw/news/178458",
+   "time": "2026-11-26T06:15:37+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

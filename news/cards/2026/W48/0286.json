@@ -1,0 +1,117 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0286",
+ "title": "SpaceX 宣布向每個川普帳戶捐 1 股、馬斯克個人再配捐 1 股，總值近 180 億美元",
+ "line": "公司股份下月轉入，馬斯克個人股份待明年 6 月閉鎖期屆滿後轉移",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T14:39:34+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "企業經營",
+   "社會"
+  ],
+  "event": [
+   "其他"
+  ],
+  "sector": [
+   "航太與國防"
+  ],
+  "org": [
+   "SpaceX",
+   "白宮"
+  ],
+  "person": [
+   "Elon Musk",
+   "Gwynne Shotwell"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Trump Account",
+   "川普帳戶",
+   "SpaceX 股票"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "SpaceX 11 月 25 日宣布，將向每個仍在使用中的「川普帳戶」捐贈 1 股新發行的 A 類普通股，執行長馬斯克個人將配捐同樣股數。川普帳戶計畫旨在讓每位 18 歲以下美國人持有股市部位，白宮上月表示已開立近 7,000 萬個帳戶。SpaceX 25 日收盤價 127.44 美元，衛報估算這項承諾總值近 180 億美元。馬斯克在 X 表示，公司股份下個月轉入，他個人那一股「在明年 6 月閉鎖期屆滿後轉移」。SpaceX 聲明稱，「建造這些系統的公司，所有權應該延伸到」更多人。CNBC 指出，營運長 Shotwell 7 月已個人捐贈逾 200 萬股給川普帳戶；馬斯克 10 月曾宣布打算給每個美國孩子 1 股，當時稱「這是許多次中的第一次」。衛報指此舉發生在科技業爭論如何分享 AI 熱潮紅利之際。",
+ "dive_html": "SpaceX 剛獲 FCC 核准部署百萬顆衛星、上市後股價波動，大規模捐股同時擴大散戶股東基礎與政治好感，與川普政府的關係也更緊密。對既有股東而言是新股稀釋，原文沒有交代發行股數的會計處理與稀釋比例。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "每帳戶 2 股（公司 1 股、馬斯克 1 股）；約 7,000 萬個帳戶；SpaceX 收盤 127.44 美元；總值近 180 億美元"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Guardian Technology",
+   "title": "Elon Musk pledges to give two SpaceX shares to every child in the US",
+   "url": "https://www.theguardian.com/technology/2026/nov/26/elon-musk-pledges-to-give-two-spacex-shares-to-every-child-in-the-us",
+   "time": "2026-11-26T15:02:37+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "SpaceX, Musk pledge to donate a share each to active Trump Accounts",
+   "url": "https://www.cnbc.com/2026/11/25/spacex-musk-trump-account-stock.html",
+   "time": "2026-11-26T14:39:34+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Musk pledges two SpaceX shares for every American child",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxPNklmekFZWmFURnFwVlBHa2FlTGZwYkxaSkNSRUxMV2lsanFDc2hkdGF1RGhHWlJoUTBicHFXY1B3dWxHa0xmdU5mYzFBbGpYN3Z5N2xTS2U1bVBJeVZQVHRucldkRVhsVlVfNldnTWpRclIzSjJQa0tMMnBFVGhDTS1HYzdwVlctaXowdDJtdVJaNkxLcXo2Tk9Odi1XZnI0c1JScHZycXhWRUNUZmQ4?oc=5",
+   "time": "2026-11-26T14:55:21+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 2,
+  "media_weight": 7,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

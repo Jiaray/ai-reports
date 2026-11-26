@@ -1,0 +1,110 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0257",
+ "title": "Anthropic 執行長 Amodei 發長文否認主張「把人類自由意志交給 AI」，強調 AI 須受民主程序治理",
+ "line": "Amodei 稱把治理權交給 AI 是壞主意，並批評部分 AI 執行長只喊口號",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T03:12:53+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "聲明評論",
+   "爭議風波"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Anthropic"
+  ],
+  "person": [
+   "Dario Amodei",
+   "Elon Musk"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "AI 治理",
+   "自主武器"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Anthropic 執行長 Dario Amodei 於 11 月 25 日在 X 發表長文，否認自己主張人類應「交出自由意志」給 AI 系統，稱這種說法「荒謬」。他表示自己寫過數百頁文章，一貫主張 AI 必須受「正當的民主程序」治理；並以反對專制的論證類比，指即使專制決策更快，也不應為效率或安全犧牲正當性與自決，「把治理交給 AI」同樣是壞主意。他舉 CBS 訪談與〈Machines of Loving Grace〉等文章為證。據 AIHOT 整理，Amodei 區分全球治理層面的交權與具體任務的自動化，對後者持混合態度，包括主張對遞迴自我改進設限、警惕端到端部署對就業的衝擊，並稱 Anthropic 曾拒絕讓自家模型用於自主武器；文末批評部分 AI 執行長只喊「人類控制」口號而無實質行動。Al Jazeera 指這番發言出現在外界預測遠超人類智慧的模型即將出現之際；Elon Musk 轉發評論「Interesting」。",
+ "dive_html": "Anthropic 上市後股價承壓，執行長公開澄清立場，有替公司「安全優先」品牌止血的意味。他把「治理權」與「任務自動化」切開，是在回應外界把 AI 公司領袖描繪成鼓吹交權的批評；但文中對自動化的「混合態度」沒有具體政策承諾，限制遞迴自我改進要怎麼落實也沒交代。對監管者與企業用戶而言，值得看的是他點名其他執行長「只喊口號」，顯示前沿實驗室之間在治理論述上的競爭正在公開化。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AIHOT",
+   "title": "Dario Amodei 澄清不主张向 AI 交出人类自由意志",
+   "url": "https://aihot.news/items/e6gp31eup40d99unaon9umnpo",
+   "time": "2026-11-26T03:12:53+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Anthropic CEO Amodei denies wanting humanity to ‘surrender’ free will to AI",
+   "url": "https://www.aljazeera.com/economy/2026/11/26/anthropic-ceo-amodei-denies-wanting-humanity-to-surrender-free-will-to-ai",
+   "time": "2026-11-26T11:20:23+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "Dawn",
+   "title": "Anthropic chief denies wanting humans to 'surrender' free will to AI",
+   "url": "https://www.dawn.com/news/2047174/anthropic-chief-denies-wanting-humans-to-surrender-free-will-to-ai",
+   "time": "2026-11-26T12:09:49+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

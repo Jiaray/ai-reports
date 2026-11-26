@@ -1,0 +1,153 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0252",
+ "title": "CBS 調查：輝達向至少兩家設在美國、實際由中資掌控的公司出售頂級晶片，出口管制漏洞浮現",
+ "line": "加州 RiCloud AI 成立 10 週即成輝達優先夥伴，浪潮美國子公司改名 Aivres 後仍維持最高級合作",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T03:58:10+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "中國大陸",
+   "東南亞"
+  ],
+  "country": [
+   "US",
+   "CN"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "企業經營",
+   "國際關係"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "story": [
+   "AI晶片出口管制"
+  ],
+  "sector": [
+   "半導體",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Nvidia",
+   "CBS News",
+   "C4ADS",
+   "RiCloud AI",
+   "Aivres",
+   "浪潮集團"
+  ],
+  "person": [
+   "黃仁勳",
+   "Elizabeth Warren"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "出口管制",
+   "Blackwell",
+   "B300",
+   "晶片走私"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "CBS News 委託智庫 C4ADS 查閱數十份企業申報、法院紀錄後報導，輝達正向至少兩家總部在美國、實際由中國企業掌控的公司出售最先進晶片，相關資料可追溯至 2023 年。加州聖荷西資料中心業者 RiCloud AI 母公司是深圳、在香港上市的裕興科技，執行長畢業於解放軍指揮學院；RiCloud AI 於 2025 年 12 月成立僅 10 週就成為輝達合作夥伴，之後升為「優先」雲端夥伴，交易在輝達申報中歸為美國本土銷售。它今年以 1.2 億美元把 300 台搭載 B300 晶片的伺服器租給一家原本賣威士忌、以 AI 企業身分在那斯達克上市的台灣公司 Agencia Comercial Spirits。另一家加州企業 Aivres 原名 Inspur，在中國母公司浪潮集團多家企業 2023 年 3 月遭美國列入黑名單後改名，至今仍是輝達最高等級「精英運算夥伴」；據紐約時報分析，它在 2024 年 4 月至 2026 年 2 月向東南亞出口至少 56 億美元產品，約 30 億美元搭載 Blackwell 晶片。美國政府尚未指控 RiCloud 或裕興違法，輝達未回應 CBS 對背景審查的詢問。參議員華倫要求輝達向國會說明合規情況。",
+ "dive_html": "報導把焦點從「東南亞轉運」移到「美國本土的中資子公司」，意味管制若只看出貨地址就會失靈；黃仁勳 12 月初的國會作證很可能被追問夥伴審查流程。涉及的台灣上市殼公司若被點名，也可能引來台美監理關注。CBS 揭露的是合作關係與資金流向，是否違法仍待執法認定。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "RiCloud AI 成立 10 週成輝達夥伴；1.2 億美元租約、300 台 B300 伺服器；Aivres 對東南亞出口至少 56 億美元，約 30 億美元搭載 Blackwell；輝達去年對中國銷售近 200 億美元"
+  }
+ ],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "CBS：中資美企獲輝達高階晶片　出口管制漏洞浮現",
+   "url": "https://www.cna.com.tw/news/aopl/202611260112.aspx",
+   "time": "2026-11-26T12:45:51+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "科技新報",
+   "title": "CBS：中資美企獲輝達高階晶片，出口管制漏洞浮現",
+   "url": "https://technews.tw/2026/11/26/cbs-export-control-loopholes-chinese-funded-us-firms-nvidia-advanced-chips/",
+   "time": "2026-11-26T14:10:18+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "科技新報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Rappler",
+   "title": "How China got access to Nvidia’s AI chips despite rules to stop them",
+   "url": "https://www.rappler.com/world/us-canada/how-china-got-access-nvidia-ai-chips/",
+   "time": "2026-11-26T09:08:31+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "0 comments",
+   "family": "Rappler",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 3
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "How China got access to Nvidia's AI chips despite rules to stop them",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPU05FY1hvQmJod19oM3p3aTZQaS1CdktCWEZsSnk0TmVWREE1a0tmVW5kVnBxdG5VNU1TX2FmWnZ1aTc1UEQyblFkSklCZ3NlcU1XQUZQVDUwTXZ6R3BoVjlRb1RPY0pTNGdmUUdNZkw0Zi1oanJOcXFieGlBdzRTN05pa3FsaVhUWVk0UWpzc0hkN2kySGF6bGRpU1Y1a2IyNi1iaUFQZThLNVZON0E?oc=5",
+   "time": "2026-11-26T03:58:10+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "US chip curbs, distillation crackdown threaten Chinese AI model development, sources say",
+   "url": "https://www.straitstimes.com/asia/east-asia/us-chip-curbs-distillation-crackdown-threaten-chinese-ai-model-development-sources-say",
+   "time": "2026-11-26T15:54:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 5,
+  "regions": 3,
+  "media_weight": 10,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

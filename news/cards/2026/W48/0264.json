@@ -1,0 +1,96 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0264",
+ "title": "Linux 核心 NFS 伺服器藏 12 年的預驗證遠端 root 漏洞 Nfs2root（CVE-2026-99362），CVSS 9.8",
+ "line": "只要連得到 tcp/2049 就能在登入前寫入核心記憶體，已修補，須更新核心並重開機",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T04:35:50+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "開發與開源"
+  ],
+  "event": [
+   "漏洞揭露"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "OpenSec",
+   "ANSSI"
+  ],
+  "person": [
+   "Jérémy Jean"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "CVE-2026-99362",
+   "Nfs2root",
+   "nfsd",
+   "NFSv4.1",
+   "Linux 核心"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "資安公司 OpenSec 揭露 Linux 核心 NFS 伺服器（nfsd）的預驗證堆積溢位漏洞 CVE-2026-99362，命名 Nfs2root，CVSS 9.8。任何以預設 NFSv4.1 或 4.2 對外提供服務、tcp/2049 可被連線的 Linux 主機都受影響：客戶端可把自己的回覆快取縮到 0 位元組，再讓伺服器把完整回覆複製進去，一次 TCP 連線就能在核心堆積物件之後寫入 61 位元組，串接後可取得 root shell。漏洞源自 2014 年 3 月一個縮小回覆緩衝區的 commit，自 Linux 3.16 起每個核心都帶著它，涵蓋 LTS、發行版與設備核心。時間軸：法國 ANSSI 的 Jérémy Jean 於 2026 年 8 月 17 日附 KASAN 報告送修補；OpenSec 的 Antara 於 9 月 21 日標記此漏洞並自行做出 root shell；CVE 於 11 月 20 日隨修補公布。這則在 Hacker News 獲 128 分。",
+ "dive_html": "預驗證、網路可達、直接到核心 root，是最糟的組合；NFS 常出現在 NAS、CI 建置農場與 K8s 儲存節點，這些主機多在內網，但內網一旦有立足點就能橫向拿下。對台灣的開發團隊，優先盤點自建 NAS、遊戲建置伺服器與共用儲存是否開 2049；設備廠商的韌體核心更新通常落後，NAS 類設備可能要等很久，先用防火牆隔離最實際。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "啟用核心內建 nfsd、提供 NFSv4.1／4.2 且 tcp/2049 可連線的 Linux 主機（檔案伺服器、NAS、建置主機、Kubernetes 儲存節點）；Linux 3.16 起各版本；CVE-2026-99362；CVSS 9.8 重大；利用狀態：已有 PoC（研究方自行做出 root shell，原文沒有提到野外利用）"
+  },
+  {
+   "name": "處置",
+   "html": "升級至 Linux 6.12.117、6.18.61、7.3.2 或 7.4-rc1 並重開機；修補前以防火牆封鎖 tcp/2049"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "Nfs2root: A 12-year-old pre-auth remote root in the Linux kernel's NFS server",
+   "url": "https://opensec.in/blog/nfs2root-cve-2026-99362",
+   "time": "2026-11-26T04:35:50+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "128 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50647161",
+   "family": "opensec.in",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 128,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

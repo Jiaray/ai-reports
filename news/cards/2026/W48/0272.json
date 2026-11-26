@@ -1,0 +1,98 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0272",
+ "title": "跨國執法行動 Operation Endgame 瓦解 Gootloader、CastleRAT、StealC 基礎設施，查獲逾 640 萬筆遭竊憑證",
+ "line": "9 國警方查扣 235 台伺服器、257 個網域，涉及逾 4 萬名受害者",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T12:00:00+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "北美"
+  ],
+  "country": [
+   "US",
+   "GB",
+   "CA",
+   "DE",
+   "PL"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安",
+   "犯罪與司法"
+  ],
+  "event": [
+   "犯罪執法"
+  ],
+  "org": [
+   "歐洲刑警組織",
+   "美國司法部",
+   "聯邦調查局"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Operation Endgame",
+   "Gootloader",
+   "CastleRAT",
+   "StealC",
+   "WordPress"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "歐洲刑警組織（Europol）宣布，美國、英國、加拿大、德國、丹麥、波蘭等 9 國警方合作的跨國行動 Operation Endgame 於 11 月 9 日至 11 日同步瓦解 Gootloader、CastleRAT 與 StealC 等惡意程式網路，查扣 235 台伺服器、257 個網域，取得逾 640 萬筆遭竊憑證，涉及超過 4 萬名受害者。核心目標 Gootloader 是惡意下載程式，先前 FBI 警告它已入侵逾千個 WordPress 網站，為勒索軟體攻擊者提供初始存取；這次針對其基礎設施查扣 14 台伺服器與 218 個網域，清理 681 個遭入侵網站，美國司法部另從逾 100 台伺服器移除 Gootloader。行動也查扣遠端存取木馬 CastleRAT 的 120 台伺服器與 39 個網域，以及竊資軟體 StealC 的 102 台伺服器。Europol 表示 CastleRAT 受害者的遭竊憑證將透過 Have I Been Pwned、Shadowserver 等平台通知並提供查詢。",
+ "dive_html": "Gootloader 是勒索軟體的「入口供應商」，拆掉它能短期削弱下游攻擊；但這類網路過去被打掉後常重建。對有 WordPress 官網或活動頁的團隊，值得藉機確認外掛與管理帳號；竊資軟體偷到的開發者憑證也可能流進 AI 代理攻擊框架，查一次 HIBP 成本很低。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "逾 4 萬名受害者、640 萬筆遭竊憑證；681 個遭 Gootloader 入侵的網站"
+  },
+  {
+   "name": "處置",
+   "html": "可到 Have I Been Pwned 查詢是否在 CastleRAT 遭竊憑證之列；其他原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "iThome 資安",
+   "title": "多國警方聯手瓦解Gootloader等惡意程式基礎設施，查獲640萬筆遭竊憑證",
+   "url": "https://www.ithome.com.tw/news/180813",
+   "time": "2026-11-26T12:00:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

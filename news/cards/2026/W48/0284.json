@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0284",
+ "title": "佛州總檢察長聲請加入塞米諾爾部落對 DraftKings 的訴訟，指其以預測市場之名經營非法運動博奕",
+ "line": "Uthmeier 稱 DraftKings 的「事件合約」就是運動投注：「走路、游泳、叫聲都像鴨子，就是鴨子」",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T01:43:53+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "DraftKings",
+   "塞米諾爾部落",
+   "佛羅里達州司法部"
+  ],
+  "person": [
+   "James Uthmeier",
+   "Jason Robins",
+   "Ron DeSantis"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "預測市場",
+   "事件合約",
+   "運動博奕",
+   "部落博奕協議"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "佛羅里達州總檢察長 James Uthmeier 已聲請以參加人身分加入塞米諾爾部落控告 DraftKings 與執行長 Jason Robins 的訴訟。他在參加人訴狀中認同部落主張，指 DraftKings 在佛州經營無照運動博奕，把非法運動投注偽裝成「夢幻運動」與「預測市場」商品。Uthmeier 說 DraftKings「眨眼說自己只提供有別於運動投注的『事件合約』，但走路、游泳、叫聲都像鴨子的鳥就是鴨子」，並引用 Robins 在法說會上說客戶「其實根本不懂」運動投注與運動預測市場交易的差別。Uthmeier 本月初以 50.9% 對 49.1% 險勝連任。背景是佛州州長 DeSantis 2021 年以新的第三類博奕協議，把實體與線上運動博奕獨家權利給塞米諾爾部落，部落承諾前 5 年至少付州政府 25 億美元博奕收入分成。",
+ "dive_html": "州政府直接站上原告席，讓這案從部落與業者的商業糾紛升級為州權對抗聯邦監管的預測市場；同一週 CFTC 才把事件合約申報正式入法，聯邦與州的管轄衝突更明顯。若佛州勝訴，其他有部落獨家協議的州可能跟進，DraftKings、Kalshi 等的預測市場擴張會在州層級受阻。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Casino.org News",
+   "title": "Florida AG Seeks to Join Seminole’s Suit Against DraftKings",
+   "url": "https://www.casino.org/news/florida-ag-seeks-to-join-seminoles-suit-against-draftkings/",
+   "time": "2026-11-26T01:43:53+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "0 comments",
+   "family": "Casino.org",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

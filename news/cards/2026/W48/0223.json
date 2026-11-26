@@ -98,13 +98,25 @@
    "kind": "media",
    "region": "東北亞",
    "rank": 2
+  },
+  {
+   "name": "BBC World",
+   "title": "North Korea expels Swiss diplomat in sanctions row",
+   "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o",
+   "time": "2026-11-26T05:51:17+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 3,
+  "outlets": 4,
   "regions": 3,
-  "media_weight": 6,
+  "media_weight": 8,
   "community": {
    "hn": 0,
    "ptt": 0,

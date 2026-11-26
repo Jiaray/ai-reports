@@ -126,6 +126,18 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Colombian president taunts arrested supermarket hostage-takers",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/colombian-president-taunts-arrested-supermarket-hostage-takers",
+   "time": "2026-11-26T11:23:24+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
   }
  ],
  "log": [],

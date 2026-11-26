@@ -1,0 +1,99 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0259",
+ "title": "OpenAI 承認 GPT-6.2 上線時計費錯誤，修正後 Astra 用量上限提早 40%、Sol 提早 25% 用完",
+ "line": "OpenAI 稱不追溯收費，並補給 Go、Plus、Pro、Business 用戶各一次額度重置",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T06:23:41+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "產品發布",
+   "爭議風波"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "OpenAI"
+  ],
+  "person": [
+   "Tibo Sottiaux"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "GPT-6.2 Astra",
+   "GPT-6.2 Sol",
+   "ChatGPT 用量上限"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "OpenAI 員工 Tibo（@thsottiaux）於 11 月 26 日在 X 表示，GPT-6.2 上線時出現計費錯誤，對多數用戶的 GPT-6.2 Astra 與 Sol 用量打了不該有的折扣；修正後同樣的工作會消耗更多方案額度，與前一週相比，Astra 會快 40% 碰到上限、Sol 快 25%，但仍比 GPT-6 Astra 與 GPT-6.1 Sol 耐用。其他模型不受影響，過去的差額不追收；作為道歉，Go、Plus、Pro、Business 方案用戶各獲一次「存起來的」額度重置。這則貼文在 Hacker News 獲 182 分。據 AINews 整理，GPT-6.2 Astra 在最佳化問題上表現突出（有研究者稱它在 30 至 60 分鐘內證明百萬維 MIPLIB／QPLIB 問題的最佳性），但整體評價分歧，也有人指它持續性不足。",
+ "dive_html": "對每天用 ChatGPT 寫程式的工程師，這等於實際可用量縮水；OpenAI 以「計費錯誤」說明、不追溯，算是把衝擊壓低，但上線一週後才調整，會讓付費用戶懷疑先前的用量體驗是否被刻意放寬。若團隊依 Astra 規劃工作量，近期應重新估算額度或分流到其他模型。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Latent Space AINews",
+   "title": "Frontier Model Competition: Gemini 4 Neon, Fable 5.2, GPT-6.2 Astra: GPT-6.2 Astra",
+   "url": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/#item-8",
+   "time": "2026-11-26T06:23:41+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Hacker News",
+   "title": "OpenAI cuts GPT-6.2 usage: Astra hits limits 40% faster, Sol 25% faster",
+   "url": "https://twitter.com/thsottiaux/status/2125784147889393806",
+   "time": "2026-11-26T11:36:58+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "182 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50651117",
+   "family": "twitter.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 182,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

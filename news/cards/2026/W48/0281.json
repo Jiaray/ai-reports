@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0281",
+ "title": "南韓文化體育觀光部招標研究賭場改革：擬每 5 年換照、觀光基金提撥上限由 GGR 10% 提高到 15%",
+ "line": "研究預計 2027 年 9 月完成，業界警告恐削弱南韓對區域賭場市場的競爭力",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T13:17:21+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞"
+  ],
+  "country": [
+   "KR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "博奕",
+   "觀光"
+  ],
+  "org": [
+   "南韓文化體育觀光部",
+   "韓國文化觀光研究院",
+   "韓國賭場協會"
+  ],
+  "person": [
+   "Shin Jong Ho"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "觀光振興法",
+   "賭場執照",
+   "觀光振興開發基金"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 GGRAsia 報導，南韓文化體育觀光部本月初發布招標，委託研究賭場改革方案與執行方式，包括每 5 年一次的執照更新制度，以及提高業者對觀光振興開發基金的提撥上限。標案要求簽約後 300 天內完成，官方時程是 2027 年 9 月前完成；採購紀錄顯示韓國文化觀光研究院在 11 月 19 日評選中以約 95.96 分排名第一。部會要研究訂出業者申請換照的程序、官員如何評估業者是否仍符合條件，並要求賭場事業轉讓前須經部會核准（目前是交易後才申報）。這些提案最早在 7 月初作為《觀光振興法》修正方向提出，擬把提撥上限從年度博奕總收入（GGR）的 10% 提高到 15%；據 GGRAsia 先前消息，部會原本希望今年 9 月就推出修法。賭場與觀光業代表要求撤回，警告會阻礙長期投資、威脅就業並削弱南韓相對其他區域賭場市場的競爭力。",
+ "dive_html": "換照制加上提撥上限提高 5 個百分點，等於同時增加經營不確定性與成本；南韓外國人賭場正與日本 IR、菲律賓、新加坡爭取同一批東北亞客源，業界反彈有其道理。但研究要到 2027 年 9 月才完成，修法最快也要之後，短期影響有限；轉讓須事前核准一項則可能影響進行中的資產交易。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GGRAsia",
+   "title": "S.Korea seeks study on casino licence renewals, higher tourism levy",
+   "url": "https://www.ggrasia.com/s-korea-seeks-study-on-casino-licence-renewals-higher-tourism-levy",
+   "time": "2026-11-26T13:17:21+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "GGRAsia",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

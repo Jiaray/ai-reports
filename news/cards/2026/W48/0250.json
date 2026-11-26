@@ -1,0 +1,138 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0250",
+ "title": "國際法院裁定緬甸對洛興雅人犯下種族滅絕，緬甸領導人敏昂萊稱不遵從「不適當」要求",
+ "line": "這是國際法院成立 80 年來首次認定國家犯種族滅絕罪，但法院沒有強制執行機制",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T05:00:00+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞",
+   "南亞"
+  ],
+  "country": [
+   "MM",
+   "BD",
+   "GM",
+   "MY"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "國際關係",
+   "人權"
+  ],
+  "event": [
+   "訴訟判決",
+   "聲明評論"
+  ],
+  "org": [
+   "國際法院",
+   "緬甸政府"
+  ],
+  "person": [
+   "敏昂萊"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "洛興雅",
+   "種族滅絕",
+   "若開邦",
+   "國際法院"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據緬甸官媒《緬甸環球新光報》，政變領袖出身的緬甸總統敏昂萊 11 月 25 日在會議中表示，針對國際法院（ICJ）上週裁定緬甸對洛興雅人犯下種族滅絕罪，緬甸「將採取符合負責任國家立場的行動，但不會遵從我們認為不適當的要求」；他稱甘比亞提起的訴訟是「片面指控」，「種族滅絕」一詞嚴重損害國家聲譽。國際法院上週認定，緬甸安全部隊 2017 年在若開邦鎮壓期間殺害數以千計洛興雅平民、對婦女犯下「大規模性暴力」、對兒童施以「極端暴力」，這是該院成立 80 年來首次認定一個國家犯下種族滅絕罪。法院下令讓難民安全返家、緬甸須支付賠償（金額日後決定），並調查懲處涉案者。裁決具法律約束力且不得上訴，但法院本身沒有強制執行機制。Straits Times 報導，在馬來西亞的洛興雅難民歡迎裁決，但擔心要等很久才能安全返鄉。",
+ "dive_html": "緬甸「選擇性遵從」的表態，等於預告賠償與難民返鄉兩項核心命令難以落實；國際法院判決的實際效力，將取決於聯合國安理會與東協是否施壓，而中國、俄國在安理會的立場是關鍵變數。對孟加拉與馬來西亞等收容國，難民短期內返鄉無望，安置壓力不會減輕。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "國際法院裁定緬甸對洛興雅種族滅絕　敏昂萊：不遵從不適當要求",
+   "url": "https://www.cna.com.tw/news/aopl/202611260140.aspx",
+   "time": "2026-11-26T14:00:54+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Japan Times",
+   "title": "Myanmar won’t comply with ‘inappropriate’ parts of genocide ruling, leader says",
+   "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/politics/myanmar-comply-genocide-ruling/",
+   "time": "2026-11-26T13:47:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Myanmar says it will not fully comply with ICJ genocide orders",
+   "url": "https://www.straitstimes.com/asia/myanmar-says-it-will-not-fully-comply-with-icj-genocide-orders",
+   "time": "2026-11-26T15:36:49+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Myanmar will not comply with ‘inappropriate’ parts of genocide ruling: Min Aung Hlaing",
+   "url": "https://www.straitstimes.com/asia/se-asia/myanmar-will-not-comply-with-inappropriate-parts-of-genocide-ruling-min-aung-hlaing",
+   "time": "2026-11-26T13:00:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Rohingya refugees in Malaysia seek more time after landmark genocide ruling against Myanmar",
+   "url": "https://www.straitstimes.com/asia/se-asia/rohingya-refugees-in-malaysia-seek-more-time-after-landmark-genocide-ruling-against-myanmar",
+   "time": "2026-11-26T05:00:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 7,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

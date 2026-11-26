@@ -1,0 +1,131 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0249",
+ "title": "川普與北約秘書長呂特在海湖莊園會談後發表聯合聲明，敦促俄國勿擴大烏克蘭戰爭",
+ "line": "呂特稱川普在深圳與普丁會面是在「試探」普丁，主張持續施壓；任何協議都須給烏克蘭安全保障",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T12:20:00+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "歐洲"
+  ],
+  "country": [
+   "US",
+   "RU",
+   "UA"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "戰爭與衝突",
+   "國際關係"
+  ],
+  "event": [
+   "會談協議",
+   "聲明評論"
+  ],
+  "story": [
+   "俄烏戰爭"
+  ],
+  "org": [
+   "白宮",
+   "北大西洋公約組織"
+  ],
+  "person": [
+   "川普",
+   "Mark Rutte",
+   "普丁",
+   "Pete Hegseth"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "俄烏戰爭",
+   "北約",
+   "海湖莊園",
+   "和平談判"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美國總統川普與北約秘書長呂特（Mark Rutte）美國時間 11 月 25 日在佛州海湖莊園閉門會談後發表聯合聲明，白宮形容會議「非常出色且影響深遠」，焦點包括烏克蘭與伊朗戰爭；聲明說雙方討論了「俄羅斯應避免採取任何有意或無意擴大戰事的行動，以及儘速以和平方式解決戰爭的重要性」，也談到增加國防支出。川普上週在中國深圳會晤普丁時稱他是「我的朋友」，批評者指他偏袒莫斯科。呂特接受福斯新聞訪問時說，川普在深圳的作為是在「試探普丁」是否真心談判，「我們應該繼續施加壓力，這正在發揮作用」；他表示戰爭結束時，無論透過和平協議或長期停火，都必須確保烏克蘭獲得安全保障，最重要的是讓烏克蘭有資源繼續作戰。目前參與談判的只有烏克蘭、美國與俄國，歐洲國家希望加入。美國戰爭部長赫格塞斯預計幾週內公布美軍駐歐兵力部署檢討。France 24 報導，歐盟領袖 26 日將在布魯塞爾就 2027 年資助烏克蘭的 450 億歐元貸款提案交鋒。",
+ "dive_html": "聯合聲明措辭溫和，沒有提制裁或新援助，實質是替川普的「與普丁對話」路線背書；呂特把它包裝成施壓，反映北約在維持美國參與與安撫歐洲盟友間的拉扯。值得留意的是赫格塞斯即將公布的駐歐兵力檢討，若減少駐軍，會直接改變歐洲對俄嚇阻的計算。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "川普會晤北約秘書長　籲俄勿擴大烏克蘭戰爭",
+   "url": "https://www.cna.com.tw/news/aopl/202611260148.aspx",
+   "time": "2026-11-26T14:25:11+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "France 24",
+   "title": "Live: Trump, NATO chief urge Moscow to not 'expand' Ukraine war",
+   "url": "https://www.france24.com/en/europe/20261126-live-eu-leaders-face-showdown-over-ukraine-funding-as-divisions-deepen",
+   "time": "2026-11-26T13:44:57+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Japan Times",
+   "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
+   "url": "https://www.japantimes.co.jp/news/2026/11/26/world/politics/trump-nato-chief-russia-ukraine-war/",
+   "time": "2026-11-26T13:24:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Trump and NATO chief urge Russia to avoid actions that widen Ukraine war",
+   "url": "https://news.google.com/rss/articles/CBMiswFBVV95cUxOcVE1ZllSR0xRNHFVUjR0WWJjQXF2MllxbUV3WUQ2Vno2WFFCbzkyODBvWjE1WmtscC1rdkVLdVJXUDhUUXFiMDZQbS01akV2UjhQQUFwMWp2aWdrdm5ZQy11b0tvX3BkSVU1WmdUV2J4N2l0UF9tcHVqRzBuWkxhRUVsU1FtMTl1aEhRWkx3RFI2VDlraEhKemFOV0ZEX0todDFpTTBsTndhZk0zclNaWk5lNA?oc=5",
+   "time": "2026-11-26T12:20:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 3,
+  "media_weight": 10,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

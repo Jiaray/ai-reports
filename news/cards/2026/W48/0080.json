@@ -89,13 +89,37 @@
    "kind": "media",
    "region": "台灣",
    "rank": 3
+  },
+  {
+   "name": "BleepingComputer",
+   "title": "Hackers now exploit critical Drupal RCE flaw to hijack sites",
+   "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploit-critical-drupal-rce-flaw-to-hijack-sites/",
+   "time": "2026-11-25T18:10:20+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "BleepingComputer",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "The Hacker News",
+   "title": "Drupal Warns of New Highly Critical Site Takeover Vulnerability Under Active Exploitation",
+   "url": "https://thehackernews.com/2026/11/drupal-warns-of-new-highly-critical.html",
+   "time": "2026-11-26T15:02:34+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 2,
-  "regions": 2,
-  "media_weight": 2,
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 3,
   "community": {
    "hn": 0,
    "ptt": 0,

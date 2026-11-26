@@ -1,0 +1,140 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0253",
+ "title": "韓國央行升息 1 碼至 3.25%、創兩年新高，AI 晶片出口帶動上修今年成長至 3.9%",
+ "line": "2027 年成長預測也從 2.9% 上修至 4.1%，韓銀稱短期通膨可能持續居高",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T09:05:00+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞"
+  ],
+  "country": [
+   "KR"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "總體經濟"
+  ],
+  "event": [
+   "政策法規",
+   "數據發布"
+  ],
+  "sector": [
+   "半導體",
+   "金融"
+  ],
+  "org": [
+   "韓國銀行",
+   "三星電子",
+   "SK海力士"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "基準利率",
+   "升息",
+   "GDP 預測",
+   "通膨"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "韓國中央銀行 11 月 26 日在今年最後一次會議決議升息 1 碼（25 個基點），基準利率升至 3.25%，為 2024 年 10 月以來最高，符合經濟學家預期。韓銀 7、8 月連續升息、10 月暫停，這次結束 3 個月的暫停期。韓國 10 月消費者物價年增 2.8%，較 9 月 2.9%、8 月 3.1% 放緩，核心通膨 2.8%、高於 9 月的 2.7%，仍高於 2% 目標；CNBC 指首爾房價上漲也是升息考量。韓銀大幅上修成長預測，今年由 3.3% 調至 3.9%、2027 年由 2.9% 調至 4.1%，主因 AI 相關晶片出口強勁；第 3 季 GDP 年增 3.4%、優於預期。韓國本月宣布今年出口首度突破 1 兆美元。韓銀表示，儘管美伊軍事緊張推高油價，全球經濟在 AI 投資帶動下仍將穩健，但能源價格上漲使短期通膨可能居高不下；不確定性包括半導體榮景能帶動內需多少，以及中東局勢。",
+ "dive_html": "韓國與台灣同屬 AI 晶片出口受惠者，韓銀在經濟過熱與房價壓力下選擇升息，對台灣央行 12 月理監事會是值得對照的訊號；台灣第 3 季成長估 14.36%、通膨同樣受能源推升。不過韓銀也坦言半導體榮景與民眾體感有落差，升息是否壓抑內需復甦仍待觀察。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "基準利率 3.25%（+0.25 個百分點）；10 月 CPI 年增 2.8%、核心 2.8%；2026 年成長預測 3.9%（原 3.3%）、2027 年 4.1%（原 2.9%）；第 3 季 GDP 年增 3.4%；全年出口逾 1 兆美元"
+  }
+ ],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "韓國央行升息1碼至3.25%創2年新高　上調今年GDP預估值至3.9%",
+   "url": "https://www.cna.com.tw/news/aopl/202611260109.aspx",
+   "time": "2026-11-26T12:37:44+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "South Korea’s central bank hikes interest rates amid AI chip boom",
+   "url": "https://www.aljazeera.com/economy/2026/11/26/south-koreas-central-bank-hikes-interest-rates-raises-gdp-growth-forecast",
+   "time": "2026-11-26T13:49:40+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "South Korea upgrades growth forecast, raises benchmark rates to highest in two years",
+   "url": "https://www.cnbc.com/2026/11/26/bok-rate-decision-korea-gdp-inflation.html",
+   "time": "2026-11-26T11:32:53+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Nikkei Asia",
+   "title": "Bank of Korea hikes rate to 3.25% against backdrop of strong economy",
+   "url": "https://asia.nikkei.com/economy/central-banks/bank-of-korea-hikes-rate-to-3.25-against-backdrop-of-strong-economy",
+   "time": null,
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "South Korea's central bank raises rates, upgrades 2027 growth outlook",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxQSTJjdUdXNzZ0QVUtZS1QMGowZkw1ellJM1ZkZUMzYVQ1OVp5ME5vQnRTMHgyYm9YVFRxcm11TkdSUmJ6RV9nYlY0YnkzZnhuNkNWa0g0MmNQVDhNMTRiYVN0M1lUbERad1Rqb1h0U3BCa2RJam5DVXBXUk8zNy1CNDlVaXQwRE56Ykl6NjhXTy1Bc21Lbm1sc214UlNVLUdOajVQWlprbG1mRnlIQVNyaWpNSDFBa0Fo?oc=5",
+   "time": "2026-11-26T09:05:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 5,
+  "regions": 5,
+  "media_weight": 12,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -80,13 +80,25 @@
    "kind": "media",
    "region": "北美",
    "rank": 3
+  },
+  {
+   "name": "Yogonet International",
+   "title": "Illegal operators capture 70% of EU online gambling market, ECA-commissioned report finds",
+   "url": "https://www.yogonet.com/international/news/2026/11/25/127475-illegal-operators-capture-70-of-eu-online-gambling-market-ecacommissioned-report-finds",
+   "time": "2026-11-26T00:02:40+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Yogonet",
+   "kind": "media",
+   "region": "中南美",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 2,
-  "regions": 2,
-  "media_weight": 2,
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 3,
   "community": {
    "hn": 0,
    "ptt": 0,

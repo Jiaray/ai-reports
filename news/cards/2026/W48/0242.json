@@ -125,13 +125,37 @@
    "kind": "official",
    "region": null,
    "rank": 9
+  },
+  {
+   "name": "Dawn",
+   "title": "Curtains on COP31",
+   "url": "https://www.dawn.com/news/2047102/curtains-on-cop31",
+   "time": "2026-11-26T11:46:27+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "Japan Times",
+   "title": "OPEC blames EU for COP31 collapse",
+   "url": "https://www.japantimes.co.jp/environment/2026/11/26/climate-change/opec-eu-cop31-collapse/",
+   "time": "2026-11-26T09:18:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 3,
-  "regions": 3,
-  "media_weight": 6,
+  "outlets": 5,
+  "regions": 5,
+  "media_weight": 9,
   "community": {
    "hn": 0,
    "ptt": 0,

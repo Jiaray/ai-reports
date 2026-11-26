@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0260",
+ "title": "紐約時報要求自由攝影師別更新 Photoshop，擔心新 AI 功能讓照片被標成「AI 生成」",
+ "line": "Adobe 11 月更新加入多項 AI 功能，可能寫入 AI 編輯的中繼資料",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T05:18:02+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "娛樂與媒體"
+  ],
+  "event": [
+   "爭議風波"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "媒體與娛樂"
+  ],
+  "org": [
+   "紐約時報",
+   "Adobe"
+  ],
+  "person": [
+   "Meaghan Looram",
+   "Josh Haner"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Photoshop",
+   "AI Assisted Editor",
+   "內容憑證",
+   "中繼資料"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "The Verge 報導，紐約時報攝影主管 Meaghan Looram 與 Josh Haner 寄信給自由攝影師，要求不要使用最新版 Adobe Photoshop，理由是 2027 版更新中的功能以「使用者未必察覺的方式」使用 AI，「可能讓中繼資料把照片標成 AI 生成」。這次 11 月更新加入「AI Assisted Editor」檢視，把所有 AI 功能集中到一個工具列，另有逐步編輯的 AI 助理、以提示詞改圖、新的 AI 放大選項，以及依畫布尺寸重新構圖的工具。報導指出 Adobe 應用程式中哪些工具算 AI 並不總是清楚，連較舊的自動選取工具也可能被歸入 AI 功能；對修圖幅度極低的紐時而言，這類中繼資料可能損及讀者信任。這則報導在 Hacker News 獲 336 分。",
+ "dive_html": "問題不在 AI 修圖本身，而在標記太粗：中繼資料只說「用過 AI」，分不出是自動選取還是生成內容。新聞機構越依賴內容憑證證明照片真實，就越會被這種模糊標記反咬。Adobe 若不把「輔助工具」與「生成式修改」分級標示，其他媒體可能跟進凍結版本，對 Adobe 推動內容憑證的立場也是打臉。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "The New York Times warns photographers not to update Photoshop over AI features",
+   "url": "https://www.theverge.com/ai-artificial-intelligence/1041227/the-new-york-times-warns-photographers-not-to-update-photoshop-over-ai-features",
+   "time": "2026-11-26T05:18:02+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "336 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50647673",
+   "family": "The Verge",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 336,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

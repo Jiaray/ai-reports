@@ -163,6 +163,18 @@
    "kind": "media",
    "region": "港澳",
    "rank": 2
+  },
+  {
+   "name": "BBC 中文",
+   "title": "美國法院裁定：中國科技巨頭華為，共謀竊取商業機密罪名成立",
+   "url": "https://www.bbc.com/zhongwen/articles/cmq8lz8ddyg9o/trad",
+   "time": "2026-11-26T15:35:10+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [],

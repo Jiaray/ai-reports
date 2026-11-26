@@ -1,0 +1,108 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0271",
+ "title": "CISA 新增 10 個已遭利用漏洞至 KEV，含 Mitel MiCollab 五個漏洞與未修補的 Danfoss 冷凍控制器重大漏洞",
+ "line": "Danfoss AK-SM 8xxA 漏洞 CVSS 9.8，歐洲超市冷凍系統近期已遭駭客遠端關閉",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T00:13:40+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "漏洞揭露"
+  ],
+  "sector": [
+   "電信",
+   "機械與工業製造",
+   "零售與消費"
+  ],
+  "org": [
+   "美國網路安全暨基礎設施安全局",
+   "Mitel",
+   "Juniper",
+   "Vates",
+   "Danfoss"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "KEV",
+   "Mitel MiCollab",
+   "CVE-2026-133323",
+   "CVE-2026-129713",
+   "Danfoss AK-SM 8xxA"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美國 CISA 於 11 月 25 日把 10 個漏洞加入已遭利用漏洞（KEV）清單，涵蓋 Mitel、Juniper、Vates 與 Danfoss 產品。其中 5 個是上週揭露的 Mitel MiCollab 音訊、網頁與視訊會議（AWV）元件漏洞：任意檔案上傳 CVE-2026-133275（CVSS 5.3）、XML 注入 CVE-2026-133303（9.0）、未授權存取 CVE-2026-133311（5.9）、命令注入 CVE-2026-133323（10.0）與驗證繞過 CVE-2026-133324（5.3），影響 MiCollab 10.3 及更早版本，Mitel 11 月 16 日已為 10.3 版釋出修補（10.3.0.18）。CISA 另警告 Danfoss AK-SM 8xxA 系列控制器的堆疊緩衝區溢位漏洞 CVE-2026-129713（CVSS 9.8），未經驗證即可讓伺服器重啟並可能以網頁伺服器權限遠端執行程式碼，報導標題指它仍未修補；這類控制器是超市與便利商店冷凍、空調與照明的中控，近期歐洲多家超市與食品零售商的控制器遭入侵，駭客遠端關閉冷凍或調高溫度。",
+ "dive_html": "Danfoss 案是 IT 漏洞直接造成實體損失的例子：法國超市冷凍系統遭駭、毀損食品的事件已有前例（伊朗革命衛隊網軍案），未修補又已遭利用，業者只能靠網路隔離。對台灣遊戲與軟體團隊影響有限，但使用 Mitel 會議系統的企業應立即處理 CVSS 10.0 的命令注入漏洞。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Mitel MiCollab 10.3 及更早版本（5 個 CVE，最高 CVSS 10.0）；Danfoss AK-SM 8xxA 系列（CVE-2026-129713，CVSS 9.8）；Juniper、Vates 受影響產品原文未完整列出；利用狀態：已遭利用（列入 KEV）"
+  },
+  {
+   "name": "處置",
+   "html": "MiCollab 升級至 10.3.0.18 並套用修補或更新版本；Danfoss 漏洞原文指尚未修補，緩解措施原文未提供（應避免控制器直接暴露於網際網路）"
+  }
+ ],
+ "sources": [
+  {
+   "name": "BleepingComputer",
+   "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+   "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+   "time": "2026-11-26T00:13:40+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "BleepingComputer",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "The Hacker News",
+   "title": "Hackers Exploit 10 Vulnerabilities Across Mitel, Juniper, Vates, and Danfoss Products",
+   "url": "https://thehackernews.com/2026/11/hackers-exploit-10-vulnerabilities.html",
+   "time": "2026-11-26T14:44:46+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

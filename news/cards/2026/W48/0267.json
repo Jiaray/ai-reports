@@ -1,0 +1,109 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0267",
+ "title": "13 個惡意 NuGet 套件偽裝成求職測驗，鎖定 Windows .NET 開發者散布惡意程式",
+ "line": "套件多偽裝成 WinUI 3、WPF 按鈕控制項，建置或執行專案就會下載並執行惡意檔",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T06:15:37+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "開發與開源"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Socket",
+   "NuGet",
+   "Microsoft"
+  ],
+  "person": [
+   "Kush Pandya"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "NuGet",
+   "供應鏈攻擊",
+   "假徵才",
+   "DLL 側載",
+   "osk.exe",
+   "WinUI 3"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Socket 研究人員 Kush Pandya 揭露 13 個惡意 NuGet 套件，以「帶回家寫的求職測驗」為幌子鎖定 Windows .NET 開發者。他指出多數套件偽裝成 WinUI 3 與 WPF 按鈕控制項；在分析的版本中，建置或執行使用這些套件的專案時，會從 GitHub 下載檔案、圍繞微軟螢幕小鍵盤（osk.exe）佈置 DLL 側載組合，或直接下載並執行執行檔，讓攻擊者取得開發者電腦的存取權。套件名稱包括 WinUI.Button、VS_Builder.MSBuildAnalyzer、VS_Builder.WinUI3Controls、HappyOne.MSBuildAnalyzer、HappyOne.WinUI3Controls、Web3TotalButton、RevertButtonIcon 等。截至報導時，所有套件已從 NuGet 套件庫刪除。ICSDA 列為中危、知識補充，並提醒原文未說明受害人數。",
+ "dive_html": "MSBuild 分析器與控制項套件在建置階段就能執行程式碼，開發者「只是 build 一下」就中招，這是比 runtime 更隱蔽的入口。開發者電腦握有原始碼、簽章與雲端憑證，價值遠高於一般端點；台灣遊戲與軟體團隊工程師多用工作機處理外部專案，應把「外來專案先進沙箱」寫成規範，並在 CI 鎖定套件來源（NuGet 套件來源對應、套件簽章）。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "在求職測驗中引入這 13 個套件的 Windows .NET 開發者；受害規模原文未提供；利用狀態：未說明（研究人員分析到攻擊活動，未交代實際入侵案例數）"
+  },
+  {
+   "name": "處置",
+   "html": "套件已從 NuGet 下架；檢查專案與快取中是否有上述套件；求職測驗一律在隔離虛擬機或拋棄式環境執行，先檢視相依套件來源，不用存有公司憑證的工作電腦"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ICSDA 資安日報",
+   "title": "假面試真下毒，.NET工程師中招",
+   "url": "https://www.darkreading.com/threat-intelligence/attackers-net-developers-poisoned-job-assessments",
+   "time": "2026-11-26T06:15:37+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Dark Reading",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "The Hacker News",
+   "title": "13 Malicious NuGet Packages Turn Fake .NET Job Assessments Into Malware Delivery Traps",
+   "url": "https://thehackernews.com/2026/11/13-malicious-nuget-packages-turn-fake.html",
+   "time": "2026-11-26T11:48:52+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

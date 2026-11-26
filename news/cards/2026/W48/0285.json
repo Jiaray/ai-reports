@@ -1,0 +1,101 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0285",
+ "title": "Latent Space 播客：Thariq Shihipar 談 AI 讓軟體便宜到量產，也讓人有時間把一件事做到位",
+ "line": "前 Anthropic Claude Code 成員錄完這集後宣布轉戰 OpenAI",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T06:23:41+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "聲明評論",
+   "人事異動"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "OpenAI",
+   "Anthropic",
+   "Latent Space"
+  ],
+  "person": [
+   "Thariq Shihipar"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "程式代理",
+   "AI Engineer CODE",
+   "個人軟體"
+  ],
+  "form": [
+   "播客"
+  ]
+ },
+ "summary_html": "Latent Space 這一集訪問 Thariq Shihipar，延續他在 AI Engineer CODE 的主題演講：AI 能讓軟體便宜到成千上萬地生產，同時也給人更多時間把單一作品打磨到位，兩種未來可以並存。show notes 提到他在自己的格鬥遊戲裡，在 /human 資料夾改一顆石頭的大小、立刻試丟；也做過會切換模式的 Mac Dock，用了之後才發現自己真正在意的是察覺何時分心。節目談到他對程式代理改觀的地方、讓決策模型從設計者定義的動作中挑選、誰來決定哪些實驗值得投入算力，以及個人軟體、採用、自動研究等主題。錄音後 Thariq 宣布轉往 OpenAI；據 AINews 整理，他是從 Anthropic 離職加入 OpenAI。",
+ "dive_html": "值得聽的是一線打造程式代理的人怎麼看「量產軟體」與「手工打磨」的分工，對想把代理導入遊戲或工具開發的團隊有實務參考（例如把人類可調參數集中在專屬資料夾）。他在兩大實驗室間跳槽，也反映程式代理人才的爭奪。show notes 只有章節，對話細節要聽原集。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Latent Space",
+   "title": "The Revolution vs The Renaissance — Thariq Shihipar, OpenAI",
+   "url": "https://latent.space/p/the_revolution_vs_the_renaissance_thariq_shihipar_openai/",
+   "time": "2026-11-26T06:28:01+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Latent Space",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Latent Space AINews",
+   "title": "Safety, Governance and Industry: Talent move",
+   "url": "https://latent.space/p/ainews-math-proofs-are-landing-faster-than-we-can-read-them/#item-27",
+   "time": "2026-11-26T06:23:41+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Latent Space AINews",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

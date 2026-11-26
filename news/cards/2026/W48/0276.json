@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0276",
+ "title": "Roblox 與英國音樂著作權團體 PRS for Music 簽授權協議，明年起向詞曲作者分配版稅",
+ "line": "財務條件未公開，PRS 正把授權範圍擴大到整個遊戲產業",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T02:03:10+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "北美"
+  ],
+  "country": [
+   "GB",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "遊戲",
+   "娛樂與媒體"
+  ],
+  "event": [
+   "會談協議"
+  ],
+  "sector": [
+   "遊戲",
+   "媒體與娛樂"
+  ],
+  "org": [
+   "Roblox",
+   "PRS for Music"
+  ],
+  "person": [
+   "Dan Gopal",
+   "Jessica Meehan"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "音樂授權",
+   "版稅",
+   "UGC 平台"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Roblox 與英國音樂著作權管理團體 PRS for Music 簽訂授權協議，授權 Roblox 全平台的音樂使用，PRS 將從明年起向詞曲作者、作曲家與出版商分配版稅，財務條件未公開。PRS 表示，協議確立「音樂在線上世界創造價值時，創作者應分享價值」的原則；Roblox 是 PRS 擴大遊戲業授權版圖的最新一家。PRS 商務長 Dan Gopal 說遊戲已是全球最多人消費的娛樂媒體之一；Roblox 音樂合作負責人 Jessica Meehan 表示要在 Roblox 上打造音樂經濟的未來。Roblox 第 3 季營收年增 16% 至 16 億美元、優於預期，但 bookings 年減 12% 至 17 億美元，平均每日活躍用戶年減 9%，參與時數減 15% 至 340 億小時，公司歸因於 2025 年的高基期。",
+ "dive_html": "UGC 平台上的音樂使用一直是著作權灰色地帶，Roblox 以集體授權一次解決，降低創作者被下架或被告的風險，也替平台內的音樂活動鋪路。對遊戲開發者，這代表著作權團體正逐一向遊戲平台收費，自家遊戲若有使用者上傳音樂或直播功能，授權成本可能成為新的固定支出。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GamesIndustry.biz",
+   "title": "Roblox signs licensing deal with PRS for Music",
+   "url": "https://www.gamesindustry.biz/roblox-signs-licensing-deal-with-prs-for-music",
+   "time": "2026-11-26T02:03:10+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "GamesIndustry.biz",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

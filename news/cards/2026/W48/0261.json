@@ -1,0 +1,77 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0261",
+ "title": "論文 PyRUA-Dex：讓程式代理寫出靈巧雙手操作策略，不靠示範資料學彈鋼琴、寫書法",
+ "line": "在 Bench2Dex 拿到 72.9 分，真實 22 自由度雙手平台 30 分鐘學會一首新曲",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T08:00:00+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "PyRUA-Dex",
+   "靈巧操作",
+   "程式化策略",
+   "程式代理",
+   "Bench2Dex",
+   "DexJoCo"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "靈巧操作的學習受限於高品質示範資料稀缺：從人類影片轉換不精確、遙控操作沒有力回饋、外骨骼收集難以擴大。PyRUA-Dex 讓程式代理以「程式化策略」開發靈巧操作，不需要示範。流程分兩階段：探索階段由多個代理平行探索任務技能與組合方式，再由一個蒸餾代理把成功嘗試濃縮成任務函式庫與一支程式；精煉階段用隨機化場景改進這支程式的穩健性與執行效率。模擬環境中，它在 Bench2Dex 拿到 72.9 分的 SOTA，在全隨機化的 DexJoCo 成功率 81.0%，兩個評測都勝過所有訓練出的策略。真實實驗用兩隻 22 自由度機械手的雙手平台，學會彈鋼琴、寫書法等任務，從樂譜學一首新曲最快只要 30 分鐘。",
+ "dive_html": "這篇把「缺示範資料」的瓶頸換成「讓代理寫程式並自我修正」，等於把大型語言模型的程式能力轉成機器人技能。好處是策略可讀、可除錯；限制是程式化策略面對未知物體與高度動態接觸時能否泛化，摘要沒有交代，真實世界任務的成功率也沒給數字。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "PyRUA-Dex: Learning Programmatic Policies for Dexterous Bimanual Manipulation with Coding Agents",
+   "url": "https://huggingface.co/papers/2611.33144",
+   "time": "2026-11-26T08:00:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "+39",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

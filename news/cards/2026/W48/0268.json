@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0268",
+ "title": "Dark Reading 評論：分辨真人與機器人已是輸家遊戲，資安團隊應改以同等標準限縮人類與機器的特權存取",
+ "line": "文章主張把重心從偵測移到最小權限，機器身分不能成為管理盲區",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T06:15:37+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "org": [
+   "Dark Reading"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "機器人偵測",
+   "特權存取管理",
+   "機器身分",
+   "最小權限"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Dark Reading 文章（ICSDA 資安日報整理），在網路上分辨真人與機器人已變成一場打不贏的仗。文章建議資安團隊不要再把重心放在偵測，改為限制特權存取，而且人類帳號與機器身分要用同一把尺管理，避免機器那一側成為管理盲區。原文沒有提到特定產品、受害案例或數據。ICSDA 列為低危、知識補充，延伸建議盤點所有人員與機器帳號、依最小權限收斂特權、對特權帳號加強監控與稽核（ICSDA 觀點）。",
+ "dive_html": "",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "需要管理人類與機器身分存取權限的各類組織；原文未提供具體受害規模"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供具體步驟；ICSDA 建議盤點帳號、落實最小權限、定期回收不再使用的特權與憑證"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ICSDA 資安日報",
+   "title": "機器人橫行，偵測已輸",
+   "url": "https://www.darkreading.com/cyber-risk/bot-world-just-living",
+   "time": "2026-11-26T06:15:37+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Dark Reading",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

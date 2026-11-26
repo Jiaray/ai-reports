@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0273",
+ "title": "React Server Components 修補未經驗證遠端程式碼執行漏洞 CVE-2026-126187，CVSS 4.0 達 9.5",
+ "line": "react-server-dom-webpack、parcel、turbopack 的 19.0 至 19.3 版受影響，已釋出修補版",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T12:00:00+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "開發與開源"
+  ],
+  "event": [
+   "漏洞揭露"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "React",
+   "Meta"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "CVE-2026-126187",
+   "React Server Components",
+   "react-server-dom-webpack",
+   "Next.js"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "開源 JavaScript 函式庫 React 的維護團隊修補 React Server Components（RSC）伺服器端元件架構的重大漏洞 CVE-2026-126187，CVSS 4.0 評分 9.5。問題源自 RSC 資料傳輸處理缺陷，攻擊者可向支援 RSC 的框架送出特製負載，在特定條件下觸發未經驗證的遠端程式碼執行。受影響套件為 react-server-dom-webpack、react-server-dom-parcel 與 react-server-dom-turbopack，版本涵蓋 19.0.0 至 19.0.8、19.1.0 至 19.1.9、19.2.0 至 19.2.8 及 19.3.0，已分別在 19.0.9、19.1.10、19.2.9 與 19.3.1 修補。未使用伺服器端 React 或不支援 RSC 的應用程式不受影響。",
+ "dive_html": "RSC 是 Next.js App Router 等主流框架的底層，很多團隊用到了卻不自覺；未經驗證 RCE 加上 Web 服務對外，修補應排第一優先。要注意框架常把 react-server-dom-* 打包或鎖版，光升級 react 不一定生效，應檢查 lock 檔裡實際的套件版本並等框架跟進釋出。原文沒有交代利用條件細節與是否已有攻擊，也是持續觀察點。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "react-server-dom-webpack／parcel／turbopack 19.0.0–19.0.8、19.1.0–19.1.9、19.2.0–19.2.8、19.3.0；CVE-2026-126187；CVSS 4.0 9.5；利用狀態：未說明"
+  },
+  {
+   "name": "處置",
+   "html": "升級至 19.0.9、19.1.10、19.2.9 或 19.3.1；只用客戶端 React、不支援 RSC 者不受影響"
+  }
+ ],
+ "sources": [
+  {
+   "name": "iThome 資安",
+   "title": "React Server Components修補未經身分驗證RCE漏洞",
+   "url": "https://www.ithome.com.tw/news/180810",
+   "time": "2026-11-26T12:00:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

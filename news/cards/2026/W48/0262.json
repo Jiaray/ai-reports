@@ -1,0 +1,75 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0262",
+ "title": "論文 MoLT：混合迴圈注意力讓迴圈 Transformer 兼顧表達力與效率，700M 模型 token 效率達 1.7 倍",
+ "line": "在 4,000 億 token 預訓練中勝過 OLMo3，推論延遲與非迴圈模型持平",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T08:00:00+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Mixture-of-Loops Transformer",
+   "迴圈 Transformer",
+   "MoLA",
+   "OLMo3",
+   "Qwen3.5"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "迴圈 Transformer 透過重複使用共享層提升表達力，代價是效率。MoLT 提出「混合迴圈注意力」（MoLA），把鍵與值（KV）當成記憶，跨深度與迴圈選擇性重用。MoLT-R 保留殘差流、跨迴圈讀取局部 KV 以求表達力；MoLT-KV 則從嵌入重新開始，讀取當前迴圈局部 KV 與前一迴圈較早位置的記憶 KV 以求效率，消除同位置跨迴圈相依，搭配平行訓練可在超出訓練迴圈數下單次走完解碼。U 形版本 U-MoLT 把記憶建構與預測讀出分開。在 4,000 億 token 預訓練中，U-MoLT 在 700M、1.5B 稠密與 3B MoE 模型上都勝過 OLMo3，700M 達 1.7 倍驗證交叉熵 token 效率，3B MoE 的 10 領域困惑度改善 0.75、10 項任務準確率提升 2.1 個百分點；對 Qwen3.5-0.8B-Base 做 1,000 億 token 續訓，11 個領域交叉熵都下降、平均 token 效率 1.4 倍。推論延遲 996.6 毫秒，與非迴圈 OLMo3 的 1,000.6 毫秒持平。<a href=\"https://github.com/hustvl/MoLT\" target=\"_blank\" rel=\"noopener\">GitHub</a>",
+ "dive_html": "迴圈架構是近期開源模型的熱點（GLM-5.4 等），最大疑慮是推論變慢；這篇用延遲持平的數字正面回應。可續訓既有模型（Qwen3.5）也降低採用門檻。限制是實驗規模最大只到 3B MoE，更大模型上是否仍有同等收益尚待驗證。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "Mixture-of-Loops Transformer",
+   "url": "https://huggingface.co/papers/2611.34923",
+   "time": "2026-11-26T08:00:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "+26",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

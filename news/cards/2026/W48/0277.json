@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0277",
+ "title": "歐洲遊戲開發者聯盟：手機市場過度飽和，歐洲工作室重心轉向 PC，德國做手遊的工作室比例三年從 51% 降到 37%",
+ "line": "歐洲遊戲業約 12.3 萬人、8,700 家工作室，法國與荷蘭受創最重，土耳其與英國最穩",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T01:43:23+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "DE",
+   "FI",
+   "GB",
+   "FR",
+   "TR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "遊戲",
+   "勞動"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "遊戲"
+  ],
+  "org": [
+   "歐洲遊戲開發者聯盟"
+  ],
+  "person": [
+   "Jari-Pekka Kaleva"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "手機遊戲",
+   "PC 遊戲",
+   "遊戲產業調查",
+   "裁員"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "歐洲遊戲開發者聯盟（EGDF）總經理 Jari-Pekka Kaleva 接受 Mobilegamer.biz 訪問表示，歐洲勞動法對阻止裁員作用不大，而隨著應用程式商店過度飽和，「越來越多開發者把重心從手機轉向 PC」，PC 市場對歐洲工作室與其聘僱能力的重要性明顯上升。EGDF 最新數據顯示歐洲遊戲業約 12.3 萬人、8,700 家工作室，多年裁員潮後整體人數大致持平。依 EGDF 2021 與 2024 年報告，德國做手遊的工作室比例從 51% 降到 37%，做 PC 遊戲的從 59% 升到 79%；芬蘭做手遊的比例從 66% 降到 61%，英國以手機為主平台的工作室從 36% 降到 33%。Kaleva 說小型手遊工作室比大型更靈活、轉向更快；多數國家遊戲業人數小幅成長、停滯或略降，產業規模小的國家「一家工作室關門就影響很大」。法國與荷蘭受創最重，土耳其與英國最穩，他歸因於兩地人才基礎大、在地公共資金與私人創投取得容易。",
+ "dive_html": "手遊轉 PC 的趨勢反映買量成本與平台抽成擠壓中小團隊利潤，Steam 的長尾與一次買斷模式成為替代出路。對以手遊、小遊戲為主的亞洲團隊，歐洲同業轉向意味 PC 市場競爭會更擠，但手機端的競爭者也可能減少；EGDF 數據未依平台拆分人數，轉向規模只能從工作室比例推估。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Mobilegamer.biz",
+   "title": "European studios are moving focus from ‘oversaturated’ mobile market to PC, says EGDF",
+   "url": "https://mobilegamer.biz/european-studios-are-moving-focus-from-oversaturated-mobile-market-to-pc-says-egdf/",
+   "time": "2026-11-26T01:43:23+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Mobilegamer.biz",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

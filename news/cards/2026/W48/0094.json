@@ -4,9 +4,9 @@
  "title": "1Password 員工 GitHub 帳號遭盜，攻擊者推送惡意程式碼下載部分客戶姓名與電子郵件",
  "line": "密碼庫內容未遭存取；攻擊者也複製私有原始碼並進入 CI/CD，所有可能外洩的憑證已輪替",
  "born_at": "2026-11-26T01:54:26+08:00",
- "first_reported_at": "2026-11-26T01:18:26+08:00",
- "updated_at": "2026-11-26T01:54:26+08:00",
- "version": 1,
+ "first_reported_at": "2026-11-26T01:00:00+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -75,13 +75,70 @@
    "kind": "official",
    "region": null,
    "rank": 9
+  },
+  {
+   "name": "BleepingComputer",
+   "title": "1Password customer data stolen after employee GitHub account breach",
+   "url": "https://www.bleepingcomputer.com/news/security/1password-customer-data-stolen-after-employee-github-account-breach/",
+   "time": "2026-11-26T05:33:33+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "BleepingComputer",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "The Hacker News",
+   "title": "1Password Hacked, Customer Data and Source Code Stolen in GitHub Account Breach",
+   "url": "https://thehackernews.com/2026/11/1password-hacked-customer-data-and.html",
+   "time": "2026-11-26T12:20:22+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "iThome 資安",
+   "title": "駭客入侵1Password員工GitHub帳號竊走公司原始碼，植入惡意程式碼下載客戶資料",
+   "url": "https://www.ithome.com.tw/news/180820",
+   "time": "2026-11-26T01:00:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "The Verge",
+   "title": "1Password breach leaked customer names and emails, but not passwords",
+   "url": "https://www.theverge.com/tech/1042409/1password-data-breach-leak",
+   "time": "2026-11-26T03:10:15+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "The Verge",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-26T16:09:33+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "The Hacker News 報導補充 1Password 的處置：已停用遭盜的 GitHub 帳號、撤銷被竊的權杖，強化 GitHub、CI/CD 與端點管控，把受影響的服務還原成乾淨版本並輪替內部憑證；邀請與帳號復原電子郵件裡的驗證碼也預防性地從 6 位數字加長為 10 個字元。1Password 表示客戶不需要採取任何行動，但提醒留意可能接踵而來的釣魚郵件；The Verge 也指外洩的姓名與電子郵件可能讓用戶成為釣魚目標。",
+   "update": "1Password 遭駭後撤銷被竊權杖、輪替內部憑證，並把邀請與復原信的驗證碼從 6 位數加長為 10 個字元",
+   "refocus": false
+  }
+ ],
  "heat": {
-  "outlets": 0,
-  "regions": 0,
-  "media_weight": 0,
+  "outlets": 4,
+  "regions": 3,
+  "media_weight": 5,
   "community": {
    "hn": 15,
    "ptt": 0,

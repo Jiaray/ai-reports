@@ -5,8 +5,8 @@
  "line": "約 4.5 公噸不穩定爆炸物在 11 月 25 日引爆，居民說只有 5 天預警；RFK Jr. 也就此發表意見",
  "born_at": "2026-11-26T02:02:15+08:00",
  "first_reported_at": "2026-11-25T01:35:17+08:00",
- "updated_at": "2026-11-26T02:02:15+08:00",
- "version": 1,
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -232,13 +232,82 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 1
+  },
+  {
+   "name": "The Verge",
+   "title": "EPA reports ‘zero’ airborne lead following controlled Army detonation in Iowa",
+   "url": "https://www.theverge.com/science/1042109/us-army-detonation-lead-azide-explosives-iowa-ammunition-plant",
+   "time": "2026-11-26T03:47:46+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "The Verge",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "BBC World",
+   "title": "US Army says controlled blast of explosives in Iowa was 'huge success'",
+   "url": "https://www.bbc.co.uk/news/articles/cwg7l5ve251ko",
+   "time": "2026-11-26T08:23:05+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian Environment",
+   "title": "Cloud of smoke seen after US army detonates bomb-making chemicals in Iowa – video",
+   "url": "https://www.theguardian.com/us-news/video/2026/nov/25/cloud-of-smoke-seen-after-us-army-detonates-bomb-making-chemicals-in-iowa-video",
+   "time": "2026-11-26T02:30:56+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Mongabay",
+   "title": "Army blows up bomb chemicals in Iowa despite fears a toxic plume could endanger residents",
+   "url": "https://news.mongabay.com/short-article/2026/11/army-blows-up-bomb-chemicals-in-iowa-despite-fears-a-toxic-plume-could-endanger-residents/",
+   "time": "2026-11-26T01:22:07+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "0 comments",
+   "family": "Mongabay",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "Euronews",
+   "title": "US Army detonates toxic explosives in Iowa despite contamination fears",
+   "url": "https://www.euronews.com/2026/11/25/us-army-detonates-toxic-explosives-in-iowa-despite-contamination-fears",
+   "time": "2026-11-26T01:55:45+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-26T16:09:33+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "美國陸軍 11 月 25 日在愛荷華州 Middletown 的愛荷華陸軍彈藥廠引爆逾 9,700 磅（約 4.4 公噸）疊氮化鉛，稱是為了防止庫存自發爆炸。軍方確認廠內所有桶裝庫存均已銷毀，沒有二次爆炸或設施損壞；影片顯示數百英尺高的煙柱向南飄散後很快消散。少將 Eric Shirley 在爆炸兩小時後的記者會表示，相信已把對 Middletown 與全愛荷華居民健康安全的風險「降到人力所能做到最接近零」。美國環保署聲明，爆炸一小時後「即時空氣監測器在整個區域偵測到的空氣中鉛為零」；BBC 報導軍方稱這次引爆「非常成功」，目前鉛讀數令人樂觀。",
+   "update": "美軍在愛荷華引爆約 4.4 公噸疊氮化鉛後，環保署稱一小時後全區空氣監測未驗出鉛",
+   "refocus": false
+  }
+ ],
  "heat": {
-  "outlets": 11,
+  "outlets": 13,
   "regions": 3,
-  "media_weight": 22,
+  "media_weight": 26,
   "community": {
    "hn": 0,
    "ptt": 0,

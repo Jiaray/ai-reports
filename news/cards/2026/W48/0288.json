@@ -1,0 +1,100 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0288",
+ "title": "Reuters：中國 AI 公司 MiniMax 資料遭不明人士存取；Apple 以兒少安全為由下架其聊天 App",
+ "line": "兩則 Reuters 報導同日指向 MiniMax 的資安與兒少安全問題",
+ "born_at": "2026-11-26T16:09:33+08:00",
+ "first_reported_at": "2026-11-26T13:13:00+08:00",
+ "updated_at": "2026-11-26T16:09:33+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中國大陸",
+   "北美"
+  ],
+  "country": [
+   "CN",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "資安"
+  ],
+  "event": [
+   "資安事件",
+   "爭議風波"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "網路平台"
+  ],
+  "org": [
+   "MiniMax",
+   "Apple"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "MiniMax",
+   "App Store 下架",
+   "兒少安全"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Reuters 11 月 26 日兩則報導：一則獨家引述研究人員說法，指中國 AI 公司 MiniMax 的資料遭不明人士存取；另一則指 Apple 以兒少安全疑慮為由，把 MiniMax 的 AI 聊天機器人從 App Store 下架。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "EXCLUSIVE: Data from Chinese AI firm MiniMax accessed by unidentified parties, researcher says",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxOYXlXQVE4enJyRWstWjJvUGdBczBMWHdfZHRmYTNSN3I0eFpqeXBfVU5tN3NRSERpcjBPeE1rV1kwWTBwWnY3U2s1TnlpY2EtakM5TmItUW1UdnVFZXJWTWVRQk1paVhJeTBpSlB0eHJyWERRdnZ1bVctUmctdGJZOXpZMnFMdkxYVlZ3UHI4OE1wZEhocHBGNW0wU1Z3S2VxQ0x6a1pablJOUzlTOXlMSkxUYjRFcWtIc2tB?oc=5",
+   "time": "2026-11-26T14:16:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Apple pulls MiniMax AI chatbot from App Store over child safety concerns",
+   "url": "https://news.google.com/rss/articles/CBMixwFBVV95cUxPNU9tZmh6STA3Ui1FY1FQaE9LMDgzQjJjV2xoZ3Q1Znlvbk5wdll2OXoyOUdxUHp2WEYteFpvTFBhVDZYbFozTXp5T0RpaE4zUUhBaDhiVDAxUkY2RURGQWFFaE1BRTVmdmdXTDh3UEdReDM5N0pjSjBzUXB3UEpPa05ma2ZoWDZhTzhJbTNFeDBfQllEWS02eHhST1FPRWI0VlRMOEhHanpvUjZpWkNPWEJLS1BlSllaZ25XeTRGUXF3bUZEcE5n?oc=5",
+   "time": "2026-11-26T13:13:00+08:00",
+   "added_at": "2026-11-26T16:09:33+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}
