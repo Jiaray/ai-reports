@@ -132,7 +132,7 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | theverge | The Verge | rss | https://www.theverge.com/rss/index.xml |  | 20 | 是 | tech_media | 新聞 | en | tech |  | 2026-11-25 | 2026-11-26 |  |
 | technews_tw | 科技新報 | rss | https://technews.tw/feed/ |  | 20 | 是 | tech_media | 新聞 | zh-TW | tech |  | 2026-11-25 | 2026-11-26 |  |
 | icsda | ICSDA 資安日報 | icsda | https://icsda.org.tw |  | 20 | 是 | icsda_digest | 新聞 | zh-TW | security |  | 2026-11-25 | 2026-11-26 | 主來源：最新一篇的今日新聞速覽 |
-| bleepingcomputer | BleepingComputer | rss | https://www.bleepingcomputer.com/feed/ |  | 30 | 是 | security_news | 新聞 | en | security |  | 2026-11-25 |  |  |
+| bleepingcomputer | BleepingComputer | rss | https://www.bleepingcomputer.com/feed/ |  | 30 | 是 | security_news | 新聞 | en | security |  | 2026-11-25 | 2026-11-26 |  |
 | thehackernews | The Hacker News | rss | https://feeds.feedburner.com/TheHackersNews |  | 30 | 是 | security_news | 新聞 | en | security |  | 2026-11-25 | 2026-11-26 |  |
 | krebs | Krebs on Security | rss | https://krebsonsecurity.com/feed/ |  | 30 | 是 | security_news | 新聞 | en | security |  | 2026-11-25 |  |  |
 | ithome_security | iThome 資安 | rss | https://www.ithome.com.tw/rss | 資安,漏洞,駭客,勒索,惡意,釣魚,外洩,零時差,後門,CVE | 30 | 是 | security_news | 新聞 | zh-TW | security |  | 2026-11-25 | 2026-11-26 | 全站 feed 用資安關鍵字篩 |
@@ -196,7 +196,7 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | guardian_lifeandstyle | The Guardian Life and style | rss | https://www.theguardian.com/lifeandstyle/rss |  | 8 | 是 | life_news | 新聞 | en | life |  | 2026-11-25 |  | 則數 20→8（2026-11-26 第一次全收 16 則收 0） |
 | cna_culture | 中央社 CNA | rss | https://feeds.feedburner.com/rsscna/culture |  | 15 | 是 | culture_news | 新聞 | zh-TW | culture |  | 2026-11-25 | 2026-11-26 | 中央社文化分類 |
 | guardian_culture | The Guardian Culture | rss | https://www.theguardian.com/culture/rss |  | 10 | 是 | culture_news | 新聞 | en | culture |  | 2026-11-25 | 2026-11-26 | 則數 20→10（2026-11-26 第一次全收 20 則收 2） |
-| cna_stars | 中央社 CNA | rss | https://feeds.feedburner.com/rsscna/stars |  | 15 | 是 | entertainment_news | 新聞 | zh-TW | entertainment |  | 2026-11-25 |  | 中央社影劇分類 |
+| cna_stars | 中央社 CNA | rss | https://feeds.feedburner.com/rsscna/stars |  | 15 | 是 | entertainment_news | 新聞 | zh-TW | entertainment |  | 2026-11-25 | 2026-11-26 | 中央社影劇分類 |
 | deadline | Deadline | rss | https://deadline.com/feed/ |  | 10 | 是 | entertainment_news | 新聞 | en | entertainment |  | 2026-11-25 | 2026-11-26 | 則數 20→10（2026-11-26 第一次全收 12 則收 2） |
 | cna_sport | 中央社 CNA | rss | https://feeds.feedburner.com/rsscna/sport |  | 10 | 是 | sports_news | 新聞 | zh-TW | sports |  | 2026-11-25 | 2026-11-26 | 中央社運動分類；則數 15→10（2026-11-26 第一次全收 13 則收 2） |
 | bbc_sport | BBC Sport | rss | https://feeds.bbci.co.uk/sport/rss.xml |  | 10 | 是 | sports_news | 新聞 | en | sports |  | 2026-11-25 | 2026-11-26 | 則數 20→10（2026-11-26 第一次全收 20 則收 2） |
@@ -210,7 +210,7 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | gamesindustry | GamesIndustry.biz | rss | https://www.gamesindustry.biz/feed |  | 30 | 是 | gamedev_news | 新聞 | en | game_industry |  | 2026-11-25 | 2026-11-26 |  |
 | pocketgamerbiz | PocketGamer.biz | rss | https://www.pocketgamer.biz/index.rss |  | 30 | 是 | gamedev_news | 新聞 | en | game_industry |  | 2026-11-25 | 2026-11-26 |  |
-| mobilegamer | Mobilegamer.biz | rss | https://mobilegamer.biz/feed/ |  | 30 | 是 | gamedev_news | 新聞 | en | game_industry |  | 2026-11-25 |  |  |
+| mobilegamer | Mobilegamer.biz | rss | https://mobilegamer.biz/feed/ |  | 30 | 是 | gamedev_news | 新聞 | en | game_industry |  | 2026-11-25 | 2026-11-26 |  |
 | gamesbeat | GamesBeat | rss | https://gamesbeat.com/feed/ |  | 30 | 是 | gamedev_news | 新聞 | en | game_industry |  | 2026-11-25 | 2026-11-26 |  |
 | 80lv | 80 Level | rss | https://80.lv/feed |  | 30 | 是 | gamedev_news | 新聞 | en | game_industry |  | 2026-11-25 | 2026-11-26 |  |
 | cocos_forum | Cocos 中文社區 | cocos_forum | https://forum.cocos.org |  | 60 | 是 | cocos_forum | 新聞 | zh-CN | web_gamedev |  | 2026-11-25 | 2026-11-26 | 近 7 天新帖，正文是首帖與前 19 則回覆 |
@@ -239,7 +239,7 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | scott_young | Scott Young | rss | https://www.scotthyoung.com/blog/feed/ |  | 3 | 是 | essays | 長文 | en | reading |  | 2026-11-25 |  |  |
 | lex_fridman | Lex Fridman | rss | https://lexfridman.com/feed/podcast |  | 3 | 是 | podcasts | 播客 | en | reading |  | 2026-11-25 |  |  |
 | 80000_hours | 80000 Hours | rss | https://feeds.transistor.fm/80000-hours-podcast |  | 3 | 是 | podcasts | 播客 | en | reading |  | 2026-11-25 |  |  |
-| latentspace_podcast | Latent Space | latentspace_podcast | https://latent.space/feed |  | 3 | 是 | podcasts | 播客 | en | reading |  | 2026-11-25 |  | 排除 [AINews] |
+| latentspace_podcast | Latent Space | latentspace_podcast | https://latent.space/feed |  | 3 | 是 | podcasts | 播客 | en | reading |  | 2026-11-25 | 2026-11-26 | 排除 [AINews] |
 | hn_reading | Hacker News | hackernews | https://news.ycombinator.com | essay,book,books,history,science,mathematics,psychology,philosophy | 20 | 是 | hn_deep | 長文 | en | reading |  | 2026-11-25 |  | 近 24 小時關鍵字搜尋 |
 | the_atlantic | The Atlantic | rss | https://www.theatlantic.com/feed/all/ |  | 8 | 是 | essays | 長文 | en | reading |  | 2026-11-26 |  | 文章頁擋抓取（403），改用 feed 全文（Atom 的 content） |
 | longreads | Longreads | rss | https://longreads.com/feed/ |  | 3 | 是 | essays | 長文 | en | reading |  | 2026-11-26 |  | 編輯精選長篇報導 |
