@@ -38,22 +38,23 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | pool_japan_times | Japan Times | pool | https://www.japantimes.co.jp/feed/ |  | 30 | 否 | international_pool | 新聞 | en | politics,society,cross_strait |  | 2026-11-25 | 2026-11-26 |  |
 | pool_straits_times_asia | Straits Times Asia | pool | https://www.straitstimes.com/news/asia/rss.xml |  | 30 | 否 | international_pool | 新聞 | en | politics,society,cross_strait |  | 2026-11-25 | 2026-11-26 |  |
 | pool_reuters | Reuters (Google News fallback) | pool | https://news.google.com/rss/search?q=site%3Areuters.com%20when%3A1d&hl=en-US&gl=US&ceid=US%3Aen |  | 30 | 否 | international_pool | 新聞 | en | politics,society,cross_strait |  | 2026-11-25 | 2026-11-26 | Google News 的 site:reuters.com 檢索，只有標題 |
-| nature | Nature | rss | https://www.nature.com/nature.rss |  | 15 | 是 | papers | 論文 | en | papers,science |  | 2026-11-26 |  | 研究與新聞混合；時間只有日期 |
+| nature | Nature | rss | https://www.nature.com/nature.rss |  | 15 | 是 | papers | 論文 | en | papers,science |  | 2026-11-26 | 2026-11-26 | 研究與新聞混合；時間只有日期 |
 | quanta | Quanta Magazine | rss | https://www.quantamagazine.org/feed/ |  | 5 | 是 | science_news | 長文 | en | science,reading |  | 2026-11-26 |  | 數學、物理、生物科普長文 |
-| ustr | USTR | rss | https://ustr.gov/rss.xml |  | 5 | 是 | policy_official | 新聞 | en | finance,politics |  | 2026-11-26 |  | 美國貿易代表署：關稅、貿易協定 |
+| ustr | USTR | rss | https://ustr.gov/rss.xml |  | 5 | 是 | policy_official | 新聞 | en | finance,politics |  | 2026-11-26 | 2026-11-26 | 美國貿易代表署：關稅、貿易協定 |
 | bis_export | BIS 出口管制 | rss | https://www.federalregister.gov/api/v1/documents.rss?conditions%5Bagencies%5D%5B%5D=industry-and-security-bureau |  | 5 | 是 | policy_official | 新聞 | en | finance,tech | 是 | 2026-11-26 |  | 聯邦公報上的 BIS 規則與公告；量少，釘選 |
-| ap_gnews | AP (Google News fallback) | rss | https://news.google.com/rss/search?q=when:24h+site:apnews.com&hl=en-US&gl=US&ceid=US:en |  | 30 | 否 | headlines | 新聞 | en | politics,society |  | 2026-11-26 |  | Google News 的 site:apnews.com 檢索，只有標題 |
-| axios | Axios | rss | https://api.axios.com/feed/ |  | 15 | 是 | politics_news | 新聞 | en | politics,finance |  | 2026-11-26 |  |  |
-| nyt_asia | NYT Asia Pacific | rss | https://rss.nytimes.com/services/xml/rss/nyt/AsiaPacific.xml |  | 15 | 否 | politics_news | 新聞 | en | politics,cross_strait |  | 2026-11-26 |  | 付費牆，只有標題與摘要 |
-| cna_local | 中央社 CNA | rss | https://feeds.feedburner.com/rsscna/local |  | 15 | 是 | society_news | 新聞 | zh-TW | society,taiwan_general |  | 2026-11-26 |  | 中央社地方分類 |
-| propublica | ProPublica | rss | https://www.propublica.org/feeds/propublica/main |  | 5 | 是 | society_news | 新聞 | en | society,reading |  | 2026-11-26 |  | 調查報導 |
-| npr_news | NPR News | rss | https://feeds.npr.org/1001/rss.xml |  | 10 | 是 | headlines | 新聞 | en | politics,society |  | 2026-11-26 |  | NPR 新聞總覽；feed 只留 10 則 |
-| solidot | Solidot | rss | https://www.solidot.org/index.rss |  | 15 | 是 | tech_media | 新聞 | zh-CN | tech,science |  | 2026-11-26 |  | 中文版 Slashdot，短訊 |
-| tmtpost | 鈦媒體 | rss | https://www.tmtpost.com/rss.xml |  | 15 | 是 | tech_media | 新聞 | zh-CN | tech,finance |  | 2026-11-26 |  | 中國科技商業；feed 帶全文 |
-| kr36 | 36氪 | rss | https://feed.quanwenrss.com/feed/36kr-latest.xml |  | 15 | 是 | tech_media | 新聞 | zh-CN | tech,finance |  | 2026-11-26 |  | quanwenrss 代理（原站 feed 沒有時間）；每則連回 36kr.com |
-| malwarebytes | Malwarebytes Labs | rss | https://www.malwarebytes.com/blog/feed/index.xml |  | 5 | 是 | security_news | 新聞 | en | security,life |  | 2026-11-26 |  | 詐騙與消費者資安 |
+| ap_gnews | AP (Google News fallback) | rss | https://news.google.com/rss/search?q=when:24h+site:apnews.com&hl=en-US&gl=US&ceid=US:en |  | 30 | 否 | headlines | 新聞 | en | politics,society |  | 2026-11-26 | 2026-11-26 | Google News 的 site:apnews.com 檢索，只有標題 |
+| axios | Axios | rss | https://api.axios.com/feed/ |  | 15 | 是 | politics_news | 新聞 | en | politics,finance |  | 2026-11-26 | 2026-11-26 |  |
+| nyt_asia | NYT Asia Pacific | rss | https://rss.nytimes.com/services/xml/rss/nyt/AsiaPacific.xml |  | 15 | 否 | politics_news | 新聞 | en | politics,cross_strait |  | 2026-11-26 | 2026-11-26 | 付費牆，只有標題與摘要 |
+| cna_local | 中央社 CNA | rss | https://feeds.feedburner.com/rsscna/local |  | 15 | 是 | society_news | 新聞 | zh-TW | society,taiwan_general |  | 2026-11-26 | 2026-11-26 | 中央社地方分類 |
+| propublica | ProPublica | rss | https://www.propublica.org/feeds/propublica/main |  | 5 | 是 | society_news | 新聞 | en | society,reading |  | 2026-11-26 | 2026-11-26 | 調查報導 |
+| npr_news | NPR News | rss | https://feeds.npr.org/1001/rss.xml |  | 10 | 是 | headlines | 新聞 | en | politics,society |  | 2026-11-26 | 2026-11-26 | NPR 新聞總覽；feed 只留 10 則 |
+| solidot | Solidot | rss | https://www.solidot.org/index.rss |  | 15 | 是 | tech_media | 新聞 | zh-CN | tech,science |  | 2026-11-26 | 2026-11-26 | 中文版 Slashdot，短訊 |
+| tmtpost | 鈦媒體 | rss | https://www.tmtpost.com/rss.xml |  | 15 | 是 | tech_media | 新聞 | zh-CN | tech,finance |  | 2026-11-26 | 2026-11-26 | 中國科技商業；feed 帶全文 |
+| kr36 | 36氪 | rss | https://feed.quanwenrss.com/feed/36kr-latest.xml |  | 15 | 是 | tech_media | 新聞 | zh-CN | tech,finance |  | 2026-11-26 | 2026-11-26 | quanwenrss 代理（原站 feed 沒有時間）；每則連回 36kr.com |
+| malwarebytes | Malwarebytes Labs | rss | https://www.malwarebytes.com/blog/feed/index.xml |  | 5 | 是 | security_news | 新聞 | en | security,life |  | 2026-11-26 | 2026-11-26 | 詐騙與消費者資安 |
 | sspai | 少数派 | rss | https://sspai.com/feed |  | 5 | 是 | life_news | 新聞 | zh-CN | life,tech |  | 2026-11-26 |  | App 與效率工具 |
-| time_mag | TIME | rss | https://time.com/feed/ |  | 10 | 是 | politics_news | 新聞 | en | politics,reading |  | 2026-11-26 |  | feed 帶全文 |
+| time_mag | TIME | rss | https://time.com/feed/ |  | 10 | 是 | politics_news | 新聞 | en | politics,reading |  | 2026-11-26 | 2026-11-26 | feed 帶全文 |
+| new_sciencealert_com | ScienceAlert | rss | https://www.sciencealert.com/feed/gn/ |  | 10 | 是 | discovered | 新聞 | en-US | tech,science |  | 2026-11-26 |  | 2026-11-26 自動進主線；網站 https://www.sciencealert.com |
 
 ## 領域：台灣
 
@@ -69,9 +70,9 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | v2ex | V2EX | v2ex | https://www.v2ex.com/api/topics/hot.json |  | 30 | 是 | v2ex_hot | 新聞 | zh-CN | social |  | 2026-11-25 |  |  |
 | cna_mainland | 中央社 CNA | rss | https://feeds.feedburner.com/rsscna/mainland |  | 15 | 是 | cross_strait_news | 新聞 | zh-TW | cross_strait |  | 2026-11-25 | 2026-11-26 | 中央社兩岸分類 |
 | guardian_china | The Guardian China | rss | https://www.theguardian.com/world/china/rss |  | 20 | 是 | cross_strait_news | 新聞 | en | cross_strait |  | 2026-11-25 | 2026-11-26 |  |
-| nyt_cn | 紐約時報中文網 | rss | https://cn.nytimes.com/rss/ |  | 15 | 是 | cross_strait_news | 新聞 | zh-CN | cross_strait |  | 2026-11-26 |  | 部分付費 |
-| rfi_cn | RFI 中文 | rss | https://www.rfi.fr/cn/rss |  | 20 | 是 | cross_strait_news | 新聞 | zh-CN | cross_strait |  | 2026-11-26 |  | 法廣中文，中國與港澳台 |
-| dw_cn | DW 中文 | rss | https://rss.dw.com/rdf/rss-chi-all |  | 15 | 是 | cross_strait_news | 新聞 | zh-CN | cross_strait |  | 2026-11-26 |  | 德國之聲中文 |
+| nyt_cn | 紐約時報中文網 | rss | https://cn.nytimes.com/rss/ |  | 15 | 是 | cross_strait_news | 新聞 | zh-CN | cross_strait |  | 2026-11-26 | 2026-11-26 | 部分付費 |
+| rfi_cn | RFI 中文 | rss | https://www.rfi.fr/cn/rss |  | 20 | 是 | cross_strait_news | 新聞 | zh-CN | cross_strait |  | 2026-11-26 | 2026-11-26 | 法廣中文，中國與港澳台 |
+| dw_cn | DW 中文 | rss | https://rss.dw.com/rdf/rss-chi-all |  | 15 | 是 | cross_strait_news | 新聞 | zh-CN | cross_strait |  | 2026-11-26 | 2026-11-26 | 德國之聲中文 |
 
 ## 領域：政治
 
@@ -79,9 +80,9 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
 | guardian_us_politics | The Guardian US politics | rss | https://www.theguardian.com/us-news/us-politics/rss |  | 20 | 是 | politics_news | 新聞 | en | politics |  | 2026-11-25 | 2026-11-26 |  |
 | politico | Politico | rss | https://rss.politico.com/politics-news.xml |  | 15 | 是 | politics_news | 新聞 | en | politics |  | 2026-11-26 |  | 美國國會與白宮 |
-| politico_eu | Politico Europe | rss | https://www.politico.eu/feed/ |  | 15 | 是 | politics_news | 新聞 | en | politics |  | 2026-11-26 |  | 歐盟政治 |
-| whitehouse | White House | rss | https://www.whitehouse.gov/news/feed/ |  | 10 | 是 | policy_official | 新聞 | en | politics |  | 2026-11-26 |  | 行政命令與聲明 |
-| wsj_world | WSJ World News | rss | https://feeds.content.dowjones.io/public/rss/RSSWorldNews |  | 15 | 否 | politics_news | 新聞 | en | politics |  | 2026-11-26 |  | 付費牆，只有標題與摘要；美國新聞在國際媒體池 pool_wsj |
+| politico_eu | Politico Europe | rss | https://www.politico.eu/feed/ |  | 15 | 是 | politics_news | 新聞 | en | politics |  | 2026-11-26 | 2026-11-26 | 歐盟政治 |
+| whitehouse | White House | rss | https://www.whitehouse.gov/news/feed/ |  | 10 | 是 | policy_official | 新聞 | en | politics |  | 2026-11-26 | 2026-11-26 | 行政命令與聲明 |
+| wsj_world | WSJ World News | rss | https://feeds.content.dowjones.io/public/rss/RSSWorldNews |  | 15 | 否 | politics_news | 新聞 | en | politics |  | 2026-11-26 | 2026-11-26 | 付費牆，只有標題與摘要；美國新聞在國際媒體池 pool_wsj |
 
 ## 領域：社會
 
@@ -106,8 +107,8 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | pool_cnbc | CNBC | pool | https://www.cnbc.com/id/100003114/device/rss/rss.html |  | 30 | 否 | international_pool | 新聞 | en | finance |  | 2026-11-25 | 2026-11-26 |  |
 | pool_ft | Financial Times | pool | https://www.ft.com/rss/home |  | 30 | 否 | international_pool | 新聞 | en | finance |  | 2026-11-25 | 2026-11-26 |  |
 | fed_monetary | 聯準會 | rss | https://www.federalreserve.gov/feeds/press_monetary.xml |  | 5 | 是 | policy_official | 新聞 | en | finance | 是 | 2026-11-26 |  | 貨幣政策新聞稿；量少，釘選 |
-| bloomberg_markets | Bloomberg Markets | rss | https://www.bloomberg.com/feeds/markets/news.rss |  | 20 | 否 | finance_coverage | 新聞 | en | finance |  | 2026-11-26 |  | 付費牆，只有標題與摘要 |
-| fortune | Fortune | rss | https://fortune.com/feed/fortune-feeds/?id=3230629 |  | 10 | 是 | finance_coverage | 新聞 | en | finance |  | 2026-11-26 |  | feed 帶全文 |
+| bloomberg_markets | Bloomberg Markets | rss | https://www.bloomberg.com/feeds/markets/news.rss |  | 20 | 否 | finance_coverage | 新聞 | en | finance |  | 2026-11-26 | 2026-11-26 | 付費牆，只有標題與摘要 |
+| fortune | Fortune | rss | https://fortune.com/feed/fortune-feeds/?id=3230629 |  | 10 | 是 | finance_coverage | 新聞 | en | finance |  | 2026-11-26 | 2026-11-26 | feed 帶全文 |
 | cn21jingji | 21 世紀經濟報道 | rss | https://feed.quanwenrss.com/feed/21caijing-home.xml |  | 15 | 是 | finance_coverage | 新聞 | zh-CN | finance |  | 2026-11-26 |  | quanwenrss 代理；每則連回 21jingji.com |
 
 ## 領域：科技
@@ -145,30 +146,32 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | deepmind_blog | Google DeepMind | rss | https://deepmind.google/blog/rss.xml |  | 5 | 是 | ai_official | 新聞 | en | ai |  | 2026-11-26 |  | 官方研究與模型發布 |
 | google_ai_blog | Google AI Blog | rss | https://blog.google/innovation-and-ai/technology/ai/rss/ |  | 5 | 是 | ai_official | 新聞 | en | ai |  | 2026-11-26 |  | The Keyword 的 AI 專區 |
 | hf_blog | Hugging Face Blog | rss | https://huggingface.co/blog/feed.xml |  | 5 | 是 | ai_official | 新聞 | en | ai |  | 2026-11-26 |  | feed 只有標題 |
-| simon_willison | Simon Willison | rss | https://simonwillison.net/atom/everything/ |  | 10 | 是 | ai_curated | 新聞 | en | ai |  | 2026-11-26 |  | 個人部落格，LLM 工具實測 |
+| simon_willison | Simon Willison | rss | https://simonwillison.net/atom/everything/ |  | 10 | 是 | ai_curated | 新聞 | en | ai |  | 2026-11-26 | 2026-11-26 | 個人部落格，LLM 工具實測 |
 | mit_tech_review | MIT Technology Review | rss | https://www.technologyreview.com/feed/ |  | 10 | 是 | tech_media | 新聞 | en | ai,tech |  | 2026-11-26 |  | 部分付費 |
-| techmeme | Techmeme | rss | https://www.techmeme.com/feed.xml |  | 15 | 否 | tech_curated | 新聞 | en | tech |  | 2026-11-26 |  | 編輯挑的當日要聞；每則連到 Techmeme 頁，原文連結在摘要裡 |
-| techcrunch | TechCrunch | rss | https://techcrunch.com/feed/ |  | 20 | 是 | tech_media | 新聞 | en | tech,ai |  | 2026-11-26 |  | 新創、募資、AI 產品 |
-| media404 | 404 Media | rss | https://www.404media.co/rss/ |  | 10 | 是 | tech_media | 新聞 | en | tech |  | 2026-11-26 |  | 獨立調查報導，部分付費 |
+| techmeme | Techmeme | rss | https://www.techmeme.com/feed.xml |  | 15 | 否 | tech_curated | 新聞 | en | tech |  | 2026-11-26 | 2026-11-26 | 編輯挑的當日要聞；每則連到 Techmeme 頁，原文連結在摘要裡 |
+| techcrunch | TechCrunch | rss | https://techcrunch.com/feed/ |  | 20 | 是 | tech_media | 新聞 | en | tech,ai |  | 2026-11-26 | 2026-11-26 | 新創、募資、AI 產品 |
+| media404 | 404 Media | rss | https://www.404media.co/rss/ |  | 10 | 是 | tech_media | 新聞 | en | tech |  | 2026-11-26 | 2026-11-26 | 獨立調查報導，部分付費 |
 | cloudflare_blog | Cloudflare Blog | rss | https://blog.cloudflare.com/rss/ |  | 5 | 是 | tech_media | 新聞 | en | tech,security |  | 2026-11-26 |  | 網路基礎設施與事故檢討 |
-| cna_tech | 中央社 CNA | rss | https://feeds.feedburner.com/rsscna/technology |  | 15 | 是 | tech_media | 新聞 | zh-TW | tech |  | 2026-11-26 |  | 中央社科技分類 |
-| cisa_advisories | CISA | rss | https://www.cisa.gov/cybersecurity-advisories/all.xml |  | 10 | 是 | security_advisories | 新聞 | en | security |  | 2026-11-26 |  | 美國官方漏洞與攻擊公告（含工控） |
+| cna_tech | 中央社 CNA | rss | https://feeds.feedburner.com/rsscna/technology |  | 15 | 是 | tech_media | 新聞 | zh-TW | tech |  | 2026-11-26 | 2026-11-26 | 中央社科技分類 |
+| cisa_advisories | CISA | rss | https://www.cisa.gov/cybersecurity-advisories/all.xml |  | 10 | 是 | security_advisories | 新聞 | en | security |  | 2026-11-26 | 2026-11-26 | 美國官方漏洞與攻擊公告（含工控） |
 | sans_isc | SANS ISC | rss | https://isc.sans.edu/rssfeed.xml |  | 5 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 |  | 每日威脅觀察；feed 只有標題 |
-| the_record | The Record | rss | https://therecord.media/feed |  | 10 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 |  | 國家級攻擊與資安政策 |
+| the_record | The Record | rss | https://therecord.media/feed |  | 10 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 | 2026-11-26 | 國家級攻擊與資安政策 |
 | schneier | Schneier on Security | rss | https://www.schneier.com/blog/atom.xml |  | 5 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 |  | 個人部落格；文章頁抽到的是讀者留言，程式不抓頁面、改用 feed 內文（fetch_news.FEED_ONLY_URL） |
-| cisco_talos | Cisco Talos | rss | https://blog.talosintelligence.com/rss/ |  | 5 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 |  | 威脅情資研究 |
-| the_register | The Register | rss | https://www.theregister.com/headlines.atom |  | 15 | 是 | tech_media | 新聞 | en | tech,security |  | 2026-11-26 |  | 企業 IT、雲端與資安；feed 帶全文 |
-| slashdot | Slashdot | rss | https://rss.slashdot.org/Slashdot/slashdotMain |  | 10 | 是 | tech_media | 新聞 | en | tech |  | 2026-11-26 |  | 社群投稿、編輯摘要；每則連到 Slashdot 討論頁 |
-| macrumors | MacRumors | rss | https://feeds.macrumors.com/MacRumors-All |  | 10 | 是 | tech_media | 新聞 | en | tech |  | 2026-11-26 |  | Apple 消息 |
-| ithome_cn | IT 之家 | rss | https://www.ithome.com/rss/ |  | 20 | 是 | tech_media | 新聞 | zh-CN | tech |  | 2026-11-26 |  | 中國科技新聞，一天 60 則以上 |
-| cyberscoop | CyberScoop | rss | https://cyberscoop.com/feed/ |  | 10 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 |  | 美國資安政策 |
-| helpnetsecurity | Help Net Security | rss | https://www.helpnetsecurity.com/feed/ |  | 10 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 |  |  |
-| darkreading | Dark Reading | rss | https://www.darkreading.com/rss.xml |  | 10 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 |  |  |
+| cisco_talos | Cisco Talos | rss | https://blog.talosintelligence.com/rss/ |  | 5 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 | 2026-11-26 | 威脅情資研究 |
+| the_register | The Register | rss | https://www.theregister.com/headlines.atom |  | 15 | 是 | tech_media | 新聞 | en | tech,security |  | 2026-11-26 | 2026-11-26 | 企業 IT、雲端與資安；feed 帶全文 |
+| slashdot | Slashdot | rss | https://rss.slashdot.org/Slashdot/slashdotMain |  | 10 | 是 | tech_media | 新聞 | en | tech |  | 2026-11-26 | 2026-11-26 | 社群投稿、編輯摘要；每則連到 Slashdot 討論頁 |
+| macrumors | MacRumors | rss | https://feeds.macrumors.com/MacRumors-All |  | 10 | 是 | tech_media | 新聞 | en | tech |  | 2026-11-26 | 2026-11-26 | Apple 消息 |
+| ithome_cn | IT 之家 | rss | https://www.ithome.com/rss/ |  | 20 | 是 | tech_media | 新聞 | zh-CN | tech |  | 2026-11-26 | 2026-11-26 | 中國科技新聞，一天 60 則以上 |
+| cyberscoop | CyberScoop | rss | https://cyberscoop.com/feed/ |  | 10 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 | 2026-11-26 | 美國資安政策 |
+| helpnetsecurity | Help Net Security | rss | https://www.helpnetsecurity.com/feed/ |  | 10 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 | 2026-11-26 |  |
+| darkreading | Dark Reading | rss | https://www.darkreading.com/rss.xml |  | 10 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 | 2026-11-26 |  |
 | securelist | Securelist | rss | https://securelist.com/feed/ |  | 5 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 |  | 卡巴斯基威脅研究 |
 | checkpoint_research | Check Point Research | rss | https://research.checkpoint.com/feed/ |  | 5 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 |  | 威脅研究 |
 | project_zero | Google Project Zero | rss | https://projectzero.google/feed.xml |  | 3 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 |  | 漏洞研究，量少 |
 | cell | Cell | rss | https://www.cell.com/cell/current.rss |  | 5 | 否 | papers | 論文 | en | papers |  | 2026-11-26 |  | 每期目錄；文章頁擋抓取（403），用 feed 摘要 |
-| arxiv_ai | arXiv | rss | https://rss.arxiv.org/rss/cs.ai+cs.LG |  | 20 | 是 | papers | 論文 | en | papers |  | 2026-11-26 |  | cs.AI＋cs.LG 每日新論文，一天上百篇；沒有熱度排序 |
+| arxiv_ai | arXiv | rss | https://rss.arxiv.org/rss/cs.ai+cs.LG |  | 20 | 是 | papers | 論文 | en | papers |  | 2026-11-26 | 2026-11-26 | cs.AI＋cs.LG 每日新論文，一天上百篇；沒有熱度排序 |
+| new_computerbase_de | ComputerBase | rss | https://www.computerbase.de/rss/news.xml |  | 10 | 是 | discovered | 新聞 |  | tech |  | 2026-11-26 |  | 2026-11-26 自動進主線；網站 https://www.computerbase.de |
+| new_itpro_com | ITPro | rss | https://www.itpro.com/feeds.xml |  | 10 | 是 | discovered | 新聞 | en | tech |  | 2026-11-26 |  | 2026-11-26 自動進主線；網站 https://www.itpro.com |
 
 ## 領域：科學健康
 
@@ -187,7 +190,7 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | pool_guardian_environment | The Guardian Environment | pool | https://www.theguardian.com/uk/environment/rss |  | 30 | 否 | international_pool | 新聞 | en | environment |  | 2026-11-25 | 2026-11-26 |  |
 | pool_who | WHO | pool | https://www.who.int/rss-feeds/news-english.xml |  | 30 | 否 | international_pool | 新聞 | en | health |  | 2026-11-25 |  |  |
 | nasa | NASA | rss | https://www.nasa.gov/news-release/feed/ |  | 10 | 是 | science_news | 新聞 | en | science |  | 2026-11-26 |  | 官方新聞稿 |
-| sciam | Scientific American | rss | https://www.scientificamerican.com/platform/syndication/rss/ |  | 10 | 是 | science_news | 新聞 | en | science |  | 2026-11-26 |  | 部分付費 |
+| sciam | Scientific American | rss | https://www.scientificamerican.com/platform/syndication/rss/ |  | 10 | 是 | science_news | 新聞 | en | science |  | 2026-11-26 | 2026-11-26 | 部分付費 |
 
 ## 領域：生活娛樂
 
@@ -240,12 +243,12 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | lex_fridman | Lex Fridman | rss | https://lexfridman.com/feed/podcast |  | 3 | 是 | podcasts | 播客 | en | reading |  | 2026-11-25 |  |  |
 | 80000_hours | 80000 Hours | rss | https://feeds.transistor.fm/80000-hours-podcast |  | 3 | 是 | podcasts | 播客 | en | reading |  | 2026-11-25 |  |  |
 | latentspace_podcast | Latent Space | latentspace_podcast | https://latent.space/feed |  | 3 | 是 | podcasts | 播客 | en | reading |  | 2026-11-25 | 2026-11-26 | 排除 [AINews] |
-| hn_reading | Hacker News | hackernews | https://news.ycombinator.com | essay,book,books,history,science,mathematics,psychology,philosophy | 20 | 是 | hn_deep | 長文 | en | reading |  | 2026-11-25 |  | 近 24 小時關鍵字搜尋 |
-| the_atlantic | The Atlantic | rss | https://www.theatlantic.com/feed/all/ |  | 8 | 是 | essays | 長文 | en | reading |  | 2026-11-26 |  | 文章頁擋抓取（403），改用 feed 全文（Atom 的 content） |
-| longreads | Longreads | rss | https://longreads.com/feed/ |  | 3 | 是 | essays | 長文 | en | reading |  | 2026-11-26 |  | 編輯精選長篇報導 |
+| hn_reading | Hacker News | hackernews | https://news.ycombinator.com | essay,book,books,history,science,mathematics,psychology,philosophy | 20 | 是 | hn_deep | 長文 | en | reading |  | 2026-11-25 | 2026-11-26 | 近 24 小時關鍵字搜尋 |
+| the_atlantic | The Atlantic | rss | https://www.theatlantic.com/feed/all/ |  | 8 | 是 | essays | 長文 | en | reading |  | 2026-11-26 | 2026-11-26 | 文章頁擋抓取（403），改用 feed 全文（Atom 的 content） |
+| longreads | Longreads | rss | https://longreads.com/feed/ |  | 3 | 是 | essays | 長文 | en | reading |  | 2026-11-26 | 2026-11-26 | 編輯精選長篇報導 |
 | ruanyifeng | 阮一峰的網路日誌 | rss | https://www.ruanyifeng.com/blog/atom.xml |  | 3 | 是 | essays | 長文 | zh-CN | reading |  | 2026-11-26 |  | 科技愛好者週刊，每週五 |
 | pragmatic_engineer | The Pragmatic Engineer | rss | https://blog.pragmaticengineer.com/rss/ |  | 3 | 是 | essays | 長文 | en | reading |  | 2026-11-26 |  | 軟體團隊與產業；部分付費 |
-| vox | Vox | rss | https://www.vox.com/rss/index.xml |  | 5 | 是 | essays | 長文 | en | reading |  | 2026-11-26 |  | 解釋型報導；feed 帶全文 |
+| vox | Vox | rss | https://www.vox.com/rss/index.xml |  | 5 | 是 | essays | 長文 | en | reading |  | 2026-11-26 | 2026-11-26 | 解釋型報導；feed 帶全文 |
 
 ## 板凳
 
@@ -256,6 +259,15 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 
 | 代號 | 名稱 | 抓法 | 網址 | 查詢 | 則數 | 正文 | 區塊 | 形式 | 語言 | 系列 | 釘選 | 加入日期 | 最近收錄 | 備註 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| new_neowin_net | Neowin | rss | https://www.neowin.net |  | 10 | 是 | discovered | 新聞 |  | tech |  | 2026-11-26 |  | 發現 1 次；卡 @359；檢查未過 1 次：網站抓不到（HTTP 403） |
+| new_defensenews_com | Defense News | rss | https://www.defensenews.com |  | 10 | 是 | discovered | 新聞 |  | tech |  | 2026-11-26 |  | 發現 1 次；卡 @285 |
+| new_telegraph_co_uk | The Telegraph | rss | https://www.telegraph.co.uk |  | 10 | 是 | discovered | 新聞 |  | finance |  | 2026-11-26 |  | 發現 1 次；卡 @563 |
+| new_nextgov_com | NextGov | rss | https://www.nextgov.com |  | 10 | 是 | discovered | 新聞 |  | security |  | 2026-11-26 |  | 發現 1 次；卡 @381 |
+| new_cnn_com | CNN | rss | https://www.cnn.com |  | 10 | 是 | discovered | 新聞 |  | cross_strait |  | 2026-11-26 |  | 發現 1 次；卡 @502 |
+| new_stcn_com | 證券時報 | rss | https://www.stcn.com |  | 10 | 是 | discovered | 新聞 |  | tech,finance |  | 2026-11-26 |  | 發現 1 次；卡 @266 |
+| new_cbsnews_com | CBS News | rss | https://www.cbsnews.com |  | 10 | 是 | discovered | 新聞 |  | social,cross_strait,politics,finance,tech |  | 2026-11-26 |  | 發現 1 次；卡 2026-W48-0064 |
+| new_nypost_com | New York Post | rss | https://nypost.com |  | 10 | 是 | discovered | 新聞 |  | social,cross_strait,politics,finance,tech |  | 2026-11-26 |  | 發現 1 次；卡 2026-W48-0064 |
+| new_iowacapitaldispatch_com | Iowa Capital Dispatch | rss | https://iowacapitaldispatch.com |  | 10 | 是 | discovered | 新聞 |  | health,environment |  | 2026-11-26 |  | 發現 1 次；卡 2026-W48-0130 |
 
 ## 停用
 
