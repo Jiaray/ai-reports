@@ -103,7 +103,7 @@
   }
   const dayDiff = (a, b) => Math.round((Date.parse(`${b}T00:00:00Z`) - Date.parse(`${a}T00:00:00Z`)) / 86400000);
 
-  // ── 報頭工具列（bar.js；樣式摘要 5.1）：本日焦點　右邊一組：系列 ▾｜議題｜版面。「議題」在議題目錄 aria-current=page、議題頁 true；
+  // ── 報頭工具列（bar.js；樣式摘要 5.1）：本日焦點　右邊一組：系列｜議題｜版面。「議題」在議題目錄 aria-current=page、議題頁 true；
   // 舊版 bar.js 沒有 storyLink／seriesMenu 就不放 ──
   let srBox; // undefined＝還沒建
   let vwBox = null;

@@ -36,7 +36,7 @@
 
   let index = null; // 抓不到＝null，系列名稱退回代號
   let fpBox = null; // 「版面」下拉（layoutPanel 建一次，每次重畫搬進新工具列）
-  let srBox = null; // 「系列 ▾」下拉（index 到了建一次；舊版 bar.js 沒有 seriesMenu 就不放）
+  let srBox = null; // 「系列」下拉（index 到了建一次；舊版 bar.js 沒有 seriesMenu 就不放）
   const R = A.rows || null; // 列表列（rows.js）；部署空窗缺檔＝null
   const AL = A.almanac || null; // 今天日期與農民曆（almanac.js）
   const almReady = AL ? AL.load() : null; // lunar.js 開頁就開始載
@@ -68,7 +68,7 @@
 
   // ── 報頭（bar.js 元件）──
   const TITLE = '本日焦點';
-  // 工具列（樣式摘要 5.1）：本日焦點（這頁，aria-current=page）　右邊一組：系列 ▾｜議題｜版面。舊版 bar.js 沒有 storyLink 就不放議題
+  // 工具列（樣式摘要 5.1）：本日焦點（這頁，aria-current=page）　右邊一組：系列｜議題｜版面。舊版 bar.js 沒有 storyLink 就不放議題
   const toolbar = () => B.toolbar([
     B.navLink(TITLE, 'front', './', 'page'), srBox, B.storyLink ? B.storyLink(null) : null, fpBox,
   ]);

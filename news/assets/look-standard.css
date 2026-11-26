@@ -48,7 +48,6 @@
 [data-look=standard] .ed-link[aria-current]{color:var(--text);font-weight:500;box-shadow:inset 0 -2px var(--accent)}
 [data-look=standard] .editions>.ed-link:first-child{margin-left:-10px}
 [data-look=standard] .vw .dd-toggle{margin-right:-10px}
-[data-look=standard] .dd-caret{color:var(--text-3)}
 [data-look=standard] :is(.dd-toggle,.ed-link,.dd-close,.rw-act,.fp-chip,.fp-fq-clear,.peek>summary,a):focus-visible{outline:2px solid var(--focus);outline-offset:2px}
 
 /* ── 下拉面板 ── */

@@ -2,7 +2,7 @@
    1. 圖示（aria-hidden；按鈕名稱靠文字或 aria-label）
    2. 下拉 dropdown()（功能鈕開時為底部面板）
    3. 元件 seriesMenu（系列設定 cardSeries）、toolbar、navLink、storyLink、roving。
-      工具列組成（樣式摘要 5.1）：左邊「本日焦點」，右邊一組「系列 ▾｜議題｜版面」
+      工具列組成（樣式摘要 5.1）：左邊「本日焦點」，右邊一組「系列｜議題｜版面」
    4. 工具列凍結：--bar-h、.is-stuck
    5. 手機右下角功能鈕（扇面） */
 (() => {
@@ -14,7 +14,6 @@
   const svg = (size, d, extra = '') => `<svg viewBox="0 0 20 20"${size ? ` width="${size}" height="${size}"` : ''} fill="none" stroke="currentColor" stroke-width="1.5" aria-hidden="true" focusable="false"><path d="${d}"/>${extra}</svg>`;
   const ICON = {
     sliders: svg(18, 'M2.5 6H11M15 6h2.5M2.5 14H5M9 14h8.5', '<rect x="11" y="4" width="4" height="4"/><rect x="5" y="12" width="4" height="4"/>'), // 版面；方形旋鈕配藍圖方角
-    caret: svg(14, 'M6 8l4 4 4-4'),
     close: svg(16, 'M5 5l10 10M15 5 5 15'),
     front: svg(18, 'M3 3.5h14v13H3zM6 7.5h8M6 10.5h8M6 13.5h5'), // 本日焦點：一張報紙（同網站圖示）
     // 系列：一排書（兩本直立、一本斜靠），取叢書系列的意思；書脊橫線讓長方形看得出是書
@@ -203,7 +202,7 @@
   // 系列設定：index.json 的 series 全部（{ id, title, short, group }；陣列順序＝views.SERIES＝全站系列順序，同領域的挨在一起）
   const cardSeries = (index) => (index && Array.isArray(index.series) ? index.series : [])
     .filter((s) => s && typeof s.id === 'string' && s.id);
-  // 「系列 ▾」面板（樣式摘要 5.1）：「新聞卡（近 7 天）」列全部系列頁，照 index.json 的順序（同領域的挨在一起），文字前一條領域色短線。
+  // 「系列」面板（樣式摘要 5.1）：「新聞卡（近 7 天）」列全部系列頁，照 index.json 的順序（同領域的挨在一起），文字前一條領域色短線。
   // 連結 ./?t=（新聞卡頁等其他頁面也連得到）；current＝目前的系列代號（目前位置 aria-current=page）。
   // 一顆下拉不逐一放按鈕：二十多個系列擺不進工具列與扇面
   function seriesMenu(index, current) {
@@ -216,7 +215,7 @@
     ul.style.setProperty('--sr-rows', String(Math.ceil(cards.length / 2))); // 兩欄時的列數（report.css）
     return dropdown({
       cls: 'sr', id: 'sr-panel', title: '系列', closeLabel: '關閉系列',
-      toggleKids: [h('span', { class: 'dd-ico', html: ICON.series }), h('span', null, ['系列']), h('span', { class: 'dd-caret', html: ICON.caret })],
+      toggleKids: [h('span', { class: 'dd-ico', html: ICON.series }), h('span', null, ['系列'])], // 同「版面」：圖示＋文字，不加下拉箭頭（使用者定案）
       body: [h('div', { class: 'sr-body' }, [
         h('div', { class: 'sr-col sr-cards' }, [h('p', { class: 'pd-group', id: 'sr-g-cards' }, ['新聞卡（近 7 天）']), ul]),
       ])],

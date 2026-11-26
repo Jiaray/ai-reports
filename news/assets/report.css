@@ -45,7 +45,7 @@
 :root{--sec-c:var(--color-accent-600);--vw-on-bg:var(--color-accent-600);--vw-on-fg:var(--color-bg)}
 /* 工具列按鈕；.ed-link[aria-current]＝目前位置（本日焦點、議題目錄與議題頁）：2px 主色底線（不只靠顏色） */
 .dd{position:relative;flex:none;display:flex}
-/* 右邊一組「系列 ▾｜議題｜版面」：組裡第一個推到最右（系列還沒建、舊 bar.js 沒有議題時照樣成立） */
+/* 右邊一組「系列｜議題｜版面」：組裡第一個推到最右（系列還沒建、舊 bar.js 沒有議題時照樣成立） */
 .editions>:is(.sr,.ed-story,.vw){margin-left:auto}
 .editions>:is(.sr,.ed-story)~:is(.ed-story,.vw){margin-left:0}
 .dd-toggle,.ed-link{display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 var(--space-3);background:transparent;color:var(--color-neutral-700);border:0;border-radius:0;font:500 15px/1 var(--font-heading);letter-spacing:.02em;white-space:nowrap;cursor:pointer}
@@ -55,10 +55,8 @@
 /* 負邊距：圖示與字對齊欄緣，滑過底色往外凸 */
 .editions>.ed-link:first-child{margin-left:calc(-1 * var(--space-3))}
 .vw .dd-toggle{margin-right:calc(-1 * var(--space-3))}
-.dd-ico,.dd-ico svg,.dd-caret,.dd-caret svg,.dd-close svg{display:block;flex:none}
+.dd-ico,.dd-ico svg,.dd-close svg{display:block;flex:none}
 .dd-close svg{width:20px;height:20px}
-.dd-caret{margin-left:-2px;color:var(--color-neutral-600)}
-.dd-toggle[aria-expanded=true] .dd-caret{color:inherit;rotate:180deg}
 /* 面板：頂端 2px 粗線呼應報頭 */
 .dd-panel{position:absolute;top:calc(100% + 8px);right:0;z-index:30;width:min(360px,calc(100vw - 32px));container-type:inline-size;padding:0 var(--space-4) var(--space-2);background:var(--color-bg);color:var(--color-text);border:1px solid var(--color-divider);border-top:2px solid var(--color-text);box-shadow:0 20px 40px -28px rgb(0 0 0 / .6)}
 .dd-head{display:flex;align-items:center;justify-content:space-between;gap:var(--space-3);min-height:46px;margin-right:calc(-1 * var(--space-2))}

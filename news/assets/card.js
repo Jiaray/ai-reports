@@ -126,7 +126,7 @@
     return out;
   }
 
-  // ── 報頭工具列（bar.js；樣式摘要 5.1）：本日焦點　右邊一組：系列 ▾｜議題｜版面；新聞卡頁不標 aria-current ──
+  // ── 報頭工具列（bar.js；樣式摘要 5.1）：本日焦點　右邊一組：系列｜議題｜版面；新聞卡頁不標 aria-current ──
   let vwBox = null;
   let srBox; // 「系列」下拉：index 到了建一次（undefined＝還沒建；舊版 bar.js 沒有 seriesMenu 就不放）
   const toolbar = () => B.toolbar([
