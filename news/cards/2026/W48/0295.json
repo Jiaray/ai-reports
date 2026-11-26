@@ -1,0 +1,178 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0295",
+ "title": "美國 FCC 附條件核准 SpaceX 部署最多 100 萬顆「Starmind」軌道資料中心衛星，全球首個 AI 衛星星座獲批",
+ "line": "若全數部署，在軌衛星將增加約 50 倍；SpaceX 須在 2040 年前完成整個星座，Amazon 等曾反對",
+ "born_at": "2026-11-26T16:12:43+08:00",
+ "first_reported_at": "2026-11-26T01:44:57+08:00",
+ "updated_at": "2026-11-26T16:12:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "全球"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "科技",
+   "AI"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "航太與國防",
+   "軟體與雲端"
+  ],
+  "org": [
+   "美國聯邦通訊委員會",
+   "SpaceX",
+   "Amazon",
+   "Google",
+   "Blue Origin"
+  ],
+  "person": [
+   "Brendan Carr",
+   "Elon Musk"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Starmind",
+   "太空資料中心",
+   "低軌衛星",
+   "FCC"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美國聯邦通訊委員會（FCC）美國時間 11 月 25 日附條件核准 SpaceX 部署最多 100 萬顆「Starmind」衛星，作為搭載 AI 晶片的軌道資料中心。The Verge 指這是 FCC 首次核准完整的 AI 衛星星座，Google 與 Blue Origin 也在發展太空資料中心。Ars Technica 指出，若全數部署，在軌衛星數量將增加約 50 倍。FCC 主席 Brendan Carr 稱此舉「為支撐美國領導地位所需的運算基礎設施開闢大膽新疆域」。核准給予寬鬆時程：SpaceX 有 7 年部署第一顆運作衛星（The Verge 稱至少 2033 年前 1 顆），2035 年 11 月前部署 10 萬顆，2040 年 11 月前完成全星座，等於 14 年的監管跑道；SpaceX 提議在 550 至約 1,000 公里的 6 個軌道運作，並就 600 公里以上衛星的離軌處置申請規則豁免，部分屬附條件核准。CNBC 指 Amazon 等曾反對，Japan Times 指科學界也有疑慮。Ars Technica 強調核准並不代表軌道資料中心在技術或經濟上可行。消息帶動台股低軌衛星與網通股 11 月 26 日漲停，包括穩懋、啟碁、兆赫、友訊、華通等。",
+ "dive_html": "FCC 等於先把頻譜與軌道「圈地」給 SpaceX，技術與商業可行性留給它慢慢驗證；在馬斯克與川普政府關係緊密的背景下，競爭對手與天文學界的反對聲浪難以撼動。對台灣供應鏈，短期是題材推升股價，但從第一顆衛星可在 7 年內部署來看，實際訂單規模與時程仍高度不確定；太空碎片與天文觀測干擾則會是後續爭議焦點。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Anue 鉅亨網",
+   "title": "〈焦點股〉SpaceX獲准發射百萬顆衛星 激勵穩懋亮燈漲停領7檔題材股齊嗨",
+   "url": "https://news.cnyes.com/news/id/6672121",
+   "time": "2026-11-26T13:24:42+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Anue 鉅亨網",
+   "title": "〈焦點股〉SpaceX獲准部署百萬顆衛星 啟碁、兆赫、友訊強攻漲停領軍網通族群",
+   "url": "https://news.cnyes.com/news/id/6672049",
+   "time": "2026-11-26T11:11:27+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Ars Technica",
+   "title": "The FCC has authorized SpaceX to deploy 1 million satellites",
+   "url": "https://arstechnica.com/space/2026/11/the-fcc-has-authorized-spacex-to-deploy-1-million-satellites/",
+   "time": "2026-11-26T02:22:38+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "142 comments",
+   "family": "Ars Technica",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "The Verge",
+   "title": "FCC signs off on SpaceX’s plan to put up to 1 million data center satellites into space",
+   "url": "https://www.theverge.com/science/1042278/spacex-fcc-starmind-ai-space-data-centers",
+   "time": "2026-11-26T01:44:57+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "The Verge",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "BBC Top News",
+   "title": "US approves SpaceX plan to send a million data satellites to space",
+   "url": "https://www.bbc.co.uk/news/articles/cwp836l8n1jgo",
+   "time": "2026-11-26T08:07:51+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "US authorises SpaceX to launch up to one million satellites for orbital data centres",
+   "url": "https://www.france24.com/en/technology/20261126-us-authorizes-spacex-to-launch-up-to-one-million-satellites-for-orbital-data-centers",
+   "time": "2026-11-26T11:02:37+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "SpaceX wins FCC approval to deploy 1 million orbital data center satellites",
+   "url": "https://www.cnbc.com/2026/11/25/spacex-fcc-satellite-approval.html",
+   "time": "2026-11-26T10:35:39+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Japan Times",
+   "title": "SpaceX wins U.S. government approval to launch space data centers",
+   "url": "https://www.japantimes.co.jp/news/2026/11/26/world/spacex-space-data-centers/",
+   "time": "2026-11-26T10:24:00+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 7,
+  "regions": 4,
+  "media_weight": 13,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

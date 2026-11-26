@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0299",
+ "title": "Media Partners Asia 報告：全球微短劇營收今年估 200 億美元、年增 24%，但中國以外仍難獲利",
+ "line": "中國以外每 1 美元營收有 56 美分花在行銷、18 美分給應用程式商店與支付業者",
+ "born_at": "2026-11-26T16:12:43+08:00",
+ "first_reported_at": "2026-11-26T11:00:00+08:00",
+ "updated_at": "2026-11-26T16:12:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球",
+   "中國大陸",
+   "南亞"
+  ],
+  "country": [
+   "CN",
+   "US",
+   "IN"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "娛樂與媒體"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "媒體與娛樂",
+   "網路平台"
+  ],
+  "org": [
+   "Media Partners Asia",
+   "ByteDance",
+   "ReelShort",
+   "DramaBox",
+   "GoodShort"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "微短劇",
+   "短劇 App",
+   "ReelShort",
+   "DramaBox"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Media Partners Asia（MPA）第二份年度《微短劇經濟》報告估計，全球微短劇營收 2026 年將年增 24% 至 200 億美元，2031 年達 320 億美元、年增率 9.8%，但獲利仍薄。在中國以外，每 1 美元營收有 56 美分花在行銷、18 美分付給應用程式商店與支付業者，大幅壓縮盈餘。不含中國的市場規模 48.7 億美元，美國最大、17.1 億美元但年減 2%，預計 2029 年被亞太（不含中國）超越，中國以外整體 2031 年將成長到 110 億美元。兩大業者年營收都超過 10 億美元，但 DramaBox 2025 年淨利率 3.2%，ReelShort 虧損 1,200 萬美元、今年第一季獲利 800 萬美元。DramaBox 與 GoodShort 10 月底宣布合併，兩者連同 ReelShort、崑崙與 NetShort 合計占中國以外營收 65%，全都是中資或中資支持。印度成長最快，營收今年翻三倍、達 3.22 億美元，為中國以外最大的亞洲市場。中國市場由 ByteDance 主導。",
+ "dive_html": "營收高速成長卻有超過一半花在買量，模式跟手遊早期很像：誰能降低獲客成本誰才活得下來，DramaBox 與 GoodShort 合併正是整併訊號。對台灣的內容與遊戲公司，微短劇的獲客與內購邏輯和手遊高度重疊，但美國市場已開始衰退，下一波機會在印度與東南亞。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Deadline",
+   "title": "Microdrama Revenues Hit $20B, But Profits Outside China Still Weak – MPA Report",
+   "url": "https://deadline.com/2026/11/microdrama-revenues-boom-profits-outside-china-weak-report-1237233205/",
+   "time": "2026-11-26T11:00:00+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "1 comments",
+   "family": "Deadline",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

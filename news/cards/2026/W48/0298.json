@@ -1,0 +1,158 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0298",
+ "title": "杜蘭杜蘭前吉他手安迪泰勒與攝護腺癌長期搏鬥後辭世，享壽 65 歲",
+ "line": "他的放克搖滾吉他推動 Girls on Film、Rio 等 1980 年代金曲",
+ "born_at": "2026-11-26T16:12:43+08:00",
+ "first_reported_at": "2026-11-26T06:16:14+08:00",
+ "updated_at": "2026-11-26T16:12:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "娛樂與媒體"
+  ],
+  "event": [
+   "其他"
+  ],
+  "sector": [
+   "媒體與娛樂"
+  ],
+  "org": [
+   "Duran Duran"
+  ],
+  "person": [
+   "Andy Taylor",
+   "Simon Le Bon"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "杜蘭杜蘭",
+   "新浪漫主義",
+   "攝護腺癌"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "英國新浪潮樂團杜蘭杜蘭（Duran Duran）與安迪泰勒（Andy Taylor）家人美國時間 11 月 25 日在 Instagram 發文，泰勒在「與攝護腺癌漫長且勇敢的搏鬥」後，於 11 月 23 日在家人陪伴下安詳離世，享壽 65 歲。泰勒 1961 年生於英格蘭諾森伯蘭郡泰因茅斯，11 歲學吉他，1980 年搬到伯明罕加入樂團。他融合搖滾與放克、清脆帶切分節奏的吉他，推動 Girls on Film、Rio 等舞池金曲，助樂團成為「新浪漫主義」代表；杜蘭杜蘭全球賣出逾 1 億張唱片，在英國有 30 首、美國有 21 首單曲打進排行榜前 40 名，也是最早善用音樂錄影帶的樂團之一。他後來展開個人生涯，1987 年推出個人專輯 Thunder。DW 報導他在 2022 年樂團入選搖滾名人堂時首度公開罹癌。他與妻子育有 4 名子女。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "勇敢抗癌多年　杜蘭杜蘭前吉他手安迪泰勒病逝享壽65歲",
+   "url": "https://www.cna.com.tw/news/amov/202611260036.aspx",
+   "time": "2026-11-26T09:35:06+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "The Guardian Culture",
+   "title": "Duran Duran was transformed by Andy Taylor’s rock edge – and never quite the same without him",
+   "url": "https://www.theguardian.com/music/2026/nov/26/andy-taylor-death-duran-duran-transformed-by-guitarists-rock-edge",
+   "time": "2026-11-26T10:07:05+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC Top News",
+   "title": "Duran Duran guitarist Andy Taylor dies aged 65",
+   "url": "https://www.bbc.co.uk/news/articles/cmp3vk6vr44po",
+   "time": "2026-11-26T13:19:35+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Duran Duran guitarist Andy Taylor dies aged 65",
+   "url": "https://www.france24.com/en/culture/20261125-duran-duran-guitarist-andy-taylor-dies-aged-65",
+   "time": "2026-11-26T07:37:18+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC Top News",
+   "title": "Andy Taylor: Duran Duran's livewire guitarist who was a true Wild Boy",
+   "url": "https://www.bbc.co.uk/news/articles/c0666rn4l5vo",
+   "time": "2026-11-26T06:16:14+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "Duran Duran guitarist Andy Taylor dies at 65",
+   "url": "https://www.dw.com/en/duran-duran-guitarist-andy-taylor-dies-at-65/a-80055654?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-26T06:53:00+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Duran Duran guitarist and songwriter Andy Taylor dies at 65",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxOUUgwd0sxUHFEbjgzZERYVTV3U3F0c3BPa3A5LVhNMmt3WDA2azVETnY4MFdSTzJINEI0cmd1cEE2V3FWaDB3UzhabzM2MFlGLWwzUndzTjlURW1uNm1NSll6dkhaVFZ2TjRUMGlxcmVYRkItRWw0N0ZUMHpaUE5SbXJFcFBkX0g2TExDUGtlZVVYNFlMazUxRGVOZlR3eTQ?oc=5",
+   "time": "2026-11-26T07:49:38+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 6,
+  "regions": 2,
+  "media_weight": 14,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,114 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0305",
+ "title": "以色列法官建議檢方撤回納坦雅胡最嚴重的受賄起訴，納坦雅胡要求「立即」終結審判",
+ "line": "耶路撒冷地方法院罕見召見總檢察長，稱 4000 號案定罪機會低，並質疑 2000 號案是否構成犯罪",
+ "born_at": "2026-11-26T16:12:43+08:00",
+ "first_reported_at": "2026-11-26T03:28:13+08:00",
+ "updated_at": "2026-11-26T16:12:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東"
+  ],
+  "country": [
+   "IL"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "犯罪與司法",
+   "政治"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "story": [
+   "納坦雅胡貪腐審判"
+  ],
+  "org": [
+   "耶路撒冷地方法院",
+   "以色列總檢察長"
+  ],
+  "person": [
+   "納坦雅胡",
+   "Gali Baharav-Miara",
+   "Rivka Friedman-Feldman"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "納坦雅胡貪腐案",
+   "4000 號案",
+   "受賄罪",
+   "認罪協商"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "以色列耶路撒冷地方法院審理看守總理納坦雅胡貪腐案的合議庭 11 月 25 日以極不尋常的方式召見總檢察長 Gali Baharav-Miara 表達疑慮，建議檢方撤回受賄起訴。法官 Rivka Friedman-Feldman 據以色列媒體報導對她說：「定罪機會很低，低到應該重新考慮。」這指的是 4000 號案，涉及納坦雅胡與以色列最大電信公司控股股東之間被指的「互惠安排」，即以政府利益換取正面媒體報導，雙方均否認。法官也質疑涉及另一位媒體大亨的 2000 號案是否達到犯罪門檻，並對第三件、指控他收受富豪禮物的 1000 號案建議檢方尋求認罪協商。納坦雅胡 2019 年首度被起訴，訴訟部分因以哈戰爭拖延；他一貫否認指控，25 日在電視聲明中要求「立即」結束審判，稱這是「我、我的家人、我的兒子受苦的十年」。Al Jazeera 指他稱審判出於政治動機。",
+ "dive_html": "法院建議對納坦雅胡是重大利多：在他爭取政治存續、國會剛推進 10 月 7 日國家調查委員會之際，貪腐案的最大威脅可能解除。關鍵在總檢察長是否接受建議；她與政府長期對立，若拒絕撤回，法院後續判決走向會更受關注。認罪協商若含「道德瑕疵」條款，仍可能影響他的從政資格。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC World",
+   "title": "Israeli judges recommend dropping most serious charges against Netanyahu",
+   "url": "https://www.bbc.co.uk/news/articles/cxj05mv723r2o",
+   "time": "2026-11-26T03:47:39+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Judges recommend prosecutors end corruption case against Netanyahu",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/26/judges-recommend-prosecutors-end-corruption-case-against-netanyahu",
+   "time": "2026-11-26T09:08:43+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "In boost for Netanyahu, judges question corruption trial charges",
+   "url": "https://www.france24.com/en/in-boost-for-netanyahu-judges-question-corruption-trial-charges",
+   "time": "2026-11-26T03:28:13+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 2,
+  "media_weight": 6,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

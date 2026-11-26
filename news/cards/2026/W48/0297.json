@@ -1,0 +1,143 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0297",
+ "title": "歐洲太空總署赫拉號近距離拍攝：NASA DART 撞擊在小行星 Dimorphos 留下體育場大小的坑、讓它不規則翻滾",
+ "line": "撞擊面被徹底重塑、坑洞幾乎延展整個寬度，周圍有數百顆巨石環繞",
+ "born_at": "2026-11-26T16:12:43+08:00",
+ "first_reported_at": "2026-11-26T01:30:16+08:00",
+ "updated_at": "2026-11-26T16:12:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "歐洲太空總署",
+   "美國國家航空暨太空總署",
+   "國際太空科學研究所"
+  ],
+  "person": [
+   "Sabina Raducan"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "赫拉號",
+   "DART",
+   "Dimorphos",
+   "行星防禦",
+   "小行星偏轉"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "2022 年 9 月 26 日，NASA 雙小行星改道測試（DART）太空船以每秒 6.14 公里撞上直徑 151 公尺、繞直徑 730 公尺的 Didymos 運行的小衛星 Dimorphos，釋放約 100 億焦耳能量，使其 12 小時的公轉週期縮短約 33 分鐘，是最保守預期的 25 倍。但當時只有遠方望遠鏡與一顆立方衛星看到撞擊，科學家不知道表面發生什麼變化。歐洲太空總署赫拉號（Hera）經兩年航程抵達後釋出的影像顯示，Dimorphos 撞擊面被徹底重塑，形成幾乎延展整個寬度、體育場大小的撞擊坑，其他區域與撞擊前大致相同；Dimorphos 目前處於不規則翻滾而非穩定自轉，顯示撞擊也大幅改變其轉動。長曝影像另拍到數百顆數公尺到數十公尺的巨石環繞系統，部分可能是撞擊拋出，但也不排除早已存在。赫拉號目前在約 25 至 30 公里處以每秒約 12 公分繞行，未來數月將靠近到 13 公里，2027 年 1 月釋放兩顆立方衛星 Juventas 與 Milani，Juventas 將嘗試著陸 Dimorphos。",
+ "dive_html": "DART 證明「撞得動」，赫拉號則回答「撞成什麼樣」：撞擊讓小行星翻滾、拋出巨石，代表未來實戰偏轉時，目標的後續軌跡與碎片比單純軌道變化更難預測。這些數據會直接修正行星防禦的撞擊模型；環繞巨石則為明年的立方衛星著陸增加風險。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Ars Technica",
+   "title": "European spacecraft finds chaotic scene after asteroid deflection experiment",
+   "url": "https://arstechnica.com/space/2026/11/europes-hera-mission-returns-to-the-chaotic-scene-of-a-cosmic-smashup/",
+   "time": "2026-11-26T06:36:45+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "16 comments",
+   "family": "Ars Technica",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "科技新報",
+   "title": "赫拉號近距離考察 Dimorphos 被撞樣貌，表面形成體育場級坑洞",
+   "url": "https://technews.tw/2026/11/26/hera-dart-dimorphos-asteroid/",
+   "time": "2026-11-26T13:04:22+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "科技新報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "BBC Top News",
+   "title": "Moment Nasa spacecraft hit asteroid - and what happened next",
+   "url": "https://www.bbc.co.uk/news/videos/cwe9kxpgz2kpo",
+   "time": "2026-11-26T04:11:46+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC World",
+   "title": "Images of asteroid targeted to test Earth's defences reveal stadium-sized crater",
+   "url": "https://www.bbc.co.uk/news/articles/cw8dv112r5gmo",
+   "time": "2026-11-26T01:30:16+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC Science & Environment",
+   "title": "Images from Earth's asteroid defence test reveal new crater",
+   "url": "https://www.bbc.co.uk/news/videos/cmjwjnxp2jgno",
+   "time": "2026-11-26T07:20:43+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Dawn",
+   "title": "New images reveal crater on small asteroid struck by spacecraft in 2022",
+   "url": "https://www.dawn.com/news/2047133/new-images-reveal-crater-on-small-asteroid-struck-by-spacecraft-in-2022",
+   "time": "2026-11-26T09:55:17+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 4,
+  "media_weight": 6,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

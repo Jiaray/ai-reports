@@ -1,0 +1,149 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0293",
+ "title": "香港宏福苑大火 168 死屆滿一年：港媒籲建紀念公園，遺屬稱悼念受壓、電視台周年專題遭抽起",
+ "line": "港府不辦官方悼念但稱不妨礙合法活動，獨立委員會點名 4 部門失職、7 人已被起訴",
+ "born_at": "2026-11-26T16:12:43+08:00",
+ "first_reported_at": "2026-11-26T07:26:50+08:00",
+ "updated_at": "2026-11-26T16:12:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "港澳"
+  ],
+  "country": [
+   "HK"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "社會",
+   "人權"
+  ],
+  "event": [
+   "其他",
+   "爭議風波"
+  ],
+  "org": [
+   "香港特區政府",
+   "中國外交部駐港特派員公署",
+   "BBC 中文"
+  ],
+  "person": [
+   "李家超",
+   "陳國基",
+   "何永賢"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "宏福苑大火",
+   "新聞自由",
+   "大樓維修",
+   "紀念公園"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "2025 年 11 月 26 日正進行大維修的大埔宏福苑發生火災，8 座大廈中 7 座燒毀，造成 168 人死亡、79 人受傷，1,984 戶失去家園。週年之際，明報社評呼籲政府興建紀念公園、立碑銘記死者，星島日報與大公報則籲把修法與執法落到實處。行政長官李家超 25 日探訪臨時安置的災民，承諾修訂法令堵塞大樓維修漏洞；當晚天主教聖母無原罪主教座堂舉行追思彌撒，由遺屬讀出 168 位亡者名字。獨立委員會報告點名 4 個政府部門失職、提出 120 項改革建議；維修承建商與工程顧問等 7 人已被起訴，房屋局局長何永賢請辭，數十名公務員紀律調查預計 3 個月內有結果。援助基金籌得 48 億港元，政府以高於市價收購業權，逾 96% 業主已簽約。政務司司長陳國基表示政府不辦官方活動、不妨礙合法悼念，但提醒有人藉機破壞。BBC 中文報導，有遺屬不敢相約悼念、怕被指「集會」，有電視台編採人員透露製作完成的周年專題在播出前「被抽起」、高層指示避免採訪「人」；中國外交部駐港公署也致函外媒，希望「客觀、理性」報導。",
+ "dive_html": "一年後的對照很清楚：問責與修法依官方程序推進，但民間悼念與媒體報導空間明顯收窄。災後 11 個月才道歉、紀念公園仍無定案，遺屬的情緒需求與政府對「集會」的戒心形成張力；這也讓宏福苑成為觀察香港公共記憶與新聞自由的指標事件。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "香港宏福苑大火一週年　災民在不甘不忿不捨中帶著傷痛前行",
+   "url": "https://www.cna.com.tw/news/acn/202611260097.aspx",
+   "time": "2026-11-26T12:19:18+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "香港宏福苑奪命大火1年 港媒籲建立紀念公園",
+   "url": "https://www.cna.com.tw/news/acn/202611260042.aspx",
+   "time": "2026-11-26T10:31:20+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "BBC Top News",
+   "title": "A renovation was meant to improve these Hong Kong homes - it ended in a blaze that killed 168",
+   "url": "https://www.bbc.co.uk/news/articles/cqx2wrkyrdn8o",
+   "time": "2026-11-26T07:26:50+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC 中文",
+   "title": "宏福苑大火一周年：居民受壓、媒體噤聲，為何悼念變得小心翼翼？",
+   "url": "https://www.bbc.com/zhongwen/articles/cw8dv46pv125o/trad",
+   "time": "2026-11-26T13:41:40+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Nikkei Asia",
+   "title": "Hong Kong fire survivors and families mark anniversary as questions linger",
+   "url": "https://asia.nikkei.com/economy/fires/hong-kong-fire-survivors-and-families-mark-anniversary-as-questions-linger",
+   "time": null,
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Japan Times",
+   "title": "Hong Kong remembers victims of housing complex fire that killed 168 people",
+   "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/society/hong-kong-fire-victims/",
+   "time": "2026-11-26T09:42:00+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 3,
+  "media_weight": 9,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

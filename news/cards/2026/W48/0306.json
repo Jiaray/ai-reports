@@ -1,0 +1,130 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0306",
+ "title": "超強聖嬰加大潮，加州洛杉磯、聖塔芭芭拉與拉荷亞潮位創歷史紀錄，Pacifica 地標碼頭前端被巨浪打入海中",
+ "line": "多處海灘關閉、道路與商家淹水，舊金山灣區浪高達 24 英尺",
+ "born_at": "2026-11-26T16:12:43+08:00",
+ "first_reported_at": "2026-11-26T04:03:53+08:00",
+ "updated_at": "2026-11-26T16:12:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US",
+   "CA"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "天氣",
+   "災害與事故"
+  ],
+  "event": [
+   "天災"
+  ],
+  "org": [
+   "美國國家氣象局"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "大潮",
+   "king tide",
+   "聖嬰現象",
+   "加州淹水"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "超強聖嬰天氣使加州沿岸 11 月 25 日出現破紀錄大潮，海水湧入海濱社區、淹沒道路與商家。美國國家氣象局（NWS）資料顯示，洛杉磯與聖塔芭芭拉潮位分別達 8.19 與 8.21 英尺，追平或打破歷史紀錄；聖地牙哥北方的拉荷亞創下 8.11 英尺（2.5 公尺）的歷史紀錄，蒙特雷初步數據也可能創 8.03 英尺新高。舊金山南方 Pacifica 一座已因結構受損封閉的地標碼頭，前端被比平常 11 月強 12 倍的湧浪打入海中。蒙特雷關閉多處海灘到週五，聖塔克魯茲郡海灘也關閉；NWS 舊金山警告灣區浪高達 24 英尺，「陽光也許出來了，但海灘與浪區仍然危險」。BBC 指加拿大卑詩省部分地區也可能受風暴與淹水影響，正值感恩節數百萬人出遊。Guardian 報導，奧勒岡州 Cannon Beach 有一名男子與狗差點被大浪捲走，當局呼籲遠離海灘。",
+ "dive_html": "這是氣候學家對超強聖嬰冬季的預演：天文大潮遇上長浪，海平面上升的影響在這種時刻集中顯現。NWS 稱這是「接下來的預告」，代表整個冬季西岸沿海基礎設施都要面對反覆衝擊；台灣同樣受這次超強聖嬰影響，氣象署也預估冬季偏暖偏濕。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC World",
+   "title": "California warns of flooding as King Tides peak over Thanksgiving",
+   "url": "https://www.bbc.co.uk/news/articles/ckn806qq760po",
+   "time": "2026-11-26T09:22:55+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "Record-breaking California tides cause major flooding of roads and businesses",
+   "url": "https://www.theguardian.com/us-news/2026/nov/25/california-flooding-high-tides",
+   "time": "2026-11-26T06:56:36+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "Oregon man and dog narrowly escape being swept away by high tides as officials urge caution at beaches",
+   "url": "https://www.theguardian.com/us-news/2026/nov/25/oregon-man-dog-escape-waves-king-tides",
+   "time": "2026-11-26T04:03:53+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Photos: Storms and an El Nino-charged king tide batter California’s coast",
+   "url": "https://www.aljazeera.com/gallery/2026/11/26/photos-storms-and-an-el-nino-charged-king-tide-batter-californias-coast",
+   "time": "2026-11-26T09:40:13+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "King tides and powerful waves destroy pier and flood homes in California",
+   "url": "https://www.euronews.com/video/2026/11/26/king-tides-and-powerful-waves-destroy-pier-and-flood-homes-in-california",
+   "time": "2026-11-26T15:13:50+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 2,
+  "media_weight": 8,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

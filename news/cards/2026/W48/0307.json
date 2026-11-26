@@ -1,0 +1,143 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0307",
+ "title": "遭俄國以間諜罪拘押的北海道新聞記者今井勇貴，妻子公開信懇求放人",
+ "line": "今井 10 月中在庫頁島結束兩年派駐、準備返日時被捕，高市早苗已在 APEC 向普丁要求釋放",
+ "born_at": "2026-11-26T16:12:43+08:00",
+ "first_reported_at": "2026-11-26T13:03:00+08:00",
+ "updated_at": "2026-11-26T16:12:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞",
+   "歐洲"
+  ],
+  "country": [
+   "JP",
+   "RU"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "國際關係",
+   "娛樂與媒體"
+  ],
+  "event": [
+   "爭議風波",
+   "犯罪執法"
+  ],
+  "sector": [
+   "媒體與娛樂"
+  ],
+  "org": [
+   "北海道新聞",
+   "俄羅斯政府",
+   "日本政府"
+  ],
+  "person": [
+   "今井勇貴",
+   "今井希美",
+   "高市早苗",
+   "普丁"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "記者拘押",
+   "間諜罪",
+   "庫頁島",
+   "北方四島"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "《北海道新聞》記者今井勇貴（Yuki Imai）10 月中準備結束在俄國遠東庫頁島南薩哈林斯克分社兩年派駐、返回日本時被捕，目前在莫斯科遭拘押逾一個月。俄國當局指控他在島上「從事間諜活動」，蒐集俄國國防能力情報、打算交給日本情報單位，北海道新聞與日本首相高市早苗都否認。他的妻子今井希美（Nozomi Imai）以日文、俄文、英文手寫信發出呼籲，寫道「請把這位珍貴的爸爸還給他的小女兒」，並強調丈夫熱愛俄國文化、語言與藝術，與俄國有深厚連結。高市上週在中國舉行的 APEC 峰會與普丁會面時已要求放人。Guardian 指這起拘押加劇日俄緊張，兩國關係因日本支持烏克蘭與北方四島（俄方稱南千島群島）主權爭議而迅速惡化，最近的島嶼距北海道不到 4 公里。",
+ "dive_html": "拘押外國記者作為外交籌碼是俄國近年慣用手法，今井案與日本援烏立場直接相關。高市在峰會上當面提出仍未見成效，顯示短期難以獲釋；這也提高所有在俄外國媒體的人身風險，日本媒體在俄遠東的駐點可能被迫收縮。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Guardian World",
+   "title": "‘Trapped in grief’: wife of Japanese journalist detained by Russia pleads for his release",
+   "url": "https://www.theguardian.com/world/2026/nov/26/japanese-journalist-yuki-imai-detained-in-russia-wife-pleads-his-release",
+   "time": "2026-11-26T13:16:17+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Nikkei Asia",
+   "title": "Wife of Japanese journalist held in Russia pleads for his release",
+   "url": "https://asia.nikkei.com/politics/international-relations/wife-of-japanese-journalist-held-in-russia-pleads-for-his-release",
+   "time": null,
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Japan Times",
+   "title": "Wife of Hokkaido Shimbun journalist detained in Russia pleads for his return",
+   "url": "https://www.japantimes.co.jp/news/2026/11/26/japan/yuki-imai-wife-letter/",
+   "time": "2026-11-26T13:04:00+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Wife of Japanese journalist detained in Russia pleads for his release",
+   "url": "https://www.straitstimes.com/asia/east-asia/wife-of-japanese-journalist-detained-in-russia-pleads-for-his-release",
+   "time": "2026-11-26T13:06:51+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Wife of Japanese journalist detained in Russia pleads for his release",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPN2JsNUo2WDkwM2FhQkF0c2xyUVE1SzdkNHZ5ZWg4WFdMb00tazNMamd1SG9ESElkSno0RVRieE1sYVZCX0p5T0dxT2JsTmxMVjU1ZHZqa1pFYXg2S2pGZWRBLWVjc1BYb0VPeGVsT1V0TmlobmJCMGRlTkRsUDQzUThSZ3RBT3hGUWZXZ0VpYXp4aHBTemh5SzJZN1FXUDVsaUZrU05RYThrU1VPekJRbEFoQmxaelYyMHc?oc=5",
+   "time": "2026-11-26T13:03:00+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 5,
+  "regions": 3,
+  "media_weight": 11,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

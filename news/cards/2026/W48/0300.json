@@ -1,0 +1,128 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0300",
+ "title": "美國聯邦法官裁定暫停 FCC 對 ABC 執照的提前更新審查，認定 ABC「可能勝訴」報復言論的主張",
+ "line": "法官 AliKhan 寫道「這不是一個難以判斷的案子」，FCC 先前在川普要求開除 Jimmy Kimmel 隔天下令審查",
+ "born_at": "2026-11-26T16:12:43+08:00",
+ "first_reported_at": "2026-11-26T08:30:46+08:00",
+ "updated_at": "2026-11-26T16:12:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "娛樂與媒體",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "sector": [
+   "媒體與娛樂"
+  ],
+  "org": [
+   "美國聯邦通訊委員會",
+   "ABC",
+   "Disney"
+  ],
+  "person": [
+   "Loren AliKhan",
+   "Brendan Carr",
+   "Jimmy Kimmel",
+   "川普"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "第一修正案",
+   "廣播執照",
+   "新聞自由",
+   "初步禁制令"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美國聯邦地方法官 Loren AliKhan 美國時間 11 月 25 日核發初步禁制令，禁止聯邦通訊委員會（FCC）對 Disney 旗下 ABC 電視台的廣播執照提前更新審查採取任何進一步行動，認定 ABC「可能在報復主張上勝訴」，並寫道「這不是一個難以判斷的案子」。ABC 依美國憲法第一修正案提告，主張 FCC 的審查命令是川普政府為壓制其新聞報導與 Jimmy Kimmel 笑話的報復行為。DW 指出，FCC 主席 Brendan Carr 是在川普要求 ABC 開除 Kimmel 隔天下令提前審查，而這些執照原本 2028 年才到期。AliKhan 寫道，委員會可依其認為適當的方式執法，但不得因不受青睞的言論報復或懲罰執照持有人；她也駁回 FCC 以管轄權為由撤案的請求，認為可能被吊照這種「極端、甚至攸關存亡」的處罰，足以讓一般廣播業者噤聲。她舉 ABC 已因害怕失照而改變做法為證，包括把 James Talarico 上 Kimmel 節目的片段放到 FCC 管不到的 YouTube。CNBC 引述說法稱這是「第一修正案的重要勝利」。",
+ "dive_html": "這是川普政府以監管權施壓媒體的首件重大司法挫敗；法院用初步禁制令而非等到判決，代表法官認為寒蟬效應已經發生。案件仍可能上訴，但裁決為其他被 FCC 盯上的電視網提供了法律依據；對 Disney，則暫時解除了旗下地方台執照的經營風險。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Deadline",
+   "title": "Judge Sides With ABC In First Amendment Lawsuit Against FCC; Puts Halt To Agency’s Early License Renewal Proceeding",
+   "url": "https://deadline.com/2026/11/abc-fcc-trump-first-amendment-lawsuit-1237158218/",
+   "time": "2026-11-26T08:30:46+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "7 comments",
+   "family": "Deadline",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "DW News",
+   "title": "US court blocks regulator's early review of ABC's broadcast licenses",
+   "url": "https://www.dw.com/en/us-court-blocks-regulator-s-early-review-of-abc-s-broadcast-licenses/a-80056181?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-26T12:36:00+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "Judge blocks FCC early-renewal process for Disney-owned ABC stations, for now",
+   "url": "https://www.cnbc.com/2026/11/26/fcc-disney-abc-stations-judge-block.html",
+   "time": "2026-11-26T12:00:15+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "US judge blocks FCC from targeting Disney-owned ABC stations",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNa3U4SjN4dnBlQUVGemRWMkxMdndfMXJjMHBmNUtvRDMtVmJhRWhZVS1kZzd0UHVUend5T3NJRlV2elRaTW1jQ3Y1QjNpVEtWRlltZ0x2WE5kSVNQbWdUZ1BpWmtyZHFQYjVmTUphNk1wWlRlbU8wTUpuUjdHa0ZXc19tV3hFUEFMY3Q3WVphZDdTeGRKUGRDWTU1YmxoRWl0anJCUTc2NA?oc=5",
+   "time": "2026-11-26T08:34:00+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 2,
+  "media_weight": 8,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

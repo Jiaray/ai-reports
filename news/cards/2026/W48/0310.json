@@ -1,0 +1,110 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0310",
+ "title": "美國聯邦法官再度封鎖川普限制出生公民權的新行政命令，已是第二位法官擋下",
+ "line": "最高法院今年稍早已駁回川普第一版命令，美國公民自由聯盟稱「第三次也不會成功」",
+ "born_at": "2026-11-26T16:12:43+08:00",
+ "first_reported_at": "2026-11-26T05:35:04+08:00",
+ "updated_at": "2026-11-26T16:12:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "移民與難民",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "org": [
+   "美國聯邦法院",
+   "美國公民自由聯盟",
+   "美國最高法院"
+  ],
+  "person": [
+   "川普",
+   "Cody Wofsy"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "出生公民權",
+   "第十四修正案",
+   "行政命令"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "一名美國聯邦法官美國時間 11 月 25 日封鎖川普總統限制出生公民權的最新行政命令，讓他重新定義「生為美國人」的努力再受挫；Japan Times 與 Reuters 報導，這是第二位擋下這道新命令的法官。川普是在美國最高法院駁回他第一次限制嘗試後，簽署這道新命令。美國公民自由聯盟（ACLU）移民權利計畫副主任 Cody Wofsy 表示：「夠了。最高法院已在 1898 年與今年稍早兩度駁回掏空出生公民權的企圖，第三次也不會成功。」原文沒有交代新命令的具體內容與法官姓名。",
+ "dive_html": "最高法院已表態的議題，政府換個版本再試、隨即被兩位法官擋下，顯示這道命令在法律上幾乎沒有空間，更像是政治動員訊號。後續若政府上訴，最快可能再回到最高法院；對在美國生產子女的外國人家庭，現行出生公民權在訴訟期間仍維持不變。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "SCMP China",
+   "title": "US federal court blocks new Trump birthright citizenship executive order",
+   "url": "https://www.scmp.com/news/us/politics/article/3375818/us-federal-court-blocks-new-trump-birthright-citizenship-executive-order",
+   "time": "2026-11-26T07:25:35+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "SCMP",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 2
+  },
+  {
+   "name": "Japan Times",
+   "title": "Trump’s newest order curtailing birthright citizenship is blocked by second judge",
+   "url": "https://www.japantimes.co.jp/news/2026/11/26/world/trump-birthright-citizenship-judge-block/",
+   "time": "2026-11-26T11:21:00+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Trump's newest order curtailing birthright citizenship is blocked by second judge",
+   "url": "https://news.google.com/rss/articles/CBMizgFBVV95cUxQUVNKamgtYTNRNHFWRVliOUF5X3pqbzBEdzBWZmRKUUZDX3FoaDhaNFB2Z3pza2dSS2NHOUtzYW9jblRqSnY2Q0VESXJYSTlnbVRibzZ4c1I2eWZrMEVkTUNOTGI4VlFRc1dLdGUyNFZPTGZlX0pGMkpkTTVBWGoyNi1RUWZ2cjBDcGdtTGpBeWJBTTJFbldlVFZ0OW93N1NPVW8zN1JfTHlxdWRVZDZ6YVRqMmtFZjE1UzBPRzVfNURCMUtGSi1vTVhyZXN6UQ?oc=5",
+   "time": "2026-11-26T05:35:04+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 7,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

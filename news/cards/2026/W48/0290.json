@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0290",
+ "title": "美國 FDA 核准 Cogent 新藥 Ekitna 合併輝瑞 Sutent，用於治療罕見胃癌",
+ "line": "Cogent Biosciences 於美國時間 11 月 24 日獲准",
+ "born_at": "2026-11-26T16:12:43+08:00",
+ "first_reported_at": "2026-11-26T04:44:15+08:00",
+ "updated_at": "2026-11-26T16:12:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "醫藥與生技"
+  ],
+  "org": [
+   "美國食品藥物管理局",
+   "Cogent Biosciences",
+   "Pfizer"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Ekitna",
+   "Sutent",
+   "罕見胃癌",
+   "FDA 核准"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 STAT News 生技電子報，Cogent Biosciences 於美國時間 11 月 24 日獲美國食品藥物管理局（FDA）核准其胃癌療法，將以 Ekitna 為名上市，與輝瑞的老藥 Sutent 合併使用，適應症為一種罕見胃癌。報導主體在付費牆後，原文沒有交代具體適應症、試驗數據與定價。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "STAT News",
+   "title": "STAT+: FDA approves Cogent’s drug for rare stomach cancer",
+   "url": "https://www.statnews.com/2026/11/25/biotech-news-fda-approves-cogents-drug-for-rare-stomach-cancer/",
+   "time": "2026-11-26T04:44:15+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "STAT",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,76 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0291",
+ "title": "研究：長新冠研究中半數成人在初次感染四年多後仍有呼吸功能失調症狀",
+ "line": "呼吸問題持續者偏年輕、女性，且急性期較少住院",
+ "born_at": "2026-11-26T16:12:43+08:00",
+ "first_reported_at": "2026-11-26T09:00:02+08:00",
+ "updated_at": "2026-11-26T16:12:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "Medical Xpress"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "長新冠",
+   "呼吸功能失調",
+   "COVID-19"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Medical Xpress 報導，一項新的長新冠研究中，半數成人受試者在初次感染超過四年後，仍回報顯示呼吸功能失調的症狀。呼吸問題持續的人傾向較年輕、女性，且在急性 COVID 感染期間較少住院。原文沒有交代研究型態、樣本數與發表期刊。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Medical Xpress",
+   "title": "Half of adults in long COVID study report difficulty breathing 4 years later",
+   "url": "https://medicalxpress.com/news/2026-11-adults-covid-difficulty-years.html",
+   "time": "2026-11-26T09:00:02+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Medical Xpress",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

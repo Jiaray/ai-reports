@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0308",
+ "title": "聯合國法庭裁定：近東救濟工程處 2024 年解僱 9 名巴勒斯坦員工，幾乎完全依據以色列未經證實的指控",
+ "line": "判決質疑把援助人員連結哈瑪斯的證據，並指解僱損害了加薩的人道救援",
+ "born_at": "2026-11-26T16:12:43+08:00",
+ "first_reported_at": "2026-11-26T08:05:50+08:00",
+ "updated_at": "2026-11-26T16:12:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東"
+  ],
+  "country": [
+   "PS",
+   "IL"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "國際關係",
+   "勞動"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "org": [
+   "聯合國近東巴勒斯坦難民救濟工程處",
+   "聯合國"
+  ],
+  "person": [
+   "Philippe Lazzarini",
+   "António Guterres"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "UNRWA",
+   "加薩人道援助",
+   "10 月 7 日襲擊",
+   "聯合國法庭"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Guardian 取得的判決，聯合國一個法庭質疑 2024 年解僱巴勒斯坦籍聯合國援助人員所依據的證據，指這些證據「幾乎完全」來自以色列政府未經證實的說法，且解僱損害了加薩的人道救援行動。加薩最主要的人道組織聯合國近東巴勒斯坦難民救濟工程處（UNRWA）於 2024 年 1 月以「符合機構利益」為由終止 9 名員工合約，依據是以色列指控他們涉入哈瑪斯主導的 2023 年 10 月 7 日襲擊；終止信稱指控「非常嚴重且可信」，之後聯合國內部調查認為他們可能涉案而確認解僱。這項決定由時任 UNRWA 主任 Philippe Lazzarini 在諮詢秘書長古特瑞斯後做出，Guardian 指似乎是希望安撫以色列及其盟友，讓加薩人道工作得以持續。",
+ "dive_html": "判決直接挑戰當年引發多國凍結 UNRWA 經費的事件基礎：若解僱依據站不住，那波撤資對加薩救援造成的傷害就更難正當化。對聯合國，這也暴露在政治壓力下犧牲員工正當程序的風險；以色列方面的回應與 UNRWA 是否復職或賠償，原文沒有交代。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Guardian World",
+   "title": "UN sacked Palestinian staff on back of unproven Israeli allegations, tribunal rules",
+   "url": "https://www.theguardian.com/world/2026/nov/25/un-sacked-palestinian-staff-on-back-of-unproven-israel-allegations",
+   "time": "2026-11-26T08:05:50+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,101 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0292",
+ "title": "美國職棒大聯盟控告球員工會，搶先請法院確認封館不違反反壟斷法",
+ "line": "勞資協議 12 月 1 日到期、談判因球團要求設薪資上限而僵持，球員工會批聯盟想靠法院取得籌碼",
+ "born_at": "2026-11-26T16:12:43+08:00",
+ "first_reported_at": "2026-11-26T11:03:00+08:00",
+ "updated_at": "2026-11-26T16:12:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "體育",
+   "勞動"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "org": [
+   "美國職棒大聯盟",
+   "美國職棒大聯盟球員工會"
+  ],
+  "person": [
+   "Glen Caplin",
+   "Rob Manfred"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "MLB 封館",
+   "勞資協議",
+   "薪資上限",
+   "反壟斷法"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美國職棒大聯盟（MLB）美國時間 11 月 25 日向曼哈頓聯邦地方法院提出 38 頁訴狀，請法官宣告封館不違反聯邦反壟斷法、也不能以法院禁制令阻止，為下週可能的封館預先取得法律保護。現行 5 年勞資協議於美東時間 12 月 1 日晚間 11 時 59 分到期，新協議談判因球團力推薪資上限、球員工會強烈反對而陷入僵局，若屆時談不攏，球團預料將實施封館。聯盟擔心工會「放棄代表權」（disclaim），讓球員得以個別向 MLB 與 30 支球隊提起反壟斷訴訟，求償可達實際損失的三倍；這種策略過去在其他職業運動勞資爭議中用過。MLB 發言人 Glen Caplin 稱提告是「防禦性措施」，目的是讓雙方留在談判桌、確保 2027 年完整球季，要「主動解除工會的核武選項」。球員工會駁斥這個說法，指聯盟想透過法院而非談判取得籌碼。",
+ "dive_html": "搶先提告顯示聯盟已在為封館做準備，2027 年球季延後開打的風險升高；薪資上限是勞方的紅線，雙方對立比歷次談判更深。對亞洲球員與轉戰大聯盟的選手（含今年入札市場的日韓台球員），封館可能讓簽約與春訓時程延宕。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "PTT Baseball",
+   "title": "[新聞] MLB無預警提告球員工會！最大訴求「封館",
+   "url": "https://www.ptt.cc/bbs/Baseball/M.1795669971.A.210.html",
+   "time": null,
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "10",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "Japan Times",
+   "title": "MLB sues players’ union to block possibility of antitrust suit",
+   "url": "https://www.japantimes.co.jp/sports/2026/11/26/baseball/mlb/mlb-sues-players-union/",
+   "time": "2026-11-26T11:03:00+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 10,
+   "v2ex": 0
+  }
+ }
+}

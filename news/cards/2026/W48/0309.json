@@ -1,0 +1,162 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0309",
+ "title": "金正恩視察核材料生產設施，要求擴大部署戰術核武，稱否定北韓擁核地位等同「公開宣戰」",
+ "line": "官媒照片顯示疑似鈾濃縮離心機與標準化戰術彈頭，金正恩稱核材料產能正系統性擴大",
+ "born_at": "2026-11-26T16:12:43+08:00",
+ "first_reported_at": "2026-11-26T05:22:00+08:00",
+ "updated_at": "2026-11-26T16:12:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞",
+   "北美"
+  ],
+  "country": [
+   "KP",
+   "KR",
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "國防與軍事",
+   "國際關係"
+  ],
+  "event": [
+   "軍事行動",
+   "聲明評論"
+  ],
+  "org": [
+   "朝鮮中央通訊社",
+   "北韓政府"
+  ],
+  "person": [
+   "金正恩",
+   "川普"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "戰術核武",
+   "鈾濃縮",
+   "火山-31",
+   "無核化"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據北韓官媒朝鮮中央通訊社（KCNA）11 月 26 日報導，金正恩 25 日視察核材料生產工廠與一處武器研究所（未透露地點），表示核材料生產能力正系統性擴大，要求把戰術核武「部署到多個領域、執行不同任務」，稱這是基於戰術核武在現代戰爭中的軍事價值，以及與「最危險敵國」（指南韓）邊界的現實而提出的「重要且緊迫的任務」。他說北韓擁核地位「絕對不可侵犯」，不會因「無視客觀現實」的無核化說法而改變，「我們的核能力已是現實」；任何否定其擁核地位（2023 年已入憲）的企圖都將被視為「公開宣戰」。DW 指官媒照片顯示他走過疑似鈾濃縮離心機的行列，分析人士也辨識出小型標準化戰術彈頭，如火山-31。Euronews 報導，金正恩無視川普的示好，並指責美國鼓勵區域盟友取得核動力潛艦、承諾與盟友分享核武。Al Jazeera 指言論出現在非軍事區邊界緊張升高之際。",
+ "dive_html": "公開展示離心機與量產化的戰術彈頭，是向美國傳達「無核化談判已無可能」，川普若要再與金正恩會面，議程只能是軍控而非棄核。把戰術核武部署到多個領域，意味前線部隊可能獲授權使用核武，降低了核門檻；這會強化南韓與日本自主核武或核潛艦的辯論，也牽動台海周邊的區域軍備競賽。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Kim Jong Un says North Korea should widen deployment of tactical nukes",
+   "url": "https://www.aljazeera.com/news/2026/11/26/kim-jong-un-says-north-korea-should-widen-deployment-of-tactical-nukes",
+   "time": "2026-11-26T10:03:03+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "Kim Jong Un tours nuclear material sites, urges wider use of tactical nuclear weapons",
+   "url": "https://www.dw.com/en/kim-jong-un-tours-nuclear-material-sites-urges-wider-use-of-tactical-nuclear-weapons/a-80055887?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-26T12:12:00+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "North Korea’s Kim vows to build more nuclear weapons after ignoring Trump’s overture",
+   "url": "https://www.euronews.com/2026/11/26/north-koreas-kim-vows-to-build-more-nuclear-weapons-after-ignoring-trumps-overture",
+   "time": "2026-11-26T13:55:00+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "North Korea's Kim calls for nuclear arsenal expansion, says status 'will never change'",
+   "url": "https://www.cnbc.com/2026/11/26/north-korea-kim-nuclear-weapons-expansion.html",
+   "time": "2026-11-26T13:50:34+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Japan Times",
+   "title": "North Korea’s Kim makes rare show of progress with nuclear program",
+   "url": "https://www.japantimes.co.jp/news/2026/11/26/asia-pacific/north-korea-kim-tactical-nukes-us-japan/",
+   "time": "2026-11-26T14:50:00+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "North Korea’s Kim urges wider tactical nuclear weapons deployment during facility tour: KCNA",
+   "url": "https://www.straitstimes.com/asia/east-asia/north-koreas-kim-calls-for-wider-deployment-of-tactical-nuclear-weapons",
+   "time": "2026-11-26T06:06:41+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "North Korea's Kim urges wider tactical nuclear weapons deployment on facility tour, KCNA says",
+   "url": "https://news.google.com/rss/articles/CBMizwFBVV95cUxPWmxZanZuLVM5QUcwTnVIS2FTQlJQQk1nQzRUd2dzUTRvUzZxbkpRMmxMdG1SUUNSLUgtNlRfbTRjcHpab2hGMHczTU02aDl6NnJOd2tXWlJ5MGJtQ0QtZDQ2SW4xOEVNVk55T1E4bmJEU2x6T3R0UUVmVnYzSllaZnRLNzRhOFp6dU80dEtUWTByZDloR1U4RlI1U1M1dF9wTnFaTTRYOUl1V05IVU43M0NtdC1TTVB6cWtoOGFLald3bU4xc2xlM1pBNkgyM0U?oc=5",
+   "time": "2026-11-26T05:22:00+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 7,
+  "regions": 5,
+  "media_weight": 15,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,172 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0301",
+ "title": "強烈風暴逼近美東，紐約梅西百貨感恩節遊行百年來首度因天候延期至週六",
+ "line": "大型氣球在持續風速超過每小時 23 英里時不得升空，紐約市長曼達尼稱這是紐約「唯一支持的膨脹」",
+ "born_at": "2026-11-26T16:12:43+08:00",
+ "first_reported_at": "2026-11-26T05:08:45+08:00",
+ "updated_at": "2026-11-26T16:12:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "生活與休閒",
+   "天氣"
+  ],
+  "event": [
+   "活動賽事",
+   "天災"
+  ],
+  "sector": [
+   "零售與消費"
+  ],
+  "org": [
+   "Macy's",
+   "AccuWeather"
+  ],
+  "person": [
+   "Zohran Mamdani"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "梅西感恩節遊行",
+   "東北風暴",
+   "感恩節"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "梅西百貨（Macy&#x27;s）美國時間 11 月 25 日宣布，第 100 屆紐約感恩節遊行因強風天候延到週六舉行，是遊行百年來首度因天候延期。預報指一場強大的東北風暴（nor&#x27;easter）26 日將為美國東北部帶來強風與豪雨，AccuWeather 預測風速每小時 12 至 25 英里（約 19 至 40 公里）、稍晚有雨；依規定，持續風速超過每小時 23 英里（37 公里）或陣風超過 34 英里（55 公里）時大型氣球不得升空，氣球過去只在 1971 年被禁飛過一次。官方警告風暴可能吹斷樹枝與電線，對巨型氣球與下方群眾構成安全風險。Macy&#x27;s 表示「參與者與觀眾的安全是首要」。紐約市長曼達尼在記者會上說，許多紐約人包括他自己都期待遊行，並打趣說氣球升空是「紐約市唯一支持的膨脹」。DW 指風暴沿東岸北上，可能在感恩節假期造成交通延誤。遊行始於 1924 年。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Deadline",
+   "title": "Mayor Zohran Mamdani Says Famed Balloons Will Soar Again At Rescheduled Macy’s Parade: “It’s The Only Inflation We Support In New York City”",
+   "url": "https://deadline.com/2026/11/mayor-zohran-mamdani-macys-thanksgiving-day-parade-postponed-1237233704/",
+   "time": "2026-11-26T08:29:14+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "0 comments",
+   "family": "Deadline",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "BBC World",
+   "title": "Macy's postpones Thanksgiving parade due to severe weather",
+   "url": "https://www.bbc.co.uk/news/articles/cwkgr38l2g9yo",
+   "time": "2026-11-26T12:04:14+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "Macy's postpones Thanksgiving Day Parade due to severe weather",
+   "url": "https://www.cnbc.com/2026/11/25/macys-thanksgiving-day-parade-postponed.html",
+   "time": "2026-11-26T06:26:56+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "New York City’s Macy’s Thanksgiving Day parade postponed due to weather",
+   "url": "https://www.theguardian.com/us-news/2026/nov/25/macys-thanksgiving-day-parade-postponed-weather",
+   "time": "2026-11-26T05:08:45+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Powerful US storm forces historic postponement of New York's Thanksgiving Day Parade",
+   "url": "https://www.france24.com/en/americas/20261126-powerful-us-storm-forces-historic-postponement-of-thanksgiving-day-parade-in-new-york",
+   "time": "2026-11-26T09:11:05+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "WSJ",
+   "title": "Macy’s Postpones Its Thanksgiving Day Parade Until Saturday",
+   "url": "https://www.wsj.com/us-news/macys-postpones-its-thanksgiving-day-parade-until-saturday-261dc15c?mod=rss_usnews",
+   "time": "2026-11-26T07:38:00+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Macy's Thanksgiving Day Parade postponed due to weather for first time in 100 years",
+   "url": "https://news.google.com/rss/articles/CBMi0AFBVV95cUxObWhPYmVCWGllQUlkVVlDc2xCb1puNVJmRzRxb0M0TkxUXzJhUF96ZW9HalhkbHdCODVNcW40ZXZrTEhWR0ZpUHZZU1JmZ29TbXdZR2ZLMlNnMzJ2eUhaUXp4VkJOV2RvVnNweTdWbkFuUWptYmRCblc5aXBtOXlQSy1TSHpHQjRrUUpuYXIweEZtbldKSTltWG9US2p3eGZ6UTlBSjE5YW1qdGNsdVI3Y0wxeURLdF9IS1d3c3NuNVpxdTJfQmN5UmpjZ1ZZbFlW?oc=5",
+   "time": "2026-11-26T05:13:00+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "DW News",
+   "title": "Extreme weather threatens Thanksgiving festivities in US",
+   "url": "https://www.dw.com/en/extreme-weather-threatens-thanksgiving-festivities-in-us/a-80055880?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-26T10:47:00+08:00",
+   "added_at": "2026-11-26T16:12:43+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 8,
+  "regions": 2,
+  "media_weight": 17,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}
