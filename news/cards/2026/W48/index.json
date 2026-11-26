@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "week": "2026-W48",
- "built_at": "2026-11-26T17:36:58+08:00",
+ "built_at": "2026-11-26T17:38:38+08:00",
  "cards": [
   {
    "id": "2026-W48-0001",
@@ -18175,8 +18175,8 @@
    "title": "挪威低成本長程航空 Norse Atlantic 暫停所有航班，稱若無短期融資將聲請破產",
    "line": "巴基斯坦國際航空的英國濕租航班被迫取消，改用自家波音 777 執飛",
    "born_at": "2026-11-26T16:09:33+08:00",
-   "updated_at": "2026-11-26T17:27:06+08:00",
-   "version": 2,
+   "updated_at": "2026-11-26T17:38:38+08:00",
+   "version": 3,
    "archived": false,
    "late": false,
    "online_only": false,
@@ -18225,12 +18225,12 @@
     "finance"
    ],
    "last_update": {
-    "at": "2026-11-26T17:27:06+08:00",
-    "kind": "supplement",
-    "text": "Norse Atlantic 26 日暫停所有航班，表示若無法緊急取得短期融資將聲請破產",
-    "refocus": true
+    "at": "2026-11-26T17:38:38+08:00",
+    "kind": "correction",
+    "text": "CNBC 報導 Norse Atlantic 股價 11 月 25 日收盤下跌 85%，不是卡上原寫的 53.3%",
+    "refocus": false
    },
-   "corrected_at": null,
+   "corrected_at": "2026-11-26T17:38:38+08:00",
    "first_reported_at": "2026-11-26T03:32:39+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": "2026-11-26T17:27:06+08:00",
