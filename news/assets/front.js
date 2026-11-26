@@ -224,13 +224,13 @@
     return el;
   };
 
-  // 一張新聞卡＝列表列（rows.js）：本頁不屬於哪個系列，上方小字與展開後的「系列」列全部；第一張露一句話
-  const cardRow = (c, lead, now) => R.row({ ...c, series: seriesOf(c) }, {
-    meta: seriesMeta, time: agoTime(c, now), lead, tag: 'li',
+  // 一張新聞卡＝列表列（rows.js）：本頁不屬於哪個系列，上方小字與展開後的「系列」列全部；每列一樣，沒有頭條樣式
+  const cardRow = (c, now) => R.row({ ...c, series: seriesOf(c) }, {
+    meta: seriesMeta, time: agoTime(c, now), tag: 'li',
   });
   // 部署空窗沒有 rows.js：系列・多久前・更新｜標題連到新聞卡頁｜一句話（前一版的清單）
   const updated = (c) => focusAt(c) > Date.parse(c.born_at) || Boolean(c.last_update && c.last_update.refocus === true);
-  function focusRow(c, lead, now) {
+  function focusRow(c, now) {
     const types = seriesOf(c);
     const meta = h('p', { class: 'fp-mt' }, [
       ...types.map(typeTag),
@@ -241,7 +241,7 @@
       ]) : null,
     ]);
     return h('li', {
-      class: `fp-it fp-card${lead ? ' is-lead' : ''}`, 'data-group': (types.length && seriesMeta(types[0]).group) || null, 'data-id': c.id, 'data-fq': types.join(' '),
+      class: 'fp-it fp-card', 'data-group': (types.length && seriesMeta(types[0]).group) || null, 'data-id': c.id, 'data-fq': types.join(' '),
     }, [
       meta,
       h('h2', { class: 'row-title fp-cd-title' }, [h('a', { href: `card.html#${c.id}` }, [c.title])]),
@@ -266,7 +266,7 @@
       h('span', { class: 'stale-ico', html: B.ICON.warn }),
       h('span', null, [`過去 ${windowHours()} 小時沒有新的新聞卡，以下是最近一批${Number.isNaN(built) ? '' : `・最後更新 ${stamp(built)}`}`]),
     ]) : null;
-    const rows = cards.map((c, i) => (R ? cardRow(c, i === 0, now) : focusRow(c, i === 0, now))).filter(Boolean);
+    const rows = cards.map((c) => (R ? cardRow(c, now) : focusRow(c, now))).filter(Boolean);
     // 過濾標籤：各系列張數（一張屬於多個系列各算一次）
     const counts = new Map();
     rows.forEach((r) => r.dataset.fq.split(' ').filter(Boolean).forEach((g) => counts.set(g, (counts.get(g) || 0) + 1)));

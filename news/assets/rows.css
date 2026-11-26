@@ -2,14 +2,13 @@
    收合的 summary 與箭頭沿用 report.css 的 .peek、.row-title；展開後的 .row-sum、.row-dive、.dive-label 沿用 site.css／report.css；
    領域色 --g-c 由 report.css 依 data-group 給；一般外觀在 look-standard.css。 */
 
-/* ── 一列：左緣領域色線；.is-lead＝收合時露一句話的那列（淡底） ── */
+/* ── 一列：左緣領域色線；每列一樣，沒有頭條樣式（使用者定案） ── */
 .rw{margin:var(--space-2) 0;padding:6px 0 6px 12px;border-left:3px solid var(--g-c,var(--color-divider))}
 .rw[hidden]{display:none}
 .rw .peek>summary{display:grid;grid-template-columns:minmax(0,1fr) auto;column-gap:var(--space-3);row-gap:2px;align-items:start}
 .rw .peek>summary>*{grid-column:1}
 .rw .peek>summary::after{grid-column:2;grid-row:1 / span 2;margin-top:6px}
 .rw .peek[open]>summary::after{margin-top:10px}
-.rw.is-lead{padding:10px 12px;background:var(--color-accent-100)}
 /* 上方小字：系列（各自的領域色，「、」隔開）・時間・家數；網路討論另成黃底標示 */
 .rw-mt{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 6px;font:600 12.5px/1.5 var(--font-body);color:var(--color-neutral-600)}
 .rw-ty{color:var(--g-c,var(--color-neutral-600))}
@@ -23,15 +22,10 @@
 .rw .rw-title{font:600 16.5px/1.6 var(--font-body)}
 /* 標題前的紅底標示（資安頁「遭利用」；有字，不只靠顏色） */
 .rw-flag{display:inline-block;margin-right:8px;padding:0 6px;vertical-align:2px;background:var(--color-hot);color:var(--color-bg);font:700 11.5px/1.7 var(--font-body);letter-spacing:.06em;white-space:nowrap}
-.rw.is-lead .rw-title{font-size:18px;line-height:1.5}
 /* 更新句：補充「更新 HH:MM」主色框、更正「更正 HH:MM」紅框（另有字，不只靠顏色） */
 .rw-up{display:block;margin-top:1px;font:400 14px/1.6 var(--font-body);color:var(--color-neutral-800)}
 .rw-up-k{display:inline-block;margin-right:6px;padding:0 5px;border:1px solid var(--color-accent-600);color:var(--color-accent-700);font:700 11.5px/1.55 var(--font-body);letter-spacing:.04em;white-space:nowrap;vertical-align:1px}
 .rw-up.is-fix .rw-up-k{border-color:var(--color-hot);color:var(--color-hot)}
-/* 一句話預覽（只在收合時）：兩行 */
-.rw-pre{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2;line-clamp:2;overflow:hidden;margin-top:3px;font:400 15px/1.6 var(--font-body);color:var(--color-neutral-800);text-spacing-trim:trim-start;hanging-punctuation:allow-end}
-.rw.is-lead .rw-pre{font-size:16px}
-.rw .peek[open] .rw-pre{display:none}
 
 /* ── 展開：摘要、AI 解讀、領域欄位，最後一列；載入中與錯誤各一行 ── */
 .rw-wait{margin:0;font:400 14px/1.6 var(--font-body);color:var(--color-neutral-600)}
@@ -59,11 +53,10 @@
 .rw-go:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
 .rw-line{margin:3px 0 0;font:400 15px/1.6 var(--font-body);color:var(--color-neutral-800)}
 
-/* ── 地圖：色線 4px 直線，淡底右側圓角 ── */
+/* ── 地圖：色線 4px 直線 ── */
 [data-look=atlas] .rw{border-left-width:4px}
-[data-look=atlas] .rw.is-lead{border-radius:0 var(--r-md,10px) var(--r-md,10px) 0}
 [data-look=atlas] :is(.rw-act,.rw-up-k,.rw-online,.rw-flag){border-radius:var(--r-sm,6px)}
 
-@media(forced-colors:active){.rw{border-left-color:CanvasText}.rw.is-lead{outline:1px solid CanvasText}:is(.rw-online,.rw-flag){border:1px solid}}
+@media(forced-colors:active){.rw{border-left-color:CanvasText}:is(.rw-online,.rw-flag){border:1px solid}}
 /* 觸控：放檔尾才蓋得過前面同權重的 min-height（分類開關的 44px 在 report.css） */
 @media(pointer:coarse){.rw-act{min-height:44px}.rw-go::after{content:"";position:absolute;inset:0}}

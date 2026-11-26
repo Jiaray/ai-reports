@@ -1,5 +1,5 @@
 /* 新聞卡列表列（本日焦點、系列頁、議題頁共用；暫時頁用不展開的 link()），掛 AIR.rows（介面見檔尾）。依賴 AIR.h、AIR.getJSON；A.facets、A.bar 選用。
-   一列＝<details class="peek">：summary 是左緣領域色線、上方小字（系列・時間・家數）、標題、（補充或更正）更新句、（lead）一句話預覽，
+   一列＝<details class="peek">：summary 是左緣領域色線、上方小字（系列・時間・家數）、標題、（補充或更正）更新句（每列一樣，沒有頭條樣式），
    右邊箭頭來自 report.css 的 .peek；點開在頁內展開，標題不是連結（summary 裡不放連結、不放標題元素）。
    收合時只用輕量條目（契約 §9）；第一次展開才抓那張卡的檔（決策 D-030），畫摘要、AI 解讀、領域欄位，
    最後一列「開新聞卡｜系列 X、Y｜分類 ▾」（樣式摘要 5.3、5.4）。抓不到只在展開區顯示一行錯誤，收起再點開重抓。
@@ -222,7 +222,6 @@
   //   page：這頁本身的系列代號（字串或陣列）：上方小字、最後一列都不列（本日焦點不給，全部都列）
   //   time：上方小字的時間節點（用 time() 做）；series:false＝上方小字不列系列（議題頁）
   //   extra：上方小字接在家數後的字串（鄉民頁的平台熱度「85 推」）；flag：標題前的紅底標示（資安頁「遭利用」）
-  //   lead：收合時露一句話（line）預覽：系列頁每段第一張、本日焦點第一順位
   //   known：頁面上已寫的字（議題頁的議題路徑「上層 › 子議題」），展開後的分類不重列
   //   tag：外層元素（預設 article；放進 <ol> 時給 li）；id
   // 回傳外層元素（data-id＝編號、data-fq＝系列代號空白分隔，給頁面過濾）；編號不對或沒有標題回 null
@@ -265,12 +264,11 @@
     const others = all.filter((s) => !page.has(s));
     const top = topLine(c, o, others, 'span');
     const upd = updLine(c);
-    const pre = o.lead && str(c.line) ? h('span', { class: 'rw-pre' }, [c.line]) : null;
     const body = h('div', { class: 'more-body rw-body' });
     const det = h('details', { class: 'peek' }, [
       h('summary', { class: 'peek-sum' }, [top, h('span', { class: 'row-title rw-title' }, [
         str(o.flag) ? h('span', { class: 'rw-flag' }, [o.flag]) : null, c.title,
-      ]), upd, pre]),
+      ]), upd]),
       body,
     ]);
 
@@ -311,7 +309,7 @@
     }
     // toggle 不冒泡：掛在每個 details 上；頁面重畫時設 open 也會觸發（卡檔已在快取）
     det.addEventListener('toggle', () => { if (det.open && state === 'idle') fill(); });
-    return outer(c, o, all, `rw${o.lead ? ' is-lead' : ''}`, [det]);
+    return outer(c, o, all, 'rw', [det]);
   }
 
   // 不在頁內展開的一列（暫時頁，樣式摘要第 10 節）：上方小字、標題（連到新聞卡頁）、更新句、一句話（不截斷）。

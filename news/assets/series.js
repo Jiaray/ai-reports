@@ -2,7 +2,7 @@
    report.js 讀完 index.json、確定是其中的系列後呼叫 render(ctx)；工具列、「版面」沿用 report.js 的。這支沒載到時 report.js 顯示施工中。
    讀 cards/recent.json，列近 7 天（台北日曆日：今天往回 6 天）這個系列的新聞卡，依天分段、新到舊；條目是 rows.js 的列表列。
    - 放哪天：事件時間（event_at）那天；補充過的移到最後補充（supplemented_at）那天，上方小字的時間改寫「新增 M/D」；更正、掛來源不移。
-   - 同一天內：事件分量 → heat_rank → 時間新到舊（rows.js byImportance；時間用放那天的時刻）；每段第一張露一句話。
+   - 同一天內：事件分量 → heat_rank → 時間新到舊（rows.js byImportance；時間用放那天的時刻）；每張都同樣只列標題（沒有頭條樣式，使用者定案）。
    - 資安：頂端「要修補的漏洞」（事件類型含漏洞揭露），依急迫性 → 同上；exploited 標「遭利用」；列過的不再進日段。
    - 鄉民：每天再分 PTT、HN、V2EX 三區，各依該平台熱度排、只列 > 0；同一張卡在幾個平台有熱度就列幾次（〈不重複〉的例外）。
    - 財經：每天再分台灣（台灣關聯直接）、國際兩區，各依重要程度排；國際區先列 max(ceil(台灣區張數×2/3), 3) 張，
@@ -105,7 +105,7 @@
     const time = x.moved
       ? R.time(x.ev, `新增 ${md(x.ev)}`, R.mdw(x.ev))
       : R.time(x.ev, o.full ? `${md(x.ev)} ${R.hm(x.ev)}` : R.hm(x.ev), R.mdw(x.ev));
-    const el = R.row(x.c, { meta, page: ctx.t, time, lead: o.lead, tag: 'li', flag: o.flag, extra: o.extra });
+    const el = R.row(x.c, { meta, page: ctx.t, time, tag: 'li', flag: o.flag, extra: o.extra });
     if (!el) return null;
     el.dataset.group = meta(ctx.t).group || el.dataset.group || '';
     el.dataset.k = `${o.zone || ''}|${x.c.id}`;
@@ -158,40 +158,29 @@
       items.forEach((x) => shown.add(x.c.id));
       const id = `d-${day}`;
       if (t === 'social') {
-        let lead = true;
         const zones = PLATFORMS.map(([k, name, unit]) => {
           const zi = items.filter((x) => community(x.c, k)).sort((a, b) => community(b.c, k) - community(a.c, k) || imp(a.c, b.c));
           if (!zi.length) return null;
-          const rows = zi.map((x) => {
-            const r = rowOf(x, { zone: k, lead, extra: [`${community(x.c, k)} ${unit}`] });
-            lead = false;
-            return r;
-          });
-          return zone(k, name, zi.length, rows);
+          return zone(k, name, zi.length, zi.map((x) => rowOf(x, { zone: k, extra: [`${community(x.c, k)} ${unit}`] })));
         }).filter(Boolean);
         out.push(section(id, 'sp-day', R.dayLabel(day), items.length, zones, day));
         return;
       }
       // 財經：台灣在上、國際在下，各依重要程度；國際區超過先列的張數，其餘收進「再看 N 張」
       if (t === 'finance') {
-        let lead = true;
         const byZone = new Map(FIN_ZONES.map(([k]) => [k, items.filter((x) => finZone(x.c) === k).sort((a, b) => imp(a.c, b.c))]));
         const cap = intlShown(byZone.get('taiwan').length);
         const zones = FIN_ZONES.map(([k, name]) => {
           const zi = byZone.get(k);
           if (!zi.length) return null;
-          const rows = zi.map((x) => {
-            const r = rowOf(x, { zone: k, lead });
-            lead = false;
-            return r;
-          });
+          const rows = zi.map((x) => rowOf(x, { zone: k }));
           return k === 'intl' ? zone(k, name, zi.length, rows.slice(0, cap), rows.slice(cap)) : zone(k, name, zi.length, rows);
         }).filter(Boolean);
         out.push(section(id, 'sp-day', R.dayLabel(day), items.length, zones, day));
         return;
       }
       items.sort((a, b) => (t === 'game_industry' ? webGame(b.c) - webGame(a.c) : 0) || imp(a.c, b.c));
-      out.push(section(id, 'sp-day', R.dayLabel(day), items.length, [rowsList(items.map((x, i) => rowOf(x, { lead: i === 0 })))], day));
+      out.push(section(id, 'sp-day', R.dayLabel(day), items.length, [rowsList(items.map((x) => rowOf(x)))], day));
     });
     return { sections: out, count: shown.size };
   }
