@@ -57,8 +57,8 @@
 .vw .dd-toggle{margin-right:calc(-1 * var(--space-3))}
 .dd-ico,.dd-ico svg,.dd-close svg{display:block;flex:none}
 .dd-close svg{width:20px;height:20px}
-/* 面板：頂端 2px 粗線 */
-.dd-panel{position:absolute;top:calc(100% + 8px);right:0;z-index:30;width:min(360px,calc(100vw - 32px));container-type:inline-size;padding:0 var(--space-4) var(--space-2);background:var(--color-bg);color:var(--color-text);border:1px solid var(--color-divider);border-top:2px solid var(--color-text);box-shadow:0 20px 40px -28px rgb(0 0 0 / .6)}
+/* 面板：四邊同樣 1px 細線，頂端不畫粗線（同工具列，使用者定案） */
+.dd-panel{position:absolute;top:calc(100% + 8px);right:0;z-index:30;width:min(360px,calc(100vw - 32px));container-type:inline-size;padding:0 var(--space-4) var(--space-2);background:var(--color-bg);color:var(--color-text);border:1px solid var(--color-divider);box-shadow:0 20px 40px -28px rgb(0 0 0 / .6)}
 .dd-head{display:flex;align-items:center;justify-content:space-between;gap:var(--space-3);min-height:46px;margin-right:calc(-1 * var(--space-2))}
 .dd-title{font:600 15px/1.3 var(--font-heading);letter-spacing:.02em}
 .dd-close{display:inline-flex;align-items:center;justify-content:center;width:36px;height:36px;padding:0;background:transparent;color:var(--color-neutral-600);border:0;border-radius:0;cursor:pointer}
@@ -202,7 +202,7 @@ html.has-fab .editions :is(.dd-toggle,.ed-link){display:none}
 html.has-fab .wrap{padding-bottom:calc(var(--space-6) + 112px)}
 }
 /* 底部面板 .is-sheet＝功能鈕開的同一個面板 */
-.dd .dd-panel.is-sheet{position:fixed;top:auto;right:0;bottom:0;left:0;z-index:45;width:auto;max-height:85vh;max-height:85dvh;overflow-y:auto;overscroll-behavior:contain;padding:0 max(var(--space-4),env(safe-area-inset-right,0px)) calc(var(--space-2) + env(safe-area-inset-bottom,0px)) max(var(--space-4),env(safe-area-inset-left,0px));border:0;border-top:2px solid var(--color-text);box-shadow:0 -24px 44px -30px rgb(0 0 0 / .6)}
+.dd .dd-panel.is-sheet{position:fixed;top:auto;right:0;bottom:0;left:0;z-index:45;width:auto;max-height:85vh;max-height:85dvh;overflow-y:auto;overscroll-behavior:contain;padding:0 max(var(--space-4),env(safe-area-inset-right,0px)) calc(var(--space-2) + env(safe-area-inset-bottom,0px)) max(var(--space-4),env(safe-area-inset-left,0px));border:0;border-top:1px solid var(--color-divider);box-shadow:0 -24px 44px -30px rgb(0 0 0 / .6)}
 .dd .dd-panel.is-sheet::before{content:"";display:block;width:36px;height:4px;margin:8px auto 0;background:var(--color-neutral-300)}
 /* 底部面板開時：html.fab-sheet 鎖整頁捲動與下拉重新整理（免得拖把手變重新整理）；把手可拖收起（bar.js 的 sheetDrag）。
    .dd-shade 的 touch-action:none：從背景拖也不捲頁面。定案：× 44px 實心淺底、圖示 22px */
