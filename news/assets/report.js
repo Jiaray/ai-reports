@@ -1,6 +1,6 @@
 /* news/?t=<系列> 的分派：讀 index.json，t 是其中的系列 → 系列頁 series.js（A.series.render）；不認得的 t（含已刪的舊代號，
    不轉址）→「找不到這個系列」＋回本日焦點。series.js 沒載到（部署空窗）時顯示「施工中」。不帶 t 由 front.js 負責。
-   這裡建工具列（本日焦點｜系列｜議題｜版面）與「版面」下拉，系列頁、找不到、施工中共用。
+   這裡建工具列（新聞首頁｜系列｜議題｜版面）與「版面」下拉，系列頁、找不到、施工中共用。
    依賴 A.bar（bar.js）；A.look（look-standard.js）、A.series（series.js）選用，載入失敗就少「一般」外觀、系列頁退回施工中。 */
 (() => {
   'use strict';
@@ -28,9 +28,9 @@
   root.setAttribute('data-read', 'scan');
   root.setAttribute('data-look', look);
 
-  // 工具列（bar.js；樣式摘要 5.1）：本日焦點　右邊一組：系列｜議題｜版面。舊版 bar.js 沒有 storyLink 就不放議題
+  // 工具列（bar.js；樣式摘要 5.1）：新聞首頁（連本日焦點）　右邊一組：系列｜議題｜版面。舊版 bar.js 沒有 storyLink 就不放議題
   const editions = () => B.toolbar([
-    B.navLink('本日焦點', 'front', './', null),
+    B.navLink('新聞首頁', 'front', './', null),
     srBox,
     B.storyLink ? B.storyLink(null) : null,
     vwBox,

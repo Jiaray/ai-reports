@@ -68,9 +68,10 @@
 
   // ── 報頭（bar.js 元件）──
   const TITLE = '本日焦點';
-  // 工具列（樣式摘要 5.1）：本日焦點（這頁，aria-current=page）　右邊一組：系列｜議題｜版面。舊版 bar.js 沒有 storyLink 就不放議題
+  // 工具列（樣式摘要 5.1）：新聞首頁（＝這頁，aria-current=page；按鈕叫新聞首頁、頁名仍是本日焦點，使用者定案）　右邊一組：系列｜議題｜版面。
+  // 舊版 bar.js 沒有 storyLink 就不放議題
   const toolbar = () => B.toolbar([
-    B.navLink(TITLE, 'front', './', 'page'), srBox, B.storyLink ? B.storyLink(null) : null, fpBox,
+    B.navLink('新聞首頁', 'front', './', 'page'), srBox, B.storyLink ? B.storyLink(null) : null, fpBox,
   ]);
 
   // ── 快速過濾 ──
