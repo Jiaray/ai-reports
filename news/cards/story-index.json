@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "built_at": "2026-11-26T02:10:05+08:00",
+ "built_at": "2026-11-26T12:38:05+08:00",
  "stories": [
   {
    "name": "COP31",
@@ -222,6 +222,7 @@
     "2026-W48-0063"
    ],
    "series": [
+    "cross_strait",
     "politics",
     "finance"
    ],
@@ -265,6 +266,7 @@
    ],
    "series": [
     "social",
+    "cross_strait",
     "politics",
     "finance",
     "tech"

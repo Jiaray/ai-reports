@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "week": "2026-W48",
- "built_at": "2026-11-26T02:10:05+08:00",
+ "built_at": "2026-11-26T14:13:16+08:00",
  "cards": [
   {
    "id": "2026-W48-0001",
@@ -3904,6 +3904,7 @@
     }
    },
    "series": [
+    "cross_strait",
     "politics",
     "finance"
    ],
@@ -3977,6 +3978,7 @@
     }
    },
    "series": [
+    "cross_strait",
     "politics",
     "finance"
    ],
@@ -4053,6 +4055,7 @@
    },
    "series": [
     "social",
+    "cross_strait",
     "politics",
     "finance",
     "tech"
@@ -7671,6 +7674,7 @@
     }
    },
    "series": [
+    "cross_strait",
     "politics"
    ],
    "last_update": null,
@@ -7739,6 +7743,7 @@
    },
    "series": [
     "social",
+    "cross_strait",
     "society",
     "tech"
    ],
@@ -7805,6 +7810,7 @@
     }
    },
    "series": [
+    "cross_strait",
     "politics",
     "science"
    ],
@@ -14905,6 +14911,7 @@
     }
    },
    "series": [
+    "cross_strait",
     "politics",
     "environment"
    ],
