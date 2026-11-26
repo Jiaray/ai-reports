@@ -23,7 +23,7 @@
 .sx-fb-near{color:var(--stale-fg)}
 .sx-fb[aria-pressed=true]{background:var(--color-text);border-color:var(--color-text);color:var(--color-bg)}
 .sx-fb[aria-pressed=true] .sx-fb-n{color:inherit}
-.sx-fb:disabled{opacity:.45;cursor:default}
+.sx-fb[aria-disabled=true]{opacity:.45;cursor:default}
 .sx-fb:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
 
 /* ── 圖例：讀取、收錄兩色＋一句說明 ── */
@@ -113,6 +113,8 @@ a.sx-url:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:
 @media(pointer:coarse){
   .sx-fb{min-height:44px}
   .sx-back{display:inline-flex;align-items:center;min-height:44px}
+  /* 表格一列約 22px（使用者定案的緊湊排法），網址撐不到 44px：觸控時網址只顯示、不當點擊目標（鍵盤照樣能開） */
+  a.sx-url{pointer-events:none;color:var(--color-neutral-600)}
 }
 @media(forced-colors:active){
   .sx-fb[aria-pressed=true]{outline:2px solid CanvasText;outline-offset:1px}

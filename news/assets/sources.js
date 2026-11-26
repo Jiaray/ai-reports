@@ -18,8 +18,9 @@
   const DATA = 'sources-status.json';
   const TITLE = '新聞來源';
   const STALE_HOURS = 8;     // 最後一輪超過這麼多小時：黃色提示（同本日焦點頁尾入口）
-  const NEAR = 11;           // 快進板凳：主線、沒釘選，連續這麼多輪沒收錄（news-aggregator source_list.BENCH_AFTER_ROUNDS − 3）
-  const BENCH_ROUNDS = 14;   // source_list.BENCH_AFTER_ROUNDS
+  // 門檻照資料（sources-status.json 的 near_rounds、bench_rounds，news-aggregator source_list 的常數）；舊資料沒有才用預設
+  let NEAR = 11;             // 快進板凳：主線、沒釘選，連續這麼多輪沒收錄
+  let BENCH_ROUNDS = 14;     // 連續這麼多輪沒收錄移到板凳
   const DOMAIN = '領域：';
   const OFF = { 板凳: 'bench', 待檢: 'pending', 停用: 'off' };
   const TAIPEI_MS = 8 * 3600 * 1000;
@@ -172,22 +173,27 @@
     ]),
   ]);
 
-  // ── 篩選（全部｜連不上｜快進板凳｜沒有新稿）──
+  // ── 篩選（全部｜連不上｜快進板凳｜沒有新稿）：按鈕列同本日焦點的過濾標籤（role=toolbar＋aria-pressed＋focusgroup，
+  //    不支援時 bar.js roving() 補方向鍵）；0 個的用 aria-disabled（仍可聚焦，方向鍵才不會卡住），按了沒反應 ──
   let filter = 'all';
   function filterBar(list) {
     const n = (s) => list.filter((u) => statusOf(u) === s).length;
     const opts = [['all', '全部', list.length], ...FILTERS.map((s) => [s, ST[s].label, n(s)])];
-    return h('div', { class: 'sx-filter', role: 'toolbar', 'aria-label': '依狀態篩選' }, opts.map(([k, label, count]) => {
+    const bar = h('div', { class: 'sx-filter', role: 'toolbar', 'aria-label': '依狀態篩選', focusgroup: 'toolbar wrap' }, opts.map(([k, label, count]) => {
+      const off = k !== 'all' && count === 0;
       const b = h('button', {
         type: 'button', class: `sx-fb${k === 'all' ? '' : ` sx-fb-${k}`}`, 'aria-pressed': String(k === filter),
-        disabled: k !== 'all' && count === 0 ? true : null,
+        'aria-disabled': off ? 'true' : null,
       }, [k === 'all' ? null : h('span', { class: 'sx-ico', html: ST[k].icon }), label, h('span', { class: 'sx-fb-n' }, [String(count)])]);
       b.addEventListener('click', () => {
+        if (off || k === filter) return;
         filter = k;
         draw(true);
       });
       return b;
     }));
+    if (B.roving) B.roving(bar)(bar.querySelector('[aria-pressed=true]')); // 停點放在選中的那顆
+    return bar;
   }
 
   function table(sec, list, max) {
@@ -238,7 +244,11 @@
     ]);
   }
   function page(doc) {
+    NEAR = int(doc.near_rounds) || 11;
+    BENCH_ROUNDS = int(doc.bench_rounds) || 14;
     const list = units(doc);
+    // 選中的那一類重抓後變成 0 個：退回「全部」（不留一片空白）
+    if (filter !== 'all' && !list.some((u) => statusOf(u) === filter)) filter = 'all';
     dupNames = new Set(list.map((u) => u.name).filter((n, i, a) => a.indexOf(n) !== i));
     const max = Math.max(1, ...list.map((u) => int(u.read)));
     const secs = sections(list);
