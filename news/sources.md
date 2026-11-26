@@ -47,6 +47,7 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | nyt_asia | NYT Asia Pacific | rss | https://rss.nytimes.com/services/xml/rss/nyt/AsiaPacific.xml |  | 15 | 否 | politics_news | 新聞 | en | politics,cross_strait |  | 2026-11-26 |  | 付費牆，只有標題與摘要 |
 | cna_local | 中央社 CNA | rss | https://feeds.feedburner.com/rsscna/local |  | 15 | 是 | society_news | 新聞 | zh-TW | society,taiwan_general |  | 2026-11-26 |  | 中央社地方分類 |
 | propublica | ProPublica | rss | https://www.propublica.org/feeds/propublica/main |  | 5 | 是 | society_news | 新聞 | en | society,reading |  | 2026-11-26 |  | 調查報導 |
+| npr_news | NPR News | rss | https://feeds.npr.org/1001/rss.xml |  | 10 | 是 | headlines | 新聞 | en | politics,society |  | 2026-11-26 |  | NPR 新聞總覽；feed 只留 10 則 |
 
 ## 領域：台灣
 
@@ -74,6 +75,7 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | politico | Politico | rss | https://rss.politico.com/politics-news.xml |  | 15 | 是 | politics_news | 新聞 | en | politics |  | 2026-11-26 |  | 美國國會與白宮 |
 | politico_eu | Politico Europe | rss | https://www.politico.eu/feed/ |  | 15 | 是 | politics_news | 新聞 | en | politics |  | 2026-11-26 |  | 歐盟政治 |
 | whitehouse | White House | rss | https://www.whitehouse.gov/news/feed/ |  | 10 | 是 | policy_official | 新聞 | en | politics |  | 2026-11-26 |  | 行政命令與聲明 |
+| wsj_world | WSJ World News | rss | https://feeds.content.dowjones.io/public/rss/RSSWorldNews |  | 15 | 否 | politics_news | 新聞 | en | politics |  | 2026-11-26 |  | 付費牆，只有標題與摘要；美國新聞在國際媒體池 pool_wsj |
 
 ## 領域：社會
 
