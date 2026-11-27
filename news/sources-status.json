@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "built_at": "2026-11-26T17:39:17+08:00",
+ "built_at": "2026-11-27T17:08:48+08:00",
  "rounds_24h": 2,
  "near_rounds": 11,
  "bench_rounds": 14,
@@ -16,13 +16,13 @@
    "per_round": 15,
    "pinned": false,
    "read": 25,
-   "used": 7,
+   "used": 6,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "cna_social",
@@ -35,13 +35,13 @@
    "per_round": 15,
    "pinned": false,
    "read": 25,
-   "used": 9,
+   "used": 7,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "cna_intworld",
@@ -54,13 +54,13 @@
    "per_round": 15,
    "pinned": false,
    "read": 23,
-   "used": 11,
+   "used": 12,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pts",
@@ -73,13 +73,13 @@
    "per_round": 15,
    "pinned": false,
    "read": 30,
-   "used": 11,
+   "used": 9,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "cna_health",
@@ -91,14 +91,14 @@
    "lang": "zh-TW",
    "per_round": 30,
    "pinned": false,
-   "read": 18,
-   "used": 5,
+   "read": 24,
+   "used": 2,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_bbc_top",
@@ -111,13 +111,13 @@
    "per_round": 30,
    "pinned": false,
    "read": 40,
-   "used": 11,
+   "used": 8,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_bbc_world",
@@ -129,14 +129,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 29,
-   "used": 12,
+   "read": 33,
+   "used": 14,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_bbc_chinese",
@@ -148,14 +148,14 @@
    "lang": "zh-TW",
    "per_round": 30,
    "pinned": false,
-   "read": 7,
-   "used": 4,
+   "read": 11,
+   "used": 3,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_guardian_world",
@@ -167,14 +167,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 37,
+   "read": 39,
    "used": 8,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_aljazeera",
@@ -187,13 +187,13 @@
    "per_round": 30,
    "pinned": false,
    "read": 41,
-   "used": 15,
+   "used": 11,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_france24",
@@ -206,13 +206,13 @@
    "per_round": 30,
    "pinned": false,
    "read": 31,
-   "used": 15,
+   "used": 14,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_un_news",
@@ -224,13 +224,13 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 12,
+   "read": 9,
    "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 2,
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 3,
    "last_pick": "2026-11-26"
   },
   {
@@ -243,14 +243,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 20,
-   "used": 7,
+   "read": 27,
+   "used": 9,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_euronews",
@@ -263,13 +263,13 @@
    "per_round": 30,
    "pinned": false,
    "read": 50,
-   "used": 11,
+   "used": 19,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_wsj",
@@ -281,14 +281,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 9,
-   "used": 2,
+   "read": 10,
+   "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_dawn",
@@ -300,14 +300,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 36,
-   "used": 8,
+   "read": 37,
+   "used": 3,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_rappler",
@@ -320,13 +320,13 @@
    "per_round": 30,
    "pinned": false,
    "read": 14,
-   "used": 2,
+   "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_premium_times",
@@ -343,8 +343,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -362,8 +362,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -376,13 +376,13 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 8,
+   "read": 10,
    "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -400,8 +400,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -415,13 +415,13 @@
    "per_round": 30,
    "pinned": false,
    "read": 60,
-   "used": 10,
+   "used": 8,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_scmp_china",
@@ -433,14 +433,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 12,
+   "read": 19,
    "used": 3,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_the_diplomat",
@@ -452,13 +452,13 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 7,
+   "read": 2,
    "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 2,
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 3,
    "last_pick": "2026-11-26"
   },
   {
@@ -472,13 +472,13 @@
    "per_round": 30,
    "pinned": false,
    "read": 36,
-   "used": 13,
+   "used": 7,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_straits_times_asia",
@@ -491,13 +491,13 @@
    "per_round": 30,
    "pinned": false,
    "read": 50,
-   "used": 17,
+   "used": 14,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_reuters",
@@ -510,13 +510,13 @@
    "per_round": 30,
    "pinned": false,
    "read": 37,
-   "used": 24,
+   "used": 13,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "nature",
@@ -528,14 +528,14 @@
    "lang": "en",
    "per_round": 15,
    "pinned": false,
-   "read": 15,
-   "used": 5,
+   "read": 20,
+   "used": 7,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "quanta",
@@ -552,8 +552,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -571,8 +571,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -590,8 +590,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:44+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -604,14 +604,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 30,
-   "used": 18,
+   "read": 60,
+   "used": 33,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:44+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "axios",
@@ -623,14 +623,14 @@
    "lang": "en",
    "per_round": 15,
    "pinned": false,
-   "read": 15,
-   "used": 10,
+   "read": 19,
+   "used": 11,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:44+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "nyt_asia",
@@ -642,14 +642,14 @@
    "lang": "en",
    "per_round": 15,
    "pinned": false,
-   "read": 13,
-   "used": 6,
+   "read": 24,
+   "used": 8,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:43+08:00",
+   "last_fetched_at": "2026-11-27T16:44:45+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "cna_local",
@@ -661,14 +661,14 @@
    "lang": "zh-TW",
    "per_round": 15,
    "pinned": false,
-   "read": 15,
-   "used": 3,
+   "read": 30,
+   "used": 4,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:43+08:00",
+   "last_fetched_at": "2026-11-27T16:44:45+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "propublica",
@@ -685,8 +685,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:43+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:45+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -699,14 +699,14 @@
    "lang": "en",
    "per_round": 10,
    "pinned": false,
-   "read": 10,
-   "used": 5,
+   "read": 20,
+   "used": 9,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:43+08:00",
+   "last_fetched_at": "2026-11-27T16:44:45+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "solidot",
@@ -718,14 +718,14 @@
    "lang": "zh-CN",
    "per_round": 15,
    "pinned": false,
-   "read": 10,
-   "used": 8,
+   "read": 20,
+   "used": 13,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:43+08:00",
+   "last_fetched_at": "2026-11-27T16:44:45+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "tmtpost",
@@ -737,14 +737,14 @@
    "lang": "zh-CN",
    "per_round": 15,
    "pinned": false,
-   "read": 15,
-   "used": 2,
+   "read": 30,
+   "used": 4,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:43+08:00",
+   "last_fetched_at": "2026-11-27T16:44:45+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "kr36",
@@ -756,13 +756,13 @@
    "lang": "zh-CN",
    "per_round": 15,
    "pinned": false,
-   "read": 15,
+   "read": 30,
    "used": 5,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:43+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:45+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -775,14 +775,14 @@
    "lang": "en",
    "per_round": 5,
    "pinned": false,
-   "read": 2,
-   "used": 1,
+   "read": 5,
+   "used": 3,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:43+08:00",
+   "last_fetched_at": "2026-11-27T16:44:45+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "sspai",
@@ -794,13 +794,13 @@
    "lang": "zh-CN",
    "per_round": 5,
    "pinned": false,
-   "read": 4,
+   "read": 7,
    "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:43+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:45+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -813,14 +813,14 @@
    "lang": "en",
    "per_round": 10,
    "pinned": false,
-   "read": 10,
-   "used": 2,
+   "read": 19,
+   "used": 7,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:43+08:00",
+   "last_fetched_at": "2026-11-27T16:44:45+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "new_sciencealert_com",
@@ -828,6 +828,25 @@
    "note": "2026-11-26 自動進主線；網站 https://www.sciencealert.com",
    "section": "共用",
    "url": "https://www.sciencealert.com/feed/gn/",
+   "method": "rss",
+   "lang": "en-US",
+   "per_round": 10,
+   "pinned": false,
+   "read": 10,
+   "used": 0,
+   "ok": true,
+   "error": null,
+   "error_since": null,
+   "last_fetched_at": "2026-11-27T16:44:46+08:00",
+   "rounds_without_pick": 1,
+   "last_pick": null
+  },
+  {
+   "id": "new_nypost_com",
+   "name": "New York Post",
+   "note": "2026-11-27 自動進主線；網站 https://nypost.com",
+   "section": "共用",
+   "url": "https://nypost.com/feed/",
    "method": "rss",
    "lang": "en-US",
    "per_round": 10,
@@ -851,13 +870,13 @@
    "lang": "zh-TW",
    "per_round": 20,
    "pinned": false,
-   "read": 2,
-   "used": 2,
+   "read": 0,
+   "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:44+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:46+08:00",
+   "rounds_without_pick": 2,
    "last_pick": "2026-11-26"
   },
   {
@@ -870,14 +889,14 @@
    "lang": "zh-TW",
    "per_round": 20,
    "pinned": false,
-   "read": 0,
-   "used": 0,
+   "read": 3,
+   "used": 3,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:44+08:00",
-   "rounds_without_pick": 2,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:46+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "ptt_news",
@@ -889,13 +908,13 @@
    "lang": "zh-TW",
    "per_round": 15,
    "pinned": false,
-   "read": 22,
-   "used": 9,
+   "read": 29,
+   "used": 6,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:44+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:46+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -908,14 +927,14 @@
    "lang": "zh-TW",
    "per_round": 20,
    "pinned": true,
-   "read": 0,
-   "used": 0,
+   "read": 1,
+   "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:44+08:00",
-   "rounds_without_pick": 2,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:46+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "cna_disaster",
@@ -932,8 +951,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:44+08:00",
-   "rounds_without_pick": 2,
+   "last_fetched_at": "2026-11-27T16:44:46+08:00",
+   "rounds_without_pick": 3,
    "last_pick": "2026-11-26"
   },
   {
@@ -951,8 +970,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:45+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:46+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -966,13 +985,13 @@
    "per_round": 40,
    "pinned": false,
    "read": 80,
-   "used": 14,
+   "used": 12,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:45+08:00",
+   "last_fetched_at": "2026-11-27T16:44:46+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "v2ex",
@@ -989,8 +1008,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:45+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:47+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -1003,14 +1022,14 @@
    "lang": "zh-TW",
    "per_round": 15,
    "pinned": false,
-   "read": 9,
-   "used": 3,
+   "read": 17,
+   "used": 5,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:45+08:00",
+   "last_fetched_at": "2026-11-27T16:44:47+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "guardian_china",
@@ -1022,14 +1041,14 @@
    "lang": "en",
    "per_round": 20,
    "pinned": false,
-   "read": 0,
-   "used": 0,
+   "read": 2,
+   "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:45+08:00",
-   "rounds_without_pick": 2,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:47+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "nyt_cn",
@@ -1041,14 +1060,14 @@
    "lang": "zh-CN",
    "per_round": 15,
    "pinned": false,
-   "read": 7,
-   "used": 4,
+   "read": 14,
+   "used": 6,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:45+08:00",
+   "last_fetched_at": "2026-11-27T16:44:47+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "rfi_cn",
@@ -1060,14 +1079,14 @@
    "lang": "zh-CN",
    "per_round": 20,
    "pinned": false,
-   "read": 20,
-   "used": 17,
+   "read": 40,
+   "used": 27,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:45+08:00",
+   "last_fetched_at": "2026-11-27T16:44:47+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "dw_cn",
@@ -1079,14 +1098,14 @@
    "lang": "zh-CN",
    "per_round": 15,
    "pinned": false,
-   "read": 4,
-   "used": 3,
+   "read": 10,
+   "used": 7,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:45+08:00",
+   "last_fetched_at": "2026-11-27T16:44:47+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "guardian_us_politics",
@@ -1099,13 +1118,13 @@
    "per_round": 20,
    "pinned": false,
    "read": 5,
-   "used": 1,
+   "used": 2,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:45+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:48+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "politico",
@@ -1117,13 +1136,13 @@
    "lang": "en",
    "per_round": 15,
    "pinned": false,
-   "read": 3,
+   "read": 4,
    "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:45+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:48+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -1136,14 +1155,14 @@
    "lang": "en",
    "per_round": 15,
    "pinned": false,
-   "read": 10,
-   "used": 1,
+   "read": 20,
+   "used": 5,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:46+08:00",
+   "last_fetched_at": "2026-11-27T16:44:48+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "whitehouse",
@@ -1160,8 +1179,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:46+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:48+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -1174,14 +1193,14 @@
    "lang": "en",
    "per_round": 15,
    "pinned": false,
-   "read": 12,
-   "used": 5,
+   "read": 27,
+   "used": 12,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:46+08:00",
+   "last_fetched_at": "2026-11-27T16:44:48+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "guardian_society",
@@ -1193,14 +1212,14 @@
    "lang": "en",
    "per_round": 20,
    "pinned": false,
-   "read": 14,
-   "used": 1,
+   "read": 21,
+   "used": 2,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:46+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:48+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_gdacs",
@@ -1217,8 +1236,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -1236,8 +1255,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -1255,8 +1274,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:46+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:48+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -1274,8 +1293,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:46+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:48+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -1289,13 +1308,13 @@
    "per_round": 20,
    "pinned": false,
    "read": 31,
-   "used": 14,
+   "used": 10,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:46+08:00",
+   "last_fetched_at": "2026-11-27T16:44:48+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "udn_money_industry",
@@ -1308,13 +1327,13 @@
    "per_round": 20,
    "pinned": false,
    "read": 40,
-   "used": 8,
+   "used": 11,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:46+08:00",
+   "last_fetched_at": "2026-11-27T16:44:48+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "cnyes_headline",
@@ -1327,13 +1346,13 @@
    "per_round": 20,
    "pinned": false,
    "read": 40,
-   "used": 17,
+   "used": 15,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:46+08:00",
+   "last_fetched_at": "2026-11-27T16:44:49+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "cnyes_tw_stock",
@@ -1346,13 +1365,13 @@
    "per_round": 20,
    "pinned": false,
    "read": 36,
-   "used": 12,
+   "used": 10,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:46+08:00",
+   "last_fetched_at": "2026-11-27T16:44:49+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "cna_finance",
@@ -1365,13 +1384,13 @@
    "per_round": 15,
    "pinned": false,
    "read": 24,
-   "used": 11,
+   "used": 6,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:46+08:00",
+   "last_fetched_at": "2026-11-27T16:44:49+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_bbc_business",
@@ -1383,14 +1402,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 18,
-   "used": 3,
+   "read": 25,
+   "used": 5,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_cnbc",
@@ -1402,14 +1421,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 32,
-   "used": 15,
+   "read": 27,
+   "used": 11,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_ft",
@@ -1421,14 +1440,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 13,
-   "used": 4,
+   "read": 12,
+   "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "fed_monetary",
@@ -1445,8 +1464,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:46+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:49+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -1459,14 +1478,14 @@
    "lang": "en",
    "per_round": 20,
    "pinned": false,
-   "read": 20,
-   "used": 4,
+   "read": 40,
+   "used": 6,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:46+08:00",
+   "last_fetched_at": "2026-11-27T16:44:49+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "fortune",
@@ -1478,13 +1497,13 @@
    "lang": "en",
    "per_round": 10,
    "pinned": false,
-   "read": 9,
+   "read": 17,
    "used": 3,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:46+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:49+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -1497,14 +1516,14 @@
    "lang": "zh-CN",
    "per_round": 15,
    "pinned": false,
-   "read": 15,
-   "used": 0,
+   "read": 30,
+   "used": 2,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:46+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": null
+   "last_fetched_at": "2026-11-27T16:44:49+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "aihot",
@@ -1516,14 +1535,14 @@
    "lang": "zh-CN",
    "per_round": 15,
    "pinned": false,
-   "read": 9,
-   "used": 3,
+   "read": 6,
+   "used": 2,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:46+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:49+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "tldr_ai",
@@ -1536,13 +1555,13 @@
    "per_round": 15,
    "pinned": false,
    "read": 2,
-   "used": 0,
+   "used": 4,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:46+08:00",
-   "rounds_without_pick": 2,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:49+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "import_ai",
@@ -1559,8 +1578,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:47+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:49+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -1573,13 +1592,13 @@
    "lang": "en",
    "per_round": 15,
    "pinned": false,
-   "read": 1,
-   "used": 5,
+   "read": 0,
+   "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:47+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:49+08:00",
+   "rounds_without_pick": 2,
    "last_pick": "2026-11-26"
   },
   {
@@ -1592,14 +1611,14 @@
    "lang": "en",
    "per_round": 15,
    "pinned": false,
-   "read": 21,
-   "used": 2,
+   "read": 25,
+   "used": 3,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:47+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:49+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "nl_bensbites",
@@ -1616,8 +1635,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:47+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:50+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -1635,8 +1654,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:47+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:50+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -1654,8 +1673,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:47+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:50+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -1673,8 +1692,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:47+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:50+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -1692,8 +1711,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:47+08:00",
-   "rounds_without_pick": 2,
+   "last_fetched_at": "2026-11-27T16:44:50+08:00",
+   "rounds_without_pick": 3,
    "last_pick": "2026-11-26"
   },
   {
@@ -1711,8 +1730,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:47+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:50+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -1725,13 +1744,13 @@
    "lang": "en",
    "per_round": 3,
    "pinned": false,
-   "read": 1,
+   "read": 2,
    "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:48+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:50+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -1744,14 +1763,14 @@
    "lang": "en",
    "per_round": 20,
    "pinned": false,
-   "read": 40,
-   "used": 7,
+   "read": 36,
+   "used": 8,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:48+08:00",
+   "last_fetched_at": "2026-11-27T16:44:51+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "hn_front",
@@ -1764,13 +1783,13 @@
    "per_round": 20,
    "pinned": false,
    "read": 31,
-   "used": 7,
+   "used": 4,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:48+08:00",
+   "last_fetched_at": "2026-11-27T16:44:51+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "arstechnica",
@@ -1782,13 +1801,13 @@
    "lang": "en",
    "per_round": 20,
    "pinned": false,
-   "read": 9,
-   "used": 2,
+   "read": 4,
+   "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:48+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:51+08:00",
+   "rounds_without_pick": 2,
    "last_pick": "2026-11-26"
   },
   {
@@ -1801,14 +1820,14 @@
    "lang": "en",
    "per_round": 20,
    "pinned": false,
-   "read": 8,
+   "read": 7,
    "used": 3,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:48+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:51+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "technews_tw",
@@ -1821,13 +1840,13 @@
    "per_round": 20,
    "pinned": false,
    "read": 40,
-   "used": 16,
+   "used": 17,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:48+08:00",
+   "last_fetched_at": "2026-11-27T16:44:51+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "icsda",
@@ -1840,13 +1859,13 @@
    "per_round": 20,
    "pinned": false,
    "read": 10,
-   "used": 6,
+   "used": 9,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:48+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:51+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "bleepingcomputer",
@@ -1858,14 +1877,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 9,
-   "used": 5,
+   "read": 6,
+   "used": 3,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:48+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:51+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "thehackernews",
@@ -1877,14 +1896,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 6,
-   "used": 4,
+   "read": 8,
+   "used": 3,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:48+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:52+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "krebs",
@@ -1901,8 +1920,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:48+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:52+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -1915,14 +1934,14 @@
    "lang": "zh-TW",
    "per_round": 30,
    "pinned": false,
-   "read": 9,
-   "used": 7,
+   "read": 17,
+   "used": 14,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:48+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:52+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "hn_security",
@@ -1934,13 +1953,13 @@
    "lang": "en",
    "per_round": 15,
    "pinned": false,
-   "read": 6,
+   "read": 4,
    "used": 2,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:48+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:52+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -1953,13 +1972,13 @@
    "lang": "en",
    "per_round": 10,
    "pinned": false,
-   "read": 6,
+   "read": 3,
    "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:48+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:52+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -1977,8 +1996,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:49+08:00",
-   "rounds_without_pick": 2,
+   "last_fetched_at": "2026-11-27T16:44:52+08:00",
+   "rounds_without_pick": 3,
    "last_pick": "2026-11-26"
   },
   {
@@ -1991,13 +2010,13 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 0,
+   "read": 3,
    "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 2,
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 3,
    "last_pick": "2026-11-26"
   },
   {
@@ -2010,14 +2029,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 4,
+   "read": 8,
    "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "openai_news",
@@ -2034,8 +2053,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:49+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:53+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -2053,8 +2072,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:49+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:53+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -2072,8 +2091,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:49+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:53+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -2086,13 +2105,13 @@
    "lang": "en",
    "per_round": 5,
    "pinned": false,
-   "read": 3,
+   "read": 4,
    "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:49+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:53+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -2105,13 +2124,13 @@
    "lang": "en",
    "per_round": 10,
    "pinned": false,
-   "read": 3,
+   "read": 4,
    "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:49+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:53+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -2124,13 +2143,13 @@
    "lang": "en",
    "per_round": 10,
    "pinned": false,
-   "read": 3,
+   "read": 5,
    "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:49+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:53+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -2143,14 +2162,14 @@
    "lang": "en",
    "per_round": 15,
    "pinned": false,
-   "read": 15,
-   "used": 12,
+   "read": 30,
+   "used": 18,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:50+08:00",
+   "last_fetched_at": "2026-11-27T16:44:54+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "techcrunch",
@@ -2162,14 +2181,14 @@
    "lang": "en",
    "per_round": 20,
    "pinned": false,
-   "read": 17,
-   "used": 14,
+   "read": 22,
+   "used": 15,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:50+08:00",
+   "last_fetched_at": "2026-11-27T16:44:54+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "media404",
@@ -2181,13 +2200,13 @@
    "lang": "en",
    "per_round": 10,
    "pinned": false,
-   "read": 5,
+   "read": 8,
    "used": 3,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:50+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:54+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -2205,8 +2224,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:50+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:54+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -2219,14 +2238,14 @@
    "lang": "zh-TW",
    "per_round": 15,
    "pinned": false,
-   "read": 6,
-   "used": 3,
+   "read": 8,
+   "used": 5,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:50+08:00",
+   "last_fetched_at": "2026-11-27T16:44:54+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "cisa_advisories",
@@ -2243,8 +2262,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:50+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:54+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -2262,8 +2281,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:50+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:54+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -2281,8 +2300,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:50+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:55+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -2300,8 +2319,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:50+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:55+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -2319,8 +2338,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:51+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:55+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -2333,14 +2352,14 @@
    "lang": "en",
    "per_round": 15,
    "pinned": false,
-   "read": 15,
-   "used": 10,
+   "read": 30,
+   "used": 15,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:51+08:00",
+   "last_fetched_at": "2026-11-27T16:44:55+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "slashdot",
@@ -2352,14 +2371,14 @@
    "lang": "en",
    "per_round": 10,
    "pinned": false,
-   "read": 10,
-   "used": 9,
+   "read": 18,
+   "used": 16,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:51+08:00",
+   "last_fetched_at": "2026-11-27T16:44:55+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "macrumors",
@@ -2371,13 +2390,13 @@
    "lang": "en",
    "per_round": 10,
    "pinned": false,
-   "read": 10,
+   "read": 20,
    "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:51+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:55+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -2390,13 +2409,13 @@
    "lang": "zh-CN",
    "per_round": 20,
    "pinned": false,
-   "read": 20,
+   "read": 40,
    "used": 4,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:51+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:55+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -2414,8 +2433,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:51+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:55+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -2428,14 +2447,14 @@
    "lang": "en",
    "per_round": 10,
    "pinned": false,
-   "read": 10,
-   "used": 5,
+   "read": 17,
+   "used": 9,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:51+08:00",
+   "last_fetched_at": "2026-11-27T16:44:55+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "darkreading",
@@ -2452,8 +2471,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:51+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:55+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -2471,8 +2490,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:51+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:56+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -2490,8 +2509,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:51+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:56+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -2509,8 +2528,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:51+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:56+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -2528,8 +2547,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:52+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:56+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -2547,8 +2566,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:52+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:56+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -2561,14 +2580,14 @@
    "lang": "",
    "per_round": 10,
    "pinned": false,
-   "read": 0,
-   "used": 0,
-   "ok": null,
+   "read": 10,
+   "used": 5,
+   "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": null,
+   "last_fetched_at": "2026-11-27T16:44:56+08:00",
    "rounds_without_pick": 0,
-   "last_pick": null
+   "last_pick": "2026-11-27"
   },
   {
    "id": "new_itpro_com",
@@ -2578,6 +2597,25 @@
    "url": "https://www.itpro.com/feeds.xml",
    "method": "rss",
    "lang": "en",
+   "per_round": 10,
+   "pinned": false,
+   "read": 10,
+   "used": 3,
+   "ok": true,
+   "error": null,
+   "error_since": null,
+   "last_fetched_at": "2026-11-27T16:44:56+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
+  },
+  {
+   "id": "new_defensenews_com",
+   "name": "Defense News",
+   "note": "2026-11-27 自動進主線；網站 https://www.defensenews.com",
+   "section": "領域：科技",
+   "url": "https://www.defensenews.com/feed/",
+   "method": "rss",
+   "lang": "en-US",
    "per_round": 10,
    "pinned": false,
    "read": 0,
@@ -2599,13 +2637,13 @@
    "lang": "zh-TW",
    "per_round": 10,
    "pinned": false,
-   "read": 2,
+   "read": 3,
    "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:52+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:56+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -2618,13 +2656,13 @@
    "lang": "en",
    "per_round": 20,
    "pinned": false,
-   "read": 1,
+   "read": 0,
    "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:52+08:00",
-   "rounds_without_pick": 2,
+   "last_fetched_at": "2026-11-27T16:44:56+08:00",
+   "rounds_without_pick": 3,
    "last_pick": "2026-11-26"
   },
   {
@@ -2642,9 +2680,9 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:52+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:57+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "medicalxpress",
@@ -2661,9 +2699,9 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:52+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:57+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "sciencedaily_health",
@@ -2675,13 +2713,13 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 2,
+   "read": 4,
    "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:52+08:00",
-   "rounds_without_pick": 2,
+   "last_fetched_at": "2026-11-27T16:44:57+08:00",
+   "rounds_without_pick": 3,
    "last_pick": "2026-11-26"
   },
   {
@@ -2694,14 +2732,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 5,
-   "used": 0,
+   "read": 12,
+   "used": 2,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:53+08:00",
-   "rounds_without_pick": 2,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:57+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "npr_health",
@@ -2713,14 +2751,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 0,
-   "used": 0,
+   "read": 1,
+   "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:53+08:00",
-   "rounds_without_pick": 2,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:57+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "mongabay",
@@ -2732,13 +2770,13 @@
    "lang": "en",
    "per_round": 20,
    "pinned": false,
-   "read": 10,
-   "used": 1,
+   "read": 11,
+   "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:53+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:58+08:00",
+   "rounds_without_pick": 2,
    "last_pick": "2026-11-26"
   },
   {
@@ -2752,13 +2790,13 @@
    "per_round": 30,
    "pinned": false,
    "read": 17,
-   "used": 6,
+   "used": 3,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_bbc_health",
@@ -2770,14 +2808,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 5,
-   "used": 0,
+   "read": 16,
+   "used": 2,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 2,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pool_guardian_environment",
@@ -2789,13 +2827,13 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 2,
-   "used": 1,
+   "read": 9,
+   "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 2,
    "last_pick": "2026-11-26"
   },
   {
@@ -2813,8 +2851,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -2827,13 +2865,13 @@
    "lang": "en",
    "per_round": 10,
    "pinned": false,
-   "read": 7,
+   "read": 9,
    "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:53+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:58+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -2846,13 +2884,13 @@
    "lang": "en",
    "per_round": 10,
    "pinned": false,
-   "read": 6,
+   "read": 7,
    "used": 3,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:53+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:58+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -2865,13 +2903,13 @@
    "lang": "en",
    "per_round": 8,
    "pinned": false,
-   "read": 5,
+   "read": 10,
    "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:53+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:44:58+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -2884,14 +2922,14 @@
    "lang": "zh-TW",
    "per_round": 15,
    "pinned": false,
-   "read": 3,
-   "used": 0,
+   "read": 6,
+   "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:53+08:00",
-   "rounds_without_pick": 2,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:58+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "guardian_culture",
@@ -2903,14 +2941,14 @@
    "lang": "en",
    "per_round": 10,
    "pinned": false,
-   "read": 10,
+   "read": 15,
    "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:53+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:58+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "cna_stars",
@@ -2922,13 +2960,13 @@
    "lang": "zh-TW",
    "per_round": 15,
    "pinned": false,
-   "read": 4,
-   "used": 1,
+   "read": 2,
+   "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:53+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:58+08:00",
+   "rounds_without_pick": 2,
    "last_pick": "2026-11-26"
   },
   {
@@ -2942,12 +2980,12 @@
    "per_round": 10,
    "pinned": false,
    "read": 11,
-   "used": 3,
+   "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:53+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:58+08:00",
+   "rounds_without_pick": 2,
    "last_pick": "2026-11-26"
   },
   {
@@ -2960,14 +2998,14 @@
    "lang": "zh-TW",
    "per_round": 10,
    "pinned": false,
-   "read": 9,
+   "read": 11,
    "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:54+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:58+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "bbc_sport",
@@ -2980,12 +3018,12 @@
    "per_round": 10,
    "pinned": false,
    "read": 14,
-   "used": 2,
+   "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:54+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:44:58+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -2999,13 +3037,13 @@
    "per_round": 30,
    "pinned": false,
    "read": 8,
-   "used": 2,
+   "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:42+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:43+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "lifehacker",
@@ -3017,13 +3055,13 @@
    "lang": "en",
    "per_round": 10,
    "pinned": false,
-   "read": 10,
+   "read": 20,
    "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:54+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:59+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -3041,8 +3079,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:54+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:59+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -3060,9 +3098,9 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:54+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:59+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pocketgamerbiz",
@@ -3074,14 +3112,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 5,
-   "used": 0,
+   "read": 8,
+   "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:54+08:00",
-   "rounds_without_pick": 2,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:59+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "mobilegamer",
@@ -3094,12 +3132,12 @@
    "per_round": 30,
    "pinned": false,
    "read": 1,
-   "used": 1,
+   "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:54+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:44:59+08:00",
+   "rounds_without_pick": 2,
    "last_pick": "2026-11-26"
   },
   {
@@ -3112,14 +3150,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 1,
-   "used": 0,
+   "read": 7,
+   "used": 3,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:55+08:00",
-   "rounds_without_pick": 2,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:59+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "80lv",
@@ -3131,14 +3169,14 @@
    "lang": "en",
    "per_round": 30,
    "pinned": false,
-   "read": 8,
-   "used": 0,
+   "read": 13,
+   "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:55+08:00",
-   "rounds_without_pick": 2,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:44:59+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "cocos_forum",
@@ -3151,13 +3189,13 @@
    "per_round": 60,
    "pinned": false,
    "read": 74,
-   "used": 1,
+   "used": 2,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:55+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:45:00+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pixijs",
@@ -3174,8 +3212,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:55+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:45:00+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -3188,13 +3226,13 @@
    "lang": "en",
    "per_round": 40,
    "pinned": false,
-   "read": 0,
+   "read": 1,
    "used": 0,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:55+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:45:00+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -3212,8 +3250,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:55+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:45:00+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -3231,8 +3269,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:55+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:45:00+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -3250,8 +3288,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:55+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:45:00+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -3264,14 +3302,14 @@
    "lang": "en",
    "per_round": 40,
    "pinned": false,
-   "read": 0,
-   "used": 0,
+   "read": 1,
+   "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:55+08:00",
-   "rounds_without_pick": 2,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:45:01+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "gamedeveloper",
@@ -3288,8 +3326,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:56+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:45:01+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -3307,8 +3345,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:56+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:45:01+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -3321,14 +3359,14 @@
    "lang": "en",
    "per_round": 45,
    "pinned": false,
-   "read": 6,
-   "used": 3,
+   "read": 19,
+   "used": 7,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:56+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:45:01+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "igb",
@@ -3340,14 +3378,14 @@
    "lang": "en",
    "per_round": 45,
    "pinned": false,
-   "read": 4,
-   "used": 2,
+   "read": 10,
+   "used": 3,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:56+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:45:01+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "ggrasia",
@@ -3359,14 +3397,14 @@
    "lang": "en",
    "per_round": 45,
    "pinned": false,
-   "read": 7,
-   "used": 3,
+   "read": 10,
+   "used": 2,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:56+08:00",
+   "last_fetched_at": "2026-11-27T16:45:02+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "agbrief",
@@ -3378,14 +3416,14 @@
    "lang": "en",
    "per_round": 45,
    "pinned": false,
-   "read": 1,
-   "used": 1,
+   "read": 2,
+   "used": 2,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:57+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:45:02+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "intergame",
@@ -3397,14 +3435,14 @@
    "lang": "en",
    "per_round": 45,
    "pinned": false,
-   "read": 5,
-   "used": 0,
+   "read": 25,
+   "used": 3,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:57+08:00",
-   "rounds_without_pick": 2,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:45:02+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "casinoorg",
@@ -3416,14 +3454,14 @@
    "lang": "en",
    "per_round": 45,
    "pinned": false,
-   "read": 12,
-   "used": 3,
+   "read": 13,
+   "used": 7,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:57+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:45:02+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "gnews_macau_zh",
@@ -3435,13 +3473,13 @@
    "lang": "zh-TW",
    "per_round": 5,
    "pinned": false,
-   "read": 1,
-   "used": 1,
-   "ok": true,
-   "error": null,
-   "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:57+08:00",
-   "rounds_without_pick": 1,
+   "read": 0,
+   "used": 0,
+   "ok": false,
+   "error": "HTTP 429",
+   "error_since": "2026-11-27T16:45:02+08:00",
+   "last_fetched_at": "2026-11-27T16:45:02+08:00",
+   "rounds_without_pick": 2,
    "last_pick": "2026-11-26"
   },
   {
@@ -3459,8 +3497,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:57+08:00",
-   "rounds_without_pick": 2,
+   "last_fetched_at": "2026-11-27T16:45:03+08:00",
+   "rounds_without_pick": 3,
    "last_pick": "2026-11-26"
   },
   {
@@ -3473,14 +3511,14 @@
    "lang": "en",
    "per_round": 3,
    "pinned": false,
-   "read": 0,
-   "used": 0,
+   "read": 1,
+   "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:57+08:00",
-   "rounds_without_pick": 3,
-   "last_pick": null
+   "last_fetched_at": "2026-11-27T16:45:03+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "scott_young",
@@ -3497,8 +3535,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:58+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:45:03+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -3516,8 +3554,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:58+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:45:03+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -3535,8 +3573,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:58+08:00",
-   "rounds_without_pick": 3,
+   "last_fetched_at": "2026-11-27T16:45:03+08:00",
+   "rounds_without_pick": 4,
    "last_pick": null
   },
   {
@@ -3554,9 +3592,9 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:58+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": "2026-11-26"
+   "last_fetched_at": "2026-11-27T16:45:04+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "hn_reading",
@@ -3568,13 +3606,13 @@
    "lang": "en",
    "per_round": 20,
    "pinned": false,
-   "read": 3,
+   "read": 2,
    "used": 2,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:58+08:00",
-   "rounds_without_pick": 0,
+   "last_fetched_at": "2026-11-27T16:45:04+08:00",
+   "rounds_without_pick": 1,
    "last_pick": "2026-11-26"
   },
   {
@@ -3587,14 +3625,14 @@
    "lang": "en",
    "per_round": 8,
    "pinned": false,
-   "read": 8,
-   "used": 3,
+   "read": 13,
+   "used": 6,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:58+08:00",
+   "last_fetched_at": "2026-11-27T16:45:04+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "longreads",
@@ -3606,14 +3644,14 @@
    "lang": "en",
    "per_round": 3,
    "pinned": false,
-   "read": 1,
-   "used": 1,
+   "read": 4,
+   "used": 2,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:59+08:00",
+   "last_fetched_at": "2026-11-27T16:45:05+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "ruanyifeng",
@@ -3625,14 +3663,14 @@
    "lang": "zh-CN",
    "per_round": 3,
    "pinned": false,
-   "read": 0,
-   "used": 0,
+   "read": 1,
+   "used": 1,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:59+08:00",
-   "rounds_without_pick": 1,
-   "last_pick": null
+   "last_fetched_at": "2026-11-27T16:45:05+08:00",
+   "rounds_without_pick": 0,
+   "last_pick": "2026-11-27"
   },
   {
    "id": "pragmatic_engineer",
@@ -3649,8 +3687,8 @@
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:59+08:00",
-   "rounds_without_pick": 1,
+   "last_fetched_at": "2026-11-27T16:45:05+08:00",
+   "rounds_without_pick": 2,
    "last_pick": null
   },
   {
@@ -3663,19 +3701,19 @@
    "lang": "en",
    "per_round": 5,
    "pinned": false,
-   "read": 5,
-   "used": 4,
+   "read": 7,
+   "used": 5,
    "ok": true,
    "error": null,
    "error_since": null,
-   "last_fetched_at": "2026-11-26T17:08:59+08:00",
+   "last_fetched_at": "2026-11-27T16:45:05+08:00",
    "rounds_without_pick": 0,
-   "last_pick": "2026-11-26"
+   "last_pick": "2026-11-27"
   },
   {
    "id": "new_neowin_net",
    "name": "Neowin",
-   "note": "發現 1 次；卡 @359；檢查未過 1 次：網站抓不到（HTTP 403）",
+   "note": "發現 1 次；卡 @359；檢查未過 2 次：網站抓不到（HTTP 403）",
    "section": "待檢",
    "url": "https://www.neowin.net",
    "method": "rss",
@@ -3692,28 +3730,9 @@
    "last_pick": null
   },
   {
-   "id": "new_defensenews_com",
-   "name": "Defense News",
-   "note": "發現 1 次；卡 @285",
-   "section": "待檢",
-   "url": "https://www.defensenews.com",
-   "method": "rss",
-   "lang": "",
-   "per_round": 10,
-   "pinned": false,
-   "read": 0,
-   "used": 0,
-   "ok": null,
-   "error": null,
-   "error_since": null,
-   "last_fetched_at": null,
-   "rounds_without_pick": 0,
-   "last_pick": null
-  },
-  {
    "id": "new_telegraph_co_uk",
    "name": "The Telegraph",
-   "note": "發現 1 次；卡 @563",
+   "note": "發現 1 次；卡 @563；檢查未過 1 次：網站抓不到（HTTP 402）",
    "section": "待檢",
    "url": "https://www.telegraph.co.uk",
    "method": "rss",
@@ -3732,7 +3751,7 @@
   {
    "id": "new_nextgov_com",
    "name": "NextGov",
-   "note": "發現 1 次；卡 @381",
+   "note": "發現 1 次；卡 @381；檢查未過 1 次：首頁找不到 feed（<link rel=\"alternate\">）",
    "section": "待檢",
    "url": "https://www.nextgov.com",
    "method": "rss",
@@ -3751,7 +3770,7 @@
   {
    "id": "new_cnn_com",
    "name": "CNN",
-   "note": "發現 1 次；卡 @502",
+   "note": "發現 1 次；卡 @502；檢查未過 1 次：首頁找不到 feed（<link rel=\"alternate\">）",
    "section": "待檢",
    "url": "https://www.cnn.com",
    "method": "rss",
@@ -3770,7 +3789,7 @@
   {
    "id": "new_stcn_com",
    "name": "證券時報",
-   "note": "發現 1 次；卡 @266",
+   "note": "發現 1 次；卡 @266；檢查未過 1 次：網站抓不到（ReadTimeout: HTTPSConnectionPool(host='203.107.63.113', port=443): Read timed out. (read timeout=15)）",
    "section": "待檢",
    "url": "https://www.stcn.com",
    "method": "rss",
@@ -3789,7 +3808,7 @@
   {
    "id": "new_cbsnews_com",
    "name": "CBS News",
-   "note": "發現 1 次；卡 2026-W48-0064",
+   "note": "發現 1 次；卡 2026-W48-0064；檢查未過 1 次：feed 抓不到（HTTP 404）",
    "section": "待檢",
    "url": "https://www.cbsnews.com",
    "method": "rss",
@@ -3806,28 +3825,9 @@
    "last_pick": null
   },
   {
-   "id": "new_nypost_com",
-   "name": "New York Post",
-   "note": "發現 1 次；卡 2026-W48-0064",
-   "section": "待檢",
-   "url": "https://nypost.com",
-   "method": "rss",
-   "lang": "",
-   "per_round": 10,
-   "pinned": false,
-   "read": 0,
-   "used": 0,
-   "ok": null,
-   "error": null,
-   "error_since": null,
-   "last_fetched_at": null,
-   "rounds_without_pick": 0,
-   "last_pick": null
-  },
-  {
    "id": "new_iowacapitaldispatch_com",
    "name": "Iowa Capital Dispatch",
-   "note": "發現 1 次；卡 2026-W48-0130",
+   "note": "發現 1 次；卡 2026-W48-0130；檢查未過 1 次：網站抓不到（HTTP 403）",
    "section": "待檢",
    "url": "https://iowacapitaldispatch.com",
    "method": "rss",
