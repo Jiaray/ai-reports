@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0576",
+ "title": "小鼠實驗：呼吸較低濃度氧氣，讓罹患致命運動神經退化遺傳疾病的小鼠壽命延長為三倍",
+ "line": "Gladstone 研究所發現缺陷蛋白讓粒線體無法消耗氧氣，組織累積有害氧量；尚未在人體證實",
+ "born_at": "2026-11-27T20:54:50+08:00",
+ "first_reported_at": "2026-11-27T17:38:19+08:00",
+ "updated_at": "2026-11-27T20:54:50+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療",
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "Gladstone Institutes"
+  ],
+  "person": [
+   "Isha Jain"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "低氧療法",
+   "粒線體疾病",
+   "3-MGA",
+   "Leigh 症候群"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "ScienceDaily 刊出美國 Gladstone 研究所的新聞稿：氧氣是生命所需，但在某些神經與粒線體疾病中可能變得有毒。研究人員發現，缺陷蛋白會破壞粒線體消耗氧氣的能力，讓有害濃度的氧氣在組織中累積；帶有導致運動神經元退化遺傳疾病的小鼠，呼吸含氧量較低的空氣後，壽命延長為三倍，腦部健康也改善。腦中氧氣過量已被連結到罕見且常致命的兒童疾病 3-MGA、最常見的兒童粒線體疾病 Leigh 症候群、帕金森氏症與早衰。研究所研究員 Isha Jain 過去十年研究氧氣濃度與健康的關係，曾探討高海拔低氧環境對 Leigh 症候群、糖尿病與實體腫瘤的好處；這次團隊想確認降低氧氣是否也能幫助其他疾病。新聞稿稱這可能是治療神經疾病的潛在新方向。這是動物實驗，尚未在人體證實；原文節錄沒有交代期刊與小鼠樣本數。",
+ "dive_html": "「低氧療法」與一般直覺相反，價值在於為目前幾乎無藥可治的罕見兒童粒線體疾病提供新的機轉方向。但從小鼠到人體還有很長距離：長期低氧對人體其他器官的影響、如何安全控制氧濃度都是未解問題，一般讀者不應自行嘗試任何降低吸氧的做法。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "ScienceDaily Health",
+   "title": "Breathing less oxygen tripled lifespan in mice with a deadly brain disorder",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261125045304.htm",
+   "time": "2026-11-27T17:38:19+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "ScienceDaily",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

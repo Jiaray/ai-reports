@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0577",
+ "title": "刺胳針公衛期刊分析逾 420 萬人：休閒運動與失智風險低 24% 相關，工作上的體力勞動則與風險高 20% 相關",
+ "line": "南加大團隊首度把心血管研究的「身體活動矛盾」套用到失智症",
+ "born_at": "2026-11-27T20:54:50+08:00",
+ "first_reported_at": "2026-11-27T16:45:06+08:00",
+ "updated_at": "2026-11-27T20:54:50+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療",
+   "勞動"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "南加州大學",
+   "The Lancet Public Health"
+  ],
+  "person": [
+   "David Raichlen"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "失智症",
+   "身體活動矛盾",
+   "體力勞動"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "南加州大學（USC）研究發表於《刺胳針公共衛生》（The Lancet Public Health），分析涉及逾 420 萬人的資料，發現走路、騎車、跑步、游泳與運動等休閒活動，與失智風險降低 24% 相關；工作上身體活動量較高的人，失智風險反而高 20%。研究由 USC 生物科學與人類學教授 David Raichlen 主持，是首次系統性檢驗「身體活動矛盾」是否也適用於失智症；這個矛盾在心血管研究中已確立，指體力勞動不一定帶來與休閒運動相同的健康好處，甚至可能與較高的疾病風險相關。研究結論是，身體活動的情境可能和活動量一樣重要。新聞稿節錄沒有交代納入研究的數量與分析方法細節；這是相關性分析，不能推論體力勞動會導致失智。",
+ "dive_html": "結果提醒「多動就好」的建議過於簡化：工作上的勞動常伴隨疲勞、壓力、休息不足，也與教育程度、收入等社經因素重疊，這些都可能是真正的風險來源。對一般讀者的意義是休閒運動的保護關聯相當一致；對職場健康政策而言，體力勞動者的失智風險值得更多關注，但目前證據還不足以說明原因。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "ScienceDaily Health",
+   "title": "One type of physical activity is linked to a 20% higher dementia risk",
+   "url": "https://www.sciencedaily.com/releases/2026/11/261125045246.htm",
+   "time": "2026-11-27T16:45:06+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "ScienceDaily",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

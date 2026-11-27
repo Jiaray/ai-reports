@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0571",
+ "title": "香港開往深圳的客輪「新迅龍二號」疑舵機故障撞上青衣浮塢，至少 22 人受傷、2 人危殆",
+ "line": "載 35 名乘客與 11 名船員從上環港澳碼頭出發，母公司珠江船務今年第二起碰撞",
+ "born_at": "2026-11-27T20:54:50+08:00",
+ "first_reported_at": "2026-11-27T17:18:00+08:00",
+ "updated_at": "2026-11-27T20:54:50+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "港澳",
+   "中國大陸"
+  ],
+  "country": [
+   "HK",
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "災害與事故",
+   "交通"
+  ],
+  "event": [
+   "意外事故"
+  ],
+  "sector": [
+   "運輸與物流"
+  ],
+  "org": [
+   "香港警方",
+   "珠江船務",
+   "南華早報"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "渡輪事故",
+   "新迅龍二號"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Straits Times 引述《南華早報》，開往深圳的客輪「新迅龍二號」11 月 27 日上午 9 時從上環港澳碼頭出發，船上有 35 名乘客、11 名船員，途中撞上青衣油庫附近一座 289 公尺長的浮動乾塢。香港警方初步說 22 人受傷，其中 2 人危殆，包括 2 名中國大陸男子與 1 名男童；《南華早報》稍後在社群貼文把受傷人數更新為 24 人。消息人士說船長疑因舵機故障失去控制，「船身撞上浮塢，猛烈撞擊造成乘客受傷」。緊急部門 9 時 25 分接報，出動一艘滅火輪與 15 輛救護車，警方正在調查。報導指出，這是母公司珠江船務今年第二起碰撞事故。",
+ "dive_html": "港深跨境客輪是日常通勤與旅遊航線，同一船公司一年內兩度碰撞，會讓外界檢視其船隊維修與安全管理。目前船長「舵機故障」是匿名消息人士說法，事故原因仍待海事處與警方調查確認。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Straits Times Asia",
+   "title": "At least 22 injured after Shenzhen-bound passenger ferry crashes into dock in Hong Kong",
+   "url": "https://www.straitstimes.com/asia/east-asia/22-injured-after-shenzhen-bound-passenger-ferry-crashes-into-dock-in-hong-kong",
+   "time": "2026-11-27T17:18:00+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

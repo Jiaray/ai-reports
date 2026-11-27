@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "built_at": "2026-11-27T20:52:38+08:00",
+ "built_at": "2026-11-27T20:54:50+08:00",
  "urls": {
   "https://money.udn.com/money/story/5612/9902210": "2026-W48-0001",
   "https://www.cna.com.tw/news/afe/202611250334.aspx": "2026-W48-0001",
@@ -1676,6 +1676,29 @@
   "https://www.nature.com/articles/d41586-026-03849-8": "2026-W48-0564",
   "https://huggingface.co/papers/2611.34051": "2026-W48-0565",
   "https://huggingface.co/papers/2611.31619": "2026-W48-0566",
-  "https://huggingface.co/papers/2611.34457": "2026-W48-0567"
+  "https://huggingface.co/papers/2611.34457": "2026-W48-0567",
+  "https://www.straitstimes.com/asia/south-asia/modis-government-to-revive-plan-to-expand-indias-parliament": "2026-W48-0568",
+  "https://www.straitstimes.com/asia/indias-modi-to-revive-parliament-expansion-bill-tied-to-womens-quota-sources-say": "2026-W48-0568",
+  "https://www.dw.com/en/india-s-modi-government-calls-special-sitting-of-parliament/live-80070511?maca=en-rss-en-all-1573-xml-mrss": "2026-W48-0568",
+  "https://www.cna.com.tw/news/aopl/202611270156.aspx": "2026-W48-0569",
+  "https://www.straitstimes.com/asia/se-asia/philippine-vp-duterte-says-resignation-out-of-the-question-amid-impeachment-trial": "2026-W48-0569",
+  "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMGVTaHJ5RWM4a1NsdFcyLV9jcnprZDlVWjg0Yi1KT1ZCMDF0T3ptT25sdU4weS00UDgzOHVrX0FGM1l6bkgzQXlXSnZ1bmNzakhTUWg3LUFwNmhRdE1fUzd0dnRKYlRVdzRkLXh6T1VjeTFEQ2RXb3NXazc2RlQ3eXhQd2NWTi1CRWZ2OVJTN3Q2dDEwX2I3clJCN0tza0hoM0psTU9tMUpwZUNaT2RuT21kbGpBeGd1dHRYQjlpVHRTQ3A1YnhyNw?oc=5": "2026-W48-0569",
+  "https://www.straitstimes.com/asia/south-asia/death-toll-in-pakistan-building-collapse-rises-to-eight": "2026-W48-0570",
+  "https://www.dawn.com/news/2047440/death-toll-from-baloch-colony-building-collapse-in-karachi-rises-to-seven": "2026-W48-0570",
+  "https://www.straitstimes.com/asia/east-asia/22-injured-after-shenzhen-bound-passenger-ferry-crashes-into-dock-in-hong-kong": "2026-W48-0571",
+  "https://www.cna.com.tw/news/aopl/202611270211.aspx": "2026-W48-0572",
+  "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNWNhM3c3WEpxa095UE53ZEF2eFVxSVZLQ2kzWlFuTzFoekNXV0p1OGJITENvbjJ6REwxMWI3VXAxUExJTXBHUzRoRGVCYnY4QzBkZ2tOQlNuTnhPQ05XN2NsNl9vZ2ZaTkJIZDNQSFB5MDRPcU1tLXJXSWQ0MHNMRDcySGV3QjVxSlloeVozUXYyRElfdW9EcVk5blZMR2ktZjdQb0tkU2x5cjI1R0lr?oc=5": "2026-W48-0572",
+  "https://www.bbc.co.uk/sport/motorsport/articles/c539gd3r3mk2o": "2026-W48-0573",
+  "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQi1LclRONjUyZXFIckxacGFscWNHTng2ZmUtTjM3eE1OV1V6anlZWDU4M3lJMHJGUlZlbkFuRmxNRWNMVTdsTjJ2RDNmYTJ6ZWlidThLYjdkUUFWMUpHMUdCTXBaaV9qMjgtVDFIOWtobUd3UHZJSlBqTVBJS1B6bzlqenB6SzBMWVVnZVY5LTl0TnAxSWc?oc=5": "2026-W48-0573",
+  "https://www.politico.eu/article/asia-pacific-trade-accession-talks-uae-philippines-indonesia": "2026-W48-0574",
+  "https://finance.technews.tw/2026/11/27/middle-east-unrest-saudi-refinery-attack-surging-oil-prices": "2026-W48-0575",
+  "https://www.wsj.com/business/energy-oil/oil-prices-rise-ahead-of-opec-meeting-as-middle-east-supply-risks-persist-63fbb550?mod=rss_worldnews": "2026-W48-0575",
+  "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdndaSmMtcnZ2OU41SkZNYnNtNlU5ZnRWTFlOamJLb0x6eHRhRHJuQkNMY1oybHlpOUFkRWdncURJcUc0eGZvM2JNZUc4SGdvZG0yeTJFY0llZWJUeGtMRzQxaHFZNmZ0OS1YWFloelk4eDBVenhkQlotREpzR2F1cFgxbkZaT18zRWtGbHd2aTZENWFDMmhKaU13WnpSQkhIaUZGTDZtMFkwa2ZxUjdpTkRfTXRZMkNUcW1FM3hn?oc=5": "2026-W48-0575",
+  "https://www.sciencedaily.com/releases/2026/11/261125045304.htm": "2026-W48-0576",
+  "https://www.sciencedaily.com/releases/2026/11/261125045246.htm": "2026-W48-0577",
+  "https://www.nature.com/articles/d41586-026-03800-x": "2026-W48-0578",
+  "https://www.nature.com/articles/d41586-026-03828-z": "2026-W48-0579",
+  "https://www.theatlantic.com/ideas/2026/11/housing-yimby-college-towns/689596": "2026-W48-0580",
+  "https://www.vox.com/climate/509065/rota-cconservationmariana-crow-super-typhoon-bavi": "2026-W48-0581"
  }
 }

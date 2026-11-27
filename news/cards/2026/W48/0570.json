@@ -1,0 +1,96 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0570",
+ "title": "巴基斯坦喀拉蚩施工中大樓倒塌死亡增至 8 人、約 10 人失蹤，十多名官員因失職停職、業主遭下令逮捕",
+ "line": "俾路支聚落一棟六層施工中建物 11 月 25 日倒塌，搜救進入第三天",
+ "born_at": "2026-11-27T20:54:50+08:00",
+ "first_reported_at": "2026-11-27T16:16:23+08:00",
+ "updated_at": "2026-11-27T20:54:50+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "南亞"
+  ],
+  "country": [
+   "PK"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "災害與事故"
+  ],
+  "event": [
+   "意外事故"
+  ],
+  "sector": [
+   "營建與房地產"
+  ],
+  "org": [
+   "Rescue 1122"
+  ],
+  "person": [
+   "Hassaan Khan"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "喀拉蚩",
+   "建物倒塌"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "巴基斯坦最大城市喀拉蚩俾路支聚落（Baloch Colony）一棟施工中的六層建物 11 月 25 日倒塌，死亡人數 27 日增至 8 人，搜救進入第三天。地方緊急救援單位 Rescue 1122 發言人 Hassaan Khan 告訴法新社，25 日救出 3 具遺體與 14 名傷者，過去兩天又尋獲 5 具遺體，「約 10 人仍失蹤，搜救會持續到所有人從瓦礫中救出」。倒塌後已有十多名官員因失職停職，警方奉命逮捕建物業主，周邊數棟建物也被查封。報導指出，巴基斯坦人口逾 2.4 億，因安全標準不足與建材低劣，建物倒塌事故頻繁；人口逾 2,000 萬的喀拉蚩長期有偷工減料、違法增建與建物老化問題。",
+ "dive_html": "仍有約 10 人失蹤，死亡人數可能再上升。停職官員與逮捕業主是巴基斯坦這類事故的慣常處理，但違建與監管失靈是結構性問題，報導沒有交代這棟建物是否取得許可、是否違法加蓋，這決定了究責能否擴及審批體系。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Straits Times Asia",
+   "title": "Death toll in Pakistan building collapse rises to eight",
+   "url": "https://www.straitstimes.com/asia/south-asia/death-toll-in-pakistan-building-collapse-rises-to-eight",
+   "time": "2026-11-27T20:24:02+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Dawn",
+   "title": "Death toll from Baloch Colony building collapse in Karachi rises to seven",
+   "url": "https://www.dawn.com/news/2047440/death-toll-from-baloch-colony-building-collapse-in-karachi-rises-to-seven",
+   "time": "2026-11-27T16:16:23+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

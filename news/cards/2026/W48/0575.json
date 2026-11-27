@@ -1,0 +1,116 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0575",
+ "title": "沙烏地阿美吉贊煉油廠遭襲起火、1 人死亡，布蘭特原油升破每桶 96 美元，OPEC+ 29 日開會傳將維持產量目標",
+ "line": "聯軍指胡塞發動攻擊，伊朗稱兩艘油輪在荷莫茲海峽觸雷爆炸",
+ "born_at": "2026-11-27T20:54:50+08:00",
+ "first_reported_at": "2026-11-27T15:30:52+08:00",
+ "updated_at": "2026-11-27T20:54:50+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東"
+  ],
+  "country": [
+   "SA",
+   "YE",
+   "IR"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "能源",
+   "戰爭與衝突",
+   "金融市場"
+  ],
+  "event": [
+   "軍事行動",
+   "市場波動"
+  ],
+  "sector": [
+   "能源與公用事業"
+  ],
+  "org": [
+   "沙烏地阿美",
+   "沙烏地能源部",
+   "胡塞叛軍",
+   "OPEC+",
+   "伊朗革命衛隊",
+   "澳盛銀行"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "吉贊煉油廠",
+   "布蘭特原油",
+   "荷莫茲海峽"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 MoneyDJ，沙烏地能源部表示，沙烏地阿美（Saudi Aramco）位於西南部、鄰近葉門邊境的吉贊煉油廠 11 月 26 日遇襲起火，造成一名尼泊爾籍員工死亡、多人受傷，火勢已控制，部分作業暫停；該廠設計日處理量最高 40 萬桶，聲明未說明受影響產能與復工時間。沙烏地領導的聯軍指攻擊由伊朗支持的胡塞發動；胡塞前一天宣稱攻擊了沙國最大煉油廠與原油出口樞紐拉斯坦努拉，以及紅海沿岸的吉達、吉贊港。伊朗革命衛隊 25 日也說，兩艘油輪試圖經未獲伊方許可的航線穿越荷莫茲海峽，觸雷爆炸起火。布蘭特原油期貨連兩日上漲，再度升破每桶 96 美元。市場關注 OPEC+ 29 日會議討論 2027 年產量政策，路透引述知情人士說現行產量目標可能至少延續至明年第一季。澳盛銀行分析師認為，若更多跡象顯示供應受限，即使衝突未再升級，布蘭特仍可能再度突破 100 美元。",
+ "dive_html": "胡塞攻擊從邊境延伸到沙國核心出口設施，加上荷莫茲海峽觸雷，波斯灣兩個出口方向同時承壓，是油價重回 100 美元關口的主要風險來源。OPEC+ 若維持產量不增，等於不替市場補缺口。對台灣而言，油價上漲會直接反映在進口成本與物價，並牽動央行升息判斷。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "科技新報",
+   "title": "中東不平靜、沙烏地煉油廠遭襲  油價跳高",
+   "url": "https://finance.technews.tw/2026/11/27/middle-east-unrest-saudi-refinery-attack-surging-oil-prices/",
+   "time": "2026-11-27T15:30:52+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "科技新報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "WSJ World News",
+   "title": "Oil Prices Rise Ahead of OPEC+ Meeting as Middle East Supply Risks Persist",
+   "url": "https://www.wsj.com/business/energy-oil/oil-prices-rise-ahead-of-opec-meeting-as-middle-east-supply-risks-persist-63fbb550?mod=rss_worldnews",
+   "time": "2026-11-27T16:27:00+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "OPEC+ set to keep oil production targets steady, sources say",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOdndaSmMtcnZ2OU41SkZNYnNtNlU5ZnRWTFlOamJLb0x6eHRhRHJuQkNMY1oybHlpOUFkRWdncURJcUc0eGZvM2JNZUc4SGdvZG0yeTJFY0llZWJUeGtMRzQxaHFZNmZ0OS1YWFloelk4eDBVenhkQlotREpzR2F1cFgxbkZaT18zRWtGbHd2aTZENWFDMmhKaU13WnpSQkhIaUZGTDZtMFkwa2ZxUjdpTkRfTXRZMkNUcW1FM3hn?oc=5",
+   "time": "2026-11-27T19:13:39+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 7,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

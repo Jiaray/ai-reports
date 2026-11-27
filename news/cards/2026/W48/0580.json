@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0580",
+ "title": "（長文）The Atlantic：大學城從反開發大本營變成 YIMBY 運動最大成果，柏克萊房租多年幾乎持平",
+ "line": "作者認為學生與年輕學者是最有說服力的倡議者，全美住房運動應複製大學城的方法",
+ "born_at": "2026-11-27T20:54:50+08:00",
+ "first_reported_at": "2026-11-27T20:00:00+08:00",
+ "updated_at": "2026-11-27T20:54:50+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "社會",
+   "政治"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "sector": [
+   "營建與房地產"
+  ],
+  "org": [
+   "The Atlantic",
+   "加州大學柏克萊分校",
+   "East Bay for Everyone"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "YIMBY",
+   "住房短缺",
+   "分區管制",
+   "大學城"
+  ],
+  "form": [
+   "長文"
+  ]
+ },
+ "summary_html": "這篇評論文的作者曾在 YIMBY（Yes in My Backyard）組織倡議加州放寬分區法規。他指出，柏克萊可能是反成長政治的發源地：1916 年當地改革者採用全美第一個獨棟住宅分區，禁止多數住宅區蓋公寓以排斥特定族群，之後數十年進步派以環保等理由阻擋開發，城市人口持平、加大柏克萊招生暴增，房價與房租隨之上漲，2010 年代中期成為全美最貴的大學城之一。轉折是學生、職員與年輕教師意識到住房短缺損害自身利益，2017 年組成 East Bay for Everyone，持續出席公聽會、協助選出支持 YIMBY 的市議會，加上州法放寬分區，新建許可大增；到 2024 年名目房租僅略高於 2018 年。作者認為大學城從 NIMBY 堡壘變成 YIMBY 溫床，證明左派在住房議題上的轉向；學生與年輕學者「暫時貧窮、社交活躍、時間彈性」，有動機、手段與機會在平日公聽會大量出席。聖路易斯奧比斯波、聖塔克魯茲也有類似轉變，加大聖地牙哥則爭取到可容納數千名學生的校內高樓宿舍。",
+ "dive_html": "這篇的貢獻是把住房倡議的勝負拆解成「誰能在平日下午出席公聽會」這種具體的政治動員問題，對其他城市的倡議者有實用參考價值。但作者本身是 YIMBY 倡議者，房租持平的成果是否主要來自增建，還是受疫情、遠距工作等因素影響，文中沒有充分處理；大學城的特殊人口結構也不一定能複製到一般城市。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Atlantic",
+   "title": "The YIMBY Movement’s Greatest Success",
+   "url": "https://www.theatlantic.com/ideas/2026/11/housing-yimby-college-towns/689596/",
+   "time": "2026-11-27T20:00:00+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "The Atlantic",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0573",
+ "title": "西班牙車手馬奎斯拿下追平紀錄的第 8 座 MotoGP 冠軍後宣布退休，瓦倫西亞站是最後一戰",
+ "line": "33 歲、6 月才續約杜卡迪到 2028 年，本季逆轉史上最大 102 分落後奪冠",
+ "born_at": "2026-11-27T20:54:50+08:00",
+ "first_reported_at": "2026-11-27T19:20:49+08:00",
+ "updated_at": "2026-11-27T20:54:50+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "ES",
+   "IT"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "體育"
+  ],
+  "event": [
+   "人事異動",
+   "活動賽事"
+  ],
+  "org": [
+   "杜卡迪",
+   "本田",
+   "MotoGP"
+  ],
+  "person": [
+   "馬奎斯",
+   "Valentino Rossi",
+   "Giacomo Agostini"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "MotoGP",
+   "Marc Marquez",
+   "退休"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "BBC 報導，33 歲的西班牙車手馬奎斯（Marc Marquez）上週末在葡萄牙衛冕 MotoGP 世界冠軍，拿下第 8 座最高級別年度冠軍，追平 Giacomo Agostini、比 Valentino Rossi 多一座，幾天後宣布退休。他 6 月才與杜卡迪廠隊續約到 2028 年，但將在本週日季末瓦倫西亞站後結束職業生涯。他沒有開記者會，而是在第一次練習的直播中坐在維修區，模仿電影《愛是您・愛是我》的場景舉起字卡：「謝謝每個參與這段旅程的人……這將是我最後一場 MotoGP 比賽。我們創造了歷史。」馬奎斯 2013 年首奪冠，至今仍是唯一在新人年就奪得 MotoGP 冠軍的車手；他在本田七季拿下六冠，2024 年轉戰杜卡迪衛星車隊 Gresini，過去兩季在杜卡迪廠隊連奪兩冠，與 Rossi 並列唯二以兩家車廠各拿至少兩座冠軍的車手。本季他逆轉 MotoGP 史上最大的 102 分落差奪冠；連同 125cc（2010）與 Moto2（2012），生涯共 10 座世界冠軍。",
+ "dive_html": "在巔峰、合約還剩兩年時退休，原文沒有交代原因；馬奎斯過去幾年歷經多次手臂重傷與手術，外界勢必會聯想到身體因素。對杜卡迪而言，2027 年頓失衛冕冠軍，車手陣容的接班安排會成為冬季轉會最大話題。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC Sport",
+   "title": "Eight-time champion Marquez to retire from MotoGP",
+   "url": "https://www.bbc.co.uk/sport/motorsport/articles/c539gd3r3mk2o",
+   "time": "2026-11-27T20:28:16+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "End of an era as Marquez announces shock retirement after eighth MotoGP title",
+   "url": "https://news.google.com/rss/articles/CBMilgFBVV95cUxPQi1LclRONjUyZXFIckxacGFscWNHTng2ZmUtTjM3eE1OV1V6anlZWDU4M3lJMHJGUlZlbkFuRmxNRWNMVTdsTjJ2RDNmYTJ6ZWlidThLYjdkUUFWMUpHMUdCTXBaaV9qMjgtVDFIOWtobUd3UHZJSlBqTVBJS1B6bzlqenB6SzBMWVVnZVY5LTl0TnAxSWc?oc=5",
+   "time": "2026-11-27T19:20:49+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

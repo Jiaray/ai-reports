@@ -1,0 +1,110 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0569",
+ "title": "菲律賓副總統莎拉・杜特蒂面臨財產來源不明彈劾審判，稱「辭職不可能」，並說父親在國際刑事法院不會獲公平審判",
+ "line": "檢方把彈劾縮減為單一指控、拚年底前審完，若定罪將終身不得擔任公職",
+ "born_at": "2026-11-27T20:54:50+08:00",
+ "first_reported_at": "2026-11-27T14:48:00+08:00",
+ "updated_at": "2026-11-27T20:54:50+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞"
+  ],
+  "country": [
+   "PH"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "政治",
+   "犯罪與司法"
+  ],
+  "event": [
+   "聲明評論",
+   "訴訟判決"
+  ],
+  "org": [
+   "菲律賓參議院",
+   "國際刑事法院"
+  ],
+  "person": [
+   "莎拉・杜特蒂",
+   "杜特蒂",
+   "小馬可仕"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "彈劾",
+   "2028 菲律賓總統大選"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "菲律賓副總統莎拉・杜特蒂 11 月 27 日在年終媒體聚會上表示，儘管她因涉嫌累積來源不明財富正面臨彈劾審判，但辭職「不可能」，因為那會背叛投票給她的 3,220 萬名選民。她是前總統杜特蒂之女，在 2028 年總統大選民調中一直領先。檢方已把彈劾聚焦在財產來源不明單一指控、撤銷另外 3 項，力求在今年底前完成審判；若定罪，她將被解職並終身不得擔任公職。她否認不法，稱彈劾是政治騷擾。Straits Times 報導，她說已準備面對可能的有罪判決，警告會帶來「很多後果」、可能影響約 300 個工作。她也表示，父親 30 日在海牙國際刑事法院出庭時不會獲得公平審判，稱這是 ICC 僅剩的案件，在超級強權施壓後想藉此證明自己站得住腳；要求 81 歲老人每天出庭並不合理。杜特蒂家族與總統小馬可仕的對立持續。",
+ "dive_html": "這場彈劾實質上是 2028 大選前的資格戰：定罪等於讓民調領先者出局，檢方縮減指控、趕在年底前結案，顯示雙方都在搶時間。同一週父親在 ICC 受審、女兒面臨彈劾判決，杜特蒂家族的政治前途將在年底前定調，也牽動菲律賓對中、對美政策的走向。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "遭控財產來源不明面臨彈劾審判　菲律賓副總統：絕不辭職",
+   "url": "https://www.cna.com.tw/news/aopl/202611270156.aspx",
+   "time": "2026-11-27T16:28:29+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Philippine V-P Sara Duterte rules out resignation, braces herself for impeachment verdict",
+   "url": "https://www.straitstimes.com/asia/se-asia/philippine-vp-duterte-says-resignation-out-of-the-question-amid-impeachment-trial",
+   "time": "2026-11-27T14:51:55+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Philippine VP Duterte rules out resignation, braces for impeachment verdict",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxNMGVTaHJ5RWM4a1NsdFcyLV9jcnprZDlVWjg0Yi1KT1ZCMDF0T3ptT25sdU4weS00UDgzOHVrX0FGM1l6bkgzQXlXSnZ1bmNzakhTUWg3LUFwNmhRdE1fUzd0dnRKYlRVdzRkLXh6T1VjeTFEQ2RXb3NXazc2RlQ3eXhQd2NWTi1CRWZ2OVJTN3Q2dDEwX2I3clJCN0tza0hoM0psTU9tMUpwZUNaT2RuT21kbGpBeGd1dHRYQjlpVHRTQ3A1YnhyNw?oc=5",
+   "time": "2026-11-27T14:48:00+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 8,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0574",
+ "title": "CPTPP 啟動阿聯、菲律賓、印尼入會談判，可能是成立以來最大擴張；台灣、中國申請仍在列",
+ "line": "第 11 屆執委會在河內召開，烏拉圭談判已進入後段、最快明年初完成",
+ "born_at": "2026-11-27T20:54:50+08:00",
+ "first_reported_at": "2026-11-27T19:19:47+08:00",
+ "updated_at": "2026-11-27T20:54:50+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞",
+   "中東",
+   "大洋洲"
+  ],
+  "country": [
+   "AE",
+   "PH",
+   "ID",
+   "VN",
+   "TW"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "國際關係",
+   "總體經濟"
+  ],
+  "event": [
+   "會談協議"
+  ],
+  "org": [
+   "跨太平洋夥伴全面進步協定",
+   "Hinrich Foundation",
+   "世界貿易組織"
+  ],
+  "person": [
+   "Deborah Elms"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "CPTPP",
+   "入會談判",
+   "區域貿易協定"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Politico Europe 報導，跨太平洋夥伴全面進步協定（CPTPP）各國貿易部長 11 月 27 日在越南河內舉行第 11 屆執委會，啟動與阿拉伯聯合大公國、菲律賓、印尼的入會談判，並同意成立三個工作小組負責，這可能成為這個 12 國貿易聯盟成立以來最大的擴張。加入者須承諾大幅關稅自由化並開放數位貿易。一名匿名外交官說，今年初開始的烏拉圭入會談判已進入後段，「有可能」在明年初完成。CPTPP 2018 年由日本、澳洲、紐西蘭、加拿大、墨西哥、新加坡等創始，英國 2024 年成為首個非太平洋沿岸成員，決策採共識決。Hinrich Foundation 貿易政策主管 Deborah Elms 說，三國談判都很複雜，需要認真努力，部分申請國須能力建設以理解 CPTPP 要求。報導指出，隨 WTO 改革受挫，CPTPP 正成為「B 計畫」；中國、台灣、厄瓜多、烏克蘭、柬埔寨與阿根廷也已提出申請。",
+ "dive_html": "CPTPP 選擇先與阿聯、菲律賓、印尼開談，而非處理已申請多年的中國與台灣，顯示成員國刻意避開兩岸政治難題，改以東南亞與中東擴大經濟版圖。對台灣而言，競爭對手菲律賓、印尼可能先一步入會，台灣在 CPTPP 的排隊位置更往後，而美國 301 關稅壓力下，多邊協定是台灣分散市場的重要管道。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Politico Europe",
+   "title": "Asia-Pacific trade bloc opens accession talks with UAE, Philippines and Indonesia",
+   "url": "https://www.politico.eu/article/asia-pacific-trade-accession-talks-uae-philippines-indonesia/",
+   "time": "2026-11-27T19:19:47+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "Politico",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

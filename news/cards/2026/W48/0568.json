@@ -1,0 +1,112 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0568",
+ "title": "印度莫迪政府再推修憲擴大國會，下議院席次增約 50%、提前實施婦女保障三分之一席次，11 月 30 日起特別會期表決",
+ "line": "4 月首度表決因反對黨聯手失敗，內閣 27 日已通過新法案，修憲需三分之二多數",
+ "born_at": "2026-11-27T20:54:50+08:00",
+ "first_reported_at": "2026-11-27T15:23:00+08:00",
+ "updated_at": "2026-11-27T20:54:50+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "南亞"
+  ],
+  "country": [
+   "IN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "政治",
+   "選舉"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "org": [
+   "印度國會",
+   "印度國民大會黨",
+   "印度內閣"
+  ],
+  "person": [
+   "莫迪"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "選區重劃",
+   "婦女保障名額",
+   "修憲"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Straits Times 引述路透與知情人士報導，印度總理莫迪政府將再次嘗試通過擴大國會與各邦議會的立法，並加速實施保留三分之一席次給女性的計畫；首次嘗試在 4 月因反對黨聯手而失敗。消息人士說內閣 11 月 27 日已核准新法案，國會將自 11 月 30 日起召開特別會期表決；DW 指出國會雨季會期 8 月起無限期休會。法案將在 2029 年下屆大選前把下議院議員人數增加約 50%，最多可達 850 席，各邦議會也同比擴大，重劃結果凍結至 2051 年。修憲需三分之二多數，主要反對黨國大黨反對，其他幾個反對黨尚未表態。法案核心是選區重劃：印度過去五十年大致凍結各邦席次分配，部分原因是避免人口控制成功的邦失去席次；批評者擔心重劃會讓人口成長較快的北方邦獲利、削弱南方各邦影響力。",
+ "dive_html": "擴席與婦女保障綁在一起，讓反對黨很難公開反對，是莫迪政府在 4 月失敗後調整的政治策略。真正的爭點是南北權力重分配：人口較多、印度人民黨較強的北方會取得更多席次，南方各邦可能視為懲罰其人口政策成功。表決結果將是反對黨團結程度的直接測試，也影響 2029 年大選的版圖。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Straits Times Asia",
+   "title": "Modi’s government to revive plan to expand India’s Parliament",
+   "url": "https://www.straitstimes.com/asia/south-asia/modis-government-to-revive-plan-to-expand-indias-parliament",
+   "time": "2026-11-27T18:48:00+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "India's Modi to revive parliament expansion bill tied to women's quota, sources say",
+   "url": "https://www.straitstimes.com/asia/indias-modi-to-revive-parliament-expansion-bill-tied-to-womens-quota-sources-say",
+   "time": "2026-11-27T19:42:00+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "India's Modi government calls special sitting of parliament",
+   "url": "https://www.dw.com/en/india-s-modi-government-calls-special-sitting-of-parliament/live-80070511?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-27T15:23:00+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

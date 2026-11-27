@@ -1,0 +1,100 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0572",
+ "title": "聯合國糧農組織、世界糧食計劃署示警：未來 6 個月全球 16 處飢餓高風險區惡化，蘇丹、南蘇丹恐爆發饑荒",
+ "line": "衝突與聖嬰現象推高糧食不安全，最危急五國的人道援助 2022 至 2025 年減近三分之二",
+ "born_at": "2026-11-27T20:54:50+08:00",
+ "first_reported_at": "2026-11-27T17:04:02+08:00",
+ "updated_at": "2026-11-27T20:54:50+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "非洲",
+   "中東"
+  ],
+  "country": [
+   "SD",
+   "SS",
+   "SO",
+   "NG",
+   "YE"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "社會",
+   "戰爭與衝突",
+   "環境與氣候"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "聯合國糧農組織",
+   "世界糧食計劃署"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "饑荒",
+   "飢餓高風險區",
+   "聖嬰現象",
+   "人道援助"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "聯合國糧農組織（FAO）與世界糧食計劃署（WFP）11 月 27 日發布聯合預警報告，指 2026 年 12 月至 2027 年 5 月期間，全球 16 個主要位於非洲的「飢餓高風險區」情況將惡化。最令人憂心的是蘇丹、南蘇丹、索馬利亞、奈及利亞北部與葉門；蘇丹北達佛等地區與南蘇丹仍有「可能發生」饑荒的風險。報告說，糧食不安全急遽惡化的主因是武裝衝突與暴力，全球政治暴力事件比去年同期增加逾 15%，近月在南蘇丹與葉門造成令人憂心的流離失所；包括聖嬰現象在內的極端氣候是另一項成因。這五國自 2022 年起一再被列入名單，但 2022 至 2025 年獲得的人道援助從 51 億美元降至 20 億美元，減少近三分之二。報告指出，過去的援助曾幫助避免饑荒，但成果脆弱，嚴重糧食危機在短短幾年內便再度出現，援助資源減少已削弱維持既有成果的能力。",
+ "dive_html": "這份預警的關鍵數字是援助減少近三分之二：需求在升、資金在降，代表過去「靠援助擋住饑荒」的模式正在失效。蘇丹與葉門的衝突近期都在升溫，加上聖嬰帶來的乾旱，明年上半年是否正式宣告饑荒，取決於捐助國能否補上缺口，而美歐預算正同時緊縮。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "戰火與聖嬰現象夾擊　聯合國示警全球16處糧食危機加劇",
+   "url": "https://www.cna.com.tw/news/aopl/202611270211.aspx",
+   "time": "2026-11-27T18:18:29+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "UN warns famine risks rising as hunger hotspots increase",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxQNWNhM3c3WEpxa095UE53ZEF2eFVxSVZLQ2kzWlFuTzFoekNXV0p1OGJITENvbjJ6REwxMWI3VXAxUExJTXBHUzRoRGVCYnY4QzBkZ2tOQlNuTnhPQ05XN2NsNl9vZ2ZaTkJIZDNQSFB5MDRPcU1tLXJXSWQ0MHNMRDcySGV3QjVxSlloeVozUXYyRElfdW9EcVk5blZMR2ktZjdQb0tkU2x5cjI1R0lr?oc=5",
+   "time": "2026-11-27T17:04:02+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 6,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

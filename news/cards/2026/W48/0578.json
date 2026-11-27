@@ -1,0 +1,78 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0578",
+ "title": "Science 研究：腦內直接記錄解開韋尼克區百年謎題，其訊號可解碼發聲道癱瘓者想說的話",
+ "line": "韋尼克區向來被認為負責處理聽到的話語，研究顯示它對說話也有關鍵貢獻",
+ "born_at": "2026-11-27T20:54:50+08:00",
+ "first_reported_at": "2026-11-27T00:00:00+08:00",
+ "updated_at": "2026-11-27T20:54:50+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科學",
+   "健康與醫療"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "Nature",
+   "Science"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "韋尼克區",
+   "腦機介面",
+   "語音解碼"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "Nature 新聞報導，一項發表在 Science 的研究（Silva 等人）以人腦內直接記錄，解開關於韋尼克區（Wernicke&#x27;s area）的百年神經科學謎題。韋尼克區以處理口語聽覺理解聞名，但腦內記錄顯示它對說話也有關鍵貢獻；以韋尼克區資料訓練的腦部植入裝置，可以解碼發聲道癱瘓者想說的話。報導其餘內容需付費閱讀，原文沒有交代受試者人數與解碼準確度。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Nature",
+   "title": "Brain area’s mysterious role in speech decoded at last",
+   "url": "https://www.nature.com/articles/d41586-026-03800-x",
+   "time": "2026-11-27T00:00:00+08:00",
+   "added_at": "2026-11-27T20:54:50+08:00",
+   "heat_raw": "",
+   "family": "Nature",
+   "kind": "official",
+   "region": "歐洲",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}
