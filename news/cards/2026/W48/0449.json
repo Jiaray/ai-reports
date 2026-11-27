@@ -1,0 +1,74 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0449",
+ "title": "論文公開 62,029 種彼此不等價的 3×3 矩陣乘法 rank-23 方案，遠超過去已知的多樣性",
+ "line": "每個方案都有獨特的秩模式，顯示 rank-23 方案的種類比既有收錄多得多",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T08:00:00+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "矩陣乘法",
+   "rank-23",
+   "flip graph"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "論文公開一份包含 62,029 個 3×3 矩陣乘法 rank-23 方案的資料集，每個方案都有自己的「秩模式」（由方案中因子矩陣的秩構成的不變量），因此彼此兩兩不等價。這些方案以梯度下降結合交替最小平方法的數值方法，以及 flip graph 搜尋取得，係數為三元、整數或有理數。Rank 23 是這個尺寸目前已知最好的結果，對整數係數方案也是最佳；但過去對「本質上不同」的 rank-23 方案有多少所知有限：Heule 等人與 Mårtensson 等人的既有收錄分別有 17,376 個方案、387 種秩模式，以及 15,316 個方案、568 種秩模式。新資料集顯示，不同秩模式的數量遠多於先前所知。",
+ "dive_html": "小尺寸矩陣乘法方案是快速矩陣乘法演算法的積木，方案空間越清楚，越有機會找到係數更簡單、更適合硬體實作的變體；本週 AI 實驗室接連宣稱的矩陣乘法突破，也讓這類可公開驗證的資料集更有參考價值。論文本身是資料集，沒有提出更低秩的新結果。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "So Many Ways to Multiply 3times3 Matrices: A Large Dataset of Rank-23 Schemes",
+   "url": "https://huggingface.co/papers/2611.31155",
+   "time": "2026-11-27T08:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "+0",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,109 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0427",
+ "title": "澳洲 Peninsula Energy 懷俄明州 Lance 鈾礦遭網路攻擊，廠區與井場控制系統受影響、全面停產",
+ "line": "公司尚未訂出復工日期，也無法評估對 2027 年產量預估的影響",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-26T22:02:00+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "大洋洲"
+  ],
+  "country": [
+   "US",
+   "AU"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安",
+   "能源"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "原物料與化工",
+   "能源與公用事業"
+  ],
+  "org": [
+   "Peninsula Energy",
+   "Strata Energy",
+   "澳洲證券交易所"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "鈾礦",
+   "OT 資安",
+   "工控系統"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "澳洲鈾礦商 Peninsula Energy 11 月 25 日公告，其美國子公司 Strata Energy 營運的懷俄明州 Lance 鈾計畫發生資安事件，已暫停運作並隔離受影響系統；據 iThome，子公司是在 11 月 20 日上午發現事件，母公司也向澳洲證交所申請暫停交易以評估影響。公司表示攻擊應侷限在廠區與井場的操作與控制系統，美國與澳洲的薪資等後勤系統未受影響，已啟動應變程序並請外部專家協助；是否有資料外洩仍在調查。公司說首要任務是保護員工安全、確保操作系統安全，並以安全受控的方式恢復營運，在復原與安全檢查完成前會持續停工，目前沒有復工日期，也無法評估對 2027 年產量預估的影響。",
+ "dive_html": "攻擊直接打到工控與井場系統、而非辦公網路，讓一座礦場停擺，是 OT 資安風險的具體案例；搭配同週瑞士確認關鍵基礎設施遭 AI 代理入侵、Danfoss 冷凍控制器漏洞無修補，能源與製造業的控制系統顯然正被持續鎖定。公告沒有交代入侵途徑。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Peninsula Energy 子公司 Strata Energy 的 Lance 鈾計畫廠區與井場控制系統；後勤系統未受影響"
+  },
+  {
+   "name": "處置",
+   "html": "暫停營運、隔離受影響系統，由外部專家協助調查與復原"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Register",
+   "title": "Wyoming uranium operation shuts down after cyberattack",
+   "url": "https://www.theregister.com/security/2026/11/26/wyoming-uranium-operation-shuts-down-after-cyberattack/5312323",
+   "time": "2026-11-26T22:02:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "The Register",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "iThome 資安",
+   "title": "美國鈾礦場因資安事件暫停運作",
+   "url": "https://www.ithome.com.tw/news/180852",
+   "time": "2026-11-27T02:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

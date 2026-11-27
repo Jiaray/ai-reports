@@ -5,8 +5,8 @@
  "line": "USTR 以製造業結構性產能過剩為由提議新關稅，台灣稅率不疊加 MFN，2027 年 1 月 25 日舉行聽證",
  "born_at": "2026-11-26T01:54:26+08:00",
  "first_reported_at": "2026-11-25T17:02:00+08:00",
- "updated_at": "2026-11-26T17:27:06+08:00",
- "version": 4,
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 5,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -946,6 +946,42 @@
    "kind": "media",
    "region": "北美",
    "rank": 2
+  },
+  {
+   "name": "TIME",
+   "title": "China and Brazil Lead Pushback Against Trump’s ‘Unacceptable’ Tariff Threats",
+   "url": "https://time.com/article/2026/11/26/china-brazil-eu-push-back-against-trump-tariffs/",
+   "time": "2026-11-26T23:31:11+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "TIME",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "China and other US trading partners hit back at Trump’s new tariff plans",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQVWQ3MnMzTlQ5Y2lUTW9RTzloTmp3MmtycjBUbmZUOTExYWNsVmlXX1JmLVJGYUYyRjNHSGV1b2hzLWhWclNBRDRZb2hyQ2UxSE9tYktjUTBKR2VDU2w1YlZlU0xaZ0JSMlQ1ZzhwMEJpSVk5N05XbHhnNi1ESktvTVNGNlZpMkNjX0dUNHdvLWJ2YTVqeDFv?oc=5",
+   "time": "2026-11-26T22:13:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "NYT Asia Pacific",
+   "title": "Trump’s Latest Tariffs Revive Focus on Pressuring China",
+   "url": "https://www.nytimes.com/2026/11/26/business/trump-tariffs-asia.html",
+   "time": "2026-11-27T01:03:32+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "New York Times",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
   }
  ],
  "log": [
@@ -971,6 +1007,14 @@
    "version": 4,
    "html": "Axios 引述美國資深官員，對中國 20% 的稅率適用大多數中國進口商品，刻意訂在維持美中貿易休戰的水準，不與強迫勞動及部分產業別關稅疊加；若談判破裂或中國未履行承諾，稅率可能升到 40%。官員估計，新提案平均讓受影響貿易夥伴的現行稅率提高約 5 個百分點，仍須經公眾意見與聽證程序。華爾街日報報導，中國警告若美方實施將採取報復；日本官房長官表示遺憾並反駁；德國之聲報導，歐盟強調歐洲同樣是「產能過剩」的受害者，中國稱這是「偽命題」；美國民主黨議員揚言明年在國會掌權後反擊關稅政策。台灣方面，經濟部長龔明鑫 26 日表示，台美 15% 不疊加的共識沒有改變，美方只是把法律依據改以 301 條款呈現；過去面臨 50% 關稅的鋼鐵部分項目取得豁免，232 條款中的非半導體項目如水五金、汽車零組件也適用 15% 不疊加。他說，屬台灣供應鏈、從台灣出貨的半導體目前都享豁免，但若直接從高稅率國家轉運可能被課稅；對美方點名產業創新條例補貼研發，他回應研發抵減各國普遍都有、符合國際規範，不會因美方報告調整政策。",
    "update": "美官員稱若談判破裂對中國稅率可能升到 40%；經長龔明鑫說台灣 15% 不疊加共識不變，水五金、車用零組件同享優惠",
+   "refocus": false
+  },
+  {
+   "at": "2026-11-27T16:57:43+08:00",
+   "kind": "supplement",
+   "version": 5,
+   "html": "中國商務部發言人何亞東美國時間 11 月 26 日表示，中方保留採取「必要措施」的權利，將堅決維護自身正當權益，並敦促美方糾正錯誤做法、回到對話協商的軌道；據 Guardian，北京稱新關稅等同「政治操弄」。巴西表示「不會屈服於這種威脅」。TIME 報導，越南最高面臨 35% 的稅率，越南工商部表示正準備對初步結論與相關指控提出反駁；TIME 並指出，301 條款是川普政府在最高法院今年 2 月判定先前關稅違法後，用來恢復許多關稅的途徑，新稅率預定明年初生效。",
+   "update": "中國商務部稱保留採取「必要措施」的權利、巴西表態不會屈服，越南最高面臨 35% 稅率並準備提出反駁",
    "refocus": false
   }
  ],

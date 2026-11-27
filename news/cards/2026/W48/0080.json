@@ -125,6 +125,30 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 3
+  },
+  {
+   "name": "iThome 資安",
+   "title": "Drupal揭露已遭利用的安裝程式新漏洞",
+   "url": "https://www.ithome.com.tw/news/180846",
+   "time": "2026-11-27T12:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "iThome 資安",
+   "title": "研究人員揭露已遭利用的Drupal重大漏洞Fail2Install細節",
+   "url": "https://www.ithome.com.tw/news/180838",
+   "time": "2026-11-27T10:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
   }
  ],
  "log": [],

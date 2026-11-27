@@ -1,0 +1,79 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0448",
+ "title": "論文：AI 代理誤刪正式資料庫時，損害大小取決於資料庫引擎能否復原，而非模型",
+ "line": "研究在 9 種資料庫上跑近 9,500 次代理試驗，比較模型、防護層與引擎各自的影響",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T08:00:00+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "AI 代理",
+   "資料庫",
+   "PostgreSQL",
+   "MongoDB",
+   "預先登記"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "AI 代理已會直接對正式資料庫下指令，也已發生多起誤刪正式資料、只能靠備份或供應商協助救回的事件。論文分兩層預先登記的實驗，追問損害由什麼決定：模型、資料庫前的防護層，還是資料庫引擎本身。A 層不用模型，以腳本把 22 種典型錯誤套到 4 種關聯式引擎上，搭配 5 種權限與 2 種復原設定，再做引擎原生的復原演練（792 個組合、874 次演練）。B 層讓 6 個 4B 到 12B 的小型開放權重模型（另有一個約 3B 啟用參數的 35B 混合專家模型）驅動簡單的工具呼叫代理，在 PostgreSQL、MySQL、SQLite、ClickHouse、Cassandra、MongoDB、Valkey、Kafka、OpenSearch 九種引擎上做含風險的任務，共 9,468 次試驗；加跑 MariaDB、Redis、Elasticsearch 的 2,916 次，結果都和最接近的核心引擎相似。主要發現是：預設狀態下，各引擎差別不在一個錯誤會毀掉什麼，而在能讓你復原多少。七個預先登記假設中有三個符合判定規則，四個沒有，作者完整公開所有偏離預先登記之處。",
+ "dive_html": "對已讓代理碰正式資料庫的團隊，這篇的實務重點是「把復原能力當第一道防線」：權限與防護層之外，選對引擎設定與演練回復流程，比換更聰明的模型更能控制損失。研究只用小型開放模型，結論能否推到前沿模型仍待驗證，作者對假設未成立的透明交代也值得肯定。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "When an AI agent makes a mistake in a database, what decides the damage?",
+   "url": "https://huggingface.co/papers/2611.30483",
+   "time": "2026-11-27T08:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "+3",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

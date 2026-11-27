@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0443",
+ "title": "OpenAI 開始小規模測試「Private Inference」，主打企業隱私保護",
+ "line": "Altman 稱零資料保留加上私密安全處理，可讓自動安全審查不經員工接觸內容",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-26T08:00:00+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "OpenAI"
+  ],
+  "person": [
+   "Sam Altman"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Private Inference",
+   "Private Intelligence",
+   "零資料保留"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "OpenAI 執行長 Sam Altman 11 月 25 日在 X 上宣布，OpenAI 正與一小群客戶測試「Private Inference」，這是 OpenAI Private Intelligence 產品線的最新項目。Altman 表示，更強的隱私保護能讓前沿 AI 用在更多工作上，企業隱私對健康的生態系也很重要；他並說明，零資料保留（ZDR）搭配「Private Safety Processing」，可在不讓 OpenAI 人員接觸底層內容的情況下進行自動化安全審查。有意參與的客戶可聯繫指定窗口。",
+ "dive_html": "企業不敢把機密交給雲端模型，最大顧慮是供應商員工能否看到內容；OpenAI 把安全審查自動化、排除人員接觸，正是針對這一點。但目前只有一則推文，沒有技術架構、價格或第三方驗證，實際保護程度仍無從評估。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "TLDR AI",
+   "title": "OpenAI Begins Testing Private Inference",
+   "url": "https://x.com/sama/status/2125638790593274259",
+   "time": "2026-11-26T08:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "x.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

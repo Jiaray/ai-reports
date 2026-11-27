@@ -1,0 +1,101 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0450",
+ "title": "幣安解除 10 月熱錢包遭竊後的提款限制，該案影響約 63.4 億美元數位資產",
+ "line": "攻擊者先入侵一名工程師電腦，再利用內部 AI 工具控制其他錢包工程師的電腦",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T03:55:02+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "加密資產"
+  ],
+  "org": [
+   "幣安"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "幣安",
+   "熱錢包",
+   "SAFU",
+   "提款"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "幣安宣布，10 月資安事件後暫停的提款服務已完成復原，與該事件相關的提款限制全面解除；少數區塊鏈網路仍因維護或升級暫停提款，幣安表示這只占日常流量極小比例，與事件復原無關。據 iThome，幣安 10 月底發生熱錢包遭入侵事件，11 月 3 日公布的初步調查指出，攻擊者先入侵一名工程師的電腦，再利用內部 AI 工具取得其他錢包工程師電腦的控制權，並藉工程師電腦中的容器部署權限，把惡意程式部署到錢包簽章環境、發動未經授權的提款，影響約 63.4 億美元數位資產；損失由用戶資產安全基金（SAFU）與公司資金承擔。Reuters 稱被竊金額約 63 億美元、為創紀錄規模。幣安重申用戶資產有足額儲備，並提醒恢復提款的消息可能被用於釣魚：官方不會索取密碼、雙因素驗證碼或助記詞，也不會以加快提款或轉入「幣安金庫」為由聯絡用戶。",
+ "dive_html": "這起案件的關鍵是內部 AI 工具成了橫向移動的跳板：工程師電腦一旦失守，AI 工具的權限就被拿來擴大控制範圍，最後碰到簽章環境。對導入內部 AI 助手的企業，給工具的權限應比照特權帳號管理。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "幣安熱錢包，約 63.4 億美元數位資產；損失由 SAFU 與公司資金承擔"
+  },
+  {
+   "name": "處置",
+   "html": "提款已恢復；用戶勿向任何人提供密碼、2FA 驗證碼或助記詞，以官方管道資訊為準"
+  }
+ ],
+ "sources": [
+  {
+   "name": "iThome 資安",
+   "title": "幣安解除63.4億美元數位資產竊案相關提款限制",
+   "url": "https://www.ithome.com.tw/news/180845",
+   "time": "2026-11-27T12:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Techmeme",
+   "title": "Binance says it has finished its recovery work and fully lifted its withdrawal suspension, after a record $6.3B was stolen in a hack last month (Rajveer Singh Pardesi/Reuters)",
+   "url": "https://www.techmeme.com/261126/p24#a261126p24",
+   "time": "2026-11-27T03:55:02+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -5,8 +5,8 @@
  "line": "黃仁勳向員工道歉承認違反行為準則；美情報官員稱目前無證據顯示婚外情對象受中國指使",
  "born_at": "2026-11-26T01:54:26+08:00",
  "first_reported_at": "2026-11-24T08:00:00+08:00",
- "updated_at": "2026-11-26T17:27:06+08:00",
- "version": 3,
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 4,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -777,6 +777,66 @@
    "kind": "media",
    "region": "東北亞",
    "rank": 2
+  },
+  {
+   "name": "Slashdot",
+   "title": "S&amp;P Warns Nvidia's Board May Be Compromised",
+   "url": "https://news.slashdot.org/story/26/11/25/2340213/sp-warns-nvidias-board-may-be-compromised",
+   "time": "2026-11-27T06:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "41 comments",
+   "family": "Slashdot",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  },
+  {
+   "name": "科技新報",
+   "title": "川普稱黃仁勳絕非國安威脅，稱助他復職對世界是件好事",
+   "url": "https://technews.tw/2026/11/27/trump-jensen-huang-not-national-security-threat-return-office-good-world/",
+   "time": "2026-11-27T14:30:01+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "科技新報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "科技新報",
+   "title": "川普投顧發言：美股大跌有點擔心、市場挺黃仁勳",
+   "url": "https://finance.technews.tw/2026/11/27/trump-says-wednesdays-market-had-him-briefly-concerned-before-stocks-recovered/",
+   "time": "2026-11-27T14:10:26+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "科技新報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "The Guardian Technology",
+   "title": "A vocal cohort of tech leaders celebrates Huang’s Nvidia return, but others are keeping quiet",
+   "url": "https://www.theguardian.com/technology/2026/nov/26/jensen-huang-nvidia-tech",
+   "time": "2026-11-26T18:00:52+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Japan Times",
+   "title": "Sleeping with a subordinate gets CEOs fired. Except for Jensen Huang.",
+   "url": "https://www.japantimes.co.jp/business/2026/11/27/ceo-scandals-jensen-huang/",
+   "time": "2026-11-27T10:15:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
   }
  ],
  "log": [
@@ -795,6 +855,15 @@
    "html": "標普表示，黃仁勳遭撤換又復職，凸顯「高層監督薄弱、缺乏接班規劃」與「關鍵人物風險」，預計 90 天內完成審查，可能把輝達評級從 AA 降到 AA-。TechCrunch 指出，輝達 8 月宣布與高盛、Apollo、Blackstone 等 6 家金融機構安排 5,000 億美元 AI 基礎建設融資、原本擔保 25% 貸款，放款方在風波前就要求提高擔保，降評可能讓要求更高。據路透社引述三名知情人士，司法部長布蘭奇是依據對美超微與 Megaspeed 兩家客戶的既有調查，認定沒有證據顯示黃仁勳違法，並在上週末告知川普與范斯，但這項判斷可能隨調查改變；參院民主黨領袖舒默說各委員會將展開調查。川普接受德國之聲引述的訪問時說，必要時「始終可以」赦免黃仁勳，但認為沒有必要，並稱曾考慮入股輝達、「可能還不算太晚」。關於國務卿盧比奧，《紐約郵報》報導他曾警告川普輝達對國家安全構成威脅，CBS 則引述消息人士說他沒有參與讓黃仁勳復職、並對此表達不滿。NPR 報導，一名共和黨議員要求先了解 FBI 與 CIA 掌握什麼、是否警告過黃仁勳，才要詢問他；CNBC 報導黃仁勳向員工表示自己正在接受心理治療。",
    "update": "標普稱 90 天內審查是否把輝達降為 AA-；川普稱必要時可赦免黃仁勳，國務卿盧比奧被指不滿他復職",
    "refocus": false
+  },
+  {
+   "at": "2026-11-27T16:57:43+08:00",
+   "kind": "supplement",
+   "version": 4,
+   "html": "標普全球評等把輝達 AA 信用評等列入降評觀察時表示，黃仁勳離職又復職的過程暴露公司治理與董事會監督的弱點，「我們認為部分董事任期過長，可能已影響其獨立性」，公司治理也可能沒有跟上輝達的快速成長與其全球關鍵科技供應者的角色。標普預期若降評，幅度多半限於一級，除非調查與後續揭露損及公司聲譽或業務前景。穆迪則在美國時間 11 月 25 日表示，黃仁勳回任消除了任命新領導人的執行風險，維持輝達 Aa1 評等與穩定展望不變，但治理與監管不確定性仍在。",
+   "update": "標普直言輝達部分董事任期過長、獨立性可能受影響；穆迪則維持輝達 Aa1 評等與穩定展望",
+   "refocus": false,
+   "dive_html": "兩大評等機構看法分歧：穆迪看重經營連續性，標普則把問題指向董事會本身，若後續國會聽證與調查揭露更多治理缺失，董事會改組壓力可能比降評一級更值得留意。"
   }
  ],
  "heat": {

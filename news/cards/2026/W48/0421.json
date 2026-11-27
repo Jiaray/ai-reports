@@ -1,0 +1,151 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0421",
+ "title": "美國第 3 季 GDP 由 3.4% 上修至 4.3%，川普指選前數據「造假」要求調查，未提出證據",
+ "line": "上修依既定時程發布，川普稱這是「創紀錄的錯誤」，共和黨期中選舉大敗",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T00:29:25+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "總體經濟",
+   "政治"
+  ],
+  "event": [
+   "聲明評論",
+   "數據發布"
+  ],
+  "org": [
+   "美國商務部",
+   "美國經濟分析局"
+  ],
+  "person": [
+   "川普"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "GDP",
+   "上修",
+   "經濟數據",
+   "期中選舉"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美國商務部經濟分析局（BEA）美國時間 11 月 25 日公布，第 3 季實質 GDP 年化成長率上修為 4.3%，高於 10 月 29 日初值 3.4%，也高於第 2 季的 2.2%；RFI 指市場原先預期 3.5%。TIME 指出，修正值是照既定時程發布。川普 26 日感恩節在 Truth Social 發文，祝「在選前發布假經濟數據、三週後才更正的人」感恩節快樂，稱這是「創紀錄的錯誤，嚴重到應立即調查」，另一篇貼文稱是「大規模且故意的錯誤」，並質問為何正確數字沒在選前公布、要求立即調查，但沒有提出數據遭操縱的證據。Guardian 與 TIME 指出，這發生在共和黨於本月期中選舉大敗之後；選前川普常以股市高點與關稅收入宣稱經濟繁榮，白宮在初值公布時也稱之為「一年來最強勁的步調」。Axios 指出 GDP 修正是常態，反映的是更完整的資料。",
+ "dive_html": "總統公開指控自己政府的統計機關造假，衝擊的是市場賴以定價的數據公信力；若後續真有人事調整或調查，投資人可能對美國官方數據打折扣。諷刺的是被指「造假」的是偏低的初值，修正後數字其實更好看，顯示指控更像選後政治反應。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "第 3 季 GDP 年化成長初值 3.4%、修正值 4.3%；市場預期 3.5%；第 2 季 2.2%"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Axios",
+   "title": "Trump demands investigation into GDP data revisions",
+   "url": "https://www.axios.com/2026/11/26/trump-gdp-investigation-economy-statistics",
+   "time": "2026-11-27T00:29:25+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Axios",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "TIME",
+   "title": "Trump Accuses His Own Government of Falsifying Economic Data",
+   "url": "https://time.com/article/2026/11/27/trump-thanksgiving-truth-social-economic-data-growth-estimate-revision-election/",
+   "time": "2026-11-27T16:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "TIME",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Trump calls the pre-election GDP figures 'fake' and demands an investigation of Commerce Department",
+   "url": "https://news.google.com/rss/articles/CBMijwFBVV95cUxPSWs0NUw0T1MxU0FFajZoSzUzQ2tCblZyZGhDc25mSVpXV0NpczlfWHpwaWdaUEE0T3lFSXdhYl9oUVZ3cTV1ei01aXprNTBoYUJCbG02THdJeGVISENOWjdrVzJpb2pxZEI5aU94VmFCTWU4ckR5MjFjZ2JDMzFibl9WVGZ2Q09PeVo5LXc1WQ?oc=5",
+   "time": "2026-11-27T00:55:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "RFI 中文",
+   "title": "特朗普对美三季度GDP增速大幅上修至4.3% 深表不满",
+   "url": "https://www.rfi.fr/cn/%E7%BE%8E%E6%B4%B2/20261126-%E7%89%B9%E6%9C%97%E6%99%AE%E5%AF%B9%E7%BE%8E%E4%B8%89%E5%AD%A3%E5%BA%A6gdp%E5%A2%9E%E9%80%9F%E5%A4%A7%E5%B9%85%E4%B8%8A%E4%BF%AE%E8%87%B34-3-%E6%B7%B1%E8%A1%A8%E4%B8%8D%E6%BB%A1",
+   "time": "2026-11-27T05:13:58+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "Trump alleges ‘fake’ economic figures released before US midterms but doesn’t provide evidence",
+   "url": "https://www.theguardian.com/us-news/2026/nov/26/trump-fake-economic-figures-midterms",
+   "time": "2026-11-27T03:41:37+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "Trump demands probe into ‘record setting error’ after third-quarter GDP data gets massive revision higher",
+   "url": "https://www.cnbc.com/2026/11/26/trump-gdp-revision-investigation.html",
+   "time": "2026-11-27T05:13:17+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 6,
+  "regions": 2,
+  "media_weight": 13,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

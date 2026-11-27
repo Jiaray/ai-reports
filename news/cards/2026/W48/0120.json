@@ -257,13 +257,49 @@
    "kind": "media",
    "region": "港澳",
    "rank": 2
+  },
+  {
+   "name": "SCMP China",
+   "title": "Shanghai party chief’s downfall shows reach of anti-corruption drive",
+   "url": "https://www.scmp.com/plus/news/china/politics/article/3375916/shanghai-party-chiefs-downfall-shows-reach-anti-corruption-drive",
+   "time": "2026-11-26T17:18:53+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "SCMP",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 2
+  },
+  {
+   "name": "RFI 中文",
+   "title": "陈吉宁落马：在习近平执政时期，政治忠诚正在取代专业能力",
+   "url": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E6%B3%95%E5%9B%BD%E4%B8%96%E7%95%8C%E6%8A%A5/20261126-%E9%99%88%E5%90%89%E5%AE%81%E8%90%BD%E9%A9%AC-%E5%9C%A8%E4%B9%A0%E8%BF%91%E5%B9%B3%E6%89%A7%E6%94%BF%E6%97%B6%E6%9C%9F%EF%BC%8C%E6%94%BF%E6%B2%BB%E5%BF%A0%E8%AF%9A%E6%AD%A3%E5%9C%A8%E5%8F%96%E4%BB%A3%E4%B8%93%E4%B8%9A%E8%83%BD%E5%8A%9B",
+   "time": "2026-11-27T07:51:43+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW 中文",
+   "title": "德语媒体：陈吉宁落马 一种政治晋升模式的终结？",
+   "url": "https://www.dw.com/zh/德语媒体：陈吉宁落马-一种政治晋升模式的终结？/a-80065059?maca=chi-rss-chi-all-1127-rdf",
+   "time": "2026-11-26T23:12:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 8,
+  "outlets": 10,
   "regions": 5,
-  "media_weight": 18,
+  "media_weight": 22,
   "community": {
    "hn": 0,
    "ptt": 0,

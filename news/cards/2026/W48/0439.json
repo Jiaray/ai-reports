@@ -1,0 +1,211 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0439",
+ "title": "台股選前量縮收漲 156 點、週線大漲 3,274 點，外資本週賣超逾 2,800 億元",
+ "line": "加權指數收 39,308.08 點守住 3 萬 9，台積電尾盤拉抬收 2,180 元",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T13:40:18+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "台灣"
+  ],
+  "country": [
+   "TW"
+  ],
+  "taiwan": [
+   "直接"
+  ],
+  "topic": [
+   "金融市場"
+  ],
+  "event": [
+   "市場波動"
+  ],
+  "sector": [
+   "半導體",
+   "金融"
+  ],
+  "org": [
+   "台積電",
+   "鴻海",
+   "Bloomberg"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "台股",
+   "加權指數",
+   "三大法人",
+   "外資賣超"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美股 11 月 26 日感恩節休市，加上九合一選舉前夕觀望，台股 27 日以 39,168.57 點開出後陷入震盪，盤中最高 39,495.41 點、最低 38,890.53 點，尾盤在台積電、鴻海拉抬下由黑翻紅，終場漲 156.27 點、漲幅 0.4%，收 39,308.08 點，成交值縮至 6,660.69 億元。台積電上漲 35 元收 2,180 元，鴻海漲 1.15% 收 219 元，緯穎漲 6.36%；聯發科跌 0.67%、大立光跌 4.29%，ASIC、PCB 與光通訊股多數拉回。三大法人合計賣超 213.04 億元，其中外資賣超 296.28 億元、投信買超 85.19 億元；經濟日報指三大法人本週累計賣超 2,916.16 億元，外資單週提款逾 2,800 億元。不過本週加權指數大漲 3,274.79 點、漲幅 9.09%，週線由黑翻紅，碩禾、楠梓電週漲逾三成。Bloomberg 報導，外資 11 月至今淨賣超台股達創紀錄的 331 億美元，超越 10 月的紀錄。",
+ "dive_html": "指數週線大反彈，但外資本週仍大賣，代表撐盤的是內資與政策面（禁空令、融資維持率下調），而非外資回流；11 月外資賣超創紀錄，顯示全球資金仍在降低 AI 曝險。選後首個交易日的量能與外資動向，是確認反彈能否延續的訊號。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "加權指數收 39,308.08 點、漲 156.27 點（0.4%）；成交值 6,660.69 億元；週漲 3,274.79 點（9.09%）；三大法人賣超 213.04 億元、外資賣超 296.28 億元；本週三大法人賣超 2,916.16 億元；外資 11 月賣超 331 億美元"
+  }
+ ],
+ "sources": [
+  {
+   "name": "經濟日報",
+   "title": "台股收盤／上漲156.27點收39,308.08點 台積電收2,180元漲1.63%",
+   "url": "https://money.udn.com/money/story/12509/9905811",
+   "time": "2026-11-27T13:58:11+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "經濟日報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "經濟日報",
+   "title": "台股周線翻紅飆3,274點！碩禾奪漲幅王 AI 股誰出頭？",
+   "url": "https://money.udn.com/money/story/5607/9906034",
+   "time": "2026-11-27T15:56:40+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "經濟日報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "經濟日報",
+   "title": "台積電硬撐台股翻紅！三大法人仍賣超213億元 本周提款2,916億元",
+   "url": "https://money.udn.com/money/story/5607/9905978",
+   "time": "2026-11-27T15:20:39+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "經濟日報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "經濟日報",
+   "title": "三大法人賣超台股213.04億元",
+   "url": "https://money.udn.com/money/story/5607/9905969",
+   "time": "2026-11-27T15:12:32+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "經濟日報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "經濟日報",
+   "title": "台股量縮收漲156點　週線收紅勁揚3274點",
+   "url": "https://money.udn.com/money/story/5607/9905958",
+   "time": "2026-11-27T15:08:06+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "經濟日報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "經濟日報",
+   "title": "台積電拉尾盤　台股選前量縮收漲156點",
+   "url": "https://money.udn.com/money/story/5607/9905817",
+   "time": "2026-11-27T14:00:45+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "經濟日報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "經濟日報",
+   "title": "台股漲156.27點",
+   "url": "https://money.udn.com/money/story/5607/9905803",
+   "time": "2026-11-27T13:54:49+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "經濟日報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "經濟日報",
+   "title": "台積電尾盤爆量萬餘張收高35元 台股收漲156點",
+   "url": "https://money.udn.com/money/story/5607/9905754",
+   "time": "2026-11-27T13:40:18+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "經濟日報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "Anue 鉅亨網",
+   "title": "〈台股盤後〉尾盤強拉197點由黑翻紅 收漲156點守3萬9 PCB、光通訊股走弱",
+   "url": "https://news.cnyes.com/news/id/6673677",
+   "time": "2026-11-27T13:42:17+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Anue 鉅亨網",
+   "title": "台股選前量縮 外資續砍296億、三大法人賣超213.04億元",
+   "url": "https://news.cnyes.com/news/id/6673736",
+   "time": "2026-11-27T14:59:29+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Techmeme",
+   "title": "Foreign investors sold a record net $33.1B of Taiwanese stocks in November, topping October's record outflow amid AI valuation fears and a broader tech sell-off (Eunice Xu/Bloomberg)",
+   "url": "https://www.techmeme.com/261127/p2#a261127p2",
+   "time": "2026-11-27T15:30:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

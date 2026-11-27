@@ -1,0 +1,76 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0446",
+ "title": "論文 OS-Omni：跨六平台的電腦操作代理評測，最強的 Claude Opus 5.5 成功率 68.5%、落後人類 8.8 個百分點",
+ "line": "任務平均需 67.54 步互動，代理在 iOS、macOS 落後人類逾 25 個百分點",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T08:00:00+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "Anthropic"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "OS-Omni",
+   "電腦操作代理",
+   "基準測試"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "論文提出 OS-Omni，一個跨平台的即時評測基準與執行環境，用來測試電腦操作代理在 Windows、Ubuntu、macOS、iOS、Android 與 Web 上完成長流程任務的能力。OS-Omni 以每波 300 題的版本發布，這篇聚焦第一版 v1：每個平台 48 題，另有 12 個把桌機與 Android 手機配對的跨平台流程。環境提供可重現的初始化、各平台轉接器、軌跡紀錄與可執行的最終狀態評估器，並內建帳號、購物車、預算、行事曆、訊息等需要持續狀態的服務型應用。人類實測顯示每題平均需 67.54 步互動，遠高於 OSWorld 的 15.0 步。在 v1 上表現最好的代理 Claude Opus 5.5 平均成功率 68.5%，比人類參考值 77.3% 低 8.8 個百分點；差距因平台而異，前沿模型在 Linux 上勝過人類，但在 iOS 與 macOS 落後超過 25 個百分點。",
+ "dive_html": "這份基準的新意在把「跨裝置、長流程、要真的改變最終狀態」放進同一套可重現環境，比單一平台、短步驟的既有基準更貼近真實工作。結果顯示代理的弱點不在單步操作，而在長時間追蹤狀態，以及對封閉的 Apple 平台適應不足；對做行動 App 自動化的團隊，這是選型時該看的分平台數字。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "OS-Omni: Benchmarking Generalist Computer-Using Agents on Long-Horizon Workflows Across Platforms",
+   "url": "https://huggingface.co/papers/2611.34232",
+   "time": "2026-11-27T08:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "+89",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

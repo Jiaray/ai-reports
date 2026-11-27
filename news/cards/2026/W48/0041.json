@@ -5,8 +5,8 @@
  "line": "Google Research 程式庫列出 Cogentic 11 月以來的十篇理論論文；「破解」說法僅見社群傳聞",
  "born_at": "2026-11-26T01:46:18+08:00",
  "first_reported_at": "2026-11-25T21:33:07+08:00",
- "updated_at": "2026-11-26T01:46:18+08:00",
- "version": 1,
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -95,9 +95,31 @@
    "kind": "aggregator",
    "region": null,
    "rank": 9
+  },
+  {
+   "name": "Nature",
+   "title": "Has AI just cracked Internet encryption? Rumoured ‘bombshell’ stuns scientists",
+   "url": "https://www.nature.com/articles/d41586-026-03875-6",
+   "time": "2026-11-26T00:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Nature",
+   "kind": "official",
+   "region": "歐洲",
+   "rank": 9
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-27T16:57:43+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "Nature 11 月 26 日報導，多名電腦科學家在社群媒體上表示，OpenAI、Anthropic 等頂尖 AI 實驗室可能已找到能在多項式時間內破解公鑰加密的演算法，傳聞目標包括 RSA。德州大學奧斯汀分校的 Scott Aaronson 在部落格寫道，他從「多個可靠來源」得知 AI 實驗室手上握有一項或多項「震撼彈」，但在看到細節或直接聽到實驗室人員說明前，對其具體內容「信心低得多」。Nature 指出傳聞目前無法證實，但 AI 公司本週宣布的其他數學突破，讓研究人員對此審慎看待。",
+   "update": "Nature 報導多名科學家傳 AI 實驗室已找到多項式時間破解公鑰加密的演算法，Scott Aaronson 稱消息來源可靠但細節未明",
+   "refocus": false,
+   "dive_html": "一流期刊把社群傳聞寫成專題，代表學界已把「AI 破解 RSA」當成需要準備的情境；但至今沒有任何實驗室公開論文或程式，傳聞仍停在轉述層級。"
+  }
+ ],
  "heat": {
   "outlets": 0,
   "regions": 0,

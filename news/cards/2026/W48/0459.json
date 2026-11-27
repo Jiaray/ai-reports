@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0459",
+ "title": "日本 AI 法草案：安全措施不足的 AI 業者可能遭現場檢查，OpenAI、Anthropic 等外國業者也適用",
+ "line": "日本為因應 AI 驅動的網路攻擊激增，擬加強對 AI 開發商的監管",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞"
+  ],
+  "country": [
+   "JP"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "資安"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "日本政府",
+   "OpenAI",
+   "Anthropic"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "AI 監管",
+   "現場檢查",
+   "AI 網路攻擊"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "日經亞洲 11 月 27 日報導，根據日本擬議法案的內容，在日本的 AI 公司若安全措施不足，可能要接受現場檢查；OpenAI、Anthropic 等外國開發商也將適用新規定。報導指出，日本加強 AI 監管，是為了因應先進 AI 驅動的網路攻擊激增。",
+ "dive_html": "日本過去以「軟法」、鼓勵為主管理 AI，草案把現場檢查與外國業者納入，是明顯轉向；觸發點是 AI 輔助攻擊，與歐洲多國近期的示警相呼應。報導只有導言，檢查門檻、罰則與施行時程都還不清楚。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Nikkei Asia",
+   "title": "AI firms with poor safeguards face inspections under Japan draft law",
+   "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/ai-firms-with-poor-safeguards-face-inspections-under-japan-draft-law",
+   "time": null,
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

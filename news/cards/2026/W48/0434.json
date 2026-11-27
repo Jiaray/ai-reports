@@ -1,0 +1,107 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0434",
+ "title": "SAP 遭駭客竊取員工權杖、鎖定 GitHub 帳號試圖竄改並複製原始碼，公司稱客戶資料未受影響",
+ "line": "據《明鏡》引述內部信，事件代號「Project Granite」，員工被要求保密",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T14:30:00+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "DE"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "SAP",
+   "GitHub",
+   "微軟"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "SAP",
+   "GitHub",
+   "原始碼",
+   "Project Granite",
+   "ARTEX"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "ComputerBase 引述《明鏡》週刊報導，SAP 正遭遇進行中的資安事件，攻擊者鎖定這家軟體集團的 GitHub 帳號。《明鏡》取得發給員工的內部信，信中說 SAP「發現可疑活動，正立即採取措施保護 SAP 環境與客戶」，事件處理代號為「Project Granite」。據《明鏡》掌握的資訊，攻擊者成功竊取員工的驗證權杖，並試圖藉此竄改、複製 SAP 放在 GitHub 上的原始碼。SAP 向德國公共電視《每日新聞》證實客戶資料未受影響，內部信指管理層因此認為不需主動對外說明，並要求員工對事件保密。Reuters 也報導 SAP 標示了一起資安事件，並表示沒有證據顯示客戶資料遭未授權存取。報導提到，微軟 11 月初曾警告 AI 攻擊框架 ARTEX 能自動搜尋 GitHub 上誤放的憑證，在微軟觀察到的一個案例中，從搜尋憑證到在 Azure Key Vault 竊取資料只花 5 分鐘；但報導並未證實 SAP 事件與 AI 工具有關。",
+ "dive_html": "企業軟體巨頭的原始碼若被竄改，風險會沿供應鏈流向大量客戶，「客戶資料未受影響」並不等於客戶沒有風險；SAP 選擇不主動揭露、要求員工保密，也會引發透明度質疑。對開發團隊，同一週已有 1Password、Defang、SAP 都與 GitHub 帳號或權杖遭盜有關，檢查開發者權杖的權限範圍與效期是最直接的功課。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "SAP 的 GitHub 帳號與原始碼；攻擊者取得員工驗證權杖；SAP 稱客戶資料未受影響"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ComputerBase",
+   "title": "KI-Hackerangriffe: Jetzt soll es auch SAP erwischt haben",
+   "url": "https://www.computerbase.de/news/apps/ki-hackerangriffe-jetzt-soll-es-auch-sap-erwischt-haben.100555/",
+   "time": "2026-11-27T16:17:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "ComputerBase",
+   "kind": "media",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "SAP flags security incident, says no evidence of unauthorized access to customer data",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxNN095Q1ozZFFLS1labVpzakhmSEJWeWljRVN2RmxUWlBPOUVvNU5kQVB0NVpOTmhDRjZndEw4RFJwMDd4cWVOWTR1djR1R1BfOEtyVUU3cUQ0a0ZqdTNlZUNJV1V1bXBNSkF2WUNLOUR2ejFqcTJXdlRYd0c3cHlsOUh2cndMWHNOczJjdG0xam9ULUhfU0hPaDJrbUFOWGp1SFJyaWxyNURyaHd1Q2kweGJ2N0trMHRPWVFlM0E1UEJBZWc?oc=5",
+   "time": "2026-11-27T14:30:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

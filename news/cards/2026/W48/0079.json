@@ -5,8 +5,8 @@
  "line": "任意檔案讀取 CVE-2026-120705 與授權錯誤 CVE-2026-129243 於 11 月 24 日公告修補，已有人探測",
  "born_at": "2026-11-26T01:54:26+08:00",
  "first_reported_at": "2026-11-25T20:48:54+08:00",
- "updated_at": "2026-11-26T01:54:26+08:00",
- "version": 1,
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -46,7 +46,8 @@
    "CVE-2026-120705",
    "CVE-2026-129243",
    "CVE-2026-129245",
-   "RCE"
+   "RCE",
+   "CVE-2026-129244"
   ],
   "form": [
    "新聞"
@@ -76,13 +77,34 @@
    "kind": "media",
    "region": "南亞",
    "rank": 3
+  },
+  {
+   "name": "ICSDA 資安日報",
+   "title": "GeoServer五連鎖漏洞兩天就被掃",
+   "url": "https://www.csoonline.com/article/4253667/new-geoserver-rce-exploit-chain-seen-in-the-wild-two-days-after-disclosure.html",
+   "time": "2026-11-27T06:17:19+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "CSO Online",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-27T16:57:43+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "CSO Online 報導，GeoServer 這波共揭露五個漏洞，可串成免驗證遠端程式碼執行，披露後不到兩天 watchTowr 的蜜罐就觀察到多個 IP 探測，網路上仍有逾 3,000 個實例暴露。完整攻擊鏈除原卡提到的漏洞外，還包括以過長預存查詢請求觸發錯誤、洩漏資料目錄路徑的 CVE-2026-129244，以及資料庫型使用者服務中的反序列化漏洞 CVE-2026-129242；研究人員 Burgess 已公開概念驗證程式。受影響版本為 3.0.0 至 3.0.1、2.28.0 至 2.28.5，以及 2.27.6 與更早版本。升級後會產生新的 Cookie 簽章金鑰，既有「記住我」工作階段失效，叢集部署須設定共用的 GEOSERVER_REMEMBERME_KEY；由於資料目錄可能已曝光，管理員也應更換密碼。無法立即升級時，官方建議阻擋服務值含斜線的請求、移除「記住我」過濾器，並檢查資料目錄 wfs/query 資料夾中是否有可疑的預存查詢。ICSDA 將此列為高危、需立即處理。",
+   "update": "GeoServer 五個漏洞可串成免驗證 RCE，PoC 已公開、逾 3,000 個實例暴露，升級後須更換管理員密碼",
+   "refocus": false
+  }
+ ],
  "heat": {
-  "outlets": 1,
-  "regions": 1,
-  "media_weight": 1,
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
   "community": {
    "hn": 0,
    "ptt": 0,

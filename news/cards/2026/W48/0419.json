@@ -1,0 +1,148 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0419",
+ "title": "美國新規溯及既往封堵中國遠端租用輝達算力，智譜、月之暗面新模型恐延後",
+ "line": "已出租算力給中企者須在明年 2 月底前取得許可，否則得放棄中國客戶",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-26T22:48:00+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "中國大陸",
+   "東南亞"
+  ],
+  "country": [
+   "US",
+   "CN",
+   "MY"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "AI",
+   "國際關係"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "story": [
+   "AI晶片出口管制"
+  ],
+  "sector": [
+   "半導體",
+   "軟體與雲端"
+  ],
+  "org": [
+   "美國商務部",
+   "Nvidia",
+   "智譜AI",
+   "月之暗面",
+   "進步研究所"
+  ],
+  "person": [
+   "Chris Miller",
+   "Jamieson Greer"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "出口管制",
+   "遠端算力",
+   "蒸餾",
+   "GLM-5.5"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美國商務部 11 月推出新規（中央社引述《華爾街日報》寫 19 日，RFI 引述 CNBC 寫 16 日），要求擁有輝達硬體的海外企業在把大量算力租給中國企業前，必須取得商務部許可。新規溯及既往：已大量出租受管制算力給中國客戶的企業有 90 天期限，也就是明年 2 月底前，未取得許可就得放棄中國客戶，否則面臨罰款、刑事指控或被列入貿易黑名單；社群媒體等商業用途另有豁免，官員將逐案審核。CNBC 引述知情人士指出，AI 新雲端業者被告知，只要有任何算力會租給中國公司，就買不到輝達晶片；美國貿易代表 Greer 說新規是為了堵住「漏洞」。智庫進步研究所估計，遠端存取提供中國約 24% 的 AI 算力，走私約占 22%；美國也將出口查緝人員增至約 20 人，若國會批准預算，2027 年底可達 65 人。路透社引述知情人士說，智譜 AI 原定本月發布的旗艦模型 GLM-5.5 已延後，可能延到 2027 年第一季或更晚；優先租用海外算力的月之暗面，新模型發布間隔恐從 6 個月拉長到一年以上。各企業已在馬來西亞等地投資逾 300 億美元蓋資料中心，業者可能得降價轉找美國客戶。",
+ "dive_html": "這條規定的殺傷力在「溯及既往」與「零容忍」兩點：東南亞資料中心不只不能接新中國單，舊合約也得在 90 天內切割，等於直接抽走中國近四分之一的前沿算力來源。對中國模型廠的影響已從推測變成具體時程延後，再加上 OpenAI、Anthropic 的反蒸餾措施，美中模型差距可能拉大。接下來看商務部實際核發許可的寬嚴，以及走私能否補上缺口。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "美國防堵中國租用遠端算力　新規加查緝爭搶AI競賽優勢",
+   "url": "https://www.cna.com.tw/news/aopl/202611270096.aspx",
+   "time": "2026-11-27T13:25:16+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "科技新報",
+   "title": "美國防堵中國租用遠端算力，新規加查緝爭搶 AI 競賽優勢",
+   "url": "https://technews.tw/2026/11/27/us-curbs-china-remote-compute-rentals-new-regulations-crackdowns-secure-ai-race-advantage/",
+   "time": "2026-11-27T14:40:47+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "科技新報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "RFI 中文",
+   "title": "AI新云被告知若算力出租给中国公司，将无法购买英伟达芯片",
+   "url": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20261126-ai%E6%96%B0%E4%BA%91%E8%A2%AB%E5%91%8A%E7%9F%A5%E8%8B%A5%E7%AE%97%E5%8A%9B%E5%87%BA%E7%A7%9F%E7%BB%99%E4%B8%AD%E5%9B%BD%E5%85%AC%E5%8F%B8%EF%BC%8C%E5%B0%86%E6%97%A0%E6%B3%95%E8%B4%AD%E4%B9%B0%E8%8B%B1%E4%BC%9F%E8%BE%BE%E8%8A%AF%E7%89%87",
+   "time": "2026-11-27T00:43:54+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW 中文",
+   "title": "美国限制海外算力 知情人士称中国AI公司受冲击",
+   "url": "https://www.dw.com/zh/美国限制海外算力-知情人士称中国ai公司受冲击/a-80064912?maca=chi-rss-chi-all-1127-rdf",
+   "time": "2026-11-26T22:48:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "Nvidia chip buyers told to rule out Chinese renters to purchase GPUs, sources say",
+   "url": "https://www.cnbc.com/2026/11/26/neoclouds-nvidia-china-ai.html",
+   "time": "2026-11-27T01:04:54+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 5,
+  "regions": 3,
+  "media_weight": 10,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,93 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0425",
+ "title": "澳洲旅遊集團 Flight Centre 第三方住宿訂房系統遭入侵，「大量客戶紀錄」恐遭存取",
+ "line": "多數紀錄只有姓名與基本行程，極少數含生日、護照資訊或健康與行動需求",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-26T23:29:00+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "大洋洲"
+  ],
+  "country": [
+   "AU"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "觀光"
+  ],
+  "org": [
+   "Flight Centre Travel Group",
+   "Mandiant",
+   "澳洲證券交易所"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "資料外洩",
+   "訂房系統",
+   "供應鏈"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "總部位於布里斯本的旅遊集團 Flight Centre Travel Group（FLT）11 月 26 日向澳洲證交所揭露，一套第三方住宿訂房系統遭網路攻擊，「大量客戶紀錄」可能被「不明人士」存取。受影響的系統由 Flight Centre、Travel Associates、Cruiseabout 與部分獨立旅行社共用；公司知道有紀錄被存取，但無法確定被帶走的數量，正與供應商及事件應變公司 Mandiant 確認範圍。初步檢視顯示，多數被存取的紀錄只有客戶姓名，部分含基本行程；「極小比例」可能包括生日、電子郵件、部分護照資訊、電話，少數甚至有健康或行動需求資訊。公司表示機票與企業差旅使用獨立系統，未受影響。The Register 指出，這是全球一連串鎖定訂房系統的類似事件中最新的一起。",
+ "dive_html": "又一起透過第三方服務商波及多個品牌的外洩，與同週台灣 PayNow 發票平台事件同型：主公司自己的系統沒破，資料卻在供應商那裡外流。護照與健康資訊即使比例小，對詐騙與身分冒用的價值很高；公司尚未交代攻擊手法與供應商名稱。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Flight Centre、Travel Associates、Cruiseabout 與部分獨立旅行社的住宿訂房客戶；外洩筆數原文未提供"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Register",
+   "title": "'Significant number of customer records' pwned in Flight Centre Travel Group breach",
+   "url": "https://www.theregister.com/security/2026/11/26/significant-number-of-customer-records-pwned-in-flight-centre-travel-group-breach/5312360",
+   "time": "2026-11-26T23:29:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "The Register",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -104,13 +104,37 @@
    "kind": "official",
    "region": "北美",
    "rank": 9
+  },
+  {
+   "name": "iThome 資安",
+   "title": "MiCollab漏洞修補前已遭利用，攻擊者約在1小時取得網域控制權限",
+   "url": "https://www.ithome.com.tw/news/180854",
+   "time": "2026-11-27T03:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "ICSDA 資安日報",
+   "title": "冷凍櫃控制器重大漏洞，無修補程式可用",
+   "url": "https://www.infosecurity-magazine.com/news/cisa-alert-danfoss-critical-flaw/",
+   "time": "2026-11-27T06:17:19+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Infosecurity Magazine",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 2,
-  "regions": 2,
-  "media_weight": 2,
+  "outlets": 4,
+  "regions": 4,
+  "media_weight": 4,
   "community": {
    "hn": 0,
    "ptt": 0,

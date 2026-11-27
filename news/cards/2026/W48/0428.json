@@ -1,0 +1,113 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0428",
+ "title": "SYS010 竊資攻擊以 Meta 廣告散布假動態桌布，濫用瀏覽器企業管理強裝擴充套件、讀取並刪除 Gmail 與 Outlook 郵件",
+ "line": "Bitdefender 指它鎖定 Meta 企業與廣告帳號，強制安裝的擴充套件使用者無法自行移除",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-26T19:50:17+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球",
+   "東南亞"
+  ],
+  "country": [
+   "PH",
+   "TH",
+   "BD"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "sector": [
+   "網路平台",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Bitdefender",
+   "Meta",
+   "Google",
+   "微軟",
+   "Mozilla"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "SYS010",
+   "SYS01",
+   "惡意擴充套件",
+   "Electron",
+   "惡意廣告"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "資安業者 Bitdefender 揭露新一波 SYS010 攻擊活動，研判由 2022 年起在 Facebook 惡意廣告中出現的 SYS01 竊資程式演變而來。攻擊者透過 Meta 廣告引誘 Windows 使用者下載免費動態桌布軟體，軟體能正常使用，安裝時卻在背景部署惡意程式：它濫用 Chrome 雲端管理服務與 Firefox 企業管理政策，必要時把受害電腦納入攻擊者控制的 Windows 裝置管理服務，在 Chrome、Edge、Firefox 強制安裝竊資擴充套件；這類擴充套件使用者無法從瀏覽器停用或移除，Firefox 版本甚至有 Mozilla 核發的有效簽章。變更設定需要系統管理員權限，使用者拒絕時程式會反覆跳出確認視窗。Chrome 版擴充套件能利用已登入的帳號，每次讀取最多 50 封近期 Gmail 與 Outlook 網頁版郵件傳回伺服器，藉此取得登入驗證碼，並永久刪除安全警示郵件；它也竊取 Cookie，並透過 Meta Graph API 蒐集用戶可存取的企業帳號、廣告帳號、粉絲專頁與廣告支出、付款資料。攻擊利用 Electron 11.0.3 不驗證應用程式資源完整性的特性，以合法簽章的執行檔載入惡意程式碼。Bitdefender 10 月 16 日首度發現相關廣告，五大洲都有裝置連到攻擊基礎設施，以菲律賓、泰國、孟加拉最多。",
+ "dive_html": "把「企業瀏覽器管理」這個 IT 正規功能拿來當持久化手段，讓擴充套件連一般使用者都拆不掉，是值得 IT 部門注意的新手法；刪除安全警示信則直接破壞帳號復原。對有經營粉專、投放廣告的遊戲團隊，負責廣告帳號的同事是高風險目標，該檢查電腦上是否有不明的瀏覽器管理政策。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "從 Meta 廣告下載假動態桌布軟體的 Windows 使用者，Chrome、Edge、Firefox 皆受影響；鎖定 Meta 企業、廣告帳號與 Gmail、Outlook 郵件；CVE、嚴重度原文未提供；利用狀態：已遭利用"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "BleepingComputer",
+   "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+   "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+   "time": "2026-11-26T19:50:17+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "BleepingComputer",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "iThome 資安",
+   "title": "SYS010竊資攻擊濫用瀏覽器管理功能，可攔讀並刪除Gmail與Outlook郵件",
+   "url": "https://www.ithome.com.tw/news/180855",
+   "time": "2026-11-27T03:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

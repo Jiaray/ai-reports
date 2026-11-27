@@ -1,0 +1,79 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0447",
+ "title": "論文：同一批視覺推理題，程式代理寫程式解題得分 0.92，比最強影片生成模型高出 0.22 以上",
+ "line": "研究以 500 題 VBVR-Pro-Bench 直接比較「寫程式」與「生成影片」兩條視覺推理路線",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T08:00:00+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "OpenAI",
+   "Anthropic",
+   "Google"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "視覺推理",
+   "程式代理",
+   "影片生成",
+   "VBVR-Pro-Bench"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "影片生成模型近來常被當作「視覺推理者」評測：給第一格畫面與文字指令，看模型能否生成完成任務的影片。論文質疑這條「原生視覺」路線是否真的較可靠，於是把同樣的題目、輸入、輸出規格與評分器同時交給程式代理：代理不去生成像素，而是寫程式渲染出答案影片，再由未修改的規則評分器打分。在涵蓋五類認知任務、共 500 題、有符號化標準答案的 VBVR-Pro-Bench 上，代理拿到與影片模型相同的第一格與指令，看不到答案或中繼資料，每題只能試一次。三個閉源代理（Codex 搭 gpt-6-astra、Claude Code 搭 Fable 5.1、Gemini CLI 搭 Gemini 3.1 Pro）分別得 0.923、0.894、0.893，都比最強影片模型高 0.22 以上；23 個可執行的開放權重模型中最好的 GLM-5 得 0.572，只輸給經強化學習訓練的那個影片模型。作者也區分兩類程式：從圖像中找出可遷移規則的「描繪式」程式，與寫死數值的「命題式」程式，藉此觀察代理寫的程式如何展開視覺推理。",
+ "dive_html": "結論很直接：只要答案能從第一格與指令算出來，程式合成目前遠比影片生成可靠。這對把影片模型包裝成「世界模型」「推理器」的說法是一記提醒，也提示做視覺自動化的團隊，先讓代理寫程式往往比等更大的生成模型實際。限制在於它只涵蓋解答可計算的題型。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "Solve Vision with Code: Coding Agents Are Stronger Visual Reasoners Than Video Models",
+   "url": "https://huggingface.co/papers/2611.34813",
+   "time": "2026-11-27T08:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "+8",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

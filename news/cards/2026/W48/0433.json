@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0433",
+ "title": "卡巴斯基：出廠即預裝惡意程式的 Android 裝置一年增 2.5 倍，Keenadu 今年已感染逾 22 萬台",
+ "line": "惡意程式藏在韌體系統分區，防毒軟體與作業系統都無法移除",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-26T20:57:58+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "sector": [
+   "硬體與消費電子"
+  ],
+  "org": [
+   "卡巴斯基"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "Keenadu",
+   "Triada",
+   "預裝惡意程式",
+   "供應鏈攻擊",
+   "廣告詐騙"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "卡巴斯基指出，新 Android 手機可能一出廠韌體裡就有惡意程式，每月偵測到的這類裝置數量過去一年增加超過 2.5 倍。造成多數感染的兩大家族之一 Keenadu，今年前十個月出現在逾 22 萬台裝置上；它與較老的 Triada 合計占今年預裝惡意程式裝置的 88%。Triada 約十年前首度被發現，今年出現約 20 個變種，最新版本能把惡意功能注入裝置上任何 App，並採模組化架構依目標追加酬載。卡巴斯基檢視的 Keenadu 後門會先潛伏約兩個半月，才由指揮伺服器下令啟動，研判是為了躲避偵測；它沿用 Triada 的模組化設計，多數已知案例被用於廣告詐騙、製造假點擊。這類惡意程式透過供應鏈進入裝置：有些是製造商刻意安裝，有些是品牌商從不肖外包商拿到惡意韌體，或建置流程中的元件遭入侵。卡巴斯基警告，惡意程式一旦進入系統分區，防毒工具與作業系統「技術上都不可能」移除。",
+ "dive_html": "對開發者，這意味著部分 Android 用戶的裝置本身就不可信：任何 App 都可能被注入程式碼，廣告與付費相關數據也可能被假點擊汙染。遊戲團隊若看到特定低價機型的異常廣告流量或作弊行為，值得把預裝惡意程式列入排查；報導沒有點名受影響的品牌與機型。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "今年前十個月逾 22 萬台預裝 Keenadu 的 Android 裝置；Keenadu 與 Triada 占預裝惡意程式裝置的 88%；受影響品牌原文未提供"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Help Net Security",
+   "title": "Preinstalled Keenadu malware turns up on 220,000+ Android devices",
+   "url": "https://www.helpnetsecurity.com/2026/11/26/keenadu-malware-android-devices/",
+   "time": "2026-11-26T20:57:58+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Help Net Security",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

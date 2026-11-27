@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0451",
+ "title": "（長文）The Atlantic：用 Claude 規劃家庭晚餐，作者稱 AI 讓全家重新坐下吃飯、有餘力請客",
+ "line": "作者對 AI 整體仍憂心，但認為在減輕備餐「心理負擔」上，AI 讓生活往人際連結的方向走",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-26T21:00:00+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "生活與休閒"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "The Atlantic",
+   "Anthropic"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Claude",
+   "餐食規劃",
+   "心理負擔"
+  ],
+  "form": [
+   "長文"
+  ]
+ },
+ "summary_html": "The Atlantic 作者在感恩節撰文，說明 AI 如何改變她家的晚餐。她描述多年來每天傍晚和丈夫臨時討論「吃什麼」、湊不齊食材、睡前匆忙開飯的循環，甚至一度理解那些乾脆放棄家庭晚餐的人。夫妻倆都喜歡下廚，卡關的是規劃這份「心理負擔」，也因此很少有餘力請客；她引述數據指出，美國過去 30 年辦過或參加過晚宴的比例從 70% 降到 57%，每月招待親友的人只有 12%，比 1975 年少了七成。她坦言對 AI 及其對人類未來的影響有很深的憂慮，擔心它讓人更孤立；但看到其他父母分享用 AI 規劃餐食後開始嘗試，認為在晚餐這件事上，AI 有機會反過來減輕規劃負擔、幫人找回與家人朋友同桌的時間。",
+ "dive_html": "這篇的價值在於把 AI 的好處落在一個具體、可複製的家務痛點上，而不是抽象的生產力；作者先承認對 AI 的疑慮，再談它在特定場景的正面作用，比一般科技推薦文更有說服力。文章沒有談到依賴單一 AI 服務規劃家務的隱私與成本，也只是一個家庭的經驗。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Atlantic",
+   "title": "This Thanksgiving, I’m Grateful for Claude",
+   "url": "https://www.theatlantic.com/family/2026/11/ai-claude-family-dinner/689550/",
+   "time": "2026-11-26T21:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "The Atlantic",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

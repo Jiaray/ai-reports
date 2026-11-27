@@ -1,0 +1,89 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0453",
+ "title": "（播客）Latent Space 訪 Clay AI 負責人 Jeff Barg：自家代理與 Claude Code 等外部代理用量已近五五波",
+ "line": "談 Clay 如何把銷售開發代理改造成程式代理，以及為何多數公司太早做後訓練",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T07:02:48+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Clay",
+   "Latent Space",
+   "OpenAI",
+   "Anthropic"
+  ],
+  "person": [
+   "Jeff Barg"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "GTM 代理",
+   "Sculptor",
+   "Claude Code",
+   "後訓練"
+  ],
+  "form": [
+   "播客"
+  ]
+ },
+ "summary_html": "Latent Space 這集訪問銷售資料平台 Clay 的 AI 負責人 Jeff Barg。依節目說明，Clay 希望用戶不論用自家代理或讓 Claude Code 操作 Clay，都能得到差不多的結果，目前兩者用量已接近五五波。Barg 是在 Clay 收購他共同創辦的 Avenue 時加入，當時 Clay 約 50 人，如今業務成長約 10 倍、團隊約 600 人，9 月以 71 億美元估值募得 1.15 億美元。節目談到：Clay 第一版代理 Sculptor 以一組工具在迴圈中執行，擅長加欄位卻做不好「約到十場合格會議」，評測也沒抓到用戶實際用法；團隊因此學到程式代理很會用 Bash 與 Python，把 Sculptor 重建成在雲端沙箱執行 Clay CLI 的程式代理，並以新的資料層 Audiences 串接 CRM 與 Gong。其他話題包括客戶討厭自己挑模型、團隊仍用自建的 BullMQ 系統跑代理而不用 Temporal 或 LangGraph、OpenAI 在上線前兩天喊停 Clay 的 ChatGPT App，以及為何多數公司太早投入後訓練、代理仍無法除錯其他代理。",
+ "dive_html": "這集對做 B2B 代理產品的團隊很實用：它說明了「讓外部通用代理也能好好用你的產品」可能和自建代理同樣重要，以及工具迴圈式代理撞牆後改走程式代理的具體理由。節目說明只有重點，實際的評測方法與後訓練成效細節要聽完整集才知道。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Latent Space",
+   "title": "How Clay Builds GTM Agents — Jeff Barg, Head of AI",
+   "url": "https://latent.space/p/how-clay-builds-gtm-agents-jeff-barg-head-of-ai/",
+   "time": "2026-11-27T07:02:48+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Latent Space",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

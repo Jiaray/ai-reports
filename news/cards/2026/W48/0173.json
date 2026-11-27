@@ -141,6 +141,18 @@
    "kind": "media",
    "region": "北美",
    "rank": 3
+  },
+  {
+   "name": "The Guardian US politics",
+   "title": "Kilmar Ábrego García leaves for Spain. But the Trump administration got what it wanted",
+   "url": "https://www.theguardian.com/us-news/2026/nov/26/kilmar-abrego-garcia-spain-departure-trump",
+   "time": "2026-11-26T19:00:33+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [],

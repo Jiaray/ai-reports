@@ -83,13 +83,37 @@
    "kind": "official",
    "region": null,
    "rank": 9
+  },
+  {
+   "name": "BleepingComputer",
+   "title": "OpenAI warns GPT-6.2 Astra will hit usage limits 40% faster because it fixed a bug",
+   "url": "https://www.bleepingcomputer.com/news/artificial-intelligence/openai-warns-gpt-62-astra-will-hit-usage-limits-40-percent-faster-because-it-fixed-a-bug/",
+   "time": "2026-11-27T05:06:22+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "BleepingComputer",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "Techmeme",
+   "title": "OpenAI says it corrected a GPT-6.2 Astra and Sol launch billing mistake that had incorrectly discounted usage; Astra users will now hit their limits 40% faster (Graham Barlow/TechRadar)",
+   "url": "https://www.techmeme.com/261126/p16#a261126p16",
+   "time": "2026-11-26T21:01:08+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 0,
-  "regions": 0,
-  "media_weight": 0,
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
   "community": {
    "hn": 182,
    "ptt": 0,

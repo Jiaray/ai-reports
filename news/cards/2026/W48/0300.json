@@ -124,13 +124,61 @@
    "kind": "media",
    "region": "北美",
    "rank": 2
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Judge blocks FCC from early license review for ABC, which network says has had a chilling effect",
+   "url": "https://news.google.com/rss/articles/CBMilwFBVV95cUxQbGg0cWJHckhVdmhyb3U0YXNWLTFhdmw5OHdYM2t2bVVMSzdENnNtaU94MlZfYkZ0R0htTVU2czd6LTQ2Z2tfREVyOEZLeWhaMmY0OXl5RldKREVraWtxc0ducXJNc1NuNzc4WWtKZjM3X0F5cGlvSGVBZlUza1JxTS1pNDRHaVJObE9YdTZNellnRjJjV3hN?oc=5",
+   "time": "2026-11-26T21:30:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "NPR News",
+   "title": "Storms disrupt Thanksgiving travel. And, FCC violated ABC's free speech, judge says",
+   "url": "https://www.npr.org/2026/11/26/g-s1-155950/up-first-newsletter-thanksgiving-weather-travel-trump-tariffs-iowa-detonation-fcc-free-speech",
+   "time": "2026-11-26T20:24:29+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "NPR",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "TIME",
+   "title": "‘Not a Close Case’: Judge Strikes Down Trump Administration’s Targeting of ABC",
+   "url": "https://time.com/article/2026/11/26/fcc-abc-disney-broadcast-license-early-review-judge-injunction/",
+   "time": "2026-11-26T18:30:14+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "TIME",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "The Verge",
+   "title": "Federal judge blocks the FCC from reviewing ABC’s licenses early",
+   "url": "https://www.theverge.com/policy/1043116/fcc-disney-abc-broadcast-licenses-review-early-judge-block",
+   "time": "2026-11-27T00:38:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "The Verge",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 5,
+  "outlets": 8,
   "regions": 2,
-  "media_weight": 10,
+  "media_weight": 17,
   "community": {
    "hn": 0,
    "ptt": 0,

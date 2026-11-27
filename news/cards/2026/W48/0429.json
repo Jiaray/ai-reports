@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0429",
+ "title": "Cacti 未修補零日漏洞：啟用訪客帳號時，四個 HTTP 請求就能免登入遠端執行程式碼，PoC 已公開",
+ "line": "影響最新版 Cacti Core 1.2.31，尚未取得 CVE 編號",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T13:48:20+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "開發與開源"
+  ],
+  "event": [
+   "漏洞揭露"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Cacti"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "Cacti",
+   "4HTTP2SHELL",
+   "SQL 注入",
+   "零日漏洞"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "研究人員「ek0ms savi0r」公開開源網路監控工具 Cacti 的零日漏洞細節與概念驗證程式，命名為 4HTTP2SHELL 與 4HTTP2ROOT，尚未取得 CVE 編號。研究人員表示，從一個全新、未驗證的 HTTP 工作階段出發，只要四個請求就能以 Cacti 伺服器使用者身分執行命令，「不用登入、不用有效 API 金鑰、不用釣魚」，只靠預設的訪客介面。漏洞影響最新版 Cacti Core 1.2.31，條件是啟用了訪客帳號。根本原因是 Cacti 沒有驗證使用者設定「每頁預覽圖表數」是否真的是整數，訪客可寫入任意字串，形成二階 SQL 注入，最終讓竄改過的資料被傳入 PHP 的 popen() 執行，過程沒有任何白名單或過濾。The Hacker News 報導時官方尚未釋出修補。",
+ "dive_html": "Cacti 常被拿來監控機房與網路設備，又是 PHP 老專案，台灣不少團隊的維運環境仍在用；PoC 公開、修補未出，等於攻擊門檻極低。最直接的緩解是確認訪客帳號是否啟用、並把 Cacti 介面限制在內網，別讓它對外。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Cacti Core 1.2.31（最新版），須啟用訪客帳號；CVE 尚未指派；嚴重度原文未提供；利用狀態：已有 PoC"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供（官方尚未釋出修補）"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "title": "Unpatched Cacti Zero-Day Enables RCE in Just Four HTTP Requests via Guest Access",
+   "url": "https://thehackernews.com/2026/11/unpatched-cacti-zero-day-enables-rce-in.html",
+   "time": "2026-11-27T13:48:20+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

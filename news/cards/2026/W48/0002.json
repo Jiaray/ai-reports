@@ -103,13 +103,37 @@
    "kind": "media",
    "region": "台灣",
    "rank": 3
+  },
+  {
+   "name": "Anue 鉅亨網",
+   "title": "美AI晶片禁令升級！惠譽示警亞太AIDC融資趨緊 這類業者壓力最大",
+   "url": "https://news.cnyes.com/news/id/6673563",
+   "time": "2026-11-27T10:52:11+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "美晶片管制牽動AI布局　泰國資料中心協會：台灣具優勢",
+   "url": "https://www.cna.com.tw/news/afe/202611270121.aspx",
+   "time": "2026-11-27T14:42:12+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 3,
+  "outlets": 4,
   "regions": 2,
-  "media_weight": 4,
+  "media_weight": 7,
   "community": {
    "hn": 0,
    "ptt": 0,

@@ -1,0 +1,168 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0438",
+ "title": "中國國常會罕見午間發文強化「國家隊」穩市，創業板指暴漲 11.61%、滬指收復 3,600 點",
+ "line": "會議要推動上市公司加大分紅回購、優化中央匯金類平準基金功能，恒生科技指數也漲 6.45%",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T13:00:23+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中國大陸",
+   "港澳"
+  ],
+  "country": [
+   "CN",
+   "HK"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "金融市場"
+  ],
+  "event": [
+   "政策法規",
+   "市場波動"
+  ],
+  "sector": [
+   "金融",
+   "半導體"
+  ],
+  "org": [
+   "中國國務院",
+   "中央匯金公司"
+  ],
+  "person": [
+   "李強"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "國家隊",
+   "平準基金",
+   "創業板指",
+   "A 股"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "中國國務院總理李強 11 月 27 日主持國務院常務會議，研究深化資本市場投融資綜合改革。據新華社，會議指出資本市場攸關經濟發展大局，要堅持逆周期調節與改革並行，實施好存量政策、謀劃出台增量政策；推動上市公司加大分紅回購，強化「國家隊」穩市作用，進一步優化中央匯金公司的類「平準基金」功能、提供充足流動性；並擴大保險、企業年金、社保基金等中長期資金入市，嚴查財務造假與違規減持。中央社指出國常會罕見在中午發布通稿，這是本月第 2 次針對資本市場表態。消息公布後 A 股午後急拉：上證指數收漲 3.73% 至 3,606.49 點，深證成指漲 7.24%，創業板指漲 11.61% 至 2,443.96 點，為 2024 年 10 月 8 日以來最大單日漲幅、史上第 3 次收漲逾 10%；滬深成交額人民幣 1.99 兆元，較前一日增約 6,824 億元，逾 5,300 檔上漲。半導體、記憶體、CPO、光刻機與人形機器人族群領漲，銀行股逆勢下跌。港股恒生指數漲 2.11% 至 22,694.77 點，恒生科技指數漲 6.45% 至 3,637.88 點。",
+ "dive_html": "由國務院層級在盤中直接喊話、點名匯金扮演平準基金，等於替「國家隊進場」提供明確的制度背書，短線效果立竿見影；但這波漲勢集中在國產替代題材，與美國同週封堵中國租用海外算力的消息相互對照。政策護盤能否延續，要看後續「增量政策」的具體內容與資金規模。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "上證 3,606.49 點、漲 3.73%；深證成指漲 7.24%；創業板指漲 11.61% 至 2,443.96 點；成交額人民幣 1.99 兆元；恒生指數漲 2.11%、恒生科技指數漲 6.45%"
+  }
+ ],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "中國國常會：強化「國家隊」穩市作用　午後A股反彈",
+   "url": "https://www.cna.com.tw/news/acn/202611270128.aspx",
+   "time": "2026-11-27T14:58:28+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Anue 鉅亨網",
+   "title": "〈港股盤後〉國常會重磅穩市！恒指漲2.1% 科指暴漲逾6% 重返3600點",
+   "url": "https://news.cnyes.com/news/id/6673833",
+   "time": "2026-11-27T16:36:33+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Anue 鉅亨網",
+   "title": "〈陸股盤後〉國務院釋加大穩市作用訊號  創板指飆逾11% 滬指收復3600點",
+   "url": "https://news.cnyes.com/news/id/6673735",
+   "time": "2026-11-27T16:30:03+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "21 世紀經濟報道",
+   "title": "史上第3次，创业板指涨超10%！国常会释放了哪些稳市信号？",
+   "url": "https://m.21jingji.com/article/20261127/herald/d76ae989adb6e95d26c159764d29a830.html",
+   "time": "2026-11-27T16:19:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "21 世紀經濟報道",
+   "kind": "media",
+   "region": "中國大陸",
+   "rank": 3
+  },
+  {
+   "name": "21 世紀經濟報道",
+   "title": "国常会关于资本市场部署释放五大鲜明信号",
+   "url": "https://m.21jingji.com/article/20261127/herald/dc89286db4943b9b31a9397fa7960f26.html",
+   "time": "2026-11-27T15:42:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "21 世紀經濟報道",
+   "kind": "media",
+   "region": "中國大陸",
+   "rank": 3
+  },
+  {
+   "name": "Bloomberg Markets",
+   "title": "China Stocks Rally After Rare Midday Statement on Market Support",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/china-s-cabinet-stresses-market-support-in-midday-release",
+   "time": "2026-11-27T13:00:23+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Bloomberg",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Financial Times",
+   "title": "Chinese shares soar after Beijing signals more support",
+   "url": "https://www.ft.com/content/fedc6392-ad25-43e4-9d9f-20216cbf331e?syn-25a6b1a6=1",
+   "time": "2026-11-27T14:25:21+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 5,
+  "regions": 4,
+  "media_weight": 11,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

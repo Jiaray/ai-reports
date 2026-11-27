@@ -94,11 +94,35 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 2
+  },
+  {
+   "name": "科技新報",
+   "title": "防美企「斷電開關」、追趕美中腳步！歐盟祭 500 億歐元主權基金與《量子法》拚技術自主",
+   "url": "https://technews.tw/2026/11/27/eu-50-billion-fund-quantum-act-counter-us-kill-switches-catch-up-us-china-tech-autonomy/",
+   "time": "2026-11-27T15:20:07+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "科技新報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "ITPro",
+   "title": "EU bets €50 billion on quantum sovereignty",
+   "url": "https://www.itpro.com/cybersecurity/encryption/eu-bets-eur50-billion-on-quantum-sovereignty",
+   "time": "2026-11-26T18:56:52+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "ITPro",
+   "kind": "media",
+   "region": null,
+   "rank": 9
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 3,
+  "outlets": 4,
   "regions": 2,
   "media_weight": 5,
   "community": {

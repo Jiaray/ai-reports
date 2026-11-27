@@ -80,13 +80,25 @@
    "kind": "official",
    "region": null,
    "rank": 9
+  },
+  {
+   "name": "BleepingComputer",
+   "title": "New NFS2ROOT Linux flaw can let attackers gain root privileges",
+   "url": "https://www.bleepingcomputer.com/news/security/new-nfs2root-linux-flaw-can-let-attackers-gain-root-privileges/",
+   "time": "2026-11-27T16:06:58+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "BleepingComputer",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 0,
-  "regions": 0,
-  "media_weight": 0,
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
   "community": {
    "hn": 128,
    "ptt": 0,

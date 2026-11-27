@@ -1,0 +1,161 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0420",
+ "title": "歐盟領袖選定前西班牙央行總裁 Hernández de Cos 接任歐洲央行總裁，接替拉加德",
+ "line": "法德支持下以套案通過，法國 Boone、德國 Brunnermeier 同時進入執委會，12 月正式任命",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T01:50:54+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "ES",
+   "FR",
+   "DE",
+   "NL"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "總體經濟"
+  ],
+  "event": [
+   "人事異動"
+  ],
+  "sector": [
+   "金融"
+  ],
+  "org": [
+   "歐洲中央銀行",
+   "西班牙央行",
+   "歐洲理事會"
+  ],
+  "person": [
+   "Pablo Hernández de Cos",
+   "Christine Lagarde",
+   "Klaas Knot",
+   "António Costa",
+   "Pedro Sánchez"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "歐洲央行",
+   "ECB 總裁"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "歐盟領袖 11 月 26 日選定前西班牙央行總裁 Pablo Hernández de Cos 為下任歐洲央行（ECB）總裁，接替拉加德（Christine Lagarde），他擊敗前荷蘭央行總裁 Klaas Knot，將成為首位領導 ECB 的西班牙人。據 Guardian，歐盟外交官同日也敲定另兩名執行委員會人選：法國的 Laurence Boone 與德國的 Markus Brunnermeier，三項任命是法德兩國都支持 Hernández de Cos 後達成的套案。歐洲理事會主席科斯塔表示，這將為理事會 12 月正式任命 ECB 新領導層鋪路，法國總統馬克宏也證實已就人選達成共識。Euronews 指出，他 2018 年由人民黨任命為西班牙央行總裁，這次則由桑傑士領導的社會黨推薦，被視為正統派經濟學家；週末將面臨大選、預料會落敗的桑傑士稱這是「西班牙在歐洲前所未有的領導地位」。France 24 與 CNBC 指出，他接掌時 ECB 正面臨高通膨、借貸成本與政府債務壓力，以及政治不確定與成長疲弱的環境。",
+ "dive_html": "Hernández de Cos 被普遍預期延續 ECB 現行路線，市場短期不必重新定價政策方向；但他上任時面對的是通膨仍高、多國財政吃緊、法國極右派可能勝選的局面，央行獨立性與債券市場穩定將是首要考驗。任命仍待 12 月歐洲理事會正式通過。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Leaders choose Spain’s former central bank head as next European Central Bank president",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxORV9jQzQ1ZVNiVjB4bVUyT0FMS1JPeDZ1dk1QcWt3bDR2bnZDQjFLMWtjLWtQQUYyX2lIVUxNYjN0V3d1bmdlVEtyaXNOdWhVMWU4R18wcThUSHphd3NyVVNQOGZwVTFMUXpQdUZzOG1FUUlZWWRlaDhTbmstbTd4M0dEaGl0WXlFemZHTXVPYl9iSDFGbDNWb1VNVDZfVXFUTjdRMFd3?oc=5",
+   "time": "2026-11-27T02:25:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "WSJ World News",
+   "title": "Europe Has Picked a New Central Bank Chief. He’s in for a Bumpy Ride.",
+   "url": "https://www.wsj.com/world/europe/europe-has-picked-a-new-central-bank-chief-hes-in-for-a-bumpy-ride-7d6f7fea?mod=rss_worldnews",
+   "time": "2026-11-27T02:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "The Guardian World",
+   "title": "Spain’s Pablo Hernández de Cos wins race to be next ECB president",
+   "url": "https://www.theguardian.com/business/2026/nov/26/spain-pablo-hernandez-de-cos-next-ecb-president",
+   "time": "2026-11-27T01:50:54+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Spain's De Cos chosen as next ECB president",
+   "url": "https://www.france24.com/en/spain-s-de-cos-chosen-as-next-ecb-president",
+   "time": "2026-11-27T05:40:29+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Pablo Hernández de Cos, Spain's consensus technocrat to head ECB",
+   "url": "https://www.euronews.com/2026/11/27/pablo-hernandez-de-cos-spains-consensus-technocrat-to-head-ecb",
+   "time": "2026-11-27T13:00:52+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "Spain’s Pablo Hernández de Cos set to lead European Central Bank",
+   "url": "https://www.cnbc.com/2026/11/26/pablo-hernandez-de-cos-ecb-president.html",
+   "time": "2026-11-27T14:50:38+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 6,
+  "regions": 2,
+  "media_weight": 14,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

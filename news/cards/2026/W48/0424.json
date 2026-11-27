@@ -1,0 +1,100 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0424",
+ "title": "愛沙尼亞評估 14 款 AI 與雲端工具，DeepSeek、通義千問與本土平台 Botastico 列紅燈，呼籲停用",
+ "line": "Gemini、Copilot、Mistral Vibe 獲綠燈，ChatGPT、Cursor 等為綠燈或黃燈",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T07:13:17+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "中國大陸"
+  ],
+  "country": [
+   "EE",
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安",
+   "AI"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "愛沙尼亞司法暨數位事務部",
+   "DeepSeek",
+   "阿里巴巴",
+   "Cybernetica"
+  ],
+  "person": [
+   "Liisa Pakosta"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "DeepSeek",
+   "通義千問",
+   "AI 工具評估"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據中央社引述愛沙尼亞公共廣播 ERR，愛沙尼亞司法暨數位事務部近日公布 14 款常用雲端與 AI 工具的安全評估，以紅、黃、綠燈分級。中國的 DeepSeek、阿里巴巴旗下通義千問（Qwen）與愛沙尼亞本土平台 Botastico 被列為紅燈，部長帕科斯塔呼籲政府機關、企業與家庭停止使用；政府機關早已禁用 DeepSeek。帕科斯塔指出，DeepSeek 資料在中國境內處理、安全措施與資料次處理商資訊有限、缺乏獨立的合規證據，加上中國法律適用、審查與影響風險，不符安全要求；通義千問的疑慮是資料可能在中國處理並用於訓練模型；Botastico 則未能提出 ISO/IEC 27001 或愛沙尼亞資安標準的證明、缺少保密條款。Google Gemini、微軟 Copilot、Mistral Vibe 獲綠燈，Cursor、GitHub Copilot、Google 翻譯與 ChatGPT 等也為綠燈或黃燈。參與評估的 Cybernetica 研究所所長 Dan Bogdanov 提醒，綠燈不代表用戶可免除自行查核責任，因為服務條款與安全功能隨時可能改變。",
+ "dive_html": "這份評估把「資料處理地」與「能否提出獨立合規證明」放在模型能力之前，本土平台也一樣被打紅燈，比單純以來源國禁用更有說服力，可供企業制定 AI 工具白名單時參考。對台灣開發團隊，若內部有人以 DeepSeek、Qwen 的官方 API 或 App 處理程式碼與客戶資料，這是重新檢視的理由；自行部署開放權重模型則是另一回事，評估沒有涵蓋。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "愛沙尼亞政府機關、企業與家庭使用的 14 款雲端與 AI 工具；紅燈 3 款：DeepSeek、通義千問、Botastico"
+  },
+  {
+   "name": "處置",
+   "html": "主管機關建議停止使用紅燈工具；綠燈工具仍需用戶自行查核服務條款與安全功能"
+  }
+ ],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "愛沙尼亞示警資安風險　籲停用DeepSeek等3款AI工具",
+   "url": "https://www.cna.com.tw/news/aopl/202611270015.aspx",
+   "time": "2026-11-27T07:13:17+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -76,6 +76,18 @@
    "kind": "media",
    "region": "東南亞",
    "rank": 2
+  },
+  {
+   "name": "Nikkei Asia",
+   "title": "36% minimum wage hike tests Bangladesh garment sector's low-cost model",
+   "url": "https://asia.nikkei.com/spotlight/work/36-minimum-wage-hike-tests-bangladesh-garment-sector-s-low-cost-model",
+   "time": null,
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
   }
  ],
  "log": [
@@ -89,9 +101,9 @@
   }
  ],
  "heat": {
-  "outlets": 2,
-  "regions": 2,
-  "media_weight": 3,
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 5,
   "community": {
    "hn": 0,
    "ptt": 0,

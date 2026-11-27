@@ -73,13 +73,25 @@
    "kind": "media",
    "region": "台灣",
    "rank": 1
+  },
+  {
+   "name": "公視新聞網",
+   "title": "中國人士涉教唆台灣黑幫成員 恐嚇網拍「習唯呢」公仔賣家",
+   "url": "https://news.pts.org.tw/article/837628",
+   "time": "2026-11-27T14:23:42+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "公視",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 1,
+  "outlets": 2,
   "regions": 1,
-  "media_weight": 3,
+  "media_weight": 5,
   "community": {
    "hn": 0,
    "ptt": 0,

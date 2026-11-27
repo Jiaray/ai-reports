@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0426",
+ "title": "Rackspace Spot 遭以外洩憑證入侵近 22 小時，Rackspace 宣布 12 月 8 日關閉這項低價雲端服務",
+ "line": "攻擊者冒充合法用戶在客戶 Kubernetes 叢集建立 Pod，客戶須兩週內搬遷並輪替憑證",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-26T22:45:00+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件",
+   "裁員重組"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Rackspace"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "Rackspace Spot",
+   "Kubernetes",
+   "外洩憑證"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Rackspace 11 月 24 日公告，因近期資安事件決定結束低價雲端服務 Rackspace Spot，服務將於 12 月 8 日美國中部時間 17 時（UTC 23 時）停止，屆時仍在執行的工作負載會被終止、資料也無法再存取。據 The Register 看到的客戶通知，攻擊者 11 月 17 日以外洩的憑證存取 Spot 部分系統近 22 小時，Rackspace 直到隔天客戶示警才發現；入侵者冒充合法用戶，在客戶的 Kubernetes 叢集中建立 Pod，並取得儲存的憑證。Rackspace 正通知 Spot 客戶下架時程、取回資料的方式與保護環境的步驟，客戶得在兩週內一邊處理入侵後果、一邊搬遷應用與資料。",
+ "dive_html": "由客戶而不是業者先發現入侵、隨後整個服務直接收掉，是雲端用戶最糟的情境：不只要搬家，還要假設叢集內的祕密全都外洩。若有團隊把測試環境或 CI 放在 Spot 上，該立刻輪替叢集內用過的所有金鑰，再談搬遷。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Rackspace Spot 全體客戶；攻擊者在客戶 Kubernetes 叢集建立 Pod 並取得儲存的憑證"
+  },
+  {
+   "name": "處置",
+   "html": "12 月 8 日前搬離工作負載並取回資料；輪替遭取得的憑證，照 Rackspace 通知的步驟保護環境"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Register",
+   "title": "Rackspace pulls plug on Spot cloud service after security breach",
+   "url": "https://www.theregister.com/cyber-crime/2026/11/26/rackspace-pulls-plug-on-spot-cloud-service-after-security-breach/5312352",
+   "time": "2026-11-26T22:45:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "The Register",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

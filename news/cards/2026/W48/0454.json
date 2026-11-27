@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0454",
+ "title": "英國勞動及退休金部發生「網路事件」，部分服務預防性下線",
+ "line": "部會稱一般福利與退休金照常發放，未說明事件類型與是否有個資遭存取",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T16:37:24+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "org": [
+   "英國勞動及退休金部",
+   "英國國家網路安全中心"
+  ],
+  "person": [
+   "Richard Horne"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "DWP",
+   "政府系統"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "BBC 11 月 27 日報導，英國勞動及退休金部（DWP）表示，因「影響我們系統的網路事件」，部分服務已預防性下線，正在調查原因並盡量減少對用戶的影響。DWP 說一般福利與退休金給付不受影響、會照常發放，但沒有確認事件類型，也沒說是否有個人資料遭存取。發言人表示正與國家網路安全中心（NCSC）和政府網路協調中心密切合作調查，盡快恢復服務，並提醒民眾該部「絕不會傳訊息要你提供銀行資料或點連結」。BBC 指出，NCSC 本月才發布報告呼籲各組織因應 AI 帶來的攻擊強化防禦，執行長 Richard Horne 警告網路事件數量有「前所未有增加的真實可能」。",
+ "dive_html": "DWP 掌管全英福利與退休金資料，任何個資外洩都會牽涉數千萬人；目前只有「預防性下線」與「給付照常」兩個訊息，事件性質不明。同一週英國 NCSC 才示警 AI 輔助攻擊大增，後續是否證實與此相關，值得追蹤。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "英國勞動及退休金部部分線上服務下線；福利與退休金給付不受影響；是否有個資遭存取原文未提供"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供（民眾應留意假冒 DWP 索取銀行資料的訊息）"
+  }
+ ],
+ "sources": [
+  {
+   "name": "BBC Top News",
+   "title": "Department for Work and Pensions takes some services offline after 'cyber incident'",
+   "url": "https://www.bbc.co.uk/news/articles/c8wy5p6pv2e2o",
+   "time": "2026-11-27T16:37:24+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -69,11 +69,23 @@
    "kind": "official",
    "region": null,
    "rank": 9
+  },
+  {
+   "name": "ComputerBase",
+   "title": "GPU Demo Gallery: Was einst High-End-GPUs brauchte, läuft heute im Browser",
+   "url": "https://www.computerbase.de/news/grafikkarten/gpu-demo-gallery-36-klassische-grafikkarten-demos-laufen-jetzt-im-browser.100554/",
+   "time": "2026-11-27T13:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "ComputerBase",
+   "kind": "media",
+   "region": null,
+   "rank": 9
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 0,
+  "outlets": 1,
   "regions": 0,
   "media_weight": 0,
   "community": {

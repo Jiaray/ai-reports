@@ -1,0 +1,105 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0458",
+ "title": "日本最大發電商 JERA 洽談 Anthropic、Meta 等美國科技巨頭，在東京周邊電廠旁蓋資料中心",
+ "line": "JERA 執行長稱也在和 Amazon、微軟、Google 談，採「表後」供電模式",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T10:37:32+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞"
+  ],
+  "country": [
+   "JP",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "能源"
+  ],
+  "event": [
+   "併購投資"
+  ],
+  "sector": [
+   "能源與公用事業",
+   "軟體與雲端"
+  ],
+  "org": [
+   "JERA",
+   "Anthropic",
+   "Meta",
+   "Amazon",
+   "微軟",
+   "Google"
+  ],
+  "person": [
+   "可兒行夫"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "資料中心",
+   "表後供電",
+   "千葉"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "日經亞洲 11 月 27 日報導，日本最大發電商 JERA 已與 Anthropic、Meta 等美國科技巨頭洽談，在東京周邊的發電廠旁興建資料中心，以「表後」（behind the meter）方式直接供電。JERA 全球執行長兼董事長可兒行夫受訪時表示，公司也在與 Amazon、微軟和 Google 討論。據 Reuters 轉述，JERA 10 月已與 Dell 及英國 AI 基礎設施開發商 RHAELM 合作，簽署合作備忘錄，要建立全國規模 AI 基礎設施的標準化模式，第一步是在千葉興建一座 150 億美元的超大型資料中心；JERA 發言人說 RHAELM 負責招商，並得知 RHAELM 正與多家超大型雲端業者洽談。Anthropic、Meta、Amazon、微軟與 Google 都沒有立即回應。",
+ "dive_html": "資料中心蓋在電廠旁、直接取電，可以繞過電網擴容的漫長等待，是各國電力吃緊下的主流解法；日本最大發電商親自出面招商，代表電力已成為 AI 業者選址的首要條件。同一篇報導也提到日本都市居民反對資料中心的聲浪，以及 AI 晶片管制已讓部分資料中心交易停擺，實際落地仍有變數。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Nikkei Asia",
+   "title": "Japan's JERA aims to build Anthropic, Meta data centers near power plants",
+   "url": "https://asia.nikkei.com/business/technology/artificial-intelligence/japan-s-jera-aims-to-build-anthropic-meta-data-centers-near-power-plants",
+   "time": null,
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Japan’s JERA enters talks with Anthropic, Meta to build data centres, Nikkei reports",
+   "url": "https://www.straitstimes.com/asia/east-asia/japans-jera-enters-talks-with-anthropic-meta-to-build-data-centres-nikkei-reports",
+   "time": "2026-11-27T10:37:32+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

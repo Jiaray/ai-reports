@@ -109,13 +109,37 @@
    "kind": "aggregator",
    "region": "北美",
    "rank": 9
+  },
+  {
+   "name": "The Register",
+   "title": "Microsoft: Hackers in China, N Korea using ARTEX AI tool to break into global tech systems",
+   "url": "https://www.theregister.com/security/2026/11/26/microsoft-hackers-in-china-n-korea-using-artex-ai-tool-to-break-into-global-tech-systems/5312433",
+   "time": "2026-11-27T03:04:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "The Register",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "iThome 資安",
+   "title": "中國及北韓駭客皆已於武器庫中加入ARTEX",
+   "url": "https://www.ithome.com.tw/news/180835",
+   "time": "2026-11-27T10:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 2,
-  "regions": 1,
-  "media_weight": 2,
+  "outlets": 4,
+  "regions": 3,
+  "media_weight": 4,
   "community": {
    "hn": 0,
    "ptt": 0,

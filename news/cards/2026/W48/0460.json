@@ -1,0 +1,108 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0460",
+ "title": "日本防衛省發布「防衛 AI 願景」：判斷與責任最終由人類承擔，避免依賴特定業者",
+ "line": "新版方針列五原則，12 月修訂安保三文件時將納入 AI 加速決策系統",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T14:03:42+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞"
+  ],
+  "country": [
+   "JP"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "國防與軍事"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "org": [
+   "日本防衛省",
+   "自衛隊"
+  ],
+  "person": [
+   "小泉進次郎"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "防衛AI願景",
+   "AI 主權",
+   "安保三文件"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "日本防衛省 11 月 27 日發布運用 AI 的基本方針「防衛 AI 願景」，是 2024 年首度訂定的 AI 運用基本方針修訂版，表示要從個別應用 AI，走向讓 AI 改變防衛能力發揮方式的階段。新版列出五項原則：判斷與責任由人類承擔；依國際與國內法律負責任地運用；確保安全性、可靠性、透明性與可問責；避免過度依賴特定技術、產品或業者，「不失去我國的選擇權與持續運用的主導權」；以及從作戰需求與挑戰出發導入 AI、在確保資安的同時迅速導入。運用領域包括分析與整合雷達、衛星蒐集的資訊、支援指揮官決策與草擬政策等事務。防衛大臣小泉進次郎說，目標是把 AI 與數據轉化為守護日本的力量，串聯自衛隊各項能力。防衛省也將徹底實施教育訓練，以免過度信任或依賴 AI；日本政府 12 月修訂安保三文件時，將納入以 AI 加速決策的系統，防衛省預計明年初訂定執行計畫。",
+ "dive_html": "「避免依賴特定業者」這條原則，等於把 AI 主權列為國防要求，日後採購可能偏向國產或可替換的方案，而非單押美國大廠。五原則與北約、美國的負責任軍事 AI 原則大致對齊，真正的考驗在年底安保文件與明年執行計畫如何把「人類負責」落實到具體系統。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "日本提國防AI願景　判斷與責任由人類承擔",
+   "url": "https://www.cna.com.tw/news/aopl/202611270107.aspx",
+   "time": "2026-11-27T14:03:42+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "科技新報",
+   "title": "日本提國防 AI 願景，判斷與責任由人類承擔",
+   "url": "https://technews.tw/2026/11/27/japan-defense-ai-vision-human-judgment-responsibility/",
+   "time": "2026-11-27T16:10:30+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "科技新報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Japan Times",
+   "title": "Japan releases new guidelines on use of AI by Self-Defense Forces",
+   "url": "https://www.japantimes.co.jp/news/2026/11/27/japan/self-defense-forces-ai-use/",
+   "time": "2026-11-27T14:30:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 2,
+  "media_weight": 6,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

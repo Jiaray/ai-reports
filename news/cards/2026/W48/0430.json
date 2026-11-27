@@ -1,0 +1,95 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0430",
+ "title": "Shadowserver：全球約 4,200 個 AI 自主攻擊框架暴露於公開網路，ARTEX 占七成，台灣有 10 個",
+ "line": "蜜罐兩週記錄逾萬次事件，部分來源搜尋 .env 檔、嘗試 Jenkins 預設密碼或利用 GeoServer 等已知漏洞",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T11:00:00+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球",
+   "台灣"
+  ],
+  "country": [
+   "US",
+   "HK",
+   "CN",
+   "TW"
+  ],
+  "taiwan": [
+   "直接"
+  ],
+  "topic": [
+   "資安",
+   "AI"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "org": [
+   "Shadowserver"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "ARTEX",
+   "AI 攻擊框架",
+   "PentestCode",
+   "CyberStrikeAI",
+   "AntiFox"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 iThome，Shadowserver 11 月 25 日公布最新調查：截至 11 月 23 日，每日掃描辨識出約 4,200 個公開暴露的 AI 自主攻擊框架執行個體 IP，比 11 月 15 日的 3,847 個增加 9%；Shadowserver 強調公開暴露不代表已遭入侵或正在攻擊。目前追蹤 15 種框架，ARTEX 最多、逾 2,700 個約占七成，其次為 PentestCode 約 600 個、CyberStrikeAI 約 500 個；由 ARTEX 衍生的 AntiFox 從個位數快速增加到近 200 個。地理分布以亞洲最多、近全球一半，國家以美國約 1,000 個最多，香港 696 個超越中國的 651 個居第二；台灣從上次的 20 個降到 10 個，其中 6 個是 ARTEX。蜜罐方面，11 月 9 日至 23 日有逾 80 個被辨識為 AI 攻擊框架的 IP 產生逾 1 萬次事件，近九成用 ARTEX，約六成 IP 嘗試透過蜜罐轉送流量到付款、銀行與加密貨幣服務，部分探測 n8n、Dify、Flowise 等 AI 與自動化服務；約一成搜尋 .env、Git 中繼資料等可能含憑證的檔案或嘗試 Jenkins 預設密碼，另約一成鎖定 Metabase、PHPUnit、Cisco IOS XE、GeoServer 等已知漏洞送出利用負載。多數活動是短時間自動探測，但少數來源連續數日全天運作。",
+ "dive_html": "蜜罐看到的目標清單，正好對應開發團隊最常忽略的地方：誤推的 .env、對外的 Jenkins、自架的 n8n、Dify。台灣團隊若有這類服務暴露在網路上，比追蹤攻擊框架數字更要緊的，是今天就確認它們不對外、沒有預設密碼。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "全球約 4,200 個暴露的 AI 攻擊框架執行個體（台灣 10 個）；主要鎖定憑證檔案、Jenkins 預設密碼、n8n、Dify、Flowise，以及 Metabase、PHPUnit、Cisco IOS XE、GeoServer 已知漏洞"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "iThome 資安",
+   "title": "近4,200個AI自主攻擊框架暴露於公開網路，臺灣也發現10個",
+   "url": "https://www.ithome.com.tw/news/180843",
+   "time": "2026-11-27T11:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

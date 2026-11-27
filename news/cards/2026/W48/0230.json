@@ -87,13 +87,25 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "NATO deploys AWACS airborne radar to monitor Polish airspace",
+   "url": "https://www.euronews.com/2026/11/26/nato-deploys-awacs-airborne-radar-to-monitor-polish-airspace",
+   "time": "2026-11-27T01:35:10+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 2,
+  "outlets": 3,
   "regions": 1,
-  "media_weight": 4,
+  "media_weight": 6,
   "community": {
    "hn": 0,
    "ptt": 0,

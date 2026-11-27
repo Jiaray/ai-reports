@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0444",
+ "title": "測試者稱 Anthropic 正對部分用戶 A/B 測試 Claude Opus 5.6，輸出明顯優於 5.5",
+ "line": "Anthropic 尚未宣布，X 上流傳的動畫、SVG 範例被認為出自新模型",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-26T08:00:00+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": true,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Anthropic",
+   "TestingCatalog"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Claude Opus 5.6",
+   "Claude Code",
+   "A/B 測試"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "TestingCatalog 報導，X 上近日流傳一批被認為出自 Claude Opus 5.6 的輸出，測試者認為表現比 Opus 5.5 明顯進步，但 Anthropic 尚未宣布任何消息。X 用戶 leo 11 月 24 日表示，新模型可能正以類似 Opus 5.5 上線前的方式，對部分 Claude 用戶測試，有些在 Claude Code、有些在 Chat，並稱「比 Opus 5.5 跳了一大步」；用戶 Chetaslua 貼出 Claude Code 截圖，稱請求是從「Opus 5.5 Extra」導向新模型，並公開一段純用程式碼生成、包含音樂與畫面的手繪風動畫短片。報導也回顧，10 月中曾有 Opus 5.5 請求疑似落到未公開模型上，可能是早期的 Opus 5.6 或 Fable 5.5；Fable 5.5 最終沒有正式推出，Anthropic 11 月 9 日改發布 Fable 5.2 與 Mythos 5.2。",
+ "dive_html": "證據全是社群截圖與未署名範例，連模型名稱都是測試者自己標的，可信度停在傳聞層級。但 Anthropic 過去確有上線前灰度測試的模式，若屬實，Opus 線距 5.5 不久就再升級，顯示前沿模型的迭代週期持續縮短。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "Early outputs: Anthropic is A/B testing Claude Opus 5.6",
+   "url": "https://www.testingcatalog.com/testers-share-early-results-possible-claude-opus-5-6/#google_vignette?utm_source=tldrai",
+   "time": "2026-11-26T08:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "40 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50655798",
+   "family": "testingcatalog.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 40,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

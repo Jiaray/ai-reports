@@ -169,13 +169,49 @@
    "kind": "media",
    "region": "東南亞",
    "rank": 2
+  },
+  {
+   "name": "紐約時報中文網",
+   "title": "宏福苑大火一周年：民众纪念逝者，北京警告“以灾乱港”",
+   "url": "https://cn.nytimes.com/china/20261127/hong-kong-fire-wang-fuk-court-anniversary/",
+   "time": "2026-11-27T03:55:01+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "New York Times",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "DW 中文",
+   "title": "「168個死者的公義到現在都沒有」——宏福苑大火一周年悼念",
+   "url": "https://www.dw.com/zh/「168個死者的公義到現在都沒有」-宏福苑大火一周年悼念/a-80067919?maca=chi-rss-chi-all-1127-rdf",
+   "time": "2026-11-27T01:05:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Hong Kong mourns victims of deadly Wang Fuk Court fire one year on",
+   "url": "https://www.euronews.com/video/2026/11/26/hong-kong-mourns-victims-of-deadly-wang-fuk-court-fire-one-year-on",
+   "time": "2026-11-27T00:48:35+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 7,
+  "outlets": 9,
   "regions": 5,
-  "media_weight": 16,
+  "media_weight": 20,
   "community": {
    "hn": 0,
    "ptt": 0,

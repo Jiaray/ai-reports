@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0455",
+ "title": "阿根廷第 3 季經濟活動萎縮 1.8%、連兩季衰退，陷技術性衰退",
+ "line": "內需疲弱抵銷油氣與礦業成長，米雷伊政府呼籲先別下衰退定論",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T01:23:52+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中南美"
+  ],
+  "country": [
+   "AR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "總體經濟"
+  ],
+  "event": [
+   "數據發布"
+  ],
+  "org": [
+   "阿根廷國家統計局"
+  ],
+  "person": [
+   "Javier Milei"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "技術性衰退",
+   "EMAE"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Euronews，阿根廷國家統計局（Indec）公布的每月經濟活動指標（EMAE）顯示，7 至 9 月經濟活動萎縮 1.8%，繼第 2 季下滑 1% 後連兩季萎縮，陷入技術性衰退。9 月雖比 8 月回升 1.1%，仍比去年同月低 1.2%。衰退主因是內需疲弱、購買力下滑，與資源開發產業的成長形成對比：9 月油氣與礦業年增 11.1%，卻不足以抵銷其他產業的下滑，漁業崩跌 48.6%，農業降 2%，製造業降 1.8%。米雷伊（Javier Milei）政府呼籲在宣布衰退前保持審慎，但經濟學家認為連兩季萎縮的數據已清楚指向衰退；正式 GDP 數據將於 12 月 16 日公布。",
+ "dive_html": "米雷伊以震撼療法壓下通膨後，代價開始反映在內需與就業上；經濟靠油氣、礦業出口撐住，結構偏向資源依賴。12 月 16 日正式 GDP 若確認衰退，將考驗其改革路線的政治支持度。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "第 3 季經濟活動萎縮 1.8%；第 2 季萎縮 1%；9 月年減 1.2%、月增 1.1%；油氣與礦業年增 11.1%；漁業降 48.6%、農業降 2%、製造業降 1.8%"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Euronews",
+   "title": "Argentina enters technical recession as weak consumption undermines Milei's economic gains",
+   "url": "https://www.euronews.com/2026/11/26/argentina-enters-technical-recession-as-weak-consumption-undermines-mileis-economic-gains",
+   "time": "2026-11-27T01:23:52+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

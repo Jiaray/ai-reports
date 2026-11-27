@@ -82,6 +82,18 @@
    "kind": "aggregator",
    "region": "北美",
    "rank": 9
+  },
+  {
+   "name": "Solidot",
+   "title": "地球连续六天气温比工业化前水平高 2C",
+   "url": "https://www.solidot.org/story?sid=86001",
+   "time": "2026-11-26T22:06:07+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Solidot",
+   "kind": "aggregator",
+   "region": "中國大陸",
+   "rank": 9
   }
  ],
  "log": [],

@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0442",
+ "title": "MiniMax 推出 H3 Family 影片與圖像模型，旗艦 H3 支援 2K 輸出、每秒 0.08 美元起",
+ "line": "H3 開源 100 天已衍生 1,472 個模型、累計下載逾 1.48 億次",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-26T20:00:09+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "MiniMax",
+   "fal",
+   "Suno",
+   "HeyGen",
+   "Pika"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "H3",
+   "H3-Image",
+   "影片生成"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "MiniMax 11 月 26 日在官方部落格發布 H3 Family，包括旗艦 H3、H3-Highspeed、H3-Lite、H3-Image 系列，以及 fal、Suno、HeyGen、Pika 等第三方以 H3 為基礎的延伸模型。MiniMax 表示，H3 開源 100 天以來已衍生 1,472 個模型，累計下載超過 1.48 億次；旗艦 H3 支援 2K 輸出，起價每秒 0.08 美元，H3-Image Highspeed 最快 10 秒內就能生成 4K 圖像。",
+ "dive_html": "MiniMax 把社群衍生數與第三方合作模型一起打包發表，是在用開源生態當護城河，與閉源影片模型拚價格；不過同一週 MiniMax 正面對 Dragos 的資料外流調查與 Apple 下架聊天 App，企業採用時的信任問題可能比價格更關鍵。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AIHOT",
+   "title": "MiniMax 推出 H3 Family：旗舰与扩展视频图像模型",
+   "url": "https://aihot.news/items/cxodjj13xa8ey821rbnmumcrf",
+   "time": "2026-11-26T20:00:09+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

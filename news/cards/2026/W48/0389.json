@@ -69,6 +69,18 @@
    "kind": "media",
    "region": "北美",
    "rank": 3
+  },
+  {
+   "name": "Slashdot",
+   "title": "Scientists Used Seabirds To Track Hidden Ships",
+   "url": "https://news.slashdot.org/story/26/11/26/0422228/scientists-used-seabirds-to-track-hidden-ships",
+   "time": "2026-11-27T15:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "3 comments",
+   "family": "Slashdot",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
   }
  ],
  "log": [],

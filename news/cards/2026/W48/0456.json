@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0456",
+ "title": "日經亞洲：台灣九合一選前官員與政治人物遭一波網路攻擊，安全官員提防中國試探弱點",
+ "line": "觀察人士認為中國把台北市長選舉視為 2028 年總統大選的前哨",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": null,
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "台灣",
+   "中國大陸"
+  ],
+  "country": [
+   "TW",
+   "CN"
+  ],
+  "taiwan": [
+   "直接"
+  ],
+  "topic": [
+   "資安",
+   "選舉",
+   "兩岸"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "story": [
+   "2026九合一選舉"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "網路攻擊",
+   "九合一選舉",
+   "影響力操作"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "日經亞洲 11 月 27 日報導，台灣 11 月 28 日地方選舉前夕，一連串網路攻擊鎖定官員與政治人物，安全官員提防中國藉此試探台灣民主的弱點；報導指中國涉嫌以影響力操作干預選舉。報導引述觀察人士說法，中國把台北市長選舉視為 2028 年總統大選的前哨。報導只有導言，沒有交代攻擊的手法、規模與具體對象。",
+ "dive_html": "選前針對政治人物的網攻與先前查核機構揭露的 AI 假影片、境外拜票電話，構成同一波壓力；投票本身採人工計票、計票系統不連外網，攻擊目標更可能是帳號、內部通訊與輿論。報導細節有限，攻擊規模與來源仍待官方說明。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "台灣官員與政治人物，規模原文未提供"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Nikkei Asia",
+   "title": "Taiwan weathers wave of cyberattacks ahead of Saturday's elections",
+   "url": "https://asia.nikkei.com/spotlight/cybersecurity/taiwan-weathers-wave-of-cyberattacks-ahead-of-saturday-s-elections",
+   "time": null,
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

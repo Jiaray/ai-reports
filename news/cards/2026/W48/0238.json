@@ -63,13 +63,25 @@
    "kind": "media",
    "region": "東北亞",
    "rank": 2
+  },
+  {
+   "name": "公視新聞網",
+   "title": "沖繩首里城辦災後復原完成儀式 謝長廷、李逸洋出席引中共不滿",
+   "url": "https://news.pts.org.tw/article/837626",
+   "time": "2026-11-27T15:09:34+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "公視",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 1,
-  "regions": 1,
-  "media_weight": 2,
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 4,
   "community": {
    "hn": 0,
    "ptt": 0,

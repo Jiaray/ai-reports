@@ -5,8 +5,8 @@
  "line": "示警點名 ARTEX、DeepSeek Harness 紅隊版、PentAGI 等攻擊框架，攻擊對象多是設定錯誤與外洩憑證",
  "born_at": "2026-11-26T16:09:33+08:00",
  "first_reported_at": "2026-11-26T03:39:31+08:00",
- "updated_at": "2026-11-26T16:09:33+08:00",
- "version": 1,
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -97,13 +97,47 @@
    "kind": "media",
    "region": "台灣",
    "rank": 3
+  },
+  {
+   "name": "The Hacker News",
+   "title": "Switzerland Confirms AI-Assisted Cyberattacks Breached Critical Infrastructure Operators",
+   "url": "https://thehackernews.com/2026/11/switzerland-confirms-ai-assisted.html",
+   "time": "2026-11-27T14:04:20+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "iThome 資安",
+   "title": "義大利、瑞士示警AI代理式攻擊，籲24小時內修補對外系統漏洞",
+   "url": "https://www.ithome.com.tw/news/180821",
+   "time": "2026-11-27T08:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-27T16:57:43+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "瑞士國家網路安全中心主任 Florian Schütz 接受瑞士公共廣播 SRF 訪問時表示，瑞士近日確認 5 起使用 AI 代理的攻擊，其中 4 起成功入侵，是瑞士首批此類案例；5 起中有 3 起鎖定關鍵基礎設施營運商，其中 2 起得手，目前沒有重大服務中斷。受害者未具名，也不知道攻擊者是誰，受害組織包括主動通報的中小企業。該中心 11 月 24 日的公告曾說當時已知案例全數入侵成功，訪問與公告都沒有說明數字為何改變。瑞士 NCSC 指出，自 10 月以來公開網路上可直接存取的 AI 攻擊代理數量增加近一倍，並建議企業在重大安全更新發布後最遲 24 小時內修補對外系統，同時減少對外開放的系統，並對網頁郵件、VPN 等外部可存取資源全面啟用多因素驗證或通行金鑰。",
+   "update": "瑞士確認 5 起 AI 代理攻擊有 4 起入侵成功、其中 2 起是關鍵基礎設施，建議重大更新 24 小時內修補對外系統",
+   "refocus": false,
+   "dive_html": "瑞士從「示警」進到「確認關鍵基礎設施已被攻破」，AI 代理攻擊已不是推演情境。24 小時修補建議幾乎等於宣告月修補週期過時；對台灣團隊而言，最實際的是先盤點對外系統數量並補上 MFA，因為代理找的多半是既有弱點而非新漏洞。"
+  }
+ ],
  "heat": {
-  "outlets": 2,
-  "regions": 2,
-  "media_weight": 2,
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 3,
   "community": {
    "hn": 0,
    "ptt": 0,

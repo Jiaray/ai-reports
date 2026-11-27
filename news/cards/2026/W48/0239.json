@@ -98,13 +98,25 @@
    "kind": "media",
    "region": "東南亞",
    "rank": 2
+  },
+  {
+   "name": "BBC World",
+   "title": "Sheikh Hasina's planned return puts Bangladesh on edge - and India in a bind",
+   "url": "https://www.bbc.co.uk/news/articles/cx30g71rev23o",
+   "time": "2026-11-27T08:47:43+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 3,
-  "regions": 3,
-  "media_weight": 7,
+  "outlets": 4,
+  "regions": 4,
+  "media_weight": 9,
   "community": {
    "hn": 0,
    "ptt": 0,

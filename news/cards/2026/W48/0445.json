@@ -1,0 +1,89 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0445",
+ "title": "DeepMind 已讓 AI 代理自主掌控部分算力跑 Gemini 實驗，Kavukcuoglu：離遞迴自我改進仍遠",
+ "line": "為了安全，訓練時不獎勵代理的思考鏈，讓意圖在行動前能被審查",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-27T08:03:18+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "歐洲"
+  ],
+  "country": [
+   "US",
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Google DeepMind"
+  ],
+  "person": [
+   "Koray Kavukcuoglu"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Gemini",
+   "AI 代理",
+   "遞迴自我改進",
+   "思考鏈"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "The Decoder 報導，Google DeepMind 研究副總裁、主導 Gemini 開發的 Koray Kavukcuoglu 在公司播客中表示，DeepMind 讓 AI 代理自行掌控部分算力、為下一代 Gemini 跑實驗，但離完整的遞迴自我改進仍很遠。他說 DeepMind 的策略已轉變：不再為 AlphaFold、核融合等專案各設團隊，而是用單一通用演算法同時服務科學與產品；每一代 Gemini 都是手工打造的一次性成果，而非固定架構，另有平行團隊開發後續版本。安全措施方面，DeepMind 訓練時不獎勵代理的內部思考鏈，讓它們的意圖在行動前保持未經修飾、可用自然語言審查。他也指出，現在的 AI 能在畫面上逼真呈現流體與碰撞，卻不精確理解其物理；沒有任何基準能捕捉智慧的核心，也就無法判斷何時達到 AGI，他認為要等日常產品贏得足夠信任、讓人願意交付決策，AGI 才算開始。",
+ "dive_html": "「AI 代理自主分配算力做研究」是 AI 加速 AI 研發的具體一步，也是安全研究最關注的風險點；DeepMind 主動公開「不獎勵思考鏈」的做法，等於承認監督代理意圖已是實際工程需求。播客說法沒有交代代理掌控的算力比例與權限邊界，外界難以評估自主程度。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "AI agents now control part of DeepMind's compute for Gemini experiments",
+   "url": "https://the-decoder.com/ai-agents-now-control-part-of-deepminds-compute-for-gemini-experiments-but-recursive-self-improvement-remains-distant/",
+   "time": "2026-11-27T08:03:18+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "54 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50661218",
+   "family": "the-decoder.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 54,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

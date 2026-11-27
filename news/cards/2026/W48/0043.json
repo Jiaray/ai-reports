@@ -137,13 +137,37 @@
    "kind": "media",
    "region": "北美",
    "rank": 3
+  },
+  {
+   "name": "Help Net Security",
+   "title": "US agency tracking money laundering is latest casualty in string of federal breaches",
+   "url": "https://www.helpnetsecurity.com/2026/11/26/fincen-breach-systems-offline/",
+   "time": "2026-11-26T19:05:01+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Help Net Security",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "ICSDA 資安日報",
+   "title": "美國FinCEN遭入侵，反洗錢申報大塞車",
+   "url": "https://www.ithome.com.tw/news/180830",
+   "time": "2026-11-27T06:17:19+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 6,
-  "regions": 3,
-  "media_weight": 9,
+  "outlets": 8,
+  "regions": 4,
+  "media_weight": 11,
   "community": {
    "hn": 0,
    "ptt": 0,

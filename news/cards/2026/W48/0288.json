@@ -5,8 +5,8 @@
  "line": "兩則 Reuters 報導同日指向 MiniMax 的資安與兒少安全問題",
  "born_at": "2026-11-26T16:09:33+08:00",
  "first_reported_at": "2026-11-26T09:30:01+08:00",
- "updated_at": "2026-11-26T16:09:33+08:00",
- "version": 1,
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -37,7 +37,11 @@
   ],
   "org": [
    "MiniMax",
-   "Apple"
+   "Apple",
+   "Dragos",
+   "Atlas Cloud",
+   "OpenRouter",
+   "字節跳動"
   ],
   "weight": [
    "中"
@@ -96,13 +100,59 @@
    "kind": "aggregator",
    "region": "北美",
    "rank": 9
+  },
+  {
+   "name": "AIHOT",
+   "title": "Dragos 调查称 MiniMax 在用户请求不存储的情况下仍打开提示词中的私有链接",
+   "url": "https://aihot.news/items/v5fxjqr2vapkk9vn1j9a8ke96",
+   "time": "2026-11-27T15:21:40+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "AIHOT",
+   "kind": "aggregator",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "科技新報",
+   "title": "涉向未成年人傳性暗示訊息，蘋果下架 AI 聊天機器人 Talkie",
+   "url": "https://technews.tw/2026/11/27/apple-pulls-minimax-ai-chatbot-from-app-store-over-child-safety-concerns/",
+   "time": "2026-11-27T14:50:48+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "科技新報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "涉向未成年人傳性暗示訊息　蘋果下架AI聊天機器人Talkie",
+   "url": "https://www.cna.com.tw/news/ait/202611270043.aspx",
+   "time": "2026-11-27T10:55:21+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-27T16:57:43+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "美國資安公司 Dragos 調查指出，MiniMax 會收集並開啟使用者提示詞中的私人連結，即使使用者要求不儲存資料。Dragos 在送往多家 AI 服務的近 200 萬則提示詞中埋入陷阱連結與假登入頁，只有送到 MiniMax 伺服器的連結在數天後被不明第三方開啟；其中一個連結 24 天後出現在字節跳動飛書的對話裡，北京、上海共 6 台裝置在 2 分鐘內開啟。另有 git 用戶端試圖複製提示詞中提到的私人程式庫，目前不清楚是誰、有沒有取走程式碼。MiniMax 回應，其安全系統會收集連結並自動開啟部分連結檢查威脅，沒有保留完整對話、已刪除儲存的網址，也沒有發現對話流向第三方。Atlas Cloud 已停止把請求轉給 MiniMax，並要 M3、M2.7、M3.1 Flash 用戶把金鑰視為已外洩；OpenRouter 移除 3 家供應商並收緊資料隱私規則。",
+   "update": "Dragos 以陷阱連結測試發現，送到 MiniMax 的提示詞連結遭第三方開啟，Atlas Cloud 停止轉送請求、OpenRouter 收緊規則",
+   "refocus": false,
+   "dive_html": "這是第一份以大規模金絲雀測試具體指出單一模型供應商外流資料的調查，比先前的「資料遭存取」更直接衝擊企業信任；MiniMax 的「安全掃描」說法解釋得了自動開啟，卻解釋不了連結出現在飛書對話與有人嘗試複製程式庫。"
+  }
+ ],
  "heat": {
-  "outlets": 1,
-  "regions": 1,
-  "media_weight": 3,
+  "outlets": 3,
+  "regions": 2,
+  "media_weight": 7,
   "community": {
    "hn": 0,
    "ptt": 0,

@@ -1,0 +1,119 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0422",
+ "title": "英國央行警告 AI 融資規模與廣度威脅金融穩定，同時提議調降英國銀行資本要求",
+ "line": "總裁貝利稱 AI 護欄應由立法者而非監理機關設定，將以金融穩定委員會主席身分推動國際測試",
+ "born_at": "2026-11-27T16:57:43+08:00",
+ "first_reported_at": "2026-11-26T19:12:00+08:00",
+ "updated_at": "2026-11-27T16:57:43+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "GB"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "金融市場",
+   "AI"
+  ],
+  "event": [
+   "政策法規",
+   "聲明評論"
+  ],
+  "sector": [
+   "金融"
+  ],
+  "org": [
+   "英國央行",
+   "金融穩定委員會",
+   "G20"
+  ],
+  "person": [
+   "Andrew Bailey",
+   "Andy Burnham"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "金融穩定報告",
+   "AI 融資",
+   "資本要求"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 WSJ，英國央行美國時間 11 月 26 日表示，AI 投資熱潮支撐全球經濟成長，但所需融資的規模與廣度，讓全球金融體系面對挫折時更脆弱；英國央行同時提議調降英國銀行的資本要求，讓更多資本可用於股利、庫藏股或放款，並稱可增加對英國家庭與企業的放款能力。總裁貝利（Andrew Bailey）接受 Politico 訪問時表示，各國政府需要讓民眾相信越來越強大的 AI 模型有好處，民眾有理由追問一項可能「在金融體系炸出破洞」、也能幫忙採買聖誕禮物的技術到底帶來什麼。他支持首相 Burnham 把 AI 放在英國接任 G20 主席國的核心議程，但認為護欄應由立法者而非監理機關設定，並以養育孩子比喻：既要給機會，也要設界線。他也將以金融穩定委員會（FSB）主席身分，推動對 AI 巨頭前沿模型的更多國際測試與存取。",
+ "dive_html": "央行把 AI 從「成長動能」改列為「金融穩定風險來源」，與同週 AI 相關公司 CDS 利差創高、那斯達克逼近熊市的市場訊號相互呼應；同時放寬銀行資本要求，顯示英國央行一邊示警、一邊仍想刺激放款。報導沒有交代 AI 融資的具體曝險金額。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Politico Europe",
+   "title": "Bank of England boss warns AI must benefit humans",
+   "url": "https://www.politico.eu/article/bank-of-england-boss-warns-ai-must-benefit-humans/",
+   "time": "2026-11-27T11:00:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "Politico",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "WSJ World News",
+   "title": "BOE Warns Scale and Breadth Of AI Financing Poses Threat to Financial Stability",
+   "url": "https://www.wsj.com/world/uk/boe-warns-scale-and-breadth-of-ai-financing-poses-threat-to-financial-stability-005ad739?mod=rss_worldnews",
+   "time": "2026-11-26T19:37:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "WSJ World News",
+   "title": "Bank of England Proposes Cut to U.K. Bank Capital Requirements",
+   "url": "https://www.wsj.com/business/bank-of-england-proposes-cut-to-u-k-bank-capital-requirements-456b852d?mod=rss_worldnews",
+   "time": "2026-11-26T19:12:00+08:00",
+   "added_at": "2026-11-27T16:57:43+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}
