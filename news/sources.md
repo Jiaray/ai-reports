@@ -50,20 +50,20 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | npr_news | NPR News | rss | https://feeds.npr.org/1001/rss.xml |  | 10 | 是 | headlines | 新聞 | en | politics,society |  | 2026-11-26 | 2026-11-27 | NPR 新聞總覽；feed 只留 10 則 |
 | solidot | Solidot | rss | https://www.solidot.org/index.rss |  | 15 | 是 | tech_media | 新聞 | zh-CN | tech,science |  | 2026-11-26 | 2026-11-27 | 中文版 Slashdot，短訊 |
 | tmtpost | 鈦媒體 | rss | https://www.tmtpost.com/rss.xml |  | 15 | 是 | tech_media | 新聞 | zh-CN | tech,finance |  | 2026-11-26 | 2026-11-27 | 中國科技商業；feed 帶全文 |
-| kr36 | 36氪 | rss | https://feed.quanwenrss.com/feed/36kr-latest.xml |  | 15 | 是 | tech_media | 新聞 | zh-CN | tech,finance |  | 2026-11-26 | 2026-11-26 | quanwenrss 代理（原站 feed 沒有時間）；每則連回 36kr.com |
+| kr36 | 36氪 | rss | https://feed.quanwenrss.com/feed/36kr-latest.xml |  | 15 | 是 | tech_media | 新聞 | zh-CN | tech,finance |  | 2026-11-26 | 2026-11-27 | quanwenrss 代理（原站 feed 沒有時間）；每則連回 36kr.com |
 | malwarebytes | Malwarebytes Labs | rss | https://www.malwarebytes.com/blog/feed/index.xml |  | 5 | 是 | security_news | 新聞 | en | security,life |  | 2026-11-26 | 2026-11-27 | 詐騙與消費者資安 |
 | sspai | 少数派 | rss | https://sspai.com/feed |  | 5 | 是 | life_news | 新聞 | zh-CN | life,tech |  | 2026-11-26 |  | App 與效率工具 |
 | time_mag | TIME | rss | https://time.com/feed/ |  | 10 | 是 | politics_news | 新聞 | en | politics,reading |  | 2026-11-26 | 2026-11-27 | feed 帶全文 |
 | new_sciencealert_com | ScienceAlert | rss | https://www.sciencealert.com/feed/gn/ |  | 10 | 是 | discovered | 新聞 | en-US | tech,science |  | 2026-11-26 |  | 2026-11-26 自動進主線；網站 https://www.sciencealert.com |
-| new_nypost_com | New York Post | rss | https://nypost.com/feed/ |  | 10 | 是 | discovered | 新聞 | en-US | social,cross_strait,politics,finance,tech |  | 2026-11-26 |  | 2026-11-27 自動進主線；網站 https://nypost.com |
+| new_nypost_com | New York Post | rss | https://nypost.com/feed/ |  | 10 | 是 | discovered | 新聞 | en-US | social,cross_strait,politics,finance,tech |  | 2026-11-26 | 2026-11-27 | 2026-11-27 自動進主線；網站 https://nypost.com |
 
 ## 領域：台灣
 
 | 代號 | 名稱 | 抓法 | 網址 | 查詢 | 則數 | 正文 | 區塊 | 形式 | 語言 | 系列 | 釘選 | 加入日期 | 最近收錄 | 備註 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| mygopen | MyGoPen | rss | https://www.mygopen.com/feeds/posts/default/?max-results=40 |  | 20 | 是 | fact_checks | 新聞 | zh-TW | taiwan_general |  | 2026-11-25 | 2026-11-26 |  |
+| mygopen | MyGoPen | rss | https://www.mygopen.com/feeds/posts/default/?max-results=40 |  | 20 | 是 | fact_checks | 新聞 | zh-TW | taiwan_general |  | 2026-11-25 | 2026-11-27 |  |
 | tfc | 台灣事實查核中心 | rss | https://tfc-taiwan.org.tw/fact-check-reports/feed/ |  | 20 | 是 | fact_checks | 新聞 | zh-TW | taiwan_general |  | 2026-11-25 | 2026-11-27 |  |
-| ptt_news | PTT 時事看板 | ptt_news | https://www.ptt.cc |  | 15 | 否 | ptt_pulse | 新聞 | zh-TW | taiwan_general,social |  | 2026-11-25 | 2026-11-26 | 八卦、政黑板的 [新聞]／[爆卦] 主文，只有標題與推文數 |
+| ptt_news | PTT 時事看板 | ptt_news | https://www.ptt.cc |  | 15 | 否 | ptt_pulse | 新聞 | zh-TW | taiwan_general,social |  | 2026-11-25 | 2026-11-27 | 八卦、政黑板的 [新聞]／[爆卦] 主文，只有標題與推文數 |
 | ncdr_alerts | NCDR 示警 | ncdr_alerts | https://alerts.ncdr.nat.gov.tw/RssAtomFeeds.ashx |  | 20 | 否 | official_alerts | 新聞 | zh-TW | taiwan_general | 是 | 2026-11-25 | 2026-11-27 | 國家災害防救科技中心官方示警 |
 | cna_disaster | 中央社 CNA | cna | https://www.cna.com.tw | 地震,颱風,豪雨,洪水,災害,停班,停課,撤離,土石流 | 15 | 是 | coverage | 新聞 | zh-TW | taiwan_general |  | 2026-11-25 | 2026-11-26 | 中央社政治、社會、國際三個 feed 的災害關鍵字 |
 | pts_disaster | 公視新聞網 | rss | https://news.pts.org.tw/xml/newsfeed.xml | 地震,颱風,豪雨,洪水,災害,停班,停課,撤離,土石流 | 15 | 是 | coverage | 新聞 | zh-TW | taiwan_general |  | 2026-11-25 |  | 公視的災害關鍵字 |
@@ -109,7 +109,7 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | pool_ft | Financial Times | pool | https://www.ft.com/rss/home |  | 30 | 否 | international_pool | 新聞 | en | finance |  | 2026-11-25 | 2026-11-27 |  |
 | fed_monetary | 聯準會 | rss | https://www.federalreserve.gov/feeds/press_monetary.xml |  | 5 | 是 | policy_official | 新聞 | en | finance | 是 | 2026-11-26 |  | 貨幣政策新聞稿；量少，釘選 |
 | bloomberg_markets | Bloomberg Markets | rss | https://www.bloomberg.com/feeds/markets/news.rss |  | 20 | 否 | finance_coverage | 新聞 | en | finance |  | 2026-11-26 | 2026-11-27 | 付費牆，只有標題與摘要 |
-| fortune | Fortune | rss | https://fortune.com/feed/fortune-feeds/?id=3230629 |  | 10 | 是 | finance_coverage | 新聞 | en | finance |  | 2026-11-26 | 2026-11-26 | feed 帶全文 |
+| fortune | Fortune | rss | https://fortune.com/feed/fortune-feeds/?id=3230629 |  | 10 | 是 | finance_coverage | 新聞 | en | finance |  | 2026-11-26 | 2026-11-27 | feed 帶全文 |
 | cn21jingji | 21 世紀經濟報道 | rss | https://feed.quanwenrss.com/feed/21caijing-home.xml |  | 15 | 是 | finance_coverage | 新聞 | zh-CN | finance |  | 2026-11-26 | 2026-11-27 | quanwenrss 代理；每則連回 21jingji.com |
 
 ## 領域：科技
@@ -162,7 +162,7 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | the_register | The Register | rss | https://www.theregister.com/headlines.atom |  | 15 | 是 | tech_media | 新聞 | en | tech,security |  | 2026-11-26 | 2026-11-27 | 企業 IT、雲端與資安；feed 帶全文 |
 | slashdot | Slashdot | rss | https://rss.slashdot.org/Slashdot/slashdotMain |  | 10 | 是 | tech_media | 新聞 | en | tech |  | 2026-11-26 | 2026-11-27 | 社群投稿、編輯摘要；每則連到 Slashdot 討論頁 |
 | macrumors | MacRumors | rss | https://feeds.macrumors.com/MacRumors-All |  | 10 | 是 | tech_media | 新聞 | en | tech |  | 2026-11-26 | 2026-11-26 | Apple 消息 |
-| ithome_cn | IT 之家 | rss | https://www.ithome.com/rss/ |  | 20 | 是 | tech_media | 新聞 | zh-CN | tech |  | 2026-11-26 | 2026-11-26 | 中國科技新聞，一天 60 則以上 |
+| ithome_cn | IT 之家 | rss | https://www.ithome.com/rss/ |  | 20 | 是 | tech_media | 新聞 | zh-CN | tech |  | 2026-11-26 | 2026-11-27 | 中國科技新聞，一天 60 則以上 |
 | cyberscoop | CyberScoop | rss | https://cyberscoop.com/feed/ |  | 10 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 | 2026-11-26 | 美國資安政策 |
 | helpnetsecurity | Help Net Security | rss | https://www.helpnetsecurity.com/feed/ |  | 10 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 | 2026-11-27 |  |
 | darkreading | Dark Reading | rss | https://www.darkreading.com/rss.xml |  | 10 | 是 | security_news | 新聞 | en | security |  | 2026-11-26 | 2026-11-26 |  |
@@ -183,7 +183,7 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | sciencenews | Science News | rss | https://www.sciencenews.org/feed |  | 20 | 是 | science_news | 新聞 | en | science |  | 2026-11-25 | 2026-11-26 |  |
 | statnews | STAT News | rss | https://www.statnews.com/feed/ |  | 30 | 是 | health_news | 新聞 | en | health |  | 2026-11-25 | 2026-11-27 |  |
 | medicalxpress | Medical Xpress | rss | https://medicalxpress.com/rss-feed/ |  | 10 | 是 | health_news | 新聞 | en | health |  | 2026-11-25 | 2026-11-27 | 則數 30→10（2026-11-26 第一次全收 30 則收 3、正文全抓不到） |
-| sciencedaily_health | ScienceDaily Health | rss | https://www.sciencedaily.com/rss/health_medicine.xml |  | 30 | 是 | health_news | 新聞 | en | health |  | 2026-11-25 | 2026-11-26 |  |
+| sciencedaily_health | ScienceDaily Health | rss | https://www.sciencedaily.com/rss/health_medicine.xml |  | 30 | 是 | health_news | 新聞 | en | health |  | 2026-11-25 | 2026-11-27 |  |
 | guardian_health | The Guardian Health | rss | https://www.theguardian.com/society/health/rss |  | 30 | 是 | health_news | 新聞 | en | health |  | 2026-11-25 | 2026-11-27 |  |
 | npr_health | NPR Health | rss | https://feeds.npr.org/1128/rss.xml |  | 30 | 是 | health_news | 新聞 | en | health |  | 2026-11-25 | 2026-11-27 |  |
 | mongabay | Mongabay | rss | https://news.mongabay.com/feed/ |  | 20 | 是 | environment_news | 新聞 | en | environment |  | 2026-11-25 | 2026-11-26 | 台灣端沒有固定更新的環境媒體 feed |
@@ -204,7 +204,7 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 | cna_stars | 中央社 CNA | rss | https://feeds.feedburner.com/rsscna/stars |  | 15 | 是 | entertainment_news | 新聞 | zh-TW | entertainment |  | 2026-11-25 | 2026-11-26 | 中央社影劇分類 |
 | deadline | Deadline | rss | https://deadline.com/feed/ |  | 10 | 是 | entertainment_news | 新聞 | en | entertainment |  | 2026-11-25 | 2026-11-26 | 則數 20→10（2026-11-26 第一次全收 12 則收 2） |
 | cna_sport | 中央社 CNA | rss | https://feeds.feedburner.com/rsscna/sport |  | 10 | 是 | sports_news | 新聞 | zh-TW | sports |  | 2026-11-25 | 2026-11-27 | 中央社運動分類；則數 15→10（2026-11-26 第一次全收 13 則收 2） |
-| bbc_sport | BBC Sport | rss | https://feeds.bbci.co.uk/sport/rss.xml |  | 10 | 是 | sports_news | 新聞 | en | sports |  | 2026-11-25 | 2026-11-26 | 則數 20→10（2026-11-26 第一次全收 20 則收 2） |
+| bbc_sport | BBC Sport | rss | https://feeds.bbci.co.uk/sport/rss.xml |  | 10 | 是 | sports_news | 新聞 | en | sports |  | 2026-11-25 | 2026-11-27 | 則數 20→10（2026-11-26 第一次全收 20 則收 2） |
 | pool_bbc_arts | BBC Entertainment & Arts | pool | https://feeds.bbci.co.uk/news/entertainment_and_arts/rss.xml |  | 30 | 否 | international_pool | 新聞 | en | culture |  | 2026-11-25 | 2026-11-27 |  |
 | lifehacker | Lifehacker | rss | https://lifehacker.com/rss |  | 10 | 是 | life_news | 新聞 | en | life |  | 2026-11-26 |  | 實用技巧；feed 帶全文 |
 | atlas_obscura | Atlas Obscura | rss | https://www.atlasobscura.com/feeds/latest |  | 5 | 是 | life_news | 新聞 | en | life,culture |  | 2026-11-26 |  | 旅行與冷知識 |
@@ -261,17 +261,17 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 
 | 代號 | 名稱 | 抓法 | 網址 | 查詢 | 則數 | 正文 | 區塊 | 形式 | 語言 | 系列 | 釘選 | 加入日期 | 最近收錄 | 備註 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| new_neowin_net | Neowin | rss | https://www.neowin.net |  | 10 | 是 | discovered | 新聞 |  | tech |  | 2026-11-26 |  | 發現 1 次；卡 @359；檢查未過 2 次：網站抓不到（HTTP 403） |
-| new_telegraph_co_uk | The Telegraph | rss | https://www.telegraph.co.uk |  | 10 | 是 | discovered | 新聞 |  | finance |  | 2026-11-26 |  | 發現 1 次；卡 @563；檢查未過 1 次：網站抓不到（HTTP 402） |
-| new_nextgov_com | NextGov | rss | https://www.nextgov.com |  | 10 | 是 | discovered | 新聞 |  | security |  | 2026-11-26 |  | 發現 1 次；卡 @381；檢查未過 1 次：首頁找不到 feed（<link rel="alternate">） |
-| new_cnn_com | CNN | rss | https://www.cnn.com |  | 10 | 是 | discovered | 新聞 |  | cross_strait |  | 2026-11-26 |  | 發現 1 次；卡 @502；檢查未過 1 次：首頁找不到 feed（<link rel="alternate">） |
-| new_stcn_com | 證券時報 | rss | https://www.stcn.com |  | 10 | 是 | discovered | 新聞 |  | tech,finance |  | 2026-11-26 |  | 發現 1 次；卡 @266；檢查未過 1 次：網站抓不到（ReadTimeout: HTTPSConnectionPool(host='203.107.63.113', port=443): Read timed out. (read timeout=15)） |
-| new_cbsnews_com | CBS News | rss | https://www.cbsnews.com |  | 10 | 是 | discovered | 新聞 |  | social,cross_strait,politics,finance,tech |  | 2026-11-26 |  | 發現 1 次；卡 2026-W48-0064；檢查未過 1 次：feed 抓不到（HTTP 404） |
-| new_iowacapitaldispatch_com | Iowa Capital Dispatch | rss | https://iowacapitaldispatch.com |  | 10 | 是 | discovered | 新聞 |  | health,environment |  | 2026-11-26 |  | 發現 1 次；卡 2026-W48-0130；檢查未過 1 次：網站抓不到（HTTP 403） |
+| new_telegraph_co_uk | The Telegraph | rss | https://www.telegraph.co.uk |  | 10 | 是 | discovered | 新聞 |  | finance |  | 2026-11-26 |  | 發現 1 次；卡 @563；檢查未過 2 次：網站抓不到（HTTP 402） |
+| new_nextgov_com | NextGov | rss | https://www.nextgov.com |  | 10 | 是 | discovered | 新聞 |  | security |  | 2026-11-26 |  | 發現 1 次；卡 @381；檢查未過 2 次：首頁找不到 feed（<link rel="alternate">） |
+| new_cnn_com | CNN | rss | https://www.cnn.com |  | 10 | 是 | discovered | 新聞 |  | cross_strait |  | 2026-11-26 |  | 發現 1 次；卡 @502；檢查未過 2 次：首頁找不到 feed（<link rel="alternate">） |
+| new_stcn_com | 證券時報 | rss | https://www.stcn.com |  | 10 | 是 | discovered | 新聞 |  | tech,finance |  | 2026-11-26 |  | 發現 1 次；卡 @266；檢查未過 2 次：網站抓不到（ReadTimeout: HTTPSConnectionPool(host='203.107.63.113', port=443): Read timed out. (read timeout=15)） |
+| new_cbsnews_com | CBS News | rss | https://www.cbsnews.com |  | 10 | 是 | discovered | 新聞 |  | social,cross_strait,politics,finance,tech |  | 2026-11-26 |  | 發現 1 次；卡 2026-W48-0064；檢查未過 2 次：feed 抓不到（HTTP 404） |
+| new_iowacapitaldispatch_com | Iowa Capital Dispatch | rss | https://iowacapitaldispatch.com |  | 10 | 是 | discovered | 新聞 |  | health,environment |  | 2026-11-26 |  | 發現 1 次；卡 2026-W48-0130；檢查未過 2 次：網站抓不到（HTTP 403） |
 
 ## 停用
 
 | 代號 | 名稱 | 抓法 | 網址 | 查詢 | 則數 | 正文 | 區塊 | 形式 | 語言 | 系列 | 釘選 | 加入日期 | 最近收錄 | 備註 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| new_neowin_net | Neowin | rss | https://www.neowin.net |  | 10 | 是 | discovered | 新聞 |  | tech |  | 2026-11-26 |  | 發現 1 次；卡 @359；檢查未過 3 次，停用：網站抓不到（HTTP 403） |
 | xbox_wire | Xbox Wire | rss | https://news.xbox.com/en-us/feed/ |  | 10 | 是 | gamedev_news | 新聞 | en | game_dev |  | 2026-11-26 |  | 使用者 2026-11-26 移除；官方公告 |
 | playstation_blog | PlayStation Blog | rss | https://blog.playstation.com/feed/ |  | 10 | 是 | gamedev_news | 新聞 | en | game_dev |  | 2026-11-26 |  | 使用者 2026-11-26 移除；官方公告 |
