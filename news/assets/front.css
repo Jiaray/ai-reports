@@ -32,7 +32,6 @@
 [data-look=atlas] .fp-chip-n{font-family:var(--font-num);color:var(--color-neutral-700)}
 [data-look=atlas] .fp-chip[aria-pressed=true]{background:var(--g-c,var(--color-accent-600));color:var(--color-bg)}
 [data-look=atlas] .fp-chip[aria-pressed=true] .fp-chip-n{color:inherit}
-[data-look=atlas] .fp-it{border-left-width:4px}
 @media(hover:hover){[data-look=atlas] .fp-chip[aria-pressed=false]:hover{background:var(--color-accent-100);color:var(--color-text)}}
 /* 手機：拿掉則數、各處收小 */
 @media(max-width:40em){
@@ -48,15 +47,6 @@
 }
 /* 強制色彩：底色被換掉 → 按下的標籤加外框 */
 @media(forced-colors:active){.fp-chip[aria-pressed=true]{outline:2px solid Highlight;outline-offset:-4px}}
-
-/* ── 條目（本日焦點的退路 focusRow）：系列・時刻、標題、一句話；每張一樣 ── */
-.fp-it{margin:var(--space-2) 0;padding:6px 0 6px 12px;border-left:3px solid var(--g-c,var(--color-divider))}
-.fp-mt{display:flex;flex-wrap:wrap;align-items:baseline;gap:0 6px;font:600 12.5px/1.5 var(--font-body)}
-.fp-ty{color:var(--g-c,var(--color-neutral-600))}
-.fp-ty+.fp-ty::before{content:"、";margin-right:2px;color:var(--color-neutral-600)}
-.fp-tm{font-weight:500;color:var(--color-neutral-600)}
-.fp-tm::before{content:"・";margin-right:2px}
-@media(forced-colors:active){.fp-it{border-left-color:CanvasText}}
 
 /* ── 本日焦點：一條清單（不按整點分段），條目是 rows.js 的列表列 ── */
 .fp-focus{margin-top:var(--space-4)}
@@ -83,19 +73,6 @@
 .fp-map-empty{margin:28px 0 0;font:400 13.5px/1.6 var(--font-body);color:var(--color-neutral-600)}
 @media(pointer:coarse){.fp-sec-a{min-height:44px;align-items:center}}
 @media(forced-colors:active){.fp-sec-t::before{background:CanvasText}}
-/* 部署空窗 rows.js 還沒到時的退路（front.js focusRow）：沿用 .fp-it；系列・多久前・更新｜標題（連新聞卡頁）｜一句話 */
-.fp-card>.fp-mt{margin:0}
-.fp-mt>.fp-tm:first-child::before{content:none}
-.fp-upd{padding:0 5px;border:1px solid var(--color-accent-600);color:var(--color-accent-700);font:700 11px/1.6 var(--font-body);letter-spacing:.06em;white-space:nowrap}
-/* 網路討論：同非當期提示的黃底＋警告圖示（不只靠顏色） */
-.fp-online{display:inline-flex;align-items:center;gap:4px;padding:0 6px;background:var(--stale-tint);color:var(--stale-fg);font:600 12px/1.6 var(--font-body)}
-.fp-online-ico,.fp-online-ico svg{display:block;flex:none;width:13px;height:13px}
-.fp-cd-title{margin:2px 0 0}
-.fp-cd-title a:hover{color:var(--color-accent-700)}
-.fp-cd-title a:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
-.fp-line{margin:3px 0 0;font:400 15px/1.6 var(--font-body);color:var(--color-neutral-800)}
-[data-look=atlas] :is(.fp-upd,.fp-online){border-radius:var(--r-sm,6px)}
-@media(forced-colors:active){.fp-online{border:1px solid}}
 
 /* ── 本日焦點：今天日期與農民曆（almanac.js 的 .fp-alm）── 定案：不搶新聞——小字、無底色、細框，高度約等於小日曆（約 100px）。
    三格：左國曆＋農曆＋沖煞（節氣不顯示），中宜忌，右當月行政日曆，左右兩格照內容寬、宜忌補滿；留白壓到最少；精簡後三格在 40em 以上都放得下，
@@ -175,8 +152,6 @@
 .fp-src:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:3px}
 @media(pointer:coarse){.fp-src{min-height:44px}}
 @media(forced-colors:active){.fp-src-bad{text-decoration:underline}.fp-src-chev{border-color:LinkText}}
-/* 觸控：放檔尾才蓋得過前面同權重的 min-height；本日焦點整張可點（標題連結的 ::after 撐滿條目） */
-@media(pointer:coarse){.fp-card{position:relative}.fp-cd-title a::after{content:"";position:absolute;inset:0}}
 /* 定案：過濾標籤列距 6px，是觸控 44px 的唯一例外；透明 ::after 上下各補 3px（列距一半）→ 約 27–28px
    （WCAG 2.5.8 最低 24px），兩列可點範圍剛好接上、不重疊 */
 @media(pointer:coarse){

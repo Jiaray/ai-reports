@@ -18,9 +18,9 @@
   const DATA = 'sources-status.json';
   const TITLE = '新聞來源';
   const STALE_HOURS = 8;     // 最後一輪超過這麼多小時：黃色提示（同本日焦點頁尾入口）
-  // 門檻照資料（sources-status.json 的 near_rounds、bench_rounds，news-aggregator source_list 的常數）；舊資料沒有才用預設
-  let NEAR = 11;             // 快進板凳：主線、沒釘選，連續這麼多輪沒收錄
-  let BENCH_ROUNDS = 14;     // 連續這麼多輪沒收錄移到板凳
+  // 門檻照資料（sources-status.json 的 near_rounds、bench_rounds，news-aggregator source_list 的常數；page() 時填入）
+  let NEAR = 0;              // 快進板凳：主線、沒釘選，連續這麼多輪沒收錄
+  let BENCH_ROUNDS = 0;      // 連續這麼多輪沒收錄移到板凳
   const DOMAIN = '領域：';
   const OFF = { 板凳: 'bench', 待檢: 'pending', 停用: 'off' };
   const TAIPEI_MS = 8 * 3600 * 1000;
@@ -43,7 +43,7 @@
   const toolbar = () => B.toolbar([
     B.navLink('新聞首頁', 'front', './', null),
     srBox,
-    B.storyLink ? B.storyLink(null) : null,
+    B.storyLink(null),
     vwBox,
   ]);
   function layoutPanel() {
@@ -244,8 +244,8 @@
     ]);
   }
   function page(doc) {
-    NEAR = int(doc.near_rounds) || 11;
-    BENCH_ROUNDS = int(doc.bench_rounds) || 14;
+    NEAR = doc.near_rounds;
+    BENCH_ROUNDS = doc.bench_rounds;
     const list = units(doc);
     // 選中的那一類重抓後變成 0 個：退回「全部」（不留一片空白）
     if (filter !== 'all' && !list.some((u) => statusOf(u) === filter)) filter = 'all';
@@ -312,7 +312,8 @@
     } catch (e) {
       err = e;
     }
-    const valid = got && typeof got === 'object' && Array.isArray(got.units);
+    const valid = got && typeof got === 'object' && Array.isArray(got.units)
+      && [got.near_rounds, got.bench_rounds].every((n) => Number.isInteger(n) && n > 0);
     if (valid) {
       const changed = !doc || doc.built_at !== got.built_at;
       doc = got;
@@ -321,7 +322,7 @@
       return;
     }
     if (doc) return; // 回前景重抓失敗：留著畫面上的
-    // 404、格式不對（JSON 壞、沒有 units）＝還沒產生；其他（網路）＝載入失敗
+    // 404、格式不對（JSON 壞、沒有 units 或門檻）＝還沒產生；其他（網路）＝載入失敗
     kids = !err || err instanceof SyntaxError || /^HTTP 404$/.test(err.message) ? missingPage() : failedPage(err);
     draw(false);
   }
@@ -329,7 +330,7 @@
   async function main() {
     layoutPanel();
     const index = await A.getJSON('index.json').catch(() => null);
-    srBox = B.seriesMenu ? B.seriesMenu(index, null) : null;
+    srBox = B.seriesMenu(index, null);
     await load();
     setInterval(() => { if (document.visibilityState === 'visible') syncStale(); }, 60000);
     const refresh = () => { if (document.visibilityState === 'visible') load().then(syncStale).catch(() => {}); };

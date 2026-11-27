@@ -1,21 +1,19 @@
 /* 暫時頁（news/adhoc.html#<slug>；樣式摘要第 10 節）：讀 adhoc/<slug>.json（一次臨時查詢的結果）；不進任何選單、面板或目錄，只用網址開。
    報頭：查詢主題（title）、「臨時查詢・M/D HH:MM 查詢・N 張」，下接說明列。清單依事件時間分天（新到舊，日段同系列頁），
    同一天內依重要程度（rows.js byImportance）；每張是 rows.js 的不展開列 link()：上方小字（系列・HH:MM）、標題連新聞卡頁、一句話。
-   不標 op（新增、補充、比對到），只照卡本身的 last_update 標「更新」。事件時間、系列等由索引建置補進暫時頁資料（契約 §9 1.16），
-   舊資料缺的依編號讀週索引補。找不到（已刪或代號錯）顯示說明與回本日焦點。hashchange 重畫。
-   依賴 A.bar、A.rows（要有 link()：部署空窗配到舊 rows.js 時只放一行說明）；A.look 選用。
+   不標 op（新增、補充、比對到），只照卡本身的 last_update 標「更新」。事件時間、系列等由索引建置補進暫時頁資料（契約 §9 1.16）。
+   找不到（已刪或代號錯）顯示說明與回本日焦點。hashchange 重畫。
+   依賴 A.bar、A.rows；A.look 選用。
    日段沿用 series.css 的 .sp-sec／.sp-dh／.sp-list；其餘樣式在 adhoc.css（.ah／.ah-*）。 */
 (() => {
   'use strict';
   const A = window.AIR;
   const h = A.h;
   const B = A.bar;
-  const R = A.rows && typeof A.rows.link === 'function' && typeof A.rows.byImportance === 'function' ? A.rows : null;
+  const R = A.rows;
   const app = document.getElementById('app');
   const root = document.documentElement;
   const SLUG_RE = /^[a-z0-9][a-z0-9_-]{0,40}$/; // 同 publish.py 的暫時頁路徑
-  // 補欄位時取週索引輕量條目的這幾項（同索引建置補進暫時頁資料的欄位；家數等不放，上方小字只有系列與時刻）
-  const DERIVED = ['event_at', 'series', 'weight', 'heat_rank', 'last_update', 'title', 'line'];
   const str = (v) => (typeof v === 'string' ? v : '');
   const list = (v) => (Array.isArray(v) ? v : []);
   const valid = (iso) => typeof iso === 'string' && !Number.isNaN(Date.parse(iso));
@@ -55,7 +53,7 @@
   const toolbar = () => B.toolbar([
     B.navLink('新聞首頁', 'front', './', null),
     srBox,
-    B.storyLink ? B.storyLink(null) : null,
+    B.storyLink(null),
     vwBox,
   ]);
 
@@ -109,46 +107,27 @@
   const backLink = () => h('a', { class: 'ah-back', href: './' }, ['回本日焦點']);
 
   // ── 資料 ──
-  // 暫時頁的卡：編號合法、有標題、不重複；缺事件時間的（舊資料）依編號讀週索引補 DERIVED 那幾項
-  async function cardsOf(doc) {
+  // 暫時頁的卡：編號合法、有標題、事件時間合法、不重複
+  function cardsOf(doc) {
     const seen = new Set();
-    const cards = list(doc.cards).filter((c) => {
-      if (!c || typeof c !== 'object' || !R.cardPath(c.id) || !str(c.title) || seen.has(c.id)) return false;
+    return list(doc.cards).filter((c) => {
+      if (!c || typeof c !== 'object' || !R.cardPath(c.id) || !str(c.title) || !valid(c.event_at) || seen.has(c.id)) return false;
       seen.add(c.id);
       return true;
-    });
-    const need = cards.filter((c) => !valid(c.event_at));
-    if (!need.length) return cards;
-    const found = new Map();
-    const paths = [...new Set(need.map((c) => R.cardPath(c.id).replace(/\d{4}\.json$/, 'index.json')))];
-    (await Promise.all(paths.map((p) => A.getJSON(p).catch(() => null)))).forEach((d) => list(d && d.cards).forEach((e) => {
-      if (e && typeof e.id === 'string') found.set(e.id, e);
-    }));
-    return cards.map((c) => {
-      const e = !valid(c.event_at) && found.get(c.id);
-      if (!e) return c;
-      const add = {};
-      DERIVED.forEach((k) => { if (e[k] !== undefined && e[k] !== null) add[k] = e[k]; });
-      add.event_at = R.eventAt(e);
-      return { ...c, ...add };
     });
   }
 
   // ── 一頁 ──
-  // 日段：同系列頁（段標題黏在工具列下方、右邊張數），新到舊；同一天內 byImportance。找不到事件時間的接在最後「時間不明」
+  // 日段：同系列頁（段標題黏在工具列下方、右邊張數），新到舊；同一天內 byImportance
   function sections(cards) {
-    const timed = cards.filter((c) => valid(c.event_at));
-    const odd = cards.filter((c) => !valid(c.event_at));
     const imp = R.byImportance((c) => c.event_at);
-    const one = (c) => R.link(c, { meta, time: valid(c.event_at) ? R.time(c.event_at, R.hm(c.event_at), R.mdw(c.event_at)) : null, tag: 'li' });
-    const sec = (id, title, items, day) => h('section', { class: 'sp-sec ah-day', id, 'aria-labelledby': `${id}-h`, 'data-day': day || null }, [
+    const one = (c) => R.link(c, { meta, time: R.time(c.event_at, R.hm(c.event_at), R.mdw(c.event_at)), tag: 'li' });
+    const sec = (id, title, items) => h('section', { class: 'sp-sec ah-day', id, 'aria-labelledby': `${id}-h` }, [
       h('h2', { class: 'sp-dh', id: `${id}-h` }, [h('span', { class: 'sp-dh-t' }, [title]), h('span', { class: 'sp-n' }, [`${items.length} 張`])]),
       h('ol', { class: 'sp-list', role: 'list' }, items.map(one).filter(Boolean)),
     ]);
-    const days = [...new Set(timed.map((c) => R.dayOf(c.event_at)))].sort().reverse();
-    const out = days.map((day) => sec(`d-${day}`, R.dayLabel(day), timed.filter((c) => R.dayOf(c.event_at) === day).sort(imp), day));
-    if (odd.length) out.push(sec('d-none', '時間不明', odd));
-    return out;
+    const days = [...new Set(cards.map((c) => R.dayOf(c.event_at)))].sort().reverse();
+    return days.map((day) => sec(`d-${day}`, R.dayLabel(day), cards.filter((c) => R.dayOf(c.event_at) === day).sort(imp)));
   }
 
   function page(slug, doc, cards) {
@@ -162,8 +141,8 @@
           h('p', { class: 'ah-note' }, ['這是臨時查詢的結果頁，7 天內沒有再查就會刪除；裡面的新聞卡不受影響，連結照樣能開。']),
         ]),
         h('main', { id: 'main', class: 'ah' }, cards.length ? sections(cards) : [h('p', { class: 'ah-empty' }, ['這次查詢沒有收進任何新聞卡。'])]),
-        // 記號說明（rows.js；舊 rows.js 沒有 legend 就不放）
-        ...(cards.length && R.legend ? [R.legend()] : []),
+        // 記號說明（rows.js）
+        ...(cards.length ? [R.legend()] : []),
       ],
     };
   }
@@ -201,21 +180,15 @@
   async function load(moved) {
     const my = ++ticket;
     index = await indexDoc;
-    if (srBox === undefined) srBox = B.seriesMenu ? B.seriesMenu(index, null) : null;
+    if (srBox === undefined) srBox = B.seriesMenu(index, null);
     const slug = hashText();
-    if (!R) { // 部署空窗：新 HTML 配到缺檔或舊的 rows.js（沒有 link()）
-      show({ title: '臨時查詢', kids: [head('臨時查詢'), h('main', { id: 'main', class: 'ah' }, [h('p', { class: 'load-error', role: 'status' }, [
-        '這一頁剛更新，有些檔案還沒到；過幾分鐘重新整理再試。', backLink(),
-      ])])] }, moved);
-      return;
-    }
     let p;
     if (!SLUG_RE.test(slug)) p = gone();
     else {
       try {
         const doc = await A.getJSON(`adhoc/${slug}.json`);
         if (!doc || typeof doc !== 'object' || (doc.slug && doc.slug !== slug)) p = gone();
-        else p = page(slug, doc, await cardsOf(doc));
+        else p = page(slug, doc, cardsOf(doc));
       } catch (err) {
         p = /^HTTP 404$/.test(err && err.message) ? gone() : failed(err);
       }

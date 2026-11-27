@@ -128,24 +128,8 @@
 [data-look=standard] .fp-sec-t::before{content:none}
 [data-look=standard] .fp-sec-n{font:400 13px/1.4 var(--font-sans);color:var(--link)}
 [data-look=standard] .fp-sec-a:hover .fp-sec-n{color:var(--accent)}
-/* 本日焦點的退路條目（.fp-it，front.js focusRow） */
-[data-look=standard] .fp-it{margin:0;padding:0;border-left:0;background:none}
-[data-look=standard] .fp-mt{font:500 var(--fs-tag)/1.5 var(--font-sans);gap:0}
-[data-look=standard] .fp-ty{color:var(--accent);letter-spacing:.04em}
-[data-look=standard] .fp-ty+.fp-ty::before{color:var(--text-3)}
-[data-look=standard] .fp-tm{color:var(--text-3);font-weight:400;font-size:var(--fs-meta)}
-[data-look=standard] .fp-tm::before{content:none}
-[data-look=standard] .fp-it .row-title{font:var(--fw-head) var(--fs-card)/1.4 var(--font-sans);color:var(--text-head)}
-/* 本日焦點的退路清單：細線分隔 */
+/* 本日焦點的清單 */
 [data-look=standard] .fp-focus{margin-top:20px}
-[data-look=standard] .fp-focus .fp-it{padding:16px 0;border-top:var(--hair) solid var(--border)}
-[data-look=standard] .fp-focus .fp-it:first-child{padding-top:4px;border-top:0}
-[data-look=standard] .fp-focus .fp-mt>:not(.fp-ty,:first-child){margin-left:8px}
-[data-look=standard] .fp-cd-title a{color:var(--text-head)}
-[data-look=standard] .fp-cd-title a:hover{color:var(--accent)}
-[data-look=standard] .fp-line{margin-top:4px;font:var(--fw-body) 15px/1.65 var(--font-sans);letter-spacing:var(--ls-body);color:var(--text-2)}
-[data-look=standard] .fp-upd{border-color:var(--accent);border-radius:var(--radius-sm);color:var(--accent);font:500 12px/1.3 var(--font-sans);padding:1px 5px}
-[data-look=standard] .fp-online{border-radius:var(--radius-sm);font:500 12px/1.6 var(--font-sans)}
 /* 列表列（rows.js）：不用領域色線，細線分隔，單欄清單；每列一樣，沒有頭條樣式 */
 [data-look=standard] .rw{margin:0;padding:16px 0;border-left:0;border-top:var(--hair) solid var(--border);background:none}
 [data-look=standard] .rw:first-child{padding-top:4px;border-top:0}
@@ -176,7 +160,6 @@
 [data-look=standard] .rw-fold{color:var(--text-3);font:400 13.5px/1.3 var(--font-sans)}
 [data-look=standard] .rw-fold:hover{color:var(--accent)}
 [data-look=standard] .rw-sep{border-left-color:var(--border)}
-[data-look=standard] .rw-flag{border-radius:var(--radius-sm);background:var(--badge-bg);color:var(--badge-text);font:600 12px/1.5 var(--font-sans);letter-spacing:.04em;padding:1px 6px;vertical-align:3px}
 /* 不展開的一列（暫時頁）：標題連結 hover 換品牌色；一句話 15px */
 [data-look=standard] .rw .rw-go:hover{color:var(--accent)}
 [data-look=standard] .rw-go-ar{color:var(--text-3)}
@@ -216,15 +199,14 @@
 [data-look=standard] .fq-clear{color:var(--link);font:400 15px/1 var(--font-sans)}
 [data-look=standard] :is(.fq-item,.fq-clear):focus-visible{outline:2px solid var(--focus);outline-offset:-2px}
 /* 數字等寬：font 簡寫會把 font-variant-numeric 重設回 normal → 放檔尾、選擇器加重 */
-:root[data-look=standard] :is(time,.fp-tm,.rw-tm,.pd-n,.pd-item){font-variant-numeric:tabular-nums}
+:root[data-look=standard] :is(time,.rw-tm,.pd-n,.pd-item){font-variant-numeric:tabular-nums}
 /* 減少動態：關掉 site.css body 的配色轉場 */
 @media(prefers-reduced-motion:reduce){:root[data-look=standard] body{transition:none}}
 /* 強制色彩：底色被換掉 → Header 改用框線 */
 @media(forced-colors:active){[data-look=standard] .editions{border-bottom:1px solid}}
 
-/* 施工中頁（report.css 的 .wip-*） */
+/* 找不到這個系列（report.css 的 .wip-*） */
 [data-look=standard] .wip-kicker{font:400 13px/1.5 var(--font-sans);letter-spacing:0;color:var(--text-3)}
-[data-look=standard] .wip-tag{border-color:var(--text-3);border-radius:var(--radius-sm);color:var(--text-2);font:500 13px/1.6 var(--font-sans);letter-spacing:.04em}
 [data-look=standard] .wip-text{font:var(--fw-body) var(--fs-body)/1.7 var(--font-sans);letter-spacing:var(--ls-body);color:var(--text)}
 [data-look=standard] .wip-back{font:500 15px/1.6 var(--font-sans)}
 [data-look=standard] .wip-back a{color:var(--link)}

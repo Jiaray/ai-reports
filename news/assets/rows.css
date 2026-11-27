@@ -36,8 +36,6 @@
 .rw-online{display:inline-block;padding:0 5px;border:1px solid currentColor;color:var(--color-neutral-800);font:600 12px/1.55 var(--font-body);letter-spacing:.02em}
 /* 標題用內文字型（窄體英數夾在中文裡會黏成一團） */
 .rw .rw-title{font:600 16.5px/1.6 var(--font-body)}
-/* 標題前的紅底標示（舊的「遭利用」，已改成記號；部署空窗配到舊 series.js 時 rows.js 不畫） */
-.rw-flag{display:inline-block;margin-right:8px;padding:0 6px;vertical-align:2px;background:var(--color-hot);color:var(--color-bg);font:700 11.5px/1.7 var(--font-body);letter-spacing:.06em;white-space:nowrap}
 /* 更新句：整塊淡灰底，「更新 HH:MM」同記號外框（墨色）；更正淡紅底＋紅框。不用藍（深藍代表重要） */
 .rw-up{display:block;margin-top:5px;padding:4px 8px;background:rgb(0 0 0 / .045);font:400 14px/1.6 var(--font-body);color:var(--color-neutral-800)}
 .rw-up.is-fix{background:rgb(176 43 39 / .07)}
@@ -90,9 +88,9 @@
 
 /* ── 地圖：色線 4px 直線；記號、更新句圓角 ── */
 [data-look=atlas] .rw{border-left-width:4px}
-[data-look=atlas] :is(.rw-act,.rw-mk,.rw-up,.rw-up-k,.rw-online,.rw-flag){border-radius:var(--r-sm,6px)}
+[data-look=atlas] :is(.rw-act,.rw-mk,.rw-up,.rw-up-k,.rw-online){border-radius:var(--r-sm,6px)}
 
 /* 強制色彩：外框改系統文字色；更新句的底色會被拿掉 → 改畫外框（記號本來就有字，不只靠顏色） */
-@media(forced-colors:active){.rw{border-left-color:CanvasText}:is(.rw-mk,.rw-up-k,.rw-online){border-color:CanvasText}.rw-up{border:1px solid CanvasText}.rw-flag{border:1px solid}}
+@media(forced-colors:active){.rw{border-left-color:CanvasText}:is(.rw-mk,.rw-up-k,.rw-online){border-color:CanvasText}.rw-up{border:1px solid CanvasText}}
 /* 觸控：放檔尾才蓋得過前面同權重的 min-height（分類開關的 44px 在 report.css） */
 @media(pointer:coarse){.rw-act,.rw-fold{min-height:44px}.rw-go::after{content:"";position:absolute;inset:0}}

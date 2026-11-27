@@ -6,14 +6,14 @@
    - 不帶 hash＝議題目錄：進行中、沉寂、歸檔三區（story-index 的 status），各區依最新一張卡新到舊；只有一張卡的議題不列；
      子議題縮排在上層底下（不論自己的狀態）；歸檔依月份收進 <details>。系列篩選標籤同本日焦點（front.js filterBar 的 .fp-fq 標記、
      front.css 樣式，bar.js 功能鈕的過濾面板也認得），選擇存 air-story-types（不跟本日焦點共用）。
-   hashchange 重畫。依賴 A.bar、A.rows；A.facets（舊名稱、分類）、A.look 選用。缺 rows.js（部署空窗）時只放一行說明與回本日焦點。
+   hashchange 重畫。依賴 A.bar、A.rows；A.facets（舊名稱、分類）、A.look 選用。
    樣式在 story.css（.st／.st-*）。 */
 (() => {
   'use strict';
   const A = window.AIR;
   const h = A.h;
   const B = A.bar;
-  const R = A.rows && typeof A.rows.row === 'function' ? A.rows : null;
+  const R = A.rows;
   const app = document.getElementById('app');
   const root = document.documentElement;
   const GAP_DAYS = 7; // 相鄰兩張相隔幾天以上插間隔標記
@@ -79,8 +79,8 @@
     });
   }
   const countOf = (s) => (Number.isInteger(s.count) ? s.count : list(s.cards).length);
-  // 最新一張卡的事件時間（舊索引沒有 latest 用 last）；目錄排序與「最新 M/D」都用它
-  const latestAt = (s) => (s.latest && valid(s.latest.event_at) ? s.latest.event_at : str(s.last));
+  // 最新一張卡的事件時間；目錄排序與「最新 M/D」都用它
+  const latestAt = (s) => str(s.latest && s.latest.event_at);
   const msOf = (iso) => (valid(iso) ? Date.parse(iso) : -Infinity);
   const newestFirst = (a, b) => msOf(latestAt(b)) - msOf(latestAt(a)) || (a.name < b.name ? -1 : 1);
 
@@ -103,14 +103,13 @@
   }
   const dayDiff = (a, b) => Math.round((Date.parse(`${b}T00:00:00Z`) - Date.parse(`${a}T00:00:00Z`)) / 86400000);
 
-  // ── 報頭工具列（bar.js；樣式摘要 5.1）：新聞首頁（連本日焦點）　右邊一組：系列｜議題｜版面。「議題」在議題目錄 aria-current=page、議題頁 true；
-  // 舊版 bar.js 沒有 storyLink／seriesMenu 就不放 ──
+  // ── 報頭工具列（bar.js；樣式摘要 5.1）：新聞首頁（連本日焦點）　右邊一組：系列｜議題｜版面。「議題」在議題目錄 aria-current=page、議題頁 true ──
   let srBox; // undefined＝還沒建
   let vwBox = null;
   const toolbar = (current) => B.toolbar([
     B.navLink('新聞首頁', 'front', './', null),
     srBox,
-    B.storyLink ? B.storyLink(current) : null,
+    B.storyLink(current),
     vwBox,
   ]);
 
@@ -234,7 +233,7 @@
     const all = storyList(doc);
     const byName = new Map(all.map((s) => [s.name, s]));
     // 改名、合併過的舊名稱 → 新名稱；新名稱不在索引（索引還沒重建）就照原名找
-    const canon = A.facets && A.facets.canonical ? A.facets.canonical(raw) : raw;
+    const canon = A.facets ? A.facets.canonical(raw) : raw;
     const name = canon && byName.has(canon) ? canon : raw;
     const s = byName.get(name);
     if (!s) {
@@ -281,8 +280,8 @@
           got.length > 1 ? jump() : null,
         ]),
         h('main', { id: 'main', class: 'st-main' }, main),
-        // 記號說明（rows.js；時間軸不用領域色線、上方小字不列系列；部署空窗配到舊 rows.js 就不放）
-        got.length && R.legend ? R.legend({ line: false, after: '時間、報導家數' }) : null,
+        // 記號說明（rows.js；時間軸不用領域色線、上方小字不列系列）
+        got.length ? R.legend({ line: false, after: '時間、報導家數' }) : null,
       ],
     };
   }
@@ -491,15 +490,9 @@
   async function load(moved) {
     const my = ++ticket;
     index = await indexDoc;
-    if (srBox === undefined) srBox = B.seriesMenu ? B.seriesMenu(index, null) : null;
+    if (srBox === undefined) srBox = B.seriesMenu(index, null);
     const key = hashText();
     const current = key ? 'true' : 'page';
-    if (!R) { // 部署空窗：新 HTML 配到缺檔的 rows.js
-      show([toolbar(current), head(key || '議題'), h('main', { id: 'main', class: 'st-main' }, [
-        h('p', { class: 'load-error', role: 'status' }, ['這一頁剛更新，有些檔案還沒到；過幾分鐘重新整理再試。', h('a', { href: './' }, ['回本日焦點'])]),
-      ])], key || '議題', moved);
-      return;
-    }
     let page;
     try {
       page = key ? await storyPage(key) : directory(await storyIndex());

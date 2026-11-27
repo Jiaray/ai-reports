@@ -28,8 +28,6 @@
 .sp-sec:first-child{margin-top:var(--space-4)}
 .sp-dh{position:sticky;top:var(--bar-h,0px);z-index:2;display:flex;justify-content:space-between;align-items:baseline;gap:var(--space-3);margin:0 0 var(--space-1);padding:7px 0 6px;background:var(--color-bg);border-bottom:1px solid var(--color-divider);font:600 15px/1.3 var(--font-heading);letter-spacing:.04em;color:var(--color-neutral-700)}
 .sp-n{flex:none;font:500 13px/1.3 var(--font-heading);letter-spacing:.02em;color:var(--color-neutral-600)}
-/* 段標題只有 &d= 會把焦點移過來（tabindex=-1，不在 Tab 順序裡）：不畫焦點框，免得開頁就框住 */
-.sp-dh:focus{outline:0}
 .sp-list{margin:0;padding:0;list-style:none}
 
 /* ── 資安：要修補的漏洞（頂端一區；標題列同新聞卡頁框的標題底色） ── */

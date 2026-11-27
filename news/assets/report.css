@@ -1,5 +1,5 @@
 /* 新聞頁共用樣式，本日焦點、系列頁、新聞卡頁、議題頁、暫時頁都載入（報頭、面板、功能鈕共用）；藍圖本體在 site.css，一般外觀在 look-standard.css。
-   分段：領域色、報頭、地圖代幣、下拉面板、外觀：地圖、內文（摘要、AI 解讀）、列表列的展開箭頭與標題、功能鈕、分類標籤、施工中頁、觸控高度。
+   分段：領域色、報頭、地圖代幣、下拉面板、外觀：地圖、內文（摘要、AI 解讀）、列表列的展開箭頭與標題、功能鈕、分類標籤、找不到這個系列、觸控高度。
    非預設外觀的規則寫在對應段裡（同權重後者蓋前者） */
 /* ── 領域色（系列的 group，9 個領域；新聞統一改版設計 §6）：對底色 ≥ 4.5:1。過濾標籤（front.css）、列表列（rows.css）、系列面板、
    新聞卡頁的系列讀 --g-c；data-group 由各頁 JS 寫（沒有領域＝不給，退回各處的中性色）；bar.js 過濾面板抄 .fp-chip 算出的 --g-c。
@@ -45,7 +45,7 @@
 :root{--sec-c:var(--color-accent-600);--vw-on-bg:var(--color-accent-600);--vw-on-fg:var(--color-bg)}
 /* 工具列按鈕；.ed-link[aria-current]＝目前位置（本日焦點、議題目錄與議題頁）：2px 主色底線（不只靠顏色） */
 .dd{position:relative;flex:none;display:flex}
-/* 右邊一組「系列｜議題｜版面」：組裡第一個推到最右（系列還沒建、舊 bar.js 沒有議題時照樣成立） */
+/* 右邊一組「系列｜議題｜版面」：組裡第一個推到最右（系列還沒建時照樣成立） */
 .editions>:is(.sr,.ed-story,.vw){margin-left:auto}
 .editions>:is(.sr,.ed-story)~:is(.ed-story,.vw){margin-left:0}
 .dd-toggle,.ed-link{display:inline-flex;align-items:center;gap:6px;min-height:38px;padding:0 var(--space-3);background:transparent;color:var(--color-neutral-700);border:0;border-radius:0;font:500 15px/1 var(--font-heading);letter-spacing:.02em;white-space:nowrap;cursor:pointer}
@@ -280,19 +280,17 @@ html.fab-sheet,html.fab-sheet body{overflow:hidden;overscroll-behavior:none}
 [data-look=atlas] .fct-tg:focus-visible{border-radius:var(--r-sm)}
 @media print{.fab-layer{display:none!important}}
 
-/* ── 施工中頁、找不到這個系列（report.js：series.js 沒載到時的系列頁退路、不認得的 ?t=）：先求看得懂、回得去 ── */
+/* ── 找不到這個系列（report.js：不認得的 ?t=）：先求看得懂、回得去 ── */
 .wip-kicker{margin:var(--space-3) 0 0;font:600 13px/1.4 var(--font-heading);letter-spacing:.06em;color:var(--color-neutral-600)}
 .wip-kicker+.mast-title{margin-top:var(--space-1)}
 .wip-head .mast-title:focus{outline:0}
 .wip-head .mast-title:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:4px}
 .wip{margin-top:var(--space-6)}
-.wip-tag{display:inline-block;margin:0;padding:2px 10px;border:1px dashed var(--color-neutral-600);color:var(--color-neutral-700);font:600 13px/1.6 var(--font-body);letter-spacing:.1em}
 .wip-text{margin:var(--space-3) 0 0;font:400 16px/1.8 var(--font-body);color:var(--color-neutral-800)}
 .wip-back{margin:var(--space-2) 0 0;font:600 15px/1.6 var(--font-body)}
 .wip-back a:hover{color:var(--color-accent-800);text-decoration:underline;text-underline-offset:3px}
 .wip-back a:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
 [data-look=atlas] .wip-kicker{font-family:var(--font-num);letter-spacing:.04em}
-[data-look=atlas] .wip-tag{border-radius:var(--r-sm)}
 @media(pointer:coarse){.wip-back a{display:inline-flex;align-items:center;min-height:44px}}
 
 /* ── 觸控高度 44px ── 放檔尾才蓋得過同權重的高度 */

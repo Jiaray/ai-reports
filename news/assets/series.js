@@ -1,5 +1,5 @@
 /* 新聞卡系列頁（news/?t=<系列>；樣式摘要第 7 節），掛 AIR.series（介面見檔尾）。
-   report.js 讀完 index.json、確定是其中的系列後呼叫 render(ctx)；工具列、「版面」沿用 report.js 的。這支沒載到時 report.js 顯示施工中。
+   report.js 讀完 index.json、確定是其中的系列後呼叫 render(ctx)；工具列、「版面」沿用 report.js 的。
    讀 cards/recent.json，列近 7 天（台北日曆日：今天往回 6 天）這個系列的新聞卡，依天分段、新到舊；條目是 rows.js 的列表列。
    - 放哪天：事件時間（event_at）那天；補充過的移到最後補充（supplemented_at）那天，上方小字的時間改寫「新增 M/D」；更正、掛來源不移。
    - 報頭一行「系列名　近 7 天・N 張 …… [最新｜重要]」；排序預設最新（放那天的時刻新到舊），存 air-series-sort（所有系列頁共用）。
@@ -10,18 +10,14 @@
    - 鄉民：每天再分 PTT、HN、V2EX 三區，各依該平台熱度排、只列 > 0；同一張卡在幾個平台有熱度就列幾次（〈不重複〉的例外）。
    - 財經：每天再分台灣（台灣關聯直接）、國際兩區，各依重要程度排；兩區都全部直接列出（不收合，使用者定案）。
    - 遊戲開發：同一天內網頁遊戲開發類（主題含網頁遊戲，或同時含遊戲和開發與開源；views.web_dev）排前面，最新、重要都套。
-   - &d=YYYY-MM-DD：7 天內捲到那段（那天沒卡就捲到更早最近的一段），超過停在頁首。
    回前景重抓 recent.json，built_at 或台北日期變了才重畫（展開中的列保持展開）。依賴 A.rows（工具列由 report.js 給）；樣式在 series.css（.sp／.sp-*）。 */
 (() => {
   'use strict';
   const A = window.AIR;
-  // 缺 rows.js 或舊版（沒有分天排序工具）：不接手，report.js 退回施工中
-  if (!A || !A.bar || !A.rows || typeof A.rows.byImportance !== 'function') return;
   const h = A.h;
   const R = A.rows;
   const DAYS = 7;
   const PATH = 'cards/recent.json';
-  const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
   const PATCH_EVENT = '漏洞揭露';
   const PLATFORMS = [['ptt', 'PTT', '推'], ['hn', 'HN', '分'], ['v2ex', 'V2EX', '回覆']]; // 鄉民頁分區順序與熱度單位
   const FIN_ZONES = [['taiwan', '台灣'], ['intl', '國際']]; // 財經頁分區順序；台灣＝輕量條目 taiwan 是「直接」（views.finance_zone）
@@ -68,7 +64,7 @@
   }
   let sort = readSort();
 
-  let ctx = null; // { app, index, t, d, toolbar }
+  let ctx = null; // { app, index, t, toolbar }
   let doc = null; // recent.json（還沒建＝{}）
   let drawnKey = ''; // 台北日期｜built_at：回前景時變了才重畫
 
@@ -136,9 +132,9 @@
       rowsList(rows),
     ]);
   }
-  // 分段：<section>＋黏頂標題（只在自己那段黏住，被下一段推走）；標題可被程式移焦點（&d=）
-  const section = (id, cls, title, n, kids, day) => h('section', { class: `sp-sec ${cls}`, id, 'aria-labelledby': `${id}-h`, 'data-day': day || null }, [
-    h('h2', { class: 'sp-dh', id: `${id}-h`, tabindex: '-1' }, [h('span', { class: 'sp-dh-t' }, [title]), h('span', { class: 'sp-n' }, [`${n} 張`])]),
+  // 分段：<section>＋黏頂標題（只在自己那段黏住，被下一段推走）
+  const section = (id, cls, title, n, kids) => h('section', { class: `sp-sec ${cls}`, id, 'aria-labelledby': `${id}-h` }, [
+    h('h2', { class: 'sp-dh', id: `${id}-h` }, [h('span', { class: 'sp-dh-t' }, [title]), h('span', { class: 'sp-n' }, [`${n} 張`])]),
     ...kids,
   ]);
 
@@ -178,7 +174,7 @@
           if (!zi.length) return null;
           return zone(k, name, zi.length, zi.map((x) => rowOf(x, { zone: k, extra: [`${community(x.c, k)} ${unit}`] })));
         }).filter(Boolean);
-        out.push(section(id, 'sp-day', R.dayLabel(day), items.length, zones, day));
+        out.push(section(id, 'sp-day', R.dayLabel(day), items.length, zones));
         return;
       }
       // 財經：台灣在上、國際在下，各依重要程度，全部直接列出
@@ -188,18 +184,18 @@
           if (!zi.length) return null;
           return zone(k, name, zi.length, zi.map((x) => rowOf(x, { zone: k })));
         }).filter(Boolean);
-        out.push(section(id, 'sp-day', R.dayLabel(day), items.length, zones, day));
+        out.push(section(id, 'sp-day', R.dayLabel(day), items.length, zones));
         return;
       }
       items.sort((a, b) => (t === 'game_dev' ? webDev(b.c) - webDev(a.c) : 0) || (latest ? latest(a, b) : imp(a.c, b.c)));
-      out.push(section(id, 'sp-day', R.dayLabel(day), items.length, [rowsList(items.map((x) => rowOf(x)))], day));
+      out.push(section(id, 'sp-day', R.dayLabel(day), items.length, [rowsList(items.map((x) => rowOf(x)))]));
     });
     return { sections: out, count: shown.size };
   }
 
-  // 沒有卡：系列面板裡的其他系列（index.json 的系列，照它的順序；不靠 bar.js，部署空窗配到舊 bar.js 也列得出來）
+  // 沒有卡：系列面板裡的其他系列（index.json 的系列，照它的順序）
   function others() {
-    const cards = list(ctx.index && ctx.index.series).filter((s) => s && typeof s.id === 'string' && s.id && s.id !== ctx.t)
+    const cards = A.bar.cardSeries(ctx.index).filter((s) => s.id !== ctx.t)
       .map((s) => h('a', { class: 'sp-go', href: `./?t=${encodeURIComponent(s.id)}`, 'data-group': s.group || null }, [s.short || s.title || s.id]));
     if (!cards.length) return null;
     return h('nav', { class: 'sp-go-box', 'aria-label': '其他系列' }, [h('div', { class: 'sp-go-col' }, [
@@ -260,7 +256,7 @@
         h('p', { class: 'sp-empty', role: 'status' }, [`近 ${DAYS} 天沒有符合的新聞卡。`]),
         others(),
       ]),
-      count && R.legend ? R.legend() : null, // 記號說明（部署空窗配到舊 rows.js 就不放）
+      count ? R.legend() : null, // 記號說明
       rule ?h('footer', { class: 'foot sp-foot' }, [h('span', { class: 'foot-left' }, [`${short}收錄：${rule}`])]) : null,
     ]);
     document.title = `${short}｜AI Reports`;
@@ -274,19 +270,6 @@
     if (back) back.querySelector('summary').focus({ preventScroll: true });
     const again = sortBtn && app.querySelector(`.sp-sort-b[data-v="${sortBtn.dataset.v}"]`);
     if (again) again.focus({ preventScroll: true });
-  }
-
-  // &d=：7 天內捲到那天那段（新到舊，第一個不晚於那天的段）；超過、格式不對停在頁首。
-  // 等下一個畫面：bar.js 量好 --bar-h（scroll-padding-top）才不會被凍結的工具列蓋住；焦點移到段標題（不再捲）
-  function jump(d) {
-    const today = R.today();
-    if (!DATE_RE.test(d) || d > today || d < R.shiftDay(today, -(DAYS - 1))) return;
-    const target = [...ctx.app.querySelectorAll('#main .sp-day')].find((s) => s.dataset.day <= d);
-    if (!target) return;
-    requestAnimationFrame(() => {
-      target.scrollIntoView({ block: 'start' });
-      target.querySelector('.sp-dh').focus({ preventScroll: true });
-    });
   }
 
   function problem(text) {
@@ -305,7 +288,7 @@
     }
   }
 
-  // ctx：{ app: #app, index: index.json, t: 系列代號, d: 網址的 d, toolbar: () => 工具列 }。不會丟出（錯誤畫在頁上）
+  // ctx：{ app: #app, index: index.json, t: 系列代號, toolbar: () => 工具列 }。不會丟出（錯誤畫在頁上）
   async function render(c) {
     ctx = c;
     try {
@@ -316,7 +299,6 @@
     }
     try {
       draw();
-      jump(ctx.d || '');
     } catch (err) {
       console.error('系列頁顯示失敗', err);
       problem('系列頁顯示失敗，重新整理再試一次。');

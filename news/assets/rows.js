@@ -16,7 +16,7 @@
   const str = (v) => (typeof v === 'string' ? v : '');
   const list = (v) => (Array.isArray(v) ? v : []);
 
-  // ── 編號 → 卡檔路徑（同 card.js，改一邊要改兩邊；card.js 要在缺 rows.js 時照樣能用）──
+  // ── 編號 → 卡檔路徑（新聞卡頁 card.js 也用）──
   function weeksIn(y) {
     const t = new Date(Date.UTC(y, 11, 28));
     t.setUTCDate(t.getUTCDate() + 4 - (t.getUTCDay() || 7));
@@ -51,8 +51,8 @@
   const time = (iso, text, title) => h('time', { class: 'rw-tm', datetime: iso, title: title || null }, [text]);
 
   // ── 列表頁共用（系列頁；議題頁、暫時頁也用）：事件時間、台北日曆日、日段標題、同一天內的順序 ──
-  // 事件時間（樣式摘要 5.2）：索引的 event_at；舊索引沒有就照契約 §9 算（late 用最早報導）
-  const eventAt = (c) => str(c && c.event_at) || (c && c.late === true && str(c.first_reported_at)) || str(c && c.born_at);
+  // 事件時間（樣式摘要 5.2）：索引的 event_at（card_index 照契約 §9 算好，late 用最早報導）
+  const eventAt = (c) => str(c && c.event_at);
   // 台北日曆日 YYYY-MM-DD（解析不出來給 ''）；today() 是看的當下
   const dayOf = (iso) => {
     const t = parts(iso);
@@ -270,7 +270,7 @@
   //   meta(id) → { short, group }：系列短名與領域（頁面從 index.json 給）
   //   page：這頁本身的系列代號（字串或陣列）：上方小字、最後一列都不列（本日焦點不給，全部都列）
   //   time：上方小字的時間節點（用 time() 做）；series:false＝上方小字不列系列（議題頁）
-  //   extra：上方小字接在家數後的字串（鄉民頁的平台熱度「85 推」）；flag：標題前的紅底標示（遭利用已改成記號，現在沒有頁面用）
+  //   extra：上方小字接在家數後的字串（鄉民頁的平台熱度「85 推」）
   //   omit：不標的記號鍵（見 marks）
   //   known：頁面上已寫的字（議題頁的議題路徑「上層 › 子議題」），展開後的分類不重列
   //   tag：外層元素（預設 article；放進 <ol> 時給 li）；id
@@ -316,12 +316,8 @@
     const top = topLine(c, o, others, 'span');
     const upd = updLine(c);
     const body = h('div', { class: 'more-body rw-body' });
-    // 部署空窗：舊 series.js 還會給 flag「遭利用」，記號已標就不重複
-    const flag = str(o.flag) && !(o.flag === '遭利用' && c.exploited === true) ? o.flag : '';
     const det = h('details', { class: 'peek' }, [
-      h('summary', { class: 'peek-sum' }, [top, h('span', { class: 'row-title rw-title' }, [
-        flag ? h('span', { class: 'rw-flag' }, [flag]) : null, c.title,
-      ]), upd]),
+      h('summary', { class: 'peek-sum' }, [top, h('span', { class: 'row-title rw-title' }, [c.title]), upd]),
       body,
     ]);
 
@@ -391,7 +387,7 @@
     const all = seriesIds(c);
     const top = topLine(c, o, all.filter((s) => !page.has(s)), 'div');
     return outer(c, o, all, 'rw is-link', [
-      top.firstChild ? top : null, // 沒有系列也沒有時間（暫時頁的「時間不明」）就不留空行
+      top.firstChild ? top : null, // 沒有記號、系列也沒有時間就不留空行
       h('a', { class: 'rw-title rw-go', href: `card.html#${c.id}` }, [c.title, h('span', { class: 'rw-go-ar', 'aria-hidden': 'true' }, [' →'])]),
       updLine(c),
       str(c.line) ? h('p', { class: 'rw-line' }, [c.line]) : null,
@@ -424,8 +420,8 @@
     ]);
   }
 
-  // rich(tag, attrs, html)、prose(cls, html)、dive(html)：*_html 淨化後成元素（新聞卡頁共用；card.js 缺這幾個時退回純文字）。
+  // rich(tag, attrs, html)、prose(cls, html)、dive(html)：*_html 淨化後成元素（新聞卡頁共用）。cardPath(id)：編號 → 卡檔路徑。
   // eventAt、dayOf、today、shiftDay、dayLabel、level、byImportance：列表頁的分天與排序（系列頁 series.js、暫時頁 adhoc.js 同一套）
-  // marks(c, omit)：列記號節點（新聞卡頁也用）；legend(o)：記號說明（頁面放在頁尾前；部署空窗缺這兩個就不放）
+  // marks(c, omit)：列記號節點（新聞卡頁也用）；legend(o)：記號說明（頁面放在頁尾前）
   A.rows = { row, link, time, hm, mdw, cardPath, rich, prose, dive, eventAt, dayOf, today, shiftDay, dayLabel, level, byImportance, marks, legend };
 })();

@@ -2,7 +2,7 @@
    由上而下（樣式摘要第 6 節）：特殊狀態 → 系列・事件時間 → 標題 → 跳轉標籤 → 摘要 → 補充 → AI 解讀 → 領域欄位 → 議題區塊 → 來源 → 分類 → 編號。
    系列與事件時間取那張卡的輕量條目（週索引，沒有再找 recent.json；契約 §9）；議題區塊讀 cards/story-index.json，
    同議題其他卡的標題與時間依編號讀週索引（每份只讀一次）。
-   依賴 A.bar；A.rows（*_html 淨化與分段，全站一份）、A.facets、A.look 選用：缺 rows.js（部署空窗）時內文退回純文字。
+   依賴 A.bar、A.rows（*_html 淨化與分段、編號、列記號，全站一份）；A.facets、A.look 選用。
    跳轉標籤用按鈕捲動、不用 #錨點（網址的 # 是編號，改了會觸發換卡）。樣式在 card.css（.cd-*）；內文沿用 .row-sum、.row-dive、.dive-label。 */
 (() => {
   'use strict';
@@ -17,7 +17,6 @@
   const LIFE_DAYS = 7; // 契約 CARD_LIFE_DAYS：新增滿 7 天封存
   const SRC_FIRST = 5; // 來源先列幾家，其餘收合
   const TL_SIDE = 2; // 議題區塊只列這張前後各幾張
-  const ID_RE = /^(\d{4})-W(\d{2})-(\d{4})$/;
   // 資料裡的值拿來查表一律用 Map（物件查 toString、constructor 會撞到原型）。媒體類不標
   const KIND = new Map([['official', '官方'], ['community', '社群'], ['aggregator', '彙整']]);
   const str = (v) => (typeof v === 'string' ? v : '');
@@ -33,19 +32,9 @@
   } catch (e) { /* 讀不到：用預設 */ }
   root.setAttribute('data-look', look);
 
-  // ── 編號（同 rows.js 的 cardPath；這裡缺 rows.js 也要能用）──
-  // ISO 年的週數：12/28 一定在該年最後一週
-  function weeksIn(y) {
-    const t = new Date(Date.UTC(y, 11, 28));
-    t.setUTCDate(t.getUTCDate() + 4 - (t.getUTCDay() || 7));
-    return Math.ceil(((t - Date.UTC(y, 0, 1)) / 86400000 + 1) / 7);
-  }
-  // 「2026-W48-0002」→ 相對路徑；格式不對、週不存在、流水號 0000 → null
-  function cardPath(id) {
-    const m = ID_RE.exec(str(id));
-    if (!m || +m[2] < 1 || +m[2] > weeksIn(+m[1]) || +m[3] < 1) return null;
-    return `cards/${m[1]}/W${m[2]}/${m[3]}.json`;
-  }
+  // ── 編號 → 卡檔路徑（rows.js；格式不對、週不存在、流水號 0000 → null）；*_html 的淨化與分段也用 rows.js 的（全站一份）──
+  const R = A.rows;
+  const { cardPath, rich, prose, dive } = R;
   // 那張卡所在的週索引（編號含週）
   const weekPath = (id) => (cardPath(id) ? cardPath(id).replace(/\d{4}\.json$/, 'index.json') : null);
   function hashId() {
@@ -70,28 +59,6 @@
     return t ? h('time', { class: cls, datetime: iso, title: fmt === mdw ? null : mdw(t) }, [fmt(t)]) : null;
   }
 
-  // ── *_html：用 rows.js 的淨化與分段（全站一份）。缺 rows.js 或舊版沒有這幾個函式時退回純文字：
-  //    在惰性的 <template> 裡解析（不執行、不載入）、丟掉不是內文的元素、只取 textContent，依 <br> 分段 ──
-  const R = A.rows && ['rich', 'prose', 'dive'].every((k) => typeof A.rows[k] === 'function') ? A.rows : null;
-  function plainText(html) {
-    const tpl = document.createElement('template');
-    tpl.innerHTML = String(html || '');
-    tpl.content.querySelectorAll('script,style,template,iframe,object,embed,svg,math,noscript').forEach((n) => n.remove());
-    return tpl.content.textContent;
-  }
-  const rich = (tag, attrs, html) => (R ? R.rich(tag, attrs, html) : h(tag, attrs, [plainText(html)]));
-  function prose(cls, html) {
-    if (R) return R.prose(cls, html);
-    const ps = String(html || '').split(/<br\s*\/?>/i).map((x) => plainText(x).trim()).filter(Boolean).map((x) => h('p', null, [x]));
-    return ps.length ? h('div', { class: cls }, ps) : null;
-  }
-  // AI 解讀＝dive_html：標籤一律「AI 解讀」
-  function dive(html) {
-    if (R) return R.dive(html);
-    const box = prose('row-dive', html);
-    if (box) box.firstChild.prepend(h('span', { class: 'dive-label' }, ['AI 解讀']));
-    return box;
-  }
   const isWeb = (u) => typeof u === 'string' && /^https?:\/\//i.test(u); // 外部連結只收 http(s)
 
   // ── 資料：index.json（系列短名、領域）、別名表；索引每份只抓一次（失敗不留，下次換卡重抓）──
@@ -112,7 +79,7 @@
   async function entryOf(id) {
     return findIn(await once(weekPath(id)), id) || findIn(await once('cards/recent.json'), id);
   }
-  // 事件時間（樣式摘要 5.2）：輕量條目的 event_at；索引沒有就照契約 §9 自己算（late 用最早報導）
+  // 事件時間（樣式摘要 5.2）：輕量條目的 event_at；讀不到條目（週索引、recent.json 抓不到）就照契約 §9 自己算（late 用最早報導）
   const eventAt = (card, e) => str(e && e.event_at) || (card.late === true && str(card.first_reported_at)) || str(card.born_at);
 
   // 機構、人物套別名表（aliases.json；卡檔原文不改，讀不到照原樣）
@@ -128,11 +95,11 @@
 
   // ── 報頭工具列（bar.js；樣式摘要 5.1）：新聞首頁（連本日焦點）　右邊一組：系列｜議題｜版面；新聞卡頁不標 aria-current ──
   let vwBox = null;
-  let srBox; // 「系列」下拉：index 到了建一次（undefined＝還沒建；舊版 bar.js 沒有 seriesMenu 就不放）
+  let srBox; // 「系列」下拉：index 到了建一次（undefined＝還沒建）
   const toolbar = () => B.toolbar([
     B.navLink('新聞首頁', 'front', './', null),
     srBox,
-    B.storyLink ? B.storyLink(null) : null, // 舊版 bar.js 沒有就不放
+    B.storyLink(null),
     vwBox,
   ]);
 
@@ -182,10 +149,10 @@
 
   // ── 議題 ──
   const storyHref = (name) => `story.html#${encodeURIComponent(name)}`;
-  // 套議題對照表後的路徑陣列 [上層…, 子議題]。部署空窗拿到舊 facets.js（沒有 storyPaths）→ 照原名、不套對照表
+  // 套議題對照表後的路徑陣列 [上層…, 子議題]。facets.js 載入失敗（A.facets 不在）→ 照原名、不套對照表
   function storyPaths(card) {
     const raw = list(card.facets && card.facets.story).filter((v) => typeof v === 'string' && v.trim());
-    return A.facets && A.facets.storyPaths ? A.facets.storyPaths(raw) : [...new Set(raw)].map((n) => [n]);
+    return A.facets ? A.facets.storyPaths(raw) : [...new Set(raw)].map((n) => [n]);
   }
   // 每條路徑選一層放議題區塊（樣式摘要 6-9）：最具體那層；那層除了這張沒有別張就往上，到頂都沒有就不放。
   // 路徑頂端在 story-index 還有 parent 時接著往上（facets.js 缺時路徑只有一段）。同名只放一次。回傳 [{ name, story, path }]
@@ -272,10 +239,10 @@
     return out;
   }
   // 記號（rows.js marks，同列表列：緊急／遭利用、重要、熱門、切身）　系列（領域色、連到系列頁）・事件時間。
-  // 記號讀輕量條目（有 heat_rank、exploited）；沒有條目用卡檔的 facets 與 heat。部署空窗配到舊 rows.js（沒有 marks）就不放
+  // 記號讀輕量條目（有 heat_rank、exploited）；沒有條目用卡檔的 facets 與 heat
   function metaLine(series, ev, card, entry) {
     const f = card.facets && typeof card.facets === 'object' ? card.facets : {};
-    const mk = R && R.marks ? R.marks({ weight: f.weight, urgency: f.urgency, relevance: f.relevance, heat: card.heat, ...(entry || {}) }) : [];
+    const mk = R.marks({ weight: f.weight, urgency: f.urgency, relevance: f.relevance, heat: card.heat, ...(entry || {}) });
     const kids = series.flatMap((s, i) => [
       i ? h('span', { class: 'cd-sep' }, ['、']) : null,
       h('a', { class: 'cd-ty', href: `./?t=${encodeURIComponent(s.id)}`, 'data-group': s.group || null }, [s.short]),
@@ -430,7 +397,7 @@
       fx ? A.facets.bar(fx.toggle) : null,
       fx ? fx.panel : null,
       // 記號說明：只列五個記號（更新、更正、網路討論在這頁另有寫法）；沒有左緣色線，記號後面接系列與事件時間
-      R && R.legend ? R.legend({ cards: false, line: false, after: '系列與事件時間' }) : null,
+      R.legend({ cards: false, line: false, after: '系列與事件時間' }),
       h('footer', { class: 'cd-foot' }, ['編號 ', h('span', { class: 'cd-id' }, [card.id])]),
     ].filter(Boolean));
     return [toolbar(), head, main];
@@ -479,7 +446,7 @@
     const id = hashId();
     const path = cardPath(id);
     const meta = await indexDoc;
-    if (srBox === undefined) srBox = B.seriesMenu ? B.seriesMenu(meta, null) : null;
+    if (srBox === undefined) srBox = B.seriesMenu(meta, null);
     if (!path) {
       if (my === ticket) show(missing(''), '找不到這張新聞卡', moved);
       return;

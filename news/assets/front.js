@@ -1,11 +1,10 @@
 /* 本日焦點（news/，不帶 t；帶 t 的交給 report.js）：讀 cards/focus.json，取看的當下往回 window_hours（24）小時內的前 limit（10）張新聞卡；
    一張都沒有時列整份的前 limit 張並標最後更新（設計 §6.8、契約 §9）。不按日期翻頁、不按整點分段：一條清單照 focus.json 的順序
-   （樣式摘要 5.5）；條目是 A.rows 的列表列（頁內展開）。不標「新」（依每台裝置的瀏覽紀錄算，碰到用詞規則）；
-   舊的 air-front-seen、air-front-types（系列過濾標籤已拿掉，決策 2026-11-26）開頁時刪掉。其他網址參數（舊的每週頭版 ?w）不認，一律顯示本日焦點。
+   （樣式摘要 5.5）；條目是 A.rows 的列表列（頁內展開）。不標「新」（依每台裝置的瀏覽紀錄算，碰到用詞規則）。其他網址參數不認，一律顯示本日焦點。
    前 limit 張之後接「各系列」速覽：時間窗內每個系列最重要的 3 張（扣掉上面列過的），依領域分塊（決策 2026-11-26）。
    報頭下有今天的日期與農民曆（A.almanac，almanac.js；lunar.js 開頁就另載，最多等 3 秒，晚到的到了再補上那一塊）。
-   頁尾右邊是來源狀態入口（連 sources.html）：focus.json 的 today＋sources-status.json（畫完清單再抓，不擋新聞），缺哪份就少那段。
-   依賴 A.bar（bar.js 報頭元件）；A.facets、A.look、A.rows、A.almanac 選用（載入失敗就少該功能；沒有 A.rows 時退回標題連結清單）。 */
+   頁尾右邊是來源狀態入口（連 sources.html）：focus.json 的 today＋sources-status.json（畫完清單再抓，不擋新聞；抓不到就不放來源那段）。
+   依賴 A.bar（bar.js 報頭元件）、A.rows（rows.js 列表列）；A.look、A.almanac 選用（載入失敗就少該功能）。 */
 (() => {
   'use strict';
   const query = new URLSearchParams(location.search);
@@ -17,11 +16,6 @@
   const root = document.documentElement;
   const WEEK = '日一二三四五六';
   const TAIPEI_MS = 8 * 3600 * 1000;
-  try {
-    localStorage.removeItem('air-front-filter'); // 舊版依領域過濾的選擇
-    localStorage.removeItem('air-front-seen'); // 舊版「新」標記的瀏覽紀錄
-    localStorage.removeItem('air-front-types'); // 舊版依系列過濾的選擇（標籤已拿掉）
-  } catch (e) { /* 存取不了：沒有可刪的 */ }
   // A.look 不在（look-standard.js 載入失敗）→ 不列「一般」
   const KEY_LOOK = 'air-news-look';
   const LOOKS = [['blueprint', '藍圖'], ['atlas', '地圖'], ...(A.look ? [['standard', '一般']] : [])];
@@ -38,8 +32,8 @@
 
   let index = null; // 抓不到＝null，系列名稱退回代號
   let fpBox = null; // 「版面」下拉（layoutPanel 建一次，每次重畫搬進新工具列）
-  let srBox = null; // 「系列」下拉（index 到了建一次；舊版 bar.js 沒有 seriesMenu 就不放）
-  const R = A.rows || null; // 列表列（rows.js）；部署空窗缺檔＝null
+  let srBox = null; // 「系列」下拉（index 到了建一次）
+  const R = A.rows; // 列表列（rows.js）
   const AL = A.almanac || null; // 今天日期與農民曆（almanac.js）
   const almReady = AL ? AL.load() : null; // lunar.js 開頁就開始載
 
@@ -62,18 +56,12 @@
     const title = (s && s.title) || id;
     return { title, short: (s && s.short) || title, group: (s && s.group) || '' };
   }
-  // 系列短名；顏色由 report.css 依 data-group（領域）給
-  const typeTag = (id) => {
-    const m = seriesMeta(id);
-    return h('span', { class: 'fp-ty', 'data-group': m.group || null }, [m.short]);
-  };
 
   // ── 報頭（bar.js 元件）──
   const TITLE = '本日焦點';
-  // 工具列（樣式摘要 5.1）：新聞首頁（＝這頁，aria-current=page；按鈕叫新聞首頁、頁名仍是本日焦點，使用者定案）　右邊一組：系列｜議題｜版面。
-  // 舊版 bar.js 沒有 storyLink 就不放議題
+  // 工具列（樣式摘要 5.1）：新聞首頁（＝這頁，aria-current=page；按鈕叫新聞首頁、頁名仍是本日焦點，使用者定案）　右邊一組：系列｜議題｜版面
   const toolbar = () => B.toolbar([
-    B.navLink('新聞首頁', 'front', './', 'page'), srBox, B.storyLink ? B.storyLink(null) : null, fpBox,
+    B.navLink('新聞首頁', 'front', './', 'page'), srBox, B.storyLink(null), fpBox,
   ]);
 
   function show(kids) {
@@ -122,7 +110,7 @@
   // ── 頁尾：來源狀態入口（使用者定案）：「今天　新增 N｜補充 N｜來源 連得上/全部 ›」，連 sources.html ──
   // 新增、補充讀 focus.json 的 today（date 不是台北今天＝午夜後還沒發布過，寫 0）；來源讀 sources-status.json 的主線單位
   // （板凳、待檢、停用不算），有連不上的「來源」那段紅字加 ✕；最後一輪（built_at）超過 STALE_HOURS 小時改寫「✕ N 小時沒更新」。
-  // 缺 today 就不放新增、補充；來源檔抓不到就不放來源；兩個都沒有就不放入口。每分鐘重算（tickFocus），回前景重抓。
+  // 來源檔抓不到就不放來源那段。每分鐘重算（tickFocus），回前景重抓。
   const STATUS_PATH = 'sources-status.json';
   const STALE_HOURS = 8;
   const OFF_SECTIONS = ['板凳', '待檢', '停用'];
@@ -130,21 +118,19 @@
   let srcDoc; // sources-status.json；undefined＝還沒抓、null＝抓不到或格式不對
   const count = (v) => (Number.isInteger(v) && v >= 0 ? v : 0);
   function srcEntry(now) {
-    const t = focus && focus.today && typeof focus.today === 'object' ? focus.today : null;
+    const t = focus.today || {}; // focus.json 還沒建（{}）＝今天 0 張
     const doc = srcDoc && Array.isArray(srcDoc.units) ? srcDoc : null;
-    if (!t && !doc) return null;
     const sep = () => h('span', { class: 'fp-src-sep', 'aria-hidden': 'true' }, ['｜']);
-    const kids = t ? [h('span', { class: 'fp-src-day' }, ['今天'])] : [];
-    const said = [];
-    if (t) {
-      const fresh = t.date === today();
-      const born = fresh ? count(t.new) : 0;
-      const supp = fresh ? count(t.supplemented) : 0;
-      kids.push(h('span', null, ['新增 ', h('b', null, [String(born)])]), sep(), h('span', null, ['補充 ', h('b', null, [String(supp)])]));
-      said.push(`今天新增 ${born} 張、補充 ${supp} 張`);
-    }
+    const fresh = t.date === today();
+    const born = fresh ? count(t.new) : 0;
+    const supp = fresh ? count(t.supplemented) : 0;
+    const kids = [
+      h('span', { class: 'fp-src-day' }, ['今天']),
+      h('span', null, ['新增 ', h('b', null, [String(born)])]), sep(), h('span', null, ['補充 ', h('b', null, [String(supp)])]),
+    ];
+    const said = [`今天新增 ${born} 張、補充 ${supp} 張`];
     if (doc) {
-      if (t) kids.push(sep());
+      kids.push(sep());
       const main = doc.units.filter((u) => u && typeof u === 'object' && !OFF_SECTIONS.includes(u.section));
       const ok = main.filter((u) => u.ok !== false).length;
       const built = Date.parse(doc.built_at);
@@ -179,7 +165,7 @@
       if (had) next.focus({ preventScroll: true });
     }
   }
-  // 抓不到時保留上一份（部署空窗、回前景重抓失敗不讓入口消失）；第一次就抓不到＝null
+  // 抓不到時保留上一份（回前景重抓失敗不讓入口消失）；第一次就抓不到＝null
   async function loadSrc() {
     const d = await A.getJSON(STATUS_PATH).catch(() => null);
     if (d && typeof d === 'object' && Array.isArray(d.units)) srcDoc = d;
@@ -206,7 +192,7 @@
   // 每則標多久前（focus_at；滑過看完整時間）；data-ago：每分鐘更新
   const agoTime = (c, now) => {
     const ms = focusAt(c);
-    const el = R ? R.time(c.focus_at || c.born_at, ago(ms, now), stamp(ms)) : h('time', { class: 'fp-tm', datetime: c.focus_at || c.born_at, title: stamp(ms) }, [ago(ms, now)]);
+    const el = R.time(c.focus_at || c.born_at, ago(ms, now), stamp(ms));
     el.setAttribute('data-ago', '');
     return el;
   };
@@ -216,26 +202,6 @@
   const cardRow = (c, now, omit) => R.row({ ...c, series: seriesOf(c) }, {
     meta: seriesMeta, time: agoTime(c, now), tag: 'li', omit,
   });
-  // 部署空窗沒有 rows.js：系列・多久前・更新｜標題連到新聞卡頁｜一句話（前一版的清單）
-  const updated = (c) => focusAt(c) > Date.parse(c.born_at) || Boolean(c.last_update && c.last_update.refocus === true);
-  function focusRow(c, now) {
-    const types = seriesOf(c);
-    const meta = h('p', { class: 'fp-mt' }, [
-      ...types.map(typeTag),
-      agoTime(c, now),
-      updated(c) ? h('span', { class: 'fp-upd' }, ['更新']) : null,
-      c.online_only === true ? h('span', { class: 'fp-online' }, [
-        h('span', { class: 'fp-online-ico', html: B.ICON.warn }), '網路討論，未經媒體證實',
-      ]) : null,
-    ]);
-    return h('li', {
-      class: 'fp-it fp-card', 'data-group': (types.length && seriesMeta(types[0]).group) || null, 'data-id': c.id, 'data-fq': types.join(' '),
-    }, [
-      meta,
-      h('h2', { class: 'row-title fp-cd-title' }, [h('a', { href: `card.html#${c.id}` }, [c.title])]),
-      typeof c.line === 'string' && c.line ? h('p', { class: 'fp-line' }, [c.line]) : null,
-    ]);
-  }
 
   // ── 各系列速覽（決策 2026-11-26）：前 limit 張之後，index.json 的系列順序、依領域分塊，每個系列最重要的 PER 張 ──
   // 挑卡＝那個系列頁選「重要」時的前幾張：鄉民依社群熱度（只收有熱度的）、資安先依急迫性、財經先台灣（台灣關聯直接）、
@@ -260,11 +226,10 @@
     return list;
   }
   // pool：時間窗內的卡（focus.json 的順序）；used：上面已列的編號（會加進這裡挑的）→ [{ s: 系列, n: 窗內張數, pick: 要列的卡 }]；
-  // 沒有 rows.js、系列設定或窗內沒有卡 → null
-  const indexSeries = () => ((index && index.series) || []).filter((s) => s && typeof s.id === 'string' && s.id);
+  // 沒有系列設定或窗內沒有卡 → null
   function plan(pool, used) {
-    const series = indexSeries();
-    if (!R || !pool.length || !series.length) return null;
+    const series = B.cardSeries(index);
+    if (!pool.length || !series.length) return null;
     return series.map((s) => {
       const all = pool.filter((c) => Array.isArray(c.series) && c.series.includes(s.id));
       const pick = all.length ? seriesOrder(s.id, all).filter((c) => !used.has(c.id)).slice(0, PER) : [];
@@ -335,7 +300,7 @@
     ]) : null;
     // 前 limit 張都是事件分量高（平常如此）→ 不標「重要」；有一張不是就照常標，記號說明也不寫那句
     const allImp = cards.length > 0 && cards.every((c) => c.weight === '高');
-    const rows = cards.map((c) => (R ? cardRow(c, now, allImp ? ['imp'] : null) : focusRow(c, now))).filter(Boolean);
+    const rows = cards.map((c) => cardRow(c, now, allImp ? ['imp'] : null)).filter(Boolean);
     const main = h('main', { id: 'main', class: 'fp-focus' }, rows.length
       ? [h('ol', { class: 'fp-list', role: 'list' }, rows), overview(picked.plan, now)].filter(Boolean)
       : [h('p', { class: 'fp-empty-note', role: 'status' }, ['本日焦點還沒有新聞卡。'])]);
@@ -345,15 +310,14 @@
       h('header', { class: 'masthead fp-head' }, [h('h1', { class: 'mast-title' }, [TITLE])]),
       AL ? AL.render(today(), { open: almOpen }) : null,
       main,
-      // 記號說明（rows.js；部署空窗配到舊 rows.js 就不放）
-      rows.length && R && R.legend ? R.legend({ front: allImp ? rows.length : 0 }) : null,
+      // 記號說明（rows.js）
+      rows.length ? R.legend({ front: allImp ? rows.length : 0 }) : null,
       // 退回最近一批時不寫「過去 N 小時內」（黃條已說明這段時間沒有新卡）
       h('footer', { class: 'foot' }, [h('span', { class: 'foot-left' }, [
         note ? `本日焦點依重要程度取前 ${limit()} 張` : `本日焦點列出過去 ${windowHours()} 小時內新增或補充的新聞卡，依重要程度取前 ${limit()} 張`,
       ]), srcEntry(now)]),
     ]);
     document.title = `${TITLE}｜AI Reports`;
-    fitAlmanac(app.querySelector(':scope > .fp-alm'));
     const find = (id) => [...app.querySelectorAll('#main [data-id]')].find((el) => el.dataset.id === id);
     opened.forEach((id) => {
       const d = find(id) && find(id).querySelector('details');
@@ -385,17 +349,8 @@
     if (el.dataset.day === next.dataset.day && el.hasAttribute('data-lunar') === next.hasAttribute('data-lunar')) return;
     const had = el.contains(document.activeElement);
     el.replaceWith(next);
-    fitAlmanac(next);
     const tg = had && next.querySelector('.fp-alm-tg');
     if (tg) tg.focus({ preventScroll: true });
-  }
-  // 部署空窗：新 almanac.js 配到舊 front.css（.fp-alm-in 不是 display:contents，三格擠成一格）→ 拆掉手機收合的外框與開關，照舊三格
-  function fitAlmanac(el) {
-    const inner = el && el.querySelector(':scope > .fp-alm-in');
-    if (!inner || getComputedStyle(inner).display !== 'block') return;
-    inner.replaceWith(...inner.childNodes);
-    const tg = el.querySelector(':scope > .fp-alm-tg');
-    if (tg) tg.remove();
   }
 
   async function focusMain() {
@@ -403,7 +358,7 @@
     const almWait = almReady ? Promise.race([almReady, new Promise((r) => { setTimeout(r, 3000); })]) : null;
     const [idx, doc] = await Promise.allSettled([A.getJSON('index.json'), A.getJSON(FOCUS_PATH), almWait]);
     index = idx.status === 'fulfilled' && idx.value && typeof idx.value === 'object' ? idx.value : null;
-    srBox = B.seriesMenu ? B.seriesMenu(index, null) : null;
+    srBox = B.seriesMenu(index, null);
     if (doc.status === 'fulfilled') focus = doc.value && typeof doc.value === 'object' ? doc.value : {};
     else if (/^HTTP 404$/.test(doc.reason && doc.reason.message)) focus = {}; // 還沒建 → 當沒有卡
     else {
