@@ -109,13 +109,15 @@
     "2026-W48-0246"
    ],
    "found_by": "program",
-   "status": "suspected",
+   "status": "rejected",
    "note": "第 1 段補充掛上的來源和卡上原有的標題差很多，可能是另一件事（最高相似度 0.13）",
    "proposed": {
     "log_index": 1
    },
    "found_at": "2026-11-27T17:05:32+08:00",
-   "resolved_at": null
+   "resolved_at": "2026-11-27T17:08:37+08:00",
+   "resolved_by": "model",
+   "resolution": "同一案件：新北地檢署偵辦的敏金、家妘護理之家住民死亡與拘禁案，補充為後續新事證，只是標題用詞不同"
   }
  ]
 }
