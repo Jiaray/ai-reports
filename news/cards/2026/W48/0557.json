@@ -1,0 +1,94 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0557",
+ "title": "IISS 報告：俄國對歐洲破壞攻擊一年增 16%、縱火與爆裂物約翻倍，但未能削弱各國對烏克蘭支持",
+ "line": "2025 年 10 月至 2026 年 9 月，逾半事件鎖定軍工與交通等關鍵基礎設施",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T16:17:03+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "RU",
+   "DE",
+   "UA"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "國防與軍事",
+   "國際關係"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "國際戰略研究所"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "混合戰",
+   "破壞行動",
+   "關鍵基礎設施"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "國際戰略研究所（IISS）11 月 26 日發表報告指出，俄國過去一年加強對歐洲使用非常規戰手段，包括破壞、偵察與恐嚇，但並未達成嚇阻各國支持烏克蘭的目標。報告統計，截至 2026 年 9 月的 12 個月內，針對歐洲基礎設施的破壞攻擊增加 16%，縱火與使用爆裂物約翻倍；2025 年 10 月至 2026 年 9 月記錄的事件中，超過一半鎖定軍工與交通等關鍵基礎設施。相關事件包括德國萊比錫－哈勒機場的無人機攻擊未遂、對能源設施與國防製造商的縱火與攻擊，以及持續的領空與邊境侵犯。IISS 說這些攻擊損害了歐洲關鍵基礎設施、提高防護成本。莫斯科否認西方政府與情報單位對其發動全歐干擾行動的指控。",
+ "dive_html": "IISS 的結論是「升級但失效」：攻擊次數與手段都在增加，政治目的卻沒達成，這意味俄國可能進一步升高強度，而非放棄。對歐洲而言，成本已轉嫁到基礎設施防護與保險；對台灣，這套「灰色地帶破壞＋否認」的模式與海底電纜遭破壞等事件相似，歐洲的因應經驗具參考價值。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Russia’s hybrid war on Europe evolving, but failing: IISS",
+   "url": "https://www.aljazeera.com/news/2026/11/27/russias-hybrid-war-on-europe-evolving-but-failing-iiss",
+   "time": "2026-11-27T19:44:46+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Russian sabotage attacks in Europe up 16%, IISS says",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxOeDlfWnppQVVFampWVVNJc25wbDRpS0VxOUJtV1g4TDY0T3RuMmZfS1JQX2pOT2N1NnBVLWRfbHJVdWVKb29JVXNMNFc2X2I5dE9tcXRjZTA5ZHJ3aG9HemhOWEpqMURiZGg4cmlBRExqUTFQNlNESU1hOVd2RkFFY01Sd1RCb1VzRnV6LXJtRmpxc25GdWZXRmY0ZW56dFR5Sm5oZUFfSlptQk5NWUNz?oc=5",
+   "time": "2026-11-27T16:17:03+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

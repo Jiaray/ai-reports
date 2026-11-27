@@ -1,0 +1,133 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0539",
+ "title": "路透：駭客入侵美國空軍旗艦雲端平台 Cloud One，涉防空雷達指管與全球彈藥追蹤系統",
+ "line": "系統升級時發現，入侵者身分與是否有資料遭竊仍不明，網戰司令部已介入",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T19:18:23+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安",
+   "國防與軍事"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "航太與國防",
+   "軟體與雲端"
+  ],
+  "org": [
+   "美國空軍",
+   "美國網戰司令部",
+   "Microsoft",
+   "Amazon",
+   "Oracle",
+   "Leidos"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "Cloud One",
+   "軍事雲端"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "路透引述三名知情人士獨家報導，駭客入侵美國空軍旗艦雲端運算平台 Cloud One，可能危及大量戰術、人事與後勤敏感資料。入侵是在約一個月內升級系統時發現，已造成整個平台運作中斷；路透無法確認駭客身分、入侵範圍，也無法確認是否有資料遭竊。Cloud One 自 2017 年啟動，整合 Microsoft、Amazon、Oracle 與 Alphabet 四家雲端業者資源，支撐人事、薪資、後勤與維修等大量應用，其中包括彙整北美防空雷達與其他資料流的雲端指管系統，以及追蹤全球 200 多個空軍據點炸彈與飛彈的戰區整合作戰彈藥系統。主承包商 2025 年由 SAIC 換成 Leidos。消息人士稱這是美軍最大的雲端平台之一，「在這裡被入侵是大事」，調查人員已找來網戰司令部。空軍聲明不評論特定網路與系統的安全狀態。",
+ "dive_html": "Cloud One 的設計是「一站式」集中多家雲端，好處是管理一致，壞處正是單點入侵就可能橫跨人事、後勤到指管資料，這次事件等於測試了多雲集中架構的爆炸半徑。目前最大缺口是攻擊者與外洩範圍都未知，若後續證實是國家級行動者，會影響美軍與其承包商的雲端資安要求，也牽動同樣在推軍事雲的盟國。對一般企業的啟示是：大型平台換約、升級期間往往才發現長期潛伏，交接與盤點本身就是資安檢查點。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "美國空軍 Cloud One 雲端平台，涉人事、薪資、後勤維修、防空雷達指管與全球彈藥追蹤等應用；入侵範圍與資料是否遭竊未說明"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供（調查已有網戰司令部介入，平台運作中斷）"
+  }
+ ],
+ "sources": [
+  {
+   "name": "New York Post",
+   "title": "Hackers breach US Air Force flagship cloud computing platform — jeopardizing sensitive info",
+   "url": "https://nypost.com/2026/11/27/us-news/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/",
+   "time": "2026-11-27T20:17:03+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "0 comments",
+   "family": "New York Post",
+   "kind": "media",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "Techmeme",
+   "title": "Sources: the US Air Force recently found that hackers breached Cloud One, the cloud computing platform powering its air defense radar and other data feeds (Reuters)",
+   "url": "https://www.techmeme.com/261127/p4#a261127p4",
+   "time": "2026-11-27T20:10:01+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  },
+  {
+   "name": "Dawn",
+   "title": "Hackers breach US Air Force flagship Cloud One computing platform",
+   "url": "https://www.dawn.com/news/2047476/hackers-breach-us-air-force-flagship-cloud-one-computing-platform",
+   "time": "2026-11-27T19:18:23+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "EXCLUSIVE: Hackers breach US Air Force flagship Cloud One computing platform",
+   "url": "https://news.google.com/rss/articles/CBMiqwFBVV95cUxPQnhWb2oyc2Qta3k0bUhwbGZTcWZMREZ0VU41eVNZWDJZTDlBcmMxZzFrLXlmVGJpUHBRbVdBRlNoQU9lWUlIcVpMcXQwWWpyYVJ2eDJQa1ZvNFU5MUFHLWdpQW1BVloyUW5lTUlVSlFpLXJwVHNLMl9fQnBFTTNnemY4Q0JiUkN3SXFndG1pX1l1TmdySFJDOHJlWC1fMnE3cjlaVFB5M1hWbU0?oc=5",
+   "time": "2026-11-27T19:38:02+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 2,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

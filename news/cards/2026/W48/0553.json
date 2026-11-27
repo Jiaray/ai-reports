@@ -1,0 +1,106 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0553",
+ "title": "芬蘭國營博奕公司 Veikkaus 延攬丹麥創業家 Clausen 主掌首個海外 B2C 品牌 Viabet，2027 年 7 月丹芬同步上線",
+ "line": "與串流平台 Viaplay 合作結合運動內容與投注，Clausen 曾協助 Stake.dk 在丹麥上線",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T17:10:00+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "FI",
+   "DK"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "人事異動"
+  ],
+  "sector": [
+   "博奕",
+   "媒體與娛樂"
+  ],
+  "org": [
+   "Veikkaus",
+   "Viabet",
+   "Viaplay",
+   "Stake"
+  ],
+  "person": [
+   "Peter Eugen Clausen",
+   "Olli Sarekoski"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "Viabet",
+   "芬蘭博奕市場開放",
+   "運動投注"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "芬蘭國營博奕公司 Veikkaus 11 月 27 日宣布，任命丹麥博奕創業家 Peter Eugen Clausen 為國際 B2C 執行副總裁、Viabet 業務集團總經理並進入執行團隊，12 月上任。Viabet 上個月宣布成立，是 Veikkaus 第一個海外 B2C 業務，將於 2027 年 7 月在丹麥與芬蘭同步上線，與 Viaplay 丹麥、芬蘭合作，結合 Veikkaus 的博奕技術與負責任博奕機制，以及 Viaplay 在北歐的運動內容與市場地位。Clausen 在丹麥創辦過賓果與賭場組合 Dansk Underholdning 和線上賭場 PetersCasino.com，兩者後來都被 Mr Green 收購；之後帶領 VinderCasino.dk 轉虧並出售給 Stake.com，再協助 Stake.dk 在丹麥上線，也創辦並擔任夢幻足球平台 SuperFantasy 董事長。Veikkaus 執行長 Olli Sarekoski 稱他屢次把點子變成成功的事業，熟悉丹麥市場且有串連內容與博奕的經驗。",
+ "dive_html": "芬蘭正準備開放原本由 Veikkaus 壟斷的線上博奕市場，國營業者一面守本土、一面跨到丹麥競爭，Viabet 是它面對開放後的主要布局。找來曾替 Stake 打入丹麥的操盤手，顯示 Veikkaus 想用私營業者的打法經營海外品牌，而「串流運動內容＋投注」的模式若成功，可能成為北歐國營博奕轉型的範本。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "iGaming Business",
+   "title": "Veikkaus appoints Danish gaming entrepreneur to lead B2C venture Viabet",
+   "url": "https://igamingbusiness.com/people/veikkaus-appoints-danish-gaming-entrepreneur-b2c-venture-viabet/",
+   "time": "2026-11-27T17:42:17+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "iGaming Business",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "InterGame",
+   "title": "Veikkaus names Viabet managing director",
+   "url": "https://www.intergameonline.com/igaming/news/veikkaus-names-viabet-managing-director",
+   "time": "2026-11-27T17:10:00+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "InterGame",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

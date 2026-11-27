@@ -1,0 +1,95 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0555",
+ "title": "胡塞叛軍媒體：沙烏地空襲葉門塔伊茲省圖爾巴市住宅大樓，11 名平民死亡、多為兒童",
+ "line": "前一天胡塞才攻擊沙烏地煉油廠，聯軍稱同日摧毀一架飛往利雅德的無人機",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T19:12:04+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東"
+  ],
+  "country": [
+   "YE",
+   "SA",
+   "IR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "戰爭與衝突"
+  ],
+  "event": [
+   "軍事行動"
+  ],
+  "org": [
+   "胡塞叛軍",
+   "沙烏地聯軍",
+   "薩巴通訊社"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "葉門內戰",
+   "空襲",
+   "塔伊茲"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "葉門胡塞叛軍（青年運動）旗下的薩巴通訊社 11 月 27 日引述當地消息人士報導，沙烏地戰機空襲塔伊茲省會南方的圖爾巴市一棟住宅大樓，造成 11 名居民死亡，多數是兒童；救援人員已尋獲 8 具遺體，3 人仍受困瓦礫下。半島電視台無法獨立查證，沙烏地領導的聯軍沒有立即回應，但當天稍晚表示摧毀了一架胡塞朝利雅德地區發射的無人機。中央社指出，前一天胡塞才攻擊一座沙烏地煉油廠；葉門內戰今年夏季再度爆發後，聯軍經常轟炸胡塞控制區，胡塞則幾乎每天攻擊沙烏地的能源設施、機場與利雅德金融區。",
+ "dive_html": "死傷數字目前只有胡塞方面說法，但若屬實，代表聯軍空襲已擊中人口密集的住宅區，葉門人道危機會進一步惡化。沙烏地與胡塞互相攻擊能源與城市目標，是伊朗戰爭背景下波斯灣衝突外溢的一環，也直接牽動國際油價。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Saudi strike kills ’11 civilians’ in Yemen’s Taiz: Houthi media",
+   "url": "https://www.aljazeera.com/news/2026/11/27/saudi-strike-kills-11-civilians-in-yemens-taiz-houthi-media",
+   "time": "2026-11-27T20:00:22+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "沙烏地空襲葉門西部　青年運動：釀11死",
+   "url": "https://www.cna.com.tw/news/aopl/202611270227.aspx",
+   "time": "2026-11-27T19:12:04+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

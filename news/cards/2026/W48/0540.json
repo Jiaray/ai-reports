@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0540",
+ "title": "微軟釋出 Windows Server 2025 緊急熱修補 KB5138318，修正 11 月熱修補造成的 0x139 當機",
+ "line": "啟用路由器通告、收到有時效 IPv6 路由的伺服器會在路由到期時藍屏，新修補免重開機",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T17:08:16+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "科技"
+  ],
+  "event": [
+   "版本更新"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Microsoft",
+   "Forcepoint"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "KB5138318",
+   "KB5131077",
+   "Windows Server 2025",
+   "Hotpatch"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "BleepingComputer 報導，微軟 11 月 25 日釋出頻外（OOB）緊急熱修補 KB5138318，修正部分 Windows Server 2025 安裝 11 月安全性熱修補 KB5131077 後的當機問題。微軟說明，受影響的是啟用路由器通告（RA）、會收到有時效 IPv6 路由的少數伺服器，路由計時器到期時可能出現停止錯誤 0x139（KERNEL_SECURITY_CHECK_FAILURE）。這是非安全性更新，會透過 Windows Update 推送給已加入熱修補的 Windows Server 2025 裝置，自動下載安裝，不需重新開機。報導也指出，11 月熱修補在 Windows 11 上同樣出狀況，包括 Office 與第三方應用程式安裝、啟動問題，以及執行 Forcepoint DLP Endpoint Agent 的系統無法列印。微軟今年 3 月宣布，在 5 月安全更新後，對透過 Microsoft Graph API 與 Intune 管理的合格裝置預設開啟熱修補。",
+ "dive_html": "熱修補主打免重開機，但這次反而讓伺服器在特定網路條件下藍屏，對用 IPv6 RA 的機房與雲端主機是實際停機風險。微軟已把熱修補改為預設開啟，代表管理者被動接收更新的比例變高，出問題時影響面更廣。用 Windows Server 2025 跑遊戲伺服器或內部服務的團隊，宜確認是否已自動套用 KB5138318，並留意 Windows 11 端的 Office 與列印問題。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Windows Server 2025（安裝 KB5131077、啟用 Router Advertisement 並收到有時效 IPv6 路由者），停止錯誤 0x139；CVE 原文未提供；非安全性問題，利用狀態未說明"
+  },
+  {
+   "name": "處置",
+   "html": "安裝 KB5138318（透過 Windows Update 自動推送，免重開機）"
+  }
+ ],
+ "sources": [
+  {
+   "name": "BleepingComputer",
+   "title": "Microsoft pushes emergency hotpatch to fix Windows Server crashes",
+   "url": "https://www.bleepingcomputer.com/news/microsoft/new-out-of-band-oob-emergency-hotpatch-fixes-windows-server-2025-crashes/",
+   "time": "2026-11-27T17:08:16+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "BleepingComputer",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0543",
+ "title": "IBM 停止為諮詢部門員工擔保美國工作簽證與綠卡，H-1B 持有者須外派他國或在 12 月 31 日前離職",
+ "line": "諮詢部門逾 15 萬人，拒絕外派者給三個月資遣費，受影響人數未公布",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T16:55:50+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "南亞"
+  ],
+  "country": [
+   "US",
+   "IN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "勞動",
+   "移民與難民",
+   "企業經營"
+  ],
+  "event": [
+   "裁員重組"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "IBM"
+  ],
+  "person": [
+   "George Carrillo"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "H-1B",
+   "工作簽證",
+   "綠卡擔保",
+   "IBM Consulting"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Solidot 引述 NDTV 與 Rest of World 報導，IBM 決定停止為諮詢部門員工提供美國工作簽證與綠卡擔保。諮詢部門有逾 15 萬名員工，受影響者可選擇外派到其他國家工作，或在 2026 年 12 月 31 日前離職；IBM 沒有說明有多少員工受影響、其中多少人身在美國。員工有三週時間決定是否接受外派，不接受者可獲相當於三個月的離職補償金，最後工作日定為 12 月 31 日。匿名職場論壇 Blind 上有 IBM 員工說，調到印度工作可能意味減薪 80%。HireMe 執行長 George Carrillo 指出，調職可能代表舉家搬遷，影響配偶工作、子女教育、醫療與多年規劃，人資應提供清楚的選項、期限與支援。",
+ "dive_html": "大型科技顧問公司全面停止 H-1B 擔保相當罕見，可能與川普政府提高 H-1B 成本與審查的政策有關，但原文沒有交代 IBM 的理由。對外籍工程師而言，三週決定、一個月內離境或離職的時程極為倉促；若其他顧問與外包業者跟進，美國科技業的外籍人力供應與離岸外包比例都會改變。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Solidot",
+   "title": "IBM 停止签证担保，让 H-1B 持有者选择离职或离开美国",
+   "url": "https://www.solidot.org/story?sid=86010",
+   "time": "2026-11-27T16:55:50+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Solidot",
+   "kind": "aggregator",
+   "region": "中國大陸",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

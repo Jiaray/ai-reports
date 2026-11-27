@@ -157,13 +157,49 @@
    "kind": "media",
    "region": "北美",
    "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Italians killed in Kuwait: Why is Iran denying responsibility?",
+   "url": "https://www.aljazeera.com/news/2026/11/27/italians-killed-in-kuwait-why-is-iran-denying-responsibility",
+   "time": "2026-11-27T19:51:26+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Iran denies responsibility for Kuwait drone strike that killed two Italians",
+   "url": "https://www.euronews.com/2026/11/27/iran-denies-responsibility-for-kuwait-drone-strike-that-killed-two-italians",
+   "time": "2026-11-27T18:20:33+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Kuwait: Two Italians killed in drone attack",
+   "url": "https://www.france24.com/en/video/20261127-kuwait-two-italians-killed-in-drone-attack",
+   "time": "2026-11-27T19:45:48+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 7,
-  "regions": 2,
-  "media_weight": 17,
+  "outlets": 9,
+  "regions": 3,
+  "media_weight": 21,
   "community": {
    "hn": 0,
    "ptt": 0,

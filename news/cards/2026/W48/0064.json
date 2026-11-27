@@ -837,6 +837,66 @@
    "kind": "media",
    "region": "東北亞",
    "rank": 2
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "醜聞纏身黃仁勳回鍋掌舵　AI惡搞影片掀熱潮",
+   "url": "https://www.cna.com.tw/news/aopl/202611270221.aspx",
+   "time": "2026-11-27T18:44:51+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "法新：黃仁勳回歸反映男權主導　臨時CEO處境體現職場玻璃懸崖",
+   "url": "https://www.cna.com.tw/news/aopl/202611270194.aspx",
+   "time": "2026-11-27T17:33:52+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "RFI 中文",
+   "title": "特朗普称他掌握“信息”表明 黄仁勋不会构成安全威胁",
+   "url": "https://www.rfi.fr/cn/%E7%BE%8E%E6%B4%B2/20261127-%E7%89%B9%E6%9C%97%E6%99%AE%E7%A7%B0%E4%BB%96%E6%8E%8C%E6%8F%A1-%E4%BF%A1%E6%81%AF-%E8%A1%A8%E6%98%8E-%E9%BB%84%E4%BB%81%E5%8B%8B%E4%B8%8D%E4%BC%9A%E6%9E%84%E6%88%90%E5%AE%89%E5%85%A8%E5%A8%81%E8%83%81",
+   "time": "2026-11-27T19:57:13+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC 中文",
+   "title": "押注英偉達發展AI，亞洲在黃仁勳復職後前景如何？",
+   "url": "https://www.bbc.com/zhongwen/articles/cq62p0n4er0wo/trad",
+   "time": "2026-11-27T15:40:38+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "The Tech Download: Will Jensen Huang’s return be the spark the shaky AI market needs?",
+   "url": "https://www.cnbc.com/2026/11/27/tech-download-jensen-huang-ai-market.html",
+   "time": "2026-11-27T20:00:22+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
   }
  ],
  "log": [

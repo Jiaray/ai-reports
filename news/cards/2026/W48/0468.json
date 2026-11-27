@@ -122,13 +122,37 @@
    "kind": "media",
    "region": "南亞",
    "rank": 3
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Pakistan set to host talks with Saudi Arabia and Turkey under trilateral defense pact",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPWWNfVjBoUnQyN3lnTjdDVXdrSFZRaDFTYU9xQzk4ZkZtbE9nLUNxUUhJczE0aTVHRVliZ3Zlal9VanlaTWEyYmt0b2ZfcFlKV1c4SXVxLVE5SXRQaHl4bGJpcnpKWDJRWGVtZXRJOGVkMlIzR3I1TEVieldaZUNXSGdnT2ZxTXpfMkZoWWpycGZSZzRiQjhnN0dxd29Hc1lOZWpjMXppMXlDU3BhWkE?oc=5",
+   "time": "2026-11-27T18:19:00+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Dawn",
+   "title": "Makkah Defence Alliance meeting in Islamabad begins with Yemen conflict also on agenda",
+   "url": "https://www.dawn.com/news/2047415/makkah-defence-alliance-meeting-in-islamabad-begins-with-yemen-conflict-also-on-agenda",
+   "time": "2026-11-27T20:13:49+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 4,
-  "regions": 4,
-  "media_weight": 9,
+  "outlets": 5,
+  "regions": 5,
+  "media_weight": 12,
   "community": {
    "hn": 0,
    "ptt": 0,

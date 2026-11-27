@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "id": "2026-W48-0454",
- "title": "英國勞動及退休金部發生「網路事件」，部分服務預防性下線",
+ "title": "英國勞動及退休金部「網路事件」擴大，退休金、統一福利金與 PIP 線上系統幾乎全數下線",
  "line": "部會稱一般福利與退休金照常發放，未說明事件類型與是否有個資遭存取",
  "born_at": "2026-11-27T16:57:43+08:00",
  "first_reported_at": "2026-11-27T16:37:24+08:00",
- "updated_at": "2026-11-27T16:57:43+08:00",
- "version": 1,
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -75,13 +75,95 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 2
+  },
+  {
+   "name": "The Register",
+   "title": "British social security system techies yank services offline following 'cyber incident'",
+   "url": "https://www.theregister.com/security/2026/11/27/british-social-security-system-techies-yank-services-offline-following-cyber-incident/5312522",
+   "time": "2026-11-27T18:01:00+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "The Register",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "ITPro",
+   "title": "DWP takes systems offline amid .cyber incident.",
+   "url": "https://www.itpro.com/cybersecurity/dwp-cyber-attack-everything-we-know-so-far-as-government-department-takes-systems-offline",
+   "time": "2026-11-27T17:59:01+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "ITPro",
+   "kind": "media",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "BBC Top News",
+   "title": "What we know about Department for Work and Pensions 'cyber incident'",
+   "url": "https://www.bbc.co.uk/news/articles/ck1l0e946dqmo",
+   "time": "2026-11-27T20:24:39+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "Department for Work and Pensions takes services offline after ‘cyber incident’ – UK politics live",
+   "url": "https://www.theguardian.com/politics/live/2026/nov/27/department-work-pensions-offline-cyber-incident-rosebank-slapps-latest-news-updates",
+   "time": "2026-11-27T20:02:55+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "DWP ‘cyber incident’ knocks almost all pensions and benefits systems offline",
+   "url": "https://www.theguardian.com/politics/2026/nov/27/dwp-cyber-incident-pensions-benefits-systems-offline",
+   "time": "2026-11-27T19:14:02+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "UK pensions department hit by 'cyber incident'",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxNckw3Wmx5TkduWUdyNE9qUS1vMDJLNjZjbnMzUURXdWt2NjdCdFYxWldNekg3WkJORWl1bkRva3BsSDVLN3FldzlQTmNLNnVnbVZrOWVxQ0NyX2N5SWRFaVpJaDBXeTM3Z2NzZDlxTzJaOENxWWZRYkl0VmpwZnFVYlZyYjdSLXg1OGpVNko1UHhKSEhWcDdhb0ZZaHpLdw?oc=5",
+   "time": "2026-11-27T17:01:44+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-27T20:52:38+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "BBC 與《衛報》11 月 27 日晚間報導，英國勞動及退休金部（DWP）幾乎所有線上系統都已下線，包括退休金、統一福利金（Universal Credit）與個人獨立給付（PIP）申請；民眾無法查詢國家退休金或送出申請。依 Downdetector，政府網站的問題回報從前一晚開始出現、27 日上午 8 時左右達到高峰。DWP 重申福利給付會照常發放，對外只發表公開聲明、拒絕進一步說明；The Register 指出官方仍未交代事件類型、是否有資料遭竊等一般揭露會提供的細節。負責協調政府資安事件的是政府網路協調中心（GC3），政府資安長 Bella Powell 領導的政府網路行動計畫預算逾 2.1 億英鎊。",
+   "update": "英國勞動及退休金部網路事件擴大，退休金、統一福利金與 PIP 等線上系統幾乎全數下線，官方仍未說明事件類型",
+   "refocus": false,
+   "old_title": "英國勞動及退休金部發生「網路事件」，部分服務預防性下線"
+  }
+ ],
  "heat": {
-  "outlets": 1,
+  "outlets": 5,
   "regions": 1,
-  "media_weight": 2,
+  "media_weight": 8,
   "community": {
    "hn": 0,
    "ptt": 0,

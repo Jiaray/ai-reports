@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0546",
+ "title": "報導：馬斯克向 SpaceX 員工承認自家 AI 模型落後對手，轉向出租算力，AI 部門第三季營收 75.6 億美元",
+ "line": "Anthropic 全數交付後每月付約 31 億美元租算力，Grok Imagine 團隊已解散",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T20:31:39+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "企業經營"
+  ],
+  "event": [
+   "財報營運",
+   "裁員重組"
+  ],
+  "sector": [
+   "航太與國防",
+   "軟體與雲端"
+  ],
+  "org": [
+   "SpaceX",
+   "xAI",
+   "Anthropic",
+   "Google",
+   "晨星"
+  ],
+  "person": [
+   "馬斯克"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Grok",
+   "算力出租",
+   "Colossus"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "36氪引述美國媒體報導，馬斯克近期在 SpaceX 內部承認自家 AI 模型開發落後競爭對手，與其拿 GPU 訓練 Grok，不如把算力租給對手。他曾把一個有數百名 AI 工程師的內部群組短暫改名為「Sell compute because we can&#x27;t compete」，警告浪費 GPU 者會被立即請走，並要求工程師每週論證一次用卡理由，稱衡量競爭力的唯一標準是每塊 GPU 能賺多少錢。SpaceX 第三季財報顯示，AI 部門 SpaceXSI 營收 75.6 億美元、年增 830%，占總營收 145.75 億美元的 52%，營業利益 4.31 億美元；主要來自出租算力：Anthropic 在算力全數交付後每月約付 31 億美元、Google 每月約 8 億美元，租約最長到 2029 年。同時 AI 項目收縮：9 月關停 AI 伴侶項目，11 月解散 60 人的 Grok Imagine 團隊。報導也指出 Anthropic 合約明年 1 月、3 月後可解約，Google 合約 12 月 31 日後提前 90 天通知即可解約。",
+ "dive_html": "若報導屬實，前沿模型競賽的玩家正在收斂，xAI 從模型商轉為算力供應商，等於承認訓練出頂尖模型需要的不只是 GPU 數量。這筆生意的風險在客戶集中：營收靠 Anthropic 與 Google 兩家，而兩家都在自建算力、合約短期內可解約，SpaceX AI 部門的獲利可能比帳面看起來脆弱。接下來可觀察 Anthropic 是否真的再增租 10 吉瓦，以及 Grok 是否還會推出新一代模型。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "36氪",
+   "title": "“打不过，”马斯克公开认输AI模型之争，向员工承认“落后于对手”，警告浪费GPU者将被开除",
+   "url": "https://www.36kr.com/p/4087944117123713",
+   "time": "2026-11-27T20:31:39+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "36氪",
+   "kind": "media",
+   "region": "中國大陸",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

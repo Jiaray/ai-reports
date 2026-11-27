@@ -1,0 +1,81 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0548",
+ "title": "研究者實測：單一 GPT-6.2 Astra 代理平均 30 分鐘，就在開放的數學最佳化問題上勝過所有人類設計的求解軟體",
+ "line": "涵蓋 MILP、QP、MINLP、SDP，問題規模從數百到數百萬個變數",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-26T08:00:00+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "OpenAI",
+   "Anthropic"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "GPT-6.2 Astra",
+   "MILP",
+   "數學最佳化"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "研究者 Dmitry Rybin 在部落格發表實驗：每個問題只用一個 GPT-6.2 Astra Max 代理，平均執行約 30 分鐘，提示要求模型針對附上的 MILP、QP、MINLP 或 SDP 問題找出並證明最佳的上下界，且要設計專門演算法，可上網搜尋。選題刻意挑網路上沒有公布最佳解與界的開放問題，規模從數百到數百萬個變數、應用背景各異，少數案例的最佳解其實已見於基準網站以外的文獻。模型的解法混合自訂啟發式、樹搜尋、巧妙設計的證明，並在子問題中呼叫 scipy 等開源 LP 求解器。作者指出，兩週前 Anthropic 用 300 個 Fable 5.2 代理在 MIPLIB 上得到類似結果，這次顯示一個代理加上短時限就足夠。",
+ "dive_html": "若結果經得起檢驗，作業研究領域的商用求解器（Gurobi、CPLEX 這類）會面對「每題現寫專用演算法」的新對手，對排程、物流等最佳化需求大的團隊是實際的成本選項。但這是個人部落格的實驗，原文沒有列出完整問題清單、與求解器比較的時間預算與硬體條件，「勝過所有人類設計的軟體」的說法仍待第三方重現。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "TLDR AI",
+   "title": "GPT 6.2 Astra is superhuman in mathematical optimization",
+   "url": "https://rybindmitry.github.io/blogs/gpt-6-2-astra-is-superhuman-in-mathematical-optimization.html",
+   "time": "2026-11-26T08:00:00+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "rybindmitry.github.io",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

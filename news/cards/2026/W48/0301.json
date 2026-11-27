@@ -5,8 +5,8 @@
  "line": "大型氣球在持續風速超過每小時 23 英里時不得升空，紐約市長曼達尼稱這是紐約「唯一支持的膨脹」",
  "born_at": "2026-11-26T16:12:43+08:00",
  "first_reported_at": "2026-11-26T05:08:45+08:00",
- "updated_at": "2026-11-27T17:05:32+08:00",
- "version": 2,
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 3,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -265,6 +265,90 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 2
+  },
+  {
+   "name": "BBC Top News",
+   "title": "Hundreds of thousands still without power after storms hit US on Thanksgiving",
+   "url": "https://www.bbc.co.uk/news/articles/cre3dj5n7dpwo",
+   "time": "2026-11-27T18:26:28+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "King tides batter US coasts as storms threaten Thanksgiving celebrations",
+   "url": "https://www.theguardian.com/us-news/2026/nov/27/king-tides-us-coasts-storms-threaten-thanksgiving-celebrations",
+   "time": "2026-11-27T18:50:48+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "Heavy rain, wind and flooding hit much of US on Thanksgiving",
+   "url": "https://www.theguardian.com/us-news/2026/nov/27/heavy-rain-wind-flooding-us-thanksgiving",
+   "time": "2026-11-27T16:10:27+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "US: Thanksgiving storms cause flooding and travel chaos",
+   "url": "https://www.france24.com/en/video/20261127-us-thanksgiving-storms-cause-flooding-and-travel-chaos",
+   "time": "2026-11-27T20:02:48+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Dawn",
+   "title": "Major storm batters US on Thanksgiving holiday",
+   "url": "https://www.dawn.com/news/2047460/major-storm-batters-us-on-thanksgiving-holiday",
+   "time": "2026-11-27T16:49:26+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "NPR News",
+   "title": "Thanksgiving storm batters East Coast. And, Black Friday sales to hit record levels",
+   "url": "https://www.npr.org/2026/11/27/g-s1-156004/up-first-newsletter-thanksgiving-storm-black-friday-shopping-asylum-supreme-court",
+   "time": "2026-11-27T19:59:02+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "NPR",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "NPR News",
+   "title": "From Thanksgiving blackouts to Black Friday, a holiday hit by wild weather and economic woes",
+   "url": "https://www.npr.org/2026/11/27/nx-s1-6054884/thanksgiving-weather-black-friday",
+   "time": "2026-11-27T18:59:36+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "NPR",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
   }
  ],
  "log": [
@@ -275,12 +359,20 @@
    "html": "據 AP 與法新社，感恩節當天強烈風暴橫掃美國東岸，陣風最高每小時 112 公里，吹倒樹木與電線，一度造成近 100 萬戶住家與企業停電，多數在東岸各州；紐澤西州與紐約州部分地區進入緊急狀態，國家氣象局對喬治亞州北部、大西洋中部多數地區與新英格蘭南部發布強風警報。FlightAware 統計，美國相關航班逾 2,000 班延誤、逾 400 班取消。紐約市長曼達尼說市內有 2 人因淹水受困車內獲救，並呼籲「沒有任何目的地比你的安全更重要」。",
    "update": "感恩節風暴橫掃美國東岸，近 100 萬戶停電、逾 400 航班取消，紐澤西與紐約部分地區進入緊急狀態",
    "refocus": false
+  },
+  {
+   "at": "2026-11-27T20:52:38+08:00",
+   "kind": "supplement",
+   "version": 3,
+   "html": "BBC 報導，感恩節風暴過後 11 月 27 日仍有數十萬戶停電，賓州是停電最嚴重的州，維吉尼亞、馬里蘭、紐澤西也受創，停電戶數 26 日晚間一度接近 100 萬；美國西岸同時遭另一波風暴侵襲。依 Flightaware，26 日美國航班延誤逾 2,500 班、取消逾 450 班，27 日仍有數百班延誤或取消。華府迎來有紀錄以來最濕的感恩節，潮水淹上雷根國家機場跑道；馬里蘭因強風關閉橋梁，當局要求近 200 萬用戶限制用水；德拉瓦海浪漫上海濱步道。川普表示會考慮撥發緊急資金，賓州州長夏皮羅說電力公司正全力搶修。國家氣象局預報天氣將好轉，但恢復需要時間。延期的梅西百貨遊行改在 28 日舉行。",
+   "update": "感恩節風暴後美國仍有數十萬戶停電、賓州最嚴重，航班延誤逾 2,500 班，川普稱考慮撥緊急資金",
+   "refocus": false
   }
  ],
  "heat": {
-  "outlets": 13,
-  "regions": 3,
-  "media_weight": 28,
+  "outlets": 14,
+  "regions": 4,
+  "media_weight": 29,
   "community": {
    "hn": 0,
    "ptt": 0,

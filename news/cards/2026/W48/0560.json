@@ -1,0 +1,148 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0560",
+ "title": "歐霸盃馬賽對索菲亞列夫斯基賽前爆發球迷衝突，11 名保加利亞球迷受傷，法保兩國總統出面譴責",
+ "line": "列夫斯基球迷被拍到行納粹禮，馬克宏承諾「不會不受懲罰」，同晚多場歐洲賽事也有暴力事件",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T15:51:00+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "FR",
+   "BG"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "體育",
+   "國際關係"
+  ],
+  "event": [
+   "活動賽事",
+   "爭議風波"
+  ],
+  "org": [
+   "歐洲足球總會",
+   "馬賽足球俱樂部",
+   "索菲亞列夫斯基"
+  ],
+  "person": [
+   "馬克宏",
+   "Iliana Iotova"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "歐霸盃",
+   "球迷暴力",
+   "納粹禮"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "11 月 26 日晚間，馬賽主場維洛德隆球場對保加利亞冠軍索菲亞列夫斯基的歐霸盃比賽開賽前爆發衝突，11 名保加利亞球迷受傷、5 人送醫。據《隊報》，開賽前約 10 分鐘，坐在客隊區以外 Jean-Bouin 看台的列夫斯基球迷多次挑釁馬賽極端球迷，其中有人行納粹禮，影片可見一人做出該手勢後被保全制止；數十名馬賽球迷隨即從南看台衝向客隊看台，與約 500 名保加利亞球迷對峙，雙方互丟物品與照明彈。法國總統馬克宏與保加利亞總統 Iliana Iotova 當時都在布魯塞爾出席歐盟峰會，馬克宏以「最堅定的態度」譴責對保加利亞球迷的暴力，並向 Iotova 保證不會不受懲罰；Iotova 稱畫面「駭人」，要求法國徹查、歐洲足總檢視球場安全，保加利亞外交部也發表譴責。BBC 指同晚貝西克塔斯對以色列夏普爾貝爾謝巴（在喬治亞舉行）、桑德蘭對亞捷隆尼亞的比賽也發生事件。",
+ "dive_html": "球迷衝突演變成兩國元首層級的外交事件，加上納粹禮與同晚涉以色列球隊賽事的事件，歐洲足總恐須面對處罰兩隊、甚至限制客隊球迷入場的決定。法國明年仍有多場歐洲賽事，馬賽主場的維安規劃會受到檢視。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Euronews",
+   "title": "Marseille stadium violence escalates into diplomatic affair between France and Bulgaria",
+   "url": "https://www.euronews.com/2026/11/27/marseille-stadium-violence-escalates-into-diplomatic-affair-between-france-and-bulgaria",
+   "time": "2026-11-27T19:32:18+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC Sport",
+   "title": "Clashes mar European games as Macron condemns violence",
+   "url": "https://www.bbc.co.uk/sport/football/articles/c69q8y5x03ywo",
+   "time": "2026-11-27T18:24:24+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "European football violence causes concern with far-right claim in UEFA game",
+   "url": "https://www.aljazeera.com/sports/2026/11/27/european-football-violence-fuels-concern-as-marseille-far-right-claim-made",
+   "time": "2026-11-27T20:12:56+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Five people hospitalised as Levski Sofia and Marseille fans clash ahead of Europa League game",
+   "url": "https://www.france24.com/en/france/20261127-five-people-hospitalised-as-levski-sofia-and-marseille-fans-clash-ahead-of-europa-league-game",
+   "time": "2026-11-27T17:36:56+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Video shows Levski fan caught giving Nazi salute before Marseille match",
+   "url": "https://www.euronews.com/video/2026/11/27/video-shows-levski-fan-caught-giving-nazi-salute-before-marseille-match",
+   "time": "2026-11-27T18:04:15+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "French and Bulgarian leaders condemn fan violence in Marseille",
+   "url": "https://news.google.com/rss/articles/CBMingFBVV95cUxQZURzazAyTkt6Q21TTDhNcWZnR2ZGWDlnN2tpOWNvYl9lMWRrWFNYaldsNk53cFM3eTNQVlRrN2J4Y0lVNnRxaGZQVWE0Uzc4YVZyVy1oYnV2TU1GTzJxb3RWQl9MNzB3ZTY0ZXJOVGNvQ3dmeEltc1FQMmxNZExxNWppM1JyTkZrNDJKNEVNeEZhd0F4TTFiQkFtNVhjdw?oc=5",
+   "time": "2026-11-27T15:51:00+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 5,
+  "regions": 2,
+  "media_weight": 11,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

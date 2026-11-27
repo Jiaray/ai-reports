@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0541",
+ "title": "供應鏈攻擊：SoftwareOK 官網的 Q-Dir、DesktopOK 安裝檔與更新遭植入 Python 遠端木馬",
+ "line": "AhnLab 確認 Q-Dir 12.83 至 12.85、DesktopOK 12.82 與 12.85 版遭竄改",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T17:29:30+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "AhnLab",
+   "SoftwareOK"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "Q-Dir",
+   "DesktopOK",
+   "供應鏈攻擊",
+   "Python RAT"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "The Hacker News 報導，南韓資安公司 AhnLab 揭露一起軟體供應鏈攻擊：從 SoftwareOK 官網下載的 Windows 檔案管理工具 Q-Dir 與桌面圖示位置工具 DesktopOK 安裝檔遭竄改。AhnLab 表示，證據顯示不只直接從官方下載頁下載會拿到惡意檔，原本已安裝的合法版本在更新過程中也會被植入。惡意安裝程式會照常執行正版 Q-Dir 或 DesktopOK 降低戒心，同時從外部伺服器下載並安裝以 Python 寫成的遠端控制木馬（RAT），可依攻擊者指令執行 shell 指令與 Python 程式碼、傳檔、截圖並蒐集系統資訊。經 SHA-256 雜湊比對與多出的下載執行程式碼確認，遭竄改的版本為 Q-Dir 12.85.0.0、12.84.0.0、12.83.0.0 與 DesktopOK 12.85.0.0、12.82.0.0。安裝檔是如何被換成木馬版本，目前仍不清楚。",
+ "dive_html": "這類免費小工具常被工程師裝在開發機上，且透過內建更新取得新版，攻擊者正是利用「官方來源＋自動更新」這兩個最受信任的管道。由於竄改手法不明，SoftwareOK 其他產品是否也受影響仍是缺口。台灣團隊若有人使用這兩套工具，應先比對版本、視同主機已遭入侵處理，從乾淨裝置更換在該機上用過的憑證。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "Q-Dir 12.85.0.0、12.84.0.0、12.83.0.0；DesktopOK 12.85.0.0、12.82.0.0（官網下載與程式內更新皆可能取得惡意版）；CVE 原文未提供；利用狀態：已遭利用"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供修補版本；受影響版本應移除並檢查是否已被植入遠端木馬"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "title": "Hackers Trojanize Official Q-Dir and DesktopOK Downloads to Deliver Remote Access Malware",
+   "url": "https://thehackernews.com/2026/11/hackers-trojanize-official-q-dir-and.html",
+   "time": "2026-11-27T17:29:30+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

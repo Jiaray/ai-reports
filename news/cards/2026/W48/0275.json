@@ -5,8 +5,8 @@
  "line": "員工稱「被生成式 AI 逼到牆角」，Ubisoft 上週剛成立生成式 AI 子公司 Motherbrain",
  "born_at": "2026-11-26T16:09:33+08:00",
  "first_reported_at": "2026-11-26T04:19:40+08:00",
- "updated_at": "2026-11-26T16:09:33+08:00",
- "version": 1,
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -73,13 +73,34 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 3
+  },
+  {
+   "name": "80 Level",
+   "title": "Ubisoft Says Generative AI Isn't Mandatory for Developers",
+   "url": "https://80.lv/articles/ubisoft-says-generative-ai-isn-t-mandatory-for-developers/",
+   "time": "2026-11-27T18:12:00+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "80 Level",
+   "kind": "media",
+   "region": null,
+   "rank": 3
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-27T20:52:38+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "Ubisoft 回應 Vertical Slice 的報導，聲明稱鼓勵團隊探索 AI 在哪裡有用、能帶來價值，「但這不代表專案必須使用生成式 AI」，各團隊要自行判斷這些技術是否、以及如何適合想做的遊戲與想給玩家的體驗。不過 Insider Gaming 引述 Ubisoft 內部消息人士說，使用 AI 或許不是正式規定，開發者仍被推著採用，在工作室內造成緊張；其中一項內部工具 Imaginarium 是既有生成式 AI 工具的分支，原本主要用於概念美術，近來被推進更廣的開發流程。Ubisoft 今年 1 月公布的新營運模式文件也明寫將「加速投資」生成式 AI。",
+   "update": "Ubisoft 聲明專案不必使用生成式 AI，但內部消息稱開發者仍被推著採用，概念美術工具 Imaginarium 正擴大到開發流程",
+   "refocus": false
+  }
+ ],
  "heat": {
-  "outlets": 1,
+  "outlets": 2,
   "regions": 1,
-  "media_weight": 1,
+  "media_weight": 2,
   "community": {
    "hn": 0,
    "ptt": 0,

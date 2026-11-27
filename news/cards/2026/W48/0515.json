@@ -68,13 +68,25 @@
    "kind": "media",
    "region": "中東",
    "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Estonia prepares to close all five road border crossings with Russia",
+   "url": "https://www.euronews.com/video/2026/11/27/estonia-prepares-to-close-all-five-road-border-crossings-with-russia",
+   "time": "2026-11-27T16:57:16+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 1,
-  "regions": 1,
-  "media_weight": 2,
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 4,
   "community": {
    "hn": 0,
    "ptt": 0,

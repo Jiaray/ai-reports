@@ -1,0 +1,108 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0538",
+ "title": "廣西壯族自治區原主席藍天立受賄逾 5.87 億元人民幣，一審判死緩、終身監禁不得減刑假釋",
+ "line": "2008 至 2025 年利用河池市委書記到自治區主席等職務收賄，因主動交代未掌握事實免立即執行",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T17:09:00+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "犯罪與司法",
+   "政治"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "org": [
+   "湖南省常德市中級人民法院",
+   "新華社"
+  ],
+  "person": [
+   "藍天立"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "中共反腐",
+   "受賄",
+   "死緩"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據新華社與央視，湖南省常德市中級人民法院 11 月 27 日一審宣判廣西壯族自治區黨委原副書記、自治區政府原主席藍天立受賄案，以受賄罪判處死刑、緩期二年執行，剝奪政治權利終身、沒收個人全部財產，死緩期滿減為無期徒刑後終身監禁，不得減刑、假釋。法院查明，2008 至 2025 年藍天立利用擔任河池市委書記、自治區政府副主席、自治區政協主席與自治區主席等職務便利，在企業經營、專案承攬、幹部選拔任用等事項為他人提供幫助，收受財物折合 5.87 億餘元人民幣，論罪應判死刑；但因有未遂情節、到案後主動交代辦案機關尚未掌握的大部分受賄事實、認罪悔罪並積極退贓，判處死刑可不立即執行。本案 7 月 30 日開庭審理。藍天立 2025 年 5 月在主席任上落馬，之後廣西啟動非法採礦與重金屬污染專項整治、倒查過去 10 年。DW 引述《聯合早報》說，有分析認為他落馬可能涉及有色金屬業腐敗，但官方未證實。",
+ "dive_html": "「死緩加終身監禁」是中國對超大額受賄高官的標準重刑，5.87 億元的金額在近年省部級案件中屬於最高一級。判決宣布的時間點正逢上海市委書記陳吉寧落馬，顯示習近平第三任期後段的反腐仍在高層持續推進。判決對受賄所涉的行業與項目著墨不多，有色金屬礦業的關聯仍停留在媒體分析。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "DW 中文",
+   "title": "广西原主席蓝天立受贿5.87亿 一审判死缓终身监禁",
+   "url": "https://www.dw.com/zh/广西原主席蓝天立受贿5-87亿-一审判死缓终身监禁/a-80074342?maca=chi-rss-chi-all-1127-rdf",
+   "time": "2026-11-27T20:11:00+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "21 世紀經濟報道",
+   "title": "非法收受财物5.87亿余元 蓝天立一审被判死缓",
+   "url": "https://m.21jingji.com/article/20261127/herald/009374a65a696bb472923c2ccfc2482a.html",
+   "time": "2026-11-27T17:09:00+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "21 世紀經濟報道",
+   "kind": "media",
+   "region": "中國大陸",
+   "rank": 3
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Former government chief of China's Guangxi sentenced to death with reprieve over graft",
+   "url": "https://news.google.com/rss/articles/CBMixgFBVV95cUxQbXpEaENJRlIwSHl4dEZuT0pwQTVreDduek1JSVNKVTB4UkJFMDZUZFBtQUYtYVlHYVZSdklGNXNsbU1vWHc3cS02NkFGSnlSa3Z4a0dybGlwWHpXYW9TUGwyLTJjSmFNNDIzOE5iRlRCS3JBYUpFcVhxOUQwR1dNem5EZm15akU4YV9uc21tYUVwa0tXRmRkdmFuZ2FmeGlScEd6MTljM0RrSXhpazNJSVV4WVVJRDhXc1l1RHdyUWZpVEdmQkE?oc=5",
+   "time": "2026-11-27T18:01:23+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 2,
+  "media_weight": 6,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

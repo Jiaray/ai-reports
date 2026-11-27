@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0552",
+ "title": "雲頂馬來西亞第三季股東應占利潤年減 66% 至 4,060 萬令吉，營收因紐約賭場開業增 29.1%",
+ "line": "馬來西亞本地博奕需求轉弱、營運與融資成本上升，調整後 EBITDA 減 11.3%",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T16:57:00+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞",
+   "北美"
+  ],
+  "country": [
+   "MY",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "企業經營"
+  ],
+  "event": [
+   "財報營運"
+  ],
+  "sector": [
+   "博奕",
+   "觀光"
+  ],
+  "org": [
+   "雲頂馬來西亞",
+   "紐約名勝世界"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Resorts World New York City",
+   "Genting Malaysia",
+   "財報"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "InterGame 引述 Asean Gaming 報導，雲頂馬來西亞（Genting Malaysia）11 月 26 日公布截至 9 月 30 日的第三季財報，股東應占利潤 4,060 萬令吉（約 990 萬美元），較去年同期 1.197 億令吉減少 66%，主因馬來西亞本地博奕活動轉弱，加上營運與融資成本上升。營收則年增 29.1% 至 43.4 億令吉（約 10.5 億美元），主要來自紐約名勝世界（Resorts World New York City）商業賭場首階段營運首度貢獻完整一季。集團調整後 EBITDA 年減 11.3% 至 7.431 億令吉（約 1.805 億美元）。",
+ "dive_html": "營收靠紐約賭場撐起、利潤卻大減，顯示新賭場仍在爬坡、尚未攤平開業與融資成本，而雲頂高原本業的需求轉弱才是獲利的主要拖累。紐約商業賭場執照是近年美國東岸最大的博奕擴張，後續季度能否轉為獲利貢獻，將決定雲頂這筆高槓桿投資的成敗。原文沒有分列馬來西亞與紐約各自的營收與 EBITDA，無法判斷兩地的確切消長。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "InterGame",
+   "title": "Genting Malaysia 3Q26 profit falls 66%",
+   "url": "https://www.intergameonline.com/land-based-gaming/news/genting-malaysia-3q26-profit-falls-66",
+   "time": "2026-11-27T16:57:00+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "InterGame",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

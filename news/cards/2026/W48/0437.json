@@ -5,8 +5,8 @@
  "line": "較前次預測上修 2.23 個百分點，今年 CPI 預估漲 2.07%",
  "born_at": "2026-11-27T16:57:43+08:00",
  "first_reported_at": "2026-11-27T16:21:43+08:00",
- "updated_at": "2026-11-27T16:57:43+08:00",
- "version": 1,
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -42,7 +42,9 @@
   "keyword": [
    "經濟成長率",
    "GDP",
-   "CPI"
+   "CPI",
+   "人均 GDP",
+   "出口"
   ],
   "form": [
    "新聞"
@@ -68,13 +70,94 @@
    "kind": "media",
    "region": "台灣",
    "rank": 2
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "AI紅利台灣人均GDP加速超車　主計總處估明年將破5萬美元",
+   "url": "https://www.cna.com.tw/news/afe/202611270206.aspx",
+   "time": "2026-11-27T18:03:18+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "經濟日報",
+   "title": "主計總處：明年經濟成長估6.51%　AI發展腳步不會停",
+   "url": "https://money.udn.com/money/story/5612/9906457",
+   "time": "2026-11-27T19:45:27+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "經濟日報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "主計總處：明年經濟成長估6.51%　AI發展腳步不會停",
+   "url": "https://www.cna.com.tw/news/afe/202611270234.aspx",
+   "time": "2026-11-27T19:34:19+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Anue 鉅亨網",
+   "title": "免驚美國反AI聲浪？主計上修今明年台灣GDP 創80年代來新高峰",
+   "url": "https://news.cnyes.com/news/id/6673977",
+   "time": "2026-11-27T18:28:32+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "科技新報",
+   "title": "AI 仍供不應求，主計總處估明年出口破 1 兆美元創新高",
+   "url": "https://finance.technews.tw/2026/11/27/ai-supply-shortage-dgbass-forecasts-next-year-exports-1-trillion-record-high/",
+   "time": "2026-11-27T18:10:06+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "科技新報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "AI仍供不應求　主計總處估明年出口破1兆美元創新高",
+   "url": "https://www.cna.com.tw/news/afe/202611270198.aspx",
+   "time": "2026-11-27T17:43:01+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-27T20:52:38+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "主計總處同日估計，台灣人均 GDP 今年突破 4 萬美元、達 4 萬 6,767 美元，2027 年再突破 5 萬美元、達 5 萬 779 美元，於主要國家排名第 29；綜合統計處處長蔡鈺泰說，人均 GDP 從 1 萬到 2 萬美元花了近 20 年，這次從 4 萬到 5 萬「確實比較快一點」，並指台灣人均 GDP 2024 年超越日本、2025 年超越韓國。主計總處也估今年第 4 季經濟成長率達 10.42%、上修 5.05 個百分點，今年商品出口 9,386.43 億美元，明年將突破 1 兆美元、達 1 兆 1,135.49 億美元創新高。主計總處表示，雖然美國擴大 AI 出口管制、美國民間反對資料中心的聲浪可能促使地方加強監管，但 AI 發展態勢已確立。",
+   "update": "主計總處估台灣人均 GDP 今年達 4 萬 6,767 美元、2027 年突破 5 萬美元，明年商品出口將首度破 1 兆美元",
+   "refocus": false
+  }
+ ],
  "heat": {
-  "outlets": 1,
+  "outlets": 4,
   "regions": 1,
-  "media_weight": 2,
+  "media_weight": 7,
   "community": {
    "hn": 0,
    "ptt": 0,

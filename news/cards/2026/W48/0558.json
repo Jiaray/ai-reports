@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0558",
+ "title": "南亞婦權聯盟研究：印度、孟加拉、斯里蘭卡、阿富汗未將婚內強暴入罪，該區親密伴侶暴力高於全球平均 35%",
+ "line": "八國中只有馬爾地夫對婚內強暴與一般強暴同罰，相關豁免條款多源自英國殖民時期法律",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T16:13:43+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "南亞"
+  ],
+  "country": [
+   "IN",
+   "BD",
+   "LK",
+   "AF",
+   "PK"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "人權"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "Samaj",
+   "Equality Now"
+  ],
+  "person": [
+   "Ranjeeta Silwal"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "婚內強暴",
+   "性別暴力",
+   "南亞"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "BBC 報導，南亞婦權團體聯盟 Samaj 的研究指出，南亞八國未完全將婚內強暴入罪，讓數百萬婦女與女童缺乏保護，而該區親密伴侶暴力比全球平均高 35%。全球已有逾 100 國把婚內強暴入罪（英國在 1991 年修法），但印度、阿富汗、斯里蘭卡與孟加拉仍屬約三十多個未入罪的國家。南亞只有馬爾地夫對婚內強暴與其他強暴同罰；尼泊爾、不丹已入罪但刑度較輕；巴基斯坦 2006 年刪除婚內強暴例外，但沒有高等法院確認強暴罪適用於婚姻之內。聯盟成員 Equality Now 的 Ranjeeta Silwal 說，這些法律多源自英國殖民統治，印度與孟加拉的條文可追溯至 1860 年、斯里蘭卡 1885 年，將男子與成年妻子的性行為列為強暴例外。BBC 也提到，印度德里高等法院曾對此作出分歧判決，印度政府則稱把婚內強暴入罪「過於嚴苛」。",
+ "dive_html": "這份研究把問題從個案拉到制度層面：殖民時代留下的豁免條款在獨立後未被修正，顯示性別立法改革在南亞的政治阻力很大。印度最高法院對婚內強暴的審理仍是關鍵，若入罪將影響全球人口最多國家的數億婦女；但印度政府的公開反對立場，代表短期內透過立法改變的機會不大。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC World",
+   "title": "Millions of wives in South Asia unprotected from marital rape - study",
+   "url": "https://www.bbc.co.uk/news/articles/cw074p95ye5do",
+   "time": "2026-11-27T16:13:43+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

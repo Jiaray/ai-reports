@@ -1,0 +1,107 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0563",
+ "title": "路透發現印度選舉委員會網站漏洞，可批次下載選民姓名、電話、住址與證件檔，通報後已修補",
+ "line": "可預測的參考編號讓駭客能自動化大量下載，北方邦等重要邦選舉前曝光",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T14:58:00+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "南亞"
+  ],
+  "country": [
+   "IN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安",
+   "選舉"
+  ],
+  "event": [
+   "漏洞揭露",
+   "調查揭露"
+  ],
+  "org": [
+   "印度選舉委員會",
+   "Reuters",
+   "印度人民黨"
+  ],
+  "person": [
+   "莫迪"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "印度選舉委員會",
+   "選民資料外洩",
+   "IDOR"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "路透獨家報導，印度選舉委員會（ECI）網站有安全漏洞，可存取部分選民的敏感個資與文件，路透發現後通報，ECI 已修補。路透花一個多月檢視網站發現，選民登入帳號申請與地方選務官電話聯繫時，系統使用可預測的參考編號，駭客可猜測編號、自動化大量下載資料；研究人員說可能外洩的包括姓名、電話、電子郵件、出生日期、住址與身分證件檔，且很容易被濫用。這個問題在北方邦等重要邦選舉前數個月曝光，ECI 同時正因具爭議的選民名冊更新面臨民怨；反對黨與社運人士指名冊更新讓數百萬選民失去投票權、有利莫迪的印度人民黨，ECI 稱一切合規。反對黨領袖稱漏洞「極度令人憂心」，警告可能被用於恐嚇、側寫與壓制投票。",
+ "dive_html": "可預測編號導致的越權存取（IDOR）是最基本的 Web 漏洞類型，出現在選務機關網站，顯示大型公共系統的安全測試仍有明顯缺口。報導沒有交代漏洞存在多久、是否已有人在路透之前利用，這決定了外洩是否已成事實。對開發者的提醒很直接：任何用流水號或可猜測 ID 取資料的 API，都要在伺服器端驗證擁有者。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "印度選舉委員會網站，部分選民的姓名、電話、電子郵件、出生日期、住址與身分證件檔；CVE 原文未提供；利用狀態：未說明"
+  },
+  {
+   "name": "處置",
+   "html": "印度選舉委員會已修補"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Straits Times Asia",
+   "title": "India’s election body website flaw exposing voter data fixed after Reuters findings",
+   "url": "https://www.straitstimes.com/asia/south-asia/indias-election-body-website-flaw-exposing-voter-data-fixed-after-reuters-findings",
+   "time": "2026-11-27T15:50:00+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "EXCLUSIVE: India's election body website flaw exposing voter data fixed after Reuters findings",
+   "url": "https://news.google.com/rss/articles/CBMitgFBVV95cUxQQmxHYlRsZWJBc0E5YmI5dWJMMlZueVZHY2Z2VnVvRHlFTDdZbnpTVDNHcVBPeG1sczJuMWQ4R3BHU3dBWmVqVlRKOTQ4RzRscm9JdWxkVVZlQU5KMlQ2WThVcTl3dEhGN2s1VDl6ZF9vWGpMNjY5cWUyWG8zWVYyazdXSXhaRVNQUGYzMVJxUXk1bkpfRkNCZkhWZXlkN0VvOHBCaUg5d1YyX3lsMWhveTNYYUlJQQ?oc=5",
+   "time": "2026-11-27T14:58:00+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

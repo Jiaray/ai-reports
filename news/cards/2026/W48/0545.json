@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0545",
+ "title": "Karpathy 用 Claude Code 7 小時、4.5 萬行程式碼，以 31 個真實資料源把美國本土做成《文明》風格地圖",
+ "line": "金幣對應 GDP、產業特色用區位商判定，24 天內第三個公開的 AI 代寫專案",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T20:33:56+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "開發與開源"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Anthropic"
+  ],
+  "person": [
+   "Andrej Karpathy",
+   "馬斯克"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "usaciv",
+   "Claude Code",
+   "Opus 5.5",
+   "Vibe Coding"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "機器之心報導，前 OpenAI 研究員 Andrej Karpathy 11 月 26 日公開個人專案 usaciv：他在 Claude Code 桌面版把 Opus 5.5 設為 Medium 模式並開啟 ultracode，約 7 小時產出約 4.5 萬行程式碼，把美國本土資料填進《文明》風格的六角格地圖。模型下載並解析 31 個公開資料源，涵蓋人口、地形、經濟、能源、交通與災害，映射到 25 公里六角格；金幣對應 GDP，食物、生產力、科技與文化值對應相關行業就業人數，城市產業特色用經濟地理學的區位商判定，因此底特律成了「汽車城」。連專案預告片也是 Claude 寫程式產生的。Karpathy 說自己已不再讀寫程式碼或在終端機下指令，只和 Claude 對話；他也透露本週 Claude 用量已用掉一半，因這是用一般訂閱做的個人專案。這是他 24 天內公開的第三個軟體，馬斯克在留言稱「Very impressive」。",
+ "dive_html": "這個案例的意義在於「資料整合＋規則設計＋視覺化」整條鏈都交給代理，人只負責出題與驗收，顯示長時間代理任務已能處理多資料源清理這類傳統上最耗工的環節。對團隊主管而言，值得注意的是成本面：一個 7 小時專案就吃掉一般訂閱一週用量的一半，代理式開發的瓶頸正從能力轉向額度與費用。報導沒有交代資料正確性的驗證方式，31 個資料源映射是否有誤，只靠展示畫面無從判斷。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "36氪",
+   "title": "大神Karpathy又整活，Claude 7小时把真实美国搬进《文明》",
+   "url": "https://www.36kr.com/p/4087901307353735",
+   "time": "2026-11-27T20:33:56+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "36氪",
+   "kind": "media",
+   "region": "中國大陸",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

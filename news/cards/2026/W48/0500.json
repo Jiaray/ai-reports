@@ -72,13 +72,37 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 3
+  },
+  {
+   "name": "iGaming Business",
+   "title": "Entain agrees preliminary AU$185 million settlement to resolve Australia AML case",
+   "url": "https://igamingbusiness.com/legal-compliance/entain-agrees-settlement-australia-aml-case/",
+   "time": "2026-11-27T19:09:53+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "iGaming Business",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "Casino.org News",
+   "title": "Entain Agrees to $123M Australian AML Settlement Days Before Trial",
+   "url": "https://www.casino.org/news/entain-agrees-to-123m-australian-money-laundering-settlement-days-before-trial/",
+   "time": "2026-11-27T19:20:01+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "0 comments",
+   "family": "Casino.org",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 1,
-  "regions": 1,
-  "media_weight": 1,
+  "outlets": 3,
+  "regions": 2,
+  "media_weight": 3,
   "community": {
    "hn": 0,
    "ptt": 0,

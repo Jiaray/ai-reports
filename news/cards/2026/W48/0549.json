@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0549",
+ "title": "英國首例：Papa John's AI 代理以無卡帳戶對帳戶支付完成披薩訂單，屬金融行為監理總署沙盒試驗",
+ "line": "TrueLayer 與 Lloyds 合作，代理有單筆與每月上限、不經手帳號密碼",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T17:53:11+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "金融市場"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "金融",
+   "零售與消費"
+  ],
+  "org": [
+   "英國金融行為監理總署",
+   "TrueLayer",
+   "Lloyds Bank",
+   "Papa John's"
+  ],
+  "person": [
+   "Francesco Simoneschi"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "代理支付",
+   "開放銀行",
+   "監理沙盒"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "《衛報》報導，一筆 9 份迷你瑪格麗特披薩的 Papa John&#x27;s 訂單，成為英國第一筆由 AI 代理以無卡支付技術完成的交易。這是英國金融行為監理總署（FCA）監理沙盒試驗的一部分，合作方為 Lloyds Bank 與倫敦支付業者 TrueLayer，後者提供不經信用卡的帳戶對帳戶付款。TrueLayer 執行長 Francesco Simoneschi 在 BBC Radio 4 表示，交易過程沒有帳號、沒有密碼；團隊向 Papa John&#x27;s 的 AI 代理描述場合與飲食需求，代理建議口味與數量，確認後下單，披薩隨後送達。這個代理事先取得存取客戶銀行帳戶、向商家帳戶請款的授權，並在與 Lloyds 設定的嚴格委託範圍內運作，包括單筆與每月消費上限，過程中不分享任何帳戶安全資訊。",
+ "dive_html": "「代理替人付錢」的關鍵難題是授權範圍與責任歸屬，這次試驗用銀行端的委託上限處理前者，代表開放銀行架構可能比信用卡更適合代理支付。由監理機關沙盒先行，也顯示英國想在規則成形前掌握主導權。報導沒有交代代理下錯單、超出使用者意圖時誰負責，這正是零售業在黑色星期五導入購物代理時最大的未解問題。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Guardian World",
+   "title": "Pizza history: AI agent’s cardless purchase is a first for UK",
+   "url": "https://www.theguardian.com/business/2026/nov/27/ai-agent-cardless-transaction-pizza-papa-john-uk-fca-truelayer",
+   "time": "2026-11-27T17:53:11+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

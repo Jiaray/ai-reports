@@ -1,0 +1,94 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0556",
+ "title": "不明無人機短暫飛入拉脫維亞東部領空，北約戰機與拉脫維亞攔截無人機緊急出動",
+ "line": "盧扎市一度發布橘色空中威脅警報，軍方未說明無人機來源並警告可能再有入侵",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T18:31:38+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "LV",
+   "RU"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "國防與軍事",
+   "國際關係"
+  ],
+  "event": [
+   "軍事行動"
+  ],
+  "org": [
+   "北約",
+   "拉脫維亞國軍"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "無人機",
+   "領空侵犯",
+   "波羅的海空中警戒"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "拉脫維亞國軍 11 月 27 日表示，26 日深夜至 27 日凌晨，一架不明無人機在靠近俄羅斯邊界的東部盧扎市附近移動，並「短暫飛越拉脫維亞領土」；負責波羅的海國家空中警戒的北約戰機緊急升空，拉脫維亞也出動一架攔截無人機。當地時間凌晨 2 時 30 分，盧扎宣布空中威脅並向居民發出橘色警報，代表已確認威脅、須立即行動；2 時 55 分解除，改對鄰近的北部巴爾維市發布較低一級的黃色警報。軍方沒有說明無人機來自何方，並警告未來可能還會有入侵。法新社指出，今年北約戰機已在拉脫維亞上空擊落兩架無人機。",
+ "dive_html": "這是波羅的海國家近月一連串領空侵犯之一，搭配愛沙尼亞關閉對俄陸路邊境、IISS 報告指俄國破壞行動增加，顯示北約東翼面對的是持續性的低強度試探。拉脫維亞動用攔截無人機而非只靠戰機，反映各國正調整防空成本結構，用便宜手段應對便宜威脅。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "拉脫維亞領空再遭無人機侵犯　北約戰機緊急升空",
+   "url": "https://www.cna.com.tw/news/aopl/202611270215.aspx",
+   "time": "2026-11-27T18:31:38+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Euronews",
+   "title": "NATO jets scrambled after drone briefly enters Latvian airspace",
+   "url": "https://www.euronews.com/2026/11/27/nato-jets-scrambled-after-drone-briefly-enters-latvian-airspace",
+   "time": "2026-11-27T18:41:24+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -5,8 +5,8 @@
  "line": "起訴涉 85 起謀殺與 2 起謀殺未遂，檢方稱只是多達 3 萬名死者的樣本",
  "born_at": "2026-11-27T17:07:52+08:00",
  "first_reported_at": "2026-11-27T10:22:00+08:00",
- "updated_at": "2026-11-27T17:07:52+08:00",
- "version": 1,
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -86,13 +86,58 @@
    "kind": "media",
    "region": "東南亞",
    "rank": 3
+  },
+  {
+   "name": "Rappler",
+   "title": "LIVE UPDATES: Rodrigo Duterte on trial at the ICC",
+   "url": "https://www.rappler.com/philippines/rodrigo-duterte-trial-international-criminal-court-hague-updates-videos/",
+   "time": "2026-11-27T20:05:00+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Rappler",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 3
+  },
+  {
+   "name": "Rappler",
+   "title": "Order in the Court: Why did SC junk petitions vs Duterte’s ICC arrest?",
+   "url": "https://www.rappler.com/philippines/order-in-the-court-reasons-sc-junk-petitions-rodrigo-duterte-icc-arrest/",
+   "time": "2026-11-27T18:42:50+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "0 comments",
+   "family": "Rappler",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 3
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Explainer-Rodrigo Duterte's ICC trial: What to know",
+   "url": "https://www.straitstimes.com/asia/explainer-rodrigo-dutertes-icc-trial-what-to-know",
+   "time": "2026-11-27T17:52:24+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-27T20:52:38+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "菲律賓最高法院駁回杜特蒂子女聲請的人身保護令，他們質疑杜特蒂遭國際刑事法院逮捕的合法性；最高法院認為人身保護令（禁止非法拘禁的救濟）不是這個案子適當的救濟途徑。杜特蒂自 2025 年 3 月起被拘留在荷蘭海牙。Rappler 與 Straits Times 確認，審判於 11 月 30 日（週一）開始。",
+   "update": "菲律賓最高法院駁回杜特蒂子女質疑其國際刑事法院逮捕的人身保護令聲請，審判 11 月 30 日開始",
+   "refocus": false
+  }
+ ],
  "heat": {
-  "outlets": 2,
+  "outlets": 3,
   "regions": 2,
-  "media_weight": 3,
+  "media_weight": 5,
   "community": {
    "hn": 0,
    "ptt": 0,

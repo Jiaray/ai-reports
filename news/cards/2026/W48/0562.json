@@ -1,0 +1,108 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0562",
+ "title": "法國第三季 GDP 萎縮 0.2%、連三季未成長，11 月通膨因能源價格回落降至 2.9%",
+ "line": "萎縮幅度比 Insee 原估的 0.1% 更大，政府全年成長目標更難達成",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T16:46:59+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "FR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "總體經濟"
+  ],
+  "event": [
+   "數據發布"
+  ],
+  "org": [
+   "法國國家統計及經濟研究局"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "法國 GDP",
+   "通膨",
+   "Insee"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "法國國家統計及經濟研究局（Insee）11 月 27 日公布，法國第三季國內生產毛額（GDP）萎縮 0.2%，大於原先預估的 0.1% 降幅，是連續第三季沒有成長，讓政府全年成長目標更難達成。同日公布的物價數據顯示，11 月消費者物價月減 0.7%（10 月月增 0.4%），年增率放緩至 2.9%。Insee 說明，放緩主要來自能源價格：能源年增率仍高，但由 10 月的 24.1% 降至 19.2%，石油產品價格明顯下跌，天然氣費率則持續上漲；服務業通膨也由 10 月的 2.6% 降至 2.3%。",
+ "dive_html": "經濟連三季停滯、通膨卻仍近 3%，法國陷入類停滯性通膨的組合，財政空間又受預算爭議限制，對歐盟長期預算談判與歐洲央行新總裁的利率路線都是壓力。能源年增率仍近兩成，顯示伊朗戰爭帶來的能源衝擊尚未消化，通膨回落主要靠油價，若中東情勢再起，降溫可能逆轉。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "第三季 GDP -0.2%（原估 -0.1%）；11 月 CPI 年增 2.9%、月減 0.7%；能源年增 19.2%（10 月 24.1%）；服務業 2.3%（10 月 2.6%）"
+  }
+ ],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "法國第3季經濟萎縮0.2%　全年成長目標面臨挑戰",
+   "url": "https://www.cna.com.tw/news/aopl/202611270170.aspx",
+   "time": "2026-11-27T16:46:59+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Euronews",
+   "title": "France's inflation slows to 2.9% in November as energy prices fall",
+   "url": "https://www.euronews.com/2026/11/27/frances-inflation-slows-to-29-in-november-as-energy-prices-fall",
+   "time": "2026-11-27T17:24:57+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Financial Times",
+   "title": "French economy shrinks 0.2% in third quarter",
+   "url": "https://www.ft.com/content/5325ace3-d69a-4686-acb6-2f06de6afd11?syn-25a6b1a6=1",
+   "time": "2026-11-27T19:38:30+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 2,
+  "media_weight": 8,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

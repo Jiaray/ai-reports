@@ -1,0 +1,76 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0567",
+ "title": "論文 ProxyGenBench：用 3D 粗模引導影片生成的評測，發現粗模越細、補完細節反而越差",
+ "line": "60 個場景、312 個案例評測五款影片生成器的結構保留、補完與多模態綁定",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T08:00:00+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "Hugging Face"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "影片生成",
+   "ProxyGenBench",
+   "3D blockout"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "近期影片生成器畫面逼真，但難以控制場景如何展開。動態 3D 粗模（blockout）這類結構代理可指定場景配置、運動、鏡頭與事件順序，但粗略輸入會留下未指定的細節，也可能含有不該重現的瑕疵。作者因此把代理引導生成拆成三個要求：保留預期結構、補完缺漏並修正代理瑕疵、把文字、圖片與音訊條件綁到正確的對象與事件，推出 ProxyGenBench，含 60 個場景、三類場景任務共 312 個評測案例，並控制代理精細度、文字詳細度與多模態輸入的變化。作者以逐案驗證的檢查清單評測五款影片生成器，結果顯示代理能改善時空控制，但代理越精細可能伴隨補完變差，而結構遵循度高也不保證綁定正確。",
+ "dive_html": "對用 3D 預視或遊戲引擎粗模來控制 AI 影片的製作流程，這篇點出一個反直覺的取捨：給模型越多結構，它越傾向照抄、越少自行補完。這讓「粗模要做到多細」成為需要實測的製程參數，而不是越細越好。摘要沒有列出五款生成器的名稱與各自分數，無法據此選型。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "ProxyGenBench: Benchmarking Proxy-Guided Video Generation",
+   "url": "https://huggingface.co/papers/2611.34457",
+   "time": "2026-11-27T08:00:00+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "+35",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

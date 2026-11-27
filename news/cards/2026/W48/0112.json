@@ -411,6 +411,42 @@
    "kind": "media",
    "region": "台灣",
    "rank": 1
+  },
+  {
+   "name": "公視新聞網",
+   "title": "蔣萬安在凱道舉辦選前之夜 沈伯洋白天車掃、晚間直播",
+   "url": "https://news.pts.org.tw/article/837638",
+   "time": "2026-11-27T18:26:13+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "公視",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "RFI 中文",
+   "title": "近20年来首次民进党台北市长候选人取消选前之夜 沈伯洋宣布改线上活动",
+   "url": "https://www.rfi.fr/cn/%E6%B8%AF%E6%BE%B3%E5%8F%B0/20261127-%E8%BF%9120%E5%B9%B4%E6%9D%A5%E9%A6%96%E6%AC%A1%E6%B0%91%E8%BF%9B%E5%85%9A%E5%8F%B0%E5%8C%97%E5%B8%82%E9%95%BF%E5%80%99%E9%80%89%E4%BA%BA%E5%8F%96%E6%B6%88%E9%80%89%E5%89%8D%E4%B9%8B%E5%A4%9C-%E6%B2%88%E4%BC%AF%E6%B4%8B%E5%AE%A3%E5%B8%83%E6%94%B9%E7%BA%BF%E4%B8%8A%E6%B4%BB%E5%8A%A8",
+   "time": "2026-11-27T20:04:28+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "NYT Asia Pacific",
+   "title": "Puma Shen, Critic of China, Could be the Next Mayor of Taipei",
+   "url": "https://www.nytimes.com/2026/11/27/world/asia/puma-shen-taiwan-election-china.html",
+   "time": "2026-11-27T18:42:02+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "",
+   "family": "New York Times",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
   }
  ],
  "log": [
@@ -424,9 +460,9 @@
   }
  ],
  "heat": {
-  "outlets": 2,
-  "regions": 1,
-  "media_weight": 5,
+  "outlets": 4,
+  "regions": 3,
+  "media_weight": 10,
   "community": {
    "hn": 0,
    "ptt": 92,

@@ -1,0 +1,77 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0565",
+ "title": "論文 Stable Gated DeltaNet-2：以對稱抹除解決線性注意力長上下文訓練崩潰，128K RULER 平均提高 6.80 分",
+ "line": "找出 GDN-2 抹除操作非正規化導致狀態指數成長，並證明狀態成長上界為 O(T)",
+ "born_at": "2026-11-27T20:52:38+08:00",
+ "first_reported_at": "2026-11-27T08:00:00+08:00",
+ "updated_at": "2026-11-27T20:52:38+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "Hugging Face"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "線性注意力",
+   "Gated DeltaNet-2",
+   "長上下文",
+   "RULER"
+  ],
+  "form": [
+   "論文"
+  ]
+ },
+ "summary_html": "線性注意力以線性複雜度與固定大小的遞迴狀態處理長序列，Gated DeltaNet-2（GDN-2）引入逐通道獨立控制抹除與寫入，提升狀態更新表達力與上下文檢索能力，但長上下文訓練時會失敗。論文把原因追到抹除時讀取方向與修改方向不對稱，產生非正規的抹除算子，其方向增益會跨 token 累積，即使沒有新寫入也會讓狀態指數成長。作者提出改用對稱抹除確保狀態傳遞不擴張，並以衰減調節的殘差寫入保留寫入彈性；理論上證明遞迴狀態成長上界為 O(T)，且保留分塊平行計算。在約 16 億參數模型上，新方法訓練穩定、長上下文檢索提升：遞迴設定下 128K RULER 平均分數比 GDN-2 高 6.80 分，混合設定下九項下游任務平均準確度高 0.62 分。",
+ "dive_html": "線性注意力與混合架構是降低長上下文推論成本的主要路線，這篇的貢獻在把「訓練不穩」從調參問題變成可證明的結構問題，並給出不犧牲平行訓練的修法。HF 票數 105 是當日最高，反映實作者對這類穩定性修正的需求。限制是實驗只到 16 億參數，放大到數百億參數是否同樣有效，摘要沒有交代。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "HF Papers",
+   "title": "Stable Gated DeltaNet-2: Understanding and Mitigating Recurrent State Instability",
+   "url": "https://huggingface.co/papers/2611.34051",
+   "time": "2026-11-27T08:00:00+08:00",
+   "added_at": "2026-11-27T20:52:38+08:00",
+   "heat_raw": "+105",
+   "family": "Hugging Face",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}
