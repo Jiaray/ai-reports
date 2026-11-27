@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0491",
+ "title": "Cocos 論壇開發者反映近一週 Cocos Creator 佔滿硬碟讀寫、異常卡頓，原因不明",
+ "line": "回覆多是對編輯器效能的抱怨與要求開源，前 6 則回覆沒有官方說明",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-25T20:02:43+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": true,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "網頁遊戲",
+   "開發與開源"
+  ],
+  "event": [
+   "爭議風波"
+  ],
+  "sector": [
+   "遊戲",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Cocos"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Cocos Creator",
+   "硬碟讀寫",
+   "編輯器效能",
+   "PinK"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Cocos 中文社區用戶 www50668189 11 月 25 日發帖表示，最近一週 Cocos Creator 吃滿硬碟讀寫，已嚴重到異常卡頓，詢問原因；帖子沒有寫明使用的 Creator 版本。回覆整理：- 169281138 說大專案用 Creator 本來就很卡，是通病，再搭配 AI 跑任務更卡。- cwrysp、卖女孩的小火柴、chengmingxing12 等人表示希望 Cocos Creator 開源、讓社群自行維護，甚至提議「復刻」編輯器。- wdxkwdl 調侃大家都在討論 Creator 編輯器，官方新工具 PinK 好像被忽略。目前 6 則回覆中沒有官方回應，也沒有人提出解法。",
+ "dive_html": "這則與先前 Dashboard 自動下載引擎吃掉 40GB 硬碟、反覆彈升級提示的抱怨相互呼應，顯示近期 Cocos 編輯器與周邊工具在背景磁碟活動上可能有問題，但目前沒有版本與重現條件可查證。遇到類似狀況的團隊，可先檢查 Dashboard 的自動下載與專案 library 重建是否在背景執行。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Cocos 中文社區",
+   "title": "最近1周 cocosCreator 吃满了硬盘读写",
+   "url": "https://forum.cocos.org/t/topic/178256",
+   "time": "2026-11-25T20:02:43+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "551 瀏覽 / 6 回覆",
+   "family": "Cocos 中文社區",
+   "kind": "community",
+   "region": "中國大陸",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

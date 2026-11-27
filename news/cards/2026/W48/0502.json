@@ -1,0 +1,96 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0502",
+ "title": "Google 與歐洲博奕監管機關合作，擬以各國合法業者白名單把無照賭場擠出付費搜尋廣告",
+ "line": "荷蘭監管機關主席稱目標 2027 年夏季上路，聯盟行銷網站也將納管",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-27T07:24:30+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "GB",
+   "NL",
+   "DK",
+   "IE"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "博奕",
+   "網路平台"
+  ],
+  "org": [
+   "Google",
+   "荷蘭博奕管理局",
+   "歐洲博奕監管論壇",
+   "英國博奕委員會"
+  ],
+  "person": [
+   "Michel Groothuizen"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "非法博奕",
+   "搜尋廣告",
+   "白名單",
+   "聯盟行銷"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "荷蘭博奕管理局（KSA）主席 Michel Groothuizen 美國時間 11 月 25 日透露，Google 上週在倫敦辦公室與英國、荷蘭、丹麥、愛爾蘭的博奕監管機關開會，商討只讓核准業者刊登博奕廣告的機制；四國代表的是由歐洲 41 個監管機關組成的歐洲博奕監管論壇（GREF）。依提案，各國監管機關將定期提供 Google 合法業者名單，不在名單上的業者將被排除在付費搜尋結果之外；Google 現已要求博奕廣告主取得認證並遵守當地法律，但非法業者仍會漏網。機制也將涵蓋推廣境外博奕平台的聯盟行銷網站：合法業者須申報合作的聯盟網站，由監管機關檢查這些網站是否也導流到無照業者，違規者可能被撤銷廣告權限。Groothuizen 希望 2027 年夏季上路，但表示目前還無法做出確定承諾。報導指出，自然搜尋結果仍是難題；英國博奕委員會本月稍早表示已轉介逾 780 萬個網址。",
+ "dive_html": "把監管白名單直接接上廣告平台，是歐洲打擊非法博奕少數能規模化的手段，與同週愛爾蘭起訴推廣境外網站的分析師形成同一條執法線：從業者本身轉向導流管道。對依賴聯盟行銷與付費搜尋取得玩家的業者，這會讓合規名單成為進入市場的實質門檻。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Casino.org News",
+   "title": "Google Teams Up With Regulators to Squeeze Black Market Gambling Sites Out of Paid Search",
+   "url": "https://www.casino.org/news/google-teams-up-with-regulators-to-squeeze-black-market-gambling-sites-out-of-paid-search/",
+   "time": "2026-11-27T07:24:30+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "0 comments",
+   "family": "Casino.org",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

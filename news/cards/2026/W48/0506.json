@@ -1,0 +1,79 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0506",
+ "title": "（播客）Farnam Street：從「廣告之父」奧格威學說服的七個原則",
+ "line": "開頭先寫明獨特好處、用平實語言寫給一個人、以具體事實取代空洞形容詞",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-26T18:55:00+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "社會"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "org": [
+   "Farnam Street"
+  ],
+  "person": [
+   "David Ogilvy"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "說服",
+   "寫作",
+   "廣告"
+  ],
+  "form": [
+   "長文"
+  ]
+ },
+ "summary_html": "Farnam Street 的播客單元〈Outliers〉這集拆解「廣告之父」大衛·奧格威（David Ogilvy）的七個說服原則。節目說明指出，奧格威為勞斯萊斯、多芬與 Hathaway 襯衫寫下經典廣告，著作《Ogilvy on Advertising》出版四十年仍在印行，但他 38 歲時還是失業的大學輟學生，說服力是在蘇格蘭挨家挨戶賣爐子時學來的。主持人整理可用在電子郵件、銷售提案與簡報的做法：開頭第一句就寫明清楚而獨特的好處；用平實英文寫給一個人、不用術語與廢話；以具體事實取代空洞形容詞來建立信任；製造好奇心吸引讀者讀下去；重複有效的做法並反覆修改草稿。節目認為說服的真正考驗不是別人是否欣賞你的文字，而是讀完後做了什麼。這集已對會員開放，12 月 1 日公開上架。",
+ "dive_html": "這些原則對寫產品公告、募資簡報或 App 商店描述都直接適用，特別是「以具體事實取代形容詞」；不過 show notes 只有重點清單，各原則背後的案例與延伸要聽完整集，且內容多為經典整理而非新觀點。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Farnam Street",
+   "title": "[Outliers] How to Persuade Like David Ogilvy",
+   "url": "https://fs.blog/knowledge-project-podcast/outliers-david-ogilvy/",
+   "time": "2026-11-26T18:55:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Farnam Street",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,80 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0478",
+ "title": "獨立瀏覽器 Ladybird 進入 alpha 測試，釋出 macOS 與 Linux 版本",
+ "line": "從零打造的瀏覽器引擎，The Register 試用稱比 alpha 標籤更穩定，但不提供安全保證",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-27T02:15:00+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "開發與開源"
+  ],
+  "event": [
+   "版本更新"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Ladybird",
+   "SerenityOS"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Ladybird",
+   "瀏覽器引擎",
+   "開源"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "獨立網頁瀏覽器 Ladybird 開發者本週宣布進入 alpha 測試，提供 Apple Silicon 的 macOS 版，以及 x86-64 Linux 的 Flatpak、Ubuntu 與 Fedora 原生套件。The Register 簡單測試後表示，它表現很好，比 alpha 標籤所暗示的更穩定、更好用，但官方不提供安全保證。Ladybird 是開源專案，可從 GitHub 下載原始碼自行編譯，但專案在 6 月宣布不再接受公開的程式碼貢獻。Ladybird 源自 SerenityOS 作業系統專案，引擎從零寫起、不建立在現有瀏覽器引擎上。",
+ "dive_html": "瀏覽器引擎市場幾乎只剩 Chromium、WebKit、Gecko 三家，Ladybird 是少數真正獨立的第四條路；alpha 可用代表它開始能被前端開發者拿來測試相容性。但不接受外部貢獻的開源模式、以及沒有安全保證，意味它短期內仍是觀察對象而非日常瀏覽器。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Register",
+   "title": "Indie web browser Ladybird enters alpha testing",
+   "url": "https://www.theregister.com/software/2026/11/26/indie-web-browser-ladybird-enters-alpha-testing/5311914",
+   "time": "2026-11-27T02:15:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "The Register",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

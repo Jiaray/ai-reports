@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0498",
+ "title": "投資額 17 億美元的馬尼拉 Westside Resort 12 月 6 日開放大眾博奕區，啟動首階段營運",
+ "line": "由 Travellers International 開發，全面完工後將有約 2,000 台電子博奕機、逾 250 張賭桌",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-27T12:31:25+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞"
+  ],
+  "country": [
+   "PH"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "財報營運"
+  ],
+  "sector": [
+   "博奕",
+   "觀光"
+  ],
+  "org": [
+   "Travellers International Hotel Group",
+   "Alliance Global Group",
+   "Entertainment City Resorts"
+  ],
+  "person": [
+   "Nilo Thaddeus Rodriguez"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "Westside Resort",
+   "Entertainment City",
+   "馬尼拉"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 GGRAsia，位於菲律賓馬尼拉 Entertainment City 賭場區的 Westside Resort 宣布，12 月 6 日開放大眾博奕區與部分餐廳，展開博奕營運，其他區域將陸續開放。開發主體 Entertainment City Resorts Corp 由 Travellers International Hotel Group 與其母公司 Alliance Global Group 控股，這是在菲律賓上市公司 Suntrust Resort Holdings 重組之後的安排；Travellers 也經營馬尼拉的 Newport World Resorts。公告把 Westside Resort 的投資額訂為 17 億美元，高於先前揭露的 12.5 億美元。Travellers 執行長 Nilo Thaddeus Rodriguez 表示投資是對產業長期成長投下信任票，旗下物業可以互補、提升營運效率。Westside Resort 將納入 Newport World Resorts 的 EPIC Rewards 會員計畫；全面完工後約有 2,500 間客房、分屬三個飯店品牌，以及約 2,000 台電子博奕機、逾 250 張賭桌。",
+ "dive_html": "投資額上修約 36%，反映建案延宕與成本上升；Travellers 把新舊兩座物業整合會員，意在以集團規模與 Okada、Solaire、City of Dreams 競爭。馬尼拉賭場區供給再增加，對當地大眾市場的價格與人才爭奪會更激烈。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GGRAsia",
+   "title": "US$1.7bln Westside Resort in Manila to open mass gaming areas on December 6",
+   "url": "https://www.ggrasia.com/us1-7bln-westside-resort-in-manila-to-open-mass-gaming-areas-on-december-6",
+   "time": "2026-11-27T12:31:25+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "GGRAsia",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

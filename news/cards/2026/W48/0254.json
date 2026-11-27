@@ -5,8 +5,8 @@
  "line": "事故發生在吉薩省人口稠密的 Warraq 區，檢方已展開調查並對兩名罹難者採 DNA 鑑定",
  "born_at": "2026-11-26T16:09:33+08:00",
  "first_reported_at": "2026-11-26T03:56:45+08:00",
- "updated_at": "2026-11-26T16:09:33+08:00",
- "version": 1,
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -26,7 +26,8 @@
    "災害與事故"
   ],
   "event": [
-   "意外事故"
+   "意外事故",
+   "犯罪執法"
   ],
   "org": [
    "埃及衛生部",
@@ -165,13 +166,46 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 2
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Egypt detains a driver suspected of causing Cairo tanker crash that killed 31",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNU2w0bC1tN2k4SU92bG9kc3U2U053dGZvZEh5WEs4U2IzRnVkRk9RdDlYSGZkekNQNy1WYmtKaHhWblI0U1F6SmxmVHJuWmhkRFJQV0xTaXRQRGFxUnd2b0tNMlNNZkszZy00cDNzazdNR1k4WElZTk5lSWNmR1dnQ1l1N2tCa1dtYmNoZmdZS21nd3NDVENDQ01XcDRCQXpocEpIeVhiMA?oc=5",
+   "time": "2026-11-27T02:29:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "BBC World",
+   "title": "Egyptian authorities arrest motorist over tanker crash that killed 31",
+   "url": "https://www.bbc.co.uk/news/articles/c3gre90l0g45o",
+   "time": "2026-11-26T20:16:06+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-27T17:05:32+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "埃及檢方 26 日表示，已逮捕一名被控造成事故的駕駛，他坦承以時速 110 公里在環城公路行駛，變換車道超車時車身左側擦撞油罐車右後方；同時油罐車一個輪胎爆裂，偏向中央分隔島、撞上水泥護欄翻覆，燃油外洩起火。官方媒體稍早曾引述消息人士說，是一條高壓電纜掉落在油罐車前方導致失控。當局未公布嫌犯姓名，只說事發時他與父親同車。高架環城公路在事故數小時後恢復通車，一名內閣部長表示已有 1,000 萬埃及鎊捐給罹難者家屬。",
+   "update": "埃及檢方逮捕一名坦承時速 110 公里超車擦撞油罐車的駕駛，開羅環城公路油罐車爆炸已 31 死",
+   "refocus": false
+  }
+ ],
  "heat": {
-  "outlets": 8,
-  "regions": 3,
-  "media_weight": 16,
+  "outlets": 9,
+  "regions": 4,
+  "media_weight": 19,
   "community": {
    "hn": 0,
    "ptt": 0,

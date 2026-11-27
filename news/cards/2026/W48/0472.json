@@ -1,0 +1,216 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0472",
+ "title": "歐盟長期預算峰會不歡而散，丹麥、瑞典等節約派退出協商，科斯塔須在 12 月 17 日前挽救協議",
+ "line": "1.78 兆歐元妥協方案遭兩派抵制，德國揚言否決除非全員簽署援烏資金",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-27T00:52:59+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "DK",
+   "SE",
+   "BE",
+   "AT",
+   "DE"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "國際關係",
+   "總體經濟"
+  ],
+  "event": [
+   "會談協議"
+  ],
+  "story": [
+   "歐盟預算峰會"
+  ],
+  "org": [
+   "歐盟",
+   "歐洲理事會"
+  ],
+  "person": [
+   "António Costa",
+   "Marine Le Pen",
+   "Pedro Sánchez"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "歐盟多年期財政框架",
+   "援烏貸款",
+   "預算峰會"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "歐盟 27 國領袖 11 月 26 日在布魯塞爾舉行特別峰會，討論下一個七年期長期預算，最後陷入混亂。Euronews 指出，歐洲理事會主席科斯塔（António Costa）提出以現價計 1.78 兆歐元、比原始草案少 10% 的妥協方案，遭兩大陣營強烈反彈：西班牙、義大利等國要更大的預算、保護農業與貧困地區等傳統支出，德國、瑞典等國則要縮小規模、轉向國防與安全。據 Politico，科斯塔分小組協商數小時後，主張減預算的丹麥、瑞典、比利時與奧地利退出會談，一名外交官說這是想「用禮物把我們各個收買」的分化手法。Guardian 報導，斯洛伐克、匈牙利、捷克想退出 450 億歐元的援烏貸款，德國則試圖讓這筆資金不受可能上台的法國極右總統影響；Euronews 指德國威脅除非全員簽署援烏資金，否則將否決預算。極右領袖勒龐批評在法國明年大選前趕著鎖定長期預算是「卑劣」做法；法德則力推年底前達成協議。西班牙總理桑傑士因週日大選缺席，把投票權交給馬克宏。領袖將於 12 月 17 日再開會，部分官員仍不排除達成妥協。",
+ "dive_html": "預算談判已和援烏資金、法國 2027 年大選綁在一起：法德想趁極右派上台前鎖定多年期援烏財源，中東歐國家則想抽身，讓這次預算比以往更政治化。科斯塔的協調能力受到公開質疑，12 月 17 日若再破局，援烏資金的長期保障將落空。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AP (Google News fallback)",
+   "title": "EU leaders split over budget spending and a $49 billion loan to Ukraine",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxObUt5bnNUdEVaVjhETTRjWFI5cnZYaUtyV0R1VE50ZGFPcnJyVmppY2xxeVFpOEtPWURRSFpKUGFXcDVkZGVtZnF2Ykg5aEk2NXY4VTVBVHZQWEstSk9CRGp6cHZLUWhyQkdDQ2ktQjl6WldZSlFRdzhfVUQ0dGNkNlZJaFZKMkFYeWdFUmNQSXdSTDJscjlEcXBZdVdhZWs?oc=5",
+   "time": "2026-11-27T14:09:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Politico Europe",
+   "title": "Budget summit walkout leaves EU one month to salvage deal",
+   "url": "https://www.politico.eu/article/eu-budget-summit-walkout-antonio-costa-leaves-one-month-negotiations-drama/",
+   "time": "2026-11-27T10:50:17+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Politico",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Politico Europe",
+   "title": "How Costa’s budget talks sparked a new crisis",
+   "url": "https://www.politico.eu/podcast/brussels-playbook-podcast/how-costas-budget-talks-sparked-a-new-crisis/",
+   "time": "2026-11-27T11:45:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Politico",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "EU leaders wrestle over Ukraine aid as potential Le Pen victory sparks fear",
+   "url": "https://www.theguardian.com/world/2026/nov/26/eu-leaders-braced-for-clashes-over-ukraine-aid-at-budget-talks",
+   "time": "2026-11-27T01:51:17+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "France and Germany push for EU budget deal by year-end as far-right rise threatens Ukraine aid",
+   "url": "https://www.france24.com/en/europe/20261127-france-and-germany-push-for-eu-budget-deal-by-year-end-as-far-right-rise-threatens-ukraine-aid",
+   "time": "2026-11-27T16:17:02+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Le Pen slams push for EU budget deal before French election",
+   "url": "https://www.france24.com/en/le-pen-slams-push-for-eu-budget-deal-before-french-election",
+   "time": "2026-11-27T04:02:47+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "At odds over the EU budget, European leaders cut summit short",
+   "url": "https://www.dw.com/en/at-odds-over-the-eu-budget-european-leaders-cut-summit-short/live-80056415?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-27T05:47:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "The art of no deal: An EU summit of spectacular dysfunction",
+   "url": "https://www.euronews.com/2026/11/27/the-art-of-no-deal-an-eu-summit-of-spectacular-dysfunction",
+   "time": "2026-11-27T15:27:35+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Europe Today: EU leaders unable to find an agreement on EU's budget",
+   "url": "https://www.euronews.com/2026/11/27/europe-today-eu-leaders-unable-to-find-an-agreement-on-eus-budget",
+   "time": "2026-11-27T15:03:21+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "'A lot of political theatre': EU summit ends in disarray as leaders cling to red lines",
+   "url": "https://www.euronews.com/2026/11/27/a-lot-of-political-theatre-eu-summit-ends-in-disarray-as-leaders-cling-to-red-lines",
+   "time": "2026-11-27T08:16:05+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Europe Tonight: EU leaders clash over record-high budget amid Ukraine funding standoff",
+   "url": "https://www.euronews.com/2026/11/26/europe-tonight-eu-leaders-clash-over-record-high-budget-amid-ukraine-funding-standoff",
+   "time": "2026-11-27T00:52:59+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 6,
+  "regions": 2,
+  "media_weight": 13,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

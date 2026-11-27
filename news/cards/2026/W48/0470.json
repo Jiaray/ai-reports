@@ -1,0 +1,271 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0470",
+ "title": "紐西蘭大選最終結果：盧克森右翼執政聯盟差一席過半，須爭取黃秋蕾領導的機會黨支持",
+ "line": "特別票開出後國家黨少兩席，執政陣營 65 席、門檻 66 席，談不成可能重選",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-27T06:34:34+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "大洋洲"
+  ],
+  "country": [
+   "NZ"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "選舉"
+  ],
+  "event": [
+   "選舉投票"
+  ],
+  "story": [
+   "2026紐西蘭大選"
+  ],
+  "org": [
+   "紐西蘭國家黨",
+   "機會黨",
+   "紐西蘭第一黨",
+   "行動黨",
+   "紐西蘭選舉委員會"
+  ],
+  "person": [
+   "Christopher Luxon",
+   "黃秋蕾",
+   "Winston Peters"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "紐西蘭大選",
+   "機會黨",
+   "懸峙國會"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "紐西蘭選舉委員會 11 月 27 日公布約 48.5 萬張「特別票」（海外與跨選區投票）後的最終結果：國家黨少兩席成 40 席，工黨維持 36 席，綠黨增一席至 17 席，行動黨 13 席，紐西蘭第一黨 12 席，機會黨 7 席，毛利黨 5 席。11 月 7 日初步結果原本讓國家黨與紐西蘭第一黨、行動黨的執政聯盟以兩席些微過半，最終該陣營只有 65 席，在 130 席國會中差一席未達 66 席門檻。Guardian 指出，國家黨陣營是唯一實際可行的組閣路徑，前提是與機會黨談成協議，否則紐西蘭可能得重新選舉。機會黨黨魁、38 歲的華裔前 KPMG 員工黃秋蕾（Qiulae Wong）承諾與最大黨合作，但強調在氣候變遷、生活成本與整頓政治等議題的基本立場不容妥協；她競選時曾排除加入由紐西蘭第一黨黨魁皮特斯擔任外長的政府，皮特斯曾要一名華裔議員「回到妳自己的國家」。黃秋蕾去年 8 月接掌機會黨時支持率僅約 1%，這是數十年來首個由非前內閣部長領軍進入國會的新政黨。總理盧克森表示談判可能充滿挑戰、需要時間，「把事情做好比迅速完成更重要」。",
+ "dive_html": "機會黨手握 7 席成為唯一造王者，而它最難接受的正是執政聯盟中的紐西蘭第一黨與皮特斯，談判勢必觸及內閣人選，可能迫使盧克森在兩個夥伴間取捨。若破局重選，紐西蘭將陷入少見的政治空轉；黃秋蕾的崛起也被視為民粹浪潮下中間路線回溫的訊號。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Deadlocked final result in New Zealand’s election leaves a centrist newcomer as the decider",
+   "url": "https://news.google.com/rss/articles/CBMikgFBVV95cUxNaUYyNjdXYjlOWm12Ukd3XzJLSUQwM1JtSlV3REh2bmIyWHdzelNCajRoNU4zYllONWRVLXRZY0pDVm16MVNtdWZzTlFmS0xMUHpzVFRIQnlVR2J1TlY2WE1zZVNZVmczeDA0cG50Y0VlSUk0SE1XRnBkOHgxU2hBdlJFMkpZdzZDWDFyUEo0alJ3QQ?oc=5",
+   "time": "2026-11-27T13:04:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "WSJ World News",
+   "title": "New Zealand Election Ends in Deadlock, Turns Outsider Into Kingmaker",
+   "url": "https://www.wsj.com/politics/elections/new-zealand-election-ends-in-deadlock-turns-outsider-into-kingmaker-b1708432?mod=rss_worldnews",
+   "time": "2026-11-27T12:06:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "紐西蘭政壇新勢力崛起　黃秋蕾機會黨成為政壇新焦點",
+   "url": "https://www.cna.com.tw/news/aopl/202611270058.aspx",
+   "time": "2026-11-27T11:37:53+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "BBC World",
+   "title": "New Zealand's ruling coalition falls short of parliamentary majority by one seat",
+   "url": "https://www.bbc.co.uk/news/articles/c670278qk879o",
+   "time": "2026-11-27T11:28:15+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "New Zealand election: final results show ruling coalition needs minor party to govern",
+   "url": "https://www.theguardian.com/world/2026/nov/27/new-zealand-nz-election-2026-final-results",
+   "time": "2026-11-27T10:38:15+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "New Zealand election results set up tricky talks for conservative incumbent",
+   "url": "https://www.aljazeera.com/news/2026/11/27/new-zealand-election-results-set-up-tricky-talks-for-conservative-incumbent",
+   "time": "2026-11-27T15:55:32+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "New Zealand’s Opportunity Party poised to become election kingmaker",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/new-zealands-opportunity-party-poised-to-become-election-kingmaker",
+   "time": "2026-11-27T12:59:53+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "New Zealand election ends in hung parliament",
+   "url": "https://www.dw.com/en/new-zealand-election-ends-in-hung-parliament/a-80070240?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-27T11:13:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "New Zealand election: newcomer centrist party to decide as Luxon scrambles for a majority",
+   "url": "https://www.euronews.com/2026/11/27/new-zealand-election-newcomer-centrist-party-holds-the-key-as-luxon-scrambles-for-a-majori",
+   "time": "2026-11-27T13:47:52+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Nikkei Asia",
+   "title": "New Zealand ruling coalition misses majority as election results announced",
+   "url": "https://asia.nikkei.com/politics/new-zealand-ruling-coalition-misses-majority-as-election-results-announced",
+   "time": null,
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Japan Times",
+   "title": "New Zealand’s ruling coalition falls just short of majority, needs centrist party’s support to govern",
+   "url": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/politics/new-zealand-ruling-bloc/",
+   "time": "2026-11-27T12:50:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "New Zealand’s ruling coalition falls just short of majority, needs centrist party's support to govern",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxOLUJJR2tmTGJxc05wVjE5MXN0ZUpZVHhod21ac21oRE1LbENWaGY1ODZCa0stM0lDMU9pRERZUFMzcnl6b1RwLWEyWEhsSFpFaGd1TDloS2VuWEZpa2VPbU9sMkRHbDNLSXhfYVFOVTg1OXNfM3hSQk9xWkJsVVI5clA3ZlNvNURvMENuaEpHaG90ZXZwbWlqalJVZDdRbXVzWVBtNXdiZGoyamkxRGRjMGtjbUFtZ0F5MHFkVU0tckpyOFQ0UWEyeVNhbw?oc=5",
+   "time": "2026-11-27T09:59:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Explainer-Parties to negotiate after no one wins majority in New Zealand election",
+   "url": "https://www.straitstimes.com/asia/explainer-parties-to-negotiate-after-no-one-wins-majority-in-new-zealand-election",
+   "time": "2026-11-27T12:56:55+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Final New Zealand election vote count to confirm parliament make up",
+   "url": "https://news.google.com/rss/articles/CBMiuwFBVV95cUxPcFJqbEVQNWVCSWlBVEdnUXJlWHgwV3pmUjRGZ254NjNIcGgtSHU0NkVsemlWUnFjZWlJa3BLY01sTDN3djdCS0ZYU2dvcGV0U0I5NUh4MDV2NU5ya0V1WS1BUkJRSGRtNnIxUlRqc3ZFOXBycWJITFh5cnB3WEtsa1B1REFtMDlkMmFYdlBLTEFKSjNvWGZ4SmtEMl9RMzRNbFdCS25kbHF4eVhGeGs5OW1Rb2FGcUhWcVJV?oc=5",
+   "time": "2026-11-27T06:34:34+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Christopher Luxon favoured for second term as New Zealand Prime Minister",
+   "url": "https://www.straitstimes.com/asia/christopher-luxon-favoured-for-second-term-as-new-zealand-prime-minister",
+   "time": "2026-11-27T12:17:18+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Christopher Luxon favoured for second term as New Zealand Prime Minister",
+   "url": "https://news.google.com/rss/articles/CBMivAFBVV95cUxPSmNCNlRJNEl1MXNtUFJYX3NBQjhqdFdYTnlwX0t1OUtaV051cF9BM0J3akdyN2ZBWENOQnFGWk9CTGxPcjlGYnEyWGxFem9lQkQteVNUOXRwaW45NHF5YVpDZmpPZWR0ZDVnTDlwT1NQbzZzbzdaRVVGVEU2aUZST05KNTZIRnlqM3o1ZzF4Z1ZWT19hSkRGc2JUdWwycTZrSDhjVFhPdHZ3aTlXR2w2LU1jRWtqTzluaklBMg?oc=5",
+   "time": "2026-11-27T12:12:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 12,
+  "regions": 6,
+  "media_weight": 28,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

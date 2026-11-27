@@ -5,8 +5,8 @@
  "line": "歐盟 TRIS 暫停期至 2027 年 2 月 22 日；公眾諮詢 123 份回應普遍支持但擔心彈性不足",
  "born_at": "2026-11-26T01:54:26+08:00",
  "first_reported_at": "2026-11-25T18:19:17+08:00",
- "updated_at": "2026-11-26T01:54:26+08:00",
- "version": 1,
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -47,7 +47,9 @@
    "愛爾蘭",
    "GRAI",
    "博奕牌照",
-   "遊戲清單"
+   "遊戲清單",
+   "RTP",
+   "崩盤遊戲"
   ],
   "form": [
    "新聞"
@@ -68,13 +70,34 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 3
+  },
+  {
+   "name": "Yogonet International",
+   "title": "Ireland proposes eight gaming categories under new gambling licensing rules",
+   "url": "https://www.yogonet.com/international/news/2026/11/26/127481-ireland-proposes-eight-gaming-categories-under-new-gambling-licensing-rules",
+   "time": "2026-11-26T20:12:31+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Yogonet",
+   "kind": "media",
+   "region": "中南美",
+   "rank": 3
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-27T17:05:32+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "Yogonet 報導，愛爾蘭這份指定遊戲規則草案列出八類可授權的遊戲：撲克等紙牌遊戲、輪盤與其他轉輪類、骰子、捲軸與符號類（老虎機）、即開型產品、崩盤（crash）類遊戲、隨選電腦模擬運動賽事，以及落球（ball-drop）類遊戲；業者提供每一款遊戲都須取得個別授權。草案要求八類遊戲都必須在開始前顯示「中獎可能性資訊」，可包括莊家優勢、返還率（RTP）、中獎機率，以及技巧或玩家決策如何影響結果，並對隨機性與中獎機率訂有要求。GRAI 於 11 月 24 日證實已提交通報。",
+   "update": "愛爾蘭博奕規則草案列出八類可授權遊戲，含崩盤類與落球類，每款都須在開局前顯示 RTP 等中獎機率資訊",
+   "refocus": false
+  }
+ ],
  "heat": {
-  "outlets": 1,
-  "regions": 1,
-  "media_weight": 1,
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
   "community": {
    "hn": 0,
    "ptt": 0,

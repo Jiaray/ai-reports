@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0503",
+ "title": "SEC 起訴亞特蘭大投資公司挪用 Lottery.com 委託的 1,500 萬美元，同期 Lottery.com 高層也被控做帳誤導投資人",
+ "line": "承諾每月 2% 保本報酬，收款兩天後全數轉作房地產投資，部分用於類龐氏償付",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-27T05:39:11+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決",
+   "犯罪執法"
+  ],
+  "sector": [
+   "博奕",
+   "金融"
+  ],
+  "org": [
+   "美國證券交易委員會",
+   "Lottery.com",
+   "J. Streicher Financial"
+  ],
+  "person": [
+   "Michael P. Hanlon"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Lottery.com",
+   "證券詐欺",
+   "SPAC"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美國證券交易委員會（SEC）美國時間 11 月 25 日宣布，對亞特蘭大投資公司 J. Streicher Financial 及其總裁兼執行長 Michael P. Hanlon（62 歲）提起證券詐欺訴訟，指控他們挪用線上彩券銷售商 Lottery.com 於 2022 年 3 月委託的 1,500 萬美元。當時 Lottery.com 透過 SPAC 合併上市不到半年、資金吃緊，J. Streicher 的母公司則正需要新資金償還一項失敗歐洲投資的投資人。Hanlon 的公司向 Lottery.com 提出看似無風險的方案，承諾投資美國公債、高評等債券等，每月報酬 2%，並保證本金不會損失。Lottery.com 3 月 15 日匯出 1,500 萬美元，兩天後 Hanlon 被控把全數轉去取得一項房地產開發案 49% 股權；約 400 萬美元被用來償還歐洲投資的投資人，SEC 稱是「類龐氏償付」，約 900 萬美元由房地產合夥人拿去清償海外關係企業的債務，其他小額流向親友與其他企業。Casino.org 指出，依 SEC 另一項執法行動，同一時期 Lottery.com 高層也被控做帳誤導投資人，等於公司在 2022 年同時站在詐欺的兩端。",
+ "dive_html": "這起案件揭示 SPAC 熱潮下的彩券新創，治理與資金管理有多脆弱：一邊被控美化財報，一邊把現金交給承諾「保本月息 2%」的對象，後者本身就是明顯警訊。對博奕相關上市公司投資人，這是檢視現金管理揭露的案例。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Casino.org News",
+   "title": "Lottery.com Allegedly Fell Victim to $15M Fraud While Misleading Its Own Investors",
+   "url": "https://www.casino.org/news/lottery-com-allegedly-fell-victim-to-15m-fraud-while-misleading-its-own-investors/",
+   "time": "2026-11-27T05:39:11+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "0 comments",
+   "family": "Casino.org",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

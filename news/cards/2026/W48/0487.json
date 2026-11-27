@@ -1,0 +1,135 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0487",
+ "title": "巴黎上訴法院裁定法國影星德巴狄厄須就 2018 年性侵女演員 Charlotte Arnould 一案受審",
+ "line": "法院維持一項強暴指控、駁回另一項，77 歲的德巴狄厄否認犯行，若定罪最重可判 15 至 20 年",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-26T22:44:26+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "FR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "犯罪與司法",
+   "娛樂與媒體"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "story": [
+   "德巴狄厄性侵案"
+  ],
+  "sector": [
+   "媒體與娛樂"
+  ],
+  "person": [
+   "Gérard Depardieu",
+   "Charlotte Arnould"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "德巴狄厄",
+   "性侵",
+   "MeToo"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "巴黎上訴法院 11 月 26 日裁定，法國影星傑哈德巴狄厄（Gérard Depardieu）須就 2018 年在巴黎住處強暴女演員 Charlotte Arnould 一案受審，駁回他避免受審的上訴。德巴狄厄去年對預審法官要他就兩次強暴與性侵指控受審的裁定提出上訴；法院這次維持 2018 年 8 月 7 日的強暴指控，但駁回同年 8 月 13 日的第二項強暴指控。Arnould 當時 22 歲，自幼認識德巴狄厄，她 2018 年指控事發於她到德巴狄厄巴黎宅邸非正式排練戲劇時。起訴書指這是透過「道德脅迫」犯下的強暴，即受害者因驚嚇而無法抗議或逃離；辯方則主張沒有插入證據，也否認有犯罪意圖。德巴狄厄否認犯行，2023 年曾在《費加洛報》撰文表示兩人之間「從未有任何脅迫或暴力」。若定罪，他可能面臨 15 至 20 年徒刑。Arnould 已放棄匿名權，她的律師稱這項裁定是「首例」，審判將具歷史意義。Guardian 指出，德巴狄厄本月稍早撤回對 2025 年另一起性侵定罪的上訴，並首度向受害者道歉。",
+ "dive_html": "法國影壇最具代表性的明星將因強暴罪受審，是法國 MeToo 運動的指標案件；起訴書援用「道德脅迫」的概念，若法院據此定罪，將影響法國司法如何認定沒有明顯暴力的性侵。審判日期尚未公布。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Guardian Culture",
+   "title": "⁠Gérard Depardieu to face trial on charges ‌of raping ​actor Charlotte ⁠Arnould",
+   "url": "https://www.theguardian.com/film/2026/nov/26/gerard-depardieu-face-trial-charges-rape-charlotte-arnould",
+   "time": "2026-11-27T00:26:57+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "French cinema star Gérard Depardieu ordered to stand trial for rape and sexual assault",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxPdVNiTVJwcnVUQ1RTTUdUbElNMll3d0xsRTRLSmhQS09GeWh6cFdmV2dDblpwWkJNRmlvdmZJSXZSekxQVVIxRHdOVC1icjZYVlptZlVETzcwZHhOWTlxS19fOFZCT3BnemFQWWZEOHVJS3dhbTZES3FrbGVvRlJ4MFA1bkZuMl96OFhjR3hPdFYxRG1Ob0tzM1hoOWZGWURF?oc=5",
+   "time": "2026-11-27T01:07:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "BBC World",
+   "title": "Gérard Depardieu to stand trial for alleged rape of actress in 2018, court rules",
+   "url": "https://www.bbc.co.uk/news/articles/cmlyd76kyx44o",
+   "time": "2026-11-26T22:44:26+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "Gerard Depardieu to stand trial in France for rape and sexual assault",
+   "url": "https://www.dw.com/en/gerard-depardieu-to-stand-trial-in-france-for-rape-and-sexual-assault/a-80069424?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-27T04:41:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Gérard Depardieu to stand trial over rape accusations by actress Charlotte Arnould",
+   "url": "https://www.euronews.com/2026/11/26/gerard-depardieu-to-stand-trial-over-rape-accusations-by-actress-charlotte-arnould",
+   "time": "2026-11-27T00:38:39+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 5,
+  "regions": 2,
+  "media_weight": 11,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

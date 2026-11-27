@@ -1,0 +1,104 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0476",
+ "title": "Google Play 明年起要求營利開發者公開地址與電話且全球公開，獨立開發者擔憂隱私",
+ "line": "開發者須在 2027 年 2 月 1 日前申報是否為「交易商」，3 月 1 日起公開聯絡資訊",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-27T02:19:32+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球",
+   "歐洲"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "科技",
+   "遊戲"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "網路平台",
+   "遊戲",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Google",
+   "Apple",
+   "歐盟"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "Google Play",
+   "數位服務法",
+   "交易商",
+   "開發者隱私"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Google 宣布，為符合歐盟《數位服務法》，明年起許多 Android 開發者必須公開電話號碼與地址，而且聯絡資料將在全球公開，而非只限歐洲。開發者須在 2027 年 2 月 1 日前申報自己是否屬英國與歐洲法律定義的「交易商」；Google 說大致上，若從 App 取得收入，尤其是定期或大量收入，就適用；只把 App 當興趣、非商業用途，或根本不在英國與歐洲上架的則可豁免。申報為交易商者，包含電話與地址在內的聯絡資訊將自 3 月 1 日起公開。Google 不接受郵政信箱作為開發者付款資料的地址，沒有辦公室的獨立開發者只能公開住家地址，或付費使用登記代理等商業地址服務；一名獨立開發者表示正考慮為此租一間私人辦公室。The Verge 指出，Apple 同樣受這項法規約束，但處理方式給予開發者較多隱私；ComputerBase 報導德國已有獨立開發者租用辦公室以保護住址。The Verge 已詢問 Google 為何不接受郵政信箱、為何要全球公開，尚未獲回覆。",
+ "dive_html": "台灣的小型遊戲團隊與個人開發者只要在歐洲上架且有營收，就會落入「交易商」定義，住家地址可能對全球公開；距 2 月 1 日申報期限只剩兩個月，該盡早決定是改用公司登記地址、委託商業地址服務，還是調整歐洲上架範圍。Google 比 Apple 嚴的全球公開做法，後續可能因開發者反彈而修正，值得留意。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Verge",
+   "title": "Android app developers will soon have to share their address publicly",
+   "url": "https://www.theverge.com/tech/1043228/android-play-store-google-developer-address-eu",
+   "time": "2026-11-27T02:19:32+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "The Verge",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "ComputerBase",
+   "title": "Google Play: Weltweite Offenlegung von Entwicklerdaten sorgt für Kritik",
+   "url": "https://www.computerbase.de/news/apps/google-play-weltweite-offenlegung-von-entwicklerdaten-sorgt-fuer-kritik.100553/",
+   "time": "2026-11-27T04:15:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "ComputerBase",
+   "kind": "media",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,126 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0462",
+ "title": "路透：解放軍在福建大埕灣演練以民用船舶搭建 800 公尺浮橋，測試對台登陸新方式",
+ "line": "8 艘民船反覆搭拆浮橋，台灣國防部稱已掌握並評估影響",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-27T12:36:00+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "台灣",
+   "中國大陸"
+  ],
+  "country": [
+   "TW",
+   "CN"
+  ],
+  "taiwan": [
+   "直接"
+  ],
+  "topic": [
+   "國防與軍事",
+   "兩岸"
+  ],
+  "event": [
+   "軍事行動"
+  ],
+  "org": [
+   "中國人民解放軍",
+   "台灣國防部",
+   "中國國防部",
+   "影臻智太"
+  ],
+  "person": [
+   "王柏仁"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "大埕灣",
+   "兩棲登陸",
+   "民用船舶",
+   "浮橋",
+   "第一島鏈"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據中央社引述路透社，衛星影像與地理空間分析公司影臻智太（ingeniSPACE）報告顯示，中國正在面向台灣的福建省大埕灣舉行為期數週的兩棲登陸演習，測試把民用船舶連成臨時浮橋、把部隊與裝備運上岸的新方法。演習 11 月 1 日首度被發現，地點鄰近東山島，距台灣本島約 280 公里，一名聽取簡報的高階安全官員說演習至 27 日仍在進行。11 月 1 日至 16 日的影像顯示，船隻在灣內反覆搭建、拆除一座長約 800 公尺的浮橋，參演的有 8 艘民用船舶（4 艘駁船、2 艘半潛船、2 艘動力船）、4 艘登陸艇與其他支援船，附近也有海軍艦艇活動；影像中沒有架橋專用設備。影臻智太營運長王柏仁說，解放軍似乎在演練較不易被偵測的後勤方式，民船浮橋可把重裝備從深水區運上岸，增加台灣沿岸可登陸地點。該安全官員表示演習目標是「迅速奪取小型島嶼」，似是年度「全軍戰略演習」的一環，屬例行但時間較往年晚；他也提醒不應誇大實戰價值，「創新與幻想之間仍有一段距離」，駁船在戰時會成為「活靶」。中國國防部 26 日稱近期訓練「完全正當合理」；台灣國防部表示已掌握大埕灣軍事活動與民船參演，正評估對台海安全的影響。台灣先前曾披露中國 2023、2024 年 9 月在大埕灣出動滾裝貨輪演練登陸。",
+ "dive_html": "解放軍持續把民船納入登陸後勤，目的在補足專業登陸艦不足的運量缺口，也讓集結更難被當成戰爭預警；這意味台灣的監偵與反登陸規劃須把大規模民船調度納入判讀。官員提醒民船在戰場上脆弱，這項能力目前仍是試驗性質，但演練年年出現、規模逐步調整的趨勢值得持續追蹤。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "路透：解放軍福建大埕灣演習　測試利用民船支援對台登陸",
+   "url": "https://www.cna.com.tw/news/aipl/202611270135.aspx",
+   "time": "2026-11-27T15:14:43+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Japan Times",
+   "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
+   "url": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/china-taiwan-landing-tactics/",
+   "time": "2026-11-27T12:51:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
+   "url": "https://www.straitstimes.com/asia/east-asia/chinese-military-tests-new-taiwan-landing-tactics-in-coastal-drills",
+   "time": "2026-11-27T12:36:56+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Chinese military tests new Taiwan landing tactics in coastal drills",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxQRHU2ODhzTFRNUi1YM1VpRVZEZlg4MXFpaGxIZU5SZ2xxNVZFTWlFWHlITkJLNXhSendCb3RYckhpQkhqcDRVeDdRdVJWRl9WWnJWYlZvV2tMM1VaalU2SlRQQTRYNVZzc0Y2SVp0WmJKai1kN3NtSEU1MkxLSkhGN0M2TW9JOHFianYwZEtrNTE2NW81aGlLTWRpc18xd2hwUmI1XzdQVGxON0dJREhldE5R?oc=5",
+   "time": "2026-11-27T12:36:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 4,
+  "media_weight": 10,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

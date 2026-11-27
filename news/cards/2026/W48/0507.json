@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0507",
+ "title": "（長文）The Atlantic：David Brooks 主張美國以「斯堪地那維亞式妥協」同時解決包容與活力兩大問題",
+ "line": "作者認為左派的再分配與右派的市場活力可以並存，川普的保護主義則已失敗",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-26T19:00:00+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "歐洲"
+  ],
+  "country": [
+   "US",
+   "SE"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "社會",
+   "總體經濟"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "org": [
+   "The Atlantic",
+   "布魯金斯研究院"
+  ],
+  "person": [
+   "David Brooks",
+   "Brink Lindsey",
+   "Isabel Sawhill",
+   "川普"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "北歐模式",
+   "經濟活力",
+   "不平等",
+   "福利國家"
+  ],
+  "form": [
+   "長文"
+  ]
+ },
+ "summary_html": "The Atlantic 專欄作者、前《華爾街日報》社論版作者在文中主張，未來兩年美國國會與白宮分屬兩黨的分裂政府局面下，北歐模式能同時滿足左右兩派。他引用 Brink Lindsey 的著作，認為美國兩大挑戰是「包容」與「活力」：前者是收入前 1% 的財富集中，以及前 20% 高學歷階層壟斷利益的種姓化，作者認為兩種不平等都很糟；後者是過去 50 年美國生產力與成長表現令人失望，拖累薪資、財政與社會流動。他引述布魯金斯研究院經濟學家 Isabel Sawhill 的估算：若美國維持 1948 至 1973 年的生產力成長、薪資也同步，25 至 54 歲勞工平均年收入將接近 18 萬美元，而非現在的不到 7 萬美元。作者指出過去共和黨主打活力、民主黨主打包容，川普則提出以關稅與移民壁壘振興製造業的保護主義，但這套經濟配方「明顯失敗」，製造業工作幾乎沒有增加；他因此轉向北歐，認為斯堪地那維亞國家同時擁有慷慨的社福與開放競爭的市場，可作為美國的新模式。",
+ "dive_html": "以保守派身分主張學北歐，論點的新意在於把福利國家包裝成「讓市場更有活力」的條件，而非與市場對立。但文章（就摘錄部分）沒有處理北歐高稅負、人口規模與社會信任等難以移植的條件，美國政治能否接受相應的稅制仍是最大問號。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Atlantic",
+   "title": "The Scandinavian Compromise",
+   "url": "https://www.theatlantic.com/ideas/2026/11/scandinavia-inclusion-dynamism-welfare-sweden/689556/",
+   "time": "2026-11-26T19:00:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "The Atlantic",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

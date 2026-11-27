@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0504",
+ "title": "FBI 調查北達科他州原住民部落經營的 4 Bears 賭場「詐欺事項」，該部落在拉斯維加斯大道持有逾 1 億美元土地",
+ "line": "全國印第安博奕委員會也來函指出賭場記帳、會計與內控有嚴重缺失",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-27T00:51:40+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "犯罪與司法"
+  ],
+  "event": [
+   "犯罪執法",
+   "調查揭露"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "美國聯邦調查局",
+   "全國印第安博奕委員會",
+   "MHA Nation",
+   "4 Bears Casino & Lodge"
+  ],
+  "person": [
+   "Darwin Williams"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "部落賭場",
+   "FBI",
+   "內控"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據《拉斯維加斯評論報》，北達科他州 Fort Berthold 保留區的三聯合部落（又稱 MHA Nation）本月新任主席 Darwin「Dave」Williams 在 11 月 19 日與部落官員開會時透露，FBI 正調查部落經營的 4 Bears Casino &amp; Lodge 的「詐欺事項」。這座賭場 1993 年 7 月開幕，有 12 萬平方呎賭場樓層、750 台老虎機與 14 張賭桌；MHA Nation 另在拉斯維加斯大道持有價值逾 1 億美元的土地。Williams 說他是從賭場共同執行長得知此事，FBI 也曾到他的辦公室，部落將全面配合，但不願談調查細節；FBI 尚未公開證實調查。他也揭露 11 月 17 日收到全國印第安博奕委員會來函，指賭場在最終記帳、會計作業、內部控制與聯邦法規遵循上有「嚴重的監管疑慮」。他表示「調查嚴肅且持續進行中」，部落正回答 FBI 的問題，並與委員會合作依法解決問題。FBI 明尼亞波利斯分局與委員會都未回應。",
+ "dive_html": "部落賭場受聯邦與部落雙重監管，內控缺失加上 FBI 介入，可能影響賭場營運許可，也會讓外界檢視部落在拉斯維加斯的大型土地投資。目前只有部落主席單方說法，調查範圍與涉案者都未公開。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Casino.org News",
+   "title": "FBI Probes Casino Tied to Tribal Nation with Vegas Holdings",
+   "url": "https://www.casino.org/news/fbi-probes-casino-tied-to-tribal-nation-with-vegas-holdings/",
+   "time": "2026-11-27T00:51:40+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "0 comments",
+   "family": "Casino.org",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

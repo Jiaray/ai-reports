@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "id": "2026-W48-0407",
- "title": "曼谷 Bangchak 油庫爆炸起火，火球與黑煙直衝天際，當局呼籲周邊居民撤離",
+ "title": "曼谷 Bangchak 煉油廠爆炸起火 9 傷、3 人命危，煉油廠停產待查",
  "line": "曼谷東部邦納區發生爆炸，暫無傷亡報告，官方未說明原因",
  "born_at": "2026-11-26T17:36:58+08:00",
  "first_reported_at": "2026-11-26T16:27:20+08:00",
- "updated_at": "2026-11-26T17:36:58+08:00",
- "version": 1,
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -90,13 +90,59 @@
    "kind": "media",
    "region": "東南亞",
    "rank": 2
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "At least 9 injured by large explosion and fire at major oil facility in Bangkok",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxQVzFENGpGWEdCaDJ4ZjBybVNUQTRvaEgxeVJycDhqdHMtOUlHMGF4Q0lIVVJILU83d0IyeFdxQ3Jza2xzd0ZoZV8zR2IwdXpQNTU4M0pBUGFBSHhsQWN3OGFtWWdyRV9JS250NGdrSTBPaDhSQ0VOdWRRdFh5UlJZZjVLRXNsUWpJYm5wbkJmZDdSLUtLY3dTNF84bHRpYUgw?oc=5",
+   "time": "2026-11-26T19:11:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "BBC World",
+   "title": "Nine injured, three critically, after Bangkok oil refinery explosion",
+   "url": "https://www.bbc.co.uk/news/articles/crx209kwk4kzo",
+   "time": "2026-11-27T00:21:19+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Residents can return after Bangchak refinery fire as Bangkok air checks continue",
+   "url": "https://www.straitstimes.com/asia/se-asia/residents-can-return-after-bangchak-refinery-fire-as-bangkok-air-checks-continue",
+   "time": "2026-11-27T11:50:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-27T17:05:32+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "據 BBC 與法新社，曼谷 Bangchak 煉油廠爆炸造成 9 人受傷、3 人命危；泰國能源部長 Akanat Promphan 隔天表示可能有 5 至 8 人受傷、仍待確認。爆炸約在當地時間 26 日 14 時 45 分發生於帕卡農區的煉油設施，Bangchak Corporation 表示火勢在 30 分鐘內撲滅，原因調查中，周邊空氣品質監測在正常範圍。Akanat 說起火點是距儲油區約 100 公尺的蒸餾塔，因此影響有限，但煉油廠位於住宅區，政府將暫停生產，直到確認安全、查明原因才會復工；這座日處理量可達 12 萬桶的煉油廠已全面停產。Straits Times 報導，官方 27 日表示未發現有害空氣濃度，周邊居民已可返家，當局持續監測空氣、水質與附近學校、住家。",
+   "update": "曼谷 Bangchak 煉油廠爆炸 9 人受傷、3 人命危，火勢半小時撲滅，日處理 12 萬桶的煉油廠停產待查，居民已可返家",
+   "refocus": false,
+   "old_title": "曼谷 Bangchak 油庫爆炸起火，火球與黑煙直衝天際，當局呼籲周邊居民撤離"
+  }
+ ],
  "heat": {
-  "outlets": 3,
-  "regions": 3,
-  "media_weight": 6,
+  "outlets": 5,
+  "regions": 4,
+  "media_weight": 11,
   "community": {
    "hn": 0,
    "ptt": 0,

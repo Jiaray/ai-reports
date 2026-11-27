@@ -1,0 +1,148 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0477",
+ "title": "Rockstar 英國員工投票否決工會承認協議，75.3% 反對、投票率 93.2%",
+ "line": "若通過，IWGB 旗下工會將成英國遊戲業最大的受承認工會，工會稱會繼續組織",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-26T23:55:24+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "遊戲",
+   "勞動"
+  ],
+  "event": [
+   "選舉投票"
+  ],
+  "sector": [
+   "遊戲"
+  ],
+  "org": [
+   "Rockstar Games",
+   "Independent Workers of Great Britain",
+   "Rockstar Game Workers Union"
+  ],
+  "person": [
+   "Jennifer Kolbe"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "工會",
+   "GTA 6",
+   "集體協商"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "《俠盜獵車手》系列開發商 Rockstar Games 的英國員工投票否決一項工會承認協議。愛丁堡、里茲、林肯、登地與倫敦據點共 1,544 名員工參與投票，投票率 93.2%，75.3% 反對承認 Independent Workers of Great Britain（IWGB）、24.7% 贊成。據 RFI，這次為期兩週的投票針對的是管理層與員工歷時四個月協商出的協議，旨在承認 IWGB 分支 Rockstar Game Workers Union，建立可就薪資、加班費、獎金、假期與退休金集體協商的正式框架；若通過，它將是英國遊戲業最大的受承認工會，Rockstar 也必須就薪資與工時進行集體協商。80 Level 指出投票正好在 GTA 6 發售期間進行。Rockstar 發行主管 Jennifer Kolbe 表示，結果反映團隊支持延續直接溝通、協作與開放對話的關係。IWGB 則說數百名同事投下贊成票，雖未取得承認，投票已讓許多從未接觸工會的人開始討論僱用條件與集體協商，工會會繼續組織。RFI 也提到，IWGB 正代表數名前員工在格拉斯哥就業法庭提告，指 Rockstar 2025 年 10 月因工會活動解僱他們；Rockstar 則稱原告在不安全的 Discord 頻道分享了包含 GTA 新作細節的機密資訊。",
+ "dive_html": "在 GTA 6 創紀錄上市、員工普遍分到成功紅利的時間點投票，對工會極為不利，結果不代表英國遊戲業組工會的趨勢已退潮；但這確實讓「以大型工作室為突破口」的策略受挫。格拉斯哥的不當解僱訴訟會是下一個觀察點。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Verge",
+   "title": "GTA VI developers vote against unionization",
+   "url": "https://www.theverge.com/games/1043169/rockstar-games-union-vote-iwgb",
+   "time": "2026-11-26T23:55:24+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "The Verge",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "RFI 中文",
+   "title": "Rockstar Games员工否决公司内部工会的合法化提案",
+   "url": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20261126-rockstar-games%E5%91%98%E5%B7%A5%E5%90%A6%E5%86%B3%E5%85%AC%E5%8F%B8%E5%86%85%E9%83%A8%E5%B7%A5%E4%BC%9A%E7%9A%84%E5%90%88%E6%B3%95%E5%8C%96%E6%8F%90%E6%A1%88",
+   "time": "2026-11-27T05:09:09+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "GamesIndustry.biz",
+   "title": "Staff at Grand Theft Auto maker Rockstar vote against union recognition deal",
+   "url": "https://www.gamesindustry.biz/staff-at-grand-theft-auto-maker-rockstar-vote-against-union-recognition-deal",
+   "time": "2026-11-27T00:46:30+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "GamesIndustry.biz",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "GamesBeat",
+   "title": "Rockstar’s UK workers vote against unionization",
+   "url": "https://gamesbeat.com/rockstars-uk-workers-vote-against-a-union/",
+   "time": "2026-11-27T01:36:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "GamesBeat",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "80 Level",
+   "title": "75% of Participating Rockstar UK Staff Vote Against IWGB Recognition",
+   "url": "https://80.lv/articles/75-of-participating-rockstar-uk-staff-vote-against-iwgb-recognition/",
+   "time": "2026-11-27T15:47:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "80 Level",
+   "kind": "media",
+   "region": null,
+   "rank": 3
+  },
+  {
+   "name": "Techmeme",
+   "title": "UK workers at Rockstar Games vote against a union recognition deal, with only 25% voting in favor; source: 1,544 employees, or 93.2% of eligible workers, voted (Chris Kerr/Vertical Slice)",
+   "url": "https://www.techmeme.com/261126/p21#a261126p21",
+   "time": "2026-11-27T00:10:01+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 5,
+  "regions": 2,
+  "media_weight": 7,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

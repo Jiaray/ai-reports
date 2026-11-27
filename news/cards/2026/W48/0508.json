@@ -1,0 +1,83 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0508",
+ "title": "（長文）Longreads 推薦：英國退休老人死後留下逾 400 個爆裂物與詭雷，引發近年最大規模住宅區疏散",
+ "line": "記者 Andrew Kersley 花數月訪問拆彈專家與鄰居，鄰居卻說「那只是他的嗜好」",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-27T04:56:31+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "犯罪與司法"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "org": [
+   "Longreads"
+  ],
+  "person": [
+   "John Nelson",
+   "Andrew Kersley"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "爆裂物",
+   "詭雷",
+   "拆彈"
+  ],
+  "form": [
+   "長文"
+  ]
+ },
+ "summary_html": "Longreads 推薦記者 Andrew Kersley 的調查長文〈The Bombmaker Next Door〉。英國曼徹斯特與利物浦之間郊區的居民 John Nelson 2025 年夏天過世，家中留下逾 400 個爆裂裝置，簡直是一片「雷區」，還有暗藏尖刺的陷坑。清除這些爆裂物引發「英國近年最大規模的住宅疏散之一」。Kersley 花了數月訪問阻止房子爆炸的拆彈專家，以及似乎很喜歡 Nelson 的鄰居，一名鄰居說「我想那只是他的消遣」。文中描述，警方在 Nelson 死後第二次搜查時發現一個裝有爆裂物、露出電線的小菸草罐，拆彈人員架好 X 光機後走向隔壁房間，伸手開門時差點觸發第一個詭雷：門把上纏著釣魚線，連到一枚改裝的霰彈槍彈，從那一刻起，屋內每扇門、每一疊雜物都可能是陷阱。",
+ "dive_html": "這篇的看點是反差：鄰居眼中親切的老人，家裡卻佈滿足以殺人的機關，作者透過拆彈現場的細節把懸疑感寫得很足。Longreads 的推薦只摘了開頭，Nelson 製作爆裂物的動機與警方事前為何毫無所悉，要讀原文才知道。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Longreads",
+   "title": "The Bombmaker Next Door",
+   "url": "https://longreads.com/2026/11/26/the-bombmaker-next-door/",
+   "time": "2026-11-27T04:56:31+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Longreads",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

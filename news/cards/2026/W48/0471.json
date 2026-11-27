@@ -1,0 +1,96 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0471",
+ "title": "美國前副國務卿、布魯金斯研究院前院長 Strobe Talbott 辭世，享壽 80 歲",
+ "line": "曾任《時代》雜誌記者 21 年，柯林頓政府時期主導美國對俄政策",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-27T06:36:55+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "國際關係"
+  ],
+  "event": [
+   "其他"
+  ],
+  "org": [
+   "美國國務院",
+   "布魯金斯研究院",
+   "時代雜誌"
+  ],
+  "person": [
+   "Strobe Talbott",
+   "柯林頓"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Strobe Talbott",
+   "對俄政策"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美國前副國務卿 Strobe Talbott 美國時間 11 月 26 日在紐約州東漢普頓家中辭世，享壽 80 歲，兒子 Devin Talbott 證實他在久病後安詳離世。Talbott 1946 年生於俄亥俄州，就讀耶魯與牛津，在牛津與柯林頓同住；他在《時代》雜誌莫斯科實習後受託翻譯外洩的赫魯雪夫回憶錄，因此進入《時代》，任職 21 年，專注美蘇關係，曾任華府分社社長與外交專欄作家。1994 年加入國務院，很快升任副國務卿，主導柯林頓政府對俄羅斯與前蘇聯國家的政策，並在 1998 年印度核試後主持美印談判。2002 至 2017 年擔任布魯金斯研究院院長，期間也主持國務院外交政策委員會，著作十餘本，最後一本是 2020 年出版的《Our Founders&#x27; Warning: The Age of Reason Meets the Age of Trump》。",
+ "dive_html": "Talbott 是冷戰後美國對俄「接觸與整合」路線的代表人物，他離世之際正是這條路線被俄烏戰爭徹底推翻的時候；他從記者轉任外交決策者、再主持頂尖智庫的路徑，也代表華府知識精英旋轉門的典型。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "NPR News",
+   "title": "Strobe Talbott, former Time magazine reporter and deputy secretary of state, has died",
+   "url": "https://www.npr.org/2026/11/27/g-s1-155990/strobe-talbott-obit",
+   "time": "2026-11-27T14:12:45+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "NPR",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian US politics",
+   "title": "Strobe Talbott, Time magazine reporter and deputy US secretary of state, dies aged 80",
+   "url": "https://www.theguardian.com/us-news/2026/nov/26/strobe-talbott-time-secretary-of-state-dead",
+   "time": "2026-11-27T06:36:55+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,113 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0505",
+ "title": "前 NFL 四分衛 Tony Romo 加入 Jake Paul 創辦的 Betr，出任首位「首席預測長」並入股",
+ "line": "Romo 7 月酒駕被捕後離開 CBS，Betr 正透過與 Polymarket 合作擴展預測市場",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-26T16:32:00+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "人事異動"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "Betr",
+   "CBS",
+   "Polymarket"
+  ],
+  "person": [
+   "Tony Romo",
+   "Jake Paul",
+   "Joey Levy"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Betr",
+   "預測市場",
+   "運動投注"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "真錢遊戲公司 Betr 宣布，任命前 NFL 四分衛 Tony Romo 為首位「首席預測長」（Chief Predictions Officer），Romo 同時取得公司股權，雙方未揭露財務條件與持股比例。Romo 擔任 CBS Sports 首席 NFL 球評近十年，7 月在威斯康辛州因酒駕被捕、9 月對指控表示不爭執，數週前離開 CBS。他將成為 Betr 的品牌代言人，在各類內容與行銷活動中預測 NFL 比賽。Betr 由 Joey Levy 與網紅 Jake Paul 於 2022 年創立，正在既有的運動投注與賭場產品外擴展預測市場，這項擴張是透過與 Polymarket 的多年合作。Levy 表示 Romo 圍繞「預測」建立了非凡聲譽，這正是公司業務核心；Romo 則說他整個職涯都在試著預判接下來會發生什麼，不論在球場或轉播席。",
+ "dive_html": "預測市場業者正大量找運動明星與名人背書，Kalshi 與湖人簽約也是同一趨勢；以「預測長」而非「投注代言人」包裝，反映業者刻意以金融化語言淡化博奕色彩，這正是各州監管機關與法院爭議的焦點。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Yogonet International",
+   "title": "Former NFL quarterback Tony Romo joins Betr with equity stake, Chief Predictions Officer title",
+   "url": "https://www.yogonet.com/international/news/2026/11/26/127491-former-nfl-quarterback-tony-romo-joins-betr-with-equity-stake-chief-predictions-officer-title",
+   "time": "2026-11-27T00:40:35+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Yogonet",
+   "kind": "media",
+   "region": "中南美",
+   "rank": 3
+  },
+  {
+   "name": "InterGame",
+   "title": "Betr onboards pundit Tony Romo",
+   "url": "https://www.intergameonline.com/sports-betting/news/betr-onboards-pundit-tony-romo",
+   "time": "2026-11-26T16:32:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "InterGame",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "Casino.org News",
+   "title": "Tony Romo Joins Jake Paul’s Betr as Chief Predictions Officer After CBS Split",
+   "url": "https://www.casino.org/news/tony-romo-joins-betr-as-chief-predictions-officer-following-cbs-exit/",
+   "time": "2026-11-26T21:11:07+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "0 comments",
+   "family": "Casino.org",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

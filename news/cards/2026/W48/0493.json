@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0493",
+ "title": "美國聯邦法官駁回 Robinhood 把運動預測市場訴訟移交仲裁，指其運動合約可能屬州管轄的博奕",
+ "line": "加州北區法官 Chen 認定仲裁條款只涵蓋聯邦監管合約，集體訴訟可續行",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-26T22:44:45+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "sector": [
+   "博奕",
+   "金融"
+  ],
+  "org": [
+   "Robinhood",
+   "Kalshi",
+   "美國商品期貨交易委員會"
+  ],
+  "person": [
+   "Edward Chen"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "預測市場",
+   "運動事件合約",
+   "仲裁",
+   "CFTC"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "加州北區聯邦地院法官 Edward Chen 美國時間 11 月 25 日裁定，駁回 Robinhood 把消費者針對其運動預測市場的求償移交仲裁的請求，讓指控其經營無照博奕的合併訴訟得以在法院進行。Chen 認為，Robinhood 的仲裁條款涵蓋的是聯邦監管合約的爭議，而其運動事件合約可能屬於受州法規範的博奕，因此不適用。裁定出爐之際，聯邦上訴法院對運動預測合約該由商品期貨交易委員會（CFTC）以金融衍生品監管、還是受州博奕法規範，見解仍然分歧：第九巡迴上訴法院 8 月認定 Kalshi 的運動事件合約實質上「就是運動博奕」，讓內華達州得以執法；第三巡迴上訴法院 4 月則認為 Kalshi 的合約可能屬於受保護、免受紐澤西州管轄的交換合約。",
+ "dive_html": "這是法院第一次把「預測市場是否屬博奕」的爭議延伸到券商的消費者合約條款上；若運動合約被認定為州管轄的博奕，Robinhood 等平台將直接暴露在各州消費者訴訟與無照經營責任下。上訴法院分歧持續，最終可能要由最高法院定調。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Yogonet International",
+   "title": "Robinhood loses bid to move sports prediction market lawsuit into arbitration",
+   "url": "https://www.yogonet.com/international/news/2026/11/26/127495-robinhood-loses-bid-to-move-sports-prediction-market-lawsuit-into-arbitration",
+   "time": "2026-11-26T22:44:45+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Yogonet",
+   "kind": "media",
+   "region": "中南美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

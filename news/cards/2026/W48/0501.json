@@ -1,0 +1,83 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0501",
+ "title": "加拿大安大略省線上博奕 10 月投注額 106.7 億加元創新高，單月首度突破 100 億加元",
+ "line": "毛博奕收入 4.505 億加元年增 22.4%，運動投注收入年增 44%",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-27T09:19:22+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "CA"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "數據發布"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "iGaming Ontario"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "安大略",
+   "iGaming",
+   "GGR",
+   "運動投注"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "iGaming Ontario（iGO）美國時間 11 月 25 日公布，10 月安大略受監管線上博奕市場現金投注額達 106.7 億加元，月增 9.9%、年增 15.3%，是 2022 年 4 月市場開放以來單月首度突破 100 億加元，超越今年 7 月創下的 98.8 億加元紀錄。未調整毛博奕收入（NAGGR）也創新高，達 4.505 億加元，月增 8.2%、年增 22.4%，超越 2025 年 12 月的 4.256 億加元。線上賭場仍占主導，投注額 92.4 億加元、NAGGR 3.605 億加元皆創紀錄，分別占總投注的 87% 與總收入的 80%，賭場收入年增 19%。運動投注方面，NFL 進入第二個月、NHL 與 NBA 開季加上 MLB 季後賽，投注額創 12.9 億加元新高，月增 20%、年增 5%；運動投注 NAGGR 年增 44% 至 8,430 萬加元，投注額小幅成長而收入大增，顯示業者抽成率提高。",
+ "dive_html": "安大略是北美最成熟的開放式線上博奕市場之一，線上賭場貢獻八成收入的結構，為美國各州是否開放 iGaming 提供了直接參照；運動投注收入成長遠快於投注額，代表業者靠串關等高抽成產品拉高獲利，也可能引來監管對產品設計的關注。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Casino.org News",
+   "title": "Ontario iGaming Shatters Record With CA$10.67 Billion in October Wagers",
+   "url": "https://www.casino.org/news/canadian-gaming-ontario-wagering-record-october/",
+   "time": "2026-11-27T09:19:22+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "0 comments",
+   "family": "Casino.org",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

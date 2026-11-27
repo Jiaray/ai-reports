@@ -1,0 +1,96 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0474",
+ "title": "英格蘭流感住院率一週暴增近 80%，創疫情前以來同期新高，NHS 主管警告「可怕的高峰」將至",
+ "line": "65 歲以上疫苗接種率不到 68%，部分醫院已恢復要求戴口罩",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-27T02:27:49+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療"
+  ],
+  "event": [
+   "公衛事件"
+  ],
+  "org": [
+   "英格蘭國民保健署",
+   "英國衛生安全局"
+  ],
+  "person": [
+   "Jim Mackey"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "流感",
+   "住院率",
+   "疫苗接種",
+   "口罩"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "英國衛生安全局（UKHSA）數據顯示，英格蘭流感住院率上週由每 10 萬人 5 人升至近 9 人，一週增加近 80%，是新冠疫情前以來同期最高；但流感傳播仍只在「中等」程度，新冠與呼吸道融合病毒也有上升、仍屬低水準。UKHSA 指出疫苗接種率偏低，65 歲以上接種率不到 68%，長期病患只有約三分之一已接種，呼籲符合資格者盡快接種。即將卸任的英格蘭國民保健署執行長 Jim Mackey 在 NHS Alliance 會議上警告將出現「可怕的高峰」，他預估未來 5 到 10 天病例會持續累積、兩週內進入「真正的冬天」，目前流感占用的病床已多於去年同期；他表示醫院主管應考慮要求員工與訪客戴口罩，部分醫院已這麼做。本週英格蘭已有數個醫療信託因冬季壓力宣布重大事件。",
+ "dive_html": "流感還在「中等」流行程度，住院率卻已創新高，加上高風險族群接種率偏低，代表這波流感對醫療量能的衝擊可能大於傳播規模本身；英國經驗也提醒北半球其他地區，冬季高峰前的疫苗接種率是能否撐住醫院的關鍵指標。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Guardian Health",
+   "title": "Hospitals in England brace for flu spike with admissions highest for time of year since pre-Covid",
+   "url": "https://www.theguardian.com/society/2026/nov/26/nhs-hospitals-england-flu-spike-masks",
+   "time": "2026-11-27T02:27:49+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC Top News",
+   "title": "NHS boss warns of 'horrible spike' in flu as hospital admissions surge",
+   "url": "https://www.bbc.co.uk/news/articles/cwvg2ndxdjr2o",
+   "time": "2026-11-27T15:40:25+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

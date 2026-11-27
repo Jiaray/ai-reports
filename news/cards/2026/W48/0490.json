@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0490",
+ "title": "Unity 推 Asset Library 外掛可只下載資源包中的單一資產，Unreal 5.9 預覽版把 Fab 開放給 AI 代理",
+ "line": "兩大引擎都讓資產商店可由命令列與 MCP 存取，資產管理走向代理化",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-26T23:19:28+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "遊戲",
+   "開發與開源",
+   "AI"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "遊戲",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Unity",
+   "Epic Games"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Asset Library",
+   "Unity CLI",
+   "Fab",
+   "MCP",
+   "Unreal Engine 5.9"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "GameFromScratch 報導，Unity 與 Unreal Engine 最新版本都大幅改變開發者從資產商店取得資源的方式。Unity 推出適用 Unity 6.x 與 7 的 Asset Library 外掛，搭配 Unity CLI 拆解舊的 .unitypackage 格式，免費或已購買的資產包可以只挑單一資產下載；Unity 的例子是「只需要一個木桶，就不必下載 650 MB 的中世紀道具包」。外掛可用自然語言描述需求、搜尋後直接拖進場景，只下載該資產需要的檔案，並自動處理匯入與檔案管理；還會顯示資產商店過去沒提供的三角形數、動畫綁定等資訊，讓開發者在匯入前判斷是否達到量產品質。Unity 也把 Asset Library 存取加進 CLI，讓資產管理可用命令列操作，也開放給 AI 代理。Unreal Engine 則以 5.9 預覽版把 Fab 商店開放給 AI 代理：Preview 2 讓 MCP 設定更好找，在編輯器偏好設定或專案設定搜尋「MCP」即可，MCP 伺服器也接受代理呼叫帶前綴的工具名稱。",
+ "dive_html": "對中小團隊，Unity 的單一資產下載能直接減少專案體積與匯入時間，三角形數等資訊也有助控管行動端效能；兩家同時把資產商店接上 CLI 與 MCP，代表引擎廠商預期 AI 代理會參與搭場景、找素材的日常工作。導入前要留意的是代理自動拉入資產時的授權與版本管理。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GameFromScratch",
+   "title": "Unity & Unreal Change The Way You Access Assets",
+   "url": "https://gamefromscratch.com/unity-unreal-change-the-way-you-access-assets/",
+   "time": "2026-11-26T23:19:28+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "GameFromScratch",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

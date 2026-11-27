@@ -1,0 +1,110 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0463",
+ "title": "九合一選舉前一天，國防部偵獲 30 架次共機出海、26 架次逾越中線，配合共艦「聯合戰備警巡」",
+ "line": "殲 10、殲 16、蘇愷 30、轟 6K 與空警 500 進入北部、中部、西南與東部空域",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-27T14:05:46+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "台灣",
+   "中國大陸"
+  ],
+  "country": [
+   "TW",
+   "CN"
+  ],
+  "taiwan": [
+   "直接"
+  ],
+  "topic": [
+   "國防與軍事",
+   "兩岸"
+  ],
+  "event": [
+   "軍事行動"
+  ],
+  "story": [
+   "2026九合一選舉"
+  ],
+  "org": [
+   "台灣國防部",
+   "中國人民解放軍"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "聯合戰備警巡",
+   "中線",
+   "共機擾台"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "國防部 11 月 27 日表示，自當天上午 9 時 25 分起陸續偵獲中共殲 10、殲 16、蘇愷 30、轟 6K 與空警 500 等各型主、輔戰機及無人機共 30 架次出海，其中 26 架次逾越中線及其延伸線，進入台灣北部、中部、西南與東部空域，配合共艦以「聯合戰備警巡」「遠海長航」名義騷擾台灣周邊空、海域。國防部指國軍運用聯合情監偵手段嚴密掌握，並派遣任務機、艦與岸置飛彈系統應處。這發生在九合一地方選舉 28 日投開票前一天；Straits Times 與 Reuters 也以「選戰最後一天，中國派出戰機」報導。",
+ "dive_html": "選前一天出動逾 20 架次越線的聯合戰備警巡，是北京慣用的施壓訊號，時機選在選戰最後衝刺日，意在提醒台灣選民兩岸軍事壓力；但規模屬近年常態範圍，並非大型演習。與同時期大埕灣的登陸演練合看，解放軍一面維持日常灰色地帶壓力、一面推進實戰能力。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "26架次共機越中線配合共艦擾台　國軍嚴密掌握應處",
+   "url": "https://www.cna.com.tw/news/aipl/202611270109.aspx",
+   "time": "2026-11-27T14:05:46+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Taiwan local election campaigns enter final day; China sends warplanes",
+   "url": "https://www.straitstimes.com/asia/east-asia/taiwan-candidates-campaign-for-key-local-elections-on-final-day",
+   "time": "2026-11-27T14:12:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Taiwan local election campaigns enter final day; China sends warplanes",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxNRzJNWEpPd2tGOERUMUhtUXFlcjBfSzhwZ2xnTVRGUjVSQlJIbEZ3TjJuT3hUMFJCa2tJVGhJdlNsVFBSVW9JVGw3ZHE4dWhZZElLNnVmWnhDS2pYWDgyemx6YzRsQURWV1psM1h4ancxWm15bGFKV0wzMkZZOXk1cVRMZ2JJcXlqazV2OEJmWkpWT29USEFSOHRPaFpxRG82OVVZWHVRNA?oc=5",
+   "time": "2026-11-27T14:07:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 3,
+  "media_weight": 8,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

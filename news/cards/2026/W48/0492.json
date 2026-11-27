@@ -1,0 +1,83 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0492",
+ "title": "OpenPaaS 平台調整內部網路線路，遊戲作品審核暫停、結果延遲回覆",
+ "line": "營運團隊請已提交的開發者勿重複提交，恢復後將以公告通知",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-26T21:42:01+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": true,
+ "facets": {
+  "region": [
+   "中國大陸"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "網頁遊戲"
+  ],
+  "event": [
+   "其他"
+  ],
+  "sector": [
+   "遊戲",
+   "網路平台"
+  ],
+  "org": [
+   "OpenPaaS"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "OpenPaaS",
+   "小遊戲審核",
+   "上架"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "OpenPaaS 營運團隊 11 月 26 日在 Cocos 中文社區發布公告，表示平台近日正在調整內部網路線路，暫時無法正常審核開發者提交的遊戲作品，審核結果將延遲回覆。已成功提交的作品請耐心等待、不需重複提交；審核恢復後會繼續處理待審作品，並透過平台公告同步恢復情況。公告沒有說明預計恢復的時間。",
+ "dive_html": "對排定近期在 OpenPaaS 上架或更新的團隊，這代表上線時程需預留緩衝，尤其年底檔期的活動版本；重複提交只會增加排隊，等平台公告恢復即可。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Cocos 中文社區",
+   "title": "关于 OpenPaaS 平台游戏作品审核延迟的公告",
+   "url": "https://forum.cocos.org/t/topic/178267",
+   "time": "2026-11-26T21:42:01+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "215 瀏覽 / 1 回覆",
+   "family": "Cocos 中文社區",
+   "kind": "community",
+   "region": "中國大陸",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "next_id": 8,
+ "next_id": 9,
  "items": [
   {
    "id": "E1",
@@ -101,6 +101,21 @@
    "resolved_at": "2026-11-26T17:38:38+08:00",
    "resolved_by": "model",
    "resolution": "范德堡大學研究與原卡的 BBC、DW 查核講的是同一波中國關聯 AI 假訊息影響台灣九合一選舉，是同一現象的另一份調查證據；相似度低是因為補充來源用簡體中文標題"
+  },
+  {
+   "id": "E8",
+   "kind": "merged",
+   "cards": [
+    "2026-W48-0246"
+   ],
+   "found_by": "program",
+   "status": "suspected",
+   "note": "第 1 段補充掛上的來源和卡上原有的標題差很多，可能是另一件事（最高相似度 0.13）",
+   "proposed": {
+    "log_index": 1
+   },
+   "found_at": "2026-11-27T17:05:32+08:00",
+   "resolved_at": null
   }
  ]
 }

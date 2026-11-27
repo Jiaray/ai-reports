@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0497",
+ "title": "UEFA 就兩場賽事異常投注向賽普勒斯足協發出初步警示，涉亞洲讓分盤與總進球盤",
+ "line": "足協稱目前只是初步通報、尚未立案，警示也不代表比賽遭操縱",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-26T18:33:03+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "CY"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "體育"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "歐洲足球總會",
+   "賽普勒斯足球協會"
+  ],
+  "person": [
+   "Haris Loizides"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "假球",
+   "異常投注",
+   "亞洲讓分盤"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據賽普勒斯媒體 Phileleftheros 首先報導，歐洲足球總會（UEFA）就兩場國內賽事的投注活動，向賽普勒斯足球協會（CFA）發出初步警示，CFA 已要求更多資訊並轉交道德與運動保護委員會。兩場比賽是 Apollon 女足 2 比 0 勝 Omonia，以及男子甲級聯賽 Karmiotissa 0 比 5 敗給 Apollon。女足賽是在 0 比 0 時，亞洲讓分盤出現大量押 Apollon 勝的滾球投注，主隊勝賠率由 2.40 縮到 1.40、讓分由 0 調到 1，UEFA 委託的分析師判斷變動幅度超出比賽數據所能解釋；男足賽的警示列為橘色等級，含「投注詐欺警示」，投注集中在總進球盤，賽前押至少 5 球、賽中押至少 4 球，最終比數 5 比 0。CFA 主席 Haris Loizides 說：「目前沒有案件檔案，只有初步通報。」報導強調警示並未證明比賽遭操縱，也未證明任何球隊或個人有不當行為。",
+ "dive_html": "賠率監測系統抓到的是投注型態與比賽數據不符，是假球調查的起點而非結論；女足與低級別聯賽監管與關注較少，常是操縱集團的目標。後續看道德委員會是否立案。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "iGaming Business",
+   "title": "UEFA alerts Cyprus football authorities to unusual betting on two matches",
+   "url": "https://igamingbusiness.com/sports-betting/uefa-alerts-cyprus-football-authorities-to-unusual-betting-on-two-matches/",
+   "time": "2026-11-26T18:33:03+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "iGaming Business",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

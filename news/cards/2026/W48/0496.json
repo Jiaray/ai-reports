@@ -1,0 +1,105 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0496",
+ "title": "墨西哥總統辛鮑姆再承諾改革線上博奕法規，點名博奕廣告是「重大問題」",
+ "line": "內政部長已備妥草案但尚未送國會，現行博奕法制定於 1947 年",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-26T20:16:50+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中南美"
+  ],
+  "country": [
+   "MX"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "政治"
+  ],
+  "event": [
+   "政策法規",
+   "聲明評論"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "墨西哥政府",
+   "墨西哥內政部",
+   "AIEJA"
+  ],
+  "person": [
+   "Claudia Sheinbaum",
+   "Rosa Icela Rodríguez"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "線上博奕法",
+   "博奕廣告",
+   "成癮"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "墨西哥總統辛鮑姆（Claudia Sheinbaum）11 月 24 日在每日記者會上再度承諾改革線上博奕法規，表示內政部長 Rosa Icela Rodríguez 已擬好法案，但尚未送交國會；現行博奕法可追溯到 1947 年，沒有涵蓋線上博奕。她說「線上投注成長很多，必須加以規範，廣告也要規範」，將在內閣討論，並請內政部長重啟法案、檢視電視網上的線上賭場與投注廣告。她特別提到墨西哥合辦的世界盃期間，大量廣告來自博奕公司，讓她「印象深刻」，稱廣告是「重大問題」。被問到是否會像其他國家一樣禁止廣告時，她表示這是非常重要的議題，問題博奕在國內增加，「這是健康與成癮問題，也會造成家庭財務負擔」，尤其影響兒童與年輕人。業者團體 AIEJA 主席 Miguel Ángel Ochoa Sánchez 先前曾表示產業監管不足，報導也提到業者稅負已經提高。",
+ "dive_html": "改革講了多年仍停在內閣草案，這次辛鮑姆把焦點放在廣告與成癮，若最終立法，墨西哥可能走向類似西班牙、義大利的廣告限制；對進軍拉美的博奕業者與媒體贊助市場影響最大。法案細節與送審時程仍不明。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "iGaming Business",
+   "title": "Mexico president renews pledge to reform online gambling regulation",
+   "url": "https://igamingbusiness.com/legal-compliance/mexico-president-claudia-sheinbaum-online-gambling-regulation/",
+   "time": "2026-11-26T20:16:50+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "iGaming Business",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "Casino.org News",
+   "title": "Mexico President Revives Online Gambling Reform, Targets Betting Advertising",
+   "url": "https://www.casino.org/news/mexico-president-revives-online-gambling-reform-targets-betting-advertising/",
+   "time": "2026-11-26T22:48:55+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "0 comments",
+   "family": "Casino.org",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

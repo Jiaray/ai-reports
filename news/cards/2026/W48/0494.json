@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0494",
+ "title": "愛沙尼亞擬叫停線上博奕減稅，2027 年 7 月起恢復 5.5% 稅率",
+ "line": "減稅後今年只收到 2 件新執照申請，稅制漏洞還讓國庫少收約 400 萬歐元",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-26T20:35:51+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "EE"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "總體經濟"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "愛沙尼亞國會財政委員會",
+   "愛沙尼亞財政部"
+  ],
+  "person": [
+   "Kristen Michal",
+   "Annely Akkermann"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "線上博奕稅",
+   "稅率"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "愛沙尼亞國會財政委員會已草擬法案，自 2027 年 7 月 1 日起把遠端博奕稅率恢復為 5.5%，原因是今年推行的減稅方案造成數百萬歐元稅收損失。這項法案源自總理 Kristen Michal 下令的檢討：財政部 6 月揭露，2026 年以來只收到 2 件新博奕執照申請，預期的業者湧入並未出現。Michal 說：「如果稅收沒有增加，就沒有理由繼續減稅。」減稅改革還一度產生法律漏洞，讓線上博奕業者在今年初暫時免稅，雖然 3 月已修正，估計仍讓國庫損失約 400 萬歐元。財政委員會主席、改革黨的 Annely Akkermann 表示，法案可部分抵銷 2027 年預期的稅收損失，並在 2028 至 2030 年增加國庫收入。",
+ "dive_html": "愛沙尼亞原想靠低稅率吸引線上博奕業者落地，結果新申請只有兩件，顯示稅率不是業者選址的唯一考量，執照門檻、銀行與支付通道、市場規模同樣關鍵；這對其他想以減稅搶業者的小型司法管轄區是反面教材。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Yogonet International",
+   "title": "Estonia moves to halt online gambling tax cuts, retain 5.5% rate from July 2027",
+   "url": "https://www.yogonet.com/international/news/2026/11/26/127482-estonia-moves-to-halt-online-gambling-tax-cuts-retain-55-rate-from-july-2027",
+   "time": "2026-11-26T20:35:51+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Yogonet",
+   "kind": "media",
+   "region": "中南美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

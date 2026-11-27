@@ -1,0 +1,89 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0495",
+ "title": "愛爾蘭博奕監管局首起執法行動，向高等法院起訴知名投注分析師公司推廣無照博奕網站",
+ "line": "6 萬人 Telegram 頻道推薦持科摩羅執照的 Gambana，GRAI 依博奕監管法第 75 條聲請禁令",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-26T23:14:32+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "IE"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "犯罪與司法"
+  ],
+  "event": [
+   "犯罪執法"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "愛爾蘭博奕監管局",
+   "Pro Sports Advice",
+   "Gambana"
+  ],
+  "person": [
+   "Rob Heneghan"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "無照博奕",
+   "廣告",
+   "Telegram",
+   "Anjouan 執照"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "愛爾蘭博奕監管局（GRAI）接手博奕監管後的首起法律執法行動，目標不是博奕業者，而是一家由知名投注分析師經營的公司。據《愛爾蘭時報》，GRAI 11 月 25 日向高等法院起訴 Louth 郡分析師 Rob Heneghan 經營的 Pro Sports Advice Ltd，聲請禁止其推廣無照博奕；GRAI 證實依《2024 年博奕監管法》第 75 條，就「無照博奕活動的廣告」提起訴訟。據報導，Pro Sports Advice 擁有逾 6 萬名追蹤者的 Telegram 頻道曾推薦未持愛爾蘭執照、仍接受愛爾蘭客戶投注的 Gambana，有訊息鼓勵追蹤者存入 1,000 美元換取紅利；Gambana 宣稱持有科摩羅 Anjouan 執照，但科摩羅央行曾稱這類執照是詐騙。貼文在《愛爾蘭時報》4 月詢問合法性後刪除，但 5 月又恢復推廣直到本週。Heneghan 的律師表示，公司提供類似《Racing Post》的投注分析，不經營投注平台、也不經手客戶資金。案件預定 1 月由法官審理。",
+ "dive_html": "GRAI 選擇先打推廣管道而非境外業者本身，因為境外網站難以觸及，在地的導流者才是可執行的對象；這與歐洲各國聯手讓 Google 封鎖無照業者廣告的方向一致，聯盟行銷與社群頻道的法律風險正在升高。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "iGaming Business",
+   "title": "Irish regulator’s first legal action targets tipster over unlicensed betting promotion",
+   "url": "https://igamingbusiness.com/legal-compliance/irish-regulators-first-legal-action-targets-tipster-over-unlicensed-betting-promotion/",
+   "time": "2026-11-26T23:14:32+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "iGaming Business",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

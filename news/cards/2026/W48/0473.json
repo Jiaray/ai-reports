@@ -1,0 +1,111 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0473",
+ "title": "Science 研究：人工「分子膠」TALhesin 穩定老鼠老化卵子染色體，17 月齡小鼠正常卵子比例由 46.7% 升至 74.1%",
+ "line": "研究團隊已改造系統對應人類染色體，但成果仍是動物實驗、尚未在人體證實",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-26T00:00:00+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "DE"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療",
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "馬克斯普朗克多學科科學研究所",
+   "Science"
+  ],
+  "person": [
+   "Melina Schuh",
+   "Bettina Mihalas"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "TALhesin",
+   "黏連蛋白",
+   "卵子老化",
+   "非整倍體",
+   "試管嬰兒"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "德國馬克斯普朗克多學科科學研究所生化學家 Melina Schuh 團隊 11 月 26 日在《Science》發表研究，設計出名為 TALhesin 的人工黏連系統，能穩定老化小鼠卵子中的染色體。卵子染色體靠黏連蛋白（cohesin）維持在一起，但這種蛋白會隨女性年齡下降，導致染色體過早分離、分配錯誤，產生染色體過多或過少的非整倍體卵子，是不孕、試管嬰兒失敗與早期流產的原因，35 歲以上女性尤其明顯。TALhesin 以工程蛋白附著在原本有黏連蛋白的染色體區域並彼此結合，再加入「分子剪刀」在細胞分裂適當時機解除黏連。研究人員把編碼這些蛋白的 mRNA 注入未成熟小鼠卵子，在 13、17、20 月齡小鼠中都降低了染色體過早分離；17 月齡小鼠中，沒有過早分離錯誤的卵子比例由 46.7% 提高到 74.1%，接近年輕小鼠水準。團隊也已改造系統以對應人類染色體。澳洲新南威爾斯大學生殖生物學家 Bettina Mihalas 評論，這是第一個以工程系統取代黏連蛋白功能的做法，「非常有創意、設計周到」。STAT 指出，研究未來可能改善高齡女性的試管嬰兒結果。",
+ "dive_html": "卵子老化造成的非整倍體一直是高齡生育最難處理的問題，這項研究首次證明可以用人工蛋白「補回」流失的黏連功能，概念上很有突破性。但目前只是小鼠卵子實驗，要走到臨床還需證明在人類卵子上安全有效，且涉及以 mRNA 修飾卵子，倫理與法規審查門檻都高，短期內不會改變現行試管嬰兒療程。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "STAT News",
+   "title": "In a fertility advance, engineered molecular glue stabilizes chromosomes in aging eggs",
+   "url": "https://www.statnews.com/2026/11/26/fertility-advance-engineered-protein-stabilizes-chromosomes-in-aging-eggs/",
+   "time": "2026-11-27T03:00:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "STAT",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "Medical Xpress",
+   "title": "An engineered 'glue' for aged eggs could prevent premature chromosome separation",
+   "url": "https://medicalxpress.com/news/2026-11-aged-eggs-premature-chromosome.html",
+   "time": "2026-11-27T03:00:07+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Medical Xpress",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "Nature",
+   "title": "Chromosome ‘glue’ could boost fertility by stabilizing ageing eggs",
+   "url": "https://www.nature.com/articles/d41586-026-03874-7",
+   "time": "2026-11-26T00:00:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Nature",
+   "kind": "official",
+   "region": "歐洲",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

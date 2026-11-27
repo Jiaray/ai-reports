@@ -1,0 +1,115 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0466",
+ "title": "荷蘭貿易部長表態抵制美國 MATCH 法案，稱擴大禁售 ASML DUV 設備與維修服務將重創歐洲企業",
+ "line": "美國國會最快 12 月把法案納入國防授權法，荷蘭與歐盟、德、法研究反制措施",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-26T20:50:19+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "北美",
+   "中國大陸"
+  ],
+  "country": [
+   "NL",
+   "US",
+   "CN"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "國際關係",
+   "科技"
+  ],
+  "event": [
+   "聲明評論",
+   "政策法規"
+  ],
+  "story": [
+   "AI晶片出口管制"
+  ],
+  "sector": [
+   "半導體"
+  ],
+  "org": [
+   "荷蘭政府",
+   "ASML",
+   "美國國會",
+   "歐盟執委會"
+  ],
+  "person": [
+   "Sjoerd Sjoerdsma",
+   "Christophe Fouquet"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "MATCH Act",
+   "DUV",
+   "出口管制",
+   "國防授權法",
+   "阻斷法"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據中央社引述路透社，荷蘭貿易部長史卓瑪（Sjoerd Sjoerdsma）11 月 26 日在國會詢答時表示，若美國通過加強限制 ASML 對中國銷售設備的法案，荷蘭將向華府表明「切勿執行」，「我們不會任人擺布」。美國國會正協商兩黨支持的「硬體技術多邊協調管制法案」（MATCH Act），最快 12 月納入年度國防授權法（NDAA）；法案將迫使荷蘭、日本等盟國採取更嚴的出口管制，否則美國將單方面對廠商設限，範圍包括 ASML 的深紫外光（DUV）曝光機。中國媒體分析指出，法案還可能涵蓋已售設備的維修保養，包括現場與遠端服務、安裝、校準、軟體升級與技術培訓。史卓瑪說荷蘭正與歐盟執委會、德國與法國合作阻擋法案，並研究雙邊與歐洲層級的措施，包括是否需要反制。ASML 執行長福克（Christophe Fouquet）上週警告新禁令可能反而加速中國自主研發；中國預計占 ASML 今年銷售額約 20%。ASML 第 3 季已安裝設備管理業務收入 32.89 億歐元、年增 67.6%，約占當季營收 28.2%；美銀估算全面禁止對中出口 DUV 與相關服務，可能讓 ASML 營收減少約 14% 至 15%。智庫學者 Sanne van der Lugt 建議歐盟可考慮啟用「阻斷法」，但提醒須準備好面對美國報復。",
+ "dive_html": "盟國公開說「切勿執行」，代表美國以長臂管轄推動多邊晶片管制的模式開始碰到歐洲底線；若 MATCH 法案隨 NDAA 過關，荷美之間可能出現阻斷法對上次級制裁的局面。對台灣，ASML 維修服務若被禁，中國成熟製程產能的穩定度與擴產節奏會受影響，間接改變全球成熟製程的價格競爭。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "美擴大對中晶片設備禁令恐重創ASML　荷蘭表態抵制",
+   "url": "https://www.cna.com.tw/news/aopl/202611270055.aspx",
+   "time": "2026-11-27T11:24:46+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Techmeme",
+   "title": "The Dutch government says it will resist the US' planned Match Act, which aims to restrict ASML's sales to China, calling the proposal a threat to the company (Bloomberg)",
+   "url": "https://www.techmeme.com/261126/p15#a261126p15",
+   "time": "2026-11-26T20:50:19+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

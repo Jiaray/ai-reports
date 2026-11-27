@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0499",
+ "title": "澳門擬恢復大型商業演出門票 10% 印花稅，預計 2027 年進帳 1.1 億澳門元",
+ "line": "適用逾 1,500 座場館，將觸及多數賭場度假村內的表演場地，主辦單位擔憂競爭力",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-27T08:45:00+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "港澳"
+  ],
+  "country": [
+   "MO"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "總體經濟"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "博奕",
+   "媒體與娛樂"
+  ],
+  "org": [
+   "澳門特區政府",
+   "澳門立法會"
+  ],
+  "person": [
+   "Ng Wai Han",
+   "岑浩輝"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "印花稅",
+   "演唱會",
+   "2027 年財政預算"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Asia Gaming Brief 引述 GGRAsia，澳門經濟財政司司長 Ng Wai Han 11 月 23 日在立法會為恢復大型商業演出門票 10% 印花稅辯護，政府預計 2027 年可因此進帳約 1.1 億澳門元（約 1,360 萬美元），約占明年各類印花稅預估收入逾 10.1 億澳門元的十分之一。稅負適用在逾 1,500 座位場館舉行的合資格演出、展覽與娛樂活動門票，將結束疫情前就實施的豁免，並觸及許多位於賭場度假村內的場館。她表示，主辦單位多半會把成本轉嫁給高消費的購票者，且主辦方使用交通等公共資源，理應有所貢獻；她也說澳門需要博奕稅以外的收入支應社會福利等承諾，呼應行政長官岑浩輝要做好過緊日子準備的說法。這項措施列在 2027 年預算中，預算假設賭場毛收入 2,400 億澳門元，博奕相關稅收預估 940.7 億澳門元，約占總收入 1,436.4 億澳門元的 65.5%。業界代表則警告，印花稅按票房收入課徵、不論演出是否獲利，一場票房 1 億澳門元的演唱會要繳 1,000 萬澳門元，恐削弱澳門競爭力。",
+ "dive_html": "澳門近年把大型演唱會當成非博奕元素與帶客工具，賭場營運商也大舉投資場館；對門票開徵 10% 印花稅，等於讓營運商與主辦方的非博奕投入成本上升，可能讓部分巡演轉往香港或其他城市。政府稅收仍有六成五靠博奕，開闢新稅源的方向明確，但選錯了要扶植的產業。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Asia Gaming Brief",
+   "title": "Macau defends plan to revive 10% stamp duty on big-show tickets, expects MOP110 million in 2027",
+   "url": "https://agbrief.com/news/macau/27/11/2026/macau-defends-plan-to-revive-10-stamp-duty-on-big-show-tickets-expects-mop110-million-in-2027/",
+   "time": "2026-11-27T08:45:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Asia Gaming Brief",
+   "kind": "media",
+   "region": "港澳",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

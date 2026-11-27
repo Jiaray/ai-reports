@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0500",
+ "title": "Entain 澳洲子公司與 AUSTRAC 達成初步和解，同意支付 1.85 億澳元反洗錢民事罰款",
+ "line": "涉 2018 年 12 月至 2024 年 8 月違反反洗錢與反恐融資法，尚待雙方最終核准",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-27T16:39:00+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "大洋洲"
+  ],
+  "country": [
+   "AU",
+   "NZ"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "Entain",
+   "澳洲交易報告與分析中心"
+  ],
+  "person": [
+   "Stella David"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "AUSTRAC",
+   "反洗錢",
+   "民事罰款"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Entain 的澳洲子公司與澳洲交易報告與分析中心（AUSTRAC）達成初步協議，解決 AUSTRAC 2024 年提起的民事罰款訴訟，Entain Australia 同意支付 1.85 億澳元（約 1.23 億美元）民事罰款，雙方已向聯邦法院聲請撤銷排定的審判日期。訴訟涉及 2018 年 12 月至 2024 年 8 月間違反《2006 年反洗錢與反恐融資法》的指控；雙方擬另訂一份同意事實與承認陳述，罰款與陳述仍待 Entain 董事會與 AUSTRAC 最終核准。Entain 執行長 Stella David 表示，這是解決集團與當地業務歷史問題的重要一步，Entain Australia 近年已大幅轉型，強化合規計畫、換了新的領導團隊。Entain 10 月也表示自己是進入紐西蘭賭場執照下一階段的 11 家業者之一。",
+ "dive_html": "1.85 億澳元是澳洲線上投注業者遭 AUSTRAC 開罰的高額案例之一，和 Star、Crown 的賭場案一起顯示澳洲反洗錢執法已從實體賭場延伸到線上投注。和解能讓 Entain 在申請紐西蘭執照前先清掉合規包袱。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "InterGame",
+   "title": "Entain to settle AUSTRAC case for $185m",
+   "url": "https://www.intergameonline.com/igaming/news/entain-to-settle-austrac-case-for-185m",
+   "time": "2026-11-27T16:39:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "InterGame",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

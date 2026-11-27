@@ -1,0 +1,138 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0468",
+ "title": "土耳其總統艾爾段完成批准麥加聯合防禦協議，土耳其、沙烏地、巴基斯坦三國結盟成形",
+ "line": "任一締約方遭攻擊視同全體遭攻擊，三國在伊斯蘭馬巴德開會討論葉門衝突",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-27T13:22:00+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東",
+   "南亞",
+   "歐洲"
+  ],
+  "country": [
+   "TR",
+   "SA",
+   "PK"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "國際關係",
+   "國防與軍事"
+  ],
+  "event": [
+   "會談協議"
+  ],
+  "org": [
+   "土耳其政府",
+   "沙烏地阿拉伯政府",
+   "巴基斯坦政府",
+   "青年運動"
+  ],
+  "person": [
+   "艾爾段"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "麥加聯合防禦協議",
+   "集體防禦",
+   "胡塞"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據中央社引述路透社，土耳其官方公報 11 月 27 日指出，總統艾爾段已正式批准與巴基斯坦、沙烏地阿拉伯簽署的麥加聯合防禦協議，國會 11 月 5 日通過後，土耳其至此完成批准程序。三國今年 8 月在麥加簽署這項協議，當時美國與以色列對伊朗的戰爭日趨激烈；依協議，任何一方遭攻擊均視同所有締約方遭攻擊。土耳其國會的批准為安卡拉向沙烏地提供軍事支援掃除障礙，當時葉門獲伊朗支持的青年運動（胡塞）正攻擊沙國；一名執政黨議員上月表示，土耳其也將提交授權案，允許依協議派軍事人員到沙烏地。據 Al Jazeera 與 Dawn，三國高層 27 日起在伊斯蘭馬巴德舉行為期兩天的戰略政治與國防委員會第三次會議，議程包括沙烏地與胡塞的衝突；Al Jazeera 指胡塞對沙國的攻擊與伊朗對其他波灣國家的零星攻擊仍在持續。中央社指出，土耳其擁有北約第二大軍隊，巴基斯坦是唯一擁有核武的穆斯林國家。",
+ "dive_html": "一個北約成員國與擁核的巴基斯坦、石油大國沙烏地簽下互助防禦條款，是中東安全架構的重大變化，也讓土耳其在北約義務與新同盟之間的關係更複雜。Al Jazeera 提出的關鍵問題是：集體防禦承諾能否轉成對沙烏地抵禦胡塞的實際部署，土耳其國會的派兵授權案將是第一個檢驗。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "艾爾段正式批准麥加聯合防禦協議　土沙巴3國軍事結盟成形",
+   "url": "https://www.cna.com.tw/news/aopl/202611270127.aspx",
+   "time": "2026-11-27T14:57:25+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Can the Mecca pact turn its collective defence promise into real support?",
+   "url": "https://www.aljazeera.com/news-analysis/2026/11/27/can-the-mecca-pact-turn-its-collective-defence-promise-into-real-support",
+   "time": "2026-11-27T15:16:30+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Erdogan completes Turkey's ratification of Mecca defence pact",
+   "url": "https://news.google.com/rss/articles/CBMisgFBVV95cUxPVmJEdmR5Wl9uZTZKS1R2ckJXekhkX1AwSVZpSHhkODcweDNmTVRva2JDdjRWcjNvYk4yeXNkQWw3ZTVnMUpWUTBjYXNWOTVCY2Y1emVTdGFjazhoR1ltaXF6WTNvMEVqSUdaNTI3VzU4U3dMNkROYVlDMTR5NHhpdGhuZjl4VnZGTzFTNHRXMDdnSXVmdXhpODl6YjVabXVoa0NlMVFsOW94OUw1clJ2UUpR?oc=5",
+   "time": "2026-11-27T13:22:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Dawn",
+   "title": "Erdogan completes Turkiye's ratification of Makkah defence pact",
+   "url": "https://www.dawn.com/news/2047450/erdogan-completes-turkiyes-ratification-of-makkah-defence-pact",
+   "time": "2026-11-27T15:50:55+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "Dawn",
+   "title": "Islamabad set to host Makkah Defence Alliance meeting today; Yemen conflict also on agenda",
+   "url": "https://www.dawn.com/news/2047415/islamabad-set-to-host-makkah-defence-alliance-meeting-today-yemen-conflict-also-on-agenda",
+   "time": "2026-11-27T15:45:56+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 4,
+  "media_weight": 9,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

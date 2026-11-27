@@ -1,0 +1,116 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0489",
+ "title": "GTA 6 上市三天帶動英國遊戲零售營收週增 99% 至 1.42 億英鎊，直播首週觀看 4.2 億小時",
+ "line": "上市週吸走 31.4% 的遊戲關注度，線上服務型遊戲關注占比首度跌破五成",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-26T19:55:50+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "全球"
+  ],
+  "country": [
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "遊戲"
+  ],
+  "event": [
+   "數據發布"
+  ],
+  "sector": [
+   "遊戲",
+   "零售與消費"
+  ],
+  "org": [
+   "Rockstar Games",
+   "NielsenIQ",
+   "Screen Engine/ASI",
+   "Stream Charts",
+   "Sony"
+  ],
+  "person": [
+   "Dorian Bloch"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "GTA 6",
+   "零售",
+   "直播",
+   "線上服務型遊戲"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "NielsenIQ（NIQ）估計，GTA 6 上市的 11 月 19 至 21 日三天，英國遊戲零售營收週增 99% 至 1.42 億英鎊；GTA 6 實體版貢獻 3,200 萬英鎊、占英國實體軟體銷售 74%，其中 88% 在首日售出。盒裝軟體營收 4,300 萬英鎊、週增 409%，是 2018 年聖誕節以來最高的實體遊戲銷售週，儘管這次實體版附的是下載序號而非光碟；GTA 6 上市在 NIQ 2000 年開始追蹤以來的所有零售日中排第 20，首週盒裝營收排第 17（第 1 名是 GTA 5）。主機硬體銷售增 38%，PS5 週增 46%、Xbox Series X|S 增 75%，周邊配件增 123% 至 2,100 萬英鎊，手把銷量增 194%。NIQ 的 Dorian Bloch 指出，2008 年盒裝軟體占遊戲零售營收一半，今年至今只占 15%。注意力方面，Screen Engine/ASI 追蹤 Google、YouTube、Twitch 上逾 8,500 款遊戲，GTA 6 上市週拿下 31.4% 的遊戲關注度，近 Fortnite 2019 年紀錄的三倍；線上服務型遊戲的合計關注占比由 57% 降到 42.4%，是 2019 年追蹤以來首度跌破 50%。Stream Charts 統計，GTA 6 首 7 天在各直播平台累計觀看 4.2 億小時，近前紀錄（2020 年 Valorant 封測）的三倍。",
+ "dive_html": "對其他發行商，最直接的意涵是避開檔期：一款大作一週就能吃掉三成關注度、讓線上服務型遊戲的關注少了四分之一，同期上市或辦活動都會被稀釋。實體版用下載序號仍能創下多年新高，也說明零售通路對極少數大作仍有價值，但整體結構已明顯轉向數位。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GamesIndustry.biz",
+   "title": "NielsenIQ: GTA 6 boosts UK games retail revenue by 99% to £142m during launch period",
+   "url": "https://www.gamesindustry.biz/nielseniq-gta-6-boosts-uk-games-retail-revenue-by-99-to-142m-during-launch-period",
+   "time": "2026-11-26T19:55:50+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "GamesIndustry.biz",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "GamesBeat",
+   "title": "GTA VI’s launch causes 26% drop in live-service game attention",
+   "url": "https://gamesbeat.com/gta-vis-launch-causes-26-drop-in-live-service-game-attention/",
+   "time": "2026-11-27T00:00:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "GamesBeat",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "GamesBeat",
+   "title": "GTA VI racks up 420 million hours watched in first week across streaming platforms",
+   "url": "https://gamesbeat.com/gta-vi-racks-up-420-million-hours-watched-in-first-week-across-streaming-platforms/",
+   "time": "2026-11-26T21:02:44+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "GamesBeat",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -5,8 +5,8 @@
  "line": "疫情累計確診 1 萬 1,762 例、5,775 人死亡，為該國歷來最嚴重；UNICEF 指疫情與婦女暴力增加相關",
  "born_at": "2026-11-26T02:02:15+08:00",
  "first_reported_at": "2026-11-24T00:00:00+08:00",
- "updated_at": "2026-11-26T16:09:33+08:00",
- "version": 2,
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 3,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -111,6 +111,42 @@
    "kind": "media",
    "region": "中東",
    "rank": 2
+  },
+  {
+   "name": "NPR News",
+   "title": "Congo Ebola outbreak reaches 12,000 cases as some responders evacuate",
+   "url": "https://www.npr.org/2026/11/26/g-s1-155957/congo-ebola-responders",
+   "time": "2026-11-26T21:47:09+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "NPR",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Ebola outbreak in Congo reaches 12,000 cases as violence forces some responders to evacuate",
+   "url": "https://news.google.com/rss/articles/CBMikwFBVV95cUxOODk5TW1rbDA5Ml84Vzh3OWVzdW12UkFLbXJzQlZSbG9rNTQxZGl1bjBPQ1FsNURnQ21MU3FFX1RqZFVDdzJrSXR5YkRTTndHcERGWUpyaklFeWxlQ2l4aXhKT1ctM1cwMDdtOHg5RHQ3ZmhqVTIyWFVHUWdHSG40WExZWkJSM1lZNndDSFBlbEdNNnM?oc=5",
+   "time": "2026-11-26T21:48:05+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "中央社 健康",
+   "title": "民主剛果逾1萬2000起伊波拉確診病例　疫情仍難遏制",
+   "url": "https://www.cna.com.tw/news/aopl/202611260253.aspx",
+   "time": "2026-11-26T18:09:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
   }
  ],
  "log": [
@@ -121,12 +157,20 @@
    "html": "Al Jazeera 引述政府數據，民主剛果伊波拉確診病例已突破 1 萬 2,000 例。伊圖里省剛果軍隊與「人民革命大會」（CRP）武裝分子的衝突近日加劇、造成平民流離失所，聯合國駐剛果特派團證實；世衛伊波拉事件負責人 Catherine Smallwood 表示，約十多人（含兩名世衛人員與剛果衛生官員）在阿克韋一家醫院受困三天後撤到省會布尼亞，防疫人員被迫撤離受影響地區。",
    "update": "民主剛果伊波拉確診突破 1 萬 2,000 例，伊圖里省戰火迫使防疫人員撤離疫區",
    "refocus": false
+  },
+  {
+   "at": "2026-11-27T17:05:32+08:00",
+   "kind": "supplement",
+   "version": 3,
+   "html": "據中央社引述路透社，民主剛果官方數據顯示，伊波拉確診累計 1 萬 2,021 例、5,904 人死亡。這波疫情由邦迪布焦（Bundibugyo）病毒株引發，5 月中旬在東北部伊圖里省爆發後已擴散到 8 個省；目前沒有針對這個病毒株的核准療法或疫苗，加上延遲發現、戰亂與醫療系統負荷過重，傳播速度比以往幾次爆發更快。這是有紀錄以來規模第 2 大的伊波拉疫情，僅次於 2013 至 2016 年西非疫情的逾 2 萬 8,600 例確診、逾 1 萬 1,000 人死亡。",
+   "update": "民主剛果伊波拉確診 1 萬 2,021 例、5,904 人死亡，邦迪布焦病毒株已擴散到 8 省，是史上第 2 大疫情",
+   "refocus": false
   }
  ],
  "heat": {
-  "outlets": 3,
-  "regions": 3,
-  "media_weight": 7,
+  "outlets": 5,
+  "regions": 4,
+  "media_weight": 12,
   "community": {
    "hn": 0,
    "ptt": 0,

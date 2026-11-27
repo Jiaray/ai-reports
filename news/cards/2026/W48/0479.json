@@ -1,0 +1,96 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0479",
+ "title": "昆士蘭大學以電梯配重改變重力場穿牆傳訊，證實重力通訊無法被一般物質屏蔽",
+ "line": "每分鐘只能傳 1 位元，傳一個英文單字要一小時，研究刊於 Science Advances",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-26T19:00:00+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "大洋洲"
+  ],
+  "country": [
+   "AU"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "昆士蘭大學",
+   "Science Advances"
+  ],
+  "person": [
+   "Charles Woffinden",
+   "Andrew White"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "重力通訊",
+   "重力儀",
+   "量子感測"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "澳洲昆士蘭大學研究人員在《Science Advances》發表實驗，利用重力穿過磚牆傳遞訊息。團隊在校內 Parnell 大樓讓電梯在兩個樓層間往返，以 1.8 公噸配重的位置代表二進位的 0 與 1，相鄰浴室裡一台高靈敏度重力儀偵測重力場變化，解碼出單字「Gravity」。數學與物理學院的 Charles Woffinden 博士表示，不同於現代無線通訊使用的電磁訊號，重力訊號無法靠在路徑上放置一般物質擋掉，雖然系統離實用還很遠，但證明了一種一般物理屏障擋不住的通訊方式是可行的。Andrew White 教授說最大限制是速度，1950 年代的電梯很慢，實驗每分鐘只能傳 1 位元，一個單字要一小時；速度取決於質量大小、移動速度與偵測器靈敏度。實驗用的是古典重力感測器，團隊模型顯示，在相當樂觀的假設下，量子感測器可支援約 500 公尺距離、每分鐘約 15 位元的傳輸。",
+ "dive_html": "這是概念驗證而非新通訊技術：它證明重力場可承載可解碼的資訊，潛在用途是隧道、礦坑或電磁遮蔽環境中的極低速信標。即使用量子感測器，每分鐘 15 位元也只夠傳簡單訊號，短期內不會取代任何現有通訊方式。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Slashdot",
+   "title": "Physicists Send an Unblockable Message Using Gravity",
+   "url": "https://science.slashdot.org/story/26/11/25/2217235/physicists-send-an-unblockable-message-using-gravity",
+   "time": "2026-11-26T19:00:00+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "78 comments",
+   "family": "Slashdot",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  },
+  {
+   "name": "Solidot",
+   "title": "物理学家使用重力发送无法屏蔽的信息",
+   "url": "https://www.solidot.org/story?sid=86008",
+   "time": "2026-11-27T15:37:46+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Solidot",
+   "kind": "aggregator",
+   "region": "中國大陸",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

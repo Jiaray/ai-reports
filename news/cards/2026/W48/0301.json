@@ -5,8 +5,8 @@
  "line": "大型氣球在持續風速超過每小時 23 英里時不得升空，紐約市長曼達尼稱這是紐約「唯一支持的膨脹」",
  "born_at": "2026-11-26T16:12:43+08:00",
  "first_reported_at": "2026-11-26T05:08:45+08:00",
- "updated_at": "2026-11-26T16:12:43+08:00",
- "version": 1,
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -23,7 +23,8 @@
   ],
   "topic": [
    "生活與休閒",
-   "天氣"
+   "天氣",
+   "災害與事故"
   ],
   "event": [
    "活動賽事",
@@ -240,13 +241,46 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Thanksgiving storms leave nearly a million without power across the US",
+   "url": "https://www.aljazeera.com/news/2026/11/27/thanksgiving-storms-leave-nearly-a-million-without-power-across-the-us",
+   "time": "2026-11-27T12:34:43+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Almost a million Americans left without power on Thanksgiving as storm sweeps East Coast",
+   "url": "https://www.france24.com/en/americas/20261127-almost-a-million-americans-left-without-power-on-thanksgiving-as-storm-sweeps-east-coast",
+   "time": "2026-11-27T15:14:35+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-27T17:05:32+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "據 AP 與法新社，感恩節當天強烈風暴橫掃美國東岸，陣風最高每小時 112 公里，吹倒樹木與電線，一度造成近 100 萬戶住家與企業停電，多數在東岸各州；紐澤西州與紐約州部分地區進入緊急狀態，國家氣象局對喬治亞州北部、大西洋中部多數地區與新英格蘭南部發布強風警報。FlightAware 統計，美國相關航班逾 2,000 班延誤、逾 400 班取消。紐約市長曼達尼說市內有 2 人因淹水受困車內獲救，並呼籲「沒有任何目的地比你的安全更重要」。",
+   "update": "感恩節風暴橫掃美國東岸，近 100 萬戶停電、逾 400 航班取消，紐澤西與紐約部分地區進入緊急狀態",
+   "refocus": false
+  }
+ ],
  "heat": {
-  "outlets": 12,
-  "regions": 2,
-  "media_weight": 26,
+  "outlets": 13,
+  "regions": 3,
+  "media_weight": 28,
   "community": {
    "hn": 0,
    "ptt": 0,

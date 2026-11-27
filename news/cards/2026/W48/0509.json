@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0509",
+ "title": "（長文）Vox 道德建議專欄：身為同志的紅州居民，搬去藍州是否等於背棄家鄉的抗爭？",
+ "line": "作者以自己從美國搬回加拿大的經驗，用價值多元論拆解「照顧家人」與「回饋社群」的衝突",
+ "born_at": "2026-11-27T17:05:32+08:00",
+ "first_reported_at": "2026-11-26T19:21:06+08:00",
+ "updated_at": "2026-11-27T17:05:32+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US",
+   "CA"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "政治",
+   "人權"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "org": [
+   "Vox"
+  ],
+  "person": [
+   "Sigal Samuel",
+   "Peter Singer"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "紅州",
+   "藍州",
+   "LGBTQ",
+   "遷徙",
+   "效益主義"
+  ],
+  "form": [
+   "長文"
+  ]
+ },
+ "summary_html": "Vox「Future Perfect」記者 Sigal Samuel 在道德建議專欄〈Your Mileage May Vary〉回答一名讀者的提問。讀者是一輩子住在紅州的女同志，妻子是跨性別者，搬到藍州可為家庭帶來更好的反歧視保障、勞工保障與醫療可近性，但她覺得離開等於放棄家鄉的「正義之戰」，也清楚紅州人才外流正在影響她的社群。Samuel 說她感同身受：她不久前才和伴侶從美國搬回自己的祖國加拿大，同樣是酷兒伴侶，也曾掙扎離開是否自私、是否違背自己的價值。她從哲學框架切入，指出 Peter Singer 等效益主義者主張應公正地極大化整體福祉、不因親疏偏袒特定的人，這種觀點影響深遠，可能正在左右讀者的思考；文章標題給出的建議是問自己：「在哪裡你能撐得最久？」",
+ "dive_html": "專欄把美國政治極化下的「用腳投票」從政策問題拉回個人倫理，提出「在哪裡能長期戰鬥」的判準，比單純的去留建議更有啟發。文章（就摘錄部分）較少處理經濟能力與工作機會等現實限制，這往往才是多數人能否搬家的關鍵。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Vox",
+   "title": "You’ve lived in a red state all your life. Is it wrong to pick up and move to a blue state now?",
+   "url": "https://www.vox.com/advice/509867/ethics-moving-red-state-blue-state",
+   "time": "2026-11-26T19:21:06+08:00",
+   "added_at": "2026-11-27T17:05:32+08:00",
+   "heat_raw": "",
+   "family": "Vox",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}
