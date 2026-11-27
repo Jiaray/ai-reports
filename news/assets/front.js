@@ -82,7 +82,7 @@
   // 一條清單照原順序（不按整點分段：同一個整點的條目會被拆散）
   const FOCUS_PATH = 'cards/focus.json';
   const CARD_RE = /^\d{4}-W\d{2}-\d{4}$/;
-  let focus = null; // focus.json；抓不到（還沒建）＝{}
+  let focus = null; // focus.json
   let focusKey = ''; // 畫面上的 是否近期｜編號｜各系列挑的卡｜built_at：換了才整頁重畫
   const num = (v, d) => (typeof v === 'number' && v > 0 ? v : d);
   const focusAt = (c) => Date.parse(c.focus_at || c.born_at);
@@ -118,7 +118,7 @@
   let srcDoc; // sources-status.json；undefined＝還沒抓、null＝抓不到或格式不對
   const count = (v) => (Number.isInteger(v) && v >= 0 ? v : 0);
   function srcEntry(now) {
-    const t = focus.today || {}; // focus.json 還沒建（{}）＝今天 0 張
+    const t = focus.today;
     const doc = srcDoc && Array.isArray(srcDoc.units) ? srcDoc : null;
     const sep = () => h('span', { class: 'fp-src-sep', 'aria-hidden': 'true' }, ['｜']);
     const fresh = t.date === today();
@@ -359,12 +359,12 @@
     const [idx, doc] = await Promise.allSettled([A.getJSON('index.json'), A.getJSON(FOCUS_PATH), almWait]);
     index = idx.status === 'fulfilled' && idx.value && typeof idx.value === 'object' ? idx.value : null;
     srBox = B.seriesMenu(index, null);
-    if (doc.status === 'fulfilled') focus = doc.value && typeof doc.value === 'object' ? doc.value : {};
-    else if (/^HTTP 404$/.test(doc.reason && doc.reason.message)) focus = {}; // 還沒建 → 當沒有卡
-    else {
-      problem(`${TITLE}載入失敗（${doc.reason instanceof SyntaxError ? '資料格式不對' : doc.reason.message}），重新整理再試一次。`);
+    if (doc.status !== 'fulfilled' || !doc.value || typeof doc.value !== 'object') {
+      const why = doc.status === 'fulfilled' || doc.reason instanceof SyntaxError ? '資料格式不對' : doc.reason.message;
+      problem(`${TITLE}載入失敗（${why}），重新整理再試一次。`);
       return;
     }
+    focus = doc.value;
     renderFocus();
     if (almReady) almReady.then(() => syncAlmanac());
     loadSrc(); // 頁尾來源入口：清單畫好再抓，不擋新聞

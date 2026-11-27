@@ -44,20 +44,16 @@
   }
   const storyHref = (name) => `story.html#${encodeURIComponent(name)}`;
 
-  // ── 資料：index.json（系列短名、領域）、story-index（404＝還沒建＝沒有議題）、週索引（每份只抓一次，失敗不留）──
+  // ── 資料：index.json（系列短名、領域）、story-index（抓不到或不是物件就丟出，畫成載入失敗）、週索引（每份只抓一次，失敗不留）──
   const indexDoc = A.getJSON('index.json').catch(() => null);
   let index = null;
   let storyDoc = null;
   async function storyIndex() {
     if (storyDoc) return storyDoc;
-    try {
-      const v = await A.getJSON('cards/story-index.json');
-      storyDoc = v && typeof v === 'object' ? v : {};
-      return storyDoc;
-    } catch (err) {
-      if (/^HTTP 404$/.test(err && err.message)) return {};
-      throw err;
-    }
+    const v = await A.getJSON('cards/story-index.json');
+    if (!v || typeof v !== 'object') throw new SyntaxError('story-index.json 不是物件');
+    storyDoc = v;
+    return storyDoc;
   }
   const weeks = new Map();
   function week(path) {

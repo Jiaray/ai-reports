@@ -65,7 +65,7 @@
   let sort = readSort();
 
   let ctx = null; // { app, index, t, toolbar }
-  let doc = null; // recent.json（還沒建＝{}）
+  let doc = null; // recent.json
   let drawnKey = ''; // 台北日期｜built_at：回前景時變了才重畫
 
   // ── 系列 ──
@@ -277,15 +277,11 @@
     document.title = `${meta(ctx.t).short}｜AI Reports`;
   }
 
-  // recent.json：還沒建（404）＝沒有卡；其他錯誤丟出
+  // recent.json：抓不到或不是物件就丟出（畫成載入失敗）
   async function load() {
-    try {
-      const v = await A.getJSON(PATH);
-      return v && typeof v === 'object' ? v : {};
-    } catch (err) {
-      if (/^HTTP 404$/.test(err && err.message)) return {};
-      throw err;
-    }
+    const v = await A.getJSON(PATH);
+    if (!v || typeof v !== 'object') throw new SyntaxError('recent.json 不是物件');
+    return v;
   }
 
   // ctx：{ app: #app, index: index.json, t: 系列代號, toolbar: () => 工具列 }。不會丟出（錯誤畫在頁上）
