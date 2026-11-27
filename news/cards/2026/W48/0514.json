@@ -1,0 +1,100 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0514",
+ "title": "以色列連續空襲加薩，哈瑪斯副教育部長與妻子等 8 人喪生，納坦雅胡稱一個月內擊斃約 80 名哈瑪斯官員",
+ "line": "以方稱是「一系列定點清除」行動，France 24 報導哈瑪斯正考慮如何回應",
+ "born_at": "2026-11-27T17:07:52+08:00",
+ "first_reported_at": "2026-11-26T18:14:08+08:00",
+ "updated_at": "2026-11-27T17:07:52+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東"
+  ],
+  "country": [
+   "IL",
+   "PS"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "戰爭與衝突"
+  ],
+  "event": [
+   "軍事行動"
+  ],
+  "story": [
+   "以哈戰爭"
+  ],
+  "org": [
+   "以色列國防軍",
+   "哈瑪斯"
+  ],
+  "person": [
+   "納坦雅胡",
+   "Khaled Abu Nada"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "加薩",
+   "定點清除",
+   "哈瑪斯"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 BBC，以色列 11 月 26 日在加薩走廊發動三波空襲，造成 8 名巴勒斯坦人喪生。當地消息指，中部代爾拜拉赫一棟住宅公寓清晨遭擊中，哈瑪斯政府副教育部長 Khaled Abu Nada 與妻子罹難；加薩市以東 al-Nafaq 街另有 3 人喪生，身分尚未確認；加薩市以西的沙提難民營也有 3 名哈瑪斯安全部門人員遭擊斃。以色列總理與國防部長發表聯合聲明，稱這是針對哈瑪斯官員「一系列定點清除」行動的一部分；納坦雅胡在 X 上證實 Abu Nada 死亡，並說過去一個月約有 80 名哈瑪斯官員被擊斃，「哈瑪斯領導層沒有人能逃過我們」。前一天，哈瑪斯北加薩內部安全首長 Mohammed Abu al-Ouf 也遭擊斃。France 24 引述 Shifa 與 Al-Aqsa 醫院官員說法，26 日夜間到白天共 5 次空襲與一起槍擊造成 10 人死亡，並報導哈瑪斯正考慮如何回應。BBC 指出過去一個月以色列幾乎每天空襲加薩，已造成數十人死亡。",
+ "dive_html": "一個月內擊斃約 80 名官員，顯示以色列在停火框架下改以大規模定點清除持續削弱哈瑪斯，而非全面軍事行動；這與美方催促納坦雅胡兌現加薩和平計畫的壓力相互拉扯。哈瑪斯若選擇報復，停火可能全面瓦解。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC World",
+   "title": "Hamas political official and wife among eight Palestinians killed in Israeli strikes on Gaza",
+   "url": "https://www.bbc.co.uk/news/articles/cqvg2n4mzl1jo",
+   "time": "2026-11-26T18:14:08+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Hamas weighs response after Israel kills 10 people in Gaza",
+   "url": "https://www.france24.com/en/hamas-weighs-response-after-israel-kills-10-people-in-gaza",
+   "time": "2026-11-27T04:35:23+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

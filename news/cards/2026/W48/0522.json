@@ -1,0 +1,76 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0522",
+ "title": "厄瓜多多地爆發致命洪災，住宅、商家與道路遭淹沒",
+ "line": "Al Jazeera 影音報導，傷亡與受災規模原文沒有交代",
+ "born_at": "2026-11-27T17:07:52+08:00",
+ "first_reported_at": "2026-11-27T16:24:18+08:00",
+ "updated_at": "2026-11-27T17:07:52+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中南美"
+  ],
+  "country": [
+   "EC"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "災害與事故",
+   "天氣"
+  ],
+  "event": [
+   "天災"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "厄瓜多",
+   "洪災"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Al Jazeera 11 月 27 日影音報導，致命洪水淹沒厄瓜多各地的住宅、商家與道路。報導沒有交代死亡人數、受災地區與官方應變措施。",
+ "dive_html": "",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Deadly floods leave parts of Ecuador under water",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/deadly-floods-leave-parts-of-ecuador-under-water",
+   "time": "2026-11-27T16:24:18+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

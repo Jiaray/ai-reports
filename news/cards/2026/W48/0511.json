@@ -1,0 +1,173 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0511",
+ "title": "科威特防空設施遭無人機攻擊，2 名萊茵金屬義大利技術人員喪生，科義兩國指伊朗所為、伊朗否認",
+ "line": "數月來波灣首起致命攻擊，伊朗外長稱事件「可疑」、像「預先煮好的戰爭配方」",
+ "born_at": "2026-11-27T17:07:52+08:00",
+ "first_reported_at": "2026-11-26T23:11:00+08:00",
+ "updated_at": "2026-11-27T17:07:52+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東",
+   "歐洲"
+  ],
+  "country": [
+   "KW",
+   "IT",
+   "IR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "戰爭與衝突",
+   "國際關係"
+  ],
+  "event": [
+   "軍事行動"
+  ],
+  "story": [
+   "伊朗戰爭"
+  ],
+  "sector": [
+   "航太與國防"
+  ],
+  "org": [
+   "Rheinmetall",
+   "科威特國防部",
+   "伊朗外交部",
+   "義大利外交部",
+   "歐盟執委會"
+  ],
+  "person": [
+   "Abbas Araghchi",
+   "Antonio Tajani",
+   "梅洛尼",
+   "范德賴恩",
+   "川普"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "伊朗戰爭",
+   "無人機",
+   "科威特",
+   "萊茵金屬"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 BBC，科威特一處設施 11 月 26 日遭攻擊，2 名義大利人喪生，兩人是德國軍火商萊茵金屬（Rheinmetall）義大利分公司的技術人員；據 RFI 與 WSJ，他們當時正在一處防空偵測站維護防空系統。科威特國防部稍早表示，偵測並攔截多架來自伊朗的無人機後，掉落的碎片造成 4 人受傷，包括 2 名義大利人、1 名科威特人與 1 名巴基斯坦人，之後軍方證實兩名義大利人傷重不治，並稱這是「伊朗的卑劣侵略」。伊朗否認涉入，外長阿拉格齊（Abbas Araghchi）說事件看起來「可疑」，像是「預先煮好的戰爭配方」，伊朗將與科威特、義大利合作查明原因，並已向兩國外長致哀；伊朗軍方發言人稱伊朗「沒有進行任何軍事或攻擊行動」。義大利外長塔加尼說發生了劇烈爆炸，兩名同胞不幸罹難；歐盟執委會主席范德賴恩呼籲加大對伊朗施壓。BBC 指出，一週多前科威特才說擊退伊朗無人機對一座駐有美軍的空軍基地的攻擊，那是兩個多月來首度遭襲；戰爭始於 2 月下旬美國與以色列攻擊伊朗。CNBC 報導川普表示伊朗戰爭「我想結束就結束」。RFI 並指，胡塞武裝同日襲擊沙烏地南部吉贊的煉油廠。",
+ "dive_html": "歐洲公民在波灣死於無人機攻擊，會讓義大利、德國等原本與伊朗戰爭保持距離的國家承受更大壓力，也讓萊茵金屬這類在當地維護防空系統的歐洲軍工企業成為目標。伊朗罕見公開否認並暗示有人設局，美伊談判僵局之下，責任認定本身就可能成為升級的導火線。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC World",
+   "title": "Two Italians killed in strike in Kuwait, as Iran denies responsibility",
+   "url": "https://www.bbc.co.uk/news/articles/c39w9y5dx4k5o",
+   "time": "2026-11-27T05:17:53+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "Iranian drone kills 2 Italian workers in Kuwait, Meloni says",
+   "url": "https://www.dw.com/en/iranian-drone-kills-2-italian-workers-in-kuwait-meloni-says/a-80064974?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-26T23:11:00+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "RFI 中文",
+   "title": "为科军方维护雷达天线   两名意人遇袭身亡",
+   "url": "https://www.rfi.fr/cn/%E4%B8%AD%E4%B8%9C/20261126-%E4%B8%BA%E7%A7%91%E5%86%9B%E6%96%B9%E7%BB%B4%E6%8A%A4%E9%9B%B7%E8%BE%BE%E5%A4%A9%E7%BA%BF-%E4%B8%A4%E5%90%8D%E6%84%8F%E4%BA%BA%E9%81%87%E8%A2%AD%E8%BA%AB%E4%BA%A1",
+   "time": "2026-11-27T05:18:58+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Israeli strikes kill 10 in Gaza as Iranian drones kill 2 Italians in Kuwait, and other Mideast news",
+   "url": "https://news.google.com/rss/articles/CBMipwFBVV95cUxQUUFfcUhOc0dCeENHdXg3OW44TjRqZ3lma0NiVzNRMjZWYjZhc1duOG9pLXQ5U0FSdjM0RDB5VlFxTlhkWWFVUDFlMElTdk5FZkM4NS1GR2hCZ2lOdHltTVJNVG51MWlxZUZQV2pRcXlCd1JjSU4wWE51U0trR2JubTBmc1YzMEhDMHZpVFprM3ktSGlXVW9yQmhnVUNyRXRUNzFXaUdiSQ?oc=5",
+   "time": "2026-11-27T04:09:00+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "WSJ World News",
+   "title": "Iranian Drone Attack Kills Two Italians in Kuwait",
+   "url": "https://www.wsj.com/world/middle-east/iranian-drone-attack-kills-two-italians-in-kuwait-5e360a35?mod=rss_worldnews",
+   "time": "2026-11-27T02:24:00+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Bloomberg Markets",
+   "title": "Kuwait Says Iranian Drone Strike Kills Two as Houthi Attack Hits Jazan Refinery",
+   "url": "https://www.bloomberg.com/news/videos/2026-11-27/horizons-middle-east-africa-11-27-2026-video",
+   "time": "2026-11-27T15:52:46+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "Bloomberg",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "CNBC",
+   "title": "Two Italians killed in Kuwait drone attack; Trump says Iran war ends ‘whenever I want it’",
+   "url": "https://www.cnbc.com/2026/11/27/us-iran-war-trump-hormuz-italian-killed-trump.html",
+   "time": "2026-11-27T11:30:23+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 7,
+  "regions": 2,
+  "media_weight": 17,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

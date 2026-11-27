@@ -1,0 +1,108 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0510",
+ "title": "北韓關聯 PolinRider 攻擊在 GitHub 儲存庫植入 Python 載入程式，以以太坊交易資料傳遞惡意程式碼",
+ "line": "SafeDep 先發現 375 個受汙染儲存庫，The Hacker News 報導規模逾 7,600 個、活動可能早自 2025 年 2 月",
+ "born_at": "2026-11-27T17:07:52+08:00",
+ "first_reported_at": "2026-11-26T23:13:41+08:00",
+ "updated_at": "2026-11-27T17:07:52+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球",
+   "東北亞"
+  ],
+  "country": [
+   "KP"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "開發與開源"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "SafeDep",
+   "GitHub"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "PolinRider",
+   "供應鏈攻擊",
+   "conftest.py",
+   "以太坊",
+   "北韓"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "資安公司 SafeDep 11 月 24 日揭露，北韓駭客的 PolinRider 攻擊活動擴大到 Python 專案：攻擊者竄改 GitHub 儲存庫，在原始碼中植入惡意 Python 載入程式，再利用以太坊區塊鏈交易資料傳遞 JavaScript 惡意程式碼，藉此躲避依網域或 IP 追蹤的偵測。據 iThome，研究人員在 375 個公開儲存庫發現相同載入程式，涉及 260 個帳號，其中 370 個在 2026 年 11 月仍有提交紀錄；The Hacker News 則報導受汙染儲存庫逾 7,600 個，並有證據顯示活動可能早在 2025 年 2 月就已開始。惡意程式碼不經 PyPI 或 npm 散布，而是直接藏在專案原始碼中，一般相依套件掃描不易發現。載入程式只有 58 行，通常藏在名稱像 HTTP 用戶端的 session.py、transport.py、clients.py，或測試設定檔 conftest.py；攻擊者也修改專案啟動程式加入匯入指令，開發者啟動程式或執行 pytest 時就可能觸發。載入程式只用標準函式庫，查詢攻擊者控制的以太坊錢包交易，取得最新交易的輸入資料解碼成 JavaScript，再交由 Node.js 執行。ICSDA 將此列為高危。",
+ "dive_html": "這波攻擊瞄準的是「直接 clone 別人的 repo 來跑」的開發習慣，而且觸發點是 pytest，等於連跑測試都不安全；用區塊鏈當指揮通道，也讓封鎖網域的防禦失效。台灣團隊若有從 GitHub 拉範例、工具或面試作業專案，應先在隔離環境檢查 conftest.py 與入口檔是否有不明匯入。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "逾 375 個（另一報導稱逾 7,600 個）公開 GitHub Python 儲存庫，藏於 session.py、transport.py、clients.py、conftest.py 等檔；CVE 不適用；嚴重度：高危（ICSDA）；利用狀態：已遭利用"
+  },
+  {
+   "name": "處置",
+   "html": "原文建議檢查使用或複製的儲存庫中 utils 套件與 conftest.py 等輔助檔案是否有不明程式碼，並在隔離環境執行來源不明的專案"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "title": "North Korea-Linked PolinRider Poisons Over 7,600 GitHub Repositories to Spread Malware",
+   "url": "https://thehackernews.com/2026/11/north-korea-linked-polinrider-poisons.html",
+   "time": "2026-11-26T23:13:41+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "iThome 資安",
+   "title": "北韓駭客從事供應鏈攻擊PolinRider，污染逾375個GitHub儲存庫以散布惡意軟體",
+   "url": "https://www.ithome.com.tw/news/180858",
+   "time": "2026-11-27T04:00:00+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "iThome",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

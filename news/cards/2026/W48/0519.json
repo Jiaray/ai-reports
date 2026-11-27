@@ -1,0 +1,102 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0519",
+ "title": "菲律賓前總統杜特蒂 11 月 30 日在國際刑事法院受審，被控掃毒期間危害人類罪",
+ "line": "起訴涉 85 起謀殺與 2 起謀殺未遂，檢方稱只是多達 3 萬名死者的樣本",
+ "born_at": "2026-11-27T17:07:52+08:00",
+ "first_reported_at": "2026-11-27T10:22:00+08:00",
+ "updated_at": "2026-11-27T17:07:52+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞",
+   "歐洲"
+  ],
+  "country": [
+   "PH",
+   "NL"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "犯罪與司法",
+   "國際關係"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "org": [
+   "國際刑事法院"
+  ],
+  "person": [
+   "杜特蒂",
+   "川普"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "杜特蒂",
+   "國際刑事法院",
+   "掃毒戰爭",
+   "危害人類罪"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "菲律賓前總統杜特蒂（Rodrigo Duterte）將於 11 月 30 日（週一）在荷蘭海牙的國際刑事法院（ICC）受審，被控在長達六年的掃毒行動中犯下危害人類罪。據 Japan Times，現年 81 歲的杜特蒂面對的指控涉及 2011 至 2018 年間的 85 起謀殺與 2 起謀殺未遂，期間包括他擔任達沃市長與總統任期前幾年；ICC 檢方表示，這些受害者只是遭鎖定毒品使用者與販售者的行刑隊殺害、多達 3 萬人中的樣本。這是 ICC 成立二十多年來最受矚目的案件之一，也是美國川普政府對 ICC 實施制裁、可能危及法院運作以來最大的一案。Rappler 報導，受害者家屬與人權團體多年來持續要求問責，9 月曾聚集觀看 ICC 第三次狀態會議的直播。",
+ "dive_html": "前國家元首因國內掃毒政策在國際法庭受審，對亞洲各國以「治安」為名的強硬執法是重要先例；審判也正值 ICC 遭美國制裁、資源受壓，能否順利推進本身就是對國際刑事司法體系的考驗。菲律賓國內杜特蒂家族的政治影響力仍在，審判結果將牽動 2028 年大選。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Japan Times",
+   "title": "Families of slain Filipinos seek justice as Duterte’s ICC trial set to start",
+   "url": "https://www.japantimes.co.jp/news/2026/11/27/asia-pacific/duterte-icc-trial-families/",
+   "time": "2026-11-27T10:22:00+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "Japan Times",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Rappler",
+   "title": "Duterte’s ICC trial: How to watch and follow the proceedings",
+   "url": "https://www.rappler.com/philippines/rodrigo-duterte-icc-trial-how-to-watch-coverage-guide/",
+   "time": "2026-11-27T12:11:18+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "0 comments",
+   "family": "Rappler",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,108 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0518",
+ "title": "德國與奧地利聯合主張 TikTok 歐洲業務應由歐洲持有，推薦演算法與資料存取也須歸歐洲掌控",
+ "line": "兩國將在 12 月 2 日歐盟電信能源理事會尋求支持，比照美國迫使字節跳動出售的模式",
+ "born_at": "2026-11-27T17:07:52+08:00",
+ "first_reported_at": "2026-11-27T05:06:50+08:00",
+ "updated_at": "2026-11-27T17:07:52+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "中國大陸"
+  ],
+  "country": [
+   "DE",
+   "AT",
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "國際關係",
+   "科技"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "網路平台"
+  ],
+  "org": [
+   "TikTok",
+   "字節跳動",
+   "歐盟"
+  ],
+  "person": [
+   "Wolfram Weimer",
+   "Alexander Pröll"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "TikTok",
+   "數位服務法",
+   "推薦演算法",
+   "數位主權"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "德國文化與媒體部長 Wolfram Weimer 與奧地利數位事務國務秘書 Alexander Pröll 11 月 26 日在維也納會面後發表聯合聲明，主張 TikTok 歐洲業務應採「歐洲持股結構」，並由歐洲負責從推薦演算法到資料存取的關鍵技術基礎設施。Weimer 說這個中國擁有的平台對歐洲構成「根本性的安全政策風險」；Pröll 說「TikTok 已不再是玩具，而是我們民主基礎設施的一部分，不能留在地緣政治體制對手的手中」。兩國將在 12 月 2 日於布魯塞爾舉行的歐盟電信與能源理事會上爭取各國支持。Euronews 指出，TikTok 11 月 6 日已被初步認定其推薦系統讓用戶接觸有害內容、違反《數位服務法》，但兩國認為監管無法回答「到底誰控制這個平台」的問題。字節跳動今年 1 月已為避免在美國遭禁，把美國業務控制權讓給美方持多數股權的合資公司。據 RFI，TikTok 在歐盟有 2 億用戶，先前曾因非法傳輸資料到中國遭罰 5.3 億歐元、2023 年因未成年人資料保護遭罰 3.45 億歐元。",
+ "dive_html": "歐洲過去對 TikTok 走的是罰款與監管路線，德奧提議改為強制改變所有權，是政策思維的重大轉向；但歐盟沒有類似美國的單一立法工具，需要成員國共識，而且北京勢必反制，12 月 2 日的理事會能否形成多數將是第一個關卡。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Euronews",
+   "title": "Germany and Austria push for European ownership of TikTok",
+   "url": "https://www.euronews.com/2026/11/27/germany-and-austria-push-for-european-ownership-of-tiktok",
+   "time": "2026-11-27T16:25:33+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "RFI 中文",
+   "title": "法媒：欧洲要接管一个没有中国背景的TikTok",
+   "url": "https://www.rfi.fr/cn/%E6%AC%A7%E6%B4%B2/20261126-%E6%B3%95%E5%AA%92-%E6%AC%A7%E6%B4%B2%E8%A6%81%E6%8E%A5%E7%AE%A1%E4%B8%80%E4%B8%AA%E6%B2%A1%E6%9C%89%E4%B8%AD%E5%9B%BD%E8%83%8C%E6%99%AF%E7%9A%84tiktok",
+   "time": "2026-11-27T05:06:50+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0520",
+ "title": "澳洲以反恐融資制裁兩名涉為伊朗策劃雪梨、墨爾本反猶縱火攻擊的人士",
+ "line": "外長黃英賢稱兩人透過「複雜的代理人鏈」攻擊猶太餐廳與 Adass Israel 猶太會堂",
+ "born_at": "2026-11-27T17:07:52+08:00",
+ "first_reported_at": "2026-11-27T11:17:00+08:00",
+ "updated_at": "2026-11-27T17:07:52+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "大洋洲",
+   "中東"
+  ],
+  "country": [
+   "AU",
+   "IR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "國際關係",
+   "犯罪與司法"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "org": [
+   "澳洲外交部",
+   "伊斯蘭革命衛隊"
+  ],
+  "person": [
+   "黃英賢",
+   "Zohair Hassib",
+   "Kazem Hamad"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "反猶攻擊",
+   "伊朗",
+   "反恐融資制裁"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "澳洲 11 月 27 日對 Zohair Hassib 與 Kazem Hamad 兩人實施反恐融資制裁，指他們代表伊朗策劃 2024 年雪梨與墨爾本的反猶縱火攻擊。外長黃英賢（Penny Wong）在聲明中表示，兩人透過「複雜的代理人鏈」攻擊雪梨一家猶太潔食餐廳與墨爾本的 Adass Israel 猶太會堂；制裁將限制兩人取得資金，並干擾其招募、策劃與發動攻擊的能力，是「打擊伊斯蘭革命衛隊對澳洲人與澳洲利益發動攻擊能力的重要一步」。澳洲 2025 年 8 月已下令伊朗大使離境，是二戰以來首次驅逐外國大使，同時暫停駐德黑蘭大使館運作，並把伊斯蘭革命衛隊列為恐怖組織。伊朗否認相關指控，Reuters 無法取得兩人的聯絡方式。",
+ "dive_html": "澳洲把伊朗透過犯罪代理人在海外發動攻擊的模式公開點名並制裁，與英、歐近年揭露的伊朗代理攻擊案例一致；對海外猶太社群與伊朗異議人士而言，這類「外包」攻擊比直接派遣特務更難防範。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Straits Times Asia",
+   "title": "Australia sanctions two alleged Iranian agents over anti-Semitic attacks",
+   "url": "https://www.straitstimes.com/asia/australianz/australia-sanctions-two-alleged-iranian-agents-over-antisemitic-attacks",
+   "time": "2026-11-27T11:41:53+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Australia sanctions alleged Iranian agents suspected of directing antisemitic attacks",
+   "url": "https://news.google.com/rss/articles/CBMiygFBVV95cUxNSHBtblZnbWZBQUo5LVNGb2sxQkpHOFdJTGI0YlozM0YxUGh0bnZkLWZOeWJrMFBoX0h3aGNkTEtCVVA3Zjg0WEpuYi1MdjBEa2dKVDg3Rk5yWFJCNEs1NDFnYTRrVmpJeVQ1Y1lMR0daaDItcWczSEhzT3VfVTRxVno4Zm9HVGdTN2RDT2NtYmk5NlZqTGJnekNMSTI5dERMY1dZaFpFUy1IM01aVUFjbzI3MDEteXFNS2FvaEhFLTJhZnBvRTVRbzln?oc=5",
+   "time": "2026-11-27T11:17:00+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

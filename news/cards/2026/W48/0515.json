@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0515",
+ "title": "愛沙尼亞 12 月 1 日前關閉對俄陸路邊境口岸，政府稱為防俄國情報人員發動攻擊",
+ "line": "邊境兩側的家庭準備面對長期分離",
+ "born_at": "2026-11-27T17:07:52+08:00",
+ "first_reported_at": "2026-11-27T12:46:15+08:00",
+ "updated_at": "2026-11-27T17:07:52+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "EE",
+   "RU"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "國際關係",
+   "國防與軍事"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "org": [
+   "愛沙尼亞政府"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "邊境關閉",
+   "俄國間諜",
+   "愛沙尼亞"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Al Jazeera，愛沙尼亞將在 12 月 1 日前關閉對俄國的陸路邊境口岸。愛沙尼亞政府表示，關閉是防止俄國情報人員發動攻擊的必要措施；住在邊境兩側的家庭正準備面對長期分離。報導沒有交代關閉期限與例外安排。",
+ "dive_html": "這是波羅的海國家對俄國混合戰威脅的又一步升級，與波蘭擬設禁飛區、北約加派預警機巡邏波蘭領空一致；對跨境而居的俄語族群衝擊最大，也可能被莫斯科拿來做宣傳。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Estonia closing land borders with Russia to keep out spies",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/estonia-closing-land-borders-with-russia-to-keep-out-spies",
+   "time": "2026-11-27T12:46:15+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

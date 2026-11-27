@@ -1,0 +1,227 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0512",
+ "title": "西班牙 11 月 29 日提前大選，民調人民黨 31.5% 微幅領先社會黨 29%，極右呼聲黨約 18% 成造王者",
+ "line": "住房危機主導選戰，若人民黨與呼聲黨組閣，將是佛朗哥後極右派首度在全國執政",
+ "born_at": "2026-11-27T17:07:52+08:00",
+ "first_reported_at": "2026-11-27T00:51:54+08:00",
+ "updated_at": "2026-11-27T17:07:52+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "ES"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "選舉"
+  ],
+  "event": [
+   "選舉投票"
+  ],
+  "story": [
+   "2026西班牙大選"
+  ],
+  "org": [
+   "西班牙社會勞動黨",
+   "人民黨",
+   "呼聲黨",
+   "廣泛陣線"
+  ],
+  "person": [
+   "Pedro Sánchez",
+   "Alberto Núñez Feijóo",
+   "Santiago Abascal",
+   "Ada Colau"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "西班牙大選",
+   "住房危機",
+   "呼聲黨",
+   "極右派"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "西班牙將於 11 月 29 日（週日）舉行提前大選，約 3,900 萬人有投票權；France 24 指桑傑士是在住房法案於國會受挫、凸顯少數聯合政府脆弱後宣布提前改選。四大黨領袖 26 日晚間舉行最後一場電視辯論，住房危機成為焦點，選戰期間民眾以搖晃鑰匙作為抗議住房困境的象徵，9 月一名 87 歲婦人遭驅逐後在醫院過世，引爆全國示威。據公視引述封關前民調，中間偏右的人民黨以 31.5% 微幅領先，執政社會黨 29% 緊追，兩黨都難以單獨跨過眾議院 176 席過半門檻；極右呼聲黨（Vox）支持度約 18%，在 18 至 24 歲族群達 23.2%、超越社會黨，本次大選有 161.5 萬名首投族。辯論中，人民黨黨魁費霍（Feijóo）承諾興建 100 萬戶新住宅，並批評桑傑士整個任期提不出預算；桑傑士強調近期保護租戶、限制租金的緊急措施，指右派在國會反對退休金連動物價、限租與調高最低工資；呼聲黨黨魁阿巴斯卡爾主打主權與反移民；左翼小黨聯盟廣泛陣線的 Ada Colau 主張向富有與剝削型房東課稅。BBC 指出，若人民黨與呼聲黨組閣，將是西班牙民主化 50 年來極右派首度在全國層級掌權。France 24 也查核了社群上流傳的「作票」說法。",
+ "dive_html": "西班牙是近年歐洲經濟表現最好的國家之一，選戰卻被住房問題主導，反映成長果實沒有轉化為年輕人的居住負擔能力，這也是極右派在年輕選民中崛起的主因。若右派政府上台，歐盟將失去一位重要的中左派領袖，西班牙在移民、氣候與援烏立場上都可能轉向。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC Top News",
+   "title": "Leaders clash in final Spain election debate as housing dominates run-in",
+   "url": "https://www.bbc.co.uk/news/articles/ckr5gr4g8gn5o",
+   "time": "2026-11-27T14:03:39+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Spain’s 2026 election explained in maps and charts",
+   "url": "https://www.aljazeera.com/news/2026/11/27/spains-2026-election-explained-in-maps-and-charts",
+   "time": "2026-11-27T13:57:37+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "'Citizens angry with the establishment' as Spain heads to the polls",
+   "url": "https://www.france24.com/en/tv-shows/a-propos/20261126-citizens-angry-with-the-establishment-as-spain-heads-to-the-polls",
+   "time": "2026-11-27T06:16:50+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "'Citizens angry with the establishment' as Spain heads to the polls",
+   "url": "https://www.france24.com/en/citizens-angry-with-the-establishment-as-spain-heads-to-the-polls",
+   "time": "2026-11-27T06:15:38+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Sanchez's big gamble: Will Spain swing from Socialists to hard right?",
+   "url": "https://www.france24.com/en/tv-shows/the-debate/20261126-sanchez-s-big-gamble-will-spain-swing-from-socialists-to-hard-right",
+   "time": "2026-11-27T04:53:56+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Will Spain's far right replace Europe's left-wing stalwart?",
+   "url": "https://www.france24.com/en/video/20261126-will-spain-s-far-right-replace-europe-s-left-wing-stalwart",
+   "time": "2026-11-27T00:51:54+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Is Spain's snap election being rigged? Debunking viral claims",
+   "url": "https://www.france24.com/en/tv-shows/truth-or-fake/20261126-is-spain-s-snap-election-being-rigged-debunking-viral-claims",
+   "time": "2026-11-27T06:17:06+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "公視新聞網",
+   "title": "西班牙民調揭兩大黨難單獨過半 極右「呼聲黨」成左右組閣關鍵",
+   "url": "https://news.pts.org.tw/article/837629",
+   "time": "2026-11-27T14:24:25+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "公視",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Here are the main issues driving Spain’s national election and why they matter for Europe",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPTVpPaFdxTUpHbXNSemNIelRrb2xZQm5jZTBvT2VncV9EbWdWdjd3ZWdaUVVWSkl0dGpQaFRIcGFicTBKZDlFeG1lMHlyNTV2aHAtYXR6eFM2N2RwTDZyeS10VWtWNjhUcUtoamd3R3IzSzBaXzFDNl9KeXZUZlFRYXhhUUlzcF96OXJmZFpKTXN0ZDNERUY2b1RsYkhvbklYNXpTeW1na3Y?oc=5",
+   "time": "2026-11-27T13:00:00+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Spain’s far right hasn’t governed since Franco. Immigration fears could change that",
+   "url": "https://news.google.com/rss/articles/CBMinwFBVV95cUxPTFRWOV9leVJ1NUx5LWV3T0kxMjVidmV2cEY1UmJnRFBJRmFlWlVPLW9HZUEzZnVEU01PSXlHTTJucGdxN0hLUzZrd2YtaEJxb2RJS1JySXlVNFNYdElMZVo4MXRCeHpTRURxN2ZaVngyQUduUW81YTFDLXloV2QtQ3NEOUdkVGpYd0F4S0VrcExPdlB0RnRLUVNRVERwQjg?oc=5",
+   "time": "2026-11-27T01:10:00+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Politico Europe",
+   "title": "Spain’s right turn: What a PP-Vox government would mean for Madrid — and Brussels",
+   "url": "https://www.politico.eu/article/spain-right-turn-what-pp-vox-government-would-mean-for-madrid-brussels/",
+   "time": "2026-11-27T11:00:00+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "Politico",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "WSJ World News",
+   "title": "Opinion | Sánchez and Socialists Poised to Lose Power in Spain",
+   "url": "https://www.wsj.com/opinion/sanchez-and-socialists-poised-to-lose-power-in-spain-4ccd535d?mod=rss_worldnews",
+   "time": "2026-11-27T02:03:00+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 7,
+  "regions": 4,
+  "media_weight": 16,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

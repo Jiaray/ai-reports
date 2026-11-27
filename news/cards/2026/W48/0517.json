@@ -1,0 +1,103 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0517",
+ "title": "德國最大工會 IG Metall 與金屬電機業雇主達成協議，分兩階段加薪 2% 與 2.3%，最多涵蓋 370 萬名勞工",
+ "line": "協議允許困難企業以投資與保留工作承諾換取降低人力成本，工會原要求一年加薪 5%",
+ "born_at": "2026-11-27T17:07:52+08:00",
+ "first_reported_at": "2026-11-26T23:58:00+08:00",
+ "updated_at": "2026-11-27T17:07:52+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "DE"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "勞動"
+  ],
+  "event": [
+   "會談協議"
+  ],
+  "sector": [
+   "汽車",
+   "機械與工業製造",
+   "航太與國防"
+  ],
+  "org": [
+   "IG Metall",
+   "Gesamtmetall",
+   "Mercedes-Benz",
+   "BMW"
+  ],
+  "person": [
+   "Christiane Benner"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "IG Metall",
+   "團體協約",
+   "加薪",
+   "德國製造業"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "德國最大工會 IG Metall 與金屬電機業雇主 11 月 26 日歷經 26 小時協商後達成薪資協議，先適用北萊茵－西發利亞與巴登－符騰堡兩邦約 170 萬名勞工；若推廣到全國，可涵蓋汽車、電機電子、航太、國防與機械工程等產業共 370 萬人。協議內容：2027 年 5 月 1 日起加薪 2%，2028 年 4 月 1 日起再加 2.3%；2027 年 3 月依雇主銷售淨利率發放 150、300 或 450 歐元一次性獎金；效期 25 個月至 2028 年 11 月 30 日。勞資雙方也同意一套機制，允許企業以團體協約措施降低成本，換取在德國投資、產品或技術上提供長期就業前景的承諾；DW 指企業可與員工協商偏離每週 35 小時工時，也可請員工放棄部分薪資以挹注投資。協議前 IG Metall 發動兩波警告性罷工、逾 95.6 萬人參與，本週還衝擊 Mercedes-Benz 與 BMW 工廠。工會原要求一年加薪 5%，主席 Christiane Benner 稱這是「動盪時期的穩固協議」，雇主團體 Gesamtmetall 則說是「痛苦的薪資妥協」。",
+ "dive_html": "加薪幅度低、生效時間延後，還首度明文允許以工時與薪資換投資承諾，反映德國製造業在能源成本、中國競爭與汽車轉型壓力下的處境；工會選擇保工作而非爭薪資，代表德國產業危機已從企業蔓延到勞資關係的基本框架。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "DW News",
+   "title": "Germany: IG Metall union says deal reached with employers",
+   "url": "https://www.dw.com/en/germany-ig-metall-union-says-deal-reached-with-employers/a-80066792?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-26T23:58:00+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Germany's IG Metall reaches pay deal amid industrial crisis",
+   "url": "https://www.euronews.com/2026/11/27/germanys-ig-metall-reaches-pay-deal-amid-industrial-crisis",
+   "time": "2026-11-27T14:44:02+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

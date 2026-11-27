@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0513",
+ "title": "學名藥版 HIV 預防針劑 lenacapavir 首批運抵尚比亞，每人每年約 40 美元，烏干達將接續到貨",
+ "line": "一年打兩針、預防效果近 100%，原廠版在美國年費約 2.8 萬美元",
+ "born_at": "2026-11-27T17:07:52+08:00",
+ "first_reported_at": "2026-11-26T19:00:39+08:00",
+ "updated_at": "2026-11-27T17:07:52+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "非洲"
+  ],
+  "country": [
+   "ZM",
+   "UG",
+   "ZW"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療"
+  ],
+  "event": [
+   "公衛事件"
+  ],
+  "sector": [
+   "醫藥與生技"
+  ],
+  "org": [
+   "全球基金",
+   "世界衛生組織",
+   "Gilead Sciences"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "lenacapavir",
+   "HIV 預防",
+   "學名藥",
+   "PrEP"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 BBC，全球基金表示，學名藥版 HIV 預防針劑 lenacapavir 的首批全球貨運 11 月 25 日運抵尚比亞，烏干達將在數天內到貨，辛巴威明年初接收，其他多國也將陸續跟進。這款藥一年注射兩次，預防 HIV 感染的效果接近 100%，學名藥版預計每人每年只要 40 美元；美國藥廠 Gilead Sciences 研發的原廠版去年才在撒哈拉以南非洲上市，在美國每年費用約 2.8 萬美元，多數開發中國家負擔不起。lenacapavir 的作用機制是攻擊 HIV 的保護性蛋白外殼，干擾病毒增殖與建立感染；2024 年在烏干達與南非進行、涉及逾 5,000 名少女與年輕女性的里程碑臨床試驗中，接受注射者無人感染 HIV。衛生專家指出，相較於須每天服用、可能帶來汙名的口服預防藥（PrEP），半年一針是重大優勢；世界衛生組織 2025 年 7 月已建議用於 HIV 預防，全球基金稱藥物抵達非洲是「重大突破」。",
+ "dive_html": "價格從每年數萬美元降到 40 美元，是這款藥能否真正改變非洲疫情的關鍵；但同時國際 HIV 經費正被削減，學名藥便宜之後，瓶頸會轉到採購資金、冷鏈與每半年回診注射的醫療網絡能否撐得住。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC World",
+   "title": "Hope for millions as cheaper HIV prevention jab reaches Africa",
+   "url": "https://www.bbc.co.uk/news/articles/cmly7jve72r2o",
+   "time": "2026-11-26T19:00:39+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

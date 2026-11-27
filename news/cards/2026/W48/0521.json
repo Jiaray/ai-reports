@@ -1,0 +1,110 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0521",
+ "title": "路透：川普政府曾鼓勵委內瑞拉、伊拉克考慮退出 OPEC，還阻止委內瑞拉繳交年費",
+ "line": "沙烏地王儲出面干預才讓美方停止進一步施壓，伊拉克石油部則說服總理留在 OPEC",
+ "born_at": "2026-11-27T17:07:52+08:00",
+ "first_reported_at": "2026-11-27T14:02:00+08:00",
+ "updated_at": "2026-11-27T17:07:52+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中南美",
+   "中東",
+   "北美"
+  ],
+  "country": [
+   "VE",
+   "IQ",
+   "US",
+   "SA"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "能源",
+   "國際關係"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "sector": [
+   "能源與公用事業"
+  ],
+  "org": [
+   "石油輸出國家組織",
+   "美國國務院",
+   "紐約聯邦準備銀行",
+   "Alpine Macro"
+  ],
+  "person": [
+   "川普",
+   "穆罕默德．沙爾曼",
+   "柴迪",
+   "Dan Alamariu"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "OPEC",
+   "委內瑞拉",
+   "伊拉克",
+   "石油產量"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據中央社引述路透社獨家報導，川普政府今年稍早曾鼓勵委內瑞拉與伊拉克考慮退出石油輸出國家組織（OPEC），甚至阻止委內瑞拉繳交年度會費。知情人士說，美方官員當時正推動兩國擴大石油產量與投資，部分人擔心 OPEC 配額會牽制這些計畫。兩名知情人士指出，華府對委內瑞拉施壓之深，甚至讓沙烏地王儲穆罕默德．沙爾曼今年夏天出面干預，說服美方不要進一步施壓；伊拉克總理柴迪與美方官員討論後，夏天曾在政府會議提出退出的可能性，但伊拉克石油部反對，說服他留在組織、改為爭取更高配額。今年 1 月馬杜洛下台後，美國掌控委內瑞拉動用國家資金的管道；伊拉克石油收入則須經紐約聯邦準備銀行的帳戶，是 2003 年伊拉克戰爭遺留的機制。美國國務院未回應是否阻撓委內瑞拉繳費，但證實有權決定委內瑞拉如何使用國家資金；一名官員說低層級官員今年稍早可能曾提及退出 OPEC，但「並非高層提出的議題」，與伊拉克的對話則聚焦能源基礎設施。OPEC 自 2019 年以來已失去 4 個成員國，阿聯今年稍早也因不滿產量上限退出，目前有 11 個成員國；Alpine Macro 首席地緣政治策略師 Dan Alamariu 說「OPEC 分裂的風險正在升高」。",
+ "dive_html": "美國利用對委內瑞拉、伊拉克財政管道的實質控制力去動搖 OPEC，顯示華府已從 OPEC 的客戶轉為直接挑戰其定價權的競爭者；若兩個創始國真的退出，OPEC 對油價的協調能力將大打折扣。對台灣這類能源進口國，長期可能意味油價更受美國產量與政策左右。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "路透：川普政府曾推動委內瑞拉、伊拉克退出OPEC",
+   "url": "https://www.cna.com.tw/news/aopl/202611270153.aspx",
+   "time": "2026-11-27T16:21:22+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "EXCLUSIVE: US pushed Venezuela, Iraq to consider leaving OPEC, sources say",
+   "url": "https://news.google.com/rss/articles/CBMirwFBVV95cUxNeVZ6VDRqcUU2ZDJ1UWdyUmYwNXRPMHAzR0pjRk8zLTJqYlF6YTVFV1Q5V3ZKV1IzZ0NDN2tKdkNxVmUtSmxpNnBNVmkzRWp5NkZ4SFdkaXZ6Zy1hUlhIUkdOY3ozaWVCLVI3M1FaRE9CQVZacHZ0c0tGM3AtUlFWaVR1Tnp4T084eVFjWDIxbVJQa1F0Z1RQRUdkU0YzdnZWMWJWNHRMT0JiQ1NHeDJF?oc=5",
+   "time": "2026-11-27T14:02:00+08:00",
+   "added_at": "2026-11-27T17:07:52+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 6,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}
