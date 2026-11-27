@@ -9,7 +9,7 @@
    - 列記號（緊急、遭利用、重要、熱門、切身）由 rows.js 畫；main 後、頁尾前放記號說明（rows.js legend）。
    - 鄉民：每天再分 PTT、HN、V2EX 三區，各依該平台熱度排、只列 > 0；同一張卡在幾個平台有熱度就列幾次（〈不重複〉的例外）。
    - 財經：每天再分台灣（台灣關聯直接）、國際兩區，各依重要程度排；兩區都全部直接列出（不收合，使用者定案）。
-   - 遊戲產業：同一天內主題含網頁遊戲的排前面。
+   - 遊戲開發：同一天內網頁遊戲開發類（主題含網頁遊戲，或同時含遊戲和開發與開源；views.web_dev）排前面，最新、重要都套。
    - &d=YYYY-MM-DD：7 天內捲到那段（那天沒卡就捲到更早最近的一段），超過停在頁首。
    回前景重抓 recent.json，built_at 或台北日期變了才重畫（展開中的列保持展開）。依賴 A.rows（工具列由 report.js 給）；樣式在 series.css（.sp／.sp-*）。 */
 (() => {
@@ -23,7 +23,6 @@
   const PATH = 'cards/recent.json';
   const DATE_RE = /^\d{4}-\d{2}-\d{2}$/;
   const PATCH_EVENT = '漏洞揭露';
-  const WEB_GAME = '網頁遊戲';
   const PLATFORMS = [['ptt', 'PTT', '推'], ['hn', 'HN', '分'], ['v2ex', 'V2EX', '回覆']]; // 鄉民頁分區順序與熱度單位
   const FIN_ZONES = [['taiwan', '台灣'], ['intl', '國際']]; // 財經頁分區順序；台灣＝輕量條目 taiwan 是「直接」（views.finance_zone）
   // 頁尾的收錄條件（新聞統一改版設計 §6 的系列頁條件，改成白話；程式條件在 news-aggregator views.py）
@@ -46,8 +45,7 @@
     culture: '主題含文化藝術的新聞',
     entertainment: '主題含娛樂與媒體的新聞',
     sports: '主題含體育的新聞',
-    game_industry: '主題或產業含遊戲的新聞；同一天內網頁遊戲排前面',
-    web_gamedev: '主題含網頁遊戲，或主題同時含遊戲和開發與開源的新聞',
+    game_dev: '主題或產業含遊戲的新聞；同一天內網頁遊戲開發（主題含網頁遊戲，或同時含遊戲和開發與開源）排前面',
     gambling: '主題或產業含博奕的新聞',
     reading: '形式是長文或播客的新聞卡',
   };
@@ -112,7 +110,11 @@
     const n = c.heat && c.heat.community && c.heat.community[k];
     return typeof n === 'number' && Number.isFinite(n) && n > 0 ? n : 0;
   };
-  const webGame = (c) => (Array.isArray(c.topic_all) ? c.topic_all : list(c.topic)).includes(WEB_GAME);
+  // 網頁遊戲開發類（同 news-aggregator views.web_dev）
+  const webDev = (c) => {
+    const t = Array.isArray(c.topic_all) ? c.topic_all : list(c.topic);
+    return t.includes('網頁遊戲') || (t.includes('遊戲') && t.includes('開發與開源'));
+  };
   const finZone = (c) => (c.taiwan === '直接' ? 'taiwan' : 'intl');
 
   // ── 一列（rows.js）；左緣色線用這頁的領域色（樣式摘要示意頁）；data-k＝區｜編號（重畫後還原展開，鄉民頁同卡多列）──
@@ -189,7 +191,7 @@
         out.push(section(id, 'sp-day', R.dayLabel(day), items.length, zones, day));
         return;
       }
-      items.sort(latest || ((a, b) => (t === 'game_industry' ? webGame(b.c) - webGame(a.c) : 0) || imp(a.c, b.c)));
+      items.sort((a, b) => (t === 'game_dev' ? webDev(b.c) - webDev(a.c) : 0) || (latest ? latest(a, b) : imp(a.c, b.c)));
       out.push(section(id, 'sp-day', R.dayLabel(day), items.length, [rowsList(items.map((x) => rowOf(x)))], day));
     });
     return { sections: out, count: shown.size };

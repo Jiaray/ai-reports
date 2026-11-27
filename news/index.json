@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "generated_at": "2026-11-25T22:37:07+08:00",
+ "generated_at": "2026-11-27T11:53:44+08:00",
  "series": [
   {
    "id": "taiwan_general",
@@ -111,15 +111,9 @@
    "group": "生活娛樂"
   },
   {
-   "id": "game_industry",
-   "title": "遊戲產業",
-   "short": "遊戲",
-   "group": "遊戲產業"
-  },
-  {
-   "id": "web_gamedev",
-   "title": "網頁遊戲開發",
-   "short": "網頁遊戲",
+   "id": "game_dev",
+   "title": "遊戲開發",
+   "short": "遊戲開發",
    "group": "遊戲產業"
   },
   {

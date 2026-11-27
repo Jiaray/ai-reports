@@ -211,20 +211,20 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 
 | 代號 | 名稱 | 抓法 | 網址 | 查詢 | 則數 | 正文 | 區塊 | 形式 | 語言 | 系列 | 釘選 | 加入日期 | 最近收錄 | 備註 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| gamesindustry | GamesIndustry.biz | rss | https://www.gamesindustry.biz/feed |  | 30 | 是 | gamedev_news | 新聞 | en | game_industry |  | 2026-11-25 | 2026-11-26 |  |
-| pocketgamerbiz | PocketGamer.biz | rss | https://www.pocketgamer.biz/index.rss |  | 30 | 是 | gamedev_news | 新聞 | en | game_industry |  | 2026-11-25 | 2026-11-26 |  |
-| mobilegamer | Mobilegamer.biz | rss | https://mobilegamer.biz/feed/ |  | 30 | 是 | gamedev_news | 新聞 | en | game_industry |  | 2026-11-25 | 2026-11-26 |  |
-| gamesbeat | GamesBeat | rss | https://gamesbeat.com/feed/ |  | 30 | 是 | gamedev_news | 新聞 | en | game_industry |  | 2026-11-25 | 2026-11-26 |  |
-| 80lv | 80 Level | rss | https://80.lv/feed |  | 30 | 是 | gamedev_news | 新聞 | en | game_industry |  | 2026-11-25 | 2026-11-26 |  |
-| cocos_forum | Cocos 中文社區 | cocos_forum | https://forum.cocos.org |  | 60 | 是 | cocos_forum | 新聞 | zh-CN | web_gamedev |  | 2026-11-25 | 2026-11-26 | 近 7 天新帖，正文是首帖與前 19 則回覆 |
-| pixijs | PixiJS Releases | rss | https://github.com/pixijs/pixijs/releases.atom |  | 40 | 是 | engines_media | 新聞 | en | web_gamedev |  | 2026-11-25 |  |  |
-| babylonjs | Babylon.js Releases | rss | https://github.com/BabylonJS/Babylon.js/releases.atom |  | 40 | 是 | engines_media | 新聞 | en | web_gamedev |  | 2026-11-25 |  |  |
-| threejs | three.js Releases | rss | https://github.com/mrdoob/three.js/releases.atom |  | 40 | 是 | engines_media | 新聞 | en | web_gamedev |  | 2026-11-25 |  |  |
-| phaser | Phaser Releases | rss | https://github.com/phaserjs/phaser/releases.atom |  | 40 | 是 | engines_media | 新聞 | en | web_gamedev |  | 2026-11-25 |  |  |
-| godot_blog | Godot Engine Blog | rss | https://godotengine.org/rss.xml |  | 40 | 是 | engines_media | 新聞 | en | web_gamedev |  | 2026-11-25 |  |  |
-| gamefromscratch | GameFromScratch | rss | https://gamefromscratch.com/feed/ |  | 40 | 是 | engines_media | 新聞 | en | web_gamedev |  | 2026-11-25 | 2026-11-26 |  |
-| gamedeveloper | Game Developer | rss | https://www.gamedeveloper.com/rss.xml |  | 40 | 是 | engines_media | 新聞 | en | web_gamedev |  | 2026-11-25 |  |  |
-| hn_engines | Hacker News | hackernews | https://news.ycombinator.com | WebGL,WebGPU,game engine,PixiJS,three.js,Godot,Cocos,HTML5 game | 15 | 是 | hn_engines | 新聞 | en | web_gamedev |  | 2026-11-25 |  | 近 24 小時關鍵字搜尋 |
+| gamesindustry | GamesIndustry.biz | rss | https://www.gamesindustry.biz/feed |  | 30 | 是 | gamedev_news | 新聞 | en | game_dev |  | 2026-11-25 | 2026-11-26 |  |
+| pocketgamerbiz | PocketGamer.biz | rss | https://www.pocketgamer.biz/index.rss |  | 30 | 是 | gamedev_news | 新聞 | en | game_dev |  | 2026-11-25 | 2026-11-26 |  |
+| mobilegamer | Mobilegamer.biz | rss | https://mobilegamer.biz/feed/ |  | 30 | 是 | gamedev_news | 新聞 | en | game_dev |  | 2026-11-25 | 2026-11-26 |  |
+| gamesbeat | GamesBeat | rss | https://gamesbeat.com/feed/ |  | 30 | 是 | gamedev_news | 新聞 | en | game_dev |  | 2026-11-25 | 2026-11-26 |  |
+| 80lv | 80 Level | rss | https://80.lv/feed |  | 30 | 是 | gamedev_news | 新聞 | en | game_dev |  | 2026-11-25 | 2026-11-26 |  |
+| cocos_forum | Cocos 中文社區 | cocos_forum | https://forum.cocos.org |  | 60 | 是 | cocos_forum | 新聞 | zh-CN | game_dev |  | 2026-11-25 | 2026-11-26 | 近 7 天新帖，正文是首帖與前 19 則回覆 |
+| pixijs | PixiJS Releases | rss | https://github.com/pixijs/pixijs/releases.atom |  | 40 | 是 | engines_media | 新聞 | en | game_dev |  | 2026-11-25 |  |  |
+| babylonjs | Babylon.js Releases | rss | https://github.com/BabylonJS/Babylon.js/releases.atom |  | 40 | 是 | engines_media | 新聞 | en | game_dev |  | 2026-11-25 |  |  |
+| threejs | three.js Releases | rss | https://github.com/mrdoob/three.js/releases.atom |  | 40 | 是 | engines_media | 新聞 | en | game_dev |  | 2026-11-25 |  |  |
+| phaser | Phaser Releases | rss | https://github.com/phaserjs/phaser/releases.atom |  | 40 | 是 | engines_media | 新聞 | en | game_dev |  | 2026-11-25 |  |  |
+| godot_blog | Godot Engine Blog | rss | https://godotengine.org/rss.xml |  | 40 | 是 | engines_media | 新聞 | en | game_dev |  | 2026-11-25 |  |  |
+| gamefromscratch | GameFromScratch | rss | https://gamefromscratch.com/feed/ |  | 40 | 是 | engines_media | 新聞 | en | game_dev |  | 2026-11-25 | 2026-11-26 |  |
+| gamedeveloper | Game Developer | rss | https://www.gamedeveloper.com/rss.xml |  | 40 | 是 | engines_media | 新聞 | en | game_dev |  | 2026-11-25 |  |  |
+| hn_engines | Hacker News | hackernews | https://news.ycombinator.com | WebGL,WebGPU,game engine,PixiJS,three.js,Godot,Cocos,HTML5 game | 15 | 是 | hn_engines | 新聞 | en | game_dev |  | 2026-11-25 |  | 近 24 小時關鍵字搜尋 |
 | yogonet | Yogonet International | rss | https://www.yogonet.com/international/rss.xml |  | 45 | 是 | gambling_news | 新聞 | en | gambling |  | 2026-11-25 | 2026-11-26 |  |
 | igb | iGaming Business | rss | https://igamingbusiness.com/feed/ |  | 45 | 是 | gambling_news | 新聞 | en | gambling |  | 2026-11-25 | 2026-11-26 |  |
 | ggrasia | GGRAsia | rss | https://www.ggrasia.com/feed |  | 45 | 是 | gambling_news | 新聞 | en | gambling |  | 2026-11-25 | 2026-11-26 |  |
@@ -273,5 +273,5 @@ news-aggregator 每一輪抓什麼都照這份清單（程式：news-aggregator 
 
 | 代號 | 名稱 | 抓法 | 網址 | 查詢 | 則數 | 正文 | 區塊 | 形式 | 語言 | 系列 | 釘選 | 加入日期 | 最近收錄 | 備註 |
 |---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| xbox_wire | Xbox Wire | rss | https://news.xbox.com/en-us/feed/ |  | 10 | 是 | gamedev_news | 新聞 | en | game_industry |  | 2026-11-26 |  | 使用者 2026-11-26 移除；官方公告 |
-| playstation_blog | PlayStation Blog | rss | https://blog.playstation.com/feed/ |  | 10 | 是 | gamedev_news | 新聞 | en | game_industry |  | 2026-11-26 |  | 使用者 2026-11-26 移除；官方公告 |
+| xbox_wire | Xbox Wire | rss | https://news.xbox.com/en-us/feed/ |  | 10 | 是 | gamedev_news | 新聞 | en | game_dev |  | 2026-11-26 |  | 使用者 2026-11-26 移除；官方公告 |
+| playstation_blog | PlayStation Blog | rss | https://blog.playstation.com/feed/ |  | 10 | 是 | gamedev_news | 新聞 | en | game_dev |  | 2026-11-26 |  | 使用者 2026-11-26 移除；官方公告 |

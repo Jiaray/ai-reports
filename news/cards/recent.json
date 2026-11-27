@@ -1,6 +1,6 @@
 {
  "schema": 2,
- "built_at": "2026-11-26T17:38:38+08:00",
+ "built_at": "2026-11-27T11:53:44+08:00",
  "cards": [
   {
    "id": "2026-W48-0287",
@@ -9734,8 +9734,7 @@
     }
    },
    "series": [
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -9798,7 +9797,7 @@
    },
    "series": [
     "society",
-    "game_industry"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -9865,7 +9864,7 @@
    },
    "series": [
     "entertainment",
-    "game_industry"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -9932,7 +9931,7 @@
    "series": [
     "ai",
     "tech",
-    "game_industry"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -10001,7 +10000,7 @@
    "series": [
     "ai",
     "tech",
-    "game_industry"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -10697,7 +10696,7 @@
    "series": [
     "ai",
     "papers",
-    "game_industry"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -14203,8 +14202,7 @@
    },
    "series": [
     "tech",
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -15408,8 +15406,7 @@
    "series": [
     "tech",
     "github",
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -16031,8 +16028,7 @@
    "series": [
     "social",
     "tech",
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -16096,8 +16092,7 @@
    "series": [
     "social",
     "tech",
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -17173,8 +17168,7 @@
    },
    "series": [
     "tech",
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -17237,8 +17231,7 @@
    },
    "series": [
     "tech",
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -17302,8 +17295,7 @@
    },
    "series": [
     "tech",
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -17366,8 +17358,7 @@
    },
    "series": [
     "tech",
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -17430,8 +17421,7 @@
    },
    "series": [
     "tech",
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -17495,8 +17485,7 @@
    },
    "series": [
     "tech",
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -17557,8 +17546,7 @@
     }
    },
    "series": [
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -17621,8 +17609,7 @@
    },
    "series": [
     "tech",
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -17685,8 +17672,7 @@
    },
    "series": [
     "tech",
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -17749,8 +17735,7 @@
    },
    "series": [
     "tech",
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -17815,7 +17800,7 @@
    },
    "series": [
     "society",
-    "game_industry"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -17878,8 +17863,7 @@
     }
    },
    "series": [
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -17943,8 +17927,7 @@
     }
    },
    "series": [
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -18006,7 +17989,7 @@
     }
    },
    "series": [
-    "game_industry"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -18072,7 +18055,7 @@
    },
    "series": [
     "finance",
-    "game_industry"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -18140,8 +18123,7 @@
    "series": [
     "ai",
     "tech",
-    "game_industry",
-    "web_gamedev"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -18206,7 +18188,7 @@
    },
    "series": [
     "tech",
-    "game_industry"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,
@@ -18273,7 +18255,7 @@
    },
    "series": [
     "finance",
-    "game_industry"
+    "game_dev"
    ],
    "last_update": null,
    "corrected_at": null,

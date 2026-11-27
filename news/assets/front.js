@@ -239,21 +239,24 @@
 
   // ── 各系列速覽（決策 2026-11-26）：前 limit 張之後，index.json 的系列順序、依領域分塊，每個系列最重要的 PER 張 ──
   // 挑卡＝那個系列頁選「重要」時的前幾張：鄉民依社群熱度（只收有熱度的）、資安先依急迫性、財經先台灣（台灣關聯直接）、
-  // 遊戲產業先網頁遊戲，其餘照本日焦點的順序（focus.json 已依事件分量 → 熱度 → 時間排好）。全頁不重複：上面列過的不再列
+  // 遊戲開發先網頁遊戲開發類（views.web_dev），其餘照本日焦點的順序（focus.json 已依事件分量 → 熱度 → 時間排好）。全頁不重複：上面列過的不再列
   const PER = 3;
   const urgency = (c) => ({ 高: 0, 中: 1, 低: 2 }[c.urgency] ?? 3);
   const community = (c) => {
     const m = c.heat && c.heat.community && typeof c.heat.community === 'object' ? c.heat.community : {};
     return ['hn', 'ptt', 'v2ex'].reduce((t, k) => t + (typeof m[k] === 'number' && m[k] > 0 ? m[k] : 0), 0);
   };
-  const webGame = (c) => (Array.isArray(c.topic_all) ? c.topic_all : Array.isArray(c.topic) ? c.topic : []).includes('網頁遊戲');
+  const webDev = (c) => {
+    const t = Array.isArray(c.topic_all) ? c.topic_all : Array.isArray(c.topic) ? c.topic : [];
+    return t.includes('網頁遊戲') || (t.includes('遊戲') && t.includes('開發與開源'));
+  };
   function seriesOrder(id, list) {
     const at = new Map(list.map((c, i) => [c, i]));
     const base = (a, b) => at.get(a) - at.get(b);
     if (id === 'social') return list.filter((c) => community(c) > 0).sort((a, b) => community(b) - community(a) || base(a, b));
     if (id === 'security') return [...list].sort((a, b) => urgency(a) - urgency(b) || base(a, b));
     if (id === 'finance') return [...list].sort((a, b) => (b.taiwan === '直接') - (a.taiwan === '直接') || base(a, b));
-    if (id === 'game_industry') return [...list].sort((a, b) => webGame(b) - webGame(a) || base(a, b));
+    if (id === 'game_dev') return [...list].sort((a, b) => webDev(b) - webDev(a) || base(a, b));
     return list;
   }
   // pool：時間窗內的卡（focus.json 的順序）；used：上面已列的編號（會加進這裡挑的）→ [{ s: 系列, n: 窗內張數, pick: 要列的卡 }]；
