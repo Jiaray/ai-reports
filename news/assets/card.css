@@ -13,10 +13,12 @@
 .cd-flag-ico{margin-right:6px;color:var(--stale-fg,currentColor)}
 /* 系列（各自的領域色、可點）・事件時間 */
 .cd-mt{margin:var(--space-3) 0 0;font:600 13.5px/1.6 var(--font-body);color:var(--color-neutral-600)}
+/* 記號（rows.css 的 .rw-mk）排在系列前面，同列表列：記號之間 6px、記號與系列之間多留一點 */
+.cd-mks{display:inline-flex;flex-wrap:wrap;gap:3px 6px;margin-right:10px}
 .cd-ty{color:var(--g-c,var(--color-accent-700));text-decoration:underline;text-decoration-thickness:1px;text-underline-offset:3px}
 .cd-ty:hover{text-decoration-thickness:2px}
 .cd-sep{margin:0 1px}
-.cd-tm{font:500 13.5px/1.6 var(--font-heading);letter-spacing:.02em}
+.cd-tm{font:500 13.5px/1.6 var(--font-heading);letter-spacing:.02em;white-space:nowrap}
 .cd-title{margin:var(--space-1) 0 var(--space-3);font:700 30px/1.4 var(--font-body);color:var(--color-text)}
 .cd-title:focus{outline:0}
 .cd-title:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:4px}

@@ -140,7 +140,8 @@
 
   // 按鈕後緊接面板（Tab 直接進入），absolute 跟著按鈕；不用 popover：top layer 要 anchor positioning 才跟得住，Firefox 不支援
   // × 必留（非 modal 面板要看得見關閉鈕）；同時只開一個靠點別顆按鈕＝點外面
-  function dropdown({ cls, id, title, closeLabel, toggleKids, body, pick, toggleCls = 'dd-toggle', wrap = (t) => t }) {
+  // onOpen：每次打開時呼叫（系列面板這時才抓近 24 小時張數）
+  function dropdown({ cls, id, title, closeLabel, toggleKids, body, pick, onOpen, toggleCls = 'dd-toggle', wrap = (t) => t }) {
     const toggle = h('button', { type: 'button', class: toggleCls, 'aria-expanded': 'false', 'aria-controls': id }, toggleKids);
     const close = h('button', { type: 'button', class: 'dd-close', 'aria-label': closeLabel, html: ICON.close });
     const panel = h('div', { class: `dd-panel ${cls}-panel`, id, role: 'dialog', 'aria-labelledby': `${id}-title`, hidden: true }, [
@@ -173,6 +174,7 @@
         f(false);
       }
       if (sheet) after = how.after || null;
+      if (onOpen) onOpen(panel);
       fitIn(panel, sheet);
       openMotion(panel, sheet);
       ((pick && pick(panel)) || close).focus({ preventScroll: sheet });
@@ -204,22 +206,64 @@
     .filter((s) => s && typeof s.id === 'string' && s.id);
   // 「系列」面板（樣式摘要 5.1）：「新聞卡（近 7 天）」列全部系列頁，照 index.json 的順序（同領域的挨在一起），文字前一條領域色短線。
   // 連結 ./?t=（新聞卡頁等其他頁面也連得到）；current＝目前的系列代號（目前位置 aria-current=page）。
-  // 一顆下拉不逐一放按鈕：二十多個系列擺不進工具列與扇面
+  // 一顆下拉不逐一放按鈕：二十多個系列擺不進工具列與扇面。
+  // 每個系列名後接近 24 小時張數（決策 2026-11-26；灰字等寬數字靠右，0 張的變灰但照樣能點）：面板打開時才抓 cards/recent.json
+  // （超過 COUNT_TTL 再開才重抓；抓不到就不放數字、欄名不加說明，下次打開再試）。
+  // 算法同本日焦點的時間窗（「看全部 N 張」）：不收標重複、舊新聞（late）、封存；新增或 refocus 補充在 24 小時內
+  const COUNT_TTL = 5 * 60000;
+  function seriesCounts(doc, now) {
+    const out = new Map();
+    (doc && Array.isArray(doc.cards) ? doc.cards : []).forEach((c) => {
+      if (!c || typeof c !== 'object' || c.dup_of || c.late === true || c.archived === true || !Array.isArray(c.series)) return;
+      const lu = c.last_update && typeof c.last_update === 'object' ? c.last_update : null;
+      const at = Math.max(Date.parse(c.born_at) || 0, lu && lu.refocus === true ? Date.parse(lu.at) || 0 : 0);
+      if (now - at > 24 * 3600000) return;
+      new Set(c.series).forEach((s) => out.set(s, (out.get(s) || 0) + 1));
+    });
+    return out;
+  }
   function seriesMenu(index, current) {
     const cards = cardSeries(index);
     if (!cards.length) return null;
-    const item = (s) => h('a', {
-      class: 'pd-item sr-it', href: `./?t=${encodeURIComponent(s.id)}`, 'data-group': s.group || null, 'aria-current': s.id === current ? 'page' : null,
-    }, [h('span', null, [s.short || s.title || s.id])]);
+    const nums = new Map(); // 系列代號 → 張數的 <span>
+    const item = (s) => {
+      const n = h('span', { class: 'pd-n sr-n' });
+      nums.set(s.id, n);
+      return h('a', {
+        class: 'pd-item sr-it', href: `./?t=${encodeURIComponent(s.id)}`, 'data-group': s.group || null, 'aria-current': s.id === current ? 'page' : null,
+      }, [h('span', null, [s.short || s.title || s.id]), n]);
+    };
     const ul = h('ul', { class: 'pd-items sr-list', 'aria-labelledby': 'sr-g-cards' }, cards.map((s) => h('li', null, [item(s)])));
     ul.style.setProperty('--sr-rows', String(Math.ceil(cards.length / 2))); // 兩欄時的列數（report.css）
+    const note = h('span', { class: 'sr-note', hidden: true }, ['・數字是近 24 小時張數']);
+    let got = 0; // 上次抓到的時間
+    let busy = false;
+    async function count() {
+      if (busy || Date.now() - got < COUNT_TTL) return;
+      busy = true;
+      try {
+        const doc = await A.getJSON('cards/recent.json');
+        const now = Date.now();
+        const map = seriesCounts(doc, now);
+        nums.forEach((el, id) => {
+          const k = map.get(id) || 0;
+          el.replaceChildren(String(k), h('span', { class: 'visually-hidden' }, [' 張']));
+          el.parentNode.classList.toggle('is-zero', !k);
+        });
+        note.hidden = false;
+        got = now;
+      } catch (e) { /* 抓不到：不放數字，下次打開再試 */ } finally {
+        busy = false;
+      }
+    }
     return dropdown({
       cls: 'sr', id: 'sr-panel', title: '系列', closeLabel: '關閉系列',
       toggleKids: [h('span', { class: 'dd-ico', html: ICON.series }), h('span', null, ['系列'])], // 同「版面」：圖示＋文字，不加下拉箭頭（使用者定案）
       body: [h('div', { class: 'sr-body' }, [
-        h('div', { class: 'sr-col sr-cards' }, [h('p', { class: 'pd-group', id: 'sr-g-cards' }, ['新聞卡（近 7 天）']), ul]),
+        h('div', { class: 'sr-col sr-cards' }, [h('p', { class: 'pd-group', id: 'sr-g-cards' }, ['新聞卡（近 7 天）', note]), ul]),
       ])],
       pick: (panel) => panel.querySelector('.pd-item[aria-current=page]') || panel.querySelector('.pd-item'),
+      onOpen: count,
     });
   }
   // 「議題」→ 議題目錄（story.html）；current 同 navLink。ed-story：工具列右邊一組靠它找位置（report.css）
@@ -356,7 +400,7 @@
     return { panels, links };
   }
 
-  // 0°＝正左、90°＝正上。定案：外圈由下往上系列、過濾（本日焦點、議題目錄才有）、版面；
+  // 0°＝正左、90°＝正上。定案：外圈由下往上系列、過濾（議題目錄才有；本日焦點的系列標籤已拿掉，決策 2026-11-26）、版面；
   // 內圈由上往下本日焦點、議題
   function buildPie(items) {
     const S = FAB_R[2] + 2;
@@ -551,7 +595,7 @@
     fab.anchor.prepend(buildPie(items));
   }
 
-  // 頭版過濾面板（議題目錄 story.js 用同一套標記）：照抄 front.js 的 .fp-fq .fp-chip（代號 data-type、名稱 .fp-chip-t、則數 .fp-chip-n、aria-pressed）、.fp-fq-clear，
+  // 過濾面板（議題目錄 story.js；本日焦點的標籤已拿掉）：照抄頁面上的 .fp-fq .fp-chip（代號 data-type、名稱 .fp-chip-t、則數 .fp-chip-n、aria-pressed）、.fp-fq-clear，
   // 按了代按頁面那顆
   let fq = null;
   const realChips = () => [...document.querySelectorAll('#app .fp-fq .fp-chip')];

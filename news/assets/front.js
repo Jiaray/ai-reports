@@ -1,7 +1,8 @@
 /* 本日焦點（news/，不帶 t；帶 t 的交給 report.js）：讀 cards/focus.json，取看的當下往回 window_hours（24）小時內的前 limit（10）張新聞卡；
    一張都沒有時列整份的前 limit 張並標最後更新（設計 §6.8、契約 §9）。不按日期翻頁、不按整點分段：一條清單照 focus.json 的順序
-   （樣式摘要 5.5）；條目是 A.rows 的列表列（頁內展開）；過濾標籤依系列。不標「新」（依每台裝置的瀏覽紀錄算，碰到用詞規則）；
-   舊的 air-front-seen 開頁時刪掉。其他網址參數（舊的每週頭版 ?w）不認，一律顯示本日焦點。
+   （樣式摘要 5.5）；條目是 A.rows 的列表列（頁內展開）。不標「新」（依每台裝置的瀏覽紀錄算，碰到用詞規則）；
+   舊的 air-front-seen、air-front-types（系列過濾標籤已拿掉，決策 2026-11-26）開頁時刪掉。其他網址參數（舊的每週頭版 ?w）不認，一律顯示本日焦點。
+   前 limit 張之後接「各系列」速覽：時間窗內每個系列最重要的 3 張（扣掉上面列過的），依領域分塊（決策 2026-11-26）。
    報頭下有今天的日期與農民曆（A.almanac，almanac.js；lunar.js 開頁就另載，最多等 3 秒，晚到的到了再補上那一塊）。
    頁尾右邊是來源狀態入口（連 sources.html）：focus.json 的 today＋sources-status.json（畫完清單再抓，不擋新聞），缺哪份就少那段。
    依賴 A.bar（bar.js 報頭元件）；A.facets、A.look、A.rows、A.almanac 選用（載入失敗就少該功能；沒有 A.rows 時退回標題連結清單）。 */
@@ -16,10 +17,10 @@
   const root = document.documentElement;
   const WEEK = '日一二三四五六';
   const TAIPEI_MS = 8 * 3600 * 1000;
-  const FILTER_KEY = 'air-front-types'; // ["finance", …]：選中的系列代號
   try {
     localStorage.removeItem('air-front-filter'); // 舊版依領域過濾的選擇
     localStorage.removeItem('air-front-seen'); // 舊版「新」標記的瀏覽紀錄
+    localStorage.removeItem('air-front-types'); // 舊版依系列過濾的選擇（標籤已拿掉）
   } catch (e) { /* 存取不了：沒有可刪的 */ }
   // A.look 不在（look-standard.js 載入失敗）→ 不列「一般」
   const KEY_LOOK = 'air-news-look';
@@ -75,98 +76,6 @@
     B.navLink('新聞首頁', 'front', './', 'page'), srBox, B.storyLink ? B.storyLink(null) : null, fpBox,
   ]);
 
-  // ── 快速過濾 ──
-  // 標籤照系列順序、後接張數（屬於多個系列的卡各算一次）；系列少於兩個不放。
-  // 都沒選＝全部；否則顯示任一系列有選到的卡；有選才出現「清除」（不另放「全部」）。
-  // 選擇存 air-front-types：下次開沿用；不進網址（分享出去不帶自己的篩選）；這頁沒有的系列照樣記著，只套用這頁有的
-  const UNIT_WORD = '張';
-  const CHECK = '<svg viewBox="0 0 20 20" width="12" height="12" fill="none" stroke="currentColor" stroke-width="2.4" aria-hidden="true" focusable="false"><path d="M4 10.5l4 4 8-9"/></svg>';
-  function readFilter() {
-    try {
-      const v = JSON.parse(localStorage.getItem(FILTER_KEY) || '[]');
-      return new Set(Array.isArray(v) ? v.filter((x) => typeof x === 'string') : []);
-    } catch (e) {
-      return new Set();
-    }
-  }
-  function saveFilter() {
-    try {
-      if (picked.size) localStorage.setItem(FILTER_KEY, JSON.stringify([...picked]));
-      else localStorage.removeItem(FILTER_KEY);
-    } catch (e) { /* 存不了：這次照篩，下次不記得 */ }
-  }
-  let picked = readFilter(); // 含這頁沒有的系列；存不進 localStorage 時仍有效
-  let fq = null; // { chips, clear, status, sync }；沒有標籤列＝null
-
-  // types：[{ t: 系列代號, n: 張數 }]，已排序。
-  // bar.js 過濾面板照抄 .fp-chip 的 data-type、data-group、.fp-chip-t、.fp-chip-n、aria-pressed，並代按 .fp-fq-clear；
-  // 議題目錄（story.js filterBar）用同一套標記，改一邊要改兩邊
-  function filterBar(types) {
-    fq = null;
-    if (types.length < 2) return [];
-    const chips = types.map(({ t: id, n }) => {
-      const m = seriesMeta(id);
-      const b = h('button', { type: 'button', class: 'fp-chip', 'data-type': id, 'data-group': m.group || null, 'aria-pressed': 'false' }, [
-        h('span', { class: 'fp-chip-mk', html: CHECK }), // 沒選＝領域色塊、選了＝勾（不只靠顏色；front.css 切換）
-        h('span', { class: 'fp-chip-t' }, [m.short]),
-        h('span', { class: 'fp-chip-n' }, [String(n), h('span', { class: 'visually-hidden' }, [` ${UNIT_WORD}`])]),
-      ]);
-      b.addEventListener('click', () => {
-        if (picked.has(id)) picked.delete(id);
-        else picked.add(id);
-        saveFilter();
-        applyFilter(true);
-      });
-      return b;
-    });
-    const clear = h('button', { type: 'button', class: 'fp-fq-clear', 'aria-label': '清除篩選', hidden: true }, ['清除']);
-    clear.addEventListener('click', () => {
-      picked = new Set();
-      saveFilter();
-      applyFilter(true);
-    });
-    const bar = h('div', { class: 'fp-fq', role: 'toolbar', 'aria-label': '依系列篩選', focusgroup: 'toolbar wrap' }, [...chips, clear]);
-    const status = h('p', { class: 'visually-hidden', role: 'status' });
-    fq = { chips, clear, status, sync: B.roving(bar) };
-    return [bar, status];
-  }
-
-  // announce＝剛按了標籤 → status 唸結果。條目＝#main 裡帶 data-fq 的（列表列 .rw；退路 .fp-card）
-  function applyFilter(announce) {
-    const rows = [...app.querySelectorAll('#main [data-fq]')];
-    const on = new Set(fq ? fq.chips.map((b) => b.dataset.type).filter((x) => picked.has(x)) : []);
-    if (fq) fq.chips.forEach((b) => b.setAttribute('aria-pressed', String(on.has(b.dataset.type))));
-    let shown = 0;
-    rows.forEach((r) => {
-      const ok = !on.size || (r.dataset.fq || '').split(' ').some((x) => on.has(x));
-      r.hidden = !ok;
-      if (ok) shown += 1;
-    });
-    if (fq) {
-      const lost = fq.clear.contains(document.activeElement);
-      fq.clear.hidden = !on.size;
-      fq.sync();
-      if (lost && fq.clear.hidden) fq.chips[0].focus(); // 「清除」藏起 → 焦點移到第一個標籤，不掉回頁首
-      if (announce) fq.status.textContent = on.size ? `顯示 ${shown} ${UNIT_WORD}` : `顯示全部 ${shown} ${UNIT_WORD}`;
-    }
-  }
-  // 別的分頁改了篩選 → 跟著套（不唸）
-  window.addEventListener('storage', (e) => {
-    if (e.key !== FILTER_KEY && e.key !== null) return;
-    picked = readFilter();
-    if (app.querySelector('#main [data-fq]')) applyFilter(false);
-  });
-  // 重畫前記下焦點在哪個過濾標籤（'' ＝「清除」），畫完放回
-  const chipFocusNow = () => {
-    const b = document.activeElement && document.activeElement.closest && document.activeElement.closest('.fp-fq button');
-    return b ? b.dataset.type || '' : null;
-  };
-  function restoreChip(key) {
-    if (key == null || !fq) return;
-    const b = key ? fq.chips.find((x) => x.dataset.type === key) : fq.clear;
-    (b && !b.hidden ? b : fq.chips[0]).focus({ preventScroll: true });
-  }
-
   function show(kids) {
     const focused = document.activeElement;
     app.replaceChildren(...kids.filter(Boolean));
@@ -186,21 +95,29 @@
   const FOCUS_PATH = 'cards/focus.json';
   const CARD_RE = /^\d{4}-W\d{2}-\d{4}$/;
   let focus = null; // focus.json；抓不到（還沒建）＝{}
-  let focusKey = ''; // 畫面上的 是否近期｜編號｜built_at：換了才整頁重畫
+  let focusKey = ''; // 畫面上的 是否近期｜編號｜各系列挑的卡｜built_at：換了才整頁重畫
   const num = (v, d) => (typeof v === 'number' && v > 0 ? v : d);
   const focusAt = (c) => Date.parse(c.focus_at || c.born_at);
   const focusCards = () => (focus && Array.isArray(focus.cards) ? focus.cards : []).filter((c) => c && typeof c === 'object'
     && CARD_RE.test(c.id || '') && typeof c.title === 'string' && c.title && !c.dup_of && c.late !== true && !Number.isNaN(focusAt(c)));
   const windowHours = () => num(focus && focus.window_hours, 24);
   const limit = () => Math.floor(num(focus && focus.limit, 10));
-  // → { cards, recent }：時間窗內的前 limit 張；一張都沒有 → 整份的前 limit 張、recent=false。
-  // 比現在晚（裝置時鐘慢）也算在窗內
+  // → { cards, recent, plan }：時間窗內的前 limit 張；一張都沒有 → 整份的前 limit 張、recent=false、沒有速覽。
+  // plan＝各系列速覽要列的（見 plan()）。比現在晚（裝置時鐘慢）也算在窗內
   function pickFocus(now) {
     const all = focusCards();
     const inWindow = all.filter((c) => now - focusAt(c) <= windowHours() * 3600000);
-    return inWindow.length ? { cards: inWindow.slice(0, limit()), recent: true } : { cards: all.slice(0, limit()), recent: false };
+    if (!inWindow.length) return { cards: all.slice(0, limit()), recent: false, plan: null };
+    const cards = inWindow.slice(0, limit());
+    return { cards, recent: true, plan: plan(inWindow, new Set(cards.map((c) => c.id))) };
   }
-  const keyOf = (picked) => `${picked.recent}|${picked.cards.map((c) => c.id).join()}|${(focus && focus.built_at) || ''}`;
+  // 前 limit 張、各系列挑的卡（與那個系列有沒有卡）換了才整頁重畫；只有「看全部 N 張」的 N 變了就地改（tickFocus），
+  // 窗內每滑出一張卡就整頁重畫會讓畫面跳動
+  const keyOf = (picked) => [
+    picked.recent, picked.cards.map((c) => c.id).join(),
+    (picked.plan || []).map((p) => (p.n ? p.pick.map((c) => c.id).join('+') || '0' : '-')).join('/'),
+    (focus && focus.built_at) || '',
+  ].join('|');
 
   // ── 頁尾：來源狀態入口（使用者定案）：「今天　新增 N｜補充 N｜來源 連得上/全部 ›」，連 sources.html ──
   // 新增、補充讀 focus.json 的 today（date 不是台北今天＝午夜後還沒發布過，寫 0）；來源讀 sources-status.json 的主線單位
@@ -294,9 +211,10 @@
     return el;
   };
 
-  // 一張新聞卡＝列表列（rows.js）：本頁不屬於哪個系列，上方小字與展開後的「系列」列全部；每列一樣，沒有頭條樣式
-  const cardRow = (c, now) => R.row({ ...c, series: seriesOf(c) }, {
-    meta: seriesMeta, time: agoTime(c, now), tag: 'li',
+  // 一張新聞卡＝列表列（rows.js）：本頁不屬於哪個系列，上方小字與展開後的「系列」列全部；每列一樣，沒有頭條樣式。
+  // omit：清單全是事件分量高時不標「重要」（每張都有就沒有區別；記號說明裡註明）
+  const cardRow = (c, now, omit) => R.row({ ...c, series: seriesOf(c) }, {
+    meta: seriesMeta, time: agoTime(c, now), tag: 'li', omit,
   });
   // 部署空窗沒有 rows.js：系列・多久前・更新｜標題連到新聞卡頁｜一句話（前一版的清單）
   const updated = (c) => focusAt(c) > Date.parse(c.born_at) || Boolean(c.last_update && c.last_update.refocus === true);
@@ -319,7 +237,82 @@
     ]);
   }
 
-  // 重畫不打斷閱讀：記下展開中的列與焦點所在的列、過濾標籤，畫完還原（展開的卡檔已在 rows.js 快取）
+  // ── 各系列速覽（決策 2026-11-26）：前 limit 張之後，index.json 的系列順序、依領域分塊，每個系列最重要的 PER 張 ──
+  // 挑卡＝那個系列頁選「重要」時的前幾張：鄉民依社群熱度（只收有熱度的）、資安先依急迫性、財經先台灣（台灣關聯直接）、
+  // 遊戲產業先網頁遊戲，其餘照本日焦點的順序（focus.json 已依事件分量 → 熱度 → 時間排好）。全頁不重複：上面列過的不再列
+  const PER = 3;
+  const urgency = (c) => ({ 高: 0, 中: 1, 低: 2 }[c.urgency] ?? 3);
+  const community = (c) => {
+    const m = c.heat && c.heat.community && typeof c.heat.community === 'object' ? c.heat.community : {};
+    return ['hn', 'ptt', 'v2ex'].reduce((t, k) => t + (typeof m[k] === 'number' && m[k] > 0 ? m[k] : 0), 0);
+  };
+  const webGame = (c) => (Array.isArray(c.topic_all) ? c.topic_all : Array.isArray(c.topic) ? c.topic : []).includes('網頁遊戲');
+  function seriesOrder(id, list) {
+    const at = new Map(list.map((c, i) => [c, i]));
+    const base = (a, b) => at.get(a) - at.get(b);
+    if (id === 'social') return list.filter((c) => community(c) > 0).sort((a, b) => community(b) - community(a) || base(a, b));
+    if (id === 'security') return [...list].sort((a, b) => urgency(a) - urgency(b) || base(a, b));
+    if (id === 'finance') return [...list].sort((a, b) => (b.taiwan === '直接') - (a.taiwan === '直接') || base(a, b));
+    if (id === 'game_industry') return [...list].sort((a, b) => webGame(b) - webGame(a) || base(a, b));
+    return list;
+  }
+  // pool：時間窗內的卡（focus.json 的順序）；used：上面已列的編號（會加進這裡挑的）→ [{ s: 系列, n: 窗內張數, pick: 要列的卡 }]；
+  // 沒有 rows.js、系列設定或窗內沒有卡 → null
+  const indexSeries = () => ((index && index.series) || []).filter((s) => s && typeof s.id === 'string' && s.id);
+  function plan(pool, used) {
+    const series = indexSeries();
+    if (!R || !pool.length || !series.length) return null;
+    return series.map((s) => {
+      const all = pool.filter((c) => Array.isArray(c.series) && c.series.includes(s.id));
+      const pick = all.length ? seriesOrder(s.id, all).filter((c) => !used.has(c.id)).slice(0, PER) : [];
+      pick.forEach((c) => used.add(c.id));
+      return { s, n: all.length, pick };
+    });
+  }
+  const seeAll = (n) => `看全部 ${n} 張`;
+  const noneLine = (ps) => `近 ${windowHours()} 小時沒有新卡：${ps.map((p) => p.s.short || p.s.title || p.s.id).join('、')}`;
+  function overview(ps, now) {
+    if (!ps) return null;
+    const blocks = []; // [{ group, secs }]：同領域挨在一起（index.json 的順序）
+    ps.filter((p) => p.n).forEach(({ s, n, pick }) => {
+      // 同系列頁：上方小字不列這段的系列、左緣色線用這段的領域色
+      const rows = pick.map((c) => {
+        const el = R.row({ ...c, series: seriesOf(c) }, { meta: seriesMeta, page: s.id, time: agoTime(c, now), tag: 'li' });
+        if (el) el.dataset.group = s.group || '';
+        return el;
+      }).filter(Boolean);
+      const hid = `fp-s-${s.id}`;
+      const sec = h('section', { class: 'fp-sec', 'aria-labelledby': hid, 'data-group': s.group || null, 'data-s': s.id }, [
+        // 段標題黏在工具列下方；整條連到系列頁（N＝時間窗內這個系列的張數）
+        h('h3', { class: 'fp-sec-h', id: hid }, [h('a', { class: 'fp-sec-a', href: `./?t=${encodeURIComponent(s.id)}` }, [
+          h('span', { class: 'fp-sec-t' }, [s.short || s.title || s.id]), h('span', { class: 'fp-sec-n' }, [seeAll(n)]),
+        ])]),
+        rows.length ? h('ol', { class: 'fp-list', role: 'list' }, rows) : h('p', { class: 'fp-sec-none' }, [`這個系列近 ${windowHours()} 小時的卡都在上面。`]),
+      ]);
+      const last = blocks[blocks.length - 1];
+      if (last && last.group === (s.group || '')) last.secs.push(sec);
+      else blocks.push({ group: s.group || '', secs: [sec] });
+    });
+    const empty = ps.filter((p) => !p.n);
+    // 每個領域一塊（上方細線＋較大間距）；兩個以上系列的領域才寫領域名（只有一個系列的，名稱跟系列一樣，不重複）
+    return h('section', { class: 'fp-map', 'aria-labelledby': 'fp-map-h' }, [
+      h('h2', { class: 'fp-map-h', id: 'fp-map-h' }, ['各系列']),
+      h('p', { class: 'fp-map-sub' }, [`近 ${windowHours()} 小時，每個系列最重要的 ${PER} 張；上面列過的不重列。`]),
+      ...blocks.map((b) => h('div', { class: 'fp-dom', 'data-group': b.group || null }, [
+        b.secs.length > 1 && b.group ? h('p', { class: 'fp-dom-h' }, [b.group]) : null, ...b.secs,
+      ])),
+      empty.length ? h('p', { class: 'fp-map-empty' }, [noneLine(empty)]) : null,
+    ]);
+  }
+  // 列的卡沒變、只有張數變了：就地改「看全部 N 張」（N 變 0 的會換鍵、整頁重畫）
+  function syncCounts(ps) {
+    (ps || []).forEach((p) => {
+      const el = app.querySelector(`.fp-sec[data-s="${CSS.escape(p.s.id)}"] .fp-sec-n`);
+      if (el && el.textContent !== seeAll(p.n)) el.textContent = seeAll(p.n);
+    });
+  }
+
+  // 重畫不打斷閱讀：記下展開中的列與焦點所在的列，畫完還原（展開的卡檔已在 rows.js 快取）
   function renderFocus() {
     const now = Date.now();
     const picked = pickFocus(now);
@@ -329,60 +322,77 @@
     const opened = new Set([...app.querySelectorAll('#main [data-id]')].filter((el) => el.querySelector('details[open]')).map((el) => el.dataset.id));
     const active = rowOf(document.activeElement);
     const activeId = active ? active.dataset.id : null;
-    const chipFocus = chipFocusNow();
+    const secFocus = document.activeElement && document.activeElement.closest ? document.activeElement.closest('.fp-sec-a') : null;
+    const almOpen = Boolean(app.querySelector(':scope > .fp-alm.is-open'));
     const built = Date.parse(focus && focus.built_at);
     // 時間窗內沒有卡：同非當期提示的黃條，標最後更新
     const note = cards.length && !recent ? h('p', { class: 'stale' }, [
       h('span', { class: 'stale-ico', html: B.ICON.warn }),
       h('span', null, [`過去 ${windowHours()} 小時沒有新的新聞卡，以下是最近一批${Number.isNaN(built) ? '' : `・最後更新 ${stamp(built)}`}`]),
     ]) : null;
-    const rows = cards.map((c) => (R ? cardRow(c, now) : focusRow(c, now))).filter(Boolean);
-    // 過濾標籤：各系列張數（一張屬於多個系列各算一次）
-    const counts = new Map();
-    rows.forEach((r) => r.dataset.fq.split(' ').filter(Boolean).forEach((g) => counts.set(g, (counts.get(g) || 0) + 1)));
-    const types = [...counts.keys()].sort(bySeries).map((x) => ({ t: x, n: counts.get(x) }));
+    // 前 limit 張都是事件分量高（平常如此）→ 不標「重要」；有一張不是就照常標，記號說明也不寫那句
+    const allImp = cards.length > 0 && cards.every((c) => c.weight === '高');
+    const rows = cards.map((c) => (R ? cardRow(c, now, allImp ? ['imp'] : null) : focusRow(c, now))).filter(Boolean);
     const main = h('main', { id: 'main', class: 'fp-focus' }, rows.length
-      ? [h('ol', { class: 'fp-list', role: 'list' }, rows)]
+      ? [h('ol', { class: 'fp-list', role: 'list' }, rows), overview(picked.plan, now)].filter(Boolean)
       : [h('p', { class: 'fp-empty-note', role: 'status' }, ['本日焦點還沒有新聞卡。'])]);
     show([
       note,
       toolbar(),
-      h('header', { class: 'masthead fp-head' }, [h('h1', { class: 'mast-title' }, [TITLE]), ...filterBar(types)]),
-      AL ? AL.render(today()) : null,
+      h('header', { class: 'masthead fp-head' }, [h('h1', { class: 'mast-title' }, [TITLE])]),
+      AL ? AL.render(today(), { open: almOpen }) : null,
       main,
+      // 記號說明（rows.js；部署空窗配到舊 rows.js 就不放）
+      rows.length && R && R.legend ? R.legend({ front: allImp ? rows.length : 0 }) : null,
       // 退回最近一批時不寫「過去 N 小時內」（黃條已說明這段時間沒有新卡）
       h('footer', { class: 'foot' }, [h('span', { class: 'foot-left' }, [
         note ? `本日焦點依重要程度取前 ${limit()} 張` : `本日焦點列出過去 ${windowHours()} 小時內新增或補充的新聞卡，依重要程度取前 ${limit()} 張`,
       ]), srcEntry(now)]),
     ]);
     document.title = `${TITLE}｜AI Reports`;
+    fitAlmanac(app.querySelector(':scope > .fp-alm'));
     const find = (id) => [...app.querySelectorAll('#main [data-id]')].find((el) => el.dataset.id === id);
     opened.forEach((id) => {
       const d = find(id) && find(id).querySelector('details');
       if (d) d.open = true;
     });
-    applyFilter(false);
     const back = activeId && find(activeId);
     if (back && !back.hidden) (back.querySelector('summary') || back.querySelector('a')).focus({ preventScroll: true });
-    restoreChip(chipFocus);
+    const sec = secFocus && app.querySelector(`.fp-sec-a[href="${secFocus.getAttribute('href')}"]`);
+    if (sec) sec.focus({ preventScroll: true });
   }
   // 開著不動時每分鐘：清單沒變只改「多久前」，換了才整頁重畫
   function tickFocus() {
     const now = Date.now();
-    if (keyOf(pickFocus(now)) !== focusKey) {
+    const picked = pickFocus(now);
+    if (keyOf(picked) !== focusKey) {
       renderFocus();
       return;
     }
+    syncCounts(picked.plan);
     app.querySelectorAll('#main time[data-ago]').forEach((el) => { el.textContent = ago(Date.parse(el.getAttribute('datetime')), now); });
     syncAlmanac();
     syncSrcEntry();
   }
-  // 農民曆那一塊：過了午夜、或 lunar.js 晚到（畫的時候只有國曆）→ 就地換掉，不整頁重畫
+  // 農民曆那一塊：過了午夜、或 lunar.js 晚到（畫的時候只有國曆）→ 就地換掉，不整頁重畫（手機的展開狀態、開關上的焦點照留）
   function syncAlmanac() {
     const el = AL ? app.querySelector(':scope > .fp-alm') : null;
     if (!el) return;
-    const next = AL.render(today());
-    if (el.dataset.day !== next.dataset.day || el.hasAttribute('data-lunar') !== next.hasAttribute('data-lunar')) el.replaceWith(next);
+    const next = AL.render(today(), { open: el.classList.contains('is-open') });
+    if (el.dataset.day === next.dataset.day && el.hasAttribute('data-lunar') === next.hasAttribute('data-lunar')) return;
+    const had = el.contains(document.activeElement);
+    el.replaceWith(next);
+    fitAlmanac(next);
+    const tg = had && next.querySelector('.fp-alm-tg');
+    if (tg) tg.focus({ preventScroll: true });
+  }
+  // 部署空窗：新 almanac.js 配到舊 front.css（.fp-alm-in 不是 display:contents，三格擠成一格）→ 拆掉手機收合的外框與開關，照舊三格
+  function fitAlmanac(el) {
+    const inner = el && el.querySelector(':scope > .fp-alm-in');
+    if (!inner || getComputedStyle(inner).display !== 'block') return;
+    inner.replaceWith(...inner.childNodes);
+    const tg = el.querySelector(':scope > .fp-alm-tg');
+    if (tg) tg.remove();
   }
 
   async function focusMain() {

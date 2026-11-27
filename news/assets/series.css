@@ -2,8 +2,25 @@
    條目是 rows.js 的列表列（rows.css；一般外觀在 look-standard.css）；報頭、工具列、頁尾 .foot 在 site.css／report.css；領域色 --g-c 由 report.css 依 data-group 給。
    分段：報頭、日段（黏頂標題）、資安要修補的漏洞、鄉民平台區與財經台灣／國際區、沒有卡、外觀：地圖、外觀：一般、觸控與強制色彩 */
 
-/* ── 報頭：大標題下一行「近 7 天・N 張」 ── */
-.sp-sub{margin:0 0 var(--space-3);font:500 15px/1.5 var(--font-heading);letter-spacing:.02em;color:var(--color-neutral-600)}
+/* ── 報頭一行：系列名　近 7 天・N 張 …… [最新｜重要]；手機：第一行系列名＋排序，第二行近 7 天・N 張 ── */
+.sp-head{display:flex;flex-wrap:wrap;align-items:baseline;column-gap:14px;row-gap:2px;padding-bottom:var(--space-3)}
+.sp-head .mast-title{flex:none;margin-bottom:0}
+.sp-sub{margin:0;font:500 15px/1.5 var(--font-heading);letter-spacing:.02em;color:var(--color-neutral-600)}
+/* 排序鈕：兩顆相連的按鈕，選中的實心（aria-pressed；狀態另有字，不只靠顏色）；附圖示（最新＝時鐘、重要＝秤砣） */
+.sp-sort{display:inline-flex;align-self:center;margin-left:auto}
+.sp-sort-b{display:inline-flex;align-items:center;gap:5px;padding:6px 12px;background:transparent;color:var(--color-neutral-700);border:1px solid var(--color-neutral-300);border-radius:0;font:500 14px/1 var(--font-heading);letter-spacing:.04em;white-space:nowrap;cursor:pointer}
+.sp-sort-b+.sp-sort-b{margin-left:-1px}
+.sp-sort-ico,.sp-sort-ico svg{display:block;flex:none}
+.sp-sort-b[aria-pressed=true]{position:relative;background:var(--color-text);border-color:var(--color-text);color:var(--color-bg);font-weight:600}
+@media(hover:hover){.sp-sort-b[aria-pressed=false]:hover{background:var(--color-accent-100);color:var(--color-text)}}
+.sp-sort-b:focus-visible{position:relative;z-index:1;outline:2px solid var(--color-accent-600);outline-offset:2px}
+@media(max-width:40em){
+.sp-head{column-gap:10px}
+.sp-head .mast-title{order:1}
+.sp-sort{order:2}
+.sp-head .sp-sub{order:3;flex-basis:100%}
+.sp-sort-b{padding:6px 10px}
+}
 
 /* ── 日段：標題黏在工具列下方（--bar-h 由 bar.js 寫；手機工具列不凍結時是 0），只在自己那段黏住；右邊張數 ── */
 .sp{margin-top:var(--space-2)}
@@ -41,6 +58,10 @@
 .sp-foot{font:400 12.5px/1.6 var(--font-body)}
 
 /* ── 外觀：地圖（框圓角；地圖的 --tab-bg 是透明，黏頂時要有底色） ── */
+[data-look=atlas] .sp-head{flex-direction:row;align-items:baseline}   /* report.css 的地圖報頭是上下排，這裡改回左右排 */
+[data-look=atlas] .sp-sort-b{font-family:var(--font-body);letter-spacing:.02em}
+[data-look=atlas] .sp-sort-b:first-child{border-radius:var(--r-sm) 0 0 var(--r-sm)}
+[data-look=atlas] .sp-sort-b:last-child{border-radius:0 var(--r-sm) var(--r-sm) 0}
 [data-look=atlas] .sp-dh{font-family:var(--font-body);letter-spacing:.02em}
 [data-look=atlas] .sp-n{font-family:var(--font-num)}
 [data-look=atlas] .sp-patch .sp-dh{border:1px solid var(--color-divider);border-radius:var(--r-md) var(--r-md) 0 0;background:var(--color-neutral-200)}
@@ -49,6 +70,12 @@
 
 /* ── 外觀：一般（系統字、不用領域色；段標題同頭版欄名的粗底線） ── */
 [data-look=standard] .sp-sub{font:400 var(--fs-meta)/1.5 var(--font-sans);letter-spacing:0;color:var(--text-3)}
+[data-look=standard] .sp-sort-b{border:var(--hair) solid var(--border);background:var(--surface);color:var(--text-2);font:400 14px/1 var(--font-sans);letter-spacing:0}
+[data-look=standard] .sp-sort-b:first-child{border-radius:var(--radius-sm) 0 0 var(--radius-sm)}
+[data-look=standard] .sp-sort-b:last-child{border-radius:0 var(--radius-sm) var(--radius-sm) 0}
+[data-look=standard] .sp-sort-b[aria-pressed=true]{background:var(--text);border-color:var(--text);color:var(--surface);font-weight:500}
+@media(hover:hover){[data-look=standard] .sp-sort-b[aria-pressed=false]:hover{background:var(--surface);color:var(--accent)}}
+[data-look=standard] .sp-sort-b:focus-visible{outline-color:var(--focus)}
 [data-look=standard] .sp-dh{padding:10px 0 8px;border-bottom:2px solid var(--text);font:700 15px/1.4 var(--font-sans);letter-spacing:0;color:var(--text-head)}
 [data-look=standard] .sp-n{font:400 13px/1.4 var(--font-sans);letter-spacing:0;color:var(--text-3)}
 [data-look=standard] .sp-patch .sp-dh{padding-inline:0;border-bottom-color:var(--accent);background:var(--bg);color:var(--text-head)}
@@ -65,5 +92,5 @@
 [data-look=standard] .sp-foot{font-family:var(--font-sans)}
 
 /* ── 觸控 44px；強制色彩：色塊被換掉 → 改用文字色 ── */
-@media(pointer:coarse){.sp-go{min-height:44px}}
-@media(forced-colors:active){.sp-go::before,.sp-zh::before{background:CanvasText}.sp-patch .sp-dh{border:1px solid}}
+@media(pointer:coarse){.sp-go{min-height:44px}.sp-sort-b{min-height:44px;padding:0 14px}}
+@media(forced-colors:active){.sp-go::before,.sp-zh::before{background:CanvasText}.sp-patch .sp-dh{border:1px solid}.sp-sort-b[aria-pressed=true]{outline:2px solid CanvasText;outline-offset:-4px}}

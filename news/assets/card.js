@@ -271,8 +271,11 @@
     if (card.online_only === true) flag('cd-online', [h('span', { class: 'cd-flag-ico', html: B.ICON.warn }), '網路討論，未經媒體證實']);
     return out;
   }
-  // 系列（領域色、連到系列頁）・事件時間
-  function metaLine(series, ev) {
+  // 記號（rows.js marks，同列表列：緊急／遭利用、重要、熱門、切身）　系列（領域色、連到系列頁）・事件時間。
+  // 記號讀輕量條目（有 heat_rank、exploited）；沒有條目用卡檔的 facets 與 heat。部署空窗配到舊 rows.js（沒有 marks）就不放
+  function metaLine(series, ev, card, entry) {
+    const f = card.facets && typeof card.facets === 'object' ? card.facets : {};
+    const mk = R && R.marks ? R.marks({ weight: f.weight, urgency: f.urgency, relevance: f.relevance, heat: card.heat, ...(entry || {}) }) : [];
     const kids = series.flatMap((s, i) => [
       i ? h('span', { class: 'cd-sep' }, ['、']) : null,
       h('a', { class: 'cd-ty', href: `./?t=${encodeURIComponent(s.id)}`, 'data-group': s.group || null }, [s.short]),
@@ -280,6 +283,7 @@
     const t = stamp(ev, mdw, 'cd-tm');
     if (t && kids.length) kids.push(h('span', { class: 'cd-sep', 'aria-hidden': 'true' }, ['・']));
     if (t) kids.push(t);
+    if (mk.length) kids.unshift(h('span', { class: 'cd-mks' }, mk));
     return kids.length ? h('p', { class: 'cd-mt' }, kids) : null;
   }
   // 跳轉標籤：按了捲到那一段、焦點移過去（目標有 tabindex=-1）；捲動照 prefers-reduced-motion
@@ -399,7 +403,7 @@
     const outlets = card.heat && Number.isInteger(card.heat.outlets) && card.heat.outlets > 0 ? card.heat.outlets : 0;
     const head = h('header', { class: 'masthead cd-head' }, [
       ...flags(card, { ...ctx, archiveStories }),
-      metaLine(series, ev),
+      metaLine(series, ev, card, ctx.entry),
       h('h1', { class: 'cd-title', tabindex: '-1' }, [card.title]),
       jumps([
         { label: '更新', name: '更新：跳到最新一段補充', cls: 'is-up', el: log.latest },
@@ -425,6 +429,8 @@
       src,
       fx ? A.facets.bar(fx.toggle) : null,
       fx ? fx.panel : null,
+      // 記號說明：只列五個記號（更新、更正、網路討論在這頁另有寫法）；沒有左緣色線，記號後面接系列與事件時間
+      R && R.legend ? R.legend({ cards: false, line: false, after: '系列與事件時間' }) : null,
       h('footer', { class: 'cd-foot' }, ['編號 ', h('span', { class: 'cd-id' }, [card.id])]),
     ].filter(Boolean));
     return [toolbar(), head, main];

@@ -1,8 +1,9 @@
 /* 頭版（front.js：本日焦點）樣式。本日焦點的條目是 rows.js 的列表列（rows.css）。報頭、面板（.stale、.editions、.dd-*、.vw-*）、
    領域色 --g-c 與 scroll-padding 在 report.css／site.css（各頁共用）。 */
 
-/* ── 大標題（無下拉）＋右側過濾標籤（系列，可多選）：放不下在標題右側換行，上下邊距同 .mast-title；
-   按下填領域色、色塊換勾（不只靠顏色）。狀態只看 aria-pressed，不另加 class。定案：高度貼合字級（上下內距 3px） ── */
+/* ── 大標題（無下拉）＋右側過濾標籤（系列，可多選）：本日焦點已拿掉標籤（決策 2026-11-26），現在只有議題目錄（story.js）用。
+   放不下在標題右側換行，上下邊距同 .mast-title；按下填領域色、色塊換勾（不只靠顏色）。狀態只看 aria-pressed，不另加 class。
+   定案：高度貼合字級（上下內距 3px） ── */
 .fp-head{display:flex;align-items:center;column-gap:20px}
 .fp-head .mast-title{flex:none}
 .fp-fq{flex:1 1 0;min-width:0;display:flex;flex-wrap:wrap;align-items:center;gap:6px;margin:var(--space-3) 0 var(--space-2)}
@@ -60,6 +61,28 @@
 /* ── 本日焦點：一條清單（不按整點分段），條目是 rows.js 的列表列 ── */
 .fp-focus{margin-top:var(--space-4)}
 .fp-list{margin:0;padding:0;list-style:none}
+
+/* ── 各系列速覽（front.js overview；決策 2026-11-26）：前 10 張之後，依領域分塊（上方細線＋較大間距；兩個以上系列的領域寫灰色小字領域名），
+   每個系列一段：段標題「系列名 …… 看全部 N 張 ›」整條連系列頁、黏在工具列下方，下接 3 張列表列（左緣線用這段的領域色） ── */
+.fp-map{margin-top:48px;padding-top:var(--space-4);border-top:2px solid var(--color-text)}
+.fp-map-h{margin:0;font:700 26px/1.25 var(--font-heading);letter-spacing:.04em;color:var(--color-text)}
+.fp-map-sub{margin:4px 0 0;font:400 13.5px/1.6 var(--font-body);color:var(--color-neutral-600)}
+.fp-dom{margin-top:var(--space-6);padding-top:var(--space-2);border-top:1px solid var(--color-neutral-300)}
+.fp-dom-h{margin:0 0 calc(-1 * var(--space-3));font:500 13px/1.4 var(--font-heading);letter-spacing:.12em;color:var(--color-neutral-600)}
+.fp-dom>.fp-sec:first-child{margin-top:var(--space-1)}
+.fp-sec{margin-top:28px}
+.fp-sec-h{position:sticky;top:var(--bar-h,0px);z-index:2;margin:0;background:var(--color-bg);border-bottom:1px solid var(--color-divider)}
+.fp-sec-a{display:flex;align-items:baseline;justify-content:space-between;gap:var(--space-3);padding:7px 0 6px;color:var(--color-text);text-decoration:none}
+.fp-sec-t{display:inline-flex;align-items:center;gap:8px;font:600 16px/1.3 var(--font-heading);letter-spacing:.04em}
+.fp-sec-t::before{content:"";flex:none;width:3px;height:1.05em;background:var(--g-c,var(--color-neutral-300))}
+.fp-sec-n{flex:none;font:600 13.5px/1.3 var(--font-body);color:var(--color-accent-700)}
+.fp-sec-n::after{content:" ›"}
+.fp-sec-a:hover .fp-sec-n{text-decoration:underline;text-underline-offset:3px}
+.fp-sec-a:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:2px}
+.fp-sec-none{margin:var(--space-2) 0 0;font:400 14px/1.6 var(--font-body);color:var(--color-neutral-600)}
+.fp-map-empty{margin:28px 0 0;font:400 13.5px/1.6 var(--font-body);color:var(--color-neutral-600)}
+@media(pointer:coarse){.fp-sec-a{min-height:44px;align-items:center}}
+@media(forced-colors:active){.fp-sec-t::before{background:CanvasText}}
 /* 部署空窗 rows.js 還沒到時的退路（front.js focusRow）：沿用 .fp-it；系列・多久前・更新｜標題（連新聞卡頁）｜一句話 */
 .fp-card>.fp-mt{margin:0}
 .fp-mt>.fp-tm:first-child::before{content:none}
@@ -112,14 +135,28 @@
 [data-look=atlas] .fp-alm{border-radius:var(--r-md,10px);overflow:hidden}
 [data-look=atlas] :is(.fp-alm-k,.fp-alm-fest){border-radius:var(--r-sm,6px)}
 [data-look=atlas] :is(.fp-alm-md,.fp-alm-cal){font-family:var(--font-num)}
-/* 窄版：中格放不下宜忌 → 國曆、日曆一列，宜忌整列放下面 */
+/* 手機收成一行的開關（almanac.js；決策 2026-11-26）：桌機不顯示，三格包在 .fp-alm-in（display:contents，格線照排） */
+.fp-alm-in{display:contents}
+.fp-alm-tg{display:none}
+/* 窄版：中格放不下宜忌 → 國曆、日曆一列，宜忌整列放下面；
+   平常收成一行「11 月 26 日 星期四・農曆十月十八 ›」，點開才顯示（展開時日期格不重寫國曆與農曆月日） */
 @media(max-width:40em){
 .fp-alm{grid-template-columns:minmax(0,1fr) auto;grid-template-areas:"day mon" "body body"}
+.fp-alm:not(.is-plain){grid-template-areas:"tg tg" "day mon" "body body"}
 .fp-alm-mon{border-left:0}
 .fp-alm-body{border-top:1px solid var(--color-divider)}
 .fp-alm-day,.fp-alm-body{padding:var(--space-1) var(--space-2)}
 .fp-alm-mon{padding:var(--space-1)}
+.fp-alm-tg{grid-area:tg;display:flex;align-items:center;gap:8px;width:100%;padding:var(--space-1) var(--space-2);background:transparent;border:0;border-radius:0;color:var(--color-neutral-700);font:500 13.5px/1.5 var(--font-body);text-align:left;cursor:pointer}
+.fp-alm-tg b{font-weight:700;color:var(--color-neutral-800)}
+.fp-alm-chev{flex:none;width:6px;height:6px;border-top:1.5px solid currentColor;border-right:1.5px solid currentColor;transform:rotate(45deg)}
+.fp-alm.is-open .fp-alm-chev{transform:rotate(135deg);margin-top:-3px}
+.fp-alm:not(.is-open) .fp-alm-in{display:none}
+.fp-alm.is-open .fp-alm-tg{border-bottom:1px solid var(--color-divider)}
+.fp-alm.is-open :is(.fp-alm-date,.fp-alm-ld){display:none}
+.fp-alm-tg:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
 }
+@media(max-width:40em) and (pointer:coarse){.fp-alm-tg{min-height:44px}}
 
 /* ── 本日焦點還沒有新聞卡 ── */
 .fp-empty-note{margin:0 0 var(--space-3);font:400 16px/1.8 var(--font-body);color:var(--color-neutral-800)}

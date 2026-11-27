@@ -34,6 +34,9 @@
 .st-row+.st-row{border-top:1px solid var(--color-divider)}
 /* 子議題名（上層議題頁）：虛線框，接在時間後 */
 .st-kid{padding:0 6px;border:1px dashed var(--color-neutral-600);color:var(--color-neutral-700);font:500 12px/1.5 var(--font-body)}
+/* 後面接「N 家」時：rows.css 把「・」接在前一項尾巴（::after），落在虛線框裡 → 改畫在框外 */
+.st-kid:has(+.rw-n){position:relative;margin-right:14px}
+.st-kid:has(+.rw-n)::after{position:absolute;left:100%;top:-1px;margin:0 0 0 1px;color:var(--color-neutral-600)}
 /* 間隔標記：相隔 7 天以上 */
 .st-gap{position:relative;padding:4px 0 6px 26px;font:400 13px/1.5 var(--font-body);color:var(--color-neutral-600)}
 .st-gap::before{content:"";position:absolute;left:0;top:0;bottom:0;width:11px;background:var(--color-bg)}
@@ -103,6 +106,7 @@
 [data-look=standard] .st-row::before{top:19px;width:9px;height:9px;left:1px;border:1.5px solid var(--text-3);border-radius:50%;background:var(--bg)}
 [data-look=standard] .st-row.is-latest::before{border-color:var(--text);background:var(--text)}
 [data-look=standard] .st-kid{border-color:var(--text-3);border-radius:var(--radius-sm);color:var(--text-2);font:400 12px/1.5 var(--font-sans)}
+[data-look=standard] .st-kid:has(+.rw-n){margin-right:0}   /* 一般外觀不用「・」 */
 [data-look=standard] .st-gap{font-family:var(--font-sans);color:var(--text-3)}
 [data-look=standard] .st-gap::before{background:var(--bg)}
 [data-look=standard] .st-gap::after{border-left-color:var(--text-3)}

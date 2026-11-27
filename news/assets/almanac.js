@@ -5,7 +5,8 @@
      它是 UMD：沒有模組系統時在 window 掛 Solar、Lunar 等十幾個名稱，只在這支用。
    - lunar.js 只輸出簡體：TW 表逐詞換成台灣農民曆用字（上梁→上樑、启钻→啟攢、龙头节→龍抬頭…），表上沒有的原樣顯示。
    - 右邊一格當月的台灣行政日曆（放假紅字、今天畫圈），放假日照人事行政總處辦公日曆表的規則算（見 holidays）。
-   - render(iso)：iso＝台北日期 YYYY-MM-DD → <section class="fp-alm">（樣式在 front.css；data-day 給 front.js 判斷過午夜）；
+   - render(iso, { open })：iso＝台北日期 YYYY-MM-DD → <section class="fp-alm">（樣式在 front.css；data-day 給 front.js 判斷過午夜）；
+     手機收成一行、點開才顯示宜忌與月曆（open＝展開，.is-open）；
      dayOff(iso) 給核對用。 */
 (() => {
   'use strict';
@@ -179,7 +180,8 @@
   // 宜忌各詞不拆行：一詞一個 span（nowrap），詞間留一般空白讓報讀器分得開
   const words = (list) => (list.length ? list.flatMap((t, i) => [i ? ' ' : null, h('span', null, [t])]) : ['—']);
 
-  function render(iso) {
+  // o.open：手機（≤ 40em）收成一行時是否展開（front.js 重畫時沿用原本的狀態）
+  function render(iso, o = {}) {
     const x = day(iso);
     const L = x.lu;
     const kids = [h('div', { class: 'fp-alm-day' }, [
@@ -187,7 +189,7 @@
         h('time', { class: 'fp-alm-md', datetime: x.iso }, [x.md]), h('span', { class: 'fp-alm-wd' }, [x.wd]),
       ]),
       L ? h('p', { class: 'fp-alm-lu' }, [
-        h('span', null, [L.date]), h('span', null, [L.year]),
+        h('span', { class: 'fp-alm-ld' }, [L.date]), h('span', null, [L.year]),
         ...L.fest.map((f) => h('span', { class: 'fp-alm-fest' }, [f])),
       ]) : null,
       // 沖煞放日期格（補滿日曆撐出的高度，宜忌格只留宜忌）；節氣不顯示（使用者定案）
@@ -206,7 +208,25 @@
         console.error('行政日曆計算失敗', e);
       }
     }
-    return h('section', { class: `fp-alm${L ? '' : ' is-plain'}`, 'aria-label': '今天的日期與農民曆', 'data-day': x.iso, 'data-lunar': L ? '' : null }, kids);
+    const box = h('section', { class: `fp-alm${L ? '' : ' is-plain'}${o.open ? ' is-open' : ''}`, 'aria-label': '今天的日期與農民曆', 'data-day': x.iso, 'data-lunar': L ? '' : null });
+    if (!L) {
+      box.append(...kids);
+      return box;
+    }
+    // 手機（≤ 40em，決策 2026-11-26）：收成一行「11 月 26 日 星期四・農曆十月十八 ›」，點開才顯示宜忌與月曆；
+    // 桌機不顯示這顆鈕（front.css），三格照舊。三格包在 .fp-alm-in（display:contents，格線照排）
+    const id = 'fp-alm-in';
+    const tg = h('button', { type: 'button', class: 'fp-alm-tg', 'aria-expanded': String(Boolean(o.open)), 'aria-controls': id }, [
+      h('span', { class: 'fp-alm-tg-t' }, [h('b', null, [x.md]), ` ${x.wd}・${L.date}`]),
+      h('span', { class: 'fp-alm-chev', 'aria-hidden': 'true' }),
+    ]);
+    tg.addEventListener('click', () => {
+      const open = !box.classList.contains('is-open');
+      box.classList.toggle('is-open', open);
+      tg.setAttribute('aria-expanded', String(open));
+    });
+    box.append(tg, h('div', { class: 'fp-alm-in', id }, kids));
+    return box;
   }
 
   A.almanac = { load, render, dayOff };

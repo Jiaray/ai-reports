@@ -2,7 +2,8 @@
    一列＝<details class="peek">：summary 是左緣領域色線、上方小字（系列・時間・家數）、標題、（補充或更正）更新句（每列一樣，沒有頭條樣式），
    右邊箭頭來自 report.css 的 .peek；點開在頁內展開，標題不是連結（summary 裡不放連結、不放標題元素）。
    收合時只用輕量條目（契約 §9）；第一次展開才抓那張卡的檔（決策 D-030），畫摘要、AI 解讀、領域欄位，
-   最後一列「開新聞卡｜系列 X、Y｜分類 ▾」（樣式摘要 5.3、5.4）。抓不到只在展開區顯示一行錯誤，收起再點開重抓。
+   最後一列「開新聞卡｜系列 X、Y｜分類 ▾」（樣式摘要 5.3、5.4），展開區最底下一顆「收起」。抓不到只在展開區顯示一行錯誤，收起再點開重抓。
+   上方小字最前面是列記號（marks：緊急／遭利用、重要、熱門、切身），頁尾前的記號說明用 legend()。
    樣式在 rows.css（.rw／.rw-*）。 */
 (() => {
   'use strict';
@@ -216,28 +217,78 @@
     return out;
   }
 
+  // ── 列記號（決策 2026-11-26 閱讀體驗改版）：一個顏色一個意思、同一種外框的文字標籤（不放圖示），放在上方小字最前面，
+  //    順序固定：緊急／遭利用（紅）→ 重要（深藍）→ 熱門（橘）→ 切身（墨色）。新聞卡頁「系列・事件時間」那一行前面也用這一組。
+  //    重要＝事件分量高；緊急＝急迫性高（標了遭利用就不另標緊急）；切身＝讀者關聯高；遭利用＝exploited；
+  //    熱門＝heat_rank ≤ HOT.rank（媒體報導量在近期前 5%），或社群熱度任一平台過門檻。門檻集中在 HOT，之後要調或改由 card_index 算都改這裡。
+  //    卡檔的 facets 是陣列（["高"]），輕量條目是字串：兩種都收 ──
+  const HOT = { rank: 0.05, community: [['hn', 'HN', '分', 300], ['ptt', 'PTT', '推', 100], ['v2ex', 'V2EX', '回覆', 50]] };
+  const one = (v) => (Array.isArray(v) ? v[0] : v);
+  const fmt = (n) => n.toLocaleString('zh-TW');
+  // 熱門的原因（title 用）；不熱門回 []
+  function hotWhy(c) {
+    const why = [];
+    const heat = c.heat && typeof c.heat === 'object' ? c.heat : {};
+    const outlets = Number.isInteger(heat.outlets) ? heat.outlets : 0;
+    if (typeof c.heat_rank === 'number' && Number.isFinite(c.heat_rank) && c.heat_rank <= HOT.rank) {
+      why.push(`媒體報導量在近期前 ${Math.round(HOT.rank * 100)}%${outlets ? `（${outlets} 家）` : ''}`);
+    }
+    const cm = heat.community && typeof heat.community === 'object' ? heat.community : {};
+    HOT.community.forEach(([k, name, unit, min]) => {
+      if (typeof cm[k] === 'number' && cm[k] >= min) why.push(`${name} ${fmt(cm[k])} ${unit}`);
+    });
+    return why;
+  }
+  // 記號定義（記號說明也用）：[鍵, class, 字, 一句定義]
+  const MARKS = [
+    ['urg', 'is-alarm', '緊急', '要馬上動作，例如漏洞已遭利用、災害警報。'],
+    ['exp', 'is-alarm', '遭利用', '漏洞已被實際攻擊利用（資安）；標了就不另標緊急。'],
+    ['imp', 'is-imp', '重要', '事件分量高：有傷亡、政策或法律實質改變、明顯的市場影響。'],
+    ['hot', 'is-hot', '熱門', `媒體報導量在近期前 ${Math.round(HOT.rank * 100)}%，或社群熱度過門檻（${HOT.community.map(([, name, unit, min]) => `${name} ${min} ${unit}`).join('、')}）。滑過記號看原因。`],
+    ['rel', 'is-rel', '切身', '跟台灣讀者、開發者、遊戲業、博奕業關係密切。'],
+  ];
+  const MARK = new Map(MARKS.map((m) => [m[0], m]));
+  const markEl = (k, title) => h('span', { class: `rw-mk ${MARK.get(k)[1]}`, title: title || null }, [MARK.get(k)[2]]);
+  // c 的記號節點（照固定順序）；omit：不標的鍵（本日焦點前幾張都是分量高時不標 'imp'）
+  function marks(c, omit) {
+    if (!c || typeof c !== 'object') return [];
+    const skip = new Set([].concat(omit || []));
+    const out = [];
+    const add = (k, yes, title) => { if (yes && !skip.has(k)) out.push(markEl(k, title)); };
+    const exp = c.exploited === true;
+    add('exp', exp, '漏洞已遭實際攻擊利用');
+    add('urg', !exp && one(c.urgency) === '高', '急迫性高：要馬上動作');
+    add('imp', one(c.weight) === '高', '事件分量高：有傷亡、政策或法律實質改變、明顯的市場影響');
+    const why = hotWhy(c);
+    add('hot', why.length > 0, `熱門：${why.join('；')}`);
+    add('rel', one(c.relevance) === '高', '讀者關聯高：跟台灣讀者、開發者、遊戲業、博奕業關係密切');
+    return out;
+  }
+
   // ── 一列 ──
   // c：輕量條目（契約 §9）。o：
   //   meta(id) → { short, group }：系列短名與領域（頁面從 index.json 給）
   //   page：這頁本身的系列代號（字串或陣列）：上方小字、最後一列都不列（本日焦點不給，全部都列）
   //   time：上方小字的時間節點（用 time() 做）；series:false＝上方小字不列系列（議題頁）
-  //   extra：上方小字接在家數後的字串（鄉民頁的平台熱度「85 推」）；flag：標題前的紅底標示（資安頁「遭利用」）
+  //   extra：上方小字接在家數後的字串（鄉民頁的平台熱度「85 推」）；flag：標題前的紅底標示（遭利用已改成記號，現在沒有頁面用）
+  //   omit：不標的記號鍵（見 marks）
   //   known：頁面上已寫的字（議題頁的議題路徑「上層 › 子議題」），展開後的分類不重列
   //   tag：外層元素（預設 article；放進 <ol> 時給 li）；id
   // 回傳外層元素（data-id＝編號、data-fq＝系列代號空白分隔，給頁面過濾）；編號不對或沒有標題回 null
   const seriesIds = (c) => [...new Set(list(c.series).filter((s) => typeof s === 'string' && s))];
   const metaOf = (o) => o.meta || ((id) => ({ short: id, group: '' }));
-  // 上方小字：這頁以外的系列・時間・家數・頁面加的字・網路討論（row、link 共用）
+  // 上方小字：記號・這頁以外的系列（灰字；領域色只留在左緣線）・時間・家數・頁面加的字・網路討論（row、link 共用）。
+  // 「・」「、」由 rows.css 接在前一項後面（換行時不會落在行首）
   function topLine(c, o, others, tag) {
     const meta = metaOf(o);
     const outlets = c.heat && Number.isInteger(c.heat.outlets) && c.heat.outlets > 0 ? c.heat.outlets : 0;
-    const warn = A.bar && A.bar.ICON ? A.bar.ICON.warn : '';
     return h(tag, { class: 'rw-mt' }, [
+      ...marks(c, o.omit),
       ...(o.series === false ? [] : others.map((s) => h('span', { class: 'rw-ty', 'data-group': meta(s).group || null }, [meta(s).short || s]))),
       o.time || null,
       outlets ? h('span', { class: 'rw-n' }, [`${outlets} 家`]) : null,
       ...list(o.extra).filter((x) => str(x)).map((x) => h('span', { class: 'rw-n' }, [x])),
-      c.online_only === true ? h('span', { class: 'rw-online' }, [h('span', { class: 'rw-online-ico', html: warn }), '網路討論，未經媒體證實']) : null,
+      c.online_only === true ? h('span', { class: 'rw-online' }, ['網路討論，未經媒體證實']) : null,
     ]);
   }
   // 最後一段 log：補充「更新 HH:MM」、更正紅色「更正 HH:MM」＋該段的更新句（更正句開頭的「更正：」不重寫）
@@ -265,9 +316,11 @@
     const top = topLine(c, o, others, 'span');
     const upd = updLine(c);
     const body = h('div', { class: 'more-body rw-body' });
+    // 部署空窗：舊 series.js 還會給 flag「遭利用」，記號已標就不重複
+    const flag = str(o.flag) && !(o.flag === '遭利用' && c.exploited === true) ? o.flag : '';
     const det = h('details', { class: 'peek' }, [
       h('summary', { class: 'peek-sum' }, [top, h('span', { class: 'row-title rw-title' }, [
-        str(o.flag) ? h('span', { class: 'rw-flag' }, [o.flag]) : null, c.title,
+        flag ? h('span', { class: 'rw-flag' }, [flag]) : null, c.title,
       ]), upd]),
       body,
     ]);
@@ -286,6 +339,23 @@
         fx ? fx.toggle : null,
       ]);
     }
+    // 展開區底部「收起」（決策 2026-11-26）：收起後焦點回標題列；標題已捲出畫面（被工具列或黏頂的段標題蓋住）時，
+    // 把這一列捲回它們下方。桌機、手機一樣
+    function fold() {
+      const b = h('button', { type: 'button', class: 'rw-fold' }, ['收起']);
+      b.addEventListener('click', () => {
+        det.open = false;
+        const sum = det.querySelector('summary');
+        sum.focus({ preventScroll: true });
+        const bar = parseFloat(getComputedStyle(document.documentElement).getPropertyValue('--bar-h')) || 0;
+        const sec = el.closest('section');
+        const head = sec && sec.querySelector(':scope > :is(h2, h3)');
+        const stuck = head && getComputedStyle(head).position === 'sticky' ? head.getBoundingClientRect().height : 0;
+        const top = el.getBoundingClientRect().top;
+        if (top < bar + stuck) window.scrollBy(0, top - bar - stuck - 4);
+      });
+      return b;
+    }
     let state = 'idle'; // idle → loading → done；失敗回 idle
     async function fill() {
       state = 'loading';
@@ -298,18 +368,19 @@
           title: str(card.title), types: [...names, ...list(o.known).filter((x) => str(x))], links: true,
         }) : null;
         body.replaceChildren(...[
-          prose('row-sum', str(card.summary_html)), dive(str(card.dive_html)), fields(card), acts(fx), fx ? fx.panel : null,
+          prose('row-sum', str(card.summary_html)), dive(str(card.dive_html)), fields(card), acts(fx), fx ? fx.panel : null, fold(),
         ].filter(Boolean));
         state = 'done';
       } catch (err) {
         const why = err instanceof SyntaxError ? '資料格式不對' : (err && err.message) || String(err);
-        body.replaceChildren(h('p', { class: 'rw-err', role: 'alert' }, [`這張新聞卡載入失敗（${why}），收起再點開可重試。`]), acts(null));
+        body.replaceChildren(h('p', { class: 'rw-err', role: 'alert' }, [`這張新聞卡載入失敗（${why}），收起再點開可重試。`]), acts(null), fold());
         state = 'idle';
       }
     }
     // toggle 不冒泡：掛在每個 details 上；頁面重畫時設 open 也會觸發（卡檔已在快取）
     det.addEventListener('toggle', () => { if (det.open && state === 'idle') fill(); });
-    return outer(c, o, all, 'rw', [det]);
+    const el = outer(c, o, all, 'rw', [det]);
+    return el;
   }
 
   // 不在頁內展開的一列（暫時頁，樣式摘要第 10 節）：上方小字、標題（連到新聞卡頁）、更新句、一句話（不截斷）。
@@ -327,7 +398,34 @@
     ]);
   }
 
+  // ── 記號說明（每頁最下方、頁尾前；本日焦點、系列頁、議題頁、暫時頁、新聞卡頁；來源狀態頁不放）──
+  // 樣本用同一個元件，每個一句定義。o：
+  //   cards：false＝只列五個記號（新聞卡頁：更新、更正、網路討論在頁上另有寫法）
+  //   line：false＝不寫左緣色線那句（議題頁、新聞卡頁沒有色線；一般外觀由 look-standard.css 藏）
+  //   after：記號後面接什麼（預設「系列、時間、報導家數」）
+  //   front：本日焦點前幾張不標重要時的張數（0＝沒有這句）
+  function legend(o = {}) {
+    const upd = (fix) => h('span', { class: `rw-up${fix ? ' is-fix' : ''}` }, [h('span', { class: 'rw-up-k' }, [fix ? '更正 HH:MM' : '更新 HH:MM'])]);
+    const items = MARKS.map(([k, , , def]) => [markEl(k), k === 'imp' && o.front ? `${def}本日焦點的前 ${o.front} 張都是，所以不另標。` : def]);
+    if (o.cards !== false) {
+      items.push(
+        [upd(false), '之後有補充；灰底那一行是最後一次補充的重點。'],
+        [upd(true), '內容更正過；原文不改，更正另列在新聞卡裡。'],
+        [h('span', { class: 'rw-online' }, ['網路討論']), '只有社群討論，還沒有媒體證實。'],
+      );
+    }
+    return h('section', { class: 'rw-lg', 'aria-labelledby': 'rw-lg-h' }, [
+      h('h2', { class: 'rw-lg-h', id: 'rw-lg-h' }, ['記號說明']),
+      h('dl', { class: 'rw-lg-list' }, items.flatMap(([k, v]) => [h('dt', null, [k]), h('dd', null, [v])])),
+      h('p', { class: 'rw-lg-note' }, [
+        o.line === false ? null : h('span', { class: 'rw-lg-line' }, ['左邊的色線是新聞所屬的領域；']),
+        `${o.line === false ? '' : '上方小字裡的'}記號順序固定：緊急或遭利用、重要、熱門、切身，之後才是${o.after || '系列、時間、報導家數'}。`,
+      ]),
+    ]);
+  }
+
   // rich(tag, attrs, html)、prose(cls, html)、dive(html)：*_html 淨化後成元素（新聞卡頁共用；card.js 缺這幾個時退回純文字）。
   // eventAt、dayOf、today、shiftDay、dayLabel、level、byImportance：列表頁的分天與排序（系列頁 series.js、暫時頁 adhoc.js 同一套）
-  A.rows = { row, link, time, hm, mdw, cardPath, rich, prose, dive, eventAt, dayOf, today, shiftDay, dayLabel, level, byImportance };
+  // marks(c, omit)：列記號節點（新聞卡頁也用）；legend(o)：記號說明（頁面放在頁尾前；部署空窗缺這兩個就不放）
+  A.rows = { row, link, time, hm, mdw, cardPath, rich, prose, dive, eventAt, dayOf, today, shiftDay, dayLabel, level, byImportance, marks, legend };
 })();

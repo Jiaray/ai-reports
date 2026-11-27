@@ -281,6 +281,8 @@
           got.length > 1 ? jump() : null,
         ]),
         h('main', { id: 'main', class: 'st-main' }, main),
+        // 記號說明（rows.js；時間軸不用領域色線、上方小字不列系列；部署空窗配到舊 rows.js 就不放）
+        got.length && R.legend ? R.legend({ line: false, after: '時間、報導家數' }) : null,
       ],
     };
   }

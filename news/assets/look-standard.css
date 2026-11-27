@@ -104,7 +104,9 @@
 [data-look=standard] .fp-alm-cal th:not(.is-off),[data-look=standard] .fp-alm-lab{color:var(--text-3)}
 [data-look=standard] :is(.fp-alm-k,.fp-alm-fest){border-radius:var(--radius-sm)}
 [data-look=standard] .fp-alm-fest{border-color:var(--accent);color:var(--accent)}
-@media(max-width:40em){[data-look=standard] .fp-alm-mon{border-left:0}[data-look=standard] .fp-alm-body{border-top:var(--hair) solid var(--border)}}
+@media(max-width:40em){[data-look=standard] .fp-alm-mon{border-left:0}[data-look=standard] .fp-alm-body{border-top:var(--hair) solid var(--border)}
+[data-look=standard] .fp-alm-tg{color:var(--text-2);letter-spacing:0}[data-look=standard] .fp-alm-tg b{color:var(--text)}
+[data-look=standard] .fp-alm.is-open .fp-alm-tg{border-bottom:var(--hair) solid var(--border)}}
 /* 過濾標籤（頭版；議題目錄 .st 用同一套）：高度與可點範圍照 front.css，只換顏色、圓角、左右內距 */
 [data-look=standard] :is(.fp,.st) .fp-chip{padding:3px 10px;border:var(--hair) solid var(--border);border-radius:999px;background:var(--surface);color:var(--text-2);font:400 14px/1 var(--font-sans);letter-spacing:0}
 @media(max-width:40em){[data-look=standard] :is(.fp,.st) .fp-chip{padding:3px 8px;font-size:13px}}
@@ -115,6 +117,17 @@
 [data-look=standard] :is(.fp,.st) .fp-chip[aria-pressed=true] .fp-chip-n{color:inherit}
 @media(hover:hover){[data-look=standard] :is(.fp,.st) .fp-chip[aria-pressed=false]:hover{background:var(--surface);color:var(--accent)}}
 [data-look=standard] :is(.fp,.st) .fp-fq-clear{color:var(--link)}
+/* 各系列速覽（front.css 的 .fp-map）：系統字、不用領域色短線；段標題同系列頁日段的粗底線 */
+[data-look=standard] .fp-map{border-top:2px solid var(--text)}
+[data-look=standard] .fp-map-h{font:var(--fw-head) clamp(20px,.8vw + 17px,24px)/1.3 var(--font-sans);letter-spacing:0;color:var(--text-head)}
+[data-look=standard] :is(.fp-map-sub,.fp-sec-none,.fp-map-empty){font-family:var(--font-sans);letter-spacing:0;color:var(--text-3)}
+[data-look=standard] .fp-dom{border-top:var(--hair) solid var(--border)}
+[data-look=standard] .fp-dom-h{font:400 13px/1.4 var(--font-sans);letter-spacing:.04em;color:var(--text-3)}
+[data-look=standard] .fp-sec-h{border-bottom:2px solid var(--text)}
+[data-look=standard] .fp-sec-t{font:700 15px/1.4 var(--font-sans);letter-spacing:0;color:var(--text-head)}
+[data-look=standard] .fp-sec-t::before{content:none}
+[data-look=standard] .fp-sec-n{font:400 13px/1.4 var(--font-sans);color:var(--link)}
+[data-look=standard] .fp-sec-a:hover .fp-sec-n{color:var(--accent)}
 /* 本日焦點的退路條目（.fp-it，front.js focusRow） */
 [data-look=standard] .fp-it{margin:0;padding:0;border-left:0;background:none}
 [data-look=standard] .fp-mt{font:500 var(--fs-tag)/1.5 var(--font-sans);gap:0}
@@ -136,17 +149,20 @@
 /* 列表列（rows.js）：不用領域色線，細線分隔，單欄清單；每列一樣，沒有頭條樣式 */
 [data-look=standard] .rw{margin:0;padding:16px 0;border-left:0;border-top:var(--hair) solid var(--border);background:none}
 [data-look=standard] .rw:first-child{padding-top:4px;border-top:0}
-[data-look=standard] .rw-mt{font:500 var(--fs-tag)/1.5 var(--font-sans);gap:0 8px}
+[data-look=standard] .rw-mt{font:500 var(--fs-tag)/1.5 var(--font-sans);gap:3px 8px}
 [data-look=standard] .rw-ty+.rw-ty{margin-left:-8px}
-[data-look=standard] .rw-ty{color:var(--accent);letter-spacing:.04em}
-[data-look=standard] .rw-ty+.rw-ty::before{color:var(--text-3)}
+/* 系列名灰字（品牌紅留給緊急、遭利用、更正記號）；不用「・」分隔（間距分開），系列之間的「、」保留 */
+[data-look=standard] .rw-ty{color:var(--text-3);letter-spacing:.04em}
 [data-look=standard] :is(.rw-tm,.rw-n){color:var(--text-3);font-weight:400;font-size:var(--fs-meta)}
-[data-look=standard] .rw-mt>:is(.rw-tm,.rw-n):not(:first-child)::before{content:none}
+[data-look=standard] .rw-mt>:not(.rw-mk):has(+:is(.rw-tm,.rw-n))::after,[data-look=standard] .rw-mt>:not(.rw-mk)+:is(.rw-tm,.rw-n)::before{content:none}
 [data-look=standard] .rw .rw-title{font:var(--fw-head) var(--fs-card)/1.4 var(--font-sans);color:var(--text-head)}
 [data-look=standard] .rw .peek>summary:hover .rw-title{color:var(--accent)}
-[data-look=standard] .rw-up{font:var(--fw-body) 14px/1.6 var(--font-sans);color:var(--text-2)}
-[data-look=standard] .rw-up-k{border-color:var(--text-3);border-radius:var(--radius-sm);color:var(--text-2);font:500 12px/1.3 var(--font-sans);padding:1px 5px}
-[data-look=standard] .rw-up.is-fix .rw-up-k{border-color:var(--accent);color:var(--accent)}
+/* 記號、更新句、網路討論：外框與顏色照 rows.css（一般外觀的代幣已對應：重要＝連結藍、緊急＝品牌紅、墨色＝內文色），只換圓角與字型 */
+[data-look=standard] :is(.rw-mk,.rw-up-k,.rw-online){border-radius:var(--radius-sm);font:600 12px/1.55 var(--font-sans);letter-spacing:.02em}
+[data-look=standard] .rw-up{border-radius:var(--radius-sm);font:var(--fw-body) 14px/1.6 var(--font-sans);color:var(--text-2)}
+[data-look=standard] .rw-lg{border-top:var(--hair) solid var(--border)}
+[data-look=standard] :is(.rw-lg-h,.rw-lg-list dd,.rw-lg-note){font-family:var(--font-sans);letter-spacing:0}
+[data-look=standard] .rw-lg-line{display:none}   /* 一般外觀沒有左緣色線 */
 [data-look=standard] .rw .row-sum{font:var(--fw-body) var(--fs-lead)/1.65 var(--font-sans)}
 [data-look=standard] .rw .row-dive{font-size:var(--fs-lead)}
 [data-look=standard] .rw-fields{font:var(--fw-body) var(--fs-lead)/1.65 var(--font-sans);letter-spacing:var(--ls-body);color:var(--text)}
@@ -157,8 +173,9 @@
 [data-look=standard] .rw-act{color:var(--link);font:500 14px/1.3 var(--font-sans)}
 [data-look=standard] .rw-act:hover{color:var(--accent)}
 [data-look=standard] .rw-sr{color:var(--text-3);font:400 13px/1.3 var(--font-sans)}
+[data-look=standard] .rw-fold{color:var(--text-3);font:400 13.5px/1.3 var(--font-sans)}
+[data-look=standard] .rw-fold:hover{color:var(--accent)}
 [data-look=standard] .rw-sep{border-left-color:var(--border)}
-[data-look=standard] .rw-online{border-radius:var(--radius-sm);font:500 12px/1.6 var(--font-sans)}
 [data-look=standard] .rw-flag{border-radius:var(--radius-sm);background:var(--badge-bg);color:var(--badge-text);font:600 12px/1.5 var(--font-sans);letter-spacing:.04em;padding:1px 6px;vertical-align:3px}
 /* 不展開的一列（暫時頁）：標題連結 hover 換品牌色；一句話 15px */
 [data-look=standard] .rw .rw-go:hover{color:var(--accent)}

@@ -2,8 +2,11 @@
    report.js 讀完 index.json、確定是其中的系列後呼叫 render(ctx)；工具列、「版面」沿用 report.js 的。這支沒載到時 report.js 顯示施工中。
    讀 cards/recent.json，列近 7 天（台北日曆日：今天往回 6 天）這個系列的新聞卡，依天分段、新到舊；條目是 rows.js 的列表列。
    - 放哪天：事件時間（event_at）那天；補充過的移到最後補充（supplemented_at）那天，上方小字的時間改寫「新增 M/D」；更正、掛來源不移。
-   - 同一天內：事件分量 → heat_rank → 時間新到舊（rows.js byImportance；時間用放那天的時刻）；每張都同樣只列標題（沒有頭條樣式，使用者定案）。
-   - 資安：頂端「要修補的漏洞」（事件類型含漏洞揭露），依急迫性 → 同上；exploited 標「遭利用」；列過的不再進日段。
+   - 報頭一行「系列名　近 7 天・N 張 …… [最新｜重要]」；排序預設最新（放那天的時刻新到舊），存 air-series-sort（所有系列頁共用）。
+   - 同一天內（排序選重要）：事件分量 → heat_rank → 時間新到舊（rows.js byImportance；時間用放那天的時刻）；每張都同樣只列標題（沒有頭條樣式，使用者定案）。
+     以下各頁的排法也都是「重要」；選最新時分區照留，區內一律新到舊。
+   - 資安：頂端「要修補的漏洞」（事件類型含漏洞揭露），依急迫性 → 同上；遭利用是 rows.js 的列記號（exploited）；列過的不再進日段。
+   - 列記號（緊急、遭利用、重要、熱門、切身）由 rows.js 畫；main 後、頁尾前放記號說明（rows.js legend）。
    - 鄉民：每天再分 PTT、HN、V2EX 三區，各依該平台熱度排、只列 > 0；同一張卡在幾個平台有熱度就列幾次（〈不重複〉的例外）。
    - 財經：每天再分台灣（台灣關聯直接）、國際兩區，各依重要程度排；兩區都全部直接列出（不收合，使用者定案）。
    - 遊戲產業：同一天內主題含網頁遊戲的排前面。
@@ -51,6 +54,21 @@
   const str = (v) => (typeof v === 'string' ? v : '');
   const list = (v) => (Array.isArray(v) ? v : []);
   const valid = (iso) => typeof iso === 'string' && !Number.isNaN(Date.parse(iso));
+
+  // ── 排序「最新｜重要」（決策 2026-11-26）：預設最新；存 air-series-sort（所有系列頁共用，不進網址）。
+  //    最新＝放那天的時刻（max(事件時間, 補充時間)）新到舊；重要＝原本各頁的排法。頁內分區（要修補的漏洞、鄉民三平台、財經台灣／國際）都保留，只改區內順序 ──
+  const SORT_KEY = 'air-series-sort';
+  const ico = (body) => `<svg viewBox="0 0 20 20" width="14" height="14" aria-hidden="true" focusable="false">${body}</svg>`;
+  const SORTS = [
+    ['new', '最新', ico('<circle cx="10" cy="10" r="7.2" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M10 5.6V10l3 2" fill="none" stroke="currentColor" stroke-width="1.7"/>')], // 時鐘
+    ['imp', '重要', ico('<circle cx="10" cy="4.4" r="2.4" fill="none" stroke="currentColor" stroke-width="1.7"/><path d="M5.4 7.8h9.2l2.6 10.4H2.8z" fill="currentColor"/>')], // 秤砣
+  ];
+  function readSort() {
+    let v = null;
+    try { v = localStorage.getItem(SORT_KEY); } catch (e) { /* 讀不到：用預設 */ }
+    return SORTS.some((s) => s[0] === v) ? v : SORTS[0][0];
+  }
+  let sort = readSort();
 
   let ctx = null; // { app, index, t, d, toolbar }
   let doc = null; // recent.json（還沒建＝{}）
@@ -102,7 +120,7 @@
     const time = x.moved
       ? R.time(x.ev, `新增 ${md(x.ev)}`, R.mdw(x.ev))
       : R.time(x.ev, o.full ? `${md(x.ev)} ${R.hm(x.ev)}` : R.hm(x.ev), R.mdw(x.ev));
-    const el = R.row(x.c, { meta, page: ctx.t, time, tag: 'li', flag: o.flag, extra: o.extra });
+    const el = R.row(x.c, { meta, page: ctx.t, time, tag: 'li', extra: o.extra });
     if (!el) return null;
     el.dataset.group = meta(ctx.t).group || el.dataset.group || '';
     el.dataset.k = `${o.zone || ''}|${x.c.id}`;
@@ -127,6 +145,8 @@
     const all = pageCards();
     const atOf = new Map(all.map((x) => [x.c, x.at]));
     const imp = R.byImportance((c) => atOf.get(c) || R.eventAt(c));
+    const ms = (iso) => Date.parse(iso) || 0;
+    const latest = sort === 'new' ? (a, b) => ms(b.at) - ms(a.at) || imp(a.c, b.c) : null; // 最新：放那天的時刻新到舊
     const t = ctx.t;
     let rest = all;
     const out = [];
@@ -134,12 +154,12 @@
     // 資安：要修補的漏洞
     if (t === 'security') {
       const patch = all.filter((x) => list(x.c.event).includes(PATCH_EVENT))
-        .sort((a, b) => R.level(a.c.urgency) - R.level(b.c.urgency) || imp(a.c, b.c));
+        .sort(latest || ((a, b) => R.level(a.c.urgency) - R.level(b.c.urgency) || imp(a.c, b.c)));
       if (patch.length) {
         rest = all.filter((x) => !patch.includes(x));
         patch.forEach((x) => shown.add(x.c.id));
         out.push(section('sp-patch', 'sp-patch', '要修補的漏洞', patch.length, [
-          rowsList(patch.map((x) => rowOf(x, { full: true, zone: 'patch', flag: x.c.exploited === true ? '遭利用' : '' }))),
+          rowsList(patch.map((x) => rowOf(x, { full: true, zone: 'patch' }))), // 遭利用是 rows.js 的記號（exploited）
         ]));
       }
     }
@@ -152,7 +172,7 @@
       const id = `d-${day}`;
       if (t === 'social') {
         const zones = PLATFORMS.map(([k, name, unit]) => {
-          const zi = items.filter((x) => community(x.c, k)).sort((a, b) => community(b.c, k) - community(a.c, k) || imp(a.c, b.c));
+          const zi = items.filter((x) => community(x.c, k)).sort(latest || ((a, b) => community(b.c, k) - community(a.c, k) || imp(a.c, b.c)));
           if (!zi.length) return null;
           return zone(k, name, zi.length, zi.map((x) => rowOf(x, { zone: k, extra: [`${community(x.c, k)} ${unit}`] })));
         }).filter(Boolean);
@@ -162,14 +182,14 @@
       // 財經：台灣在上、國際在下，各依重要程度，全部直接列出
       if (t === 'finance') {
         const zones = FIN_ZONES.map(([k, name]) => {
-          const zi = items.filter((x) => finZone(x.c) === k).sort((a, b) => imp(a.c, b.c));
+          const zi = items.filter((x) => finZone(x.c) === k).sort(latest || ((a, b) => imp(a.c, b.c)));
           if (!zi.length) return null;
           return zone(k, name, zi.length, zi.map((x) => rowOf(x, { zone: k })));
         }).filter(Boolean);
         out.push(section(id, 'sp-day', R.dayLabel(day), items.length, zones, day));
         return;
       }
-      items.sort((a, b) => (t === 'game_industry' ? webGame(b.c) - webGame(a.c) : 0) || imp(a.c, b.c));
+      items.sort(latest || ((a, b) => (t === 'game_industry' ? webGame(b.c) - webGame(a.c) : 0) || imp(a.c, b.c)));
       out.push(section(id, 'sp-day', R.dayLabel(day), items.length, [rowsList(items.map((x) => rowOf(x)))], day));
     });
     return { sections: out, count: shown.size };
@@ -193,27 +213,53 @@
     if (focused && focused.isConnected && focused !== document.activeElement) focused.focus({ preventScroll: true });
   }
 
-  // 重畫不打斷閱讀：記下展開中的列與焦點所在的列，畫完還原（卡檔已在 rows.js 快取）
+  // 排序鈕（報頭右邊；手機在系列名右邊）：按了存起來、整頁重畫（展開中的列保持展開）、焦點留在這顆
+  function sortBar() {
+    return h('div', { class: 'sp-sort', role: 'group', 'aria-label': '排序' }, SORTS.map(([v, text, icon]) => {
+      const b = h('button', { type: 'button', class: 'sp-sort-b', 'data-v': v, 'aria-pressed': String(sort === v) }, [
+        h('span', { class: 'sp-sort-ico', html: icon }), h('span', null, [text]),
+      ]);
+      b.addEventListener('click', () => {
+        if (sort === v) return;
+        sort = v;
+        try { localStorage.setItem(SORT_KEY, v); } catch (e) { /* 存不了：只套用這次 */ }
+        draw();
+      });
+      return b;
+    }));
+  }
+  // 別的分頁改了排序 → 跟著換
+  window.addEventListener('storage', (e) => {
+    if ((e.key !== SORT_KEY && e.key !== null) || !ctx || readSort() === sort) return;
+    sort = readSort();
+    draw();
+  });
+
+  // 重畫不打斷閱讀：記下展開中的列與焦點所在的列（或排序鈕），畫完還原（卡檔已在 rows.js 快取）
   function draw() {
     const app = ctx.app;
     const rowOfEl = (el) => (el && el.closest ? el.closest('#main [data-k]') : null);
     const opened = new Set([...app.querySelectorAll('#main [data-k]')].filter((el) => el.querySelector('details[open]')).map((el) => el.dataset.k));
     const active = rowOfEl(document.activeElement);
     const activeK = active ? active.dataset.k : null;
+    const sortBtn = document.activeElement && document.activeElement.closest ? document.activeElement.closest('.sp-sort-b') : null;
     const short = meta(ctx.t).short;
     const { sections, count } = build();
     const rule = RULES[ctx.t];
     show([
       ctx.toolbar(),
+      // 報頭一行：系列名　近 7 天・N 張 …… [最新｜重要]（手機：系列名＋排序一行，近 7 天・N 張下一行；series.css）
       h('header', { class: 'masthead sp-head' }, [
         h('h1', { class: 'mast-title' }, [short]),
         h('p', { class: 'sp-sub' }, [count ? `近 ${DAYS} 天・${count} 張` : `近 ${DAYS} 天`]),
+        count ? sortBar() : null,
       ]),
       h('main', { id: 'main', class: 'sp' }, count ? sections : [
         h('p', { class: 'sp-empty', role: 'status' }, [`近 ${DAYS} 天沒有符合的新聞卡。`]),
         others(),
       ]),
-      rule ? h('footer', { class: 'foot sp-foot' }, [h('span', { class: 'foot-left' }, [`${short}收錄：${rule}`])]) : null,
+      count && R.legend ? R.legend() : null, // 記號說明（部署空窗配到舊 rows.js 就不放）
+      rule ?h('footer', { class: 'foot sp-foot' }, [h('span', { class: 'foot-left' }, [`${short}收錄：${rule}`])]) : null,
     ]);
     document.title = `${short}｜AI Reports`;
     drawnKey = `${R.today()}|${(doc && doc.built_at) || ''}`;
@@ -224,6 +270,8 @@
     });
     const back = activeK && find(activeK);
     if (back) back.querySelector('summary').focus({ preventScroll: true });
+    const again = sortBtn && app.querySelector(`.sp-sort-b[data-v="${sortBtn.dataset.v}"]`);
+    if (again) again.focus({ preventScroll: true });
   }
 
   // &d=：7 天內捲到那天那段（新到舊，第一個不晚於那天的段）；超過、格式不對停在頁首。

@@ -162,6 +162,8 @@
           h('p', { class: 'ah-note' }, ['這是臨時查詢的結果頁，7 天內沒有再查就會刪除；裡面的新聞卡不受影響，連結照樣能開。']),
         ]),
         h('main', { id: 'main', class: 'ah' }, cards.length ? sections(cards) : [h('p', { class: 'ah-empty' }, ['這次查詢沒有收進任何新聞卡。'])]),
+        // 記號說明（rows.js；舊 rows.js 沒有 legend 就不放）
+        ...(cards.length && R.legend ? [R.legend()] : []),
       ],
     };
   }

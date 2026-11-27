@@ -71,7 +71,7 @@
 .pd-n{flex:none;font:500 13px/1.35 var(--font-heading);color:var(--color-neutral-600)}
 .pd-item[aria-current=page]{color:var(--color-accent-700);font-weight:600;box-shadow:inset 2px 0 var(--color-accent-600)}
 .pd-item:focus-visible{outline:2px solid var(--color-accent-600);outline-offset:-2px}
-/* 系列面板（bar.js 的 seriesMenu）：「新聞卡（近 7 天）」一欄，清單分兩欄；沿用 .pd-group、.pd-item（目前系列同樣左側 2px 線）。
+/* 系列面板（bar.js 的 seriesMenu）：「新聞卡（近 7 天）・數字是近 24 小時張數」一欄，清單分兩欄；沿用 .pd-group、.pd-item（目前系列同樣左側 2px 線）。
    每列文字前一條 3px 領域色短線（不是目前位置那條）；系列照 index.json 順序，同領域的挨在一起。按鈕在工具列右邊一組→同版面貼按鈕右緣展開 */
 .sr-panel{width:min(400px,calc(100vw - 32px))}
 .sr-body{display:flex;gap:var(--space-6);max-height:min(70vh,32rem);overflow-y:auto;overscroll-behavior:contain;border-top:1px solid var(--color-divider);padding-bottom:var(--space-2)}
@@ -83,6 +83,11 @@
 .is-sheet .sr-body{max-height:none;overflow:visible}
 .sr-it{justify-content:flex-start;align-items:center;gap:8px}
 .sr-it::before{content:"";flex:none;width:3px;height:1.05em;background:var(--g-c,var(--color-neutral-300))}
+/* 近 24 小時張數（決策 2026-11-26）：灰字等寬數字靠右；0 張的整列變灰（照樣能點），欄名後接「・數字是近 24 小時張數」 */
+.sr-n{margin-left:auto;font-variant-numeric:tabular-nums;letter-spacing:0}
+.sr-it.is-zero{color:var(--color-neutral-600)}
+.sr-it.is-zero::before{opacity:.4}
+.sr-note{color:var(--color-neutral-600)}
 /* 版面面板 */
 .vw-group{display:grid;grid-template-columns:3.5em minmax(0,1fr);align-items:center;gap:var(--space-3);padding:var(--space-3) 0;border-top:1px solid var(--color-divider)}
 .vw-label{font:500 13px/1.4 var(--font-body);color:var(--color-neutral-600)}
