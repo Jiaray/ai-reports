@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0635",
+ "title": "普丁出席新型 Yasen-M 級核動力潛艦「彼爾姆號」升旗典禮，俄稱是首艘配備鋯石極音速飛彈的潛艦",
+ "line": "普丁說 2030 年前海軍將再接收 5 艘核潛艦，其中 3 艘是同級艦",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-28T04:39:57+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "RU"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "國防與軍事"
+  ],
+  "event": [
+   "軍事行動"
+  ],
+  "sector": [
+   "航太與國防"
+  ],
+  "org": [
+   "俄羅斯海軍",
+   "北德文斯克造船廠"
+  ],
+  "person": [
+   "普丁"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Yasen-M",
+   "鋯石飛彈",
+   "核潛艦",
+   "核嚇阻"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "俄羅斯總統普丁 11 月 27 日在西北部北德文斯克的造船廠，出席新型 Yasen-M 級核動力潛艦「彼爾姆號」的升旗典禮，標誌潛艦正式移交海軍。莫斯科稱這是第一艘配備俄製鋯石（Zircon）極音速飛彈的潛艦。普丁說：「俄羅斯是世界上少數有能力建造這類強大核潛艦的國家之一，這是具有全球射程與意義的武器。」他表示 2030 年前海軍將再接收 5 艘核潛艦，其中 3 艘是 Yasen-M 級，可在「世界任何海域」活動並攜帶多種巡弋飛彈，並稱俄國會持續現代化海軍、打造強大海上力量的計畫將如期完成。核潛艦能在水下隱蔽行動、確保遭攻擊後的報復能力，是俄羅斯核嚇阻的關鍵一環。",
+ "dive_html": "在烏克蘭接連擊沉、癱瘓俄國艦船之際，普丁高調展示新潛艦，有向西方宣示海上核嚇阻能力未受影響的意味。極音速巡弋飛彈搭配難以追蹤的核潛艦，會增加北約在北大西洋與北極的反潛壓力；建艦計畫能否如期完成，則受俄國戰時財政與制裁限制。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Putin unveils new Russian nuclear-powered submarine with hypersonic weapons",
+   "url": "https://www.aljazeera.com/news/2026/11/27/putin-unveils-new-russian-nuclear-powered-submarine-with-hypersonic-weapons",
+   "time": "2026-11-28T04:39:57+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

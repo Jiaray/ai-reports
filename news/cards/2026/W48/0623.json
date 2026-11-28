@@ -1,0 +1,149 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0623",
+ "title": "美軍以精準彈藥癱瘓一艘駛離伊朗阿巴斯港的帛琉籍貨輪，封鎖以來已癱瘓 6 艘、轉向 158 艘",
+ "line": "美國中央司令部稱船員未受傷，德黑蘭誓言打破 7 月重啟的港口封鎖",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-28T03:07:00+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中東",
+   "北美"
+  ],
+  "country": [
+   "US",
+   "IR",
+   "PW"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "戰爭與衝突",
+   "國際關係"
+  ],
+  "event": [
+   "軍事行動"
+  ],
+  "story": [
+   "伊朗戰爭"
+  ],
+  "sector": [
+   "運輸與物流"
+  ],
+  "org": [
+   "美國中央司令部"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "伊朗港口封鎖",
+   "阿曼灣",
+   "Pacific Archer"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美國中央司令部（CENTCOM）11 月 27 日宣布，一架美軍飛機以「精準彈藥」射擊帛琉籍貨輪 Pacific Archer 的船尾，最終癱瘓其推進系統，船員未受傷。CENTCOM 說這艘船從伊朗阿巴斯港駛入阿曼灣、違反美國對伊朗港口的封鎖，且不理會停船警告，美方「持續嚴格執行封鎖」。美國在與德黑蘭的協議破裂後於 7 月中重啟對伊朗港口的封鎖，DW 報導至今已癱瘓 6 艘船、迫使 158 艘改道；Al Jazeera 引述報導稱封鎖重啟以來已花費美國約 20 億美元，德黑蘭則誓言打破封鎖。WSJ 指川普在外交談判陷入僵局之際持續對伊朗經濟施壓。DW 同時報導，科威特已因兩名義大利技術人員遇襲身亡一事召見伊朗大使。",
+ "dive_html": "美方對商船動武的頻率與伊朗誓言反制，讓阿曼灣與荷莫茲海峽的航運風險持續升高，加上本週科威特遇襲、胡塞攻擊沙烏地煉油廠，波灣多點衝突同時升溫。對依賴中東原油與航運的亞洲經濟體，包括台灣，油價與運費保費的波動短期難以消退。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AP (Google News fallback)",
+   "title": "US military says it disabled another ship that tried to breach naval blockade on Iranian ports",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxNVTZNR0tfZHB4Qm11eFRLSFJNQjZNejlab0p2TVUzdjBwR1Bsby0xbkZXNVdGbGlBSmJVWGRrVFRhaDVmcW9OTllRcHdYa2VOUjczdkdlQmFGZFZsMm9iUlVKcDZsZkZUYVVFLWFucUlzTnhPYUFpNXlESWd0cDJHbjlMVjlpdVhEX21fSGZLZzlmYks4a21YRUpJSnhDYVFNNlR1MVVld3o?oc=5",
+   "time": "2026-11-28T04:43:00+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "WSJ World News",
+   "title": "U.S. Strikes Vessel Attempting Blockade Run Near Iran",
+   "url": "https://www.wsj.com/world/middle-east/u-s-strikes-vessel-attempting-blockade-run-near-iran-338439e4?mod=rss_worldnews",
+   "time": "2026-11-28T03:07:00+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "US disables ship attempting to breach Iran blockade",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/us-disables-ship-attempting-to-breach-iran-blockade",
+   "time": "2026-11-28T07:55:16+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "US military says it disabled merchant ship trying to breach Iran blockade",
+   "url": "https://www.aljazeera.com/news/2026/11/27/us-military-says-it-disabled-merchant-ship-trying-to-breach-iran-blockade",
+   "time": "2026-11-28T06:22:02+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "US disables ship in Gulf of Oman under Iran blockade",
+   "url": "https://www.dw.com/en/us-disables-ship-in-gulf-of-oman-under-iran-blockade/a-80082950?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-28T07:17:00+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "US disables ship trying to leave Iran, as Tehran vows to confront blockade",
+   "url": "https://news.google.com/rss/articles/CBMiugFBVV95cUxPbzhtZElCdnJJN0hCYkdsQ1lTWHc5UDRtNGE4cF9sWE14dlpacmk2blU5cXJMTHp0MGNaMElaQzdSem91dXNpNVRtd1k4ekZza09jVEpubTh3cjlpbE9CNWdMSU1seV9vNDFEeGQ1aDZBY1J1R0JoNVdlcjJaQnlWcU5Ib3ZISHVmNHA4eklQclI2WDIzR0VtNVp0NEJjaDZfcTlKNHRNbW54bGF2TExrR1NaSFJvLUxRcnc?oc=5",
+   "time": "2026-11-28T04:06:57+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 5,
+  "regions": 3,
+  "media_weight": 13,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

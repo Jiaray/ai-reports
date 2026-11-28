@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0639",
+ "title": "Gmail 網頁版 2027 年 1 月起停止以 POP 收取其他信箱郵件，也取消用第三方地址「代寄」",
+ "line": "Gmailify 一併停用，Android 版仍可加入第三方帳號，Workspace 的代寄功能不受影響",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-28T01:15:00+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "科技"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "網路平台",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Google",
+   "Mozilla",
+   "Microsoft"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "upcoming": [
+   "是"
+  ],
+  "keyword": [
+   "Gmail",
+   "POP3",
+   "Send mail as",
+   "Gmailify",
+   "Thunderbird"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "德國科技媒體 ComputerBase 報導，從 2027 年 1 月起，Gmail 網頁版將無法再透過 POP 收取其他郵件服務的郵件，也不能再用第三方地址從 Gmail 寄信（「以這個地址寄送郵件」）。過去不少人把 Gmail 當成多個帳號的集中收件匣，其他業者的郵件直接匯入 Gmail，回信時也能用各自的寄件地址；這些功能結束後都無法在網頁版使用。Google 也將停用 Gmailify，這項功能原本替支援的第三方帳號加上 Gmail 的垃圾郵件防護與收件匣分類。Android 版 Gmail App 限制較少，仍可使用第三方帳號，但不論網頁或 App，2027 年起都不能用「代寄」改用其他寄件地址；Gmail 之間的別名，以及 Google Workspace 帳號的代寄功能則不受影響。ComputerBase 建議想在單一 App 管理多個信箱的使用者，可改用開源的 Thunderbird for Android 或 Microsoft Outlook for Android。",
+ "dive_html": "這項改變影響不少個人與小型團隊的工作方式：用 Gmail 統一收發公司網域或舊 ISP 信箱的人，必須在年底前改用郵件客戶端、設定轉寄，或改用 Workspace。對寄送通知信、客服信的團隊，若有同事靠 Gmail「代寄」用公司地址回信，也要提前改設定以免斷線；原文沒有說明 Google 停用的理由。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "ComputerBase",
+   "title": "Ab 2027: Gmail beendet POP-Abruf und Versand über fremde Adressen",
+   "url": "https://www.computerbase.de/news/apps/ab-2027-gmail-beendet-pop-abruf-und-versand-ueber-fremde-adressen.100569/",
+   "time": "2026-11-28T01:15:00+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "ComputerBase",
+   "kind": "media",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

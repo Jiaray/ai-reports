@@ -1,0 +1,108 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0633",
+ "title": "西班牙加那利群島外海一艘載約百人的移民船上發現至少 8 具遺體，6 人重傷空運送醫",
+ "line": "移民抵達量 10 月以來加速，耶羅島政府請求支援、軍方緊急應變部隊進駐救治",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-28T00:43:46+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "非洲"
+  ],
+  "country": [
+   "ES",
+   "GM",
+   "GN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "移民與難民",
+   "災害與事故"
+  ],
+  "event": [
+   "意外事故"
+  ],
+  "org": [
+   "西班牙海上救援隊",
+   "西班牙軍事緊急應變部隊"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "加那利群島",
+   "大西洋移民路線",
+   "耶羅島"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "西班牙海上救援隊 11 月 27 日表示，一艘載有約 100 人的移民船在加那利群島耶羅島以南 39 海里（72 公里）處獲救，船上發現 8 到 10 具遺體，另有 6 人情況嚴重、以直升機送醫，船隻被拖往 La Estaca 港。另一艘船上的 84 名倖存者在耶羅島主要港口 La Restinga 上岸，當地設有收容中心與野戰醫院；西班牙軍事緊急應變部隊已派往耶羅島救治移民，島上政府因抵達人數激增請求支援。加那利群島靠近西北非，登陸即進入西班牙與歐盟領土，是西非移民的主要入口；抵達人數在 2024 年創下逾 4.6 萬人的紀錄，之後因加強巡邏與和來源國合作而下降，但 10 月以來再度加速。塞內加爾、茅利塔尼亞與摩洛哥外海的巡邏把出發點推往更南的甘比亞、幾內亞比索與幾內亞，航程更長也更危險。",
+ "dive_html": "出發點南移拉長了大西洋航程，死亡風險隨之上升，這艘船的死亡人數就是例證。移民潮在西班牙 11 月 29 日大選前再度升溫，移民政策可能成為極右呼聲黨爭取選票的話題；新政府組成後如何與西非國家合作，將決定這條路線的走向。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "At least eight found dead on migrant boat off Spain’s Canary Islands",
+   "url": "https://www.aljazeera.com/news/2026/11/27/at-least-eight-found-dead-on-migrant-boat-off-spains-canary-islands",
+   "time": "2026-11-28T07:57:03+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Spanish rescuers treat migrants as hundreds arrive in Canary Islands",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/spanish-rescuers-treat-migrants-as-hundreds-arrive-in-canary-islands",
+   "time": "2026-11-28T01:44:50+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "At least eight found dead on migrant boat off Spain's Canary Islands",
+   "url": "https://news.google.com/rss/articles/CBMipgFBVV95cUxNOFg3b1hQNEFySWI3WEZRY21RRGFIQndWTWhVZkdpYUlVczFmR2hiSnZaemxZTzFqYU1uSThFbEVMSkgyVFR1SXE3UEpBd09jOWNzcW9IaXl0TXZIS3k2VXlEUDBVcEJjc25UOHBEXzhJcFBCX2YtdXpqLVVMN1lmVFliYWJ0QnY0YUhOOWJGblFRaXlmbFFpMUZ0aWdvRHRWQ0E4RFd3?oc=5",
+   "time": "2026-11-28T00:43:46+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

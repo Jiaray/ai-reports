@@ -1,0 +1,114 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0631",
+ "title": "澳洲維多利亞州今天州選，民調顯示執政 12 年的工黨恐慘敗，聯盟黨領先 15 個百分點",
+ "line": "最終 Newspoll 兩黨偏好聯盟黨大幅領先，部分民調指工黨可能落後一國黨排第三",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-27T22:00:13+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "大洋洲"
+  ],
+  "country": [
+   "AU"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "選舉"
+  ],
+  "event": [
+   "選舉投票"
+  ],
+  "story": [
+   "2026維多利亞州選舉"
+  ],
+  "org": [
+   "澳洲工黨",
+   "自由黨",
+   "國家黨",
+   "一國黨",
+   "綠黨"
+  ],
+  "person": [
+   "Ben Carroll",
+   "Jess Wilson",
+   "Pauline Hanson"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "維多利亞州選舉",
+   "Newspoll"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "澳洲維多利亞州 11 月 28 日舉行州議會選舉，執政 12 年的工黨政府面臨潰敗。衛報報導，競選期間民調一致指向聯盟黨（自由黨與國家黨）勝選，最終 Newspoll 顯示聯盟黨在兩黨偏好上領先 15 個百分點，若全州照此擺盪，聯盟黨可拿下 67 席，遠超過組成多數政府所需的 45 席；聯盟黨目前合計 29 席。部分民調顯示工黨可能落後波琳・韓森的一國黨退居第三，初選票只略高於綠黨，一名前工黨策略人士估工黨可能失去超過 30 席。現任州長 Ben Carroll 7 月下旬才在黨內倒閣後接任，前任 Jacinta Allan 也是在 Dan Andrews 辭職後接手，而維州工黨從未在換領袖後贏得選舉；自由黨領袖 Jess Wilson 爭取成為下一任州長。日經亞洲指這場選舉被視為聯邦大選的預演。",
+ "dive_html": "澳洲最進步派的州可能轉向保守派，加上一國黨崛起，反映生活成本與治安等議題讓選民對長期執政的工黨失去耐心。若工黨真的跌到第三，對聯邦工黨政府是嚴重警訊；開票結果今晚揭曉，聯盟黨能否單獨過半、一國黨拿下幾席是觀察重點。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Guardian World",
+   "title": "Victorian election 2026 live: voters head to the polls as Coalition seeks to topple Labor – latest news",
+   "url": "https://www.theguardian.com/australia-news/live/2026/nov/28/victorian-election-live-results-updates-premier-ben-carroll-jess-wilson-warren-pickering-2026-victoria-polls-votes-latest-news-ntwnfb",
+   "time": "2026-11-28T08:28:12+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "Labor faces prospect of electoral wipeout in Victoria as voters turn to Liberals and One Nation",
+   "url": "https://www.theguardian.com/australia-news/2026/nov/28/vic-election-labor-faces-electoral-wipeout-as-voters-turn-to-liberals-and-one-nation-ntwnfb",
+   "time": "2026-11-27T22:00:13+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Nikkei Asia",
+   "title": "Australian state election provides 'dry run' for federal contest",
+   "url": "https://asia.nikkei.com/politics/australian-state-election-provides-dry-run-for-federal-contest",
+   "time": null,
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

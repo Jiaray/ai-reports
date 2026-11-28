@@ -1,0 +1,102 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0626",
+ "title": "波蘭與 Palantir 簽約 5 年約 3 億美元，全軍導入 AI 軍事系統 Maven",
+ "line": "國防部長稱「不用才是愚蠢」，並保證金鑰、伺服器與資料都只由波蘭軍方掌握",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-27T22:41:55+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "PL",
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "國防與軍事",
+   "AI"
+  ],
+  "event": [
+   "會談協議"
+  ],
+  "sector": [
+   "航太與國防",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Palantir",
+   "波蘭國防部",
+   "北約"
+  ],
+  "person": [
+   "Władysław Kosiniak-Kamysz"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Maven",
+   "軍事 AI",
+   "科技主權"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "波蘭 11 月 27 日與美國科技公司 Palantir 簽署為期 5 年、約 3 億美元的合約，在全軍擴大使用 AI，導入 Palantir 的 Maven 系統。Maven 用 AI 分析軍事資料，支援從後勤到辨識戰場目標等工作，烏克蘭與北約指揮體系已在使用。波蘭國防部長 Kosiniak-Kamysz 說「不用它才是愚蠢且錯誤的」，並稱 Palantir 的技術幫助烏克蘭撐過四年多的戰爭；他表示若有波蘭業者能提供相當能力，他會選本國業者，並保證「所有金鑰、伺服器與資訊都只在波蘭軍方手中」。Palantir 在 X 上稱 Maven 是「新一代 AI 戰爭的先鋒」。Palantir 因與美國移民機關及以色列軍方合作受批評，本月稍早在華沙遭遇抗議，關切資料安全與科技自主。丹麥、芬蘭、義大利、荷蘭、西班牙與瑞典的國防部門已在使用 Palantir 軟體，但部分國家想降低依賴：荷蘭軍方 10 月表示希望 2028 年前有歐洲替代方案，法德 7 月同意探索自行開發國防軟體。",
+ "dive_html": "波蘭的選擇凸顯歐洲在「立即可用的美國軍事 AI」與「科技主權」之間的拉扯：面對俄羅斯威脅，前線國家選擇實戰驗證過的系統，西歐國家則想培養本土替代品。軍事 AI 平台一旦導入，資料格式與作戰流程都會綁定，日後轉換成本極高；台灣在推動國防 AI 時同樣要面對供應商依賴的取捨。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Politico Europe",
+   "title": "We’d be ‘stupid’ not to: Poland defends $300M military AI deal with Palantir",
+   "url": "https://www.politico.eu/article/wed-be-stupid-not-to-poland-defends-300m-military-ai-deal-with-palantir/",
+   "time": "2026-11-27T22:41:55+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Politico",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Poland signs contract with Palantir worth $300 mln over 5 years",
+   "url": "https://news.google.com/rss/articles/CBMirgFBVV95cUxPcE9acGJ4ZnNpRGhDSXVvN1lpUWNyQTlJalVfQ25acTN3Q0JuTW9ydHFPb3paNUx4MEQxQUhpSnVfV0xwaEVvblo3NG8xOGtMZHlLdEs0Qi1iSGVhM1RYcVg4ZlhjU0VfYW9ReFk2cU1DdXVWMzVweElzQjkyN0ZZUFZjTDNaZmk4TF9jTnhGZDVDRnRuVWxaaUhxckxQTEJQYVJmTERxRFlGaFpNSGc?oc=5",
+   "time": "2026-11-27T22:48:10+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

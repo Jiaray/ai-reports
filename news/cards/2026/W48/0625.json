@@ -1,0 +1,118 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0625",
+ "title": "美國特使庫許納稱普丁是「政治大師」、戰爭是歐洲資助的代理人戰爭，烏克蘭與歐洲政界強烈反彈",
+ "line": "烏克蘭國會外委會主席要求把庫許納撤出和談，衛報分析批其把侵略看成可化解的誤會",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-28T00:47:00+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "北美"
+  ],
+  "country": [
+   "US",
+   "UA",
+   "RU"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "國際關係",
+   "戰爭與衝突"
+  ],
+  "event": [
+   "聲明評論",
+   "爭議風波"
+  ],
+  "story": [
+   "俄烏戰爭"
+  ],
+  "org": [
+   "Axel Springer",
+   "北約"
+  ],
+  "person": [
+   "庫許納",
+   "普丁",
+   "澤倫斯基",
+   "Oleksandr Merezhko",
+   "Kirill Dmitriev"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "俄烏和談",
+   "美國特使"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "川普女婿、美國和平特使庫許納在 11 月 25 日播出的 Axel Springer 執行長 Döpfner 播客「MD Meets」約 70 分鐘訪談中，稱俄羅斯總統普丁是「政治大師」，說普丁沒有動用核武是「展現克制」，並稱這場戰爭「實際上已成為歐洲資助並武裝烏克蘭對抗俄羅斯的代理人戰爭」。他稱俄方特使 Dmitriev 是「不可思議的朋友」，對澤倫斯基則說他過去「錯誤地」攻擊川普。Politico 報導，烏克蘭國會外交委員會主席、執政黨議員 Merezhko 說這番話「極其危險，不只對烏克蘭，對美國的安全與國家利益也是」，並要求把庫許納撤出對俄談判，歐洲盟國政界也群起批評。衛報外交主編 Patrick Wintour 分析，庫許納把俄羅斯入侵描繪成可以化解的誤會，暴露出處理普丁侵略時的天真偏見；《大西洋》也撰文批評他對嚇阻的理解。這番話出現在美烏關係敏感時刻：澤倫斯基仍在爭取美製愛國者攔截飛彈，本月在阿布達比的美方斡旋和談沒有突破。",
+ "dive_html": "美方主要談判者公開採用接近克里姆林宮的敘事，會讓烏克蘭與歐洲更懷疑美國斡旋的中立性，也可能讓莫斯科認為拖延談判對自己有利。這與川普本週單方面修改與北約秘書長的聯合聲明、要求烏克蘭也別擴大戰爭的動作一致，歐洲可能更積極自行承擔對烏支持與安全保證。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Politico Europe",
+   "title": "‘An advocate for Russia’: Kushner’s Putin comments spark outrage in Europe",
+   "url": "https://www.politico.eu/article/an-advocate-for-russia-jared-kushner-vladimir-putin-comments-spark-outrage-europe/",
+   "time": "2026-11-28T04:10:58+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Politico",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "Jared Kushner’s 70-minute interview reveals naive bias in handling of Putin’s aggression",
+   "url": "https://www.theguardian.com/us-news/2026/nov/27/jared-kushner-interview-peril-putin-corporate-rival",
+   "time": "2026-11-28T00:49:59+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Atlantic",
+   "title": "Jared Kushner’s Strategic Pixie Dust",
+   "url": "https://www.theatlantic.com/ideas/2026/11/kushner-ukraine/689599/",
+   "time": "2026-11-28T00:47:00+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "The Atlantic",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 3,
+  "regions": 2,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

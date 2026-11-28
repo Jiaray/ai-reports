@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0640",
+ "title": "（長文）《大西洋》專欄：重溫 1960 至 70 年代的美國間諜影視熱潮，作者坦言懷念冷戰時的美國外交",
+ "line": "從龐德到英國間諜劇，作者認為那一代作品值得重看，也是時代的文化切片",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-27T23:30:00+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "歐洲"
+  ],
+  "country": [
+   "US",
+   "GB"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "娛樂與媒體",
+   "文化藝術"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "sector": [
+   "媒體與娛樂"
+  ],
+  "org": [
+   "The Atlantic",
+   "CBS"
+  ],
+  "person": [
+   "Sean Connery",
+   "Patrick McGoohan",
+   "Robert Pattinson"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "間諜片",
+   "007",
+   "冷戰文化"
+  ],
+  "form": [
+   "長文"
+  ]
+ },
+ "summary_html": "《大西洋》每日電子報的這篇專欄從近期兩件事切入：Robert Pattinson 成為新任龐德，輝達執行長黃仁勳承認與疑似中國情報資產有親密關係，讓間諜重回大眾視野。作者認為冷戰結束後娛樂業大多對間諜失去興趣，只剩 007 系列與《Slow Horses》等少數佳作，相當可惜。他主張 1960 年代初到 1970 年代中期是美國流行文化的「間諜熱」全盛期，許多作品值得重看，既是娛樂也是時代的文化文物；作者坦言，以美國現在的外交政策，他懷念那個美國領導自由世界對抗克里姆林宮的年代。他分析這股熱潮的成因：核武時代強權只能在暗處交手，加上電影尺度放寬，龐德代表擺脫 1950 年代拘謹的男子氣概，卻也拒絕 60 年代女權等進步變化；英國間諜劇較寫實，但輸出美國時常被改得更煽情。",
+ "dive_html": "這是借懷舊談當下的文化評論：作者用間諜片的黃金年代對照美國今日的外交姿態，論點的重心其實是政治懷舊而非影視分析。適合對冷戰流行文化與龐德系列演變有興趣的讀者；文章沒有討論串流時代間諜劇的產業面。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "The Atlantic",
+   "title": "The Good Old Days of American Spy Movies and TV",
+   "url": "https://www.theatlantic.com/newsletters/2026/11/old-new-spy-movies-tv/689594/",
+   "time": "2026-11-27T23:30:00+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "The Atlantic",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

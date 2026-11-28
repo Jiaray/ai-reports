@@ -1,0 +1,109 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0632",
+ "title": "哥斯大黎加以國安為由拒聯合國巴勒斯坦人權特別報告員阿爾巴內塞入境，她要求道歉或提出證據",
+ "line": "哥國指她與「恐怖行動有關聯」，阿爾巴內塞在機場以視訊接受哥斯大黎加大學榮譽學位",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-28T02:55:57+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中南美",
+   "中東"
+  ],
+  "country": [
+   "CR",
+   "PS"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "國際關係",
+   "人權"
+  ],
+  "event": [
+   "爭議風波"
+  ],
+  "org": [
+   "聯合國",
+   "哥斯大黎加大學"
+  ],
+  "person": [
+   "Francesca Albanese"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "聯合國特別報告員",
+   "加薩"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "哥斯大黎加以國家安全為由，拒絕聯合國巴勒斯坦被占領土人權特別報告員阿爾巴內塞（Francesca Albanese）入境，理由是她與「恐怖行動有關聯」，Al Jazeera 稱這項指控沒有根據。阿爾巴內塞長期記錄以色列在加薩的行為並稱其為種族滅絕，目前遭美國制裁；她原本要到哥斯大黎加大學接受榮譽學位，最後在機場以遠端方式受領。她向 Al Jazeera 表示，哥國當局誹謗她，要求對方提出她涉恐的證據，否則就道歉。Reuters 報導，聯合國人權事務高級專員對哥國的決定表示關切。",
+ "dive_html": "聯合國特別報告員被成員國以涉恐為由拒於門外相當罕見，且發生在以中立外交著稱的哥斯大黎加，顯示美國對阿爾巴內塞的制裁正透過盟友產生外溢效果。這會讓聯合國人權機制的獨立調查更難進行，也可能促使人權理事會成員國表態。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Francesca Albanese seeks apology from Costa Rica after entry ban",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/28/francesca-albanese-seeks-apology-from-costa-rica-after-entry-ban",
+   "time": "2026-11-28T08:12:20+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "UN Gaza rapporteur Francesca Albanese denied entry into Costa Rica",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/un-gaza-rapporteur-francesca-albanese-denied-entry-into-costa-rica",
+   "time": "2026-11-28T04:10:30+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Costa Rica bars UN rapporteur on Palestinian territory, drawing concern from rights chief",
+   "url": "https://news.google.com/rss/articles/CBMiywFBVV95cUxQVTFhaERnNklOT0hXZlRoWndkWUtRRnlCZ29PZ056TzdPaEpDdExUWWxGZTVadkRrS3ZUQm5yMUprcEw3WUZnMW80Y1ZBTGVjY2JNaExHV0o0SXIyWGpSb3hjUS1lVkR2N1VWeXFveTN4OFNEMTBET0NXR1E3WUVJQ3Q1djcwR2pHVlJQNTExNnVHSG8xZ2IwV3NZeXdaaFpMWVBsM2FXUFAwcktLNEpuV0U4QVEzSEhZX1JJOEhLRmc1bjd6ejFBLWd2NA?oc=5",
+   "time": "2026-11-28T02:55:57+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 5,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

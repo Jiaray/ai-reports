@@ -1,0 +1,86 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0628",
+ "title": "高雄橋頭糖廠 154 公頃林地面臨開發，83 歲「森林阿嬤」以無黨籍參選，喊「投給樹，不投給政黨」",
+ "line": "開發案配合南台灣半導體產業擴張，擬把舊糖廠周邊林地改為高科技商業與住宅區",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-27T21:52:03+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "台灣"
+  ],
+  "country": [
+   "TW"
+  ],
+  "taiwan": [
+   "直接"
+  ],
+  "topic": [
+   "環境與氣候",
+   "選舉"
+  ],
+  "event": [
+   "示威抗議"
+  ],
+  "sector": [
+   "半導體",
+   "營建與房地產"
+  ],
+  "org": [
+   "Mongabay",
+   "高雄市政府"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "橋頭糖廠",
+   "都市林",
+   "開發案",
+   "九合一選舉"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "環境媒體 Mongabay 報導，高雄橋頭區居民反對一項都市開發計畫，計畫將拆除舊橋頭糖廠周邊 154 公頃（約 380 英畝）的橋頭林地。據當地環保人士，林地有約 10 萬棵樹，部分種植於日治時期，是在地野生動物的棲地，也有助於防洪。開發案與南台灣半導體產業成長有關，規劃把舊糖廠周邊大片土地改為供高科技企業與員工使用的商業與住宅區。居民找不到願意支持的政治人物，轉而推出 83 歲、曾在糖廠工作的江姓居民（暱稱「森林阿嬤」）以無黨籍身分參選這次地方選舉，競選口號是「投給樹，不投給政黨」。她從小就在林地散步，每天清晨會遇到約 30 名常客，多是退休長者，近幾個月散步時都在討論反對開發。",
+ "dive_html": "半導體聚落南移帶來大量土地與住宅需求，與既有綠地、文資的衝突在高雄、台南等地都在上演，這個案例由國際環境媒體報導，顯示議題已被放在「科技擴張 vs. 都市生態」的框架下檢視。報導沒有交代開發案的主辦機關、審議進度與「森林阿嬤」參選的選區層級；她的得票會是居民訴求能否進入地方議程的指標。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Mongabay",
+   "title": "‘Vote for trees’: Taiwan community pins hope on ‘Forest Grandma’ to save beloved woods",
+   "url": "https://news.mongabay.com/2026/11/vote-for-trees-taiwan-community-pins-hope-on-forest-grandma-to-save-beloved-woods/",
+   "time": "2026-11-27T21:52:03+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "0 comments",
+   "family": "Mongabay",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

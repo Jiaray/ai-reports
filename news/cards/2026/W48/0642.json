@@ -1,0 +1,91 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0642",
+ "title": "（長文）Vox：機器人乳房切除手術可保留更多胸部感覺，但醫界對長期癌症復發風險意見分歧",
+ "line": "美國 FDA 2025 年 12 月核准達文西單孔系統用於保留乳頭乳房切除術",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-27T19:16:15+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療",
+   "科技"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "醫療照護",
+   "醫藥與生技"
+  ],
+  "org": [
+   "Vox",
+   "美國食品藥物管理局",
+   "MedStar 喬治城大學醫院",
+   "Intuitive"
+  ],
+  "person": [
+   "Lucy De La Cruz",
+   "Anusha Subramanian"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "達文西手術",
+   "保留乳頭乳房切除術",
+   "乳癌"
+  ],
+  "form": [
+   "長文"
+  ]
+ },
+ "summary_html": "Vox 記者 Anusha Subramanian 以 50 歲乳癌患者 Ami Brasure 的經歷切入：她因第一期乳癌接受雙側乳房切除，術後不久就驚訝地發現自己還能感覺到灑在胸前的飲料。美國每年數十萬名女性確診乳癌、接受乳房切除，許多人術後胸部幾乎沒有感覺，影響心理健康與身體認同。美國 FDA 2025 年 12 月核准達文西單孔手術系統用於機器人輔助的保留乳頭乳房切除術；MedStar 喬治城大學醫院乳房外科主任 Lucy De La Cruz 讓 Brasure 成為院內第一位接受這種手術的病人。支持者認為這種手術傷口小且隱藏、視野更清楚，部分病人術後胸部感覺較佳；批評者則指出，目前沒有確切的長期證據顯示它在防止癌症復發上與傳統開放式手術一樣好，即使技術上是安全的。",
+ "dive_html": "文章點出新醫療技術常見的落差：病人在意的生活品質指標（感覺、疤痕）已有改善跡象，但醫界最在意的長期腫瘤學結果還要多年追蹤才能確認。對考慮手術的病人，這篇提供了向醫師提問的方向；文中沒有交代手術費用與保險給付，這會是普及的現實障礙。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Vox",
+   "title": "Robots could transform breast surgery forever",
+   "url": "https://www.vox.com/future-perfect/509441/robotic-breast-cancer-surgery",
+   "time": "2026-11-27T19:16:15+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Vox",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

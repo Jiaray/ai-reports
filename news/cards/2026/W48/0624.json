@@ -1,0 +1,99 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0624",
+ "title": "烏干達啟動非洲首個 mRNA 伊波拉疫苗一期試驗，鎖定剛果疫情的本迪布焦病毒株",
+ "line": "Moderna 研發的實驗疫苗在 224 名健康志願者身上測試，剛果東部兩款疫苗試驗下週一開跑",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-28T02:25:44+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "非洲"
+  ],
+  "country": [
+   "UG",
+   "CD"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "健康與醫療"
+  ],
+  "event": [
+   "公衛事件",
+   "研究發表"
+  ],
+  "sector": [
+   "醫藥與生技"
+  ],
+  "org": [
+   "烏干達病毒研究所",
+   "Moderna",
+   "世界衛生組織"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "伊波拉",
+   "Bundibugyo",
+   "mRNA 疫苗",
+   "一期臨床試驗"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "烏干達病毒研究所 11 月 27 日宣布，與 Moderna 合作啟動「非洲首個 mRNA 一期臨床試驗」，測試一款針對本迪布焦（Bundibugyo）伊波拉病毒的實驗疫苗。這是人體試驗，將招募 224 名 1 至 65 歲的健康志願者，評估疫苗的安全性與引發免疫反應的能力。鄰國剛果民主共和國自 5 月以來的伊波拉疫情由較少見的本迪布焦病毒株引起，世界衛生組織統計已逾 11,000 例、超過 5,700 人死亡，這個病毒株目前沒有核准的疫苗或療法。兩款實驗疫苗的試驗預定下週一在疫情中心剛果東部展開，對象是接觸過感染者與高風險族群，Moderna 的疫苗是其中之一，烏干達已先行測試。烏干達與剛果東部邊境漫長且管控不易，今年稍早出現境外移入病例，共 20 例感染、2 人死亡，8 月已宣布疫情結束。",
+ "dive_html": "一期試驗只回答安全性與免疫原性，距離證明能防病還很遠；真正的保護力要看剛果東部針對接觸者的試驗。本迪布焦株缺乏任何核准工具，疫情又在衝突地區延燒，mRNA 平台能快速依病毒株設計是它的優勢，若結果正面，可能成為日後對付罕見伊波拉株的範本。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Medical Xpress",
+   "title": "mRNA Ebola vaccine trial starts in Uganda: Institute",
+   "url": "https://medicalxpress.com/news/2026-11-mrna-ebola-vaccine-trial-uganda.html",
+   "time": "2026-11-28T02:25:44+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Medical Xpress",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "Euronews",
+   "title": "Uganda begins Africa's first mRNA Ebola vaccine trial",
+   "url": "https://www.euronews.com/2026/11/27/uganda-begins-africas-first-mrna-ebola-vaccine-trial",
+   "time": "2026-11-28T05:45:59+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 3,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

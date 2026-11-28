@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0643",
+ "title": "衛星研究：拉哥斯、亞歷山卓等非洲沿海大城地層下陷比 IPCC 先前估計更快",
+ "line": "維吉尼亞理工團隊用 Sentinel-1 雷達影像分析 20 座城市，估 2050 年 700 萬人面臨淹水風險",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-28T03:03:18+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "非洲"
+  ],
+  "country": [
+   "NG",
+   "EG"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "環境與氣候",
+   "科學"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "org": [
+   "維吉尼亞理工大學",
+   "歐洲太空總署",
+   "政府間氣候變遷專門委員會"
+  ],
+  "person": [
+   "Oluwaseyi Dasho",
+   "Manoochehr Shirzaei"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "地層下陷",
+   "海平面上升",
+   "Sentinel-1",
+   "InSAR"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "維吉尼亞理工大學研究人員利用歐洲太空總署 Sentinel-1 衛星的雷達影像，繪製非洲 20 座沿海城市的地面移動情形，發現奈及利亞拉哥斯、埃及亞歷山卓等城市的下陷速度，比聯合國政府間氣候變遷專門委員會（IPCC）2021 年的估計快得多。下陷部分是自然因素，但許多來自抽取地下水等人類活動。研究估計，到 2050 年可能有 700 萬人、價值 1,800 億美元的資產面臨淹水風險；BBC 報導，到本世紀末拉哥斯可能有 400 萬人暴露在極端海平面下。第一作者 Oluwaseyi Dasho 說，下陷在日常生活中「往往看不見，但幾十年下來會大幅增加淹水暴露」，因為地面下沉後相對海面更低，疊加了氣候變遷帶來的海平面上升。過去非洲缺乏監測站，難以取得在地資料；資深作者 Manoochehr Shirzaei 說明，衛星每 6 到 12 天重訪同一地區，研究可偵測每年小至 1 毫米的地面移動。",
+ "dive_html": "研究顯示只看全球海平面上升會低估沿海城市的淹水風險，地層下陷在部分城市的影響可能更大，而且主要由抽地下水造成、可以透過管理改善。這對非洲快速擴張的沿海大城是政策警訊；台灣西南沿海也有地層下陷問題，同類衛星監測方法已在國內使用。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC Top News",
+   "title": "New satellite data shows how fast some African cities are sinking",
+   "url": "https://www.bbc.co.uk/news/articles/cq074p95z4llo",
+   "time": "2026-11-28T03:03:18+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

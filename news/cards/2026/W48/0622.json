@@ -1,0 +1,160 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0622",
+ "title": "加拿大最高法院以 6 比 1 大致維持魁北克《21 號法案》，公部門員工不得配戴明顯宗教標誌",
+ "line": "法院認定魁北克可援引「排除條款」讓法案免於多數違憲挑戰，穆斯林團體批評少數權利遭剝奪",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-28T00:13:07+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "CA"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "人權",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "org": [
+   "加拿大最高法院",
+   "魁北克省政府",
+   "加拿大穆斯林全國委員會"
+  ],
+  "person": [
+   "Richard Wagner",
+   "Mark Carney",
+   "Stephen Brown"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Bill 21",
+   "宗教自由",
+   "排除條款",
+   "世俗主義"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "加拿大最高法院 11 月 27 日以 6 比 1 大致維持魁北克省 2019 年通過的《21 號法案》，禁止公部門員工在工作時配戴頭巾、十字架、猶太小圓帽等明顯宗教標誌。魁北克當年援引加拿大憲法特有的「排除條款」（notwithstanding clause）通過這項法律，這個條款允許政府凌駕宗教自由等特定權利；多數意見認為魁北克可以藉此讓法案免於多數以違反權利憲章為由的挑戰。首席大法官 Richard Wagner 在多數意見中寫道，法案「植根於魁北克確保國家世俗性的正當且歷史性承諾」。提出挑戰的包括穆斯林、錫克教與天主教女性教師。法院說這次四天的聽證是 151 年歷史上最長之一，有 51 個參與方、6 位檢察總長介入，判決公布當天網站一度當機。加拿大穆斯林全國委員會執行長 Stephen Brown 批評，若政府能因為受歡迎就剝奪特定少數群體的權利，「我們就沒有權利憲章」；總理卡尼說政府會研究判決的影響，並強調各級議會應尊重所有加拿大人的權利與自由。",
+ "dive_html": "判決確認省政府可用排除條款讓限制基本權的法律免於司法審查，影響不只魁北克：其他省分未來也可能援引這個條款處理爭議政策，削弱權利憲章的保障力道。對聯邦政府而言，這是國家團結與少數權利之間的政治難題，卡尼政府是否修憲或限制排除條款的使用，會是後續焦點。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Canada’s Supreme Court largely upholds a Quebec ban on religious symbols for public servants",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxOOE9BOWJaNlNZVUhPNE90VDU0SDNmbUxQNjZITWlkbEowX3E3d3RaRW1SVXVnbFlhVUh4RmNiUGJmckltOFpvb25PQkV6R05IVnRLNFpCbE1DYTRVenM4Z2I1eWdOeVVJcEdsMlJMYWlIYk4zeFJxYmZYWEI4RTUxNDk5YWxzQVZkdWExcFFkR0xpcUV1b0lMV08tNFlnWG1MZXV1RTZnWGg?oc=5",
+   "time": "2026-11-28T04:31:00+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "WSJ World News",
+   "title": "Canada’s Supreme Court Upholds Quebec’s Religious-Symbols Ban",
+   "url": "https://www.wsj.com/world/americas/canadas-supreme-court-upholds-quebecs-religious-symbols-ban-c1d8371a?mod=rss_worldnews",
+   "time": "2026-11-28T03:51:00+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "WSJ",
+   "title": "Canada’s Supreme Court Upholds Quebec’s Religious-Symbols Ban",
+   "url": "https://www.wsj.com/world/americas/canadas-supreme-court-upholds-quebecs-religious-symbols-ban-c1d8371a?mod=rss_usnews",
+   "time": "2026-11-28T03:51:00+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "BBC World",
+   "title": "Canada's top court largely upholds Quebec ban on religious symbols for public servants",
+   "url": "https://www.bbc.co.uk/news/articles/cq3dgpy9lem3o",
+   "time": "2026-11-28T00:53:46+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "The Guardian World",
+   "title": "Canada’s top court upholds Quebec law barring public sector workers from wearing religious symbols",
+   "url": "https://www.theguardian.com/world/2026/nov/27/canadas-top-court-upholds-quebec-law-barring-public-sector-workers-from-wearing-religious-symbols",
+   "time": "2026-11-28T00:13:07+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "Canada: Supreme Court largely upholds Quebec secularism bill",
+   "url": "https://www.dw.com/en/canada-supreme-court-largely-upholds-quebec-secularism-bill/a-80082571?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-28T04:43:00+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Canada's top court upholds Quebec law banning religious symbols in test of unity",
+   "url": "https://news.google.com/rss/articles/CBMiyAFBVV95cUxPa2xTN3lIM0VNZ0t1dTRlSy13WUo1T0JIek5NZThtRklXazNKZlhyUUN0VWxOOXpRY2drMkFOZXlZd1BFM0FrYWpPQjlnYk1kUzB0dzZVczV4b1B2YjZ2MmtJYXM5dEIwNi1VVW9TcUVGWHRPbUNybDdyV2ZzNTZObm5FQTUwLUt2VjNtOWx4N3c4MDdTZGFvS3VGdHVaSno4aWh6ZzNRRURtNmdTMmxrS1lIdmhTZVdCVWFyak9QY2FjRHJsd1dJWA?oc=5",
+   "time": "2026-11-28T03:36:59+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 6,
+  "regions": 2,
+  "media_weight": 15,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

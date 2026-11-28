@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0627",
+ "title": "Linus Torvalds 痛批 EXT4 在 Linux 7.4-rc5 階段塞進 4.1 萬行修正，多為 AI 生成補丁與測試",
+ "line": "他勉強合併但警告下次直接忽略：「別以為你或 AI 修東西時不會引入新 bug」",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-27T10:46:19+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "開發與開源",
+   "AI"
+  ],
+  "event": [
+   "爭議風波"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Linux Foundation"
+  ],
+  "person": [
+   "Linus Torvalds"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Linux 核心",
+   "EXT4",
+   "AI 生成程式碼",
+   "KUnit"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Phoronix 報導，Linux 7.4 開發週期後段的一個 EXT4 檔案系統 pull request，以「修正」名義送進 7.4-rc5，新增超過 41,000 行程式碼，大部分是 AI 生成的錯誤修正，以及擴充 EXT4 驅動的 KUnit 測試覆蓋，用來驗證日後的 AI 生成補丁。Linus Torvalds 雖然合併了，但在核心郵件列表上表示這不適合在這個階段送進來，測試應放在獨立分支、大更新應等下一個合併窗口，「任何修正都能進 -rc 的觀念是錯的」。他說自己「有嚴重保留」且遇到難處理的衝突，「下次再發生這種事我就直接忽略」，並以大寫寫下「別以為你或 AI 修東西時不會引入新 bug」，強調 release candidate 階段需要數週讓程式碼穩定下來。這則消息在 Hacker News 獲約 18 分。",
+ "dive_html": "AI 讓產生大量「修正」變得廉價，但審查與整合的成本仍落在維護者身上，Torvalds 的反應點出開源專案在 AI 時代的真正瓶頸是審查頻寬與發布紀律，而不是寫碼速度。團隊導入 AI 修 bug 時，大批次變更仍應遵守凍結期與分支策略，測試再多也不能取代穩定期。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "Linus Torvalds: \"Tell Your AI Companion to Get Its Act Together\"",
+   "url": "https://www.phoronix.com/news/Linus-Torvalds-EXT4-AI-Big",
+   "time": "2026-11-27T10:46:19+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "18 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50662164",
+   "family": "phoronix.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 18,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,106 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0636",
+ "title": "烏克蘭提出黑海停火方案以保障糧食出口，等待俄方回應；俄國要求納入石油運輸",
+ "line": "外長西比哈稱已把方案轉交國際盟友，前一天俄軍才在敖德薩附近攻擊兩艘外國運糧船",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-28T01:44:33+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "UA",
+   "RU",
+   "TR",
+   "IN"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "戰爭與衝突",
+   "國際關係"
+  ],
+  "event": [
+   "會談協議"
+  ],
+  "story": [
+   "俄烏戰爭"
+  ],
+  "sector": [
+   "農業與食品",
+   "運輸與物流"
+  ],
+  "org": [
+   "烏克蘭外交部",
+   "Suspilne"
+  ],
+  "person": [
+   "Andrii Sybiha"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "黑海停火",
+   "糧食出口",
+   "航行自由"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "烏克蘭外長西比哈（Andrii Sybiha）11 月 27 日在「來自烏克蘭的糧食」會議上宣布，基輔已提出黑海停火方案，願恢復航行自由、確保農產品出口不中斷，「所有提案都已轉達，現在等待俄方回應」。他說烏克蘭已把方案細節轉交國際盟友，並感謝印度、土耳其等國。據烏克蘭公共廣播 Suspilne，莫斯科要求把石油運輸納入停火，烏方則認為這屬於更廣泛的能源停火議題；西比哈指責俄國一再提出「不切實際的要求」。France 24 報導，烏克蘭當局說俄軍前一天在敖德薩港附近攻擊兩艘外國運糧船。烏俄都是主要農產品出口國，船隻與港口設施遭攻擊已打亂經黑海的運輸；先前由聯合國與土耳其斡旋的協議曾讓烏克蘭恢復糧食出口。",
+ "dive_html": "烏克蘭近期在芬蘭灣、利比亞外海攻擊俄國船隻，引發歐洲盟友疑慮，提出黑海停火有緩和國際壓力、爭取糧食進口國支持的用意。俄方要求納入石油運輸，等於想保護自身能源出口收入，雙方對範圍的分歧不小；若談成，對全球糧價與航運保費是正面消息。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Kyiv offers Black Sea ceasefire to protect grain exports",
+   "url": "https://www.aljazeera.com/news/2026/11/27/kyiv-offers-black-sea-ceasefire-as-putin-expands-russias-navy",
+   "time": "2026-11-28T01:44:33+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Ukraine submits Black Sea ceasefire offer, awaits Russian response",
+   "url": "https://www.france24.com/en/europe/20261127-ukraine-submits-black-sea-ceasefire-offer-awaits-russian-response",
+   "time": "2026-11-28T05:09:12+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

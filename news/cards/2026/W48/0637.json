@@ -1,0 +1,100 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0637",
+ "title": "烏干達軍隊宣布撤出剛果東部北基伍省盧貝羅，此前軍隊總司令揚言奪取另一城鎮引發外交糾紛",
+ "line": "剛果已召見烏干達使館館長抗議，烏軍指責親剛果政府的民兵加強攻擊",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-28T01:56:28+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "非洲"
+  ],
+  "country": [
+   "UG",
+   "CD",
+   "RW"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "戰爭與衝突",
+   "國際關係"
+  ],
+  "event": [
+   "軍事行動"
+  ],
+  "org": [
+   "烏干達人民國防軍",
+   "民主同盟軍",
+   "聯合國安理會"
+  ],
+  "person": [
+   "Muhoozi Kainerugaba",
+   "穆塞維尼"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "北基伍",
+   "剛果東部衝突",
+   "M23"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "烏干達軍方 11 月 27 日表示，計畫從剛果民主共和國東部北基伍省的重要城鎮盧貝羅撤軍，並指責看似與剛果政府結盟的民兵在該地區加強攻擊。幾天前，烏干達軍隊總司令、總統穆塞維尼之子 Muhoozi Kainerugaba 揚言要奪取北基伍另一城鎮瓦利卡萊，剛果因此召見烏干達使館館長，兩國爆發外交糾紛。烏干達自 2021 年起在與剛果交界的伊圖里省與北基伍省駐軍，協助剛果軍隊對抗與伊斯蘭國有關的民主同盟軍（ADF）；剛果軍隊同時也在對抗獲盧安達支持、前身為 M23 的反政府武裝。礦產豐富的剛果東部動盪逾 30 年，常把鄰國烏干達與盧安達直接或透過支持地方武裝捲入。",
+ "dive_html": "烏軍撤出盧貝羅可能在當地留下安全真空，讓民主同盟軍或其他武裝趁隙擴張；而總司令的挑釁言論顯示烏干達對剛果東部仍有領土與資源野心。剛果東部同時面臨伊波拉疫情，區域軍事變動會讓防疫與人道援助更難推進。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "France 24",
+   "title": "Uganda to withdraw troops from DR Congo",
+   "url": "https://www.france24.com/en/tv-shows/eye-on-africa/20261127-uganda-to-withdraw-troops-from-dr-congo",
+   "time": "2026-11-28T05:44:29+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Uganda to withdraw troops from DR Congo town after army chief's threat sparks row",
+   "url": "https://www.france24.com/en/africa/20261127-uganda-withdraw-troops-dr-congo-town-after-army-chief-threat-row",
+   "time": "2026-11-28T01:56:28+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

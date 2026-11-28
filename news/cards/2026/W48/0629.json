@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0629",
+ "title": "Godot 4.8 進入 RC 1，官方稱已鎖定所有功能、可開始整合到正式環境",
+ "line": "已知重大回歸問題都已處理，官方仍建議升級前備份或使用版本控制",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-27T20:00:00+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "開發與開源",
+   "遊戲"
+  ],
+  "event": [
+   "版本更新"
+  ],
+  "sector": [
+   "遊戲",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Godot Engine"
+  ],
+  "person": [
+   "Thaddeus Crews"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Godot 4.8",
+   "Release Candidate",
+   "遊戲引擎"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "開源遊戲引擎 Godot 11 月 27 日發布 4.8 版第一個候選版本（RC 1）。官方部落格說明，進入 RC 階段代表已知的重大回歸問題都已處理、所有規劃中的功能都已鎖定，正式環境可以開始整合這個版本；但也提醒這只能透過社群大量測試來確認，雖然團隊相信 4.8 適合既有專案，仍強烈建議升級前先備份，最好使用版本控制。這次也提供 Web 版編輯器、XR 編輯器與 Android 編輯器可供試用，Android 版的預發布測試需申請加入測試群組。官方同時呼籲有能力者贊助專案，Godot 由志工與少數受薪貢獻者維護。",
+ "dive_html": "RC 1 代表 4.8 正式版已近，用 Godot 開發的團隊可以開始在分支上試升級、回報問題，比等正式版再遷移風險低。這篇公告摘要沒列出 4.8 的具體新功能與行為變更，評估升級前應先讀官方的完整變更說明；有 Web 匯出需求的團隊可用 Web 版編輯器先行測試。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Godot Engine Blog",
+   "title": "Release candidate: Godot 4.8 RC 1",
+   "url": "https://godotengine.org/article/release-candidate-godot-4-8-rc-1/",
+   "time": "2026-11-27T20:00:00+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Godot Engine",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

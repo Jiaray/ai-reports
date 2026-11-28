@@ -1,0 +1,92 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0638",
+ "title": "烏克蘭情報局稱北韓因不滿俄方表態要緩和兩韓關係，暫停對俄軍援、停運 KN-23 飛彈",
+ "line": "俄方要求北韓駐軍從 8,500 人擴大到 5 萬人也被擱置，莫斯科與平壤都未證實",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-27T20:53:58+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞",
+   "歐洲"
+  ],
+  "country": [
+   "KP",
+   "RU",
+   "KR",
+   "UA"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "國際關係",
+   "戰爭與衝突"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "story": [
+   "俄烏戰爭"
+  ],
+  "org": [
+   "烏克蘭國防部情報總局"
+  ],
+  "person": [
+   "金正恩",
+   "崔善姬",
+   "Andrei Rudenko"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "北韓軍援",
+   "KN-23",
+   "朝俄同盟"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "烏克蘭國防部情報總局（HUR）11 月 25 日宣稱，北韓領導人金正恩親自下令暫停對俄羅斯的軍事援助，起因是俄國副外長 Andrei Rudenko 10 月表示克里姆林宮願協助緩和首爾與平壤之間的緊張，北韓外相崔善姬批評這番話「不符合兩國同盟協議的精神」。據 HUR，暫停措施包括禁止俄國軍用運輸機使用北韓領空、停止交付 KN-23 彈道飛彈與後續砲彈，北韓也擱置俄方把駐俄部隊從 8,500 人擴大到 5 萬人的要求。莫斯科與平壤都沒有證實或否認。Euronews 指出，Rudenko 公開說法並非如此表述，他 10 月 20 日對俄國官媒說莫斯科準備與首爾「關係正常化」，「如果南韓夥伴採取任何實際步驟，我們當然歡迎」。",
+ "dive_html": "目前只有烏方情報的單方說法，且帶有離間朝俄的動機，可信度需保留。但若屬實，代表北韓對俄羅斯接近南韓高度敏感，朝俄同盟並非無條件；KN-23 與砲彈是俄軍重要補給，暫停時間長短將影響前線火力，也牽動東北亞局勢與南韓的對俄外交。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Euronews",
+   "title": "North Korea halts Russia military aid over Seoul row, Kyiv says",
+   "url": "https://www.euronews.com/2026/11/27/north-korea-halts-russia-military-aid-over-seoul-row-kyiv-says",
+   "time": "2026-11-27T20:53:58+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

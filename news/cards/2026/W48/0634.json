@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0634",
+ "title": "委內瑞拉國會議長宣布將廢除禁止反對派人士任公職的法律，馬查多上月結束流亡返國",
+ "line": "這項 2024 年通過的法律針對支持對委國制裁者，是美國主導的政治過渡對話同意檢討的法律之一",
+ "born_at": "2026-11-28T08:53:47+08:00",
+ "first_reported_at": "2026-11-28T04:44:03+08:00",
+ "updated_at": "2026-11-28T08:53:47+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中南美",
+   "北美"
+  ],
+  "country": [
+   "VE",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "政治"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "org": [
+   "委內瑞拉國民議會"
+  ],
+  "person": [
+   "Jorge Rodriguez",
+   "Delcy Rodriguez",
+   "María Corina Machado",
+   "馬杜洛"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "委內瑞拉政治過渡",
+   "反對派",
+   "選舉"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "委內瑞拉國民議會議長 Jorge Rodriguez 11 月 26 日宣布，將廢除一項禁止反對派人士擔任公職的法律。這項法律在 2024 年爭議選舉後通過，針對推動或支持對委國制裁的人，被批評為政治迫害工具。Rodriguez 說：「那條法律是回應委內瑞拉當時特定的時刻與處境。」自馬杜洛 1 月遭美軍帶走後，由議長的姊姊 Delcy Rodriguez 領導的臨時政府執政，她 9 月在聯合國承諾舉行自由公正的選舉，但沒訂日期；這個獲美國支持的政府一直與華府挑選的部分反對派進行政治過渡對話，Jorge Rodriguez 說對話已同意檢討包括這項在內的數條法律。反對派領袖馬查多（María Corina Machado）上月意外結束流亡返國，她曾贏得 2023 年反對派初選、原本要挑戰馬杜洛。",
+ "dive_html": "廢除這條法律等於為馬查多等反對派人士參選掃除法律障礙，是政治過渡能否走向真正選舉的關鍵一步。不過臨時政府仍由馬杜洛時代的核心人物主導、選舉日期未定，廢法是誠意展現還是談判籌碼，要看何時公布選舉時程與反對派能否自由登記參選。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Al Jazeera",
+   "title": "Venezuela to repeal law that bans opposition figures from office",
+   "url": "https://www.aljazeera.com/news/2026/11/27/venezuela-to-repeal-law-that-bans-opposition-figures-from-office",
+   "time": "2026-11-28T04:44:03+08:00",
+   "added_at": "2026-11-28T08:53:47+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

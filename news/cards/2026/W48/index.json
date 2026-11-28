@@ -1,7 +1,7 @@
 {
  "schema": 2,
  "week": "2026-W48",
- "built_at": "2026-11-28T08:50:07+08:00",
+ "built_at": "2026-11-28T08:53:47+08:00",
  "cards": [
   {
    "id": "2026-W48-0001",
@@ -61,7 +61,7 @@
    "first_reported_at": "2026-11-25T22:16:12+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.08823529411764706,
+   "heat_rank": 0.08695652173913043,
    "exploited": false
   },
   {
@@ -133,7 +133,7 @@
    "first_reported_at": "2026-11-25T16:23:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17422867513611615,
+   "heat_rank": 0.17073170731707318,
    "exploited": false
   },
   {
@@ -194,7 +194,7 @@
    "first_reported_at": "2026-11-25T22:05:57+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -258,7 +258,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -318,7 +318,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -390,7 +390,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": "2026-11-28T08:50:07+08:00",
-   "heat_rank": 0.0852994555353902,
+   "heat_rank": 0.08188153310104529,
    "exploited": false
   },
   {
@@ -456,7 +456,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -522,7 +522,7 @@
    "first_reported_at": "2026-11-25T02:55:12+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -598,7 +598,7 @@
    "first_reported_at": "2026-11-25T00:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": "2026-11-26T17:27:06+08:00",
-   "heat_rank": 0.32667876588021777,
+   "heat_rank": 0.32926829268292684,
    "exploited": false
   },
   {
@@ -657,7 +657,7 @@
    "first_reported_at": "2026-11-25T07:56:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -719,7 +719,7 @@
    "first_reported_at": "2026-11-25T05:32:51+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -791,7 +791,7 @@
    "first_reported_at": "2026-11-25T02:32:13+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": "2026-11-26T17:27:06+08:00",
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -850,7 +850,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -912,7 +912,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -977,7 +977,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -1041,7 +1041,7 @@
    "first_reported_at": "2026-11-25T12:29:07+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -1104,7 +1104,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -1171,7 +1171,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -1240,7 +1240,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -1303,7 +1303,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -1366,7 +1366,7 @@
    "first_reported_at": "2026-11-25T01:46:41+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -1434,7 +1434,7 @@
    "first_reported_at": "2026-11-25T05:49:50+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.23774954627949182,
+   "heat_rank": 0.24041811846689895,
    "exploited": false
   },
   {
@@ -1497,7 +1497,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -1564,7 +1564,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -1627,7 +1627,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -1697,7 +1697,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -1761,7 +1761,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -1823,7 +1823,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -1884,7 +1884,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -1952,7 +1952,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -2017,7 +2017,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -2075,7 +2075,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -2133,7 +2133,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -2191,7 +2191,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -2250,7 +2250,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -2308,7 +2308,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -2366,7 +2366,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -2425,7 +2425,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -2489,7 +2489,7 @@
    "first_reported_at": "2026-11-25T10:34:21+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -2547,7 +2547,7 @@
    "first_reported_at": "2026-11-25T08:54:49+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -2618,7 +2618,7 @@
    "first_reported_at": "2026-11-25T21:33:07+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": "2026-11-27T16:57:43+08:00",
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -2680,7 +2680,7 @@
    "first_reported_at": "2026-11-25T12:27:55+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -2741,7 +2741,7 @@
    "first_reported_at": "2026-11-25T09:45:35+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.034482758620689655,
+   "heat_rank": 0.033101045296167246,
    "exploited": false
   },
   {
@@ -2802,7 +2802,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -2862,7 +2862,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.75,
+   "heat_rank": 0.7391304347826086,
    "exploited": false
   },
   {
@@ -2923,7 +2923,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": false
   },
   {
@@ -2991,7 +2991,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2577132486388385,
+   "heat_rank": 0.26306620209059234,
    "exploited": true
   },
   {
@@ -3052,7 +3052,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -3112,7 +3112,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -3180,7 +3180,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -3242,7 +3242,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -3302,7 +3302,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -3362,7 +3362,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -3424,7 +3424,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -3486,7 +3486,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -3547,7 +3547,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -3609,7 +3609,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -3671,7 +3671,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -3734,7 +3734,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T01:46:18+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -3875,7 +3875,7 @@
    "first_reported_at": "2026-11-25T21:47:43+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.0780399274047187,
+   "heat_rank": 0.07491289198606271,
    "exploited": false
   },
   {
@@ -3946,7 +3946,7 @@
    "first_reported_at": "2026-11-25T20:02:58+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -4020,7 +4020,7 @@
    "first_reported_at": "2026-11-25T11:32:33+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.21234119782214156,
+   "heat_rank": 0.21080139372822299,
    "exploited": false
   },
   {
@@ -4106,7 +4106,7 @@
    "first_reported_at": "2026-11-24T08:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": "2026-11-27T16:57:43+08:00",
-   "heat_rank": 0.0018148820326678765,
+   "heat_rank": 0.0017421602787456446,
    "exploited": false
   },
   {
@@ -4170,7 +4170,7 @@
    "first_reported_at": "2026-11-25T17:24:39+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4117647058823529,
+   "heat_rank": 0.4057971014492754,
    "exploited": false
   },
   {
@@ -4232,7 +4232,7 @@
    "first_reported_at": "2026-11-25T19:08:48+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.75,
+   "heat_rank": 0.7391304347826086,
    "exploited": false
   },
   {
@@ -4299,7 +4299,7 @@
    "first_reported_at": "2026-11-25T19:16:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.35753176043557167,
+   "heat_rank": 0.3606271777003484,
    "exploited": false
   },
   {
@@ -4364,7 +4364,7 @@
    "first_reported_at": "2026-11-26T00:35:43+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -4428,7 +4428,7 @@
    "first_reported_at": "2026-11-25T21:23:45+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.20588235294117646,
+   "heat_rank": 0.2028985507246377,
    "exploited": false
   },
   {
@@ -4494,7 +4494,7 @@
    "first_reported_at": "2026-11-25T16:15:17+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.08823529411764706,
+   "heat_rank": 0.08695652173913043,
    "exploited": false
   },
   {
@@ -4556,7 +4556,7 @@
    "first_reported_at": "2026-11-25T18:25:31+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -4618,7 +4618,7 @@
    "first_reported_at": "2026-11-25T22:48:21+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.08166969147005444,
+   "heat_rank": 0.078397212543554,
    "exploited": false
   },
   {
@@ -4690,7 +4690,7 @@
    "first_reported_at": "2026-11-25T14:50:46+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.32667876588021777,
+   "heat_rank": 0.32926829268292684,
    "exploited": false
   },
   {
@@ -4757,7 +4757,7 @@
    "first_reported_at": "2026-11-25T02:03:58+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.11252268602540835,
+   "heat_rank": 0.10975609756097561,
    "exploited": false
   },
   {
@@ -4826,7 +4826,7 @@
    "first_reported_at": "2026-11-25T15:10:45+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.1996370235934664,
+   "heat_rank": 0.1986062717770035,
    "exploited": false
   },
   {
@@ -4891,7 +4891,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.12704174228675136,
+   "heat_rank": 0.12369337979094076,
    "exploited": true
   },
   {
@@ -4953,7 +4953,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -5017,7 +5017,7 @@
    "first_reported_at": "2026-11-25T06:18:45+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": false
   },
   {
@@ -5083,7 +5083,7 @@
    "first_reported_at": "2026-11-25T20:48:54+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": "2026-11-27T16:57:43+08:00",
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": true
   },
   {
@@ -5149,7 +5149,7 @@
    "first_reported_at": "2026-11-25T04:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": "2026-11-28T08:50:07+08:00",
-   "heat_rank": 0.07078039927404718,
+   "heat_rank": 0.06794425087108014,
    "exploited": true
   },
   {
@@ -5213,7 +5213,7 @@
    "first_reported_at": "2026-11-25T02:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": true
   },
   {
@@ -5276,7 +5276,7 @@
    "first_reported_at": "2026-11-25T14:21:12+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": true
   },
   {
@@ -5336,7 +5336,7 @@
    "first_reported_at": "2026-11-25T04:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -5400,7 +5400,7 @@
    "first_reported_at": "2026-11-25T03:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.75,
+   "heat_rank": 0.7391304347826086,
    "exploited": false
   },
   {
@@ -5462,7 +5462,7 @@
    "first_reported_at": "2026-11-25T03:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.75,
+   "heat_rank": 0.7391304347826086,
    "exploited": false
   },
   {
@@ -5524,7 +5524,7 @@
    "first_reported_at": "2026-11-25T02:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": true
   },
   {
@@ -5585,7 +5585,7 @@
    "first_reported_at": "2026-11-25T02:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": true
   },
   {
@@ -5645,7 +5645,7 @@
    "first_reported_at": "2026-11-25T12:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -5705,7 +5705,7 @@
    "first_reported_at": "2026-11-25T12:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -5768,7 +5768,7 @@
    "first_reported_at": "2026-11-25T11:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -5828,7 +5828,7 @@
    "first_reported_at": "2026-11-25T10:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -5892,7 +5892,7 @@
    "first_reported_at": "2026-11-25T10:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.75,
+   "heat_rank": 0.7391304347826086,
    "exploited": false
   },
   {
@@ -5953,7 +5953,7 @@
    "first_reported_at": "2026-11-25T08:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -6019,7 +6019,7 @@
    "first_reported_at": "2026-11-26T01:00:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": "2026-11-26T16:09:33+08:00",
-   "heat_rank": 0.036297640653357534,
+   "heat_rank": 0.03484320557491289,
    "exploited": false
   },
   {
@@ -6080,7 +6080,7 @@
    "first_reported_at": "2026-11-25T22:04:37+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -6142,7 +6142,7 @@
    "first_reported_at": "2026-11-25T17:44:43+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": false
   },
   {
@@ -6207,7 +6207,7 @@
    "first_reported_at": "2026-11-25T21:29:28+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -6269,7 +6269,7 @@
    "first_reported_at": "2026-11-25T23:23:22+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -6328,7 +6328,7 @@
    "first_reported_at": "2026-11-25T19:51:53+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -6386,7 +6386,7 @@
    "first_reported_at": "2026-11-25T16:16:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3647912885662432,
+   "heat_rank": 0.3693379790940767,
    "exploited": false
   },
   {
@@ -6449,7 +6449,7 @@
    "first_reported_at": "2026-11-25T19:29:17+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -6513,7 +6513,7 @@
    "first_reported_at": "2026-11-25T18:19:17+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": "2026-11-27T17:05:32+08:00",
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": false
   },
   {
@@ -6578,7 +6578,7 @@
    "first_reported_at": "2026-11-25T15:32:08+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3647912885662432,
+   "heat_rank": 0.3693379790940767,
    "exploited": false
   },
   {
@@ -6642,7 +6642,7 @@
    "first_reported_at": "2026-11-25T15:30:57+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -6704,7 +6704,7 @@
    "first_reported_at": "2026-06-01T08:00:00+08:00",
    "event_at": "2026-06-01T08:00:00+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -6766,7 +6766,7 @@
    "first_reported_at": "2026-11-26T00:24:30+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3176043557168784,
+   "heat_rank": 0.3205574912891986,
    "exploited": false
   },
   {
@@ -6836,7 +6836,7 @@
    "first_reported_at": "2026-11-25T23:18:49+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.21234119782214156,
+   "heat_rank": 0.21080139372822299,
    "exploited": false
   },
   {
@@ -6901,7 +6901,7 @@
    "first_reported_at": "2026-11-25T06:07:45+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -6968,7 +6968,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.18330308529945555,
+   "heat_rank": 0.1794425087108014,
    "exploited": false
   },
   {
@@ -7028,7 +7028,7 @@
    "first_reported_at": "2026-11-25T14:08:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -7087,7 +7087,7 @@
    "first_reported_at": "2026-11-25T10:53:00+08:00",
    "event_at": "2026-11-26T01:54:26+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -7160,7 +7160,7 @@
    "first_reported_at": "2026-11-25T23:17:28+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": "2026-11-26T17:36:58+08:00",
-   "heat_rank": 0.014705882352941176,
+   "heat_rank": 0.014492753623188406,
    "exploited": false
   },
   {
@@ -7225,7 +7225,7 @@
    "first_reported_at": "2026-11-25T20:35:09+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.20588235294117646,
+   "heat_rank": 0.2028985507246377,
    "exploited": false
   },
   {
@@ -7290,7 +7290,7 @@
    "first_reported_at": "2026-11-25T20:50:28+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -7366,7 +7366,7 @@
    "first_reported_at": "2026-11-25T19:59:55+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": "2026-11-28T08:50:07+08:00",
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -7428,7 +7428,7 @@
    "first_reported_at": "2026-11-25T19:36:46+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -7496,7 +7496,7 @@
    "first_reported_at": "2026-11-25T18:35:20+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -7560,7 +7560,7 @@
    "first_reported_at": "2026-11-25T16:53:54+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.20588235294117646,
+   "heat_rank": 0.2028985507246377,
    "exploited": false
   },
   {
@@ -7628,7 +7628,7 @@
    "first_reported_at": "2026-11-25T17:17:26+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": "2026-11-27T17:05:32+08:00",
-   "heat_rank": 0.20588235294117646,
+   "heat_rank": 0.2028985507246377,
    "exploited": false
   },
   {
@@ -7702,7 +7702,7 @@
    "first_reported_at": "2026-11-25T09:31:46+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": "2026-11-27T17:05:32+08:00",
-   "heat_rank": 0.0054446460980036296,
+   "heat_rank": 0.005226480836236934,
    "exploited": false
   },
   {
@@ -7766,7 +7766,7 @@
    "first_reported_at": "2026-11-25T09:51:02+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.05263157894736842,
+   "heat_rank": 0.050522648083623695,
    "exploited": false
   },
   {
@@ -7836,7 +7836,7 @@
    "first_reported_at": "2026-11-25T04:36:38+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.019963702359346643,
+   "heat_rank": 0.01916376306620209,
    "exploited": false
   },
   {
@@ -7903,7 +7903,7 @@
    "first_reported_at": "2026-11-25T08:26:33+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.007259528130671506,
+   "heat_rank": 0.006968641114982578,
    "exploited": false
   },
   {
@@ -7969,7 +7969,7 @@
    "first_reported_at": "2026-11-25T20:27:16+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -8040,7 +8040,7 @@
    "first_reported_at": "2026-11-24T00:00:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": "2026-11-27T17:05:32+08:00",
-   "heat_rank": 0.056261343012704176,
+   "heat_rank": 0.05400696864111498,
    "exploited": false
   },
   {
@@ -8101,7 +8101,7 @@
    "first_reported_at": "2026-11-25T16:47:52+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -8166,7 +8166,7 @@
    "first_reported_at": "2026-11-25T17:34:42+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": "2026-11-28T08:50:07+08:00",
-   "heat_rank": 0.20588235294117646,
+   "heat_rank": 0.2028985507246377,
    "exploited": false
   },
   {
@@ -8233,7 +8233,7 @@
    "first_reported_at": "2026-11-25T17:21:29+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": "2026-11-27T20:52:38+08:00",
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -8290,7 +8290,7 @@
    "first_reported_at": "2026-11-25T17:01:01+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -8365,7 +8365,7 @@
    "first_reported_at": "2026-11-25T01:35:17+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": "2026-11-26T17:36:58+08:00",
-   "heat_rank": 0.07441016333938294,
+   "heat_rank": 0.07142857142857142,
    "exploited": false
   },
   {
@@ -8423,7 +8423,7 @@
    "first_reported_at": "2026-11-26T00:20:01+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -8482,7 +8482,7 @@
    "first_reported_at": "2026-11-25T20:00:04+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -8541,7 +8541,7 @@
    "first_reported_at": "2026-11-25T19:13:47+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -8604,7 +8604,7 @@
    "first_reported_at": "2026-11-25T12:11:59+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -8662,7 +8662,7 @@
    "first_reported_at": "2026-11-25T09:09:43+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -8721,7 +8721,7 @@
    "first_reported_at": "2026-11-25T07:30:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.32667876588021777,
+   "heat_rank": 0.32926829268292684,
    "exploited": false
   },
   {
@@ -8783,7 +8783,7 @@
    "first_reported_at": "2026-11-25T03:07:26+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -8841,7 +8841,7 @@
    "first_reported_at": "2026-11-25T19:00:45+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -8902,7 +8902,7 @@
    "first_reported_at": "2026-11-25T22:26:29+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.75,
+   "heat_rank": 0.7391304347826086,
    "exploited": false
   },
   {
@@ -8963,7 +8963,7 @@
    "first_reported_at": "2026-11-25T21:59:21+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.75,
+   "heat_rank": 0.7391304347826086,
    "exploited": false
   },
   {
@@ -9022,7 +9022,7 @@
    "first_reported_at": "2026-11-25T13:26:37+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.75,
+   "heat_rank": 0.7391304347826086,
    "exploited": false
   },
   {
@@ -9089,7 +9089,7 @@
    "first_reported_at": "2026-11-25T22:55:50+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -9154,7 +9154,7 @@
    "first_reported_at": "2026-11-25T21:09:40+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -9222,7 +9222,7 @@
    "first_reported_at": "2026-11-25T20:43:40+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -9288,7 +9288,7 @@
    "first_reported_at": "2026-11-25T17:15:50+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -9350,7 +9350,7 @@
    "first_reported_at": "2026-11-25T02:29:25+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2014519056261343,
+   "heat_rank": 0.20034843205574912,
    "exploited": false
   },
   {
@@ -9414,7 +9414,7 @@
    "first_reported_at": "2026-11-25T19:36:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -9477,7 +9477,7 @@
    "first_reported_at": "2026-11-25T18:53:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -9542,7 +9542,7 @@
    "first_reported_at": "2026-11-25T02:04:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": false
   },
   {
@@ -9605,7 +9605,7 @@
    "first_reported_at": "2026-11-19T11:56:39+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -9668,7 +9668,7 @@
    "first_reported_at": "2026-11-19T10:57:14+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -9731,7 +9731,7 @@
    "first_reported_at": "2026-11-24T11:54:52+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -9792,7 +9792,7 @@
    "first_reported_at": "2026-11-20T12:52:38+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -9856,7 +9856,7 @@
    "first_reported_at": "2026-11-23T16:21:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -9919,7 +9919,7 @@
    "first_reported_at": "2026-11-19T10:10:45+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -9982,7 +9982,7 @@
    "first_reported_at": "2026-11-23T16:21:02+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -10046,7 +10046,7 @@
    "first_reported_at": "2026-11-23T17:49:19+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -10109,7 +10109,7 @@
    "first_reported_at": "2026-11-25T13:12:38+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -10173,7 +10173,7 @@
    "first_reported_at": "2026-11-25T16:07:55+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -10241,7 +10241,7 @@
    "first_reported_at": "2026-11-25T14:25:45+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2014519056261343,
+   "heat_rank": 0.20034843205574912,
    "exploited": false
   },
   {
@@ -10305,7 +10305,7 @@
    "first_reported_at": "2026-11-25T13:59:57+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3647912885662432,
+   "heat_rank": 0.3693379790940767,
    "exploited": false
   },
   {
@@ -10369,7 +10369,7 @@
    "first_reported_at": "2026-11-25T09:57:32+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": false
   },
   {
@@ -10433,7 +10433,7 @@
    "first_reported_at": "2026-11-25T05:46:45+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -10494,7 +10494,7 @@
    "first_reported_at": "2026-11-25T11:12:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -10555,7 +10555,7 @@
    "first_reported_at": "2026-11-25T16:28:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.12704174228675136,
+   "heat_rank": 0.12369337979094076,
    "exploited": false
   },
   {
@@ -10619,7 +10619,7 @@
    "first_reported_at": "2026-11-25T15:55:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": false
   },
   {
@@ -10683,7 +10683,7 @@
    "first_reported_at": "2026-11-25T15:55:14+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.06896551724137931,
+   "heat_rank": 0.06620209059233449,
    "exploited": false
   },
   {
@@ -10750,7 +10750,7 @@
    "first_reported_at": "2026-11-25T23:16:40+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -10808,7 +10808,7 @@
    "first_reported_at": "2026-11-25T14:29:23+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -10873,7 +10873,7 @@
    "first_reported_at": "2026-11-25T22:40:00+08:00",
    "event_at": "2026-11-26T02:02:15+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2577132486388385,
+   "heat_rank": 0.26306620209059234,
    "exploited": false
   },
   {
@@ -10934,7 +10934,7 @@
    "first_reported_at": "2026-11-25T13:04:25+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -10996,7 +10996,7 @@
    "first_reported_at": "2026-11-25T16:25:54+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3647912885662432,
+   "heat_rank": 0.3693379790940767,
    "exploited": false
   },
   {
@@ -11057,7 +11057,7 @@
    "first_reported_at": "2026-11-25T07:50:31+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.08166969147005444,
+   "heat_rank": 0.078397212543554,
    "exploited": false
   },
   {
@@ -11122,7 +11122,7 @@
    "first_reported_at": "2026-11-25T20:48:24+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3339382940108893,
+   "heat_rank": 0.3362369337979094,
    "exploited": false
   },
   {
@@ -11185,7 +11185,7 @@
    "first_reported_at": "2026-11-25T20:39:19+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -11249,7 +11249,7 @@
    "first_reported_at": "2026-11-25T11:04:37+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -11316,7 +11316,7 @@
    "first_reported_at": "2026-11-25T12:31:48+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7749546279491834,
+   "heat_rank": 0.7787456445993032,
    "exploited": false
   },
   {
@@ -11374,7 +11374,7 @@
    "first_reported_at": "2026-11-25T06:50:11+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -11434,7 +11434,7 @@
    "first_reported_at": "2026-11-25T06:36:28+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.16515426497277677,
+   "heat_rank": 0.16202090592334495,
    "exploited": false
   },
   {
@@ -11492,7 +11492,7 @@
    "first_reported_at": "2026-11-25T04:00:18+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.15970961887477314,
+   "heat_rank": 0.156794425087108,
    "exploited": false
   },
   {
@@ -11556,7 +11556,7 @@
    "first_reported_at": "2026-11-25T01:34:34+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.23774954627949182,
+   "heat_rank": 0.24041811846689895,
    "exploited": false
   },
   {
@@ -11628,7 +11628,7 @@
    "first_reported_at": "2026-11-25T16:52:54+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": "2026-11-28T08:50:07+08:00",
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -11693,7 +11693,7 @@
    "first_reported_at": "2026-11-25T16:40:35+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17604355716878403,
+   "heat_rank": 0.17247386759581881,
    "exploited": false
   },
   {
@@ -11757,7 +11757,7 @@
    "first_reported_at": "2026-11-25T14:45:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -11818,7 +11818,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -11876,7 +11876,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -11941,7 +11941,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -12001,7 +12001,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -12066,7 +12066,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -12126,7 +12126,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -12184,7 +12184,7 @@
    "first_reported_at": "2026-11-26T01:00:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -12238,7 +12238,7 @@
    "first_reported_at": "2026-11-25T23:00:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -12292,7 +12292,7 @@
    "first_reported_at": "2026-11-25T08:01:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -12357,7 +12357,7 @@
    "first_reported_at": "2026-11-25T21:00:53+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -12416,7 +12416,7 @@
    "first_reported_at": "2026-11-25T17:49:01+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -12479,7 +12479,7 @@
    "first_reported_at": "2026-11-25T12:49:46+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -12542,7 +12542,7 @@
    "first_reported_at": "2026-11-25T03:53:25+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -12597,7 +12597,7 @@
    "first_reported_at": "2026-11-26T00:00:59+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -12659,7 +12659,7 @@
    "first_reported_at": "2026-11-25T15:10:10+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -12719,7 +12719,7 @@
    "first_reported_at": "2026-11-25T03:30:54+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -12780,7 +12780,7 @@
    "first_reported_at": "2026-11-26T01:00:09+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.19237749546279492,
+   "heat_rank": 0.18989547038327526,
    "exploited": false
   },
   {
@@ -12843,7 +12843,7 @@
    "first_reported_at": "2026-11-25T23:52:14+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -12904,7 +12904,7 @@
    "first_reported_at": "2026-11-25T14:00:11+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -12965,7 +12965,7 @@
    "first_reported_at": "2026-11-25T02:32:01+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.21234119782214156,
+   "heat_rank": 0.21080139372822299,
    "exploited": false
   },
   {
@@ -13024,7 +13024,7 @@
    "first_reported_at": "2026-11-25T20:42:57+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3139745916515426,
+   "heat_rank": 0.3170731707317073,
    "exploited": false
   },
   {
@@ -13080,7 +13080,7 @@
    "first_reported_at": "2026-11-25T15:17:16+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -13144,7 +13144,7 @@
    "first_reported_at": "2026-11-25T02:24:15+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -13209,7 +13209,7 @@
    "first_reported_at": "2026-09-01T08:00:00+08:00",
    "event_at": "2026-09-01T08:00:00+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -13272,7 +13272,7 @@
    "first_reported_at": "2026-08-01T08:00:00+08:00",
    "event_at": "2026-08-01T08:00:00+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -13338,7 +13338,7 @@
    "first_reported_at": "2026-11-25T17:54:32+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.21234119782214156,
+   "heat_rank": 0.21080139372822299,
    "exploited": false
   },
   {
@@ -13406,7 +13406,7 @@
    "first_reported_at": "2026-11-26T00:42:11+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -13470,7 +13470,7 @@
    "first_reported_at": "2026-11-25T14:00:45+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.33756805807622503,
+   "heat_rank": 0.34146341463414637,
    "exploited": false
   },
   {
@@ -13535,7 +13535,7 @@
    "first_reported_at": "2026-11-25T11:00:03+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3176043557168784,
+   "heat_rank": 0.3205574912891986,
    "exploited": false
   },
   {
@@ -13596,7 +13596,7 @@
    "first_reported_at": "2026-11-25T22:06:13+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.10707803992740472,
+   "heat_rank": 0.10452961672473868,
    "exploited": false
   },
   {
@@ -13659,7 +13659,7 @@
    "first_reported_at": "2026-11-25T17:18:37+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.09074410163339383,
+   "heat_rank": 0.08885017421602788,
    "exploited": false
   },
   {
@@ -13717,7 +13717,7 @@
    "first_reported_at": "2026-11-25T11:57:11+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.16515426497277677,
+   "heat_rank": 0.16202090592334495,
    "exploited": false
   },
   {
@@ -13778,7 +13778,7 @@
    "first_reported_at": "2026-11-25T23:35:33+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.23774954627949182,
+   "heat_rank": 0.24041811846689895,
    "exploited": false
   },
   {
@@ -13858,7 +13858,7 @@
    "first_reported_at": "2026-11-25T07:05:11+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": "2026-11-26T17:36:58+08:00",
-   "heat_rank": 0.18330308529945555,
+   "heat_rank": 0.1794425087108014,
    "exploited": false
   },
   {
@@ -13920,7 +13920,7 @@
    "first_reported_at": "2026-11-25T19:57:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.10526315789473684,
+   "heat_rank": 0.10278745644599303,
    "exploited": false
   },
   {
@@ -13985,7 +13985,7 @@
    "first_reported_at": "2026-11-25T11:17:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.05263157894736842,
+   "heat_rank": 0.050522648083623695,
    "exploited": false
   },
   {
@@ -14053,7 +14053,7 @@
    "first_reported_at": "2026-11-25T00:00:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": "2026-11-26T17:36:58+08:00",
-   "heat_rank": 0.1560798548094374,
+   "heat_rank": 0.15331010452961671,
    "exploited": false
   },
   {
@@ -14116,7 +14116,7 @@
    "first_reported_at": "2026-11-25T19:15:35+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.12341197822141561,
+   "heat_rank": 0.12020905923344948,
    "exploited": false
   },
   {
@@ -14178,7 +14178,7 @@
    "first_reported_at": "2026-11-25T13:35:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.050816696914700546,
+   "heat_rank": 0.04878048780487805,
    "exploited": false
   },
   {
@@ -14236,7 +14236,7 @@
    "first_reported_at": "2026-11-25T22:53:49+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.23774954627949182,
+   "heat_rank": 0.24041811846689895,
    "exploited": false
   },
   {
@@ -14294,7 +14294,7 @@
    "first_reported_at": "2026-11-25T22:50:50+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -14355,7 +14355,7 @@
    "first_reported_at": "2026-11-24T00:00:00+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2577132486388385,
+   "heat_rank": 0.26306620209059234,
    "exploited": false
   },
   {
@@ -14409,7 +14409,7 @@
    "first_reported_at": "2026-11-25T22:52:30+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.33756805807622503,
+   "heat_rank": 0.34146341463414637,
    "exploited": false
   },
   {
@@ -14471,7 +14471,7 @@
    "first_reported_at": "2026-11-25T21:00:27+08:00",
    "event_at": "2026-11-26T02:08:48+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -14529,7 +14529,7 @@
    "first_reported_at": "2026-11-24T00:00:00+08:00",
    "event_at": "2026-11-24T00:00:00+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -14593,7 +14593,7 @@
    "first_reported_at": "2026-11-25T22:59:00+08:00",
    "event_at": "2026-11-26T02:10:05+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3176043557168784,
+   "heat_rank": 0.3205574912891986,
    "exploited": false
   },
   {
@@ -14652,7 +14652,7 @@
    "first_reported_at": "2026-11-26T00:44:09+08:00",
    "event_at": "2026-11-26T02:10:05+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -14719,7 +14719,7 @@
    "first_reported_at": "2026-11-25T07:00:00+08:00",
    "event_at": "2026-11-26T02:10:05+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.19237749546279492,
+   "heat_rank": 0.18989547038327526,
    "exploited": false
   },
   {
@@ -14781,7 +14781,7 @@
    "first_reported_at": "2026-11-25T14:25:10+08:00",
    "event_at": "2026-11-26T02:10:05+08:00",
    "supplemented_at": "2026-11-26T17:36:58+08:00",
-   "heat_rank": 0.12341197822141561,
+   "heat_rank": 0.12020905923344948,
    "exploited": false
   },
   {
@@ -14846,7 +14846,7 @@
    "first_reported_at": "2026-11-25T14:54:15+08:00",
    "event_at": "2026-11-26T02:10:05+08:00",
    "supplemented_at": "2026-11-27T17:05:32+08:00",
-   "heat_rank": 0.2577132486388385,
+   "heat_rank": 0.26306620209059234,
    "exploited": false
   },
   {
@@ -14908,7 +14908,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T02:10:05+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3121597096188748,
+   "heat_rank": 0.3153310104529617,
    "exploited": false
   },
   {
@@ -14973,7 +14973,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T02:10:05+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -15039,7 +15039,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T02:10:05+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.05989110707803993,
+   "heat_rank": 0.05749128919860627,
    "exploited": false
   },
   {
@@ -15095,7 +15095,7 @@
    "first_reported_at": "2026-11-25T14:00:00+08:00",
    "event_at": "2026-11-26T02:10:05+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.23774954627949182,
+   "heat_rank": 0.24041811846689895,
    "exploited": false
   },
   {
@@ -15157,7 +15157,7 @@
    "first_reported_at": "2026-11-25T11:44:00+08:00",
    "event_at": "2026-11-26T02:10:05+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.06533575317604355,
+   "heat_rank": 0.0627177700348432,
    "exploited": false
   },
   {
@@ -15220,7 +15220,7 @@
    "first_reported_at": "2026-11-25T13:53:00+08:00",
    "event_at": "2026-11-26T02:10:05+08:00",
    "supplemented_at": "2026-11-26T16:09:33+08:00",
-   "heat_rank": 0.047186932849364795,
+   "heat_rank": 0.04529616724738676,
    "exploited": false
   },
   {
@@ -15277,7 +15277,7 @@
    "first_reported_at": "2026-11-25T18:11:44+08:00",
    "event_at": "2026-11-26T02:10:05+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -15345,7 +15345,7 @@
    "first_reported_at": "2026-11-25T08:12:34+08:00",
    "event_at": "2026-11-26T02:10:05+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.021778584392014518,
+   "heat_rank": 0.020905923344947737,
    "exploited": false
   },
   {
@@ -15411,7 +15411,7 @@
    "first_reported_at": "2026-11-26T12:17:10+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.08823529411764706,
+   "heat_rank": 0.08695652173913043,
    "exploited": false
   },
   {
@@ -15474,7 +15474,7 @@
    "first_reported_at": "2026-11-26T14:48:17+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.20588235294117646,
+   "heat_rank": 0.2028985507246377,
    "exploited": false
   },
   {
@@ -15545,7 +15545,7 @@
    "first_reported_at": "2026-11-26T13:21:15+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.20588235294117646,
+   "heat_rank": 0.2028985507246377,
    "exploited": false
   },
   {
@@ -15614,7 +15614,7 @@
    "first_reported_at": "2026-11-26T13:13:04+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": "2026-11-27T20:52:38+08:00",
-   "heat_rank": 0.20588235294117646,
+   "heat_rank": 0.2028985507246377,
    "exploited": false
   },
   {
@@ -15682,7 +15682,7 @@
    "first_reported_at": "2026-11-26T12:44:49+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.04411764705882353,
+   "heat_rank": 0.043478260869565216,
    "exploited": false
   },
   {
@@ -15747,7 +15747,7 @@
    "first_reported_at": "2026-11-26T11:43:48+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.20588235294117646,
+   "heat_rank": 0.2028985507246377,
    "exploited": false
   },
   {
@@ -15815,7 +15815,7 @@
    "first_reported_at": "2026-11-26T12:20:00+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.014519056261343012,
+   "heat_rank": 0.013937282229965157,
    "exploited": false
   },
   {
@@ -15880,7 +15880,7 @@
    "first_reported_at": "2026-11-26T05:00:00+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.06533575317604355,
+   "heat_rank": 0.0627177700348432,
    "exploited": false
   },
   {
@@ -15954,7 +15954,7 @@
    "first_reported_at": "2026-11-26T13:00:19+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.029038112522686024,
+   "heat_rank": 0.027874564459930314,
    "exploited": false
   },
   {
@@ -16031,7 +16031,7 @@
    "first_reported_at": "2026-11-26T03:58:10+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.09618874773139746,
+   "heat_rank": 0.09407665505226481,
    "exploited": false
   },
   {
@@ -16094,7 +16094,7 @@
    "first_reported_at": "2026-11-26T09:05:00+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.023593466424682397,
+   "heat_rank": 0.02264808362369338,
    "exploited": false
   },
   {
@@ -16161,7 +16161,7 @@
    "first_reported_at": "2026-11-26T03:56:45+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": "2026-11-27T17:05:32+08:00",
-   "heat_rank": 0.032667876588021776,
+   "heat_rank": 0.0313588850174216,
    "exploited": false
   },
   {
@@ -16230,7 +16230,7 @@
    "first_reported_at": "2026-11-26T11:05:58+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.75,
+   "heat_rank": 0.7391304347826086,
    "exploited": false
   },
   {
@@ -16297,7 +16297,7 @@
    "first_reported_at": "2026-11-26T13:21:32+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.08823529411764706,
+   "heat_rank": 0.08695652173913043,
    "exploited": false
   },
   {
@@ -16360,7 +16360,7 @@
    "first_reported_at": "2026-11-25T18:01:09+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.06352087114337568,
+   "heat_rank": 0.06097560975609756,
    "exploited": false
   },
   {
@@ -16430,7 +16430,7 @@
    "first_reported_at": "2026-11-26T01:35:58+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -16493,7 +16493,7 @@
    "first_reported_at": "2026-11-26T06:23:41+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -16561,7 +16561,7 @@
    "first_reported_at": "2026-11-26T05:18:02+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -16620,7 +16620,7 @@
    "first_reported_at": "2026-11-26T08:00:00+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -16676,7 +16676,7 @@
    "first_reported_at": "2026-11-26T08:00:00+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -16737,7 +16737,7 @@
    "first_reported_at": "2026-11-26T08:00:00+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -16802,7 +16802,7 @@
    "first_reported_at": "2026-11-26T04:35:50+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3647912885662432,
+   "heat_rank": 0.3693379790940767,
    "exploited": false
   },
   {
@@ -16864,7 +16864,7 @@
    "first_reported_at": "2026-11-26T06:15:37+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.75,
+   "heat_rank": 0.7391304347826086,
    "exploited": false
   },
   {
@@ -16931,7 +16931,7 @@
    "first_reported_at": "2026-11-26T06:15:37+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3647912885662432,
+   "heat_rank": 0.3693379790940767,
    "exploited": false
   },
   {
@@ -16996,7 +16996,7 @@
    "first_reported_at": "2026-11-26T06:15:37+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.12704174228675136,
+   "heat_rank": 0.12369337979094076,
    "exploited": false
   },
   {
@@ -17053,7 +17053,7 @@
    "first_reported_at": "2026-11-26T06:15:37+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -17116,7 +17116,7 @@
    "first_reported_at": "2026-11-26T06:05:09+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.12704174228675136,
+   "heat_rank": 0.12369337979094076,
    "exploited": true
   },
   {
@@ -17187,7 +17187,7 @@
    "first_reported_at": "2026-11-26T03:39:31+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": "2026-11-27T16:57:43+08:00",
-   "heat_rank": 0.12704174228675136,
+   "heat_rank": 0.12369337979094076,
    "exploited": true
   },
   {
@@ -17252,7 +17252,7 @@
    "first_reported_at": "2026-11-26T00:13:40+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.07078039927404718,
+   "heat_rank": 0.06794425087108014,
    "exploited": true
   },
   {
@@ -17315,7 +17315,7 @@
    "first_reported_at": "2026-11-26T12:00:00+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -17377,7 +17377,7 @@
    "first_reported_at": "2026-11-26T12:00:00+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -17446,7 +17446,7 @@
    "first_reported_at": "2026-11-25T23:54:33+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -17518,7 +17518,7 @@
    "first_reported_at": "2026-11-26T04:19:40+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": "2026-11-27T20:52:38+08:00",
-   "heat_rank": 0.3647912885662432,
+   "heat_rank": 0.3693379790940767,
    "exploited": false
   },
   {
@@ -17585,7 +17585,7 @@
    "first_reported_at": "2026-11-26T02:03:10+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3647912885662432,
+   "heat_rank": 0.3693379790940767,
    "exploited": false
   },
   {
@@ -17648,7 +17648,7 @@
    "first_reported_at": "2026-11-26T01:43:23+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -17710,7 +17710,7 @@
    "first_reported_at": "2026-11-26T09:16:30+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -17776,7 +17776,7 @@
    "first_reported_at": "2026-11-26T00:49:16+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -17841,7 +17841,7 @@
    "first_reported_at": "2026-11-26T00:18:33+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -17904,7 +17904,7 @@
    "first_reported_at": "2026-11-26T13:17:21+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3647912885662432,
+   "heat_rank": 0.3693379790940767,
    "exploited": false
   },
   {
@@ -17966,7 +17966,7 @@
    "first_reported_at": "2026-11-26T09:20:00+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -18032,7 +18032,7 @@
    "first_reported_at": "2026-11-26T04:12:47+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.12704174228675136,
+   "heat_rank": 0.12369337979094076,
    "exploited": false
   },
   {
@@ -18099,7 +18099,7 @@
    "first_reported_at": "2026-11-26T01:43:53+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -18166,7 +18166,7 @@
    "first_reported_at": "2026-11-26T06:23:41+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -18233,7 +18233,7 @@
    "first_reported_at": "2026-11-26T13:39:02+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.041742286751361164,
+   "heat_rank": 0.04006968641114982,
    "exploited": false
   },
   {
@@ -18300,7 +18300,7 @@
    "first_reported_at": "2026-11-26T03:32:39+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": "2026-11-26T17:27:06+08:00",
-   "heat_rank": 0.10707803992740472,
+   "heat_rank": 0.10452961672473868,
    "exploited": false
   },
   {
@@ -18375,7 +18375,7 @@
    "first_reported_at": "2026-11-26T09:30:01+08:00",
    "event_at": "2026-11-26T16:09:33+08:00",
    "supplemented_at": "2026-11-27T16:57:43+08:00",
-   "heat_rank": 0.18330308529945555,
+   "heat_rank": 0.1794425087108014,
    "exploited": false
   },
   {
@@ -18437,7 +18437,7 @@
    "first_reported_at": "2026-11-26T11:17:57+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.20588235294117646,
+   "heat_rank": 0.2028985507246377,
    "exploited": false
   },
   {
@@ -18497,7 +18497,7 @@
    "first_reported_at": "2026-11-26T04:44:15+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -18553,7 +18553,7 @@
    "first_reported_at": "2026-11-26T09:00:02+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -18617,7 +18617,7 @@
    "first_reported_at": "2026-11-26T07:14:00+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.21234119782214156,
+   "heat_rank": 0.21080139372822299,
    "exploited": false
   },
   {
@@ -18683,7 +18683,7 @@
    "first_reported_at": "2026-11-26T07:26:50+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.012704174228675136,
+   "heat_rank": 0.012195121951219513,
    "exploited": false
   },
   {
@@ -18747,7 +18747,7 @@
    "first_reported_at": "2026-11-26T05:21:44+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.21234119782214156,
+   "heat_rank": 0.21080139372822299,
    "exploited": false
   },
   {
@@ -18817,7 +18817,7 @@
    "first_reported_at": "2026-11-26T01:44:57+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.010889292196007259,
+   "heat_rank": 0.010452961672473868,
    "exploited": false
   },
   {
@@ -18885,7 +18885,7 @@
    "first_reported_at": "2026-11-26T11:43:32+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -18945,7 +18945,7 @@
    "first_reported_at": "2026-11-26T01:30:00+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.045372050816696916,
+   "heat_rank": 0.04355400696864112,
    "exploited": false
   },
   {
@@ -19006,7 +19006,7 @@
    "first_reported_at": "2026-11-26T06:16:14+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.07622504537205081,
+   "heat_rank": 0.07317073170731707,
    "exploited": false
   },
   {
@@ -19071,7 +19071,7 @@
    "first_reported_at": "2026-11-26T11:00:00+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.35753176043557167,
+   "heat_rank": 0.3606271777003484,
    "exploited": false
   },
   {
@@ -19139,7 +19139,7 @@
    "first_reported_at": "2026-11-26T08:30:46+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.14156079854809436,
+   "heat_rank": 0.13763066202090593,
    "exploited": false
   },
   {
@@ -19212,7 +19212,7 @@
    "first_reported_at": "2026-11-26T05:08:45+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": "2026-11-28T08:50:07+08:00",
-   "heat_rank": 0.009074410163339383,
+   "heat_rank": 0.008710801393728223,
    "exploited": false
   },
   {
@@ -19275,7 +19275,7 @@
    "first_reported_at": "2026-11-26T14:37:20+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -19336,7 +19336,7 @@
    "first_reported_at": "2026-11-26T13:22:00+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.12159709618874773,
+   "heat_rank": 0.11846689895470383,
    "exploited": false
   },
   {
@@ -19405,7 +19405,7 @@
    "first_reported_at": "2026-11-26T15:40:04+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.33756805807622503,
+   "heat_rank": 0.34146341463414637,
    "exploited": false
   },
   {
@@ -19471,7 +19471,7 @@
    "first_reported_at": "2026-11-26T03:28:13+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.16515426497277677,
+   "heat_rank": 0.16202090592334495,
    "exploited": false
   },
   {
@@ -19530,7 +19530,7 @@
    "first_reported_at": "2026-11-26T04:03:53+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.16515426497277677,
+   "heat_rank": 0.16202090592334495,
    "exploited": false
   },
   {
@@ -19600,7 +19600,7 @@
    "first_reported_at": "2026-11-26T13:03:00+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.047186932849364795,
+   "heat_rank": 0.04529616724738676,
    "exploited": false
   },
   {
@@ -19663,7 +19663,7 @@
    "first_reported_at": "2026-11-26T08:05:50+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -19727,7 +19727,7 @@
    "first_reported_at": "2026-11-26T05:22:00+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.014519056261343012,
+   "heat_rank": 0.013937282229965157,
    "exploited": false
   },
   {
@@ -19791,7 +19791,7 @@
    "first_reported_at": "2026-11-26T05:35:04+08:00",
    "event_at": "2026-11-26T16:12:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.11796733212341198,
+   "heat_rank": 0.11498257839721254,
    "exploited": false
   },
   {
@@ -19859,7 +19859,7 @@
    "first_reported_at": "2026-11-26T14:46:24+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -19925,7 +19925,7 @@
    "first_reported_at": "2026-11-26T15:37:24+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17967332123411978,
+   "heat_rank": 0.1759581881533101,
    "exploited": false
   },
   {
@@ -19996,7 +19996,7 @@
    "first_reported_at": "2026-11-26T01:07:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.21234119782214156,
+   "heat_rank": 0.21080139372822299,
    "exploited": false
   },
   {
@@ -20066,7 +20066,7 @@
    "first_reported_at": "2026-11-25T23:26:31+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -20130,7 +20130,7 @@
    "first_reported_at": "2026-11-26T13:00:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -20195,7 +20195,7 @@
    "first_reported_at": "2026-11-26T13:00:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -20266,7 +20266,7 @@
    "first_reported_at": "2026-11-26T08:38:59+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -20339,7 +20339,7 @@
    "first_reported_at": "2026-11-26T16:17:38+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -20403,7 +20403,7 @@
    "first_reported_at": "2026-11-26T16:28:30+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -20469,7 +20469,7 @@
    "first_reported_at": "2026-11-26T16:26:09+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -20547,7 +20547,7 @@
    "first_reported_at": "2026-11-25T21:00:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.33756805807622503,
+   "heat_rank": 0.34146341463414637,
    "exploited": false
   },
   {
@@ -20612,7 +20612,7 @@
    "first_reported_at": "2026-11-26T17:00:57+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -20683,7 +20683,7 @@
    "first_reported_at": "2026-11-26T16:30:27+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -20749,7 +20749,7 @@
    "first_reported_at": "2026-11-26T14:50:25+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -20811,7 +20811,7 @@
    "first_reported_at": "2026-11-26T04:03:27+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -20880,7 +20880,7 @@
    "first_reported_at": "2026-11-26T01:30:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.1542649727767695,
+   "heat_rank": 0.15156794425087108,
    "exploited": false
   },
   {
@@ -20942,7 +20942,7 @@
    "first_reported_at": "2026-11-25T22:20:28+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -21010,7 +21010,7 @@
    "first_reported_at": "2026-11-25T22:10:18+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -21076,7 +21076,7 @@
    "first_reported_at": "2026-11-25T21:08:19+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -21139,7 +21139,7 @@
    "first_reported_at": "2026-11-26T03:40:17+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": true
   },
   {
@@ -21199,7 +21199,7 @@
    "first_reported_at": "2026-11-26T01:01:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -21264,7 +21264,7 @@
    "first_reported_at": "2026-11-26T01:00:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -21325,7 +21325,7 @@
    "first_reported_at": "2026-11-25T22:07:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -21386,7 +21386,7 @@
    "first_reported_at": "2026-11-25T19:16:18+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -21447,7 +21447,7 @@
    "first_reported_at": "2026-11-26T16:34:22+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": false
   },
   {
@@ -21508,7 +21508,7 @@
    "first_reported_at": "2026-11-26T16:26:38+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -21572,7 +21572,7 @@
    "first_reported_at": "2026-11-26T16:09:10+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2577132486388385,
+   "heat_rank": 0.26306620209059234,
    "exploited": false
   },
   {
@@ -21637,7 +21637,7 @@
    "first_reported_at": "2026-11-26T15:56:41+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -21697,7 +21697,7 @@
    "first_reported_at": "2026-11-25T20:27:36+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -21765,7 +21765,7 @@
    "first_reported_at": "2026-11-25T23:14:33+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.09800362976406533,
+   "heat_rank": 0.09581881533101046,
    "exploited": false
   },
   {
@@ -21827,7 +21827,7 @@
    "first_reported_at": "2026-11-26T04:40:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.147005444646098,
+   "heat_rank": 0.14285714285714285,
    "exploited": false
   },
   {
@@ -21890,7 +21890,7 @@
    "first_reported_at": "2026-11-25T21:30:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -21960,7 +21960,7 @@
    "first_reported_at": "2026-11-25T19:00:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": "2026-11-28T08:50:07+08:00",
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -22029,7 +22029,7 @@
    "first_reported_at": "2026-11-25T19:22:32+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -22093,7 +22093,7 @@
    "first_reported_at": "2026-11-26T14:15:14+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.75,
+   "heat_rank": 0.7391304347826086,
    "exploited": false
   },
   {
@@ -22160,7 +22160,7 @@
    "first_reported_at": "2026-11-26T02:09:20+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -22224,7 +22224,7 @@
    "first_reported_at": "2026-11-26T05:32:10+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2577132486388385,
+   "heat_rank": 0.26306620209059234,
    "exploited": false
   },
   {
@@ -22291,7 +22291,7 @@
    "first_reported_at": "2026-11-26T14:27:13+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3176043557168784,
+   "heat_rank": 0.3205574912891986,
    "exploited": false
   },
   {
@@ -22361,7 +22361,7 @@
    "first_reported_at": "2026-11-26T12:35:01+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -22426,7 +22426,7 @@
    "first_reported_at": "2026-11-26T16:00:07+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -22492,7 +22492,7 @@
    "first_reported_at": "2026-11-26T14:54:29+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -22560,7 +22560,7 @@
    "first_reported_at": "2026-11-26T16:03:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -22619,7 +22619,7 @@
    "first_reported_at": "2026-11-26T08:00:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -22680,7 +22680,7 @@
    "first_reported_at": "2026-11-26T08:00:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -22736,7 +22736,7 @@
    "first_reported_at": "2026-11-26T08:00:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -22792,7 +22792,7 @@
    "first_reported_at": "2026-11-26T08:00:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -22857,7 +22857,7 @@
    "first_reported_at": "2026-11-26T04:38:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -22920,7 +22920,7 @@
    "first_reported_at": "2026-11-26T05:47:16+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -22986,7 +22986,7 @@
    "first_reported_at": "2026-11-26T08:25:01+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -23056,7 +23056,7 @@
    "first_reported_at": "2026-11-26T02:17:00+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -23128,7 +23128,7 @@
    "first_reported_at": "2026-11-25T20:45:05+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -23191,7 +23191,7 @@
    "first_reported_at": "2026-11-26T13:14:43+08:00",
    "event_at": "2026-11-26T17:27:06+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -23259,7 +23259,7 @@
    "first_reported_at": "2026-11-26T15:55:21+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -23322,7 +23322,7 @@
    "first_reported_at": "2026-11-26T15:46:12+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -23387,7 +23387,7 @@
    "first_reported_at": "2026-11-26T14:18:07+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -23453,7 +23453,7 @@
    "first_reported_at": "2026-11-26T16:18:40+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3339382940108893,
+   "heat_rank": 0.3362369337979094,
    "exploited": false
   },
   {
@@ -23519,7 +23519,7 @@
    "first_reported_at": "2026-11-26T15:14:52+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -23586,7 +23586,7 @@
    "first_reported_at": "2026-11-26T16:02:27+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -23654,7 +23654,7 @@
    "first_reported_at": "2026-11-26T15:34:03+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -23719,7 +23719,7 @@
    "first_reported_at": "2026-11-25T19:31:00+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.18330308529945555,
+   "heat_rank": 0.1794425087108014,
    "exploited": false
   },
   {
@@ -23778,7 +23778,7 @@
    "first_reported_at": "2026-11-25T21:48:00+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -23834,7 +23834,7 @@
    "first_reported_at": "2026-11-26T09:45:00+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -23894,7 +23894,7 @@
    "first_reported_at": "2026-11-25T22:37:00+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.33212341197822143,
+   "heat_rank": 0.3344947735191638,
    "exploited": false
   },
   {
@@ -23963,7 +23963,7 @@
    "first_reported_at": "2026-11-26T02:16:26+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -24025,7 +24025,7 @@
    "first_reported_at": "2026-11-26T01:57:50+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -24083,7 +24083,7 @@
    "first_reported_at": "2026-11-26T01:41:06+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -24145,7 +24145,7 @@
    "first_reported_at": "2026-11-26T03:30:00+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -24207,7 +24207,7 @@
    "first_reported_at": "2026-11-25T18:00:00+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -24267,7 +24267,7 @@
    "first_reported_at": "2026-11-26T16:02:22+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -24323,7 +24323,7 @@
    "first_reported_at": "2026-11-26T15:46:52+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -24386,7 +24386,7 @@
    "first_reported_at": "2026-11-25T22:51:37+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -24445,7 +24445,7 @@
    "first_reported_at": "2026-11-25T22:27:27+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -24514,7 +24514,7 @@
    "first_reported_at": "2026-11-25T00:00:00+08:00",
    "event_at": "2026-11-25T00:00:00+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -24578,7 +24578,7 @@
    "first_reported_at": "2026-11-25T00:00:00+08:00",
    "event_at": "2026-11-25T00:00:00+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -24638,7 +24638,7 @@
    "first_reported_at": "2026-11-25T00:00:00+08:00",
    "event_at": "2026-11-25T00:00:00+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -24700,7 +24700,7 @@
    "first_reported_at": "2026-11-26T16:41:41+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -24768,7 +24768,7 @@
    "first_reported_at": "2026-11-26T15:13:52+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -24832,7 +24832,7 @@
    "first_reported_at": "2026-11-25T23:08:37+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.33756805807622503,
+   "heat_rank": 0.34146341463414637,
    "exploited": false
   },
   {
@@ -24894,7 +24894,7 @@
    "first_reported_at": "2026-11-26T03:00:00+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -24964,7 +24964,7 @@
    "first_reported_at": "2026-11-26T02:02:00+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38656987295825773,
+   "heat_rank": 0.3902439024390244,
    "exploited": false
   },
   {
@@ -25029,7 +25029,7 @@
    "first_reported_at": "2026-11-26T03:00:00+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -25095,7 +25095,7 @@
    "first_reported_at": "2026-11-26T12:47:11+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -25155,7 +25155,7 @@
    "first_reported_at": "2026-11-26T16:49:24+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.23774954627949182,
+   "heat_rank": 0.24041811846689895,
    "exploited": false
   },
   {
@@ -25219,7 +25219,7 @@
    "first_reported_at": "2026-11-26T02:35:10+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -25278,7 +25278,7 @@
    "first_reported_at": "2026-11-26T05:05:32+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -25345,7 +25345,7 @@
    "first_reported_at": "2026-11-26T16:42:19+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -25414,7 +25414,7 @@
    "first_reported_at": "2026-11-26T01:41:54+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -25474,7 +25474,7 @@
    "first_reported_at": "2026-11-25T22:56:52+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -25538,7 +25538,7 @@
    "first_reported_at": "2026-11-26T15:30:01+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -25603,7 +25603,7 @@
    "first_reported_at": "2026-11-26T09:00:13+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -25665,7 +25665,7 @@
    "first_reported_at": "2026-11-26T17:01:59+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -25729,7 +25729,7 @@
    "first_reported_at": "2026-11-25T21:30:00+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -25797,7 +25797,7 @@
    "first_reported_at": "2026-11-25T20:30:00+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -25860,7 +25860,7 @@
    "first_reported_at": "2026-11-25T19:00:00+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -25927,7 +25927,7 @@
    "first_reported_at": "2026-11-26T06:20:31+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -25992,7 +25992,7 @@
    "first_reported_at": "2026-11-26T14:01:58+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.33756805807622503,
+   "heat_rank": 0.34146341463414637,
    "exploited": false
   },
   {
@@ -26056,7 +26056,7 @@
    "first_reported_at": "2026-11-26T16:27:20+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": "2026-11-27T17:05:32+08:00",
-   "heat_rank": 0.05989110707803993,
+   "heat_rank": 0.05749128919860627,
    "exploited": false
   },
   {
@@ -26118,7 +26118,7 @@
    "first_reported_at": "2026-11-26T14:14:15+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -26180,7 +26180,7 @@
    "first_reported_at": "2026-11-26T14:28:48+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -26246,7 +26246,7 @@
    "first_reported_at": "2026-11-26T16:30:54+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -26310,7 +26310,7 @@
    "first_reported_at": "2026-11-26T15:24:28+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.14882032667876588,
+   "heat_rank": 0.14634146341463414,
    "exploited": false
   },
   {
@@ -26368,7 +26368,7 @@
    "first_reported_at": "2026-11-26T14:00:27+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -26436,7 +26436,7 @@
    "first_reported_at": "2026-11-26T15:45:05+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -26495,7 +26495,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -26557,7 +26557,7 @@
    "first_reported_at": "2026-11-26T16:49:00+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.33756805807622503,
+   "heat_rank": 0.34146341463414637,
    "exploited": false
   },
   {
@@ -26618,7 +26618,7 @@
    "first_reported_at": "2026-11-26T16:48:00+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -26684,7 +26684,7 @@
    "first_reported_at": "2026-11-26T13:59:00+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.21234119782214156,
+   "heat_rank": 0.21080139372822299,
    "exploited": false
   },
   {
@@ -26746,7 +26746,7 @@
    "first_reported_at": "2026-11-26T14:11:00+08:00",
    "event_at": "2026-11-26T17:36:58+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.21234119782214156,
+   "heat_rank": 0.21080139372822299,
    "exploited": false
   },
   {
@@ -26821,7 +26821,7 @@
    "first_reported_at": "2026-11-26T22:48:00+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.041742286751361164,
+   "heat_rank": 0.04006968641114982,
    "exploited": false
   },
   {
@@ -26888,7 +26888,7 @@
    "first_reported_at": "2026-11-27T01:50:54+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.14882032667876588,
+   "heat_rank": 0.14634146341463414,
    "exploited": false
   },
   {
@@ -26952,7 +26952,7 @@
    "first_reported_at": "2026-11-27T00:29:25+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.14519056261343014,
+   "heat_rank": 0.14111498257839722,
    "exploited": false
   },
   {
@@ -27022,7 +27022,7 @@
    "first_reported_at": "2026-11-26T19:12:00+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.21234119782214156,
+   "heat_rank": 0.21080139372822299,
    "exploited": false
   },
   {
@@ -27091,7 +27091,7 @@
    "first_reported_at": "2026-11-27T01:52:15+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.16152450090744103,
+   "heat_rank": 0.15853658536585366,
    "exploited": false
   },
   {
@@ -27159,7 +27159,7 @@
    "first_reported_at": "2026-11-27T07:13:17+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -27220,7 +27220,7 @@
    "first_reported_at": "2026-11-26T23:29:00+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3647912885662432,
+   "heat_rank": 0.3693379790940767,
    "exploited": false
   },
   {
@@ -27280,7 +27280,7 @@
    "first_reported_at": "2026-11-26T22:45:00+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -27346,7 +27346,7 @@
    "first_reported_at": "2026-11-26T22:02:00+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": false
   },
   {
@@ -27411,7 +27411,7 @@
    "first_reported_at": "2026-11-26T19:50:17+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": true
   },
   {
@@ -27472,7 +27472,7 @@
    "first_reported_at": "2026-11-27T13:48:20+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": false
   },
   {
@@ -27534,7 +27534,7 @@
    "first_reported_at": "2026-11-27T11:00:00+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -27596,7 +27596,7 @@
    "first_reported_at": "2026-11-27T10:00:00+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.75,
+   "heat_rank": 0.7391304347826086,
    "exploited": false
   },
   {
@@ -27654,7 +27654,7 @@
    "first_reported_at": "2026-11-27T10:00:00+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": true
   },
   {
@@ -27713,7 +27713,7 @@
    "first_reported_at": "2026-11-26T20:57:58+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -27774,7 +27774,7 @@
    "first_reported_at": "2026-11-27T14:30:00+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17604355716878403,
+   "heat_rank": 0.17247386759581881,
    "exploited": false
   },
   {
@@ -27840,7 +27840,7 @@
    "first_reported_at": "2026-11-26T17:57:05+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.75,
+   "heat_rank": 0.7391304347826086,
    "exploited": false
   },
   {
@@ -27899,7 +27899,7 @@
    "first_reported_at": "2026-11-27T16:15:52+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.04411764705882353,
+   "heat_rank": 0.043478260869565216,
    "exploited": false
   },
   {
@@ -27962,7 +27962,7 @@
    "first_reported_at": "2026-11-27T16:21:43+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": "2026-11-27T20:52:38+08:00",
-   "heat_rank": 0.04411764705882353,
+   "heat_rank": 0.043478260869565216,
    "exploited": false
   },
   {
@@ -28027,7 +28027,7 @@
    "first_reported_at": "2026-11-27T13:00:23+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.038112522686025406,
+   "heat_rank": 0.036585365853658534,
    "exploited": false
   },
   {
@@ -28096,7 +28096,7 @@
    "first_reported_at": "2026-11-27T00:00:00+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": "2026-11-28T08:50:07+08:00",
-   "heat_rank": 0.029411764705882353,
+   "heat_rank": 0.028985507246376812,
    "exploited": false
   },
   {
@@ -28161,7 +28161,7 @@
    "first_reported_at": "2026-11-27T14:29:39+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.20588235294117646,
+   "heat_rank": 0.2028985507246377,
    "exploited": false
   },
   {
@@ -28231,7 +28231,7 @@
    "first_reported_at": "2026-11-27T16:38:01+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.35753176043557167,
+   "heat_rank": 0.3606271777003484,
    "exploited": false
   },
   {
@@ -28294,7 +28294,7 @@
    "first_reported_at": "2026-11-26T20:00:09+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -28355,7 +28355,7 @@
    "first_reported_at": "2026-11-26T08:00:00+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -28416,7 +28416,7 @@
    "first_reported_at": "2026-11-26T08:00:00+08:00",
    "event_at": "2026-11-26T08:00:00+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -28479,7 +28479,7 @@
    "first_reported_at": "2026-11-27T08:03:18+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -28537,7 +28537,7 @@
    "first_reported_at": "2026-11-27T08:00:00+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -28597,7 +28597,7 @@
    "first_reported_at": "2026-11-27T08:00:00+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -28657,7 +28657,7 @@
    "first_reported_at": "2026-11-27T08:00:00+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -28716,7 +28716,7 @@
    "first_reported_at": "2026-11-27T08:00:00+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -28775,7 +28775,7 @@
    "first_reported_at": "2026-11-27T03:55:02+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -28839,7 +28839,7 @@
    "first_reported_at": "2026-11-26T21:00:00+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -28908,7 +28908,7 @@
    "first_reported_at": "2026-11-27T08:10:30+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -28973,7 +28973,7 @@
    "first_reported_at": "2026-11-27T07:02:48+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -29038,7 +29038,7 @@
    "first_reported_at": "2026-11-27T16:37:24+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": "2026-11-27T20:52:38+08:00",
-   "heat_rank": 0.14337568058076225,
+   "heat_rank": 0.13937282229965156,
    "exploited": false
   },
   {
@@ -29097,7 +29097,7 @@
    "first_reported_at": "2026-11-27T01:23:52+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -29163,7 +29163,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -29230,7 +29230,7 @@
    "first_reported_at": "2026-11-27T00:50:28+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.0998185117967332,
+   "heat_rank": 0.0975609756097561,
    "exploited": false
   },
   {
@@ -29300,7 +29300,7 @@
    "first_reported_at": "2026-11-27T10:37:32+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.23774954627949182,
+   "heat_rank": 0.24041811846689895,
    "exploited": false
   },
   {
@@ -29364,7 +29364,7 @@
    "first_reported_at": null,
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -29427,7 +29427,7 @@
    "first_reported_at": "2026-11-27T14:03:42+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.19237749546279492,
+   "heat_rank": 0.18989547038327526,
    "exploited": false
   },
   {
@@ -29490,7 +29490,7 @@
    "first_reported_at": "2026-11-27T06:17:19+08:00",
    "event_at": "2026-11-27T16:57:43+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.75,
+   "heat_rank": 0.7391304347826086,
    "exploited": true
   },
   {
@@ -29556,7 +29556,7 @@
    "first_reported_at": "2026-11-27T12:36:00+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.056261343012704176,
+   "heat_rank": 0.05400696864111498,
    "exploited": false
   },
   {
@@ -29620,7 +29620,7 @@
    "first_reported_at": "2026-11-27T14:05:46+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.08711433756805807,
+   "heat_rank": 0.08536585365853659,
    "exploited": false
   },
   {
@@ -29683,7 +29683,7 @@
    "first_reported_at": "2026-11-27T15:11:41+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -29751,7 +29751,7 @@
    "first_reported_at": "2026-11-27T15:48:59+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -29824,7 +29824,7 @@
    "first_reported_at": "2026-11-26T20:50:19+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -29895,7 +29895,7 @@
    "first_reported_at": "2026-11-26T17:27:00+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17967332123411978,
+   "heat_rank": 0.1759581881533101,
    "exploited": false
   },
   {
@@ -29966,7 +29966,7 @@
    "first_reported_at": "2026-11-27T13:22:00+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": "2026-11-28T08:50:07+08:00",
-   "heat_rank": 0.023593466424682397,
+   "heat_rank": 0.02264808362369338,
    "exploited": false
   },
   {
@@ -30024,7 +30024,7 @@
    "first_reported_at": "2026-11-27T14:37:13+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -30091,7 +30091,7 @@
    "first_reported_at": "2026-11-27T06:34:34+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.003629764065335753,
+   "heat_rank": 0.003484320557491289,
    "exploited": false
   },
   {
@@ -30152,7 +30152,7 @@
    "first_reported_at": "2026-11-27T06:36:55+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.23774954627949182,
+   "heat_rank": 0.24041811846689895,
    "exploited": false
   },
   {
@@ -30219,7 +30219,7 @@
    "first_reported_at": "2026-11-27T00:52:59+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.1397459165154265,
+   "heat_rank": 0.13588850174216027,
    "exploited": false
   },
   {
@@ -30282,7 +30282,7 @@
    "first_reported_at": "2026-11-26T00:00:00+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": false
   },
   {
@@ -30346,7 +30346,7 @@
    "first_reported_at": "2026-11-27T02:27:49+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": "2026-11-28T08:50:07+08:00",
-   "heat_rank": 0.33756805807622503,
+   "heat_rank": 0.34146341463414637,
    "exploited": false
   },
   {
@@ -30408,7 +30408,7 @@
    "first_reported_at": "2026-11-26T22:49:24+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -30474,7 +30474,7 @@
    "first_reported_at": "2026-11-27T02:19:32+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3647912885662432,
+   "heat_rank": 0.3693379790940767,
    "exploited": false
   },
   {
@@ -30539,7 +30539,7 @@
    "first_reported_at": "2026-11-26T23:55:24+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.16333938294010888,
+   "heat_rank": 0.1602787456445993,
    "exploited": false
   },
   {
@@ -30599,7 +30599,7 @@
    "first_reported_at": "2026-11-27T02:15:00+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -30659,7 +30659,7 @@
    "first_reported_at": "2026-11-26T19:00:00+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -30723,7 +30723,7 @@
    "first_reported_at": "2026-11-27T13:20:21+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -30789,7 +30789,7 @@
    "first_reported_at": "2026-11-27T15:50:16+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.75,
+   "heat_rank": 0.7391304347826086,
    "exploited": false
   },
   {
@@ -30855,7 +30855,7 @@
    "first_reported_at": "2026-11-27T12:23:47+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.75,
+   "heat_rank": 0.7391304347826086,
    "exploited": false
   },
   {
@@ -30922,7 +30922,7 @@
    "first_reported_at": "2026-11-26T18:47:22+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -30989,7 +30989,7 @@
    "first_reported_at": "2026-11-27T03:44:29+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -31056,7 +31056,7 @@
    "first_reported_at": "2026-11-27T15:22:09+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.35753176043557167,
+   "heat_rank": 0.3606271777003484,
    "exploited": false
   },
   {
@@ -31122,7 +31122,7 @@
    "first_reported_at": "2026-11-26T21:02:35+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -31186,7 +31186,7 @@
    "first_reported_at": "2026-11-26T22:44:26+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.15245009074410162,
+   "heat_rank": 0.14982578397212543,
    "exploited": false
   },
   {
@@ -31248,7 +31248,7 @@
    "first_reported_at": "2026-11-26T20:03:57+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -31320,7 +31320,7 @@
    "first_reported_at": "2026-11-26T19:55:50+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": "2026-11-28T08:50:07+08:00",
-   "heat_rank": 0.2014519056261343,
+   "heat_rank": 0.20034843205574912,
    "exploited": false
   },
   {
@@ -31387,7 +31387,7 @@
    "first_reported_at": "2026-11-26T23:19:28+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -31451,7 +31451,7 @@
    "first_reported_at": "2026-11-25T20:02:43+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -31511,7 +31511,7 @@
    "first_reported_at": "2026-11-26T21:42:01+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -31577,7 +31577,7 @@
    "first_reported_at": "2026-11-26T22:44:45+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -31643,7 +31643,7 @@
    "first_reported_at": "2026-11-26T20:35:51+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": false
   },
   {
@@ -31708,7 +31708,7 @@
    "first_reported_at": "2026-11-26T23:14:32+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": false
   },
   {
@@ -31775,7 +31775,7 @@
    "first_reported_at": "2026-11-26T20:16:50+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": false
   },
   {
@@ -31839,7 +31839,7 @@
    "first_reported_at": "2026-11-26T18:33:03+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -31902,7 +31902,7 @@
    "first_reported_at": "2026-11-27T12:31:25+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3647912885662432,
+   "heat_rank": 0.3693379790940767,
    "exploited": false
   },
   {
@@ -31969,7 +31969,7 @@
    "first_reported_at": "2026-11-27T08:45:00+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -32033,7 +32033,7 @@
    "first_reported_at": "2026-11-27T16:39:00+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.11433756805807622,
+   "heat_rank": 0.11149825783972125,
    "exploited": false
   },
   {
@@ -32091,7 +32091,7 @@
    "first_reported_at": "2026-11-27T09:19:22+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -32155,7 +32155,7 @@
    "first_reported_at": "2026-11-27T07:24:30+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": false
   },
   {
@@ -32222,7 +32222,7 @@
    "first_reported_at": "2026-11-27T05:39:11+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -32289,7 +32289,7 @@
    "first_reported_at": "2026-11-27T00:51:40+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -32353,7 +32353,7 @@
    "first_reported_at": "2026-11-26T16:32:00+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.12704174228675136,
+   "heat_rank": 0.12369337979094076,
    "exploited": false
   },
   {
@@ -32412,7 +32412,7 @@
    "first_reported_at": "2026-11-26T18:55:00+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -32480,7 +32480,7 @@
    "first_reported_at": "2026-11-26T19:00:00+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -32540,7 +32540,7 @@
    "first_reported_at": "2026-11-27T04:56:31+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -32604,7 +32604,7 @@
    "first_reported_at": "2026-11-26T19:21:06+08:00",
    "event_at": "2026-11-27T17:05:32+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -32667,7 +32667,7 @@
    "first_reported_at": "2026-11-26T23:13:41+08:00",
    "event_at": "2026-11-27T17:07:52+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": true
   },
   {
@@ -32746,7 +32746,7 @@
    "first_reported_at": "2026-11-26T23:11:00+08:00",
    "event_at": "2026-11-27T17:07:52+08:00",
    "supplemented_at": "2026-11-28T08:50:07+08:00",
-   "heat_rank": 0.030852994555353903,
+   "heat_rank": 0.029616724738675958,
    "exploited": false
   },
   {
@@ -32818,7 +32818,7 @@
    "first_reported_at": "2026-11-27T00:51:54+08:00",
    "event_at": "2026-11-27T17:07:52+08:00",
    "supplemented_at": "2026-11-27T20:52:38+08:00",
-   "heat_rank": 0.02722323049001815,
+   "heat_rank": 0.02613240418118467,
    "exploited": false
   },
   {
@@ -32878,7 +32878,7 @@
    "first_reported_at": "2026-11-26T19:00:39+08:00",
    "event_at": "2026-11-27T17:07:52+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -32946,7 +32946,7 @@
    "first_reported_at": "2026-11-26T18:14:08+08:00",
    "event_at": "2026-11-27T17:07:52+08:00",
    "supplemented_at": "2026-11-28T08:50:07+08:00",
-   "heat_rank": 0.19237749546279492,
+   "heat_rank": 0.18989547038327526,
    "exploited": false
   },
   {
@@ -33004,7 +33004,7 @@
    "first_reported_at": "2026-11-27T12:46:15+08:00",
    "event_at": "2026-11-27T17:07:52+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.23774954627949182,
+   "heat_rank": 0.24041811846689895,
    "exploited": false
   },
   {
@@ -33068,7 +33068,7 @@
    "first_reported_at": "2026-11-27T02:22:28+08:00",
    "event_at": "2026-11-27T17:07:52+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -33133,7 +33133,7 @@
    "first_reported_at": "2026-11-26T23:58:00+08:00",
    "event_at": "2026-11-27T17:07:52+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.33756805807622503,
+   "heat_rank": 0.34146341463414637,
    "exploited": false
   },
   {
@@ -33201,7 +33201,7 @@
    "first_reported_at": "2026-11-27T05:06:50+08:00",
    "event_at": "2026-11-27T17:07:52+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.33756805807622503,
+   "heat_rank": 0.34146341463414637,
    "exploited": false
   },
   {
@@ -33269,7 +33269,7 @@
    "first_reported_at": "2026-11-27T10:22:00+08:00",
    "event_at": "2026-11-27T17:07:52+08:00",
    "supplemented_at": "2026-11-27T20:52:38+08:00",
-   "heat_rank": 0.11070780399274047,
+   "heat_rank": 0.10801393728222997,
    "exploited": false
   },
   {
@@ -33334,7 +33334,7 @@
    "first_reported_at": "2026-11-27T11:17:00+08:00",
    "event_at": "2026-11-27T17:07:52+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.11796733212341198,
+   "heat_rank": 0.11498257839721254,
    "exploited": false
   },
   {
@@ -33405,7 +33405,7 @@
    "first_reported_at": "2026-11-27T14:02:00+08:00",
    "event_at": "2026-11-27T17:07:52+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.20871143375680581,
+   "heat_rank": 0.2073170731707317,
    "exploited": false
   },
   {
@@ -33462,7 +33462,7 @@
    "first_reported_at": "2026-11-27T16:24:18+08:00",
    "event_at": "2026-11-27T17:07:52+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -33527,7 +33527,7 @@
    "first_reported_at": "2026-11-27T16:36:42+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -33596,7 +33596,7 @@
    "first_reported_at": "2026-11-27T18:15:27+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -33673,7 +33673,7 @@
    "first_reported_at": "2026-11-27T19:06:00+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": "2026-11-28T08:50:07+08:00",
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -33742,7 +33742,7 @@
    "first_reported_at": "2026-11-27T16:52:07+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -33815,7 +33815,7 @@
    "first_reported_at": "2026-11-27T16:06:05+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.20588235294117646,
+   "heat_rank": 0.2028985507246377,
    "exploited": false
   },
   {
@@ -33881,7 +33881,7 @@
    "first_reported_at": "2026-11-27T16:33:35+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -33944,7 +33944,7 @@
    "first_reported_at": "2026-11-27T18:22:39+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.17647058823529413,
+   "heat_rank": 0.17391304347826086,
    "exploited": false
   },
   {
@@ -34008,7 +34008,7 @@
    "first_reported_at": "2026-11-27T18:56:30+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.75,
+   "heat_rank": 0.7391304347826086,
    "exploited": false
   },
   {
@@ -34071,7 +34071,7 @@
    "first_reported_at": "2026-11-27T18:03:20+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -34128,7 +34128,7 @@
    "first_reported_at": "2026-11-27T18:35:42+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -34194,7 +34194,7 @@
    "first_reported_at": "2026-11-27T16:56:12+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4264705882352941,
+   "heat_rank": 0.42028985507246375,
    "exploited": false
   },
   {
@@ -34261,7 +34261,7 @@
    "first_reported_at": "2026-11-27T17:49:18+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.19117647058823528,
+   "heat_rank": 0.18840579710144928,
    "exploited": false
   },
   {
@@ -34327,7 +34327,7 @@
    "first_reported_at": "2026-11-27T18:00:14+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.20588235294117646,
+   "heat_rank": 0.2028985507246377,
    "exploited": false
   },
   {
@@ -34394,7 +34394,7 @@
    "first_reported_at": "2026-11-27T16:16:09+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3176043557168784,
+   "heat_rank": 0.3205574912891986,
    "exploited": false
   },
   {
@@ -34462,7 +34462,7 @@
    "first_reported_at": "2026-11-27T16:16:49+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.08823529411764706,
+   "heat_rank": 0.08695652173913043,
    "exploited": false
   },
   {
@@ -34525,7 +34525,7 @@
    "first_reported_at": "2026-11-27T17:09:00+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.16515426497277677,
+   "heat_rank": 0.16202090592334495,
    "exploited": false
   },
   {
@@ -34594,7 +34594,7 @@
    "first_reported_at": "2026-11-27T19:18:23+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.018148820326678767,
+   "heat_rank": 0.017421602787456445,
    "exploited": false
   },
   {
@@ -34655,7 +34655,7 @@
    "first_reported_at": "2026-11-27T17:08:16+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -34715,7 +34715,7 @@
    "first_reported_at": "2026-11-27T17:29:30+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": true
   },
   {
@@ -34777,7 +34777,7 @@
    "first_reported_at": "2026-11-27T20:09:14+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": true
   },
   {
@@ -34846,7 +34846,7 @@
    "first_reported_at": "2026-11-27T16:55:50+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -34904,7 +34904,7 @@
    "first_reported_at": "2026-11-27T16:34:43+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -34968,7 +34968,7 @@
    "first_reported_at": "2026-11-27T20:33:56+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -35039,7 +35039,7 @@
    "first_reported_at": "2026-11-27T20:31:39+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -35099,7 +35099,7 @@
    "first_reported_at": "2026-11-27T16:28:08+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -35162,7 +35162,7 @@
    "first_reported_at": "2026-11-26T08:00:00+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -35231,7 +35231,7 @@
    "first_reported_at": "2026-11-27T17:53:11+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -35298,7 +35298,7 @@
    "first_reported_at": "2026-11-27T20:07:03+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -35365,7 +35365,7 @@
    "first_reported_at": "2026-11-22T21:56:20+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -35430,7 +35430,7 @@
    "first_reported_at": "2026-11-27T16:57:00+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -35495,7 +35495,7 @@
    "first_reported_at": "2026-11-27T17:10:00+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2014519056261343,
+   "heat_rank": 0.20034843205574912,
    "exploited": false
   },
   {
@@ -35560,7 +35560,7 @@
    "first_reported_at": "2026-11-27T16:32:17+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.09074410163339383,
+   "heat_rank": 0.08885017421602788,
    "exploited": false
   },
   {
@@ -35618,7 +35618,7 @@
    "first_reported_at": "2026-11-27T19:12:04+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.21234119782214156,
+   "heat_rank": 0.21080139372822299,
    "exploited": false
   },
   {
@@ -35677,7 +35677,7 @@
    "first_reported_at": "2026-11-27T18:31:38+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.18330308529945555,
+   "heat_rank": 0.1794425087108014,
    "exploited": false
   },
   {
@@ -35735,7 +35735,7 @@
    "first_reported_at": "2026-11-27T16:17:03+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.21234119782214156,
+   "heat_rank": 0.21080139372822299,
    "exploited": false
   },
   {
@@ -35795,7 +35795,7 @@
    "first_reported_at": "2026-11-27T16:13:43+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -35858,7 +35858,7 @@
    "first_reported_at": "2026-11-27T18:01:07+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2577132486388385,
+   "heat_rank": 0.26306620209059234,
    "exploited": false
   },
   {
@@ -35923,7 +35923,7 @@
    "first_reported_at": "2026-11-27T15:51:00+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.1560798548094374,
+   "heat_rank": 0.15331010452961671,
    "exploited": false
   },
   {
@@ -35988,7 +35988,7 @@
    "first_reported_at": "2026-11-27T19:15:03+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -36051,7 +36051,7 @@
    "first_reported_at": "2026-11-27T16:46:59+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": "2026-11-28T08:50:07+08:00",
-   "heat_rank": 0.07985480943738657,
+   "heat_rank": 0.07665505226480836,
    "exploited": false
   },
   {
@@ -36117,7 +36117,7 @@
    "first_reported_at": "2026-11-27T14:58:00+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.21234119782214156,
+   "heat_rank": 0.21080139372822299,
    "exploited": false
   },
   {
@@ -36185,7 +36185,7 @@
    "first_reported_at": "2026-11-27T00:00:00+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -36243,7 +36243,7 @@
    "first_reported_at": "2026-11-27T08:00:00+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -36301,7 +36301,7 @@
    "first_reported_at": "2026-11-27T08:00:00+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -36359,7 +36359,7 @@
    "first_reported_at": "2026-11-27T08:00:00+08:00",
    "event_at": "2026-11-27T20:52:38+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -36421,7 +36421,7 @@
    "first_reported_at": "2026-11-27T15:23:00+08:00",
    "event_at": "2026-11-27T20:54:50+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.23774954627949182,
+   "heat_rank": 0.24041811846689895,
    "exploited": false
   },
   {
@@ -36486,7 +36486,7 @@
    "first_reported_at": "2026-11-27T14:48:00+08:00",
    "event_at": "2026-11-27T20:54:50+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.0998185117967332,
+   "heat_rank": 0.0975609756097561,
    "exploited": false
   },
   {
@@ -36546,7 +36546,7 @@
    "first_reported_at": "2026-11-27T16:16:23+08:00",
    "event_at": "2026-11-27T20:54:50+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.2577132486388385,
+   "heat_rank": 0.26306620209059234,
    "exploited": false
   },
   {
@@ -36610,7 +36610,7 @@
    "first_reported_at": "2026-11-27T17:18:00+08:00",
    "event_at": "2026-11-27T20:54:50+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -36674,7 +36674,7 @@
    "first_reported_at": "2026-11-27T17:04:02+08:00",
    "event_at": "2026-11-27T20:54:50+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.20871143375680581,
+   "heat_rank": 0.2073170731707317,
    "exploited": false
   },
   {
@@ -36737,7 +36737,7 @@
    "first_reported_at": "2026-11-27T19:20:49+08:00",
    "event_at": "2026-11-27T20:54:50+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.3139745916515426,
+   "heat_rank": 0.3170731707317073,
    "exploited": false
   },
   {
@@ -36803,7 +36803,7 @@
    "first_reported_at": "2026-11-27T19:19:47+08:00",
    "event_at": "2026-11-27T20:54:50+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.23774954627949182,
+   "heat_rank": 0.24041811846689895,
    "exploited": false
   },
   {
@@ -36874,7 +36874,7 @@
    "first_reported_at": "2026-11-27T15:30:52+08:00",
    "event_at": "2026-11-27T20:54:50+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.0998185117967332,
+   "heat_rank": 0.0975609756097561,
    "exploited": false
   },
   {
@@ -36935,7 +36935,7 @@
    "first_reported_at": "2026-11-27T17:38:19+08:00",
    "event_at": "2026-11-27T20:54:50+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -36997,7 +36997,7 @@
    "first_reported_at": "2026-11-27T16:45:06+08:00",
    "event_at": "2026-11-27T20:54:50+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -37058,7 +37058,7 @@
    "first_reported_at": "2026-11-27T00:00:00+08:00",
    "event_at": "2026-11-27T20:54:50+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -37122,7 +37122,7 @@
    "first_reported_at": "2026-11-26T00:00:00+08:00",
    "event_at": "2026-11-26T00:00:00+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -37186,7 +37186,7 @@
    "first_reported_at": "2026-11-27T20:00:00+08:00",
    "event_at": "2026-11-27T20:54:50+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -37250,7 +37250,7 @@
    "first_reported_at": "2026-11-27T19:22:08+08:00",
    "event_at": "2026-11-27T20:54:50+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -37320,7 +37320,7 @@
    "first_reported_at": "2026-11-27T22:01:41+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.21234119782214156,
+   "heat_rank": 0.21080139372822299,
    "exploited": false
   },
   {
@@ -37453,7 +37453,7 @@
    "first_reported_at": "2026-11-28T06:25:50+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -37516,7 +37516,7 @@
    "first_reported_at": "2026-11-27T21:26:27+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.038112522686025406,
+   "heat_rank": 0.036585365853658534,
    "exploited": false
   },
   {
@@ -37581,7 +37581,7 @@
    "first_reported_at": "2026-11-27T20:38:52+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.38838475499092556,
+   "heat_rank": 0.39198606271777003,
    "exploited": false
   },
   {
@@ -37647,7 +37647,7 @@
    "first_reported_at": "2026-11-27T19:25:07+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -37711,7 +37711,7 @@
    "first_reported_at": "2026-11-27T20:03:11+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -37781,7 +37781,7 @@
    "first_reported_at": "2026-11-27T20:36:12+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.11433756805807622,
+   "heat_rank": 0.11149825783972125,
    "exploited": false
   },
   {
@@ -37850,7 +37850,7 @@
    "first_reported_at": "2026-11-27T20:05:01+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -37931,7 +37931,7 @@
    "first_reported_at": "2026-11-27T21:05:01+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -37997,7 +37997,7 @@
    "first_reported_at": "2026-11-28T00:00:00+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -38059,7 +38059,7 @@
    "first_reported_at": "2026-11-28T08:22:28+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -38123,7 +38123,7 @@
    "first_reported_at": "2026-11-28T02:57:47+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.09074410163339383,
+   "heat_rank": 0.08885017421602788,
    "exploited": false
   },
   {
@@ -38183,7 +38183,7 @@
    "first_reported_at": "2026-11-28T06:43:58+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -38242,7 +38242,7 @@
    "first_reported_at": "2026-11-28T03:26:04+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -38305,7 +38305,7 @@
    "first_reported_at": "2026-11-28T02:57:42+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -38367,7 +38367,7 @@
    "first_reported_at": "2026-11-28T00:36:11+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -38424,7 +38424,7 @@
    "first_reported_at": "2026-11-27T22:15:00+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -38487,7 +38487,7 @@
    "first_reported_at": "2026-11-28T06:15:40+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -38552,7 +38552,7 @@
    "first_reported_at": "2026-11-28T06:15:40+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -38615,7 +38615,7 @@
    "first_reported_at": "2026-11-28T06:15:40+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -38681,7 +38681,7 @@
    "first_reported_at": "2026-11-27T23:03:17+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -38748,7 +38748,7 @@
    "first_reported_at": "2026-11-27T23:40:31+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -38812,7 +38812,7 @@
    "first_reported_at": "2026-11-28T02:02:45+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
    "exploited": false
   },
   {
@@ -38875,7 +38875,7 @@
    "first_reported_at": "2026-11-27T22:39:00+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -38940,7 +38940,7 @@
    "first_reported_at": "2026-11-27T21:00:00+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -39008,7 +39008,7 @@
    "first_reported_at": "2026-11-28T08:35:00+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.4246823956442831,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   },
   {
@@ -39073,7 +39073,7 @@
    "first_reported_at": "2026-11-27T22:08:04+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.27223230490018147,
+   "heat_rank": 0.2770034843205575,
    "exploited": false
   },
   {
@@ -39140,7 +39140,7 @@
    "first_reported_at": "2026-11-27T19:00:05+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -39199,7 +39199,7 @@
    "first_reported_at": "2026-11-27T19:00:03+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -39265,7 +39265,7 @@
    "first_reported_at": "2026-11-28T02:37:59+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -39327,7 +39327,7 @@
    "first_reported_at": "2026-11-27T22:12:25+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -39393,7 +39393,7 @@
    "first_reported_at": "2026-11-27T21:55:04+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.5208711433756806,
+   "heat_rank": 0.5296167247386759,
    "exploited": false
   },
   {
@@ -39463,7 +39463,7 @@
    "first_reported_at": "2026-11-27T20:46:45+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.08711433756805807,
+   "heat_rank": 0.08536585365853659,
    "exploited": false
   },
   {
@@ -39525,7 +39525,7 @@
    "first_reported_at": "2026-11-28T00:15:51+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.33756805807622503,
+   "heat_rank": 0.34146341463414637,
    "exploited": false
   },
   {
@@ -39586,7 +39586,7 @@
    "first_reported_at": "2026-11-27T18:44:40+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.08823529411764706,
+   "heat_rank": 0.08695652173913043,
    "exploited": false
   },
   {
@@ -39648,7 +39648,7 @@
    "first_reported_at": "2026-11-27T21:43:41+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.20588235294117646,
+   "heat_rank": 0.2028985507246377,
    "exploited": false
   },
   {
@@ -39716,7 +39716,1561 @@
    "first_reported_at": "2026-11-28T06:19:18+08:00",
    "event_at": "2026-11-28T08:50:07+08:00",
    "supplemented_at": null,
-   "heat_rank": 0.7767695099818511,
+   "heat_rank": 0.7822299651567944,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0620",
+   "title": "韓媒指國情院為救被中國拘押的線人，曾向中方提供與美國有關的台灣情報來源資訊，國情院否認",
+   "line": "消息人士稱中方對情報品質不滿意，另一名情報官員說國情院考慮過但沒有付諸行動",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "國際關係",
+    "兩岸"
+   ],
+   "topic_all": [
+    "國際關係",
+    "兩岸"
+   ],
+   "story": [],
+   "sector": [
+    "半導體"
+   ],
+   "event": [
+    "調查揭露"
+   ],
+   "region": [
+    "東北亞",
+    "中國大陸",
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "韓國國家情報院",
+    "國民日報"
+   ],
+   "person": [
+    "李在明"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 5,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "cross_strait",
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-27T19:52:26+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.21080139372822299,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0621",
+   "title": "上海科學院間接控股的維安電子未經許可在台設公司挖角工程師，北檢起訴掛名負責人、求刑 1 年 4 月以上",
+   "line": "楊姓女子月領近 10 萬元協助挖角 FAE 等工程師，16 個月賺 150 萬元",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "兩岸",
+    "犯罪與司法"
+   ],
+   "topic_all": [
+    "兩岸",
+    "犯罪與司法"
+   ],
+   "story": [],
+   "sector": [
+    "半導體"
+   ],
+   "event": [
+    "犯罪執法"
+   ],
+   "region": [
+    "台灣",
+    "中國大陸"
+   ],
+   "taiwan": "直接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "台北地檢署",
+    "維安電子",
+    "上海科學院",
+    "經濟部"
+   ],
+   "person": [
+    "郭進昌"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "cross_strait",
+    "society"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-27T20:23:57+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.4268292682926829,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0622",
+   "title": "加拿大最高法院以 6 比 1 大致維持魁北克《21 號法案》，公部門員工不得配戴明顯宗教標誌",
+   "line": "法院認定魁北克可援引「排除條款」讓法案免於多數違憲挑戰，穆斯林團體批評少數權利遭剝奪",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "人權",
+    "犯罪與司法"
+   ],
+   "topic_all": [
+    "人權",
+    "社會",
+    "犯罪與司法"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "訴訟判決"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "高",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "加拿大最高法院",
+    "魁北克省政府",
+    "加拿大穆斯林全國委員會"
+   ],
+   "person": [
+    "Richard Wagner",
+    "Mark Carney",
+    "Stephen Brown"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 6,
+    "regions": 2,
+    "media_weight": 15,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-28T00:13:07+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.1445993031358885,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0623",
+   "title": "美軍以精準彈藥癱瘓一艘駛離伊朗阿巴斯港的帛琉籍貨輪，封鎖以來已癱瘓 6 艘、轉向 158 艘",
+   "line": "美國中央司令部稱船員未受傷，德黑蘭誓言打破 7 月重啟的港口封鎖",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "戰爭與衝突",
+    "國際關係"
+   ],
+   "topic_all": [
+    "戰爭與衝突",
+    "國際關係"
+   ],
+   "story": [
+    "伊朗戰爭"
+   ],
+   "sector": [
+    "運輸與物流"
+   ],
+   "event": [
+    "軍事行動"
+   ],
+   "region": [
+    "中東",
+    "北美"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "中",
+   "upcoming": false,
+   "org": [
+    "美國中央司令部"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 5,
+    "regions": 3,
+    "media_weight": 13,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-28T03:07:00+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.08362369337979095,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0624",
+   "title": "烏干達啟動非洲首個 mRNA 伊波拉疫苗一期試驗，鎖定剛果疫情的本迪布焦病毒株",
+   "line": "Moderna 研發的實驗疫苗在 224 名健康志願者身上測試，剛果東部兩款疫苗試驗下週一開跑",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "健康與醫療"
+   ],
+   "topic_all": [
+    "健康與醫療"
+   ],
+   "story": [],
+   "sector": [
+    "醫藥與生技"
+   ],
+   "event": [
+    "公衛事件",
+    "研究發表"
+   ],
+   "region": [
+    "非洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "烏干達病毒研究所",
+    "Moderna",
+    "世界衛生組織"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 1,
+    "media_weight": 3,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "health"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-28T02:25:44+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.3606271777003484,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0625",
+   "title": "美國特使庫許納稱普丁是「政治大師」、戰爭是歐洲資助的代理人戰爭，烏克蘭與歐洲政界強烈反彈",
+   "line": "烏克蘭國會外委會主席要求把庫許納撤出和談，衛報分析批其把侵略看成可化解的誤會",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "國際關係",
+    "戰爭與衝突"
+   ],
+   "topic_all": [
+    "國際關係",
+    "戰爭與衝突"
+   ],
+   "story": [
+    "俄烏戰爭"
+   ],
+   "sector": [],
+   "event": [
+    "聲明評論",
+    "爭議風波"
+   ],
+   "region": [
+    "歐洲",
+    "北美"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Axel Springer",
+    "北約"
+   ],
+   "person": [
+    "庫許納",
+    "普丁",
+    "澤倫斯基",
+    "Oleksandr Merezhko",
+    "Kirill Dmitriev"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 3,
+    "regions": 2,
+    "media_weight": 5,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-28T00:47:00+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.19686411149825783,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0626",
+   "title": "波蘭與 Palantir 簽約 5 年約 3 億美元，全軍導入 AI 軍事系統 Maven",
+   "line": "國防部長稱「不用才是愚蠢」，並保證金鑰、伺服器與資料都只由波蘭軍方掌握",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "國防與軍事",
+    "AI"
+   ],
+   "topic_all": [
+    "國防與軍事",
+    "AI",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "航太與國防",
+    "軟體與雲端"
+   ],
+   "event": [
+    "會談協議"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Palantir",
+    "波蘭國防部",
+    "北約"
+   ],
+   "person": [
+    "Władysław Kosiniak-Kamysz"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 1,
+    "media_weight": 5,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics",
+    "ai",
+    "tech"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-27T22:41:55+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.3362369337979094,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0627",
+   "title": "Linus Torvalds 痛批 EXT4 在 Linux 7.4-rc5 階段塞進 4.1 萬行修正，多為 AI 生成補丁與測試",
+   "line": "他勉強合併但警告下次直接忽略：「別以為你或 AI 修東西時不會引入新 bug」",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "開發與開源",
+    "AI"
+   ],
+   "topic_all": [
+    "開發與開源",
+    "科技",
+    "AI"
+   ],
+   "story": [],
+   "sector": [
+    "軟體與雲端"
+   ],
+   "event": [
+    "爭議風波"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "低",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Linux Foundation"
+   ],
+   "person": [
+    "Linus Torvalds"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 18,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "social",
+    "ai",
+    "tech"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-27T10:46:19+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.7822299651567944,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0628",
+   "title": "高雄橋頭糖廠 154 公頃林地面臨開發，83 歲「森林阿嬤」以無黨籍參選，喊「投給樹，不投給政黨」",
+   "line": "開發案配合南台灣半導體產業擴張，擬把舊糖廠周邊林地改為高科技商業與住宅區",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "環境與氣候",
+    "選舉"
+   ],
+   "topic_all": [
+    "環境與氣候",
+    "選舉",
+    "政治"
+   ],
+   "story": [],
+   "sector": [
+    "半導體",
+    "營建與房地產"
+   ],
+   "event": [
+    "示威抗議"
+   ],
+   "region": [
+    "台灣"
+   ],
+   "taiwan": "直接",
+   "weight": "低",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Mongabay",
+    "高雄市政府"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "taiwan_general",
+    "politics",
+    "environment"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-27T21:52:03+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.7391304347826086,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0629",
+   "title": "Godot 4.8 進入 RC 1，官方稱已鎖定所有功能、可開始整合到正式環境",
+   "line": "已知重大回歸問題都已處理，官方仍建議升級前備份或使用版本控制",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "開發與開源",
+    "遊戲"
+   ],
+   "topic_all": [
+    "開發與開源",
+    "科技",
+    "遊戲"
+   ],
+   "story": [],
+   "sector": [
+    "遊戲",
+    "軟體與雲端"
+   ],
+   "event": [
+    "版本更新"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "低",
+   "relevance": "高",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Godot Engine"
+   ],
+   "person": [
+    "Thaddeus Crews"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 0,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "tech",
+    "game_dev"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-27T20:00:00+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.7822299651567944,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0630",
+   "title": "肯亞末日教派領袖麥肯齊再被判 123 名信徒餓死過失殺人罪成立，本月已因 191 人謀殺案判刑 200 年",
+   "line": "妻子等 29 名追隨者一併定罪，麥肯齊律師表示宣判後將上訴",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "犯罪與司法"
+   ],
+   "topic_all": [
+    "犯罪與司法"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "訴訟判決"
+   ],
+   "region": [
+    "非洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "好消息國際教會"
+   ],
+   "person": [
+    "Paul Mackenzie",
+    "Rhoda Mumbua Maweu",
+    "Alex Ithuku"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 3,
+    "regions": 2,
+    "media_weight": 7,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-28T01:19:31+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.1794425087108014,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0631",
+   "title": "澳洲維多利亞州今天州選，民調顯示執政 12 年的工黨恐慘敗，聯盟黨領先 15 個百分點",
+   "line": "最終 Newspoll 兩黨偏好聯盟黨大幅領先，部分民調指工黨可能落後一國黨排第三",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "選舉"
+   ],
+   "topic_all": [
+    "選舉",
+    "政治"
+   ],
+   "story": [
+    "2026維多利亞州選舉"
+   ],
+   "sector": [],
+   "event": [
+    "選舉投票"
+   ],
+   "region": [
+    "大洋洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "澳洲工黨",
+    "自由黨",
+    "國家黨",
+    "一國黨",
+    "綠黨"
+   ],
+   "person": [
+    "Ben Carroll",
+    "Jess Wilson",
+    "Pauline Hanson"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 4,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-27T22:00:13+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.24041811846689895,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0632",
+   "title": "哥斯大黎加以國安為由拒聯合國巴勒斯坦人權特別報告員阿爾巴內塞入境，她要求道歉或提出證據",
+   "line": "哥國指她與「恐怖行動有關聯」，阿爾巴內塞在機場以視訊接受哥斯大黎加大學榮譽學位",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "國際關係",
+    "人權"
+   ],
+   "topic_all": [
+    "國際關係",
+    "人權",
+    "社會"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "爭議風波"
+   ],
+   "region": [
+    "中南美",
+    "中東"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "聯合國",
+    "哥斯大黎加大學"
+   ],
+   "person": [
+    "Francesca Albanese"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 5,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics",
+    "society"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-28T02:55:57+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.21080139372822299,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0633",
+   "title": "西班牙加那利群島外海一艘載約百人的移民船上發現至少 8 具遺體，6 人重傷空運送醫",
+   "line": "移民抵達量 10 月以來加速，耶羅島政府請求支援、軍方緊急應變部隊進駐救治",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "移民與難民",
+    "災害與事故"
+   ],
+   "topic_all": [
+    "移民與難民",
+    "社會",
+    "災害與事故"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "意外事故"
+   ],
+   "region": [
+    "歐洲",
+    "非洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "西班牙海上救援隊",
+    "西班牙軍事緊急應變部隊"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 5,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "society"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-28T00:43:46+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.21080139372822299,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0634",
+   "title": "委內瑞拉國會議長宣布將廢除禁止反對派人士任公職的法律，馬查多上月結束流亡返國",
+   "line": "這項 2024 年通過的法律針對支持對委國制裁者，是美國主導的政治過渡對話同意檢討的法律之一",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "政治"
+   ],
+   "topic_all": [
+    "政治"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "政策法規"
+   ],
+   "region": [
+    "中南美",
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "委內瑞拉國民議會"
+   ],
+   "person": [
+    "Jorge Rodriguez",
+    "Delcy Rodriguez",
+    "María Corina Machado",
+    "馬杜洛"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-28T04:44:03+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.4268292682926829,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0635",
+   "title": "普丁出席新型 Yasen-M 級核動力潛艦「彼爾姆號」升旗典禮，俄稱是首艘配備鋯石極音速飛彈的潛艦",
+   "line": "普丁說 2030 年前海軍將再接收 5 艘核潛艦，其中 3 艘是同級艦",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "國防與軍事"
+   ],
+   "topic_all": [
+    "國防與軍事"
+   ],
+   "story": [],
+   "sector": [
+    "航太與國防"
+   ],
+   "event": [
+    "軍事行動"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "俄羅斯海軍",
+    "北德文斯克造船廠"
+   ],
+   "person": [
+    "普丁"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-28T04:39:57+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.4268292682926829,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0636",
+   "title": "烏克蘭提出黑海停火方案以保障糧食出口，等待俄方回應；俄國要求納入石油運輸",
+   "line": "外長西比哈稱已把方案轉交國際盟友，前一天俄軍才在敖德薩附近攻擊兩艘外國運糧船",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "戰爭與衝突",
+    "國際關係"
+   ],
+   "topic_all": [
+    "戰爭與衝突",
+    "國際關係"
+   ],
+   "story": [
+    "俄烏戰爭"
+   ],
+   "sector": [
+    "農業與食品",
+    "運輸與物流"
+   ],
+   "event": [
+    "會談協議"
+   ],
+   "region": [
+    "歐洲"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "烏克蘭外交部",
+    "Suspilne"
+   ],
+   "person": [
+    "Andrii Sybiha"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 2,
+    "regions": 2,
+    "media_weight": 4,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-28T01:44:33+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.24041811846689895,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0637",
+   "title": "烏干達軍隊宣布撤出剛果東部北基伍省盧貝羅，此前軍隊總司令揚言奪取另一城鎮引發外交糾紛",
+   "line": "剛果已召見烏干達使館館長抗議，烏軍指責親剛果政府的民兵加強攻擊",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "戰爭與衝突",
+    "國際關係"
+   ],
+   "topic_all": [
+    "戰爭與衝突",
+    "國際關係"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "軍事行動"
+   ],
+   "region": [
+    "非洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "烏干達人民國防軍",
+    "民主同盟軍",
+    "聯合國安理會"
+   ],
+   "person": [
+    "Muhoozi Kainerugaba",
+    "穆塞維尼"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-28T01:56:28+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.4268292682926829,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0638",
+   "title": "烏克蘭情報局稱北韓因不滿俄方表態要緩和兩韓關係，暫停對俄軍援、停運 KN-23 飛彈",
+   "line": "俄方要求北韓駐軍從 8,500 人擴大到 5 萬人也被擱置，莫斯科與平壤都未證實",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "國際關係",
+    "戰爭與衝突"
+   ],
+   "topic_all": [
+    "國際關係",
+    "戰爭與衝突"
+   ],
+   "story": [
+    "俄烏戰爭"
+   ],
+   "sector": [],
+   "event": [
+    "調查揭露"
+   ],
+   "region": [
+    "東北亞",
+    "歐洲"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "烏克蘭國防部情報總局"
+   ],
+   "person": [
+    "金正恩",
+    "崔善姬",
+    "Andrei Rudenko"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "politics"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-27T20:53:58+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.4268292682926829,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0639",
+   "title": "Gmail 網頁版 2027 年 1 月起停止以 POP 收取其他信箱郵件，也取消用第三方地址「代寄」",
+   "line": "Gmailify 一併停用，Android 版仍可加入第三方帳號，Workspace 的代寄功能不受影響",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "科技"
+   ],
+   "topic_all": [
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "網路平台",
+    "軟體與雲端"
+   ],
+   "event": [
+    "產品發布"
+   ],
+   "region": [
+    "全球"
+   ],
+   "taiwan": "間接",
+   "weight": "中",
+   "relevance": "高",
+   "urgency": "中",
+   "upcoming": true,
+   "org": [
+    "Google",
+    "Mozilla",
+    "Microsoft"
+   ],
+   "person": [],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 0,
+    "media_weight": 0,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "tech"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-28T01:15:00+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.7787456445993032,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0640",
+   "title": "（長文）《大西洋》專欄：重溫 1960 至 70 年代的美國間諜影視熱潮，作者坦言懷念冷戰時的美國外交",
+   "line": "從龐德到英國間諜劇，作者認為那一代作品值得重看，也是時代的文化切片",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "娛樂與媒體",
+    "文化藝術"
+   ],
+   "topic_all": [
+    "娛樂與媒體",
+    "文化藝術"
+   ],
+   "story": [],
+   "sector": [
+    "媒體與娛樂"
+   ],
+   "event": [
+    "聲明評論"
+   ],
+   "region": [
+    "北美",
+    "歐洲"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "The Atlantic",
+    "CBS"
+   ],
+   "person": [
+    "Sean Connery",
+    "Patrick McGoohan",
+    "Robert Pattinson"
+   ],
+   "form": "長文",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "culture",
+    "entertainment",
+    "reading"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-27T23:30:00+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.5296167247386759,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0641",
+   "title": "（長文）《大西洋》：腦波與 fMRI 顯示部分昏迷病人仍有意識，醫學教科書的定義可能要改寫",
+   "line": "麻州總醫院團隊發現一名 80 歲昏迷女性在兩種檢測都對指令有反應，是首例",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "健康與醫療",
+    "科學"
+   ],
+   "topic_all": [
+    "健康與醫療",
+    "科學"
+   ],
+   "story": [],
+   "sector": [
+    "醫療照護"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "麻州總醫院",
+    "哥倫比亞大學",
+    "北卡羅來納大學"
+   ],
+   "person": [
+    "Brian Edlow",
+    "Varina Boerwinkle"
+   ],
+   "form": "長文",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "science",
+    "health",
+    "reading"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-27T21:00:00+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.5296167247386759,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0642",
+   "title": "（長文）Vox：機器人乳房切除手術可保留更多胸部感覺，但醫界對長期癌症復發風險意見分歧",
+   "line": "美國 FDA 2025 年 12 月核准達文西單孔系統用於保留乳頭乳房切除術",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "健康與醫療",
+    "科技"
+   ],
+   "topic_all": [
+    "健康與醫療",
+    "科技"
+   ],
+   "story": [],
+   "sector": [
+    "醫療照護",
+    "醫藥與生技"
+   ],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "北美"
+   ],
+   "taiwan": "無",
+   "weight": "低",
+   "relevance": "中",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "Vox",
+    "美國食品藥物管理局",
+    "MedStar 喬治城大學醫院",
+    "Intuitive"
+   ],
+   "person": [
+    "Lucy De La Cruz",
+    "Anusha Subramanian"
+   ],
+   "form": "長文",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 1,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "tech",
+    "health",
+    "reading"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-27T19:16:15+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.5296167247386759,
+   "exploited": false
+  },
+  {
+   "id": "2026-W48-0643",
+   "title": "衛星研究：拉哥斯、亞歷山卓等非洲沿海大城地層下陷比 IPCC 先前估計更快",
+   "line": "維吉尼亞理工團隊用 Sentinel-1 雷達影像分析 20 座城市，估 2050 年 700 萬人面臨淹水風險",
+   "born_at": "2026-11-28T08:53:47+08:00",
+   "updated_at": "2026-11-28T08:53:47+08:00",
+   "version": 1,
+   "archived": false,
+   "late": false,
+   "online_only": false,
+   "dup_of": null,
+   "topic": [
+    "環境與氣候",
+    "科學"
+   ],
+   "topic_all": [
+    "環境與氣候",
+    "科學"
+   ],
+   "story": [],
+   "sector": [],
+   "event": [
+    "研究發表"
+   ],
+   "region": [
+    "非洲"
+   ],
+   "taiwan": "無",
+   "weight": "中",
+   "relevance": "低",
+   "urgency": "低",
+   "upcoming": false,
+   "org": [
+    "維吉尼亞理工大學",
+    "歐洲太空總署",
+    "政府間氣候變遷專門委員會"
+   ],
+   "person": [
+    "Oluwaseyi Dasho",
+    "Manoochehr Shirzaei"
+   ],
+   "form": "新聞",
+   "heat": {
+    "outlets": 1,
+    "regions": 1,
+    "media_weight": 2,
+    "community": {
+     "hn": 0,
+     "ptt": 0,
+     "v2ex": 0
+    }
+   },
+   "series": [
+    "science",
+    "environment"
+   ],
+   "last_update": null,
+   "corrected_at": null,
+   "first_reported_at": "2026-11-28T03:03:18+08:00",
+   "event_at": "2026-11-28T08:53:47+08:00",
+   "supplemented_at": null,
+   "heat_rank": 0.4268292682926829,
    "exploited": false
   }
  ]
