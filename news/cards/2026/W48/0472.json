@@ -248,13 +248,61 @@
    "kind": "media",
    "region": "北美",
    "rank": 1
+  },
+  {
+   "name": "DW News",
+   "title": "Divisions deepen between EU member states after tense budget summit",
+   "url": "https://www.dw.com/en/divisions-deepen-between-eu-member-states-after-tense-budget-summit/a-80078599?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-28T00:51:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Europe Tonight: EU budget summit collapses as Spain braces for vote and UK unveils deal",
+   "url": "https://www.euronews.com/2026/11/27/europe-tonight-eu-budget-summit-collapses-as-spain-braces-for-vote-and-uk-unveils-deal",
+   "time": "2026-11-28T00:58:45+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "EU budget summit collapses as row over money exposes clash over Europe's strategic tasks",
+   "url": "https://www.euronews.com/2026/11/27/eu-budget-summit-collapses-as-row-over-money-exposes-clash-over-europes-strategic-tasks",
+   "time": "2026-11-27T21:33:03+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "EU leaders fail to break $1.7 trillion budget deadlock as political pressure mounts",
+   "url": "https://www.cnbc.com/2026/11/27/eu-budget-2028-2034-deadlock.html",
+   "time": "2026-11-27T22:12:55+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 7,
+  "outlets": 8,
   "regions": 2,
-  "media_weight": 16,
+  "media_weight": 18,
   "community": {
    "hn": 0,
    "ptt": 0,

@@ -5,8 +5,8 @@
  "line": "代表 4.5 萬至 5.5 萬家歐盟企業，要求落實《數位市場法》而非另立新法",
  "born_at": "2026-11-26T02:08:48+08:00",
  "first_reported_at": "2026-11-25T16:52:54+08:00",
- "updated_at": "2026-11-26T02:08:48+08:00",
- "version": 1,
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -75,9 +75,30 @@
    "kind": "media",
    "region": "台灣",
    "rank": 3
+  },
+  {
+   "name": "Solidot",
+   "title": "欧盟委员会称浏览器竞争是 DMA 优先事项",
+   "url": "https://www.solidot.org/story?sid=86012",
+   "time": "2026-11-27T19:09:57+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Solidot",
+   "kind": "aggregator",
+   "region": "中國大陸",
+   "rank": 9
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-28T08:50:07+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "歐盟執委會回應開放網路倡議組織（OWA）的公開信，表示瀏覽器是網路的入口、也是內容出版者觸及讀者的主要方式，瀏覽器競爭是《數位市場法》的優先事項；執委會說正就相關事宜進行磋商，確保競爭瀏覽器能在 iPhone 與 iPad 上與 Safari 有效競爭。",
+   "update": "歐盟執委會回應公開信，表示 iPhone 瀏覽器競爭是《數位市場法》優先事項、正與各方磋商",
+   "refocus": false
+  }
+ ],
  "heat": {
   "outlets": 1,
   "regions": 1,

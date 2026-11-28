@@ -1,0 +1,83 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0611",
+ "title": "挪威博奕管理局審查後決定不對 EEG 旗下兩個網站實施 DNS 封鎖",
+ "line": "9 月起通知網路業者擬對多數國際博奕業者實施 DNS 封鎖，EEG 是首批獲撤銷的業者",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T19:00:03+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "NO",
+   "SE"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "挪威博奕管理局",
+   "European Entertainment Group"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "DNS 封鎖",
+   "無照博奕"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "挪威博奕管理局（Lotteritilsynet）完成對 European Entertainment Group AB（EEG）旗下兩個網站的審查，決定不對它們實施 DNS 封鎖。管理局 9 月 17 日預先通知挪威網路服務業者，打算對多個接受挪威客戶的博奕網站實施 DNS 封鎖，影響多數國際博奕業者；隔天受影響業者收到信函，須在 10 月 15 日前回覆。EEG 兩個實體在期限內提出回覆並與管理局對話，管理局評估後確認不對其網站採取封鎖，EEG 網站至今也沒有遭到任何封鎖。管理局將持續監督博奕業者。EEG 表示在挪威的營運依循適用法規與管理局的實務指引。",
+ "dive_html": "挪威維持國營獨占、以 DNS 封鎖對付境外業者，這次 EEG 透過回覆說明避開封鎖，顯示管理局的判斷標準可協商，但沒有公開具體理由。其他收到通知的國際業者是否也能比照，將決定這波封鎖實際涵蓋多大。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Yogonet International",
+   "title": "Norwegian Gambling Authority rules out DNS blocking for EEG websites",
+   "url": "https://www.yogonet.com/international/news/2026/11/27/127502-norwegian-gambling-authority-rules-out-dns-blocking-for-eeg-websites",
+   "time": "2026-11-27T19:00:03+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Yogonet",
+   "kind": "media",
+   "region": "中南美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

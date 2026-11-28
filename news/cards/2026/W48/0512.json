@@ -319,6 +319,114 @@
    "kind": "media",
    "region": "中東",
    "rank": 2
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "西班牙大選倒數  住房難題掀左右派路線之爭",
+   "url": "https://www.cna.com.tw/news/aopl/202611270261.aspx",
+   "time": "2026-11-27T21:21:19+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "Bloomberg Markets",
+   "title": "Sánchez Seeks Unlikely Win With Plea for Spaniards to Go Vote",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/sanchez-seeks-unlikely-win-with-plea-for-spaniards-to-go-vote",
+   "time": "2026-11-28T04:24:01+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Bloomberg",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "BBC Top News",
+   "title": "Spanish PM and rivals rally supporters in final pitch for votes",
+   "url": "https://www.bbc.co.uk/news/articles/c8wy5p4gdnwvo",
+   "time": "2026-11-28T05:55:53+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Spain’s Pedro Sanchez bets on left-wing voting surge to defy election polls",
+   "url": "https://www.aljazeera.com/news/2026/11/27/spains-pedro-sanchez-bets-on-left-wing-voting-surge-to-defy-election-polls",
+   "time": "2026-11-28T01:15:35+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "France 24",
+   "title": "Spanish elections: 'Right-wing voters extremely mobilised, left-wing voters not mobilised enough'",
+   "url": "https://www.france24.com/en/tv-shows/spotlight/20261127-spanish-elections-right-wing-voters-extremely-mobilised-left-wing-voters-not-mobilised-enough",
+   "time": "2026-11-28T04:43:44+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Spain election: Will Vox be the kingmaker, and will housing decide the vote?",
+   "url": "https://www.euronews.com/2026/11/27/spain-general-election-is-vox-set-to-be-the-kingmaker-and-how-crucial-is-the-housing-issue",
+   "time": "2026-11-28T01:40:17+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "Spain election 2026: What are voters worried about?",
+   "url": "https://www.euronews.com/video/2026/11/27/spain-election-2026-what-are-voters-worried-about",
+   "time": "2026-11-28T00:03:48+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "CNBC",
+   "title": "Spain’s election could pull Madrid closer to Trump’s Washington",
+   "url": "https://www.cnbc.com/2026/11/27/spain-election-trump-sanchez.html",
+   "time": "2026-11-27T21:00:42+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Spain's Sanchez insists he will defy polls as election campaign wraps up",
+   "url": "https://news.google.com/rss/articles/CBMiuAFBVV95cUxOWWJleDNqeFIxY19DeHdSdjNfMWJKYkxMMmtnTWJkZzZDYzFidEVrOXZ0Und0eTJldEx1c1llcnp6VmhSRnJWczVGOXNwbUM5RVZPbDNOUmFPaTRzbWp6YnRtTFM1Y3FxREs5WkFKaUZzeUh3d0hhci1rWlB0QlEwbFNxY1h6bEI0Mkp3NG55aXRBc2JzVmstZk5xeE0wMWg5TS1jVnE5T2U4UlBGR3Y3V0hHZzlfM3B3?oc=5",
+   "time": "2026-11-28T03:12:26+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
   }
  ],
  "log": [
@@ -332,9 +440,9 @@
   }
  ],
  "heat": {
-  "outlets": 10,
+  "outlets": 13,
   "regions": 4,
-  "media_weight": 23,
+  "media_weight": 31,
   "community": {
    "hn": 0,
    "ptt": 0,

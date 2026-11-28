@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "id": "2026-W48-0562",
- "title": "法國第三季 GDP 萎縮 0.2%、連三季未成長，11 月通膨因能源價格回落降至 2.9%",
+ "title": "法國經修正陷入技術性衰退、第三季 GDP 萎縮 0.2%，標普把評等展望調為負向",
  "line": "萎縮幅度比 Insee 原估的 0.1% 更大，政府全年成長目標更難達成",
  "born_at": "2026-11-27T20:52:38+08:00",
  "first_reported_at": "2026-11-27T16:46:59+08:00",
- "updated_at": "2026-11-27T20:52:38+08:00",
- "version": 1,
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -28,7 +28,8 @@
    "數據發布"
   ],
   "org": [
-   "法國國家統計及經濟研究局"
+   "法國國家統計及經濟研究局",
+   "標普"
   ],
   "weight": [
    "中"
@@ -42,7 +43,9 @@
   "keyword": [
    "法國 GDP",
    "通膨",
-   "Insee"
+   "Insee",
+   "技術性衰退",
+   "主權評等"
   ],
   "form": [
    "新聞"
@@ -92,13 +95,95 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 1
+  },
+  {
+   "name": "WSJ World News",
+   "title": "France Slips Into Recession as Exports Sag",
+   "url": "https://www.wsj.com/world/europe/french-economy-slips-into-recession-as-exports-sag-47e934c5?mod=rss_worldnews",
+   "time": "2026-11-27T21:39:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "RFI 中文",
+   "title": "法国陷入经济衰退",
+   "url": "https://www.rfi.fr/cn/%E6%B3%95%E5%9B%BD/20261127-%E6%B3%95%E5%9B%BD%E9%99%B7%E5%85%A5%E7%BB%8F%E6%B5%8E%E8%A1%B0%E9%80%80",
+   "time": "2026-11-28T05:54:11+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "France in technical recession after quarterly revisions",
+   "url": "https://news.google.com/rss/articles/CBMirAFBVV95cUxQTER0b3otWTRCSmNQXzlVUXVMamtxeGxHV3BMQkVoRnBLTkhsYnFIdXdySXRYNUR4RWxBVU82Mk5oVDl1U2lNaTJ3U3FaVnpLUFM2UDZvSU92VERNcVBaOUtpVVpkek9vTFhZWG52TUQxUDNFVWs1UVZJQVpuM05SOGFQN29nblhlb19NeW9KYVM5OWlDV3NycXJkTG9Zc3d1Zm92VGNLaWlCN2It?oc=5",
+   "time": "2026-11-27T19:50:26+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "WSJ World News",
+   "title": "S&P Revises Outlook on France’s Credit Rating to Negative From Stable",
+   "url": "https://www.wsj.com/world/europe/s-p-revises-outlook-on-french-credit-rating-to-negative-from-stable-eab7384f?mod=rss_worldnews",
+   "time": "2026-11-28T06:08:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "WSJ",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "France 24",
+   "title": "S&P revises France's outlook from 'stable' to 'negative'",
+   "url": "https://www.france24.com/en/france/20261127-s-p-revises-france-s-outlook-from-stable-to-negative",
+   "time": "2026-11-28T06:00:20+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Financial Times",
+   "title": "S&P cuts France outlook to negative",
+   "url": "https://www.ft.com/content/4e16110a-9604-4455-8557-4edece5df01a?syn-25a6b1a6=1",
+   "time": "2026-11-28T06:45:36+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-28T08:50:07+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "Insee 同日的詳細報告顯示，法國第一季 GDP 下降 0.2%、第二季也小幅下滑（由 6,644 億歐元降至 6,642 億歐元），第三季再降至 6,626 億歐元，因此自第二季起已陷入連續兩季下滑的「技術性衰退」。專家指出，政府全年 0.5% 的成長目標要成真，第四季須成長 1.4%，法國央行目前預估全年約 0.3%。經濟部長 Roland Lescure 稱數據印證法國正處於艱難時期，歸因於能源衝擊、熱浪與乾旱以及選舉週期，但預期能源生產恢復與航空業補漲將帶動復甦。標普（S&amp;P）11 月 27 日確認法國主權評等 A+/A-1，但把展望由「穩定」調為「負向」，理由是在成長溫和的情況下公共債務增加、政治不確定性讓赤字更難削減，中期有再降評的可能。",
+   "update": "法國經修正後自第二季起陷入技術性衰退，標普同日把法國評等展望由穩定調降為負向",
+   "refocus": true,
+   "old_title": "法國第三季 GDP 萎縮 0.2%、連三季未成長，11 月通膨因能源價格回落降至 2.9%"
+  }
+ ],
  "heat": {
-  "outlets": 3,
-  "regions": 2,
-  "media_weight": 8,
+  "outlets": 6,
+  "regions": 3,
+  "media_weight": 16,
   "community": {
    "hn": 0,
    "ptt": 0,

@@ -144,13 +144,37 @@
    "kind": "media",
    "region": "東南亞",
    "rank": 2
+  },
+  {
+   "name": "經濟日報",
+   "title": "美畫新紅線 算力不准租給陸企！輝達晶片管制升級衝擊台鏈",
+   "url": "https://money.udn.com/money/story/5612/9906791",
+   "time": "2026-11-28T02:45:35+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "經濟日報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "RFI 中文",
+   "title": "美芯片管控措施指向东南亚，中国IA研发陷入处处围堵",
+   "url": "https://www.rfi.fr/cn/%E4%B8%93%E6%A0%8F%E6%A3%80%E7%B4%A2/%E8%A6%81%E9%97%BB%E8%A7%A3%E8%AF%B4/20261127-%E7%BE%8E%E8%8A%AF%E7%89%87%E7%AE%A1%E6%8E%A7%E6%8E%AA%E6%96%BD%E6%8C%87%E5%90%91%E4%B8%9C%E5%8D%97%E4%BA%9A%EF%BC%8C%E4%B8%AD%E5%9B%BDia%E7%A0%94%E5%8F%91%E9%99%B7%E5%85%A5%E5%A4%84%E5%A4%84%E5%9B%B4%E5%A0%B5",
+   "time": "2026-11-27T22:52:16+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 6,
+  "outlets": 7,
   "regions": 4,
-  "media_weight": 12,
+  "media_weight": 14,
   "community": {
    "hn": 0,
    "ptt": 0,

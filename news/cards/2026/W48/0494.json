@@ -74,13 +74,25 @@
    "kind": "media",
    "region": "中南美",
    "rank": 3
+  },
+  {
+   "name": "iGaming Business",
+   "title": "Estonia halts gambling tax cuts as Finland prepares to bring €150 million GGR onshore",
+   "url": "https://igamingbusiness.com/finance/estonia-halts-gambling-tax-cuts-as-finland-prepares-bring-150-million-ggr-onshore/",
+   "time": "2026-11-27T22:41:23+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "iGaming Business",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 1,
-  "regions": 1,
-  "media_weight": 1,
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
   "community": {
    "hn": 0,
    "ptt": 0,

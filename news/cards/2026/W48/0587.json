@@ -1,0 +1,100 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0587",
+ "title": "Meta AI 代理 Muse 登陸英國，英國版條款取消 250 美元賠償上限、對錯誤負更多責任",
+ "line": "英國競爭與市場管理局介入數週後，Muse 英國版條款給消費者比美國更多求償空間",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T19:25:07+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "北美"
+  ],
+  "country": [
+   "GB",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "人權"
+  ],
+  "event": [
+   "政策法規",
+   "產品發布"
+  ],
+  "sector": [
+   "網路平台"
+  ],
+  "org": [
+   "Meta",
+   "英國競爭與市場管理局"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Muse",
+   "AI 代理",
+   "服務條款",
+   "消費者保護"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Politico 比較 Meta 個人 AI 代理 Muse 在美、英兩地的服務條款發現，Muse 本週在英國上線（比美國晚數個月），英國版給消費者更多在 AI 代理出錯時求償的空間。美國條款把賠償上限訂在 250 美元（重大過失、故意不當行為或詐欺除外），並在法律允許範圍內免除 Muse「非預期、錯誤或未經授權的行動」造成損失的責任；英國版沒有金額上限，免責範圍也較窄，只在 Meta 已盡合理技能與注意時適用。英國競爭與市場管理局（CMA）表示，經過「數週」溝通，Meta 修改了英國條款，讓它更公平並符合英國消費者法。Muse 可代使用者追退款、續保車險、採購聖誕禮物，經使用者同意也能代為付款，是第一個由大型科技公司在英國推出的 AI 代理；Meta 公開承認它「會出錯」，對監管溝通細節不予置評。",
+ "dive_html": "這是 AI 代理「出錯誰負責」第一次在大型平台上被監管機關改寫的具體案例：同一產品在兩地的責任分配差距很大，顯示代理型產品的條款會跟著各國消費者法分化。對打算在多國上線代理功能的團隊，英國這套做法可能成為歐洲其他監管者的參考；若代理能代付款，責任上限與免責範圍會是法務與產品設計的核心議題，而不只是條款細節。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Politico Europe",
+   "title": "Meta’s UK rollout for Muse AI agent exposes it to more liability",
+   "url": "https://www.politico.eu/article/metas-uk-rollout-for-muse-ai-agent-exposes-it-to-more-liability/",
+   "time": "2026-11-27T19:25:07+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Politico",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Techmeme",
+   "title": "The CMA says Meta made changes to Muse's ToS in the UK to reflect the country's consumer law; the terms give users far more protections than in the US (Joseph Bambridge/Politico)",
+   "url": "https://www.techmeme.com/261127/p8#a261127p8",
+   "time": "2026-11-27T23:25:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

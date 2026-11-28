@@ -1,0 +1,94 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0593",
+ "title": "勒索組織 Inception 宣稱入侵 GoDaddy，公開約 37.5GB 內部資料含員工薪酬",
+ "line": "研究人員判斷資料可能是 2020 至 2024 年前後的舊存檔，GoDaddy 尚未公開回應",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-28T08:22:28+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "網路平台"
+  ],
+  "org": [
+   "GoDaddy",
+   "Inception",
+   "Cybernews"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "資料外洩",
+   "網域註冊商",
+   "勒索軟體"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 Neowin 11 月 27 日報導，勒索軟體組織 Inception 宣稱入侵全球最大網域註冊商與主機服務商 GoDaddy，並在外洩網站公開約 37.5GB、共 10,800 個檔案。內容包括 25GB 會議與全體員工大會影片、Office 文件、PDF、內部資料湖設定，另有 9.6GB 個人照片與影片，以及 Go 與 TypeScript 程式碼。該組織稱部分檔案含員工姓名、聊天紀錄與薪酬資料，但這些檔案據稱有資訊權限管理加密保護。Cybernews 研究人員檢查後認為，這批可能是時間戳在 2020 至 2024 年前後的舊存檔，例如加密的舊備份。GoDaddy 截至 2025 年底管理約 8,100 萬個網域。報導發出時 GoDaddy 尚未回應，Inception 沒有提出贖金要求，也沒說明入侵時間。",
+ "dive_html": "目前只有攻擊者單方面說法與研究人員對樣本的判讀，外洩內容以內部影片與文件為主，沒有證據顯示客戶帳號或 DNS 管理受波及。對使用 GoDaddy 管理網域的台灣團隊，直接風險有限，但員工資料可能被拿去做冒名社交工程，網域帳號仍應啟用多因素驗證、留意偽裝成註冊商的釣魚信。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "GoDaddy 員工與內部資料（約 37.5GB、10,800 個檔案）；原文未提到客戶資料或網域管理系統受影響"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "IT 之家",
+   "title": "约 37.5GB：全球最大域名注册商 GoDaddy 被爆数据泄露，含薪酬等员工信息",
+   "url": "https://www.ithome.com/1/033/791.htm",
+   "time": "2026-11-28T08:22:28+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "IT 之家",
+   "kind": "media",
+   "region": "中國大陸",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

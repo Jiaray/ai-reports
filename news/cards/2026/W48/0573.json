@@ -84,13 +84,25 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 1
+  },
+  {
+   "name": "DW News",
+   "title": "Spanish rider Marc Marquez announces MotoGP retirement, days after clinching record 8th world title",
+   "url": "https://www.dw.com/en/spanish-rider-marc-marquez-announces-motogp-retirement-days-after-clinching-record-8th-world-title/a-80079930?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-28T02:01:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 2,
+  "outlets": 3,
   "regions": 1,
-  "media_weight": 5,
+  "media_weight": 7,
   "community": {
    "hn": 0,
    "ptt": 0,

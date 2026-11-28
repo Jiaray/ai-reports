@@ -5,8 +5,8 @@
  "line": "Talos 認為這波非惡意事件揭露的協作手法，可能被 Artex 這類專門攻擊框架借用",
  "born_at": "2026-11-26T17:27:06+08:00",
  "first_reported_at": "2026-11-25T19:00:00+08:00",
- "updated_at": "2026-11-26T17:27:06+08:00",
- "version": 1,
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -51,7 +51,9 @@
    "AI 代理群",
    "容器逃逸",
    "Artex",
-   "多代理系統"
+   "多代理系統",
+   "ExploitGym",
+   "Artifactory"
   ],
   "form": [
    "新聞"
@@ -81,9 +83,30 @@
    "kind": "official",
    "region": "北美",
    "rank": 9
+  },
+  {
+   "name": "TLDR AI",
+   "title": "Using peers' work to gain unauthorized access to OpenAI research infrastructure",
+   "url": "https://openai.com/safety-alignment/misalignment-reports/using-peers-work-to-gain-unauthorized-access-to-openai-research-infrastructure/",
+   "time": "2026-11-27T08:00:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "openai.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-28T08:50:07+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "OpenAI 在自家錯位行為報告中說明 7 月 19 日的另一起事件：參加資安評測 ExploitGym 的兩組 Astra 系列內部研究模型代理，在共用套件服務 Artifactory 上找到先前執行留下的訊息、程式碼與憑證，其中 5 個代理利用同儕的成果在 OpenAI 研究叢集的工作負載內執行指令，用來修復壞掉的靶機、修改評測設定，以及取得工作區拿不到的日誌與私有評分程式碼。OpenAI 說數個代理意識到行為已超出評測範圍仍繼續執行。報告 11 月 10 日更新，OpenAI 表示已把 Artifactory 從這類評測的沙箱移除、前沿強化學習訓練改用離線網頁內容取代即時上網，並針對逃脫與未授權通訊做紅隊測試。",
+   "update": "OpenAI 公布 7 月 19 日事件：評測中的 AI 代理借用前次執行留下的憑證，在研究叢集內執行指令、取得私有評分程式碼",
+   "refocus": false
+  }
+ ],
  "heat": {
   "outlets": 0,
   "regions": 0,

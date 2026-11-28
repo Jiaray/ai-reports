@@ -117,15 +117,100 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 1
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "路透：美國空軍旗艦雲端平台遭駭　恐危及戰術人事後勤資料",
+   "url": "https://www.cna.com.tw/news/aopl/202611270266.aspx",
+   "time": "2026-11-27T21:38:32+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "IT 之家",
+   "title": "美空军云系统遭黑客入侵，大量战术、人事及后勤相关敏感数据或面临安全威胁",
+   "url": "https://www.ithome.com/1/033/785.htm",
+   "time": "2026-11-28T07:38:22+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "IT 之家",
+   "kind": "media",
+   "region": "中國大陸",
+   "rank": 3
+  },
+  {
+   "name": "BleepingComputer",
+   "title": "US Air Force cloud platform reportedly hacked in latest federal breach",
+   "url": "https://www.bleepingcomputer.com/news/security/us-air-force-cloud-platform-reportedly-hacked-in-latest-federal-breach/",
+   "time": "2026-11-27T23:09:40+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "BleepingComputer",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "Defense News",
+   "title": "Hackers breach US Air Force flagship Cloud One computing platform",
+   "url": "https://www.defensenews.com/pentagon/2026/11/27/hackers-breach-us-air-force-flagship-cloud-one-computing-platform/",
+   "time": "2026-11-27T22:23:36+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Defense News",
+   "kind": "media",
+   "region": null,
+   "rank": 9
+  },
+  {
+   "name": "RFI 中文",
+   "title": "美国空军核心云平台遭黑客入侵 敏感数据或受影响",
+   "url": "https://www.rfi.fr/cn/%E7%BE%8E%E6%B4%B2/20261127-%E7%BE%8E%E5%9B%BD%E7%A9%BA%E5%86%9B%E6%A0%B8%E5%BF%83%E4%BA%91%E5%B9%B3%E5%8F%B0%E9%81%AD%E9%BB%91%E5%AE%A2%E5%85%A5%E4%BE%B5-%E6%95%8F%E6%84%9F%E6%95%B0%E6%8D%AE%E6%88%96%E5%8F%97%E5%BD%B1%E5%93%8D",
+   "time": "2026-11-28T05:20:23+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Hacker News",
+   "title": "Hackers breach US Air Force flagship Cloud One computing platform",
+   "url": "https://www.reuters.com/world/hackers-breach-us-air-force-flagship-cloud-one-computing-platform-2026-11-27/",
+   "time": "2026-11-27T19:52:53+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "40 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50665811",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "The Guardian Technology",
+   "title": "Hackers reportedly breach US air force’s flagship cloud computing platform",
+   "url": "https://www.theguardian.com/technology/2026/nov/27/hackers-breach-us-air-force-cloud-computing",
+   "time": "2026-11-27T22:50:15+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 3,
-  "regions": 2,
-  "media_weight": 4,
+  "outlets": 9,
+  "regions": 5,
+  "media_weight": 13,
   "community": {
-   "hn": 0,
+   "hn": 40,
    "ptt": 0,
    "v2ex": 0
   }

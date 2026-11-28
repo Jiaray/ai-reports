@@ -1,0 +1,139 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0589",
+ "title": "社群借 AI 工具把 Xbox 版 GTA 6 重編譯到 PC，Take-Two 以 DMCA 要求 GitHub 下架逾 3,000 個倉庫",
+ "line": "上市隔天遊戲檔外流，移植專案幾天內從只顯示啟動畫面推進到 30 幀以上，Mac 版也能勉強執行",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T20:36:12+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "全球"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "遊戲",
+   "開發與開源",
+   "AI"
+  ],
+  "event": [
+   "爭議風波"
+  ],
+  "sector": [
+   "遊戲"
+  ],
+  "org": [
+   "Take-Two",
+   "Rockstar Games",
+   "GitHub",
+   "Microsoft",
+   "Sony"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "GTA 6",
+   "靜態重編譯",
+   "DMCA",
+   "Project Leonida",
+   "盜版"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "GTA 6 只有主機版，PC 版最快明年 1 月才推出。據 36 氪與 GamesIndustry.biz 整理，上市隔天就有人把 Xbox Series 版遊戲檔案公開到網路上，接著 GitHub 出現開源專案 Project Leonida，目標是把 Xbox 程式碼重編譯成 Windows 原生程式；幾天內它的 Discord 有近 18 萬名成員、程式碼被分叉近 3,000 次，VIctory、XCL、Xbox2Windows 等專案也相繼出現，有的走相容層、有的做靜態重編譯，還有針對 AMD RDNA 架構的版本。PC Gamer 報導，Claude 等 AI 程式工具大幅縮短這類複雜重編譯的時間，從過去數月縮到數天甚至數小時；11 月 26 日已有專案跑出 25 至 30 幀，Solidot 稱有人在 Linux 上用 AMD 9070 XT 與 FSR 穩定跑出 30 幀以上。Take-Two 11 月 24 日向 GitHub 提出 DMCA 投訴，指專案逆向工程遊戲程式碼、違反服務條款，GitHub 處理了 3,007 個倉庫的下架請求，但移植進度沒有因此放緩。MacRumors 也報導社群把 Xbox 版移植到 Apple Silicon Mac，在 M4 Pro 上約 3 至 6 幀，仍無法正常遊玩。",
+ "dive_html": "GamesIndustry.biz 的評論點出，影響不只 Rockstar：AI 讓靜態重編譯這類過去門檻極高的逆向工程變得廉價，「先主機後 PC」的發行時間差與獨占協議可能越來越難守。對發行商而言，DMCA 下架無法阻止分散的社群，遊戲檔外流的源頭控管與防重編譯技術會更受重視；對主機平台，若移植版在 PC 上效能更好，等待正式 PC 版的誘因也會下降。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Solidot",
+   "title": "Take-Two 无法阻止用户利用 AI 将 GTA 6 移植到 PC 上",
+   "url": "https://www.solidot.org/story?sid=86014",
+   "time": "2026-11-27T23:59:17+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Solidot",
+   "kind": "aggregator",
+   "region": "中國大陸",
+   "rank": 9
+  },
+  {
+   "name": "36氪",
+   "title": "耗资10亿美元的GTA6，差点被15岁少年用AI破解",
+   "url": "https://www.36kr.com/p/4087726354388617",
+   "time": "2026-11-27T20:36:12+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "36氪",
+   "kind": "media",
+   "region": "中國大陸",
+   "rank": 3
+  },
+  {
+   "name": "MacRumors",
+   "title": "GTA VI Now (Barely) Running on Apple Silicon Macs",
+   "url": "https://www.macrumors.com/2026/11/27/gta-vi-on-apple-silicon-macs/",
+   "time": "2026-11-27T23:46:16+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "MacRumors",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "IT 之家",
+   "title": "民间移植给力：苹果 M 芯片 Mac 已跑通《GTA 6》游戏，1080P 场景最高解锁 6FPS",
+   "url": "https://www.ithome.com/1/033/778.htm",
+   "time": "2026-11-28T07:06:24+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "IT 之家",
+   "kind": "media",
+   "region": "中國大陸",
+   "rank": 3
+  },
+  {
+   "name": "GamesIndustry.biz",
+   "title": "GTA 6's pirate PC ports: new tools, old problem | Opinion",
+   "url": "https://www.gamesindustry.biz/gta-6s-pirate-pc-ports-new-tools-old-problem-opinion",
+   "time": "2026-11-27T22:43:20+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "GamesIndustry.biz",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 3,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

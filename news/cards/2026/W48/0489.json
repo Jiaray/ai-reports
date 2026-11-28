@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "id": "2026-W48-0489",
- "title": "GTA 6 上市三天帶動英國遊戲零售營收週增 99% 至 1.42 億英鎊，直播首週觀看 4.2 億小時",
+ "title": "GTA 6 首週估賣 5,300 萬套、營收約 47 億美元，英國零售營收週增 99%、直播首週觀看 4.2 億小時",
  "line": "上市週吸走 31.4% 的遊戲關注度，線上服務型遊戲關注占比首度跌破五成",
  "born_at": "2026-11-27T17:05:32+08:00",
  "first_reported_at": "2026-11-26T19:55:50+08:00",
- "updated_at": "2026-11-27T17:05:32+08:00",
- "version": 1,
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -37,7 +37,8 @@
    "NielsenIQ",
    "Screen Engine/ASI",
    "Stream Charts",
-   "Sony"
+   "Sony",
+   "Alinea Analytics"
   ],
   "person": [
    "Dorian Bloch"
@@ -55,7 +56,8 @@
    "GTA 6",
    "零售",
    "直播",
-   "線上服務型遊戲"
+   "線上服務型遊戲",
+   "銷量"
   ],
   "form": [
    "新聞"
@@ -100,13 +102,59 @@
    "kind": "media",
    "region": "北美",
    "rank": 3
+  },
+  {
+   "name": "GamesBeat",
+   "title": "GTA VI has sold 53M copies after a week | Alinea Analytics",
+   "url": "https://gamesbeat.com/gta-vi-has-sold-53m-copies-after-a-week-alinea-analytics/",
+   "time": "2026-11-28T02:24:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "GamesBeat",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "GamesIndustry.biz",
+   "title": "One week on, here's the impact GTA 6's launch had on the industry so far",
+   "url": "https://www.gamesindustry.biz/one-week-on-heres-the-impact-gta-6s-launch-had-on-the-industry-so-far",
+   "time": "2026-11-28T00:38:10+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "GamesIndustry.biz",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  },
+  {
+   "name": "PocketGamer.biz",
+   "title": "The true value of the mobile games market, GTA 6's wider industry impact and Moonton's European ambitions | Week in Views",
+   "url": "https://www.pocketgamer.biz/the-true-value-of-the-mobile-games-market-gta-6s-wider-industry-impact-and-moontons-european-ambitions-week-in-views/",
+   "time": "2026-11-28T00:20:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "PocketGamer.biz",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-28T08:50:07+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "分析機構 Alinea Analytics 估計，GTA 6 上市一週全球賣出 5,300 萬套，其中 75.7% 在 PS5，營收約 47 億美元（因各地售價不同，PS5 占 76.1%）；已有 700 萬名玩家玩超過 50 小時、逾 25 萬人超過 100 小時，美國占 PS5 版銷量 33.5%。Take-Two 尚未公布官方首週數字。GamesIndustry.biz 引述 Sensor Tower 數據，上市週 Call of Duty 與 Fortnite 在主機與 Steam 的每日活躍用戶分別下滑 46% 與 25%。",
+   "update": "Alinea Analytics 估 GTA 6 首週全球賣出 5,300 萬套、營收約 47 億美元，Call of Duty 日活躍用戶同期下滑 46%",
+   "refocus": true,
+   "old_title": "GTA 6 上市三天帶動英國遊戲零售營收週增 99% 至 1.42 億英鎊，直播首週觀看 4.2 億小時"
+  }
+ ],
  "heat": {
-  "outlets": 2,
+  "outlets": 3,
   "regions": 2,
-  "media_weight": 2,
+  "media_weight": 3,
   "community": {
    "hn": 0,
    "ptt": 0,

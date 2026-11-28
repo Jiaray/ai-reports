@@ -1,0 +1,166 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0615",
+ "title": "AI 股反彈帶動美股全面收紅，標普創 2025 年 4 月來最佳單週、費半漲 4.69%",
+ "line": "三大指數創 2008 年以來最佳感恩節週表現，但仍可能交出 2008 年以來最差 11 月",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T20:46:45+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "歐洲"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "金融市場",
+   "AI"
+  ],
+  "event": [
+   "市場波動"
+  ],
+  "sector": [
+   "半導體",
+   "軟體與雲端"
+  ],
+  "org": [
+   "美光",
+   "Sandisk",
+   "Anthropic",
+   "台積電",
+   "聯準會"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "費城半導體指數",
+   "AI 股",
+   "標普 500"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美股 11 月 27 日（感恩節隔天提早收盤）由 AI 股帶領全面收高：道瓊漲 591.99 點、1.18%，收 50,774.94 點；那斯達克漲 2.31%，收 24,129.50 點；標普 500 漲 1.60%，收 7,297.49 點；費城半導體指數漲 4.69%，收 9,186.71 點。美光、邁威爾分別漲 7.6%、7.3%，Sandisk 飆近 16%，Coherent 漲逾 14%，Lumentum、戴爾漲 8%、6.7%；台積電 ADR 漲 3.21%。Anthropic 漲 10.98% 收 91.88 美元，重回 83 美元 IPO 價之上，市值約 1.7 兆美元。本週道瓊、標普、那指分別漲 5.46%、5.6%、6.68%，標普創 2025 年 4 月來最佳單週、道瓊創 2022 年來最大單週漲點，三大指數也是 2008 年以來最佳感恩節週。鉅亨網指出，這波反彈仍不足以收復 11 月跌幅，標普與那指恐交出 2008 年以來最差 11 月；交易員幾乎完全押注聯準會 12 月升息，市場也擔心民主黨贏得期中選舉後 AI 監管趨嚴。歐股同日也在科技股帶動下收紅。",
+ "dive_html": "單週反彈主要是 AI 與晶片股跌深後的回補，背後的疑慮（AI 支出回報、監管、升息）都還在，鉅亨網也指下週的非農就業報告是 12 月利率會議前的關鍵數據。台積電 ADR 與費半同步走強，台股下週開盤有望受惠，但外資賣超與選後政治變數仍是台股自己的變數。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "道瓊 50,774.94 點（+1.18%）；那指 24,129.50 點（+2.31%）；標普 7,297.49 點（+1.60%）；費半 9,186.71 點（+4.69%）；本週標普 +5.6%、那指 +6.68%"
+  }
+ ],
+ "sources": [
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Stocks jump to close out an erratic week that was also Wall Street’s best in more than a year",
+   "url": "https://news.google.com/rss/articles/CBMioAFBVV95cUxNV3hvSHlmM1QwQVMyanhDWEpTak5ZZkVwd2RBck9ObnBheXJoYWQxcUxMYXJqb2VhdWRiUVM2ZlNrSmNTYlZVZ1JmYXlRZ0lvclBleFJzRGZjUktHREZkY1JjOS15OVdGdmN5SVRmZUN2T1RVNTR2bnJwWjhfQnR5S015XzZtNmpNd19xbHFUbExjQk1OUTdPRDFxcUotZEZn?oc=5",
+   "time": "2026-11-27T20:46:45+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Anue 鉅亨網",
+   "title": "〈美股盤後〉AI強勢回血！標普創2025年4月來最佳單周 Sandisk飆16% Anthropic重返IPO價",
+   "url": "https://news.cnyes.com/news/id/6674256",
+   "time": "2026-11-28T04:20:02+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "AI股帶領科技股跌深勁彈　美股收紅",
+   "url": "https://www.cna.com.tw/news/afe/202611280006.aspx",
+   "time": "2026-11-28T04:02:43+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "科技股續漲帶動　歐股收紅結束震盪一週",
+   "url": "https://www.cna.com.tw/news/afe/202611280003.aspx",
+   "time": "2026-11-28T01:33:34+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "美股早盤走高　那指漲逾1.5%",
+   "url": "https://www.cna.com.tw/news/afe/202611270287.aspx",
+   "time": "2026-11-27T23:19:21+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "France 24",
+   "title": "Asia and Europe stocks rally after volatile week",
+   "url": "https://www.france24.com/en/video/20261127-asia-and-europe-stocks-rally-after-volatile-week",
+   "time": "2026-11-28T00:43:55+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Financial Times",
+   "title": "US tech stocks rise in latest market swing",
+   "url": "https://www.ft.com/content/b80e6259-dca8-4da3-962d-402106a3cd81?syn-25a6b1a6=1",
+   "time": "2026-11-28T04:08:09+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 5,
+  "regions": 3,
+  "media_weight": 12,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

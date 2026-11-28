@@ -1,0 +1,93 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0598",
+ "title": "SOCRadar 揭疑越南官方背景駭客 WeaveLotus 鎖定東南亞軍政機關，蒐集南海國防情資",
+ "line": "已知至少 5 起入侵發生在泰國，目標是軍事、政府與立法機關",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-28T00:36:11+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東南亞"
+  ],
+  "country": [
+   "VN",
+   "TH"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "國際關係"
+  ],
+  "event": [
+   "資安事件",
+   "調查揭露"
+  ],
+  "org": [
+   "SOCRadar",
+   "WeaveLotus"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "WeaveLotus",
+   "APT",
+   "南海",
+   "網路間諜"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "資安業者 SOCRadar 揭露一個過去未被記錄的入侵行動，命名為 WeaveLotus，歸因於越南官方支持的駭客組織。攻擊對象是東南亞的軍事、政府與立法機關，目的是蒐集南海防務與軍事協議相關情資，評估共有五起入侵發生在泰國。The Hacker News 的報導沒有說明初始入侵方式、使用的惡意程式、利用的漏洞或完整攻擊鏈，也沒有其他受害國家、受害機關名稱或外洩資料量，入侵是否仍在持續也未交代。",
+ "dive_html": "越南背景的 APT 過去多針對異議人士與外國企業，這次鎖定鄰國軍政機關蒐集南海情資，顯示南海聲索國之間的情報戰也在網路上進行，不只中國單方面。台灣同樣是南海聲索方，政府與國防供應鏈應把這類區域性 APT 納入威脅情資；技術細節公開前，防守方能做的仍是基本的入口盤點與異常外傳監控。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "東南亞軍事、政府與立法機關，已知 5 起入侵在泰國；受害規模原文未提供"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供（ICSDA 建議政府與國防單位強化電子郵件過濾、多因素驗證與日誌監控，並演練社交工程）"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Hacker News",
+   "title": "Suspected Vietnam-Linked Hackers Target Southeast Asia in South China Sea Espionage Campaign",
+   "url": "https://thehackernews.com/2026/11/suspected-vietnam-linked-hackers-target.html",
+   "time": "2026-11-28T00:36:11+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "The Hacker News",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

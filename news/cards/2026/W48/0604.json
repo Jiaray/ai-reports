@@ -1,0 +1,97 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0604",
+ "title": "黑色星期五前，Samsonite、Revolve 等 5 家購物網站被植入以 WebRTC 外傳的盜刷側錄腳本",
+ "line": "腳本在付款前就送出卡號與安全碼，訂單被拒也照樣外洩；網站接獲通報後已在 11 月 24、25 日移除",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T23:40:31+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "歐洲"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件",
+   "調查揭露"
+  ],
+  "sector": [
+   "零售與消費"
+  ],
+  "org": [
+   "Lascana",
+   "Samsonite",
+   "American Tourister",
+   "Revolve",
+   "FWRD",
+   "Quorum"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "Magecart",
+   "WebRTC",
+   "網頁側錄",
+   "供應鏈攻擊"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "資安業者 Infohawk 11 月 27 日揭露，黑色星期五前一週，Lascana、Samsonite、American Tourister、Revolve、FWRD 五家購物網站被植入信用卡側錄腳本。Infohawk 在 Lascana 實測時看到腳本把測試卡資料送給第三方，研判腳本會擷取卡號、到期日、安全碼與姓名、地址、電話、電子郵件，並在商店驗證付款之前就送出，即使訂單遭拒或取消，卡片資料也已外流，購物者看不出異狀。植入途徑各不相同：Lascana 是行銷像素業者 Quorum 的程式被竄改，Samsonite 與 American Tourister 是 Cookie 橫幅服務 Seers 的設定被修改，Revolve 與 FWRD 則是 Revolve 自家 CDN 上的檔案被改。Infohawk 11 月 24 日通知各方，五個網站都在 11 月 24 或 25 日移除腳本，但無法得知有多少購物者資料被擷取。這篇報告在 Hacker News 獲約 404 分。",
+ "dive_html": "這波攻擊的重點在外傳管道改用 WebRTC，可能繞過只靠 Content-Security-Policy 的 connect-src 限制外連的防線，而植入點落在行銷像素、Cookie 橫幅這類第三方腳本，正是網站最少盤點的地方。有線上收款的團隊（含遊戲儲值頁）應檢查結帳頁載入了哪些第三方腳本、是否有子資源完整性檢查與變更監控。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "5 家購物網站的結帳頁；被竊卡數原文未提供"
+  },
+  {
+   "name": "處置",
+   "html": "各網站已於 11 月 24、25 日移除腳本；其他緩解措施原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "Credit card skimming scripts using WebRTC found on popular shopping sites",
+   "url": "https://www.infohawk.com/news/2026-11-27-black-friday-webrtc-skimmer",
+   "time": "2026-11-27T23:40:31+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "404 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50668145",
+   "family": "infohawk.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 404,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

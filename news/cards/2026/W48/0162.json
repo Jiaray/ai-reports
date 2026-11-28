@@ -67,13 +67,25 @@
    "kind": "media",
    "region": "港澳",
    "rank": 3
+  },
+  {
+   "name": "Casino.org News",
+   "title": "Melco Resorts Credit Outlook Downgraded by S&P, Dividend Unlikely in 2027",
+   "url": "https://www.casino.org/news/melco-resorts-credit-outlook-downgraded-by-sp-dividend-unlikely-in-2027/",
+   "time": "2026-11-28T03:20:22+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "0 comments",
+   "family": "Casino.org",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 1,
-  "regions": 1,
-  "media_weight": 1,
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
   "community": {
    "hn": 0,
    "ptt": 0,

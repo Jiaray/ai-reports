@@ -1,0 +1,94 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0602",
+ "title": "SecurityWeek 週報：美國農業部付款系統遭入侵、RansomwareHelp 遭指控從贖金抽成、Radware 傳遭駭",
+ "line": "同期還有油輪遭網路攻擊、歐盟擬推量子法案、VirusTotal 新增功能",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-28T06:15:40+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "歐洲"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "org": [
+   "SecurityWeek",
+   "美國農業部",
+   "RansomwareHelp",
+   "Radware",
+   "VirusTotal",
+   "歐盟"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "量子法案",
+   "後量子密碼",
+   "勒索軟體"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "SecurityWeek 彙整近期較容易被忽略的資安消息：勒索軟體協助業者 RansomwareHelp 遭指控從贖金支付中牟利；美國農業部（USDA）付款系統遭入侵；資安廠商 Radware 傳出遭駭；油輪遭網路攻擊；歐盟擬推動量子法案；VirusTotal 新增多項功能。ICSDA 的整理只有這份清單，各則的細節（受害規模、入侵方式、法案內容）原文沒有交代。",
+ "dive_html": "清單裡最值得追的是兩件：RansomwareHelp 的指控若屬實，代表「協助受害者談判」的業者可能與犯罪集團利益相連，與本週美國起訴佛州「資料復原」業者的案件屬同一類問題；Radware 本週已傳出雲端 WAF 管理 API 外露，再傳遭駭，使用其服務的企業應主動向廠商確認影響範圍。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "ICSDA 標為中危、建議排程處理；各事件規模原文未提供"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供（ICSDA 建議落實多因素驗證與網路分段、盤點供應商風險、離線備份，避免透過不明業者支付贖金，並規劃後量子加密遷移）"
+  }
+ ],
+ "sources": [
+  {
+   "name": "ICSDA 資安日報",
+   "title": "資安週報：油輪遭攻擊、歐盟量子法案",
+   "url": "https://www.securityweek.com/in-other-news-tanker-cyberattacks-eu-quantum-act-new-virustotal-capabilities/",
+   "time": "2026-11-28T06:15:40+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "SecurityWeek",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

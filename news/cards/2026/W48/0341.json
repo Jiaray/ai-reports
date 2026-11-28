@@ -135,13 +135,25 @@
    "kind": "media",
    "region": null,
    "rank": 9
+  },
+  {
+   "name": "Help Net Security",
+   "title": "FIFA hacked, cybercriminals claim access to sensitive internal records",
+   "url": "https://www.helpnetsecurity.com/2026/11/27/fifa-cyberattack-data-leak/",
+   "time": "2026-11-27T21:21:50+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Help Net Security",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 6,
+  "outlets": 7,
   "regions": 2,
-  "media_weight": 9,
+  "media_weight": 10,
   "community": {
    "hn": 0,
    "ptt": 0,

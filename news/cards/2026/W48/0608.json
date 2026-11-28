@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0608",
+ "title": "Cool Japan 基金累計虧損 540 億日圓，日本 2027 年度將嚴審動畫、遊戲補助並考慮廢除基金",
+ "line": "財務省擬停止補助個別企業、改支援海外拓展的共用基礎建設，相關預算申請暴增",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-28T08:35:00+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞"
+  ],
+  "country": [
+   "JP"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "遊戲",
+   "文化藝術",
+   "總體經濟"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "遊戲",
+   "媒體與娛樂"
+  ],
+  "org": [
+   "Cool Japan 基金",
+   "日本財務省",
+   "電通集團"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Cool Japan",
+   "內容產業補助",
+   "動畫",
+   "遊戲"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "日本政府編列 2027 年度預算時，將收緊對動畫、遊戲等內容產業的財政支援，起因是由政府與電通集團等大企業出資、安倍晉三任內設立的官民基金 Cool Japan 基金，累計虧損擴大到 540 億日圓，主要來自所投資的國內新創表現不佳。政府正討論合併或廢除這個基金，也考慮停止補助個別企業，改把資源放在協助海外拓展的共用基礎建設。審查預算申請的財務省官員說：「過去的經驗顯示，政府辨識有潛力投資標的的能力有限。」財務省也希望消除各部會內容產業預算申請的重疊，相關申請金額已膨脹到 1,652 億日圓與 667 億日圓，規劃項目包括 AI 漫畫平台與擴大海外銷售網路。",
+ "dive_html": "日本把內容產業定為出口支柱，但官方基金挑選投資標的的成效不佳，這次轉向「補基礎建設、不補個別公司」，對依賴政府補助出海的中小型動畫、遊戲公司是不利訊號。台灣文策院等機構也有類似的投資與補助機制，Cool Japan 的虧損與檢討可作為政策參照。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Straits Times Asia",
+   "title": "Japan to scrutinise anime, game funding as budget requests surge",
+   "url": "https://www.straitstimes.com/asia/east-asia/japan-to-scrutinise-anime-game-funding-as-budget-requests-surge",
+   "time": "2026-11-28T08:35:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

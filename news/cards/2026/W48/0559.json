@@ -68,13 +68,25 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 2
+  },
+  {
+   "name": "Dawn",
+   "title": "Indian police say they rescued 164 foreigners trafficked for cyber fraud",
+   "url": "https://www.dawn.com/news/2047493/indian-police-say-they-rescued-164-foreigners-trafficked-for-cyber-fraud",
+   "time": "2026-11-27T21:46:51+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 1,
-  "regions": 1,
-  "media_weight": 2,
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 3,
   "community": {
    "hn": 0,
    "ptt": 0,

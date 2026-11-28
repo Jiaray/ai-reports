@@ -1,0 +1,99 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0616",
+ "title": "德國國會通過 2027 年預算，舉債約 2,104 億歐元為疫情後最高，國防支出近 1,400 億歐元",
+ "line": "核心預算約 5,560 億歐元、年增約 6%，稅收預估低於政府原先預測",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-28T00:15:51+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "country": [
+   "DE"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "總體經濟",
+   "國防與軍事"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "org": [
+   "德國聯邦議院",
+   "基督教民主聯盟",
+   "社會民主黨"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "德國預算",
+   "特別基金",
+   "舉債"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "德國聯邦議院 11 月 27 日以 317 票贊成、260 票反對，通過 2027 年聯邦預算，由執政的基民盟、基社盟與社民黨聯盟支持。核心預算支出約 5,560 億歐元，比前一年增加 314 億歐元、約 6%；預估稅收 3,913 億歐元，低於政府原先預測。2027 年計畫新增舉債約 2,104 億歐元，是聯邦共和國史上第二高，僅次於疫情期間 2021 年的 2,154 億歐元，其中核心預算 1,230 億歐元、基礎建設與氣候中和特別基金 578 億歐元、聯邦國防軍特別基金 296 億歐元。Euronews 說明，特別基金不是累積的儲備，而是讓政府在核心預算之外以舉債支應額外支出的機制；國防支出升到近 1,400 億歐元，占整體支出增幅的一大部分。同時提出的年金改革方案則規劃延長工作年限、提高提撥並加重提早退休的扣減。",
+ "dive_html": "德國放棄長年的財政紀律、以特別基金大舉借錢擴軍與投資基礎建設，是歐洲最大經濟體的政策轉向，對歐洲軍工與營建需求是支撐。不過稅收不如預期、年金改革又要求民眾多繳多做，執政聯盟在社會福利與國防之間的取捨可能成為下一個政治爭點。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "支出約 5,560 億歐元（+314 億、約 6%）；稅收 3,913 億歐元；舉債約 2,104 億歐元；國防近 1,400 億歐元"
+  }
+ ],
+ "sources": [
+  {
+   "name": "DW News",
+   "title": "Germany news: Lawmakers approve debt-laden 2027 budget",
+   "url": "https://www.dw.com/en/germany-news-lawmakers-approve-debt-laden-2027-budget/live-80071074?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-28T03:18:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Euronews",
+   "title": "German Bundestag approves record 2027 budget as borrowing hits €210bn",
+   "url": "https://www.euronews.com/2026/11/27/german-bundestag-approves-record-2027-budget-as-borrowing-hits-210bn",
+   "time": "2026-11-28T00:15:51+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Euronews",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 1,
+  "media_weight": 4,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

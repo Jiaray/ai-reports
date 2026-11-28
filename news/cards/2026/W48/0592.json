@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0592",
+ "title": "作者修正訴狀指控 Nvidia 以 BitTorrent 做種散布盜版書，並透過 2.5 億頁 PDF 專案分享給 Adobe",
+ "line": "作者稱從 Nvidia 交出的下載程式碼看出它沒關閉上傳功能，自己的書也在下載清單中",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-28T00:00:00+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "AI",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "sector": [
+   "半導體",
+   "軟體與雲端"
+  ],
+  "org": [
+   "Nvidia",
+   "Adobe",
+   "Anna's Archive",
+   "LibGen"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "著作權",
+   "訓練資料",
+   "BitTorrent",
+   "NeMo"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "據 TorrentFreak 報導，數名書籍作者向法院提出修正訴狀，指控 Nvidia 從 Anna&#x27;s Archive、LibGen 等影子圖書館下載盜版書時，用 BitTorrent 客戶端在下載過程中把檔案片段上傳給第三方，下載完成後也持續「做種」。作者說，他們在 6 月 Nvidia 交出下載用的程式碼後，判斷 Nvidia 雖採取部分限制，但沒有完全關閉上傳；作者自己的書在下載清單中，但「也被上傳給他人」的部分是依「資訊與信念」提出，並非直接掌握。訴狀還指控 Nvidia 透過一個涉及 2.5 億頁的「PDF 擷取專案」把盜版書分享給 Adobe 等合作夥伴，目的是「從 PDF 取得 token 打造差異化模型」並把 PDF 擷取納入 NeMo 流程；作為交換，Adobe 承諾在部分產品中使用 Nvidia 的語言模型。",
+ "dive_html": "若「做種」指控成立，案件就從「訓練是否屬合理使用」延伸到主動散布盜版，對 Nvidia 的法律風險明顯不同；把資料分享給 Adobe 的指控則可能把合作夥伴也拖進訴訟。不過上傳部分是作者的推論、沒有直接證據，下一步要看法院是否接受修正訴狀，以及證據開示能否證實實際上傳量。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Slashdot",
+   "title": "Nvidia Seeded Pirated Books and Shared Them With Adobe, Authors Allege",
+   "url": "https://yro.slashdot.org/story/26/11/26/0449255/nvidia-seeded-pirated-books-and-shared-them-with-adobe-authors-allege",
+   "time": "2026-11-28T00:00:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "42 comments",
+   "family": "Slashdot",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

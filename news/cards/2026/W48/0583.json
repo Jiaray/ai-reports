@@ -1,0 +1,162 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0583",
+ "title": "九合一選舉今天投票，1,965 萬選民選出 11,051 名地方公職，同步就重啟核電公投",
+ "line": "投票時間上午 8 時到下午 4 時，公投第 22 案問是否支持用核電振興經濟、廢除非核家園",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T18:45:00+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "台灣"
+  ],
+  "country": [
+   "TW"
+  ],
+  "taiwan": [
+   "直接"
+  ],
+  "topic": [
+   "選舉",
+   "能源"
+  ],
+  "event": [
+   "選舉投票"
+  ],
+  "story": [
+   "2026九合一選舉"
+  ],
+  "sector": [
+   "能源與公用事業"
+  ],
+  "org": [
+   "中央選舉委員會",
+   "民主進步黨",
+   "中國國民黨",
+   "台灣民眾黨"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "高"
+  ],
+  "keyword": [
+   "九合一選舉",
+   "公投第 22 案",
+   "核電",
+   "非核家園"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "台灣 11 月 28 日舉行九合一地方選舉與全國性公民投票。依中選會數字，這次選出 11,051 名地方公職，包括直轄市長與議員、直轄市山地原住民區區長與區民代表、縣市長與議員、鄉鎮市長與代表、村里長；全台設 1.8 萬餘處投票所，上午 8 時開放、下午 4 時截止，選民約 1,965 萬人，其中首投族約 60 萬人。選民同時就公投第 22 案投票，主文是「你是否支持政府使用『核電』振興經濟，以廢除『非核家園』的能源政策？」Al Jazeera 指出，這是台灣最後一座運轉中反應爐停機 18 個月後、八年內第四次核電公投，背景是 AI 產業帶動用電需求上升。22 個縣市首長中以六都最受矚目，外媒普遍把這次選舉視為 2028 年總統大選前哨戰，觀察執政民進黨與在野國民黨、民眾黨的勢力消長，以及北京的關注。",
+ "dive_html": "地方選舉結果將直接影響賴清德政府後半任期的施政空間，若民進黨在雙北等關鍵城市失利，2028 年布局與兩岸政策的國內支持都會受考驗。核電公投須同意票達 500 萬 959 票且多於不同意票才通過，即使通過也只是政策方向，能否重啟仍涉及核安審查與核廢料等現實問題；開票結果今晚揭曉。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "BBC 中文",
+   "title": "台灣「九合一」選舉開始投票 核電政策公投同步舉行",
+   "url": "https://www.bbc.com/zhongwen/live/c60evlqlpx32t/trad",
+   "time": "2026-11-28T08:00:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC 中文",
+   "title": "台灣「九合一」選舉：六都市長候選人簡介",
+   "url": "https://www.bbc.com/zhongwen/articles/cwlymzm5mnxyo/trad",
+   "time": "2026-11-28T00:04:01+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Will Taiwan vote to revive nuclear power – and why does that matter for AI?",
+   "url": "https://www.aljazeera.com/news/2026/11/27/will-taiwan-vote-to-revive-nuclear-power-and-why-does-that-matter-for-ai",
+   "time": "2026-11-28T07:09:04+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "Nikkei Asia",
+   "title": "Taiwan votes for thousands of officials with all eyes on Taipei mayor races",
+   "url": "https://asia.nikkei.com/politics/taiwan-votes-for-thousands-of-officials-with-all-eyes-on-taipei-mayor-races",
+   "time": null,
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Nikkei Asia",
+   "title": "Taiwan elections: 5 things to know about city races eyed by China and US",
+   "url": "https://asia.nikkei.com/politics/taiwan-elections-5-things-to-know-about-city-races-eyed-by-china-and-us",
+   "time": null,
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Taiwan votes in key local elections as China looks on",
+   "url": "https://www.straitstimes.com/asia/taiwan-votes-in-key-local-elections-as-china-looks-on",
+   "time": "2026-11-28T08:02:06+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  },
+  {
+   "name": "Straits Times Asia",
+   "title": "Taiwan’s 2026 local elections could be a game-changer for its politics, say analysts",
+   "url": "https://www.straitstimes.com/asia/east-asia/taiwans-2026-local-elections-could-be-a-game-changer-for-its-politics-say-analysts",
+   "time": "2026-11-27T18:45:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Straits Times",
+   "kind": "media",
+   "region": "東南亞",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 4,
+  "regions": 4,
+  "media_weight": 8,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -107,13 +107,25 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "EXCLUSIVE: Russian military flotilla bound for Libya turns around after warship sunk on November 22, sources say",
+   "url": "https://news.google.com/rss/articles/CBMiwwFBVV95cUxOYmlHdGhKd3RFRUNYajhTdlVqdUdrckt5RmtIZEltNjE0OTVPMDhaSS1DTFlGQTU5Z19LRFpLRmpXdVJkcVpRY19iLU40eXpEWUhYdDNjMXhfRkJqckxleW8tY25rOVJFTzlGeGVaUTlwb1M1NVBXSzQwSG9hX2VQR1JiMVhXYk1mdG01ei1nR1ZmOFY5RWpnejVHRkJSa2RVTHRLeURHS3hCSHJMcGluWG1fQWNjS19wTy1RejVTWE5BMW8?oc=5",
+   "time": "2026-11-28T06:55:47+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 2,
+  "outlets": 3,
   "regions": 2,
-  "media_weight": 5,
+  "media_weight": 8,
   "community": {
    "hn": 0,
    "ptt": 0,

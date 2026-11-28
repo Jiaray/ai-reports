@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0603",
+ "title": "歷史學者稱 GPT-6.2 Astra 自主研究、找出耶魯館藏 1808 年匿名素描本的作者",
+ "line": "Mark Humphries 在模型發布前試用，稱它能自行讀史料、提出假設並論證",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T23:03:17+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "文化藝術"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "OpenAI",
+   "耶魯大學"
+  ],
+  "person": [
+   "Mark Humphries"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "GPT-6.2 Astra",
+   "AI 研究代理",
+   "史學研究"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "歷史學者 Mark Humphries 在部落格表示，他在 OpenAI 新模型 GPT-6.2 Astra 發布前取得試用，模型只靠極少提示，就自主找出耶魯大學館藏一本 1808 年匿名素描本的作者。他說模型必須自己讀史料、在證據有限的情況下形成假設並提出論證，且他認為人類不太可能重現這個過程。文中把這件事放在近幾個月 AI 數學進展的脈絡下：作者提到 Navier-Stokes 問題 9 月被解決、Anthropic 研究員宣稱證明黎曼猜想，並主張這類研究能力正從答案可驗證的數學延伸到史學這種非確定性的領域。這篇文章在 Hacker News 獲約 166 分。",
+ "dive_html": "這是作者單方面的試用心得，素描本的作者歸屬是否成立，還需要專業史學界與館方檢驗；史學結論不像數學證明能機器驗證，「人類難以重現」反而讓查核更困難。若案例站得住，顯示研究型代理開始能處理證據零散的人文問題，對檔案館與數位人文研究的工作流程影響可能比對一般使用者更直接。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "GPT 6.2 Astra solves a historical mystery",
+   "url": "https://generativehistory.substack.com/p/gpt-62-astra-solves-a-historical",
+   "time": "2026-11-27T23:03:17+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "166 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50667744",
+   "family": "generativehistory.substack.com",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 166,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

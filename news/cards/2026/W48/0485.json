@@ -128,6 +128,30 @@
    "kind": "media",
    "region": "台灣",
    "rank": 2
+  },
+  {
+   "name": "經濟日報",
+   "title": "集邦：DRAM 合約價漲勢將收斂",
+   "url": "https://money.udn.com/money/story/5612/9906803",
+   "time": "2026-11-28T02:35:46+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "經濟日報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
+  },
+  {
+   "name": "PTT Stock",
+   "title": "[新聞] DRAM價格漲勢恐提前反轉！TrendForce示",
+   "url": "https://www.ptt.cc/bbs/Stock/M.1795822960.A.F78.html",
+   "time": null,
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "25",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
   }
  ],
  "log": [],
@@ -137,7 +161,7 @@
   "media_weight": 3,
   "community": {
    "hn": 0,
-   "ptt": 0,
+   "ptt": 25,
    "v2ex": 0
   }
  }

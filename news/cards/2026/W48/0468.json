@@ -5,8 +5,8 @@
  "line": "任一締約方遭攻擊視同全體遭攻擊，三國在伊斯蘭馬巴德開會討論葉門衝突",
  "born_at": "2026-11-27T17:05:32+08:00",
  "first_reported_at": "2026-11-27T13:22:00+08:00",
- "updated_at": "2026-11-27T17:05:32+08:00",
- "version": 1,
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -39,7 +39,8 @@
    "青年運動"
   ],
   "person": [
-   "艾爾段"
+   "艾爾段",
+   "達爾"
   ],
   "weight": [
    "高"
@@ -146,9 +147,42 @@
    "kind": "media",
    "region": "南亞",
    "rank": 3
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Mecca pact allies condemn ‘heinous’ Houthi attacks on Saudi Arabia",
+   "url": "https://www.aljazeera.com/news/2026/11/27/mecca-pact-allies-condemn-heinous-houthi-attacks-on-saudi-arabia",
+   "time": "2026-11-28T01:41:24+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "Dawn",
+   "title": "Makkah pact nations review regional security, condemn Houthi attacks on Saudi Arabia",
+   "url": "https://www.dawn.com/news/2047415/makkah-pact-nations-review-regional-security-condemn-houthi-attacks-on-saudi-arabia",
+   "time": "2026-11-28T02:28:04+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-28T08:50:07+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "麥加防禦協議三國的戰略政治與國防委員會 11 月 27 日在伊斯蘭馬巴德開會約兩個半小時，三國外長、國防部長與軍方高層出席。巴基斯坦副總理兼外長達爾會後表示，會議檢視區域安全情勢，三方重申「強烈譴責胡塞民兵持續且令人髮指地攻擊沙烏地境內的平民與民用設施」，巴基斯坦與土耳其再次承諾支持沙烏地維護安全與主權。協議於 8 月 7 日簽署。",
+   "update": "麥加防禦協議三國在伊斯蘭馬巴德開會譴責胡塞攻擊沙烏地，巴基斯坦與土耳其承諾支持沙國安全",
+   "refocus": false
+  }
+ ],
  "heat": {
   "outlets": 5,
   "regions": 5,

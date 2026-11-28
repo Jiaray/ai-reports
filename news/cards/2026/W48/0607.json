@@ -1,0 +1,89 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0607",
+ "title": "Fortnite 創作工具 UEFN 43.00 實驗性支援高斯潑濺，可把手機拍攝的真實場景掃描進遊戲",
+ "line": "目前還不能發布或營利含潑濺素材的島嶼，創作者對實用性仍有疑慮",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T21:00:00+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "遊戲",
+   "開發與開源"
+  ],
+  "event": [
+   "版本更新"
+  ],
+  "sector": [
+   "遊戲"
+  ],
+  "org": [
+   "Epic Games"
+  ],
+  "person": [
+   "Ryan Mayeda",
+   "Michael Rubloff"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "UEFN",
+   "Gaussian splatting",
+   "高斯潑濺",
+   "Niagara",
+   "攝影測量"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Epic Games 本月釋出的 Unreal Editor for Fortnite（UEFN）43.00 版，實驗性支援高斯潑濺（Gaussian splats）：這種三維攝影測量技術可用手機拍的二維照片重建擬真的三維空間與物件。創作者可上傳 PLY 或 SPZ 格式的潑濺素材，透過內容瀏覽器直接放進島嶼，也能用視覺特效工具 Niagara 編輯與製作動畫。高斯潑濺 2024 年起已在完整版 Unreal Engine 提供，但在 UEFN 仍屬實驗功能，目前無法發布或營利含潑濺檔案的島嶼。Epic 首席技術產品經理 Ryan Mayeda 表示，擬真的潑濺素材能和多種視覺風格並存、增加島嶼的深度與真實感，但沒有透露正式推出的時程與檔案大小上限。GamesBeat 指出，創作者對這項工具的實用性還沒被說服。",
+ "dive_html": "把高斯潑濺開放給 UEFN 這種大眾創作平台，代表擬真實景素材的製作門檻將降到「用手機拍」，對 UGC 內容的視覺水準可能是一大躍進。但潑濺檔案大、與遊戲光照和碰撞的整合仍是難點，Epic 不談檔案上限與發布時程，顯示效能與平台負載還沒解決；在能發布營利之前，創作者投入的意願有限。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GamesBeat",
+   "title": "Fortnite’s latest creator tool could bring real-world environments into the game",
+   "url": "https://gamesbeat.com/fortnites-latest-creator-tool-could-bring-real-world-environments-into-the-game/",
+   "time": "2026-11-27T21:00:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "GamesBeat",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

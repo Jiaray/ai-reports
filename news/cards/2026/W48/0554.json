@@ -110,13 +110,25 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 1
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Zelenskyy urges US to pressure Putin and questions Trump’s reference to Putin as a ‘friend’",
+   "url": "https://news.google.com/rss/articles/CBMiogFBVV95cUxOZHZncjd6TjJOQy1tZVlWUVowZ0hBY2NWMjN2d1k3WXdzUlB4VUdlbl9kMDdLTnZ2bzY5eGlZUGFNSEQxYVNCaVNRYWlBTkZneUxoZm5ub1Q2MVd3QjFza1BJWWhiWEQ2Tk1aUE1jVlByV0h6NldmUC1NOUQ5WW5ka3pqdUFwaXI1SEd4VzNzUGNoZ2c5WG5Yd3dFeWpyY0taN3c?oc=5",
+   "time": "2026-11-28T03:33:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 4,
-  "regions": 2,
-  "media_weight": 8,
+  "outlets": 5,
+  "regions": 3,
+  "media_weight": 11,
   "community": {
    "hn": 0,
    "ptt": 0,

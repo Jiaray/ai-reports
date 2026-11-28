@@ -1,0 +1,85 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0613",
+ "title": "加密貨幣賭場 BC.Game 洗牌演算法偏差六年，下架視訊撲克與單人百家樂、賠償玩家 192 萬美元",
+ "line": "ProvablyFair.org 模擬 6 億手牌發現實際回報率約 96.4%，莊家優勢比宣稱高 80%",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T22:12:25+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "全球"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "sector": [
+   "博奕",
+   "加密資產"
+  ],
+  "org": [
+   "BC.Game",
+   "ProvablyFair.org"
+  ],
+  "person": [
+   "Ako"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Provably Fair",
+   "RTP",
+   "洗牌演算法",
+   "視訊撲克"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "加密貨幣賭場 BC.Game 已發放 192 萬美元免流水的玩家補償，並下架自製的視訊撲克與單人百家樂，起因是 ProvablyFair.org 研究人員發現兩款遊戲的洗牌存在偏差，持續約六年。研究人員模擬 6 億手視訊撲克，算出在最佳策略下遊戲回報約 96.4%，而非宣稱的 98%，等於莊家優勢從 2% 升到 3.6%、增加 80%。研究人員實測的 62 手即時牌局都通過 BC.Game 的「可驗證公平」檢查，但底層洗牌在數學上有偏差：演算法沒有充分打亂牌組，使某些牌更常一起出現，同花大順、同花順出現的機率則偏低。BC.Game 執行長 Ako 11 月 19 日承認結果，說 2018 年的原始洗牌演算法原本對玩家有利，2020 年調整起始牌序時無意間造成偏向莊家；研究人員沒發現蓄意的證據。",
+ "dive_html": "這個案例點出「可驗證公平」的盲點：密碼學只能證明結果下注後沒被竄改，不能證明遊戲本身賠率公平，62 手全數通過驗證就是例子。對開發或審核遊戲的團隊，洗牌與亂數要用大量模擬驗證實際 RTP，而不只是驗證流程；也顯示加密貨幣賭場缺乏第三方檢測機構把關，問題靠外部研究者才被發現。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Casino.org News",
+   "title": "BC.Game Compensates Players $1.92M After Card-Shuffling Bias Detected",
+   "url": "https://www.casino.org/news/bc-game-compensates-players-1-92m-after-card-shuffling-bias-detected/",
+   "time": "2026-11-27T22:12:25+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "0 comments",
+   "family": "Casino.org",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

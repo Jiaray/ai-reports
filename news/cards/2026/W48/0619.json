@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0619",
+ "title": "（播客）Latent Space 訪 G2i 創辦人 Gabe Greenberg：前沿實驗室如何採購 AI 訓練資料",
+ "line": "談獨家與共享資料的價差、任務與驗證器怎麼設計，以及何時該自建資料團隊",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-28T06:19:18+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "企業經營"
+  ],
+  "event": [
+   "聲明評論"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "G2i",
+   "Latent Space"
+  ],
+  "person": [
+   "Gabe Greenberg",
+   "swyx"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "訓練資料",
+   "強化學習環境",
+   "驗證器"
+  ],
+  "form": [
+   "播客"
+  ]
+ },
+ "summary_html": "Latent Space 主持人 swyx 在 AI Engineer CODE 大會上訪問 G2i 創辦人 Gabe Greenberg。G2i 用資深工程師為前沿實驗室製作訓練資料與強化學習環境。依節目說明，談到的主題包括：實驗室付較高價格買獨家資料、或以折扣買其他實驗室也能買的資料，怎麼取捨；小量試單如何擴大成長期合作；何時該自建資料團隊。Greenberg 認為好的訓練任務應該只比模型目前能力「稍微超前」，並說明資深工程師如何設計任務、挑選起始資料、建立能為結果評分的驗證器。章節還包括工程師篩選、市場規模、定價與預算、企業原始資料的市場，以及需求的下一步走向。本集由 G2i 贊助。",
+ "dive_html": "訓練資料市場少有公開細節，這集從供應商角度談定價與獨家性，對想了解模型廠商成本結構、或考慮把工程人力轉作資料生意的團隊有參考價值。不過受訪者既是贊助商也是賣方，市場規模與需求前景的說法偏向自家立場。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Latent Space",
+   "title": "Inside the AI Training Data Market — Gabe Greenberg, G2i",
+   "url": "https://latent.space/p/inside_the_ai_training_data_market_gabe_greenberg_g2i/",
+   "time": "2026-11-28T06:19:18+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Latent Space",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

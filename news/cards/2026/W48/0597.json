@@ -1,0 +1,93 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0597",
+ "title": "醫材大廠 Boston Scientific 遭語音釣魚入侵雲端，約 11.8 萬人個資與醫療資訊外洩",
+ "line": "外洩含社會安全號碼、證件號碼與健保資訊，公司稱病歷與連網醫材資料未受影響",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-28T02:57:42+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安",
+   "健康與醫療"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "醫藥與生技"
+  ],
+  "org": [
+   "Boston Scientific",
+   "德州總檢察長"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "語音釣魚",
+   "資料外洩",
+   "醫療資訊"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "美國醫材大廠 Boston Scientific 正向受影響民眾寄發資料外洩通知。依公司提交美國主管機關的通知範本，駭客以語音釣魚（vishing）社交工程取得公司雲端基礎設施的存取權，雲端應用程式與雲端資料在 5 月間遭存取；公司 5 月 12 日察覺，調查到 11 月 5 日確認資料外洩。德州總檢察長外洩通報網站顯示，事件影響 117,789 人，外洩內容包括全名、地址、社會安全號碼、政府證件號碼、醫療資訊、健保資訊與生日。通知信說，病患病歷、遠端監測系統、連網醫療器材與臨床流程應用的資料都沒外洩。公司表示製造、接單、配送與對病患、醫療院所的服務都沒中斷，產品與醫材的運作與安全也不受影響。",
+ "dive_html": "從察覺入侵到確認外洩相隔近半年，顯示雲端環境被社交工程打進去後，盤點哪些資料被碰過非常耗時。語音釣魚繞過技術防線直取雲端權限，是近年大型外洩的常見起點，客服與 IT 服務台的身分驗證流程比端點防護更關鍵。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "美國多州 117,789 人的姓名、地址、社會安全號碼、證件號碼、醫療與健保資訊、生日"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "BleepingComputer",
+   "title": "New Boston Scientific data breach exposes personal, medical info",
+   "url": "https://www.bleepingcomputer.com/news/security/new-boston-scientific-data-breach-exposes-personal-medical-info/",
+   "time": "2026-11-28T02:57:42+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "BleepingComputer",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

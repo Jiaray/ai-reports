@@ -161,13 +161,25 @@
    "kind": "media",
    "region": "北美",
    "rank": 2
+  },
+  {
+   "name": "公視新聞網",
+   "title": "馬斯克感恩節贈美童Xsp股票 總價值近180億美元",
+   "url": "https://news.pts.org.tw/article/837696",
+   "time": "2026-11-27T20:26:25+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "公視",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 6,
-  "regions": 3,
-  "media_weight": 12,
+  "outlets": 7,
+  "regions": 4,
+  "media_weight": 14,
   "community": {
    "hn": 0,
    "ptt": 42,

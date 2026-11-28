@@ -92,13 +92,25 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 1
+  },
+  {
+   "name": "RFI 中文",
+   "title": "广西前主席蓝天立涉巨贪判死缓 不得减刑或假释",
+   "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20261127-%E5%B9%BF%E8%A5%BF%E5%89%8D%E4%B8%BB%E5%B8%AD%E8%93%9D%E5%A4%A9%E7%AB%8B%E6%B6%89%E5%B7%A8%E8%B4%AA%E5%88%A4%E6%AD%BB%E7%BC%93-%E4%B8%8D%E5%BE%97%E5%87%8F%E5%88%91%E6%88%96%E5%81%87%E9%87%8A",
+   "time": "2026-11-27T23:53:31+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 3,
+  "outlets": 4,
   "regions": 2,
-  "media_weight": 6,
+  "media_weight": 8,
   "community": {
    "hn": 0,
    "ptt": 0,

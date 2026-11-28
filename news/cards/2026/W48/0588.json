@@ -1,0 +1,97 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0588",
+ "title": "月之暗面推「Kimi for Science」計畫，入選研究者最高可獲 2 萬美元 API 額度",
+ "line": "自然科學、工程與跨領域研究者 12 月 8 日前可申請第一梯次，額度約等於 70 億 token",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T20:03:11+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中國大陸",
+   "全球"
+  ],
+  "country": [
+   "CN"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "AI",
+   "科學"
+  ],
+  "event": [
+   "產品發布"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "月之暗面"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "Kimi",
+   "Kimi for Science",
+   "API 額度"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Kimi 大模型開發商月之暗面宣布「Kimi for Science」計畫，開放自然科學、工程與相關跨領域的研究者與團隊申請，第一梯次 12 月 8 日截止，之後還會開放其他梯次。入選者可獲最高 2 萬美元的 Kimi API 額度（約 70 億 token），實際金額依研究需求與審查結果決定；額度只能用於模型呼叫，不是現金補助。另提供 Kimi 團隊的技術支援、新模型搶先使用與研究社群資源，表現突出的團隊可再取得長期合作支援。申請者須說明研究背景、要處理的任務、資料來源、目前的工作流程，以及打算如何使用 Kimi、如何評估成效。這則公告在 Hacker News 獲約 180 分。",
+ "dive_html": "以 API 額度換取科研場景的使用案例，是模型廠商爭取高價值用戶與評測素材的常見做法；在 AI 解題與研究能力成為各家競爭焦點時，月之暗面把資源押在科學研究顯示它想在這個賽道建立口碑。對研究者而言門檻不高、成本為零，但要留意資料上傳到中國業者服務的合規問題；計畫沒有說明入選名額與總預算。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Solidot",
+   "title": "Kimi 向科学家提供最高 2 万美元 API 免费额度",
+   "url": "https://www.solidot.org/story?sid=86015",
+   "time": "2026-11-28T00:14:48+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Solidot",
+   "kind": "aggregator",
+   "region": "中國大陸",
+   "rank": 9
+  },
+  {
+   "name": "Hacker News",
+   "title": "Kimi for Science: More scientific ideas, made possible",
+   "url": "https://www.kimi.ai/news/kimi-for-science-program",
+   "time": "2026-11-27T20:03:11+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "180 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50665920",
+   "family": "kimi.ai",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 180,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

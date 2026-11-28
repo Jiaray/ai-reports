@@ -75,13 +75,25 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 2
+  },
+  {
+   "name": "Nikkei Asia",
+   "title": "Indonesia, Philippines and UAE to begin talks on joining CPTPP trade pact",
+   "url": "https://asia.nikkei.com/economy/indonesia-philippines-and-uae-to-begin-talks-on-joining-cptpp-trade-pact",
+   "time": null,
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Nikkei Asia",
+   "kind": "media",
+   "region": "東北亞",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 1,
-  "regions": 1,
-  "media_weight": 2,
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 4,
   "community": {
    "hn": 0,
    "ptt": 0,

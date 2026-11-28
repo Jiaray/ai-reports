@@ -110,13 +110,25 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 1
+  },
+  {
+   "name": "RFI 中文",
+   "title": "路透： 中国军队在福建沿海演习中测试民船搭建浮桥",
+   "url": "https://www.rfi.fr/cn/%E6%B8%AF%E6%BE%B3%E5%8F%B0/20261127-%E8%B7%AF%E9%80%8F-%E4%B8%AD%E5%9B%BD%E5%86%9B%E9%98%9F%E5%9C%A8%E7%A6%8F%E5%BB%BA%E6%B2%BF%E6%B5%B7%E6%BC%94%E4%B9%A0%E4%B8%AD%E6%B5%8B%E8%AF%95%E6%B0%91%E8%88%B9%E6%90%AD%E5%BB%BA%E6%B5%AE%E6%A1%A5",
+   "time": "2026-11-27T21:24:06+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 4,
+  "outlets": 5,
   "regions": 4,
-  "media_weight": 10,
+  "media_weight": 12,
   "community": {
    "hn": 0,
    "ptt": 0,

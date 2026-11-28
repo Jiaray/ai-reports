@@ -5,8 +5,8 @@
  "line": "大型氣球在持續風速超過每小時 23 英里時不得升空，紐約市長曼達尼稱這是紐約「唯一支持的膨脹」",
  "born_at": "2026-11-26T16:12:43+08:00",
  "first_reported_at": "2026-11-26T05:08:45+08:00",
- "updated_at": "2026-11-27T20:52:38+08:00",
- "version": 3,
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 4,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -35,7 +35,8 @@
   ],
   "org": [
    "Macy's",
-   "AccuWeather"
+   "AccuWeather",
+   "美國國家氣象局"
   ],
   "person": [
    "Zohran Mamdani"
@@ -52,7 +53,8 @@
   "keyword": [
    "梅西感恩節遊行",
    "東北風暴",
-   "感恩節"
+   "感恩節",
+   "停電"
   ],
   "form": [
    "新聞"
@@ -349,6 +351,66 @@
    "kind": "media",
    "region": "北美",
    "rank": 2
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "感恩節風暴襲美東造成數十萬戶停電　航班延誤、遊行改期",
+   "url": "https://www.cna.com.tw/news/aopl/202611280005.aspx",
+   "time": "2026-11-28T03:29:40+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Parts of the US clean up, power being restored after Thanksgiving storm soaks East Coast",
+   "url": "https://news.google.com/rss/articles/CBMiowFBVV95cUxPWjRuNThwR0c4LU54RVBVM3kzcFFCOGFmR0szVnA2SUI1aW55bTMtWWlvZ1FYLUVLZmNEYk1HM2ZGZmotc09Wck9ySldYcW9zTWZaeUw5eFVoNUxrcFo0aDNmejFnbzkwTmNhRDUyamhlWHpWNTFwb1BiRUlqV0ZMUllxV3lnU2NzYnlfSUhNWUVyV09WcE9wN0pmeGp5d011djRj?oc=5",
+   "time": "2026-11-28T07:11:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "Anue 鉅亨網",
+   "title": "惡劣天氣夾擊美國感恩節 強風豪雨釀大停電 全美數千航班延誤取消",
+   "url": "https://news.cnyes.com/news/id/6674099",
+   "time": "2026-11-27T20:44:17+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "鉅亨網",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Bloomberg Markets",
+   "title": "Power Outages, Flood Risks Linger as Storm Leaves East Coast",
+   "url": "https://www.bloomberg.com/news/articles/2026-11-27/dangerous-nor-easter-storm-triggers-widespread-power-outages",
+   "time": "2026-11-27T22:20:06+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Bloomberg",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "BBC World",
+   "title": "Severe Thanksgiving storms leave roads flooded and trees fallen",
+   "url": "https://www.bbc.co.uk/news/videos/ckvg20y511p4o",
+   "time": "2026-11-28T00:46:47+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [
@@ -367,12 +429,20 @@
    "html": "BBC 報導，感恩節風暴過後 11 月 27 日仍有數十萬戶停電，賓州是停電最嚴重的州，維吉尼亞、馬里蘭、紐澤西也受創，停電戶數 26 日晚間一度接近 100 萬；美國西岸同時遭另一波風暴侵襲。依 Flightaware，26 日美國航班延誤逾 2,500 班、取消逾 450 班，27 日仍有數百班延誤或取消。華府迎來有紀錄以來最濕的感恩節，潮水淹上雷根國家機場跑道；馬里蘭因強風關閉橋梁，當局要求近 200 萬用戶限制用水；德拉瓦海浪漫上海濱步道。川普表示會考慮撥發緊急資金，賓州州長夏皮羅說電力公司正全力搶修。國家氣象局預報天氣將好轉，但恢復需要時間。延期的梅西百貨遊行改在 28 日舉行。",
    "update": "感恩節風暴後美國仍有數十萬戶停電、賓州最嚴重，航班延誤逾 2,500 班，川普稱考慮撥緊急資金",
    "refocus": false
+  },
+  {
+   "at": "2026-11-28T08:50:07+08:00",
+   "kind": "supplement",
+   "version": 4,
+   "html": "據法新社，停電追蹤網站 PowerOutage.us 資料顯示，美國時間 11 月 27 日仍有近 50 萬用戶停電，賓州最嚴重約 12 萬 2,000 人，密蘇里州約 7 萬 2,000 人、紐約州近 4 萬 5,000 人；風暴在密蘇里州東部帶來最多約 38 公分降雪。FlightAware 統計約 1,600 架次航班延誤、500 多架次取消。鉅亨網指出，紐約中央公園錄得有紀錄以來最潮濕的感恩節，雨量達 1.82 英吋（約 51 毫米），美國國家氣象局對華盛頓特區發布沿海洪水警報；美國汽車協會預估假期全美有 8,150 萬人出行。彭博報導，風暴在紐約皇后區、曼哈頓拔倒樹木，紐澤西通勤鐵路線淹水。",
+   "update": "感恩節風暴過後美國仍有近 50 萬用戶停電、賓州約 12 萬 2,000 人最嚴重，紐約中央公園創有紀錄以來最潮濕的感恩節",
+   "refocus": false
   }
  ],
  "heat": {
-  "outlets": 14,
-  "regions": 4,
-  "media_weight": 29,
+  "outlets": 17,
+  "regions": 5,
+  "media_weight": 36,
   "community": {
    "hn": 0,
    "ptt": 0,

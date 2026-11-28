@@ -1,0 +1,87 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0599",
+ "title": "日本文部科學省政府採購系統遭入侵，近 1,700 個電子郵件與 16.4 萬筆企業資料恐外洩",
+ "line": "10 月 1 日就偵測到入侵，近兩個月後才公開",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T22:15:00+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞"
+  ],
+  "country": [
+   "JP"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "org": [
+   "日本文部科學省"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "政府採購系統",
+   "資料外洩"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "日本文部科學省本週公告，駭客入侵其政府採購系統，可能取得系統資料庫內的資訊，包括近 1,700 個電子郵件地址，以及 16.4 萬筆含公司名稱、員工姓名與其他商業資訊的紀錄。這套系統用來公布政府標案、契約與採購機會，外洩資料涉及有資格參與該省招標的企業。文科省 10 月 1 日就偵測到入侵，將近兩個月後才公開；已切斷該系統與內外部網路的所有通訊，並表示沒有發現資料被公開或濫用，已通報日本個資主管機關並與相關機關持續調查，但沒有公布攻擊者身分或入侵方式。The Record 指出，這是日本企業與公共機構近月接連遭攻擊的最新一起，京王集團本週也公告 9 月的勒索攻擊可能波及逾 1,100 萬人個資。",
+ "dive_html": "投標廠商名單與聯絡人資料是精準商務釣魚的好材料，冒充採購窗口的詐騙可能接著出現。從偵測到公開相隔兩個月，加上近月京王、樂天證券等案例，日本公私部門的外洩揭露節奏偏慢，與台灣廠商往來日本標案者宜留意冒名信件。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "文科省採購系統資料庫：近 1,700 個電子郵件、16.4 萬筆投標企業資料"
+  },
+  {
+   "name": "處置",
+   "html": "已切斷系統對內外網路通訊；入侵方式原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "The Record",
+   "title": "Japan’s education ministry discloses breach of government procurement system",
+   "url": "https://therecord.media/japan-education-ministry-cyberattack",
+   "time": "2026-11-27T22:15:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "The Record",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

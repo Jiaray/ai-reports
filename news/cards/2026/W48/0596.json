@@ -1,0 +1,88 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0596",
+ "title": "密碼管理器 pCloud Pass 遭攻擊，部分用戶即使開啟雙重驗證仍收到陌生裝置登入通知",
+ "line": "pCloud 稱少量用戶電子郵件外洩並遭嘗試登入，儲存的密碼與筆記未受影響",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-28T03:26:04+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安"
+  ],
+  "event": [
+   "資安事件"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "pCloud"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "pCloud Pass",
+   "密碼管理器",
+   "雙重驗證"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "BleepingComputer 11 月 27 日報導，多名 pCloud 用戶在 Reddit 回報收到電子郵件通知，指一台名為「pd」的陌生裝置從盧森堡 IP 位址 45.131.244.7 連上他們的 pCloud Pass 密碼管理器帳號，用戶指這個位址屬於 pCloud 自己的基礎設施。有用戶開啟了雙重驗證仍收到通知，部分人檢查已連線裝置卻沒看到陌生裝置；也有從未用過密碼管理器、甚至一年前已申請刪除儲存帳號的人收到同樣通知。pCloud 隨後證實 pCloud Pass 遭網路攻擊並已迅速控制，「少量」用戶電子郵件外洩並遭嘗試登入，系統因此自動寄出通知；公司表示攻擊只限於密碼管理器，雲端儲存服務沒受影響，pCloud Pass 內儲存的密碼、筆記等資訊也沒有外洩。",
+ "dive_html": "密碼管理器的核心承諾是端對端加密，pCloud 說保險庫內容沒外洩是關鍵，但「陌生裝置來自自家 IP」與「開了雙重驗證仍收到通知」兩點，它的聲明還沒有交代清楚。用 pCloud Pass 的團隊在調查結果公布前，宜檢查已連線裝置、更換主密碼，並把關鍵帳號改用其他保管方式。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "pCloud Pass 部分用戶電子郵件外洩並遭嘗試登入（廠商說法：少量）；原文未提供人數"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供"
+  }
+ ],
+ "sources": [
+  {
+   "name": "BleepingComputer",
+   "title": "pCloud confirms password manager hack after suspicious login alerts",
+   "url": "https://www.bleepingcomputer.com/news/security/pcloud-confirms-password-manager-hack-after-suspicious-login-alerts/",
+   "time": "2026-11-28T03:26:04+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "BleepingComputer",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

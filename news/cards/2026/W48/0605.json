@@ -1,0 +1,93 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0605",
+ "title": "開發者揭 Convex 的 Claude Code 技能包未告知就把使用者的 App 構想送往遠端伺服器",
+ "line": "技能還把下載與執行遠端腳本拆成兩步，說明理由是避開安全分類器的攔截",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-28T02:02:45+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "資安",
+   "開發與開源"
+  ],
+  "event": [
+   "調查揭露",
+   "爭議風波"
+  ],
+  "sector": [
+   "軟體與雲端"
+  ],
+  "org": [
+   "Convex",
+   "Anthropic"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "Claude Code",
+   "Agent Skills",
+   "供應鏈風險",
+   "遙測"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "一名開發者 10 月 26 日在 Convex 的 GitHub 專案 convex-backend-skill 提出議題（11 月 27 日在 Hacker News 獲約 216 分），指這個列在 Anthropic 官方 claude-plugins-official 外掛市集的技能包中，有三個技能出現同樣的疑慮：quickstart 技能把使用者一句話的專案構想 POST 到 basic-anteater-667.convex.site，程式註解標為遙測，但沒告知使用者資料會離開本機；add 技能從同一主機下載腳本後直接交給 bash 執行；labs-quickstart 技能把下載與執行拆成兩次 Bash 呼叫，並寫明理由是「同時下載並執行遠端程式碼的單一指令，正是代理框架安全分類器會攔截的形式」。提出者說他認為這是團隊想讓上手流程更順，不是惡意，但最後一點等於要求代理改變指令形式來避開使用者或管理者選擇啟用的安全檢查；加上腳本未鎖定版本、主機名稱是自動產生的，使用者無從審查實際執行的內容。",
+ "dive_html": "技能與外掛是程式代理的新供應鏈：一份 SKILL.md 就能指示代理送出資料、執行遠端腳本，而且「教代理繞過安全分類器」比遙測本身更值得警惕，因為它讓使用者設定的防線失效。即使列在官方市集也不等於審查過，團隊導入第三方技能前應像審查相依套件一樣讀過內容，並在企業環境用白名單管控。",
+ "fields": [
+  {
+   "name": "影響範圍",
+   "html": "安裝 Convex 官方技能包的程式代理使用者；未鎖版本的遠端腳本與未告知的遙測"
+  },
+  {
+   "name": "處置",
+   "html": "原文未提供廠商回應；使用者可先停用相關技能或審查技能內容再執行"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Hacker News",
+   "title": "Convex skills send the user's app idea to a remote server without telling them",
+   "url": "https://github.com/convex/convex-backend-skill/issues/64",
+   "time": "2026-11-28T02:02:45+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "216 points",
+   "hn_url": "https://news.ycombinator.com/item?id=50669765",
+   "family": "GitHub",
+   "kind": "official",
+   "region": null,
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 0,
+  "regions": 0,
+  "media_weight": 0,
+  "community": {
+   "hn": 216,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

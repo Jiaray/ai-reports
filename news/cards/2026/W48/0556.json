@@ -78,13 +78,25 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 2
+  },
+  {
+   "name": "RFI 中文",
+   "title": "拉脱维亚军方：一架无人机短暂侵犯领空  北约战机紧急回应",
+   "url": "https://www.rfi.fr/cn/%E5%9B%BD%E9%99%85/20261127-%E6%8B%89%E8%84%B1%E7%BB%B4%E4%BA%9A%E5%86%9B%E6%96%B9-%E4%B8%80%E6%9E%B6%E6%97%A0%E4%BA%BA%E6%9C%BA%E7%9F%AD%E6%9A%82%E4%BE%B5%E7%8A%AF%E9%A2%86%E7%A9%BA-%E5%8C%97%E7%BA%A6%E6%88%98%E6%9C%BA%E7%B4%A7%E6%80%A5%E5%9B%9E%E5%BA%94",
+   "time": "2026-11-28T00:26:14+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 2,
+  "outlets": 3,
   "regions": 2,
-  "media_weight": 5,
+  "media_weight": 7,
   "community": {
    "hn": 0,
    "ptt": 0,

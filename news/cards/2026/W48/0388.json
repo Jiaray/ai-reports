@@ -69,13 +69,37 @@
    "kind": "media",
    "region": "北美",
    "rank": 2
+  },
+  {
+   "name": "The Verge",
+   "title": "Allstate has been suffering an outage since Monday",
+   "url": "https://www.theverge.com/tech/1044612/allstate-has-been-suffering-an-outage-since-monday",
+   "time": "2026-11-28T05:52:42+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "The Verge",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Techmeme",
+   "title": "US insurance giant Allstate has been suffering an outage since November 23, affecting its website and app; the company hasn't said what is causing the outage (Jean Eaglesham/Wall Street Journal)",
+   "url": "https://www.techmeme.com/261127/p15#a261127p15",
+   "time": "2026-11-28T07:30:02+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 1,
+  "outlets": 2,
   "regions": 1,
-  "media_weight": 2,
+  "media_weight": 4,
   "community": {
    "hn": 0,
    "ptt": 0,

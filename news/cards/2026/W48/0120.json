@@ -353,6 +353,54 @@
    "kind": "media",
    "region": "東南亞",
    "rank": 2
+  },
+  {
+   "name": "The Diplomat",
+   "title": "Chen Jining: The Tragedy of the ‘Potential Successor’ in Chinese Politics",
+   "url": "https://thediplomat.com/2026/11/chen-jining-the-tragedy-of-the-potential-successor-in-chinese-politics/",
+   "time": "2026-11-27T23:17:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "The Diplomat",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  },
+  {
+   "name": "DW 中文",
+   "title": "陈吉宁受调查 中共权斗习近平大权在握",
+   "url": "https://www.dw.com/zh/陈吉宁受调查-中共权斗习近平大权在握/a-80076794?maca=chi-rss-chi-all-1127-rdf",
+   "time": "2026-11-27T21:58:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW 中文",
+   "title": "德语媒体：习近平清除了一名潜在继任者",
+   "url": "https://www.dw.com/zh/德语媒体：习近平清除了一名潜在继任者/a-80077870?maca=chi-rss-chi-all-1127-rdf",
+   "time": "2026-11-27T22:53:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "RFI 中文",
+   "title": "接班人问题是死结？",
+   "url": "https://www.rfi.fr/cn/%E4%B8%AD%E5%9B%BD/20261127-%E6%8E%A5%E7%8F%AD%E4%BA%BA%E9%97%AE%E9%A2%98%E6%98%AF%E6%AD%BB%E7%BB%93",
+   "time": "2026-11-28T06:32:50+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "France 24／RFI",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
  "log": [
@@ -366,9 +414,9 @@
   }
  ],
  "heat": {
-  "outlets": 10,
-  "regions": 5,
-  "media_weight": 22,
+  "outlets": 11,
+  "regions": 6,
+  "media_weight": 23,
   "community": {
    "hn": 0,
    "ptt": 0,

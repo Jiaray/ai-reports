@@ -1,0 +1,90 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0610",
+ "title": "墨西哥聯邦法院撤銷內政部處分，恢復 Bet365、Betano 營運商 Ganador Azteca 博奕執照",
+ "line": "法院認定主管機關停權前沒有依法進行行政程序，但業者正在破產程序中、無法立即重返市場",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T19:00:05+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中南美"
+  ],
+  "country": [
+   "MX"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "墨西哥內政部",
+   "Ganador Azteca",
+   "Bet365",
+   "Betano",
+   "墨西哥金融情報單位"
+  ],
+  "person": [
+   "Ricardo Salinas Pliego"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "博奕執照",
+   "洗錢",
+   "行政程序"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "墨西哥一家聯邦法院做出不得上訴的判決，命令內政部（Segob）恢復 Ganador Azteca 聯邦許可的效力。這家與企業家 Ricardo Salinas Pliego 有關的公司，在墨西哥經營 Bet365 與 Betano 線上投注平台。判決 11 月 5 日送達，撤銷一年前對公司的行政處分。據墨西哥媒體引述的案卷，許可在 2025 年 11 月因涉嫌洗錢風險的程序遭停權：2025 年 10 月 25 日，金融情報單位（UIF）向內政部博奕與抽獎總局（DGJS）索取許可持有人名單。法院審查後認定，DGJS 停權前沒有依法進行應有的事前行政程序。不過，許可持有人目前正在破產程序中，無法行使授權，因此兩個品牌不會立即重返墨西哥市場。",
+ "dive_html": "判決是程序面勝訴，並未處理洗錢疑慮本身，主管機關若補正程序仍可能重新處分。對在墨西哥營運的國際品牌而言，這顯示透過本地許可持有人經營的模式風險很高：持牌方一旦陷入政治或破產糾紛，品牌即使執照恢復也無法營業。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Yogonet International",
+   "title": "Mexican court overturns Segob sanction, restores license to Bet365 and Betano operator",
+   "url": "https://www.yogonet.com/international/news/2026/11/27/127507-mexican-court-overturns-segob-sanction-restores-license-to-bet365-and-betano-operator",
+   "time": "2026-11-27T19:00:05+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Yogonet",
+   "kind": "media",
+   "region": "中南美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

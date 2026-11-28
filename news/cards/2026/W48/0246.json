@@ -129,6 +129,18 @@
    "kind": "community",
    "region": "台灣",
    "rank": 9
+  },
+  {
+   "name": "公視新聞網",
+   "title": "蘆洲護理之家非法超收詐領上億 住民居住空間擁擠、伙食惡劣",
+   "url": "https://news.pts.org.tw/article/837695",
+   "time": "2026-11-27T21:44:11+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "公視",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
   }
  ],
  "log": [
@@ -152,9 +164,9 @@
   }
  ],
  "heat": {
-  "outlets": 1,
+  "outlets": 2,
   "regions": 1,
-  "media_weight": 3,
+  "media_weight": 5,
   "community": {
    "hn": 0,
    "ptt": 1,

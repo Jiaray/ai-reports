@@ -1,0 +1,95 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0590",
+ "title": "訴訟文件揭川普政府 2025 年要求英特爾交出 10% 股權，商務部律師稱「這不是談判」",
+ "line": "Ars Technica 與 WIRED 指這是川普介入黃仁勳復職輝達之前，政府插手晶片業的前例",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T20:05:01+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "企業經營",
+   "政治"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "sector": [
+   "半導體"
+  ],
+  "org": [
+   "英特爾",
+   "美國商務部",
+   "Nvidia"
+  ],
+  "person": [
+   "川普",
+   "David Shapiro",
+   "黃仁勳"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "政府持股",
+   "晶片法案",
+   "產業政策"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "Ars Technica 引述一起聯邦訴訟中的英特爾內部通話紀錄報導，2025 年 8 月，美國商務部律師 David Shapiro 對英特爾財務長說，不要「誤以為這是談判」，「總統預計週五宣布依這些條件達成的協議」。英特爾為董事會準備的摘要記載，Shapiro 承認董事會可以拒絕，但「拒絕將帶來他無法預料的後果」。數天後董事會同意，川普隨即發文稱美國「現在完全擁有並控制英特爾 10%」，政府沒付錢、持股價值約 110 億美元。報導指出，川普本週宣布「說服」輝達董事會讓黃仁勳復職，與 15 個月前插手英特爾的情況相似：兩次都有執行長與中國關係過近的指控，政府也都介入公司的財務前途。一名前商務部官員對 WIRED 說，這反映商務部整體的路線轉變。",
+ "dive_html": "內部紀錄顯示所謂「交易」實際上是附帶威脅的要求，這會影響外界對政府持股合法性的評價，也可能成為訴訟中的關鍵證據。對台灣半導體業的意涵在於，美國政府介入企業股權與人事已不是單一事件，赴美設廠、接受補助的企業在合約與治理上都要預想類似要求。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "10% 股權；持股價值約 110 億美元"
+  }
+ ],
+ "sources": [
+  {
+   "name": "Ars Technica",
+   "title": "Intel faced a choice: Give Trump 10% or face the consequences",
+   "url": "https://arstechnica.com/tech-policy/2026/11/intel-faced-a-choice-give-trump-10-or-face-the-consequences/",
+   "time": "2026-11-27T20:05:01+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "252 comments",
+   "family": "Ars Technica",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,165 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0585",
+ "title": "挪威長程廉航北歐大西洋航空聲請破產，伊朗戰爭推高燃油成本壓垮財務",
+ "line": "12 架波音 787 租約遭終止數小時後宣布破產，所有航班取消、要旅客別去機場",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T21:26:27+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "歐洲",
+   "北美"
+  ],
+  "country": [
+   "NO",
+   "GB",
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "企業經營"
+  ],
+  "event": [
+   "裁員重組"
+  ],
+  "sector": [
+   "運輸與物流",
+   "觀光"
+  ],
+  "org": [
+   "Norse Atlantic",
+   "Boeing",
+   "奧斯陸證券交易所"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "低"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "航空業",
+   "破產",
+   "航空燃油"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "挪威長程廉價航空北歐大西洋航空（Norse Atlantic）11 月 27 日宣布聲請破產，並取消所有未來航班，在官網要求旅客不要前往機場，滯留海外的旅客也不例外。公司向奧斯陸證交所提交的文件說，雖已盡力尋求解方，董事會仍做出聲請破產的決定。數小時前，公司才表示旗下全部 12 架波音 787 的租約接獲終止通知，並對此提出異議。北歐大西洋航空成立於 2021 年，專飛倫敦蓋威克、美國往返歐洲與亞洲的長程低價航線；25 日已警告財務「岌岌可危」、正洽談短期融資，26 日起停飛，機師工會說公司本週沒能發出本月薪資。多家媒體指伊朗戰爭推升航空燃油價格是壓垮財務的主因。Reuters、Dawn 報導，聲請破產的是挪威營運子公司，上市母公司 Norse Atlantic ASA 與集團其他公司不在破產程序內。",
+ "dive_html": "這是中東戰事推高油價後又一家倒下的航空公司，9 月有 Air Baltic 聲請破產保護、本月 Plus Ultra 停飛，燃油成本高、沒有避險的長程廉航模式最脆弱。後續要看母公司與租機方如何處理旅客退款與機隊，若油價維持高檔，歐洲中小型航空的整併或停飛可能還會出現。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "12 架波音 787 租約遭終止；2021 年成立"
+  }
+ ],
+ "sources": [
+  {
+   "name": "中央社 CNA",
+   "title": "不堪燃料價格大漲再倒1家　挪威北歐大西洋航空聲請破產",
+   "url": "https://www.cna.com.tw/news/aopl/202611270285.aspx",
+   "time": "2026-11-27T23:05:16+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
+  },
+  {
+   "name": "AP (Google News fallback)",
+   "title": "Norwegian budget airline Norse Atlantic files for bankruptcy after halting flights",
+   "url": "https://news.google.com/rss/articles/CBMipAFBVV95cUxQeDRSQ20wRU41S2psU2lPTFhlUWxkSnpEdDc0VVdYdmdVUEhiNTV0cG41bUFRRnZPUU82ZkVSdDQtQlJXV29LMGktU3hIR1lRaHEtdlFOak1va1NlcGZ0S0dMc2I2Nmt5bTdldXRmcl9TZmdBelhNSzZjWXY5emN6WnAzS0RGSmVpd0FOX0w0NkFyTDNIaWdBZkljX2p0alh5LUYzeA?oc=5",
+   "time": "2026-11-28T02:32:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "AP",
+   "kind": "media",
+   "region": "北美",
+   "rank": 1
+  },
+  {
+   "name": "The Guardian World",
+   "title": "Norse Atlantic Airways files for bankruptcy and cancels all future flights",
+   "url": "https://www.theguardian.com/business/2026/nov/27/norse-atlantic-airways-files-for-bankruptcy-cancels-all-future-flights",
+   "time": "2026-11-27T23:40:35+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "DW News",
+   "title": "Airline Norse Atlantic files for bankruptcy, succumbing to aviation fuel costs",
+   "url": "https://www.dw.com/en/airline-norse-atlantic-files-for-bankruptcy-succumbing-to-aviation-fuel-costs/a-80076728?maca=en-rss-en-all-1573-xml-mrss",
+   "time": "2026-11-27T22:20:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "DW",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Dawn",
+   "title": "Airline Norse Atlantic's Norwegian operating unit declares bankruptcy",
+   "url": "https://www.dawn.com/news/2047462/airline-norse-atlantics-norwegian-operating-unit-declares-bankruptcy",
+   "time": "2026-11-27T21:26:27+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Dawn",
+   "kind": "media",
+   "region": "南亞",
+   "rank": 3
+  },
+  {
+   "name": "CNBC",
+   "title": "Budget airline Norse Atlantic files for bankruptcy in Europe after failing to secure funding",
+   "url": "https://www.cnbc.com/2026/11/27/norse-atlantic-bankruptcy-fuel-costs.html",
+   "time": "2026-11-28T02:20:32+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "CNBC",
+   "kind": "media",
+   "region": "北美",
+   "rank": 2
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "Airline Norse Atlantic's Norwegian operating unit declares bankruptcy",
+   "url": "https://news.google.com/rss/articles/CBMivgFBVV95cUxOZjF6SXBzRmpCeHczaU9VZnNGczNjcWtlMXNCMUFrTUxfbUViN3cxUXpPbFU0YVRTQzU0aEY5MGdLY1hnU2I1R21jd2tYNnIyLVVLeEtoSEY2WjZKNTE0QkdLWWFzcmkySGFYUWE4Vmh3OVpzLWJ3V25LX18zSUJ4TS1TcExrVFFoUUVvOS13NmF1dUZJWVo1S2hLRlZaNmMzTWh1dDFsTHpXUzlzN2lWQ01sc1VVR0hOUzlZSTJ3?oc=5",
+   "time": "2026-11-27T21:37:31+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 7,
+  "regions": 4,
+  "media_weight": 16,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

@@ -1,0 +1,100 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0609",
+ "title": "阿根廷參議院 72 票全票通過線上博奕防沉迷法，近乎全面禁止廣告、贊助與迎新獎金",
+ "line": "球隊不得再接博奕業者胸前與球場冠名贊助，禁用信用卡下注並要求生物辨識驗證年齡",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T22:08:04+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中南美"
+  ],
+  "country": [
+   "AR"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "體育"
+  ],
+  "event": [
+   "政策法規"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "阿根廷參議院",
+   "River Plate",
+   "Boca Juniors"
+  ],
+  "person": [
+   "Lucía Corpacci"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "博奕廣告禁令",
+   "防沉迷",
+   "生物辨識"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "阿根廷參議院 11 月 26 日以 72 票全票通過《博奕成癮預防與線上博奕規範法》，完成立法。新法對線上博奕與投注的「廣告、推廣與贊助」實施近乎全面的禁令，禁止業者提供迎新獎金、禁止以信用卡付款下注，也禁止未成年人使用線上博奕平台，並要求業者以生物辨識查核使用者身分。對體育界衝擊最大：River Plate、Boca Juniors 等大型足球俱樂部胸前贊助商是博奕公司，新法禁止這類贊助，也不得把博奕業者名稱或品牌用於球場、訓練中心等設施。參議員 Lucía Corpacci 說，數位投注與賭場、彩券、賽馬場不同，未成年人在家裡、學校都能用手機與電腦接觸，「民眾要求緊急回應」。Yogonet 報導，參議院同場另通過一項打擊非法博奕的配套措施。鄰國巴西足協本月警告，持牌博奕業停業可能讓俱樂部 2027 年損失約 4.2 億雷亞爾、到 2030 年達 20 億雷亞爾。",
+ "dive_html": "這是拉丁美洲目前最嚴的線上博奕行銷限制，迎新獎金與廣告是線上業者獲客的主要工具，全面禁止後持牌業者與非法業者的差距可能縮小，反而增加非法市場的吸引力。阿根廷與巴西同時收緊，南美足球俱樂部的博奕贊助收入恐大幅縮水；接下來要看主管機關的施行細則與生效時程。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Yogonet International",
+   "title": "Argentine Senate passes gambling addiction prevention bill, approves complementary measure against illegal gambling",
+   "url": "https://www.yogonet.com/international/news/2026/11/27/127518-argentine-senate-passes-gambling-addiction-prevention-bill-approves-complementary-measure-against-illegal-gambling",
+   "time": "2026-11-27T22:08:04+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Yogonet",
+   "kind": "media",
+   "region": "中南美",
+   "rank": 3
+  },
+  {
+   "name": "iGaming Business",
+   "title": "Argentina votes unanimously for online gambling ad ban",
+   "url": "https://igamingbusiness.com/marketing-affiliates/argentina-votes-unanimously-for-online-gambling-ad-ban/",
+   "time": "2026-11-27T23:42:58+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "iGaming Business",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 2,
+  "regions": 2,
+  "media_weight": 2,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

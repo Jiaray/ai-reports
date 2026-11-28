@@ -1,12 +1,12 @@
 {
  "schema": 2,
  "id": "2026-W48-0080",
- "title": "Drupal 核心「Fail2Install」重大漏洞遭積極利用，CISA 列入 KEV、限 11 月 27 日前修補",
+ "title": "Drupal「Fail2Install」重大漏洞遭積極利用，11 月 25 日追加修補的 CVE-2026-136716 也已遭利用",
  "line": "耗盡伺服器資源可騙 Drupal 以為網站未安裝，經 install.php 重裝並執行任意 PHP",
  "born_at": "2026-11-26T01:54:26+08:00",
  "first_reported_at": "2026-11-25T04:00:00+08:00",
- "updated_at": "2026-11-26T01:54:26+08:00",
- "version": 1,
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -161,9 +161,31 @@
    "kind": "media",
    "region": "北美",
    "rank": 3
+  },
+  {
+   "name": "Malwarebytes Labs",
+   "title": "Drupal sites are being hijacked, and a follow-up flaw is already under attack",
+   "url": "https://www.malwarebytes.com/blog/bugs/2026/11/drupal-sites-are-being-hijacked-and-a-follow-up-flaw-is-already-under-attack",
+   "time": "2026-11-27T22:53:16+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Malwarebytes",
+   "kind": "official",
+   "region": "北美",
+   "rank": 9
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-28T08:50:07+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "Malwarebytes 指出，Drupal 於 11 月 25 日再發布第二份安全公告，修補 CVE-2026-136716：部分處於「不尋常或未完成安裝狀態」的網站在套用第一次修補後仍可能被接管，正式上線的網站也在內，Drupal 表示這個新漏洞同樣已遭利用。Drupal 說介面不會顯示網站是否處於易受攻擊的狀態，已遭入侵的網站也可能不再顯示為易受攻擊。CISA 自 2021 年 11 月以來已把 6 個 Drupal 漏洞列為遭利用，其中 2 個曾被用於勒索軟體攻擊。Malwarebytes 建議網站管理者安裝最新安全更新，並檢查是否有入侵跡象。",
+   "update": "Drupal 11 月 25 日再修補 CVE-2026-136716，部分網站在第一次修補後仍可被接管，新漏洞也已遭利用",
+   "refocus": false,
+   "old_title": "Drupal 核心「Fail2Install」重大漏洞遭積極利用，CISA 列入 KEV、限 11 月 27 日前修補"
+  }
+ ],
  "heat": {
   "outlets": 4,
   "regions": 4,

@@ -5,8 +5,8 @@
  "line": "65 歲以上疫苗接種率不到 68%，部分醫院已恢復要求戴口罩",
  "born_at": "2026-11-27T17:05:32+08:00",
  "first_reported_at": "2026-11-27T02:27:49+08:00",
- "updated_at": "2026-11-27T17:05:32+08:00",
- "version": 1,
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -47,7 +47,9 @@
    "流感",
    "住院率",
    "疫苗接種",
-   "口罩"
+   "口罩",
+   "流感疫苗",
+   "兒童接種"
   ],
   "form": [
    "新聞"
@@ -80,9 +82,42 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 2
+  },
+  {
+   "name": "The Guardian Health",
+   "title": "Parents urged to vaccinate children for flu as hospital cases surge in England",
+   "url": "https://www.theguardian.com/society/2026/nov/27/parents-urged-to-vaccinate-children-for-flu-as-hospital-cases-surge-in-england",
+   "time": "2026-11-27T23:52:57+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "BBC Health",
+   "title": "What's behind the surge in severe flu cases?",
+   "url": "https://www.bbc.co.uk/news/videos/cwq6e8pez0j7o",
+   "time": "2026-11-27T21:23:13+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "BBC",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-28T08:50:07+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "英格蘭國民保健署首度請社區藥局為兒童接種流感疫苗，以補接在學校錯過接種的孩子：逾 6,000 家藥局開放預約，週一起可經 NHS App 或網站預約、週二起接種，也提供 2、3 歲兒童鼻噴式疫苗。目前學前班到 11 年級已有逾 350 萬名兒童接種。UKHSA 流感疫苗計畫負責人 Suzanna McDonald 說，為學童接種不只保護他們，也能保護年幼手足與祖父母等高風險家人，呼籲家長別輕忽。",
+   "update": "英格蘭流感住院激增，首度開放逾 6,000 家藥局為兒童接種流感疫苗",
+   "refocus": false
+  }
+ ],
  "heat": {
   "outlets": 2,
   "regions": 1,

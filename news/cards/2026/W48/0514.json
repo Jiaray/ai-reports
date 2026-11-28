@@ -5,8 +5,8 @@
  "line": "以方稱是「一系列定點清除」行動，France 24 報導哈瑪斯正考慮如何回應",
  "born_at": "2026-11-27T17:07:52+08:00",
  "first_reported_at": "2026-11-26T18:14:08+08:00",
- "updated_at": "2026-11-27T17:07:52+08:00",
- "version": 1,
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 2,
  "archived": false,
  "late": false,
  "dup_of": null,
@@ -37,7 +37,8 @@
   ],
   "person": [
    "納坦雅胡",
-   "Khaled Abu Nada"
+   "Khaled Abu Nada",
+   "哈雅"
   ],
   "weight": [
    "中"
@@ -84,13 +85,46 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Hamas chief’s last surviving son escapes Israeli strike in Gaza",
+   "url": "https://www.aljazeera.com/video/newsfeed/2026/11/27/aje-onl-nf_-hamas-chiefs-son-escapes-israeli-strike-gaza-271126",
+   "time": "2026-11-28T04:18:45+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "Israel kills four in Gaza as Hamas chief al-Hayya’s son survives strike",
+   "url": "https://www.aljazeera.com/news/2026/11/27/israel-kills-four-in-gaza-as-hamas-chief-al-hayyas-son-survives-strike",
+   "time": "2026-11-28T03:53:25+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
   }
  ],
- "log": [],
+ "log": [
+  {
+   "at": "2026-11-28T08:50:07+08:00",
+   "kind": "supplement",
+   "version": 2,
+   "html": "哈瑪斯官員 Basem Naim 表示，以色列 11 月 27 日清晨空襲哈瑪斯領導人哈雅（Khalil al-Hayya）在加薩的家人，他 29 歲的兒子 Izzeldeen 與家人倖存，數名親屬受傷；Naim 說 Izzeldeen 是哈雅最後一個在世的兒子，其他 4 個兒子先前都被以軍擊斃。Al Jazeera 報導，同日以色列在加薩其他地方的攻擊另造成 4 名巴勒斯坦人死亡。哈瑪斯譴責這是企圖「暗殺」，並把攻擊與以色列國防部長卡茨對哈雅的威脅相連。",
+   "update": "以色列 11 月 27 日空襲哈瑪斯領導人哈雅的家人，他最後一個在世的兒子倖存，加薩另有 4 人遇襲身亡",
+   "refocus": false
+  }
+ ],
  "heat": {
-  "outlets": 2,
-  "regions": 1,
-  "media_weight": 4,
+  "outlets": 3,
+  "regions": 2,
+  "media_weight": 6,
   "community": {
    "hn": 0,
    "ptt": 0,

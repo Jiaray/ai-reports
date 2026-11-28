@@ -90,13 +90,25 @@
    "kind": "media",
    "region": "台灣",
    "rank": 3
+  },
+  {
+   "name": "經濟日報",
+   "title": "友達華亞廠買家換了！197億元賣給矽品 處分利益估104億元",
+   "url": "https://money.udn.com/money/story/5612/9906758",
+   "time": "2026-11-28T02:22:20+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "經濟日報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 2
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 2,
+  "outlets": 3,
   "regions": 1,
-  "media_weight": 2,
+  "media_weight": 4,
   "community": {
    "hn": 0,
    "ptt": 0,

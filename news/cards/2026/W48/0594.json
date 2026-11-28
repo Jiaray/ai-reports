@@ -1,0 +1,145 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0594",
+ "title": "OpenAI 反訴蘋果竊取商業機密，指其脅迫兩家共用的硬體供應商",
+ "line": "蘋果 7 月控告 OpenAI 挖角竊密，OpenAI 反指一名員工回鍋蘋果時帶走自家硬體設備資料",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-28T02:57:47+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "間接"
+  ],
+  "topic": [
+   "AI",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "sector": [
+   "軟體與雲端",
+   "硬體與消費電子"
+  ],
+  "org": [
+   "OpenAI",
+   "Apple"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "中"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "商業機密",
+   "AI 硬體",
+   "供應鏈"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "OpenAI 11 月 27 日在加州北區聯邦法院提出反訴，指控蘋果竊取其商業機密，並「脅迫和威脅」同時供貨給兩家公司的現有與潛在供應商，阻撓它推出 AI 硬體裝置。蘋果於 2026 年 7 月起訴 OpenAI，稱前員工 Tang Tan、Chang Liu 跳槽時把商業機密帶到 OpenAI。OpenAI 在反訴中說，一名員工從蘋果跳槽到 OpenAI 工作六個月後又回到蘋果，並透過個人帳號帶走 OpenAI 一款硬體設備的詳細資料，包括圖片、工程資訊、供應商細節、製造數據與外觀塗層、密封劑標準；這項說法 10 月已在法院文件中披露。OpenAI 也稱蘋果鼓勵員工把公司文件存在個人裝置與雲端帳號，讓員工離職後難以洗清嫌疑，形同「加州旅館」式陷阱，認為蘋果提告的真正目的是阻止員工被挖走。",
+ "dive_html": "反訴把戰場從「誰挖角」擴大到供應鏈：若 OpenAI 能舉證蘋果向供應商施壓，案件就帶有反競爭色彩，而兩家共用的供應商不少在台灣與亞洲，可能被要求出庭或提供文件。這也顯示 OpenAI 的消費性硬體已進入量產準備階段，與蘋果從合作夥伴轉為直接競爭對手。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "IT 之家",
+   "title": "OpenAI 转守为攻：反诉苹果窃密，喊话“不公平竞争”",
+   "url": "https://www.ithome.com/1/033/780.htm",
+   "time": "2026-11-28T07:12:29+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "IT 之家",
+   "kind": "media",
+   "region": "中國大陸",
+   "rank": 3
+  },
+  {
+   "name": "Techmeme",
+   "title": "OpenAI countersues Apple for allegedly stealing trade secrets via a staffer who returned to Apple and \"coercing and threatening\" suppliers that work with both (Financial Times)",
+   "url": "https://www.techmeme.com/261127/p12#a261127p12",
+   "time": "2026-11-28T02:57:47+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  },
+  {
+   "name": "The Guardian World",
+   "title": "OpenAI countersues Apple for allegedly stealing trade secrets",
+   "url": "https://www.theguardian.com/technology/2026/nov/27/openai-countersues-apple-trade-secrets",
+   "time": "2026-11-28T07:28:50+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "The Guardian",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 2
+  },
+  {
+   "name": "Al Jazeera",
+   "title": "OpenAI countersues Apple over trade secrets as AI race heats up",
+   "url": "https://www.aljazeera.com/economy/2026/11/27/openai-countersues-apple-over-trade-secrets-as-ai-race-heats-up",
+   "time": "2026-11-28T04:40:51+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Al Jazeera",
+   "kind": "media",
+   "region": "中東",
+   "rank": 2
+  },
+  {
+   "name": "Financial Times",
+   "title": "OpenAI countersues Apple for stealing trade secrets",
+   "url": "https://www.ft.com/content/af599e07-d44c-4068-ab84-6ee3c85551d4?syn-25a6b1a6=1",
+   "time": "2026-11-28T07:00:08+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Financial Times",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  },
+  {
+   "name": "Reuters (Google News fallback)",
+   "title": "OpenAI countersues Apple for stealing trade secrets",
+   "url": "https://news.google.com/rss/articles/CBMiqAFBVV95cUxQa0FibW0xZFFBUlJ2MGJkd0NEcWZtRzkzUkdWcFl1VnlRN2dRMkpjWHpKVXlIekttSno1b1RMeWxJN2dtU0ZlS085Y1ZqTkpfM2Jaci13RUdMNFVPOWtqRldaazVrX25mMExUSkU0SmJRcHJsdnZxMWJXU05MNXFzc211YzlXNzMwRTVUM1k1MW5RQTdHbnRpU1p6Y2hQMFE0UnVBSk45eHg?oc=5",
+   "time": "2026-11-28T07:00:08+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Reuters",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 1
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 5,
+  "regions": 3,
+  "media_weight": 11,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

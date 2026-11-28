@@ -1,0 +1,95 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0614",
+ "title": "世界博奕與投注聯盟報告：六大市場非法業者 2025 年拿走約 140 億美元、近四分之一線上博奕支出",
+ "line": "美國非法市場最大約 88 億美元，荷蘭非法占比高達 38%，報告歸因於產品限制、支出審查與高稅率",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T21:55:04+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美",
+   "歐洲",
+   "中南美"
+  ],
+  "country": [
+   "US",
+   "GB",
+   "NL",
+   "BR",
+   "ZA"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕"
+  ],
+  "event": [
+   "研究發表"
+  ],
+  "sector": [
+   "博奕"
+  ],
+  "org": [
+   "世界博奕與投注聯盟",
+   "bet365",
+   "Entain",
+   "Flutter Entertainment",
+   "FDJ United"
+  ],
+  "person": [
+   "Maarten Haijer"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "非法博奕",
+   "黑市",
+   "GGR 稅"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "總部在日內瓦、代表合法博奕業者的新組織世界博奕與投注聯盟（WGBA）發布報告，估計 2025 年美國、英國、荷蘭、巴西、南非與澳洲六大市場的非法業者合計收入超過 140 億美元，接近線上博奕總支出的四分之一，研究人員認為實際規模可能更大。報告指出，黑市的兩大成因是產品限制，以及支出審查帶來的使用摩擦，對 GGR（含獎金）課高稅也是因素之一。美國是最大的非法市場，2025 年約 88 億美元，占不含預測市場、每日夢幻運動與抽獎型賭場的線上博奕支出 23%，研究人員歸因於各州合法線上賭場有限；荷蘭非法市場占線上博奕支出約 38%，報告點名可負擔性審查與加稅是主因。報告還預估英國黑市到 2027 年可能擴大超過四倍。WGBA 由前歐洲博奕協會秘書長 Maarten Haijer 領導，創始會員包括 bet365、Entain、Flutter Entertainment 與 FDJ United。",
+ "dive_html": "報告由合法業者組成的遊說團體委託，結論（黑市因監管與稅負而擴大）正好呼應會員反對加稅、反對支出審查的立場，數字宜視為業界觀點而非中立估計。不過各國近期確實同步加稅（英國、義大利、愛沙尼亞討論中），監管機關要在稅收、玩家保護與黑市外流之間取捨，這份報告會是業者遊說的主要依據。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Casino.org News",
+   "title": "Report: Black Market Captures a Quarter of iGaming Revenue Across Six Major Markets",
+   "url": "https://www.casino.org/news/black-market-captures-a-quarter-of-online-gambling-revenue-across-six-major-markets/",
+   "time": "2026-11-27T21:55:04+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "0 comments",
+   "family": "Casino.org",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

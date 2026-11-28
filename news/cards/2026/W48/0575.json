@@ -100,13 +100,25 @@
    "kind": "media",
    "region": "歐洲",
    "rank": 1
+  },
+  {
+   "name": "中央社 CNA",
+   "title": "市場交投清淡　油價震盪收低",
+   "url": "https://www.cna.com.tw/news/afe/202611280007.aspx",
+   "time": "2026-11-28T05:08:46+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "中央社",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 1
   }
  ],
  "log": [],
  "heat": {
-  "outlets": 3,
+  "outlets": 4,
   "regions": 3,
-  "media_weight": 7,
+  "media_weight": 10,
   "community": {
    "hn": 0,
    "ptt": 0,

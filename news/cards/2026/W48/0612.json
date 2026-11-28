@@ -1,0 +1,89 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0612",
+ "title": "溫克勒佛斯兄弟遭集體訴訟，被控 Gemini Predictions 預測市場是偽裝成金融交易所的非法運動博奕",
+ "line": "原告要兩人為平台上的投注損失負個人責任，指 Gemini 讓 18 歲就能下注、規避紐約州 21 歲門檻",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-28T02:37:59+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "北美"
+  ],
+  "country": [
+   "US"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "博奕",
+   "犯罪與司法"
+  ],
+  "event": [
+   "訴訟判決"
+  ],
+  "sector": [
+   "博奕",
+   "加密資產"
+  ],
+  "org": [
+   "Gemini",
+   "美國商品期貨交易委員會"
+  ],
+  "person": [
+   "Cameron Winklevoss",
+   "Tyler Winklevoss"
+  ],
+  "weight": [
+   "中"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "預測市場",
+   "運動博奕",
+   "集體訴訟"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "一名紐約男子 Rayath Chowdhury 11 月 25 日在曼哈頓聯邦法院提起全國性集體訴訟，指加密貨幣富豪 Cameron 與 Tyler Winklevoss 的 Gemini Predictions 平台是偽裝成金融交易所的非法線上運動博奕，要求兩人為設立、資助與推廣這個預測市場負個人責任，為客戶追回投注損失。57 頁的訴狀說原告自今年 5 月起在 Gemini 的運動市場虧錢，但沒寫金額；他稱自己被誤導以為是在合法金融平台交易，而非向無照業者下注。Gemini 2025 年 12 月取得美國商品期貨交易委員會（CFTC）核准經營衍生品交易所後推出預測市場，不到一個月就推出大學美式足球季後賽與 NFL 外卡賽合約，之後擴展到即時投注與稱為「combos」的串關。訴狀引用 Gemini 在曼哈頓公園大道豎立的 150 英尺看板「人人都愛冷門」，指其行銷大量借用博奕語言，卻規避州博奕法對弱勢與未成年下注者的保護；Gemini 總部所在的紐約州運動博奕最低年齡是 21 歲，Gemini 只要 18 歲。",
+ "dive_html": "預測市場的運動合約訴訟已從州政府與部落對平台公司，延伸到消費者對創辦人個人，若法院接受「個人責任」主張，創辦人與投資人的風險會大幅提高。這類訴訟的核心仍是 CFTC 核准能否排除州博奕法，近期 Robinhood、DraftKings 等案的判決方向將直接影響本案。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "Casino.org News",
+   "title": "Winklevoss Twins Personally Sued Over Alleged Illegal Sports Betting on Gemini Predictions",
+   "url": "https://www.casino.org/news/winklevoss-twins-personally-sued-over-alleged-illegal-sports-betting-on-gemini-predictions/",
+   "time": "2026-11-28T02:37:59+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "0 comments",
+   "family": "Casino.org",
+   "kind": "media",
+   "region": "北美",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}

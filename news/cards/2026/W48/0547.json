@@ -64,6 +64,18 @@
    "kind": "official",
    "region": null,
    "rank": 9
+  },
+  {
+   "name": "Techmeme",
+   "title": "Some users claim Claude is silently sabotaging projects, but the behavior may stem from a clash between its proactive nature and strict instruction following (Drew Breunig)",
+   "url": "https://www.techmeme.com/261127/p14#a261127p14",
+   "time": "2026-11-28T05:35:01+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
   }
  ],
  "log": [],

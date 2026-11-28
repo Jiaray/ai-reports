@@ -1,0 +1,141 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0591",
+ "title": "彭博：受管制的輝達 GB300 機櫃現身上海資料中心，被拿去抵押 9,600 萬人民幣貸款，序號顯示由技嘉製造",
+ "line": "資料中心與 Megaspeed、黃樂有關，另一家中企 2025 年也用 Blackwell 與 H200 伺服器抵押貸款",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T21:05:01+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "中國大陸",
+   "台灣",
+   "北美"
+  ],
+  "country": [
+   "CN",
+   "TW",
+   "US"
+  ],
+  "taiwan": [
+   "直接"
+  ],
+  "topic": [
+   "企業經營",
+   "AI",
+   "國際關係"
+  ],
+  "event": [
+   "調查揭露"
+  ],
+  "story": [
+   "AI晶片出口管制"
+  ],
+  "sector": [
+   "半導體",
+   "金融"
+  ],
+  "org": [
+   "Nvidia",
+   "技嘉",
+   "Megaspeed",
+   "Shanghai Innovation Bank",
+   "美國商務部"
+  ],
+  "person": [
+   "黃樂"
+  ],
+  "weight": [
+   "高"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "中"
+  ],
+  "keyword": [
+   "GB300 NVL72",
+   "出口管制",
+   "實體清單",
+   "Blackwell"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "彭博查閱中國企業 11 月提交監管機關的貸款文件發現，上海碩耀（Shanghai Shuoyao）把一組搭載 72 顆 Blackwell Ultra GPU 的 GB300 NVL72 機櫃抵押給上海創業銀行，取得人民幣 9,600 萬元（約 1,400 萬美元）貸款。彭博把文件上的設備序號與公開保固資料庫比對，確認機櫃由台灣技嘉製造，目前位於上海一處與 Megaspeed、疑似中國情報資產黃樂（Alice Huang）有關的資料中心。科技新報指出，依美國 1 月 15 日起的規定，這款機櫃的記憶體頻寬超出可申請許可門檻約 23%，適用「推定拒絕」。另一家中國企業 2025 年底申請人民幣 9,000 萬元貸款時，抵押品也是同一專案的 GB200 伺服器與 32 台 H200 伺服器，放款方是上海市政府全資的融資租賃公司。技嘉表示業務均遵守法規，但拒絕透露最初買家；上海碩耀稱與 Megaspeed 只有一般商業往來；彭博說沒有證據顯示 Megaspeed 本身把輝達硬體移入該資料中心，Megaspeed 否認不當行為，輝達未回應。美國商務部 11 月 23 日已把 Megaspeed International 等 7 家東南亞實體列入實體清單。",
+ "dive_html": "這是第一次有公開文件以序號證明最高階 Blackwell 機櫃進入中國，而且是由國營背景的金融機構接受為抵押品，顯示受管制硬體在中國已有融資市場。技嘉被點名，台灣伺服器代工廠恐面臨美方更嚴格的終端用戶查核要求；下一步要看美國商務部是否追查轉運路徑、擴大實體清單，以及黃仁勳赴國會聽證時如何回應。",
+ "fields": [
+  {
+   "name": "關鍵數據",
+   "html": "貸款人民幣 9,600 萬元（約 1,400 萬美元）；72 顆 GPU；頻寬超出門檻約 23%；另一筆貸款人民幣 9,000 萬元、32 台 H200 伺服器"
+  }
+ ],
+ "sources": [
+  {
+   "name": "科技新報",
+   "title": "中國企業以輝達 GB300 機櫃抵押貸款，產地點名來自台灣更受市場關注",
+   "url": "https://finance.technews.tw/2026/11/28/chinese-enterprises-use-nvidia-gb300-racks-as-collateral-for-loans/",
+   "time": "2026-11-28T08:30:45+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "科技新報",
+   "kind": "media",
+   "region": "台灣",
+   "rank": 3
+  },
+  {
+   "name": "Slashdot",
+   "title": "Chinese Data Center Tied to Alice Huang Found Using Nvidia's Powerful AI Chips",
+   "url": "https://hardware.slashdot.org/story/26/11/28/0022257/chinese-data-center-tied-to-alice-huang-found-using-nvidias-powerful-ai-chips",
+   "time": "2026-11-28T08:25:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "1 comments",
+   "family": "Slashdot",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  },
+  {
+   "name": "PTT Stock",
+   "title": "[新聞] 輝達高階Blackwell晶片流入大陸 出現在與",
+   "url": "https://www.ptt.cc/bbs/Stock/M.1795812862.A.CB5.html",
+   "time": null,
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "38",
+   "family": "PTT",
+   "kind": "community",
+   "region": "台灣",
+   "rank": 9
+  },
+  {
+   "name": "Techmeme",
+   "title": "Serial numbers in Chinese filings reveal that Nvidia's restricted Blackwell chips were installed at a Shanghai data center linked to Alice Huang and Megaspeed (Bloomberg)",
+   "url": "https://www.techmeme.com/261127/p6#a261127p6",
+   "time": "2026-11-27T21:05:01+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "Techmeme",
+   "kind": "aggregator",
+   "region": "北美",
+   "rank": 9
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 38,
+   "v2ex": 0
+  }
+ }
+}

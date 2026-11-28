@@ -1,0 +1,84 @@
+{
+ "schema": 2,
+ "id": "2026-W48-0606",
+ "title": "《牧場物語》開發商 Marvelous 重整主機與 PC 遊戲部門，徵求 65 人自願離職",
+ "line": "12 月 14 日至明年 1 月 8 日受理，正職與約聘都適用，離職者領特別一次性退休金",
+ "born_at": "2026-11-28T08:50:07+08:00",
+ "first_reported_at": "2026-11-27T22:39:00+08:00",
+ "updated_at": "2026-11-28T08:50:07+08:00",
+ "version": 1,
+ "archived": false,
+ "late": false,
+ "dup_of": null,
+ "online_only": false,
+ "facets": {
+  "region": [
+   "東北亞"
+  ],
+  "country": [
+   "JP"
+  ],
+  "taiwan": [
+   "無"
+  ],
+  "topic": [
+   "遊戲",
+   "企業經營"
+  ],
+  "event": [
+   "裁員重組"
+  ],
+  "sector": [
+   "遊戲"
+  ],
+  "org": [
+   "Marvelous",
+   "騰訊"
+  ],
+  "weight": [
+   "低"
+  ],
+  "relevance": [
+   "高"
+  ],
+  "urgency": [
+   "低"
+  ],
+  "keyword": [
+   "牧場物語",
+   "自願離職",
+   "遊戲業裁員"
+  ],
+  "form": [
+   "新聞"
+  ]
+ },
+ "summary_html": "日本遊戲商 Marvelous 宣布為重整專做主機與 PC 遊戲的「家用遊戲事業部」，實施提前退休方案，徵求自願離職以減少 65 個職位。受理期間是 2026 年 12 月 14 日至 2027 年 1 月 8 日，正職與約聘員工都適用，離職者預計在 2027 年 3 月會計年度結束前離開，會領到「特別一次性退休金」並獲轉職協助。Marvelous 說，家用遊戲市場環境正在改變，開發專案規模變大、週期變長，公司將適度結合自製與外部合作，轉向更彈性的業務與開發結構，並依未來營運調整人力；家用事業仍是核心業務之一，未來將聚焦能發揮強項的作品。今年夏天曾有報導指騰訊考慮退出部分日本工作室的少數股權，其中包括 Marvelous；騰訊 2020 年以約 70 億日圓取得 Marvelous 20% 股權。",
+ "dive_html": "中型日本開發商面對 3A 化帶來的開發成本與週期上升，選擇縮減自有團隊、增加外包合作，是業界常見的應對方式。騰訊撤資傳聞加上部門重整，顯示 Marvelous 正在重新評估家用遊戲的投入規模；《牧場物語》等既有 IP 的後續作品節奏可能受影響。",
+ "fields": [],
+ "sources": [
+  {
+   "name": "GamesIndustry.biz",
+   "title": "Story of Seasons studio Marvelous offering voluntary resignations to reduce headcount by 65 roles",
+   "url": "https://www.gamesindustry.biz/story-of-seasons-studio-marvelous-offering-voluntary-resignations-to-reduce-headcount-by-65-roles",
+   "time": "2026-11-27T22:39:00+08:00",
+   "added_at": "2026-11-28T08:50:07+08:00",
+   "heat_raw": "",
+   "family": "GamesIndustry.biz",
+   "kind": "media",
+   "region": "歐洲",
+   "rank": 3
+  }
+ ],
+ "log": [],
+ "heat": {
+  "outlets": 1,
+  "regions": 1,
+  "media_weight": 1,
+  "community": {
+   "hn": 0,
+   "ptt": 0,
+   "v2ex": 0
+  }
+ }
+}
