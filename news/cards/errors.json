@@ -126,13 +126,15 @@
     "2026-W48-0182"
    ],
    "found_by": "program",
-   "status": "suspected",
+   "status": "rejected",
    "note": "第 1 段補充掛上的來源和卡上原有的標題差很多，可能是另一件事（最高相似度 0.00）",
    "proposed": {
     "log_index": 1
    },
    "found_at": "2026-11-28T08:50:07+08:00",
-   "resolved_at": null
+   "resolved_at": "2026-11-28T08:54:34+08:00",
+   "resolved_by": "model",
+   "resolution": "補充是歐盟執委會對同一封瀏覽器引擎公開信的回應，屬同一件事的後續"
   },
   {
    "id": "E10",
@@ -141,13 +143,15 @@
     "2026-W48-0525"
    ],
    "found_by": "program",
-   "status": "suspected",
+   "status": "rejected",
    "note": "第 1 段補充掛上的來源和卡上原有的標題差很多，可能是另一件事（最高相似度 0.05）",
    "proposed": {
     "log_index": 1
    },
    "found_at": "2026-11-28T08:50:07+08:00",
-   "resolved_at": null
+   "resolved_at": "2026-11-28T08:54:34+08:00",
+   "resolved_by": "model",
+   "resolution": "補充是華郵報導中國在 Threads 對九合一選舉的資訊操作，與原卡同一議題，只是下標不同"
   }
  ]
 }
